@@ -8,6 +8,7 @@ all: $(HTML_FILES)
 # Rule to convert Markdown to HTML
 %.html: %.md
 	pandoc $< -o $@
+	antenna generate
 
 # Clean up generated HTML files
 clean:

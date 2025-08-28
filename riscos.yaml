@@ -1,0 +1,19 @@
+css: css/site.css
+modules:
+  - modules/date_filter.js
+header: |
+  <h1>Left Coast RISC OS Computer Club</h1> 
+
+nav: |
+  <ul>
+    <li><a href="./" "Left Coast RISC OS Computer Club">Home</a></li>
+    <li><a href="riscos.html" "New for RISC OS around the web">RISC OS Around the Web</a></li>
+  </ul>
+
+topContent: |
+  <div class="article-filter">Filter by date: <input id="filter-by-date" type="date"></div>
+
+footer: |
+  Left Coast RISC OS Computer Club<br>
+  Curated with Antenna App and rendered with <a href="https://pandoc.org">Pandoc</a>.
+

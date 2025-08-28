@@ -1,0 +1,12 @@
+port: 8000
+htdocs: "."
+collections:
+    - title: RISCOS
+      link: http://localhost:8000
+      description: RISC OS News from around the web
+      file: riscos.md
+      generator: riscos.yaml
+      filters:
+        - UPDATE items SET status = 'review';
+        - UPDATE items SET status = 'published' WHERE pubDate >= date('now', '-21 days');
+      dbName: riscos.db
