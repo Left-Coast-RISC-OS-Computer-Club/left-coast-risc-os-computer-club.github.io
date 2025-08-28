@@ -16,6 +16,7 @@ keywords:
 We are a tiny club of RISC OS enthusiast who meet virtual on the Western Coast of North America at random time and over random intervals.
 
 - [RISC OS around the web](riscos.html)
+- Contributing content to [Left Coast RISC OS Computer Club](contributing_news_items.html "Contribute content to LCROCC")
 
 We invite you to journey without as we explore RISC OS on our favorite tiny personal computers, Raspberry PI 2W.
 
