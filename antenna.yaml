@@ -7,6 +7,5 @@ collections:
       file: riscos.md
       generator: riscos.yaml
       filters:
-        - UPDATE items SET status = 'review';
-        - UPDATE items SET status = 'published' WHERE pubDate >= date('now', '-21 days');
+        - UPDATE items SET status = 'published';
       dbName: riscos.db

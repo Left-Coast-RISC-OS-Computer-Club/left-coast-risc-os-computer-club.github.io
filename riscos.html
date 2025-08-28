@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/site.css" />
   <script type="module" src="modules/date_filter.js"></script>
   <meta name="generator" content="antenna/0.0.0">
-  <meta name="date" content="2025-08-28T11:16:50-07:00">
+  <meta name="date" content="2025-08-28T11:56:48-07:00">
 </head>
 <body>
   <header>
@@ -47,6 +47,18 @@ https://www.youtube.com/watch?v=hh7Cxt_PKqw
       </address>
     </article>
 
+    <article data-published="2025-08-28T14:13:33Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20000">
+      <h1>Virtual RPC adjustSA</h1>
+
+(date: 2025-08-28, from: <a href="https://www.riscosopen.org/forum/forums/11/topics/20000">https://www.riscosopen.org/forum/forums/11/topics/20000</a>)
+      <p>
+      <p>Been running this for a few years now on my Win11 laptop and very pleased with it &#8211; I use ProCAD+ quite a bit.<br />
+This morning went to use it and it booted normally. But when going to full screen (Atl-Enter) got a rubbish screen &#8211; just flashes all over it and not recognisable. Laptop is newish and is working normally &#8211; and not altered anything on it. Alt-Ent brings it back to the normal <span class="caps">RPC</span> desktop PC window &#8211; but not convenient to use with two mouse pointers, etc.</p>
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20000">https://www.riscosopen.org/forum/forums/11/topics/20000</a>
+      </address>
+    </article>
+
     <article data-published="2025-08-28T14:07:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3lxhpptuzic2s">
       <h1>@colinhoad.com</h1>
 
@@ -59,6 +71,48 @@ https://www.youtube.com/watch?v=hh7Cxt_PKqw
 [contains quote post or other embedded content]
       <address>
         <a href="https://bsky.app/profile/colinhoad.com/post/3lxhpptuzic2s">https://bsky.app/profile/colinhoad.com/post/3lxhpptuzic2s</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-28T13:47:39Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/19999">
+      <h1>Live Coding with Gerph, Sunday 31st August at 1pm</h1>
+
+(date: 2025-08-28, from: <a href="https://www.riscosopen.org/forum/forums/1/topics/19999">https://www.riscosopen.org/forum/forums/1/topics/19999</a>)
+      <p>
+      <p>Hiya,</p>
+<p>This Sunday – 31st August, at 1pm – I&#8217;m doing the live coding again, implementing some more bits on the Debugger module.</p>
+<p>Come along if you like – <a href="https://youtube.com/live/i6R23Av4GV4?feature=share">https://youtube.com/live/i6R23Av4GV4?feature=share</a><br />
+ – or you can always watch the video afterwards at the same address.</p>
+<p>Last week, the immediate constants were made more correct and more readable, we added a license and updated the optimisation so that it&#8217;s much smaller than it was. I had started adding the test code, stolen from MessageTrans, to the module. I completed this offline and will be demonstrating parts of this code before we start to fix some of the differences that the tests have shown up.</p>
+<p>If we get through all the testing parts of the module, there won&#8217;t be much left to do. I could start to address the DebuggerPlus features, but I&#8217;m not sure how interesting that will be to people. Alternatively, I can move on to one of the other projects that can be made to work in C. I&#8217;m not sure, but I&#8217;ll be sharing some thoughts, and I&#8217;m open to things that people are interested in, if we can find something worthwhile.</p>
+<hr />
+<p>For anyone who hasn&#8217;t seen them, these are where I share my screen for about 3 hours and code some more of a Debugger module for <span class="caps">RISC</span> OS. It’s not especially complicated, but it makes for an interesting project. So far we have:</p>
+<ul>
+	<li><code>*Memory</code></li>
+	<li><code>*MemoryI</code></li>
+	<li><code>*MemoryA</code></li>
+	<li><code>*DumpI</code></li>
+	<li><code>*InitStore</code></li>
+	<li><code>*ShowRegs</code></li>
+	<li><code>*BreakSet</code> (not for <span class="caps">RISC</span> OS 64)</li>
+	<li><code>*BreakClr</code> (not for <span class="caps">RISC</span> OS 64)</li>
+	<li><code>*BreakList</code> (not for <span class="caps">RISC</span> OS 64)</li>
+	<li><code>*Debug</code> (not for <span class="caps">RISC</span> OS 64)</li>
+	<li><code>*Continue</code> (not for <span class="caps">RISC</span> OS 64)</li>
+	<li><span class="caps">SWI</span> <code>Debugger_Disassemble</code></li>
+	<li><span class="caps">SWI</span> <code>Debugger_DisassembleThumb</code></li>
+	<li><span class="caps">SWI</span> <code>Debugger_DisassembleArch</code> (for AArch32 <span class="caps">ARM</span> and Thumb, and for AArch64 instructions)</li>
+	<li>AArch32 instructions are disassembled (default for regular <span class="caps">RISC</span> OS), including the <span class="caps">FPA</span> instructions.</li>
+	<li>AArch64 instructions are disassembled (default for <span class="caps">RISC</span> OS 64)</li>
+	<li>The module is built and released automatically through CI on GitHub – <a href="https://github.com/gerph/riscos-debugger-c/releases">https://github.com/gerph/riscos-debugger-c/releases</a></li>
+	<li>There’s a project board to record what needs to be done – <a href="https://github.com/users/gerph/projects/1">https://github.com/users/gerph/projects/1</a></li>
+	<li>The module can be built, and runs on both 32-bit and 64-bit <span class="caps">RISC</span> OS.</li>
+</ul>
+<hr />
+<p>If you want to watch the whole series, you can follow it in the playlist on YouTube: <a href="https://www.youtube.com/watch?v=H08vtW1nZ9g&amp;list=PLVVIu906Y7rG9arQQU7hzueTykjxtiGVH">https://www.youtube.com/watch?v=H08vtW1nZ9g&amp;amp;list=P…</a></p>
+<p>Or the sequence is also available linked from my presentations website: <a href="https://presentation.riscos.online/live/disassembler.html">https://presentation.riscos.online/live/disassembler.h…</a></p>
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/19999">https://www.riscosopen.org/forum/forums/1/topics/19999</a>
       </address>
     </article>
 
@@ -93,6 +147,133 @@ https://youtu.be/SrkLuin7GhE?si=z749tYanec6V-sjn
       Sigh. It's a text prediction engine churning out the closest match to the string of tokens you give it in a prompt. It's not a person, it isn't warm or friendly, it doesn't have any capacity for emotion, reflection or understanding. OpenAI need to stop reinforcing this illusory nonsense.
       <address>
         <a href="https://bsky.app/profile/colinhoad.com/post/3lxhb3mcpqs2s">https://bsky.app/profile/colinhoad.com/post/3lxhb3mcpqs2s</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-28T00:44:33Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/19998">
+      <h1>OSLib 64 status</h1>
+
+(date: 2025-08-28, from: <a href="https://www.riscosopen.org/forum/forums/13/topics/19998">https://www.riscosopen.org/forum/forums/13/topics/19998</a>)
+      <p>
+      <p>Hiya,</p>
+<p>Quick update on the progress with OSLib&#8230; I&#8217;ve mentioned before the work that I&#8217;ve done towards creating the OSLib veneers for <span class="caps">RISC</span> OS 64 (and using them for other purposes). These are now complete, I believe &#8211; all the interfaces for OSLib should now be converted properly.</p>
+<p>Previously, I&#8217;d not implemented the non- X-variants of the SWIs, and those calls that spilled arguments on to the caller stack were not generated properly. These issues have both now been fixed &#8211; I realised what the &#8216;!&#8217; means on the def file exit parameters, and these are now set up properly. Together with remembering that I&#8217;m working with more registers, the library is now more efficient than previously. Not that that matters really for these calls, but it&#8217;s nice not to use as much stack.</p>
+<pre>
+----
+.section .text.xcolourtrans_set_gcol
+
+.global xcolourtrans_set_gcol
+
+    signature xcolourtrans_set_gcol
+xcolourtrans_set_gcol:
+    // =&gt;  R0 = colour (OS_Colour)
+    //     R3 = flags (ColourTrans_GCOLFlags)
+    //     R4 = action (OS_Action)
+
+    // &lt;=  R0 = gcol (OS_GCOL)
+    //     R2 = log2_bpp (.Int)
+    //     R3 corrupted
+    STP     x29, x30, [sp, #-16]!
+    MOV     x29, sp
+
+// Prepare output registers
+    MOV     x15, x3                             // output gcol
+    MOV     x14, x4                             // output log2_bpp
+
+// Prepare input registers
+    MOV     x4, x2                              // action
+    MOV     x3, x1                              // flags
+    // x0 = colour
+
+// Call SWI
+    MOV     x10, #1859
+    MOVK    x10, #6, LSL 16
+    SVC     #0                                  // XColourTrans_SetGCOL (&amp;40743)
+    CSEL    x17, xzr, x0, VC
+
+// Store output registers
+    CBZ     x15, xcolourtrans_set_gcol_noreg_3
+    STR     x0, [x15]                           // output gcol
+xcolourtrans_set_gcol_noreg_3:
+    CBZ     x14, xcolourtrans_set_gcol_noreg_4
+    STR     w2, [x14]                           // output log2_bpp
+xcolourtrans_set_gcol_noreg_4:
+
+    MOV     x0, x17                             // Error pointer (or NULL)
+
+    LDP     x29, x30, [sp], #16
+    RET
+</pre>
+<p>and then there are fun ones like XOS_CreateDynamicArea for the Create (0) <br />
+reason code:</p>
+<pre>
+.section .text.xosdynamicarea_create
+
+.global xosdynamicarea_create
+
+    signature xosdynamicarea_create
+xosdynamicarea_create:
+    // =&gt;  R0 = &amp;0 (constant)
+    //     R1 = area (OS_DynamicAreaNo)
+    //     R2 = size (.Int)
+    //     R3 -&gt; base_address (.Data)
+    //     R4 = flags (.Bits)
+    //     R5 = size_limit (.Int)
+    //     R6 -&gt; handler (.Asm)
+    //     R7 = workspace (&amp;Void)
+    //     R8 -&gt; description (.String)
+
+    // &lt;=  R1 = area_out (OS_DynamicAreaNo)
+    //     R3 -&gt; base_address_out (.Data)
+    //     R5 = size_limit_out (.Int)
+    STP     x29, x30, [sp, #-16]!
+    MOV     x29, sp
+
+// Prepare output registers
+    // output area_out: arg 8 on caller stack at offset 0 * 8
+    // output base_address_out: arg 9 on caller stack at offset 1 * 8
+    // output size_limit_out: arg 10 on caller stack at offset 2 * 8
+
+// Prepare input registers
+    MOV     x8, x7                              // description
+    MOV     x7, x6                              // workspace
+    MOV     x6, x5                              // handler
+    MOV     x5, x4                              // size_limit
+    MOV     x4, x3                              // flags
+    MOV     x3, x2                              // base_address
+    MOV     x2, x1                              // size
+    MOV     x1, x0                              // area
+    MOV     x0, #0
+
+// Call SWI
+    MOV     x10, #102
+    MOVK    x10, #2, LSL 16
+    SVC     #0                                  // XOSDynamicArea_Create (&amp;66)
+    CSEL    x17, xzr, x0, VC
+
+// Store output registers
+    LDR     x10, [x29, #16 + 0 * 8]             // output area_out
+    CBZ     x10, xosdynamicarea_create_noreg_8
+    STR     x1, [x10]                           // output area_out
+xosdynamicarea_create_noreg_8:
+    LDR     x10, [x29, #16 + 1 * 8]             // output base_address_out
+    CBZ     x10, xosdynamicarea_create_noreg_9
+    STR     x3, [x10]                           // output base_address_out
+xosdynamicarea_create_noreg_9:
+    LDR     x10, [x29, #16 + 2 * 8]             // output size_limit_out
+    CBZ     x10, xosdynamicarea_create_noreg_10
+    STR     w5, [x10]                           // output size_limit_out
+xosdynamicarea_create_noreg_10:
+
+    MOV     x0, x17                             // Error pointer (or NULL)
+
+    LDP     x29, x30, [sp], #16
+    RET
+</pre>
+<p>All of which is to say&#8230; yay! I think I have finally got to the bottom of how the OSLib interface definitions work, and the parser is mostly able to handle them (still doesn&#8217;t handle the comments so well&#8230; but there&#8217;s always scope for improvement), and hopefully OSLib will be useable in some real things soon. I built DrawFile with it a little while back, but it crashed badly, so maybe this&#8217;ll help.</p>
+<p>OSLib for <span class="caps">RISC</span> OS 64 can be found here: <a href="https://github.com/gerph/riscos64-oslib">https://github.com/gerph/riscos64-oslib</a></p>
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/13/topics/19998">https://www.riscosopen.org/forum/forums/13/topics/19998</a>
       </address>
     </article>
 
@@ -162,6 +343,70 @@ https://www.colinhoad.com/getting-into-the-pascal-groove
       </address>
     </article>
 
+    <article data-published="2025-08-24T18:54:17Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/19996">
+      <h1>Dear RISC OS humans. I have a question.</h1>
+
+(date: 2025-08-24, from: <a href="https://www.riscosopen.org/forum/forums/11/topics/19996">https://www.riscosopen.org/forum/forums/11/topics/19996</a>)
+      <p>
+      <p>Am I allowed to make my own OS by forking <span class="caps">RISC</span> OS, and calling it my own.<br />
+I would do this by renaming the <span class="caps">RISCOS</span>.img file to RiskyOS.img<br />
+It would be nice to have my own OS on the raspberry pi2.</p>
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/19996">https://www.riscosopen.org/forum/forums/11/topics/19996</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-24T15:27:30Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/19991">
+      <h1>Live Coding with Gerph, Sunday 24th August at 1pm</h1>
+
+(date: 2025-08-24, from: <a href="https://www.riscosopen.org/forum/forums/1/topics/19991">https://www.riscosopen.org/forum/forums/1/topics/19991</a>)
+      <p>
+      <p>Live code is now complete for this week. Little bit disjointed, but there were still quite a few things done, and some discussion about other things in the chat. Progress:</p>
+<ul>
+	<li>The immediate constant comments now show negatives properly, when I finally worked out what was going on.</li>
+	<li>Constants use &amp;hex instead of 0xhex now in the disassembly.</li>
+	<li>A licence has been included on the repository &#8211; <span class="caps">BSD</span> 3-clause, the same as the required libraries.</li>
+	<li>The copyright statement is now included as a TaskManager acknowledgement, so that it&#8217;s easy to get on a <span class="caps">RISC</span> OS system.</li>
+	<li>Testing was being expanded to use the build service to run all the Debugger tests&#8230;</li>
+</ul>
+<p>However, the testing ended up not quite working because the shell scripting that I&#8217;d got wasn&#8217;t doing the right things. As that became a bit dull for people to watch, and I wasn&#8217;t really able to explain myself well, I decided to take that offline. I&#8217;ll fix up that test code outside of the live coding, as it&#8217;s only test harness things. I&#8217;d stolen the code from MessageTrans, but it looks like when I did it in there, there were much simpler tests present, so it wasn&#8217;t quite the &#8216;drop in&#8217; tool that I had hoped.</p>
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/19991">https://www.riscosopen.org/forum/forums/1/topics/19991</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-24T11:28:07Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/19949">
+      <h1>Opportunity for a re-think?</h1>
+
+(date: 2025-08-24, from: <a href="https://www.riscosopen.org/forum/forums/13/topics/19949">https://www.riscosopen.org/forum/forums/13/topics/19949</a>)
+      <p>
+      <p>Hi Glenn,</p>
+<p>I can give you access if you want, but please note that the code is very complex and not for the faint of heart. Merlin is not <span class="caps">RISC</span> OS, although it could be considered &#8220;a <span class="caps">RISC</span> OS.&#8221; At the moment it is just a kernel, a <span class="caps">HAL</span>, and the foundation for an emulation layer required to run legacy <span class="caps">RISC</span> OS on modern hardware (not only for 64-bit support, but also for many other reasons).</p>
+<p>The reasons why it is not public are simple:</p>
+<p>1. Some people in this small community are asking for a lot of money, and I do not want to fuel that. To give one example, <span class="caps">ROOL</span> is currently asking for £2.5 million to port <span class="caps">RISC</span> OS to 64-bit. That is an enormous amount for such a small community, especially considering that many of the problems they have yet to address (and which Gerph avoided by keeping his 64-bit version tied to the original) have already been solved in Merlin.</p>
+<p>2. I am fairly certain no one here can really help. (Forgive me if I sound judgmental.) What usually happens is: I give people access, they clone the repository, they do nothing with it, in some cases they get overwhelmed, and eventually some may try to use it as leverage with <span class="caps">ROOL</span>, which clearly does not have the skillset required to work on something as complex as Merlin. So why do people want access? Often it is because they cannot believe it is real, or they want to check if I used their code for the emulation, or they want to show that they understand OS design and development (which, when using a memory-safe language, is quite different from traditional approaches). None of this helps me, Merlin, or <span class="caps">RISC</span> OS in any way.</p>
+<p>3. Merlin is released under the <span class="caps">MPL</span> 2.0 license. This means the code I wrote is protected much like <span class="caps">GPL</span>, but it can still link with other licensed code, even proprietary code. Here, <span class="caps">GPL</span> is often treated as if it were some sort of &#8220;virus,&#8221; and honestly I do not wish to deal with the usual nonsense in that regard.</p>
+<p>4. Merlin has already attracted the interest of a couple of companies. Right now, I am more focused on developing the requirements we have agreed upon than on the <span class="caps">RISC</span> OS compatibility layer, which can wait anyway. <span class="caps">ROOL</span> has not published anything about 64-bit, <span class="caps">ROD</span> has not mentioned anything, and Gerph, as usual, is working very hard. But I am not completely sure whether he is porting <span class="caps">RISC</span> OS 5 to 64-bit or the RO Ltd branch. The situation looks very confusing to me (perhaps I am simply not smart enough to understand what is actually happening).</p>
+<p>So let me ask you this: If I give you access to the sources, what&#8217;s in it for me and for <span class="caps">RISC</span> OS?</p>
+<p>P.S. Again my apologies if I may have sounded too blunt or direct, English is not my main language, no offence intended to anyone.</p>
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/13/topics/19949">https://www.riscosopen.org/forum/forums/13/topics/19949</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-24T11:26:59Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/19994">
+      <h1>riscos64-status update</h1>
+
+(date: 2025-08-24, from: <a href="https://www.riscosopen.org/forum/forums/13/topics/19994">https://www.riscosopen.org/forum/forums/13/topics/19994</a>)
+      <p>
+      <p>I&#8217;m not sure what you mean.</p>
+<p>The Debugger module&#8217;s *Commands are (pretty much) equivalent to the Debugger module&#8217;s SWIs, and there are test programs  which calls the SWIs to check the behaviour has not changed. That&#8217;s not integrated into the testing yet, but that will come shortly. It&#8217;s just re-using the testing from the <span class="caps">RISC</span> OS Pyromaniac environment to prove the behaviour is unchanged.</p>
+<p>If you can explain what you mean it might help decide whether what you want is useful.</p>
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/13/topics/19994">https://www.riscosopen.org/forum/forums/13/topics/19994</a>
+      </address>
+    </article>
+
     <article data-published="2025-08-24T10:56:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3lx5d72k3r22c">
       <h1>@colinhoad.com</h1>
 
@@ -172,6 +417,22 @@ https://www.colinhoad.com/getting-into-the-pascal-groove
 [contains quote post or other embedded content]
       <address>
         <a href="https://bsky.app/profile/colinhoad.com/post/3lx5d72k3r22c">https://bsky.app/profile/colinhoad.com/post/3lx5d72k3r22c</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-24T09:40:36Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/19995">
+      <h1>Python requests library</h1>
+
+(date: 2025-08-24, from: <a href="https://www.riscosopen.org/forum/forums/11/topics/19995">https://www.riscosopen.org/forum/forums/11/topics/19995</a>)
+      <p>
+      <p>I&#8217;m trying to use the requests library in Python. I&#8217;ve successfully installed it with:<br />
+<code>*python38 -m pip install requests</code><br />
+But attempting to use it gives an error:<br />
+<code>ImportError: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'OpenSSL 1.0.2u  20 Dec 2019'. See: <a href="https://github.com/urllib3/urllib3/issues/2168">https://github.com/urllib3/urllib3/issues/2168</a></code><br />
+As I&#8217;m a beginner with using Python on <span class="caps">RISC</span> OS, I&#8217;d appreciate some help in fixing this. Presumably something needs updating, but I&#8217;m not sure exactly what!<br />
+<span class="caps">RISC</span> OS 5.31, Python 3.8.8+ (riscos-1, Feb 22 2021, 21:48:54)</p>
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/19995">https://www.riscosopen.org/forum/forums/11/topics/19995</a>
       </address>
     </article>
 
@@ -235,6 +496,17 @@ https://youtube.com/watch?v=PKebn_Ly9T8
 https://www.dezeen.com/2025/08/19/gustaf-westman-ikea-meatball-plate/
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3lwvjqvp3zc2g">https://bsky.app/profile/nemo20000.bsky.social/post/3lwvjqvp3zc2g</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-21T07:37:30Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13476&page=1#125819">
+      <h1>WROCC August 2025 meeting - Chris Hughes</h1>
+
+(date: 2025-08-21, from: <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13476&page=1#125819">http://www.iconbar.com/forums/viewthread.php?threadid=13476&page=1#125819</a>)
+      <p>
+      Talk is now available on youtube if you missed it at https://www.youtube.com/watch?v=peuEqnLVHnY
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13476&page=1#125819">http://www.iconbar.com/forums/viewthread.php?threadid=13476&page=1#125819</a>
       </address>
     </article>
 
@@ -712,6 +984,1850 @@ Wakefield's August speaker was Chris Hughes, telling us all about some RISC OS s
       Wakefield's August speaker was Chris Hughes, telling us all about some RISC OS software he uses.
       <address>
         <a href="http://www.iconbar.com/comments/rss/news2226.html">http://www.iconbar.com/comments/rss/news2226.html</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-06T23:49:00Z" data-link="https://bsky.app/profile/rougol.bsky.social/post/3lvrfz2yiys2u">
+      <h1>@rougol.bsky.social</h1>
+
+(date: 2025-08-06, from: <a href="https://bsky.app/profile/rougol.bsky.social/post/3lvrfz2yiys2u">rougol.bsky.social</a>)
+      <p>
+      Chat to Mark about all his Elite projects at the next ROUGOL meeting on Monday 18th August https://rougol.jellybaby.net/meetings/index.html
+
+[contains quote post or other embedded content]
+      <address>
+        <a href="https://bsky.app/profile/rougol.bsky.social/post/3lvrfz2yiys2u">https://bsky.app/profile/rougol.bsky.social/post/3lvrfz2yiys2u</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-06T14:11:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3lvqfpxnkfk25">
+      <h1>@paolofabiozaino.bsky.social</h1>
+
+(date: 2025-08-06, from: <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3lvqfpxnkfk25">paolofabiozaino.bsky.social</a>)
+      <p>
+      Please everyone, do NOT send me private messages. There is a bug in @bsky.app right now due to age verification. They forgot to allow us to disable private messages. So your messages won't be read. My apologies on behalf of the Bsky team who has still to catchup on the issue I think. 
+#bsky #bug
+      <address>
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3lvqfpxnkfk25">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3lvqfpxnkfk25</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-06T13:23:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvqczf5ee22c">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-08-06, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvqczf5ee22c">kevedwardsretro.bsky.social</a>)
+      <p>
+      Started sorting out my home computer library yesterday. Some of these old books are becoming harder to find at a sensible price. I have a huge stack of computer magazines too which are slowly being organised. Fabulous reference and so interesting to read today. Technology has come a long, long way!
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvqczf5ee22c">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvqczf5ee22c</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-05T15:46:13Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13464&page=1#125817">
+      <h1>July 2025 News Summary</h1>
+
+(date: 2025-08-05, from: <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13464&page=1#125817">http://www.iconbar.com/forums/viewthread.php?threadid=13464&page=1#125817</a>)
+      <p>
+      I have released a new app called Web2PDF which will create a PDF file for a web page also my site now is sucure with https://kevsoft.co.uk
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13464&page=1#125817">http://www.iconbar.com/forums/viewthread.php?threadid=13464&page=1#125817</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-05T14:57:00Z" data-link="https://www.riscosopen.org/news/articles/2025/08/05/streaming-video-in-1994">
+      <h1>Streaming Video in 1994?</h1>
+
+(date: 2025-08-05, from: <a href="https://www.riscosopen.org/news/articles/2025/08/05/streaming-video-in-1994">https://www.riscosopen.org/news/articles/2025/08/05/streaming-video-in-1994</a>)
+      <p>
+      <p>In 1994, Acorn Computers, through its Online Media division, played a central role in one of the earliest practical demonstrations of video-on-demand over a broadband network. The Cambridge (UK) Digital Interactive Television Trial, developed in collaboration with Anglia Television, Cambridge Cable (now Virgin Media), and Advanced Telecommunication Modules Ltd (<span class="caps">ATML</span>), anticipated many of the features that would later become standard in streaming media.</p>
+      <address>
+        <a href="https://www.riscosopen.org/news/articles/2025/08/05/streaming-video-in-1994">https://www.riscosopen.org/news/articles/2025/08/05/streaming-video-in-1994</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-05T08:53:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3lvndhlpqtc2o">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2025-08-05, from: <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3lvndhlpqtc2o">nemo20000.bsky.social</a>)
+      <p>
+      When will a technology company finally invent an algorithm, AI or supercomputer powerful enough to correct American misspellings back to English? 🙄
+
+My tolerance for undoubled consonants is diminishing at an alarming rate.
+
+I have a hardwired prompt in Gemini: I am British, spell English correctly.
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3lvndhlpqtc2o">https://bsky.app/profile/nemo20000.bsky.social/post/3lvndhlpqtc2o</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-04T19:57:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3lvly4qj4ac2z">
+      <h1>@paolofabiozaino.bsky.social</h1>
+
+(date: 2025-08-04, from: <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3lvly4qj4ac2z">paolofabiozaino.bsky.social</a>)
+      <p>
+      This weekend I forgot to post about the progresses on project #MerlinOS, sorry it has been a busy weekend. However lots of things, so check the thread for details, here is the current progress: 👇
+https://riscoscommunity.org/projects/risc-os-merlin/
+      <address>
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3lvly4qj4ac2z">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3lvly4qj4ac2z</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-04T14:58:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3lvlhgdqmnc2y">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-08-04, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lvlhgdqmnc2y">riscosopen.bsky.social</a>)
+      <p>
+      RISC OS on Arm is community-driven with deep roots & real potential. We want to evolve it from historical curio to a lean, modern OS for the future. #OctopusVentures #CamInnovations #AmadeusCapital #IQCapital #InvestHeritage #ScaleUp
+Support @riscosopen.bsky.social https://www.riscosopen.org/content/documents/risc-os-moonshots
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lvlhgdqmnc2y">https://bsky.app/profile/riscosopen.bsky.social/post/3lvlhgdqmnc2y</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-04T06:23:00Z" data-link="http://www.iconbar.com/comments/rss/news2221.html">
+      <h1>WROCC August 2025 talk on Wednesday - Chris Hughes</h1>
+
+(date: 2025-08-04, from: <a href="http://www.iconbar.com/comments/rss/news2221.html">http://www.iconbar.com/comments/rss/news2221.html</a>)
+      <p>
+      The August 2025 WROCC talk is on Wednesday 6th August and starts at at 7.45pm on Zoom
+      <address>
+        <a href="http://www.iconbar.com/comments/rss/news2221.html">http://www.iconbar.com/comments/rss/news2221.html</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-03T21:23:00Z" data-link="https://bsky.app/profile/armbytes.bsky.social/post/3lvjmh5mihc2i">
+      <h1>@armbytes.bsky.social</h1>
+
+(date: 2025-08-03, from: <a href="https://bsky.app/profile/armbytes.bsky.social/post/3lvjmh5mihc2i">armbytes.bsky.social</a>)
+      <p>
+      Are you interested in coding on RISC OS? Want to learn more? Join our friendly fireside chat on Zoom—DM for credentials (unchanged). If you are a developer, come and connect. The event is this Saturday, 9th August, at 7:30 pm (GMT+1). #OpenSource #RISCOS #Community #Code4Fun #Zoom
+      <address>
+        <a href="https://bsky.app/profile/armbytes.bsky.social/post/3lvjmh5mihc2i">https://bsky.app/profile/armbytes.bsky.social/post/3lvjmh5mihc2i</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-03T16:04:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3lvj2mqgtjk2t">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-08-03, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lvj2mqgtjk2t">riscosopen.bsky.social</a>)
+      <p>
+      Why not run a low carbon footprint operating system called RISC OS? Just one creative example of how you can make efficiency savings for @earthshotprize.bsky.social from your armchair. #ArmPowered
+Support @riscosopen.bsky.social in its mission. https://www.riscosopen.org/content/documents/risc-os-moonshots
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lvj2mqgtjk2t">https://bsky.app/profile/riscosopen.bsky.social/post/3lvj2mqgtjk2t</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-03T14:40:00Z" data-link="https://bsky.app/profile/givvygavvygoo.bsky.social/post/3lvivx6id4k2f">
+      <h1>@givvygavvygoo.bsky.social</h1>
+
+(date: 2025-08-03, from: <a href="https://bsky.app/profile/givvygavvygoo.bsky.social/post/3lvivx6id4k2f">givvygavvygoo.bsky.social</a>)
+      <p>
+      Yet more skimmers! But where there are small ones, the bigger ones will follow!
+
+#waitingforamonster
+#LakeDistrictFishing
+#DayAtTheTarn
+#GoneFishing
+      <address>
+        <a href="https://bsky.app/profile/givvygavvygoo.bsky.social/post/3lvivx6id4k2f">https://bsky.app/profile/givvygavvygoo.bsky.social/post/3lvivx6id4k2f</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-03T14:03:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvittlyvbs2d">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-08-03, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvittlyvbs2d">kevedwardsretro.bsky.social</a>)
+      <p>
+      When your Twitter post is liked by the real Mark Hamill you know it's been a good day.
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvittlyvbs2d">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvittlyvbs2d</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-02T15:07:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3lvggy7qgxs2j">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-08-02, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lvggy7qgxs2j">riscosopen.bsky.social</a>)
+      <p>
+      Arm's processors power billions of devices. Help us to power the preservation of RISC OS, the platform that made it all possible. Let's keep Britain's computing story alive. #Arm #Legacy #Moonshots
+Support @riscosopen.bsky.social in its mission. https://www.riscosopen.org/content/documents/risc-os-moonshots
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lvggy7qgxs2j">https://bsky.app/profile/riscosopen.bsky.social/post/3lvggy7qgxs2j</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-02T11:59:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvg4imc7ks2s">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-08-02, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvg4imc7ks2s">kevedwardsretro.bsky.social</a>)
+      <p>
+      Last time I visited the Northwest Computer Museum I spotted this Atari ST running Bubble Bobble. I started working at Software Creations just as this was being completed. A fact that I'd forgotten is that Mike Follin wrote the 68000 music driver for his bother Tim who did the music for the game.
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvg4imc7ks2s">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvg4imc7ks2s</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-01T20:11:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvehihp75c2a">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-08-01, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvehihp75c2a">kevedwardsretro.bsky.social</a>)
+      <p>
+      Ashby Computers & Graphics Ltd. ( Ultimate play the Game ), then later RARE Ltd, now have their own Blue plaque! You can see it on the wall of their first building in Ashby de la Zouch. We need more of these paques to remember the early videogame studios.
+
+https://www.instagram.com/grantkirkhopecomposer/p/DMxs6fdxq49/
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvehihp75c2a">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvehihp75c2a</a>
+      </address>
+    </article>
+
+    <article data-published="2025-08-01T14:26:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3lvdu7gwzb22t">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-08-01, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lvdu7gwzb22t">riscosopen.bsky.social</a>)
+      <p>
+      How did RISC OS begin? A Risc by THURsday (Arthur). Read more... https://www.theregister.com/2022/06/23/how_risc_os_happened/ @theregister.com #RISCOS #TechHistory #RetroComputing #AcornComputers
+Support @risc_os in its mission. https://www.riscosopen.org/content/documents/risc-os-moonshots
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lvdu7gwzb22t">https://bsky.app/profile/riscosopen.bsky.social/post/3lvdu7gwzb22t</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-31T20:44:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvbytymdv22y">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-31, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvbytymdv22y">kevedwardsretro.bsky.social</a>)
+      <p>
+      Sad to hear the news that videogame musician Pete Clarke passed away today after a long illness. He worked for Ocean Software and Software Creations in Manchester during the early/mid 80s and created music for the BBC Micro and C64. RIP Pete.
+https://remix64.com/news/peter-clarke-1958-2025.html
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvbytymdv22y">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lvbytymdv22y</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-31T16:30:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3lvbkp4hd522b">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-07-31, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lvbkp4hd522b">riscosopen.bsky.social</a>)
+      <p>
+      Have you tried RISC OS? Comment below!
+Support @riscosopen.bsky.social in its mission. https://www.riscosopen.org/content/documents/risc-os-moonshots
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lvbkp4hd522b">https://bsky.app/profile/riscosopen.bsky.social/post/3lvbkp4hd522b</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-30T15:38:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3lv6xder7j224">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-07-30, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lv6xder7j224">riscosopen.bsky.social</a>)
+      <p>
+      Don't forget to show some love to your friends. Thanks to everyone who has backed us over the past 19 years! #WorldFriendshipDay #InternationalDayOfFriendship #FriendshipDay2025
+Support @riscosopen.bsky.social in its mission. https://www.riscosopen.org/content/documents/risc-os-moonshots
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lv6xder7j224">https://bsky.app/profile/riscosopen.bsky.social/post/3lv6xder7j224</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-29T20:03:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3lv4vnfeir224">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-07-29, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lv4vnfeir224">riscosopen.bsky.social</a>)
+      <p>
+      Remember the Acorn Archimedes? Help us preserve the legacy that inspired a generation. @ComputingAtSch #RISCOS #RetroComputing #UkEdChat (Image credit PaulVernon1974)
+Support @riscosopen.bsky.social. https://www.riscosopen.org/content/documents/risc-os-moonshots
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lv4vnfeir224">https://bsky.app/profile/riscosopen.bsky.social/post/3lv4vnfeir224</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-29T08:59:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lv3qjjicqk25">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-07-29, from: <a href="https://bsky.app/profile/iconbar.com/post/3lv3qjjicqk25">iconbar.com</a>)
+      <p>
+      Drag'n'Drop 14i4 edition reviewed 
+
+https://www.iconbar.com/articles/DragnDrop_14i4_edition_reviewed/index2222.html 
+
+The Summer edition of Drag'n'Drop magazine is now out (with a suitably loud cover).
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lv3qjjicqk25">https://bsky.app/profile/iconbar.com/post/3lv3qjjicqk25</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-29T06:00:00Z" data-link="http://www.iconbar.com/comments/rss/news2222.html">
+      <h1>Drag'n'Drop 14i4 edition reviewed</h1>
+
+(date: 2025-07-29, from: <a href="http://www.iconbar.com/comments/rss/news2222.html">http://www.iconbar.com/comments/rss/news2222.html</a>)
+      <p>
+      The Summer edition of Drag'n'Drop magazine is now out (with a suitably loud cover). This edition is 51 pages of news, reviews, tools and lots of code (on yellow pages no less)! As the final edition of Volume 14 (where has the time gone), it includes an updated index including back issues. As it is a PDF you can read it on just about any system (I read it on my IPad).
+      <address>
+        <a href="http://www.iconbar.com/comments/rss/news2222.html">http://www.iconbar.com/comments/rss/news2222.html</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-28T15:08:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3luzupfmok22e">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-07-28, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3luzupfmok22e">riscosopen.bsky.social</a>)
+      <p>
+      Search engines empower billions of people. Find your way to RISC OS and help us to grow our Open Source project. #Infrastructure #OpenSource
+Support @riscosopen.bsky.social. https://www.riscosopen.org/content/documents/risc-os-moonshots
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3luzupfmok22e">https://bsky.app/profile/riscosopen.bsky.social/post/3luzupfmok22e</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-28T12:58:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3luzngibh3s24">
+      <h1>@paolofabiozaino.bsky.social</h1>
+
+(date: 2025-07-28, from: <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3luzngibh3s24">paolofabiozaino.bsky.social</a>)
+      <p>
+      Congratulations to the Lionesses 🏴󠁧󠁢󠁥󠁮󠁧󠁿 
+A demostration that real hard work, passion, and determination can lead to great achievements! 
+
+https://www.theguardian.com/football/2025/jul/28/triumphant-lionesses-squad-to-be-honoured-at-downing-street
+      <address>
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3luzngibh3s24">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3luzngibh3s24</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-27T20:03:00Z" data-link="https://bsky.app/profile/riscos.bsky.social/post/3luxuprr2yk2j">
+      <h1>@riscos.bsky.social</h1>
+
+(date: 2025-07-27, from: <a href="https://bsky.app/profile/riscos.bsky.social/post/3luxuprr2yk2j">riscos.bsky.social</a>)
+      <p>
+      Today's fun fact: Browsing the web on an Archimedes (real hardware, not emulated) with ArcWeb is very much still possible!
+
+(Bonus hat-tip to @actionretro.bsky.social for creating FrogFind to make pages usable on old systems!)
+      <address>
+        <a href="https://bsky.app/profile/riscos.bsky.social/post/3luxuprr2yk2j">https://bsky.app/profile/riscos.bsky.social/post/3luxuprr2yk2j</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-27T15:16:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3luxenrog3c2m">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-07-27, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3luxenrog3c2m">riscosopen.bsky.social</a>)
+      <p>
+      Proud to wear the England shirt? Here’s another way to support British legacy: preserve our computing heritage. @englandfootball.bsky.com @englandft.bsky.com #Lionesses #Euro2025
+Support @riscosopen.bsky.social in its mission. https://www.riscosopen.org/content/documents/risc-os-moonshots
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3luxenrog3c2m">https://bsky.app/profile/riscosopen.bsky.social/post/3luxenrog3c2m</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-26T14:58:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3luut73fck22n">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-07-26, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3luut73fck22n">riscosopen.bsky.social</a>)
+      <p>
+      Investing in British educational computing heritage means investing in our future innovators. @Raspberrypi.com #BritishTech #STEM
+Support @riscosopen.bsky.social in its mission. https://www.riscosopen.org/content/documents/risc-os-moonshots
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3luut73fck22n">https://bsky.app/profile/riscosopen.bsky.social/post/3luut73fck22n</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-26T14:45:34Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13464&page=1#125816">
+      <h1>July 2025 News Summary</h1>
+
+(date: 2025-07-26, from: <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13464&page=1#125816">http://www.iconbar.com/forums/viewthread.php?threadid=13464&page=1#125816</a>)
+      <p>
+      Iris 1.036 was also released.  Existing users can click the "Iris updates" link on the front page to get it.
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13464&page=1#125816">http://www.iconbar.com/forums/viewthread.php?threadid=13464&page=1#125816</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-25T21:37:07Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13464&page=1#125815">
+      <h1>July 2025 News Summary</h1>
+
+(date: 2025-07-25, from: <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13464&page=1#125815">http://www.iconbar.com/forums/viewthread.php?threadid=13464&page=1#125815</a>)
+      <p>
+      Sarah Walker ports 'Another World' to RISC OS; https://www.stardot.org.uk/forums/viewtopic.php?p=459630
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13464&page=1#125815">http://www.iconbar.com/forums/viewthread.php?threadid=13464&page=1#125815</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-25T14:56:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3luscn6sif22f">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-07-25, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3luscn6sif22f">riscosopen.bsky.social</a>)
+      <p>
+      @techuk.bsky.social RISC OS on Arm is a British innovation story and part of our national computing heritage. Help preserve it for future generations. #BritishInnovation
+Help @riscosopen.bsky.social continue its mission. https://www.riscosopen.org/content/documents/risc-os-moonshots
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3luscn6sif22f">https://bsky.app/profile/riscosopen.bsky.social/post/3luscn6sif22f</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-25T09:36:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lurqpuvggc2i">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-07-25, from: <a href="https://bsky.app/profile/iconbar.com/post/3lurqpuvggc2i">iconbar.com</a>)
+      <p>
+      July 2025 News Summary 
+
+https://www.iconbar.com/articles/July_2025_News_Summary/index2216.html 
+
+Some things we noticed this month. What did you see?
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lurqpuvggc2i">https://bsky.app/profile/iconbar.com/post/3lurqpuvggc2i</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-25T06:48:00Z" data-link="http://www.iconbar.com/comments/rss/news2216.html">
+      <h1>July 2025 News Summary</h1>
+
+(date: 2025-07-25, from: <a href="http://www.iconbar.com/comments/rss/news2216.html">http://www.iconbar.com/comments/rss/news2216.html</a>)
+      <p>
+      Some things we noticed this month. What did you see?
+      <address>
+        <a href="http://www.iconbar.com/comments/rss/news2216.html">http://www.iconbar.com/comments/rss/news2216.html</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-24T22:08:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3luqkbkgouc2n">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-07-24, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3luqkbkgouc2n">riscosopen.bsky.social</a>)
+      <p>
+      @education.gov.uk The roots of British tech run deep. RISC OS on Arm powered the dreams of a generation of British engineers and developers. Help preserve and advance this legacy.
+#BritishTech #LegacySystems
+Support @riscosopen.bsky.social in its mission:
+https://www.riscosopen.org/content/documents/risc-os-moonshots
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3luqkbkgouc2n">https://bsky.app/profile/riscosopen.bsky.social/post/3luqkbkgouc2n</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-24T12:51:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lupl7c7ghc2x">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-24, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lupl7c7ghc2x">kevedwardsretro.bsky.social</a>)
+      <p>
+      Last year I took some old friends to the Northwest Computer Museum. We don't see each other very often, but it seemed like only yesterday that we were developing BBC Micro games. Whilst we were there we played a few of our old games. Here's Andrew Farrow and Paul Proctor enjoying Galaforce 2.
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lupl7c7ghc2x">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lupl7c7ghc2x</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-23T22:31:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3luo345c5422c">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-23, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3luo345c5422c">kevedwardsretro.bsky.social</a>)
+      <p>
+      I kid you not when I say this was my first attempt at the loading screen for Galaforce on the BBC Micro. It demonstrates why most programmers should NOT attempt to do graphics themselves. Fortunately, my schoolfriend Paul Proctor came to the rescue and produced a much better screen for me!
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3luo345c5422c">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3luo345c5422c</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-23T22:18:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3luo2fhn3uc2c">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-23, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3luo2fhn3uc2c">kevedwardsretro.bsky.social</a>)
+      <p>
+      My Borland Turbo Assembler install disks - from around 1993. Before 'C' took over, many PC applications, tools and games were written in assembly language - 80x86. By 1996, almost everything was written using C/C++. The compilers were more efficient and robust by this time.
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3luo2fhn3uc2c">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3luo2fhn3uc2c</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-23T09:43:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lumq7n3wrs2h">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-23, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lumq7n3wrs2h">kevedwardsretro.bsky.social</a>)
+      <p>
+      Happy 40th Birthday to the Commodore Amiga! It was packed with advanced custom graphics and audio ICs by the amazing Jay Miner. Jay worked alonside Robert Mical and Dale Luck on the Amiga hardware which became the MUST HAVE computer that year. I still can't believe the Amiga is 40 years old today!
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lumq7n3wrs2h">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lumq7n3wrs2h</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-23T09:17:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lumoqutlv22o">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-23, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lumoqutlv22o">kevedwardsretro.bsky.social</a>)
+      <p>
+      A Nintendo 64 Press Release from Peter Main, Executive Vice President - January 1996. Announcing the N64 launch date, price point along with details of the writable Disk Drive Unit with additional expansion RAM.
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lumoqutlv22o">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lumoqutlv22o</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-23T08:40:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lummp4vhec2o">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-23, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lummp4vhec2o">kevedwardsretro.bsky.social</a>)
+      <p>
+      From a time when games carried a warning about being 'unsuitable for black and white TVs'. Acornsoft's Snooker for the BBC Micro, 1983.
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lummp4vhec2o">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lummp4vhec2o</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-22T19:11:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lul7ioxhkk2x">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-22, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lul7ioxhkk2x">kevedwardsretro.bsky.social</a>)
+      <p>
+      RIP, Ozzy! A legend.
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lul7ioxhkk2x">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lul7ioxhkk2x</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-22T16:08:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lukvazsdts2g">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-22, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lukvazsdts2g">kevedwardsretro.bsky.social</a>)
+      <p>
+      Is there anyone here that DOESN'T know how to use one of these to make a call? How many of you had one of these at home with a lock fitted to stop mis-use!
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lukvazsdts2g">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lukvazsdts2g</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-22T13:34:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lukmodtnus2g">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-22, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lukmodtnus2g">kevedwardsretro.bsky.social</a>)
+      <p>
+      Great to see the ZX Spectrum Next Issue 3 Kickstarter being fully funded in a matter of minutes. I was tempted to get one, but can't justify £300ish on something that I'll probably not have time to use. Don't get me wrong, the £300 price tag is good value, but only if you are going to use it lots!
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lukmodtnus2g">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lukmodtnus2g</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-22T13:12:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3luklfwbqfs2g">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-22, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3luklfwbqfs2g">kevedwardsretro.bsky.social</a>)
+      <p>
+      Some new additions to the Acorn Archimedes programming book section. Most of these were published by Dabs Press and written by established writers with previous work in Acorn related publications. Mike Ginns' Archimedes Assembly Language book is a great read for ARM 2 related programming.
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3luklfwbqfs2g">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3luklfwbqfs2g</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-22T11:43:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lukggkefxc2q">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-22, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lukggkefxc2q">kevedwardsretro.bsky.social</a>)
+      <p>
+      So true.
+
+[contains quote post or other embedded content]
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lukggkefxc2q">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lukggkefxc2q</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-21T21:10:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3luivnqkswk2e">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-07-21, from: <a href="https://bsky.app/profile/iconbar.com/post/3luivnqkswk2e">iconbar.com</a>)
+      <p>
+      RISCOSbits releases new ECOS systems for Windows, Retro and Fileserving 
+
+https://www.iconbar.com/articles/RISCOSbits_releases_new_ECOS_systems_for_Windows_Retro_and_Fileserving/index2223.html 
+
+RISCOSbits have announced some new systems in their EOCS range (we have previously looked at the Linux version)
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3luivnqkswk2e">https://bsky.app/profile/iconbar.com/post/3luivnqkswk2e</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-21T15:08:00Z" data-link="https://bsky.app/profile/riscosbits.co.uk/post/3luibfshwwc2i">
+      <h1>@riscosbits.co.uk</h1>
+
+(date: 2025-07-21, from: <a href="https://bsky.app/profile/riscosbits.co.uk/post/3luibfshwwc2i">riscosbits.co.uk</a>)
+      <p>
+      ECOS11 is a new Windows #Companion for #riscosfast and  ITX cases to integrate #RISC_OS and Windows into a single system.
+
+But it isn't just a sidekick to FAST, it can also fly solo whilst working in formation with #RISC_OS!
+
+#risc_os
+#ecos11
+#windows11
+
+riscosfast.co.uk/ecos.htm
+      <address>
+        <a href="https://bsky.app/profile/riscosbits.co.uk/post/3luibfshwwc2i">https://bsky.app/profile/riscosbits.co.uk/post/3luibfshwwc2i</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-21T15:01:00Z" data-link="http://www.iconbar.com/comments/rss/news2223.html">
+      <h1>RISCOSbits releases new ECOS systems for Windows, Retro and Fileserving</h1>
+
+(date: 2025-07-21, from: <a href="http://www.iconbar.com/comments/rss/news2223.html">http://www.iconbar.com/comments/rss/news2223.html</a>)
+      <p>
+      RISCOSbits have announce some new systems in their EOCS range (we have previously looked at the Linux version here).
+      <address>
+        <a href="http://www.iconbar.com/comments/rss/news2223.html">http://www.iconbar.com/comments/rss/news2223.html</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-21T14:55:00Z" data-link="https://bsky.app/profile/riscosbits.co.uk/post/3luiaokyyes2c">
+      <h1>@riscosbits.co.uk</h1>
+
+(date: 2025-07-21, from: <a href="https://bsky.app/profile/riscosbits.co.uk/post/3luiaokyyes2c">riscosbits.co.uk</a>)
+      <p>
+      NEW! ECOfile. Using ECOS technology to create the ultimate file store for RISC OS (and Windows, MAC, Android, iOS, Linux...). Made for RISC OS. Is it a NAS? No, it's so much more than that...
+
+#LooksToDieFor
+#NotForHiding
+#RISC_OS
+
+www.riscosbits.co.uk/ecos.htm
+www.riscosfast.co.uk/ecos.htm
+      <address>
+        <a href="https://bsky.app/profile/riscosbits.co.uk/post/3luiaokyyes2c">https://bsky.app/profile/riscosbits.co.uk/post/3luiaokyyes2c</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-21T01:12:00Z" data-link="https://bsky.app/profile/rougol.bsky.social/post/3lugsovog2s2j">
+      <h1>@rougol.bsky.social</h1>
+
+(date: 2025-07-21, from: <a href="https://bsky.app/profile/rougol.bsky.social/post/3lugsovog2s2j">rougol.bsky.social</a>)
+      <p>
+      Andrew is teasing that he will be sharing something "never seen on RISC OS before" at tonight's meeting 😃
+https://www.riscosopen.org/forum/forums/1/topics/19946?limit=25&page=1#posts-158232
+
+[contains quote post or other embedded content]
+      <address>
+        <a href="https://bsky.app/profile/rougol.bsky.social/post/3lugsovog2s2j">https://bsky.app/profile/rougol.bsky.social/post/3lugsovog2s2j</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-20T16:27:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lufvfr7ses2f">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-20, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lufvfr7ses2f">kevedwardsretro.bsky.social</a>)
+      <p>
+      Here are some of the level 'script' files for NES Silver Surfer. These control the spawning and behaviour of the objects within the levels. This example is taken from Firelord Horizontal. It uses a simple programming language that is interpreted at runtime. These were manually typed in - no editor!
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lufvfr7ses2f">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lufvfr7ses2f</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-20T16:00:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3luftvljg6k22">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-20, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3luftvljg6k22">kevedwardsretro.bsky.social</a>)
+      <p>
+      August, 1985, and 'The Micro User' magazine published my file recovery program for the BBC Micro. If you accidentally deleted a BASIC file from your disk you could use this utility to recover your program. Written in BBC BASIC and 6502 machine code. 40 years ago!
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3luftvljg6k22">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3luftvljg6k22</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-20T15:36:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lufsjfgjuc2f">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-20, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lufsjfgjuc2f">kevedwardsretro.bsky.social</a>)
+      <p>
+      Software Creations had a development studio off Cheetham Hill Road, Manchester, where many of our SNES, Genesis and N64 titles were created between 1992 and 1997. Here's what it looks like now, compared with back in 1993. It's lunchtime and everyone is heading off into town for some food and drink!
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lufsjfgjuc2f">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lufsjfgjuc2f</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-20T14:33:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lufoykz5is2f">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-20, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lufoykz5is2f">kevedwardsretro.bsky.social</a>)
+      <p>
+      Apparently, this image of the Acorn Development Team can be found in the RISC-OS 3 ROM. I believe there is a special way to get it to display.
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lufoykz5is2f">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lufoykz5is2f</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-19T19:07:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3ludnuc6jtk2q">
+      <h1>@paolofabiozaino.bsky.social</h1>
+
+(date: 2025-07-19, from: <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3ludnuc6jtk2q">paolofabiozaino.bsky.social</a>)
+      <p>
+      ZX Spectrum Next Issue 3 campaign started few weeks ago and already passed £ 1M, this is the 3rd campaign which passes it. Great to hear that! 
+Side note: someone should definitelly remind #RISC_OS users and ROOL that RISC OS ain't a ZX Spectrum...
+https://www.kickstarter.com/projects/spectrumnext/zx-spectrum-next-issue-3-0?ref=ksr_email_mktg_auto_user_new_project_from_creator_youve_backed
+      <address>
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3ludnuc6jtk2q">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3ludnuc6jtk2q</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-19T19:00:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ludngvsz7k2n">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-19, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ludngvsz7k2n">kevedwardsretro.bsky.social</a>)
+      <p>
+      The Gold Plated BBC Micro auction has ended - item no longer available.
+My guess is that it was a standard Oak case, new and sealed in the box that the owner never used. Perhaps the seller ( who aquired it from the original owner ) googled Oak cased BBC Micro and the Gold-plated one popped up first
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ludngvsz7k2n">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ludngvsz7k2n</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-19T12:27:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lucxioo2d22n">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-19, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lucxioo2d22n">kevedwardsretro.bsky.social</a>)
+      <p>
+      Someone is trying to sell a Gold Plated BBC Micro on eBay - the one given away as a prize by The Micro User. This is in the Science Museum, London AFAIK - and they've used a picture of it. They are claiming to have a brand new, sealed one that they've had since the mid-80s. Why am I suspicious?
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lucxioo2d22n">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lucxioo2d22n</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-19T07:53:18Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13461&page=1#125814">
+      <h1>Rougol July 2025 meeting on monday - R-Comp talks New 5tuff</h1>
+
+(date: 2025-07-19, from: <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13461&page=1#125814">http://www.iconbar.com/forums/viewthread.php?threadid=13461&page=1#125814</a>)
+      <p>
+      Fixed!
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13461&page=1#125814">http://www.iconbar.com/forums/viewthread.php?threadid=13461&page=1#125814</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-18T23:59:10Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13461&page=1#125813">
+      <h1>Rougol July 2025 meeting on monday - R-Comp talks New 5tuff</h1>
+
+(date: 2025-07-18, from: <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13461&page=1#125813">http://www.iconbar.com/forums/viewthread.php?threadid=13461&page=1#125813</a>)
+      <p>
+      Erm, that's Monday *21st* July!
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13461&page=1#125813">http://www.iconbar.com/forums/viewthread.php?threadid=13461&page=1#125813</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-18T21:22:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lubewpceos24">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-07-18, from: <a href="https://bsky.app/profile/iconbar.com/post/3lubewpceos24">iconbar.com</a>)
+      <p>
+      Rougol July 2025 meeting on monday - R-Comp talks New 5tuff 
+
+https://www.iconbar.com/articles/Rougol_July_2025_meeting_on_monday_-_R-Comp_talks_New_5tuff/index2214.html 
+
+The July 2025 Rougol meeting is on Monday 18th July. It will feature R-Comp's Andrew Rawnsley talking about new 5stuff (and I expect some older stuff as well).
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lubewpceos24">https://bsky.app/profile/iconbar.com/post/3lubewpceos24</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-18T18:58:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lub4vaarlc2h">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-18, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lub4vaarlc2h">kevedwardsretro.bsky.social</a>)
+      <p>
+      Browsing through a CBM PET user manual this evening. This one is really good and covers BASIC programming, hardware overview, peripherals, memory map and machine code programming. I have fond memories learning 6502 machine code on this machine using its built in machine language monitor.
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lub4vaarlc2h">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lub4vaarlc2h</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-18T14:29:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3luanuypfd22x">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-07-18, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3luanuypfd22x">riscosopen.bsky.social</a>)
+      <p>
+      More RAM? https://www.riscosopen.org/news/articles/2025/07/18/pi-memory-freed-from-its-32-bit-shackles
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3luanuypfd22x">https://bsky.app/profile/riscosopen.bsky.social/post/3luanuypfd22x</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-18T14:27:00Z" data-link="https://www.riscosopen.org/news/articles/2025/07/18/pi-memory-freed-from-its-32-bit-shackles">
+      <h1>Pi memory freed from its 32 bit shackles</h1>
+
+(date: 2025-07-18, from: <a href="https://www.riscosopen.org/news/articles/2025/07/18/pi-memory-freed-from-its-32-bit-shackles">https://www.riscosopen.org/news/articles/2025/07/18/pi-memory-freed-from-its-32-bit-shackles</a>)
+      <p>
+      <p>The period between stable releases is the perfect time to try out some experimental changes to <span class="caps">RISC</span> OS. If you&#8217;ve bought one of the top-of-the-range <a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/">Raspberry Pi 4&#8217;s</a> with 4GB or 8GB of <span class="caps">RAM</span> the good news is that that extra memory can now be unlocked by dropping the <a href="/zipfiles/platform/raspberry-pi/BCM2835Dev-8GB.5.31.zip">Beta RPi <span class="caps">ROM</span> &#40;8GB Support)</a> onto your SD card.</p>
+<p><img src="/images/third_party/ddr-memory.png" title="CC-0: credit Petr Kratochvil" alt="CC-0: credit Petr Kratochvil" /></p>
+      <address>
+        <a href="https://www.riscosopen.org/news/articles/2025/07/18/pi-memory-freed-from-its-32-bit-shackles">https://www.riscosopen.org/news/articles/2025/07/18/pi-memory-freed-from-its-32-bit-shackles</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-18T14:20:00Z" data-link="http://www.iconbar.com/comments/rss/news2214.html">
+      <h1>Rougol July 2025 meeting on monday - R-Comp talks New 5tuff</h1>
+
+(date: 2025-07-18, from: <a href="http://www.iconbar.com/comments/rss/news2214.html">http://www.iconbar.com/comments/rss/news2214.html</a>)
+      <p>
+      The July 2025 Rougol meeting is on Monday 21st July. It will feature R-Comp's Andrew Rawnsley talking about new 5stuff (and I expect some older stuff as well).
+      <address>
+        <a href="http://www.iconbar.com/comments/rss/news2214.html">http://www.iconbar.com/comments/rss/news2214.html</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-18T02:21:13Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13466&page=1#125812">
+      <h1>R-Comp launches the 5idekick and the pi5erve</h1>
+
+(date: 2025-07-18, from: <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13466&page=1#125812">http://www.iconbar.com/forums/viewthread.php?threadid=13466&page=1#125812</a>)
+      <p>
+      Hear all about R-Comp's new 5ystems at this month's ROUGOL meeting on Monday 21st July...
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13466&page=1#125812">http://www.iconbar.com/forums/viewthread.php?threadid=13466&page=1#125812</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-16T19:41:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3lu46dkkffk2b">
+      <h1>@paolofabiozaino.bsky.social</h1>
+
+(date: 2025-07-16, from: <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3lu46dkkffk2b">paolofabiozaino.bsky.social</a>)
+      <p>
+      A note on my #UltimaVM for #RISC_OS users: when coding on Ultima, we don't care at all about RO multistasking, we just code like on Windows, Linux or macOS. If we want to run an Ultima App in the desktop we just use the `--mt` option in the command line, everything else is handled by Ultima itself:👇
+      <address>
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3lu46dkkffk2b">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3lu46dkkffk2b</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-15T16:09:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltzc2sluec2x">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-15, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltzc2sluec2x">kevedwardsretro.bsky.social</a>)
+      <p>
+      A rather interesting article about Sound Synthesis that appeared in Compute magazine, January 1983. Bob Yannes, who create the SID chip, talks about his original design and how he wanted to be able to make the three oscillators work in unison to create a single voice. @realmartingalway.bsky.social
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltzc2sluec2x">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltzc2sluec2x</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-13T10:24:25Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13465&page=1#125811">
+      <h1>WROCC July 2025 meeting - RISCOSbits</h1>
+
+(date: 2025-07-13, from: <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13465&page=1#125811">http://www.iconbar.com/forums/viewthread.php?threadid=13465&page=1#125811</a>)
+      <p>
+      Talk is now online at https://www.youtube.com/watch?v=BX9cVpzgDvU
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13465&page=1#125811">http://www.iconbar.com/forums/viewthread.php?threadid=13465&page=1#125811</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-11T16:13:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltpaetdfcc27">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-11, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltpaetdfcc27">kevedwardsretro.bsky.social</a>)
+      <p>
+      Some of my development notes for Crazee Rider for the BBC Micro and Acorn Electron. These two pages detail how the tracks are constructed using simple fixed curves. I hand built each circuit by typing in the data using the encodings shown on these pages. Very primitive. I did plan to write an editor
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltpaetdfcc27">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltpaetdfcc27</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-07T11:07:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3ltenhbzqk22n">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-07-07, from: <a href="https://bsky.app/profile/iconbar.com/post/3ltenhbzqk22n">iconbar.com</a>)
+      <p>
+      R-Comp launches the 5idekick and the pi5erve 
+
+https://www.iconbar.com/articles/R-Comp_launches_the_5idekick_and_the_pi5erve/index2218.html 
+
+R-Comp has released two computers based on Pi 5 technology - the 5idekick and the pi5erve
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3ltenhbzqk22n">https://bsky.app/profile/iconbar.com/post/3ltenhbzqk22n</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-06T23:51:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3ltdhnjx7ls2d">
+      <h1>@paolofabiozaino.bsky.social</h1>
+
+(date: 2025-07-06, from: <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3ltdhnjx7ls2d">paolofabiozaino.bsky.social</a>)
+      <p>
+      This weekend I had some time to continue working on Project Merlin, so progress tracking update!:
+https://riscoscommunity.org/projects/risc-os-merlin/
+#RISC_OS #riscos #kernel #rust #rustlang
+      <address>
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3ltdhnjx7ls2d">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3ltdhnjx7ls2d</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-06T21:20:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltd77zocu22v">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-06, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltd77zocu22v">kevedwardsretro.bsky.social</a>)
+      <p>
+      Unreleased NES title Plasma0 ( Plasma Nought ) by Paul Proctor when he was a freelancer developer. I managed to recover enough data from Paul's original development disks to patch together a ROM file that worked. Aculab development machine. As you can see it has game play elements from Jetpac.
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltd77zocu22v">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltd77zocu22v</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-06T14:31:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltcidw43sc2v">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-06, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltcidw43sc2v">kevedwardsretro.bsky.social</a>)
+      <p>
+      Plasma0 for the NES developed by Paul Proctor. He developed this for RARE when he was a freelance programmer before eventually joining them to work in-house. The game was never released, or finished. I recovered the data and images from his old development disks - they were in very bad condition.
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltcidw43sc2v">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltcidw43sc2v</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-05T10:34:21Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13455&page=1#125810">
+      <h1>ECOS5 from RISCOSbits 'previewed'</h1>
+
+(date: 2025-07-05, from: <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13455&page=1#125810">http://www.iconbar.com/forums/viewthread.php?threadid=13455&page=1#125810</a>)
+      <p>
+      The only thing I found missing from the version of the manual I had was to set the IP to a static value (so it does not change). Here is a tutorial on how to set
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13455&page=1#125810">http://www.iconbar.com/forums/viewthread.php?threadid=13455&page=1#125810</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-05T10:16:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lt7jonbbjs2q">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-07-05, from: <a href="https://bsky.app/profile/iconbar.com/post/3lt7jonbbjs2q">iconbar.com</a>)
+      <p>
+      RISC OS Coding double bill weekend 
+
+https://www.iconbar.com/articles/RISC_OS_Coding_double_bill_weekend/index2219.html 
+
+This weekend you are in for a treat if you are interested in RISC OS coding. And you don't even have to leave the house...
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lt7jonbbjs2q">https://bsky.app/profile/iconbar.com/post/3lt7jonbbjs2q</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-03T17:40:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lt3bjtsk222w">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-07-03, from: <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lt3bjtsk222w">kevedwardsretro.bsky.social</a>)
+      <p>
+      My XBox bootable demo of the un-released 'The Invincible Iron Man' game from 15th October 2003. It used totally new tech, nothing taken from X2: Wolverine's Revenge. We worked on this game for about 6 or 7 months IIRC and then the game was cancelled and we all lost our jobs.
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lt3bjtsk222w">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lt3bjtsk222w</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-03T11:37:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lt2nalrcxc2u">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-07-03, from: <a href="https://bsky.app/profile/iconbar.com/post/3lt2nalrcxc2u">iconbar.com</a>)
+      <p>
+      WROCC July 2025 meeting - RISCOSbits 
+
+https://www.iconbar.com/articles/WROCC_July_2025_meeting_-_RISCOSbits/index2217.html 
+
+Wakefield's July speaker was Andy Marks, from RISCOSbits, telling us all about ECOS5.
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lt2nalrcxc2u">https://bsky.app/profile/iconbar.com/post/3lt2nalrcxc2u</a>
+      </address>
+    </article>
+
+    <article data-published="2025-07-03T02:01:38Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13462&page=1#125809">
+      <h1>Live Coding with Gerph session on Sunday 29th June</h1>
+
+(date: 2025-07-03, from: <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13462&page=1#125809">http://www.iconbar.com/forums/viewthread.php?threadid=13462&page=1#125809</a>)
+      <p>
+      On Sunday this week, I'm thinking of tidying up some of the code that isn't quite working right, and making the Debugger build for 64-bit. It probably will hit a few problems, but I expect it to be relatively doable.
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13462&page=1#125809">http://www.iconbar.com/forums/viewthread.php?threadid=13462&page=1#125809</a>
+      </address>
+    </article>
+
+    <article data-published="2025-06-30T09:18:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lssu37vc5k27">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-06-30, from: <a href="https://bsky.app/profile/iconbar.com/post/3lssu37vc5k27">iconbar.com</a>)
+      <p>
+      WROCC July 2025 talk on wednesday 
+
+https://www.iconbar.com/articles/WROCC_July_2025_talk_on_wednesday/index2211.html 
+
+The July 2025 WROCCInfo talk is on wednesday 2nd July and starts at at 7.45pm on Zoom
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lssu37vc5k27">https://bsky.app/profile/iconbar.com/post/3lssu37vc5k27</a>
+      </address>
+    </article>
+
+    <article data-published="2025-06-27T10:00:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lslf26tx4s2u">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-06-27, from: <a href="https://bsky.app/profile/iconbar.com/post/3lslf26tx4s2u">iconbar.com</a>)
+      <p>
+      June 2025 News Summary 
+
+https://www.iconbar.com/articles/June_2025_News_Summary/index2206.html 
+
+Some things we noticed this month. What did you see?
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lslf26tx4s2u">https://bsky.app/profile/iconbar.com/post/3lslf26tx4s2u</a>
+      </address>
+    </article>
+
+    <article data-published="2025-06-26T21:39:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lsk3m5ykyc2t">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-06-26, from: <a href="https://bsky.app/profile/iconbar.com/post/3lsk3m5ykyc2t">iconbar.com</a>)
+      <p>
+      Live Coding with Gerph session on Sunday 29th June 
+
+https://www.iconbar.com/articles/Live_Coding_with_Gerph_session_on_Sunday_29th_June/index2215.html 
+
+If you want to learn from an expert doing some RISC OS coding, you are in for a treat this weekend!
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lsk3m5ykyc2t">https://bsky.app/profile/iconbar.com/post/3lsk3m5ykyc2t</a>
+      </address>
+    </article>
+
+    <article data-published="2025-06-25T20:46:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lshi6lthc22x">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-06-25, from: <a href="https://bsky.app/profile/iconbar.com/post/3lshi6lthc22x">iconbar.com</a>)
+      <p>
+      Orpheus Internet kills off Intel 
+
+https://www.iconbar.com/articles/Orpheus_Internet_kills_off_Intel/index2213.html 
+
+If you have chatted to Richard Brown at recent RISC OS Shows you will know that he has been planning to migrate the servers Orpheus Internet uses from Intel Xeon systems to pure ARM. This has now been completed...
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lshi6lthc22x">https://bsky.app/profile/iconbar.com/post/3lshi6lthc22x</a>
+      </address>
+    </article>
+
+    <article data-published="2025-06-17T18:44:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lrt5ofpn6s26">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-06-17, from: <a href="https://bsky.app/profile/iconbar.com/post/3lrt5ofpn6s26">iconbar.com</a>)
+      <p>
+      June 2025 Rougol report - Hugo Tyson
+
+https://www.iconbar.com/articles/June_2025_Rougol_report_-_Hugo_Tyson/index2212.html
+
+The June 2025 talk featured ex-Acorn engineer Hugo Tyson talking about 'My Time at Acorn'. There was a nice gathering in the room and online.
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lrt5ofpn6s26">https://bsky.app/profile/iconbar.com/post/3lrt5ofpn6s26</a>
+      </address>
+    </article>
+
+    <article data-published="2025-06-13T11:14:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lricmxufx22v">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-06-13, from: <a href="https://bsky.app/profile/iconbar.com/post/3lricmxufx22v">iconbar.com</a>)
+      <p>
+      Rougol June 2025 meeting on monday with Hugo Tyson
+
+https://www.iconbar.com/articles/Rougol_June_2025_meeting_on_monday_with_Hugo_Tyson/index2207.html
+
+The June 2025 Rougol meeting is on Monday 16th June. This months speaker is Hugo Tyson and his talk is called "Everything I did at Acorn".
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lricmxufx22v">https://bsky.app/profile/iconbar.com/post/3lricmxufx22v</a>
+      </address>
+    </article>
+
+    <article data-published="2025-06-10T11:23:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lrarqlbja22a">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-06-10, from: <a href="https://bsky.app/profile/iconbar.com/post/3lrarqlbja22a">iconbar.com</a>)
+      <p>
+      ECOS5 from RISCOSbits 'previewed' 
+
+https://www.iconbar.com/articles/ECOS5_from_RISCOSbits_previewed/index2208.html 
+
+We recently persuaded RISCOSbits to let us have a pre-release copy of the new ECOS5 upgrade for their FAST systems....
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lrarqlbja22a">https://bsky.app/profile/iconbar.com/post/3lrarqlbja22a</a>
+      </address>
+    </article>
+
+    <article data-published="2025-06-09T15:42:00Z" data-link="https://bsky.app/profile/riscosbits.co.uk/post/3lr6pr2rav22m">
+      <h1>@riscosbits.co.uk</h1>
+
+(date: 2025-06-09, from: <a href="https://bsky.app/profile/riscosbits.co.uk/post/3lr6pr2rav22m">riscosbits.co.uk</a>)
+      <p>
+      ECOS5 - RISC OS and Linux Made Easy. Together.
+
+Check out our new ECOS5 - a Linux add-in or add-on for your RISC OS system. Available now. Read all about it:
+
+www.riscosfast.co.uk/ecos.htm
+www.riscosbits.co.uk/ecos.htm
+https://www.riscosopen.org/forum/forums/1/topics/19888
+
+#risc_os
+#Raspberry_Pi
+#ecos5
+#bestofboth
+      <address>
+        <a href="https://bsky.app/profile/riscosbits.co.uk/post/3lr6pr2rav22m">https://bsky.app/profile/riscosbits.co.uk/post/3lr6pr2rav22m</a>
+      </address>
+    </article>
+
+    <article data-published="2025-06-04T10:42:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3lqrmnsetlc2j">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-06-04, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lqrmnsetlc2j">riscosopen.bsky.social</a>)
+      <p>
+      https://www.riscosopen.org/news/articles/2025/06/04/moonshots-rocket-is-fuelling-up
+https://media.tenor.com/v9XIZ3ZgKvEAAAAC/moon-earths-moon.gif?hh=498&ww=498
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lqrmnsetlc2j">https://bsky.app/profile/riscosopen.bsky.social/post/3lqrmnsetlc2j</a>
+      </address>
+    </article>
+
+    <article data-published="2025-06-04T10:35:00Z" data-link="https://www.riscosopen.org/news/articles/2025/06/04/moonshots-rocket-is-fuelling-up">
+      <h1>Moonshots Rocket is Fuelling Up</h1>
+
+(date: 2025-06-04, from: <a href="https://www.riscosopen.org/news/articles/2025/06/04/moonshots-rocket-is-fuelling-up">https://www.riscosopen.org/news/articles/2025/06/04/moonshots-rocket-is-fuelling-up</a>)
+      <p>
+      <p>Back in March the <a href="/news/articles/2025/03/28/moonshots-initiative-to-secure-the-future-of-the-os">Moonshots Initiative</a> outlined an ambitious plan to migrate the source code of <span class="caps">RISC</span> OS away from hand crafted assembler to reach a 64-bit destination before all the 32-bit chips run out. Already the initiative has generated a number of people asking to be involved, promising leads in the areas of focus, and we&#8217;re grateful to have received some <a href="/bounty/polls/45">financial donations</a> from the community already.</p>
+<p><img src="/images/risc_os_open/moonshot-logo-sm-black-transparent.png" title="Moonshot logo" alt="Moonshot logo" /></p>
+      <address>
+        <a href="https://www.riscosopen.org/news/articles/2025/06/04/moonshots-rocket-is-fuelling-up">https://www.riscosopen.org/news/articles/2025/06/04/moonshots-rocket-is-fuelling-up</a>
+      </address>
+    </article>
+
+    <article data-published="2025-06-02T10:51:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lqmm7l32ys25">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-06-02, from: <a href="https://bsky.app/profile/iconbar.com/post/3lqmm7l32ys25">iconbar.com</a>)
+      <p>
+      WROCC June 2025 talk on wednesday - ROOL
+
+https://www.iconbar.com/articles/WROCC_June_2025_talk_on_wednesday_-_ROOL/index2204.html
+
+The June 2025 WROCC talk is on wednesday and starts at at 7.45pm on Zoom.
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lqmm7l32ys25">https://bsky.app/profile/iconbar.com/post/3lqmm7l32ys25</a>
+      </address>
+    </article>
+
+    <article data-published="2025-05-30T10:41:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lqf2btxoxc2n">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-05-30, from: <a href="https://bsky.app/profile/iconbar.com/post/3lqf2btxoxc2n">iconbar.com</a>)
+      <p>
+      May 2025 News Summary
+
+https://www.iconbar.com/articles/May_2025_News_Summary/index2202.html
+
+Some things we noticed this month. What did you see?
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lqf2btxoxc2n">https://bsky.app/profile/iconbar.com/post/3lqf2btxoxc2n</a>
+      </address>
+    </article>
+
+    <article data-published="2025-05-29T17:46:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lqdbjod73k2q">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-05-29, from: <a href="https://bsky.app/profile/iconbar.com/post/3lqdbjod73k2q">iconbar.com</a>)
+      <p>
+      May developer 'fireside' chat on saturday night
+
+https://www.iconbar.com/articles/May_developer_fireside_chat_on_saturday_night/index2200.html
+
+The next 'fireside' chat of 2025 is on 31st May (this saturday). Usual 7:30pm UK time kick-off and the event is on Zoom. As always, stay for as long or as short a time as you like.
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lqdbjod73k2q">https://bsky.app/profile/iconbar.com/post/3lqdbjod73k2q</a>
+      </address>
+    </article>
+
+    <article data-published="2025-05-25T16:22:00Z" data-link="https://bsky.app/profile/riscosbits.co.uk/post/3lpz2xn4vvc2f">
+      <h1>@riscosbits.co.uk</h1>
+
+(date: 2025-05-25, from: <a href="https://bsky.app/profile/riscosbits.co.uk/post/3lpz2xn4vvc2f">riscosbits.co.uk</a>)
+      <p>
+      I may be up to something....
+
+#redfunctionkeys
+#acorn
+#RISC_OS
+      <address>
+        <a href="https://bsky.app/profile/riscosbits.co.uk/post/3lpz2xn4vvc2f">https://bsky.app/profile/riscosbits.co.uk/post/3lpz2xn4vvc2f</a>
+      </address>
+    </article>
+
+    <article data-published="2025-05-21T07:26:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lpo35o6sd22m">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-05-21, from: <a href="https://bsky.app/profile/iconbar.com/post/3lpo35o6sd22m">iconbar.com</a>)
+      <p>
+      RISCOSbits upgrades FAST ROM image
+
+https://www.iconbar.com/articles/RISCOSbits_upgrades_FAST_ROM_image/index2203.html
+
+One of the attractions of the FAST systems is the fact that you can update the system. It still needs a custom build but luckily RISCOSbits provides up to 4 custom builds a year. The latest has just been released!
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lpo35o6sd22m">https://bsky.app/profile/iconbar.com/post/3lpo35o6sd22m</a>
+      </address>
+    </article>
+
+    <article data-published="2025-05-17T08:09:00Z" data-link="https://bsky.app/profile/riscosbits.co.uk/post/3lpe3phyz4s2f">
+      <h1>@riscosbits.co.uk</h1>
+
+(date: 2025-05-17, from: <a href="https://bsky.app/profile/riscosbits.co.uk/post/3lpe3phyz4s2f">riscosbits.co.uk</a>)
+      <p>
+      Rougol May 2025 meeting on monday 
+
+https://www.iconbar.com/articles/Rougol_May_2025_meeting_on_monday/index2197.html 
+
+The May 2025 Rougol meeting is on Monday 19th May. The action which kicks off at 6.
+      <address>
+        <a href="https://bsky.app/profile/riscosbits.co.uk/post/3lpe3phyz4s2f">https://bsky.app/profile/riscosbits.co.uk/post/3lpe3phyz4s2f</a>
+      </address>
+    </article>
+
+    <article data-published="2025-05-16T15:13:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lpccwd5khk2k">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-05-16, from: <a href="https://bsky.app/profile/iconbar.com/post/3lpccwd5khk2k">iconbar.com</a>)
+      <p>
+      Rougol May 2025 meeting on Monday
+
+https://www.iconbar.com/articles/Rougol_May_2025_meeting_on_monday/index2197.html
+
+The May 2025 Rougol meeting is on Monday 19th May. The action which kicks off at 6.30pm in the Duke of Sussex and online at 7.30pm on Zoom (usual link or contact Rougol for one).
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lpccwd5khk2k">https://bsky.app/profile/iconbar.com/post/3lpccwd5khk2k</a>
+      </address>
+    </article>
+
+    <article data-published="2025-05-12T10:56:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3loxspekbyk2u">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-05-12, from: <a href="https://bsky.app/profile/iconbar.com/post/3loxspekbyk2u">iconbar.com</a>)
+      <p>
+      eXperience Show report 2025
+
+https://www.iconbar.com/articles/eXperience_Show_report_2025/index2205.html
+
+TIB spies were at the RISC OS eXperience and this is what they reported back....
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3loxspekbyk2u">https://bsky.app/profile/iconbar.com/post/3loxspekbyk2u</a>
+      </address>
+    </article>
+
+    <article data-published="2025-05-09T19:09:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lor4trgvpk2m">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-05-09, from: <a href="https://bsky.app/profile/iconbar.com/post/3lor4trgvpk2m">iconbar.com</a>)
+      <p>
+      Big Ben Club eXperience this weekend
+
+https://www.iconbar.com/articles/Big_Ben_Club_eXperience_this_weekend/index2201.html
+
+The Big Ben club is running its regular show this weekend
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lor4trgvpk2m">https://bsky.app/profile/iconbar.com/post/3lor4trgvpk2m</a>
+      </address>
+    </article>
+
+    <article data-published="2025-05-06T13:06:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3loix5uz5k22u">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-05-06, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3loix5uz5k22u">riscosopen.bsky.social</a>)
+      <p>
+      https://www.riscosopen.org/news/articles/2025/05/06/set-sail-for-the-risc-os-experience
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3loix5uz5k22u">https://bsky.app/profile/riscosopen.bsky.social/post/3loix5uz5k22u</a>
+      </address>
+    </article>
+
+    <article data-published="2025-05-06T13:02:00Z" data-link="https://www.riscosopen.org/news/articles/2025/05/06/set-sail-for-the-risc-os-experience">
+      <h1>Set sail for the RISC OS eXperience</h1>
+
+(date: 2025-05-06, from: <a href="https://www.riscosopen.org/news/articles/2025/05/06/set-sail-for-the-risc-os-experience">https://www.riscosopen.org/news/articles/2025/05/06/set-sail-for-the-risc-os-experience</a>)
+      <p>
+      <p>Why not pop along to the Big Ben Club&#8217;s annual day in the Netherlands?</p>
+<p>The show is on the 10th May 2025 from 10am to 4pm and is located in Koog aan de Zann. It&#8217;s <a href="https://www.bigbenclub.nl/rox/info/">easy to reach</a> being only a short distance north of Amsterdam by car, public transport, or even by bicycle.</p>
+<p><img src="/images/risc_os_open/shows/rox2025banner.png" title="Banner logo" alt="Banner logo" /></p>
+<p><span class="caps">RISC</span> OS Open will be travelling to the Netherlands, equivalent to 0.106% of the <a href="/news/articles/2025/03/28/moonshots-initiative-to-secure-the-future-of-the-os">distance to the moon</a>, and expanding on 2022&#8217;s <a href="https://youtu.be/nbtVklhO_Pk?si=A21IEa2uB5dWaq7a&amp;t=1642">theatre topic</a> of the path to 64 bit.</p>
+      <address>
+        <a href="https://www.riscosopen.org/news/articles/2025/05/06/set-sail-for-the-risc-os-experience">https://www.riscosopen.org/news/articles/2025/05/06/set-sail-for-the-risc-os-experience</a>
+      </address>
+    </article>
+
+    <article data-published="2025-05-05T18:09:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3logxmkta422b">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-05-05, from: <a href="https://bsky.app/profile/iconbar.com/post/3logxmkta422b">iconbar.com</a>)
+      <p>
+      WROCC April 2025 talk on wednesday - Graeme Shrimpton
+
+https://www.iconbar.com/articles/WROCC_April_2025_talk_on_wednesday_-_Graeme_Shrimpton/index2191.html
+
+The May 2025 WROCCInfo talk is on wednesday and kicks off at 7.45pm on Zoom
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3logxmkta422b">https://bsky.app/profile/iconbar.com/post/3logxmkta422b</a>
+      </address>
+    </article>
+
+    <article data-published="2025-04-28T18:44:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3lnvgcqxe2s2v">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-04-28, from: <a href="https://bsky.app/profile/iconbar.com/post/3lnvgcqxe2s2v">iconbar.com</a>)
+      <p>
+      RISC OS North charity stand raises nearly 1,000 pounds for charity
+https://www.iconbar.com/articles/RISC_OS_North_charity_stand_raises_nearly_1000_pounds_for_charity/index2199.html
+
+While WROCC may no longer be running the Show, they are still very actively organising the Charity stand
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3lnvgcqxe2s2v">https://bsky.app/profile/iconbar.com/post/3lnvgcqxe2s2v</a>
+      </address>
+    </article>
+
+    <article data-published="2025-04-02T18:07:55Z" data-link="https://www.riscosnorth.uk/index.php/2025/04/02/charity-stand-results/">
+      <h1>Charity stand results</h1>
+
+(date: 2025-04-02, from: <a href="https://www.riscosnorth.uk/index.php/2025/04/02/charity-stand-results/">https://www.riscosnorth.uk/index.php/2025/04/02/charity-stand-results/</a>)
+      <p>
+      We hope everyone enjoyed the show as much as we did &#8211; and a big thank you to everyone who either donated to or purchased anything from the charity stand, along with those looking after it. The amount of money raised as a result of the day&#8217;s efforts was an impressive £865. That money will [&#8230;]
+      <address>
+        <a href="https://www.riscosnorth.uk/index.php/2025/04/02/charity-stand-results/">https://www.riscosnorth.uk/index.php/2025/04/02/charity-stand-results/</a>
+      </address>
+    </article>
+
+    <article data-published="2025-03-29T14:28:00Z" data-link="https://bsky.app/profile/archiveriscos.bsky.social/post/3lljk2iavzs24">
+      <h1>@archiveriscos.bsky.social</h1>
+
+(date: 2025-03-29, from: <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lljk2iavzs24">archiveriscos.bsky.social</a>)
+      <p>
+      Just published! The new issue of Archive, the magazine for RISC OS users, is out NOW! We have news, reviews, programming tutorials, indepth articles, gaming, 8-bit Acorn, and quite possibly more! #riscos #acorn #raspberrypi #opensource
+www.archivemag.co.uk
+      <address>
+        <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lljk2iavzs24">https://bsky.app/profile/archiveriscos.bsky.social/post/3lljk2iavzs24</a>
+      </address>
+    </article>
+
+    <article data-published="2025-03-28T19:53:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3llhlpnvi722f">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-03-28, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3llhlpnvi722f">riscosopen.bsky.social</a>)
+      <p>
+      https://www.riscosopen.org/news/articles/2025/03/28/moonshots-initiative-to-secure-the-future-of-the-os
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3llhlpnvi722f">https://bsky.app/profile/riscosopen.bsky.social/post/3llhlpnvi722f</a>
+      </address>
+    </article>
+
+    <article data-published="2025-03-28T15:36:00Z" data-link="https://www.riscosopen.org/news/articles/2025/03/28/moonshots-initiative-to-secure-the-future-of-the-os">
+      <h1>&quot;Moonshots&quot; Initiative to Secure the Future of the OS</h1>
+
+(date: 2025-03-28, from: <a href="https://www.riscosopen.org/news/articles/2025/03/28/moonshots-initiative-to-secure-the-future-of-the-os">https://www.riscosopen.org/news/articles/2025/03/28/moonshots-initiative-to-secure-the-future-of-the-os</a>)
+      <p>
+      <p>Cambridge, UK – 28-Mar-2025 – <span class="caps">RISC</span> OS Open Limited (<span class="caps">ROOL</span>) is calling on the global technology community to support a bold new initiative to secure the long-term future of <span class="caps">RISC</span> OS. The company today announced the launch of its Moonshots programme &#8211; a strategic shift away from incremental development, towards large-scale engineering efforts aimed at modernising the operating system for next-generation Arm architectures.</p>
+<div style="text-align: center;">
+<img src="/images/risc_os_open/moonshot-logo-sm-black-transparent.png" alt="Moonshot logo" style="filter: drop-shadow(0 0 5px #fff);">
+</div>
+<p><span class="caps">RISC</span> OS, originally developed alongside the first Arm chips in Cambridge, remains a uniquely simple and efficient desktop operating system. It has found renewed interest in recent years thanks to its availability on the Raspberry Pi and its open-source licensing model. However, the platform now faces an existential challenge.</p>
+      <address>
+        <a href="https://www.riscosopen.org/news/articles/2025/03/28/moonshots-initiative-to-secure-the-future-of-the-os">https://www.riscosopen.org/news/articles/2025/03/28/moonshots-initiative-to-secure-the-future-of-the-os</a>
+      </address>
+    </article>
+
+    <article data-published="2025-03-28T11:25:00Z" data-link="https://bsky.app/profile/archiveriscos.bsky.social/post/3llgpdbwcq22w">
+      <h1>@archiveriscos.bsky.social</h1>
+
+(date: 2025-03-28, from: <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3llgpdbwcq22w">archiveriscos.bsky.social</a>)
+      <p>
+      TOMORROW! Join Archive and many other exhibitors at the RISC OS North show in Warrington. We'll have a brand new issue hot off the presses (possibly literally). More info here: https://riscosopen.org/forum/forums/1/topics/19764
+#acorn #raspberrypi #opensource #magazine
+      <address>
+        <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3llgpdbwcq22w">https://bsky.app/profile/archiveriscos.bsky.social/post/3llgpdbwcq22w</a>
+      </address>
+    </article>
+
+    <article data-published="2025-03-28T08:00:00Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/28/and-theres-more/">
+      <h1>And there’s more!</h1>
+
+(date: 2025-03-28, from: <a href="https://www.riscosnorth.uk/index.php/2025/03/28/and-theres-more/">https://www.riscosnorth.uk/index.php/2025/03/28/and-theres-more/</a>)
+      <p>
+      Over the last week or two, the exhibitors falling into a number of broad areas have been explored &#8211; but there are some that either don&#8217;t fit in any of those areas, or who only do so in a small way. Here are a few of those: While Chris Hall has a few items of [&#8230;]
+      <address>
+        <a href="https://www.riscosnorth.uk/index.php/2025/03/28/and-theres-more/">https://www.riscosnorth.uk/index.php/2025/03/28/and-theres-more/</a>
+      </address>
+    </article>
+
+    <article data-published="2025-03-27T17:39:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3lletsbgyhc2m">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-03-27, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lletsbgyhc2m">riscosopen.bsky.social</a>)
+      <p>
+      https://www.riscosopen.org/news/articles/2025/03/27/were-off-to-visit-ron
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lletsbgyhc2m">https://bsky.app/profile/riscosopen.bsky.social/post/3lletsbgyhc2m</a>
+      </address>
+    </article>
+
+    <article data-published="2025-03-27T17:32:00Z" data-link="https://www.riscosopen.org/news/articles/2025/03/27/were-off-to-visit-ron">
+      <h1>We&#39;re off to visit RON</h1>
+
+(date: 2025-03-27, from: <a href="https://www.riscosopen.org/news/articles/2025/03/27/were-off-to-visit-ron">https://www.riscosopen.org/news/articles/2025/03/27/were-off-to-visit-ron</a>)
+      <p>
+      <p><span class="caps">ROOL</span> is proud to be attending the <a href="https://www.riscosnorth.uk/"><span class="caps">RISC</span> OS North show</a> in Warrington, UK. As a part of our commitment to the future of <span class="caps">RISC</span> OS, we will be introducing our &#8220;Moonshot&#8221; projects by giving an overview of the motivations behind them, how we&#8217;re planning to drive them forwards, and how the community can get involved.</p>
+      <address>
+        <a href="https://www.riscosopen.org/news/articles/2025/03/27/were-off-to-visit-ron">https://www.riscosopen.org/news/articles/2025/03/27/were-off-to-visit-ron</a>
+      </address>
+    </article>
+
+    <article data-published="2025-03-27T11:23:42Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/27/kit-yourself-out/">
+      <h1>Kit yourself out!</h1>
+
+(date: 2025-03-27, from: <a href="https://www.riscosnorth.uk/index.php/2025/03/27/kit-yourself-out/">https://www.riscosnorth.uk/index.php/2025/03/27/kit-yourself-out/</a>)
+      <p>
+      If you&#8217;re looking to upgrade your hardware to something new &#8211; or perhaps you&#8217;re just exploring the world of RISC OS and are thinking about buying your first bit of hardware &#8211; there will be something for you at the show, with at least two exhibitors offering hardware on which to run the operating system. [&#8230;]
+      <address>
+        <a href="https://www.riscosnorth.uk/index.php/2025/03/27/kit-yourself-out/">https://www.riscosnorth.uk/index.php/2025/03/27/kit-yourself-out/</a>
+      </address>
+    </article>
+
+    <article data-published="2025-03-26T13:11:07Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/26/come-along-and-play/">
+      <h1>Come along and play</h1>
+
+(date: 2025-03-26, from: <a href="https://www.riscosnorth.uk/index.php/2025/03/26/come-along-and-play/">https://www.riscosnorth.uk/index.php/2025/03/26/come-along-and-play/</a>)
+      <p>
+      If you enjoy playing games on your RISC OS computer, there will definitely be something for you at the show. AMCOG Games will be exhibiting, and will have a plethora of games for you to try and buy. AMCOG&#8217;s range is extensive, and there will be a new title launched at this show: Morphix. which [&#8230;]
+      <address>
+        <a href="https://www.riscosnorth.uk/index.php/2025/03/26/come-along-and-play/">https://www.riscosnorth.uk/index.php/2025/03/26/come-along-and-play/</a>
+      </address>
+    </article>
+
+    <article data-published="2025-03-25T20:55:31Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/25/retro-exhibitors-at-the-show/">
+      <h1>Retro exhibitors at the show</h1>
+
+(date: 2025-03-25, from: <a href="https://www.riscosnorth.uk/index.php/2025/03/25/retro-exhibitors-at-the-show/">https://www.riscosnorth.uk/index.php/2025/03/25/retro-exhibitors-at-the-show/</a>)
+      <p>
+      It&#8217;s not all about modern computing at RISC OS North &#8211; you&#8217;ll also be able to explore older systems, and perhaps even obtain something to keep that old kit running. Retro Hardware, for example, will be able to help you if you have an Acorn Electron in use, or if you&#8217;re planning on resurrecting one [&#8230;]
+      <address>
+        <a href="https://www.riscosnorth.uk/index.php/2025/03/25/retro-exhibitors-at-the-show/">https://www.riscosnorth.uk/index.php/2025/03/25/retro-exhibitors-at-the-show/</a>
+      </address>
+    </article>
+
+    <article data-published="2025-03-25T15:04:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3ll7k7mi7nc2j">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-03-25, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3ll7k7mi7nc2j">riscosopen.bsky.social</a>)
+      <p>
+      Four days until RISC OS North - is everyone ready? www.riscosnorth.uk
+https://www.riscosnorth.uk/
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3ll7k7mi7nc2j">https://bsky.app/profile/riscosopen.bsky.social/post/3ll7k7mi7nc2j</a>
+      </address>
+    </article>
+
+    <article data-published="2025-03-23T22:13:54Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/23/software-of-all-kinds/">
+      <h1>Software of all kinds</h1>
+
+(date: 2025-03-23, from: <a href="https://www.riscosnorth.uk/index.php/2025/03/23/software-of-all-kinds/">https://www.riscosnorth.uk/index.php/2025/03/23/software-of-all-kinds/</a>)
+      <p>
+      There will be a variety of things to see and discuss at the show, as this series of posts demonstrates, and probably one of the biggest (next to hardware) is the wide range of software available for the operating system. Almost every exhibitor will have software of one form or another available. You&#8217;ll be able [&#8230;]
+      <address>
+        <a href="https://www.riscosnorth.uk/index.php/2025/03/23/software-of-all-kinds/">https://www.riscosnorth.uk/index.php/2025/03/23/software-of-all-kinds/</a>
+      </address>
+    </article>
+
+    <article data-published="2025-03-20T20:27:14Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/20/user-groups-at-the-show/">
+      <h1>User groups at the show</h1>
+
+(date: 2025-03-20, from: <a href="https://www.riscosnorth.uk/index.php/2025/03/20/user-groups-at-the-show/">https://www.riscosnorth.uk/index.php/2025/03/20/user-groups-at-the-show/</a>)
+      <p>
+      As well as coming along to shows like RISC OS North, a good way to support the operating system is to attend your local user group &#8211; and a few will be represented at this event. Some groups hold regular online meetings that you can join from anywhere &#8211; you don&#8217;t need to be local [&#8230;]
+      <address>
+        <a href="https://www.riscosnorth.uk/index.php/2025/03/20/user-groups-at-the-show/">https://www.riscosnorth.uk/index.php/2025/03/20/user-groups-at-the-show/</a>
+      </address>
+    </article>
+
+    <article data-published="2025-03-20T16:19:00Z" data-link="https://bsky.app/profile/archiveriscos.bsky.social/post/3lkt42ehqps2s">
+      <h1>@archiveriscos.bsky.social</h1>
+
+(date: 2025-03-20, from: <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lkt42ehqps2s">archiveriscos.bsky.social</a>)
+      <p>
+      Last call for items for the next issue of Archive. The next issue of (Archive 27:5) will be launched at the RISC OS North show on Saturday 29th March. If you have any news, articles, or any other bits and pieces for publication, please send them in as soon as possible!
+      <address>
+        <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lkt42ehqps2s">https://bsky.app/profile/archiveriscos.bsky.social/post/3lkt42ehqps2s</a>
+      </address>
+    </article>
+
+    <article data-published="2025-03-18T01:59:55Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/18/read-all-about-it/">
+      <h1>Read all about it!</h1>
+
+(date: 2025-03-18, from: <a href="https://www.riscosnorth.uk/index.php/2025/03/18/read-all-about-it/">https://www.riscosnorth.uk/index.php/2025/03/18/read-all-about-it/</a>)
+      <p>
+      If you want to keep up with the latest news about RISC OS, there are two publications you need to check out &#8211; along with a user group. Archive is a long-running magazine, with a subscription running for six issues, with options to receive it either as a PDF delivered by email, or as a [&#8230;]
+      <address>
+        <a href="https://www.riscosnorth.uk/index.php/2025/03/18/read-all-about-it/">https://www.riscosnorth.uk/index.php/2025/03/18/read-all-about-it/</a>
+      </address>
+    </article>
+
+    <article data-published="2025-03-16T20:40:27Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/16/finding-out-about-risc-os/">
+      <h1>Finding out about RISC OS</h1>
+
+(date: 2025-03-16, from: <a href="https://www.riscosnorth.uk/index.php/2025/03/16/finding-out-about-risc-os/">https://www.riscosnorth.uk/index.php/2025/03/16/finding-out-about-risc-os/</a>)
+      <p>
+      If you&#8217;re a seasoned RISC OS User, you&#8217;ll know all about the operating system&#8217;s history, and you&#8217;ll be familiar with the people that look after it today &#8211; but if you&#8217;re a new user or are thinking of trying it out, you&#8217;ll want to find out more. In both cases, we have you covered at [&#8230;]
+      <address>
+        <a href="https://www.riscosnorth.uk/index.php/2025/03/16/finding-out-about-risc-os/">https://www.riscosnorth.uk/index.php/2025/03/16/finding-out-about-risc-os/</a>
+      </address>
+    </article>
+
+    <article data-published="2025-02-21T17:43:00Z" data-link="https://bsky.app/profile/archiveriscos.bsky.social/post/3lipe5w5jds2d">
+      <h1>@archiveriscos.bsky.social</h1>
+
+(date: 2025-02-21, from: <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lipe5w5jds2d">archiveriscos.bsky.social</a>)
+      <p>
+      Highlights of recent changes to Paint, SparkFS, the Git client, and SSH-KeyGen. #riscos #opensource
+
+[contains quote post or other embedded content]
+      <address>
+        <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lipe5w5jds2d">https://bsky.app/profile/archiveriscos.bsky.social/post/3lipe5w5jds2d</a>
+      </address>
+    </article>
+
+    <article data-published="2025-02-21T10:59:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3lionlyg3jc2q">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-02-21, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lionlyg3jc2q">riscosopen.bsky.social</a>)
+      <p>
+      https://www.riscosopen.org/news/articles/2025/02/21/four-apps-come-to-the-fore-for-you
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lionlyg3jc2q">https://bsky.app/profile/riscosopen.bsky.social/post/3lionlyg3jc2q</a>
+      </address>
+    </article>
+
+    <article data-published="2025-02-21T10:54:00Z" data-link="https://www.riscosopen.org/news/articles/2025/02/21/four-apps-come-to-the-fore-for-you">
+      <h1>Four Apps Come to the Fore For You</h1>
+
+(date: 2025-02-21, from: <a href="https://www.riscosopen.org/news/articles/2025/02/21/four-apps-come-to-the-fore-for-you">https://www.riscosopen.org/news/articles/2025/02/21/four-apps-come-to-the-fore-for-you</a>)
+      <p>
+      <p>You may have blinked and missed a few application updates over the last few months as they scroll past on the <a href="/viewer/events">Recent changes</a> section of the home page. Don&#8217;t worry though! We&#8217;ve been keeping a watchful eye and, skipping over the smaller fixes for now, can bring you the main highlights.</p>
+      <address>
+        <a href="https://www.riscosopen.org/news/articles/2025/02/21/four-apps-come-to-the-fore-for-you">https://www.riscosopen.org/news/articles/2025/02/21/four-apps-come-to-the-fore-for-you</a>
+      </address>
+    </article>
+
+    <article data-published="2025-02-15T12:57:00Z" data-link="https://bsky.app/profile/archiveriscos.bsky.social/post/3li7reqmocs2i">
+      <h1>@archiveriscos.bsky.social</h1>
+
+(date: 2025-02-15, from: <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3li7reqmocs2i">archiveriscos.bsky.social</a>)
+      <p>
+      The latest issue of Archive is now on sale! 52 packed pages of RISC OS and Acorn goodness, including a tutorial of TWimp, the latest from RISC OS Developments, reviews of the RiscDOCK and official Raspberry Pi monitor - and much more! Subscribe now at www.archivemag.co.uk
+      <address>
+        <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3li7reqmocs2i">https://bsky.app/profile/archiveriscos.bsky.social/post/3li7reqmocs2i</a>
+      </address>
+    </article>
+
+    <article data-published="2025-02-15T09:05:00Z" data-link="https://bsky.app/profile/alephspace.bsky.social/post/3li7efqfi4k2n">
+      <h1>@@alephspace.bsky.social</h1>
+
+(date: 2025-02-15, from: <a href="https://bsky.app/profile/alephspace.bsky.social/post/3li7efqfi4k2n">@alephspace.bsky.social</a>)
+      <p>
+      Q for @dannyrobins.bsky.social re. the visuals in the TV episodes - do the witnesses have chance to sign these off to confirm that they are a fair representation of what they perceived, or are they more an artist's impression?
+
+(Incredible episode last night btw - I feel so sorry for Julian!)
+      <address>
+        <a href="https://bsky.app/profile/alephspace.bsky.social/post/3li7efqfi4k2n">https://bsky.app/profile/alephspace.bsky.social/post/3li7efqfi4k2n</a>
+      </address>
+    </article>
+
+    <article data-published="2025-02-14T22:19:00Z" data-link="https://bsky.app/profile/alephspace.bsky.social/post/3li6achu23c2d">
+      <h1>@@alephspace.bsky.social</h1>
+
+(date: 2025-02-14, from: <a href="https://bsky.app/profile/alephspace.bsky.social/post/3li6achu23c2d">@alephspace.bsky.social</a>)
+      <p>
+      Kudos to #TheLastLeg for canning their Twitter account - despite being a pillar of their live audience interaction. Excellent decision!
+
+Now just to get 'em over here :)
+      <address>
+        <a href="https://bsky.app/profile/alephspace.bsky.social/post/3li6achu23c2d">https://bsky.app/profile/alephspace.bsky.social/post/3li6achu23c2d</a>
+      </address>
+    </article>
+
+    <article data-published="2025-02-12T23:31:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3lhzdf2p3h22q">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2025-02-12, from: <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lhzdf2p3h22q">riscosopen.bsky.social</a>)
+      <p>
+      Hello to everyone on #BlueSky. RISC OS Open is pleased to have created a presence here. We'll be posting more on this in the coming days and weeks.
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3lhzdf2p3h22q">https://bsky.app/profile/riscosopen.bsky.social/post/3lhzdf2p3h22q</a>
+      </address>
+    </article>
+
+    <article data-published="2025-02-04T16:30:00Z" data-link="https://bsky.app/profile/archiveriscos.bsky.social/post/3lhei5s5fbk2o">
+      <h1>@archiveriscos.bsky.social</h1>
+
+(date: 2025-02-04, from: <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lhei5s5fbk2o">archiveriscos.bsky.social</a>)
+      <p>
+      Let's take one more look at Archive Magazine 27:3 before the new issue appears!
+* We welcomed Compo back, plus had a CompoScript tutorial. 
+* Think you know everything about Draw? Wrong!
+* Sprow's show report from The Netherlands.
+* We interviewed Acornsoft's Paul Fellows!
+...
+      <address>
+        <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lhei5s5fbk2o">https://bsky.app/profile/archiveriscos.bsky.social/post/3lhei5s5fbk2o</a>
+      </address>
+    </article>
+
+    <article data-published="2025-02-02T13:59:00Z" data-link="https://bsky.app/profile/alephspace.bsky.social/post/3lh76s5x3nc2t">
+      <h1>@@alephspace.bsky.social</h1>
+
+(date: 2025-02-02, from: <a href="https://bsky.app/profile/alephspace.bsky.social/post/3lh76s5x3nc2t">@alephspace.bsky.social</a>)
+      <p>
+      In our house, @dannyrobins.bsky.social has now replaced 'Ghostbusters' as the go-to answer to the question 'Who ya gonna call?'
+      <address>
+        <a href="https://bsky.app/profile/alephspace.bsky.social/post/3lh76s5x3nc2t">https://bsky.app/profile/alephspace.bsky.social/post/3lh76s5x3nc2t</a>
+      </address>
+    </article>
+
+    <article data-published="2025-02-01T18:29:00Z" data-link="https://bsky.app/profile/archiveriscos.bsky.social/post/3lh55fyijhc26">
+      <h1>@archiveriscos.bsky.social</h1>
+
+(date: 2025-02-01, from: <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lh55fyijhc26">archiveriscos.bsky.social</a>)
+      <p>
+      INCOMING! Archive 27:4 is out this week coming, and its 52 pages are packed to the gills with RISC OS and Acorn awesomeness. Archive is the magazine for RISC OS users with readers in 18 countries. Don't miss out, subscribe! #opensource #riscos #raspberrypi
+www.archivemag.co.uk
+https://media.tenor.com/bq0dfohxcNAAAAAC/ready-siap.gif?hh=259&ww=498
+      <address>
+        <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lh55fyijhc26">https://bsky.app/profile/archiveriscos.bsky.social/post/3lh55fyijhc26</a>
+      </address>
+    </article>
+
+    <article data-published="2025-02-01T12:23:16Z" data-link="https://www.riscosnorth.uk/index.php/2025/02/01/sponsored-by-wrocc/">
+      <h1>Sponsored by WROCC</h1>
+
+(date: 2025-02-01, from: <a href="https://www.riscosnorth.uk/index.php/2025/02/01/sponsored-by-wrocc/">https://www.riscosnorth.uk/index.php/2025/02/01/sponsored-by-wrocc/</a>)
+      <p>
+      We are pleased to announce the Wakefield RISC OS Computer Club (WROCC) as sponsors for RISC OS North. Club members should keep a close eye on their inboxes for further news about this. WROCC will also be exhibiting at the event, as well as running the charity stand. You&#8217;ll be able to sign up as [&#8230;]
+      <address>
+        <a href="https://www.riscosnorth.uk/index.php/2025/02/01/sponsored-by-wrocc/">https://www.riscosnorth.uk/index.php/2025/02/01/sponsored-by-wrocc/</a>
+      </address>
+    </article>
+
+    <article data-published="2025-01-24T20:00:00Z" data-link="https://bsky.app/profile/alephspace.bsky.social/post/3lgj6q3af6s2h">
+      <h1>@@alephspace.bsky.social</h1>
+
+(date: 2025-01-24, from: <a href="https://bsky.app/profile/alephspace.bsky.social/post/3lgj6q3af6s2h">@alephspace.bsky.social</a>)
+      <p>
+      Not impressed #BBC -.-
+      <address>
+        <a href="https://bsky.app/profile/alephspace.bsky.social/post/3lgj6q3af6s2h">https://bsky.app/profile/alephspace.bsky.social/post/3lgj6q3af6s2h</a>
+      </address>
+    </article>
+
+    <article data-published="2025-01-23T23:33:00Z" data-link="https://bsky.app/profile/alephspace.bsky.social/post/3lgh263o5gk2t">
+      <h1>@@alephspace.bsky.social</h1>
+
+(date: 2025-01-23, from: <a href="https://bsky.app/profile/alephspace.bsky.social/post/3lgh263o5gk2t">@alephspace.bsky.social</a>)
+      <p>
+      Who was the first person to decide that virtues were a *bad* thing to signal?
+      <address>
+        <a href="https://bsky.app/profile/alephspace.bsky.social/post/3lgh263o5gk2t">https://bsky.app/profile/alephspace.bsky.social/post/3lgh263o5gk2t</a>
+      </address>
+    </article>
+
+    <article data-published="2025-01-20T17:28:00Z" data-link="https://bsky.app/profile/alephspace.bsky.social/post/3lg6ufouz3c26">
+      <h1>@@alephspace.bsky.social</h1>
+
+(date: 2025-01-20, from: <a href="https://bsky.app/profile/alephspace.bsky.social/post/3lg6ufouz3c26">@alephspace.bsky.social</a>)
+      <p>
+      youtu.be/ahzNnXex5fY
+https://youtu.be/ahzNnXex5fY?si=6mFy8FIw6dPOuNHe
+      <address>
+        <a href="https://bsky.app/profile/alephspace.bsky.social/post/3lg6ufouz3c26">https://bsky.app/profile/alephspace.bsky.social/post/3lg6ufouz3c26</a>
+      </address>
+    </article>
+
+    <article data-published="2025-01-20T10:13:00Z" data-link="https://bsky.app/profile/archiveriscos.bsky.social/post/3lg644hobws2h">
+      <h1>@archiveriscos.bsky.social</h1>
+
+(date: 2025-01-20, from: <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lg644hobws2h">archiveriscos.bsky.social</a>)
+      <p>
+      TONIGHT! Graeme Shrimpton presents the new T-Wimp dev tool at this month's ROUGOL meeting. Join in person at The Duke of Sussex in London, or online via Zoom. Details at https://www.riscosopen.org/forum/forums/1/topics/19650
+
+Want more? Check out the upcoming issue of Archive for a T-Wimp tutorial! #riscos #opensource
+      <address>
+        <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lg644hobws2h">https://bsky.app/profile/archiveriscos.bsky.social/post/3lg644hobws2h</a>
+      </address>
+    </article>
+
+    <article data-published="2025-01-18T16:10:00Z" data-link="https://bsky.app/profile/archiveriscos.bsky.social/post/3lfzp4dhcrs24">
+      <h1>@archiveriscos.bsky.social</h1>
+
+(date: 2025-01-18, from: <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lfzp4dhcrs24">archiveriscos.bsky.social</a>)
+      <p>
+      Have news or any other items for inclusion in the next issue of Archive Magazine? The deadline is this Monday evening! #riscos #acorn #raspberrypi www.archivemag.co.uk
+https://www.archivemag.co.uk
+      <address>
+        <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lfzp4dhcrs24">https://bsky.app/profile/archiveriscos.bsky.social/post/3lfzp4dhcrs24</a>
+      </address>
+    </article>
+
+    <article data-published="2025-01-11T22:58:00Z" data-link="https://bsky.app/profile/alephspace.bsky.social/post/3lfisml36ek2x">
+      <h1>@@alephspace.bsky.social</h1>
+
+(date: 2025-01-11, from: <a href="https://bsky.app/profile/alephspace.bsky.social/post/3lfisml36ek2x">@alephspace.bsky.social</a>)
+      <p>
+      Required viewing - as always.
+
+[contains quote post or other embedded content]
+      <address>
+        <a href="https://bsky.app/profile/alephspace.bsky.social/post/3lfisml36ek2x">https://bsky.app/profile/alephspace.bsky.social/post/3lfisml36ek2x</a>
+      </address>
+    </article>
+
+    <article data-published="2024-12-21T15:58:00Z" data-link="https://bsky.app/profile/alephspace.bsky.social/post/3ldtbfgq6nk23">
+      <h1>@@alephspace.bsky.social</h1>
+
+(date: 2024-12-21, from: <a href="https://bsky.app/profile/alephspace.bsky.social/post/3ldtbfgq6nk23">@alephspace.bsky.social</a>)
+      <p>
+      Absolutely phenomenal!
+
+[contains quote post or other embedded content]
+      <address>
+        <a href="https://bsky.app/profile/alephspace.bsky.social/post/3ldtbfgq6nk23">https://bsky.app/profile/alephspace.bsky.social/post/3ldtbfgq6nk23</a>
+      </address>
+    </article>
+
+    <article data-published="2024-12-18T10:30:00Z" data-link="https://bsky.app/profile/alephspace.bsky.social/post/3ldl5njjvjs27">
+      <h1>@@alephspace.bsky.social</h1>
+
+(date: 2024-12-18, from: <a href="https://bsky.app/profile/alephspace.bsky.social/post/3ldl5njjvjs27">@alephspace.bsky.social</a>)
+      <p>
+      One I came up with a few years back :)
+
+Merry Christmas #Linux users /admins!
+
+[contains quote post or other embedded content]
+      <address>
+        <a href="https://bsky.app/profile/alephspace.bsky.social/post/3ldl5njjvjs27">https://bsky.app/profile/alephspace.bsky.social/post/3ldl5njjvjs27</a>
+      </address>
+    </article>
+
+    <article data-published="2024-12-14T14:41:00Z" data-link="https://bsky.app/profile/alephspace.bsky.social/post/3ldbjtik2722g">
+      <h1>@@alephspace.bsky.social</h1>
+
+(date: 2024-12-14, from: <a href="https://bsky.app/profile/alephspace.bsky.social/post/3ldbjtik2722g">@alephspace.bsky.social</a>)
+      <p>
+      The gospel according to Donald?
+
+[contains quote post or other embedded content]
+      <address>
+        <a href="https://bsky.app/profile/alephspace.bsky.social/post/3ldbjtik2722g">https://bsky.app/profile/alephspace.bsky.social/post/3ldbjtik2722g</a>
+      </address>
+    </article>
+
+    <article data-published="2024-12-03T18:04:00Z" data-link="https://bsky.app/profile/alephspace.bsky.social/post/3lcga23ggmc2m">
+      <h1>@@alephspace.bsky.social</h1>
+
+(date: 2024-12-03, from: <a href="https://bsky.app/profile/alephspace.bsky.social/post/3lcga23ggmc2m">@alephspace.bsky.social</a>)
+      <p>
+      Yes. Yes it is.
+
+[contains quote post or other embedded content]
+      <address>
+        <a href="https://bsky.app/profile/alephspace.bsky.social/post/3lcga23ggmc2m">https://bsky.app/profile/alephspace.bsky.social/post/3lcga23ggmc2m</a>
+      </address>
+    </article>
+
+    <article data-published="2024-12-02T15:05:00Z" data-link="https://bsky.app/profile/archiveriscos.bsky.social/post/3lcdfkhuylk2n">
+      <h1>@archiveriscos.bsky.social</h1>
+
+(date: 2024-12-02, from: <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lcdfkhuylk2n">archiveriscos.bsky.social</a>)
+      <p>
+      Out now! It's the new issue of Archive, the magazine for Acorn RISC OS users. Check out the contents and subscribe today - it's quick and easy, and it's not too late to get the new issue.
+archivemag.co.uk #riscos #raspberrypi #opensource
+      <address>
+        <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lcdfkhuylk2n">https://bsky.app/profile/archiveriscos.bsky.social/post/3lcdfkhuylk2n</a>
+      </address>
+    </article>
+
+    <article data-published="2024-12-02T14:38:00Z" data-link="https://bsky.app/profile/archiveriscos.bsky.social/post/3lcde2wqf7s2n">
+      <h1>@archiveriscos.bsky.social</h1>
+
+(date: 2024-12-02, from: <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lcde2wqf7s2n">archiveriscos.bsky.social</a>)
+      <p>
+      Hello, Bluesky! We are Archive, a magazine dedicated to the open source operating system, RISC OS. We have been publishing since 1987 which may make us the longest running computer publication in the world. Gosh.
+
+Check us out at www.archivemag.co.uk. #acorn #raspberrypi #opensource
+https://www.archivemag.co.uk
+      <address>
+        <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3lcde2wqf7s2n">https://bsky.app/profile/archiveriscos.bsky.social/post/3lcde2wqf7s2n</a>
+      </address>
+    </article>
+
+    <article data-published="2024-11-29T13:01:00Z" data-link="https://bsky.app/profile/alephspace.bsky.social/post/3lc3na5nrks2i">
+      <h1>@@alephspace.bsky.social</h1>
+
+(date: 2024-11-29, from: <a href="https://bsky.app/profile/alephspace.bsky.social/post/3lc3na5nrks2i">@alephspace.bsky.social</a>)
+      <p>
+      Well, I know where I'm going on holiday next year!
+
+[contains quote post or other embedded content]
+      <address>
+        <a href="https://bsky.app/profile/alephspace.bsky.social/post/3lc3na5nrks2i">https://bsky.app/profile/alephspace.bsky.social/post/3lc3na5nrks2i</a>
+      </address>
+    </article>
+
+    <article data-published="2024-11-28T17:28:00Z" data-link="https://bsky.app/profile/alephspace.bsky.social/post/3lbzlp6dqls2a">
+      <h1>@@alephspace.bsky.social</h1>
+
+(date: 2024-11-28, from: <a href="https://bsky.app/profile/alephspace.bsky.social/post/3lbzlp6dqls2a">@alephspace.bsky.social</a>)
+      <p>
+      A good old friend of mine - it's encouraging to know that he'll be able to bring his practical, forward-thinking and transformational visions to central government!
+
+[contains quote post or other embedded content]
+      <address>
+        <a href="https://bsky.app/profile/alephspace.bsky.social/post/3lbzlp6dqls2a">https://bsky.app/profile/alephspace.bsky.social/post/3lbzlp6dqls2a</a>
+      </address>
+    </article>
+
+    <article data-published="2024-10-23T23:43:00Z" data-link="https://www.riscosopen.org/news/articles/2024/10/23/london-show-roars-again">
+      <h1>London show roars again</h1>
+
+(date: 2024-10-23, from: <a href="https://www.riscosopen.org/news/articles/2024/10/23/london-show-roars-again">https://www.riscosopen.org/news/articles/2024/10/23/london-show-roars-again</a>)
+      <p>
+      <p style="float:left;"><img src="/images/risc_os_open/shows/rougol2024.png" title="Show banner" alt="Show banner" /></p>
+<p>After a short interlude, the <a href="https://www.riscoslondonshow.co.uk/">London show</a> is back in a new venue this Saturday the 26th October from 11am. The <a href="http://rougol.jellybaby.net/">organisers</a> have lined up an impressive list of exhibitors, all bringing the latest software and hardware developments in the <span class="caps">RISC</span> OS world for you to explore.</p>
+      <address>
+        <a href="https://www.riscosopen.org/news/articles/2024/10/23/london-show-roars-again">https://www.riscosopen.org/news/articles/2024/10/23/london-show-roars-again</a>
+      </address>
+    </article>
+
+    <article data-published="2024-09-22T22:11:00Z" data-link="https://www.riscosopen.org/news/articles/2024/09/22/a-metric-tonne-of-risc-os-improvements">
+      <h1>A metric tonne of RISC OS improvements</h1>
+
+(date: 2024-09-22, from: <a href="https://www.riscosopen.org/news/articles/2024/09/22/a-metric-tonne-of-risc-os-improvements">https://www.riscosopen.org/news/articles/2024/09/22/a-metric-tonne-of-risc-os-improvements</a>)
+      <p>
+      <p style="float:right;"><img src="/images/risc_os_open/screenshots/git1000.png" title="Reaching 1000 merged merge requests" alt="Reaching 1000 merged merge requests" /></p>
+<p>This is one for the all developers out there! We love celebrating significant <a href="/news/articles/2014/04/15/birthday-celebration">anniversaries</a> and <a href="/news/articles/2014/05/01/happy-birthday-basic">milestones</a>, so it didn&#8217;t escape our notice that the <a href="https://gitlab.riscosopen.org/RiscOS">source code to <span class="caps">RISC</span> OS</a> has just reached one thousand accepted merge requests since being migrated to be <a href="/news/articles/2019/10/10/were-throwing-open-the-doors-to-our-lab">held in Git</a> back in 2019.</p>
+      <address>
+        <a href="https://www.riscosopen.org/news/articles/2024/09/22/a-metric-tonne-of-risc-os-improvements">https://www.riscosopen.org/news/articles/2024/09/22/a-metric-tonne-of-risc-os-improvements</a>
+      </address>
+    </article>
+
+    <article data-published="2024-07-09T17:18:00Z" data-link="https://www.riscosopen.org/news/articles/2024/07/09/an-epic-reshuffle">
+      <h1>An ePic reshuffle</h1>
+
+(date: 2024-07-09, from: <a href="https://www.riscosopen.org/news/articles/2024/07/09/an-epic-reshuffle">https://www.riscosopen.org/news/articles/2024/07/09/an-epic-reshuffle</a>)
+      <p>
+      <p style="float:left;"><img src="/images/risc_os_open/sales/epic.png" title="One ePic distribution" alt="One ePic distribution" /></p>
+<p>ePic is a single SD card combining both the official <span class="caps">RISC</span> OS Pi release plus a <a href="/content/sales/risc-os-epic/epic-contents">huge bundle</a> of commercial applications (previously called NutPi) totalling almost £600, had they each been bought individually.</p>
+      <address>
+        <a href="https://www.riscosopen.org/news/articles/2024/07/09/an-epic-reshuffle">https://www.riscosopen.org/news/articles/2024/07/09/an-epic-reshuffle</a>
+      </address>
+    </article>
+
+    <article data-published="2023-08-07T15:51:00Z" data-link="https://bsky.app/profile/riscos.bsky.social/post/3k4ewwnytoi2p">
+      <h1>@riscos.bsky.social</h1>
+
+(date: 2023-08-07, from: <a href="https://bsky.app/profile/riscos.bsky.social/post/3k4ewwnytoi2p">riscos.bsky.social</a>)
+      <p>
+      London double-decker bus racing in 1982.  Sponsored by Acorn Computer.
+
+https://www.youtube.com/watch?v=8SlO5_ykips
+
+(Hat-tip to @tomscott.com's newsletter for the link)
+      <address>
+        <a href="https://bsky.app/profile/riscos.bsky.social/post/3k4ewwnytoi2p">https://bsky.app/profile/riscos.bsky.social/post/3k4ewwnytoi2p</a>
       </address>
     </article>
   </section>
