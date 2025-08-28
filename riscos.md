@@ -29,5 +29,5 @@ description: RISC OS News from around the web
 - [RISC OS Open Articles](https://www.riscosopen.org/news/xml/rss20/feed/feed.xml.rss20 "RISC OS Open Articles feed")
 - [RISC OS North UK](https://www.riscosnorth.uk/index.php/feed/ "RISC OS North UK User Group News")
 - [KevSoft News](https://kevsoft.wordpress.com/feed/ "KevSoft News")
-  - KevSoft <https://kevsoft.co.uk/ "RISC OS software">
+  - KevSoft <https://kevsoft.co.uk/>, RISC OS software
 - Archive Magazine <https://archivemag.co.uk/>
