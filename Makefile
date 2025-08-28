@@ -5,7 +5,7 @@ HTML_FILES := $(MD_FILES:.md=.html)
 # Default target
 all: $(HTML_FILES) riscos_list.html
 
-riscos_list.html: riscos.md
+riscos_list.html: riscos.md .FORCE
 	pandoc -s -f markdown -t html5 riscos.md >riscos_list.html
 
 # Rule to convert Markdown to HTML
@@ -28,4 +28,4 @@ refresh:
 	git fetch origin
 	git pull origin $(BRANCH)
 
-
+.FORCE:
