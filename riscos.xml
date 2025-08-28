@@ -6,10 +6,17 @@
       RISC OS News from around the web
     </description>
     <link>http://localhost:8000</link>
-    <lastBuildDate>2025-08-28 16:07:45</lastBuildDate>
+    <lastBuildDate>2025-08-28 16:25:15</lastBuildDate>
     <generator>antenna/0.0.0</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3lxikqjbfn22u</link>
+      <description>
+        <![CDATA[I subscribe to 90% retro tech channels on YouTube and the remaining 10% are just random things I saw once and found amusing. I swear the only new video notifications I ever get are from this one guy in Japan posting videos of his parrot.]]>
+      </description>
+      <guid>at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lxikqjbfn22u</guid>
+      <pubDate>2025-08-28T22:10:00Z</pubDate>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3lxi2lfvfw225</link>
       <description>
         <![CDATA[A note about the misnamed, misused, misdesigned and misimplemented RISC OS “Message_WindowClosed”.
@@ -304,22 +311,6 @@
       <guid>www.riscosopen.org:1:19991:158738</guid>
       <pubDate>2025-08-24T15:27:30Z</pubDate>
     </item>    <item>
-      <title>Opportunity for a re-think?</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
-      <description>
-        <![CDATA[<p>Hi Glenn,</p>
-        <p>I can give you access if you want, but please note that the code is very complex and not for the faint of heart. Merlin is not <span class="caps">RISC</span> OS, although it could be considered &#8220;a <span class="caps">RISC</span> OS.&#8221; At the moment it is just a kernel, a <span class="caps">HAL</span>, and the foundation for an emulation layer required to run legacy <span class="caps">RISC</span> OS on modern hardware (not only for 64-bit support, but also for many other reasons).</p>
-        <p>The reasons why it is not public are simple:</p>
-        <p>1. Some people in this small community are asking for a lot of money, and I do not want to fuel that. To give one example, <span class="caps">ROOL</span> is currently asking for £2.5 million to port <span class="caps">RISC</span> OS to 64-bit. That is an enormous amount for such a small community, especially considering that many of the problems they have yet to address (and which Gerph avoided by keeping his 64-bit version tied to the original) have already been solved in Merlin.</p>
-        <p>2. I am fairly certain no one here can really help. (Forgive me if I sound judgmental.) What usually happens is: I give people access, they clone the repository, they do nothing with it, in some cases they get overwhelmed, and eventually some may try to use it as leverage with <span class="caps">ROOL</span>, which clearly does not have the skillset required to work on something as complex as Merlin. So why do people want access? Often it is because they cannot believe it is real, or they want to check if I used their code for the emulation, or they want to show that they understand OS design and development (which, when using a memory-safe language, is quite different from traditional approaches). None of this helps me, Merlin, or <span class="caps">RISC</span> OS in any way.</p>
-        <p>3. Merlin is released under the <span class="caps">MPL</span> 2.0 license. This means the code I wrote is protected much like <span class="caps">GPL</span>, but it can still link with other licensed code, even proprietary code. Here, <span class="caps">GPL</span> is often treated as if it were some sort of &#8220;virus,&#8221; and honestly I do not wish to deal with the usual nonsense in that regard.</p>
-        <p>4. Merlin has already attracted the interest of a couple of companies. Right now, I am more focused on developing the requirements we have agreed upon than on the <span class="caps">RISC</span> OS compatibility layer, which can wait anyway. <span class="caps">ROOL</span> has not published anything about 64-bit, <span class="caps">ROD</span> has not mentioned anything, and Gerph, as usual, is working very hard. But I am not completely sure whether he is porting <span class="caps">RISC</span> OS 5 to 64-bit or the RO Ltd branch. The situation looks very confusing to me (perhaps I am simply not smart enough to understand what is actually happening).</p>
-        <p>So let me ask you this: If I give you access to the sources, what&#8217;s in it for me and for <span class="caps">RISC</span> OS?</p>
-        <p>P.S. Again my apologies if I may have sounded too blunt or direct, English is not my main language, no offence intended to anyone.</p>]]>
-      </description>
-      <guid>www.riscosopen.org:13:19949:158734</guid>
-      <pubDate>2025-08-24T11:28:07Z</pubDate>
-    </item>    <item>
       <title>riscos64-status update</title>
       <link>https://www.riscosopen.org/forum/forums/13/topics/19994</link>
       <description>
@@ -351,6 +342,25 @@
       </description>
       <guid>www.riscosopen.org:11:19995:158730</guid>
       <pubDate>2025-08-24T09:40:36Z</pubDate>
+    </item>    <item>
+      <title>Opportunity for a re-think?</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
+      <description>
+        <![CDATA[<p><a href="https://www.riscosopen.org/forum/forums/13/topics/19949?limit=25&amp;page=1#posts-158239">https://www.riscosopen.org/forum/forums/13/topics/1994…</a><br />
+        <blockquote>Anyway, I can share what I have done with my own <span class="caps">RISC</span> OS (Merlin).</p>
+        </blockquote>
+        <p>Hi Paolo</p>
+        <p>I would very much like see the source code of your Merlin OS &#8211; is that possible? I know it is not complete. Is it public?</p>
+        <p>I found this page:<br />
+        <a href="https://paolozaino.wordpress.com/portfolio/merlin-a-modern-memory-safe-kernel-and-platform/">https://paolozaino.wordpress.com/portfolio/merlin-a-mo…</a></p>
+        <p>Found some of the answer:<br />
+        <a href="https://paolozaino.wordpress.com/2025/08/08/merlin-os-building-trust-in-risc-os-merlin-with-formal-verification-methods/">https://paolozaino.wordpress.com/2025/08/08/merlin-os-…</a><br />
+        Quote: &#8220;&#8230;<br />
+        All this extra work exists to reduce surprises when Merlin is finally released as a public, Open Source OS, for people to explore, learn from, and yes, even break.<br />
+        &#8230;&#8221;</p>]]>
+      </description>
+      <guid>www.riscosopen.org:13:19949:158728</guid>
+      <pubDate>2025-08-24T09:09:31Z</pubDate>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3lx2xm6czv223</link>
       <description>
