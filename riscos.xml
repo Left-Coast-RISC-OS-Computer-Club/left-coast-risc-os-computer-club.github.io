@@ -6,7 +6,7 @@
       RISC OS News from around the web
     </description>
     <link>http://localhost:8000</link>
-    <lastBuildDate>2025-08-29 13:15:11</lastBuildDate>
+    <lastBuildDate>2025-08-29 13:18:25</lastBuildDate>
     <generator>antenna/0.0.0</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
@@ -427,6 +427,14 @@
       <guid>www.riscosopen.org:1:19991:158739</guid>
       <pubDate>2025-08-24T15:54:00Z</pubDate>
     </item>    <item>
+      <title>Cherry Bomb revisited in BBC BASIC</title>
+      <link>https://www.riscository.com/2025/cherry-bomb-bbc-basic/</link>
+      <description>
+        <![CDATA[A couple of years ago, Jeroen Vermeulen ported Cherry Bomb to RISC OS, a shoot &#8217;em up &#8211; aka a &#8216;shmup&#8217; according to its original developer, Krystian Majewski &#8211; in which you control a ship at the bottom of the screen, and shoot down the incoming waves of alien attackers. The original game was developed as part of a tutorial series on a YouTube channel called Lazy Devs Academy, operated by Krystian, and Jeroen&#8217;s aim was to learn from those tutorials. He initially brought Cherry Bomb to RISC OS using&#8230;]]>
+      </description>
+      <guid>https://www.riscository.com/?p=10692</guid>
+      <pubDate>2025-08-24T15:14:06Z</pubDate>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3lx5d72k3r22c</link>
       <description>
         <![CDATA[This is all kinds of depressing.
@@ -588,6 +596,14 @@
       <guid>at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3lwluqggb2s2m</guid>
       <pubDate>2025-08-17T12:22:00Z</pubDate>
     </item>    <item>
+      <title>Mark Moxon to talk to ROUGOL about networking Elite – 18th August</title>
+      <link>https://www.riscository.com/2025/mark-moxon-rougol-networking-elite-18th-august/</link>
+      <description>
+        <![CDATA[Note, that&#8217;s &#8216;networking Elite&#8217; and not &#8216;THE networking elite&#8217; At the next meeting of the RISC OS User Group of London (ROUGOL), on Monday, 18th August, Mark Moxon will be joining everyone in the pub to talk about the things he&#8217;s done since the last time he visited, almost two years ago. His main focus will most decidedly NOT be on people who consider themselves to be elite, and how they network amongst themselves, and instead on how he has added network &#8211; specifically Econet &#8211; support to Elite, beginning&#8230;]]>
+      </description>
+      <guid>https://www.riscository.com/?p=10687</guid>
+      <pubDate>2025-08-16T15:34:43Z</pubDate>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3lwjog6py7c2j</link>
       <description>
         <![CDATA[Genuinely clever bit of origami:
@@ -595,6 +611,14 @@
       </description>
       <guid>at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3lwjog6py7c2j</guid>
       <pubDate>2025-08-16T15:23:00Z</pubDate>
+    </item>    <item>
+      <title>Screen grab websites with Webshot from Kevin Wells</title>
+      <link>https://www.riscository.com/2025/screen-grab-websites-webshot/</link>
+      <description>
+        <![CDATA[Kevin Wells has released a new application, called Webshot, which aims to take screen grabs of web pages. However, what it doesn&#8217;t do is simply save the screen (or browser window), which you could achieve anyway using Paint&#8217;s snapshot facility, or a third party application such as Snapper. Instead, you give it the address of the page you want a snapshot of, and using Wget, Webshot sends that information off to the application programmer interface of a website called Screenshot API, and what the site feeds back is an image&#8230;]]>
+      </description>
+      <guid>https://www.riscository.com/?p=10685</guid>
+      <pubDate>2025-08-16T15:02:02Z</pubDate>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3lwj2paube22j</link>
       <description>
@@ -748,6 +772,14 @@
       </description>
       <guid>at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3lvyaqgwnws2g</guid>
       <pubDate>2025-08-09T17:03:00Z</pubDate>
+    </item>    <item>
+      <title>The rest of the year mapped out by ROUGOL</title>
+      <link>https://www.riscository.com/2025/rest-rougol-year/</link>
+      <description>
+        <![CDATA[Well, in the context of ROUGOL, anyway. If you regularly attend the RISC OS User Group of London (ROUGOL) meetings &#8211; whether in person or online &#8211; you&#8217;ll know when the meetings will take place each month; it&#8217;s easy enough to remember, being &#8211; unless circumstances force a change &#8211; the third Monday of each month, with December often being an exception because of the proximity to Christmas. What you usually won&#8217;t know until much closer to each meeting day, though, it&#8217;s what the meeting subject will be. Well, for&#8230;]]>
+      </description>
+      <guid>https://www.riscository.com/?p=10679</guid>
+      <pubDate>2025-08-09T12:18:37Z</pubDate>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3lvxem3zpq22d</link>
       <description>
@@ -903,6 +935,22 @@
       </description>
       <guid>at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3lvjmh5mihc2i</guid>
       <pubDate>2025-08-03T21:23:00Z</pubDate>
+    </item>    <item>
+      <title>Developers’ fireside chat – 9th August</title>
+      <link>https://www.riscository.com/2025/developers-fireside-chat-9th-august/</link>
+      <description>
+        <![CDATA[The next friendly fireside chat for people interested in RISC OS software development will take place at 7:30pm on Saturday, 9th August. Taking place online via the Zoom video conferencing service, these meetings are intended as an informal way of allowing RISC OS programmers, and anyone interested in the subject, to get together online to discuss relevant matters. With no specific topic planned, discussions are steered by what people bring up, so that could be their current works-in-progress, development of RISC OS itself, the tools available, and so on –&#8230;]]>
+      </description>
+      <guid>https://www.riscository.com/?p=10677</guid>
+      <pubDate>2025-08-03T16:17:59Z</pubDate>
+    </item>    <item>
+      <title>A software variety at WROCC – 6th August</title>
+      <link>https://www.riscository.com/2025/software-variety-at-wrocc-6th-august/</link>
+      <description>
+        <![CDATA[The Wakefield RISC OS Computer Club (WROCC) will be holding their next meeting on Wednesday, 6th August, at which the club&#8217;s own Chris Hughes will deliver &#8220;an off-the-cuff talk exploring various software topics&#8221;. The specific subjects he wants to cover include Pinboard2 features, overlooked aspects of web browser Iris, and a look at Lock Screen software. He also wants to share some general hints and tips and, if possible, he&#8217;ll go into setting up Internet Printing Protocol (IPP) from RISC OS. The start time for the meeting is 7:45pm, and&#8230;]]>
+      </description>
+      <guid>https://www.riscository.com/?p=10675</guid>
+      <pubDate>2025-08-03T16:13:58Z</pubDate>
     </item>    <item>
       <link>https://bsky.app/profile/riscosopen.bsky.social/post/3lvj2mqgtjk2t</link>
       <description>
@@ -1223,6 +1271,14 @@
       <guid>at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3luibfshwwc2i</guid>
       <pubDate>2025-07-21T15:08:00Z</pubDate>
     </item>    <item>
+      <title>Two new ‘companion’ computers from RISCOSbits</title>
+      <link>https://www.riscository.com/2025/companion-computers-from-riscosbits/</link>
+      <description>
+        <![CDATA[If you&#8217;re on certain social media websites, you may have noticed a couple of polls run by RISCOSbits recently. These formed a part of the company&#8217;s research and development, as they decided exactly which direction to take for some new kit that was in the works &#8211; and that new hardware can now be revealed: There are two shiny new toys in the range, both of which are &#8216;companion&#8217; systems designed to work alongside existing RISC OS computers &#8211; with one version of one of the two machines actually intended&#8230;]]>
+      </description>
+      <guid>https://www.riscository.com/?p=10667</guid>
+      <pubDate>2025-07-21T15:05:00Z</pubDate>
+    </item>    <item>
       <title>RISCOSbits releases new ECOS systems for Windows, Retro and Fileserving</title>
       <link>http://www.iconbar.com/comments/rss/news2223.html</link>
       <description>
@@ -1357,6 +1413,14 @@
       <guid>urn:uuid:8b9f406a-8e2a-47cc-8fe9-4f0e9541c7f4</guid>
       <pubDate>2025-07-18T14:27:00Z</pubDate>
     </item>    <item>
+      <title>R-Comp 5erving up info about new kit to ROUGOL – 21st July</title>
+      <link>https://www.riscository.com/2025/r-comp-5erving-up-info-to-rougol-21st-july/</link>
+      <description>
+        <![CDATA[R-Comp recently announced two new systems, both based around the Raspberry Pi 5 compute module &#8211; the 5idekick, and the Pi5erve &#8211; and on Monday, 21st July Andrew Rawnsley will be talking to the RISC OS User Group of London (ROUGOL) about these machines and other recent developments and updates. Andrew plans to begin his talk on the subject of NVMe and the block drivers, venturing in the direction of the multi-headed Hydra systems available from R-Comp, and that will in turn bring the talk around to 5idekick (which in&#8230;]]>
+      </description>
+      <guid>https://www.riscository.com/?p=10662</guid>
+      <pubDate>2025-07-18T10:44:35Z</pubDate>
+    </item>    <item>
       <title>R-Comp launches the 5idekick and the pi5erve</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13466&page=1#125812</link>
       <description>
@@ -1371,6 +1435,22 @@
       </description>
       <guid>at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3lu46dkkffk2b</guid>
       <pubDate>2025-07-16T19:41:00Z</pubDate>
+    </item>    <item>
+      <title>Web2PDF – a new application from Kevin Wells</title>
+      <link>https://www.riscository.com/2025/web2pdf-released/</link>
+      <description>
+        <![CDATA[Kevin Wells has found another remote application programmer interface (API) to make use of for the benefit of RISC OS users, and as a result has released a new application: Web2PDF. Like a lot of Kevin&#8217;s software, Web2PDF makes use of Wget to relay information input into the program&#8217;s RISC OS window to the remote API, and then feed the results back to the user. Usually those results are presented to the user via the application itself, but this time there is a subtle difference. The remote API used by&#8230;]]>
+      </description>
+      <guid>https://www.riscository.com/?p=10660</guid>
+      <pubDate>2025-07-16T16:02:12Z</pubDate>
+    </item>    <item>
+      <title>ArcMouse shrinks into a v2 form</title>
+      <link>https://www.riscository.com/2025/arcmouse-v2/</link>
+      <description>
+        <![CDATA[Some time back, Karl Clark released ArcMouse, an interface that could be plugged in to the mouse port on Archimedes-era ARM-based computers from Acorn and allowed a more standard USB mouse to be used. Karl has now improved on the design, and has launched ArcMouse version 2. The new design is that at just 12mm wide, it&#8217;s notably smaller than the older version, which makes it more compatible with the &#8216;all in one&#8217; style of RISC OS computer from Acorn (such as the A3000, on which the mouse port is&#8230;]]>
+      </description>
+      <guid>https://www.riscository.com/?p=10658</guid>
+      <pubDate>2025-07-16T15:44:14Z</pubDate>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ltzc2sluec2x</link>
       <description>

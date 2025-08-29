@@ -29,6 +29,7 @@ description: RISC OS News from around the web
 - [RISC OS Open Forums](https://www.riscosopen.org/forum/posts.rss "RISC OS OPen Forums")
 - [RISC OS Open News](https://www.riscosopen.org/news/xml/rss20/feed/feed.xml.rss20 "RISC OS Open News feed")
 - [RISC OS North UK](https://www.riscosnorth.uk/index.php/feed/ "RISC OS North UK User Group News")
+- [RISCOStory](https://www.riscository.com/feed/ "RISCOStory a website about all things RISC OS")
 
 # RISC OS websites
 
@@ -40,4 +41,5 @@ description: RISC OS News from around the web
 - RISC OS Open Articles and News <https://www.riscosopen.org/news/> RISC OS Open News feed
 - RISC OS Open Forums <https://www.riscosopen.org/forum/> RISC OS OPen Forums
 - RISC OS North UK <https://www.riscosnorth.uk/index.php> RISC OS North UK User Group News
+- RISCOStory <https://www.riscository.com/> RISCOStory provides info, hosts mailing lists, videos, events and tutorials around RISC OS
 - ROUGOL <https://rougol.jellybaby.net/index.html> RISC OS User Group of London
