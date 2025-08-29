@@ -21,6 +21,7 @@ description: RISC OS News from around the web
     
 # RISC OS websites RSS
 
+- [Big Ben Club](https://www.bigbenclub.nl/feed/ "Dutch RISC OS computer club")
 - [Iconbar](https://www.iconbar.com/rss-rss20.php "Iconbar RISC OS news aggregator")
 - [Iconbar (forum updates)](https://www.iconbar.com/forums/rss-rss20.php "Iconbar Forums Updates")
 - [KevSoft News](https://kevsoft.wordpress.com/feed/ "KevSoft News")
@@ -33,8 +34,9 @@ description: RISC OS News from around the web
 
 # RISC OS websites
 
-- Archive Magazine <https://archivemag.co.uk/>
-- Iconbar <https://www.iconbar.com/rss-rss20.php>, Iconbar RISC OS news aggregator
+- Archive Magazine <https://archivemag.co.uk/> a **long publishing** RISC OS computer magazine
+- Big Ben Club <https://www.bigbenclub.nl/rox/que/en/> Dutch Acorn/RISC OS computer club
+- Iconbar <https://www.iconbar.com/rss-rss20.php> Iconbar RISC OS news aggregator
 - Iconbar (forum updates) <https://www.iconbar.com/forums/> Iconbar Forums Updates
 - KevSoft <https://kevsoft.co.uk/>, RISC OS software
 - RISC OS Development <https://www.riscosdev.com/> RISC OS Developmenet website
@@ -43,3 +45,4 @@ description: RISC OS News from around the web
 - RISC OS North UK <https://www.riscosnorth.uk/index.php> RISC OS North UK User Group News
 - RISCOStory <https://www.riscository.com/> RISCOStory provides info, hosts mailing lists, videos, events and tutorials around RISC OS
 - ROUGOL <https://rougol.jellybaby.net/index.html> RISC OS User Group of London
+
