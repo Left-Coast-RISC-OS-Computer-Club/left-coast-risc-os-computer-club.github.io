@@ -19,7 +19,7 @@ We are a tiny club of RISC OS enthusiast who meet virtual on the Western Coast o
   - [RISC OS website list](riscos_list.html)
 - Contributing content to [Left Coast RISC OS Computer Club](contributing_news_items.html "Contribute content to LCROCC")
 
-We invite you to journey without as we explore RISC OS on our favorite tiny personal computers, Raspberry PI 2W.
+We invite you a journey. Explore RISC OS on our favorite tiny personal computers, Raspberry PI Zero 2W. It fits on a keychain!
 
 You can find our projects on GitHub at  <https://github.com/Left-Coast-RISC-OS-Computer-Club>
 

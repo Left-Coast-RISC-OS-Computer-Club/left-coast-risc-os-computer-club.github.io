@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-for FNAME in contributing_news_items.md index.md README.md riscos.md; do
+for FNAME in contributing_news_items.md index.md riscos.md; do
   HTML_NAME="$(basename "${FNAME}" ".md").html"
   printf "%s -> %s\n" "${FNAME}" "${HTML_NAME}" 
   pandoc -s -f markdown -t html5 --template page.tmpl "${FNAME}" >"${HTML_NAME}"
