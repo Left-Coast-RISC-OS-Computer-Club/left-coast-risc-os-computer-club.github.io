@@ -21,6 +21,7 @@ description: RISC OS News from around the web
     
 # RISC OS websites RSS
 
+- [Stardot](https://www.stardot.org.uk/forums/app.php/feed?sid=a587d6d194b8e612ce7b499bad9b3b36 "Acorn Computer Users forum")
 - [Big Ben Club](https://www.bigbenclub.nl/feed/ "Dutch RISC OS computer club")
 - [Iconbar](https://www.iconbar.com/rss-rss20.php "Iconbar RISC OS news aggregator")
 - [Iconbar (forum updates)](https://www.iconbar.com/forums/rss-rss20.php "Iconbar Forums Updates")
@@ -34,6 +35,7 @@ description: RISC OS News from around the web
 
 # RISC OS websites
 
+- AAUG <https://www.aaug.net/index.html> Association of Acorn User Groups
 - Archive Magazine <https://archivemag.co.uk/> a **long publishing** RISC OS computer magazine
 - Big Ben Club <https://www.bigbenclub.nl/rox/que/en/> Dutch Acorn/RISC OS computer club
 - Iconbar <https://www.iconbar.com/rss-rss20.php> Iconbar RISC OS news aggregator
@@ -43,6 +45,8 @@ description: RISC OS News from around the web
 - RISC OS Open Articles and News <https://www.riscosopen.org/news/> RISC OS Open News feed
 - RISC OS Open Forums <https://www.riscosopen.org/forum/> RISC OS OPen Forums
 - RISC OS North UK <https://www.riscosnorth.uk/index.php> RISC OS North UK User Group News
+- RISCOS.be <http://www.riscos.be/index-B.htm> Flemish Computer Club for RISC OS
 - RISCOStory <https://www.riscository.com/> RISCOStory provides info, hosts mailing lists, videos, events and tutorials around RISC OS
+- RISCOS.com <http://www.riscos.com/riscos/600/index.php> 
 - ROUGOL <https://rougol.jellybaby.net/index.html> RISC OS User Group of London
-
+- Stardot Forums <https://www.stardot.org.uk/forums/> Forum for users of Acorn computers and emulators
