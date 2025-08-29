@@ -40,3 +40,4 @@ description: RISC OS News from around the web
 - RISC OS Open Articles and News <https://www.riscosopen.org/news/> RISC OS Open News feed
 - RISC OS Open Forums <https://www.riscosopen.org/forum/> RISC OS OPen Forums
 - RISC OS North UK <https://www.riscosnorth.uk/index.php> RISC OS North UK User Group News
+- ROUGOL <https://rougol.jellybaby.net/index.html> RISC OS User Group of London
