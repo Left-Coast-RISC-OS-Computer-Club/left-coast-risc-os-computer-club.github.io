@@ -11,9 +11,9 @@ keywords:
   - Club
 ---
 
-# Welcome to the Left Coast RISC OS Computer Club
+# Welcome to the LCROCC (Lack Rock)
 
-We are a tiny club of RISC OS enthusiast who meet virtual on the Western Coast of North America at random time and over random intervals.
+We are a tiny club of RISC OS enthusiast who meet virtual on the Western Coast of North America at random times and over random intervals.
 
 - [RISC OS around the web](riscos.html)
   - [RISC OS website list](riscos_list.html)

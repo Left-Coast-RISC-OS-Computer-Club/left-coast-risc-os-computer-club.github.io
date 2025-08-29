@@ -1,267 +1,117 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="en-US">
 <head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="description" content="RISC OS News from around the web" />
-  <title>RISC OS</title>
-  <style>
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 12px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      html {
-        background-color: white;
-      }
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    svg {
-      height: auto;
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-      font-size: 85%;
-      margin: 0;
-      hyphens: manual;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
+  <title>LCROSCC - Left Coast RISC OS Computer Club</title>
+  <link href="/css/site.css" rel="stylesheet">
+  <script type="module" src="/modules/date_filter.js"></script>
 </head>
 <body>
-<header id="title-block-header">
-<h1 class="title">RISC OS</h1>
-</header>
-<h1 id="risc-os-related-bsky-accounts-rss">RISC OS related Bsky accounts
-RSS</h1>
-<ul>
-<li><a
-href="https://bsky.app/profile/did:plc:fspcx32r4ektlhvhf6e7goh2/rss"
-title="Colin Hoad on Bsky">colinhoad.com</a></li>
-<li><a
-href="https://bsky.app/profile/did:plc:io6owsze2yxsfsl2cd7znmik/rss"
-title="Kevin Edwards on Bsky">kevedwardsretro.bsky.social</a></li>
-<li><a
-href="https://bsky.app/profile/did:plc:dwfxyvdv4do6nh2nxpeuhchh/rss"
-title="ARM Bytes on Bsky">armbytes.bsky.social</a></li>
-<li><a
-href="https://bsky.app/profile/did:plc:gu36an7j4b2ck74blgn5eox6/rss"
-title="IconBar on Bsky">iconbar.com</a></li>
-<li><a
-href="https://bsky.app/profile/did:plc:iimd7g74rssohysfgvdvgkmn/rss"
-title="Nemo 2000 on Bsky">nemo20000.bsky.social</a></li>
-<li><a
-href="https://bsky.app/profile/did:plc:rkxyi6vbupvkgetuir5ljywn/rss"
-title="Paolo Fabio Zaino on Bsky">paolofabiozaino.bsky.social</a></li>
-<li><a
-href="https://bsky.app/profile/did:plc:u6srdtx7nxcymlrozzxkj234/rss"
-title="Gavin Crawford on Bsky">givvygavvygoo.bsky.social</a></li>
-<li><a
-href="https://bsky.app/profile/did:plc:la2htv4hkumsun6qyecwejli/rss"
-title="RISCOSBits on Bsky">riscosbits.co.uk</a></li>
-<li><a
-href="https://bsky.app/profile/did:plc:5ugs4tgjdxjxjvxhmdpza2fq/rss"
-title="RISC OS on Bsky">riscos.bsky.social</a></li>
-<li><a
-href="https://bsky.app/profile/did:plc:e3k7odasqhsg6xfgfkvovpsb/rss"
-title="RISC OS Open on Bsky">riscosopen.bsky.social</a></li>
-<li><a
-href="https://bsky.app/profile/did:plc:qc7wakonwzdm2lqkgax4zatd/rss"
-title="RISC OS London on Bsky">rougol.bsky.social</a></li>
-<li><a
-href="https://bsky.app/profile/did:plc:3nemd4ccpca5uxluat5znw4s/rss"
-title="Archive Magazine on Bsky">archiveriscos.bsky.social</a></li>
-<li><a
-href="https://bsky.app/profile/did:plc:6e6hyubsieooaqyrh4smwbm5/rss"
-title="Tom Pickering on Bsky"><span class="citation"
-data-cites="alephspace.bsky.social">@alephspace.bsky.social</span></a></li>
-</ul>
-<h1 id="risc-os-websites-rss">RISC OS websites RSS</h1>
-<ul>
-<li><a href="https://www.iconbar.com/rss-rss20.php"
-title="Iconbar RISC OS news aggregator">Iconbar</a></li>
-<li><a href="https://www.iconbar.com/forums/rss-rss20.php"
-title="Iconbar Forums Updates">Iconbar (forum updates)</a></li>
-<li><a href="https://www.riscosdev.com/feed/"
-title="RISC OS Developmenet website">RISC OS Development</a></li>
-<li><a
-href="https://www.riscosopen.org/news/xml/rss20/feed/feed.xml.rss20"
-title="RISC OS Open News feed">RISC OS Open News</a></li>
-<li><a
-href="https://www.riscosopen.org/news/xml/rss20/feed/feed.xml.rss20"
-title="RISC OS Open Articles feed">RISC OS Open Articles</a></li>
-<li><a href="https://www.riscosopen.org/forum/posts.rss"
-title="RISC OS OPen Forums">RISC OS Open Forums</a></li>
-<li><a href="https://www.riscosnorth.uk/index.php/feed/"
-title="RISC OS North UK User Group News">RISC OS North UK</a></li>
-<li><a href="https://kevsoft.wordpress.com/feed/"
-title="KevSoft News">KevSoft News</a></li>
-</ul>
-<h1 id="risc-os-websites">RISC OS websites</h1>
-<ul>
-<li>Iconbar <a href="https://www.iconbar.com/rss-rss20.php"
-class="uri">https://www.iconbar.com/rss-rss20.php</a>, Iconbar RISC OS
-news aggregator</li>
-<li>Iconbar (forum updates) <a href="https://www.iconbar.com/forums/"
-class="uri">https://www.iconbar.com/forums/</a> Iconbar Forums
-Updates</li>
-<li>RISC OS Development <a href="https://www.riscosdev.com/"
-class="uri">https://www.riscosdev.com/</a> RISC OS Developmenet
-website</li>
-<li>RISC OS Open News <a href="https://www.riscosopen.org/news/"
-class="uri">https://www.riscosopen.org/news/</a> RISC OS Open News
-feed</li>
-<li>RISC OS Open Forums <a href="https://www.riscosopen.org/forum/"
-class="uri">https://www.riscosopen.org/forum/</a> RISC OS OPen
-Forums</li>
-<li>RISC OS North UK <a href="https://www.riscosnorth.uk/index.php"
-class="uri">https://www.riscosnorth.uk/index.php</a> RISC OS North UK
-User Group News</li>
-<li>KevSoft <a href="https://kevsoft.co.uk/"
-class="uri">https://kevsoft.co.uk/</a>, RISC OS software</li>
-<li>Archive Magazine <a href="https://archivemag.co.uk/"
-class="uri">https://archivemag.co.uk/</a></li>
-</ul>
+  <header>
+    <h1>Left Coast RISC OS Computer Club</h1> 
+  <header>
+  <nav>
+    <ul>
+      <li><a href="/" "Left Coast RISC OS Computer Club">Home</a></li>
+      <li><a href="riscos.html" "New for RISC OS around the web">RISC OS Around the Web</a></li>
+    </ul>
+  </nav>
+
+  <section>
+  <h1 id="risc-os-related-bsky-accounts-rss">RISC OS related Bsky
+  accounts RSS</h1>
+  <ul>
+  <li><a
+  href="https://bsky.app/profile/did:plc:fspcx32r4ektlhvhf6e7goh2/rss"
+  title="Colin Hoad on Bsky">colinhoad.com</a></li>
+  <li><a
+  href="https://bsky.app/profile/did:plc:io6owsze2yxsfsl2cd7znmik/rss"
+  title="Kevin Edwards on Bsky">kevedwardsretro.bsky.social</a></li>
+  <li><a
+  href="https://bsky.app/profile/did:plc:dwfxyvdv4do6nh2nxpeuhchh/rss"
+  title="ARM Bytes on Bsky">armbytes.bsky.social</a></li>
+  <li><a
+  href="https://bsky.app/profile/did:plc:gu36an7j4b2ck74blgn5eox6/rss"
+  title="IconBar on Bsky">iconbar.com</a></li>
+  <li><a
+  href="https://bsky.app/profile/did:plc:iimd7g74rssohysfgvdvgkmn/rss"
+  title="Nemo 2000 on Bsky">nemo20000.bsky.social</a></li>
+  <li><a
+  href="https://bsky.app/profile/did:plc:rkxyi6vbupvkgetuir5ljywn/rss"
+  title="Paolo Fabio Zaino on Bsky">paolofabiozaino.bsky.social</a></li>
+  <li><a
+  href="https://bsky.app/profile/did:plc:u6srdtx7nxcymlrozzxkj234/rss"
+  title="Gavin Crawford on Bsky">givvygavvygoo.bsky.social</a></li>
+  <li><a
+  href="https://bsky.app/profile/did:plc:la2htv4hkumsun6qyecwejli/rss"
+  title="RISCOSBits on Bsky">riscosbits.co.uk</a></li>
+  <li><a
+  href="https://bsky.app/profile/did:plc:5ugs4tgjdxjxjvxhmdpza2fq/rss"
+  title="RISC OS on Bsky">riscos.bsky.social</a></li>
+  <li><a
+  href="https://bsky.app/profile/did:plc:e3k7odasqhsg6xfgfkvovpsb/rss"
+  title="RISC OS Open on Bsky">riscosopen.bsky.social</a></li>
+  <li><a
+  href="https://bsky.app/profile/did:plc:qc7wakonwzdm2lqkgax4zatd/rss"
+  title="RISC OS London on Bsky">rougol.bsky.social</a></li>
+  <li><a
+  href="https://bsky.app/profile/did:plc:3nemd4ccpca5uxluat5znw4s/rss"
+  title="Archive Magazine on Bsky">archiveriscos.bsky.social</a></li>
+  <li><a
+  href="https://bsky.app/profile/did:plc:6e6hyubsieooaqyrh4smwbm5/rss"
+  title="Tom Pickering on Bsky"><span class="citation"
+  data-cites="alephspace.bsky.social">@alephspace.bsky.social</span></a></li>
+  </ul>
+  <h1 id="risc-os-websites-rss">RISC OS websites RSS</h1>
+  <ul>
+  <li><a href="https://www.iconbar.com/rss-rss20.php"
+  title="Iconbar RISC OS news aggregator">Iconbar</a></li>
+  <li><a href="https://www.iconbar.com/forums/rss-rss20.php"
+  title="Iconbar Forums Updates">Iconbar (forum updates)</a></li>
+  <li><a href="https://www.riscosdev.com/feed/"
+  title="RISC OS Developmenet website">RISC OS Development</a></li>
+  <li><a
+  href="https://www.riscosopen.org/news/xml/rss20/feed/feed.xml.rss20"
+  title="RISC OS Open News feed">RISC OS Open News</a></li>
+  <li><a
+  href="https://www.riscosopen.org/news/xml/rss20/feed/feed.xml.rss20"
+  title="RISC OS Open Articles feed">RISC OS Open Articles</a></li>
+  <li><a href="https://www.riscosopen.org/forum/posts.rss"
+  title="RISC OS OPen Forums">RISC OS Open Forums</a></li>
+  <li><a href="https://www.riscosnorth.uk/index.php/feed/"
+  title="RISC OS North UK User Group News">RISC OS North UK</a></li>
+  <li><a href="https://kevsoft.wordpress.com/feed/"
+  title="KevSoft News">KevSoft News</a></li>
+  </ul>
+  <h1 id="risc-os-websites">RISC OS websites</h1>
+  <ul>
+  <li>Iconbar <a href="https://www.iconbar.com/rss-rss20.php"
+  class="uri">https://www.iconbar.com/rss-rss20.php</a>, Iconbar RISC OS
+  news aggregator</li>
+  <li>Iconbar (forum updates) <a href="https://www.iconbar.com/forums/"
+  class="uri">https://www.iconbar.com/forums/</a> Iconbar Forums
+  Updates</li>
+  <li>RISC OS Development <a href="https://www.riscosdev.com/"
+  class="uri">https://www.riscosdev.com/</a> RISC OS Developmenet
+  website</li>
+  <li>RISC OS Open News <a href="https://www.riscosopen.org/news/"
+  class="uri">https://www.riscosopen.org/news/</a> RISC OS Open News
+  feed</li>
+  <li>RISC OS Open Forums <a href="https://www.riscosopen.org/forum/"
+  class="uri">https://www.riscosopen.org/forum/</a> RISC OS OPen
+  Forums</li>
+  <li>RISC OS North UK <a href="https://www.riscosnorth.uk/index.php"
+  class="uri">https://www.riscosnorth.uk/index.php</a> RISC OS North UK
+  User Group News</li>
+  <li>KevSoft <a href="https://kevsoft.co.uk/"
+  class="uri">https://kevsoft.co.uk/</a>, RISC OS software</li>
+  <li>Archive Magazine <a href="https://archivemag.co.uk/"
+  class="uri">https://archivemag.co.uk/</a></li>
+  </ul>
+  </section>
+
+  <footer>
+  Left Coast RISC OS Computer Club<br>
+  Curated with Antenna App and rendered with <a href="https://pandoc.org">Pandoc</a>.
+  </footer>
 </body>
 </html>

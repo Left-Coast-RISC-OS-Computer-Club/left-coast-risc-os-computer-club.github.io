@@ -7,6 +7,7 @@ for FNAME in contributing_news_items.md index.md README.md riscos.md; do
   pandoc -s -f markdown -t html5 --template page.tmpl "${FNAME}" >"${HTML_NAME}"
   git add "${HTML_NAME}"
 done
+pandoc -s -f markdown -t html5 --template page.tmpl riscos.md >riscos_list.html
 
 antenna generate
 
