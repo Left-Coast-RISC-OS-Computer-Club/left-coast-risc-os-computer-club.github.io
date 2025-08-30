@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export PATH="$HOME/.cargo/bin:$HOME/bin:$PATH"
 
 for FNAME in contributing_news_items.md index.md search.md; do
   HTML_NAME="$(basename "${FNAME}" ".md").html"
