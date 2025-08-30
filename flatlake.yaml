@@ -1,0 +1,14 @@
+global:
+  outputs:
+    - "list"
+collections:
+  - output_key: "posts"
+    page_size: 24
+    sort_key: "pubDate"
+    sort_direction: "desc"
+    list_elements:
+      - "data"
+      - "content"
+    inputs:
+      - path: "./posts"
+        glob: "**/*{md}"

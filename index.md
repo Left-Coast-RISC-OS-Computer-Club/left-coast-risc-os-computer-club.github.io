@@ -15,8 +15,13 @@ keywords:
 
 We are a tiny club of RISC OS enthusiast who meet virtual on the Western Coast of North America at random times and over random intervals.
 
+<script type="module" src="modules/ul-flatlake-posts.js"></script>
+<p><ul-flatlake-posts href-api="api/posts/all/page-1.json" href-css="css/ul-flatlake-posts.css" max-items="3"></ul-flatlake-posts></p>
+
+More reading.
+
 - [RISC OS around the web](riscos.html)
-  - [RISC OS website list](riscos_list.html)
+- [website and RSS feed listing](riscos_list.html)
 - Contributing content to [Left Coast RISC OS Computer Club](contributing_news_items.html "Contribute content to LCROCC")
 
 We invite you a journey. Explore RISC OS on our favorite tiny personal computers, Raspberry PI Zero 2W. It fits on a keychain!

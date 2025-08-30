@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LCROCC blog</title>
+    <description>
+      This Antenna App collection olds the posts for the Left Coast RISC OS Computer Club.
+    </description>
+    <link>http://localhost:8000</link>
+    <lastBuildDate>2025-08-29 17:02:26</lastBuildDate>
+    <generator>antenna/0.0.0</generator>
+    <docs>https://cyber.harvard.edu/rss/rss.html</docs>
+    <item>
+      <title>Shopping list for a Pi Zero 2W RISC OS Machine</title>
+      <link>https://left-coast-risc-os-computer-club.github.io/posts/2025/08/29/Shopping_List_for_Pi_Zero_2W_RISC_OS_Machine.html</link>
+      <description>
+        <![CDATA[A short missive on my attempt to build another RISC OS machine
+        using Argon40 case.]]>
+      </description>
+      <guid>https://left-coast-risc-os-computer-club.github.io/posts/2025/08/29/Shopping_List_for_Pi_Zero_2W_RISC_OS_Machine.html</guid>
+      <pubDate>2025-08-29T00:00:00Z</pubDate>
+    </item>
+  </channel>
+</rss>
