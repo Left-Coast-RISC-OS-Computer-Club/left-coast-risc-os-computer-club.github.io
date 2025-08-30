@@ -1,6 +1,6 @@
-css: css/site.css
+css: /css/site.css
 modules:
-  - modules/date_filter.js
+  - /modules/date_filter.js
 header: |
   <h1>Left Coast RISC OS Computer Club</h1> 
 
@@ -18,4 +18,3 @@ topContent: |
 footer: |
   Left Coast RISC OS Computer Club<br>
   Curated with Antenna App and rendered with <a href="https://pandoc.org">Pandoc</a>.
-

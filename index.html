@@ -3,16 +3,18 @@
 <head>
   <title>LCROSCC - Left Coast RISC OS Computer Club</title>
   <link href="/css/site.css" rel="stylesheet">
-  <script type="module" src="/modules/date_filter.js"></script>
-</head>
+  <link rel="alternate" type="application/rss+xml" href="/posts.xml">
+<link rel="search" type="application/opensearchdescription+xml" href="/osd.xml" title="Search LCROCC"></head>
 <body>
   <header>
     <h1>Left Coast RISC OS Computer Club</h1> 
-  <header>
+  </header>
   <nav>
     <ul>
-      <li><a href="/" "Left Coast RISC OS Computer Club">Home</a></li>
-      <li><a href="riscos.html" "New for RISC OS around the web">RISC OS Around the Web</a></li>
+      <li><a href="./" "Left Coast RISC OS Computer Club">Home</a></li>
+      <li><a href="/posts.html" title="random RISC OS toughts">Grousing</a></li>
+      <li><a href="riscos.html" title="New for RISC OS around the web">RISC OS Around the Web</a></li>
+      <li><a href="/search.html" title="Site search for LCROCC">Search</a></li>
     </ul>
   </nav>
 
@@ -22,11 +24,14 @@
   <p>We are a tiny club of RISC OS enthusiast who meet virtual on the
   Western Coast of North America at random times and over random
   intervals.</p>
+  <script type="module" src="modules/ul-flatlake-posts.js"></script>
+  <p>
+  <ul-flatlake-posts href-api="api/posts/all/page-1.json" href-css="css/ul-flatlake-posts.css" max-items="3"></ul-flatlake-posts>
+  </p>
+  <p>More reading.</p>
   <ul>
-  <li><a href="riscos.html">RISC OS around the web</a>
-  <ul>
-  <li><a href="riscos_list.html">RISC OS website list</a></li>
-  </ul></li>
+  <li><a href="riscos.html">RISC OS around the web</a></li>
+  <li><a href="riscos_list.html">website and RSS feed listing</a></li>
   <li>Contributing content to <a href="contributing_news_items.html"
   title="Contribute content to LCROCC">Left Coast RISC OS Computer
   Club</a></li>

@@ -1,5 +1,5 @@
 port: 8000
-htdocs: "."
+htdocs: .
 collections:
     - title: RISCOS
       link: http://localhost:8000
@@ -9,3 +9,12 @@ collections:
       filters:
         - UPDATE items SET status = 'published';
       dbName: riscos.db
+    - title: LCROCC blog
+      link: http://localhost:8000
+      description: This Antenna App collection olds the posts for the Left Coast RISC OS Computer Club.
+      file: posts.md
+      generator: posts.yaml
+      filters:
+        - UPDATE items SET status = 'review';
+        - UPDATE items SET status = 'published' WHERE pubDate >= date('now', '-21 days');
+      dbName: posts.db

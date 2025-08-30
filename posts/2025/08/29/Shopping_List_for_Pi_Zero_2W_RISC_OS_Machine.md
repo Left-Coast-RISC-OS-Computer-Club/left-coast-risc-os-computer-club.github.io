@@ -1,0 +1,32 @@
+---
+title: Shopping list for a Pi Zero 2W RISC OS Machine
+description: |
+  A short missive on my attempt to build another RISC OS machine
+  using Argon40 case.
+link: "https://left-coast-risc-os-computer-club.github.io/posts/2025/08/29/Shopping_List_for_Pi_Zero_2W_RISC_OS_Machine.html"
+postPath: "/posts/2025/08/29/Shopping_List_for_Pi_Zero_2W_RISC_OS_Machine.html"
+pubDate: "2025-08-29"
+---
+
+# Shopping List for a Pi Zero 2W RISC OS Machine
+
+By Rabbit in my backyard, 2025-08-29
+
+I've built three Raspberry Pi Zero 2W RISC OS Machines. I've given two away and want to build a four. Unfortunately an orange troll and his minions have thrown a "spanner in the works" (brit speak) or put another way, "orange troll, Fubar Incarnate" (left coast speak). Small affordable packages no longer arrive from overseas in my region. If you are fortunate enough to live elsewhere, I'd recommend the following as a very nice RISC OS starter system. These are available from [Argon 40](https://argon40.com).
+
+Shopping list:
+
+1. [Argon Micro USB Power Supply 15 Watts 5 Volts](https://argon40.com/products/argon-microusb-power-supply) ($15.00 US)
+2. [ARGON POD Case with HDMI-USB Module Kit (For ZERO Boards)](https://argon40.com/products/pod-case-with-hdmi-usb-module) ($20.00 US)
+3. [ARGON POD USB-LAN Module](https://argon40.com/products/pod-usb-lan-module) ($20.00 US)
+4. [Raspberry Pi Zero W with Header Board](https://argon40.com/products/raspberry-pi-zero-wh-board) ($18.00)
+
+Putting this together gives a you smart little RISC OS machine that is small enough to fit in your pocket. You still an SD Card with RISC OS 3.51 on it, an HDMI cable, HDMI monitor, keyboard and mouse but you probably already have those if you have another computer. It's a sweet setup. While some may balk at the size tiny processing power or (by modern standards) RAM or CPU speed it works quiet well for RISC OS. I don't find myself reaching for another machine.
+
+My hope was to build these little boxes, give them to friends and family and recruit them into LCROCC so that RISC OS would spread beyond Europe. I guess I can wait and dream. 
+
+If you're fortunate to enough to be elsewhere, assemble one of these little machines and pass it on as a gift. They are sure to delight.
+
+Cheers,
+
+The Rabbit in my backyard
