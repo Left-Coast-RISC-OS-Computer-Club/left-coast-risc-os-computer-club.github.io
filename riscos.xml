@@ -6,10 +6,36 @@
       RISC OS News from around the web
     </description>
     <link>http://localhost:8000</link>
-    <lastBuildDate>2025-08-31 15:00:17</lastBuildDate>
+    <lastBuildDate>2025-08-31 16:17:04</lastBuildDate>
     <generator>antenna/0.0.1</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Live Coding with Gerph, Sunday 31st August at 1pm</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19999</link>
+      <description>
+        <![CDATA[<p>Live coding today was quite successful, albeit I spent a lot of time fumbling around tweaking bits to <code>*Memory</code> working right &#8211; which, if I&#8217;d thought a bit more, would have been easier.</p>
+        <p>Anyhow, comparing against the <span class="caps">RISC</span> OS Pyromaniac test results, there were a number of changes to tidy the output up and make it more consistent. The results are pretty good. Of the tests we now have a bunch of passes&#8230;</p>
+        <pre>
+        -----------
+        Pass:      20
+        Fail:      15
+        Crash:      0
+        Skip:      36
+        -----------
+        Total run:       35
+        Pass ratio:   57.14 %
+        Fail ratio:   42.86 %
+        </pre>
+        <p>Which means that we&#8217;re quite consistent. These aren&#8217;t automated into the CI yet, so next week, hopefully we can fix a number of them and then automate them to CI.</p>]]>
+      </description>
+      <guid>www.riscosopen.org:1:19999:158808</guid>
+      <pubDate>2025-08-31T22:35:22Z</pubDate>
+    </item>    <item>
+      <title>other vintage hardware, software and languages • Re: Fixing a Superbrain up</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464114#p464114</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464114#p464114</guid>
+      <pubDate>2025-08-31T22:34:32Z</pubDate>
+    </item>    <item>
       <title>new projects in development: games • Re: Lady Bug</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464113#p464113</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464113#p464113</guid>
@@ -380,6 +406,14 @@
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=463957#p463957</guid>
       <pubDate>2025-08-29T22:49:01Z</pubDate>
     </item>    <item>
+      <title>Virtual RPC adjustSA</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20000</link>
+      <description>
+        <![CDATA[<p>Last update listed was this Tuesday. It worked normally Wednesday. Went to use it Thursday morning &#8211; fault there.</p>]]>
+      </description>
+      <guid>www.riscosopen.org:11:20000:158786</guid>
+      <pubDate>2025-08-29T22:41:19Z</pubDate>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: BBC micro auxiliary power issue</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=463956#p463956</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=463956#p463956</guid>
@@ -429,14 +463,6 @@
       </description>
       <guid>at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lxkxkkvxg22p</guid>
       <pubDate>2025-08-29T21:05:00Z</pubDate>
-    </item>    <item>
-      <title>Virtual RPC adjustSA</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20000</link>
-      <description>
-        <![CDATA[<p>Dave, is your screen mode @75Hz set by a monitor definition file used by the emulator? If so you could try using a different one that matches your laptop display exactly.</p>]]>
-      </description>
-      <guid>www.riscosopen.org:11:20000:158782</guid>
-      <pubDate>2025-08-29T20:54:24Z</pubDate>
     </item>    <item>
       <title>scanning of books, magazines, ads and letters • Re: How many sold? German tank problem:serial nums wtd</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=463946#p463946</link>
@@ -541,45 +567,6 @@
       </description>
       <guid>at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lxhpptuzic2s</guid>
       <pubDate>2025-08-28T14:07:00Z</pubDate>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 31st August at 1pm</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/19999</link>
-      <description>
-        <![CDATA[<p>Hiya,</p>
-        <p>This Sunday – 31st August, at 1pm – I&#8217;m doing the live coding again, implementing some more bits on the Debugger module.</p>
-        <p>Come along if you like – <a href="https://youtube.com/live/i6R23Av4GV4?feature=share">https://youtube.com/live/i6R23Av4GV4?feature=share</a><br />
-         – or you can always watch the video afterwards at the same address.</p>
-        <p>Last week, the immediate constants were made more correct and more readable, we added a license and updated the optimisation so that it&#8217;s much smaller than it was. I had started adding the test code, stolen from MessageTrans, to the module. I completed this offline and will be demonstrating parts of this code before we start to fix some of the differences that the tests have shown up.</p>
-        <p>If we get through all the testing parts of the module, there won&#8217;t be much left to do. I could start to address the DebuggerPlus features, but I&#8217;m not sure how interesting that will be to people. Alternatively, I can move on to one of the other projects that can be made to work in C. I&#8217;m not sure, but I&#8217;ll be sharing some thoughts, and I&#8217;m open to things that people are interested in, if we can find something worthwhile.</p>
-        <hr />
-        <p>For anyone who hasn&#8217;t seen them, these are where I share my screen for about 3 hours and code some more of a Debugger module for <span class="caps">RISC</span> OS. It’s not especially complicated, but it makes for an interesting project. So far we have:</p>
-        <ul>
-        	<li><code>*Memory</code></li>
-        	<li><code>*MemoryI</code></li>
-        	<li><code>*MemoryA</code></li>
-        	<li><code>*DumpI</code></li>
-        	<li><code>*InitStore</code></li>
-        	<li><code>*ShowRegs</code></li>
-        	<li><code>*BreakSet</code> (not for <span class="caps">RISC</span> OS 64)</li>
-        	<li><code>*BreakClr</code> (not for <span class="caps">RISC</span> OS 64)</li>
-        	<li><code>*BreakList</code> (not for <span class="caps">RISC</span> OS 64)</li>
-        	<li><code>*Debug</code> (not for <span class="caps">RISC</span> OS 64)</li>
-        	<li><code>*Continue</code> (not for <span class="caps">RISC</span> OS 64)</li>
-        	<li><span class="caps">SWI</span> <code>Debugger_Disassemble</code></li>
-        	<li><span class="caps">SWI</span> <code>Debugger_DisassembleThumb</code></li>
-        	<li><span class="caps">SWI</span> <code>Debugger_DisassembleArch</code> (for AArch32 <span class="caps">ARM</span> and Thumb, and for AArch64 instructions)</li>
-        	<li>AArch32 instructions are disassembled (default for regular <span class="caps">RISC</span> OS), including the <span class="caps">FPA</span> instructions.</li>
-        	<li>AArch64 instructions are disassembled (default for <span class="caps">RISC</span> OS 64)</li>
-        	<li>The module is built and released automatically through CI on GitHub – <a href="https://github.com/gerph/riscos-debugger-c/releases">https://github.com/gerph/riscos-debugger-c/releases</a></li>
-        	<li>There’s a project board to record what needs to be done – <a href="https://github.com/users/gerph/projects/1">https://github.com/users/gerph/projects/1</a></li>
-        	<li>The module can be built, and runs on both 32-bit and 64-bit <span class="caps">RISC</span> OS.</li>
-        </ul>
-        <hr />
-        <p>If you want to watch the whole series, you can follow it in the playlist on YouTube: <a href="https://www.youtube.com/watch?v=H08vtW1nZ9g&amp;list=PLVVIu906Y7rG9arQQU7hzueTykjxtiGVH">https://www.youtube.com/watch?v=H08vtW1nZ9g&amp;amp;list=P…</a></p>
-        <p>Or the sequence is also available linked from my presentations website: <a href="https://presentation.riscos.online/live/disassembler.html">https://presentation.riscos.online/live/disassembler.h…</a></p>]]>
-      </description>
-      <guid>www.riscosopen.org:1:19999:158757</guid>
-      <pubDate>2025-08-28T13:47:39Z</pubDate>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3lxhokjgq7c2e</link>
       <description>
