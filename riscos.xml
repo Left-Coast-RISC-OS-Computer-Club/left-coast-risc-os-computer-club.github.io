@@ -6,10 +6,98 @@
       RISC OS News from around the web
     </description>
     <link>http://localhost:8000</link>
-    <lastBuildDate>2025-08-31 07:00:25</lastBuildDate>
+    <lastBuildDate>2025-08-31 15:00:17</lastBuildDate>
     <generator>antenna/0.0.1</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>new projects in development: games • Re: Lady Bug</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464113#p464113</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464113#p464113</guid>
+      <pubDate>2025-08-31T21:58:40Z</pubDate>
+    </item>    <item>
+      <title>new projects in development: games • Re: Lady Bug</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464112#p464112</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464112#p464112</guid>
+      <pubDate>2025-08-31T21:52:54Z</pubDate>
+    </item>    <item>
+      <title>new projects in development: games • Re: Lady Bug</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464111#p464111</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464111#p464111</guid>
+      <pubDate>2025-08-31T21:39:27Z</pubDate>
+    </item>    <item>
+      <title>general • Re: Very sad news about &#39;iomanoid&#39; (Joel)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464110#p464110</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464110#p464110</guid>
+      <pubDate>2025-08-31T21:36:03Z</pubDate>
+    </item>    <item>
+      <title>programming • Re: Precision analogue joystick control for Tempest like game.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464109#p464109</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464109#p464109</guid>
+      <pubDate>2025-08-31T21:33:31Z</pubDate>
+    </item>    <item>
+      <title>new projects in development: games • Re: Lady Bug</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464108#p464108</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464108#p464108</guid>
+      <pubDate>2025-08-31T21:28:01Z</pubDate>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A9Home + DOM</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464107#p464107</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464107#p464107</guid>
+      <pubDate>2025-08-31T21:06:40Z</pubDate>
+    </item>    <item>
+      <title>RDPclient with Windows 10</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20005</link>
+      <description>
+        <![CDATA[<p>I am having trouble with trying to connect !RDPclient to Windows 10 32-bit</p>
+        <p><span class="caps">NLA</span> has been disabled on Windows 10</p>
+        <p>I can connect from an XP box.</p>]]>
+      </description>
+      <guid>www.riscosopen.org:11:20005:158806</guid>
+      <pubDate>2025-08-31T20:57:18Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: B-Em</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464106#p464106</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464106#p464106</guid>
+      <pubDate>2025-08-31T20:41:28Z</pubDate>
+    </item>    <item>
+      <title>new projects in development: games • Re: Lady Bug</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464105#p464105</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464105#p464105</guid>
+      <pubDate>2025-08-31T20:35:31Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn software: classic games • Re: New: BBC Master Elite for the BBC Micro B+</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464104#p464104</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464104#p464104</guid>
+      <pubDate>2025-08-31T20:31:21Z</pubDate>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3lxpu24oze22g</link>
+      <description>
+        <![CDATA[@givvygavvygoo.bsky.social Sorry,no DMs, can you ask that again?]]>
+      </description>
+      <guid>at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3lxpu24oze22g</guid>
+      <pubDate>2025-08-31T19:45:00Z</pubDate>
+    </item>    <item>
+      <title>Using OS_UpCall to notify deletion of a file</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20004</link>
+      <description>
+        <![CDATA[<p>I am helping with writing an image filing system. Sometimes a file in a directory within the image will be deleted because of actions elsewhere in the image and I think I need to use OS_UpCall 3 to notify the desktop filer of the changes so that it can refresh its display. I don&#8217;t seem to have got the parameters of the UpCall right, though, because the directory window is not being updated.</p>
+        <p>Suppose the image file is &#8220;<span class="caps">ADFS</span>::HardDisc4.$.Image&#8221; and within it there is a directory A and a file inside it called 1 which is being deleted.</p>
+        <p>Here is what I am trying:</p>
+        <pre><code>_kernel_swi_regs regs;
+        _kernel_oserror *err;
+        regs.r[0] = 3;
+        regs.r[1] = (int) "ADFS::HardDisc4.$.Image.A.1";
+        regs.r[6] = 0; // special field
+        regs.r[9] = 9; // delete
+        err = _kernel_swi(OS_UpCall, &amp;regs, &amp;regs);</code></pre>
+        <p>I realise that I have not set R8 to the filing system information word, but an image filing system does not have one.</p>
+        <p>I know it must be possible for a filing system to flag up that files have changed in this way because ShareFS does it: if you make changes to a directory using machine B, then if that directory is also open on machine B the changes will appear there too without having to use the Refresh option.</p>
+        <p>I am wondering whether, perhaps, the pathname needs to start after the <span class="caps">ADFS</span>, and the filing system number for <span class="caps">ADFS</span> needs to be passed. Perhaps the desktop filer is not expecting a full pathname, but one relative to the filing system&#8217;s root?</p>
+        <p>Does anyone know how this is supposed to work?</p>]]>
+      </description>
+      <guid>www.riscosopen.org:11:20004:158802</guid>
+      <pubDate>2025-08-31T17:02:56Z</pubDate>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3lxpa3eayks2p</link>
       <description>
         <![CDATA[Nominative Determinism.
@@ -342,6 +430,14 @@
       <guid>at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lxkxkkvxg22p</guid>
       <pubDate>2025-08-29T21:05:00Z</pubDate>
     </item>    <item>
+      <title>Virtual RPC adjustSA</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20000</link>
+      <description>
+        <![CDATA[<p>Dave, is your screen mode @75Hz set by a monitor definition file used by the emulator? If so you could try using a different one that matches your laptop display exactly.</p>]]>
+      </description>
+      <guid>www.riscosopen.org:11:20000:158782</guid>
+      <pubDate>2025-08-29T20:54:24Z</pubDate>
+    </item>    <item>
       <title>scanning of books, magazines, ads and letters • Re: How many sold? German tank problem:serial nums wtd</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=463946#p463946</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=463946#p463946</guid>
@@ -391,14 +487,6 @@
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=463937#p463937</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=463937#p463937</guid>
       <pubDate>2025-08-29T16:16:54Z</pubDate>
-    </item>    <item>
-      <title>Virtual RPC adjustSA</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20000</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve found the CD. No CD player on this laptop, but think I have an external one somewhere. Does it offer a repair &#8211; or do I do a fresh install?</p>]]>
-      </description>
-      <guid>www.riscosopen.org:11:20000:158776</guid>
-      <pubDate>2025-08-29T15:37:23Z</pubDate>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3lxkepggg5k2d</link>
       <description>
