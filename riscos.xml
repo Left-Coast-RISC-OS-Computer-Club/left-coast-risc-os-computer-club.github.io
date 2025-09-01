@@ -6,10 +6,100 @@
       RISC OS News from around the web
     </description>
     <link>http://localhost:8000</link>
-    <lastBuildDate>2025-09-01 07:00:18</lastBuildDate>
+    <lastBuildDate>2025-09-01 15:00:17</lastBuildDate>
     <generator>antenna/0.0.1</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Using OS_UpCall to notify deletion of a file</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20004</link>
+      <description>
+        <![CDATA[<p>Thanks &#8211; and as an image filing system has 0 in the image filing system information word, I have worked out that what I need to pass in R8 is the filing system number of the host filing system. This I can get by using the filehandle of the image to look up the corresponding filename using OS_Args 7 and passing that in R1 to OS_FSControl 13.</p>
+        <p>I am very happy to say that it works. Thank you for your help: I should be braver about delving into the <span class="caps">RISC</span> OS source.</p>]]>
+      </description>
+      <guid>www.riscosopen.org:11:20004:158842</guid>
+      <pubDate>2025-09-01T21:42:48Z</pubDate>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3lxskzmo6jk2k</link>
+      <description>
+        <![CDATA[Just seen someone (on another platform) proudly sharing an AI generated video made with something called "banana" that purports to be "exploring Lord of the Rings movies on horseback" and it looked like hot garbage. Comments? "Wow, amazing!", "It's like you're really there!", "So innovative!" 😫]]>
+      </description>
+      <guid>at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lxskzmo6jk2k</guid>
+      <pubDate>2025-09-01T21:42:00Z</pubDate>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • ABUG Dev night #99, Thursday 4 September 2025, 19:30 BST</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464180#p464180</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464180#p464180</guid>
+      <pubDate>2025-09-01T21:19:00Z</pubDate>
+    </item>    <item>
+      <title>other vintage hardware, software and languages • Re: Fixing a Intertec Superbrain clone (Prológica Sistema 600)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464179#p464179</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464179#p464179</guid>
+      <pubDate>2025-09-01T21:12:42Z</pubDate>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: HDD recommendations - SCSI</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464178#p464178</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464178#p464178</guid>
+      <pubDate>2025-09-01T21:10:22Z</pubDate>
+    </item>    <item>
+      <title>new projects in development: games • Re: Lady Bug</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464177#p464177</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464177#p464177</guid>
+      <pubDate>2025-09-01T20:34:39Z</pubDate>
+    </item>    <item>
+      <title>Introduce Yourself • Re: 128+ With kind regards from France</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464176#p464176</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464176#p464176</guid>
+      <pubDate>2025-09-01T20:09:36Z</pubDate>
+    </item>    <item>
+      <title>32-bit acorn software: other • Homerton and Trinty vs. Helvetica and Times</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464175#p464175</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464175#p464175</guid>
+      <pubDate>2025-09-01T19:42:18Z</pubDate>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Risc PC Issue 1 motherboard problems</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464174#p464174</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464174#p464174</guid>
+      <pubDate>2025-09-01T19:39:12Z</pubDate>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Risc PC Issue 1 motherboard problems</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464173#p464173</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464173#p464173</guid>
+      <pubDate>2025-09-01T19:09:30Z</pubDate>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Risc PC Issue 1 motherboard problems</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464172#p464172</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464172#p464172</guid>
+      <pubDate>2025-09-01T18:53:16Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: MAME 0.280: Release Highlights</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464171#p464171</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464171#p464171</guid>
+      <pubDate>2025-09-01T17:53:33Z</pubDate>
+    </item>    <item>
+      <title>Impact of storage speed on RISC OS?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20006</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>RiscOSM is one of the apps we used to test our early NVMe drivers in November 2023, and it really stands out on drawing maps and zooming in and out. While a Pi 4B will do it, but in a juddery way, it’s quite smooth with NVMe. I believe there’s a demo of our <span class="caps">SATA</span> system showing off RiscOSM compared to another <span class="caps">SATA</span> based system, and the NVMe performs marginally better than that. You can, if nothing else, compare how well it works on your Pi4B compared to what’s happening on screen. Bear in mind this is over a <span class="caps">VNC</span> connection, so some of the redraw is “network” based.</p>
+        <p>I seem to think, from previous communication, that you’re only a little way up the road from me. We could always arrange a real live demo?</p>
+        </blockquote>
+        <p>I&#8217;ve just watched the video and it&#8217;s pretty impressive the speed difference, even looking at the older releases of !Iris in comparison.</p>
+        <p>I&#8217;ll have to take a look at the options for the <span class="caps">NVME</span> based systems, and see which takes my fancy.</p>
+        <p>Edit: Just noticed the comment about location, I&#8217;m in Doncaster, South Yorkshire.</p>]]>
+      </description>
+      <guid>www.riscosopen.org:11:20006:158826</guid>
+      <pubDate>2025-09-01T16:22:10Z</pubDate>
+    </item>    <item>
+      <title>ROX-Filer and Android  Tablets</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/19985</link>
+      <description>
+        <![CDATA[<p>Just to update people on this in case it is of interest to others.</p>
+        <p>Dave Higton has kindly send me a modified version of !<span class="caps">MTP</span> to which he has added a facility for it to save out a list of items shown in current <span class="caps">MTP</span>-device&#8217;s &#8216;filer window&#8217;. (By default this goes to <span class="caps">RAM</span> Disc.) The content of this file can then be sorted alphabetically. I plan to bolt on an associated proglet to do that. However in practice, loading the file into PipeDream lets that be done easily enough anyway. :-)  The result is very useful when you have a lot of items with various names on the device. Means I can print out a &#8216;catalog&#8217; for reference. (Currently 122 ebooks and rising. 8-] )</p>
+        <p>My thanks to Dave for kindly doing this.</p>]]>
+      </description>
+      <guid>www.riscosopen.org:11:19985:158819</guid>
+      <pubDate>2025-09-01T15:05:46Z</pubDate>
+    </item>    <item>
       <title>8-bit acorn software: other • Re: A couple of simple Pi programs</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464146#p464146</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464146#p464146</guid>
@@ -19,6 +109,22 @@
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464145#p464145</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464145#p464145</guid>
       <pubDate>2025-09-01T13:52:36Z</pubDate>
+    </item>    <item>
+      <title>RDPclient with Windows 10</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20005</link>
+      <description>
+        <![CDATA[<p>In case it makes any difference, I am using  5.28(19-Oct-20) on a Pi 4.</p>
+        <p>Tried from two each with same <span class="caps">RISC</span> OS.</p>
+        <p>Perhaps you would be kind enough to give me the simplest command which you think should work.</p>
+        <p>I have been using RDPclient for 15 years or so witth XP and then 7 with no problems.<br />
+        But Windowws 10 is defeating me.</p>
+        <p>I am now trying chopping out options right down to<br />
+        &lt;RDPClient$Dir&gt;.Connect Windows10</p>
+        <p>and get the samm error<br />
+        Error: revc: (36)  Connection reset by peer</p>]]>
+      </description>
+      <guid>www.riscosopen.org:11:20005:158818</guid>
+      <pubDate>2025-09-01T13:30:08Z</pubDate>
     </item>    <item>
       <title>programming • Re: Disassemblies of BBC Micro Games</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464144#p464144</link>
@@ -92,16 +198,6 @@
       </description>
       <guid>at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3lxrceiyezk2m</guid>
       <pubDate>2025-09-01T09:34:00Z</pubDate>
-    </item>    <item>
-      <title>Impact of storage speed on RISC OS?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20006</link>
-      <description>
-        <![CDATA[<p>For the last 2yrs I have run <span class="caps">RISC</span> OS on a RasPi4B with a 32GB SD Card V10 UA1 speed, how much of a difference in performance does running <span class="caps">RISC</span> OS with a <span class="caps">NVME</span> drive gain in day to day usage?</p>
-        <p>Just looking at upgrading to the <span class="caps">NVME</span> machines but, wondering if there would be much benefit over RasPi4B with a fast SD Card.</p>
-        <p>I get filesystem functions will be faster but what difference does that make in general day to day usage say like running !Iris or !RiscOSM, et al.</p>]]>
-      </description>
-      <guid>www.riscosopen.org:11:20006:158811</guid>
-      <pubDate>2025-09-01T09:26:02Z</pubDate>
     </item>    <item>
       <title>WROCC September 2025 talk on Wednesday - Chris Johns</title>
       <link>http://www.iconbar.com/comments/rss/news2231.html</link>
@@ -187,16 +283,6 @@
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464107#p464107</guid>
       <pubDate>2025-08-31T21:06:40Z</pubDate>
     </item>    <item>
-      <title>RDPclient with Windows 10</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20005</link>
-      <description>
-        <![CDATA[<p>I am having trouble with trying to connect !RDPclient to Windows 10 32-bit</p>
-        <p><span class="caps">NLA</span> has been disabled on Windows 10</p>
-        <p>I can connect from an XP box.</p>]]>
-      </description>
-      <guid>www.riscosopen.org:11:20005:158806</guid>
-      <pubDate>2025-08-31T20:57:18Z</pubDate>
-    </item>    <item>
       <title>8-bit acorn emulators • Re: B-Em</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464106#p464106</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464106#p464106</guid>
@@ -218,27 +304,6 @@
       </description>
       <guid>at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3lxpu24oze22g</guid>
       <pubDate>2025-08-31T19:45:00Z</pubDate>
-    </item>    <item>
-      <title>Using OS_UpCall to notify deletion of a file</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20004</link>
-      <description>
-        <![CDATA[<p>I am helping with writing an image filing system. Sometimes a file in a directory within the image will be deleted because of actions elsewhere in the image and I think I need to use OS_UpCall 3 to notify the desktop filer of the changes so that it can refresh its display. I don&#8217;t seem to have got the parameters of the UpCall right, though, because the directory window is not being updated.</p>
-        <p>Suppose the image file is &#8220;<span class="caps">ADFS</span>::HardDisc4.$.Image&#8221; and within it there is a directory A and a file inside it called 1 which is being deleted.</p>
-        <p>Here is what I am trying:</p>
-        <pre><code>_kernel_swi_regs regs;
-        _kernel_oserror *err;
-        regs.r[0] = 3;
-        regs.r[1] = (int) "ADFS::HardDisc4.$.Image.A.1";
-        regs.r[6] = 0; // special field
-        regs.r[9] = 9; // delete
-        err = _kernel_swi(OS_UpCall, &amp;regs, &amp;regs);</code></pre>
-        <p>I realise that I have not set R8 to the filing system information word, but an image filing system does not have one.</p>
-        <p>I know it must be possible for a filing system to flag up that files have changed in this way because ShareFS does it: if you make changes to a directory using machine B, then if that directory is also open on machine B the changes will appear there too without having to use the Refresh option.</p>
-        <p>I am wondering whether, perhaps, the pathname needs to start after the <span class="caps">ADFS</span>, and the filing system number for <span class="caps">ADFS</span> needs to be passed. Perhaps the desktop filer is not expecting a full pathname, but one relative to the filing system&#8217;s root?</p>
-        <p>Does anyone know how this is supposed to work?</p>]]>
-      </description>
-      <guid>www.riscosopen.org:11:20004:158802</guid>
-      <pubDate>2025-08-31T17:02:56Z</pubDate>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3lxpa3eayks2p</link>
       <description>
