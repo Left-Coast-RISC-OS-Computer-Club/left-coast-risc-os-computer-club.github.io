@@ -6,10 +6,117 @@
       RISC OS News from around the web
     </description>
     <link>http://localhost:8000</link>
-    <lastBuildDate>2025-09-02 07:00:20</lastBuildDate>
+    <lastBuildDate>2025-09-02 15:00:17</lastBuildDate>
     <generator>antenna/0.0.1</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn software: classic games • Re: Exile prototype notes and video</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464255#p464255</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464255#p464255</guid>
+      <pubDate>2025-09-02T21:44:49Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn software: classic games • Re: Electron &#39;Romified&#39; Games</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464254#p464254</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464254#p464254</guid>
+      <pubDate>2025-09-02T21:38:51Z</pubDate>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: HDD recommendations - SCSI</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464253#p464253</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464253#p464253</guid>
+      <pubDate>2025-09-02T21:35:12Z</pubDate>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A4000 HDD LED connection — where?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464252#p464252</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464252#p464252</guid>
+      <pubDate>2025-09-02T21:30:38Z</pubDate>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: HDD recommendations - SCSI</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464251#p464251</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464251#p464251</guid>
+      <pubDate>2025-09-02T21:24:21Z</pubDate>
+    </item>    <item>
+      <title>Using OS_UpCall to notify deletion of a file</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20004</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I am helping with writing an image filing system. Sometimes a file in a directory within the image will be deleted because of actions elsewhere in the image and I think I need to use OS_UpCall 3 to notify the desktop filer of the changes so that it can refresh its display. I don’t seem to have got the parameters of the UpCall right, though, because the directory window is not being updated [&#8230;] I know it must be possible for a filing system to flag up that files have changed in this way because ShareFS does it</p>
+        </blockquote>
+        <p>Though it&#8217;s worth mentioning ShareFS isn&#8217;t an image filing system, so isn&#8217;t a direct comparison.</p>
+        <blockquote>
+        <p><code>err = _kernel_swi(OS_UpCall, &amp;regs, &amp;regs);</code><br />
+        Does anyone know how this is supposed to work?</p>
+        </blockquote>
+        <p>[later]</p>
+        <blockquote>
+        <p>Thanks – and as an image filing system has 0 in the image filing system information word, I have worked out that what I need to pass in R8 is the filing system number of the host filing system. This I can get by using the filehandle of the image to look up the corresponding filename using OS_Args 7 and passing that in R1 to OS_FSControl 13.</p>
+        </blockquote>
+        <p>Hmm, I can&#8217;t help but feel this thread has only offered you enough rope to hang yourself by.<br />
+        If I take a look at <a href="https://gitlab.riscosopen.org/RiscOS/Sources/FileSys/ImageFS/DOSFS"><span class="caps">DOSFS</span></a> or <a href="https://gitlab.riscosopen.org/RiscOS/Sources/FileSys/ImageFS/SparkFS/SparkFS">SparkFS</a> or <a href="http://www.stronged.iconbar.com/fjg/">StrongHelp</a> (which <strong>are</strong> image filing systems) none of them feel the need to issue UpCall modifying file themselves. FileSwitch does that. So for me the question is: what are you doing differently that means FileSwitch isn&#8217;t issuing the UpCall?</p>]]>
+      </description>
+      <guid>www.riscosopen.org:11:20004:158874</guid>
+      <pubDate>2025-09-02T21:23:18Z</pubDate>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: HDD recommendations - SCSI</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464250#p464250</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464250#p464250</guid>
+      <pubDate>2025-09-02T21:19:50Z</pubDate>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: HDD recommendations - SCSI</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464249#p464249</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464249#p464249</guid>
+      <pubDate>2025-09-02T21:10:45Z</pubDate>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: HDD recommendations - SCSI</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464248#p464248</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464248#p464248</guid>
+      <pubDate>2025-09-02T20:57:42Z</pubDate>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Another unwell Risc PC</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464247#p464247</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464247#p464247</guid>
+      <pubDate>2025-09-02T20:48:12Z</pubDate>
+    </item>    <item>
+      <title>off-topic • Re: LOLPRICE</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464246#p464246</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464246#p464246</guid>
+      <pubDate>2025-09-02T20:46:20Z</pubDate>
+    </item>    <item>
+      <title>More experiments with the Python module disassembler...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20008</link>
+      <description>
+        <![CDATA[<p>Basically, what Stuart said&#8230; <span class="caps">PUSH</span> and <span class="caps">POP</span> are the modern way to represent the stack operations. Disassemblers such as capstone, which the python code uses, are most likely to use this form. Whilst the Python disassembler does convert a number of the disassembled operations to a form which is more familiar to <span class="caps">RISC</span> OS users (see <a href="https://github.com/gerph/riscos-disassemble-python/blob/master/riscos_disassemble/arm/disassemble.py#L805">https://github.com/gerph/riscos-disassemble-python/blo…</a> for some details), the <span class="caps">PUSH</span>/<span class="caps">POP</span> syntax is significantly easier to read, so I&#8217;ve retained it.</p>
+        <p>Reference: <a href="https://developer.arm.com/documentation/dui0489/e/arm-and-thumb-instructions/memory-access-instructions/push-and-pop">https://developer.arm.com/documentation/dui0489/e/arm-…</a></p>
+        <p>However, in the AArch64 world the objasm2gas converter does have macros for Push and Pull which turn these into the same operations, but with 64bit instructions. See <a href="https://github.com/gerph/objasm2gas/blob/main/testdata/objasm/macros/aarch64_stacking.s">https://github.com/gerph/objasm2gas/blob/main/testdata…</a> for an example of the code that I use for that. The reason for doing this translation is so that if I write tests in AArch64 and <span class="caps">ARM</span>, I can compare them and the results are nearly identical. Although this example doesn&#8217;t show the Push/Pull (or Entry/Exit) macros, it does show how similar the code can be:</p>
+        <p><img src="https://share.gerph.org/s/QIuzYNwadOGSw2S/download"></p>]]>
+      </description>
+      <guid>www.riscosopen.org:5:20008:158866</guid>
+      <pubDate>2025-09-02T15:59:12Z</pubDate>
+    </item>    <item>
+      <title>intro to RISCOS Development</title>
+      <link>https://www.riscosopen.org/forum/forums/9/topics/1092</link>
+      <description>
+        <![CDATA[<p>I&#8217;m bringing this thread up again because with current development like the moonshot initiative, it would be great to give interested developers a &#8216;good&#8217; shot in setting up a development system so they can help efficiently without spending their energy for re-inventing the wheel (e.g. find out how to setup a development system from scratch).</p>
+        <ul>
+        	<li>Is there anybody willing to put out a step-by step guide on how to set up a system with compiler &amp; debugger!? plus ideally, for getting the hang of it an example of how to rewrite and deploy the most easy to understand module?</li>
+        	<li>Also if a decent debugger is not available, should we consider a cross compile setup for debug and testing purposes so it can be bootstrapped on different operating systems, even if not running at full speed?</li>
+        	<li>Do we already have such a setup planned or do I miss something obvious?</li>
+        </ul>
+        <p>Sorry if this has been asked or answered anywhere else before&#8230;</p>]]>
+      </description>
+      <guid>www.riscosopen.org:9:1092:158863</guid>
+      <pubDate>2025-09-02T15:07:56Z</pubDate>
+    </item>    <item>
+      <title>Time for a Qemu port</title>
+      <link>https://www.riscosopen.org/forum/forums/9/topics/18863</link>
+      <description>
+        <![CDATA[<p>The whole porting of RiscOS was started by Jeffrey Lee back in the day when the first BeagleBoard came to life and the raspberry pi did not yet exist. <br />
+        I responded to a post from Jeffrey when he got stuck with Qemu and needed real hardware that was difficult to come by at the time. <br />
+        As I had the same idea some weeks earlier, I already had a BeagleBoard available and so Jeffrey, being as fast as he was, flooded me with new progress often daily so that I had enough to do with getting the stuff onto the board and reporting on what worked and what didn&#8217;t. (Initially I wanted to code as well, but did not want to slow down Jeffrey progress so kept to the role of tester).<br />
+        So there was some Qemu code written by Jeffrey, but the code never reached the command line prompt afaik.</p>]]>
+      </description>
+      <guid>www.riscosopen.org:9:18863:158862</guid>
+      <pubDate>2025-09-02T14:34:33Z</pubDate>
+    </item>    <item>
       <title>8-bit acorn emulators • Re: MAME 0.280: Release Highlights</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464219#p464219</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464219#p464219</guid>
@@ -39,6 +146,15 @@
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464214#p464214</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464214#p464214</guid>
       <pubDate>2025-09-02T13:18:29Z</pubDate>
+    </item>    <item>
+      <title>Archive Magazine Volume 27 Issue 1 out now</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19237</link>
+      <description>
+        <![CDATA[<p>Hi Colin, there was supposed to be an issue over the summer but alas. Yesterday, I revised the publishing dates for the rest of the year, I&#8217;ll be publishing that on the website soon. Archive 27:6 will now be published mid-September.</p>
+        <p>You can see covers for all recent issues at <a href="https://www.archivemag.co.uk/catalog.html">https://www.archivemag.co.uk/catalog.html</a></p>]]>
+      </description>
+      <guid>www.riscosopen.org:1:19237:158858</guid>
+      <pubDate>2025-09-02T13:17:40Z</pubDate>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3lxu7cj7dvs23</link>
       <description>
@@ -85,6 +201,31 @@
       <guid>at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lxu37c5rqc23</guid>
       <pubDate>2025-09-02T12:04:00Z</pubDate>
     </item>    <item>
+      <title>Opportunity for a re-think?</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I’d probably go so far as to clean slate the whole OS and only retain the visual look/feel.</p>
+        </blockquote>
+        <p>I agree, there are three options:-</p>
+        <ol>
+        	<li><span class="caps">ROOL</span> model; 64 bit OS with minimal <span class="caps">API</span> changes including retaining 32 bit pointers, existing applications run under emulation, slightly lower bar to developing native applications, but all the existing limitations of <span class="caps">RISC</span> OS.</li>
+        	<li>&#8216;Modern&#8217; 64 bit <span class="caps">RISC</span> OS, large amount of work to eliminate existing limitations, exiting applications run under emulation, higher bar to developing native applications.</li>
+        	<li><span class="caps">RISC</span> OS look and feel, abandon the OS, but develop a Linux desktop with the look and feel of <span class="caps">RISC</span> OS incorporated in to the window manager and standard desktop applications. Existing <span class="caps">RISC</span> OS applications run under seamless emulation.</li>
+        </ol>
+        <p>There&#8217;s one thing in common with all those, is people wanting to use existing <span class="caps">RISC</span> OS applications will be running them on an emulator, and there will be a vanishingly small amount of native applications written for 1 and 2. At least with 3 a wider audience would get to see some of thing things we love about the way <span class="caps">RISC</span> OS works, which are superior to the dismal flat alternatives which have taken over the mainstream, such as:-</p>
+        <ul>
+        	<li>Buttons which are obviously buttons</li>
+        	<li>Title bars which are just title bars</li>
+        	<li>Windows which can be used without coming to the front</li>
+        	<li>Scroll bars which remain visible with select/adjust nudge buttons</li>
+        	<li>Context sensitive menus always available from the middle mouse button</li>
+        	<li>Drag and drop loading and saving from the filer rather than separate dialogues</li>
+        </ul>]]>
+      </description>
+      <guid>www.riscosopen.org:13:19949:158853</guid>
+      <pubDate>2025-09-02T11:19:36Z</pubDate>
+    </item>    <item>
       <title>Web2PDF Gets Help</title>
       <link>https://kevsoft.wordpress.com/2025/09/02/web2pdf-gets-help/</link>
       <description>
@@ -93,6 +234,15 @@
       <guid>http://kevsoft.wordpress.com/?p=1356</guid>
       <pubDate>2025-09-02T10:17:04Z</pubDate>
     </item>    <item>
+      <title>RDPclient with Windows 10</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20005</link>
+      <description>
+        <![CDATA[<p>I think this could be related to your issue: <a href="https://www.riscosopen.org/forum/forums/2/topics/1845?limit=25&amp;page=6#posts-100232">https://www.riscosopen.org/forum/forums/2/topics/1845?…</a> and a potential solution is in the post below? Although on my version of Windows 10, the option to allow connection from any <span class="caps">RDP</span> Client is not present.</p>
+        <p>What actually happens when you try to connect?</p>]]>
+      </description>
+      <guid>www.riscosopen.org:11:20005:158851</guid>
+      <pubDate>2025-09-02T09:27:07Z</pubDate>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3lxtqjci2lk23</link>
       <description>
         <![CDATA[People who post AI slop creations on LinkedIn love putting the version of the AI slop model or AI slop tool they used in the description; bonus marks for listing multiple. I assume they do this because they've seen citations in books or photographers stating their f-stops and think it's the same.]]>
@@ -100,26 +250,16 @@
       <guid>at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lxtqjci2lk23</guid>
       <pubDate>2025-09-02T08:53:00Z</pubDate>
     </item>    <item>
-      <title>Opportunity for a re-think?</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
+      <title>ROX-Filer and Android  Tablets</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/19985</link>
       <description>
-        <![CDATA[<p>I agree with most of Simon’s comments in the OP.</p>
-        <p>It’s time to rethink how Modules work, they should not be running privileged and should have a private stack and private workspace.</p>
-        <p>Forget about OS backward compatibility, going 64bit is the one chance to bring <span class="caps">RISC</span> OS up to modern OS standards and security levels.  Backward compatibility should be handled by emulation and outside the core scope, beyond providing hooks for an emulation layer.</p>
-        <p>64bit <span class="caps">RISC</span> OS should be multi-threaded, multi-core and pre-emptive from the outset.  The kernel should have hooks for AntiVirus software, a software package installer should be built into the OS and it should have a self-update system that’s <span class="caps">GUI</span> driven and user-friendly.</p>
-        <p>FileCore also needs to go, it’s no longer fit for purpose with modern drives.</p>
-        <p>I’d probably go so far as to clean slate the whole OS and only retain the visual look/feel.</p>]]>
+        <![CDATA[<blockquote>
+        <p>The content of this file can then be sorted alphabetically. I plan to bolt on an associated proglet to do that.</p>
+        </blockquote>
+        <p>If you plan to do that in <span class="caps">BASIC</span>, then I recommend you look at my <a href="http://www.avisoft.f9.co.uk/">ArmSort</a> module, which enables very easy and fast sorting of arrays.</p>]]>
       </description>
-      <guid>www.riscosopen.org:13:19949:158849</guid>
-      <pubDate>2025-09-02T08:22:32Z</pubDate>
-    </item>    <item>
-      <title>Archive Magazine Volume 27 Issue 1 out now</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/19237</link>
-      <description>
-        <![CDATA[<p>Is there any news on the Summer versions of Archive 2025?</p>]]>
-      </description>
-      <guid>www.riscosopen.org:1:19237:158847</guid>
-      <pubDate>2025-09-02T08:19:17Z</pubDate>
+      <guid>www.riscosopen.org:11:19985:158850</guid>
+      <pubDate>2025-09-02T08:50:12Z</pubDate>
     </item>    <item>
       <title>Impact of storage speed on RISC OS?</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20006</link>
@@ -131,36 +271,6 @@
       </description>
       <guid>www.riscosopen.org:11:20006:158845</guid>
       <pubDate>2025-09-02T07:49:06Z</pubDate>
-    </item>    <item>
-      <title>ROX-Filer and Android  Tablets</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/19985</link>
-      <description>
-        <![CDATA[<p>I&#8217;m glad you got it sorted, and thanks for posting the update &#8211; always good for the search archives!</p>]]>
-      </description>
-      <guid>www.riscosopen.org:11:19985:158844</guid>
-      <pubDate>2025-09-02T05:32:28Z</pubDate>
-    </item>    <item>
-      <title>More experiments with the Python module disassembler...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20008</link>
-      <description>
-        <![CDATA[<p>Hiya,</p>
-        <p>Hiya,</p>
-        <p>In the Python <span class="caps">RISC</span> OS disassembler (used in <span class="caps">RISC</span> OS Pyromaniac and available at <a href="https://github.com/gerph/riscos-disassemble-python">https://github.com/gerph/riscos-disassemble-python</a>) I’ve been playing with adding more information about the module header so that it&#8217;s easier to understand the modules. This isn&#8217;t great yet, but it&#8217;s not working too terribly.</p>
-        <p>The results don&#8217;t look too bad, as it now shows information about the <span class="caps">SWI</span> table and the other module header fields, such as the code entry points. It also decodes the service entry point&#8217;s fast lookup table.</p>
-        <p><img src="https://share.gerph.org/s/Ln5p7rnyRLdbi3M/download"></p>
-        <p>There&#8217;s a lot more that could be done (like the relative offsets I had a play with previously, but haven&#8217;t committed to using yet). I know that the disassembler has been used as the starting point for the Lander disassembly, which was really nice to see, but I&#8217;m not sure that anyone else is too bothered by this stuff. If you are, any thoughts and comments (or possibly changes to the code to add new features) would be neat :-)</p>]]>
-      </description>
-      <guid>www.riscosopen.org:5:20008:158843</guid>
-      <pubDate>2025-09-02T00:53:36Z</pubDate>
-    </item>    <item>
-      <title>Using OS_UpCall to notify deletion of a file</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20004</link>
-      <description>
-        <![CDATA[<p>Thanks &#8211; and as an image filing system has 0 in the image filing system information word, I have worked out that what I need to pass in R8 is the filing system number of the host filing system. This I can get by using the filehandle of the image to look up the corresponding filename using OS_Args 7 and passing that in R1 to OS_FSControl 13.</p>
-        <p>I am very happy to say that it works. Thank you for your help: I should be braver about delving into the <span class="caps">RISC</span> OS source.</p>]]>
-      </description>
-      <guid>www.riscosopen.org:11:20004:158842</guid>
-      <pubDate>2025-09-01T21:42:48Z</pubDate>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3lxskzmo6jk2k</link>
       <description>
@@ -188,23 +298,6 @@
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464177#p464177</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464177#p464177</guid>
       <pubDate>2025-09-01T20:34:39Z</pubDate>
-    </item>    <item>
-      <title>RDPclient with Windows 10</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20005</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>&#8230;.. will just tell us if it can connect on that port. On my system, connecting to 192.168.1.154:3389 just says ‘connected’ – at least we’ll establish that much.</p>
-        </blockquote>
-        <p>I think the forum  posts crossed.</p>
-        <p>I can connect from <span class="caps">RISC</span> OS to port 3389 on the Windows 10. (using !Netsurf)<br />
-        !Netsurf says  <em>failure when receiving data</em><br />
-        other ports say could not connect.</p>
-        <p>I have now also turned on <span class="caps">IIS</span> (web server on Windows 10 port 80)<br />
-        and can usefully connect to that using !Netsurf</p>
-        <p><em>and the windows 10 can see !WebJames on various <span class="caps">RISC</span> OS systems</em></p>]]>
-      </description>
-      <guid>www.riscosopen.org:11:20005:158837</guid>
-      <pubDate>2025-09-01T20:21:30Z</pubDate>
     </item>    <item>
       <title>Introduce Yourself • Re: 128+ With kind regards from France</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464176#p464176</link>
