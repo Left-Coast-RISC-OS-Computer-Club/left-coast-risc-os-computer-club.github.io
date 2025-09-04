@@ -6,10 +6,77 @@
       RISC OS News from around the web
     </description>
     <link>http://localhost:8000</link>
-    <lastBuildDate>2025-09-03 15:00:16</lastBuildDate>
+    <lastBuildDate>2025-09-04 07:00:17</lastBuildDate>
     <generator>antenna/0.0.1</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>32-bit acorn hardware • Re: A310 floppy drive alternatives</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464399#p464399</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464399#p464399</guid>
+      <pubDate>2025-09-04T13:58:57Z</pubDate>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A310 floppy drive alternatives</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464398#p464398</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464398#p464398</guid>
+      <pubDate>2025-09-04T13:55:43Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B Video problems</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464397#p464397</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464397#p464397</guid>
+      <pubDate>2025-09-04T13:45:34Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B Video problems</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464396#p464396</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464396#p464396</guid>
+      <pubDate>2025-09-04T13:30:33Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Help needed for small test board design!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464395#p464395</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464395#p464395</guid>
+      <pubDate>2025-09-04T13:28:08Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Electron mmc wanted</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464394#p464394</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464394#p464394</guid>
+      <pubDate>2025-09-04T13:26:17Z</pubDate>
+    </item>    <item>
+      <title>off-topic • Re: North West Computer Museum, Windows 95, Acorn Electron</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464393#p464393</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464393#p464393</guid>
+      <pubDate>2025-09-04T13:13:42Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B Video problems</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464392#p464392</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464392#p464392</guid>
+      <pubDate>2025-09-04T13:02:11Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B not booting, no video</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464391#p464391</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464391#p464391</guid>
+      <pubDate>2025-09-04T13:01:33Z</pubDate>
+    </item>    <item>
+      <title>archive submissions • Re: Alternative titles discs (remastered)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464390#p464390</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464390#p464390</guid>
+      <pubDate>2025-09-04T13:00:05Z</pubDate>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lxz2rk5sd22r</link>
+      <description>
+        <![CDATA[We had a VIC 20 at school and I used it a few times, but preferred using the CBM PET. I wanted to know more about the hardware so bought the official Programmer's Reference Manual ( 1982 ). It's a great book that covers the machine really well - it even has a fold-out system schematic. #Commodore]]>
+      </description>
+      <guid>at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3lxz2rk5sd22r</guid>
+      <pubDate>2025-09-04T11:40:00Z</pubDate>
+    </item>    <item>
+      <title>Impact of storage speed on RISC OS?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20006</link>
+      <description>
+        <![CDATA[<p>I have a Raspberry Pi 4 and I build a game I wrote, about 40,000 lines of C.</p>
+        <p>Building from the SD card takes over 10 minutes, without timing it, building from <span class="caps">RAM</span> disk takes maybe a minute.</p>
+        <p>For me a real sore point of the Raspberry Pi is how slow the storage is compared to <span class="caps">SSD</span>, for saving individual smallish files, it&#8217;s totally fine, but if you&#8217;re really hitting the storage, you&#8217;ll absolutely notice how slow SD is compared with <span class="caps">SSD</span>.</p>]]>
+      </description>
+      <guid>www.riscosopen.org:11:20006:158889</guid>
+      <pubDate>2025-09-04T00:40:19Z</pubDate>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lxxmhzdz522v</link>
       <description>
         <![CDATA[LOL. Went on Twitter/X to check my private messages and it appears to have imploded - nothing working. Oh well, glad I don't go there very often.]]>
@@ -66,6 +133,17 @@
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464334#p464334</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464334#p464334</guid>
       <pubDate>2025-09-03T20:25:37Z</pubDate>
+    </item>    <item>
+      <title>RDPclient with Windows 10</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20005</link>
+      <description>
+        <![CDATA[<p>Just a note to say that I am still interested in this &#8230;..</p>
+        &#8230;.. but for now, I am going to stick with the work around :- !RDPclient &#8594; Windows XP &#8594; Windows 10
+        &#8230;.. It works much, much better (and faster) than I thought it might.
+        <p>And I can leave the headless XP connected to Windows 10, so reconnecting is simple (and fast)</p>]]>
+      </description>
+      <guid>www.riscosopen.org:11:20005:158888</guid>
+      <pubDate>2025-09-03T18:48:43Z</pubDate>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3lxx3ozj47c2j</link>
       <description>
@@ -151,6 +229,60 @@
       <guid>at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lxw3pibgt22p</guid>
       <pubDate>2025-09-03T07:18:00Z</pubDate>
     </item>    <item>
+      <title>intro to RISCOS Development</title>
+      <link>https://www.riscosopen.org/forum/forums/9/topics/1092</link>
+      <description>
+        <![CDATA[<p>Hi Paolo, <br />
+        thanks for the list of resources and creating a lot of those by yourself as well &#8211; this is impressive.</p>
+        <p>Concerning the <span class="caps">DDE</span> toolchain, you are absolutely right with the concerns about ObjASM Code and the debugging &#8211; that&#8217;s an issue I also wanted to address:<br />
+         as I understand it, moonshot is exactly the effort you describe &#8211; adaption of thousands of lines of specific ObjASM code into (24/32/64/??) bit agnostic C code.</p>
+        <p>from experience I can state that</p>
+        <ul>
+        	<li>there are some toolchains allowing for a great cross-debugging experience (also on-target, I used them for Cortex-M variants) that would streamline the process of doing that adaption moonshot needs.</li>
+        	<li>as far as I know, the <span class="caps">SWI</span> interfacing into module code by using some of the <span class="caps">ARM</span> registers and bank-switching others should translate into a function call in C like it did back in the days with 24bit code, but I assume subtle differences might need addressing (and to overcome) depending on the <span class="caps">ARM</span> core used and depending on the linker.</li>
+        	<li>would a simulation of a minimal machine as a &#8216;proof of concept&#8217; and/or starting point would make sense before switching to real hardware, or does this exist already either intendedly or as an existing product like in the riscos on linux approach?</li>
+        </ul>
+        <p>I assume these are thoughts probably thought already &#8211; if there is a place where that discussion takes place, I&#8217;d greatly appreciate if somebody could provide a link.</p>]]>
+      </description>
+      <guid>www.riscosopen.org:9:1092:158879</guid>
+      <pubDate>2025-09-03T06:54:57Z</pubDate>
+    </item>    <item>
+      <title>More experiments with the Python module disassembler...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20008</link>
+      <description>
+        <![CDATA[<p>Thanks for that info &#8211; is there any reason you can&#8217;t use &#8216;mov R0,R1&#8217; instead of &#8216;mov x0,x1&#8217; in 64bit code.</p>
+        <p>What&#8217;s left of the &#8216;lt&#8217; etc oops?</p>]]>
+      </description>
+      <guid>www.riscosopen.org:5:20008:158878</guid>
+      <pubDate>2025-09-03T06:45:36Z</pubDate>
+    </item>    <item>
+      <title>Using OS_UpCall to notify deletion of a file</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20004</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>So for me the question is: what are you doing differently that means FileSwitch isn’t issuing the UpCall?</p>
+        </blockquote>
+        <p>They said this in the first paragraph:</p>
+        <blockquote>
+        <p>Sometimes a file in a directory within the image will be deleted because of actions elsewhere in the image</p>
+        </blockquote>
+        <p>That is different to the usual behaviour of the filesystem, and FileSwitch won&#8217;t know anything about it. It&#8217;s closer to the behaviour of ShareFS where a file on a remote system is operated on without any local interaction.</p>
+        <p>None of the image filesystems that you cite have the same behaviour because changes to one part of the FS do not affect another part.</p>]]>
+      </description>
+      <guid>www.riscosopen.org:11:20004:158876</guid>
+      <pubDate>2025-09-03T00:33:06Z</pubDate>
+    </item>    <item>
+      <title>Opportunity for a re-think?</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
+      <description>
+        <![CDATA[<p>Maybe I&#8217;m just touchy about not being taken seriously.</p>
+        <p>Your assumption that I was talking about the existing system, rather than a replacement (a re-think, if you will) rather threw me. Why would you think that I don&#8217;t understand the difference between a supervisor and a user stack?</p>
+        <p>A module in the existing system simply switching to user mode and using its stack (if it even has one) would so obviously be ridiculous, it seemed unreasonable to assume that&#8217;s what I was suggesting.</p>
+        <p>If we&#8217;ve cleared up that misunderstanding, I&#8217;d appreciate any comments about what I am actually proposing and implementing.</p>]]>
+      </description>
+      <guid>www.riscosopen.org:13:19949:158875</guid>
+      <pubDate>2025-09-02T22:25:46Z</pubDate>
+    </item>    <item>
       <title>8-bit acorn software: classic games • Re: Exile prototype notes and video</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464255#p464255</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464255#p464255</guid>
@@ -176,27 +308,6 @@
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464251#p464251</guid>
       <pubDate>2025-09-02T21:24:21Z</pubDate>
     </item>    <item>
-      <title>Using OS_UpCall to notify deletion of a file</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20004</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I am helping with writing an image filing system. Sometimes a file in a directory within the image will be deleted because of actions elsewhere in the image and I think I need to use OS_UpCall 3 to notify the desktop filer of the changes so that it can refresh its display. I don’t seem to have got the parameters of the UpCall right, though, because the directory window is not being updated [&#8230;] I know it must be possible for a filing system to flag up that files have changed in this way because ShareFS does it</p>
-        </blockquote>
-        <p>Though it&#8217;s worth mentioning ShareFS isn&#8217;t an image filing system, so isn&#8217;t a direct comparison.</p>
-        <blockquote>
-        <p><code>err = _kernel_swi(OS_UpCall, &amp;regs, &amp;regs);</code><br />
-        Does anyone know how this is supposed to work?</p>
-        </blockquote>
-        <p>[later]</p>
-        <blockquote>
-        <p>Thanks – and as an image filing system has 0 in the image filing system information word, I have worked out that what I need to pass in R8 is the filing system number of the host filing system. This I can get by using the filehandle of the image to look up the corresponding filename using OS_Args 7 and passing that in R1 to OS_FSControl 13.</p>
-        </blockquote>
-        <p>Hmm, I can&#8217;t help but feel this thread has only offered you enough rope to hang yourself by.<br />
-        If I take a look at <a href="https://gitlab.riscosopen.org/RiscOS/Sources/FileSys/ImageFS/DOSFS"><span class="caps">DOSFS</span></a> or <a href="https://gitlab.riscosopen.org/RiscOS/Sources/FileSys/ImageFS/SparkFS/SparkFS">SparkFS</a> or <a href="http://www.stronged.iconbar.com/fjg/">StrongHelp</a> (which <strong>are</strong> image filing systems) none of them feel the need to issue UpCall modifying file themselves. FileSwitch does that. So for me the question is: what are you doing differently that means FileSwitch isn&#8217;t issuing the UpCall?</p>]]>
-      </description>
-      <guid>www.riscosopen.org:11:20004:158874</guid>
-      <pubDate>2025-09-02T21:23:18Z</pubDate>
-    </item>    <item>
       <title>32-bit acorn hardware • Re: HDD recommendations - SCSI</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464250#p464250</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464250#p464250</guid>
@@ -221,81 +332,6 @@
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464246#p464246</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464246#p464246</guid>
       <pubDate>2025-09-02T20:46:20Z</pubDate>
-    </item>    <item>
-      <title>intro to RISCOS Development</title>
-      <link>https://www.riscosopen.org/forum/forums/9/topics/1092</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Is there anybody willing to put out a step-by step guide on how to set up a system with compiler &amp; debugger!?</p>
-        </blockquote>
-        <p>You mean this?</p>
-        <p>- <span class="caps">DDE</span> Installation Tutorial: <br />
-        <a href="https://paolozaino.wordpress.com/2020/10/17/risc-os-installing-rool-desktop-development-environment-dde-tutorial/">https://paolozaino.wordpress.com/2020/10/17/risc-os-in…</a></p>
-        <p>- How to use the Debugger:<br />
-        <a href="https://paolozaino.wordpress.com/2020/08/09/risc-os-using-the-acorn-rool-desktop-debugging-tool-ddt-part-1/">https://paolozaino.wordpress.com/2020/08/09/risc-os-us…</a></p>
-        <p>- Introductory videos on coding on <span class="caps">RISC</span> OS (including using Git with or for <span class="caps">RISC</span> OS):<br />
-        <a href="https://www.youtube.com/@RiscosCommunityOnGithub/playlists">https://www.youtube.com/@RiscosCommunityOnGithub/playl…</a></p>
-        <p>- Complete tutorial on how to build <span class="caps">RISC</span> OS from sources for beginners:<br />
-        <a href="https://www.youtube.com/watch?v=DU-wZwangCs&amp;list=PLEnraaJ9VQfXdrF-6iwxQpksReKo0REI6">https://www.youtube.com/watch?v=DU-wZwangCs&amp;amp;list=P…</a></p>
-        <p>- General introduction on how to use <span class="caps">ROOL</span> resources<br />
-        <a href="https://www.riscosopen.org/wiki/documentation/show/HomePage">https://www.riscosopen.org/wiki/documentation/show/Hom…</a></p>
-        <p>- Specific documents on developing and understanding <span class="caps">RISC</span> OS:<br />
-        <a href="https://www.riscosopen.org/wiki/documentation/show/How%20to%20build%20RISC%20OS">https://www.riscosopen.org/wiki/documentation/show/How…</a><br />
-        <a href="https://www.riscosopen.org/wiki/documentation/show/Hardware%20Abstraction%20Layer">https://www.riscosopen.org/wiki/documentation/show/Har…</a><br />
-        <a href="https://www.riscosopen.org/wiki/documentation/show/Developer%20documentation">https://www.riscosopen.org/wiki/documentation/show/Dev…</a></p>
-        <blockquote>
-        <p>plus ideally, for getting the hang of it an example of how to rewrite and deploy the most easy to understand module?</p>
-        </blockquote>
-        <p>Check the Modules documentation on the <span class="caps">ROOL</span> Wiki and then a simple example on GitLab?</p>
-        <blockquote>
-        <p>Also if a decent debugger is not available, should we consider a cross compile setup for debug and testing purposes so it can be bootstrapped on different operating systems, even if not running at full speed?</p>
-        </blockquote>
-        <p>There is no debugger for <span class="caps">RISC</span> OS (the OS or Modules), debugging and moving to a different toolchain would require to either adapt thousands of lines of code written for ObjASM or ensure <span class="caps">ASASM</span> for <span class="caps">GCC</span> for <span class="caps">RISC</span> OS can build all latest sources and then try to generate a symbol file for <span class="caps">GDB</span> and try to use remote debugging via <span class="caps">GDB</span>.</p>
-        <blockquote>
-        <p>Do we already have such a setup planned or do I miss something obvious?</p>
-        </blockquote>
-        <p>I am not aware of any official plan to move to <span class="caps">GCC</span>, albeit <span class="caps">ROOL</span> seems to have done some work over time on gitlab, so maybe they are willing to do that? But apart from that, I have no idea, sorry.</p>
-        <blockquote>
-        <p>Sorry if this has been asked or answered anywhere else before…</p>
-        </blockquote>
-        <p>No worries, and yes it has been asked in different forms over the years, that&#8217;s why some resources are available. Good luck!</p>]]>
-      </description>
-      <guid>www.riscosopen.org:9:1092:158868</guid>
-      <pubDate>2025-09-02T16:35:36Z</pubDate>
-    </item>    <item>
-      <title>Opportunity for a re-think?</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
-      <description>
-        <![CDATA[<p>I think we&#8217;re talking about essentially the same thing, yes. In practice, strings (implemented as pre-filled pipes), will be short and copied by the kernel, large chunks of file data will be temporarily mapped into the service provider&#8217;s slot. The key word is temporarily; the client is in control of its memory/data.</p>
-        <p>The input and output from a <span class="caps">SWI</span> is in the registers of the client. They can be read and updated by a service. If it&#8217;s a big number, like an offset into a file, it will be 64-bits, if it&#8217;s a string or other data, it will be a (32-bit) handle to an object to read.</p>
-        <blockquote>
-        <p>the legacy stuff won’t move</p>
-        </blockquote>
-        <p>It doesn&#8217;t have to. While there&#8217;s still old code, the old <span class="caps">API</span> has to be provided. That doesn&#8217;t mean the code providing the old <span class="caps">API</span> can&#8217;t be using a new one.</p>
-        <p>Latency is not a problem, legacy code has been written to run on processors running at tens or hundreds of MHz, and it will all think it&#8217;s running on a single core, leaving 3, 7, 63 other cores free to run at full speed.</p>]]>
-      </description>
-      <guid>www.riscosopen.org:13:19949:158867</guid>
-      <pubDate>2025-09-02T16:27:26Z</pubDate>
-    </item>    <item>
-      <title>More experiments with the Python module disassembler...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20008</link>
-      <description>
-        <![CDATA[<p>Basically, what Stuart said&#8230; <span class="caps">PUSH</span> and <span class="caps">POP</span> are the modern way to represent the stack operations. Disassemblers such as capstone, which the python code uses, are most likely to use this form. Whilst the Python disassembler does convert a number of the disassembled operations to a form which is more familiar to <span class="caps">RISC</span> OS users (see <a href="https://github.com/gerph/riscos-disassemble-python/blob/master/riscos_disassemble/arm/disassemble.py#L805">https://github.com/gerph/riscos-disassemble-python/blo…</a> for some details), the <span class="caps">PUSH</span>/<span class="caps">POP</span> syntax is significantly easier to read, so I&#8217;ve retained it.</p>
-        <p>Reference: <a href="https://developer.arm.com/documentation/dui0489/e/arm-and-thumb-instructions/memory-access-instructions/push-and-pop">https://developer.arm.com/documentation/dui0489/e/arm-…</a></p>
-        <p>However, in the AArch64 world the objasm2gas converter does have macros for Push and Pull which turn these into the same operations, but with 64bit instructions. See <a href="https://github.com/gerph/objasm2gas/blob/main/testdata/objasm/macros/aarch64_stacking.s">https://github.com/gerph/objasm2gas/blob/main/testdata…</a> for an example of the code that I use for that. The reason for doing this translation is so that if I write tests in AArch64 and <span class="caps">ARM</span>, I can compare them and the results are nearly identical. Although this example doesn&#8217;t show the Push/Pull (or Entry/Exit) macros, it does show how similar the code can be:</p>
-        <p><img src="https://share.gerph.org/s/QIuzYNwadOGSw2S/download"></p>]]>
-      </description>
-      <guid>www.riscosopen.org:5:20008:158866</guid>
-      <pubDate>2025-09-02T15:59:12Z</pubDate>
-    </item>    <item>
-      <title>RDPclient with Windows 10</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20005</link>
-      <description>
-        <![CDATA[<p>Ok. A new build it is. May take a while.</p>
-        <p>So thank you very much for your time.</p>]]>
-      </description>
-      <guid>www.riscosopen.org:11:20005:158864</guid>
-      <pubDate>2025-09-02T15:09:03Z</pubDate>
     </item>    <item>
       <title>Time for a Qemu port</title>
       <link>https://www.riscosopen.org/forum/forums/9/topics/18863</link>
@@ -406,17 +442,6 @@
       </description>
       <guid>at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lxtqjci2lk23</guid>
       <pubDate>2025-09-02T08:53:00Z</pubDate>
-    </item>    <item>
-      <title>Impact of storage speed on RISC OS?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20006</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I’ll have to take a look at the options for the <span class="caps">NVME</span> based systems, and see which takes my fancy.</p>
-        </blockquote>
-        <p>Good idea. I’m very pleased with my NVMe <span class="caps">FAST</span> machine; it’s fast, stable and trouble-free. Considering the relatively modest cost of these systems, they represent excellent value <span class="caps">IMHO</span>.</p>]]>
-      </description>
-      <guid>www.riscosopen.org:11:20006:158845</guid>
-      <pubDate>2025-09-02T07:49:06Z</pubDate>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3lxskzmo6jk2k</link>
       <description>
