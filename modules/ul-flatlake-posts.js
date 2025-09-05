@@ -4,16 +4,22 @@
 
 // Helper function to extract the name from an author field
 function nameFromAuthorField(author) {
+    if (author.name === undefined) {
+       return ''
+    }
     const regex = /\(([^)]+)\)/;
-    const match = author.match(regex);
+    const match = author.name.match(regex);
     return match ? match[1] : author;
 }
 
 // Helper function to create a byline from author and date
 function byLine(author, datePublished) {
     let parts = [];
-    if (author !== '') {
-        parts.push(nameFromAuthorField(author));
+    if (author !== undefined && author !== null) {
+        let name = nameFromAuthorField(author);
+        if (name !== '') { 
+	    parts.push(name); 
+	}
     }
     if (datePublished !== '') {
         parts.push(`(${datePublished})`);

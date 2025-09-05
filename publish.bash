@@ -6,3 +6,4 @@ if ! antenna harvest; then
 fi
 ./website.bash
 git commit -am "publishing to main branch"
+git push origin main
