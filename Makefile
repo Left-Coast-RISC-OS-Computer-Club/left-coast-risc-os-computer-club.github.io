@@ -10,7 +10,7 @@ riscos_list.html: riscos.md .FORCE
 
 # Rule to convert Markdown to HTML
 %.html: %.md
-	pandoc $< -o $@
+	pandoc $< -o $@ -s -f markdown -t html5
 	antenna generate
 
 # Clean up generated HTML files
