@@ -6,54 +6,14 @@
       This Antenna App collection olds the posts for the Left Coast RISC OS Computer Club.
     </description>
     <link>http://localhost:8000</link>
-    <lastBuildDate>2025-09-05 10:14:21</lastBuildDate>
+    <lastBuildDate>2025-09-05 10:21:10</lastBuildDate>
     <generator>antenna/0.0.1</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
       <title>RISC OS and my Pi Zero 2W</title>
       <link>https://left-coast-risc-os-computer-club.github.io/posts/2025/09/05/riscos_and_my_pi_zero.html</link>
       <description>
-        <![CDATA[<h1 id="risc-os-and-my-pi-zero-2w">RISC OS and my Pi Zero 2W</h1>
-        <p>I'm &quot;Rabbit in my backyard&quot;. I'm a computer enthusiast. One of my fun computers is a Raspberry Pi Zero 2W.  On my trusty Zero I have been running RISC OS 5.30 with an upgrade to Pinboard 2. I previously installed RISC OS Open 5.30 that included the WiFi support for Raspberry Pi. That allowed me to connect to my network storage and to do a minimal amount of browsing using NetSurf. I have been happy with NetSurf. It is a &quot;distraction free&quot; browser. Recently I've run across some research sites that require JavaScript. That's a problem with NetSurf. Iris is a RISC OS web browser that seeks to solve that problem and be able to work on the web of 2025. Iris ships in the RISC OS Direct's 5.31 image for the Pi. I figured it is time to give it a try.</p>
-        <p>My plan.</p>
-        <ol>
-        <li>Download</li>
-        </ol>
-        <ul>
-        <li>RISC OS Direct Page, <a href="https://www.riscosdev.com/direct/">https://www.riscosdev.com/direct/</a></li>
-        <li>Download Link, <a href="https://drive.google.com/file/d/1d-3ooaDu1Ztq0QxMGTLhEc4MXmmheYN2/view?usp=drive_link">https://drive.google.com/file/d/1d-3ooaDu1Ztq0QxMGTLhEc4MXmmheYN2/view?usp=drive_link</a></li>
-        </ul>
-        <ol start="2">
-        <li>Use Pi Imager to write it to a fresh SD Card from another computer</li>
-        <li>Swap out old SD Card for New one and boot</li>
-        <li>Connect to my home network and give Iris a spin</li>
-        </ol>
-        <p>That's a basic recipe. It is possible to upgrade a 5.30 system in place but I wanted to maintain a running system I could fall back to if this install turned out to be a problem (spoiler alert, it didn't).</p>
-        <p>The main difference between the stable RISC OS 5.30 I installed from RISC OS Open websites and the RISC OS Direct website seems to be the version and the bells and whistles that come pre-install. This is much like the differences found in distributions of Linux. Both are RISC OS but collections of apps that are installed out of the box are differ slightly. RISC OS 5.30 came out last year and the RISC OS Direct 5.31v3 came out after the Iris Browsers will ready to ship and includes the new network stack.</p>
-        <p>My download have the 5.31v3 Image has completed as I was typing this up. Time to &quot;flash&quot; it to the SD Card using the Pi Imager.</p>
-        <p>Steps</p>
-        <ol>
-        <li>Confirm the download was successful to my &quot;Downloads&quot; folder</li>
-        <li>Unzip the &quot;RISCOS_DIRECT_351_Dec_24.zip&quot; file and save the &quot;.img&quot; file to the downloads folder</li>
-        <li>Launch the Raspberry Pi Imager</li>
-        <li>With the new Pi Imager running I select the Pi Zero 2W from the &quot;Choose Pi Device&quot; button</li>
-        <li>I click on the &quot;Operating System&quot; button, then scroll down the list and choosing &quot;Use Custom&quot;</li>
-        <li>I navigate the file dialog and find the downloaded file &quot;RISCOS_DIRECT_351_Dec_24.img&quot; and click on it.</li>
-        <li>Insert my micro SD card (I use a 32G one) into my computer via a USB micro SD Card reader</li>
-        <li>I click the &quot;Choose Storage&quot; Button and select my blank Micro SD Card</li>
-        <li>Click the &quot;Next&quot; button&quot; and I answer &quot;No&quot; to the question about using the stored custom settings</li>
-        <li>I click through the dialog about all the data being erased from the SD Card then sit back and wait</li>
-        </ol>
-        <p>When this completes you're I have a new SD card with the RISC OR Direct distribution on it. I plug it into the micro SD card slot of my Raspberry Pi Zero 2W. I connect up my monitor, mouse and keyboard. Finally connect up the power supply and wait for RISC OS to boot up.</p>
-        <p>When RISC OS is booting it tries to find the network. Nothing has been setup so it just waits for a timeout. I press the escape key. That brings up a dialog that indicates that the boot up process wasn't complete and give my a choice of &quot;cancel&quot; or &quot;retry&quot;. Unintuitively I know I want to &quot;cancel&quot; as it means &quot;cancel&quot; out of trying to boot up with a network. RISC OS then continues to finish booting.</p>
-        <p>The first time I boot RISC OS Direct's version of RISC OS it presents me with a configuration application. The dialog box has various choices. One is the choice of network stack. I to pick &quot;Network manager&quot; and NOT the classic option. Making this choice causes RISC OS to restart. It comes up and I see that I have a WiFi adapter built in (WiFi symbol on the icon bar). I middle click it. Then I am presented with the dialog to setup my WiFi connection and WiFi password. I check the &quot;remember checkbox&quot; so it saves my WiFi password in the profile.</p>
-        <p>At this stage I see a very busy graphic that proclaims RISC OS Direct. I see lots of icons on the Pinboard (desktop for new RISC OS users). RISC OS Direct's 5.31v3 has the Pinboard 2 preinstalled. Aside from the RISC OS Direct's description of the function keys I found the image a little overwhelming. I used !Omni to connect to the my file server and retrieve my preferred desktop image. I copied it (dragged it from the File Server) to a local folder in my Documents folder I created called Wallpaper. I then used the middle button on the Pinboard to pull up the Pinboard 2 configuration panel and set the desktop to my image.</p>
-        <p>The icons on the Pinboard are helpful if you are new to RISC OS. They point to programs you can find in the &quot;Apps&quot; folder or are on icon bar. Since I like a clean desktop I'll probably remove the icons later but since I wanted to try something of the programs I've left them there for the time being.</p>
-        <p>The Iris web browser is a JavaScript friendly web browser that shipped with 5.31 in addition to NetSurf.  I gave it a try and liked it. It's not 100% there (PageFind WASM indexes didn't work on my website's search page) but it is an improvement over having no JavaScript capability. I'll be doing more experimenting with it to better understand its feature set. Right now it feels nice. I had worried it might be horribly slow on a Pi Zero 2W but I find it very usable.</p>
-        <p>I have run into one limitation with my Pi Zero 2W approach to RISC OS 5.31. It's very easy to pick a large image for the desktop image. The initial version I picked was pretty high-res and resulted it taking up most of the Pi's memory. Iris needs memory too. When I had the large desktop file installed and started browsing using Iris it wasn't long before the webpages simply appeared blank. I couldn't figure it out initially. I tried NetSurf and it had problems too. Eventually I thought about the image I had picked for the desktop. That's what lead me to suspect the memory constraints imposed by the background image's size.</p>
-        <p>I changed the desktop to a solid color background and then relaunch Iris. The pages rendered OK. It appears to be an issue with available memory. I loaded a smaller size version of the image and it looked fine on the desktop and Iris as well as NetSurf were happy rendering the web pages. Problem solved.</p>
-        <p>I still have things to explore but so far after de cluttering RISC OS Direct's 5.31 feeds pretty good. The Network manager works better than my 5.30 setup. I also found Omni was less finicky connecting to my home network's file server. I assume that is the results in improvements in the stack.</p>
-        <p>RISC OS has infrequent stable releases and I've not now been eager to try the nightly but given that that I have additional spare SD Cards I might consider that in the future. In the meantime things are improving in RISC OS in spite of some of the challenges. I will find a means of assembling additional Raspberry Pi Zero 2W RISC Machines and giving them away when I have a chance. Perhaps a core user group will emerge on the West Coast of North America.</p>]]>
+        <![CDATA[This post covers installing RISC OS 5.31v3 from RISC OS Direct. It features RISC OS with the a new network stack and with the Iris web browser.]]>
       </description>
       <guid>https://left-coast-risc-os-computer-club.github.io/posts/2025/09/05/riscos_and_my_pi_zero.html</guid>
       <pubDate>2025-09-05T00:00:00Z</pubDate>
