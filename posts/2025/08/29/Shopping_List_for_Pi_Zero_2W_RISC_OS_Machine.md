@@ -3,10 +3,12 @@ title: Shopping list for a Pi Zero 2W RISC OS Machine
 description: |
   A short missive on my attempt to build another RISC OS machine
   using Argon40 case.
-author: Rabbit in my backyard
+
 link: "https://left-coast-risc-os-computer-club.github.io/posts/2025/08/29/Shopping_List_for_Pi_Zero_2W_RISC_OS_Machine.html"
 postPath: "/posts/2025/08/29/Shopping_List_for_Pi_Zero_2W_RISC_OS_Machine.html"
 pubDate: "2025-08-29"
+author: "Rabbit in my backyard"
+publication: LCROCC
 ---
 
 # Shopping List for a Pi Zero 2W RISC OS Machine
