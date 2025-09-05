@@ -6,14 +6,18 @@ datePublished: "2025-09-05"
 description: >
   This post covers installing RISC OS 5.31v3 from RISC OS Direct. It features RISC OS with
   the a new network stack and with the Iris web browser.
+
 pubDate: "2025-09-05"
-postPath: posts/2025/09/05/riscos_and_my_pi_zero.html
-link: https://left-coast-risc-os-computer-club.github.io/posts/2025/09/05/riscos_and_my_pi_zero.html
-author: Rabbit in my backyard
+postPath: "posts/2025/09/05/riscos_and_my_pi_zero.html"
+link: "https://left-coast-risc-os-computer-club.github.io/posts/2025/09/05/riscos_and_my_pi_zero.html"
+author:
+  - name: "Rabbit in my backyard"
 publication: LCROCC
 ---
 
 # RISC OS and my Pi Zero 2W
+
+By Rabbit in my backyard, 2025-09-05
 
 I'm "Rabbit in my backyard". I'm a computer enthusiast. One of my fun computers is a Raspberry Pi Zero 2W.  On my trusty Zero I have been running RISC OS 5.30 with an upgrade to Pinboard 2. I previously installed RISC OS Open 5.30 that included the WiFi support for Raspberry Pi. That allowed me to connect to my network storage and to do a minimal amount of browsing using NetSurf. I have been happy with NetSurf. It is a "distraction free" browser. Recently I've run across some research sites that require JavaScript. That's a problem with NetSurf. Iris is a RISC OS web browser that seeks to solve that problem and be able to work on the web of 2025. Iris ships in the RISC OS Direct's 5.31 image for the Pi. I figured it is time to give it a try.
 
