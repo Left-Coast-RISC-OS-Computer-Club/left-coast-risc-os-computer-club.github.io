@@ -6,10 +6,45 @@
       RISC OS News from around the web
     </description>
     <link>http://localhost:8000</link>
-    <lastBuildDate>2025-09-05 07:00:18</lastBuildDate>
+    <lastBuildDate>2025-09-05 10:13:16</lastBuildDate>
     <generator>antenna/0.0.1</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: TangNano20K Dock for Acorn FPGA Projects</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464524#p464524</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464524#p464524</guid>
+      <pubDate>2025-09-05T17:08:26Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: VIDEONULA questions</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464523#p464523</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464523#p464523</guid>
+      <pubDate>2025-09-05T17:01:59Z</pubDate>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: [TWO TABLES LEFT] BOOKING THREAD: ABUG South 17-19 October 2025.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464522#p464522</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464522#p464522</guid>
+      <pubDate>2025-09-05T16:18:19Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S25 - Round Champ - Zap!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464521#p464521</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464521#p464521</guid>
+      <pubDate>2025-09-05T16:15:27Z</pubDate>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: [TWO TABLES LEFT] BOOKING THREAD: ABUG South 17-19 October 2025.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464520#p464520</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464520#p464520</guid>
+      <pubDate>2025-09-05T16:14:55Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: TangNano20K Dock for Acorn FPGA Projects</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464519#p464519</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464519#p464519</guid>
+      <pubDate>2025-09-05T15:09:08Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Bringing BASIC back: Microsoft’s 6502 BASIC is now Open Source</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464518#p464518</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464518#p464518</guid>
+      <pubDate>2025-09-05T14:02:27Z</pubDate>
+    </item>    <item>
       <title>8-bit acorn emulators • Re: B-Em Tape Overhaul v3 (SAVE support, autotests)</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464517#p464517</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464517#p464517</guid>
@@ -252,6 +287,30 @@
       <guid>at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3lxz2rk5sd22r</guid>
       <pubDate>2025-09-04T11:40:00Z</pubDate>
     </item>    <item>
+      <title>Impact of storage speed on RISC OS?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20006</link>
+      <description>
+        <![CDATA[<p>Quite some time ago I ran some tests with different SD cards and found out that in a Pi (even the old Pi 3) using fast SD card increases the performance massively.</p>
+        <p>A V10 speed card offers just 10MB/s giving you a path to more throughput since using a V30 theoretically triples that and probably will make quite a difference.<br />
+        How much a Pi will gain with a V60 or even V90 offering six or even nine times the throughput of a V10 I can&#8217;t say since I never tried that but I assume it will do some good.</p>
+        <p>Pi 4 with superfast SD card will probably not reach the speed of a CM 4 with <span class="caps">NVME</span> but might be worth considering but the comment from David J. Ruck about life time of SD cards is something to contemplate too.</p>]]>
+      </description>
+      <guid>www.riscosopen.org:11:20006:158893</guid>
+      <pubDate>2025-09-04T08:25:00Z</pubDate>
+    </item>    <item>
+      <title>RDPclient with Windows 10</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20005</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Oops you are correct 24H2 is Windows 11 current version. 22H2 from 2022 is the final version for Windows 10</p>
+        </blockquote>
+        <p>There is not a &#8220;Windows 10&#8221; or &#8220;Windows 11&#8221;, it&#8217;s an ever shifting enshittification show of different versions, with the major versions named after the year and quarter which they were inflicted on most people, and the minor versions just breaking things at anytime.</p>
+        <p>The latest &#8220;Windows 11&#8221; which is being rolled out now is 25H2.</p>
+        <p>Avoid Microsoft AI generated slop operating systems at all costs if you want to retain any sanity.</p>]]>
+      </description>
+      <guid>www.riscosopen.org:11:20005:158892</guid>
+      <pubDate>2025-09-04T07:59:42Z</pubDate>
+    </item>    <item>
       <title>ROX-Filer and Android  Tablets</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/19985</link>
       <description>
@@ -268,16 +327,6 @@
       </description>
       <guid>http://www.iconbar.com/comments/rss/news2234.html</guid>
       <pubDate>2025-09-04T06:44:00Z</pubDate>
-    </item>    <item>
-      <title>Impact of storage speed on RISC OS?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20006</link>
-      <description>
-        <![CDATA[<p>I have a Raspberry Pi 4 and I build a game I wrote, about 40,000 lines of C.</p>
-        <p>Building from the SD card takes over 10 minutes, without timing it, building from <span class="caps">RAM</span> disk takes maybe a minute.</p>
-        <p>For me a real sore point of the Raspberry Pi is how slow the storage is compared to <span class="caps">SSD</span>, for saving individual smallish files, it&#8217;s totally fine, but if you&#8217;re really hitting the storage, you&#8217;ll absolutely notice how slow SD is compared with <span class="caps">SSD</span>.</p>]]>
-      </description>
-      <guid>www.riscosopen.org:11:20006:158889</guid>
-      <pubDate>2025-09-04T00:40:19Z</pubDate>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lxxmhzdz522v</link>
       <description>
@@ -335,17 +384,6 @@
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464334#p464334</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464334#p464334</guid>
       <pubDate>2025-09-03T20:25:37Z</pubDate>
-    </item>    <item>
-      <title>RDPclient with Windows 10</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20005</link>
-      <description>
-        <![CDATA[<p>Just a note to say that I am still interested in this &#8230;..</p>
-        &#8230;.. but for now, I am going to stick with the work around :- !RDPclient &#8594; Windows XP &#8594; Windows 10
-        &#8230;.. It works much, much better (and faster) than I thought it might.
-        <p>And I can leave the headless XP connected to Windows 10, so reconnecting is simple (and fast)</p>]]>
-      </description>
-      <guid>www.riscosopen.org:11:20005:158888</guid>
-      <pubDate>2025-09-03T18:48:43Z</pubDate>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3lxx3ozj47c2j</link>
       <description>
