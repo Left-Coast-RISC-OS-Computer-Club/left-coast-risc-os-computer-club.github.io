@@ -10,8 +10,7 @@ description: >
 pubDate: "2025-09-05"
 postPath: "posts/2025/09/05/riscos_and_my_pi_zero.html"
 link: "https://left-coast-risc-os-computer-club.github.io/posts/2025/09/05/riscos_and_my_pi_zero.html"
-author:
-  - name: "Rabbit in my backyard"
+creator: "Rabbit in my backyard"
 publication: LCROCC
 ---
 
