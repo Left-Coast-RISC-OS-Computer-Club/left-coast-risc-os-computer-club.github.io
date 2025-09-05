@@ -12,8 +12,8 @@ nav: |
     <li><a href="/search.html" title="Site search for LCROCC">Search</a></li>
   </ul>
 
-topContent: |
-  <div class="article-filter">Filter by date: <input id="filter-by-date" type="date"></div>
+#topContent: |
+#  <div class="article-filter">Filter by date: <input id="filter-by-date" type="date"></div>
 
 footer: |
   Left Coast RISC OS Computer Club<br>
