@@ -3,6 +3,10 @@ title: RISC OS
 description: RISC OS News from around the web
 ---
 
+# Wests Coast North America
+
+- [LROCC](https://left-coast-risc-os-computer-club.github.io/posts.xml "Left Coasts RISC OS Computer Club")
+
 # RISC OS related Bsky accounts RSS
 
 - [colinhoad.com](https://bsky.app/profile/did:plc:fspcx32r4ektlhvhf6e7goh2/rss "Colin Hoad on Bsky")
