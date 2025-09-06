@@ -4,11 +4,11 @@
 
 // Helper function to extract the name from an author field
 function nameFromAuthorField(author) {
-    if (author.name === undefined) {
-       return ''
+    if (author.name !== undefined) {
+       return author.name.trim()
     }
     const regex = /\(([^)]+)\)/;
-    const match = author.name.match(regex);
+    const match = author.match(regex);
     return match ? match[1] : author;
 }
 
