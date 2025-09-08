@@ -6,10 +6,60 @@
       RISC OS News from around the web
     </description>
     <link>http://localhost:8000</link>
-    <lastBuildDate>2025-09-08 07:00:18</lastBuildDate>
+    <lastBuildDate>2025-09-08 15:00:16</lastBuildDate>
     <generator>antenna/0.0.1</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: Disk problems</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464741#p464741</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464741#p464741</guid>
+      <pubDate>2025-09-08T21:34:54Z</pubDate>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Homerton and Trinty vs. Helvetica and Times</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464740#p464740</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464740#p464740</guid>
+      <pubDate>2025-09-08T21:26:21Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC Model B - Faulty RAM?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464739#p464739</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464739#p464739</guid>
+      <pubDate>2025-09-08T21:23:08Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn hardware • BBC Model B - Faulty RAM?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464738#p464738</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464738#p464738</guid>
+      <pubDate>2025-09-08T21:22:53Z</pubDate>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Homerton and Trinty vs. Helvetica and Times</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464737#p464737</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464737#p464737</guid>
+      <pubDate>2025-09-08T20:48:48Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: Electroniq - online Acorn Electron emulator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464736#p464736</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464736#p464736</guid>
+      <pubDate>2025-09-08T20:05:09Z</pubDate>
+    </item>    <item>
+      <title>new projects and releases: demoscene • Re: 50fps MODE 2 demo effect on Acorn Electron</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464735#p464735</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464735#p464735</guid>
+      <pubDate>2025-09-08T19:54:58Z</pubDate>
+    </item>    <item>
+      <title>Introduce Yourself • Re: And so it begins</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464733#p464733</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464733#p464733</guid>
+      <pubDate>2025-09-08T19:23:08Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: Electroniq - online Acorn Electron emulator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464731#p464731</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464731#p464731</guid>
+      <pubDate>2025-09-08T18:39:16Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge Nominations - Season 26</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464729#p464729</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464729#p464729</guid>
+      <pubDate>2025-09-08T18:00:42Z</pubDate>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Master CMOS weirdness.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464705#p464705</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464705#p464705</guid>
@@ -374,23 +424,37 @@
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464598#p464598</guid>
       <pubDate>2025-09-06T17:18:03Z</pubDate>
     </item>    <item>
+      <title>Opportunity for a re-think?</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I’ve gone for a single, shared, legacy <span class="caps">SVC</span> stack for legacy code. If a legacy <span class="caps">SWI</span> (many core SWIs and any provided by legacy Modules) is called, the caller will be blocked until the stack is free for use, which means there are no other tasks using the stack or the latest one became blocked (waiting for data from a file, for example). To the code, it looks like it’s running on a single core.</p>
+        </blockquote>
+        <p>That means you have dealth so far with the AArch32 use case only (or so it sounds to me), on the AArch64 (when no AArch32 user-space is available), you&#8217;ll either have to ignore legacy all together or add an emulation layer (unless you&#8217;re plannign to rewrite everything, of course).</p>
+        <p>So, if I understand you approach correctly you run all modules using a single, shared, legacy <span class="caps">SVC</span>? I mean how do you differentiate? Just everything loaded via legacy Module Manager is legacy full-stop?</p>
+        <blockquote>
+        <p>When it comes to legacy modules using interrupts, my approach is to ignore the problem!</p>
+        </blockquote>
+        <p>Ok, it&#8217;s a way of doing it I guess :D</p>
+        <blockquote>
+        <p>No, seriously, modules that use interrupts are closely tied to the hardware. I’d rather re-do them from scratch using the new kernel. Since the hardware is modern, the modules will also be, so they’re likely available to fix.</p>
+        </blockquote>
+        <p>Sure, but there are Modules who could potentially run with <span class="caps">IRQ</span> On avoiding bottlenecking the entire system on every legacy <span class="caps">SWI</span> basically (Jeffrey was doing some work on introducing atomics, and maybe reentrancy?).</p>
+        <p>My giving it an option is to allow those few who could to avoid reducing a new OS to an 80s style one. However indeed, having the time to rewrite them all would benefit immensely the community, but (as I have mentioned many times) I doubt there will be a community effort on that side (at least in the short term), Gerph is doing the 64bitting and C translation, but that doesn&#8217;t mean he is also adding atomics/mutexes and making those modules reentrant. (maybe he is looking into that too thought). Gerph any comment on this please?</p>
+        <blockquote>
+        <p>My focus is on allowing applications and their support modules (e.g. AWRender) to run, and making it easier to write or port new programs. To that end, I’d like to port newclib to the new kernel, so that anything built using the gcc will be runnable.</p>
+        </blockquote>
+        <p>That&#8217;s cool, but are you actually interested in working together to design a new &#8220;standard&#8221; for modern modules? Sorry, but I am not really interested in &#8220;but I am doing this and I am doing that&#8221;, as I have mentioned multiple times I am only interested in helping setting up standardised protocols for modern features in order to keep all the implementations comptaible and consistent. People can do everythign they want, it&#8217;s all for fun at this point.</p>]]>
+      </description>
+      <guid>www.riscosopen.org:13:19949:158943</guid>
+      <pubDate>2025-09-06T16:46:35Z</pubDate>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ly6lz5gdws2h</link>
       <description>
         <![CDATA[An interesting spider find in the house - UK. Not as big as the house spiders that are around at the moment. It's a Noble False Widow. Apparently they can give you a nasty bite, similar to a wasp or bee sting - or a much worse reaction for some people. I took this one to the end of the garden.]]>
       </description>
       <guid>at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3ly6lz5gdws2h</guid>
       <pubDate>2025-09-06T16:31:00Z</pubDate>
-    </item>    <item>
-      <title>Opportunity for a re-think?</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve gone for a single, shared, legacy <span class="caps">SVC</span> stack for legacy code. If a legacy <span class="caps">SWI</span> (many core SWIs and any provided by legacy Modules) is called, the caller will be blocked until the stack is free for use, which means there are no other tasks using the stack or the latest one became blocked (waiting for data from a file, for example). To the code, it looks like it&#8217;s running on a single core.</p>
-        <p>When it comes to legacy modules using interrupts, my approach is to ignore the problem!</p>
-        <p>No, seriously, modules that use interrupts are closely tied to the hardware. I&#8217;d rather re-do them from scratch using the new kernel. Since the hardware is modern, the modules will also be, so they&#8217;re likely available to fix.</p>
-        <p>My focus is on allowing applications and their support modules (e.g. AWRender) to run, and making it easier to write or port new programs. To that end, I&#8217;d like to port newclib to the new kernel, so that anything built using the gcc will be runnable.</p>]]>
-      </description>
-      <guid>www.riscosopen.org:13:19949:158941</guid>
-      <pubDate>2025-09-06T15:55:31Z</pubDate>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3ly6hr6w7wc2k</link>
       <description>
