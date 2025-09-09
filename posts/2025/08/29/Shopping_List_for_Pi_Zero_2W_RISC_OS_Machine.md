@@ -1,5 +1,6 @@
 ---
 title: Shopping list for a Pi Zero 2W RISC OS Machine
+author: Rabbit in my backyard
 description: |
   A short missive on my attempt to build another RISC OS machine
   using Argon40 case.
@@ -24,7 +25,7 @@ Shopping list:
 3. [ARGON POD USB-LAN Module](https://argon40.com/products/pod-usb-lan-module) ($20.00 US)
 4. [Raspberry Pi Zero W with Header Board](https://argon40.com/products/raspberry-pi-zero-wh-board) ($18.00)
 
-Putting this together gives a you smart little RISC OS machine that is small enough to fit in your pocket. You still an SD Card with RISC OS 3.51 on it, an HDMI cable, HDMI monitor, keyboard and mouse but you probably already have those if you have another computer. It's a sweet setup. While some may balk at the size tiny processing power or (by modern standards) RAM or CPU speed it works quiet well for RISC OS. I don't find myself reaching for another machine.
+Putting this together gives a you smart little RISC OS machine that is small enough to fit in your pocket. You still need an SD Card with RISC OS 3.51 on it, an HDMI cable, HDMI monitor, keyboard and mouse but you probably already have those if you have another computer. It's a sweet setup. While some may balk at the size tiny processing power or (by modern standards) RAM or CPU speed it works quiet well for RISC OS. I don't find myself reaching for another machine.
 
 My hope was to build these little boxes, give them to friends and family and recruit them into LCROCC so that RISC OS would spread beyond Europe. I guess I can wait and dream. 
 
