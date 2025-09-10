@@ -18,8 +18,9 @@ We are a tiny club of RISC OS enthusiast who meet virtual on the Western Coast o
 <script type="module" src="modules/ul-flatlake-posts.js"></script>
 <p><ul-flatlake-posts href-api="api/posts/all/page-1.json" href-css="css/ul-flatlake-posts.css" max-items="3"></ul-flatlake-posts></p>
 
-More [reading](./posts.html).
+More reading,
 
+- [LCROCC Blog](./posts.html)
 - [RISC OS around the web](riscos.html)
 - [Website and RSS feed listing](riscos_list.html)
 - Contributing content to [Left Coast RISC OS Computer Club](contributing_news_items.html "Contribute content to LCROCC")
@@ -28,3 +29,5 @@ We invite you a journey. Explore RISC OS on our favorite tiny personal computers
 
 You can find our projects on GitHub at  <https://github.com/Left-Coast-RISC-OS-Computer-Club>
 
+- Blog [RSS](posts.xml)
+- Aggregated [RSS](riscos.xml)

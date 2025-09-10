@@ -1,5 +1,11 @@
 ---
 title: The Next RISC OS Machine
+decription: |
+  I am determined to build another RISC OS Machine based on the Raspberry Pi Zero 2W.
+  In an ideal world I'd build a machine with standard sized plugs for HDMI, USB-C power
+  and USB-2 Keyboard and Mouse connectivity. With the Argon40 pod case off the list
+  I'm going have to accept clunky adapters, the Feckless Orange Troll Baby be dammed.
+
 link: "https://left-coast-risc-os-computer-club.github.io/posts/2025/09/09/the_next_risc_os_machine.html"
 author: Rabbit in my backyard
 dateCreated: "2025-09-09"
@@ -14,7 +20,7 @@ publications: LCROCC
 
 By Rabbit in my backyard
 
-I am determined to build another RISC OS Machine based on the Raspberry Pi Zero 2W. In an ideal world I'd build a machine with standard sized plugs for HDMI, USB-C power and USB-2 Keyboard and Mouse connectivity. With the Argon40 pod case off the list I'm going have to accept clunky adapters, the Fubar Orange Troll Baby be dammed.
+I am determined to build another RISC OS Machine based on the Raspberry Pi Zero 2W. In an ideal world I'd build a machine with standard sized plugs for HDMI, USB-C power and USB-2 Keyboard and Mouse connectivity. With the Argon40 pod case off the list I'm going have to accept clunky adapters, the Feckless Orange Troll Baby be dammed.
 
 The PiShop.us seems to have things in stock. I've put together the [shopping list](https://www.pishop.us/wishlist.php?publicwishlist=45970894-4100-47d3-bf7e-c1a48f0fa889). Now to save my pennies.
 
