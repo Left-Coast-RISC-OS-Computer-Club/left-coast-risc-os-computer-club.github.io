@@ -6,10 +6,80 @@
       RISC OS News from around the web
     </description>
     <link>http://localhost:8000</link>
-    <lastBuildDate>2025-09-09 21:33:21</lastBuildDate>
+    <lastBuildDate>2025-09-10 07:00:16</lastBuildDate>
     <generator>antenna/0.0.2</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>32-bit acorn hardware • Re: A310 floppy drive alternatives</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464858#p464858</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464858#p464858</guid>
+      <pubDate>2025-09-10T13:53:08Z</pubDate>
+    </item>    <item>
+      <title>Iris PackMan install</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19871</link>
+      <description>
+        <![CDATA[<p>Just to keep this thread alive, and public, over the summer <span class="caps">ROD</span> has set up a package repository server for this project, and Chris G has full access.  Lee is also exploring package management too.  So, between everyone, this part of the project should be open to public testing soon.  I&#8217;d like to say this month, but I can&#8217;t speak for others&#8217; time availability.</p>
+        <p>I still need to finalise how I&#8217;m going to test for using an external SharedLibs (which may/may not have the matching versions of shared libraries installed for Iris&#8217; executables).  One method is to run a scan each time/session to see if the necessary files are present, but there are quite a lot of them which might have a small time penalty on slow disc IO.  Another would be to simply check for the main ones (webkit engine and javascript).  It&#8217;s a shame we don&#8217;t quite have an &#8220;RMEnsure&#8221; equivalent for shared libraries!</p>]]>
+      </description>
+      <guid>www.riscosopen.org:5:19871:158986</guid>
+      <pubDate>2025-09-10T13:49:31Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Bringing BASIC back: Microsoft’s 6502 BASIC is now Open Source</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464857#p464857</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464857#p464857</guid>
+      <pubDate>2025-09-10T13:44:57Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge Nominations - Season 26</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464856#p464856</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464856#p464856</guid>
+      <pubDate>2025-09-10T13:21:43Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: Emulator ROM legal status</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464854#p464854</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464854#p464854</guid>
+      <pubDate>2025-09-10T12:57:07Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: GSX under Z80 CP/M</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464853#p464853</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464853#p464853</guid>
+      <pubDate>2025-09-10T12:40:53Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Disk problems</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464852#p464852</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464852#p464852</guid>
+      <pubDate>2025-09-10T12:27:02Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: TangNano20K Dock for Acorn FPGA Projects</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464851#p464851</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464851#p464851</guid>
+      <pubDate>2025-09-10T12:04:39Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: GSX under Z80 CP/M</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464850#p464850</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464850#p464850</guid>
+      <pubDate>2025-09-10T12:03:45Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: Emulator ROM legal status</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464849#p464849</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464849#p464849</guid>
+      <pubDate>2025-09-10T12:02:20Z</pubDate>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Disk problems</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464848#p464848</link>
+      <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464848#p464848</guid>
+      <pubDate>2025-09-10T11:36:57Z</pubDate>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3lyhxs4vxe22o</link>
+      <description>
+        <![CDATA[Whenever anyone mentions Jet Set Willy, I find it hard to resist shouting "JET SET F*CKING WILLY!"
+        
+        (I may have watched Micro Men more times than is strictly healthy)
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <guid>at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lyhxs4vxe22o</guid>
+      <pubDate>2025-09-10T09:56:00Z</pubDate>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Disk problems</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464835#p464835</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464835#p464835</guid>
@@ -542,6 +612,17 @@
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464665#p464665</guid>
       <pubDate>2025-09-07T17:40:15Z</pubDate>
     </item>    <item>
+      <title>Opportunity for a re-think?</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
+      <description>
+        <![CDATA[<p>Yes, the SimpleAsPi repository is the latest, but they started using AI all over the place, when all I want is somewhere to store the files.</p>
+        <p><a href="https://www.theregister.com/2025/09/05/github_copilot_complaints/">https://www.theregister.com/2025/09/05/github_copilot_…</a></p>
+        <p>I&#8217;ve sent you my contact details via WP.</p>
+        <p>It&#8217;s still very much Alpha, interfaces can and will change!</p>]]>
+      </description>
+      <guid>www.riscosopen.org:13:19949:158964</guid>
+      <pubDate>2025-09-07T17:21:47Z</pubDate>
+    </item>    <item>
       <title>acorn &#38;amp; bbc micro user group (abug) events • Re: [WAITING LIST OPEN] BOOKING THREAD: ABUG South 17-19 October 2025.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464664#p464664</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464664#p464664</guid>
@@ -552,23 +633,19 @@
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464663#p464663</guid>
       <pubDate>2025-09-07T17:12:09Z</pubDate>
     </item>    <item>
+      <title>A9Home</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20014</link>
+      <description>
+        <![CDATA[<p>Load from command line outside desktop and look at register dump?</p>
+        <p>MemoryI pc-40+60   sort of thing</p>]]>
+      </description>
+      <guid>www.riscosopen.org:11:20014:158962</guid>
+      <pubDate>2025-09-07T16:48:17Z</pubDate>
+    </item>    <item>
       <title>stardot FORUM • Re: Is there any chance of a dark theme ?</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464661#p464661</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464661#p464661</guid>
       <pubDate>2025-09-07T16:41:32Z</pubDate>
-    </item>    <item>
-      <title>A9Home</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20014</link>
-      <description>
-        <![CDATA[<p>Yesterday and today I have been busy to do what looks simple but it does not work so I&#8217;m slowly pulling hairs&#8230;<br />
-        I have a written a module for an A9 Home and I want to read the <span class="caps">RTC</span> time ( This happens also in the <span class="caps">RTCHW</span> module ) I do read it it in the Init routine of the Module but it gives me a abort a data transfer. As far as I know I&#8217;m supervisor when in init of a module so I should be able to access hardware. Any suggestions are greatly appriated</p>
-        <p>Actions:<br />
-        Address taken from <span class="caps">RTCHW</span> module<br />
-        <span class="caps">RTCHW</span> module killed</p>
-        <p>RO : 4.42</p>]]>
-      </description>
-      <guid>www.riscosopen.org:11:20014:158958</guid>
-      <pubDate>2025-09-07T16:29:13Z</pubDate>
     </item>    <item>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge Nominations - Season 26</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464660#p464660</link>
@@ -636,102 +713,6 @@
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464641#p464641</link>
       <guid>https://www.stardot.org.uk/forums/viewtopic.php?p=464641#p464641</guid>
       <pubDate>2025-09-07T12:33:51Z</pubDate>
-    </item>    <item>
-      <title>Opportunity for a re-think?</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
-      <description>
-        <![CDATA[<p><b>@ Simon</b></p>
-        <blockquote>
-        <p>I’m dealing with the multi-processing AArch32 use case, while keeping binary compatibility with legacy programs and support modules. It’s a bigger change than 64-bit without changing the model, <span class="caps">IMO</span>.</p>
-        </blockquote>
-        <p>100% and same for me. I actually already have an almost working kernel and a minimal <span class="caps">HAL</span> working on AArch64 (I am debugging some issue with the <span class="caps">MMU</span> configuration at the moment), while everything works fine on AArch32.</p>
-        <p>I have temporarily disabled my multi-core support to get my private <span class="caps">ABI</span> dispatcher work fine with all the use cases.</p>
-        <p>I think the first difference we have in architecture is that I have designed Merlin to be usable in all these scenarios:</p>
-        <p>1) Monolithic kernel (for general readers, basically like CP/M or MS-<span class="caps">DOS</span> type operating systems)<br />
-        2) Monolithic Modular (again for general readers of this forum, like <span class="caps">RISC</span> OS)<br />
-        3) Hybrid (Like Linux for example, Hybrid means it can run some kernel extension in kernel-space and some in user-space, aka a mix)<br />
-        4) pure microkernel (like seL4, <span class="caps">QNX</span>, Minix 3 etc, <span class="caps">ALL</span> modules in this configuration runs in user-space only)</p>
-        <p>My understanding is that we are similar in use-case 4 for me.</p>
-        <blockquote>
-        <p>My current approach is that all modules that don’t call RegisterSWIQueue on initialisation are treated as legacy modules that need controlled access to the shared <span class="caps">SVC</span> stack.</p>
-        </blockquote>
-        <p>Ok so you have defined your registration end-point as RegisterSWIQueue, I can follow that, I just need to make sure I can make it portable to other architectures too, but that is my problem.</p>
-        <p>As for the message I am using this format, it&#8217;s RUst but should be readable for a C developer too:</p>
-        <pre>
-        #[repr(C, align(64))]
-        #[derive(Debug)]
-        pub struct PrivateCallContext {
-            /// Source task or thread ID (caller).
-            pub sender_id: u32,
-        
-            /// Destination service/module ID (receiver).
-            pub service_id: u32,
-        
-            /// Syscall or message opcode:
-            /// - Legacy SWI: lower 24 bits
-            /// - Namespace encoded in top 8 bits (see `SysCallNamespace`)
-            pub opcode: u32,
-        
-            /// Call behavior flags (sync, async, etc.).
-            pub flags: CallFlags,
-        
-            /// Reserved (padding for 64-bit alignment).
-            pub reserved: u16,
-        
-            /// Sequence number (for async correlation or ordering).
-            pub sequence_no: u64,
-        
-            /// Optional token for capabilities / access control.
-            pub capability: u64,
-        
-            /// Optional pointer to payload (used for IPC / streaming / large args).
-            pub payload: *mut u8,
-        
-            /// Payload length in bytes.
-            pub payload_len: usize,
-        
-            /// Argument registers (r0–r9 / x0–x9 / a0–a9).
-            pub args: [RegValue; MAX_ARGS],
-        
-            /// Final return status.
-            pub status: i32,
-        }
-        </pre>
-        <p>Does that matches your message? I am designing my architecture to be as standard as possible so this message format is similar to what you can find on <span class="caps">QNX</span>, seL4 (albeit seL4 is a bit more complicated than that), Minix 3 etc.</p>
-        <p>You can see from the struct that it also incapsulate this:</p>
-        <p>pub args: [RegValue; MAX_ARGS],</p>
-        <p>Now this is on AArch32 the usual 9 registers (<span class="caps">RISC</span> OS fashion) Rn, on AArch64 they become Xn, on other architectures they adapt and they can also be 128bit future architecture.</p>
-        <p>Now you&#8217;ve mentioned you want to pass objects reference, which my message can handle easy, so are the object allocated and managed in a dedicated service?</p>
-        <p>Given I am also experimenting with distributed architectures, the payload can be sent directly (aka the object can be also sent from a &#8220;remote&#8221; node).</p>
-        <p>If you want I can give you access to my sources it&#8217;s probably easier to get to the full extent of details.</p>
-        <p>Do you use Sender IDs? Do you have a pinter to the new source? I think you&#8217;ve started a new project or am I wrong?</p>
-        <blockquote>
-        <p>I don’t see any future in a single-processor AArch64 <span class="caps">RISC</span> OS, even less in one that needs an OS to run on, sorry. Use an emulator.</p>
-        </blockquote>
-        <p>Totally with you, I have never said otherwise, and actually mentioned multipel times that no on eneeds the old architecture ported to 64bit, like no one.</p>
-        <blockquote>
-        <p>Do we want multi-processing? If so, we need something like I’ve done, and to move away from service calls, up calls, vectors, etc., as soon as possible. No new APIs should expect unchecked access to their client’s memory, let alone anything like the <span class="caps">RMA</span>.</p>
-        </blockquote>
-        <p>Yes we do want multi-processing, but again I have addressed that for the legacy as well, albeit I am still working on completing it, but again that is an extra use case for me, I want to focus on standardising the user-space protocol, legacy is legacy and everyone will try to adress as best as we can.</p>
-        <blockquote>
-        <p>I’m open to the idea, but I think we need a common understanding of where we want to get to first.</p>
-        </blockquote>
-        <p>Sure, ask away.</p>
-        <p>I have published a full presentation of what Merlin actually is (and is not) and where I am goign with it. All I want on here is to ensure it keeps compatibility with <span class="caps">RISC</span> OS, as for Merlin, I already have implemented things like layered memory allocators with arenas per core, recursive mutexes and atomics to allow it to run on many core systems.</p>
-        <p>I have also redacted a document to implement multi-users without having the user 0 as on traditional <span class="caps">UNIX</span>-like which is obviously prone to privileges escalation, if you want we can discuss on that as well. But again on here I am interested only in keeping it compatible with <span class="caps">RISC</span> OS, both legacy and whatever will be new architecture.</p>
-        <p>I have already given you the link to the project presentation, so not sure what else you need from me to understand that I don&#8217;t care one bit in the old <span class="caps">RISC</span> OS architecture. (read full-stop).</p>
-        <p>So, to summarize (for Merlin):</p>
-        <p>1) Multi-core<br />
-        2) Multi-architecture<br />
-        3) Multi-tasking (preemptive)<br />
-        4) microkernel (+ the other scenarios I have mentioned)<br />
-        5) compatible with legacy <span class="caps">RISC</span> OS<br />
-        6) my public <span class="caps">ABI</span> and <span class="caps">API</span> will be <span class="caps">POSIX</span>, I can add support for whatever <span class="caps">ROOL</span> will do in their Moonshot project (and I would love if both Gerph and <span class="caps">ROOL</span> would come up with the same <span class="caps">ABI</span> and <span class="caps">API</span>)<br />
-        7) I would love to ensure the microkernel approach (so modules in user-space) would be compatible with your OS, I don&#8217;t believe Gerph and/or <span class="caps">ROOL</span> are interested in this, but if they are they are more than welcome to join the architecture design.</p>
-        <p>Are we good Sir? :)</p>]]>
-      </description>
-      <guid>www.riscosopen.org:13:19949:158950</guid>
-      <pubDate>2025-09-06T23:39:22Z</pubDate>
     </item>    <item>
       <title>acorn &#38;amp; bbc micro user group (abug) events • Re: [ONE TABLE LEFT] BOOKING THREAD: ABUG South 17-19 October 2025.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464607#p464607</link>
