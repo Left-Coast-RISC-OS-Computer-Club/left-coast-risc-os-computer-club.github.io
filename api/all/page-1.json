@@ -14,6 +14,7 @@
         "description": "A short missive on my attempt to build another RISC OS machine\nusing Argon40 case.\n",
         "link": "https://left-coast-risc-os-computer-club.github.io/posts/2025/08/29/Shopping_List_for_Pi_Zero_2W_RISC_OS_Machine.html",
         "postPath": "/posts/2025/08/29/Shopping_List_for_Pi_Zero_2W_RISC_OS_Machine.html",
+        "pubDate": "2025-08-29",
         "publication": "LCROCC",
         "title": "Shopping list for a Pi Zero 2W RISC OS Machine"
       },
@@ -24,11 +25,12 @@
       "data": {
         "author": "Rabbit in my backyard",
         "dateCreated": "2025-02-05",
-        "dateModified": "2025-09-05",
+        "dateModified": "2025-09-09",
         "datePublished": "2025-09-05",
         "description": "This post covers installing RISC OS 5.31v3 from RISC OS Direct. It features RISC OS with the a new network stack and with the Iris web browser.\n",
         "link": "https://left-coast-risc-os-computer-club.github.io/posts/2025/09/05/riscos_and_my_pi_zero.html",
         "postPath": "posts/2025/09/05/riscos_and_my_pi_zero.html",
+        "pubDate": "2025-09-05",
         "publication": "LCROCC",
         "title": "RISC OS and my Pi Zero 2W"
       },
@@ -39,9 +41,11 @@
       "data": {
         "author": "Rabbit in my backyard",
         "dateCreated": "2025-09-09",
+        "dateModified": "2025-09-09",
         "datePublished": "2025-09-09",
         "link": "https://left-coast-risc-os-computer-club.github.io/posts/2025/09/09/the_next_risc_os_machine.html",
         "postPath": "posts/2025/09/09/the_next_risc_os_machine.html",
+        "pubDate": "2025-09-09",
         "publications": "LCROCC",
         "title": "The Next RISC OS Machine"
       },

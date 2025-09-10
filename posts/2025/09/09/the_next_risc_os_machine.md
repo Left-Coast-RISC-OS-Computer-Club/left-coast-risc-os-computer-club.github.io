@@ -1,10 +1,12 @@
 ---
 title: The Next RISC OS Machine
-dateCreated: "2025-09-09"
-datePublished: "2025-09-09"
-postPath: "posts/2025/09/09/the_next_risc_os_machine.html"
 link: "https://left-coast-risc-os-computer-club.github.io/posts/2025/09/09/the_next_risc_os_machine.html"
 author: Rabbit in my backyard
+dateCreated: "2025-09-09"
+dateModified: "2025-09-09"
+datePublished: "2025-09-09"
+pubDate: "2025-09-09"
+postPath: "posts/2025/09/09/the_next_risc_os_machine.html"
 publications: LCROCC
 ---
 

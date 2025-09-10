@@ -8,8 +8,9 @@ postPath: "posts/2025/09/05/riscos_and_my_pi_zero.html"
 link: "https://left-coast-risc-os-computer-club.github.io/posts/2025/09/05/riscos_and_my_pi_zero.html"
 author: Rabbit in my backyard
 dateCreated: "2025-02-05"
-dateModified: "2025-09-05"
+dateModified: "2025-09-09"
 datePublished: "2025-09-05"
+pubDate: "2025-09-05"
 publication: LCROCC
 ---
 
