@@ -2,17 +2,17 @@ port: 8000
 htdocs: .
 collections:
     - title: RISCOS
-      link: http://localhost:8000
       description: RISC OS News from around the web
       file: riscos.md
+      link: https://left-coast-risc-os-computer-club.github.io/riscos.xml
       generator: riscos.yaml
       filters:
         - UPDATE items SET status = 'published';
       dbName: riscos.db
     - title: LCROCC blog
-      link: http://localhost:8000
       description: This Antenna App collection olds the posts for the Left Coast RISC OS Computer Club.
       file: posts.md
+      link: https://left-coast-risc-os-computer-club.github.io/posts.xml
       generator: posts.yaml
       filters:
         - UPDATE items SET status = 'review';
