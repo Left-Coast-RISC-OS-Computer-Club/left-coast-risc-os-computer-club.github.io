@@ -7,10 +7,63 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>10 Sep 25 14:07 -0700</lastBuildDate>
+    <lastBuildDate>10 Sep 25 15:00 -0700</lastBuildDate>
     <generator>antenna/0.0.2</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn software: other • Re: BBC B 48k musings</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464937#p464937</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=464937#p464937</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S25 - Round Champ - Zap!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464936#p464936</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=464936#p464936</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: ABUG Dev night #99, Thursday 4 September 2025, 19:30 BST</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464935#p464935</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=464935#p464935</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: Emulator ROM legal status</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464934#p464934</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=464934#p464934</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Bringing BASIC back: Microsoft’s 6502 BASIC is now Open Source</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464933#p464933</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=464933#p464933</guid>
+    </item>    <item>
+      <title>miscellaneous new bbc and electron games • Re: DOOM - ARM7TDMI version</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464932#p464932</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=464932#p464932</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Master CMOS weirdness.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464931#p464931</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=464931#p464931</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: Emulator ROM legal status</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464930#p464930</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=464930#p464930</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: PiEconetBridge printing</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464929#p464929</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=464929#p464929</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: Emulator ROM legal status</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464928#p464928</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=464928#p464928</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lyiuiaj5cs2m</link>
+      <description>
+        <![CDATA[Who remembers when you had to put CDs into a special caddy holder before you could put it into the computer's CD drive? Crazy times!]]>
+      </description>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3lyiuiaj5cs2m</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3lyigj2hadk24</link>
+      <description>
+        <![CDATA[Bah beep.
+        [best I can do with standard parts]]]>
+      </description>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3lyigj2hadk24</guid>
+    </item>    <item>
       <title>32-bit acorn hardware • Re: A310 floppy drive alternatives</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464858#p464858</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=464858#p464858</guid>
@@ -325,6 +378,16 @@
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464729#p464729</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=464729#p464729</guid>
     </item>    <item>
+      <title>Opportunity for a re-think?</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Almost all SWIs use the svc stack in some form; an interrupt calling a <span class="caps">SWI</span> to perform a task will not interfere with the interrupted task because the stack pointer will have been restored before the interrupted task resumes.</p>
+        </blockquote>
+        <p>Reminds me of an old version of AudioMPEG. The code was compiled with a version of the C compiler that had a bug in the handling of sub-blocks, it update the stack before increasing R13, so if an interrupt occured between the two steps the updated value would end up corrupted.</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:13:19949:158972</guid>
+    </item>    <item>
       <title>MS Co-Pilot AI works on !Iris</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20013</link>
       <description>
@@ -401,102 +464,9 @@
       <title>Live Coding with Gerph, Sunday 7th September at 1pm</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20010</link>
       <description>
-        <![CDATA[<p>Largely successful today. We had a few returning viewers who weren&#8217;t regular <span class="caps">RISC</span> OS users, which was quite nice.</p>
-        <ul>
-        	<li>Compared the output against that from <span class="caps">RISC</span> OS Pyromaniac, the <span class="caps">RISC</span> OS Select Debugger and the <span class="caps">RISC</span> OS 5 Debugger. Interestingly, the Select and <span class="caps">RISC</span> OS 5 Debugger both generate <code>LSL r0, r0, #0</code> instead of <span class="caps">MOVS</span> r0, r0</code>.</li>
-        </ul>
-        <ul>
-        	<li><code>*MemoryI</code> now disassembles by rounding down to an aligned word (aligned to 2-bytes for the Thumb disassembly, or 4-bytes for <span class="caps">ARM</span>).</li>
-        </ul>
-        <ul>
-        	<li>Spent quite a bit of time trying to work out the tables in the Thumb disassembly, to ensure that the instructions used the <code>S</code> suffix on instructions which were implicit or used the IT conditions. So things like <code>EORS</code> comes out consistently with the other systems.</li>
-        </ul>
-        <ul>
-        	<li>In Thumb, <code>LDR</code>/<code>STR</code>/<code>ADR</code> round the PC down rather than using it directly, even if this is a byte load.  That was a little bit of a surprise, but at least it&#8217;s easy to do.</li>
-        </ul>
-        <ul>
-        	<li>SWIs that decode as <code>User</code> or <code>XUser</code> are now allowed to just use the <span class="caps">SWI</span> number as the unnamed <span class="caps">SWI</span> was difficult to look up.</li>
-        </ul>
-        <ul>
-        	<li>Shifts in <span class="caps">ARM</span> instructions (<code>LSL</code>, and friends) are now capitalised.</li>
-        </ul>
-        <ul>
-        	<li>Comment alignment is now consistent with <span class="caps">RISC</span> OS Pyromaniac which should make things easier to compare in the tests.</li>
-        </ul>
-        <ul>
-        	<li>Tests now restrict the memory that we initialise with <code>*InitStore</code> so that we don&#8217;t timeout, and gives us consistent output for <code>*ShowRegs</code>.</li>
-        </ul>
-        <p>Next week we&#8217;ll be looking at (I hope!) finishing the tests. There&#8217;s now 26 passing, and 11 failing &#8211; I think most of these should be easy, but I said that last week!</p>
-        <hr />
-        <p>I&#8217;ve made some small fixes to my Debugger here to address the <code>MOVS Rd, Rn</code> issue. Doesn&#8217;t look like that the fix is present in the current <span class="caps">RISC</span> OS 5.</p>
-        <p>Here&#8217;s the diff if anyone wants to submit it&#8230;</p>
-        <pre>
-        commit 411a7fb9f9536091635b24bf1ed9087673863a5e
-        Author: Charles Ferguson &lt;<a href="mailto:gerph@gerph.org">gerph@gerph.org</a>&gt;
-        Date:   Sun Sep 7 23:19:04 2025 +0100
-        
-            Fix for Thumb disassembly not handling MOVS r0, r0.
-            
-            The MOVS Rd, Rn instruction wasn't coming out right - it was showing
-            as an LSL. This should now be coming out correctly.
-        
-        diff --git a/Makefile,fe1 b/Makefile,fe1
-        index 760fbdc..b1a62d5 100644
-        --- a/Makefile,fe1
-        +++ b/Makefile,fe1
-        @@ -16,6 +16,12 @@ RESOURCES  = ${RESDIR}.${COMPONENT}.Messages
-         
-         include AsmModule
-         
-        +${OZDIR}.${COMPONENT}: s.Debugger \
-        +                       s.Thumb \
-        +                       s.Options \
-        +                       s.Workspace \
-        +                       s.FP
-        +
-         # Exports
-         ${EXP_HDR}.${COMPONENT}: hdr.${COMPONENT}
-                 ${CP} $?  $@  ${CPFLAGS}
-        diff --git a/s/Thumb b/s/Thumb
-        index 0d52071..799d3a2 100644
-        --- a/s/Thumb
-        +++ b/s/Thumb
-        @@ -661,9 +661,11 @@ ThumbShiftImm ROUT
-         	; &lt;LSL|LSR|ASR&gt; Rd,Rn,#imm
-         	;
-         	; where  oo = operation (LSL,LSR,ASR)
-        -	;     iiiii = 5-bit immediate
-        +	;     iiiii = 5-bit immediate (if 0, and oo=0, this is a MOVS Rd, Rn)
-         	;       nnn = Rn
-         	;       ddd = Rd
-        +    TST R4, #2_0001111111000000
-        +    BEQ ThumbImmMOV
-         	AND	R6,R4,#2_0001100000000000
-         	ADR	R1,ThumbShiftTable
-         	ADD	R10,R1,R6,LSR #9
-        @@ -684,6 +686,19 @@ ThumbShiftImm ROUT
-         3	BL	StoreDecimal
-         	B	ThumbInstEnd
-         
-        +ThumbImmMOV
-        +    ADR R10, ThumbMOVS
-        +    BL  SaveString
-        +    AND R5,R4,#2_0000000000000111
-        +    BL  Tab_Dis_Register
-        +    AND R5,R4,#2_0000000000111000
-        +    MOV R5,R5,LSR #3
-        +    BL  Comma_Dis_Register
-        +    B   ThumbInstEnd
-        +
-        +ThumbMOVS = "MOVS", 0
-        +    ALIGN
-        +
-         	ROUT
-         ThumbRegList Entry "R2,R5,R6,R8"
-         	MOV	R5,#0
-        </pre>]]>
+        <![CDATA[<p>Nice work &#8211; is your new Debugger module standalone with all versions of RO?</p>]]>
       </description>
-      <guid>cid://www.riscosopen.org:1:20010:158968</guid>
+      <guid>cid://www.riscosopen.org:1:20010:158969</guid>
     </item>    <item>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge Nominations - Season 26</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464669#p464669</link>
@@ -524,16 +494,6 @@
       <title>acorn &#38;amp; bbc micro user group (abug) events • Re: [ONE TABLE LEFT] BOOKING THREAD: ABUG South 17-19 October 2025.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464665#p464665</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=464665#p464665</guid>
-    </item>    <item>
-      <title>Opportunity for a re-think?</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
-      <description>
-        <![CDATA[<p>Yes, the SimpleAsPi repository is the latest, but they started using AI all over the place, when all I want is somewhere to store the files.</p>
-        <p><a href="https://www.theregister.com/2025/09/05/github_copilot_complaints/">https://www.theregister.com/2025/09/05/github_copilot_…</a></p>
-        <p>I&#8217;ve sent you my contact details via WP.</p>
-        <p>It&#8217;s still very much Alpha, interfaces can and will change!</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:13:19949:158964</guid>
     </item>    <item>
       <title>acorn &#38;amp; bbc micro user group (abug) events • Re: [WAITING LIST OPEN] BOOKING THREAD: ABUG South 17-19 October 2025.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464664#p464664</link>
