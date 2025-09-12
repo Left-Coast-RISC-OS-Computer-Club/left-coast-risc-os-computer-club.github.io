@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<atom:link href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="self" type="application/rss+xml" />
   <channel>
     <title>RISCOS</title>
     <description>
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>12 Sep 25 15:00 -0700</lastBuildDate>
-    <generator>antenna/0.0.3</generator>
+    <lastBuildDate>12 Sep 25 15:23 -0700</lastBuildDate>
+    <generator>antenna/0.0.4</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
       <title>8-bit acorn hardware • Re: 65CE02 in Model B</title>

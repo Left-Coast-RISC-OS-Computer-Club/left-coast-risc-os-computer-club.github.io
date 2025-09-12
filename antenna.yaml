@@ -1,5 +1,6 @@
 port: 8000
 htdocs: .
+baseUrl: https://left-coast-risc-os-computer-club.github.io
 collections:
     - title: RISCOS
       description: RISC OS News from around the web

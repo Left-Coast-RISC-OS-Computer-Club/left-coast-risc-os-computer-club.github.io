@@ -4,7 +4,7 @@ description: |
   A short missive on my attempt to build another RISC OS machine
   using Argon40 case.
 
-postPath: "/posts/2025/08/29/Shopping_List_for_Pi_Zero_2W_RISC_OS_Machine.md"
+postPath: "posts/2025/08/29/Shopping_List_for_Pi_Zero_2W_RISC_OS_Machine.md"
 author: Rabbit in my backyard
 dateCreated: "2025-08-29"
 dateModified: "2025-09-09"
