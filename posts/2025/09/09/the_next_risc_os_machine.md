@@ -1,6 +1,6 @@
 ---
 title: The Next RISC OS Machine
-decription: |
+description: |
   I am determined to build another RISC OS Machine based on the Raspberry Pi Zero 2W.
   In an ideal world I'd build a machine with standard sized plugs for HDMI, USB-C power
   and USB-2 Keyboard and Mouse connectivity. With the Argon40 pod case off the list
@@ -11,7 +11,7 @@ dateCreated: "2025-09-09"
 dateModified: "2025-09-09"
 datePublished: "2025-09-09"
 postPath: "posts/2025/09/09/the_next_risc_os_machine.md"
-publications: LCROCC
+publication: LCROCC
 ---
 
 # The Next RISC OS Machine
