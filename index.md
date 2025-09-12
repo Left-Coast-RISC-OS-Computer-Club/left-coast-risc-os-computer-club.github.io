@@ -20,7 +20,7 @@ We are a tiny club of RISC OS enthusiast who meet virtual on the Western Coast o
 
 More reading,
 
-- [LCROCC Blog](./posts.html)
+- [Grousing, the LCROCC Blog](./posts.html)
 - [RISC OS around the web](riscos.html)
 - [Website and RSS feed listing](riscos_list.html)
 - Contributing content to [Left Coast RISC OS Computer Club](contributing_news_items.html "Contribute content to LCROCC")
