@@ -4,13 +4,11 @@ description: |
   A short missive on my attempt to build another RISC OS machine
   using Argon40 case.
 
-link: "https://left-coast-risc-os-computer-club.github.io/posts/2025/08/29/Shopping_List_for_Pi_Zero_2W_RISC_OS_Machine.html"
-postPath: "/posts/2025/08/29/Shopping_List_for_Pi_Zero_2W_RISC_OS_Machine.html"
+postPath: "/posts/2025/08/29/Shopping_List_for_Pi_Zero_2W_RISC_OS_Machine.md"
 author: Rabbit in my backyard
 dateCreated: "2025-08-29"
 dateModified: "2025-09-09"
-datePubilshed: "2025-08-29"
-pubDate: "2025-08-29"
+datePublished: "2025-08-29"
 publication: LCROCC
 ---
 

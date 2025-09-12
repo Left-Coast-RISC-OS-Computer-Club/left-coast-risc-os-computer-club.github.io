@@ -6,13 +6,11 @@ decription: |
   and USB-2 Keyboard and Mouse connectivity. With the Argon40 pod case off the list
   I'm going have to accept clunky adapters, the Feckless Orange Troll Baby be dammed.
 
-link: "https://left-coast-risc-os-computer-club.github.io/posts/2025/09/09/the_next_risc_os_machine.html"
 author: Rabbit in my backyard
 dateCreated: "2025-09-09"
 dateModified: "2025-09-09"
 datePublished: "2025-09-09"
-pubDate: "2025-09-09"
-postPath: "posts/2025/09/09/the_next_risc_os_machine.html"
+postPath: "posts/2025/09/09/the_next_risc_os_machine.md"
 publications: LCROCC
 ---
 

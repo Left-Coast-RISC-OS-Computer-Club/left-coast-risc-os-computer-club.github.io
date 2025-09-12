@@ -1,16 +1,14 @@
 ---
 title: RISC OS and my Pi Zero 2W
-description: >
+description: |
   This post covers installing RISC OS 5.31v3 from RISC OS Direct. It features RISC OS with
   the a new network stack and with the Iris web browser.
 
-postPath: "posts/2025/09/05/riscos_and_my_pi_zero.html"
-link: "https://left-coast-risc-os-computer-club.github.io/posts/2025/09/05/riscos_and_my_pi_zero.html"
+postPath: "posts/2025/09/05/riscos_and_my_pi_zero.md"
 author: Rabbit in my backyard
 dateCreated: "2025-02-05"
 dateModified: "2025-09-09"
 datePublished: "2025-09-05"
-pubDate: "2025-09-05"
 publication: LCROCC
 ---
 
