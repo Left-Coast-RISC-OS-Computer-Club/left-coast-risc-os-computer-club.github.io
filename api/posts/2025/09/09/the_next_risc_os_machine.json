@@ -5,11 +5,9 @@
     "dateCreated": "2025-09-09",
     "dateModified": "2025-09-09",
     "datePublished": "2025-09-09",
-    "decription": "I am determined to build another RISC OS Machine based on the Raspberry Pi Zero 2W.\nIn an ideal world I'd build a machine with standard sized plugs for HDMI, USB-C power\nand USB-2 Keyboard and Mouse connectivity. With the Argon40 pod case off the list\nI'm going have to accept clunky adapters, the Feckless Orange Troll Baby be dammed.\n",
-    "link": "https://left-coast-risc-os-computer-club.github.io/posts/2025/09/09/the_next_risc_os_machine.html",
-    "postPath": "posts/2025/09/09/the_next_risc_os_machine.html",
-    "pubDate": "2025-09-09",
-    "publications": "LCROCC",
+    "description": "I am determined to build another RISC OS Machine based on the Raspberry Pi Zero 2W.\nIn an ideal world I'd build a machine with standard sized plugs for HDMI, USB-C power\nand USB-2 Keyboard and Mouse connectivity. With the Argon40 pod case off the list\nI'm going have to accept clunky adapters, the Feckless Orange Troll Baby be dammed.\n",
+    "postPath": "posts/2025/09/09/the_next_risc_os_machine.md",
+    "publication": "LCROCC",
     "title": "The Next RISC OS Machine"
   }
 }

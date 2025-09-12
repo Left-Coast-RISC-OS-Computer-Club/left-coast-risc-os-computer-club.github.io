@@ -5,10 +5,8 @@
     "dateCreated": "2025-02-05",
     "dateModified": "2025-09-09",
     "datePublished": "2025-09-05",
-    "description": "This post covers installing RISC OS 5.31v3 from RISC OS Direct. It features RISC OS with the a new network stack and with the Iris web browser.\n",
-    "link": "https://left-coast-risc-os-computer-club.github.io/posts/2025/09/05/riscos_and_my_pi_zero.html",
-    "postPath": "posts/2025/09/05/riscos_and_my_pi_zero.html",
-    "pubDate": "2025-09-05",
+    "description": "This post covers installing RISC OS 5.31v3 from RISC OS Direct. It features RISC OS with\nthe a new network stack and with the Iris web browser.\n",
+    "postPath": "posts/2025/09/05/riscos_and_my_pi_zero.md",
     "publication": "LCROCC",
     "title": "RISC OS and my Pi Zero 2W"
   }
