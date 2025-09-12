@@ -15,8 +15,5 @@ antenna generate
 flatlake
 if [ -d .git ]; then git add api; fi
 # Build our search indexes now that we have HTML pages.
-pagefind \
-  --verbose \
-  --force-language en \
-  --site .
+pagefind --verbose --force-language en
 if [ -d .git ] ; then git add pagefind; fi
