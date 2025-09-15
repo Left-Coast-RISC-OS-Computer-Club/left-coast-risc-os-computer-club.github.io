@@ -16,7 +16,7 @@ datePublished: "2025-09-15"
 
 This popped up on the RISC OS forms, might be of interest to those
 on the West Coat of North America. If I've done my timezone translation
-correctly it'll be on Sept. 20, 11:30am PDT.
+correctly it'll be on Sept. 20, 11:30am PDT. See [post](https://www.riscosopen.org/forum/forums/1/topics/20021) at RISC OS Open forums.
 
 > Join us around the “Coding on RISC OS” campfire this coming Saturday, 20th September, at 7:30 p.m. (GMT+1) for another one of our regular, friendly and informal fireside chats.
 >
