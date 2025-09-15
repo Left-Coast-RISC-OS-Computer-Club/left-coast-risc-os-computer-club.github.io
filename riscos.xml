@@ -7,14 +7,87 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>15 Sep 25 07:00 -0700</lastBuildDate>
-    <generator>antenna/0.0.5</generator>
+    <lastBuildDate>15 Sep 25 15:00 -0700</lastBuildDate>
+    <generator>antenna/0.0.6</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lyvrun26ss2v</link>
+      <description>
+        <![CDATA[You can assemble 68000 code on a BBC Micro if you have the right software. This cross-assembler was published by Crossware in 1986 IIRC. They sold different versions for various 8 and 16-bit processors. The 68K version was the most exotic. Here's a test process going through lots of combinations.]]>
+      </description>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3lyvrun26ss2v</guid>
+    </item>    <item>
+      <title>new projects in development: games • Re: Lady Bug</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465252#p465252</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465252#p465252</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: German Electron specifics</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465251#p465251</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465251#p465251</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S25 - Round Champ - Zap!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465250#p465250</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465250#p465250</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: The BBC Micro ROM Library</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465249#p465249</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465249#p465249</guid>
+    </item>    <item>
+      <title>A9 Home port</title>
+      <link>https://www.riscosopen.org/forum/forums/9/topics/20022</link>
+      <description>
+        <![CDATA[<p>I started on a small adventure the port for the A9 Home. I have setup the environment on the Pinebook Pro. Now I have a question I have followed the instructions &#8216;How to port <span class="caps">RISC</span> OS to new hardware&#8217; that is speaking to use the OMAP3 port as a base.  I have found the start of the <span class="caps">HAL</span> for the A9 Home. But that is very very basic <span class="caps">HAL</span>.<br />
+        Which would you advice as a start point the Tungsten source or the <span class="caps">IOMDHAL</span> ?</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:9:20022:159039</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: Elkulator plus Allegro5 - The future begins!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465248#p465248</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465248#p465248</guid>
+    </item>    <item>
+      <title>A9Home port?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/311</link>
+      <description>
+        <![CDATA[<p>I&#8217;m doing an attempt so I took the sources from <span class="caps">OMAP</span> 3 as discussed in &#8216;How to port <span class="caps">RISC</span> OS to new hardware&#8217;. But of course no <span class="caps">ROM</span> generated ;-(</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:5:311:159038</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3lyvjiq7xgk2u</link>
+      <description>
+        <![CDATA[@givvygavvygoo.bsky.social @rougol.bsky.social Apologies, something has come up, so can't make it this evening.]]>
+      </description>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3lyvjiq7xgk2u</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic games • Re: New: BBC Master Elite for the BBC Micro B+</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465247#p465247</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465247#p465247</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lyvhogennc2o</link>
+      <description>
+        <![CDATA[Great response from Martin Galway after I released a teaser for Galaforce 3 on the BBC Micro - a project I shall almost certainly never complete. I may give him the gig if I change my mind!]]>
+      </description>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3lyvhogennc2o</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S25 - Round Champ - Zap!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465246#p465246</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465246#p465246</guid>
+    </item>    <item>
+      <title>miscellaneous new bbc and electron games • Squall - Tempest lite for the BBC Model B</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465245#p465245</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465245#p465245</guid>
+    </item>    <item>
+      <title>acorn atom and acorn system series • Re: Abasic2/3 and SBasic2/3</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465244#p465244</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465244#p465244</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A4000 IDE issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465243#p465243</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465243#p465243</guid>
+    </item>    <item>
       <title>Coding on RISC OS fireside chat, this Saturday - 20th Sept.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20021</link>
       <description>
-        <![CDATA[<p>Join us around the “Coding on <span class="caps">RISC</span> OS” campfire this coming Saturday, 20 September, at 7:30 p.m. (GMT+1) for another one of our regular, friendly and informal fireside chats.</p>
+        <![CDATA[<p>Join us around the “Coding on <span class="caps">RISC</span> OS” campfire this coming Saturday, 20th September, at 7:30 p.m. (GMT+1) for another one of our regular, friendly and informal fireside chats.</p>
         <p>Whether you’re curious, want to help others, are looking to get started, need assistance, or want to share a project or current challenge with the group, you’re all welcome! No experience necessary.</p>
         <p>If you are a developer looking to connect with others, come and join in.</p>
         <p>For the Zoom credentials (no change), DM me over on X (<a href="https://twitter.com/armbytes">Twitter</a>), <a href="https://bsky.app/profile/armbytes.bsky.social">BlueSky</a>, ChatCube or <a href="https://mastodon.online/@armbytes">Mastodon</a>. There&#8217;s also an email link at the bottom of this informative RISCOSitory news <a href="https://www.riscository.com/2025/developers-fireside-chat-9th-august/">page</a>.</p>]]>
@@ -570,6 +643,16 @@
       </description>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lymzvftuy22t</guid>
     </item>    <item>
+      <title>Opportunity for a re-think?</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
+      <description>
+        <![CDATA[<p><span class="caps">ROLF</span> already had an <span class="caps">ARM</span> processor emulator. Two, in fact, one targeting x86, the other, <span class="caps">ARM</span> (probably to simulate privileged modes, it&#8217;s been a while). They&#8217;re in here:<br />
+        <a href="https://sourceforge.net/p/ro-lf/code/">https://sourceforge.net/p/ro-lf/code/</a><span class="caps">HEAD</span>/tree/<span class="caps">ROLF</span>/rolf/Libs/Compatibility/</p>
+        <p>Further to a discussion I had last night at <span class="caps">BRU</span>, there might be an obscure bug to do with shifts and setting C or V flags.</p>
+        <p>Anyway, I&#8217;m still thinking of a low-level microkernel that runs on physical hardware, utilising all cores and making new APIs pointer-size agnostic and memory protected. While jumping through ridiculous hoops to keep legacy code happy.</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:13:19949:159017</guid>
+    </item>    <item>
       <title>Iris PackMan install</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/19871</link>
       <description>
@@ -583,14 +666,6 @@
         <p>Nota: to secure this, you could try to put Iris specific libraries in something like SharedLibs.lib.Iris directory.</p>]]>
       </description>
       <guid>cid://www.riscosopen.org:5:19871:159015</guid>
-    </item>    <item>
-      <title>Opportunity for a re-think?</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
-      <description>
-        <![CDATA[<p>I am thinking of a Linux distro with a <span class="caps">RISC</span> OS style desktop and customised major applications such as the Libre Office.</p>
-        <p>Actual <span class="caps">RISC</span> OS applications will only run under emulation, but you may be able to make it seamless by having the emulated <span class="caps">RISC</span> OS application windows appear directly on the native desktop, and interacting by drag and drop.</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:13:19949:159011</guid>
     </item>    <item>
       <title>Rougol September 2025 meeting on monday - Publishing with Ovation Pro</title>
       <link>http://www.iconbar.com/comments/rss/news2229.html</link>
@@ -943,13 +1018,6 @@
         <![CDATA[Talk now live https://youtu.be/V8rHwSvtECc]]>
       </description>
       <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13484&#38;page=1#125821</guid>
-    </item>    <item>
-      <title>A9Home port?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/311</link>
-      <description>
-        <![CDATA[<p>That is at least the version I have on my A9 Home. But I don&#8217;t dare to tell if that is the last</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:5:311:158980</guid>
     </item>    <item>
       <title>Introduce Yourself • Re: And so it begins</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=464790#p464790</link>
