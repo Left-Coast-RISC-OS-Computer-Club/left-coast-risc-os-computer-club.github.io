@@ -7,10 +7,56 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>16 Sep 25 07:00 -0700</lastBuildDate>
+    <lastBuildDate>16 Sep 25 15:00 -0700</lastBuildDate>
     <generator>antenna/0.0.6</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: German Electron specifics</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465326#p465326</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465326#p465326</guid>
+    </item>    <item>
+      <title>new projects in development: games • Re: Porting of my game GENIUS to BBC Micro platform</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465325#p465325</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465325#p465325</guid>
+    </item>    <item>
+      <title>new projects in development: games • Re: Porting of my game GENIUS to BBC Micro platform</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465324#p465324</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465324#p465324</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round One - Spaceman Sid</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465323#p465323</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465323#p465323</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic games • Re: Unpublished Tim Tyler games</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465322#p465322</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465322#p465322</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: VIDEONULA questions</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465321#p465321</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465321#p465321</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic games • Re: Unpublished Tim Tyler games</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465320#p465320</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465320#p465320</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round One - Spaceman Sid</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465319#p465319</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465319#p465319</guid>
+    </item>    <item>
+      <title>new projects in development: games • Re: Porting of my game GENIUS to BBC Micro platform</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465318#p465318</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465318#p465318</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Have we lost another great resource?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465317#p465317</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465317#p465317</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3lyxp2i3vjk22</link>
+      <description>
+        <![CDATA[Beware Lairds bearing books]]>
+      </description>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lyxp2i3vjk22</guid>
+    </item>    <item>
       <title>8-bit acorn software: classic games • Re: Unpublished Tim Tyler games</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465300#p465300</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465300#p465300</guid>
@@ -605,6 +651,19 @@
       </description>
       <guid>cid://www.riscosopen.org:1:20019:159028</guid>
     </item>    <item>
+      <title>Iris PackMan install</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19871</link>
+      <description>
+        <![CDATA[<p>Thanks for the feedback, David.</p>
+        <p>My intent is to create one !Run file which will use master SharedLibs in preference, but can fall back to an internal sharedlibs (if present) if the master one is for some reason out-of-date.</p>
+        <p>By doing this, we don&#8217;t need to maintain two different !Runs, and we can simply ship Iris with/without !SharedLibs internally as necessary.</p>
+        <p>I just want to be sure that the master copy <strong>is</strong> in partity with the version of !Iris to make sure we don&#8217;t get spurious errors due to mismatches.<br />
+        Chris has kindly packaged <strong>each</strong> library separately, so they can all be handled properly.  However, this does vaguely run the risk that they might (for reasons beyond any of our control) become mismatched or out of sync.  Iris needs to let you know if that happens, so you can resync your packages.</p>
+        <p>My goal is for a one-size-fits-all !Run which <strong>also</strong> plays nicely with everyone&#8217;s setup, regardless of how it is delivered, and warns you if there might be an issue, ideally telling you how to fix it.</p>
+        <p>If this seems like overkill/over-engineering, never underestimate the ability for things to go wrong or get mixed up.  Especially when people start restoring from backups etc.</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:5:19871:159027</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3lyno355oks2z</link>
       <description>
         <![CDATA[Rougol September 2025 meeting on monday - Publishing with Ovation Pro 
@@ -700,6 +759,13 @@
       </description>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3lyn2lfrhdk2k</guid>
     </item>    <item>
+      <title>Opportunity for a re-think?</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
+      <description>
+        <![CDATA[<p>Of course, macOS has always had <span class="caps">RISC</span> OS style drag and drop for loading/saving/transfer, it&#8217;s just a bit subtle. I very rarely use the Save or Open dialogues.</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:13:19949:159019</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3lymzvftuy22t</link>
       <description>
         <![CDATA[A Nightmare on Elm Street, seen aged... 7! 😆
@@ -709,26 +775,6 @@
         [contains quote post or other embedded content]]]>
       </description>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lymzvftuy22t</guid>
-    </item>    <item>
-      <title>Opportunity for a re-think?</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
-      <description>
-        <![CDATA[<p><span class="caps">ROLF</span> already had an <span class="caps">ARM</span> processor emulator. Two, in fact, one targeting x86, the other, <span class="caps">ARM</span> (probably to simulate privileged modes, it&#8217;s been a while). They&#8217;re in here:<br />
-        <a href="https://sourceforge.net/p/ro-lf/code/">https://sourceforge.net/p/ro-lf/code/</a><span class="caps">HEAD</span>/tree/<span class="caps">ROLF</span>/rolf/Libs/Compatibility/</p>
-        <p>Further to a discussion I had last night at <span class="caps">BRU</span>, there might be an obscure bug to do with shifts and setting C or V flags.</p>
-        <p>Anyway, I&#8217;m still thinking of a low-level microkernel that runs on physical hardware, utilising all cores and making new APIs pointer-size agnostic and memory protected. While jumping through ridiculous hoops to keep legacy code happy.</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:13:19949:159017</guid>
-    </item>    <item>
-      <title>Iris PackMan install</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19871</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>One method is to run a scan each time/session to see if the necessary files are present</p>
-        </blockquote>
-        <p>One other method is to have two Iris. One with included resources (that you can install without PackMan), and one installed with PackMan, that will have the required dependencies fulfilled. If you wan&#8217;t, you can check whether the full Iris or the packaged Iris is launched, but I wonder why you&#8217;ll need to do that :)</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:5:19871:159016</guid>
     </item>    <item>
       <title>Rougol September 2025 meeting on monday - Publishing with Ovation Pro</title>
       <link>http://www.iconbar.com/comments/rss/news2229.html</link>
