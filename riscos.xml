@@ -7,10 +7,69 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>15 Sep 25 16:15 -0700</lastBuildDate>
+    <lastBuildDate>16 Sep 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.6</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn software: classic games • Re: Unpublished Tim Tyler games</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465300#p465300</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465300#p465300</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • BBC B &#39;Ashtray&#39;</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465299#p465299</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465299#p465299</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: 65CE02 in Model B</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465298#p465298</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465298#p465298</guid>
+    </item>    <item>
+      <title>other events + general event chat • TNMoC Fixathon - Mac and Cheese (wedge) - 11th/12th October</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465297#p465297</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465297#p465297</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Have we lost another great resource?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465296#p465296</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465296#p465296</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3lyxdtnal5c22</link>
+      <description>
+        <![CDATA[There are still (free!) tickets available for this event at @tnmoc.bsky.social  - would be great to see you there! https://www.eventbrite.co.uk/e/mac-and-cheese-wedge-fixathon-tickets-1614179045979]]>
+      </description>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lyxdtnal5c22</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: 65CE02 in Model B</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465295#p465295</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465295#p465295</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic games • Re: Unpublished Tim Tyler games</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465294#p465294</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465294#p465294</guid>
+    </item>    <item>
+      <title>off-topic • Re: 70s/80s electronic kits</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465293#p465293</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465293#p465293</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic games • Jolyon Myers art demo disk</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465292#p465292</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465292#p465292</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC Model C20K - a new &#38;quot;Beeb&#38;quot;</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465291#p465291</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465291#p465291</guid>
+    </item>    <item>
+      <title>Compo vs Gimp / ImageMagik?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20024</link>
+      <description>
+        <![CDATA[<p>Yes, this <strong>does</strong> involve Risc OS. cf below&#8230;  :-)</p>
+        <p>I&#8217;ve been happily (now!) getting loads of &#8216;ebooks&#8217; and reading them on a new Tablet device. However&#8230;</p>
+        <p>Many of the ones that are bitmap page-scans of ancient paperback and pulp magazines show a <span class="caps">LOT</span> of paper oxidisation and are thus difficult to read. As well as the graduated noises browns instead of plain white bulking up file sizes.</p>
+        <p>I&#8217;m looking at <span class="caps">GIMP</span> and ImageMagik to see if I can set these to automagically read in a series of page scans and then detect oxidised brown pixels and convert them to white. Result is a smaller ebook that should be easier to read.</p>
+        <p>However I&#8217;ve not found an example of anyone on the web who has done this and deteiled how to set up the process. Finds all &#8216;shoot around the target&#8217;.</p>
+        <p>The alternative is that I know how to write programs for !Compo. So am wondering if I can get that running sooner than learning about using the <span class="caps">GIMP</span>/IM as a basis. The snag being that I&#8217;ll have to write a full program in &#8216;C&#8217; to do what I suspect <span class="caps">GIMP</span>/IM can do via one command line. And I suspect that !Compo on my RO will be much sloower than the Linux alternatives. if so, I guess I&#8217;ll have to leave my machine running and do something else as Compo chugs though an ebook&#8230;</p>
+        <p>So I&#8217;m wondering: Anyone else here have the same sort of situation, and either interested in a solution or have one already?</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:5:20024:159041</guid>
+    </item>    <item>
       <title>new projects in development: games • Re: Lady Bug</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465254#p465254</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465254#p465254</guid>
@@ -665,15 +724,11 @@
       <link>https://www.riscosopen.org/forum/forums/5/topics/19871</link>
       <description>
         <![CDATA[<blockquote>
-        <p>I still need to finalise how I’m going to test for using an external SharedLibs (which may/may not have the matching versions of shared libraries installed for Iris’ executables)</p>
+        <p>One method is to run a scan each time/session to see if the necessary files are present</p>
         </blockquote>
-        <p>That&#8217;s really not needed.</p>
-        <p>All third party resources <span class="caps">BUT</span> the shared libraries included in Iris are the same as the resources accessible in PackMan. For them, you just need to fix the right dependencies.</p>
-        <p>And for the shared libraries, the one used by Iris are inside SharedLibs.lib.armeabihf, where all the other provided by PackMan are inside the SharedLibs.lib.abi-2/0 directory. So you just need to set SharedLibs as a dependency, then to add your own IrisSharedLibs package to PackMan as a required dependency for Iris.</p>
-        <p>For years, I just copy the armeabihf inside <img alt="" />SharedLibs.libs, relies on CACertificates, etc. provided by PackMan, and erase all the specific third party resources from Iris. And it works <span class="caps">PERFECTLY</span>!</p>
-        <p>Nota: to secure this, you could try to put Iris specific libraries in something like SharedLibs.lib.Iris directory.</p>]]>
+        <p>One other method is to have two Iris. One with included resources (that you can install without PackMan), and one installed with PackMan, that will have the required dependencies fulfilled. If you wan&#8217;t, you can check whether the full Iris or the packaged Iris is launched, but I wonder why you&#8217;ll need to do that :)</p>]]>
       </description>
-      <guid>cid://www.riscosopen.org:5:19871:159015</guid>
+      <guid>cid://www.riscosopen.org:5:19871:159016</guid>
     </item>    <item>
       <title>Rougol September 2025 meeting on monday - Publishing with Ovation Pro</title>
       <link>http://www.iconbar.com/comments/rss/news2229.html</link>
