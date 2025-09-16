@@ -7,10 +7,20 @@
       This Antenna App collection olds the posts for the Left Coast RISC OS Computer Club.
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/posts.xml</link>
-    <lastBuildDate>16 Sep 25 15:00 -0700</lastBuildDate>
+    <lastBuildDate>16 Sep 25 15:23 -0700</lastBuildDate>
     <generator>antenna/0.0.6</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Time to experiment with the next machine</title>
+      <link>https://left-coast-risc-os-computer-club.github.io/posts/2025/09/16/time_to_experiment.html</link>
+      <description>
+        <![CDATA[Time to experiment with the next machine. It has arrived and is assembled. I am happy with the result.
+        It is a thin, thinner than my phone, small little machines. While I was tuck using the non-standard
+        cables to connect with the a monitor and to a Pi keyboard/mouse it works well. My main complaint is it
+        is small enough now to get lost!]]>
+      </description>
+      <enclosure url="https://left-coast-risc-os-computer-club.github.io/posts/2025/09/16/time_to_experiment.md" length="2044" type="text/markdown" />
+    </item>    <item>
       <title>Fireside Coding for RISC OS scheduled</title>
       <link>https://left-coast-risc-os-computer-club.github.io/posts/2025/09/15/Fireside_Coding_for_RISC_OS_Scheduled.html</link>
       <description>
