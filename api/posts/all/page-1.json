@@ -5,6 +5,23 @@
   "next_page": null,
   "values": [
     {
+      "content": "\n# Time to experiment with the next machine\n\nRabbit in my backyard, 2025-09-16\n\nThe Raspberry Pi Zero 2W and parts arrived yesterday. I assembled \"the next machine\" in about five minutes. It took me a long time because I had to find the micro SD card I had previously made for the machine. The parts I ordered from PiShop.us are shared [here](https://www.pishop.us/wishlist.php?action=viewwishlistitems&wishlistid=11716). The thickness of the little RISC OS Machine is the thickness of the USB and HDMI cables that plug into it. It's thin.  My concern now with this implementation is that it is so thin it is easy to get lost. If you stuck it under a mouse pad you wouldn't find it!\n\nLike the three previous RISC OS Machines I built using the Pi Zero 2W boots quick. Using the RISC OS directory release that includes the improved network stack makes things easier. Now it's time to find another people to give a RISC OS machine to so the club and increase membership 25%.  The eligible individuals know where to find the Rabbit in my backyard.\n\nOne difference from the larger cases I used from Argon40 in additional to non-standard plugs of the Zero is the SD card is completely enclosed by the case. This is useful if you're carrying a spare RISC OS machine in your pocket. The SD card cannot fall out. On the other hand you can to open the case, pull out the Zero to change the SD card. Life is full of compromises.\n\n",
+      "data": {
+        "author": "R. S. Doiel",
+        "dateCreated": "2025-09-16",
+        "dateModified": "2025-09-16",
+        "datePublished": "2025-09-16",
+        "description": "Time to experiment with the next machine. It has arrived and is assembled. I am happy with the result.\nIt is a thin, thinner than my phone, small little machines. While I was tuck using the non-standard\ncables to connect with the a monitor and to a Pi keyboard/mouse it works well. My main complaint is it\nis small enough now to get lost!\n",
+        "keywords": [
+          "RISC OS Machine",
+          "Raspberry Pi Zero 2W"
+        ],
+        "postPath": "posts/2025/09/16/time_to_experiment.md",
+        "title": "Time to experiment with the next machine"
+      },
+      "url": "posts/2025/09/16/time_to_experiment.json"
+    },
+    {
       "content": "\n# Upcoming Fireside Coding for RISC OS scheduled\n\nThis popped up on the RISC OS forms, might be of interest to those\non the West Coat of North America. If I've done my timezone translation\ncorrectly it'll be on Sept. 20, 11:30am PDT. See [post](https://www.riscosopen.org/forum/forums/1/topics/20021) at RISC OS Open forums.\n\n> Join us around the “Coding on RISC OS” campfire this coming Saturday, 20th September, at 7:30 p.m. (GMT+1) for another one of our regular, friendly and informal fireside chats.\n>\n> Whether you’re curious, want to help others, are looking to get started, need assistance, or want to share a project or current challenge with the group, you’re all welcome! No experience necessary.\n>\n> If you are a developer looking to connect with others, come and join in.\n> \n> For the Zoom credentials (no change), DM me over on X ([Twitter](https://twitter.com/armbytes)), [BlueSky](https://bsky.app/profile/armbytes.bsky.social), ChatCube or [Mastodon](https://mastodon.online/@armbytes). There’s also an email link at the bottom of this informative RISCOSitory news page.\n\n",
       "data": {
         "author": "Rabbit in my backyard",
