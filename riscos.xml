@@ -7,10 +7,86 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>16 Sep 25 19:54 -0700</lastBuildDate>
+    <lastBuildDate>16 Sep 25 19:55 -0700</lastBuildDate>
     <generator>antenna/0.0.6</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round One - Spaceman Sid</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465336#p465336</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465336#p465336</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Ash tray blues</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465335#p465335</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465335#p465335</guid>
+    </item>    <item>
+      <title>new projects in development: games • Re: New Doctor Who fan game</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465334#p465334</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465334#p465334</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: German Electron specifics</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465333#p465333</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465333#p465333</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Have we lost another great resource?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465332#p465332</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465332#p465332</guid>
+    </item>    <item>
+      <title>new projects in development: games • Re: Burger Time</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465331#p465331</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465331#p465331</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round One - Spaceman Sid</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465330#p465330</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465330#p465330</guid>
+    </item>    <item>
+      <title>Debugger module release</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20025</link>
+      <description>
+        <![CDATA[<p>Over the course of the last 19 live coding sessions, I have produced a Debugger module which supports many of the things that we expect on <span class="caps">RISC</span> OS. We support&#8230;</p>
+        <ul>
+        	<li><code>*Memory</code></li>
+        	<li><code>*MemoryI</code></li>
+        	<li><code>*MemoryA</code></li>
+        	<li><code>*DumpI</code></li>
+        	<li><code>*InitStore</code></li>
+        	<li><code>*ShowRegs</code></li>
+        	<li><code>*BreakSet</code> (not for <span class="caps">RISC</span> OS 64)</li>
+        	<li><code>*BreakClr</code> (not for <span class="caps">RISC</span> OS 64)</li>
+        	<li><code>*BreakList</code> (not for <span class="caps">RISC</span> OS 64)</li>
+        	<li><code>*Debug</code> (not for <span class="caps">RISC</span> OS 64)</li>
+        	<li><code>*Continue</code> (not for <span class="caps">RISC</span> OS 64)</li>
+        	<li><span class="caps">SWI</span> <code>Debugger_Disassemble</code></li>
+        	<li><span class="caps">SWI</span> <code>Debugger_DisassembleThumb</code></li>
+        	<li><span class="caps">SWI</span> <code>Debugger_DisassembleArch</code> (for AArch32 <span class="caps">ARM</span> and Thumb, and for AArch64 instructions)</li>
+        	<li>AArch32 instructions are disassembled (default for regular <span class="caps">RISC</span> OS), including the <span class="caps">FPA</span> instructions.</li>
+        	<li>AArch64 instructions are disassembled (default for <span class="caps">RISC</span> OS 64)</li>
+        	<li>The module is built and released automatically through CI on GitHub – <a href="https://github.com/gerph/riscos-debugger-c/releases">https://github.com/gerph/riscos-debugger-c/releases</a></li>
+        	<li>There’s a project board to record what needs to be done – <a href="https://github.com/users/gerph/projects/1">https://github.com/users/gerph/projects/1</a></li>
+        	<li>The module can be built, and runs on both 32-bit and 64-bit <span class="caps">RISC</span> OS.</li>
+        	<li>The module is tested with test code derived from the <span class="caps">RISC</span> OS Pyromaniac test suites &#8211; automatically within CI.</li>
+        </ul>
+        <p>The module has been demonstrated and run on <span class="caps">RISC</span> OS in RPCEmu with !Zap and works as you might expect.</p>
+        <p>The module can be obtained from the <span class="caps">RISC</span> OS Debugger GitHub site &#8211; <a href="https://github.com/gerph/riscos-debugger-c/releases">https://github.com/gerph/riscos-debugger-c/releases</a></p>
+        <hr />
+        <p>The purpose of the Live Coding sessions was &#8211; initially &#8211; so that I could get some practice at doing coding in a different environment, and demonstrating how some techniques and skills can be used. I was hoping that it would be an encouragement to others that things which seem complicated are largely just a set of small steps to address a problem.</p>
+        <p>The Debugger module was intended to be a &#8216;simple&#8217; example of how porting something useful to <span class="caps">RISC</span> OS can be done. It wasn&#8217;t quite so simple &#8211; there&#8217;s been work in shell, in python, in perl, and assembler and converting from C99 to C89. And working with someone else&#8217;s code which I didn&#8217;t understand at first. I hope that it has given people some encouragement to try doing things they wouldn&#8217;t have. I hope that it has also shown that mistakes are many and plentiful &#8211; and we roll with them. It&#8217;s also shown how bad my typing is!</p>
+        <p>It&#8217;s been very exciting. I&#8217;ve laughed a lot. And along the way there&#8217;s been a number of people coming into the chat and watching the sessions without knowing anything about <span class="caps">RISC</span> OS. People who asked questions &#8211; even if they&#8217;re not on the topic of the debugger &#8211; and have been very friendly. That&#8217;s been a nice experience too.</p>
+        <p>So it&#8217;s been quite successful, and has produced a replacement module in C for an existing module. Feel free to raise bugs in GitHub, and PRs will be happily received if they&#8217;re incremental and reviewable.</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:1:20025:159050</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: BlueSCSI</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465329#p465329</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465329#p465329</guid>
+    </item>    <item>
+      <title>software &#38;amp; utilities for the pc, mac or unix • Re: MMBExplorer released!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465328#p465328</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465328#p465328</guid>
+    </item>    <item>
+      <title>new projects in development: games • Re: Burger Time</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465327#p465327</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465327#p465327</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: German Electron specifics</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465326#p465326</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465326#p465326</guid>
@@ -682,6 +758,14 @@
       </description>
       <guid>cid://www.riscosopen.org:11:19985:159025</guid>
     </item>    <item>
+      <title>Opportunity for a re-think?</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
+      <description>
+        <![CDATA[<p>Simon, that sounds promising!</p>
+        <p>I think there is room for more than one solution, a 64 bit version of &#8220;classic&#8221; <span class="caps">RISC</span> OS and also one or more &#8220;modern&#8221; <span class="caps">RISC</span> OSes would seem to be the ideal solution.  <span class="caps">RISC</span> OS is fundamentally retrocomputing platform, so I completely understand wanting to have a route that keeps things as similar as possible, but I also see the value in something different (especially if it fills the Raspberry Pi niche that might bring new users).  It would be good if both could be catered for without it being divisive (as I gather has happened on other retrocomputing platforms).</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:13:19949:159024</guid>
+    </item>    <item>
       <title>Ovation Pro and book publishing – ROUGOL meeting, 15th September</title>
       <link>https://www.riscository.com/2025/ovation-pro-and-publishing-rougol-15th-september/</link>
       <description>
@@ -758,13 +842,6 @@
         <![CDATA[A few old business cards I found in a box. The three on the right are from my Software Creations days when we were working on NES Solstice and SNES Equinox. Sony published both titles. The SCEE ones on the left are from much later when I was looking for a new job!]]>
       </description>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3lyn2lfrhdk2k</guid>
-    </item>    <item>
-      <title>Opportunity for a re-think?</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
-      <description>
-        <![CDATA[<p>Of course, macOS has always had <span class="caps">RISC</span> OS style drag and drop for loading/saving/transfer, it&#8217;s just a bit subtle. I very rarely use the Save or Open dialogues.</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:13:19949:159019</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3lymzvftuy22t</link>
       <description>
