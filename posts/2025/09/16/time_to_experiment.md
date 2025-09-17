@@ -1,6 +1,6 @@
 ---
 title: Time to experiment with the next machine
-author: R. S. Doiel
+author: Rabbit in my backyard
 description: |
   Time to experiment with the next machine. It has arrived and is assembled. I am happy with the result.
   It is a thin, thinner than my phone, small little machines. While I was tuck using the non-standard
