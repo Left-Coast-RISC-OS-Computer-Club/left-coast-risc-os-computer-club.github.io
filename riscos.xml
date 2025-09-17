@@ -7,10 +7,62 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>16 Sep 25 19:57 -0700</lastBuildDate>
+    <lastBuildDate>17 Sep 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.6</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>programming • Re: Have I fully understood the keyboard?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465365#p465365</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465365#p465365</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: DFS, ADFS, DNFS...</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465364#p465364</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465364#p465364</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: DFS, ADFS, DNFS...</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465363#p465363</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465363#p465363</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: DFS, ADFS, DNFS...</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465362#p465362</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465362#p465362</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: DFS, ADFS, DNFS...</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465361#p465361</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465361#p465361</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B not booting, no video</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465360#p465360</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465360#p465360</guid>
+    </item>    <item>
+      <title>programming • Re: Have I fully understood the keyboard?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465359#p465359</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465359#p465359</guid>
+    </item>    <item>
+      <title>programming • Re: Have I fully understood the keyboard?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465358#p465358</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465358#p465358</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: DFS, ADFS, DNFS...</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465357#p465357</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465357#p465357</guid>
+    </item>    <item>
+      <title>programming • Re: beebasm [stupid] question</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465356#p465356</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465356#p465356</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3lyzmlkbne22u</link>
+      <description>
+        <![CDATA[Microsoft quite literally trolling us, now]]>
+      </description>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lyzmlkbne22u</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lyzhyuuoi22f</link>
+      <description>
+        <![CDATA[50 years ago the first 6501 and 6502 CPUs were made available at the WESCON trade show in San Francisco. However, MOS found out they weren't actually allowed to sell anything on the show floor so set up shop in a nearby hotel. Chuck Peddle led the team that created the 650x family of processors.]]>
+      </description>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3lyzhyuuoi22f</guid>
+    </item>    <item>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round One - Spaceman Sid</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465336#p465336</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465336#p465336</guid>
@@ -740,6 +792,40 @@
       </description>
       <guid>cid://www.riscosopen.org:5:19871:159027</guid>
     </item>    <item>
+      <title>Opportunity for a re-think?</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
+      <description>
+        <![CDATA[<p>I suppose I should reply to this thread</p>
+        <blockquote>
+        <p>My view is that if there is any wider future for “RISC OS”, it’s applying the look and feel to the 64 bit OS and applications that I and millions of others are using on Linux.</p>
+        </blockquote>
+        <p>A lot of what you desire already exists, or at least a runnable foundation does.</p>
+        <p><a href="https://www.youtube.com/watch?v=LHsHU-dDwAk">https://www.youtube.com/watch?v=LHsHU-dDwAk</a></p>
+        <p>Source code here;<br />
+        <a href="https://home.marutan.net/hg/riscwm">https://home.marutan.net/hg/riscwm</a></p>
+        <p>Here are a few pros and cons compared;</p>
+        <p>Pros</p>
+        <ul>
+        	<li>Already runs on 64bit (arm, x64, powerpc, whatever)</li>
+        	<li>Runs Linux <sup id="fnr1"><a href="#fn1">1</a></sup> apps (technically more easily than <span class="caps">ROLF</span>, as it doesn&#8217;t require apps to be recompiled/linked against a different graphics stack).</li>
+        	<li>Runs <span class="caps">RISC</span> OS apps, via RPCEmu</li>
+        	<li>Contributing programmers don&#8217;t need to be able to program an OS, this is an application written in (comparatively) high-level C.</li>
+        	<li>Large chunks of contributions do not require programming at all, it is often theme and config file tweaking.</li>
+        	<li>Small enough in scope to not take person-decades of effort.</li>
+        	<li>Does not require anyone to pay for tools to contribute.</li>
+        	<li>Not asking for 2.5 million.</li>
+        </ul>
+        <p>Cons</p>
+        <ul>
+        	<li>It&#8217;ll never be able to exactly make all Linux apps look and behave like <span class="caps">RISC</span> OS ones, you can theme, tweak widget libraries, but it will never be 100% perfect.</li>
+        	<li>It&#8217;s far too easy to look at the project and go &#8220;but that&#8217;s not <span class="caps">RISC</span> OS&#8221; and ignore it completely.</li>
+        </ul>
+        <p>Is it finished? Nope, but if this is something you actually want to move forward with you should certainly give it a go and see if it&#8217;s the start you wanted.</p>
+        <p>Realistically I do not worry about the &#8216;future of <span class="caps">RISC</span> OS&#8217;, there are not enough people left, and everyone has a different idea of what it is. But if you do worry about such things, I would suggest working out how to contribute to your dreams, as we are way past just sitting on the sidelines and hoping the future falls into your lap.</p>
+        <p><sup id="fnr1"><a href="#fn1">1</a></sup> Technically it is not hard-linked to Linux, you could run it on top of one of the BSDs, Solaris, etc, something with XWindows on</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:13:19949:159026</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3lyno355oks2z</link>
       <description>
         <![CDATA[Rougol September 2025 meeting on monday - Publishing with Ovation Pro 
@@ -757,14 +843,6 @@
         <p>Yes, I did know that Android has avery different interface because it is used on systems quite unlike a standard desktop machine. But the lack of ad init info has been the problem. Taken me ages to get even the basic functions sorted.</p>]]>
       </description>
       <guid>cid://www.riscosopen.org:11:19985:159025</guid>
-    </item>    <item>
-      <title>Opportunity for a re-think?</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/19949</link>
-      <description>
-        <![CDATA[<p>Simon, that sounds promising!</p>
-        <p>I think there is room for more than one solution, a 64 bit version of &#8220;classic&#8221; <span class="caps">RISC</span> OS and also one or more &#8220;modern&#8221; <span class="caps">RISC</span> OSes would seem to be the ideal solution.  <span class="caps">RISC</span> OS is fundamentally retrocomputing platform, so I completely understand wanting to have a route that keeps things as similar as possible, but I also see the value in something different (especially if it fills the Raspberry Pi niche that might bring new users).  It would be good if both could be catered for without it being divisive (as I gather has happened on other retrocomputing platforms).</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:13:19949:159024</guid>
     </item>    <item>
       <title>Ovation Pro and book publishing – ROUGOL meeting, 15th September</title>
       <link>https://www.riscository.com/2025/ovation-pro-and-publishing-rougol-15th-september/</link>
