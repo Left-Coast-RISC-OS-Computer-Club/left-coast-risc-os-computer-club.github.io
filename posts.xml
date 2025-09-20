@@ -7,7 +7,7 @@
       This Antenna App collection olds the posts for the Left Coast RISC OS Computer Club.
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/posts.xml</link>
-    <lastBuildDate>19 Sep 25 15:00 -0700</lastBuildDate>
+    <lastBuildDate>20 Sep 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.6</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
@@ -47,14 +47,6 @@
         the a new network stack and with the Iris web browser.]]>
       </description>
       <enclosure url="https://left-coast-risc-os-computer-club.github.io/posts/2025/09/05/riscos_and_my_pi_zero.md" length="7611" type="text/markdown" />
-    </item>    <item>
-      <title>Shopping list for a Pi Zero 2W RISC OS Machine</title>
-      <link>https://left-coast-risc-os-computer-club.github.io/posts/2025/08/29/Shopping_List_for_Pi_Zero_2W_RISC_OS_Machine.html</link>
-      <description>
-        <![CDATA[A short missive on my attempt to build another RISC OS machine
-        using Argon40 case.]]>
-      </description>
-      <enclosure url="https://left-coast-risc-os-computer-club.github.io/posts/2025/08/29/Shopping_List_for_Pi_Zero_2W_RISC_OS_Machine.md" length="2272" type="text/markdown" />
     </item>
   </channel>
 </rss>
