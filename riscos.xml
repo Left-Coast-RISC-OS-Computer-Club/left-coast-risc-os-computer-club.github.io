@@ -7,10 +7,81 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>22 Sep 25 15:00 -0700</lastBuildDate>
+    <lastBuildDate>23 Sep 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.6</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>32-bit acorn hardware • Re: WeeMouse - a wee USB mouse interface for Acorns</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465744#p465744</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465744#p465744</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Microvitec Cub 1451 squeak on power-up but otherwise dead</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465743#p465743</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465743#p465743</guid>
+    </item>    <item>
+      <title>other vintage hardware, software and languages • Re: Fixing a Intertec Superbrain clone (Prológica Sistema 600). FIXED!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465741#p465741</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465741#p465741</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3lzixi5i2ms2w</link>
+      <description>
+        <![CDATA[Absolute joy watching this one from CRD, especially when he gets into the interactive whiteboard! Our school had a grant to go out and buy a bunch of these things, and they ended up in classrooms not getting used much but were very impressive on school open days...
+        https://www.youtube.com/watch?v=q9a3dCd1SQI]]>
+      </description>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lzixi5i2ms2w</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Microvitec Cub 1451 squeak on power-up but otherwise dead</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465739#p465739</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465739#p465739</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Reading/Writing from the RTC in the Electron Plus 1 AP6</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465738#p465738</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465738#p465738</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Reading/Writing from the RTC in the Electron Plus 1 AP6</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465737#p465737</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465737#p465737</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: A potential way to detect the 1MHz clock phase</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465736#p465736</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465736#p465736</guid>
+    </item>    <item>
+      <title>Norcroft 64</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19009</link>
+      <description>
+        <![CDATA[<p>I’ve taken a couple of embedded projects from ARM32 to AArch64. The biggest time sinks weren’t the compiler, but hidden 32-bit assumptions: pointer math in ints, varargs, packed structs, and unions. Rewriting inline asm and aligning to the AAPCS64 calling convention was unavoidable. What helped most was harsh warnings, UBSan/ASan in tests, and swapping types to size_t/uintptr_t early. For legacy apps we used a small thunk layer and kept a 32-bit build running until parity.</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:1:19009:159073</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Reading/Writing from the RTC in the Electron Plus 1 AP6</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465735#p465735</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465735#p465735</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3lzinvnadxc2i</link>
+      <description>
+        <![CDATA[This is 100% insane. Yes, an employer may stipulate this in your employment contract, but that's because *they* are paying *you* for your time, and so the things you create during your working hours are their IP. The tenant/landlord relationship is in no way comparable!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lzinvnadxc2i</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: A potential way to detect the 1MHz clock phase</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465734#p465734</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465734#p465734</guid>
+    </item>    <item>
+      <title>miscellaneous new bbc and electron games • Re: Orion Patrol</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465733#p465733</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465733#p465733</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3lzht6hogx227</link>
+      <description>
+        <![CDATA[For anyone wondering why no online meet up next month, it's because there's a physical show going on instead! Saturday 25th October, Harrow, NW London
+        www.riscoslondonshow.co.uk
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3lzht6hogx227</guid>
+    </item>    <item>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round One - Spaceman Sid</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465718#p465718</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465718#p465718</guid>
@@ -791,6 +862,14 @@
       </description>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lyzmlkbne22u</guid>
     </item>    <item>
+      <title>Compo vs Gimp / ImageMagik?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20024</link>
+      <description>
+        <![CDATA[<p>Thanks. I&#8217;ll check out ScanTailor. The images in question are all ones that I get as (usually jpegs) in a an ebook of various container forms, etc. Downloads from web libraries, etc. So I have no control over the original scanning process, etc. Many are fine, but some are poor quality, and the reason for asking about this. <span class="caps">FWIW</span> I may do a !Composcript processor as an experiment as well. It would might be more flexible from my <span class="caps">POV</span>, but likely enough far slooower than using an established Linux-based prog that just &#8216;does the job&#8217;.</p>
+        <p>The quality varies from exellent to virtually unreadable! But often hundreds of pages per book!</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:5:20024:159051</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lyzhyuuoi22f</link>
       <description>
         <![CDATA[50 years ago the first 6501 and 6502 CPUs were made available at the WESCON trade show in San Francisco. However, MOS found out they weren't actually allowed to sell anything on the show floor so set up shop in a nearby hotel. Chuck Peddle led the team that created the 650x family of processors.]]>
@@ -961,17 +1040,6 @@
         <![CDATA[Beware Lairds bearing books]]>
       </description>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lyxp2i3vjk22</guid>
-    </item>    <item>
-      <title>Compo vs Gimp / ImageMagik?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20024</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I’m looking at <span class="caps">GIMP</span> and ImageMagik to see if I can set these to automagically read in a series of page scans and then detect oxidised brown pixels and convert them to white. Result is a smaller ebook that should be easier to read.</p>
-        </blockquote>
-        <p>I think I may previously have suggested some software that&#8217;s specifically designed to do this&#8230;</p>
-        <p><a href="https://www.riscosopen.org/forum/forums/11/topics/19971?limit=25&amp;page=1#posts-158463">https://www.riscosopen.org/forum/forums/11/topics/1997…</a></p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:5:20024:159043</guid>
     </item>    <item>
       <title>8-bit acorn software: classic games • Re: Unpublished Tim Tyler games</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465300#p465300</link>
