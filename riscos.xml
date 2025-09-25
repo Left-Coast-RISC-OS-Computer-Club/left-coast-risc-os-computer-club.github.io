@@ -7,10 +7,82 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>25 Sep 25 07:00 -0700</lastBuildDate>
+    <lastBuildDate>25 Sep 25 15:00 -0700</lastBuildDate>
     <generator>antenna/0.0.8</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: Open Source Logic Analyzer Experiments</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465946#p465946</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465946#p465946</guid>
+    </item>    <item>
+      <title>programming • Re: Build BBC BASIC from source on a modern OS</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465945#p465945</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465945#p465945</guid>
+    </item>    <item>
+      <title>programming • Re: Build BBC BASIC from source on a modern OS</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465943#p465943</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465943#p465943</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: MAME 0.281: Release Highlights</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465942#p465942</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465942#p465942</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Tape to Disc</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465941#p465941</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465941#p465941</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: ABUG Dev night #100, Thursday 25 September 2025, 19:30 BST</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465939#p465939</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465939#p465939</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Timtheloon&#39;s Acorn A3010 Restoration</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465938#p465938</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465938#p465938</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Timtheloon&#39;s Acorn A3010 Restoration</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465937#p465937</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465937#p465937</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round One - Spaceman Sid</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465936#p465936</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465936#p465936</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: A potential way to detect the 1MHz clock phase</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465935#p465935</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465935#p465935</guid>
+    </item>    <item>
+      <title>RPi 500+</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20033</link>
+      <description>
+        <![CDATA[<p>mmm&#8230;</p>
+        <p>this might be &quot;peak pi&#8217; for now&#8230;.<br />
+        how is the implementation for RO5.31+ on this going?<br />
+        16GB, NVMe <span class="caps">SSD</span> Storage, mechanical keyboard (beeb nostalgia) ! <br />
+        maybe a trackpad but to my mind a numeric keypad would be welcome&#8230;.</p>
+        <p>otherwise might be the Pi500 version we have been waiting for&#8230;</p>
+        <p>although looks like it might be a bit expensive&#8230;</p>
+        <p>apparently the keyboard lighting is controlled by a python script&#8230; any takers to get this working on <span class="caps">RISC</span> OS (personally I would just like a white backlight with intensity control)</p>
+        <p>173UKP:</p>
+        <p><a href="https://thepihut.com/products/raspberry-pi-500-plus">https://thepihut.com/products/raspberry-pi-500-plus</a></p>
+        <p>fairly good review here:<br />
+        <a href="https://www.phoronix.com/review/raspberry-pi-500-plus">https://www.phoronix.com/review/raspberry-pi-500-plus</a></p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:5:20033:159099</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3lzo6dwmfh22v</link>
+      <description>
+        <![CDATA[Just made a big show of trimming the hedge by the car, in the hope it won't freak out next time I drive past it.
+        
+        🚘🤖 "I have slammed on the emergency brakes to save my precious paintwork from those soft compliant leaves. Be thankful I do not eject you!"⚡]]>
+      </description>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3lzo6dwmfh22v</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3lzo4qixhzs2a</link>
+      <description>
+        <![CDATA[Sam Altman now claiming that if he isn't given enough compute, "hard trade-offs" will have to be made between "providing free education to all" and "curing cancer" - who is buying this flagrant, fraudulent nonsense?]]>
+      </description>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3lzo4qixhzs2a</guid>
+    </item>    <item>
       <title>econet and other acorn specific networking • Reprint of &#38;quot;Networking with the BBC Microcomputer&#38;quot; by Rob Napier</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465903#p465903</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465903#p465903</guid>
@@ -225,6 +297,13 @@
       <title>32-bit acorn hardware • Re: Silly question - A5000 board into A4x0 case</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465780#p465780</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465780#p465780</guid>
+    </item>    <item>
+      <title>Iris PackMan install</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19871</link>
+      <description>
+        <![CDATA[<p>If Iris clearly flags mismatches and tells users how to fix them, you’re golden.</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:5:19871:159083</guid>
     </item>    <item>
       <title>Compo vs Gimp / ImageMagik?</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20024</link>
@@ -454,13 +533,6 @@
       <title>8-bit acorn software: classic games • Re: Multiplayer Revs ?</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465683#p465683</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465683#p465683</guid>
-    </item>    <item>
-      <title>Iris PackMan install</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19871</link>
-      <description>
-        <![CDATA[<p>We could use a few volunteers to test things, please.  Ideally some folks with a familiarity with !PackMan and how to use it, as well as some who are less well versed (although that may be better after the first wave of testing).  If you&#8217;d like to help out, please drop an email to my riscosdev.com email address (my first name) and I&#8217;ll see what can be done.</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:5:19871:159068</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3lzg7s4jt222v</link>
       <description>
