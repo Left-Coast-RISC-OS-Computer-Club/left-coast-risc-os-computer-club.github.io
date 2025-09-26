@@ -7,10 +7,86 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>25 Sep 25 15:00 -0700</lastBuildDate>
+    <lastBuildDate>26 Sep 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.8</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>miscellaneous new bbc and electron games • Re: Orion Patrol</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465998#p465998</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465998#p465998</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Help with disc issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465997#p465997</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465997#p465997</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B &#39;Ashtray&#39;</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465996#p465996</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465996#p465996</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Hello from East London</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465995#p465995</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465995#p465995</guid>
+    </item>    <item>
+      <title>new bbc and electron games from &#39;retro software&#39; • New game Genius Ep1 &#38;quot;Into the toy warehouses&#38;quot; preview. All 3 ep. of the saga are almost ready for free self release!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465994#p465994</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465994#p465994</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Open Source Logic Analyzer Experiments</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465993#p465993</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465993#p465993</guid>
+    </item>    <item>
+      <title>September 2025 News Summary</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13483&#38;page=1#125825</link>
+      <description>
+        <![CDATA[Fixed. Just checking you were paying attention....]]>
+      </description>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13483&#38;page=1#125825</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B+ data line issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465992#p465992</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465992#p465992</guid>
+    </item>    <item>
+      <title>new projects in development: games • Re: Porting of my game GENIUS to BBC Micro platform</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465991#p465991</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465991#p465991</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Replacement A3000 motherboards</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465990#p465990</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465990#p465990</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Unipod and ADF10 or AEH52</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465989#p465989</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465989#p465989</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3lzqidnsf2k2i</link>
+      <description>
+        <![CDATA[I know Amazon has many problematic aspects...
+        
+        But their customer support is *amazing*. They really do value "happy customer" above all else.]]>
+      </description>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3lzqidnsf2k2i</guid>
+    </item>    <item>
+      <title>Extracting object files from a library</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20034</link>
+      <description>
+        <![CDATA[<p>I&#8217;m trying to find out in which registers a toolbox gadget method returns its values. Most are documented but ScrollList is not documented in the toolbox pdf. I thought I could extract the object file using LibFile and then DecAOF to look at the decompiled source, but running LibFile and trying to extract, as an example, Sources.scrolllist.o.getstate gives an error &#8220;Unable to open file Sources.scrolllist.o.getstate&#8221; and hangs the OS. Is there another way to find the registers used?</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:11:20034:159106</guid>
+    </item>    <item>
+      <title>September 2025 News Summary</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13483&#38;page=1#125824</link>
+      <description>
+        <![CDATA[The RISC OS London Show is next *month* not next week, Saturday 25th October to be precise. Don't give everyone a heart attack like that!]]>
+      </description>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13483&#38;page=1#125824</guid>
+    </item>    <item>
+      <title>September 2025 News Summary</title>
+      <link>http://www.iconbar.com/comments/rss/news2233.html</link>
+      <description>
+        <![CDATA[Some things we noticed this month. What did you see?]]>
+      </description>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2233.html</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Open Source Logic Analyzer Experiments</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465946#p465946</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465946#p465946</guid>
@@ -266,6 +342,16 @@
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465791#p465791</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465791#p465791</guid>
     </item>    <item>
+      <title>Problem reading a USB drive</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20030</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>You’ll need FAT32FS to read discs larger than 2GB</p>
+        </blockquote>
+        <p>Ahem, <span class="caps">DOSFS</span> (being an image filing system) can make it to 4GB. The limit at 2GB was <a href="https://gitlab.riscosopen.org/RiscOS/Sources/FileSys/ImageFS/DOSFS/-/commit/631ad37c366ef6f28eb82c6336e13d54a8493309">lifted in 2013</a>, yet still gets perpetuated for reasons I don&#8217;t understand.</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:11:20030:159084</guid>
+    </item>    <item>
       <title>8-bit acorn software: classic games • Re: Elite problems.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465789#p465789</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465789#p465789</guid>
@@ -322,32 +408,6 @@
         <p>Ralph</p>]]>
       </description>
       <guid>cid://www.riscosopen.org:11:20031:159081</guid>
-    </item>    <item>
-      <title>Problem reading a USB drive</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20030</link>
-      <description>
-        <![CDATA[<p>We have a device called a Sunny Beam which reads data from an inverter connected to our solar panel installation. This has a <span class="caps">USB</span> connector which gives access to data files in <span class="caps">CSV</span> form. Under Raspbian/Linux/Windows this appears as two normal <span class="caps">USB</span> drives.<br />
-        But I can&#8217;t access the files under <span class="caps">RISC</span> OS. The device mounts OK, with two <span class="caps">USB</span> icons on the iconbar, but the discs are reported as unformatted.<br />
-        It&#8217;s an old device (from 2012), so I&#8217;m a bit surprised <span class="caps">RISC</span> OS has problems. Under Raspbian, here&#8217;s the device info:</p>
-        <pre>
-        pi@workpi:~ $ lsblk
-        NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
-        sda      8:0    0 223.6G  0 disk
-        |-sda1   8:1    0   256M  0 part /boot
-        `-sda2   8:2    0 223.3G  0 part /
-        sdb      8:16   1   3.4M  1 disk /media/pi/SBEAM
-        sdc      8:32   1   1.6M  0 disk /media/pi/UPDATE
-        pi@workpi:~ $ sudo blkid /dev/sdb
-        /dev/sdb: SEC_TYPE="msdos" LABEL="SBEAM" UUID="0123-4567" TYPE="vfat"
-        pi@workpi:~ $ sudo blkid /dev/sdc
-        /dev/sdc: SEC_TYPE="msdos" LABEL="UPDATE" UUID="0123-4567" TYPE="vfat"
-        </pre>
-        <p>&#8220;<span class="caps">SBEAM</span>&#8221; is the one I&#8217;m interested in. Is &#8220;vfat&#8221; not supported? Or is it something to do with partitions?<br />
-        4te2 running <span class="caps">RISC</span> OS 5.31.<br />
-        NB: I&#8217;m damned if I can get this &#8220;Textile&#8221; formatting to work &#8230; sorry.<br />
-        NB2: Ahhh, &lt;pre&gt; works, not pre.</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:11:20030:159076</guid>
     </item>    <item>
       <title>32-bit acorn hardware • Re: WeeMouse - a wee USB mouse interface for Acorns</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465744#p465744</link>
