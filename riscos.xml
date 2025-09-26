@@ -7,10 +7,111 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>26 Sep 25 07:00 -0700</lastBuildDate>
+    <lastBuildDate>26 Sep 25 15:00 -0700</lastBuildDate>
     <generator>antenna/0.0.8</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>32-bit acorn hardware • Re: Acorn SCSI card clarifiication</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466029#p466029</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466029#p466029</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Help with disc issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466028#p466028</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466028#p466028</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3lzrfqq2k4s2h</link>
+      <description>
+        <![CDATA[🚀 Big week for #theCROWler: v0.9.8 lands this weekend!
+        - Post-processing per rule
+        - Remote app distribution (GitHub deploy coming)
+        - Search API + JDorking
+        - Bug fixes & perf boosts
+        - Docker deploy builds ( #Arm + #Intel / #AMD )
+        🔗 https://github.com/pzaino/thecrowler
+        
+        #Coding #CyberSecurity #ContentDiscovery]]>
+      </description>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3lzrfqq2k4s2h</guid>
+    </item>    <item>
+      <title>CloudFS read error</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/19752</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I can understand the attraction of using pCloud directly from <span class="caps">RISC</span> OS. But failing that, if you have a <span class="caps">NAS</span>, it may be poossible to get the <span class="caps">NAS</span> to connect to pCloud, and then use LanMan98 or <span class="caps">NFS</span> to access it from <span class="caps">RISC</span> OS until CloudFS is revived.</p>
+        </blockquote>
+        <p>I actually use this approach anyway now. The reality is this approach also boost performance. I let my Linux box do the sync up in the background, while local share is ultra fast like this and has another advantage, as soon as my ShareFS for Linux is completed and working, I&#8217;ll &#8220;re-share&#8221; my pCloud via ShareFS Server, which means pCLoud for old <span class="caps">RISC</span> OS 3 on the Archie as well! ;)</p>
+        <p>So the <span class="caps">RISC</span> OS pCloud client is useful only to who has not a 3rd party Linux box in their network.</p>
+        <p>Just my 0.5c.</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:11:19752:159114</guid>
+    </item>    <item>
+      <title>software &#38;amp; utilities for the pc, mac or unix • Re: *.inf format</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466027#p466027</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466027#p466027</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Acorn SCSI card clarifiication</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466026#p466026</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466026#p466026</guid>
+    </item>    <item>
+      <title>new bbc and electron games from &#39;retro software&#39; • Re: New game Genius Ep1 &#38;quot;Into the toy warehouses&#38;quot; preview. All 3 ep. of the saga are almost ready for free self release!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466024#p466024</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466024#p466024</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3lzr7774jok2o</link>
+      <description>
+        <![CDATA[In a recent thread on here folks were talking about how useless is #RISC_OS Apps facility. Guys, let me remind that is a thing of the past. We have !Launchpad by years now that fully replace Acorn Apps (even on the old Archimedes) and gives all RO systems same features as macOS and Win 11 Launchpads]]>
+      </description>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3lzr7774jok2o</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Acorn SCSI card clarifiication</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466023#p466023</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466023#p466023</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Acorn SCSI card clarifiication</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466022#p466022</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466022#p466022</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Acorn SCSI card clarifiication</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466021#p466021</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466021#p466021</guid>
+    </item>    <item>
+      <title>new bbc and electron games from &#39;retro software&#39; • Re: New game Genius Ep1 &#38;quot;Into the toy warehouses&#38;quot; preview. All 3 ep. of the saga are almost ready for free self release!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466020#p466020</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466020#p466020</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Hello from East London</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466019#p466019</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466019#p466019</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3lzqyvoknhk2i</link>
+      <description>
+        <![CDATA["Scompi, chaps and pizz!" I mispronounce, deliberately; putting myself off the meal I'm making.]]>
+      </description>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3lzqyvoknhk2i</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3lzqvfke27s2c</link>
+      <description>
+        <![CDATA[September 2025 News Summary 
+        
+        https://www.iconbar.com/articles/September_2025_News_Summary/index2233.html 
+        
+        Some things we noticed this month. What did you see?]]>
+      </description>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3lzqvfke27s2c</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lzquzhiydk2i</link>
+      <description>
+        <![CDATA[A quick video of me unboxing NES Silver Surfer. This is a freebie copy that the team received when the game was launched. It's been sat in a cupboard for over 30 years as I have no way of playing it as it requires an NTSC NES/TV setup. Therefore, it has never been played! Mint condition.]]>
+      </description>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3lzquzhiydk2i</guid>
+    </item>    <item>
+      <title>Latest news from R-Comp: WROCC meeting, 1st October</title>
+      <link>https://www.riscository.com/2025/latest-news-r-comp-wrocc-1st-october/</link>
+      <description>
+        <![CDATA[The Wakefield RISC OS Computer Club (WROCC) will be holding their next meeting on Wednesday, 1st October, with Andrew Rawnsley taking centre stage to bring the group up to date with all things R-Comp. Andrew will bring the group up to date with all the latest developments at R-Comp and RCI, and with the London Show (at the time of the meeting) just three and a half weeks away, there&#8217;s a chance he may be able to share some details or sneak peaks of new releases for the event. He&#8230;]]>
+      </description>
+      <guid>cid://https://www.riscository.com/?p=10725</guid>
+    </item>    <item>
       <title>miscellaneous new bbc and electron games • Re: Orion Patrol</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465998#p465998</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465998#p465998</guid>
@@ -246,6 +347,19 @@
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465849#p465849</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465849#p465849</guid>
     </item>    <item>
+      <title>How to Purchase DiskKnight ?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20031</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I have sent you an email in the meantime, to help get things sorted.</p>
+        </blockquote>
+        <p>Thanks Andrew,</p>
+        <p>All sorted now.</p>
+        <p>My version of DiscKnight now has the &#8216;repair&#8217; option.</p>
+        <p>Ralph</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:11:20031:159096</guid>
+    </item>    <item>
       <title>8-bit acorn software: other • Basic help please: remove an impossible GOTO</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465819#p465819</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465819#p465819</guid>
@@ -272,6 +386,13 @@
       <title>8-bit acorn hardware • Re: A potential way to detect the 1MHz clock phase</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465815#p465815</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465815#p465815</guid>
+    </item>    <item>
+      <title>Problem reading a USB drive</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20030</link>
+      <description>
+        <![CDATA[<p><span class="caps">LOL</span> yesterday wasn&#8217;t my day, was it?!</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:11:20030:159095</guid>
     </item>    <item>
       <title>other vintage hardware, software and languages • TI99/4a video modulator</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465814#p465814</link>
@@ -342,16 +463,6 @@
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465791#p465791</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465791#p465791</guid>
     </item>    <item>
-      <title>Problem reading a USB drive</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20030</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>You’ll need FAT32FS to read discs larger than 2GB</p>
-        </blockquote>
-        <p>Ahem, <span class="caps">DOSFS</span> (being an image filing system) can make it to 4GB. The limit at 2GB was <a href="https://gitlab.riscosopen.org/RiscOS/Sources/FileSys/ImageFS/DOSFS/-/commit/631ad37c366ef6f28eb82c6336e13d54a8493309">lifted in 2013</a>, yet still gets perpetuated for reasons I don&#8217;t understand.</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:11:20030:159084</guid>
-    </item>    <item>
       <title>8-bit acorn software: classic games • Re: Elite problems.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465789#p465789</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465789#p465789</guid>
@@ -397,17 +508,6 @@
         <![CDATA[<p>Way easier than writing a !Compo C program. The X-ray stuff is wild, but for your ebooks, a -fuzz + -opaque cleanup is way more practical.</p>]]>
       </description>
       <guid>cid://www.riscosopen.org:5:20024:159082</guid>
-    </item>    <item>
-      <title>How to Purchase DiskKnight ?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20031</link>
-      <description>
-        <![CDATA[<p>I have not yet purchased any software using the !Store application to date.</p>
-        <p>Yesterday, I used my Pi3 with Risc OS 5.30 to (attempt to) purchase DiscKnight using the supplied PlingStore application. I&#8217;ve now waited over 24 hours and nothing appears to have happened &#8211; the message on PlingStore still reports &#8220;Payment Being Processed&#8221;. How long should I expect to wait ? Is PlingStore broken or did I do something wrong ?</p>
-        <p>In the days of 24 hour on-line shopping people expect the purchase of software to be more-or-less instant. Or at least expect some sort of email acknowledgement of their order within 24 hours ??</p>
-        <p>Or should I be contacting Druck directly and paying direct via PayPal ?</p>
-        <p>Ralph</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:11:20031:159081</guid>
     </item>    <item>
       <title>32-bit acorn hardware • Re: WeeMouse - a wee USB mouse interface for Acorns</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465744#p465744</link>
@@ -519,14 +619,6 @@
       <title>new projects in development: games • Re: Burger Time</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465709#p465709</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465709#p465709</guid>
-    </item>    <item>
-      <title>CloudFS read error</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/19752</link>
-      <description>
-        <![CDATA[<p>It&#8217;s all gone rather quiet on the CloudFS front &#8211; presumably the pCloud developers remain unwilling to accomodate Sprow&#8217;s suggested fixes?</p>
-        <p>I only ask because my main reason for adopting pCloud in the first place (as opposed to following the way of all flesh into the embrace of Google/iCloud/Onedrive (delete as appropriate) was that pCloud was directly accessible from <span class="caps">RISC</span> OS via CloudFS. If this is no longer likely to be restored, the appeal of pCloud diminishes considerably.</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:11:19752:159069</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lzgpze7g7k2i</link>
       <description>
