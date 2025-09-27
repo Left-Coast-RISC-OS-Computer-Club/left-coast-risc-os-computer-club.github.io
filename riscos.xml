@@ -7,10 +7,69 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>27 Sep 25 07:00 -0700</lastBuildDate>
+    <lastBuildDate>27 Sep 25 15:00 -0700</lastBuildDate>
     <generator>antenna/0.0.8</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>other vintage hardware, software and languages • Re: TI99/4a video modulator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466095#p466095</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466095#p466095</guid>
+    </item>    <item>
+      <title>32-bit acorn emulators • Arculator and Win 11</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466094#p466094</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466094#p466094</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Microvitec Cub 1451 squeak on power-up but otherwise dead</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466093#p466093</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466093#p466093</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Risc OS 4.39 and !Packman Issue. Please Help.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466092#p466092</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466092#p466092</guid>
+    </item>    <item>
+      <title>Printing</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19574</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve had the wheels off IPPTrnspt for a few weeks now, but I&#8217;ve got it to the point where it will print (a single side, anyway!) to an Epson XP-8700 and an HP Envy 6010.  The HP closes the network handle after every <span class="caps">HTTP</span> transaction, so the old code was never going to drive it.</p>
+        <p>So, positive progress, but there&#8217;s more testing to be done (and, I&#8217;m sure, more errors and deficiencies to correct) before I release a new version.</p>
+        <p>The HP printer was given to me by a neighbour when he couldn&#8217;t get it to work after changing internet service provider.  He&#8217;d already bought a new one before I knew, otherwise I could have saved him the expense.  Anyway&#8230; he had an Instant Ink subscription, which he quite rightly cancelled when he gave me the printer.  Within a few days, the printer was refusing to print, giving error E0.  That&#8217;s because the cartridges were no longer covered by a subscription, so HP disabled them.  <span class="caps">AFAIAA</span> it is not possible under any circumstances to recover them.  What a waste.</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:5:19574:159132</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Risc OS 4.39 and !Packman Issue. Please Help.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466090#p466090</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466090#p466090</guid>
+    </item>    <item>
+      <title>programming • Re: Build BBC BASIC from source on a modern OS</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466089#p466089</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466089#p466089</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: A potential way to detect the 1MHz clock phase</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466088#p466088</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466088#p466088</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round One - Spaceman Sid</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466087#p466087</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466087#p466087</guid>
+    </item>    <item>
+      <title>acorn atom and acorn system series • Re: New AtoMMC board: V4</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466086#p466086</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466086#p466086</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: PiTubeDirect troubleshooting</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466085#p466085</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466085#p466085</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lztbi53xyc2h</link>
+      <description>
+        <![CDATA[I've just booked my table for this years Retro Computer Festival 2025 (Gaming Edition) at The Centre for Computing History, Cambridge - Sat/Sun 15th/16th November.
+        
+        I shall be exhibiting BBC Micro game development related material. Hope to see you there!
+        
+        https://www.computinghistory.org.uk/det/74558/Retro-Computer-Festival-2025-(Gaming-Edition)-Saturday-15th-November/]]>
+      </description>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3lztbi53xyc2h</guid>
+    </item>    <item>
       <title>8-bit acorn software: other • Re: Help with disc issue</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466062#p466062</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466062#p466062</guid>
@@ -117,6 +176,21 @@
       </description>
       <guid>cid://www.riscosopen.org:11:19752:159114</guid>
     </item>    <item>
+      <title>RPi 500+</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20033</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>any takers to get this working on <span class="caps">RISC</span> OS</p>
+        </blockquote>
+        <p>Yes:</p>
+        <p><a href="https://www.riscosopen.org/bounty/polls/45">https://www.riscosopen.org/bounty/polls/45</a></p>
+        <p>Or, if you believe 2.5M <span class="caps">GBP</span> is too much, then there is <span class="caps">RISC</span> OS on Linux Project which works already on the Pi 5 and 500, so expect R-Comp to have a 500+ model soon on sales, maybe for the London Show?</p>
+        <p>With <span class="caps">RISC</span> OS on Linux the <span class="caps">RGB</span> control has to be developed for Linux, so they probably can re-use the one from Raspberry Pi on the Linux side and eventually write a client app for the hosted <span class="caps">RISC</span> OS.</p>
+        <p>(mind that <span class="caps">AFAIA</span>, sound still doesn&#8217;t work on <span class="caps">RISC</span> OS on Linux).</p>
+        <p>If you want native <span class="caps">RISC</span> OS support then you have to support ROOL&#8217;s Moonshot and wait for whenever it&#8217;ll start or something, not sure how that works actually. I think something may start as soon as they reach the first chunk of money. Don&#8217;t know. Otherwise NO <span class="caps">RISC</span> OS on the Pi 5, 500 or 500+.</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:5:20033:159112</guid>
+    </item>    <item>
       <title>software &#38;amp; utilities for the pc, mac or unix • Re: *.inf format</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466027#p466027</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466027#p466027</guid>
@@ -170,6 +244,14 @@
         Some things we noticed this month. What did you see?]]>
       </description>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3lzqvfke27s2c</guid>
+    </item>    <item>
+      <title>Extracting object files from a library</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20034</link>
+      <description>
+        <![CDATA[<p>Hey! I wrote quality documentation&#8230;</p>
+        <p><a href="https://gitlab.riscosopen.org/RiscOS/Sources/Toolbox/Gadgets/-/blob/master/docs/ScrollList">https://gitlab.riscosopen.org/RiscOS/Sources/Toolbox/G…</a></p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:11:20034:159110</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lzquzhiydk2i</link>
       <description>
@@ -238,21 +320,6 @@
         But their customer support is *amazing*. They really do value "happy customer" above all else.]]>
       </description>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3lzqidnsf2k2i</guid>
-    </item>    <item>
-      <title>Extracting object files from a library</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20034</link>
-      <description>
-        <![CDATA[<p>I&#8217;m trying to find out in which registers a toolbox gadget method returns its values. Most are documented but ScrollList is not documented in the toolbox pdf. I thought I could extract the object file using LibFile and then DecAOF to look at the decompiled source, but running LibFile and trying to extract, as an example, Sources.scrolllist.o.getstate gives an error &#8220;Unable to open file Sources.scrolllist.o.getstate&#8221; and hangs the OS. Is there another way to find the registers used?</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:11:20034:159106</guid>
-    </item>    <item>
-      <title>RPi 500+</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20033</link>
-      <description>
-        <![CDATA[<p><span class="caps">RISC</span> OS isn&#8217;t going to run natively on the Pi 5, 500 or 500+ as the <span class="caps">CPU</span> only supports 32 bit for user mode code.</p>
-        <p>My recommendation is one of the Pi 4 compute module based machines with NVMe. Hid it around the back of the TV or monitor and use a decent wireless keyboard and mouse, or a combined wireless keyboard with trackpad. Far better than having wires trailing back to the screen, particularly if you have a pair of keyboard obsessed gigantic nibbly cats.</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:5:20033:159104</guid>
     </item>    <item>
       <title>September 2025 News Summary</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13483&#38;page=1#125824</link>
