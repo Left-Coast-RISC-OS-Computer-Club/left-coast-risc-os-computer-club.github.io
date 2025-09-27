@@ -7,7 +7,7 @@
       This Antenna App collection olds the posts for the Left Coast RISC OS Computer Club.
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/posts.xml</link>
-    <lastBuildDate>26 Sep 25 15:00 -0700</lastBuildDate>
+    <lastBuildDate>27 Sep 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.8</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
@@ -39,14 +39,6 @@
         I'm going have to accept clunky adapters, the Feckless Orange Troll Baby be dammed.]]>
       </description>
       <enclosure url="https://left-coast-risc-os-computer-club.github.io/posts/2025/09/09/the_next_risc_os_machine.md" length="1388" type="text/markdown" />
-    </item>    <item>
-      <title>RISC OS and my Pi Zero 2W</title>
-      <link>https://left-coast-risc-os-computer-club.github.io/posts/2025/09/05/riscos_and_my_pi_zero.html</link>
-      <description>
-        <![CDATA[This post covers installing RISC OS 5.31v3 from RISC OS Direct. It features RISC OS with
-        the a new network stack and with the Iris web browser.]]>
-      </description>
-      <enclosure url="https://left-coast-risc-os-computer-club.github.io/posts/2025/09/05/riscos_and_my_pi_zero.md" length="7611" type="text/markdown" />
     </item>
   </channel>
 </rss>

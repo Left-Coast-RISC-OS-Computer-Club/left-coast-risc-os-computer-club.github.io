@@ -7,10 +7,82 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>26 Sep 25 15:00 -0700</lastBuildDate>
+    <lastBuildDate>27 Sep 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.8</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn software: other • Re: Help with disc issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466062#p466062</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466062#p466062</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: A potential way to detect the 1MHz clock phase</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466061#p466061</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466061#p466061</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Help with disc issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466060#p466060</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466060#p466060</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Help with disc issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466059#p466059</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466059#p466059</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Help with disc issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466058#p466058</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466058#p466058</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Help with disc issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466057#p466057</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466057#p466057</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Help with disc issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466056#p466056</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466056#p466056</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Help with disc issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466055#p466055</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466055#p466055</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Astec PSU oddity</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466054#p466054</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466054#p466054</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Unipod and ADF10 or AEH52</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466053#p466053</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466053#p466053</guid>
+    </item>    <item>
+      <title>London Show 2025 – just four weeks to go</title>
+      <link>https://www.riscository.com/2025/london-show-four-weeks/</link>
+      <description>
+        <![CDATA[Today is Saturday, 27th September, 2025, and I&#8217;ve scheduled this post to appear at 11:00am &#8211; which means at the time this article appears it will be precisely four weeks to the minute until the doors are open to the public on the 2025 RISC OS London Show, which takes place on Saturday, 25th October. The precise details you need, as a discerning RISC OS user and show visitor, are: Harrow District Masonic Centre,Northwick Circle,Kenton,Harrow,HA3 0EL. The venue has ample (and free) parking for visitors making the trip by car,&#8230;]]>
+      </description>
+      <guid>cid://https://www.riscository.com/?p=10718</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 28th September at 1pm.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20035</link>
+      <description>
+        <![CDATA[<p>Hiya,</p>
+        <p>This Sunday – 28th September, at 1pm – I&#8217;m doing the live coding again, continuing with the SystemVars module.</p>
+        <p>Come along if you like – <a href="https://youtube.com/live/yqhMFMEuIcU?feature=share">https://youtube.com/live/yqhMFMEuIcU?feature=share</a><br />
+         – or you can always watch the video afterwards at the same address.</p>
+        <p>This week, I&#8217;ll be looking at extending the system variable types from just plain text. Hopefully, I&#8217;ll manage to get the macro variables implemented, at least.</p>
+        <hr />
+        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
+        <p>So far, the implementation has:</p>
+        <ul>
+        	<li><span class="caps">SWI</span> implementations in the module (as regular SWIs)</li>
+        	<li>Reading string variables through a <span class="caps">SWI</span>.</li>
+        	<li>Writing string variables through a <span class="caps">SWI</span>.</li>
+        	<li>Rudimentary tests of the read/write process.</li>
+        	<li>Automatic builds and releases through the CI on GitHub.</li>
+        	<li>The module can be built and runs on 32-bit <span class="caps">RISC</span> OS.</li>
+        </ul>
+        <hr />
+        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube: <a href="https://www.youtube.com/watch?v=qLWrBmpvj5s&amp;list=PLVVIu906Y7rErDqQiC48sWdsrD-AeQ8wS">https://www.youtube.com/watch?v=qLWrBmpvj5s&amp;amp;list=P…</a></p>
+        <p>Or the sequence is also available linked from my presentations website: <a href="https://presentation.riscos.online/live/systemvars.html">https://presentation.riscos.online/live/systemvars.html</a></p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:1:20035:159125</guid>
+    </item>    <item>
       <title>32-bit acorn hardware • Re: Acorn SCSI card clarifiication</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466029#p466029</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466029#p466029</guid>
@@ -174,6 +246,14 @@
       </description>
       <guid>cid://www.riscosopen.org:11:20034:159106</guid>
     </item>    <item>
+      <title>RPi 500+</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20033</link>
+      <description>
+        <![CDATA[<p><span class="caps">RISC</span> OS isn&#8217;t going to run natively on the Pi 5, 500 or 500+ as the <span class="caps">CPU</span> only supports 32 bit for user mode code.</p>
+        <p>My recommendation is one of the Pi 4 compute module based machines with NVMe. Hid it around the back of the TV or monitor and use a decent wireless keyboard and mouse, or a combined wireless keyboard with trackpad. Far better than having wires trailing back to the screen, particularly if you have a pair of keyboard obsessed gigantic nibbly cats.</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:5:20033:159104</guid>
+    </item>    <item>
       <title>September 2025 News Summary</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13483&#38;page=1#125824</link>
       <description>
@@ -187,6 +267,13 @@
         <![CDATA[Some things we noticed this month. What did you see?]]>
       </description>
       <guid>cid://http://www.iconbar.com/comments/rss/news2233.html</guid>
+    </item>    <item>
+      <title>Problem reading a USB drive</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20030</link>
+      <description>
+        <![CDATA[<p>Is it possible to have a version that prints out the value?</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:11:20030:159102</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: Open Source Logic Analyzer Experiments</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465946#p465946</link>
@@ -227,24 +314,6 @@
       <title>8-bit acorn hardware • Re: A potential way to detect the 1MHz clock phase</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465935#p465935</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465935#p465935</guid>
-    </item>    <item>
-      <title>RPi 500+</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20033</link>
-      <description>
-        <![CDATA[<p>mmm&#8230;</p>
-        <p>this might be &quot;peak pi&#8217; for now&#8230;.<br />
-        how is the implementation for RO5.31+ on this going?<br />
-        16GB, NVMe <span class="caps">SSD</span> Storage, mechanical keyboard (beeb nostalgia) ! <br />
-        maybe a trackpad but to my mind a numeric keypad would be welcome&#8230;.</p>
-        <p>otherwise might be the Pi500 version we have been waiting for&#8230;</p>
-        <p>although looks like it might be a bit expensive&#8230;</p>
-        <p>apparently the keyboard lighting is controlled by a python script&#8230; any takers to get this working on <span class="caps">RISC</span> OS (personally I would just like a white backlight with intensity control)</p>
-        <p>173UKP:</p>
-        <p><a href="https://thepihut.com/products/raspberry-pi-500-plus">https://thepihut.com/products/raspberry-pi-500-plus</a></p>
-        <p>fairly good review here:<br />
-        <a href="https://www.phoronix.com/review/raspberry-pi-500-plus">https://www.phoronix.com/review/raspberry-pi-500-plus</a></p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:5:20033:159099</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3lzo6dwmfh22v</link>
       <description>
@@ -386,13 +455,6 @@
       <title>8-bit acorn hardware • Re: A potential way to detect the 1MHz clock phase</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465815#p465815</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=465815#p465815</guid>
-    </item>    <item>
-      <title>Problem reading a USB drive</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20030</link>
-      <description>
-        <![CDATA[<p><span class="caps">LOL</span> yesterday wasn&#8217;t my day, was it?!</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:11:20030:159095</guid>
     </item>    <item>
       <title>other vintage hardware, software and languages • TI99/4a video modulator</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=465814#p465814</link>
