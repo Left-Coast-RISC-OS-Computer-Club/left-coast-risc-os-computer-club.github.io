@@ -7,10 +7,65 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>27 Sep 25 15:00 -0700</lastBuildDate>
+    <lastBuildDate>28 Sep 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.8</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>archive submissions • Re: 30th Anniversary BBC and Electron Collection</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466128#p466128</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466128#p466128</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3lzvmuhlhe22f</link>
+      <description>
+        <![CDATA[I've been working on Ovation Pro to add extra scaling options to the picture proxy setting. For those who attended my @rougol.bsky.social talk, I explained the use of proxy images. Base/16, Base/32 & Base/64 now offer even smaller proxies, making for smaller document sizes.
+        #OvationPro #RISC_OS #DTP]]>
+      </description>
+      <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3lzvmuhlhe22f</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Open Source Logic Analyzer Experiments</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466127#p466127</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466127#p466127</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Reprint of &#38;quot;Networking with the BBC Microcomputer&#38;quot; by Rob Napier</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466126#p466126</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466126#p466126</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: A programmer on the BBC Micro &#38;quot;Welcome&#38;quot; tape?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466125#p466125</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466125#p466125</guid>
+    </item>    <item>
+      <title>new projects and releases: demoscene • MicroPlayer - Music Disks for the BBC Micro</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466124#p466124</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466124#p466124</guid>
+    </item>    <item>
+      <title>other vintage hardware, software and languages • Re: TI99/4a video modulator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466123#p466123</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466123#p466123</guid>
+    </item>    <item>
+      <title>new projects in development: games • Re: Lady Bug</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466122#p466122</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466122#p466122</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Risc OS 4.39 and !Packman Issue. Please Help.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466121#p466121</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466121#p466121</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Unipod and ADF10 or AEH52</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466118#p466118</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466118#p466118</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Many thanks</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466116#p466116</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466116#p466116</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3lztzhqwbis2x</link>
+      <description>
+        <![CDATA[This is not going to become a Lego account, but there was a time when knock-off "compatible" bricks were rubbish.
+        
+        But now, the Chinese manufacturers are beyond mere reproduction and innovating in a way Lego isn't - producing specialist bricks that AFOLs have been asking Lego for, for years.]]>
+      </description>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3lztzhqwbis2x</guid>
+    </item>    <item>
       <title>other vintage hardware, software and languages • Re: TI99/4a video modulator</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466095#p466095</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466095#p466095</guid>
@@ -69,6 +124,16 @@
         https://www.computinghistory.org.uk/det/74558/Retro-Computer-Festival-2025-(Gaming-Edition)-Saturday-15th-November/]]>
       </description>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3lztbi53xyc2h</guid>
+    </item>    <item>
+      <title>Extracting object files from a library</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20034</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Sources.scrolllist.o.getstate gives an error “Unable to open file Sources.scrolllist.o.getstate” and hangs the OS. Is there another way to find the registers used?</p>
+        </blockquote>
+        <p>Can&#8217;t say why it hangs the OS &#8211; that seems somewhat broken to me &#8211; but the error is almost certainly because the tool does not create the leading directories. Do that manually, and all will work. Or look at the OSLib sources for the register details, as these are much easier to read.</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:11:20034:159129</guid>
     </item>    <item>
       <title>8-bit acorn software: other • Re: Help with disc issue</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466062#p466062</link>
@@ -164,6 +229,26 @@
       </description>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3lzrfqq2k4s2h</guid>
     </item>    <item>
+      <title>RPi 500+</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20033</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Also very keen to see how your Merlin project is progressing which although I will not be at the London Show (bit of a journey) hope to see some photos / videos / writeup about current state when you demonstrate it</p>
+        </blockquote>
+        <p>Thanks so much for your interest on Merlin, and sorry to hear you won&#8217;t be able to make it at the London Show. I&#8217;ll try to share something, but I really appreciate people coming by and have a chat, in the end I am making all this for the fun.</p>
+        <p>Anyway, here’s a quick status update: Merlin successfully loads, maps, and initializes some of the <span class="caps">RISC</span> OS 5 <span class="caps">ROM</span> modules on AArch32. This is a big step, as AArch32 is fundamental for testing the mechanisms needed to load and run older modules. At the current pace, it will still take some years before Merlin is ready for general user testing, but it’s steadily moving forward. Encouragingly, I’ve also found a couple of US companies interested in supporting Merlin’s development. Their focus isn’t on the <span class="caps">RISC</span> OS side specifically, but even partial support helps ensure the project keeps progressing toward completion.</p>
+        <p>That said, the most exciting thing to see at the London Show will probably be the progresses on my Ultima VM. It demonstrates that we can build powerful interpreters on <span class="caps">RISC</span> OS, offering:</p>
+        <ul>
+        	<li>performance far beyond <span class="caps">BBC</span> <span class="caps">BASIC</span> (on all platforms)</li>
+        	<li>a strong security model and full memory protection</li>
+        	<li>native preemptive multitasking for apps, fully integrated with the <span class="caps">RISC</span> OS <span class="caps">WIMP</span></li>
+        </ul>
+        <p>This last point is especially exciting: developers will finally be able to write programs without worrying about the cooperative scheduler, just like on Linux, Windows, or macOS. Apps already run smoothly, multitasking seamlessly, and Ultima handles all messaging for an application. It’s also outperforming Python and Lua on <span class="caps">RISC</span> OS.</p>
+        <p>Best of all, apps written for Ultima not only run safely (no OS crashes when things go wrong), but also run unchanged across Linux, macOS, Windows, <span class="caps">BSD</span>, and on multiple architectures including <span class="caps">ARM</span>, x86, and <span class="caps">RISC</span>-V.</p>
+        <p>So while Merlin is steadily evolving, I think Ultima VM is where things get truly exciting right now; it’s going to make coding on <span class="caps">RISC</span> OS much easier, way faster and more enjoyable for everyone.</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:5:20033:159116</guid>
+    </item>    <item>
       <title>CloudFS read error</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/19752</link>
       <description>
@@ -175,21 +260,6 @@
         <p>Just my 0.5c.</p>]]>
       </description>
       <guid>cid://www.riscosopen.org:11:19752:159114</guid>
-    </item>    <item>
-      <title>RPi 500+</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20033</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>any takers to get this working on <span class="caps">RISC</span> OS</p>
-        </blockquote>
-        <p>Yes:</p>
-        <p><a href="https://www.riscosopen.org/bounty/polls/45">https://www.riscosopen.org/bounty/polls/45</a></p>
-        <p>Or, if you believe 2.5M <span class="caps">GBP</span> is too much, then there is <span class="caps">RISC</span> OS on Linux Project which works already on the Pi 5 and 500, so expect R-Comp to have a 500+ model soon on sales, maybe for the London Show?</p>
-        <p>With <span class="caps">RISC</span> OS on Linux the <span class="caps">RGB</span> control has to be developed for Linux, so they probably can re-use the one from Raspberry Pi on the Linux side and eventually write a client app for the hosted <span class="caps">RISC</span> OS.</p>
-        <p>(mind that <span class="caps">AFAIA</span>, sound still doesn&#8217;t work on <span class="caps">RISC</span> OS on Linux).</p>
-        <p>If you want native <span class="caps">RISC</span> OS support then you have to support ROOL&#8217;s Moonshot and wait for whenever it&#8217;ll start or something, not sure how that works actually. I think something may start as soon as they reach the first chunk of money. Don&#8217;t know. Otherwise NO <span class="caps">RISC</span> OS on the Pi 5, 500 or 500+.</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:5:20033:159112</guid>
     </item>    <item>
       <title>software &#38;amp; utilities for the pc, mac or unix • Re: *.inf format</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466027#p466027</link>
@@ -244,14 +314,6 @@
         Some things we noticed this month. What did you see?]]>
       </description>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3lzqvfke27s2c</guid>
-    </item>    <item>
-      <title>Extracting object files from a library</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20034</link>
-      <description>
-        <![CDATA[<p>Hey! I wrote quality documentation&#8230;</p>
-        <p><a href="https://gitlab.riscosopen.org/RiscOS/Sources/Toolbox/Gadgets/-/blob/master/docs/ScrollList">https://gitlab.riscosopen.org/RiscOS/Sources/Toolbox/G…</a></p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:11:20034:159110</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3lzquzhiydk2i</link>
       <description>
