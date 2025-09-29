@@ -7,10 +7,128 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>28 Sep 25 15:00 -0700</lastBuildDate>
+    <lastBuildDate>29 Sep 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.8</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: BBC B+ data line issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466229#p466229</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466229#p466229</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B+ data line issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466228#p466228</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466228#p466228</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Acorn SCSI card clarifiication</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466227#p466227</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466227#p466227</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A couple of A7000 questions</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466226#p466226</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466226#p466226</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: 5.25in disk drive magic smoke from PSU</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466225#p466225</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466225#p466225</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B+ data line issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466224#p466224</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466224#p466224</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A couple of A7000 questions</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466223#p466223</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466223#p466223</guid>
+    </item>    <item>
+      <title>new projects and releases: demoscene • Re: MicroPlayer - Music Disks for the BBC Micro</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466222#p466222</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466222#p466222</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Microvitec Cub 1451 squeak on power-up but otherwise dead</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466221#p466221</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466221#p466221</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B+ data line issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466220#p466220</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466220#p466220</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3lzxw7jlcg22m</link>
+      <description>
+        <![CDATA[WROCC October 2025 talk on Wednesday - R-Comp 
+        
+        https://www.iconbar.com/articles/WROCC_October_2025_talk_on_Wednesday_-_R-Comp/index2232.html 
+        
+        The October 2025 WROCC talk is on Wednesday 1st October and starts at at 7.45pm on Zoom.]]>
+      </description>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3lzxw7jlcg22m</guid>
+    </item>    <item>
+      <title>WROCC October 2025 talk on Wednesday - R-Comp</title>
+      <link>http://www.iconbar.com/comments/rss/news2232.html</link>
+      <description>
+        <![CDATA[The October 2025 WROCC talk is on Wednesday 1st October and starts at at 7.45pm on Zoom.]]>
+      </description>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2232.html</guid>
+    </item>    <item>
+      <title>2025 Creating a build environment for RISC OS on Linux</title>
+      <link>https://www.riscosopen.org/forum/forums/9/topics/20036</link>
+      <description>
+        <![CDATA[<p>In the spirit of &#8220;if you want the answer to a question on the internet, post a wrong answer&#8221;&#8230;</p>
+        <p>You will <strong>need to buy a copy of the <span class="caps">DDE</span></strong> from <span class="caps">ROOL</span>. I have DDE31f, currently.<br />
+        You will need to download the following files, or similar (I&#8217;m building Pi ROMs, so bcm2835):</p>
+        <ul>
+        	<li>src-bcm2835-dev.5.31.tar.bz2</li>
+        	<li>HardDisc4.5.30.zip</li>
+        	<li>rpcemu-0.9.5.tar.gz</li>
+        	<li><span class="caps">IOMD</span>-Flash.5.30.zip</li>
+        	<li>ROOL_DDE31*.zip</li>
+        </ul>
+        <p>Create a directory with those files in it.</p>
+        <pre><code>tar xf rpcemu-0.9.5.tar.gz
+        sed -i 's/debug_and_release/debug_and_release dynarec/' rpcemu-0.9.5/src/qt5/rpcemu.pro</code></pre>
+        <p>Creates a directory rpcemu-0.9.5, and tells it to be fast!</p>
+        <pre><code>cd rpcemu-0.9.5/
+        rm -r hostfs
+        unzip -F ~/Downloads/ROOL/HardDisc4.5.30.zip
+        mv HardDisc4 hostfs
+        rm InSituBootUpdate,feb ReadMe.txt,fff</code></pre>
+        <p>HostFS now contains the standard disc image files, including filetypes (the -F flag).</p>
+        <pre><code>cd roms
+        unzip ../IOMD-Flash.5.30.zip
+        mv \!KinPrg/riscos .
+        rm -r \!KinPrg/</code></pre>
+        <p>That&#8217;s put an old <span class="caps">ROM</span> image into the appropriate directory.</p>
+        <p>It does not support the AppPath command required by DDE31, see later&#8230;</p>
+        <pre><code>cd ../src/qt5
+        ./buildit.sh
+        make
+        cd ../../</code></pre>
+        <p>That&#8217;s built the emulator.</p>
+        <pre><code>./rpcemu-recompiler</code></pre>
+        <p>At the command line in the emulator:</p>
+        <pre><code>configure filesystem hostfs
+        configure boot</code>
+        
+        <code>To avoid problems with AppPath, from the Linux environment:</code></pre>
+        <pre><code>cd hostfs
+        mkdir DDE
+        cd DDE
+        unzip -F ../ROOL_DDE31*.zip
+        sed -i 's/1.54/1.53/' 'AcornC.C++/!SetPaths/SetUp,feb'
+        sed -i 's/AppPath Run.Path \(.*\)$/Set Run$Path &lt;Run$Path&gt;,\1/' 'AcornC.C++/!SetPaths/SetUp,feb'
+        cd ..
+        tar xf ../../src-bcm2835-dev.5.31.tar.bz2
+        cd ..</code></pre>
+        <p>Set !Boot to look at <span class="caps">DDE</span>.AcornC/C++.!SetPaths on bootup</p>
+        <p>Run BCM2835.RiscOS.Apps.!Prepare, answer yes to the first question and no to the second.</p>
+        <p>Reboot the emulator.</p>
+        <p>Run BCM2835.RiscOS.Apps.!Builder. Click on the iconbar icon.</p>
+        <p>Drag BCM2835.RiscOS to the Register build directories window.</p>
+        <p>Choose the (only) Build directory, and the environment you want to build.</p>
+        <p>Check List, to Join <span class="caps">ROM</span>, and click &#8220;Build&#8221;.</p>
+        <p>Subsequent builds only need Install and Join <span class="caps">ROM</span>, unless you&#8217;ve made changes to Resource files or serious changes to an interface.</p>
+        <p>Your <span class="caps">ROM</span> image should appear in BCM2835.RiscOS.Images.</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:9:20036:159142</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Bizare Disintegrated BBC Master Foot</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466182#p466182</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466182#p466182</guid>
@@ -249,6 +367,16 @@
       </description>
       <guid>cid://https://www.riscository.com/?p=10718</guid>
     </item>    <item>
+      <title>RPi 500+</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20033</link>
+      <description>
+        <![CDATA[<p>Hi,</p>
+        <p>I built a CM4 8Gb Ram, 16Gb eMMC, <span class="caps">WIFI</span>, Waveshare I/O board, Waveshare PCIe to M.2 adapter (B) for Raspberry Pi CM4 IO Board, 512Gb <span class="caps">NVME</span> storage, RiscOS v5.31 bootable from <span class="caps">NVME</span>, Case, cost about £120 Needs a <span class="caps">USB</span> keyboard and mouse and is not a Pi500 footprint.</p>
+        <p>I thought that I should of gone down the CM5 route, but I wanted RiscOS running on natively.</p>
+        <p>But I have  Pi5 so will investigate that with Moonshot.</p>]]>
+      </description>
+      <guid>cid://www.riscosopen.org:5:20033:159127</guid>
+    </item>    <item>
       <title>Live Coding with Gerph, Sunday 28th September at 1pm.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20035</link>
       <description>
@@ -281,16 +409,6 @@
       <title>8-bit acorn software: other • Re: Help with disc issue</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466028#p466028</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466028#p466028</guid>
-    </item>    <item>
-      <title>RPi 500+</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20033</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>If you want native <span class="caps">RISC</span> OS support then you have to support ROOL’s Moonshot and wait for whenever it’ll start or something, not sure how that works actually.</p>
-        </blockquote>
-        <p>I think the general idea is that <em>anything</em> which materially contributes towards the 64-bit goals on the Moonshot detailed roadmap, were someone to offer to start it, is viable provided we have enough money to cover the estimate. You can always e-mail <span class="caps">ROOL</span> if you have a particular idea on something you might implement, or if you have strong preferences for the order in which things should be prioritised.</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:5:20033:159117</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3lzrfqq2k4s2h</link>
       <description>
