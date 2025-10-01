@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:source="https://source.scripting.com/">
   <atom:link href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="self" type="application/rss+xml" />
   <channel>
     <title>RISCOS</title>
@@ -7,10 +7,64 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>01 Oct 25 07:00 -0700</lastBuildDate>
+    <lastBuildDate>01 Oct 25 14:02 -0700</lastBuildDate>
     <generator>antenna/0.0.9</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>new projects and releases: demoscene • Re: MicroPlayer - Music Disks for the BBC Micro</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466462#p466462</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466462#p466462</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Econet on the research machines 380/480</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466461#p466461</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466461#p466461</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • CUB Monitor 1431-MS: Stable Wavy Horizontal Display</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466457#p466457</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466457#p466457</guid>
+    </item>    <item>
+      <title>miscellaneous new bbc and electron games • Re: Orion Patrol</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466455#p466455</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466455#p466455</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A5000 RAM control line failure</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466454#p466454</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466454#p466454</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A5000 RAM control line failure</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466453#p466453</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466453#p466453</guid>
+    </item>    <item>
+      <title>What are you doing with RISC OS?</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/653</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve updated my ToolboxC++Lib to include ToolboxScrollList, ToolboxTab and ToolboxTreeView. However, only ToolboxScrollList has had a simple functional test, but it works.<br />
+        Sources can be found on <a href="https://github.com/bantonia/ToolboxLibrary/tree/main">GitHub</a><br />
+        The documentation in the docs directory was created using Doxygen and doesn&#8217;t work directly from GitHub, has to be downloaded and viewed locally.</p>]]>
+      </description>
+      <source:markdown>I’ve updated my ToolboxC++Lib to include ToolboxScrollList, ToolboxTab and ToolboxTreeView. However, only ToolboxScrollList has had a simple functional test, but it works.
+
+Sources can be found on [GitHub](https://github.com/bantonia/ToolboxLibrary/tree/main)
+
+The documentation in the docs directory was created using Doxygen and doesn’t work directly from GitHub, has to be downloaded and viewed locally.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:653:159173</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A5000 RAM control line failure</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466450#p466450</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466450#p466450</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A5000 RAM control line failure</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466449#p466449</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466449#p466449</guid>
+    </item>    <item>
+      <title>general • Re: Interesting YouTube videos</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466448#p466448</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466448#p466448</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A5000 RAM control line failure</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466447#p466447</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466447#p466447</guid>
+    </item>    <item>
       <title>off-topic • Re: Training in microelectronics?</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466420#p466420</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466420#p466420</guid>
@@ -320,6 +374,30 @@ tinyurl.com/JVMToUltimaVM
 https://tinyurl.com/JVMToUltimaVM</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3lzybyjzpic2k</guid>
     </item>    <item>
+      <title>2025 Creating a build environment for RISC OS on Linux</title>
+      <link>https://www.riscosopen.org/forum/forums/9/topics/20036</link>
+      <description>
+        <![CDATA[<p>I updated the patch to use the correct file name.</p>
+        <p>To apply the patch use e.g. (first search and replace the 7 and 8 spaces with tab)</p>
+        <p><code></p>
+        <p>cd RISC_OS_Linux_Binary<br />
+        patch &#45;p1 &lt;patch.txt</p>
+        <p></code></p>]]>
+      </description>
+      <source:markdown>I updated the patch to use the correct file name.
+
+To apply the patch use e.g. (first search and replace the 7 and 8 spaces with tab)
+
+``
+
+ `
+cd RISC_OS_Linux_Binary
+patch -p1 &#60;patch.txt
+`
+
+``</source:markdown>
+      <guid>cid://www.riscosopen.org:9:20036:159151</guid>
+    </item>    <item>
       <title>RPi 500+</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20033</link>
       <description>
@@ -381,116 +459,6 @@ For what concern discussing users issues, I think user-group meetings are still 
       <title>32-bit acorn hardware • Re: A couple of A7000 questions</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466223#p466223</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466223#p466223</guid>
-    </item>    <item>
-      <title>2025 Creating a build environment for RISC OS on Linux</title>
-      <link>https://www.riscosopen.org/forum/forums/9/topics/20036</link>
-      <description>
-        <![CDATA[<p>You can also use <span class="caps">RISC</span> OS Linux.</p>
-        <p><code></p>
-        <p>git clone https&#58;//github.com/TimothyEBaldwin/RISC_OS_Linux_Binary.git</p>
-        <p>Apply this patch. The 5.28 !Boot is no longer downloadable but 5.30 works after changing one line.</p>
-        <p>diff &#45;&#45;git a/Unix/LinuxSupport/common.mk b/Unix/LinuxSupport/common.mk<br />
-        index 8a44cb0..2fbbf83 100755<br />
-        &#45;&#45;&#45; a/Unix/LinuxSupport/common.mk<br />
-        &plus;&plus;&plus; b/Unix/LinuxSupport/common.mk<br />
-        &#64;&#64; &#45;15,7 &plus;15,7 &#64;&#64;<br />
-        &nbsp;# limitations under the License.<br />
-        &nbsp;#</p>
-        <p>&#45;HARDDISC4=$(<span class="caps">HOME</span>)/Downloads/HardDisc4.5.28.util<br />
-        &plus;HARDDISC4=$(<span class="caps">HOME</span>)/Downloads/HardDisc4.5.30.util<br />
-        &nbsp;QEMU_SRC=$(<span class="caps">HOME</span>)/Downloads/qemu-5.2.0.tar.xz<br />
-        &nbsp;<span class="caps">RPCEMU</span>=$(<span class="caps">HOME</span>)/Downloads/rpcemu-0.9.3.tar.gz<br />
-        &nbsp;<span class="caps">IOMD</span>=$(<span class="caps">HOME</span>)/Downloads/<span class="caps">IOMD</span>-Soft.5.28.zip<br />
-        &#64;&#64; &#45;155,7 &plus;155,7 &#64;&#64; HardDisc4: | $(HARDDISC4) Built/gen_seccomp Built/qemu&#45;link $(LINUX_ROM)<br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;! rm &#45;rf HardDisc4_files<br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mkdir HardDisc4_files<br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cp &#45;&#45;reflink=auto &#39;$(HARDDISC4)&#39; HardDisc4_files/hd4,ffc<br />
-        &#45;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo &#39;64607412d987a3f974217f109128de89e1ec9a6cd3284f52b3cf9c39fa0f6b60 *HardDisc4_files/hd4,ffc&#39; | sha256sum &#45;c<br />
-        &plus;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo &#39;0f6cd3aecf109786a7e9808ce444d7383349d3f0405cee76f2fe3ed7615b9673 *HardDisc4_files/hd4,ffc&#39; | sha256sum &#45;c<br />
-        &nbsp;ifeq ($(<span class="caps">INSECURE</span>), <span class="caps">YES</span>)<br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;env &#45;i RISC_OS_Alias_IXFSBoot=&#39;Echo Extracting HardDisc4<br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/<span class="caps">IXFS</span>:$$.proc.self.cwd.HardDisc4_files.hd4<br />
-        &#64;&#64; &#45;183,7 &plus;183,7 &#64;&#64; Built/boot_iomd_rom: $(<span class="caps">IOMD</span>) | Built/gen_seccomp<br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setfattr &#45;n user.RISC_OS.LoadExec &#45;v 0&#120;00e5ffff00000000 $@ || true</p>
-        <p>&nbsp;$(HARDDISC4):<br />
-        &#45;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh Unix/LinuxSupport/download.sh &#39;$(HARDDISC4)&#39; &quot;https&#58;&#47;&#47;www&#46;riscosopen.org/zipfiles/platform/common/HardDisc4.5.28.util&quot; &quot;64607412d987a3f974217f109128de89e1ec9a6cd3284f52b3cf9c39fa0f6b60&quot;<br />
-        &plus;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sh Unix/LinuxSupport/download.sh &#39;$(HARDDISC4)&#39; &quot;https&#58;&#47;&#47;www&#46;riscosopen.org/zipfiles/platform/common/HardDisc4.5.30.util&quot; &quot;0f6cd3aecf109786a7e9808ce444d7383349d3f0405cee76f2fe3ed7615b9673&quot;<br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setfattr &#45;n user.RISC_OS.LoadExec -v 0&#120;00fcffff00000000 $@ || true</p>
-        <p>&nbsp;$(<span class="caps">IOMD</span>):</p>
-        <p></code></p>
-        <p><span class="caps">RISC</span> OS will hang at this point. Close the window.</p>
-        <p>./run_RISC_OS</p>
-        <p>Open the file,</p>
-        <p><code></p>
-        <p>RISC_OS_Linux_Binary/HardDisc4&#47;&#33;Boot/Resources&#47;&#33;System&#47;&#33;Run</p>
-        <p>Change the line,</p>
-        <p>If Boot$OSVersion &gt;= 310 Then RMEnsure SharedCLibrary 6.19 RMLoad System:Modules.CLib</p>
-        <p>to,</p>
-        <p>If Boot$OSVersion &gt;= 310 Then RMEnsure SharedCLibrary 6.15 RMLoad System:Modules.CLib</p>
-        <p>./run_RISC_OS</p>
-        <p></code></p>
-        <p>Once in <span class="caps">RISC</span> OS it&#8217;s follow the standard instructions for building a <span class="caps">ROM</span>.</p>]]>
-      </description>
-      <source:markdown>You can also use RISC OS Linux.
-
-``
-
- `
-git clone https://github.com/TimothyEBaldwin/RISC_OS_Linux_Binary.git
-Apply this patch. The 5.28 !Boot is no longer downloadable but 5.30 works after changing one line.
-diff --git a/Unix/LinuxSupport/common.mk b/Unix/LinuxSupport/common.mk
-index 8a44cb0..2fbbf83 100755
---- a/Unix/LinuxSupport/common.mk
-+++ b/Unix/LinuxSupport/common.mk
-@@ -15,7 +15,7 @@
- # limitations under the License.
- #
--HARDDISC4=$(HOME)/Downloads/HardDisc4.5.28.util
-+HARDDISC4=$(HOME)/Downloads/HardDisc4.5.30.util
- QEMU_SRC=$(HOME)/Downloads/qemu-5.2.0.tar.xz
- RPCEMU=$(HOME)/Downloads/rpcemu-0.9.3.tar.gz
- IOMD=$(HOME)/Downloads/IOMD-Soft.5.28.zip
-@@ -155,7 +155,7 @@ HardDisc4: | $(HARDDISC4) Built/gen_seccomp Built/qemu-link $(LINUX_ROM)
-        ! rm -rf HardDisc4_files
-        mkdir HardDisc4_files
-        cp --reflink=auto &#39;$(HARDDISC4)&#39; HardDisc4_files/hd4,ffc
--       echo &#39;64607412d987a3f974217f109128de89e1ec9a6cd3284f52b3cf9c39fa0f6b60 *HardDisc4_files/hd4,ffc&#39; | sha256sum -c
-+       echo &#39;0f6cd3aecf109786a7e9808ce444d7383349d3f0405cee76f2fe3ed7615b9673 *HardDisc4_files/hd4,ffc&#39; | sha256sum -c
- ifeq ($(INSECURE), YES)
-        env -i RISC_OS_Alias_IXFSBoot=&#39;Echo Extracting HardDisc4
-        /IXFS:$$.proc.self.cwd.HardDisc4_files.hd4
-@@ -183,7 +183,7 @@ Built/boot_iomd_rom: $(IOMD) | Built/gen_seccomp
-        setfattr -n user.RISC_OS.LoadExec -v 0x00e5ffff00000000 $@ || true
- $(HARDDISC4):
--       sh Unix/LinuxSupport/download.sh &#39;$(HARDDISC4)&#39; &#34;https://www.riscosopen.org/zipfiles/platform/common/HardDisc4.5.28.util&#34; &#34;64607412d987a3f974217f109128de89e1ec9a6cd3284f52b3cf9c39fa0f6b60&#34;
-+       sh Unix/LinuxSupport/download.sh &#39;$(HARDDISC4)&#39; &#34;https://www.riscosopen.org/zipfiles/platform/common/HardDisc4.5.30.util&#34; &#34;0f6cd3aecf109786a7e9808ce444d7383349d3f0405cee76f2fe3ed7615b9673&#34;
-        setfattr -n user.RISC_OS.LoadExec -v 0x00fcffff00000000 $@ || true
- $(IOMD):
-`
-
-``
-
-RISC OS will hang at this point. Close the window.
-
-./run\_RISC\_OS
-
-Open the file,
-
-``
-
- `
-RISC_OS_Linux_Binary/HardDisc4/!Boot/Resources/!System/!Run
-Change the line,
-If Boot$OSVersion &#62;= 310 Then RMEnsure SharedCLibrary 6.19 RMLoad System:Modules.CLib
-to,
-If Boot$OSVersion &#62;= 310 Then RMEnsure SharedCLibrary 6.15 RMLoad System:Modules.CLib
-./run_RISC_OS
-`
-
-``
-
-Once in RISC OS it’s follow the standard instructions for building a ROM.</source:markdown>
-      <guid>cid://www.riscosopen.org:9:20036:159148</guid>
     </item>    <item>
       <title>new projects and releases: demoscene • Re: MicroPlayer - Music Disks for the BBC Micro</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466222#p466222</link>
