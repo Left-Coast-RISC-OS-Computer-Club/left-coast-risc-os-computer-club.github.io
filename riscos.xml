@@ -7,10 +7,157 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>01 Oct 25 15:00 -0700</lastBuildDate>
+    <lastBuildDate>02 Oct 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.9</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>off-topic • Re: LOLPRICE</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466483#p466483</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466483#p466483</guid>
+    </item>    <item>
+      <title>off-topic • Re: LOLPRICE</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466482#p466482</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466482#p466482</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Econet on the research machines 380/480</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466481#p466481</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466481#p466481</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Drawing package that creates VDU codes</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466480#p466480</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466480#p466480</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Econet on the research machines 380/480</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466479#p466479</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466479#p466479</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: More interesting 6522 VIA emulation discrepancies</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466478#p466478</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466478#p466478</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Econet on the research machines 380/480</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466477#p466477</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466477#p466477</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Two - DeathStar</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466476#p466476</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466476#p466476</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC Mode 7 half screen</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466475#p466475</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466475#p466475</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 5th October at 1pm.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20038</link>
+      <description>
+        <![CDATA[<p>Hiya,</p>
+        <p>This Sunday – 5th October, at 1pm – I&#8217;m doing the live coding again, continuing with the SystemVars module.</p>
+        <p>Come along if you like – <a href="https://youtube.com/live/yqhMFMEuIcU?feature=share">https://youtube.com/live/yqhMFMEuIcU?feature=share</a><br />
+         – or you can always watch the video afterwards at the same address.</p>
+        <p>This week, I&#8217;ll be looking at adding the macro variables, variable updates and enumeration.</p>
+        <p>There will be no session the following week as I&#8217;ll be busy getting married.</p>
+        <hr />
+        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
+        <p>So far, the implementation has:</p>
+        <ul>
+        	<li><span class="caps">SWI</span> implementations in the module (as regular SWIs)</li>
+        	<li>Reading string variables through a <span class="caps">SWI</span>.</li>
+        	<li>Writing string, number, GSTrans and evaluated variables through a <span class="caps">SWI</span>.</li>
+        	<li>Tests of the read/write process, both in the interface and the SWIs.</li>
+        	<li>Automatic builds and releases through the CI on GitHub.</li>
+        	<li>The module can be built and runs on 32-bit and 64-bit <span class="caps">RISC</span> OS.</li>
+        </ul>
+        <hr />
+        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube: <a href="https://www.youtube.com/watch?v=qLWrBmpvj5s&amp;list=PLVVIu906Y7rErDqQiC48sWdsrD-AeQ8wS">https://www.youtube.com/watch?v=qLWrBmpvj5s&amp;amp;list=P…</a></p>
+        <p>Or the sequence is also available linked from my presentations website: <a href="https://presentation.riscos.online/live/systemvars.html">https://presentation.riscos.online/live/systemvars.html</a></p>]]>
+      </description>
+      <source:markdown>Hiya,
+
+This Sunday – 5th October, at 1pm – I’m doing the live coding again, continuing with the SystemVars module.
+
+Come along if you like – [https://youtube.com/live/yqhMFMEuIcU?feature=share](https://youtube.com/live/yqhMFMEuIcU?feature=share)
+
+– or you can always watch the video afterwards at the same address.
+
+This week, I’ll be looking at adding the macro variables, variable updates and enumeration.
+
+There will be no session the following week as I’ll be busy getting married.
+
+* * *
+
+For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
+
+So far, the implementation has:
+
+- SWI implementations in the module (as regular SWIs)
+- Reading string variables through a SWI.
+- Writing string, number, GSTrans and evaluated variables through a SWI.
+- Tests of the read/write process, both in the interface and the SWIs.
+- Automatic builds and releases through the CI on GitHub.
+- The module can be built and runs on 32-bit and 64-bit RISC OS.
+
+* * *
+
+If you want to watch the whole series, you can follow it through the playlist on YouTube: [https://www.youtube.com/watch?v=qLWrBmpvj5s&#38;amp;list=P…](https://www.youtube.com/watch?v=qLWrBmpvj5s&#38;list=PLVVIu906Y7rErDqQiC48sWdsrD-AeQ8wS)
+
+Or the sequence is also available linked from my presentations website: [https://presentation.riscos.online/live/systemvars.html](https://presentation.riscos.online/live/systemvars.html)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20038:159179</guid>
+    </item>    <item>
+      <title>development tools • Re: NARD: Not A Real Disassembler</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466474#p466474</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466474#p466474</guid>
+    </item>    <item>
+      <title>WROCC October 2025 meeting - R-Comp and ROD Show teaser</title>
+      <link>http://www.iconbar.com/comments/rss/news2239.html</link>
+      <description>
+        <![CDATA[Wakefield's October speaker was Andrew Rawnsley from R-Comp, giving us some updates and teasers for the London Show (in case you need more reasons to attend the Show!)]]>
+      </description>
+      <source:markdown>Wakefield&#39;s October speaker was Andrew Rawnsley from R-Comp, giving us some updates and teasers for the London Show (in case you need more reasons to attend the Show!)</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2239.html</guid>
+    </item>    <item>
+      <title>ToolboxC++Lib Discussion</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
+      <description>
+        <![CDATA[<p>A few comments on today&#8217;s release:</p>
+        <ul>
+        	<li>At most one Toolbox&#8230;Obj should exist per ObjectId and ComponentId combination. There shouldn&#8217;t be an <span class="caps">API</span> to change these ids (I can&#8217;t think how that could ever happen in the Toolbox). The library should store a hash table of these for fast lookup, and to enforce that.</li>
+        	<li>Events should include a pointer to the object that receives the event (using the above hash table).</li>
+        	<li>Event listeners could then be registered on the ToolboxObj target and events sent directly to the object&#8217;s listener, rather than always to the task. You should be able to register multiple event listeners per object.</li>
+        	<li>APIs should then take these objects, rather than an ObjectId (and optional ComponentId).</li>
+        	<li>The huge list of virtual functions, one for every possible event, is somewhat unusual. I think a single <code>event()</code> virtual function would be neater, with the event type as an enum, and a pointer to the object. It would also be future proof in that unknown events to known objects could still be delivered cleanly.</li>
+        	<li>Returning the object from most of the methods is also unusual. eg. &#8220;<code>ToolboxGadget&amp; setHelpMessage(char *message);</code>&#8221;. It should be an error block or void.</li>
+        	<li>More const correctness would be sensible &#8211; I&#8217;m a little surprised &quot;@char* getClassName() { return &#8220;ToolboxGadget&#8221;;};@&quot; compiles. (and the semi-colon at the end of the line is redundant.)</li>
+        	<li>Far more typedefs/enums should be added. I&#8217;d probably, in a separate header, add bool, uint8_t, uint16_t&#8230; If these are all inside a <code>#ifndef MY_COMPATIBILITY_TYPES</code> block, then you can reduce any conflicts if another library adds them too.</li>
+        	<li>Add enums for event types (maybe one per component, as opposed to one huge one. Not sure.)</li>
+        	<li>APIs like &#8220;<code>int ToolboxGadget::getIconList()</code>&#8221; could allocate the buffer and return it, rather than directly reflecting the <span class="caps">SWI</span> interface. A <span class="caps">SWI</span> can&#8217;t allocate memory, so needs to tell you the size first.</li>
+        </ul>
+        <p>In WimpObj, it&#8217;s unexpected for most of the APIs to be static and take no arguments. They can reuse the buffer that it holds internally, but the buffer should be populated by the arguments, not by relying on the caller to hack the value into it before calling &#8216;<code>openWindow()</code>&#8217;.</p>
+        <p>However, I can think of two ugly problems with my suggestions &#8211; if you start removing gadgets or objects with the low-level <span class="caps">API</span>, I can&#8217;t think of a way for the hash table of objects to be updated. But there should be little reason to do so. Secondly, deleting an object or gadget then adding a new one, could re-use the same ObjectId or ComponentId. You&#8217;d have to invalidate any existing object (eg. set its internal ObjectId to -1), since you can&#8217;t release them (as user&#8217;s code could retain a pointer).</p>
+        <p>That was much longer than I&#8217;d intended. Hope it&#8217;s in some way interesting.</p>
+        <p>[Edited to add fancy textile formatting.]</p>]]>
+      </description>
+      <source:markdown>A few comments on today’s release:
+
+- At most one Toolbox…Obj should exist per ObjectId and ComponentId combination. There shouldn’t be an API to change these ids (I can’t think how that could ever happen in the Toolbox). The library should store a hash table of these for fast lookup, and to enforce that.
+- Events should include a pointer to the object that receives the event (using the above hash table).
+- Event listeners could then be registered on the ToolboxObj target and events sent directly to the object’s listener, rather than always to the task. You should be able to register multiple event listeners per object.
+- APIs should then take these objects, rather than an ObjectId (and optional ComponentId).
+- The huge list of virtual functions, one for every possible event, is somewhat unusual. I think a single `event()` virtual function would be neater, with the event type as an enum, and a pointer to the object. It would also be future proof in that unknown events to known objects could still be delivered cleanly.
+- Returning the object from most of the methods is also unusual. eg. “ `ToolboxGadget&#38; setHelpMessage(char *message);`”. It should be an error block or void.
+- More const correctness would be sensible – I’m a little surprised &#34;@char\* getClassName() { return “ToolboxGadget”;};@&#34; compiles. (and the semi-colon at the end of the line is redundant.)
+- Far more typedefs/enums should be added. I’d probably, in a separate header, add bool, uint8\_t, uint16\_t… If these are all inside a `#ifndef MY_COMPATIBILITY_TYPES` block, then you can reduce any conflicts if another library adds them too.
+- Add enums for event types (maybe one per component, as opposed to one huge one. Not sure.)
+- APIs like “ `int ToolboxGadget::getIconList()`” could allocate the buffer and return it, rather than directly reflecting the SWI interface. A SWI can’t allocate memory, so needs to tell you the size first.
+
+In WimpObj, it’s unexpected for most of the APIs to be static and take no arguments. They can reuse the buffer that it holds internally, but the buffer should be populated by the arguments, not by relying on the caller to hack the value into it before calling ‘ `openWindow()`’.
+
+However, I can think of two ugly problems with my suggestions – if you start removing gadgets or objects with the low-level API, I can’t think of a way for the hash table of objects to be updated. But there should be little reason to do so. Secondly, deleting an object or gadget then adding a new one, could re-use the same ObjectId or ComponentId. You’d have to invalidate any existing object (eg. set its internal ObjectId to -1), since you can’t release them (as user’s code could retain a pointer).
+
+That was much longer than I’d intended. Hope it’s in some way interesting.
+
+\[Edited to add fancy textile formatting.\]</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19910:159175</guid>
+    </item>    <item>
       <title>32-bit acorn hardware • Re: A5000 RAM control line failure</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466465#p466465</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466465#p466465</guid>
@@ -267,6 +414,52 @@ Well worth reading in full, he&#39;s distilled the economic insanity of AI perfe
       <source:markdown>I&#39;m looking forward to it!</source:markdown>
       <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13482&#38;page=1#125826</guid>
     </item>    <item>
+      <title>London Show, Sat 25th October 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
+      <description>
+        <![CDATA[<p>Is there a way of donating to a show safely &#8211; say a number you could call &#8211; for ones who can&#8217;t get to shows as they get farther away :-(</p>
+        <p>Perhaps getting a video of the show &#8211; like demo on Riscository site!</p>]]>
+      </description>
+      <source:markdown>Is there a way of donating to a show safely – say a number you could call – for ones who can’t get to shows as they get farther away :-(
+
+Perhaps getting a video of the show – like demo on Riscository site!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20020:159160</guid>
+    </item>    <item>
+      <title>2025 Creating a build environment for RISC OS on Linux</title>
+      <link>https://www.riscosopen.org/forum/forums/9/topics/20036</link>
+      <description>
+        <![CDATA[<p>I&#8217;m surprised that no one hasn&#8217;t had a go at making a RO <span class="caps">ROM</span> with Linux tools! &#8211; instead of using a Emulator.</p>]]>
+      </description>
+      <source:markdown>I’m surprised that no one hasn’t had a go at making a RO ROM with Linux tools! – instead of using a Emulator.</source:markdown>
+      <guid>cid://www.riscosopen.org:9:20036:159159</guid>
+    </item>    <item>
+      <title>Publishing with Ovation Pro at ROUGOL, Mon 15th Sept 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20016</link>
+      <description>
+        <![CDATA[<p>Is there away of downloading the video &#8211; so it can be replayed again?</p>]]>
+      </description>
+      <source:markdown>Is there away of downloading the video – so it can be replayed again?</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20016:159158</guid>
+    </item>    <item>
+      <title>Ensuring an adequate Shared C Library version</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20037</link>
+      <description>
+        <![CDATA[<p>If you&#8217;re using C99, C11, large file or <code>_vswi</code>/<code>_vswix</code> functions, I&#8217;d recommend using v6.20 as the minimum version &#8211; <a href="https://gitlab.riscosopen.org/RiscOS/Sources/Lib/RISC_OSLib/-/merge_requests/27">this merge request</a> moved the relevant functions into separate chunks in order to improve error handling with older versions of SharedCLibrary, while v6.20 is the last version featuring changes to the new chunks before <span class="caps">RISC</span> OS 5.30 was released.</p>
+        <p>If you&#8217;re not using any of these functions, you should be able to stick with v5.34 as the minimum, however I don&#8217;t know how to automatically check that.</p>
+        <blockquote>
+        <p>The apps I’m referring to are related to <span class="caps">IPP</span>, so they need networking and AcornSSL.</p>
+        </blockquote>
+        <p>The dependencies you mentioned work on older <span class="caps">RISC</span> OS versions as well, but are likely to also need newer SharedCLibrary versions soft loaded, so that shouldn&#8217;t be a problem.</p>]]>
+      </description>
+      <source:markdown>If you’re using C99, C11, large file or `_vswi`/ `_vswix` functions, I’d recommend using v6.20 as the minimum version – [this merge request](https://gitlab.riscosopen.org/RiscOS/Sources/Lib/RISC_OSLib/-/merge_requests/27) moved the relevant functions into separate chunks in order to improve error handling with older versions of SharedCLibrary, while v6.20 is the last version featuring changes to the new chunks before RISC OS 5.30 was released.
+
+If you’re not using any of these functions, you should be able to stick with v5.34 as the minimum, however I don’t know how to automatically check that.
+
+&#62; The apps I’m referring to are related to IPP, so they need networking and AcornSSL.
+
+The dependencies you mentioned work on older RISC OS versions as well, but are likely to also need newer SharedCLibrary versions soft loaded, so that shouldn’t be a problem.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20037:159156</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Bizare Disintegrated BBC Master Foot</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466271#p466271</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466271#p466271</guid>
@@ -295,23 +488,6 @@ Well worth reading in full, he&#39;s distilled the economic insanity of AI perfe
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466264#p466264</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466264#p466264</guid>
     </item>    <item>
-      <title>Ensuring an adequate Shared C Library version</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20037</link>
-      <description>
-        <![CDATA[<p>How should one determine what version of the Shared C Library to RmEnsure?</p>
-        <p>I&#8217;m guilty of ignoring the version I&#8217;ve got, as I upgrade <span class="caps">RISC</span> OS frequently.  However, I&#8217;ve just noticed that I&#8217;m releasing apps that RmEnsure version 5.17, and I see that we&#8217;re currently on 6.22 at least &#8211; and even the 310 directory on my system contains version 6.17.</p>
-        <p>The apps I&#8217;m referring to are related to <span class="caps">IPP</span>, so they need networking and AcornSSL.  Realistically I can&#8217;t imagine anyone trying to get an ancient <span class="caps">RISC</span> OS system to print via <span class="caps">IPP</span>, so perhaps I&#8217;m unlikely to disenfranchise anyone by requiring a recent Shared C Library.</p>
-        <p>And I take note of a comment I saw in an older thread about not trying to RmLoad a later library if the RmEnsure fails &#8211; just error out, telling the user to update !System.</p>]]>
-      </description>
-      <source:markdown>How should one determine what version of the Shared C Library to RmEnsure?
-
-I’m guilty of ignoring the version I’ve got, as I upgrade RISC OS frequently. However, I’ve just noticed that I’m releasing apps that RmEnsure version 5.17, and I see that we’re currently on 6.22 at least – and even the 310 directory on my system contains version 6.17.
-
-The apps I’m referring to are related to IPP, so they need networking and AcornSSL. Realistically I can’t imagine anyone trying to get an ancient RISC OS system to print via IPP, so perhaps I’m unlikely to disenfranchise anyone by requiring a recent Shared C Library.
-
-And I take note of a comment I saw in an older thread about not trying to RmLoad a later library if the RmEnsure fails – just error out, telling the user to update !System.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20037:159154</guid>
-    </item>    <item>
       <title>8-bit acorn software: other • Re: Drawing package that creates VDU codes</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466259#p466259</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466259#p466259</guid>
@@ -330,22 +506,6 @@ And I take note of a comment I saw in an older thread about not trying to RmLoad
       </description>
       <source:markdown>The RISC OS London Show is now just under four weeks away! Preview from RISCOSitory - https://www.riscository.com/2025/london-show-four-weeks/</source:markdown>
       <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3lzykvzxsmc2v</guid>
-    </item>    <item>
-      <title>London Show, Sat 25th October 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
-      <description>
-        <![CDATA[<p>RISCOSitory show preview &#8211; <a href="https://www.riscository.com/2025/london-show-four-weeks/">https://www.riscository.com/2025/london-show-four-week…</a></p>]]>
-      </description>
-      <source:markdown>RISCOSitory show preview – [https://www.riscository.com/2025/london-show-four-week…](https://www.riscository.com/2025/london-show-four-weeks/)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20020:159153</guid>
-    </item>    <item>
-      <title>Publishing with Ovation Pro at ROUGOL, Mon 15th Sept 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20016</link>
-      <description>
-        <![CDATA[<p>For those who missed it, or want to watch it again, Gavin&#8217;s excellent talk is now online &#8211; <a href="https://youtu.be/NmZSXjij7x4">https://youtu.be/NmZSXjij7x4</a></p>]]>
-      </description>
-      <source:markdown>For those who missed it, or want to watch it again, Gavin’s excellent talk is now online – [https://youtu.be/NmZSXjij7x4](https://youtu.be/NmZSXjij7x4)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20016:159152</guid>
     </item>    <item>
       <link>https://bsky.app/profile/rougol.bsky.social/post/3lzykjpojok2v</link>
       <description>
@@ -385,30 +545,6 @@ tinyurl.com/JVMToUltimaVM
 #bytecode #VirtualMachine #Coding #Programming #VM #RISC\_OS
 https://tinyurl.com/JVMToUltimaVM</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3lzybyjzpic2k</guid>
-    </item>    <item>
-      <title>2025 Creating a build environment for RISC OS on Linux</title>
-      <link>https://www.riscosopen.org/forum/forums/9/topics/20036</link>
-      <description>
-        <![CDATA[<p>I updated the patch to use the correct file name.</p>
-        <p>To apply the patch use e.g. (first search and replace the 7 and 8 spaces with tab)</p>
-        <p><code></p>
-        <p>cd RISC_OS_Linux_Binary<br />
-        patch &#45;p1 &lt;patch.txt</p>
-        <p></code></p>]]>
-      </description>
-      <source:markdown>I updated the patch to use the correct file name.
-
-To apply the patch use e.g. (first search and replace the 7 and 8 spaces with tab)
-
-``
-
- `
-cd RISC_OS_Linux_Binary
-patch -p1 &#60;patch.txt
-`
-
-``</source:markdown>
-      <guid>cid://www.riscosopen.org:9:20036:159151</guid>
     </item>    <item>
       <title>RPi 500+</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20033</link>
