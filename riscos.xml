@@ -7,10 +7,66 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>02 Oct 25 07:00 -0700</lastBuildDate>
+    <lastBuildDate>02 Oct 25 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.9</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>communications • Re: the Night Owl BBS *Thurs 2nd*</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466506#p466506</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466506#p466506</guid>
+    </item>    <item>
+      <title>September 2025 News Summary</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13483&#38;page=1#125830</link>
+      <description>
+        <![CDATA[(Double posted fir done reason)]]>
+      </description>
+      <source:markdown>(Double posted fir done reason)</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13483&#38;page=1#125830</guid>
+    </item>    <item>
+      <title>other vintage hardware, software and languages • Re: TI99/4a video modulator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466505#p466505</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466505#p466505</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Drawing package that creates VDU codes</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466504#p466504</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466504#p466504</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A5000 RAM control line failure</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466503#p466503</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466503#p466503</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A5000 RAM control line failure</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466501#p466501</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466501#p466501</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Two - DeathStar</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466500#p466500</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466500#p466500</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Electron - Image flickers with sound.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466499#p466499</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466499#p466499</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Hello from the south east</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466497#p466497</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466497#p466497</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Drawing package that creates VDU codes</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466496#p466496</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466496#p466496</guid>
+    </item>    <item>
+      <title>miscellaneous new bbc and electron games • Re: Pong Wars (simulation)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466495#p466495</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466495#p466495</guid>
+    </item>    <item>
+      <title>September 2025 News Summary</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13483&#38;page=1#125829</link>
+      <description>
+        <![CDATA[As well as having produced a Debugger module in the live coding, I've also shown how a replacement module can be built and tested using modern tools. Although obviously the videos are long, the entire process of building the module was done during those sessions.]]>
+      </description>
+      <source:markdown>As well as having produced a Debugger module in the live coding, I&#39;ve also shown how a replacement module can be built and tested using modern tools. Although obviously the videos are long, the entire process of building the module was done during those sessions.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13483&#38;page=1#125829</guid>
+    </item>    <item>
       <title>off-topic • Re: LOLPRICE</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466483#p466483</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466483#p466483</guid>
@@ -126,8 +182,8 @@ Or the sequence is also available linked from my presentations website: [https:/
         	<li>APIs should then take these objects, rather than an ObjectId (and optional ComponentId).</li>
         	<li>The huge list of virtual functions, one for every possible event, is somewhat unusual. I think a single <code>event()</code> virtual function would be neater, with the event type as an enum, and a pointer to the object. It would also be future proof in that unknown events to known objects could still be delivered cleanly.</li>
         	<li>Returning the object from most of the methods is also unusual. eg. &#8220;<code>ToolboxGadget&amp; setHelpMessage(char *message);</code>&#8221;. It should be an error block or void.</li>
-        	<li>More const correctness would be sensible &#8211; I&#8217;m a little surprised &quot;@char* getClassName() { return &#8220;ToolboxGadget&#8221;;};@&quot; compiles. (and the semi-colon at the end of the line is redundant.)</li>
-        	<li>Far more typedefs/enums should be added. I&#8217;d probably, in a separate header, add bool, uint8_t, uint16_t&#8230; If these are all inside a <code>#ifndef MY_COMPATIBILITY_TYPES</code> block, then you can reduce any conflicts if another library adds them too.</li>
+        	<li>More const correctness would be sensible &#8211; I&#8217;m a little surprised <code>"char* getClassName() { return "ToolboxGadget";};"</code> compiles. (and the semi-colon at the end of the line is redundant.)</li>
+        	<li>Far more typedefs/enums should be added. I&#8217;d probably, in a separate header, add <code>bool</code>, <code>uint8_t</code>, <code>uint16_t</code>&#8230; If these are all inside a <code>#ifndef MY_COMPATIBILITY_TYPES</code> block, then you can reduce any conflicts if another library adds them too.</li>
         	<li>Add enums for event types (maybe one per component, as opposed to one huge one. Not sure.)</li>
         	<li>APIs like &#8220;<code>int ToolboxGadget::getIconList()</code>&#8221; could allocate the buffer and return it, rather than directly reflecting the <span class="caps">SWI</span> interface. A <span class="caps">SWI</span> can&#8217;t allocate memory, so needs to tell you the size first.</li>
         </ul>
@@ -144,8 +200,8 @@ Or the sequence is also available linked from my presentations website: [https:/
 - APIs should then take these objects, rather than an ObjectId (and optional ComponentId).
 - The huge list of virtual functions, one for every possible event, is somewhat unusual. I think a single `event()` virtual function would be neater, with the event type as an enum, and a pointer to the object. It would also be future proof in that unknown events to known objects could still be delivered cleanly.
 - Returning the object from most of the methods is also unusual. eg. “ `ToolboxGadget&#38; setHelpMessage(char *message);`”. It should be an error block or void.
-- More const correctness would be sensible – I’m a little surprised &#34;@char\* getClassName() { return “ToolboxGadget”;};@&#34; compiles. (and the semi-colon at the end of the line is redundant.)
-- Far more typedefs/enums should be added. I’d probably, in a separate header, add bool, uint8\_t, uint16\_t… If these are all inside a `#ifndef MY_COMPATIBILITY_TYPES` block, then you can reduce any conflicts if another library adds them too.
+- More const correctness would be sensible – I’m a little surprised `&#34;char* getClassName() { return &#34;ToolboxGadget&#34;;};&#34;` compiles. (and the semi-colon at the end of the line is redundant.)
+- Far more typedefs/enums should be added. I’d probably, in a separate header, add `bool`, `uint8_t`, `uint16_t`… If these are all inside a `#ifndef MY_COMPATIBILITY_TYPES` block, then you can reduce any conflicts if another library adds them too.
 - Add enums for event types (maybe one per component, as opposed to one huge one. Not sure.)
 - APIs like “ `int ToolboxGadget::getIconList()`” could allocate the buffer and return it, rather than directly reflecting the SWI interface. A SWI can’t allocate memory, so needs to tell you the size first.
 
