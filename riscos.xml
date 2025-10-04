@@ -7,10 +7,50 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>04 Oct 25 07:00 -0700</lastBuildDate>
+    <lastBuildDate>04 Oct 25 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.9</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>32-bit acorn hardware • Re: R260 not booting</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466717#p466717</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466717#p466717</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A7000 no video output</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466713#p466713</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466713#p466713</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC 6845 IC2 question</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466712#p466712</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466712#p466712</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A7000 no video output</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466711#p466711</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466711#p466711</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • A7000 no video output</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466710#p466710</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466710#p466710</guid>
+    </item>    <item>
+      <title>communications • Re: the Night Owl BBS * Sat*</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466709#p466709</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466709#p466709</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC 6845 IC2 question</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466708#p466708</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466708#p466708</guid>
+    </item>    <item>
+      <title>off-topic • Re: Capacitor selection</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466707#p466707</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466707#p466707</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: C development for FujiNet and cc65 bbc target</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466705#p466705</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466705#p466705</guid>
+    </item>    <item>
+      <title>new projects and releases: demoscene • Re: MicroPlayer - Music Disks for the BBC Micro</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466704#p466704</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466704#p466704</guid>
+    </item>    <item>
       <title>off-topic • Re: Capacitor selection</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466683#p466683</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466683#p466683</guid>
@@ -707,10 +747,19 @@ The documentation in the docs directory was created using Doxygen and doesn’t 
       <title>Ensuring an adequate Shared C Library version</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20037</link>
       <description>
-        <![CDATA[<p>I suppose you could use StubsG :-/</p>]]>
+        <![CDATA[<p>Because lots of stuff relies on the Shared C Library, it is normally not advisable to RMload it mid-flight, but there&#8217;s a minor chance that might work on a system that&#8217;s running a minimal !Boot.  Normally the updated version would be loaded by !System&#8217;s !Run file early at startup &#8211; it is specifically called via the &#8220;BootRun&#8221; file in !Boot.Utils before PreDesk phase.</p>
+        <p>This methodology ensures that upgraded machines load a suitable CLib (if necessary) before even running any user software in PreDesk or Tasks.  Assuming that they have been upgraded with a new CLib download, then that also applies to <span class="caps">RISC</span> OS 3.x and 4.x systems too.</p>
+        <p>Incidentally, if there&#8217;s any chance your software would be run on a RiscPC or VirtualAcorn (neither of which ship with 32bit CLib) you&#8217;ll want to explain that in your !ReadMe file, and point users to download an update zip.  I believe it is at <a href="https://www.riscosopen.org/content/downloads/riscpc">https://www.riscosopen.org/content/downloads/riscpc</a> but there is also a System Resources download on !Store which <span class="caps">IIRC</span> includes a few extra modules (eg. SharedUnixLib etc) as well.</p>
+        <p>If you&#8217;re not using the newer features, you&#8217;ll probably just want to RMEnsure 5.17 , with a suitable warning / explanation for any affected user &#8211; eg. &#8220;Your C Library is too old &#8211; please refer to !ReadMe file for how to update&#8221;.</p>]]>
       </description>
-      <source:markdown>I suppose you could use StubsG :-/</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20037:159165</guid>
+      <source:markdown>Because lots of stuff relies on the Shared C Library, it is normally not advisable to RMload it mid-flight, but there’s a minor chance that might work on a system that’s running a minimal !Boot. Normally the updated version would be loaded by !System’s !Run file early at startup – it is specifically called via the “BootRun” file in !Boot.Utils before PreDesk phase.
+
+This methodology ensures that upgraded machines load a suitable CLib (if necessary) before even running any user software in PreDesk or Tasks. Assuming that they have been upgraded with a new CLib download, then that also applies to RISC OS 3.x and 4.x systems too.
+
+Incidentally, if there’s any chance your software would be run on a RiscPC or VirtualAcorn (neither of which ship with 32bit CLib) you’ll want to explain that in your !ReadMe file, and point users to download an update zip. I believe it is at [https://www.riscosopen.org/content/downloads/riscpc](https://www.riscosopen.org/content/downloads/riscpc) but there is also a System Resources download on !Store which IIRC includes a few extra modules (eg. SharedUnixLib etc) as well.
+
+If you’re not using the newer features, you’ll probably just want to RMEnsure 5.17 , with a suitable warning / explanation for any affected user – eg. “Your C Library is too old – please refer to !ReadMe file for how to update”.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20037:159166</guid>
     </item>    <item>
       <title>off-topic • Re: Training in microelectronics?</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466329#p466329</link>
