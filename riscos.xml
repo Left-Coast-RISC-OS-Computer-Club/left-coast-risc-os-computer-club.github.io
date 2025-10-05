@@ -7,10 +7,83 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>05 Oct 25 12:00 -0700</lastBuildDate>
+    <lastBuildDate>05 Oct 25 16:00 -0700</lastBuildDate>
     <generator>antenna/0.0.9</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>other vintage hardware, software and languages • Re: TI99/4a video modulator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466820#p466820</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466820#p466820</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A7000 no video output</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466819#p466819</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466819#p466819</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Microvitec Cub 1451 squeak on power-up but otherwise dead</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466818#p466818</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466818#p466818</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: ABUG NL 2025 (booking thread)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466817#p466817</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466817#p466817</guid>
+    </item>    <item>
+      <title>programming • Re: Distance between 2 points - approximation</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466816#p466816</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466816#p466816</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Fault finding index</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466815#p466815</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466815#p466815</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A7000 no video output</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466813#p466813</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466813#p466813</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A7000 no video output</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466812#p466812</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466812#p466812</guid>
+    </item>    <item>
+      <title>programming • Re: Distance between 2 points - approximation</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466811#p466811</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466811#p466811</guid>
+    </item>    <item>
+      <title>other vintage hardware, software and languages • Re: TI99/4a video modulator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466810#p466810</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466810#p466810</guid>
+    </item>    <item>
+      <title>Today 3.20 Released</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20040</link>
+      <description>
+        <![CDATA[<p>I&#8217;m pleased to announce the release of Today version 3.20. The application lists events that have taken place (or will take place) on a given date. It contains a database of historical information, to which additional dates and personal anniversaries can be added.</p>
+        <p><img src="https://www.stevefryatt.org.uk/data/software/today/screen1.jpg" alt="" /></p>
+        <p>Originally written by James Miskin, I produced a 32-bit update in 2006. Almost 20 years later, following a question at <span class="caps">RISC</span> OS North back in March, I went on a hunt for the source code, dusted it off, and have produced a new version with the following changes:</p>
+        <ul>
+        	<li>The application has been built with a toolchain known to be ARMv7 compatible.</li>
+        	<li>There is now a Help&#8230; entry in the main and iconbar menus.</li>
+        	<li>The date shown in the scan window is updated when the system clock changes day, so long as the window was previously on the current day.</li>
+        	<li>The upper bound for the day of the month is correctly set when opening the event window.</li>
+        	<li>A minimum window size is applied when setting the extent of the scan and search windows, to avoid the search results being hidden.</li>
+        </ul>
+        <p>A copy of version 3.20 can be found on my website, at <a href="https://www.stevefryatt.org.uk/risc-os/today">https://www.stevefryatt.org.uk/risc-os/today</a>. It has also been added &#8212; finally &#8212; to the PlingStore, and if I&#8217;ve managed to find the correct incantations it should also show up in PackMan over the next few days.</p>
+        <p>Originally released into the Public Domain by James, I have applied version 1.2 of the <span class="caps">EUPL</span> to the new release to make its status clear, and the source code can finally be found amongst my other projects on GitHub at <a href="https://github.com/steve-fryatt/today">https://github.com/steve-fryatt/today</a></p>]]>
+      </description>
+      <source:markdown>I’m pleased to announce the release of Today version 3.20. The application lists events that have taken place (or will take place) on a given date. It contains a database of historical information, to which additional dates and personal anniversaries can be added.
+
+![](https://www.stevefryatt.org.uk/data/software/today/screen1.jpg)
+
+Originally written by James Miskin, I produced a 32-bit update in 2006. Almost 20 years later, following a question at RISC OS North back in March, I went on a hunt for the source code, dusted it off, and have produced a new version with the following changes:
+
+- The application has been built with a toolchain known to be ARMv7 compatible.
+- There is now a Help… entry in the main and iconbar menus.
+- The date shown in the scan window is updated when the system clock changes day, so long as the window was previously on the current day.
+- The upper bound for the day of the month is correctly set when opening the event window.
+- A minimum window size is applied when setting the extent of the scan and search windows, to avoid the search results being hidden.
+
+A copy of version 3.20 can be found on my website, at [https://www.stevefryatt.org.uk/risc-os/today](https://www.stevefryatt.org.uk/risc-os/today). It has also been added — finally — to the PlingStore, and if I’ve managed to find the correct incantations it should also show up in PackMan over the next few days.
+
+Originally released into the Public Domain by James, I have applied version 1.2 of the EUPL to the new release to make its status clear, and the source code can finally be found amongst my other projects on GitHub at [https://github.com/steve-fryatt/today](https://github.com/steve-fryatt/today)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20040:159194</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Electron Iss4 ULA removal</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466807#p466807</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466807#p466807</guid>
@@ -318,6 +391,19 @@ As ever, you’re all the testers – so if no-one downloads a copy and tries it
       </description>
       <source:markdown>It’s now just three weeks to go until this year’s London Show, which takes place at the Harrow District Masonic Centre on 25th October, and the first announcement from an exhibitor has already landed in the RISCOSitory bunker. In fact, the email arrived before last week’s post about the show, so keen was Paolo Zaino, the exhibitor in question, but I deliberately held it back so that it came after the show preview. Using the name ZFP Systems (the brand under which he originally provided professional services to retail outlets…</source:markdown>
       <guid>cid://https://www.riscository.com/?p=10729</guid>
+    </item>    <item>
+      <title>Ensuring an adequate Shared C Library version</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20037</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Paraphrasing the section “Ensuring the necessary components are present” on page 354 of the C/C++ manual</p>
+        </blockquote>
+        <p>Just in case anyone else is looking for it, that section is on page 324 in the most recent manual that I&#8217;m aware of.</p>]]>
+      </description>
+      <source:markdown>&#62; Paraphrasing the section “Ensuring the necessary components are present” on page 354 of the C/C++ manual
+
+Just in case anyone else is looking for it, that section is on page 324 in the most recent manual that I’m aware of.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20037:159185</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3m2dw45l7bs2m</link>
       <description>
@@ -819,6 +905,14 @@ That was much longer than I’d intended. Hope it’s in some way interesting.
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466462#p466462</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466462#p466462</guid>
     </item>    <item>
+      <title>Printing</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19574</link>
+      <description>
+        <![CDATA[<p>Let&#8217;s be careful here.  The printer hasn&#8217;t been disabled; the ink cartridges have.  I bought a pair of HP ink cartridges (one black, one 3-colour) from Amazon, fitted them, and the printer is OK again.</p>]]>
+      </description>
+      <source:markdown>Let’s be careful here. The printer hasn’t been disabled; the ink cartridges have. I bought a pair of HP ink cartridges (one black, one 3-colour) from Amazon, fitted them, and the printer is OK again.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19574:159174</guid>
+    </item>    <item>
       <title>econet and other acorn specific networking • Re: Econet on the research machines 380/480</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466461#p466461</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466461#p466461</guid>
@@ -909,28 +1003,12 @@ The documentation in the docs directory was created using Doxygen and doesn’t 
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466407#p466407</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466407#p466407</guid>
     </item>    <item>
-      <title>Ensuring an adequate Shared C Library version</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20037</link>
-      <description>
-        <![CDATA[<p>It would be interesting to come up with a mechanism that <span class="caps">RISC</span> OS could use to load an module variant optimised for a particular <span class="caps">CPU</span> architecture.</p>]]>
-      </description>
-      <source:markdown>It would be interesting to come up with a mechanism that RISC OS could use to load an module variant optimised for a particular CPU architecture.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20037:159170</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3m244jtjn722j</link>
       <description>
         <![CDATA['the hell? it's 4:36am... lol anyway, new UltimaVM PUSH/POP register range fast memory copy is done and there is also a little "twist" POP supports both strick LIFO (like the JVM) and natural order (like the ARM). Had to finish so late, because I had a hell of a busy day at work... Need some sleep!]]>
       </description>
       <source:markdown>&#39;the hell? it&#39;s 4:36am... lol anyway, new UltimaVM PUSH/POP register range fast memory copy is done and there is also a little &#34;twist&#34; POP supports both strick LIFO (like the JVM) and natural order (like the ARM). Had to finish so late, because I had a hell of a busy day at work... Need some sleep!</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3m244jtjn722j</guid>
-    </item>    <item>
-      <title>Printing</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19574</link>
-      <description>
-        <![CDATA[<p>And the HP enshitification is complete.</p>]]>
-      </description>
-      <source:markdown>And the HP enshitification is complete.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19574:159169</guid>
     </item>    <item>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round One - Spaceman Sid</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466383#p466383</link>
