@@ -7,10 +7,50 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>06 Oct 25 12:00 -0700</lastBuildDate>
+    <lastBuildDate>06 Oct 25 16:00 -0700</lastBuildDate>
     <generator>antenna/0.0.9</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>off-topic • Re: LOLPRICE</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466900#p466900</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466900#p466900</guid>
+    </item>    <item>
+      <title>new projects and releases: demoscene • Re: MicroPlayer - Music Disks for the BBC Micro</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466899#p466899</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466899#p466899</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: ABUG NL 2025 (booking thread)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466898#p466898</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466898#p466898</guid>
+    </item>    <item>
+      <title>other vintage hardware, software and languages • Re: TI99/4a video modulator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466897#p466897</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466897#p466897</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A7000 no video output</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466896#p466896</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466896#p466896</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A7000 no video output</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466895#p466895</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466895#p466895</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Acorn &#38;quot;POST box&#38;quot; display adaptor (0086,804)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466894#p466894</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466894#p466894</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: ABUG NL 2025 (booking thread)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466893#p466893</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466893#p466893</guid>
+    </item>    <item>
+      <title>communications • Re: the Night Owl BBS</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466892#p466892</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466892#p466892</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: EtherWiz - a new fully opensource Ethernet podule</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466891#p466891</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466891#p466891</guid>
+    </item>    <item>
       <title>new projects and releases: demoscene • Re: MicroPlayer - Music Disks for the BBC Micro</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466884#p466884</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466884#p466884</guid>
@@ -625,6 +665,20 @@ As ever, you’re all the testers – so if no-one downloads a copy and tries it
 There seems to be a N140 bus every hour from ‘Heathrow Central Bus Station’s to ‘Harrow Town Centre stopping at South Kenton Station’ any good?</source:markdown>
       <guid>cid://www.riscosopen.org:1:20020:159188</guid>
     </item>    <item>
+      <title>Ensuring an adequate Shared C Library version</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20037</link>
+      <description>
+        <![CDATA[<blockquote><blockquote>Paraphrasing the section “Ensuring the necessary components are present” on page 354 of the C/C++ manual</blockquote>
+        <p>Just in case anyone else is looking for it, that section is on page 324 in the most recent manual that I’m aware of.</blockquote></p>
+        <p>Oops, yes, my brain must have flipped the 2 to a 5. Page 354 is entirely blank!</p>]]>
+      </description>
+      <source:markdown>&#62; &#62; Paraphrasing the section “Ensuring the necessary components are present” on page 354 of the C/C++ manual
+&#62;
+&#62; Just in case anyone else is looking for it, that section is on page 324 in the most recent manual that I’m aware of.
+
+Oops, yes, my brain must have flipped the 2 to a 5. Page 354 is entirely blank!</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20037:159187</guid>
+    </item>    <item>
       <title>ToolboxC++Lib Discussion</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
       <description>
@@ -641,19 +695,6 @@ It’s an interesting thread and development, so keep going, Bill.
 
 Edit: TBX→ GCC (C++). Bill’s target is the DDE.</source:markdown>
       <guid>cid://www.riscosopen.org:5:19910:159186</guid>
-    </item>    <item>
-      <title>Ensuring an adequate Shared C Library version</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20037</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Paraphrasing the section “Ensuring the necessary components are present” on page 354 of the C/C++ manual</p>
-        </blockquote>
-        <p>Just in case anyone else is looking for it, that section is on page 324 in the most recent manual that I&#8217;m aware of.</p>]]>
-      </description>
-      <source:markdown>&#62; Paraphrasing the section “Ensuring the necessary components are present” on page 354 of the C/C++ manual
-
-Just in case anyone else is looking for it, that section is on page 324 in the most recent manual that I’m aware of.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20037:159185</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3m2dw45l7bs2m</link>
       <description>
