@@ -7,10 +7,50 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>07 Oct 25 07:00 -0700</lastBuildDate>
+    <lastBuildDate>07 Oct 25 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.9</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>off-topic • Re: Capacitor selection</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466945#p466945</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466945#p466945</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: ACP (Rob Northen) Source Code for ADT Version 1.76 available</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466944#p466944</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466944#p466944</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: ACP (Rob Northen) Source Code for ADT Version 1.76 available</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466943#p466943</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466943#p466943</guid>
+    </item>    <item>
+      <title>communications • Re: the Night Owl BBS **Host UP**</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466942#p466942</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466942#p466942</guid>
+    </item>    <item>
+      <title>off-topic • Shipping Boxes for Beebs</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466941#p466941</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466941#p466941</guid>
+    </item>    <item>
+      <title>new projects in development: games • Re: Lady Bug</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466940#p466940</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466940#p466940</guid>
+    </item>    <item>
+      <title>off-topic • Re: Scope for a dope?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466939#p466939</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466939#p466939</guid>
+    </item>    <item>
+      <title>off-topic • Re: Scope for a dope?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466937#p466937</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466937#p466937</guid>
+    </item>    <item>
+      <title>off-topic • Re: LOLPRICE</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466936#p466936</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466936#p466936</guid>
+    </item>    <item>
+      <title>other vintage hardware, software and languages • Re: AY-3-8912 Testing?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466935#p466935</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466935#p466935</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m2mbab6upk2z</link>
       <description>
         <![CDATA[USR in RISC OS nemoBasic acts as a string operator modifier, causing the string(s) to be treated as UTF-8 instead of bytes. This even applies to the comparison operators, which deal sensibly with malformed UTF-8 sequences (as you can never trust input).
