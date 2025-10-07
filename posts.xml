@@ -7,7 +7,7 @@
       This Antenna App collection olds the posts for the Left Coast RISC OS Computer Club.
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/posts.xml</link>
-    <lastBuildDate>06 Oct 25 16:00 -0700</lastBuildDate>
+    <lastBuildDate>07 Oct 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.9</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
@@ -20,15 +20,6 @@
         is small enough now to get lost!]]>
       </description>
       <enclosure url="https://left-coast-risc-os-computer-club.github.io/posts/2025/09/16/time_to_experiment.md" length="2054" type="text/markdown" />
-    </item>    <item>
-      <title>Fireside Coding for RISC OS scheduled</title>
-      <link>https://left-coast-risc-os-computer-club.github.io/posts/2025/09/15/Fireside_Coding_for_RISC_OS_Scheduled.html</link>
-      <description>
-        <![CDATA[This popped up on the RISC OS forms, might be of interest to those
-        on the West Coat of North America. If I've done my timezone translation
-        correctly it'll be on Sept. 20, 11:30am Pacific Coast Time.]]>
-      </description>
-      <enclosure url="https://left-coast-risc-os-computer-club.github.io/posts/2025/09/15/Fireside_Coding_for_RISC_OS_Scheduled.md" length="1553" type="text/markdown" />
     </item>
   </channel>
 </rss>
