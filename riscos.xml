@@ -7,10 +7,50 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>08 Oct 25 12:00 -0700</lastBuildDate>
+    <lastBuildDate>08 Oct 25 16:00 -0700</lastBuildDate>
     <generator>antenna/0.0.9</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn emulators • Re: B-Em</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467035#p467035</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467035#p467035</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: B-Em</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467034#p467034</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467034#p467034</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B+ data line issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467033#p467033</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467033#p467033</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B+ data line issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467032#p467032</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467032#p467032</guid>
+    </item>    <item>
+      <title>off-topic • Re: Multi Function Tester for under £20</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467031#p467031</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467031#p467031</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Conductive ink/paint.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467030#p467030</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467030#p467030</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: BeebEm Mac - Info</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467029#p467029</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467029#p467029</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: BeebEm Mac - Info</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467028#p467028</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467028#p467028</guid>
+    </item>    <item>
+      <title>miscellaneous new bbc and electron games • Re: Elite Compendium (BBC Micro + 16K SRAM) - the best Elite hacks, all in one place</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467027#p467027</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467027#p467027</guid>
+    </item>    <item>
+      <title>miscellaneous new bbc and electron games • Re: Elite Compendium (BBC Micro + 16K SRAM) - the best Elite hacks, all in one place</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467026#p467026</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467026#p467026</guid>
+    </item>    <item>
       <title>32-bit acorn hardware • Re: A5000 board photos WTD</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467025#p467025</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467025#p467025</guid>
@@ -64,6 +104,20 @@ I have rebuilt your demonstration programs, with DDE C ++ and OSLIB for comparis
       <title>miscellaneous new bbc and electron games • Re: Elite Compendium (BBC Micro + 16K SRAM) - the best Elite hacks, all in one place</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467013#p467013</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467013#p467013</guid>
+    </item>    <item>
+      <title>Hacktoberfest 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20044</link>
+      <description>
+        <![CDATA[<p>Hi Paolo<br />
+        Now that Iris allows quick access to this site it becomes interesting, I was able to test/build various projects.<br />
+        Participating is another challenge&#8230;</p>]]>
+      </description>
+      <source:markdown>Hi Paolo
+
+Now that Iris allows quick access to this site it becomes interesting, I was able to test/build various projects.
+
+Participating is another challenge…</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20044:159228</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: Conductive ink/paint.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467002#p467002</link>
@@ -324,45 +378,6 @@ Start here 👉 https://github.com/RISC-OS-Community
 Or check this one: https://github.com/pzaino/risc-os-corelib
 ☕️ Have fun &#38; happy hacking! 😍</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3m2m7zrurjk2f</guid>
-    </item>    <item>
-      <title>Hacktoberfest 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20044</link>
-      <description>
-        <![CDATA[<p>For everyone who loves coding on <span class="caps">RISC</span> OS and fancies earning some prizes along the way, it’s that time of year again <b>Hacktoberfest</b>is here!</p>
-        <p>Once again, the <b><span class="caps">RISC</span> OS Community on GitHub</b> is taking part. You can find the official organisation and browse through the projects open for contributions here:</p>
-        <pre>
-        <a href="https://github.com/RISC-OS-Community">https://github.com/RISC-OS-Community</a>
-        </pre>
-        <p>Every valid contribution counts towards your Hacktoberfest progress, giving you a chance to win official rewards and digital badges for your GitHub profile (if you’re into that sort of thing).</p>
-        <p>I’ve also registered a project that could prove particularly handy as work towards 64-bit <span class="caps">RISC</span> OS progresses. It’s already useful for making C and C++ development on <span class="caps">RISC</span> OS simpler and more reliable:</p>
-        <pre>
-        <a href="https://github.com/pzaino/risc-os-corelib">https://github.com/pzaino/risc-os-corelib</a>
-        </pre>
-        <p>So, grab a cuppa, fire up your editor, and get hacking. Let’s make this another great Hacktoberfest for the <span class="caps">RISC</span> OS community!</p>
-        <p>Have fun and happy coding! :)</p>]]>
-      </description>
-      <source:markdown>For everyone who loves coding on RISC OS and fancies earning some prizes along the way, it’s that time of year again **Hacktoberfest** is here!
-
-Once again, the **RISC OS Community on GitHub** is taking part. You can find the official organisation and browse through the projects open for contributions here:
-
-```
-https://github.com/RISC-OS-Community
-
-```
-
-Every valid contribution counts towards your Hacktoberfest progress, giving you a chance to win official rewards and digital badges for your GitHub profile (if you’re into that sort of thing).
-
-I’ve also registered a project that could prove particularly handy as work towards 64-bit RISC OS progresses. It’s already useful for making C and C++ development on RISC OS simpler and more reliable:
-
-```
-https://github.com/pzaino/risc-os-corelib
-
-```
-
-So, grab a cuppa, fire up your editor, and get hacking. Let’s make this another great Hacktoberfest for the RISC OS community!
-
-Have fun and happy coding! :)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20044:159213</guid>
     </item>    <item>
       <title>other vintage hardware, software and languages • Re: Fixing a Intertec Superbrain clone (Prológica Sistema 600). FIXED!</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466922#p466922</link>
