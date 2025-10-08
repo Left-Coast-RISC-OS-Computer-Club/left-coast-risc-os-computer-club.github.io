@@ -7,10 +7,64 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>08 Oct 25 07:00 -0700</lastBuildDate>
+    <lastBuildDate>08 Oct 25 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.9</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>32-bit acorn hardware • Re: A5000 board photos WTD</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467025#p467025</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467025#p467025</guid>
+    </item>    <item>
+      <title>miscellaneous new bbc and electron games • Re: Elite Compendium (BBC Micro + 16K SRAM) - the best Elite hacks, all in one place</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467024#p467024</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467024#p467024</guid>
+    </item>    <item>
+      <title>communications • Re: the Night Owl BBS **Host UP**</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467023#p467023</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467023#p467023</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: B-Em</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467021#p467021</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467021#p467021</guid>
+    </item>    <item>
+      <title>off-topic • Re: LOLPRICE</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467019#p467019</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467019#p467019</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BeebSCSI help required [Resolved]</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467018#p467018</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467018#p467018</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BeebSCSI help required [Resolved]</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467016#p467016</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467016#p467016</guid>
+    </item>    <item>
+      <title>ToolboxC++Lib Discussion</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
+      <description>
+        <![CDATA[<p>@ Bill,<br />
+        C ++ encapsulation is a very good thing.</p>
+        <p>I have rebuilt your demonstration programs, with <span class="caps">DDE</span> C ++ and <span class="caps">OSLIB</span> for comparison. I will try to make them available after cleaning them, to have only the <span class="caps">DDE</span> (I also use the <span class="caps">STL</span>)</p>]]>
+      </description>
+      <source:markdown>@ Bill,
+
+C ++ encapsulation is a very good thing.
+
+I have rebuilt your demonstration programs, with DDE C ++ and OSLIB for comparison. I will try to make them available after cleaning them, to have only the DDE (I also use the STL)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19910:159229</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A5000 board photos WTD</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467015#p467015</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467015#p467015</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A5000 board photos WTD</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467014#p467014</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467014#p467014</guid>
+    </item>    <item>
+      <title>miscellaneous new bbc and electron games • Re: Elite Compendium (BBC Micro + 16K SRAM) - the best Elite hacks, all in one place</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467013#p467013</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467013#p467013</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Conductive ink/paint.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467002#p467002</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467002#p467002</guid>
@@ -190,6 +244,17 @@ I next plan to look at implementing SPSR (SVC and USR) support and possibly some
 Ralph</source:markdown>
       <guid>cid://www.riscosopen.org:5:19151:159215</guid>
     </item>    <item>
+      <title>New site is live</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19743</link>
+      <description>
+        <![CDATA[<p>I <em>could</em> try to argue that it&#8217;s my take on &#8220;liquid glass&#8221; &#8211; illegible overlapping UIs are all the rage now, don&#8217;t ya know?! &#8211; but &#8211; somehow I don&#8217;t think I&#8217;d convince anyone!</p>
+        <p>I&#8217;ll try to find time to have a look at that on ~Friday.</p>]]>
+      </description>
+      <source:markdown>I _could_ try to argue that it’s my take on “liquid glass” – illegible overlapping UIs are all the rage now, don’t ya know?! – but – somehow I don’t think I’d convince anyone!
+
+I’ll try to find time to have a look at that on ~Friday.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:19743:159214</guid>
+    </item>    <item>
       <title>off-topic • Re: Capacitor selection</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466945#p466945</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466945#p466945</guid>
@@ -359,6 +424,14 @@ https://www.gov.uk/maib-reports/grounding-and-subsequent-loss-of-the-dive-suppor
       </description>
       <source:markdown>AI slop videos are like the very worst kind of TV advert: plenty of people out there seem to want to make them, but almost nobody wants to actually watch them.</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m2lojivurs2u</guid>
+    </item>    <item>
+      <title>London Show, Sat 25th October 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
+      <description>
+        <![CDATA[<p><a href="https://stardot.org.uk/forums/viewtopic.php?t=31718">https://stardot.org.uk/forums/viewtopic.php?t=31718</a></p>]]>
+      </description>
+      <source:markdown>[https://stardot.org.uk/forums/viewtopic.php?t=31718](https://stardot.org.uk/forums/viewtopic.php?t=31718)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20020:159211</guid>
     </item>    <item>
       <title>off-topic • Re: LOLPRICE</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466900#p466900</link>
@@ -560,77 +633,6 @@ It&#39;s now less than 3 weeks to go until the 2025 London Show!</source:markdow
       <title>acorn &#38;amp; bbc micro user group (abug) events • Re: ABUG NL 2025 (booking thread)</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466851#p466851</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466851#p466851</guid>
-    </item>    <item>
-      <title>ToolboxC++Lib Discussion</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
-      <description>
-        <![CDATA[<p>At the manual Toolbox, I added the Gadgets TreeView and Tabs, which were integrated into the Toolbox (BuiderDev).<br />
-        <a href="http://jeanmichelb.riscos.fr/AppliTBox/Download/ToolBoxM132.zip">http://jeanmichelb.riscos.fr/AppliTBox/Download/ToolBo…</a></p>
-        <p>I take advantage of this discussion on the Toolbox C ++, it&#8217;s just an opinion.</p>
-        <p>I wonder about the need to put in class the objects of the Toolbox which according to the Toolbox manual are already in the form of a class, if I am not mistaken. We find there the methods and access to the attributes The instantiation of these various objects (gadget windows being via Toolboxcreate) objects being named by their ID or component for a gadgets. With the oslib manual all objects are well documented as well as the methods to access it.</p>
-        <p>I use <span class="caps">DDE</span> C++ and OsLib.</p>
-        <p>Likewise for the Toolbox Event, using prefilter mechanisms, these are intercepted before the Wimp_Poll loop for the application concerned, for better efficiency, see manual toolbox page 5/13.</p>
-        <p>Alexander Thoukydides used his own toolbox librarie. I did not look at your code, but that of Alexander is really very well docummented. To my knowledge, he built 2 &#8220;commercial&#8221; applications that use it:<br />
-        !PSIFs and !Virtualise.<br />
-        Unless I am mistaken, in the library there is no management of Toolbox Event.</p>
-        <p>Good thing to work in C/C ++, and with the <span class="caps">DDE</span> it is a challenge, but it clarifies programming and reuse of the code, but as said before, it&#8217;s just an opinion.</p>]]>
-      </description>
-      <source:markdown>At the manual Toolbox, I added the Gadgets TreeView and Tabs, which were integrated into the Toolbox (BuiderDev).
-
-[http://jeanmichelb.riscos.fr/AppliTBox/Download/ToolBo…](http://jeanmichelb.riscos.fr/AppliTBox/Download/ToolBoxM132.zip)
-
-I take advantage of this discussion on the Toolbox C ++, it’s just an opinion.
-
-I wonder about the need to put in class the objects of the Toolbox which according to the Toolbox manual are already in the form of a class, if I am not mistaken. We find there the methods and access to the attributes The instantiation of these various objects (gadget windows being via Toolboxcreate) objects being named by their ID or component for a gadgets. With the oslib manual all objects are well documented as well as the methods to access it.
-
-I use DDE C++ and OsLib.
-
-Likewise for the Toolbox Event, using prefilter mechanisms, these are intercepted before the Wimp\_Poll loop for the application concerned, for better efficiency, see manual toolbox page 5/13.
-
-Alexander Thoukydides used his own toolbox librarie. I did not look at your code, but that of Alexander is really very well docummented. To my knowledge, he built 2 “commercial” applications that use it:
-
-!PSIFs and !Virtualise.
-
-Unless I am mistaken, in the library there is no management of Toolbox Event.
-
-Good thing to work in C/C ++, and with the DDE it is a challenge, but it clarifies programming and reuse of the code, but as said before, it’s just an opinion.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19910:159204</guid>
-    </item>    <item>
-      <title>London Show, Sat 25th October 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>no service on the Bakerloo Line</p>
-        </blockquote>
-        <p>Thanks for that Chris. I did check several months ago before sending out the first show notifications and this closure wasn&#8217;t listed then :-(</p>
-        <p>I&#8217;ll update the show website to tell everyone to use the Metropolitan Line to Northwick Park station instead. It&#8217;s only a couple of minutes walk further away.</p>]]>
-      </description>
-      <source:markdown>&#62; no service on the Bakerloo Line
-
-Thanks for that Chris. I did check several months ago before sending out the first show notifications and this closure wasn’t listed then :-(
-
-I’ll update the show website to tell everyone to use the Metropolitan Line to Northwick Park station instead. It’s only a couple of minutes walk further away.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20020:159203</guid>
-    </item>    <item>
-      <title>New site is live</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/19743</link>
-      <description>
-        <![CDATA[<p>I have just come across a minor formatting error. When logged in and editing a Wiki page the middle &#8220;Everything else&#8221; section can leak into the right most column. If the main window is sufficiently wide then the &#8220;Everything else&#8221; section&quot; does not reach the right hand column but if the main window is small enough then the right hand column moves to the bottom and the &#8220;Everything else&#8221; section is truncated.</p>
-        <p>An example :-</p>
-        <p><a href="https://homepages.plus.net/pittdj/rool25/WikiEdit.png"><img src="https://homepages.plus.net/pittdj/rool25/WikiEdit.png" alt="" /></a></p>
-        <p><em>Click on image for larger display.</em></p>
-        <p>Tested on the Mac with Safari and Firefox, and with Iris.</p>]]>
-      </description>
-      <source:markdown>I have just come across a minor formatting error. When logged in and editing a Wiki page the middle “Everything else” section can leak into the right most column. If the main window is sufficiently wide then the “Everything else” section&#34; does not reach the right hand column but if the main window is small enough then the right hand column moves to the bottom and the “Everything else” section is truncated.
-
-An example :-
-
-[![](https://homepages.plus.net/pittdj/rool25/WikiEdit.png)](https://homepages.plus.net/pittdj/rool25/WikiEdit.png)
-
-_Click on image for larger display._
-
-Tested on the Mac with Safari and Firefox, and with Iris.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:19743:159202</guid>
     </item>    <item>
       <title>The 2025 London Show is less than 3 weeks away...</title>
       <link>http://www.iconbar.com/comments/rss/news2238.html</link>
