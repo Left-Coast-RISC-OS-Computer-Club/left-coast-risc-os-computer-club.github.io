@@ -7,10 +7,97 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>09 Oct 25 16:00 -0700</lastBuildDate>
+    <lastBuildDate>10 Oct 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.9</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: Beeb-Bot - A fully 3D printable clone of the BBC Buggy</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467161#p467161</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467161#p467161</guid>
+    </item>    <item>
+      <title>RPCEmu Support and Development • USBJoystick - can this be used on RPCEmu?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467160#p467160</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467160#p467160</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Logic analyser</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467159#p467159</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467159#p467159</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Logic analyser</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467158#p467158</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467158#p467158</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Logic analyser</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467156#p467156</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467156#p467156</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A5000 board photos WTD</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467155#p467155</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467155#p467155</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B+ data line issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467154#p467154</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467154#p467154</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A5000 board photos WTD</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467153#p467153</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467153#p467153</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m2tjwgi6ys23</link>
+      <description>
+        <![CDATA[It's always fun reading through old computer magazines. This issue of creative computing is from January 1979 - published in the USA. I love the adverts.]]>
+      </description>
+      <source:markdown>It&#39;s always fun reading through old computer magazines. This issue of creative computing is from January 1979 - published in the USA. I love the adverts.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m2tjwgi6ys23</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B+ data line issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467152#p467152</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467152#p467152</guid>
+    </item>    <item>
+      <title>off-topic • Re: Multi Function Tester for under £20</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467151#p467151</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467151#p467151</guid>
+    </item>    <item>
+      <title>Status update for RISC OS 64-bit work</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20046</link>
+      <description>
+        <![CDATA[<p>A quick update on the last 3 weeks of 64-bit <span class="caps">RISC</span> OS work.</p>
+        <p>It&#8217;s not been an especially productive period, as my attention has been elsewhere for a lot of the time, but there are a few interesting things that have been achieved&#8230;</p>
+        <ul>
+        	<li>The `SystemVars` module has been part of the live coding and is developing well. Creating, reading, updating, deleting and enumerating variables now works in the internal routines, and we can set and read all the main variable types. The only type that&#8217;s not yet implemented is the code variable type, but I believe this will be relatively simple to implement. See <a href="https://github.com/gerph/riscos-systemvars">https://github.com/gerph/riscos-systemvars</a> for the details.</li>
+        	<li>`ModGen` is now working and can create 64-bit modules to register resources.</li>
+        	<li>I&#8217;ve started on `ResourceFS`, and the internals are pretty much working &#8211; registration, deregistration and services are all implemented. None of the filesystem itself is, but internally the file details can be read and enumerated.</li>
+        	<li>I&#8217;ve created a new repository in GitHub for the old Acorn example `FS-in-C` sources, and updated it to build with the tools. There&#8217;s still some assembler in there &#8211; it does not use the <span class="caps">CMHG</span> header entries, so that will need fixing, but the base interface is there. See <a href="https://github.com/gerph/riscos-fsinc-example">https://github.com/gerph/riscos-fsinc-example</a> for the example code.</li>
+        	<li>The notes in the `riscos64-status` repository have been updated to include more information about the functionality that is present in each module. This should make it easier to tick off features as they go. See <a href="https://github.com/gerph/riscos64-status/wiki">https://github.com/gerph/riscos64-status/wiki</a> for the details and <a href="https://github.com/gerph/riscos64-status/wiki/Progress">https://github.com/gerph/riscos64-status/wiki/Progress</a> for the overall progress.</li>
+        	<li>A number of other modules were built for 64-bit, including `VideoTTX` which seemed to work ok.</li>
+        	<li>`PocketPy`, a small version of Python, was ported to <span class="caps">RISC</span> OS 64 and appears to be working ok. See <a href="https://github.com/gerph/riscos64-pocketpy">https://github.com/gerph/riscos64-pocketpy</a> for the source, <a href="https://asciinema.org/a/745457">https://asciinema.org/a/745457</a> for a video of it running.</li>
+        	<li>`Berry`, a lightweight scripting language, has been ported to <span class="caps">RISC</span> OS 64, and appears to start its command line ok. See <a href="https://github.com/gerph/riscos64-berry">https://github.com/gerph/riscos64-berry</a> for the sources.</li>
+        	<li>C library improvements to lots of FP functions and a few other standard library functions so that it could be used with `PocketPy`. See <a href="https://github.com/gerph/riscos64-clib">https://github.com/gerph/riscos64-clib</a> for the sources and release.</li>
+        	<li>`ArchieSDK`, a C library and environment for Archimedes class machines and later has been ported to <span class="caps">RISC</span> OS 64, making the second C library which is available for building 64-bit components (not tested with modules at all). See <a href="https://gitlab.com/gerph/riscos64-archie-sdk">https://gitlab.com/gerph/riscos64-archie-sdk</a> for the sources.</li>
+        </ul>
+        <p>Anyhow, that’s where things are for me. You can always follow the repositories to see what’s being done.</p>
+        <p>As usual, if anyone wants to contribute to these, please speak up.</p>]]>
+      </description>
+      <source:markdown>A quick update on the last 3 weeks of 64-bit RISC OS work.
+
+It’s not been an especially productive period, as my attention has been elsewhere for a lot of the time, but there are a few interesting things that have been achieved…
+
+- The \`SystemVars\` module has been part of the live coding and is developing well. Creating, reading, updating, deleting and enumerating variables now works in the internal routines, and we can set and read all the main variable types. The only type that’s not yet implemented is the code variable type, but I believe this will be relatively simple to implement. See [https://github.com/gerph/riscos-systemvars](https://github.com/gerph/riscos-systemvars) for the details.
+- \`ModGen\` is now working and can create 64-bit modules to register resources.
+- I’ve started on \`ResourceFS\`, and the internals are pretty much working – registration, deregistration and services are all implemented. None of the filesystem itself is, but internally the file details can be read and enumerated.
+- I’ve created a new repository in GitHub for the old Acorn example \`FS-in-C\` sources, and updated it to build with the tools. There’s still some assembler in there – it does not use the CMHG header entries, so that will need fixing, but the base interface is there. See [https://github.com/gerph/riscos-fsinc-example](https://github.com/gerph/riscos-fsinc-example) for the example code.
+- The notes in the \`riscos64-status\` repository have been updated to include more information about the functionality that is present in each module. This should make it easier to tick off features as they go. See [https://github.com/gerph/riscos64-status/wiki](https://github.com/gerph/riscos64-status/wiki) for the details and [https://github.com/gerph/riscos64-status/wiki/Progress](https://github.com/gerph/riscos64-status/wiki/Progress) for the overall progress.
+- A number of other modules were built for 64-bit, including \`VideoTTX\` which seemed to work ok.
+- \`PocketPy\`, a small version of Python, was ported to RISC OS 64 and appears to be working ok. See [https://github.com/gerph/riscos64-pocketpy](https://github.com/gerph/riscos64-pocketpy) for the source, [https://asciinema.org/a/745457](https://asciinema.org/a/745457) for a video of it running.
+- \`Berry\`, a lightweight scripting language, has been ported to RISC OS 64, and appears to start its command line ok. See [https://github.com/gerph/riscos64-berry](https://github.com/gerph/riscos64-berry) for the sources.
+- C library improvements to lots of FP functions and a few other standard library functions so that it could be used with \`PocketPy\`. See [https://github.com/gerph/riscos64-clib](https://github.com/gerph/riscos64-clib) for the sources and release.
+- \`ArchieSDK\`, a C library and environment for Archimedes class machines and later has been ported to RISC OS 64, making the second C library which is available for building 64-bit components (not tested with modules at all). See [https://gitlab.com/gerph/riscos64-archie-sdk](https://gitlab.com/gerph/riscos64-archie-sdk) for the sources.
+
+Anyhow, that’s where things are for me. You can always follow the repositories to see what’s being done.
+
+As usual, if anyone wants to contribute to these, please speak up.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20046:159246</guid>
+    </item>    <item>
       <title>off-topic • Re: Fake ARMs</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467124#p467124</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467124#p467124</guid>
@@ -358,6 +445,22 @@ https://youtu.be/-431pDOiYRQ?si=ZKwJVDmuKgS703FU</source:markdown>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466991#p466991</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466991#p466991</guid>
     </item>    <item>
+      <title>Learning BASIC</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20045</link>
+      <description>
+        <![CDATA[<p>OT but &#8230;</p>
+        <blockquote>
+        <p>By the way on the mac mini does the caps lock key work properly in RPCEmu? On my iMac it always gets stuck in caps.</p>
+        </blockquote>
+        <p>It is the same here, RPCEmu 0.4.0 on Intel iMac Pro, Sequoia. <a href="https://www.bapfish.org.uk/software.htm">Lights</a> by Bernard Veasey is good.</p>]]>
+      </description>
+      <source:markdown>OT but …
+
+&#62; By the way on the mac mini does the caps lock key work properly in RPCEmu? On my iMac it always gets stuck in caps.
+
+It is the same here, RPCEmu 0.4.0 on Intel iMac Pro, Sequoia. [Lights](https://www.bapfish.org.uk/software.htm) by Bernard Veasey is good.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20045:159226</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3m2obji2igc2r</link>
       <description>
         <![CDATA[I'm confused, does he think that's a bad thing?
@@ -368,23 +471,6 @@ https://youtu.be/-431pDOiYRQ?si=ZKwJVDmuKgS703FU</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m2obji2igc2r</guid>
-    </item>    <item>
-      <title>Learning BASIC</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20045</link>
-      <description>
-        <![CDATA[<p>Two books by the late Martin Fox are of interest.</p>
-        <p><a href="http://www.riscos.com/support/users/firstprog/">First Steps in Programming <span class="caps">RISC</span> OS Computers</a> is an introduction to <span class="caps">BASIC</span> itself.</p>
-        <p><a href="http://www.riscos.com/support/developers/wimpprog/">Beginner&#8217;s Guide to <span class="caps">WIMP</span> Programming</a> is how to use <span class="caps">BASIC</span> for multitasking applications.</p>
-        <p>Both of these are available as PDF&#8217;s with example programs, from somewhere!!</p>]]>
-      </description>
-      <source:markdown>Two books by the late Martin Fox are of interest.
-
-[First Steps in Programming RISC OS Computers](http://www.riscos.com/support/users/firstprog/) is an introduction to BASIC itself.
-
-[Beginner’s Guide to WIMP Programming](http://www.riscos.com/support/developers/wimpprog/) is how to use BASIC for multitasking applications.
-
-Both of these are available as PDF’s with example programs, from somewhere!!</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20045:159221</guid>
     </item>    <item>
       <title>Scheduled downtime</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20041</link>
