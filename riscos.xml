@@ -7,10 +7,58 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>10 Oct 25 12:01 -0700</lastBuildDate>
-    <generator>antenna/0.0.9</generator>
+    <lastBuildDate>10 Oct 25 16:00 -0700</lastBuildDate>
+    <generator>antenna/0.0.12</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>other events + general event chat • Re: TNMoC Fixathon - Mac and Cheese (wedge) - 11th/12th October</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467201#p467201</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467201#p467201</guid>
+    </item>    <item>
+      <title>Scheduled downtime</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20041</link>
+      <description>
+        <![CDATA[<p>All back now, so unpinning this.</p>]]>
+      </description>
+      <source:markdown>All back now, so unpinning this.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20041:159253</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Spectrum Next BBC Core</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467200#p467200</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467200#p467200</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Spectrum Next BBC Core</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467199#p467199</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467199#p467199</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: SAVE THE DATE : ABUG South, October 17-19, 2025.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467198#p467198</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467198#p467198</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Two - DeathStar</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467197#p467197</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467197#p467197</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Music 500/5000 software/music</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467195#p467195</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467195#p467195</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Conductive ink/paint.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467193#p467193</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467193#p467193</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: help decoding POST from A3000</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467192#p467192</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467192#p467192</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: R260 not booting</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467191#p467191</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467191#p467191</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: help decoding POST from A3000</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467190#p467190</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467190#p467190</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m2udctq3o223</link>
       <description>
         <![CDATA[The 'alternative' 6502 mnemonics where letters are added to the standard mnemonic to specify the addressing mode - eg LDAIM 100
@@ -99,6 +147,23 @@ This format came about because existing macro assemblers could be easily adapted
 Later: &#34;You seem to be playing some kind of game. I bet it&#39;d be much better in GAME MODE! Just let me conveniently blank the screen for three seconds while I think about it.&#34;
 https://media.tenor.com/GugokSc3Q4EAAAAC/risa-bezos-speedball.gif?hh=331&#38;ww=498</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m2tvfmymfc2f</guid>
+    </item>    <item>
+      <title>WebP and ImageMagick</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20047</link>
+      <description>
+        <![CDATA[<p>Hi all &#8211; -<br />
+        I&#8217;ve been playing around with WebP images (<a href="https://vermilionsands.uk/roast/">article on <span class="caps">ROAST</span></a> ) and I wanted to know whether the <span class="caps">RISC</span> OS port of ImageMagick7 (listed on PackMan) supported them. Unfortunately I&#8217;ve had some trouble installing it &#8212; PackMan wants to install loads of other things, and it seems very confused about apps/packages that I&#8217;ve definitely got but it thinks I don&#8217;t. Very reluctant to risk breaking things&#8230;<br />
+        So could anyone with the app give it a try? Does it do WebP&#8594;sprite and sprite&#8594;WebP?<br />
+        Cheers!</p>]]>
+      </description>
+      <source:markdown>Hi all – -
+
+I’ve been playing around with WebP images ( [article on ROAST](https://vermilionsands.uk/roast/) ) and I wanted to know whether the RISC OS port of ImageMagick7 (listed on PackMan) supported them. Unfortunately I’ve had some trouble installing it — PackMan wants to install loads of other things, and it seems very confused about apps/packages that I’ve definitely got but it thinks I don’t. Very reluctant to risk breaking things…
+
+So could anyone with the app give it a try? Does it do WebP→sprite and sprite→WebP?
+
+Cheers!</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20047:159251</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: Beeb-Bot - A fully 3D printable clone of the BBC Buggy</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467161#p467161</link>
@@ -427,6 +492,33 @@ This is why I get nothing done - I&#39;m too busy being annoyed.</source:markdow
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467016#p467016</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467016#p467016</guid>
     </item>    <item>
+      <title>Learning BASIC</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20045</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I would be wary of that. <span class="caps">BASIC</span> is not universally defined and varies between platforms.</p>
+        </blockquote>
+        <p>True, but&#8230;<br />
+        When I wrote an Olivetti word processor format to Wordstar 6 format converter in <span class="caps">BBC</span> Basic, it didn&#8217;t take much modification to produce a version that worked in the GW Basic on the x86 <span class="caps">DOS</span> machines of the era.</p>]]>
+      </description>
+      <source:markdown>&#62; I would be wary of that. BASIC is not universally defined and varies between platforms.
+
+True, but…
+
+When I wrote an Olivetti word processor format to Wordstar 6 format converter in BBC Basic, it didn’t take much modification to produce a version that worked in the GW Basic on the x86 DOS machines of the era.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20045:159231</guid>
+    </item>    <item>
+      <title>Hacktoberfest 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20044</link>
+      <description>
+        <![CDATA[<p>Nice Jean!</p>
+        <p>It&#8217;s a start, so well done! :)</p>]]>
+      </description>
+      <source:markdown>Nice Jean!
+
+It’s a start, so well done! :)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20044:159230</guid>
+    </item>    <item>
       <title>ToolboxC++Lib Discussion</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
       <description>
@@ -452,20 +544,6 @@ I have rebuilt your demonstration programs, with DDE C ++ and OSLIB for comparis
       <title>miscellaneous new bbc and electron games • Re: Elite Compendium (BBC Micro + 16K SRAM) - the best Elite hacks, all in one place</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467013#p467013</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467013#p467013</guid>
-    </item>    <item>
-      <title>Hacktoberfest 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20044</link>
-      <description>
-        <![CDATA[<p>Hi Paolo<br />
-        Now that Iris allows quick access to this site it becomes interesting, I was able to test/build various projects.<br />
-        Participating is another challenge&#8230;</p>]]>
-      </description>
-      <source:markdown>Hi Paolo
-
-Now that Iris allows quick access to this site it becomes interesting, I was able to test/build various projects.
-
-Participating is another challenge…</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20044:159228</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: Conductive ink/paint.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467002#p467002</link>
@@ -534,22 +612,6 @@ https://youtu.be/-431pDOiYRQ?si=ZKwJVDmuKgS703FU</source:markdown>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466991#p466991</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=466991#p466991</guid>
     </item>    <item>
-      <title>Learning BASIC</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20045</link>
-      <description>
-        <![CDATA[<p>OT but &#8230;</p>
-        <blockquote>
-        <p>By the way on the mac mini does the caps lock key work properly in RPCEmu? On my iMac it always gets stuck in caps.</p>
-        </blockquote>
-        <p>It is the same here, RPCEmu 0.4.0 on Intel iMac Pro, Sequoia. <a href="https://www.bapfish.org.uk/software.htm">Lights</a> by Bernard Veasey is good.</p>]]>
-      </description>
-      <source:markdown>OT but …
-
-&#62; By the way on the mac mini does the caps lock key work properly in RPCEmu? On my iMac it always gets stuck in caps.
-
-It is the same here, RPCEmu 0.4.0 on Intel iMac Pro, Sequoia. [Lights](https://www.bapfish.org.uk/software.htm) by Bernard Veasey is good.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20045:159226</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3m2obji2igc2r</link>
       <description>
         <![CDATA[I'm confused, does he think that's a bad thing?
@@ -560,17 +622,6 @@ It is the same here, RPCEmu 0.4.0 on Intel iMac Pro, Sequoia. [Lights](https://w
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m2obji2igc2r</guid>
-    </item>    <item>
-      <title>Scheduled downtime</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20041</link>
-      <description>
-        <![CDATA[<p>I did make a suggestion about shortening the <span class="caps">DNS</span> <span class="caps">TTL</span> to a number of minutes at a point in time that exceeds the current <span class="caps">TTL</span>.</p>
-        <p>Wonder where that vaporised to&#8230;</p>]]>
-      </description>
-      <source:markdown>I did make a suggestion about shortening the DNSTTL to a number of minutes at a point in time that exceeds the current TTL.
-
-Wonder where that vaporised to…</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20041:159217</guid>
     </item>    <item>
       <title>off-topic • Re: Capacitor selection</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466959#p466959</link>
