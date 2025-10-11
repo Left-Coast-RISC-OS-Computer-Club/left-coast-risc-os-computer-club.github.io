@@ -7,10 +7,187 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>10 Oct 25 16:00 -0700</lastBuildDate>
+    <lastBuildDate>11 Oct 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.12</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn software: other • Re: Music 500/5000 software/music</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467222#p467222</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467222#p467222</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A5000 board photos WTD</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467221#p467221</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467221#p467221</guid>
+    </item>    <item>
+      <title>general • Re: Today I received.....</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467220#p467220</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467220#p467220</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A5000 board photos WTD</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467217#p467217</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467217#p467217</guid>
+    </item>    <item>
+      <title>general • Re: Today I received.....</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467216#p467216</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467216#p467216</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A5000 board photos WTD</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467215#p467215</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467215#p467215</guid>
+    </item>    <item>
+      <title>How to set objasm debug options for the Econet module source</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20048</link>
+      <description>
+        <![CDATA[<p>There is a thread over on stardot regarding getting an ADF10 Econet module to work on a <span class="caps">UNIPOD</span>, it presents anecdotal evidence that this been done successfully before but evidently lost without trace.</p>
+        <p><a href="https://www.stardot.org.uk/forums/viewtopic.php?t=29655">https://www.stardot.org.uk/forums/viewtopic.php?t=29655</a></p>
+        <p>I have long wondered about that and in a moment of weakness decided to have a look at it.</p>
+        <p>SO far I have taken the Econet module source from the <span class="caps">IOMD</span> build of <span class="caps">RISC</span> OS 5 from my RasPi over to a SA <span class="caps">RPC</span> with a unipod, and up to date <span class="caps">ROOL</span> <span class="caps">DDE</span>, where I can build it out of the <span class="caps">RISC</span> OS source tree by dropping its make file into amu.</p>
+        <p>This results in several targets RMs including Econet, EconetSA &amp; EconetD. The EconetSA module works on anther SA <span class="caps">RPC</span> with an Acorn AEH60 Econet module, so that&#8217;s a good start at any rate.</p>
+        <p>In the source I can see quite a lot of extra debugging output, particularly around scanning the podules for the right one, an area that I need to rework first.  But running EconetD does not result in any debugging output, and nor actually are any of the strings I can see in this code present in the binary.</p>
+        <p>I have not used objasm before and never explored this mire of macros.</p>
+        <p>I can see in code section below what appears to be conditional assembly dependent on &#8216;DebugFindHardware&#8217;</p>
+        <p>FindPoduleLoop<br />
+                <span class="caps">DECS</span>    r3<br />
+                <span class="caps">BMI</span>     AddressUnknown<br />
+                [       DebugFindHardware<br />
+                <span class="caps">BREG</span>    r3, &#8220;Podule_ReadInfo: R3 = &amp;&#8221;<br />
+                ]<br />
+                Push    &#8220;r10, r11, r14&#8221;<br />
+                <span class="caps">MOV</span>     r0, #Podule_ReadInfo_SyncBase + Podule_ReadInfo_ID + Podule_ReadInfo_Type<br />
+                <span class="caps">MOV</span>     r1, sp<br />
+                <span class="caps">MOV</span>     r2, #3*4<br />
+                <span class="caps">SWI</span>     XPodule_ReadInfo<br />
+                Pull    &#8220;r10, r11, r14&#8221;<br />
+                [       DebugFindHardware<br />
+                <span class="caps">DREG</span>    r10, &#8220;Synchronous base address = &amp;&#8221;<br />
+                <span class="caps">BREG</span>    r11, &#8220;ID = &amp;&#8221;<br />
+                <span class="caps">DREG</span>    r14, &#8220;Type = &amp;&#8221;<br />
+                ]<br />
+                <span class="caps">BVS</span>     FindPoduleLoop<br />
+                <span class="caps">BIC</span>     r11, r11, #2_101                        ; Knock out <span class="caps">FIQ</span>/<span class="caps">IRQ</span> request bits<br />
+                <span class="caps">TEQ</span>     r11, #SimpleType_Econet:<span class="caps">SHL</span>:3<br />
+                <span class="caps">BEQ</span>     AddressKnown<br />
+                <span class="caps">TEQ</span>     r11, #SimpleType_Extended:<span class="caps">SHL</span>:3<br />
+                <span class="caps">TEQEQ</span>   r14, #ProdType_Econet<br />
+                <span class="caps">BEQ</span>     AddressKnown<br />
+                B       FindPoduleLoop</p>
+        <p>AddressUnknown<br />
+                <span class="caps">LDR</span>     r10, =EconetController                  ; Default for internal hardware<br />
+        AddressKnown<br />
+                [       DebugFindHardware<br />
+                <span class="caps">DREG</span>    r10, &#8220;Address we are using = &amp;&#8221;<br />
+                ]</p>
+        <p>I can see that &#8216;DebugFindHardware&#8217; appears to be set in this line but I am not making any sense of it:</p>
+        <p>DebugFindHardware <span class="caps">SETL</span>  (:<span class="caps">LNOT</span>: ReleaseVersion) :<span class="caps">LAND</span>: {FALSE}</p>
+        <p>The make file does not seem to hint at how debug options are set either.</p>
+        <p>What am I missing here?</p>
+        <p>Alan</p>]]>
+      </description>
+      <source:markdown>There is a thread over on stardot regarding getting an ADF10 Econet module to work on a UNIPOD, it presents anecdotal evidence that this been done successfully before but evidently lost without trace.
+
+[https://www.stardot.org.uk/forums/viewtopic.php?t=29655](https://www.stardot.org.uk/forums/viewtopic.php?t=29655)
+
+I have long wondered about that and in a moment of weakness decided to have a look at it.
+
+SO far I have taken the Econet module source from the IOMD build of RISC OS 5 from my RasPi over to a SA RPC with a unipod, and up to date ROOLDDE, where I can build it out of the RISC OS source tree by dropping its make file into amu.
+
+This results in several targets RMs including Econet, EconetSA &#38; EconetD. The EconetSA module works on anther SA RPC with an Acorn AEH60 Econet module, so that’s a good start at any rate.
+
+In the source I can see quite a lot of extra debugging output, particularly around scanning the podules for the right one, an area that I need to rework first. But running EconetD does not result in any debugging output, and nor actually are any of the strings I can see in this code present in the binary.
+
+I have not used objasm before and never explored this mire of macros.
+
+I can see in code section below what appears to be conditional assembly dependent on ‘DebugFindHardware’
+
+FindPoduleLoop
+
+DECS r3
+
+BMI AddressUnknown
+
+\[ DebugFindHardware
+
+BREG r3, “Podule\_ReadInfo: R3 = &#38;”
+
+\]
+
+Push “r10, r11, r14”
+
+MOV r0, #Podule\_ReadInfo\_SyncBase + Podule\_ReadInfo\_ID + Podule\_ReadInfo\_Type
+
+MOV r1, sp
+
+MOV r2, #3\*4
+
+SWI XPodule\_ReadInfo
+
+Pull “r10, r11, r14”
+
+\[ DebugFindHardware
+
+DREG r10, “Synchronous base address = &#38;”
+
+BREG r11, “ID = &#38;”
+
+DREG r14, “Type = &#38;”
+
+\]
+
+BVS FindPoduleLoop
+
+BIC r11, r11, #2\_101 ; Knock out FIQ/IRQ request bits
+
+TEQ r11, #SimpleType\_Econet:SHL:3
+
+BEQ AddressKnown
+
+TEQ r11, #SimpleType\_Extended:SHL:3
+
+TEQEQ r14, #ProdType\_Econet
+
+BEQ AddressKnown
+
+B FindPoduleLoop
+
+AddressUnknown
+
+LDR r10, =EconetController ; Default for internal hardware
+
+AddressKnown
+
+\[ DebugFindHardware
+
+DREG r10, “Address we are using = &#38;”
+
+\]
+
+I can see that ‘DebugFindHardware’ appears to be set in this line but I am not making any sense of it:
+
+DebugFindHardware SETL (:LNOT: ReleaseVersion) :LAND: {FALSE}
+
+The make file does not seem to hint at how debug options are set either.
+
+What am I missing here?
+
+Alan</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20048:159256</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Spectrum Next BBC Core</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467214#p467214</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467214#p467214</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Spectrum Next BBC Core</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467213#p467213</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467213#p467213</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Spectrum Next BBC Core</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467212#p467212</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467212#p467212</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Acorn &#38;quot;POST box&#38;quot; display adaptor (0086,804)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467211#p467211</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467211#p467211</guid>
+    </item>    <item>
       <title>other events + general event chat • Re: TNMoC Fixathon - Mac and Cheese (wedge) - 11th/12th October</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467201#p467201</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467201#p467201</guid>
@@ -211,6 +388,20 @@ Cheers!</source:markdown>
       <title>off-topic • Re: Multi Function Tester for under £20</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467151#p467151</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467151#p467151</guid>
+    </item>    <item>
+      <title>Hacktoberfest 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20044</link>
+      <description>
+        <![CDATA[<p>@Paolo<br />
+        As you are the only user of !Diderot, I would like to take this opportunity to say that I have made a small update.<br />
+        From the panel, open !Reporter and kill the application task, Access to the Resources file with Adjust on the Res button.</p>]]>
+      </description>
+      <source:markdown>@Paolo
+
+As you are the only user of !Diderot, I would like to take this opportunity to say that I have made a small update.
+
+From the panel, open !Reporter and kill the application task, Access to the Resources file with Adjust on the Res button.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20044:159249</guid>
     </item>    <item>
       <title>Status update for RISC OS 64-bit work</title>
       <link>https://www.riscosopen.org/forum/forums/13/topics/20046</link>
@@ -464,6 +655,38 @@ This is why I get nothing done - I&#39;m too busy being annoyed.</source:markdow
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467026#p467026</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467026#p467026</guid>
     </item>    <item>
+      <title>ToolboxC++Lib Discussion</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
+      <description>
+        <![CDATA[<p>Just uploaded todays changes to GitHub. As suggested by @Piers, modifying the large switch/case block in ToolboxCoreObj, it now calls fewer methods which can be overloaded by the end user who then creates their own dispatch switch/case blocks to call their own overloaded methods. However, there is one pure virtual which the end user has to implement:<br />
+        void toolboxEventHandler(int event);</p>
+        <p>such as in the !MinProg example:<br />
+        void MinProg::toolboxEventHandler(int event) {<br />
+         event = event;<br />
+        }</p>
+        <p>I have had to bodge the ToolboxCoreObj event dispatcher a bit because the events for the ToolAction, ScrollList, TreeView and Tabs do not actually fall into the range for what would be ReservedToolboxModuleEvent, if anyone has a better list of allocations I would be able to sort that part of the code.</p>
+        <p>Still to do is the <span class="caps">WIMP</span> dispatcher to modify the code so there is a smaller switch/case block.</p>
+        <p>By the way, please don&#8217;t hold up the examples as good programming, I&#8217;m just using them to test the library code works.</p>]]>
+      </description>
+      <source:markdown>Just uploaded todays changes to GitHub. As suggested by @Piers, modifying the large switch/case block in ToolboxCoreObj, it now calls fewer methods which can be overloaded by the end user who then creates their own dispatch switch/case blocks to call their own overloaded methods. However, there is one pure virtual which the end user has to implement:
+
+void toolboxEventHandler(int event);
+
+such as in the !MinProg example:
+
+void MinProg::toolboxEventHandler(int event) {
+
+event = event;
+
+}
+
+I have had to bodge the ToolboxCoreObj event dispatcher a bit because the events for the ToolAction, ScrollList, TreeView and Tabs do not actually fall into the range for what would be ReservedToolboxModuleEvent, if anyone has a better list of allocations I would be able to sort that part of the code.
+
+Still to do is the WIMP dispatcher to modify the code so there is a smaller switch/case block.
+
+By the way, please don’t hold up the examples as good programming, I’m just using them to test the library code works.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19910:159235</guid>
+    </item>    <item>
       <title>32-bit acorn hardware • Re: A5000 board photos WTD</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467025#p467025</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467025#p467025</guid>
@@ -480,6 +703,26 @@ This is why I get nothing done - I&#39;m too busy being annoyed.</source:markdow
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467021#p467021</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467021#p467021</guid>
     </item>    <item>
+      <title>Learning BASIC</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20045</link>
+      <description>
+        <![CDATA[<p>Hi</p>
+        <p>At a RiscOS show  I bought a book called &#8220;The Giant Book of Applications&#8221; from Drag N Drop, which is writing Applications Tutorials and Listings book, providing multitasking <span class="caps">WIMP</span> programs for RiscOS written in <span class="caps">BBC</span> <span class="caps">BASIC</span>.</p>
+        <p><a href="https://www.dragdrop.co.uk/shop.php">https://www.dragdrop.co.uk/shop.php</a></p>
+        <p>A nicely written book, but assumed that the reader can program in <span class="caps">BBC</span> <span class="caps">BASIC</span></p>
+        <p>They also do other books and magazines.</p>]]>
+      </description>
+      <source:markdown>Hi
+
+At a RiscOS show I bought a book called “The Giant Book of Applications” from Drag N Drop, which is writing Applications Tutorials and Listings book, providing multitasking WIMP programs for RiscOS written in BBCBASIC.
+
+[https://www.dragdrop.co.uk/shop.php](https://www.dragdrop.co.uk/shop.php)
+
+A nicely written book, but assumed that the reader can program in BBCBASIC
+
+They also do other books and magazines.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20045:159233</guid>
+    </item>    <item>
       <title>off-topic • Re: LOLPRICE</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467019#p467019</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467019#p467019</guid>
@@ -491,47 +734,6 @@ This is why I get nothing done - I&#39;m too busy being annoyed.</source:markdow
       <title>8-bit acorn hardware • Re: BeebSCSI help required [Resolved]</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467016#p467016</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467016#p467016</guid>
-    </item>    <item>
-      <title>Learning BASIC</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20045</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I would be wary of that. <span class="caps">BASIC</span> is not universally defined and varies between platforms.</p>
-        </blockquote>
-        <p>True, but&#8230;<br />
-        When I wrote an Olivetti word processor format to Wordstar 6 format converter in <span class="caps">BBC</span> Basic, it didn&#8217;t take much modification to produce a version that worked in the GW Basic on the x86 <span class="caps">DOS</span> machines of the era.</p>]]>
-      </description>
-      <source:markdown>&#62; I would be wary of that. BASIC is not universally defined and varies between platforms.
-
-True, but…
-
-When I wrote an Olivetti word processor format to Wordstar 6 format converter in BBC Basic, it didn’t take much modification to produce a version that worked in the GW Basic on the x86 DOS machines of the era.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20045:159231</guid>
-    </item>    <item>
-      <title>Hacktoberfest 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20044</link>
-      <description>
-        <![CDATA[<p>Nice Jean!</p>
-        <p>It&#8217;s a start, so well done! :)</p>]]>
-      </description>
-      <source:markdown>Nice Jean!
-
-It’s a start, so well done! :)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20044:159230</guid>
-    </item>    <item>
-      <title>ToolboxC++Lib Discussion</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
-      <description>
-        <![CDATA[<p>@ Bill,<br />
-        C ++ encapsulation is a very good thing.</p>
-        <p>I have rebuilt your demonstration programs, with <span class="caps">DDE</span> C ++ and <span class="caps">OSLIB</span> for comparison. I will try to make them available after cleaning them, to have only the <span class="caps">DDE</span> (I also use the <span class="caps">STL</span>)</p>]]>
-      </description>
-      <source:markdown>@ Bill,
-
-C ++ encapsulation is a very good thing.
-
-I have rebuilt your demonstration programs, with DDE C ++ and OSLIB for comparison. I will try to make them available after cleaning them, to have only the DDE (I also use the STL)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19910:159229</guid>
     </item>    <item>
       <title>32-bit acorn hardware • Re: A5000 board photos WTD</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467015#p467015</link>

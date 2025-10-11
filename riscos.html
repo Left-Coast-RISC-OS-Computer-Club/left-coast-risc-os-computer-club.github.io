@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.12" >
-  <meta name="date" content="2025-10-10T16:00:30-07:00" >
+  <meta name="date" content="2025-10-11T07:00:20-07:00" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -19,6 +19,171 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2025-10-11T13:55:04Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=467222#p467222">
+      <h1>8-bit acorn software: other • Re: Music 500/5000 software/music</h1>
+
+(date: 2025-10-11)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=467222#p467222">https://www.stardot.org.uk/forums/viewtopic.php?p=467222#p467222</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-11T13:36:26Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=467221#p467221">
+      <h1>32-bit acorn hardware • Re: A5000 board photos WTD</h1>
+
+(date: 2025-10-11)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=467221#p467221">https://www.stardot.org.uk/forums/viewtopic.php?p=467221#p467221</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-11T13:33:27Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=467220#p467220">
+      <h1>general • Re: Today I received.....</h1>
+
+(date: 2025-10-11)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=467220#p467220">https://www.stardot.org.uk/forums/viewtopic.php?p=467220#p467220</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-11T13:19:09Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=467217#p467217">
+      <h1>32-bit acorn hardware • Re: A5000 board photos WTD</h1>
+
+(date: 2025-10-11)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=467217#p467217">https://www.stardot.org.uk/forums/viewtopic.php?p=467217#p467217</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-11T13:06:55Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=467216#p467216">
+      <h1>general • Re: Today I received.....</h1>
+
+(date: 2025-10-11)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=467216#p467216">https://www.stardot.org.uk/forums/viewtopic.php?p=467216#p467216</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-11T12:19:36Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=467215#p467215">
+      <h1>32-bit acorn hardware • Re: A5000 board photos WTD</h1>
+
+(date: 2025-10-11)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=467215#p467215">https://www.stardot.org.uk/forums/viewtopic.php?p=467215#p467215</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-11T11:20:25Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20048">
+      <h1>How to set objasm debug options for the Econet module source</h1>
+
+(date: 2025-10-11)
+      <p>
+      <p>There is a thread over on stardot regarding getting an ADF10 Econet module to work on a UNIPOD, it presents anecdotal evidence that this been done successfully before but evidently lost without trace.</p>
+<p><a href="https://www.stardot.org.uk/forums/viewtopic.php?t=29655">https://www.stardot.org.uk/forums/viewtopic.php?t=29655</a></p>
+<p>I have long wondered about that and in a moment of weakness decided to have a look at it.</p>
+<p>SO far I have taken the Econet module source from the IOMD build of RISC OS 5 from my RasPi over to a SA RPC with a unipod, and up to date ROOLDDE, where I can build it out of the RISC OS source tree by dropping its make file into amu.</p>
+<p>This results in several targets RMs including Econet, EconetSA &amp; EconetD. The EconetSA module works on anther SA RPC with an Acorn AEH60 Econet module, so that’s a good start at any rate.</p>
+<p>In the source I can see quite a lot of extra debugging output, particularly around scanning the podules for the right one, an area that I need to rework first. But running EconetD does not result in any debugging output, and nor actually are any of the strings I can see in this code present in the binary.</p>
+<p>I have not used objasm before and never explored this mire of macros.</p>
+<p>I can see in code section below what appears to be conditional assembly dependent on ‘DebugFindHardware’</p>
+<p>FindPoduleLoop</p>
+<p>DECS r3</p>
+<p>BMI AddressUnknown</p>
+<p>[ DebugFindHardware</p>
+<p>BREG r3, “Podule_ReadInfo: R3 = &amp;”</p>
+<p>]</p>
+<p>Push “r10, r11, r14”</p>
+<p>MOV r0, #Podule_ReadInfo_SyncBase + Podule_ReadInfo_ID + Podule_ReadInfo_Type</p>
+<p>MOV r1, sp</p>
+<p>MOV r2, #3*4</p>
+<p>SWI XPodule_ReadInfo</p>
+<p>Pull “r10, r11, r14”</p>
+<p>[ DebugFindHardware</p>
+<p>DREG r10, “Synchronous base address = &amp;”</p>
+<p>BREG r11, “ID = &amp;”</p>
+<p>DREG r14, “Type = &amp;”</p>
+<p>]</p>
+<p>BVS FindPoduleLoop</p>
+<p>BIC r11, r11, #2_101 ; Knock out FIQ/IRQ request bits</p>
+<p>TEQ r11, #SimpleType_Econet:SHL:3</p>
+<p>BEQ AddressKnown</p>
+<p>TEQ r11, #SimpleType_Extended:SHL:3</p>
+<p>TEQEQ r14, #ProdType_Econet</p>
+<p>BEQ AddressKnown</p>
+<p>B FindPoduleLoop</p>
+<p>AddressUnknown</p>
+<p>LDR r10, =EconetController ; Default for internal hardware</p>
+<p>AddressKnown</p>
+<p>[ DebugFindHardware</p>
+<p>DREG r10, “Address we are using = &amp;”</p>
+<p>]</p>
+<p>I can see that ‘DebugFindHardware’ appears to be set in this line but I am not making any sense of it:</p>
+<p>DebugFindHardware SETL (:LNOT: ReleaseVersion) :LAND: {FALSE}</p>
+<p>The make file does not seem to hint at how debug options are set either.</p>
+<p>What am I missing here?</p>
+<p>Alan</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20048">https://www.riscosopen.org/forum/forums/11/topics/20048</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-11T11:18:09Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=467214#p467214">
+      <h1>8-bit acorn hardware • Re: Spectrum Next BBC Core</h1>
+
+(date: 2025-10-11)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=467214#p467214">https://www.stardot.org.uk/forums/viewtopic.php?p=467214#p467214</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-11T11:07:24Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=467213#p467213">
+      <h1>8-bit acorn hardware • Re: Spectrum Next BBC Core</h1>
+
+(date: 2025-10-11)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=467213#p467213">https://www.stardot.org.uk/forums/viewtopic.php?p=467213#p467213</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-11T11:05:31Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=467212#p467212">
+      <h1>8-bit acorn hardware • Re: Spectrum Next BBC Core</h1>
+
+(date: 2025-10-11)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=467212#p467212">https://www.stardot.org.uk/forums/viewtopic.php?p=467212#p467212</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-11T10:33:42Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=467211#p467211">
+      <h1>32-bit acorn hardware • Re: Acorn &quot;POST box&quot; display adaptor (0086,804)</h1>
+
+(date: 2025-10-11)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=467211#p467211">https://www.stardot.org.uk/forums/viewtopic.php?p=467211#p467211</a>
+      </address>
+    </article>
 
     <article data-published="2025-10-10T22:42:57Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=467201#p467201">
       <h1>other events + general event chat • Re: TNMoC Fixathon - Mac and Cheese (wedge) - 11th/12th October</h1>
@@ -449,6 +614,20 @@
       
       <address>
         <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=467151#p467151">https://www.stardot.org.uk/forums/viewtopic.php?p=467151#p467151</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-10T07:38:37Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20044">
+      <h1>Hacktoberfest 2025</h1>
+
+(date: 2025-10-10)
+      <p>
+      <p>@Paolo</p>
+<p>As you are the only user of !Diderot, I would like to take this opportunity to say that I have made a small update.</p>
+<p>From the panel, open !Reporter and kill the application task, Access to the Resources file with Adjust on the Res button.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20044">https://www.riscosopen.org/forum/forums/1/topics/20044</a>
       </address>
     </article>
 
@@ -994,6 +1173,26 @@ TaskWindow misbehaves. &quot;That ZapMode is annoying&quot;. Rewriting ZapBasic.
       </address>
     </article>
 
+    <article data-published="2025-10-08T18:34:41Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/19910">
+      <h1>ToolboxC++Lib Discussion</h1>
+
+(date: 2025-10-08)
+      <p>
+      <p>Just uploaded todays changes to GitHub. As suggested by @Piers, modifying the large switch/case block in ToolboxCoreObj, it now calls fewer methods which can be overloaded by the end user who then creates their own dispatch switch/case blocks to call their own overloaded methods. However, there is one pure virtual which the end user has to implement:</p>
+<p>void toolboxEventHandler(int event);</p>
+<p>such as in the !MinProg example:</p>
+<p>void MinProg::toolboxEventHandler(int event) {</p>
+<p>event = event;</p>
+<p>}</p>
+<p>I have had to bodge the ToolboxCoreObj event dispatcher a bit because the events for the ToolAction, ScrollList, TreeView and Tabs do not actually fall into the range for what would be ReservedToolboxModuleEvent, if anyone has a better list of allocations I would be able to sort that part of the code.</p>
+<p>Still to do is the WIMP dispatcher to modify the code so there is a smaller switch/case block.</p>
+<p>By the way, please don’t hold up the examples as good programming, I’m just using them to test the library code works.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/19910">https://www.riscosopen.org/forum/forums/5/topics/19910</a>
+      </address>
+    </article>
+
     <article data-published="2025-10-08T18:21:22Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=467025#p467025">
       <h1>32-bit acorn hardware • Re: A5000 board photos WTD</h1>
 
@@ -1038,6 +1237,22 @@ TaskWindow misbehaves. &quot;That ZapMode is annoying&quot;. Rewriting ZapBasic.
       </address>
     </article>
 
+    <article data-published="2025-10-08T17:42:32Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20045">
+      <h1>Learning BASIC</h1>
+
+(date: 2025-10-08)
+      <p>
+      <p>Hi</p>
+<p>At a RiscOS show I bought a book called “The Giant Book of Applications” from Drag N Drop, which is writing Applications Tutorials and Listings book, providing multitasking WIMP programs for RiscOS written in BBCBASIC.</p>
+<p><a href="https://www.dragdrop.co.uk/shop.php">https://www.dragdrop.co.uk/shop.php</a></p>
+<p>A nicely written book, but assumed that the reader can program in BBCBASIC</p>
+<p>They also do other books and magazines.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20045">https://www.riscosopen.org/forum/forums/5/topics/20045</a>
+      </address>
+    </article>
+
     <article data-published="2025-10-08T17:40:48Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=467019#p467019">
       <h1>off-topic • Re: LOLPRICE</h1>
 
@@ -1068,49 +1283,6 @@ TaskWindow misbehaves. &quot;That ZapMode is annoying&quot;. Rewriting ZapBasic.
       
       <address>
         <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=467016#p467016">https://www.stardot.org.uk/forums/viewtopic.php?p=467016#p467016</a>
-      </address>
-    </article>
-
-    <article data-published="2025-10-08T16:52:44Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20045">
-      <h1>Learning BASIC</h1>
-
-(date: 2025-10-08)
-      <p>
-      <blockquote>
-<p>I would be wary of that. BASIC is not universally defined and varies between platforms.</p>
-</blockquote>
-<p>True, but…</p>
-<p>When I wrote an Olivetti word processor format to Wordstar 6 format converter in BBC Basic, it didn’t take much modification to produce a version that worked in the GW Basic on the x86 DOS machines of the era.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20045">https://www.riscosopen.org/forum/forums/5/topics/20045</a>
-      </address>
-    </article>
-
-    <article data-published="2025-10-08T16:47:18Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20044">
-      <h1>Hacktoberfest 2025</h1>
-
-(date: 2025-10-08)
-      <p>
-      <p>Nice Jean!</p>
-<p>It’s a start, so well done! :)</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20044">https://www.riscosopen.org/forum/forums/1/topics/20044</a>
-      </address>
-    </article>
-
-    <article data-published="2025-10-08T16:35:15Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/19910">
-      <h1>ToolboxC++Lib Discussion</h1>
-
-(date: 2025-10-08)
-      <p>
-      <p>@ Bill,</p>
-<p>C ++ encapsulation is a very good thing.</p>
-<p>I have rebuilt your demonstration programs, with DDE C ++ and OSLIB for comparison. I will try to make them available after cleaning them, to have only the DDE (I also use the STL)</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/19910">https://www.riscosopen.org/forum/forums/5/topics/19910</a>
       </address>
     </article>
 
