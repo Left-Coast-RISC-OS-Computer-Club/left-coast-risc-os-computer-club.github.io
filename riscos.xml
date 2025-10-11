@@ -7,10 +7,50 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>11 Oct 25 07:00 -0700</lastBuildDate>
+    <lastBuildDate>11 Oct 25 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.12</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: Viglen Keypad</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467242#p467242</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467242#p467242</guid>
+    </item>    <item>
+      <title>other vintage hardware, software and languages • Re: TI99/4a video modulator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467241#p467241</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467241#p467241</guid>
+    </item>    <item>
+      <title>communications • Re: the Night Owl BBS *Sat*</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467240#p467240</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467240#p467240</guid>
+    </item>    <item>
+      <title>miscellaneous new bbc and electron games • Re: Epsilon Protocol</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467239#p467239</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467239#p467239</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: SAVE THE DATE : ABUG South, October 17-19, 2025.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467237#p467237</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467237#p467237</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Missing? &#38;quot;Under the lid&#38;quot; computer simulation</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467235#p467235</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467235#p467235</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3010 Joystick tester</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467234#p467234</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467234#p467234</guid>
+    </item>    <item>
+      <title>miscellaneous new bbc and electron games • Re: Epsilon Protocol</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467233#p467233</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467233#p467233</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3010 Joystick tester</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467232#p467232</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467232#p467232</guid>
+    </item>    <item>
+      <title>development tools • Re: Useful math tool</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467231#p467231</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467231#p467231</guid>
+    </item>    <item>
       <title>8-bit acorn software: other • Re: Music 500/5000 software/music</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467222#p467222</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467222#p467222</guid>
@@ -655,6 +695,20 @@ This is why I get nothing done - I&#39;m too busy being annoyed.</source:markdow
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467026#p467026</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467026#p467026</guid>
     </item>    <item>
+      <title>Learning BASIC</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20045</link>
+      <description>
+        <![CDATA[<p>Thanks all for the helpful replies. I&#8217;ve got StrongED and StrongHelp installed and running and am primarily thinking of full screen single tasking.</p>
+        <p>The Gerph examples look helpful for later and the links to other materials are much appreciated.</p>
+        <p>As for the Mac, the caps lock doesn&#8217;t seem to stick so it&#8217;s defaulting to lower case regardless. I will be putting 30 Hour <span class="caps">BASIC</span> to the bottom of the list :)</p>]]>
+      </description>
+      <source:markdown>Thanks all for the helpful replies. I’ve got StrongED and StrongHelp installed and running and am primarily thinking of full screen single tasking.
+
+The Gerph examples look helpful for later and the links to other materials are much appreciated.
+
+As for the Mac, the caps lock doesn’t seem to stick so it’s defaulting to lower case regardless. I will be putting 30 Hour BASIC to the bottom of the list :)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20045:159237</guid>
+    </item>    <item>
       <title>ToolboxC++Lib Discussion</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
       <description>
@@ -702,26 +756,6 @@ By the way, please don’t hold up the examples as good programming, I’m just 
       <title>8-bit acorn emulators • Re: B-Em</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467021#p467021</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467021#p467021</guid>
-    </item>    <item>
-      <title>Learning BASIC</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20045</link>
-      <description>
-        <![CDATA[<p>Hi</p>
-        <p>At a RiscOS show  I bought a book called &#8220;The Giant Book of Applications&#8221; from Drag N Drop, which is writing Applications Tutorials and Listings book, providing multitasking <span class="caps">WIMP</span> programs for RiscOS written in <span class="caps">BBC</span> <span class="caps">BASIC</span>.</p>
-        <p><a href="https://www.dragdrop.co.uk/shop.php">https://www.dragdrop.co.uk/shop.php</a></p>
-        <p>A nicely written book, but assumed that the reader can program in <span class="caps">BBC</span> <span class="caps">BASIC</span></p>
-        <p>They also do other books and magazines.</p>]]>
-      </description>
-      <source:markdown>Hi
-
-At a RiscOS show I bought a book called “The Giant Book of Applications” from Drag N Drop, which is writing Applications Tutorials and Listings book, providing multitasking WIMP programs for RiscOS written in BBCBASIC.
-
-[https://www.dragdrop.co.uk/shop.php](https://www.dragdrop.co.uk/shop.php)
-
-A nicely written book, but assumed that the reader can program in BBCBASIC
-
-They also do other books and magazines.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20045:159233</guid>
     </item>    <item>
       <title>off-topic • Re: LOLPRICE</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467019#p467019</link>
