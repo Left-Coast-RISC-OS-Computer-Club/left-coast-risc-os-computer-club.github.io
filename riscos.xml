@@ -7,10 +7,131 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>11 Oct 25 16:00 -0700</lastBuildDate>
+    <lastBuildDate>12 Oct 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.12</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>off-topic • Re: Multi Function Tester for under £20</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467274#p467274</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467274#p467274</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: SAVE THE DATE : ABUG South, October 17-19, 2025.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467273#p467273</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467273#p467273</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m2ynr6ejhc2x</link>
+      <description>
+        <![CDATA[This is pure gold. A who's who guide to the staff at Sinclair Research Limited, from 1984. Photos and details for everyone at the various offices around the UK. There's some great hairstyles and clothing - you have been warned!
+        https://www.sinclairql.net/downloads/1984-00_Who's_who_at_Sinclair-OCRed-SQPP.pdf]]>
+      </description>
+      <source:markdown>This is pure gold. A who&#39;s who guide to the staff at Sinclair Research Limited, from 1984. Photos and details for everyone at the various offices around the UK. There&#39;s some great hairstyles and clothing - you have been warned!
+https://www.sinclairql.net/downloads/1984-00\_Who&#39;s\_who\_at\_Sinclair-OCRed-SQPP.pdf</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m2ynr6ejhc2x</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m2ymyuaojs2x</link>
+      <description>
+        <![CDATA[This is a typical day at the office when you are a graphics programmer. 'Spammy polys' that need debugging to see what the heck has gone wrong with the shaders! Usually easy to track down if you have a decent GFX debugger / capture system.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>This is a typical day at the office when you are a graphics programmer. &#39;Spammy polys&#39; that need debugging to see what the heck has gone wrong with the shaders! Usually easy to track down if you have a decent GFX debugger / capture system.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m2ymyuaojs2x</guid>
+    </item>    <item>
+      <title>Fetching Failure</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20050</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve recently got an ebook reader and have been getting and reading a lot of free SF mags of the past from a specific site. However I&#8217;ve hit a barrier for some examples. Hope someone can check and advise&#8230;</p>
+        <p>The key example of the problem is shown here:</p>
+        <p><span class="caps">URL</span> is &#8220;<a href="http://www.luminist.org/archives/SF/">http://www.luminist.org/archives/SF/</a>#<span class="caps">FAR</span>&#8221;  (Note the hash symbol followed by &#8220;<span class="caps">FAR</span>&#8221; are part of the address.)</p>
+        <p>This offers some of the issues of the &#8220;Far Frontiers&#8221; magazines edited and produced by Jim Baen.</p>
+        <p>Note the way the site works is that there are two links per magazine. One for the content as a <span class="caps">PDF</span>. The other to download a jpeg of the cover. Depends on which you click over &#8211; the cover or the text link below it.</p>
+        <p>Both !Iris and !NetSurf will get these fine for all the issues hosted on the Luminist site.</p>
+        <p>Some issues have the content on google drives. My copy of !NetSurf can&#8217;t cope with that. But my copy of !Iris does.</p>
+        <p>However all but one of the issues of &#8220;Far Frontiers&#8221; are linked to an adobe site. Neither of my RO browsers will fetch these.</p>
+        <p>I just also tried a not-up-to-date copy of FireFox on Linux. That <strong>also</strong> fails to get anything from the adobe site. Just get a spinning wheel-of-running.</p>
+        <p>Anyone able to get these from RO? I&#8217;d much prefer that. I can upgrade to a newer !Iris, but as yet have no idea if that will work. If not, I&#8217;m happy to stay with the old version as it works fine for me for everything else I use it for. (So if no-one can help, I&#8217;ll just try getting the latest !Iris. But would prefer to spend the time getting things and reading them on the tablet. :-)</p>
+        <p><span class="caps">BTW</span> Wget works well on RO to get the files that are simply linked with being on the Lumist site. So that tends to be my first method as I can let that chug though getting issues whilst I do something else.  :-)  Shame I can&#8217;t get that to work for the google or adobe based examples.</p>
+        <p>Thanks</p>]]>
+      </description>
+      <source:markdown>I’ve recently got an ebook reader and have been getting and reading a lot of free SF mags of the past from a specific site. However I’ve hit a barrier for some examples. Hope someone can check and advise…
+
+The key example of the problem is shown here:
+
+URL is “ [http://www.luminist.org/archives/SF/](http://www.luminist.org/archives/SF/)#FAR” (Note the hash symbol followed by “FAR” are part of the address.)
+
+This offers some of the issues of the “Far Frontiers” magazines edited and produced by Jim Baen.
+
+Note the way the site works is that there are two links per magazine. One for the content as a PDF. The other to download a jpeg of the cover. Depends on which you click over – the cover or the text link below it.
+
+Both !Iris and !NetSurf will get these fine for all the issues hosted on the Luminist site.
+
+Some issues have the content on google drives. My copy of !NetSurf can’t cope with that. But my copy of !Iris does.
+
+However all but one of the issues of “Far Frontiers” are linked to an adobe site. Neither of my RO browsers will fetch these.
+
+I just also tried a not-up-to-date copy of FireFox on Linux. That **also** fails to get anything from the adobe site. Just get a spinning wheel-of-running.
+
+Anyone able to get these from RO? I’d much prefer that. I can upgrade to a newer !Iris, but as yet have no idea if that will work. If not, I’m happy to stay with the old version as it works fine for me for everything else I use it for. (So if no-one can help, I’ll just try getting the latest !Iris. But would prefer to spend the time getting things and reading them on the tablet. :-)
+
+BTW Wget works well on RO to get the files that are simply linked with being on the Lumist site. So that tends to be my first method as I can let that chug though getting issues whilst I do something else. :-) Shame I can’t get that to work for the google or adobe based examples.
+
+Thanks</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20050:159261</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: New Raspberry Pi to 1MHz bus interface</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467272#p467272</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467272#p467272</guid>
+    </item>    <item>
+      <title>miscellaneous new bbc and electron games • Re: FreeCell for the BBC and Electron</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467271#p467271</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467271#p467271</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3010 Podule Specification</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467270#p467270</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467270#p467270</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: New Raspberry Pi to 1MHz bus interface</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467269#p467269</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467269#p467269</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3010 Podule Specification</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467268#p467268</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467268#p467268</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3010 Podule Specification</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467267#p467267</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467267#p467267</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3010 Podule Specification</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467266#p467266</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467266#p467266</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Viglen Keypad</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467264#p467264</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467264#p467264</guid>
+    </item>    <item>
+      <title>RPCEmu 0.95 o Fedora KDE 42 is it possible to connect a Joystick</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20049</link>
+      <description>
+        <![CDATA[<p>I compiled RPCEmu 0.95 on my Ryzen 9 based desktop computer running Fedora <span class="caps">KDE</span> Plasma 42. I used <span class="caps">RISC</span> OS Open 1 GB Hard Disk 4 image and upgraded to Risc OS 5.30. I installed <span class="caps">ADFFS</span> and can run .jfd floppies. It&#8217;s been a really fun experience, and nearly all apps and games I have tried have worked well.<br />
+        I am trying to get a joystick setup, but looking on this forum I see no mention of joysticks, so I fear it may not be possible.</p>
+        <p>I know that on the <span class="caps">JASPP</span> Forums in their releases section there is something called USBJoystick, but I am unable to access the download the module despite becoming a member of the forum my privilleges still do not allow me to post nor access restricted download links.</p>
+        <p>I start RPCEmu with the following command rpcemu-recompiler -j /dev/input/js0 which should pass the joystick through to the emulator, and if I then had the USBJoystick module active it should be possible to use a joystick.</p>
+        <p>Or am I missing something &#8211; seems strange that nowhere on this forum do I see anything about joysticks and RPCEmu</p>]]>
+      </description>
+      <source:markdown>I compiled RPCEmu 0.95 on my Ryzen 9 based desktop computer running Fedora KDE Plasma 42. I used RISC OS Open 1 GB Hard Disk 4 image and upgraded to Risc OS 5.30. I installed ADFFS and can run .jfd floppies. It’s been a really fun experience, and nearly all apps and games I have tried have worked well.
+
+I am trying to get a joystick setup, but looking on this forum I see no mention of joysticks, so I fear it may not be possible.
+
+I know that on the JASPP Forums in their releases section there is something called USBJoystick, but I am unable to access the download the module despite becoming a member of the forum my privilleges still do not allow me to post nor access restricted download links.
+
+I start RPCEmu with the following command rpcemu-recompiler -j /dev/input/js0 which should pass the joystick through to the emulator, and if I then had the USBJoystick module active it should be possible to use a joystick.
+
+Or am I missing something – seems strange that nowhere on this forum do I see anything about joysticks and RPCEmu</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20049:159260</guid>
+    </item>    <item>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Two - DeathStar</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467250#p467250</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467250#p467250</guid>
@@ -683,9 +804,45 @@ This is why I get nothing done - I&#39;m too busy being annoyed.</source:markdow
       <source:markdown>@David P – that should be much better behaved now. Might need a forced reload to bypass any cached CSS.</source:markdown>
       <guid>cid://www.riscosopen.org:1:19743:159242</guid>
     </item>    <item>
+      <title>Learning BASIC</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20045</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>An Italian version of the ZX81 version of this book sidestepped the issue neatly :-</p>
+        <p><span class="caps">LET</span> <span class="caps">SOMMA</span> = <span class="caps">PRIMO</span> + <span class="caps">SECONDO</span></p>
+        </blockquote>
+        <p>Yeah we never had these type of issues, but then we had other types of issues, for example, when a book was not translated correctly, the info made not much sense or were missleading&#8230; quuaaazzyyy times they were!</p>]]>
+      </description>
+      <source:markdown>&#62; An Italian version of the ZX81 version of this book sidestepped the issue neatly :-
+&#62;
+&#62; LETSOMMA = PRIMO \+ SECONDO
+
+Yeah we never had these type of issues, but then we had other types of issues, for example, when a book was not translated correctly, the info made not much sense or were missleading… quuaaazzyyy times they were!</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20045:159241</guid>
+    </item>    <item>
       <title>8-bit acorn emulators • Re: B-Em</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467035#p467035</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467035#p467035</guid>
+    </item>    <item>
+      <title>ToolboxC++Lib Discussion</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
+      <description>
+        <![CDATA[<p>I assume you&#8217;re referring to: Events which are delivered by a Toolbox module will have codes which start at the <span class="caps">SWI</span> chunk base of the module&#8230;. 0&#215;40000 &#8211; 0&#215;9<span class="caps">FFFF</span>	Reserved for Toolbox module events</p>
+        <p>That range matches with the original <span class="caps">SWI</span> allocation text at: <a href="http://www.riscos.com/support/developers/prm/swis.html#57602">http://www.riscos.com/support/developers/prm/swis.html…</a></p>
+        <p>I vaguely recall Acorn increased the <span class="caps">SWI</span> allocation ranges as there was never any need for each OS to have unique <span class="caps">SWI</span> codes (eg. <span class="caps">RISC</span> OS vs RISCiX), and SWIs for user applications was a bizarre use-case.</p>
+        <p>The TextGadgets <span class="caps">SWI</span> base has bit 20 set, so according to the <span class="caps">PRM</span> shouldn&#8217;t be for <span class="caps">RISC</span> OS. Both the TextGadgets and ToolAction gadgets were written by Acorn NC (not <span class="caps">ART</span>), so it&#8217;s plausible bit 20 refers to that division, but I&#8217;d never spotted that before.</p>
+        <p>So, given they match the <span class="caps">SWI</span> chunk, I&#8217;d just assume &amp;40000 (to &amp;<span class="caps">FFFFFF</span>) upwards are Toolbox module events.</p>]]>
+      </description>
+      <source:markdown>I assume you’re referring to: Events which are delivered by a Toolbox module will have codes which start at the SWI chunk base of the module…. 0×40000 – 0×9FFFF Reserved for Toolbox module events
+
+That range matches with the original SWI allocation text at: [http://www.riscos.com/support/developers/prm/swis.html…](http://www.riscos.com/support/developers/prm/swis.html#57602)
+
+I vaguely recall Acorn increased the SWI allocation ranges as there was never any need for each OS to have unique SWI codes (eg. RISC OS vs RISCiX), and SWIs for user applications was a bizarre use-case.
+
+The TextGadgets SWI base has bit 20 set, so according to the PRM shouldn’t be for RISC OS. Both the TextGadgets and ToolAction gadgets were written by Acorn NC (not ART), so it’s plausible bit 20 refers to that division, but I’d never spotted that before.
+
+So, given they match the SWI chunk, I’d just assume &#38;40000 (to &#38;FFFFFF) upwards are Toolbox module events.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19910:159240</guid>
     </item>    <item>
       <title>8-bit acorn emulators • Re: B-Em</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467034#p467034</link>
@@ -722,52 +879,6 @@ This is why I get nothing done - I&#39;m too busy being annoyed.</source:markdow
       <title>miscellaneous new bbc and electron games • Re: Elite Compendium (BBC Micro + 16K SRAM) - the best Elite hacks, all in one place</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467026#p467026</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467026#p467026</guid>
-    </item>    <item>
-      <title>Learning BASIC</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20045</link>
-      <description>
-        <![CDATA[<p>Thanks all for the helpful replies. I&#8217;ve got StrongED and StrongHelp installed and running and am primarily thinking of full screen single tasking.</p>
-        <p>The Gerph examples look helpful for later and the links to other materials are much appreciated.</p>
-        <p>As for the Mac, the caps lock doesn&#8217;t seem to stick so it&#8217;s defaulting to lower case regardless. I will be putting 30 Hour <span class="caps">BASIC</span> to the bottom of the list :)</p>]]>
-      </description>
-      <source:markdown>Thanks all for the helpful replies. I’ve got StrongED and StrongHelp installed and running and am primarily thinking of full screen single tasking.
-
-The Gerph examples look helpful for later and the links to other materials are much appreciated.
-
-As for the Mac, the caps lock doesn’t seem to stick so it’s defaulting to lower case regardless. I will be putting 30 Hour BASIC to the bottom of the list :)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20045:159237</guid>
-    </item>    <item>
-      <title>ToolboxC++Lib Discussion</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
-      <description>
-        <![CDATA[<p>Just uploaded todays changes to GitHub. As suggested by @Piers, modifying the large switch/case block in ToolboxCoreObj, it now calls fewer methods which can be overloaded by the end user who then creates their own dispatch switch/case blocks to call their own overloaded methods. However, there is one pure virtual which the end user has to implement:<br />
-        void toolboxEventHandler(int event);</p>
-        <p>such as in the !MinProg example:<br />
-        void MinProg::toolboxEventHandler(int event) {<br />
-         event = event;<br />
-        }</p>
-        <p>I have had to bodge the ToolboxCoreObj event dispatcher a bit because the events for the ToolAction, ScrollList, TreeView and Tabs do not actually fall into the range for what would be ReservedToolboxModuleEvent, if anyone has a better list of allocations I would be able to sort that part of the code.</p>
-        <p>Still to do is the <span class="caps">WIMP</span> dispatcher to modify the code so there is a smaller switch/case block.</p>
-        <p>By the way, please don&#8217;t hold up the examples as good programming, I&#8217;m just using them to test the library code works.</p>]]>
-      </description>
-      <source:markdown>Just uploaded todays changes to GitHub. As suggested by @Piers, modifying the large switch/case block in ToolboxCoreObj, it now calls fewer methods which can be overloaded by the end user who then creates their own dispatch switch/case blocks to call their own overloaded methods. However, there is one pure virtual which the end user has to implement:
-
-void toolboxEventHandler(int event);
-
-such as in the !MinProg example:
-
-void MinProg::toolboxEventHandler(int event) {
-
-event = event;
-
-}
-
-I have had to bodge the ToolboxCoreObj event dispatcher a bit because the events for the ToolAction, ScrollList, TreeView and Tabs do not actually fall into the range for what would be ReservedToolboxModuleEvent, if anyone has a better list of allocations I would be able to sort that part of the code.
-
-Still to do is the WIMP dispatcher to modify the code so there is a smaller switch/case block.
-
-By the way, please don’t hold up the examples as good programming, I’m just using them to test the library code works.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19910:159235</guid>
     </item>    <item>
       <title>32-bit acorn hardware • Re: A5000 board photos WTD</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467025#p467025</link>
