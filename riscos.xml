@@ -7,10 +7,50 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>12 Oct 25 07:00 -0700</lastBuildDate>
+    <lastBuildDate>12 Oct 25 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.12</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Two - DeathStar</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467288#p467288</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467288#p467288</guid>
+    </item>    <item>
+      <title>communications • Re: the Night Owl BBS *Sun*</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467287#p467287</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467287#p467287</guid>
+    </item>    <item>
+      <title>32-bit acorn emulators • Arculator serial/network link for Chocks Away/Stunt Racer</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467286#p467286</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467286#p467286</guid>
+    </item>    <item>
+      <title>off-topic • Re: Multi Function Tester for under £20</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467285#p467285</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467285#p467285</guid>
+    </item>    <item>
+      <title>off-topic • Re: Fake ARMs</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467284#p467284</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467284#p467284</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B character flickering</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467283#p467283</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467283#p467283</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • ABUG Dev night #101, Thursday 16 October 2025, 19:30 BST</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467282#p467282</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467282#p467282</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Two - DeathStar</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467281#p467281</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467281#p467281</guid>
+    </item>    <item>
+      <title>off-topic • Re: Multi Function Tester for under £20</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467280#p467280</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467280#p467280</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B character flickering</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467279#p467279</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467279#p467279</guid>
+    </item>    <item>
       <title>off-topic • Re: Multi Function Tester for under £20</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467274#p467274</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467274#p467274</guid>
@@ -187,6 +227,17 @@ Or am I missing something – seems strange that nowhere on this forum do I see 
       <title>32-bit acorn hardware • Re: A3010 Joystick tester</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467234#p467234</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467234#p467234</guid>
+    </item>    <item>
+      <title>Learning BASIC</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20045</link>
+      <description>
+        <![CDATA[<p>Thanks David RE the variables tip.</p>
+        <p>I did look at what AI would suggest in learning <span class="caps">BBC</span> <span class="caps">BASIC</span> but found myself explaining / troubleshooting and referring back to the <span class="caps">BBC</span> <span class="caps">BASIC</span> Reference Manual at which point I realised it&#8217;s more than a reference book and I should really start there.</p>]]>
+      </description>
+      <source:markdown>Thanks David RE the variables tip.
+
+I did look at what AI would suggest in learning BBCBASIC but found myself explaining / troubleshooting and referring back to the BBCBASIC Reference Manual at which point I realised it’s more than a reference book and I should really start there.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20045:159259</guid>
     </item>    <item>
       <title>miscellaneous new bbc and electron games • Re: Epsilon Protocol</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467233#p467233</link>
@@ -796,6 +847,14 @@ This is why I get nothing done - I&#39;m too busy being annoyed.</source:markdow
       <source:markdown>Talk video is now available at https://www.youtube.com/watch?v=G2wxbdxIayE</source:markdown>
       <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13490&#38;page=1#125833</guid>
     </item>    <item>
+      <title>ToolboxC++Lib Discussion</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
+      <description>
+        <![CDATA[<p>Has been updated to the range 0&#215;40000 to 0xFFFFFF, thank you @Piers</p>]]>
+      </description>
+      <source:markdown>Has been updated to the range 0×40000 to 0xFFFFFF, thank you @Piers</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19910:159244</guid>
+    </item>    <item>
       <title>New site is live</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/19743</link>
       <description>
@@ -804,45 +863,9 @@ This is why I get nothing done - I&#39;m too busy being annoyed.</source:markdow
       <source:markdown>@David P – that should be much better behaved now. Might need a forced reload to bypass any cached CSS.</source:markdown>
       <guid>cid://www.riscosopen.org:1:19743:159242</guid>
     </item>    <item>
-      <title>Learning BASIC</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20045</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>An Italian version of the ZX81 version of this book sidestepped the issue neatly :-</p>
-        <p><span class="caps">LET</span> <span class="caps">SOMMA</span> = <span class="caps">PRIMO</span> + <span class="caps">SECONDO</span></p>
-        </blockquote>
-        <p>Yeah we never had these type of issues, but then we had other types of issues, for example, when a book was not translated correctly, the info made not much sense or were missleading&#8230; quuaaazzyyy times they were!</p>]]>
-      </description>
-      <source:markdown>&#62; An Italian version of the ZX81 version of this book sidestepped the issue neatly :-
-&#62;
-&#62; LETSOMMA = PRIMO \+ SECONDO
-
-Yeah we never had these type of issues, but then we had other types of issues, for example, when a book was not translated correctly, the info made not much sense or were missleading… quuaaazzyyy times they were!</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20045:159241</guid>
-    </item>    <item>
       <title>8-bit acorn emulators • Re: B-Em</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467035#p467035</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467035#p467035</guid>
-    </item>    <item>
-      <title>ToolboxC++Lib Discussion</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
-      <description>
-        <![CDATA[<p>I assume you&#8217;re referring to: Events which are delivered by a Toolbox module will have codes which start at the <span class="caps">SWI</span> chunk base of the module&#8230;. 0&#215;40000 &#8211; 0&#215;9<span class="caps">FFFF</span>	Reserved for Toolbox module events</p>
-        <p>That range matches with the original <span class="caps">SWI</span> allocation text at: <a href="http://www.riscos.com/support/developers/prm/swis.html#57602">http://www.riscos.com/support/developers/prm/swis.html…</a></p>
-        <p>I vaguely recall Acorn increased the <span class="caps">SWI</span> allocation ranges as there was never any need for each OS to have unique <span class="caps">SWI</span> codes (eg. <span class="caps">RISC</span> OS vs RISCiX), and SWIs for user applications was a bizarre use-case.</p>
-        <p>The TextGadgets <span class="caps">SWI</span> base has bit 20 set, so according to the <span class="caps">PRM</span> shouldn&#8217;t be for <span class="caps">RISC</span> OS. Both the TextGadgets and ToolAction gadgets were written by Acorn NC (not <span class="caps">ART</span>), so it&#8217;s plausible bit 20 refers to that division, but I&#8217;d never spotted that before.</p>
-        <p>So, given they match the <span class="caps">SWI</span> chunk, I&#8217;d just assume &amp;40000 (to &amp;<span class="caps">FFFFFF</span>) upwards are Toolbox module events.</p>]]>
-      </description>
-      <source:markdown>I assume you’re referring to: Events which are delivered by a Toolbox module will have codes which start at the SWI chunk base of the module…. 0×40000 – 0×9FFFF Reserved for Toolbox module events
-
-That range matches with the original SWI allocation text at: [http://www.riscos.com/support/developers/prm/swis.html…](http://www.riscos.com/support/developers/prm/swis.html#57602)
-
-I vaguely recall Acorn increased the SWI allocation ranges as there was never any need for each OS to have unique SWI codes (eg. RISC OS vs RISCiX), and SWIs for user applications was a bizarre use-case.
-
-The TextGadgets SWI base has bit 20 set, so according to the PRM shouldn’t be for RISC OS. Both the TextGadgets and ToolAction gadgets were written by Acorn NC (not ART), so it’s plausible bit 20 refers to that division, but I’d never spotted that before.
-
-So, given they match the SWI chunk, I’d just assume &#38;40000 (to &#38;FFFFFF) upwards are Toolbox module events.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19910:159240</guid>
     </item>    <item>
       <title>8-bit acorn emulators • Re: B-Em</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467034#p467034</link>
