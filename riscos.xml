@@ -7,10 +7,61 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>12 Oct 25 12:00 -0700</lastBuildDate>
+    <lastBuildDate>12 Oct 25 16:00 -0700</lastBuildDate>
     <generator>antenna/0.0.12</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>other vintage hardware, software and languages • Re: TI99/4a video modulator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467299#p467299</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467299#p467299</guid>
+    </item>    <item>
+      <title>miscellaneous new bbc and electron games • Re: FreeCell for the BBC and Electron</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467298#p467298</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467298#p467298</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • ADFS 1.53 doesn&#39;t check FS map checksum?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467297#p467297</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467297#p467297</guid>
+    </item>    <item>
+      <title>miscellaneous new bbc and electron games • Re: FreeCell for the BBC and Electron</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467296#p467296</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467296#p467296</guid>
+    </item>    <item>
+      <title>Compute Module 4 supported?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19993</link>
+      <description>
+        <![CDATA[<p>I built a CM4 8Gb ram, 16Gb eMMC, <span class="caps">WIFI</span>, 512Gb <span class="caps">NVME</span>, which runs RiscOS 5.30 , boots from <span class="caps">NVME</span>, uses the 8Gb ram kernel.</p>
+        <p>Runs really well.</p>]]>
+      </description>
+      <source:markdown>I built a CM4 8Gb ram, 16Gb eMMC, WIFI, 512Gb NVME, which runs RiscOS 5.30 , boots from NVME, uses the 8Gb ram kernel.
+
+Runs really well.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19993:159267</guid>
+    </item>    <item>
+      <title>other events + general event chat • Re: TNMoC Fixathon - Mac and Cheese (wedge) - 11th/12th October</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467295#p467295</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467295#p467295</guid>
+    </item>    <item>
+      <title>new projects in development: games • Re: Burger Time</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467294#p467294</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467294#p467294</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: SAVE THE DATE : ABUG South, October 17-19, 2025.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467293#p467293</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467293#p467293</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Two - DeathStar</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467292#p467292</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467292#p467292</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B character flickering</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467291#p467291</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467291#p467291</guid>
+    </item>    <item>
+      <title>new projects in development: games • Re: Burger Time</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467290#p467290</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467290#p467290</guid>
+    </item>    <item>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Two - DeathStar</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467288#p467288</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467288#p467288</guid>
@@ -858,10 +909,15 @@ This is why I get nothing done - I&#39;m too busy being annoyed.</source:markdow
       <title>New site is live</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/19743</link>
       <description>
-        <![CDATA[<p>@David P &#8211; that should be much better behaved now. Might need a forced reload to bypass any cached <span class="caps">CSS</span>.</p>]]>
+        <![CDATA[<blockquote>
+        <p>@David P – that should be much better behaved now.</p>
+        </blockquote>
+        <p>It is indeed fine now. Thanks.</p>]]>
       </description>
-      <source:markdown>@David P – that should be much better behaved now. Might need a forced reload to bypass any cached CSS.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:19743:159242</guid>
+      <source:markdown>&#62; @David P – that should be much better behaved now.
+
+It is indeed fine now. Thanks.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:19743:159243</guid>
     </item>    <item>
       <title>8-bit acorn emulators • Re: B-Em</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467035#p467035</link>
