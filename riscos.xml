@@ -7,10 +7,50 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>12 Oct 25 16:00 -0700</lastBuildDate>
+    <lastBuildDate>13 Oct 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.12</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: ARM1 versions / batches</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467324#p467324</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467324#p467324</guid>
+    </item>    <item>
+      <title>off-topic • JLCPCB finally defaulted &#38;quot;remove mark&#38;quot;</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467323#p467323</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467323#p467323</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Atom Reworked - Econet</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467322#p467322</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467322#p467322</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B character flickering</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467321#p467321</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467321#p467321</guid>
+    </item>    <item>
+      <title>32-bit acorn software: classic games • Re: Saloon Cars Deluxe Extra Courses Vol. 1</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467320#p467320</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467320#p467320</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Econet C18 capacitor fitted correctly?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467319#p467319</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467319#p467319</guid>
+    </item>    <item>
+      <title>new projects in development: games • Re: Kana Flash!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467318#p467318</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467318#p467318</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: It Lives...</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467317#p467317</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467317#p467317</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: PunyInform and Ozmoo</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467316#p467316</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467316#p467316</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: It Lives...</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467312#p467312</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467312#p467312</guid>
+    </item>    <item>
       <title>other vintage hardware, software and languages • Re: TI99/4a video modulator</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467299#p467299</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467299#p467299</guid>
@@ -814,6 +854,23 @@ As usual, if anyone wants to contribute to these, please speak up.</source:markd
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467091#p467091</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467091#p467091</guid>
     </item>    <item>
+      <title>ToolboxC++Lib Discussion</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
+      <description>
+        <![CDATA[<p>Thanks for the update.</p>
+        <p>My version of your example in C++ <span class="caps">DDE</span> with the source.<br />
+         <a href="http://jeanmichelb.riscos.fr/Temp/TBoxC++jm.zip">http://jeanmichelb.riscos.fr/Temp/TBoxC++jm.zip</a></p>
+        <p>The important thing for me is to build with the <span class="caps">DDE</span> using the toolbox and ResEd or WindEd. Doing it in C++ with CFront is possible.</p>]]>
+      </description>
+      <source:markdown>Thanks for the update.
+
+My version of your example in C++ DDE with the source.
+
+[http://jeanmichelb.riscos.fr/Temp/TBoxC++jm.zip](http://jeanmichelb.riscos.fr/Temp/TBoxC++jm.zip)
+
+The important thing for me is to build with the DDE using the toolbox and ResEd or WindEd. Doing it in C++ with CFront is possible.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19910:159245</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m2rkpk6f622a</link>
       <description>
         <![CDATA[One of my favourite consoles, the Hudson Soft / NEC PC-Engine! Known as the TurboGrafx-16 in North America where, for some reason, it was re-housed in a large, ugly dark coloured case! Games were sold on slim HuCard cartridges and also CD-ROM, if you purchased the external drive. R-Type was amazing!]]>
@@ -897,14 +954,6 @@ This is why I get nothing done - I&#39;m too busy being annoyed.</source:markdow
       </description>
       <source:markdown>Talk video is now available at https://www.youtube.com/watch?v=G2wxbdxIayE</source:markdown>
       <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13490&#38;page=1#125833</guid>
-    </item>    <item>
-      <title>ToolboxC++Lib Discussion</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
-      <description>
-        <![CDATA[<p>Has been updated to the range 0&#215;40000 to 0xFFFFFF, thank you @Piers</p>]]>
-      </description>
-      <source:markdown>Has been updated to the range 0×40000 to 0xFFFFFF, thank you @Piers</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19910:159244</guid>
     </item>    <item>
       <title>New site is live</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/19743</link>
