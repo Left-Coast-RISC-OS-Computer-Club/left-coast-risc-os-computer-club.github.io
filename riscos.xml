@@ -7,10 +7,72 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>16 Oct 25 07:00 -0700</lastBuildDate>
+    <lastBuildDate>16 Oct 25 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: Master Compact ROM layout</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467577#p467577</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467577#p467577</guid>
+    </item>    <item>
+      <title>communications • Re: the Night Owl BBS **Thurs**</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467576#p467576</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467576#p467576</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Master Compact ROM layout</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467575#p467575</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467575#p467575</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m3ddespjcc2j</link>
+      <description>
+        <![CDATA[Realising I have now reached the stage of attending retro events where I pack things *to give away* 😆]]>
+      </description>
+      <source:markdown>Realising I have now reached the stage of attending retro events where I pack things \*to give away\* 😆</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m3ddespjcc2j</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 repair Groan</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467574#p467574</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467574#p467574</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Three - AntiAir</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467573#p467573</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467573#p467573</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Two - DeathStar</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467572#p467572</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467572#p467572</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: ADFS 1.53 doesn&#39;t check FS map checksum?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467571#p467571</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467571#p467571</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Three - AntiAir</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467570#p467570</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467570#p467570</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m3daocwbi227</link>
+      <description>
+        <![CDATA[Yay! A RISC OS laptop that isn't an inch thick (unlike my other Dell). This one only has 4 cores though...
+        
+        Not that RISC OS would notice! 🤭
+        
+        [now to deploy AHK to fix the Fn-Menu keypress 😡]]]>
+      </description>
+      <source:markdown>Yay! A RISC OS laptop that isn&#39;t an inch thick (unlike my other Dell). This one only has 4 cores though...
+
+Not that RISC OS would notice! 🤭
+
+\[now to deploy AHK to fix the Fn-Menu keypress 😡\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m3daocwbi227</guid>
+    </item>    <item>
+      <title>software &#38;amp; utilities for the pc, mac or unix • Re: Greaseweazle / HFE Sanity Check</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467569#p467569</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467569#p467569</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: PiTubeDirect 2nd Processor External Case</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467568#p467568</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467568#p467568</guid>
+    </item>    <item>
       <title>32-bit acorn hardware • Re: A3000 repair Groan</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467555#p467555</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467555#p467555</guid>
@@ -880,6 +942,17 @@ RPCEmu is a hardware emulator of an Acorn Risc PC. Those machines didn’t come 
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467279#p467279</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467279#p467279</guid>
     </item>    <item>
+      <title>Fetching Failure</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20050</link>
+      <description>
+        <![CDATA[<p>It occurs to me to add:</p>
+        <p>When I can fetch from google drives the actual fetch of just one pdf can take half an hour as the bitrate is very low. Maybe when trying for the adobe I&#8217;m giving up too soon. I assumed that the whirling icon for ten mins or so meant &#8216;no cigar&#8217;. Maybe it <strong>is</strong> fetching the pdf but won&#8217;t show the result for a long time&#8230;</p>]]>
+      </description>
+      <source:markdown>It occurs to me to add:
+
+When I can fetch from google drives the actual fetch of just one pdf can take half an hour as the bitrate is very low. Maybe when trying for the adobe I’m giving up too soon. I assumed that the whirling icon for ten mins or so meant ‘no cigar’. Maybe it **is** fetching the pdf but won’t show the result for a long time…</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20050:159264</guid>
+    </item>    <item>
       <title>off-topic • Re: Multi Function Tester for under £20</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467274#p467274</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467274#p467274</guid>
@@ -887,30 +960,6 @@ RPCEmu is a hardware emulator of an Acorn Risc PC. Those machines didn’t come 
       <title>acorn &#38;amp; bbc micro user group (abug) events • Re: SAVE THE DATE : ABUG South, October 17-19, 2025.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467273#p467273</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467273#p467273</guid>
-    </item>    <item>
-      <title>Fetching Failure</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20050</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I’ve recently got an ebook reader [&#8230;]</p>
-        </blockquote>
-        <p>I think we had come to that conclusion.</p>
-        <blockquote>
-        <p>I just also tried a not-up-to-date copy of FireFox on Linux. That also fails to get anything from the adobe site. Just get a spinning wheel-of-running.</p>
-        </blockquote>
-        <p>I&#8217;ve just tried it on an up-to-date copy of Firefox on an up-to-date copy of Ubuntu, and it works fine. I get a spinning wheel, followed by a browser-based version of Adobe Reader to view the <span class="caps">PDF</span>. I can then download it as a <span class="caps">PDF</span> by clicking on the &#8220;&#8230;&#8221; menu and choosing &#8220;Download this file&#8221;.</p>
-        <p>Is there an aversion to using up-to-date versions of Firefox or Iris? I&#8217;d have to put some effort in to prevent Firefox from updating on this box.</p>]]>
-      </description>
-      <source:markdown>&#62; I’ve recently got an ebook reader \[…\]
-
-I think we had come to that conclusion.
-
-&#62; I just also tried a not-up-to-date copy of FireFox on Linux. That also fails to get anything from the adobe site. Just get a spinning wheel-of-running.
-
-I’ve just tried it on an up-to-date copy of Firefox on an up-to-date copy of Ubuntu, and it works fine. I get a spinning wheel, followed by a browser-based version of Adobe Reader to view the PDF. I can then download it as a PDF by clicking on the “…” menu and choosing “Download this file”.
-
-Is there an aversion to using up-to-date versions of Firefox or Iris? I’d have to put some effort in to prevent Firefox from updating on this box.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20050:159262</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m2ynr6ejhc2x</link>
       <description>
