@@ -7,10 +7,50 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>16 Oct 25 12:00 -0700</lastBuildDate>
+    <lastBuildDate>16 Oct 25 16:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>off-topic • Re: JLCPCB finally defaulted &#38;quot;remove mark&#38;quot;</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467599#p467599</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467599#p467599</guid>
+    </item>    <item>
+      <title>new projects in development: games • Re: Burger Time</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467598#p467598</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467598#p467598</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: SAVE THE DATE : ABUG South, October 17-19, 2025.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467597#p467597</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467597#p467597</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Hi from UK</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467596#p467596</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467596#p467596</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: SAVE THE DATE : ABUG South, October 17-19, 2025.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467595#p467595</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467595#p467595</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: B-Em Tape Overhaul v3 (SAVE support, autotests)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467594#p467594</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467594#p467594</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: SAVE THE DATE : ABUG South, October 17-19, 2025.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467593#p467593</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467593#p467593</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Hi from UK</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467592#p467592</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467592#p467592</guid>
+    </item>    <item>
+      <title>general • Doomsday Key Strips</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467591#p467591</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467591#p467591</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Hi from UK</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467590#p467590</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467590#p467590</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Master Compact ROM layout</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467577#p467577</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467577#p467577</guid>
@@ -945,13 +985,34 @@ RPCEmu is a hardware emulator of an Acorn Risc PC. Those machines didn’t come 
       <title>Fetching Failure</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20050</link>
       <description>
-        <![CDATA[<p>It occurs to me to add:</p>
-        <p>When I can fetch from google drives the actual fetch of just one pdf can take half an hour as the bitrate is very low. Maybe when trying for the adobe I&#8217;m giving up too soon. I assumed that the whirling icon for ten mins or so meant &#8216;no cigar&#8217;. Maybe it <strong>is</strong> fetching the pdf but won&#8217;t show the result for a long time&#8230;</p>]]>
+        <![CDATA[<blockquote>
+        <p><span class="caps">FWIW</span> my preference is to go on using RO and thus !Iris for this as I’ve already accumulated a lot on my RO box that way and have set things up there.</p>
+        </blockquote>
+        <p>I don&#8217;t have Iris, which is why I didn&#8217;t try that. Given the fact that I use Firefox on Linux for daily browsing, I will probably continue with that arrangement as I would prefer to keep Alignment Exceptions active on the <span class="caps">RISC</span> OS boxes that I use for development.</p>
+        <blockquote>
+        <p>Maybe the process shows a direct-fetch-the file URL…</p>
+        </blockquote>
+        <p>Given how much client-side stuff is happening after the initial <span class="caps">HTML</span> fetch, I doubt there&#8217;s much of a clue in the page sources. Just picking the Fall 1985 example, it goes off to visit <a href="https://acp-aep-cs-blobstore-prod-va6-data.adobe.io">https://acp-aep-cs-blobstore-prod-va6-data.adobe.io</a> and passes over 1,000 further characters as parameters on the <span class="caps">URL</span> tail. I got that from watching the traffic in the Network tab of the Firefox Inspector.</p>
+        <p>There&#8217;s a lot of session state getting passed around, so I doubt that you&#8217;ll be able to go there directly and say &#8220;I want <em>that</em> file&#8221;.</p>
+        <blockquote>
+        <p>As it is, fetching a file from the standard links can take half an hour per <span class="caps">PDF</span> file. The bitrate is quite slow.</p>
+        </blockquote>
+        <p>How fast is your internet connection? I&#8217;m on an ancient fibre connection (40Mb/s downstream), and the example that I downloaded from your site above took just over a minute all in. The subsequent <span class="caps">PDF</span> took around 15 seconds to download.</p>]]>
       </description>
-      <source:markdown>It occurs to me to add:
+      <source:markdown>&#62; FWIW my preference is to go on using RO and thus !Iris for this as I’ve already accumulated a lot on my RO box that way and have set things up there.
 
-When I can fetch from google drives the actual fetch of just one pdf can take half an hour as the bitrate is very low. Maybe when trying for the adobe I’m giving up too soon. I assumed that the whirling icon for ten mins or so meant ‘no cigar’. Maybe it **is** fetching the pdf but won’t show the result for a long time…</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20050:159264</guid>
+I don’t have Iris, which is why I didn’t try that. Given the fact that I use Firefox on Linux for daily browsing, I will probably continue with that arrangement as I would prefer to keep Alignment Exceptions active on the RISC OS boxes that I use for development.
+
+&#62; Maybe the process shows a direct-fetch-the file URL…
+
+Given how much client-side stuff is happening after the initial HTML fetch, I doubt there’s much of a clue in the page sources. Just picking the Fall 1985 example, it goes off to visit [https://acp-aep-cs-blobstore-prod-va6-data.adobe.io](https://acp-aep-cs-blobstore-prod-va6-data.adobe.io) and passes over 1,000 further characters as parameters on the URL tail. I got that from watching the traffic in the Network tab of the Firefox Inspector.
+
+There’s a lot of session state getting passed around, so I doubt that you’ll be able to go there directly and say “I want _that_ file”.
+
+&#62; As it is, fetching a file from the standard links can take half an hour per PDF file. The bitrate is quite slow.
+
+How fast is your internet connection? I’m on an ancient fibre connection (40Mb/s downstream), and the example that I downloaded from your site above took just over a minute all in. The subsequent PDF took around 15 seconds to download.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20050:159265</guid>
     </item>    <item>
       <title>off-topic • Re: Multi Function Tester for under £20</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467274#p467274</link>
