@@ -7,10 +7,126 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>19 Oct 25 12:00 -0700</lastBuildDate>
+    <lastBuildDate>19 Oct 25 16:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>modern implementations of classic programming languages • Re: Matrix Brandy BASIC VI for console and SDL1.2: V1.23.5 released</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467830#p467830</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467830#p467830</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: How to install Pi Econet Bridge software now that raspberrypi-kernel-headers doesn&#39;t exist?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467829#p467829</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467829#p467829</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Line jammed on econet (!FOZ! 2025)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467828#p467828</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467828#p467828</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: How to install Pi Econet Bridge software now that raspberrypi-kernel-headers doesn&#39;t exist?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467827#p467827</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467827#p467827</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: How to install Pi Econet Bridge software now that raspberrypi-kernel-headers doesn&#39;t exist?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467826#p467826</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467826#p467826</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: How to install Pi Econet Bridge software now that raspberrypi-kernel-headers doesn&#39;t exist?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467825#p467825</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467825#p467825</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: How to install Pi Econet Bridge software now that raspberrypi-kernel-headers doesn&#39;t exist?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467824#p467824</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467824#p467824</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: How to install Pi Econet Bridge software now that raspberrypi-kernel-headers doesn&#39;t exist?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467823#p467823</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467823#p467823</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: How to install Pi Econet Bridge software now that raspberrypi-kernel-headers doesn&#39;t exist?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467822#p467822</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467822#p467822</guid>
+    </item>    <item>
+      <title>software &#38;amp; utilities for the pc, mac or unix • Re: Greaseweazle / HFE Sanity Check</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467821#p467821</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467821#p467821</guid>
+    </item>    <item>
+      <title>Fireworkz Pro 2.33.00 released</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20059</link>
+      <description>
+        <![CDATA[<p>We are pleased to announce the release of Fireworkz Pro version 2.33.00 as a free upgrade for existing users of 2.3x series.  It is available to download now on !Store &#8211; look in your &#8220;My Software&#8221;.</p>
+        <p>The new version includes a number of changes including:</p>
+        <ul>
+        	<li>Improved load / save performance on modern systems (helpful on SD-based systems)</li>
+        </ul>
+        <ul>
+        	<li>VerityMono font (included) is used where monospaced fonts are presently used on systems that don&#8217;t have DejaVu Mono already present.  This improves on-screen presentation especially for older computers or those running vanilla <span class="caps">RISC</span> OS 5.</li>
+        </ul>
+        <ul>
+        	<li>No longer leaves hourglass on exit (thank goodness!)</li>
+        </ul>
+        <ul>
+        	<li>Improved documentation and example files &#8211; updated content, fixed links and extended function examples</li>
+        </ul>
+        <ul>
+        	<li>Correct handling of 2-colour toolbar sprites</li>
+        </ul>
+        <ul>
+        	<li>Built using latest tools for improved <span class="caps">SWI</span> performance, but still compatible with older systems</li>
+        </ul>
+        <p>Overall this new version should perform faster and look nicer than previous versons, whilst fixing some bugs.</p>
+        <p>Users who qualify for the update can download now on !Store.  We&#8217;ll also have CD versions (can be put on <span class="caps">USB</span> stick too, but bring your stick as we&#8217;ll only have larger ones for sale) at the London Show for people looking for physical copies.  Existing users can purchase the CD/physical edition for a very low cost making it an ideal show-trinket, whilst other folks can take advantage of show prices on upgrades/full copies.</p>
+        <p>Fireworkz Pro 2 is an office suite for <span class="caps">RISC</span> OS with word processor, spreadsheet and database facilities.  Its spreadsheet elements are particularly strong with Excel import/export.  Tabling facilities make it ideal for use with <span class="caps">DTP</span> packages like Impression/Ovation with data-driven &#8220;live&#8221; tables and charts.  Web/<span class="caps">HTML</span> export is also included as well as <span class="caps">PDF</span> facilities.</p>
+        <p>The software is supplied with several manuals and many examples, tutorials and reference files.</p>
+        <p>For more information, please look for it on !Store.</p>]]>
+      </description>
+      <source:markdown>We are pleased to announce the release of Fireworkz Pro version 2.33.00 as a free upgrade for existing users of 2.3x series. It is available to download now on !Store – look in your “My Software”.
+
+The new version includes a number of changes including:
+
+- Improved load / save performance on modern systems (helpful on SD-based systems)
+
+- VerityMono font (included) is used where monospaced fonts are presently used on systems that don’t have DejaVu Mono already present. This improves on-screen presentation especially for older computers or those running vanilla RISC OS 5.
+
+- No longer leaves hourglass on exit (thank goodness!)
+
+- Improved documentation and example files – updated content, fixed links and extended function examples
+
+- Correct handling of 2-colour toolbar sprites
+
+- Built using latest tools for improved SWI performance, but still compatible with older systems
+
+Overall this new version should perform faster and look nicer than previous versons, whilst fixing some bugs.
+
+Users who qualify for the update can download now on !Store. We’ll also have CD versions (can be put on USB stick too, but bring your stick as we’ll only have larger ones for sale) at the London Show for people looking for physical copies. Existing users can purchase the CD/physical edition for a very low cost making it an ideal show-trinket, whilst other folks can take advantage of show prices on upgrades/full copies.
+
+Fireworkz Pro 2 is an office suite for RISC OS with word processor, spreadsheet and database facilities. Its spreadsheet elements are particularly strong with Excel import/export. Tabling facilities make it ideal for use with DTP packages like Impression/Ovation with data-driven “live” tables and charts. Web/HTML export is also included as well as PDF facilities.
+
+The software is supplied with several manuals and many examples, tutorials and reference files.
+
+For more information, please look for it on !Store.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20059:159321</guid>
+    </item>    <item>
+      <title>Changing the tick button icon</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20058</link>
+      <description>
+        <![CDATA[<p>Hi All,</p>
+        <p>I am working on the user interface for my automatic saw, the code for the saw is working but I have a problem with the touch screen buttons.</p>
+        <p>I first used 2 buttons for the up and down motion of the blade and this worked but took up a lot of the 7&quot; screen so I want to use the option tick to toggle the state.  The problem I am having is how to get the button to show my icons.  I have loaded the icons into my own work space and set the icon pointers to reflect this but they do not show in the option button but they do in the standard buttons.  I have Sbladeup,bladedn set in the validation string instead of the standard Soptoff,opton but its not changing.</p>
+        <p>Is there something else I need to do to show my icons?</p>
+        <p>Thanks</p>]]>
+      </description>
+      <source:markdown>Hi All,
+
+I am working on the user interface for my automatic saw, the code for the saw is working but I have a problem with the touch screen buttons.
+
+I first used 2 buttons for the up and down motion of the blade and this worked but took up a lot of the 7&#34; screen so I want to use the option tick to toggle the state. The problem I am having is how to get the button to show my icons. I have loaded the icons into my own work space and set the icon pointers to reflect this but they do not show in the option button but they do in the standard buttons. I have Sbladeup,bladedn set in the validation string instead of the standard Soptoff,opton but its not changing.
+
+Is there something else I need to do to show my icons?
+
+Thanks</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20058:159314</guid>
+    </item>    <item>
       <title>8-bit acorn software: other • Re: PunyInform and Ozmoo</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467802#p467802</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467802#p467802</guid>
@@ -77,6 +193,17 @@ See [https://www.stevefryatt.org.uk/risc-os/games](https://www.stevefryatt.org.u
       <title>32-bit acorn hardware • Re: A5000 RAM control line failure</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467756#p467756</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467756#p467756</guid>
+    </item>    <item>
+      <title>Fetching Failure</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20050</link>
+      <description>
+        <![CDATA[<p>Afraid I&#8217;m not understanding the above sufficiently to understand how/why I can dodge pass this roadblock and download the files from Adobe using the RO browers or  wget. I&#8217;ve experimented, but no cigars! :-/ I did try the unpacked <span class="caps">URL</span> with wget, but again, nuffink..</p>
+        <p>That said, I&#8217;ve clearly lost from my mind (sic) quite a lot. A parallel to this is that I find when I open the Imperium zips the files ending with &#8220;\doc&#8221; get filetyped as &#8216;text&#8217; when I need them set to &#8220;msword&#8221; to load correctly into !TechWriter and have the markup enacted and any references to illusrations loaded into the TW display/output. I should know this, but then I&#8217;ve started to forget how much I&#8217;ve forgotten. Age&#8230;.  8-/&#8230;</p>]]>
+      </description>
+      <source:markdown>Afraid I’m not understanding the above sufficiently to understand how/why I can dodge pass this roadblock and download the files from Adobe using the RO browers or wget. I’ve experimented, but no cigars! :-/ I did try the unpacked URL with wget, but again, nuffink..
+
+That said, I’ve clearly lost from my mind (sic) quite a lot. A parallel to this is that I find when I open the Imperium zips the files ending with “\\doc” get filetyped as ‘text’ when I need them set to “msword” to load correctly into !TechWriter and have the markup enacted and any references to illusrations loaded into the TW display/output. I should know this, but then I’ve started to forget how much I’ve forgotten. Age…. 8-/…</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20050:159307</guid>
     </item>    <item>
       <title>Important travel update for the London Show</title>
       <link>https://www.riscository.com/2025/london-show-travel-update/</link>
@@ -752,32 +879,6 @@ Not that RISC OS would notice! 🤭
       <title>8-bit acorn hardware • Re: PiTubeDirect 2nd Processor External Case</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467568#p467568</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467568#p467568</guid>
-    </item>    <item>
-      <title>Fetching Failure</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20050</link>
-      <description>
-        <![CDATA[<p>I assume the above is with !Iris getting the &#8216;google&#8217; pdfs?</p>
-        <p>Sadly the current version of !Iris fails with the &#8216;adobe&#8217; files. And I&#8217;m working on processing files using my RO box. Alas, all I can understand about these is that the RO browsers can&#8217;t handle them&#8230;. which is a <span class="caps">PITA</span>.</p>
-        <p><span class="caps">FWIW</span> I found a webpage which offers zipped images of all the Baen Books <span class="caps">CDROMS</span> that freely offer <strong>lots</strong> of their books. Advantage here is that they are all vector text, not scans, and also come in a number of formats &#8211; usually inc word docs and rtfs.</p>
-        <p>Only puzzle there is that the files with a /doc extension show up as &#8216;Text&#8217;. I need to recall how to assign these as &#8216;msword&#8217; so TechWriter can load them without doing it &#8216;by hand&#8217; each time.</p>
-        <p>If anyone is interested in the Baen &#8217;free archive; you can find it here:</p>
-        <p><a href="https://baencd.thefifthimperium.com/">https://baencd.thefifthimperium.com/</a></p>
-        <p>Includes reprints of old material from &#8216;masters&#8217; of SF as well as the newer authors edited and published by JB.</p>]]>
-      </description>
-      <source:markdown>I assume the above is with !Iris getting the ‘google’ pdfs?
-
-Sadly the current version of !Iris fails with the ‘adobe’ files. And I’m working on processing files using my RO box. Alas, all I can understand about these is that the RO browsers can’t handle them…. which is a PITA.
-
-FWIW I found a webpage which offers zipped images of all the Baen Books CDROMS that freely offer **lots** of their books. Advantage here is that they are all vector text, not scans, and also come in a number of formats – usually inc word docs and rtfs.
-
-Only puzzle there is that the files with a /doc extension show up as ‘Text’. I need to recall how to assign these as ‘msword’ so TechWriter can load them without doing it ‘by hand’ each time.
-
-If anyone is interested in the Baen ’free archive; you can find it here:
-
-[https://baencd.thefifthimperium.com/](https://baencd.thefifthimperium.com/)
-
-Includes reprints of old material from ‘masters’ of SF as well as the newer authors edited and published by JB.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20050:159288</guid>
     </item>    <item>
       <title>32-bit acorn hardware • Re: A3000 repair Groan</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467555#p467555</link>
