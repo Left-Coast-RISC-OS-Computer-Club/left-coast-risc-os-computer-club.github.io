@@ -7,10 +7,61 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>19 Oct 25 07:00 -0700</lastBuildDate>
+    <lastBuildDate>19 Oct 25 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn software: other • Re: PunyInform and Ozmoo</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467802#p467802</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467802#p467802</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: [FINISHED] BOOKING THREAD: ABUG South 17-19 October 2025.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467801#p467801</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467801#p467801</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: SAVE THE DATE : ABUG South, October 17-19, 2025.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467800#p467800</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467800#p467800</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Hello from Stockport</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467799#p467799</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467799#p467799</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Hi from Wales</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467798#p467798</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467798#p467798</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Hei! from Oslo, Norway</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467797#p467797</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467797#p467797</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Hei! from Oslo, Norway</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467796#p467796</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467796#p467796</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Line jammed on econet (Now sorted)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467794#p467794</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467794#p467794</guid>
+    </item>    <item>
+      <title>programming • Disassembly of custom tape loader of Way of the Exploding Fist (Acorn Electron)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467793#p467793</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467793#p467793</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Greetings from Spain</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467792#p467792</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467792#p467792</guid>
+    </item>    <item>
+      <title>A Puzzling Addition to the Platform</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19172</link>
+      <description>
+        <![CDATA[<p>And there&#8217;s another new build of Puzzles (f24329d) up on my site. A few more bug fixes and minor tweaks to the <span class="caps">RISC</span> OS front-end, along with an update to the upstream code (which I believe is a fix to a bug in Palisade).</p>
+        <p>See <a href="https://www.stevefryatt.org.uk/risc-os/games">https://www.stevefryatt.org.uk/risc-os/games</a> for details.</p>]]>
+      </description>
+      <source:markdown>And there’s another new build of Puzzles (f24329d) up on my site. A few more bug fixes and minor tweaks to the RISC OS front-end, along with an update to the upstream code (which I believe is a fix to a bug in Palisade).
+
+See [https://www.stevefryatt.org.uk/risc-os/games](https://www.stevefryatt.org.uk/risc-os/games) for details.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:19172:159312</guid>
+    </item>    <item>
       <title>32-bit acorn hardware • Re: A3000 repair Groan</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467763#p467763</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467763#p467763</guid>
@@ -47,6 +98,14 @@ https://si-nk.itch.io/non-mewtonian-cat</source:markdown>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Three - AntiAir</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467755#p467755</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467755#p467755</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 19th October at 1pm.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20054</link>
+      <description>
+        <![CDATA[<p>Live coding in about 25 minutes, if anyone is interested!</p>]]>
+      </description>
+      <source:markdown>Live coding in about 25 minutes, if anyone is interested!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20054:159306</guid>
     </item>    <item>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Three - AntiAir</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467754#p467754</link>
@@ -795,61 +854,6 @@ On ROOL’s [Downloads page](https://www.riscosopen.org/content/downloads) in da
 
 ![](https://homepages.plus.net/pittdj/rool25/Wanda-dark-sm.png)</source:markdown>
       <guid>cid://www.riscosopen.org:1:19743:159286</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 19th October at 1pm.</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20054</link>
-      <description>
-        <![CDATA[<p>Hiya,</p>
-        <p>This Sunday – 19th October, at 1pm – I&#8217;m doing the live coding again, continuing with the SystemVars module.</p>
-        <p>Come along if you like – <a href="https://www.youtube.com/watch?v=YzZpQit8eVc?feature=share">https://www.youtube.com/watch?v=YzZpQit8eVc?feature=sh…</a><br />
-         – or you can always watch the video afterwards at the same address.</p>
-        <p>This week, I&#8217;ll be looking at adding the code variables and hooking into the `OS_*` SWIs.</p>
-        <hr />
-        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
-        <p>So far, the implementation has:</p>
-        <ul>
-        	<li><span class="caps">SWI</span> implementations in the module (as regular SWIs)</li>
-        	<li>Reading string, macro, and number variables through a <span class="caps">SWI</span>.</li>
-        	<li>Writing string, number, GSTrans and evaluated variables through a <span class="caps">SWI</span>.</li>
-        	<li>Enumeration and deletion of variables.</li>
-        	<li>Tests of the read/write process, both in the interface and the SWIs.</li>
-        	<li>Automatic builds and releases through the CI on GitHub.</li>
-        	<li>The module can be built and runs on 32-bit and 64-bit <span class="caps">RISC</span> OS.</li>
-        </ul>
-        <hr />
-        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube: <a href="https://www.youtube.com/watch?v=qLWrBmpvj5s&amp;list=PLVVIu906Y7rErDqQiC48sWdsrD-AeQ8wS">https://www.youtube.com/watch?v=qLWrBmpvj5s&amp;amp;list=P…</a></p>
-        <p>Or the sequence is also available linked from my presentations website: <a href="https://presentation.riscos.online/live/systemvars.html">https://presentation.riscos.online/live/systemvars.html</a></p>]]>
-      </description>
-      <source:markdown>Hiya,
-
-This Sunday – 19th October, at 1pm – I’m doing the live coding again, continuing with the SystemVars module.
-
-Come along if you like – [https://www.youtube.com/watch?v=YzZpQit8eVc?feature=sh…](https://www.youtube.com/watch?v=YzZpQit8eVc?feature=share)
-
-– or you can always watch the video afterwards at the same address.
-
-This week, I’ll be looking at adding the code variables and hooking into the \`OS\_\*\` SWIs.
-
-* * *
-
-For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
-
-So far, the implementation has:
-
-- SWI implementations in the module (as regular SWIs)
-- Reading string, macro, and number variables through a SWI.
-- Writing string, number, GSTrans and evaluated variables through a SWI.
-- Enumeration and deletion of variables.
-- Tests of the read/write process, both in the interface and the SWIs.
-- Automatic builds and releases through the CI on GitHub.
-- The module can be built and runs on 32-bit and 64-bit RISC OS.
-
-* * *
-
-If you want to watch the whole series, you can follow it through the playlist on YouTube: [https://www.youtube.com/watch?v=qLWrBmpvj5s&#38;amp;list=P…](https://www.youtube.com/watch?v=qLWrBmpvj5s&#38;list=PLVVIu906Y7rErDqQiC48sWdsrD-AeQ8wS)
-
-Or the sequence is also available linked from my presentations website: [https://presentation.riscos.online/live/systemvars.html](https://presentation.riscos.online/live/systemvars.html)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20054:159285</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: SpectROM - Speccy emulator for the Pi co-pro</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467525#p467525</link>
@@ -3080,41 +3084,6 @@ https://bsky.app/profile/computinghistory.org.uk/post/3m2cepagh722d
       </description>
       <source:markdown>The first line of the blurb and he seems to be suggesting the BBC itself got into a fight with Sinclair in order to launch their own computer literacy project. No mention of Acorn.</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m2gpryfqjc26</guid>
-    </item>    <item>
-      <title>A Puzzling Addition to the Platform</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/19172</link>
-      <description>
-        <![CDATA[<p>It wouldn&#8217;t be the run-up to a show without my doing some last-minute software development&#8230; so there&#8217;s yet another new test release of Puzzles (524c5af) up at <a href="https://www.stevefryatt.org.uk/risc-os/games">https://www.stevefryatt.org.uk/risc-os/games</a></p>
-        <p><img src="https://www.stevefryatt.org.uk/scrap/puzzles-save.png" alt="" /></p>
-        <p>This is finally getting close to what might become a &#8220;stable&#8221; release, and contains the following changes from the last one:</p>
-        <ul>
-        	<li>Support for loading and saving Puzzle files, allowing a game to be saved at any point with its complete history. These are cross-platform compatible with any other front-end that can save and load files.</li>
-        	<li>Support for copying many of the games to the clipboard in a textual format.</li>
-        	<li>Support for saving game preferences to disc as defaults for future sessions.</li>
-        	<li>Support for saving the contents of the game window out as a sprite.</li>
-        	<li>The addition of intermediate colours to the game window colour palette, which facilitates better font anti-aliasing (and also anti-aliasing of some of the line graphics if SpecialFX is loaded).</li>
-        	<li>An update to upstream e00cb46, from just under a fortnight ago.</li>
-        </ul>
-        <p>I <em>think</em> this gets us close to feature-parity with some of the other front-ends, in particular the <span class="caps">GTK</span> one for Linux.</p>
-        <p>As ever, you&#8217;re all the testers &#8211; so if no-one downloads a copy and tries it, I won&#8217;t know what I haven&#8217;t written correctly!</p>]]>
-      </description>
-      <source:markdown>It wouldn’t be the run-up to a show without my doing some last-minute software development… so there’s yet another new test release of Puzzles (524c5af) up at [https://www.stevefryatt.org.uk/risc-os/games](https://www.stevefryatt.org.uk/risc-os/games)
-
-![](https://www.stevefryatt.org.uk/scrap/puzzles-save.png)
-
-This is finally getting close to what might become a “stable” release, and contains the following changes from the last one:
-
-- Support for loading and saving Puzzle files, allowing a game to be saved at any point with its complete history. These are cross-platform compatible with any other front-end that can save and load files.
-- Support for copying many of the games to the clipboard in a textual format.
-- Support for saving game preferences to disc as defaults for future sessions.
-- Support for saving the contents of the game window out as a sprite.
-- The addition of intermediate colours to the game window colour palette, which facilitates better font anti-aliasing (and also anti-aliasing of some of the line graphics if SpecialFX is loaded).
-- An update to upstream e00cb46, from just under a fortnight ago.
-
-I _think_ this gets us close to feature-parity with some of the other front-ends, in particular the GTK one for Linux.
-
-As ever, you’re all the testers – so if no-one downloads a copy and tries it, I won’t know what I haven’t written correctly!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:19172:159191</guid>
     </item>    <item>
       <title>off-topic • Re: Capacitor selection</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=466742#p466742</link>
