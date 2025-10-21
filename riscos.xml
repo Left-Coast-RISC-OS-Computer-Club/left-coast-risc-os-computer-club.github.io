@@ -7,10 +7,65 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>21 Oct 25 12:00 -0700</lastBuildDate>
+    <lastBuildDate>21 Oct 25 16:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>32-bit acorn hardware • Re: Unipod and ADF10 or AEH52</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468086#p468086</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468086#p468086</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Risc PC 600 faulty</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468085#p468085</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468085#p468085</guid>
+    </item>    <item>
+      <title>archive requests • Re: Protected tapes and custom loaders (Electron)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468084#p468084</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468084#p468084</guid>
+    </item>    <item>
+      <title>archive requests • Re: Protected tapes and custom loaders (Electron)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468083#p468083</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468083#p468083</guid>
+    </item>    <item>
+      <title>archive requests • Re: Protected tapes and custom loaders (Electron)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468081#p468081</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468081#p468081</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: ! ! 3 1/2&#38;quot; PC Drive/s on a beeb ! !</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468080#p468080</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468080#p468080</guid>
+    </item>    <item>
+      <title>archive requests • Re: Protected tapes and custom loaders (Electron)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468079#p468079</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468079#p468079</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: ! ! 3 1/2&#38;quot; PC Drive/s on a beeb ! !</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468078#p468078</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468078#p468078</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Hello from Aberdeenshire, Scotland</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468077#p468077</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468077#p468077</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Hi from a Dinosaur!!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468072#p468072</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468072#p468072</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3m3q33i4oa22s</link>
+      <description>
+        <![CDATA[We're making the #RISC_OS case for wood!
+        
+        Or should that be 'we're making a wood case for RISC OS'...
+        
+        See them in the (tree) flesh on Saturday at the @rougol #riscoslondonshow2025 this Saturday.]]>
+      </description>
+      <source:markdown>We&#39;re making the #RISC\_OS case for wood!
+
+Or should that be &#39;we&#39;re making a wood case for RISC OS&#39;...
+
+See them in the (tree) flesh on Saturday at the @rougol #riscoslondonshow2025 this Saturday.</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3m3q33i4oa22s</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/riscosbits.co.uk/post/3m3pxxbfct22s</link>
       <description>
         <![CDATA[It's touch and go, but will we have a Pi9home (brew) ready to show at the #riscoslondonshow2025?
@@ -464,6 +519,42 @@ https://www.youtube.com/watch?v=eJVpYL44jUQ</source:markdown>
       <source:markdown>In the new issue of Archive Magazine, we sit down with none other than Hermann Hauser, the co-founder of Acorn Computers, for an exclusive interview. It&#39;s not too late to subscribe! www.archivemag.co.uk</source:markdown>
       <guid>cid://at://did:plc:3nemd4ccpca5uxluat5znw4s/app.bsky.feed.post/3m3mpurnjcc2u</guid>
     </item>    <item>
+      <title>URI Launch Sometimes Fails</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20056</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>It’s an interesting side-track</p>
+        </blockquote>
+        <p><strong>Sidetrack Alert</strong>, may or may not be interesting!</p>
+        <p>On the sidetrack I found that on a newly booted Pi, which does give Netsurf a boot, then double clicking on a saved <span class="caps">URI</span> file error&#8217;d with, &#8220;An application that loads a file of this type has not been found by the Filer. Open a directory display containing the required application and try again&#8221;. I did as instructed, opened the folder and to my minor surprise the <span class="caps">URI</span> file then did open its target in Netsurf. This is clearly impossible, why would rebooting Netsurf, which would not happen anyway because it was already booted, make any difference.</p>
+        <p>It turned out that FTPc, in the same directory as Netsurf but unbooted, loads the AcornURI module in its !Boot.</p>
+        <p>No real surprises then, the AcornURI module is needed to run a <span class="caps">URI</span> file.</p>
+        <p>The AcornURI module is 0.27.</p>]]>
+      </description>
+      <source:markdown>&#62; It’s an interesting side-track
+
+**Sidetrack Alert**, may or may not be interesting!
+
+On the sidetrack I found that on a newly booted Pi, which does give Netsurf a boot, then double clicking on a saved URI file error’d with, “An application that loads a file of this type has not been found by the Filer. Open a directory display containing the required application and try again”. I did as instructed, opened the folder and to my minor surprise the URI file then did open its target in Netsurf. This is clearly impossible, why would rebooting Netsurf, which would not happen anyway because it was already booted, make any difference.
+
+It turned out that FTPc, in the same directory as Netsurf but unbooted, loads the AcornURI module in its !Boot.
+
+No real surprises then, the AcornURI module is needed to run a URI file.
+
+The AcornURI module is 0.27.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20056:159324</guid>
+    </item>    <item>
+      <title>Changing the tick button icon</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20058</link>
+      <description>
+        <![CDATA[<p>It&#8217;s probably stating the obvious, but you need to set the sprite area in the window definition block (<code>winddef%!64</code> <span class="caps">IIRC</span>) before calling <strong>Wimp_CreateWindow</strong>.</p>
+        <p>+20, +24 and +28 are the pointer to the icon text buffer, the text buffer length, and the pointer to the validation string respectively.</p>]]>
+      </description>
+      <source:markdown>It’s probably stating the obvious, but you need to set the sprite area in the window definition block ( `winddef%!64` IIRC) before calling **Wimp\_CreateWindow**.
+
++20, +24 and +28 are the pointer to the icon text buffer, the text buffer length, and the pointer to the validation string respectively.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20058:159323</guid>
+    </item>    <item>
       <title>modern implementations of classic programming languages • Re: Matrix Brandy BASIC VI for console and SDL1.2: V1.23.5 released</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467830#p467830</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467830#p467830</guid>
@@ -495,17 +586,6 @@ https://www.youtube.com/watch?v=eJVpYL44jUQ</source:markdown>
       <title>econet and other acorn specific networking • Re: How to install Pi Econet Bridge software now that raspberrypi-kernel-headers doesn&#39;t exist?</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467823#p467823</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467823#p467823</guid>
-    </item>    <item>
-      <title>Changing the tick button icon</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20058</link>
-      <description>
-        <![CDATA[<p>I think I have done that but maybe I have missed a step as some of the sprites work but if its a indirected text &amp; sprite icon it has no sprites or text showing.  I can click in the space and it works but no clue its there.</p>
-        <p>I have been reading the sprite section of the <span class="caps">PRM</span> Vol3 but I do not understand what it needs for the icon data at +20, +24 &amp; +28 and where I get it from.</p>]]>
-      </description>
-      <source:markdown>I think I have done that but maybe I have missed a step as some of the sprites work but if its a indirected text &#38; sprite icon it has no sprites or text showing. I can click in the space and it works but no clue its there.
-
-I have been reading the sprite section of the PRM Vol3 but I do not understand what it needs for the icon data at +20, +24 &#38; +28 and where I get it from.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20058:159322</guid>
     </item>    <item>
       <title>econet and other acorn specific networking • Re: How to install Pi Econet Bridge software now that raspberrypi-kernel-headers doesn&#39;t exist?</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467822#p467822</link>
@@ -575,14 +655,6 @@ The software is supplied with several manuals and many examples, tutorials and r
 
 For more information, please look for it on !Store.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20059:159321</guid>
-    </item>    <item>
-      <title>URI Launch Sometimes Fails</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20056</link>
-      <description>
-        <![CDATA[<p>I bet many of us are using Christian Ludlam&#8217;s version.  I discovered that I was, so I&#8217;ve replaced it in my !System with the official one.</p>]]>
-      </description>
-      <source:markdown>I bet many of us are using Christian Ludlam’s version. I discovered that I was, so I’ve replaced it in my !System with the official one.</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20056:159318</guid>
     </item>    <item>
       <title>8-bit acorn software: other • Re: PunyInform and Ozmoo</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467802#p467802</link>
