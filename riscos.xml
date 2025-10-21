@@ -7,10 +7,178 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>20 Oct 25 16:00 -0700</lastBuildDate>
+    <lastBuildDate>21 Oct 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>32-bit acorn hardware • Re: Risc PC 600 faulty</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468032#p468032</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468032#p468032</guid>
+    </item>    <item>
+      <title>Subversion and RISC OS 4.39</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20063</link>
+      <description>
+        <![CDATA[<p>Silly me is trying to do some development on RO 4.39, using svn 1.6.23 from Packman.</p>
+        <p>Try as I may, I cannot get this system to remember my svn credentials for the repository being used, having to enter them on every single commit (unlike on RO 5).</p>]]>
+      </description>
+      <source:markdown>Silly me is trying to do some development on RO 4.39, using svn 1.6.23 from Packman.
+
+Try as I may, I cannot get this system to remember my svn credentials for the repository being used, having to enter them on every single commit (unlike on RO 5).</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20063:159338</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 repair Groan</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468031#p468031</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468031#p468031</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 repair Groan</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468030#p468030</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468030#p468030</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 repair Groan</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468029#p468029</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468029#p468029</guid>
+    </item>    <item>
+      <title>archive requests • Protected tapes and custom loaders (Electron)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468028#p468028</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468028#p468028</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 repair Groan</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468027#p468027</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468027#p468027</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 repair Groan</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468026#p468026</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468026#p468026</guid>
+    </item>    <item>
+      <title>archive requests • Re: Brilliant Games for your BBC Micro book</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468025#p468025</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468025#p468025</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B and Master - whats possible?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468024#p468024</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468024#p468024</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Risc PC 600 faulty</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468023#p468023</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468023#p468023</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m3p6c2a3k22g</link>
+      <description>
+        <![CDATA[Colleague appears to be eating what I can only describe as Onion Five Ways 🥴]]>
+      </description>
+      <source:markdown>Colleague appears to be eating what I can only describe as Onion Five Ways 🥴</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m3p6c2a3k22g</guid>
+    </item>    <item>
+      <title>New site is live</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19743</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>On ROOL’s Downloads page in dark mode the WandBoard icon goes very “liquid glass”.</p>
+        </blockquote>
+        <p>Black on black, that is, as illustrated above.</p>
+        <p>This issue just got weirder and weirder, the fault was with some browsers on some platforms but not all. Then some instances started to self clear!</p>
+        <p>It turned out to be associated with cacheing, a clearing out session has resolved the remaining issues.</p>
+        <p>(Page refreshes didn&#8217;t do it.)</p>]]>
+      </description>
+      <source:markdown>&#62; On ROOL’s Downloads page in dark mode the WandBoard icon goes very “liquid glass”.
+
+Black on black, that is, as illustrated above.
+
+This issue just got weirder and weirder, the fault was with some browsers on some platforms but not all. Then some instances started to self clear!
+
+It turned out to be associated with cacheing, a clearing out session has resolved the remaining issues.
+
+(Page refreshes didn’t do it.)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:19743:159337</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/archiveriscos.bsky.social/post/3m3ox7c4gsc2p</link>
+      <description>
+        <![CDATA[THIS SATURDAY! The RISC OS London Show is back, showcasing the latest products and projects, and providing a chance to meet up, chat, and attend talks about our favourite little OS. #opensource #acorn #raspberrypi www.riscoslondonshow.co.uk]]>
+      </description>
+      <source:markdown>THIS SATURDAY! The RISC OS London Show is back, showcasing the latest products and projects, and providing a chance to meet up, chat, and attend talks about our favourite little OS. #opensource #acorn #raspberrypi www.riscoslondonshow.co.uk</source:markdown>
+      <guid>cid://at://did:plc:3nemd4ccpca5uxluat5znw4s/app.bsky.feed.post/3m3ox7c4gsc2p</guid>
+    </item>    <item>
+      <title>October 2025 Rougol report - RISCOSbits show plans</title>
+      <link>http://www.iconbar.com/comments/rss/news2247.html</link>
+      <description>
+        <![CDATA[The October 2025 talk featured RISCOSbits supremo Andy Marks giving us a bit of a preview of their stall for Saturday's Show.]]>
+      </description>
+      <source:markdown>The October 2025 talk featured RISCOSbits supremo Andy Marks giving us a bit of a preview of their stall for Saturday&#39;s Show.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2247.html</guid>
+    </item>    <item>
+      <title>RISCOSbits at London 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20062</link>
+      <description>
+        <![CDATA[<p>We are pleased to announce that RISCOSbits will be exhibiting at the <span class="caps">RISC</span> OS London Show on Saturday, 25th October 2025. As a continuation of our commitment to providing high-quality, great value and innovative <span class="caps">RISC</span> OS systems, we’re bringing along a full range of new and improved products for users of all levels—from casual tinkerers to serious power users.</p>
+        <p>You’ll be able to get hands-on with our most advanced systems to date, including the blazingly fast <span class="caps">FIRE</span> systems with capacity for up to four full speed <span class="caps">SATA</span> SSDs (potentially 8TB of <span class="caps">RISC</span> OS format storage!), our sleek and compact <span class="caps">VENOM</span>, eNVY.Me and PiRO Qube NVMe machines.</p>
+        <p>You&#8217;ll also be able to get your hands on one of our new <span class="caps">FAST</span> NVMe XL systems, upgraded to 8GB of useable <span class="caps">RAM</span>! Good luck trying to use all that!</p>
+        <p><strong>The <span class="caps">DIY</span> Range</strong><br />
+        We’re also excited to show off our <span class="caps">DIY</span> product range &#8211; a collection of hands-on kits that let you build your very own <span class="caps">RISC</span> OS computer. Whether you’re a seasoned hardware builder or just fancy getting under the hood, there’s something here for you.</p>
+        <p>Our entry-level system offers a compact 85mm x 110mm design, powered by a 2GHz <span class="caps">CPU</span> and 2GB <span class="caps">RAM</span>, with 128GB NVMe storage and a 32GB SD card to run <span class="caps">RISC</span> OS from. It’s simple, snappy, and just £119 &#8211; a great way to get started.</p>
+        <p>For those who want a little more flexibility, our mid-range kit expands to a 140mm x 120mm footprint and includes a more versatile selection of ports, 32GB of eMMC storage, 128GB of NVMe storage and <span class="caps">USB</span>-C and barrel jack power options &#8211; ideal for more advanced projects, priced at £179.</p>
+        <p>At the top end of the range is our <span class="caps">DIY</span> powerhouse system, featuring a 2.2GHz <span class="caps">CPU</span>, 4GB <span class="caps">RAM</span>, 32GB eMMC, a 256GB NVMe drive, and a custom designed wooden case that you can finish and personalise yourself. It’s the ideal choice for users who want customisability without sacrificing power or style, available for £199.</p>
+        <p>All kits come with pre-configured software, essential components, clear instructions, and zero soldering required. Just add your own screwdriver &#8211; and maybe a cup of tea!</p>
+        <p>For more details, see our new website at <a href="http://www.riscosbits.co.uk">www.riscosbits.co.uk</a></p>
+        <p><strong>Showcases at <span class="caps">RISC</span> OS London</strong><br />
+        We’ll also be lifting the lid on two exciting new developments currently in the works. First up is a brand new dual-OS computer system, mini.<span class="caps">BOB</span>. This little beast synergises the best hardware elements of Linux and <span class="caps">RISC</span> OS into one seriously powerful unit, all within a tidy, ultra-small footprint case. If you&#8217;ve ever dreamed of a seamless crossover between two platforms in a compact and efficient package, this might just be it.</p>
+        <p>We’ll be demonstrating the results of our ongoing work in enhancing NVMe functionality across the <span class="caps">RISC</span> OS platform. Rather than just chasing numbers, we’ve been focusing on real-world usability and integration &#8211; from more reliable file handling and faster boot times to improved support for large storage volumes and smoother performance under pressure. At the show, you’ll be able to see how NVMe, when properly harnessed, makes <span class="caps">RISC</span> OS feel more modern, stable, and capable than ever before.</p>
+        <p>We&#8217;ll have our custom wood panelled <span class="caps">ITX</span> cases available to take away. In either 5 litre or 8 litre capacity, these beautiful little cases make your otherwise anonymous systems really stand out. Designed as a <span class="caps">DIY</span> kit, they come as both a fully matt acrylic case or one with wooden front and top panels, also adding a two port <span class="caps">USB</span> header converter. Ideal for CM4IO based systems.</p>
+        <p>And if you want a flash but quality keyboard for your <span class="caps">RISC</span> OS needs, we&#8217;ll have some on sale that will literally flash &#8211; if you ask them to!</p>
+        <p>With individually backlit near silent Cherry Red MX keys, you can emulate the Retro look of an A3000. And with a few keystrokes, an A3010!  That&#8217;s right, you can colour each individual key to whatever colour you want.</p>
+        <p>And, of course, we’ve got a couple of other developments we’ve been quietly refining in the background &#8211; ideas and innovations that have kept us excited at RISCOSbits HQ, and we can’t wait to share. Maybe even a throwback to 2005, &#8220;adjusted&#8221; for the modern 32bit world.</p>
+        <p>We&#8217;ll be showing off, for you to order on the day at special Show prices, our <span class="caps">ECOS</span> and ECOfile range of companion systems, to enhance your <span class="caps">RISC</span> OS experience by using the best of other OSes.</p>
+        <p>We’ll also have a selection of clearance stock at bargain prices, some lovely stickers and badges, also available at special low prices. Plus a few other decorative items that we&#8217;ll share in due course.</p>
+        <p>Whether you&#8217;re a long-time <span class="caps">RISC</span> OS veteran or completely new to the scene, the <span class="caps">RISC</span> OS London Show is the perfect opportunity to see the latest developments, chat with us, and explore what RISCOSbits has to offer. We’re excited to bring something for everyone—and we look forward to seeing you in Harrow!</p>]]>
+      </description>
+      <source:markdown>We are pleased to announce that RISCOSbits will be exhibiting at the RISC OS London Show on Saturday, 25th October 2025. As a continuation of our commitment to providing high-quality, great value and innovative RISC OS systems, we’re bringing along a full range of new and improved products for users of all levels—from casual tinkerers to serious power users.
+
+You’ll be able to get hands-on with our most advanced systems to date, including the blazingly fast FIRE systems with capacity for up to four full speed SATA SSDs (potentially 8TB of RISC OS format storage!), our sleek and compact VENOM, eNVY.Me and PiRO Qube NVMe machines.
+
+You’ll also be able to get your hands on one of our new FAST NVMe XL systems, upgraded to 8GB of useable RAM! Good luck trying to use all that!
+
+**The DIY Range**
+
+We’re also excited to show off our DIY product range – a collection of hands-on kits that let you build your very own RISC OS computer. Whether you’re a seasoned hardware builder or just fancy getting under the hood, there’s something here for you.
+
+Our entry-level system offers a compact 85mm x 110mm design, powered by a 2GHz CPU and 2GB RAM, with 128GB NVMe storage and a 32GB SD card to run RISC OS from. It’s simple, snappy, and just £119 – a great way to get started.
+
+For those who want a little more flexibility, our mid-range kit expands to a 140mm x 120mm footprint and includes a more versatile selection of ports, 32GB of eMMC storage, 128GB of NVMe storage and USB-C and barrel jack power options – ideal for more advanced projects, priced at £179.
+
+At the top end of the range is our DIY powerhouse system, featuring a 2.2GHz CPU, 4GB RAM, 32GB eMMC, a 256GB NVMe drive, and a custom designed wooden case that you can finish and personalise yourself. It’s the ideal choice for users who want customisability without sacrificing power or style, available for £199.
+
+All kits come with pre-configured software, essential components, clear instructions, and zero soldering required. Just add your own screwdriver – and maybe a cup of tea!
+
+For more details, see our new website at [www.riscosbits.co.uk](http://www.riscosbits.co.uk)
+
+**Showcases at RISC OS London**
+
+We’ll also be lifting the lid on two exciting new developments currently in the works. First up is a brand new dual-OS computer system, mini.BOB. This little beast synergises the best hardware elements of Linux and RISC OS into one seriously powerful unit, all within a tidy, ultra-small footprint case. If you’ve ever dreamed of a seamless crossover between two platforms in a compact and efficient package, this might just be it.
+
+We’ll be demonstrating the results of our ongoing work in enhancing NVMe functionality across the RISC OS platform. Rather than just chasing numbers, we’ve been focusing on real-world usability and integration – from more reliable file handling and faster boot times to improved support for large storage volumes and smoother performance under pressure. At the show, you’ll be able to see how NVMe, when properly harnessed, makes RISC OS feel more modern, stable, and capable than ever before.
+
+We’ll have our custom wood panelled ITX cases available to take away. In either 5 litre or 8 litre capacity, these beautiful little cases make your otherwise anonymous systems really stand out. Designed as a DIY kit, they come as both a fully matt acrylic case or one with wooden front and top panels, also adding a two port USB header converter. Ideal for CM4IO based systems.
+
+And if you want a flash but quality keyboard for your RISC OS needs, we’ll have some on sale that will literally flash – if you ask them to!
+
+With individually backlit near silent Cherry Red MX keys, you can emulate the Retro look of an A3000. And with a few keystrokes, an A3010! That’s right, you can colour each individual key to whatever colour you want.
+
+And, of course, we’ve got a couple of other developments we’ve been quietly refining in the background – ideas and innovations that have kept us excited at RISCOSbits HQ, and we can’t wait to share. Maybe even a throwback to 2005, “adjusted” for the modern 32bit world.
+
+We’ll be showing off, for you to order on the day at special Show prices, our ECOS and ECOfile range of companion systems, to enhance your RISC OS experience by using the best of other OSes.
+
+We’ll also have a selection of clearance stock at bargain prices, some lovely stickers and badges, also available at special low prices. Plus a few other decorative items that we’ll share in due course.
+
+Whether you’re a long-time RISC OS veteran or completely new to the scene, the RISC OS London Show is the perfect opportunity to see the latest developments, chat with us, and explore what RISCOSbits has to offer. We’re excited to bring something for everyone—and we look forward to seeing you in Harrow!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20062:159336</guid>
+    </item>    <item>
+      <title>RISCOSbits’ London treasure trove</title>
+      <link>https://www.riscository.com/2025/riscosbits-london-treasure-trove/</link>
+      <description>
+        <![CDATA[It&#8217;s now only a few more days until this year&#8217;s RISC OS London Show, which will take place on Saturday, 25th October, at the Harrow District Masonic Centre &#8211; and last night was the latest RISC OS User Group of London (ROUGOL) meeting, at which RISCOSbits gave us a teaser of what to expect from them at the show. So here&#8217;s a more detailed run down directly from the horse&#8217;s mouth RISCOSbits keyboard: We are pleased to announce that RISCOSbits will be exhibiting at the RISC OS London Show on&#8230;]]>
+      </description>
+      <source:markdown>It’s now only a few more days until this year’s RISC OS London Show, which will take place on Saturday, 25th October, at the Harrow District Masonic Centre – and last night was the latest RISC OS User Group of London (ROUGOL) meeting, at which RISCOSbits gave us a teaser of what to expect from them at the show. So here’s a more detailed run down directly from the horse’s mouth RISCOSbits keyboard: We are pleased to announce that RISCOSbits will be exhibiting at the RISC OS London Show on…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10744</guid>
+    </item>    <item>
       <title>8-bit acorn software: other • Re: Documentation Find &#38;quot;Nottinghamshire Schools&#39;&#38;quot; INFORM / INFILE 2</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467968#p467968</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467968#p467968</guid>
@@ -344,6 +512,25 @@ Is there something else I need to do to show my icons?
 Thanks</source:markdown>
       <guid>cid://www.riscosopen.org:11:20058:159314</guid>
     </item>    <item>
+      <title>URI Launch Sometimes Fails</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20056</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Correct, I was. I hadn’t even realised that there were two versions, to be honest. I’m now using 0.27 but, as you’ve guessed, it makes no difference.</p>
+        </blockquote>
+        <p>Apparently there are 3 versions then&#8230; <a href="https://gitlab.gerph.org/justin/uri">https://gitlab.gerph.org/justin/uri</a> &#8211; I implemented one based on draft 2 of the specification, I think after it was mentioned on Fido (I can&#8217;t see any discussion on csa.p or csa.n). <span class="caps">ISTR</span> that Carl said something like &#8220;I didn&#8217;t actually expect anyone to implement anything based on the proposal&#8221;.</p>
+        <p>I didn&#8217;t know there was another version &#8211; I thought that Acorn&#8217;s was the only one. Certainly, I&#8230; hang on&#8230; you said that it was <strong>1.04</strong> that you were referring to that was a problem? Mine was 1.04 when I last did anything with it, according to the source repo above, and according to the ReadMe, I explicitly call the <span class="caps">ANT</span> OpenURL&#8230;</p>
+        <p>Did the experimental, thrown together, very early on and abandoned version, get used by people?! But my module called itself <span class="caps">URI</span>, and according to my sources it explicitly had my name as the author&#8230;</p>]]>
+      </description>
+      <source:markdown>&#62; Correct, I was. I hadn’t even realised that there were two versions, to be honest. I’m now using 0.27 but, as you’ve guessed, it makes no difference.
+
+Apparently there are 3 versions then… [https://gitlab.gerph.org/justin/uri](https://gitlab.gerph.org/justin/uri) – I implemented one based on draft 2 of the specification, I think after it was mentioned on Fido (I can’t see any discussion on csa.p or csa.n). ISTR that Carl said something like “I didn’t actually expect anyone to implement anything based on the proposal”.
+
+I didn’t know there was another version – I thought that Acorn’s was the only one. Certainly, I… hang on… you said that it was **1.04** that you were referring to that was a problem? Mine was 1.04 when I last did anything with it, according to the source repo above, and according to the ReadMe, I explicitly call the ANT OpenURL…
+
+Did the experimental, thrown together, very early on and abandoned version, get used by people?! But my module called itself URI, and according to my sources it explicitly had my name as the author…</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20056:159313</guid>
+    </item>    <item>
       <title>8-bit acorn software: other • Re: PunyInform and Ozmoo</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467802#p467802</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467802#p467802</guid>
@@ -402,17 +589,6 @@ See [https://www.stevefryatt.org.uk/risc-os/games](https://www.stevefryatt.org.u
       </description>
       <source:markdown>Mostly good session. The OS\_\* SWIs were implemented (OS\_ReadVarVal and OS\_SetVarVal), and seem to be working ok. Error numbers were set properly, and code variables are now implemented. However, they’re only working in 32bit RISC OS. 64bit RISC OS has a different interface, which I’ve implemented, but quite apart from the code variables, I seem to be getting errors back oddly. I suspect that’s CMunge, but I’m not completely sure. I’m investigating.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20054:159311</guid>
-    </item>    <item>
-      <title>URI Launch Sometimes Fails</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20056</link>
-      <description>
-        <![CDATA[<p>When you double-click a file it first passes around a message &#8216;Message_DataOpen&#8217; to the apps that are running to see whether any of them acknowledge it with a &#8216;Message_LoadDataAck&#8217; message. If not, it then uses the run action for that file type and runs the relevant application with a note of the file that it should load.</p>
-        <p>Here there seems to be more than one app that is trying to handle this protocol.</p>]]>
-      </description>
-      <source:markdown>When you double-click a file it first passes around a message ‘Message\_DataOpen’ to the apps that are running to see whether any of them acknowledge it with a ‘Message\_LoadDataAck’ message. If not, it then uses the run action for that file type and runs the relevant application with a note of the file that it should load.
-
-Here there seems to be more than one app that is trying to handle this protocol.</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20056:159309</guid>
     </item>    <item>
       <title>32-bit acorn hardware • Re: A3000 repair Groan</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467763#p467763</link>
@@ -1138,25 +1314,6 @@ The photos really don&#39;t do it justice.
 #RISC\_OS
 #custombuild</source:markdown>
       <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3m3cjzgtz4c26</guid>
-    </item>    <item>
-      <title>New site is live</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/19743</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I could try to argue that it’s my take on “liquid glass” – illegible overlapping UIs are all the rage now</p>
-        </blockquote>
-        <p>Oops, another such opportunity.</p>
-        <p>On ROOL&#8217;s <a href="https://www.riscosopen.org/content/downloads">Downloads page</a> in dark mode the WandBoard icon goes very &#8220;liquid glass&#8221;.</p>
-        <p><img src="https://homepages.plus.net/pittdj/rool25/Wanda-dark-sm.png" alt="" /></p>]]>
-      </description>
-      <source:markdown>&#62; I could try to argue that it’s my take on “liquid glass” – illegible overlapping UIs are all the rage now
-
-Oops, another such opportunity.
-
-On ROOL’s [Downloads page](https://www.riscosopen.org/content/downloads) in dark mode the WandBoard icon goes very “liquid glass”.
-
-![](https://homepages.plus.net/pittdj/rool25/Wanda-dark-sm.png)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:19743:159286</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: SpectROM - Speccy emulator for the Pi co-pro</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467525#p467525</link>
