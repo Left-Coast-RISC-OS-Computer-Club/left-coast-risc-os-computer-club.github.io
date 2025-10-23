@@ -7,10 +7,261 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>22 Oct 25 16:00 -0700</lastBuildDate>
+    <lastBuildDate>23 Oct 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: Pi1MHz Software</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468216#p468216</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468216#p468216</guid>
+    </item>    <item>
+      <title>archive requests • Re: Protected tapes and custom loaders (Electron)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468215#p468215</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468215#p468215</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Repairing a basket-case A5000 - was A5000 board photos WTD</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468214#p468214</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468214#p468214</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m3uhie6eb22g</link>
+      <description>
+        <![CDATA[Picture Editor having fun at Editorial Editor's expense. 🤭
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Picture Editor having fun at Editorial Editor&#39;s expense. 🤭
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m3uhie6eb22g</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic adventure games • &#39;Unknown Dimension&#39; released for the BBC</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468213#p468213</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468213#p468213</guid>
+    </item>    <item>
+      <title>other events + general event chat • Re: RISC OS London Show, Sat 25th Oct 2025</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468212#p468212</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468212#p468212</guid>
+    </item>    <item>
+      <title>archive requests • Re: Protected tapes and custom loaders (Electron)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468211#p468211</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468211#p468211</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic adventure games • &#39;The Wrath of Anubis&#39; released for BBC</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468210#p468210</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468210#p468210</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic adventure games • &#39;Caribbean Treasure&#39; released for BBC</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468209#p468209</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468209#p468209</guid>
+    </item>    <item>
+      <title>PhotoDesk 3.25 released</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20065</link>
+      <description>
+        <![CDATA[<p>We are pleased to announce that version 3.25 of PhotoDesk is now available to download for existing users via !Store.</p>
+        <p>Following on from 3.24&#8217;s colossal number of changes, 3.25 is a much smaller affair, correcting a few things that slipped through and have been reported since:</p>
+        <ul>
+        	<li>&#8220;click_in_rotate&#8221; routine called &#8220;click_in_draw&#8221; with the incorrect number of paramters.  Now fixed.</li>
+        </ul>
+        <ul>
+        	<li>Resize and Rotate functions had Bi-cubic and Bi-linear modes swapped.  Expected operation has been restored.</li>
+        </ul>
+        <ul>
+        	<li><span class="caps">PNG</span> files were being saved without compression, leading to very large files.  Since <span class="caps">PNG</span> compression is lossless, this was not sensible, so PNGs are now compressed as you&#8217;d expect.</li>
+        </ul>
+        <p>The update is available as a free download for anyone who purchased the <span class="caps">XAT</span> edition (3.18+) of PhotoDesk some years ago.</p>
+        <p>We will have a number of fresh CDs with 3.25 on at the London Show this weekend.  We offer them as very low cost &#8220;stocking stuffers&#8221; for existing users.  The CDs contain extra software (3.25 adds Chris Terran&#8217;s GradGrind palette editor designed for use with PhotoDesk) that wouldn&#8217;t fit in the regular download, plus extras like full sets of example images and documentation etc.</p>
+        <p>If you don&#8217;t have a CD drive, bring a <span class="caps">USB</span> stick (we do sell them, but they tend to be larger ones) and we&#8217;ll copy the CD contents onto the stick for you.</p>
+        <p>Best wishes,</p>
+        <p>Andrew</p>]]>
+      </description>
+      <source:markdown>We are pleased to announce that version 3.25 of PhotoDesk is now available to download for existing users via !Store.
+
+Following on from 3.24’s colossal number of changes, 3.25 is a much smaller affair, correcting a few things that slipped through and have been reported since:
+
+- “click\_in\_rotate” routine called “click\_in\_draw” with the incorrect number of paramters. Now fixed.
+
+- Resize and Rotate functions had Bi-cubic and Bi-linear modes swapped. Expected operation has been restored.
+
+- PNG files were being saved without compression, leading to very large files. Since PNG compression is lossless, this was not sensible, so PNGs are now compressed as you’d expect.
+
+The update is available as a free download for anyone who purchased the XAT edition (3.18+) of PhotoDesk some years ago.
+
+We will have a number of fresh CDs with 3.25 on at the London Show this weekend. We offer them as very low cost “stocking stuffers” for existing users. The CDs contain extra software (3.25 adds Chris Terran’s GradGrind palette editor designed for use with PhotoDesk) that wouldn’t fit in the regular download, plus extras like full sets of example images and documentation etc.
+
+If you don’t have a CD drive, bring a USB stick (we do sell them, but they tend to be larger ones) and we’ll copy the CD contents onto the stick for you.
+
+Best wishes,
+
+Andrew</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20065:159358</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic adventure games • Announcing The BDB Project</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468208#p468208</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468208#p468208</guid>
+    </item>    <item>
+      <title>RISC OS Developments at London Show (inc Iris download instructions)</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20064</link>
+      <description>
+        <![CDATA[<p>Lots of <span class="caps">RISC</span> OS Developments news ahead of the London Show this weekend.  Please note that not all downloads will be live until the weekend, although the PackMan Iris server should be up and running already.</p>
+        <p>Iris Releases via PackMan<br />
+        =-=-=-=-=-=-=-=-=-=-=-=-=</p>
+        <p>The Spring and Summer saw multiple beta releases of Iris as we worked hard towards producing a more public release this Autumn.  Whilst nothing is ever as &#8220;finished&#8221; and &#8220;polished&#8221; as we&#8217;d like, we feel that Iris is now at a point where is provides a much more viable web browsing experience for <span class="caps">RISC</span> OS than was previously possible.</p>
+        <p>If you would like to try installing Iris via PackMan right now, instructions follow:</p>
+        <ul>
+        	<li>1) Load !PackMan from your Apps folder, and make sure you install any updated packages it tells you about.</li>
+        </ul>
+        <ul>
+        	<li>2) Check PackMan&#8217;s version number from its iconbar menu Info window.  It should read 0.98 beta.  If not, please quit and re-run it.  If you have installed the updates mentioned in 1) you should now be on 0.98 beta.</li>
+        </ul>
+        <ul>
+        	<li>3) From the PackMan iconbar menu, go to Advanced&#8594;Sources</li>
+        </ul>
+        Add the new <span class="caps">RISC</span> OS Developments package repository:
+        <ul>
+        	<li><a href="http://packages.riscosdev.com/pkg/autobuilt">http://packages.riscosdev.com/pkg/autobuilt</a></li>
+        </ul>
+        Also, make sure the default package repositories are installed, in particular:
+        <ul>
+        	<li><a href="http://packages.riscosopen.org/packages/pkg/programs-armv5">http://packages.riscosopen.org/packages/pkg/programs-a…</a></li>
+        </ul>
+        Tick &#8220;Refresh package lists&#8221; then Save.
+        <ul>
+        	<li>4) Now, assuming you&#8217;re on a machine capable of running Iris (an ARMv7 compliant machine ie. Pi 2 onwards), when you look in the pacakage list, you should find Iris list.</li>
+        </ul>
+        <p>Double click on it to install, then follow the screens through to install the Iris program and all its component parts (there are a lot of them).</p>
+        <p>Iris will be installed into Apps.Network folder although you can change this or move it around.</p>
+        <ul>
+        	<li>5) We recommend rebooting before using Iris in case any older module versions are still around.</li>
+        </ul>
+        <p>The first time you open Iris, it may take a bit longer to open its main window because it will be generating font indexes and cache files.  Future runs should open more quickly.</p>
+        <p>We&#8217;d like to thank Chris Gransden for his help with packaging Iris, and as always, Lee Noar for his development work.</p>
+        <p><span class="caps">RISC</span> OS Direct for Pi5<br />
+        =-=-=-=-=-=-=-=-=-=-=-</p>
+        <p>This builds on the great work of the <span class="caps">RISC</span> OS for Linux team (Timothy Baldwin and Jan Rinze) to produce a version of <span class="caps">RISC</span> OS Direct capable of running on a Pi5 system.  Because <span class="caps">RISC</span> OS doesn&#8217;t support the Pi5 <span class="caps">CPU</span> directly, this is achieved as an &#8220;application&#8221; on top of Linux, although as benchmarks attest, most code is run natively for very high performance.</p>
+        <p>The <span class="caps">RISC</span> OS Direct distribution includes many popular applications and important assets such as compatible monitor definitions and working network configurations, to allow most <span class="caps">RISC</span> OS applications to run as expected, including network apps like NetSurf, !Store and more.</p>
+        <p>The main limitations are that there is presently no sound support (which limits gaming options) and lack of ARMv7 support for Iris.</p>
+        <p>Wifi and <span class="caps">TCP</span>/IP<br />
+        =-=-=-=-==-=-=-</p>
+        <p>Check the <span class="caps">RISC</span> OS Developments website &#8211; there will be a new release around the time of the show, with fixes, improvements and some performance enhancements.</p>
+        <p>Ethernet-based filing system<br />
+        =-=-=-=-=-==-=-=-=-=-=-=-=-=</p>
+        <p>This is a by-product of another commercial project, but may be useful to some <span class="caps">RISC</span> OS users.  The project allows a Filecore (ie. <span class="caps">RISC</span> OS native) drive to exist on a network-connected device (eg. a Pi with <span class="caps">RAID</span> array).  The host system for the filecore partition is largely academic &#8211; as long as it exists on an accessible network, a <span class="caps">RISC</span> OS computer can access it.</p>
+        <p>As a demo, a filecore partition was hosted in one part of the country on a server, and accessed securely from a client computer several hundred miles away.  Amazingly performance for the database software using this was very  similar to running natively, but with the benefits of <span class="caps">RAID</span> and encryption.</p>
+        <p>Traditionally, network drives on <span class="caps">RISC</span> OS have been based on other filing systems and used protocols such as <span class="caps">SMB</span> for transport.  This project allows for secure &#8220;native&#8221; network drives.</p>
+        <p>The software was built on the open source BlockDevices platform which significantly shortened development time, allowing this work to be up and running quickly.  It also benefits from ROD&#8217;s CacheFS disc/memory cache system.</p>
+        <p>For more info, chat with Richard or Andy V on the <span class="caps">ROD</span> stand at the show.</p>
+        <p><span class="caps">RISC</span> OS Devs GitLab now live<br />
+        =-=-=-=-=-=-=-=-=-=-=-=-=-=-</p>
+        <p>The source code for many <span class="caps">ROD</span> projects is now live online at <a href="https://gitlab.riscosdev.com/">https://gitlab.riscosdev.com/</a></p>
+        <p>Click &#8220;Explore&#8221; at the bottom of that page to view the source.  If you&#8217;d like to contribute, please contact us via email to set things in motion.</p>]]>
+      </description>
+      <source:markdown>Lots of RISC OS Developments news ahead of the London Show this weekend. Please note that not all downloads will be live until the weekend, although the PackMan Iris server should be up and running already.
+
+Iris Releases via PackMan
+
+=-=-=-=-=-=-=-=-=-=-=-=-=
+
+The Spring and Summer saw multiple beta releases of Iris as we worked hard towards producing a more public release this Autumn. Whilst nothing is ever as “finished” and “polished” as we’d like, we feel that Iris is now at a point where is provides a much more viable web browsing experience for RISC OS than was previously possible.
+
+If you would like to try installing Iris via PackMan right now, instructions follow:
+
+- 1) Load !PackMan from your Apps folder, and make sure you install any updated packages it tells you about.
+
+- 2) Check PackMan’s version number from its iconbar menu Info window. It should read 0.98 beta. If not, please quit and re-run it. If you have installed the updates mentioned in 1) you should now be on 0.98 beta.
+
+- 3) From the PackMan iconbar menu, go to Advanced→Sources
+
+Add the new RISC OS Developments package repository:
+
+- [http://packages.riscosdev.com/pkg/autobuilt](http://packages.riscosdev.com/pkg/autobuilt)
+
+Also, make sure the default package repositories are installed, in particular:
+
+- [http://packages.riscosopen.org/packages/pkg/programs-a…](http://packages.riscosopen.org/packages/pkg/programs-armv5)
+
+Tick “Refresh package lists” then Save.
+
+- 4) Now, assuming you’re on a machine capable of running Iris (an ARMv7 compliant machine ie. Pi 2 onwards), when you look in the pacakage list, you should find Iris list.
+
+Double click on it to install, then follow the screens through to install the Iris program and all its component parts (there are a lot of them).
+
+Iris will be installed into Apps.Network folder although you can change this or move it around.
+
+- 5) We recommend rebooting before using Iris in case any older module versions are still around.
+
+The first time you open Iris, it may take a bit longer to open its main window because it will be generating font indexes and cache files. Future runs should open more quickly.
+
+We’d like to thank Chris Gransden for his help with packaging Iris, and as always, Lee Noar for his development work.
+
+RISC OS Direct for Pi5
+
+=-=-=-=-=-=-=-=-=-=-=-
+
+This builds on the great work of the RISC OS for Linux team (Timothy Baldwin and Jan Rinze) to produce a version of RISC OS Direct capable of running on a Pi5 system. Because RISC OS doesn’t support the Pi5 CPU directly, this is achieved as an “application” on top of Linux, although as benchmarks attest, most code is run natively for very high performance.
+
+The RISC OS Direct distribution includes many popular applications and important assets such as compatible monitor definitions and working network configurations, to allow most RISC OS applications to run as expected, including network apps like NetSurf, !Store and more.
+
+The main limitations are that there is presently no sound support (which limits gaming options) and lack of ARMv7 support for Iris.
+
+Wifi and TCP/IP
+
+=-=-=-=-==-=-=-
+
+Check the RISC OS Developments website – there will be a new release around the time of the show, with fixes, improvements and some performance enhancements.
+
+Ethernet-based filing system
+
+=-=-=-=-=-==-=-=-=-=-=-=-=-=
+
+This is a by-product of another commercial project, but may be useful to some RISC OS users. The project allows a Filecore (ie. RISC OS native) drive to exist on a network-connected device (eg. a Pi with RAID array). The host system for the filecore partition is largely academic – as long as it exists on an accessible network, a RISC OS computer can access it.
+
+As a demo, a filecore partition was hosted in one part of the country on a server, and accessed securely from a client computer several hundred miles away. Amazingly performance for the database software using this was very similar to running natively, but with the benefits of RAID and encryption.
+
+Traditionally, network drives on RISC OS have been based on other filing systems and used protocols such as SMB for transport. This project allows for secure “native” network drives.
+
+The software was built on the open source BlockDevices platform which significantly shortened development time, allowing this work to be up and running quickly. It also benefits from ROD’s CacheFS disc/memory cache system.
+
+For more info, chat with Richard or Andy V on the ROD stand at the show.
+
+RISC OS Devs GitLab now live
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+The source code for many ROD projects is now live online at [https://gitlab.riscosdev.com/](https://gitlab.riscosdev.com/)
+
+Click “Explore” at the bottom of that page to view the source. If you’d like to contribute, please contact us via email to set things in motion.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20064:159357</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Unipod and ADF10 or AEH52</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468207#p468207</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468207#p468207</guid>
+    </item>    <item>
+      <title>RISC OS Developments London Show news – including a public Iris release</title>
+      <link>https://www.riscository.com/2025/risc-os-dev-london-show-iris-release/</link>
+      <description>
+        <![CDATA[With this year&#8217;s London Show drawing ever nearer &#8211; the doors will be open to the public in just two days on 25th October, at the Harrow District Masonic Centre &#8211; another announcement has landed in the RISCOSitory bunker, and, amongst other interesting news, this one includes something we&#8217;ve all been eagerly awaiting for a very long time: a public release of web browser Iris from RISC OS Developments. Over to Andrew Rawnsley for all the gory details: Iris Releases via PackMan The Spring and Summer saw multiple beta releases&#8230;]]>
+      </description>
+      <source:markdown>With this year’s London Show drawing ever nearer – the doors will be open to the public in just two days on 25th October, at the Harrow District Masonic Centre – another announcement has landed in the RISCOSitory bunker, and, amongst other interesting news, this one includes something we’ve all been eagerly awaiting for a very long time: a public release of web browser Iris from RISC OS Developments. Over to Andrew Rawnsley for all the gory details: Iris Releases via PackMan The Spring and Summer saw multiple beta releases…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10771</guid>
+    </item>    <item>
+      <title>London Show, Sat 25th October 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
+      <description>
+        <![CDATA[<p>We now have seven topics in the theatre to squeeze in. First talk will be at 11:30 so get to the show early.</p>
+        <p>Just two days to go!</p>]]>
+      </description>
+      <source:markdown>We now have seven topics in the theatre to squeeze in. First talk will be at 11:30 so get to the show early.
+
+Just two days to go!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20020:159353</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m3syv3nfyk2g</link>
+      <description>
+        <![CDATA[Well, I can now safely remove "Alien Earth" from my muted words list! What a great show, quite possibly the best thing to be made in the Alien universe since the first two movies. And with much of the beautiful aesthetic of the original, which pleased me greatly.]]>
+      </description>
+      <source:markdown>Well, I can now safely remove &#34;Alien Earth&#34; from my muted words list! What a great show, quite possibly the best thing to be made in the Alien universe since the first two movies. And with much of the beautiful aesthetic of the original, which pleased me greatly.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m3syv3nfyk2g</guid>
+    </item>    <item>
       <title>miscellaneous new bbc and electron games • Re: FreeCell for the BBC and Electron</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468178#p468178</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468178#p468178</guid>
@@ -30,6 +281,14 @@
       <title>8-bit acorn software: other • Re: Updated Master MOS versions</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468174#p468174</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468174#p468174</guid>
+    </item>    <item>
+      <title>Archive Magazine Oct/Nov 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20055</link>
+      <description>
+        <![CDATA[<p>The <span class="caps">PDF</span> arrived fine on 17 Oct but no sign of the printed magazine yet (22 Oct). Another fine issue though.</p>]]>
+      </description>
+      <source:markdown>The PDF arrived fine on 17 Oct but no sign of the printed magazine yet (22 Oct). Another fine issue though.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20055:159350</guid>
     </item>    <item>
       <title>32-bit acorn hardware • Re: Is there anyone in the UK that will repair an A5000</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468173#p468173</link>
@@ -268,6 +527,14 @@ Or should that be &#39;we&#39;re making a wood case for RISC OS&#39;...
 See them in the (tree) flesh on Saturday at the @rougol #riscoslondonshow2025 this Saturday.</source:markdown>
       <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3m3q33i4oa22s</guid>
     </item>    <item>
+      <title>RO5.30 Why is SVC Stack Protected from USR Mode Reads ?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20061</link>
+      <description>
+        <![CDATA[<p>No user process should need to access the <span class="caps">SVC</span> stack. Under almost all circumstances you shouldn&#8217;t be threaded out of <span class="caps">SVC</span> mode into <span class="caps">USR</span> mode with anything on the <span class="caps">SVC</span> stack (as the <span class="caps">SVC</span> stack will be flattened by many different operations). There are cases when this happens, but you really shouldn&#8217;t have things on the <span class="caps">SVC</span> stack whilst you&#8217;re doing things in <span class="caps">USR</span> mode &#8211; callbacks will not happen and that will certainly mean that a lot of the system will not function as expected. I&#8217;d say what you&#8217;re doing is way outside the expectations of <span class="caps">RISC</span> OS and highly risky.</p>]]>
+      </description>
+      <source:markdown>No user process should need to access the SVC stack. Under almost all circumstances you shouldn’t be threaded out of SVC mode into USR mode with anything on the SVC stack (as the SVC stack will be flattened by many different operations). There are cases when this happens, but you really shouldn’t have things on the SVC stack whilst you’re doing things in USR mode – callbacks will not happen and that will certainly mean that a lot of the system will not function as expected. I’d say what you’re doing is way outside the expectations of RISC OS and highly risky.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20061:159344</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/riscosbits.co.uk/post/3m3pxxbfct22s</link>
       <description>
         <![CDATA[It's touch and go, but will we have a Pi9home (brew) ready to show at the #riscoslondonshow2025?
@@ -340,6 +607,17 @@ See them in the (tree) flesh on Saturday at the @rougol #riscoslondonshow2025 th
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m3pnukrmps2e</guid>
+    </item>    <item>
+      <title>Changing the tick button icon</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20058</link>
+      <description>
+        <![CDATA[<p>Hi Steve,</p>
+        <p>thanks for the info, how do I add images to this post so I can show you some code and screens?</p>]]>
+      </description>
+      <source:markdown>Hi Steve,
+
+thanks for the info, how do I add images to this post so I can show you some code and screens?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20058:159341</guid>
     </item>    <item>
       <title>32-bit acorn hardware • Re: Risc PC 600 faulty</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468032#p468032</link>
@@ -549,6 +827,14 @@ Whether you’re a long-time RISC OS veteran or completely new to the scene, the
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467958#p467958</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467958#p467958</guid>
     </item>    <item>
+      <title>URI Launch Sometimes Fails</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20056</link>
+      <description>
+        <![CDATA[<p>Oops, yes. He was very happy for the first release to be any number I chose at random under 1.00 (or indeed over 1.00, but the conversation was about under).</p>]]>
+      </description>
+      <source:markdown>Oops, yes. He was very happy for the first release to be any number I chose at random under 1.00 (or indeed over 1.00, but the conversation was about under).</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20056:159335</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3m3nln74qis22</link>
       <description>
         <![CDATA[Fireworkz Pro 2 version 2.33.00 released
@@ -563,38 +849,6 @@ https://www.iconbar.com/articles/Fireworkz\_Pro\_2\_version\_2.33.00\_released/i
 
 R-Comp has released a free update for Fireworkz Pro.</source:markdown>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3m3nln74qis22</guid>
-    </item>    <item>
-      <title>RO5.30 Why is SVC Stack Protected from USR Mode Reads ?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20061</link>
-      <description>
-        <![CDATA[<p>When running on RO5.30 !ARM_Debug generates an abort for <span class="caps">LDR</span> R4,[R2,#0] where R2=fa207fe0, running in <span class="caps">USR</span> mode. This is a read to the supervisor stack. This area of the !ARM_Debug code is running the &#8216;<span class="caps">LDM</span>&#8217; instruction in a kind of &#8216;sandbox&#8217;, and requires access to read the <span class="caps">SVC</span> stack. I&#8217;ve not spent any time looking at this area of the code &#8211; it just seems to work after the usual <span class="caps">TEQP</span>/<span class="caps">MSR</span>/<span class="caps">MRS</span> PC changes &#8211; until now !</p>
-        <p>Note: The same !ARM_Debug code runs correctly on RO 5.28.</p>
-        <p>The RiscOS 5.30 release notes state:</p>
-        <p>&#8220;Memory protection on the supervisor stack has been enhanced to improve system stability&#8221;.</p>
-        <p>I can understand not allowing <span class="caps">WRITES</span> to the <span class="caps">SVC</span> stack from user mode. However, why do <span class="caps">READS</span> from the <span class="caps">SVC</span> stack cause an abort ?</p>
-        <p>I know that I could modify Theo&#8217;s code to switch to <span class="caps">SVC</span> mode just for these stack reads. But I could probably just as easily  reconfigure the <span class="caps">ARM</span> memory controller to make the RO5.30 memory functionality match that of RO5.28. Or just stick with RO5.28 for my !ARM_Debug work for the foreseeable future. RO5.28 seems to work pretty well :-)</p>
-        <p>Ralph</p>
-        <p>ps. !ARM_Debug beta (for RO5.28 and below) can be downloaded from:</p>
-        <p><a href="https://www.fladda.riscos.fr/">https://www.fladda.riscos.fr/</a></p>]]>
-      </description>
-      <source:markdown>When running on RO5.30 !ARM\_Debug generates an abort for LDR R4,\[R2,#0\] where R2=fa207fe0, running in USR mode. This is a read to the supervisor stack. This area of the !ARM\_Debug code is running the ‘LDM’ instruction in a kind of ‘sandbox’, and requires access to read the SVC stack. I’ve not spent any time looking at this area of the code – it just seems to work after the usual TEQP/MSR/MRS PC changes – until now !
-
-Note: The same !ARM\_Debug code runs correctly on RO 5.28.
-
-The RiscOS 5.30 release notes state:
-
-“Memory protection on the supervisor stack has been enhanced to improve system stability”.
-
-I can understand not allowing WRITES to the SVC stack from user mode. However, why do READS from the SVC stack cause an abort ?
-
-I know that I could modify Theo’s code to switch to SVC mode just for these stack reads. But I could probably just as easily reconfigure the ARM memory controller to make the RO5.30 memory functionality match that of RO5.28. Or just stick with RO5.28 for my !ARM\_Debug work for the foreseeable future. RO5.28 seems to work pretty well :-)
-
-Ralph
-
-ps. !ARM\_Debug beta (for RO5.28 and below) can be downloaded from:
-
-[https://www.fladda.riscos.fr/](https://www.fladda.riscos.fr/)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20061:159333</guid>
     </item>    <item>
       <title>econet and other acorn specific networking • Re: How to install Pi Econet Bridge software now that raspberrypi-kernel-headers doesn&#39;t exist?</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467943#p467943</link>
@@ -720,42 +974,6 @@ https://www.youtube.com/watch?v=eJVpYL44jUQ</source:markdown>
       </description>
       <source:markdown>In the new issue of Archive Magazine, we sit down with none other than Hermann Hauser, the co-founder of Acorn Computers, for an exclusive interview. It&#39;s not too late to subscribe! www.archivemag.co.uk</source:markdown>
       <guid>cid://at://did:plc:3nemd4ccpca5uxluat5znw4s/app.bsky.feed.post/3m3mpurnjcc2u</guid>
-    </item>    <item>
-      <title>URI Launch Sometimes Fails</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20056</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>It’s an interesting side-track</p>
-        </blockquote>
-        <p><strong>Sidetrack Alert</strong>, may or may not be interesting!</p>
-        <p>On the sidetrack I found that on a newly booted Pi, which does give Netsurf a boot, then double clicking on a saved <span class="caps">URI</span> file error&#8217;d with, &#8220;An application that loads a file of this type has not been found by the Filer. Open a directory display containing the required application and try again&#8221;. I did as instructed, opened the folder and to my minor surprise the <span class="caps">URI</span> file then did open its target in Netsurf. This is clearly impossible, why would rebooting Netsurf, which would not happen anyway because it was already booted, make any difference.</p>
-        <p>It turned out that FTPc, in the same directory as Netsurf but unbooted, loads the AcornURI module in its !Boot.</p>
-        <p>No real surprises then, the AcornURI module is needed to run a <span class="caps">URI</span> file.</p>
-        <p>The AcornURI module is 0.27.</p>]]>
-      </description>
-      <source:markdown>&#62; It’s an interesting side-track
-
-**Sidetrack Alert**, may or may not be interesting!
-
-On the sidetrack I found that on a newly booted Pi, which does give Netsurf a boot, then double clicking on a saved URI file error’d with, “An application that loads a file of this type has not been found by the Filer. Open a directory display containing the required application and try again”. I did as instructed, opened the folder and to my minor surprise the URI file then did open its target in Netsurf. This is clearly impossible, why would rebooting Netsurf, which would not happen anyway because it was already booted, make any difference.
-
-It turned out that FTPc, in the same directory as Netsurf but unbooted, loads the AcornURI module in its !Boot.
-
-No real surprises then, the AcornURI module is needed to run a URI file.
-
-The AcornURI module is 0.27.</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20056:159324</guid>
-    </item>    <item>
-      <title>Changing the tick button icon</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20058</link>
-      <description>
-        <![CDATA[<p>It&#8217;s probably stating the obvious, but you need to set the sprite area in the window definition block (<code>winddef%!64</code> <span class="caps">IIRC</span>) before calling <strong>Wimp_CreateWindow</strong>.</p>
-        <p>+20, +24 and +28 are the pointer to the icon text buffer, the text buffer length, and the pointer to the validation string respectively.</p>]]>
-      </description>
-      <source:markdown>It’s probably stating the obvious, but you need to set the sprite area in the window definition block ( `winddef%!64` IIRC) before calling **Wimp\_CreateWindow**.
-
-+20, +24 and +28 are the pointer to the icon text buffer, the text buffer length, and the pointer to the validation string respectively.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20058:159323</guid>
     </item>    <item>
       <title>modern implementations of classic programming languages • Re: Matrix Brandy BASIC VI for console and SDL1.2: V1.23.5 released</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467830#p467830</link>
@@ -1248,20 +1466,6 @@ The RISC OS London Show is next Saturday and there will be lots to see!</source:
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467685#p467685</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467685#p467685</guid>
     </item>    <item>
-      <title>London Show, Sat 25th October 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
-      <description>
-        <![CDATA[<p>Walking directions from Northwick Park added to the show website:</p>
-        <p><a href="https://www.riscoslondonshow.co.uk/venue.php#tube">https://www.riscoslondonshow.co.uk/venue.php#tube</a></p>
-        <p>Only a week to go!</p>]]>
-      </description>
-      <source:markdown>Walking directions from Northwick Park added to the show website:
-
-[https://www.riscoslondonshow.co.uk/venue.php#tube](https://www.riscoslondonshow.co.uk/venue.php#tube)
-
-Only a week to go!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20020:159298</guid>
-    </item>    <item>
       <title>modern implementations of classic programming languages • Re: Matrix Brandy BASIC VI for console and SDL1.2: V1.23.5 released</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467684#p467684</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467684#p467684</guid>
@@ -1385,26 +1589,6 @@ The October 2025 Rougol meeting is on Monday and is billed as a pre-show teaser 
       </description>
       <source:markdown>Archive Magazine Oct/Nov 2025 issue is out now! Archive is the magazine for RISC OS users. It&#39;s not too late to subscribe and get the latest issue - see www.archivemag.co.uk/subscriptions.html for details. Worldwide subscriptions available! #riscos #raspberypi #opensource</source:markdown>
       <guid>cid://at://did:plc:3nemd4ccpca5uxluat5znw4s/app.bsky.feed.post/3m3fi6uevzk23</guid>
-    </item>    <item>
-      <title>Archive Magazine Oct/Nov 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20055</link>
-      <description>
-        <![CDATA[<p>The <strong>October / November 2025</strong> issue of Archive, the magazine for <span class="caps">RISC</span> OS users, is out now! The digital edition is being sent out in batches today, with the printed edition dropping through letterboxes in 18 countries around the world shortly.</p>
-        <p>Not a subscriber? It’s not too late to take out a print or digital subscription and still receive the latest issue! See below for details.</p>
-        <p>It&#8217;s another packed <strong>52 page</strong> issue, including an exclusive Archive interview with <strong>Hermann Hauser</strong>, co-founder of Acorn Computers. See the cover for full contents.</p>
-        <p><img src="https://www.archivemag.co.uk/covers/archive2706cover.jpg" alt="" /></p>
-        <p>6 issue digital subscriptions cost £35, print subscriptions cost £42 (UK) or £62 (rest of world). The print subscriptions include the digital edition free of charge. It’s quick and easy to subscribe – payment can be made by PayPal, bank transfer, and cheque. Full details at <a href="https://www.archivemag.co.uk/subscriptions.html">https://www.archivemag.co.uk/subscriptions.html</a> or contact <a href="mailto:gavin@archivemag.co.uk">gavin@archivemag.co.uk</a> for more information.</p>]]>
-      </description>
-      <source:markdown>The **October / November 2025** issue of Archive, the magazine for RISC OS users, is out now! The digital edition is being sent out in batches today, with the printed edition dropping through letterboxes in 18 countries around the world shortly.
-
-Not a subscriber? It’s not too late to take out a print or digital subscription and still receive the latest issue! See below for details.
-
-It’s another packed **52 page** issue, including an exclusive Archive interview with **Hermann Hauser**, co-founder of Acorn Computers. See the cover for full contents.
-
-![](https://www.archivemag.co.uk/covers/archive2706cover.jpg)
-
-6 issue digital subscriptions cost £35, print subscriptions cost £42 (UK) or £62 (rest of world). The print subscriptions include the digital edition free of charge. It’s quick and easy to subscribe – payment can be made by PayPal, bank transfer, and cheque. Full details at [https://www.archivemag.co.uk/subscriptions.html](https://www.archivemag.co.uk/subscriptions.html) or contact [gavin@archivemag.co.uk](mailto:gavin@archivemag.co.uk) for more information.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20055:159296</guid>
     </item>    <item>
       <title>acorn &#38;amp; bbc micro user group (abug) events • Re: [ON NOW!] BOOKING THREAD: ABUG South 17-19 October 2025.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467650#p467650</link>
