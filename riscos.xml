@@ -7,10 +7,278 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>23 Oct 25 12:00 -0700</lastBuildDate>
+    <lastBuildDate>23 Oct 25 16:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Three - AntiAir</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468254#p468254</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468254#p468254</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Is there anyone in the UK that will repair an A5000</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468253#p468253</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468253#p468253</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Unipod and ADF10 or AEH52</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468252#p468252</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468252#p468252</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosopen.bsky.social/post/3m3vfjgy37c23</link>
+      <description>
+        <![CDATA[London is closer than you think!
+        https://www.riscosopen.org/news/articles/2025/10/23/london-is-closer-than-you-think]]>
+      </description>
+      <source:markdown>London is closer than you think!
+https://www.riscosopen.org/news/articles/2025/10/23/london-is-closer-than-you-think</source:markdown>
+      <guid>cid://at://did:plc:e3k7odasqhsg6xfgfkvovpsb/app.bsky.feed.post/3m3vfjgy37c23</guid>
+    </item>    <item>
+      <title>London is closer than you think</title>
+      <link>https://www.riscosopen.org/news/articles/2025/10/23/london-is-closer-than-you-think</link>
+      <description>
+        <![CDATA[<p>This year&#8217;s <a href="https://www.riscoslondonshow.co.uk/">London show</a> organised by <a href="https://rougol.jellybaby.net/"><span class="caps">ROUGOL</span></a> is this Saturday the 25th October from 11am. Shows are the perfect opportunity to meet and talk to fellow <span class="caps">RISC</span> OS users and developers about what they&#8217;re doing with our favourite operating system.</p>
+        <p><img src="/images/risc_os_open/shows/rougol2025.png" title="Show banner" alt="Show banner" /></p>
+        <h3>Venue details</h3>
+        <p>A short distance by public transport, around ten miles from Heathrow airport, less than four miles from the M1 motorway, the Harrow District Masonic Centre is closer than you think; see this Google <a href="https://maps.app.goo.gl/vqigUNhWUqDjfXEH6">map</a> for directions.</p>
+        <p>Please note: engineering work means <strong>the Bakerloo tube line is closed</strong> this weekend.</p>
+        <h3>See <span class="caps">BASIC</span> in action</h3>
+        <p>See the alpha version of <span class="caps">BBC</span> <span class="caps">BASIC</span> rewritten in C, running natively on both <span class="caps">RISC</span> OS 5 and Windows x64, and find out what&#8217;s required to get it all finished. It&#8217;s a considerable technical effort, and will pave the way for all kinds of language extensions in future.</p>
+        <p>Want to know why nightly builds of <span class="caps">BASIC</span> gained a new <a href="https://gitlab.riscosopen.org/RiscOS/Sources/Programmer/BASIC/-/merge_requests/16"><span class="caps">SYS</span>-as-a-function keyword</a> recently? It&#8217;s all part of the <a href="/content/documents/risc-os-moonshots">mission to the moon</a>.</p>]]>
+      </description>
+      <source:markdown>This year’s [London show](https://www.riscoslondonshow.co.uk/) organised by [ROUGOL](https://rougol.jellybaby.net/) is this Saturday the 25th October from 11am. Shows are the perfect opportunity to meet and talk to fellow RISC OS users and developers about what they’re doing with our favourite operating system.
+
+![Show banner](/images/risc_os_open/shows/rougol2025.png)
+
+### Venue details
+
+A short distance by public transport, around ten miles from Heathrow airport, less than four miles from the M1 motorway, the Harrow District Masonic Centre is closer than you think; see this Google [map](https://maps.app.goo.gl/vqigUNhWUqDjfXEH6) for directions.
+
+Please note: engineering work means **the Bakerloo tube line is closed** this weekend.
+
+### See BASIC in action
+
+See the alpha version of BBCBASIC rewritten in C, running natively on both RISC OS 5 and Windows x64, and find out what’s required to get it all finished. It’s a considerable technical effort, and will pave the way for all kinds of language extensions in future.
+
+Want to know why nightly builds of BASIC gained a new [SYS-as-a-function keyword](https://gitlab.riscosopen.org/RiscOS/Sources/Programmer/BASIC/-/merge_requests/16) recently? It’s all part of the [mission to the moon](/content/documents/risc-os-moonshots).</source:markdown>
+      <guid>cid://urn:uuid:f7013914-01b1-4243-acd7-6d2dbfd6161d</guid>
+    </item>    <item>
+      <title>NetFetch 6 new available</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20070</link>
+      <description>
+        <![CDATA[<p>R-Comp are launching version 6 of NetFetch at the London show, over six years since v5.5 launched at Wakefield 2019.</p>
+        <p>(Spoiler &#8211; it&#8217;s live now on !Store)</p>
+        <p>NetFetch provides flexible mail and news fetching for <span class="caps">RISC</span> OS, including anti spam and other filtering capabilities, as well as a friendly front end to <span class="caps">RISC</span> OS internet-related software.  A version of Messenger Pro is included to provide users with a &#8220;ready to use&#8221; kit.</p>
+        <p>Since the release of v5.5, email provision has changed quite substantially.  Many more ISPs require enhanced security in a variety of forms &#8211; more passwords and logins, more <span class="caps">SSL</span>/<span class="caps">TLS</span> encryption, greater identity checks and so on.  NetFetch 6 recognises this and has revamped its configuration to emphasise the features that modern people require.  New and returning users will find that setting up NetFetch 6 is considerably improved, especially with modern ISPs.</p>
+        <p>These improvements have been brought about because internet providers such as Orpheus and Plusnet have both undergone changes recently, and whilst helping user sort out their problems, we discovered various areas that <br />
+        needed to be improved or made clearer.  Version six reflects these, modernising and improving the experience.</p>
+        <p>News handling has also seen a revamp, as many ISPs no longer offer newsgroup facilities.  Those that do often require username/password login, so the old setup routines no longer made sense.  We have now taken news out of the initial setup to streamline things, and instead introduced a new Assistant to guide people through setting up free newsgroup access regardless of <span class="caps">ISP</span>.  By following the built-in assistant, and filling out two boxes, you&#8217;ll be able to get newsgroup access set up whenever you&#8217;re ready.  Meanwhile, existing users will appreciate clearer settings, and easy support for both server login and <span class="caps">SSL</span>/<span class="caps">TLS</span>.</p>
+        <p>Speaking of encryption, v6 sees support added for the latest <span class="caps">TLS</span> 1.3 standard including handshake-level identity checks.  These are conducted as part of the <span class="caps">TLS</span> connection to prove you are who you say you are &#8211; something that we have seen mandated on real-world &#8220;big company&#8221; <span class="caps">TLS</span> 1.3 servers.</p>
+        <p>NetFetch 6 will be available as a paid-for upgrade to existing customers, launching at the London show, but anyone who has purchased v5.5 this year (2025) can claim a free upgrade by specifying their purchase date when <br />
+        ordering.  Version 6 will be available in person at the show and via !Store download.</p>
+        <p>NetFetch 6 costs 35ukp new, with upgrades costing 20ukp either in person or via !Store.  The new version is live now on !Store and as with its predecessor, includes free updates for the foreseeable future (6 years again?  Can&#8217;t promise, but who knows!).</p>
+        <p>Best wishes,</p>
+        <p>Andrew</p>]]>
+      </description>
+      <source:markdown>R-Comp are launching version 6 of NetFetch at the London show, over six years since v5.5 launched at Wakefield 2019.
+
+(Spoiler – it’s live now on !Store)
+
+NetFetch provides flexible mail and news fetching for RISC OS, including anti spam and other filtering capabilities, as well as a friendly front end to RISC OS internet-related software. A version of Messenger Pro is included to provide users with a “ready to use” kit.
+
+Since the release of v5.5, email provision has changed quite substantially. Many more ISPs require enhanced security in a variety of forms – more passwords and logins, more SSL/TLS encryption, greater identity checks and so on. NetFetch 6 recognises this and has revamped its configuration to emphasise the features that modern people require. New and returning users will find that setting up NetFetch 6 is considerably improved, especially with modern ISPs.
+
+These improvements have been brought about because internet providers such as Orpheus and Plusnet have both undergone changes recently, and whilst helping user sort out their problems, we discovered various areas that
+
+needed to be improved or made clearer. Version six reflects these, modernising and improving the experience.
+
+News handling has also seen a revamp, as many ISPs no longer offer newsgroup facilities. Those that do often require username/password login, so the old setup routines no longer made sense. We have now taken news out of the initial setup to streamline things, and instead introduced a new Assistant to guide people through setting up free newsgroup access regardless of ISP. By following the built-in assistant, and filling out two boxes, you’ll be able to get newsgroup access set up whenever you’re ready. Meanwhile, existing users will appreciate clearer settings, and easy support for both server login and SSL/TLS.
+
+Speaking of encryption, v6 sees support added for the latest TLS 1.3 standard including handshake-level identity checks. These are conducted as part of the TLS connection to prove you are who you say you are – something that we have seen mandated on real-world “big company” TLS 1.3 servers.
+
+NetFetch 6 will be available as a paid-for upgrade to existing customers, launching at the London show, but anyone who has purchased v5.5 this year (2025) can claim a free upgrade by specifying their purchase date when
+
+ordering. Version 6 will be available in person at the show and via !Store download.
+
+NetFetch 6 costs 35ukp new, with upgrades costing 20ukp either in person or via !Store. The new version is live now on !Store and as with its predecessor, includes free updates for the foreseeable future (6 years again? Can’t promise, but who knows!).
+
+Best wishes,
+
+Andrew</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20070:159374</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m3vefejzp22c</link>
+      <description>
+        <![CDATA[Once upon a time you needed one of these huge beasts, and a lot of money, to make a video. Dixons catalogue, circa. April 1986.]]>
+      </description>
+      <source:markdown>Once upon a time you needed one of these huge beasts, and a lot of money, to make a video. Dixons catalogue, circa. April 1986.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m3vefejzp22c</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Voltmace Delta 14B/1 keypad adaptor on an Electron? For Elite, perhaps?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468251#p468251</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468251#p468251</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Voltmace Delta 14B/1 keypad adaptor on an Electron? For Elite, perhaps?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468250#p468250</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468250#p468250</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Is there anyone in the UK that will repair an A5000</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468249#p468249</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468249#p468249</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3m3vbp2y3sk2h</link>
+      <description>
+        <![CDATA[Get in to the #riscoslondonshow2025 for free with #FreeNVMe! Sort of...
+        
+        https://www.riscosopen.org/forum/forums/1/topics/20069]]>
+      </description>
+      <source:markdown>Get in to the #riscoslondonshow2025 for free with #FreeNVMe! Sort of...
+
+https://www.riscosopen.org/forum/forums/1/topics/20069</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3m3vbp2y3sk2h</guid>
+    </item>    <item>
+      <title>Free entry at the London Show 2025 with RISCOSbits*</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20069</link>
+      <description>
+        <![CDATA[<p>*it&#8217;s okay, <span class="caps">ROUGOL</span>, we&#8217;re not sneaking people in through a side entrance!</p>
+        <p>To celebrate the first show outing of our updated and very latest release of FreeNVMe genuinely open source drivers, RISCOSbits are offering to refund people&#8217;s entrance fee, by way of an extra discount on all purchases of NVMe-enabled pre-built systems at our stand.</p>
+        <p>Terms and conditions obviously apply (we&#8217;ll only offer one refund per customer) but we&#8217;re happy if you get together with a <span class="caps">RISC</span> OS friend and send your mate up to buy another NVMe system on your behalf to get a second discount!</p>
+        <p>Simply quote &#8216;Oi! Gimme my door money back&#8217; when making your purchase and we&#8217;ll knock it off the price!</p>
+        <p><strong>About FreeNVMe</strong><br />
+        FreeNVMe is the next generation of fully Open Source <span class="caps">RISC</span> OS storage technology and it&#8217;s completely free!</p>
+        <p>As the result of partnering with Stader Softwareentwicklung and  <span class="caps">RISC</span> OS Open, RISCOSbits have been instrumental in developing, and further updating, the free and fully Open Source NVMe driver and filing system, that we first demonstrated way back in December 2023. And it has been in reliable use on RISCOSbits&#8217; Compute Module 4 systems ever since.</p>
+        <p>Designed from the ground up to fit perfectly with existing <span class="caps">RISC</span> OS filesystems, FreeNVMe follows all the usual filecore conventions so that all existing tools, such as DiscKnight, work straight out of the box &#8211; no custom tools are required.</p>
+        <p>A conscious decision was made to adopt the existing standards for filing systems, so that any developments to the core of <span class="caps">RISC</span> OS would automatically integrate with FreeNVMe.</p>
+        <p>There&#8217;s no tie-in to a paid-for support scheme &#8211; our driver is designed to work with the nightly builds from <span class="caps">RISC</span> OS Open. And it&#8217;s completely free. You can download it now, without having to buy a system, an NVMe drive or anything else:</p>
+        <p><a href="http://www.riscosbits.co.uk/nvme/">www.riscosbits.co.uk/nvme/</a></p>
+        <p><a href="https://www.riscosopen.org/content/downloads/raspberry-pi">https://www.riscosopen.org/content/downloads/raspberry…</a></p>
+        <p>And FreeNVMe is genuinely open source. You can look at, and download, the source code directly from the <span class="caps">RISC</span> OS Open repository <span class="caps">NOW</span>. You have the opportunity to contribute to the code to improve FreeNVMe and make it into the real community-led filing system it was intended to be.</p>
+        <p>FreeNVMe is designed to offer the following features as standard:</p>
+        <ul>
+        	<li>Works on Raspberry Pi Compute Module 4 systems</li>
+        	<li>4Kn sectors to allow for drives up to 2TB</li>
+        	<li>Partitioning via freely available software</li>
+        	<li>DiscKnight compatibility</li>
+        	<li>Standard file system icon (no separate app needed)</li>
+        	<li>Dual format drives with separate icons for each format.</li>
+        </ul>
+        <p>And FreeNVMe is <span class="caps">FAST</span>! So fast that we felt comfortable incorporating it into our premium range of computers without any hidden charges.</p>
+        <p><strong>What&#8217;s New</strong><br />
+        In our latest developments, rather than chasing irrelevant numbers, we&#8217;ve been focusing on real-world usability and integration – from more reliable file handling and faster boot times to improved support for large storage volumes and smoother performance under pressure. At the show, you’ll be able to see how NVMe, when properly harnessed, makes <span class="caps">RISC</span> OS feel more modern, stable, and capable than ever before. We&#8217;ve also improved drive compatibility to near 100%  &#8211; there&#8217;ll always be rogue drives, but we&#8217;ve even built in a system to manage them.</p>
+        <p>We don&#8217;t need to make strangely calculated claims about how it compares to other products &#8211; we just give it to you for nothing so you can make your own mind up!</p>]]>
+      </description>
+      <source:markdown>\*it’s okay, ROUGOL, we’re not sneaking people in through a side entrance!
+
+To celebrate the first show outing of our updated and very latest release of FreeNVMe genuinely open source drivers, RISCOSbits are offering to refund people’s entrance fee, by way of an extra discount on all purchases of NVMe-enabled pre-built systems at our stand.
+
+Terms and conditions obviously apply (we’ll only offer one refund per customer) but we’re happy if you get together with a RISC OS friend and send your mate up to buy another NVMe system on your behalf to get a second discount!
+
+Simply quote ‘Oi! Gimme my door money back’ when making your purchase and we’ll knock it off the price!
+
+**About FreeNVMe**
+
+FreeNVMe is the next generation of fully Open Source RISC OS storage technology and it’s completely free!
+
+As the result of partnering with Stader Softwareentwicklung and RISC OS Open, RISCOSbits have been instrumental in developing, and further updating, the free and fully Open Source NVMe driver and filing system, that we first demonstrated way back in December 2023. And it has been in reliable use on RISCOSbits’ Compute Module 4 systems ever since.
+
+Designed from the ground up to fit perfectly with existing RISC OS filesystems, FreeNVMe follows all the usual filecore conventions so that all existing tools, such as DiscKnight, work straight out of the box – no custom tools are required.
+
+A conscious decision was made to adopt the existing standards for filing systems, so that any developments to the core of RISC OS would automatically integrate with FreeNVMe.
+
+There’s no tie-in to a paid-for support scheme – our driver is designed to work with the nightly builds from RISC OS Open. And it’s completely free. You can download it now, without having to buy a system, an NVMe drive or anything else:
+
+[www.riscosbits.co.uk/nvme/](http://www.riscosbits.co.uk/nvme/)
+
+[https://www.riscosopen.org/content/downloads/raspberry…](https://www.riscosopen.org/content/downloads/raspberry-pi)
+
+And FreeNVMe is genuinely open source. You can look at, and download, the source code directly from the RISC OS Open repository NOW. You have the opportunity to contribute to the code to improve FreeNVMe and make it into the real community-led filing system it was intended to be.
+
+FreeNVMe is designed to offer the following features as standard:
+
+- Works on Raspberry Pi Compute Module 4 systems
+- 4Kn sectors to allow for drives up to 2TB
+- Partitioning via freely available software
+- DiscKnight compatibility
+- Standard file system icon (no separate app needed)
+- Dual format drives with separate icons for each format.
+
+And FreeNVMe is FAST! So fast that we felt comfortable incorporating it into our premium range of computers without any hidden charges.
+
+**What’s New**
+
+In our latest developments, rather than chasing irrelevant numbers, we’ve been focusing on real-world usability and integration – from more reliable file handling and faster boot times to improved support for large storage volumes and smoother performance under pressure. At the show, you’ll be able to see how NVMe, when properly harnessed, makes RISC OS feel more modern, stable, and capable than ever before. We’ve also improved drive compatibility to near 100% – there’ll always be rogue drives, but we’ve even built in a system to manage them.
+
+We don’t need to make strangely calculated claims about how it compares to other products – we just give it to you for nothing so you can make your own mind up!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20069:159372</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Is there anyone in the UK that will repair an A5000</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468248#p468248</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468248#p468248</guid>
+    </item>    <item>
+      <title>Sine Nomine Software at the London Show</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20068</link>
+      <description>
+        <![CDATA[<p><a href="https://sinenomine.co.uk/software/">Sine Nomine Software</a> will be attending the London Show on Saturday, with several new software releases. These are centred on support for Unicode, allowing the use of a much wider variety of character beyond those common in Western Europe.</p>
+        <p>Nominatim, the location look-up software which lies behind the place name gazetteer in the AtoB route planner, Recce local information application and the location fields in the Impact database, has been enhanced so that you can search for place names in their original script.</p>
+        <p>RiscOSM will allow Unicode characters to appear in almost all text fields in the software. This means that the correct accents are retained in any captions for photos, or information pulled from the internet via Recce.</p>
+        <p>To access the new facilities you will need to install new map data, which we are in the course of preparing for download soon after the show.</p>
+        <p>We think that ImpEmail becomes the first <span class="caps">RISC</span> OS email editing software to support composing messages in full Unicode.  ImpEmail&#8217;s main talent is mail-merged emails, with the merged data coming from either <span class="caps">CSV</span> files or Impulse-compatible databases like Impact and Powerbase. Mail-merge from Impact and Powerbase is still stuck in the 8-bit alphabet era, but now ImpEmail can accept both 8-bit and full <span class="caps">UTF</span>-8 Unicode <span class="caps">CSV</span> files.</p>
+        <p>Impact and RiscOSM also gain the ability to handle <span class="caps">UTF</span>-8 <span class="caps">CSV</span> files. Impact will convert the values to your local system alphabet, but RiscOSM can import and handle the data in its original script.</p>
+        <p>Alongside these major improvements there is a range of smaller enhancements and bug fixes.  Do come along to the stand to find out more, or attend the theatre talk.</p>]]>
+      </description>
+      <source:markdown>[Sine Nomine Software](https://sinenomine.co.uk/software/) will be attending the London Show on Saturday, with several new software releases. These are centred on support for Unicode, allowing the use of a much wider variety of character beyond those common in Western Europe.
+
+Nominatim, the location look-up software which lies behind the place name gazetteer in the AtoB route planner, Recce local information application and the location fields in the Impact database, has been enhanced so that you can search for place names in their original script.
+
+RiscOSM will allow Unicode characters to appear in almost all text fields in the software. This means that the correct accents are retained in any captions for photos, or information pulled from the internet via Recce.
+
+To access the new facilities you will need to install new map data, which we are in the course of preparing for download soon after the show.
+
+We think that ImpEmail becomes the first RISC OS email editing software to support composing messages in full Unicode. ImpEmail’s main talent is mail-merged emails, with the merged data coming from either CSV files or Impulse-compatible databases like Impact and Powerbase. Mail-merge from Impact and Powerbase is still stuck in the 8-bit alphabet era, but now ImpEmail can accept both 8-bit and full UTF-8 Unicode CSV files.
+
+Impact and RiscOSM also gain the ability to handle UTF-8 CSV files. Impact will convert the values to your local system alphabet, but RiscOSM can import and handle the data in its original script.
+
+Alongside these major improvements there is a range of smaller enhancements and bug fixes. Do come along to the stand to find out more, or attend the theatre talk.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20068:159369</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Voltmace Delta 14B/1 keypad adaptor on an Electron? For Elite, perhaps?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468247#p468247</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468247#p468247</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Is there anyone in the UK that will repair an A5000</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468244#p468244</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468244#p468244</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3m3v3zhlrfs2h</link>
+      <description>
+        <![CDATA[Coast at your desk with our Show exclusive Welsh Slate Drink Mats (with rubber pads to avoid scratching!). At a bargain price of £5 each.
+        
+        Limited stock, so hurry up to the RISCOSbits stand!
+        
+        #CoastingWithRISC_OS
+        #RISC_OS
+        #AcornComputers
+        #riscoslondonshow2025]]>
+      </description>
+      <source:markdown>Coast at your desk with our Show exclusive Welsh Slate Drink Mats (with rubber pads to avoid scratching!). At a bargain price of £5 each.
+
+Limited stock, so hurry up to the RISCOSbits stand!
+
+#CoastingWithRISC\_OS
+#RISC\_OS
+#AcornComputers
+#riscoslondonshow2025</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3m3v3zhlrfs2h</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3m3v3y425pc2h</link>
+      <description>
+        <![CDATA[You'll be upset, too, if you miss it! Exclusively available at the #RISC_OS London Show! #riscoslondonshow2025]]>
+      </description>
+      <source:markdown>You&#39;ll be upset, too, if you miss it! Exclusively available at the #RISC\_OS London Show! #riscoslondonshow2025</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3m3v3y425pc2h</guid>
+    </item>    <item>
+      <title>communications • Re: BeeBS the BBS hosted on a Beeb is Live!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468242#p468242</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468242#p468242</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Voltmace Delta 14B/1 keypad adaptor on an Electron? For Elite, perhaps?</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468241#p468241</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468241#p468241</guid>
@@ -335,6 +603,45 @@ Click “Explore” at the bottom of that page to view the source. If you’d li
       <source:markdown>With this year’s London Show drawing ever nearer – the doors will be open to the public in just two days on 25th October, at the Harrow District Masonic Centre – another announcement has landed in the RISCOSitory bunker, and, amongst other interesting news, this one includes something we’ve all been eagerly awaiting for a very long time: a public release of web browser Iris from RISC OS Developments. Over to Andrew Rawnsley for all the gory details: Iris Releases via PackMan The Spring and Summer saw multiple beta releases…</source:markdown>
       <guid>cid://https://www.riscository.com/?p=10771</guid>
     </item>    <item>
+      <title>RO5.30 Why is SVC Stack Protected from USR Mode Reads ?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20061</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p><span class="caps">AIUI</span> there’s nothing on the <span class="caps">SVC</span> stack that would make any sense to any task in user mode. It’s empty.</p>
+        </blockquote>
+        <p>Not strictly true when you are writing code using <span class="caps">ARM</span> assembler ;-)</p>
+        <p>Pressing function key F3 on !ARM_Debug displays the most significant eight 32-bit words on the stack in a pop-up window. If the current instruction being &#8216;executed&#8217; by the debugger is in <span class="caps">USR</span> mode then F3 shows the <span class="caps">USR</span> stack contents. If the current instruction is in <span class="caps">SVC</span> mode then F3 shows the <span class="caps">SVC</span> stack contents.</p>
+        <p>The run-time !ARM_Debug code runs in a module. Theo wrote the module to mostly run in <span class="caps">USR</span> mode and his code only switches to <span class="caps">SVC</span> mode when absolutely necessary (i.e. best practice). This explains why the <span class="caps">SVC</span> stack is being read by code running in <span class="caps">USR</span> mode as this has been &#8216;allowed&#8217; by <span class="caps">RISC</span> OS until RO5.30.</p>
+        <p>Original code (i.e. RO5.28):</p>
+        <pre><code>   LDR     R4,[R2,#0]</code></pre>
+        <p>New code (i.e. RO5.30):</p>
+        <pre><code>    SWI     "OS_EnterOS"   ; read SVC stack needs SVC mode RO5.30
+            LDR     R4,[R2,#0]
+            MSR     CPSR_c,#%10000 ; return to 32bit USR mode</code></pre>]]>
+      </description>
+      <source:markdown>&#62; AIUI there’s nothing on the SVC stack that would make any sense to any task in user mode. It’s empty.
+
+Not strictly true when you are writing code using ARM assembler ;-)
+
+Pressing function key F3 on !ARM\_Debug displays the most significant eight 32-bit words on the stack in a pop-up window. If the current instruction being ‘executed’ by the debugger is in USR mode then F3 shows the USR stack contents. If the current instruction is in SVC mode then F3 shows the SVC stack contents.
+
+The run-time !ARM\_Debug code runs in a module. Theo wrote the module to mostly run in USR mode and his code only switches to SVC mode when absolutely necessary (i.e. best practice). This explains why the SVC stack is being read by code running in USR mode as this has been ‘allowed’ by RISC OS until RO5.30.
+
+Original code (i.e. RO5.28):
+
+```
+   LDR     R4,[R2,#0]
+```
+
+New code (i.e. RO5.30):
+
+```
+    SWI     &#34;OS_EnterOS&#34;   ; read SVC stack needs SVC mode RO5.30
+    LDR     R4,[R2,#0]
+    MSR     CPSR_c,#%10000 ; return to 32bit USR mode
+```</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20061:159355</guid>
+    </item>    <item>
       <title>London Show, Sat 25th October 2025</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
       <description>
@@ -356,6 +663,14 @@ Just two days to go!</source:markdown>
       <title>miscellaneous new bbc and electron games • Re: FreeCell for the BBC and Electron</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468178#p468178</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468178#p468178</guid>
+    </item>    <item>
+      <title>New site is live</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19743</link>
+      <description>
+        <![CDATA[<p>did the site go down all day? its up now but its hit and miss</p>]]>
+      </description>
+      <source:markdown>did the site go down all day? its up now but its hit and miss</source:markdown>
+      <guid>cid://www.riscosopen.org:1:19743:159351</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: Pi1MHz Software</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468177#p468177</link>
@@ -575,22 +890,6 @@ The October 2025 talk featured RISCOSbits supremo Andy Marks giving us a bit of 
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468084#p468084</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468084#p468084</guid>
     </item>    <item>
-      <title>New site is live</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/19743</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Page refreshes didn’t do it</p>
-        </blockquote>
-        <p>Yep, seen that kind of thing often with regular browsers on bog-standard domestic OS.<br />
-        F5 or Ctrl-F5  &#8211; i.e. refresh active window vs. refetch and refresh active window</p>]]>
-      </description>
-      <source:markdown>&#62; Page refreshes didn’t do it
-
-Yep, seen that kind of thing often with regular browsers on bog-standard domestic OS.
-
-F5 or Ctrl-F5 – i.e. refresh active window vs. refetch and refresh active window</source:markdown>
-      <guid>cid://www.riscosopen.org:1:19743:159349</guid>
-    </item>    <item>
       <title>archive requests • Re: Protected tapes and custom loaders (Electron)</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468083#p468083</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468083#p468083</guid>
@@ -641,14 +940,6 @@ See them in the (tree) flesh on Saturday at the @rougol #riscoslondonshow2025 th
       </description>
       <source:markdown>Can I suggest someone put the above “described here” link into the “Formatting Help” section of each forum page, please? It’s very helpful.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20058:159345</guid>
-    </item>    <item>
-      <title>RO5.30 Why is SVC Stack Protected from USR Mode Reads ?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20061</link>
-      <description>
-        <![CDATA[<p>No user process should need to access the <span class="caps">SVC</span> stack. Under almost all circumstances you shouldn&#8217;t be threaded out of <span class="caps">SVC</span> mode into <span class="caps">USR</span> mode with anything on the <span class="caps">SVC</span> stack (as the <span class="caps">SVC</span> stack will be flattened by many different operations). There are cases when this happens, but you really shouldn&#8217;t have things on the <span class="caps">SVC</span> stack whilst you&#8217;re doing things in <span class="caps">USR</span> mode &#8211; callbacks will not happen and that will certainly mean that a lot of the system will not function as expected. I&#8217;d say what you&#8217;re doing is way outside the expectations of <span class="caps">RISC</span> OS and highly risky.</p>]]>
-      </description>
-      <source:markdown>No user process should need to access the SVC stack. Under almost all circumstances you shouldn’t be threaded out of SVC mode into USR mode with anything on the SVC stack (as the SVC stack will be flattened by many different operations). There are cases when this happens, but you really shouldn’t have things on the SVC stack whilst you’re doing things in USR mode – callbacks will not happen and that will certainly mean that a lot of the system will not function as expected. I’d say what you’re doing is way outside the expectations of RISC OS and highly risky.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20061:159344</guid>
     </item>    <item>
       <link>https://bsky.app/profile/riscosbits.co.uk/post/3m3pxxbfct22s</link>
       <description>
