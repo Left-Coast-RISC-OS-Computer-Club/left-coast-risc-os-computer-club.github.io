@@ -7,10 +7,440 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>23 Oct 25 16:00 -0700</lastBuildDate>
+    <lastBuildDate>24 Oct 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m3wzmawzdc2c</link>
+      <description>
+        <![CDATA[I suspect Michi is wrong here and that it's actually a common UI bug: "feedback" and "commit" using different algorithms OR DIFFERENT COORDINATES.
+        
+        While the finger is still in contact with the screen (or the mouse button is down) the app (keyboard) provides feedback at the current coords...
+        https://www.youtube.com/watch?v=hksVvXONrIo]]>
+      </description>
+      <source:markdown>I suspect Michi is wrong here and that it&#39;s actually a common UI bug: &#34;feedback&#34; and &#34;commit&#34; using different algorithms OR DIFFERENT COORDINATES.
+
+While the finger is still in contact with the screen (or the mouse button is down) the app (keyboard) provides feedback at the current coords...
+https://www.youtube.com/watch?v=hksVvXONrIo</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m3wzmawzdc2c</guid>
+    </item>    <item>
+      <title>A Puzzling Addition to the Platform</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19172</link>
+      <description>
+        <![CDATA[<p>After a couple of years&#8217; development, I&#8217;m pleased to announce the first full release today of Puzzles 1.00 &#8211; just in time for the London Show tomorrow. A port of <a href="https://www.chiark.greenend.org.uk/~sgtatham/puzzles/">Simon Tatham&#8217;s Portable Puzzle Collection</a>, Puzzles is a set of 40 single-player games which run on the desktop.</p>
+        <p>With the arrival of version 1.00, Puzzles offers the following features:</p>
+        <ul>
+        	<li>40 separate puzzle games which are playable on the desktop using a fully <span class="caps">RISC</span> OS-compliant interface.</li>
+        	<li>Full undo and redo, game solutions, and the ability to save a game&#8217;s state and re-load it with all of the previous steps intact.</li>
+        	<li>Games can be exported as sprites, and many will also copy their state to the clipboard in a textual form that may be convenient if you wish to post it in an email or chat forum.</li>
+        	<li>Cross-platform compatibility for saved games and &#8220;Game IDs&#8221; with ports on other platforms (share your games with Windows users or play them on your smartphone).</li>
+        </ul>
+        <p>Copies of version 1.00 are <a href="https://www.stevefryatt.org.uk/risc-os/games">available to download from my website</a>, and can also be found on the PlingStore. Over the weekend, they should also start to become available via PackMan. The upstream code is licensed under the <span class="caps">MIT</span> Licence, and the <span class="caps">RISC</span> OS front-end is under version 1.2 of the <span class="caps">EUPL</span>.</p>
+        <p>If you&#8217;re at the London Show tomorrow, there should be a copy running on my stand.</p>
+        <p>I must once again say &#8220;Thank You&#8221; to Simon and the other contributors to the collection, both for making such an interesting set of games available completely free of charge and for making them so easily portable that it&#8217;s been possible to get a <span class="caps">RISC</span> OS version running with very few compromises to the <em>Style Guide</em>.</p>
+        <p>There&#8217;s still some work to do to the <span class="caps">RISC</span> OS port of Puzzles, so watch out for future updates. And if you find yourself playing it, why not let me know &#8211; it&#8217;s always easier to justify development time if other people will be using the end result!</p>]]>
+      </description>
+      <source:markdown>After a couple of years’ development, I’m pleased to announce the first full release today of Puzzles 1.00 – just in time for the London Show tomorrow. A port of [Simon Tatham’s Portable Puzzle Collection](https://www.chiark.greenend.org.uk/~sgtatham/puzzles/), Puzzles is a set of 40 single-player games which run on the desktop.
+
+With the arrival of version 1.00, Puzzles offers the following features:
+
+- 40 separate puzzle games which are playable on the desktop using a fully RISC OS-compliant interface.
+- Full undo and redo, game solutions, and the ability to save a game’s state and re-load it with all of the previous steps intact.
+- Games can be exported as sprites, and many will also copy their state to the clipboard in a textual form that may be convenient if you wish to post it in an email or chat forum.
+- Cross-platform compatibility for saved games and “Game IDs” with ports on other platforms (share your games with Windows users or play them on your smartphone).
+
+Copies of version 1.00 are [available to download from my website](https://www.stevefryatt.org.uk/risc-os/games), and can also be found on the PlingStore. Over the weekend, they should also start to become available via PackMan. The upstream code is licensed under the MIT Licence, and the RISC OS front-end is under version 1.2 of the EUPL.
+
+If you’re at the London Show tomorrow, there should be a copy running on my stand.
+
+I must once again say “Thank You” to Simon and the other contributors to the collection, both for making such an interesting set of games available completely free of charge and for making them so easily portable that it’s been possible to get a RISC OS version running with very few compromises to the _Style Guide_.
+
+There’s still some work to do to the RISC OS port of Puzzles, so watch out for future updates. And if you find yourself playing it, why not let me know – it’s always easier to justify development time if other people will be using the end result!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:19172:159388</guid>
+    </item>    <item>
+      <title>RCI Hardware at London Show - 20ukp off too</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20072</link>
+      <description>
+        <![CDATA[<ul>
+        		<li>We&#8217;ll be knocking 20ukp off all hardware items (over 50ukp) at the show.<br />
+        You don&#8217;t need to quote any adverts or phrases or claim anything special.<br />
+        Just money off for everyone :)  **</li>
+        	</ul><p>At the recent Show Preview user group meeting, Andrew Rawnsley of <span class="caps">RCI</span> <br />
+        demonstrated some new hardware items that had been proving popular this <br />
+        summer, and will be available at the London Show this weekend.</p>
+        <p>18 inches of RISCBook<br />
+        =-=-=-=-=-=-=-=-=-=-=</p>
+        <p>First up was a new 18&quot; RISCBook laptop.  For those unfamiliar, the <br />
+        RISCBook range of laptops run <span class="caps">RISC</span> OS and Windows together, providing the <br />
+        best of both <span class="caps">RISC</span> OS and Windows software, with links between the two OSs <br />
+        to allow them to share resources such as files, printers, clipboard, and <br />
+        networking.</p>
+        <p>The pressing onset of Windows 11 has prompted a number of users to upgrade <br />
+        this Autumn, and the 18&quot; laptop has proven popular.  Although 18&quot; may <br />
+        sound huge for a laptop, screen shapes have become more flexible in recent <br />
+        times, and the 18&quot; uses a 16:10 ratio with more vertical space for <br />
+        documents.  This means it is roughly the same size/weight as a 17&quot; laptop, <br />
+        whilst offering more screen space (1920&#215;1200).  Very practical for working <br />
+        on documents, and the high refresh rate (144 Hz) <span class="caps">IPS</span> panel looks lovely.</p>
+        <p>We&#8217;ve found that as people age, they appreciate the larger screens and <br />
+        full size backlit keyboards (with number pads), whilst finding the <br />
+        convenience of a laptop is easier to fit in various rooms.  For example, <br />
+        RCI&#8217;s Allan (Andrew&#8217;s father) now uses his laptop downstairs to save <br />
+        having to trek up to the more traditional machines in his office upstairs.</p>
+        <p>Whilst the laptops aren&#8217;t <span class="caps">RISC</span> OS friendly when they arrive, <span class="caps">RCI</span> is able <br />
+        to adapt them to run <span class="caps">RISC</span> OS beautifully, with smooth performance and <br />
+        flexible software compatibility (run both 26bit and 32bit applications).</p>
+        <p>Touchpad mouse gestures (eg. 3 finger tap) mean that replication of the <br />
+        three button mouse is great too.  Of course, you can plug in a mouse (or <br />
+        use a wireless one) too.</p>
+        <p>These laptops are no slouches &#8211; 8-core, 16 thread <span class="caps">AMD</span> chips amply <br />
+        demonstrate why <span class="caps">AMD</span> have become so dominant again recently &#8211; they can <br />
+        motor through anything from web browsing to video editing.  Whilst the <br />
+        graphics are on-chip, they&#8217;re top tier for what they are, making games <br />
+        possible too.  With 16GB <span class="caps">RAM</span> and 1TB of storage packed into a slim and <br />
+        low-weight chassis, there&#8217;s a lot of &#8220;oomph&#8221; inside.</p>
+        <p>Of course, <span class="caps">RCI</span> offers a range of other RISCBooks too, from 13&quot; upwards <br />
+        with a variety of screens including <span class="caps">OLED</span>.  However, these 18&quot; units have <br />
+        proven quite popular, and so we&#8217;re singling them out to <span class="caps">RISC</span> OS users.  <br />
+        The laptops should be on display in London.  Expect to see RCI&#8217;s MiniPC <br />
+        range too.</p>
+        <p>Pinebook Pros<br />
+        =-=-=-=-=-=-=</p>
+        <p>Speaking of Laptops, <span class="caps">RCI</span> still have one or two Pinebook Pros &#8211; they grab <br />
+        stock from around the world when they appear online.  Pinebook Pros offer <br />
+        a fantastic native-<span class="caps">RISC</span> OS experience with class leading performance, <br />
+        working wifi, and even optional NVMe sockets for high speed storage.  <br />
+        Prices fluctuate as limited availability often results in price spikes, <br />
+        but <span class="caps">RCI</span> is trying to keep prices in the same ballpark as before.</p>
+        <p>N.Ex.T, Hydra and NVMe<br />
+        =-=-=-=-=-=-=-=-=-=-=-</p>
+        <p><span class="caps">RCI</span> will also be showing N.Ex.T and Hydra systems as usual &#8211; expect to see <br />
+        large NVMe drives and some exciting new features.  See the latest v9 (and <br />
+        the forthcoming v10) NVMe drivers with <span class="caps">SMART</span> disc health features and <br />
+        drive health checks.  See native <span class="caps">RISC</span> OS disc partitions, 4K sectors, our <br />
+        NVMe toolkit and more.</p>
+        <p>Hydra shows how Pi4 and Pi5 tech can be used side-by-side, and you&#8217;ll be <br />
+        able to see ROD&#8217;s new <span class="caps">RISC</span> OS Direct for Pi5 running on a Hydra Head.</p>
+        <p>Check out the tiny mini.pi N.Ex.T computer which packs almost every <br />
+        feature into the tiniest box, at a cracking price.</p>
+        <p>There will also be some rather different devices shown with up to 8 NVMe <br />
+        slots!  Aimed at file sharing and home <span class="caps">NAS</span> appliances, these small silent <br />
+        boxes provide exceptional capabilities at surprisingly affordable prices, <br />
+        whilst opening up a range of options for <span class="caps">RISC</span> OS and allowing room to <br />
+        expand and grow.  Come and find out more at the show.</p>
+        <p>RISCube Minis<br />
+        =-=-=-=-=-=-=</p>
+        <p>We&#8217;ve talked about RISCBooks, but 2025 has also bee the year of MiniPCs <br />
+        with our range of RISCube Minis offering state of the art features and <br />
+        stunning performance at lower-than-ever prices.  See features like the <br />
+        latest USB4, multiple 4K+ displays, Wifi 6E and 7, 2.5 Gbit ethernet and <br />
+        more &#8211; all useable from <span class="caps">RISC</span> OS!</p>
+        <p>Monitors<br />
+        =-=-=-=-</p>
+        <p>We&#8217;ll have a selection of <span class="caps">IPS</span> and <span class="caps">OLED</span> displays available on the stand for <br />
+        you to check out and plan the best way to make your day-to-day computing <br />
+        more pleasurable.  Remember your screen determines everything you see and <br />
+        do on the computer, so if you&#8217;re an enthusiast (and coming to a computer <br />
+        show counts as an enthusiast!) then you deserve the best you can.</p>
+        <p>Monitor prices have come down a bit recently, so why not take advantage of <br />
+        that to treat yourself?</p>
+        <p>Whatever takes your fancy, come and check out our range at the <span class="caps">RCI</span> stand <br />
+        at the show and say hello!</p>]]>
+      </description>
+      <source:markdown>- We’ll be knocking 20ukp off all hardware items (over 50ukp) at the show.
+
+
+  You don’t need to quote any adverts or phrases or claim anything special.
+
+
+  Just money off for everyone :) \*\*
+
+At the recent Show Preview user group meeting, Andrew Rawnsley of RCI
+
+demonstrated some new hardware items that had been proving popular this
+
+summer, and will be available at the London Show this weekend.
+
+18 inches of RISCBook
+
+=-=-=-=-=-=-=-=-=-=-=
+
+First up was a new 18&#34; RISCBook laptop. For those unfamiliar, the
+
+RISCBook range of laptops run RISC OS and Windows together, providing the
+
+best of both RISC OS and Windows software, with links between the two OSs
+
+to allow them to share resources such as files, printers, clipboard, and
+
+networking.
+
+The pressing onset of Windows 11 has prompted a number of users to upgrade
+
+this Autumn, and the 18&#34; laptop has proven popular. Although 18&#34; may
+
+sound huge for a laptop, screen shapes have become more flexible in recent
+
+times, and the 18&#34; uses a 16:10 ratio with more vertical space for
+
+documents. This means it is roughly the same size/weight as a 17&#34; laptop,
+
+whilst offering more screen space (1920×1200). Very practical for working
+
+on documents, and the high refresh rate (144 Hz) IPS panel looks lovely.
+
+We’ve found that as people age, they appreciate the larger screens and
+
+full size backlit keyboards (with number pads), whilst finding the
+
+convenience of a laptop is easier to fit in various rooms. For example,
+
+RCI’s Allan (Andrew’s father) now uses his laptop downstairs to save
+
+having to trek up to the more traditional machines in his office upstairs.
+
+Whilst the laptops aren’t RISC OS friendly when they arrive, RCI is able
+
+to adapt them to run RISC OS beautifully, with smooth performance and
+
+flexible software compatibility (run both 26bit and 32bit applications).
+
+Touchpad mouse gestures (eg. 3 finger tap) mean that replication of the
+
+three button mouse is great too. Of course, you can plug in a mouse (or
+
+use a wireless one) too.
+
+These laptops are no slouches – 8-core, 16 thread AMD chips amply
+
+demonstrate why AMD have become so dominant again recently – they can
+
+motor through anything from web browsing to video editing. Whilst the
+
+graphics are on-chip, they’re top tier for what they are, making games
+
+possible too. With 16GB RAM and 1TB of storage packed into a slim and
+
+low-weight chassis, there’s a lot of “oomph” inside.
+
+Of course, RCI offers a range of other RISCBooks too, from 13&#34; upwards
+
+with a variety of screens including OLED. However, these 18&#34; units have
+
+proven quite popular, and so we’re singling them out to RISC OS users.
+
+The laptops should be on display in London. Expect to see RCI’s MiniPC
+
+range too.
+
+Pinebook Pros
+
+=-=-=-=-=-=-=
+
+Speaking of Laptops, RCI still have one or two Pinebook Pros – they grab
+
+stock from around the world when they appear online. Pinebook Pros offer
+
+a fantastic native-RISC OS experience with class leading performance,
+
+working wifi, and even optional NVMe sockets for high speed storage.
+
+Prices fluctuate as limited availability often results in price spikes,
+
+but RCI is trying to keep prices in the same ballpark as before.
+
+N.Ex.T, Hydra and NVMe
+
+=-=-=-=-=-=-=-=-=-=-=-
+
+RCI will also be showing N.Ex.T and Hydra systems as usual – expect to see
+
+large NVMe drives and some exciting new features. See the latest v9 (and
+
+the forthcoming v10) NVMe drivers with SMART disc health features and
+
+drive health checks. See native RISC OS disc partitions, 4K sectors, our
+
+NVMe toolkit and more.
+
+Hydra shows how Pi4 and Pi5 tech can be used side-by-side, and you’ll be
+
+able to see ROD’s new RISC OS Direct for Pi5 running on a Hydra Head.
+
+Check out the tiny mini.pi N.Ex.T computer which packs almost every
+
+feature into the tiniest box, at a cracking price.
+
+There will also be some rather different devices shown with up to 8 NVMe
+
+slots! Aimed at file sharing and home NAS appliances, these small silent
+
+boxes provide exceptional capabilities at surprisingly affordable prices,
+
+whilst opening up a range of options for RISC OS and allowing room to
+
+expand and grow. Come and find out more at the show.
+
+RISCube Minis
+
+=-=-=-=-=-=-=
+
+We’ve talked about RISCBooks, but 2025 has also bee the year of MiniPCs
+
+with our range of RISCube Minis offering state of the art features and
+
+stunning performance at lower-than-ever prices. See features like the
+
+latest USB4, multiple 4K+ displays, Wifi 6E and 7, 2.5 Gbit ethernet and
+
+more – all useable from RISC OS!
+
+Monitors
+
+=-=-=-=-
+
+We’ll have a selection of IPS and OLED displays available on the stand for
+
+you to check out and plan the best way to make your day-to-day computing
+
+more pleasurable. Remember your screen determines everything you see and
+
+do on the computer, so if you’re an enthusiast (and coming to a computer
+
+show counts as an enthusiast!) then you deserve the best you can.
+
+Monitor prices have come down a bit recently, so why not take advantage of
+
+that to treat yourself?
+
+Whatever takes your fancy, come and check out our range at the RCI stand
+
+at the show and say hello!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20072:159387</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: MMC hard drive emulation?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468308#p468308</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468308#p468308</guid>
+    </item>    <item>
+      <title>general • Re: Repton Overture Finally Finished</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468305#p468305</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468305#p468305</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: MMC hard drive emulation?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468304#p468304</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468304#p468304</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Unipod and ADF10 or AEH52</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468302#p468302</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468302#p468302</guid>
+    </item>    <item>
+      <title>archive requests • Re: Protected tapes and custom loaders (Electron)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468298#p468298</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468298#p468298</guid>
+    </item>    <item>
+      <title>Show offer on Impression User Manual and free software to collect</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13504&#38;page=1#125836</link>
+      <description>
+        <![CDATA[I do have some 120MB sticks pre loaded as well ...]]>
+      </description>
+      <source:markdown>I do have some 120MB sticks pre loaded as well ...</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13504&#38;page=1#125836</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3m3wqp3tlxc2e</link>
+      <description>
+        <![CDATA[If you love Assembly, I am sure you'll love my UltimASM DSL, it allows you to design the Assembly of your dreams or to code in 6502, 6809, 68000 and even VAX ASM on #RISC_OS (and all other supported platform by my #UltimaVM).
+        
+        Want to know more? Come at the RISC OS London Show Saturday 25th October!]]>
+      </description>
+      <source:markdown>If you love Assembly, I am sure you&#39;ll love my UltimASM DSL, it allows you to design the Assembly of your dreams or to code in 6502, 6809, 68000 and even VAX ASM on #RISC\_OS (and all other supported platform by my #UltimaVM).
+
+Want to know more? Come at the RISC OS London Show Saturday 25th October!</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3m3wqp3tlxc2e</guid>
+    </item>    <item>
+      <title>Chris Hall’s last minute London Show offers</title>
+      <link>https://www.riscository.com/2025/chris-hall-london-show-offers/</link>
+      <description>
+        <![CDATA[One final email has landed in the RISCOSitory bunker before things get fully shut down for the duration of the London Show, and it&#8217;s from Chris Hall: The 368 page Impression User Manual (in the form of a PDF file) was originally provided free to purchasers of Impression X. This User Manual is now available in electronic form free to all users of Impression Style (which is free to download from !Store), Publisher and Publisher Plus from !Store. A printed version of the manual is still available, normal price £25,&#8230;]]>
+      </description>
+      <source:markdown>One final email has landed in the RISCOSitory bunker before things get fully shut down for the duration of the London Show, and it’s from Chris Hall: The 368 page Impression User Manual (in the form of a PDF file) was originally provided free to purchasers of Impression X. This User Manual is now available in electronic form free to all users of Impression Style (which is free to download from !Store), Publisher and Publisher Plus from !Store. A printed version of the manual is still available, normal price £25,…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10780</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Line jammed on econet (!FOZ! 2025)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468296#p468296</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468296#p468296</guid>
+    </item>    <item>
+      <title>Show offer on Impression User Manual and free software to collect</title>
+      <link>http://www.iconbar.com/comments/rss/news2252.html</link>
+      <description>
+        <![CDATA[If you don't have a copy of the Impression User manual and would like a printed copy, Chris Hall has a very special offer for you at the London Show]]>
+      </description>
+      <source:markdown>If you don&#39;t have a copy of the Impression User manual and would like a printed copy, Chris Hall has a very special offer for you at the London Show</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2252.html</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Line jammed on econet (!FOZ! 2025)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468295#p468295</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468295#p468295</guid>
+    </item>    <item>
+      <title>Show Offer</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20071</link>
+      <description>
+        <![CDATA[<p>The 368 page Impression User Manual (in the form of a <span class="caps">PDF</span> file) was originally provided free to purchasers of Impression X. This User Manual is now available in electronic form free to all users of Impression Style (which is free to download from !Store), Publisher and Publisher Plus from !Store.</p>
+        <p>A printed version of the manual is still available, normal price £25, which includes a personal download link for Impression Publisher Plus version 5.13, courtesy of <span class="caps">RISC</span> OS Developments. I shall be discounting the few remaining copies of this manual at the show.</p>
+        <p>Although the User Manual was created in Impression, with contents and index created automatically, the <span class="caps">PDF</span> that was produced was designed to produce a printed manual. It therefore has no internal links. The RingBind version of the User Manual does have page to page links from the Contents pages, section to section and all 12 pages of the Index.</p>
+        <p>I shall be handing out <span class="caps">USB</span> sticks at the show free of charge with the latest version of !FamTree, version 1.58 (May 2024) [which will be made free to download from !Store after the show]. The <span class="caps">USB</span> sticks are only 32Mbytes so you can have as much of the other software listed below as will fit &#8211; for example a RingBind version of the <span class="caps">RISC</span> OS 5.30 User Manual (with over 3000 internal links) or both RingBind and <span class="caps">PDF</span> versions of the Impression User Manual. If you want more then I&#8217;ll put it on your own <span class="caps">USB</span> stick or another 32MB stick. No individual zip file is larger than 14Mbytes. At least until stocks run out&#8230;</p>
+        <p>This amounts to over 242M bytes of data all on a 128Mbyte <span class="caps">USB</span> stick.</p>
+        <p><img src="https://www.svrsig.org/images/CatFile.jpg" alt="" /></p>]]>
+      </description>
+      <source:markdown>The 368 page Impression User Manual (in the form of a PDF file) was originally provided free to purchasers of Impression X. This User Manual is now available in electronic form free to all users of Impression Style (which is free to download from !Store), Publisher and Publisher Plus from !Store.
+
+A printed version of the manual is still available, normal price £25, which includes a personal download link for Impression Publisher Plus version 5.13, courtesy of RISC OS Developments. I shall be discounting the few remaining copies of this manual at the show.
+
+Although the User Manual was created in Impression, with contents and index created automatically, the PDF that was produced was designed to produce a printed manual. It therefore has no internal links. The RingBind version of the User Manual does have page to page links from the Contents pages, section to section and all 12 pages of the Index.
+
+I shall be handing out USB sticks at the show free of charge with the latest version of !FamTree, version 1.58 (May 2024) \[which will be made free to download from !Store after the show\]. The USB sticks are only 32Mbytes so you can have as much of the other software listed below as will fit – for example a RingBind version of the RISC OS 5.30 User Manual (with over 3000 internal links) or both RingBind and PDF versions of the Impression User Manual. If you want more then I’ll put it on your own USB stick or another 32MB stick. No individual zip file is larger than 14Mbytes. At least until stocks run out…
+
+This amounts to over 242M bytes of data all on a 128Mbyte USB stick.
+
+![](https://www.svrsig.org/images/CatFile.jpg)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20071:159380</guid>
+    </item>    <item>
+      <title>London Show sees launch of NetFetch 6 from R-Comp</title>
+      <link>https://www.riscository.com/2025/london-show-netfetch-6/</link>
+      <description>
+        <![CDATA[In another bit of last minute London Show news, a new version of NetFetch is being released by R-Comp. Here&#8217;s the full announcement from Andrew Rawnsley: R-Comp are launching version 6 of NetFetch at the London show, over six years since v5.5 launched at Wakefield 2019. (Spoiler &#8211; it&#8217;s live now on !Store) NetFetch provides flexible mail and news fetching for RISC OS, including anti spam and other filtering capabilities, as well as a friendly front end to RISC OS internet-related software. A version of Messenger Pro is included to&#8230;]]>
+      </description>
+      <source:markdown>In another bit of last minute London Show news, a new version of NetFetch is being released by R-Comp. Here’s the full announcement from Andrew Rawnsley: R-Comp are launching version 6 of NetFetch at the London show, over six years since v5.5 launched at Wakefield 2019. (Spoiler – it’s live now on !Store) NetFetch provides flexible mail and news fetching for RISC OS, including anti spam and other filtering capabilities, as well as a friendly front end to RISC OS internet-related software. A version of Messenger Pro is included to…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10778</guid>
+    </item>    <item>
+      <title>software preservation • Re: The people rescuing forgotten knowledge trapped on old floppy disks</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468292#p468292</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468292#p468292</guid>
+    </item>    <item>
+      <title>general • Re: Repton Overture Finally Finished</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468291#p468291</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468291#p468291</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • AKF50 repair options</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468290#p468290</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468290#p468290</guid>
+    </item>    <item>
+      <title>Last minute show news from RISCOSbits</title>
+      <link>https://www.riscository.com/2025/last-minute-london-show-riscosbits/</link>
+      <description>
+        <![CDATA[With the RISC OS London Show now only one day away, here&#8217;s a last-minute announcement from RISCOSbits: In last minute stop-press news, RISCOSbits are pleased to announce a few additions to the London Show stand. For those of you who are in the market for a RISC OS laptop, RISCOSbits may have exactly what you are looking for at the London show! We will have VERY LIMITED stock of Linux enabled, but RISC OS capable Pinebook Pros available for sale at the London show. Whilst these laptops are not fitted&#8230;]]>
+      </description>
+      <source:markdown>With the RISC OS London Show now only one day away, here’s a last-minute announcement from RISCOSbits: In last minute stop-press news, RISCOSbits are pleased to announce a few additions to the London Show stand. For those of you who are in the market for a RISC OS laptop, RISCOSbits may have exactly what you are looking for at the London show! We will have VERY LIMITED stock of Linux enabled, but RISC OS capable Pinebook Pros available for sale at the London show. Whilst these laptops are not fitted…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10756</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3m3whpsskw22u</link>
+      <description>
+        <![CDATA[Looking out of the window, I see it's a beautiful autumn morning and much nicer than the numerous weather apps on my phone implied.
+        #lake_disctric #cumbria #living_in_the_lakes #westmorland]]>
+      </description>
+      <source:markdown>Looking out of the window, I see it&#39;s a beautiful autumn morning and much nicer than the numerous weather apps on my phone implied.
+#lake\_disctric #cumbria #living\_in\_the\_lakes #westmorland</source:markdown>
+      <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3m3whpsskw22u</guid>
+    </item>    <item>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Three - AntiAir</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468254#p468254</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468254#p468254</guid>
@@ -319,6 +749,14 @@ Limited stock, so hurry up to the RISCOSbits stand!
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468232#p468232</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468232#p468232</guid>
     </item>    <item>
+      <title>London Show, Sat 25th October 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
+      <description>
+        <![CDATA[<p>There should also be the usual Show report posted on <span class="caps">TIB</span></p>]]>
+      </description>
+      <source:markdown>There should also be the usual Show report posted on TIB</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20020:159367</guid>
+    </item>    <item>
       <title>Out 25th October - Mystery release!</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20067</link>
       <description>
@@ -333,6 +771,36 @@ No, nothing wrong with your screen! Exciting major update to a very popular prod
 [www.dragdrop.co.uk](http://www.dragdrop.co.uk)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20067:159366</guid>
     </item>    <item>
+      <title>RO5.30 Why is SVC Stack Protected from USR Mode Reads ?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20061</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I can understand not allowing <span class="caps">WRITES</span> to the <span class="caps">SVC</span> stack from user mode. However, why do <span class="caps">READS</span> from the <span class="caps">SVC</span> stack cause an abort ?</p>
+        </blockquote>
+        <p>While all the generalisms about <em>you shouldn&#8217;t be doing that</em> given so far are true, plus a nod to security because some areas of memory contain sensitive information (&#8230;it&#8217;s only a nod to security since of course <code>OS_EnterOS</code> can circumvent that!), the true motivation behind the change requires reading the full 5.30 change logs rather than the abridged ones.</p>
+        <p>Specifically that, when running on real Arm chips, the page table format which allows for <span class="caps">LPAE</span> to work doesn&#8217;t have the combination of user mode R/X priviledged R/W/X. Presumably they ran out of bits or something? The net result is that in order to <a href="/news/articles/2025/07/18/pi-memory-freed-from-its-32-bit-shackles">support &gt; 4GB <span class="caps">RAM</span> like on the Pi 4 and IGEPv5</a> that combination has been <a href="https://gitlab.riscosopen.org/RiscOS/Sources/Kernel/-/commit/f93d930dfe9a53dc925cfd9bad02b854dedc88ba">removed from the OS</a> and various bits of kernel workspace are therefore not readable from user mode any more.</p>
+        <p>A couple of other areas lost user mode read access in the process, like <a href="https://gitlab.riscosopen.org/RiscOS/Sources/FileSys/FileCore/-/commit/c087cd1749a40f4b3400ed54f8aea387064dd666">FileCore&#8217;s disc map dynamic area</a>, most likely that was a mistake in the first place as its internal data structures can change on a whim.</p>
+        <p>If you want to read up the <span class="caps">SVC</span> stack take a look at <a href="/wiki/documentation/show/OS_AbortTrap">OS_AbortTrap</a> which can emulate the operation in principle.</p>]]>
+      </description>
+      <source:markdown>&#62; I can understand not allowing WRITES to the SVC stack from user mode. However, why do READS from the SVC stack cause an abort ?
+
+While all the generalisms about _you shouldn’t be doing that_ given so far are true, plus a nod to security because some areas of memory contain sensitive information (…it’s only a nod to security since of course `OS_EnterOS` can circumvent that!), the true motivation behind the change requires reading the full 5.30 change logs rather than the abridged ones.
+
+Specifically that, when running on real Arm chips, the page table format which allows for LPAE to work doesn’t have the combination of user mode R/X priviledged R/W/X. Presumably they ran out of bits or something? The net result is that in order to [support &#62; 4GB RAM like on the Pi 4 and IGEPv5](/news/articles/2025/07/18/pi-memory-freed-from-its-32-bit-shackles) that combination has been [removed from the OS](https://gitlab.riscosopen.org/RiscOS/Sources/Kernel/-/commit/f93d930dfe9a53dc925cfd9bad02b854dedc88ba) and various bits of kernel workspace are therefore not readable from user mode any more.
+
+A couple of other areas lost user mode read access in the process, like [FileCore’s disc map dynamic area](https://gitlab.riscosopen.org/RiscOS/Sources/FileSys/FileCore/-/commit/c087cd1749a40f4b3400ed54f8aea387064dd666), most likely that was a mistake in the first place as its internal data structures can change on a whim.
+
+If you want to read up the SVC stack take a look at [OS\_AbortTrap](/wiki/documentation/show/OS_AbortTrap) which can emulate the operation in principle.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20061:159365</guid>
+    </item>    <item>
+      <title>!PDF crashing</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20066</link>
+      <description>
+        <![CDATA[<p>Could you paste the whole of the dump text? <code>__unixlib_raise_signal()</code> is just telling you that it&#8217;s crashed, I think&#8230;</p>]]>
+      </description>
+      <source:markdown>Could you paste the whole of the dump text? `__unixlib_raise_signal()` is just telling you that it’s crashed, I think…</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20066:159364</guid>
+    </item>    <item>
       <title>Release 9d of RCI’s NVMe drivers, with NVMeTools and SMART</title>
       <link>https://www.riscository.com/2025/rci-nvme-drivers-9d/</link>
       <description>
@@ -340,35 +808,6 @@ No, nothing wrong with your screen! Exciting major update to a very popular prod
       </description>
       <source:markdown>Another announcement has popped up, this time from RCI, R-Comp Interactive (aka RCI – R-Comp’s sister company), about an updated release of their NVMe drivers. This is what Andrew Rawnsley’s email said: R-Comp Interactive is pleased to announce that version 9d of our NVMe Drivers are now available. Since the drivers are already incredibly fast (up to 80% faster than competing products), and work with a wide variety of drives, the focus this time has been on expanding functionality, features and the experience for both users and developers. Headline features…</source:markdown>
       <guid>cid://https://www.riscository.com/?p=10775</guid>
-    </item>    <item>
-      <title>!PDF crashing</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20066</link>
-      <description>
-        <![CDATA[<p>My copy of !<span class="caps">PDF</span> 3.02.1.24.1 is crashing when given a previously displayable file. I&#8217;ve downloaded a fresh copy from PackMan without improvement.</p>
-        <p>It produces a dump in a temporary window starting with:</p>
-        fatal signal received: Segmentation fault
-        <p>and mentioning __unixlib_raise_signal() in the backtrace,<br />
-        which sounds like something not supporting !<span class="caps">PDF</span> as normal possibly to do with SharedLibs (also recently updated from PackMan).</p>
-        <p>Any ideas on what action to try taking?</p>
-        <p><span class="caps">ROS</span> 5.31 (21-Jul-2024)<br />
-        Pi CM4-based NExT</p>]]>
-      </description>
-      <source:markdown>My copy of !PDF 3.02.1.24.1 is crashing when given a previously displayable file. I’ve downloaded a fresh copy from PackMan without improvement.
-
-It produces a dump in a temporary window starting with:
-
-fatal signal received: Segmentation fault
-
-and mentioning \_\_unixlib\_raise\_signal() in the backtrace,
-
-which sounds like something not supporting !PDF as normal possibly to do with SharedLibs (also recently updated from PackMan).
-
-Any ideas on what action to try taking?
-
-ROS 5.31 (21-Jul-2024)
-
-Pi CM4-based NExT</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20066:159363</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: Pi1MHz Software</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468216#p468216</link>
@@ -602,56 +1041,6 @@ Click “Explore” at the bottom of that page to view the source. If you’d li
       </description>
       <source:markdown>With this year’s London Show drawing ever nearer – the doors will be open to the public in just two days on 25th October, at the Harrow District Masonic Centre – another announcement has landed in the RISCOSitory bunker, and, amongst other interesting news, this one includes something we’ve all been eagerly awaiting for a very long time: a public release of web browser Iris from RISC OS Developments. Over to Andrew Rawnsley for all the gory details: Iris Releases via PackMan The Spring and Summer saw multiple beta releases…</source:markdown>
       <guid>cid://https://www.riscository.com/?p=10771</guid>
-    </item>    <item>
-      <title>RO5.30 Why is SVC Stack Protected from USR Mode Reads ?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20061</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p><span class="caps">AIUI</span> there’s nothing on the <span class="caps">SVC</span> stack that would make any sense to any task in user mode. It’s empty.</p>
-        </blockquote>
-        <p>Not strictly true when you are writing code using <span class="caps">ARM</span> assembler ;-)</p>
-        <p>Pressing function key F3 on !ARM_Debug displays the most significant eight 32-bit words on the stack in a pop-up window. If the current instruction being &#8216;executed&#8217; by the debugger is in <span class="caps">USR</span> mode then F3 shows the <span class="caps">USR</span> stack contents. If the current instruction is in <span class="caps">SVC</span> mode then F3 shows the <span class="caps">SVC</span> stack contents.</p>
-        <p>The run-time !ARM_Debug code runs in a module. Theo wrote the module to mostly run in <span class="caps">USR</span> mode and his code only switches to <span class="caps">SVC</span> mode when absolutely necessary (i.e. best practice). This explains why the <span class="caps">SVC</span> stack is being read by code running in <span class="caps">USR</span> mode as this has been &#8216;allowed&#8217; by <span class="caps">RISC</span> OS until RO5.30.</p>
-        <p>Original code (i.e. RO5.28):</p>
-        <pre><code>   LDR     R4,[R2,#0]</code></pre>
-        <p>New code (i.e. RO5.30):</p>
-        <pre><code>    SWI     "OS_EnterOS"   ; read SVC stack needs SVC mode RO5.30
-            LDR     R4,[R2,#0]
-            MSR     CPSR_c,#%10000 ; return to 32bit USR mode</code></pre>]]>
-      </description>
-      <source:markdown>&#62; AIUI there’s nothing on the SVC stack that would make any sense to any task in user mode. It’s empty.
-
-Not strictly true when you are writing code using ARM assembler ;-)
-
-Pressing function key F3 on !ARM\_Debug displays the most significant eight 32-bit words on the stack in a pop-up window. If the current instruction being ‘executed’ by the debugger is in USR mode then F3 shows the USR stack contents. If the current instruction is in SVC mode then F3 shows the SVC stack contents.
-
-The run-time !ARM\_Debug code runs in a module. Theo wrote the module to mostly run in USR mode and his code only switches to SVC mode when absolutely necessary (i.e. best practice). This explains why the SVC stack is being read by code running in USR mode as this has been ‘allowed’ by RISC OS until RO5.30.
-
-Original code (i.e. RO5.28):
-
-```
-   LDR     R4,[R2,#0]
-```
-
-New code (i.e. RO5.30):
-
-```
-    SWI     &#34;OS_EnterOS&#34;   ; read SVC stack needs SVC mode RO5.30
-    LDR     R4,[R2,#0]
-    MSR     CPSR_c,#%10000 ; return to 32bit USR mode
-```</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20061:159355</guid>
-    </item>    <item>
-      <title>London Show, Sat 25th October 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
-      <description>
-        <![CDATA[<p>We now have seven topics in the theatre to squeeze in. First talk will be at 11:30 so get to the show early.</p>
-        <p>Just two days to go!</p>]]>
-      </description>
-      <source:markdown>We now have seven topics in the theatre to squeeze in. First talk will be at 11:30 so get to the show early.
-
-Just two days to go!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20020:159353</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3m3syv3nfyk2g</link>
       <description>
@@ -1488,17 +1877,6 @@ For more information, please look for it on !Store.</source:markdown>
       <title>Introduce Yourself • Re: Greetings from Spain</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467792#p467792</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467792#p467792</guid>
-    </item>    <item>
-      <title>A Puzzling Addition to the Platform</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/19172</link>
-      <description>
-        <![CDATA[<p>And there&#8217;s another new build of Puzzles (f24329d) up on my site. A few more bug fixes and minor tweaks to the <span class="caps">RISC</span> OS front-end, along with an update to the upstream code (which I believe is a fix to a bug in Palisade).</p>
-        <p>See <a href="https://www.stevefryatt.org.uk/risc-os/games">https://www.stevefryatt.org.uk/risc-os/games</a> for details.</p>]]>
-      </description>
-      <source:markdown>And there’s another new build of Puzzles (f24329d) up on my site. A few more bug fixes and minor tweaks to the RISC OS front-end, along with an update to the upstream code (which I believe is a fix to a bug in Palisade).
-
-See [https://www.stevefryatt.org.uk/risc-os/games](https://www.stevefryatt.org.uk/risc-os/games) for details.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:19172:159312</guid>
     </item>    <item>
       <title>Live Coding with Gerph, Sunday 19th October at 1pm.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20054</link>
