@@ -7,10 +7,112 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>24 Oct 25 07:00 -0700</lastBuildDate>
+    <lastBuildDate>24 Oct 25 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: Line jammed on econet (!FOZ! 2025)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468335#p468335</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468335#p468335</guid>
+    </item>    <item>
+      <title>Stop The Presses - Last Minute RISCOSbits News and Special Offers</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20073</link>
+      <description>
+        <![CDATA[<p>In last minute stop-press news, RISCOSbits are pleased to announce a few additions to the London Show stand.</p>
+        <p>For those of you who are in the market for a <span class="caps">RISC</span> OS laptop, RISCOSbits may have exactly what you are looking for at the London show! We will have <span class="caps">VERY</span> <span class="caps">LIMITED</span> stock of Linux enabled, but <span class="caps">RISC</span> OS capable Pinebook Pros available for sale at the London show. Whilst these laptops are not fitted with <span class="caps">RISC</span> OS for licencing reasons, we can demonstrate them running <span class="caps">RISC</span> OS to show you that it is possible and easy to do. All you will need to do is pop along to another stand at the show and purchase access to the <span class="caps">ROM</span>.</p>
+        <p>As people may be aware, there are two variants of Pinebook Pro &#8211; one with a UK layout keyboard, and one with a more generic (US) layout. We will have the latter available.</p>
+        <p>The Pinebook Pro comes equipped with 64GB of eMMC storage preinstalled and pre-formatted for <span class="caps">RISC</span> OS use. The laptops (running Linux) will be available on a “first come, first served” basis for only £150 &#8211; remember, stocks are very limited. We also have a super bargain special offer on one with a slight donk on the top rim of the shell. Doesn&#8217;t affect the functionality, but we&#8217;ll knock a further <strong>£25 off!</strong></p>
+        <p>Our next bit of <strong>exclusive</strong> news is we&#8217;ll be selling external antennas for Compute Module 4 systems, especially those in metal cases. Many of you will be aware that the Linux method of enabling this using dtparams doesn&#8217;t work on <span class="caps">RISC</span> OS, but by partnering with Stader Software, we are able to offer exclusive free access to antenna control software for <span class="caps">RISC</span> OS to enable the external antenna.</p>
+        <p>As an added bonus, if you buy a system with a WiFi- enabled Compute Module 4 from our FreeNVMe or <span class="caps">FAST</span> range and you ask for an antenna, we&#8217;ll give it you for free, including exclusive access to the control software for <span class="caps">RISC</span> OS. Combine this with our &#8216;Get In Free*&#8217; <a href="https://www.riscosopen.org/forum/forums/1/topics/20069">offer</a> and you&#8217;re making incredible savings! It&#8217;s also worth remembering we publish the prices and specifications of our systems on our <a href="https://www.riscosbits.co.uk/systems.htm">website</a> so you can calculate the bang per buck you get with RISCOSbits!</p>
+        <p>We&#8217;ll also have a few gold and black case badges to tell the world what&#8217;s running inside your otherwise anonymous case! And at a pocket money price of only £2.50!</p>
+        <p>And the final teaser is we&#8217;ll be bringing along some delightful Welsh slate drinks mats, engraved with your favourite OS logo. Available for just £5 each, they&#8217;re sure to make your desk look oh so pretty and er, ringless. You could even buy a set of four for £18 for your coffee table or home cocktail bar!</p>
+        <p>So &#8216;coast&#8217; on over to our stand to grab yours!</p>]]>
+      </description>
+      <source:markdown>In last minute stop-press news, RISCOSbits are pleased to announce a few additions to the London Show stand.
+
+For those of you who are in the market for a RISC OS laptop, RISCOSbits may have exactly what you are looking for at the London show! We will have VERYLIMITED stock of Linux enabled, but RISC OS capable Pinebook Pros available for sale at the London show. Whilst these laptops are not fitted with RISC OS for licencing reasons, we can demonstrate them running RISC OS to show you that it is possible and easy to do. All you will need to do is pop along to another stand at the show and purchase access to the ROM.
+
+As people may be aware, there are two variants of Pinebook Pro – one with a UK layout keyboard, and one with a more generic (US) layout. We will have the latter available.
+
+The Pinebook Pro comes equipped with 64GB of eMMC storage preinstalled and pre-formatted for RISC OS use. The laptops (running Linux) will be available on a “first come, first served” basis for only £150 – remember, stocks are very limited. We also have a super bargain special offer on one with a slight donk on the top rim of the shell. Doesn’t affect the functionality, but we’ll knock a further **£25 off!**
+
+Our next bit of **exclusive** news is we’ll be selling external antennas for Compute Module 4 systems, especially those in metal cases. Many of you will be aware that the Linux method of enabling this using dtparams doesn’t work on RISC OS, but by partnering with Stader Software, we are able to offer exclusive free access to antenna control software for RISC OS to enable the external antenna.
+
+As an added bonus, if you buy a system with a WiFi- enabled Compute Module 4 from our FreeNVMe or FAST range and you ask for an antenna, we’ll give it you for free, including exclusive access to the control software for RISC OS. Combine this with our ‘Get In Free\*’ [offer](https://www.riscosopen.org/forum/forums/1/topics/20069) and you’re making incredible savings! It’s also worth remembering we publish the prices and specifications of our systems on our [website](https://www.riscosbits.co.uk/systems.htm) so you can calculate the bang per buck you get with RISCOSbits!
+
+We’ll also have a few gold and black case badges to tell the world what’s running inside your otherwise anonymous case! And at a pocket money price of only £2.50!
+
+And the final teaser is we’ll be bringing along some delightful Welsh slate drinks mats, engraved with your favourite OS logo. Available for just £5 each, they’re sure to make your desk look oh so pretty and er, ringless. You could even buy a set of four for £18 for your coffee table or home cocktail bar!
+
+So ‘coast’ on over to our stand to grab yours!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20073:159391</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Voltmace Delta 14B/1 keypad adaptor on an Electron? For Elite, perhaps?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468334#p468334</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468334#p468334</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Line jammed on econet (!FOZ! 2025)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468333#p468333</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468333#p468333</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Hi from Cambridgeshire</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468332#p468332</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468332#p468332</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Hi from Cambridgeshire</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468331#p468331</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468331#p468331</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Hi from Cambridgeshire</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468330#p468330</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468330#p468330</guid>
+    </item>    <item>
+      <title>Hardware discounts from R-Comp at the London Show</title>
+      <link>https://www.riscository.com/2025/rcomp-hardware-discounts-london-show/</link>
+      <description>
+        <![CDATA[With the clock counting down rapidly until I can get to the pub the doors open for tomorrow&#8217;s London Show, another announcement has arrived from R-Comp: Stop Press &#8211; We&#8217;ll be knocking 20ukp off all hardware items (over 50ukp) at the show. You don&#8217;t need to quote any adverts or phrases or claim anything special. Just money off for everyone 🙂 At the recent Show Preview user group meeting, Andrew Rawnsley of RCI demonstrated some new hardware items that had been proving popular this summer, and will be available at&#8230;]]>
+      </description>
+      <source:markdown>With the clock counting down rapidly until I can get to the pub the doors open for tomorrow’s London Show, another announcement has arrived from R-Comp: Stop Press – We’ll be knocking 20ukp off all hardware items (over 50ukp) at the show. You don’t need to quote any adverts or phrases or claim anything special. Just money off for everyone 🙂 At the recent Show Preview user group meeting, Andrew Rawnsley of RCI demonstrated some new hardware items that had been proving popular this summer, and will be available at…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10783</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m3xd4zmzbs25</link>
+      <description>
+        <![CDATA[A Silicon Graphics 'Indy' workstation. I used one of these for Nintendo 64 game development. A great machine with awesome OS. The N64 development board fits neatly inside the blue case. Such a shame SGI are no longer around. Great hardware, with a great price tag!]]>
+      </description>
+      <source:markdown>A Silicon Graphics &#39;Indy&#39; workstation. I used one of these for Nintendo 64 game development. A great machine with awesome OS. The N64 development board fits neatly inside the blue case. Such a shame SGI are no longer around. Great hardware, with a great price tag!</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m3xd4zmzbs25</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3m3xav37go22n</link>
+      <description>
+        <![CDATA[Show offer on Impression User Manual and free software to collect 
+        
+        https://www.iconbar.com/articles/Show_offer_on_Impression_User_Manual_and_free_software_to_collect/index2252.html 
+        
+        If you don't have a copy of the Impression User manual and would like a printed copy, Chris Hall has a very special offer for you at the London Show.]]>
+      </description>
+      <source:markdown>Show offer on Impression User Manual and free software to collect
+
+https://www.iconbar.com/articles/Show\_offer\_on\_Impression\_User\_Manual\_and\_free\_software\_to\_collect/index2252.html
+
+If you don&#39;t have a copy of the Impression User manual and would like a printed copy, Chris Hall has a very special offer for you at the London Show.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3m3xav37go22n</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: EtherWiz - a new fully opensource Ethernet podule</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468325#p468325</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468325#p468325</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Voltmace Delta 14B/1 keypad adaptor on an Electron? For Elite, perhaps?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468324#p468324</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468324#p468324</guid>
+    </item>    <item>
+      <title>general • Re: Where are they now?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468323#p468323</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468323#p468323</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Voltmace Delta 14B/1 keypad adaptor on an Electron? For Elite, perhaps?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468322#p468322</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468322#p468322</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m3wzmawzdc2c</link>
       <description>
         <![CDATA[I suspect Michi is wrong here and that it's actually a common UI bug: "feedback" and "commit" using different algorithms OR DIFFERENT COORDINATES.
@@ -441,6 +543,17 @@ This amounts to over 242M bytes of data all on a 128Mbyte USB stick.
 #lake\_disctric #cumbria #living\_in\_the\_lakes #westmorland</source:markdown>
       <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3m3whpsskw22u</guid>
     </item>    <item>
+      <title>!PDF crashing</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20066</link>
+      <description>
+        <![CDATA[<p>Photo of error box <a href="https://filedn.eu/lISiayU8ls0XMXubUjtLSn8/RISC_OS/PDF_crash.png">here</a><br />
+        (How does one get a text version from such a display to present like a quotation in Textile?)</p>]]>
+      </description>
+      <source:markdown>Photo of error box [here](https://filedn.eu/lISiayU8ls0XMXubUjtLSn8/RISC_OS/PDF_crash.png)
+
+(How does one get a text version from such a display to present like a quotation in Textile?)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20066:159375</guid>
+    </item>    <item>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Three - AntiAir</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468254#p468254</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468254#p468254</guid>
@@ -717,6 +830,28 @@ Limited stock, so hurry up to the RISCOSbits stand!
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468240#p468240</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468240#p468240</guid>
     </item>    <item>
+      <title>RO5.30 Why is SVC Stack Protected from USR Mode Reads ?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20061</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Specifically that, when running on real Arm chips, the page table format which allows for <span class="caps">LPAE</span> to work doesn’t have the combination of user mode R/X priviledged R/W/X. Presumably they ran out of bits or something?</p>
+        </blockquote>
+        <p>Thanks Sprow &#8211; suddenly this thread makes some sense :-)</p>
+        <p>In fairness I did download the RO5.31 source code a couple of nights ago, and got as far as trying to find where the &#8216;<span class="caps">MMU</span>&#8217; <span class="caps">USR</span>-mode memory flag change had been implemented. I got as far as &#8216;kernel.s.hal&#8217; (and Jeffery&#8217;s changes for more <span class="caps">RAM</span>) which sort of blew my mind (easily done). I now understand that the RO5.30 memory access model has changed completely from RO5.28.</p>
+        <p>I&#8217;ve also learned a lot more about not &#8216;trusting&#8217; <span class="caps">SVC</span> stacks in <span class="caps">RISC</span> OS&#8230;</p>
+        <p>Ralph</p>]]>
+      </description>
+      <source:markdown>&#62; Specifically that, when running on real Arm chips, the page table format which allows for LPAE to work doesn’t have the combination of user mode R/X priviledged R/W/X. Presumably they ran out of bits or something?
+
+Thanks Sprow – suddenly this thread makes some sense :-)
+
+In fairness I did download the RO5.31 source code a couple of nights ago, and got as far as trying to find where the ‘MMU’ USR-mode memory flag change had been implemented. I got as far as ‘kernel.s.hal’ (and Jeffery’s changes for more RAM) which sort of blew my mind (easily done). I now understand that the RO5.30 memory access model has changed completely from RO5.28.
+
+I’ve also learned a lot more about not ‘trusting’ SVC stacks in RISC OS…
+
+Ralph</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20061:159368</guid>
+    </item>    <item>
       <title>communications • Re: the Night Owl BBS *Thurs*</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468239#p468239</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468239#p468239</guid>
@@ -770,36 +905,6 @@ No, nothing wrong with your screen! Exciting major update to a very popular prod
 
 [www.dragdrop.co.uk](http://www.dragdrop.co.uk)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20067:159366</guid>
-    </item>    <item>
-      <title>RO5.30 Why is SVC Stack Protected from USR Mode Reads ?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20061</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I can understand not allowing <span class="caps">WRITES</span> to the <span class="caps">SVC</span> stack from user mode. However, why do <span class="caps">READS</span> from the <span class="caps">SVC</span> stack cause an abort ?</p>
-        </blockquote>
-        <p>While all the generalisms about <em>you shouldn&#8217;t be doing that</em> given so far are true, plus a nod to security because some areas of memory contain sensitive information (&#8230;it&#8217;s only a nod to security since of course <code>OS_EnterOS</code> can circumvent that!), the true motivation behind the change requires reading the full 5.30 change logs rather than the abridged ones.</p>
-        <p>Specifically that, when running on real Arm chips, the page table format which allows for <span class="caps">LPAE</span> to work doesn&#8217;t have the combination of user mode R/X priviledged R/W/X. Presumably they ran out of bits or something? The net result is that in order to <a href="/news/articles/2025/07/18/pi-memory-freed-from-its-32-bit-shackles">support &gt; 4GB <span class="caps">RAM</span> like on the Pi 4 and IGEPv5</a> that combination has been <a href="https://gitlab.riscosopen.org/RiscOS/Sources/Kernel/-/commit/f93d930dfe9a53dc925cfd9bad02b854dedc88ba">removed from the OS</a> and various bits of kernel workspace are therefore not readable from user mode any more.</p>
-        <p>A couple of other areas lost user mode read access in the process, like <a href="https://gitlab.riscosopen.org/RiscOS/Sources/FileSys/FileCore/-/commit/c087cd1749a40f4b3400ed54f8aea387064dd666">FileCore&#8217;s disc map dynamic area</a>, most likely that was a mistake in the first place as its internal data structures can change on a whim.</p>
-        <p>If you want to read up the <span class="caps">SVC</span> stack take a look at <a href="/wiki/documentation/show/OS_AbortTrap">OS_AbortTrap</a> which can emulate the operation in principle.</p>]]>
-      </description>
-      <source:markdown>&#62; I can understand not allowing WRITES to the SVC stack from user mode. However, why do READS from the SVC stack cause an abort ?
-
-While all the generalisms about _you shouldn’t be doing that_ given so far are true, plus a nod to security because some areas of memory contain sensitive information (…it’s only a nod to security since of course `OS_EnterOS` can circumvent that!), the true motivation behind the change requires reading the full 5.30 change logs rather than the abridged ones.
-
-Specifically that, when running on real Arm chips, the page table format which allows for LPAE to work doesn’t have the combination of user mode R/X priviledged R/W/X. Presumably they ran out of bits or something? The net result is that in order to [support &#62; 4GB RAM like on the Pi 4 and IGEPv5](/news/articles/2025/07/18/pi-memory-freed-from-its-32-bit-shackles) that combination has been [removed from the OS](https://gitlab.riscosopen.org/RiscOS/Sources/Kernel/-/commit/f93d930dfe9a53dc925cfd9bad02b854dedc88ba) and various bits of kernel workspace are therefore not readable from user mode any more.
-
-A couple of other areas lost user mode read access in the process, like [FileCore’s disc map dynamic area](https://gitlab.riscosopen.org/RiscOS/Sources/FileSys/FileCore/-/commit/c087cd1749a40f4b3400ed54f8aea387064dd666), most likely that was a mistake in the first place as its internal data structures can change on a whim.
-
-If you want to read up the SVC stack take a look at [OS\_AbortTrap](/wiki/documentation/show/OS_AbortTrap) which can emulate the operation in principle.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20061:159365</guid>
-    </item>    <item>
-      <title>!PDF crashing</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20066</link>
-      <description>
-        <![CDATA[<p>Could you paste the whole of the dump text? <code>__unixlib_raise_signal()</code> is just telling you that it&#8217;s crashed, I think&#8230;</p>]]>
-      </description>
-      <source:markdown>Could you paste the whole of the dump text? `__unixlib_raise_signal()` is just telling you that it’s crashed, I think…</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20066:159364</guid>
     </item>    <item>
       <title>Release 9d of RCI’s NVMe drivers, with NVMeTools and SMART</title>
       <link>https://www.riscository.com/2025/rci-nvme-drivers-9d/</link>
