@@ -7,10 +7,129 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>24 Oct 25 12:00 -0700</lastBuildDate>
+    <lastBuildDate>24 Oct 25 16:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: Dell Monitor for Master</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468358#p468358</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468358#p468358</guid>
+    </item>    <item>
+      <title>RISC OS Developments at London Show (inc Iris download instructions)</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20064</link>
+      <description>
+        <![CDATA[<p>Has anyone else tried these instructions?  I&#8217;ve followed them very carefully and I don&#8217;t see Iris listed.  I assume it&#8217;s a rigid alphanumeric ordering &#8211; I see Iperf followed by JpegOpt+.  Filter is &#8220;All&#8221; and Sections is &#8220;All Sections&#8221;.  PackMan&#8217;s version is 0.9.8 Beta (18 Jul 2024).</p>
+        <p>Should I remove Qupzilla?  I don&#8217;t know if it conflicts (<span class="caps">ISTR</span> hearing about conflicts involving Qupzilla several years ago).</p>
+        <p>During the upgrade/update process of Packman, there was one conflict of a shared object.  I accepted &#8220;Backup and try again&#8221;, which appeared to be successful &#8211; it didn&#8217;t apprise me of any further problem.</p>]]>
+      </description>
+      <source:markdown>Has anyone else tried these instructions? I’ve followed them very carefully and I don’t see Iris listed. I assume it’s a rigid alphanumeric ordering – I see Iperf followed by JpegOpt+. Filter is “All” and Sections is “All Sections”. PackMan’s version is 0.9.8 Beta (18 Jul 2024).
+
+Should I remove Qupzilla? I don’t know if it conflicts (ISTR hearing about conflicts involving Qupzilla several years ago).
+
+During the upgrade/update process of Packman, there was one conflict of a shared object. I accepted “Backup and try again”, which appeared to be successful – it didn’t apprise me of any further problem.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20064:159392</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: MMC hard drive emulation?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468357#p468357</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468357#p468357</guid>
+    </item>    <item>
+      <title>software preservation • Re: The people rescuing forgotten knowledge trapped on old floppy disks</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468356#p468356</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468356#p468356</guid>
+    </item>    <item>
+      <title>programming • Re: Wish: MAVIS computer recreation in Mode 7</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468355#p468355</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468355#p468355</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic adventure games • Re: &#39;Caribbean Treasure&#39; released for BBC</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468354#p468354</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468354#p468354</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Hi from Cambridgeshire</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468353#p468353</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468353#p468353</guid>
+    </item>    <item>
+      <title>archive requests • Re: Protected tapes and custom loaders (Electron)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468352#p468352</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468352#p468352</guid>
+    </item>    <item>
+      <title>archive requests • Re: Protected tapes and custom loaders (Electron)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468351#p468351</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468351#p468351</guid>
+    </item>    <item>
+      <title>programming • Re: Wish: MAVIS computer recreation in Mode 7</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468350#p468350</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468350#p468350</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3m3xomrk36c2h</link>
+      <description>
+        <![CDATA[Just in case the cryptic images haven't helped, here's an easier picture clue of an external antenna!
+        
+        We'll have them for sale at the @rougol #riscoslondonshow2025 with access to FREE #RISC_OS control software for #ComputeModule4 systems, like our FreeNVMe and FAST systems.]]>
+      </description>
+      <source:markdown>Just in case the cryptic images haven&#39;t helped, here&#39;s an easier picture clue of an external antenna!
+
+We&#39;ll have them for sale at the @rougol #riscoslondonshow2025 with access to FREE #RISC\_OS control software for #ComputeModule4 systems, like our FreeNVMe and FAST systems.</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3m3xomrk36c2h</guid>
+    </item>    <item>
+      <title>general • Re: Repton Overture Finally Finished</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468347#p468347</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468347#p468347</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3m3xmfzcsss2h</link>
+      <description>
+        <![CDATA[Want a flash new keyboard, that will literally flash if you ask it to!? 
+        
+        Fully programmable Cherry MX Red near-silent keys, backlight LEDs, customisable key colours on individual keys! Emulate a BBC, A3000, A3010 or Pi500+ keyboard! 
+        
+        See it at #riscoslondonshow2025
+        
+        #risc_os]]>
+      </description>
+      <source:markdown>Want a flash new keyboard, that will literally flash if you ask it to!?
+
+Fully programmable Cherry MX Red near-silent keys, backlight LEDs, customisable key colours on individual keys! Emulate a BBC, A3000, A3010 or Pi500+ keyboard!
+
+See it at #riscoslondonshow2025
+
+#risc\_os</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3m3xmfzcsss2h</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3m3xl3d3ah22h</link>
+      <description>
+        <![CDATA[See and buy our new #FASTNVMeXL system with our #FreeNVMe drivers, and a whopping 8GB RAM usable under #RISC_OS. Sleek, smooth, and very cool!
+        
+        #risc_os
+        #riscoslondonshow2025
+        #WhatWillYouDoWithIt?]]>
+      </description>
+      <source:markdown>See and buy our new #FASTNVMeXL system with our #FreeNVMe drivers, and a whopping 8GB RAM usable under #RISC\_OS. Sleek, smooth, and very cool!
+
+#risc\_os
+#riscoslondonshow2025
+#WhatWillYouDoWithIt?</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3m3xl3d3ah22h</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3m3xkxfyy6k2i</link>
+      <description>
+        <![CDATA[The RISC OS London Show opens tomorrow morning at 11am. For news of the latest products being released and special offers, see the @riscosopen.bsky.social forum
+        www.riscosopen.org/forum/forums/1
+        #riscoslondonshow2025
+        https://www.riscosopen.org/forum/forums/1]]>
+      </description>
+      <source:markdown>The RISC OS London Show opens tomorrow morning at 11am. For news of the latest products being released and special offers, see the @riscosopen.bsky.social forum
+www.riscosopen.org/forum/forums/1
+#riscoslondonshow2025
+https://www.riscosopen.org/forum/forums/1</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3m3xkxfyy6k2i</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3m3xkt666jk2h</link>
+      <description>
+        <![CDATA[Exclusive: see it working with your RISCOSbits #RISC_OS #FreeNVMe or #FAST system at tomorrow's @rougol London Show: riscoslondonshow.co.uk]]>
+      </description>
+      <source:markdown>Exclusive: see it working with your RISCOSbits #RISC\_OS #FreeNVMe or #FAST system at tomorrow&#39;s @rougol London Show: riscoslondonshow.co.uk</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3m3xkt666jk2h</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Line jammed on econet (!FOZ! 2025)</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468335#p468335</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468335#p468335</guid>
@@ -543,6 +662,19 @@ This amounts to over 242M bytes of data all on a 128Mbyte USB stick.
 #lake\_disctric #cumbria #living\_in\_the\_lakes #westmorland</source:markdown>
       <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3m3whpsskw22u</guid>
     </item>    <item>
+      <title>London Show, Sat 25th October 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>May even live stream the talks</p>
+        </blockquote>
+        <p>Err, no. If we wanted the talks livestreamed we&#8217;d do it.</p>]]>
+      </description>
+      <source:markdown>&#62; May even live stream the talks
+
+Err, no. If we wanted the talks livestreamed we’d do it.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20020:159376</guid>
+    </item>    <item>
       <title>!PDF crashing</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20066</link>
       <description>
@@ -759,28 +891,10 @@ We don’t need to make strangely calculated claims about how it compares to oth
       <title>Sine Nomine Software at the London Show</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20068</link>
       <description>
-        <![CDATA[<p><a href="https://sinenomine.co.uk/software/">Sine Nomine Software</a> will be attending the London Show on Saturday, with several new software releases. These are centred on support for Unicode, allowing the use of a much wider variety of character beyond those common in Western Europe.</p>
-        <p>Nominatim, the location look-up software which lies behind the place name gazetteer in the AtoB route planner, Recce local information application and the location fields in the Impact database, has been enhanced so that you can search for place names in their original script.</p>
-        <p>RiscOSM will allow Unicode characters to appear in almost all text fields in the software. This means that the correct accents are retained in any captions for photos, or information pulled from the internet via Recce.</p>
-        <p>To access the new facilities you will need to install new map data, which we are in the course of preparing for download soon after the show.</p>
-        <p>We think that ImpEmail becomes the first <span class="caps">RISC</span> OS email editing software to support composing messages in full Unicode.  ImpEmail&#8217;s main talent is mail-merged emails, with the merged data coming from either <span class="caps">CSV</span> files or Impulse-compatible databases like Impact and Powerbase. Mail-merge from Impact and Powerbase is still stuck in the 8-bit alphabet era, but now ImpEmail can accept both 8-bit and full <span class="caps">UTF</span>-8 Unicode <span class="caps">CSV</span> files.</p>
-        <p>Impact and RiscOSM also gain the ability to handle <span class="caps">UTF</span>-8 <span class="caps">CSV</span> files. Impact will convert the values to your local system alphabet, but RiscOSM can import and handle the data in its original script.</p>
-        <p>Alongside these major improvements there is a range of smaller enhancements and bug fixes.  Do come along to the stand to find out more, or attend the theatre talk.</p>]]>
+        <![CDATA[<p>Working now! ¯\<em>(ツ)</em>/¯</p>]]>
       </description>
-      <source:markdown>[Sine Nomine Software](https://sinenomine.co.uk/software/) will be attending the London Show on Saturday, with several new software releases. These are centred on support for Unicode, allowing the use of a much wider variety of character beyond those common in Western Europe.
-
-Nominatim, the location look-up software which lies behind the place name gazetteer in the AtoB route planner, Recce local information application and the location fields in the Impact database, has been enhanced so that you can search for place names in their original script.
-
-RiscOSM will allow Unicode characters to appear in almost all text fields in the software. This means that the correct accents are retained in any captions for photos, or information pulled from the internet via Recce.
-
-To access the new facilities you will need to install new map data, which we are in the course of preparing for download soon after the show.
-
-We think that ImpEmail becomes the first RISC OS email editing software to support composing messages in full Unicode. ImpEmail’s main talent is mail-merged emails, with the merged data coming from either CSV files or Impulse-compatible databases like Impact and Powerbase. Mail-merge from Impact and Powerbase is still stuck in the 8-bit alphabet era, but now ImpEmail can accept both 8-bit and full UTF-8 Unicode CSV files.
-
-Impact and RiscOSM also gain the ability to handle UTF-8 CSV files. Impact will convert the values to your local system alphabet, but RiscOSM can import and handle the data in its original script.
-
-Alongside these major improvements there is a range of smaller enhancements and bug fixes. Do come along to the stand to find out more, or attend the theatre talk.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20068:159369</guid>
+      <source:markdown>Working now! ¯\ _(ツ)_/¯</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20068:159371</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: Voltmace Delta 14B/1 keypad adaptor on an Electron? For Elite, perhaps?</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468247#p468247</link>
@@ -883,14 +997,6 @@ Ralph</source:markdown>
       <title>8-bit acorn hardware • BBC B letter d becomes £</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468232#p468232</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468232#p468232</guid>
-    </item>    <item>
-      <title>London Show, Sat 25th October 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
-      <description>
-        <![CDATA[<p>There should also be the usual Show report posted on <span class="caps">TIB</span></p>]]>
-      </description>
-      <source:markdown>There should also be the usual Show report posted on TIB</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20020:159367</guid>
     </item>    <item>
       <title>Out 25th October - Mystery release!</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20067</link>
@@ -1001,139 +1107,6 @@ Andrew</source:markdown>
       <title>8-bit acorn software: classic adventure games • Announcing The BDB Project</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468208#p468208</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468208#p468208</guid>
-    </item>    <item>
-      <title>RISC OS Developments at London Show (inc Iris download instructions)</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20064</link>
-      <description>
-        <![CDATA[<p>Lots of <span class="caps">RISC</span> OS Developments news ahead of the London Show this weekend.  Please note that not all downloads will be live until the weekend, although the PackMan Iris server should be up and running already.</p>
-        <p>Iris Releases via PackMan<br />
-        =-=-=-=-=-=-=-=-=-=-=-=-=</p>
-        <p>The Spring and Summer saw multiple beta releases of Iris as we worked hard towards producing a more public release this Autumn.  Whilst nothing is ever as &#8220;finished&#8221; and &#8220;polished&#8221; as we&#8217;d like, we feel that Iris is now at a point where is provides a much more viable web browsing experience for <span class="caps">RISC</span> OS than was previously possible.</p>
-        <p>If you would like to try installing Iris via PackMan right now, instructions follow:</p>
-        <ul>
-        	<li>1) Load !PackMan from your Apps folder, and make sure you install any updated packages it tells you about.</li>
-        </ul>
-        <ul>
-        	<li>2) Check PackMan&#8217;s version number from its iconbar menu Info window.  It should read 0.98 beta.  If not, please quit and re-run it.  If you have installed the updates mentioned in 1) you should now be on 0.98 beta.</li>
-        </ul>
-        <ul>
-        	<li>3) From the PackMan iconbar menu, go to Advanced&#8594;Sources</li>
-        </ul>
-        Add the new <span class="caps">RISC</span> OS Developments package repository:
-        <ul>
-        	<li><a href="http://packages.riscosdev.com/pkg/autobuilt">http://packages.riscosdev.com/pkg/autobuilt</a></li>
-        </ul>
-        Also, make sure the default package repositories are installed, in particular:
-        <ul>
-        	<li><a href="http://packages.riscosopen.org/packages/pkg/programs-armv5">http://packages.riscosopen.org/packages/pkg/programs-a…</a></li>
-        </ul>
-        Tick &#8220;Refresh package lists&#8221; then Save.
-        <ul>
-        	<li>4) Now, assuming you&#8217;re on a machine capable of running Iris (an ARMv7 compliant machine ie. Pi 2 onwards), when you look in the pacakage list, you should find Iris list.</li>
-        </ul>
-        <p>Double click on it to install, then follow the screens through to install the Iris program and all its component parts (there are a lot of them).</p>
-        <p>Iris will be installed into Apps.Network folder although you can change this or move it around.</p>
-        <ul>
-        	<li>5) We recommend rebooting before using Iris in case any older module versions are still around.</li>
-        </ul>
-        <p>The first time you open Iris, it may take a bit longer to open its main window because it will be generating font indexes and cache files.  Future runs should open more quickly.</p>
-        <p>We&#8217;d like to thank Chris Gransden for his help with packaging Iris, and as always, Lee Noar for his development work.</p>
-        <p><span class="caps">RISC</span> OS Direct for Pi5<br />
-        =-=-=-=-=-=-=-=-=-=-=-</p>
-        <p>This builds on the great work of the <span class="caps">RISC</span> OS for Linux team (Timothy Baldwin and Jan Rinze) to produce a version of <span class="caps">RISC</span> OS Direct capable of running on a Pi5 system.  Because <span class="caps">RISC</span> OS doesn&#8217;t support the Pi5 <span class="caps">CPU</span> directly, this is achieved as an &#8220;application&#8221; on top of Linux, although as benchmarks attest, most code is run natively for very high performance.</p>
-        <p>The <span class="caps">RISC</span> OS Direct distribution includes many popular applications and important assets such as compatible monitor definitions and working network configurations, to allow most <span class="caps">RISC</span> OS applications to run as expected, including network apps like NetSurf, !Store and more.</p>
-        <p>The main limitations are that there is presently no sound support (which limits gaming options) and lack of ARMv7 support for Iris.</p>
-        <p>Wifi and <span class="caps">TCP</span>/IP<br />
-        =-=-=-=-==-=-=-</p>
-        <p>Check the <span class="caps">RISC</span> OS Developments website &#8211; there will be a new release around the time of the show, with fixes, improvements and some performance enhancements.</p>
-        <p>Ethernet-based filing system<br />
-        =-=-=-=-=-==-=-=-=-=-=-=-=-=</p>
-        <p>This is a by-product of another commercial project, but may be useful to some <span class="caps">RISC</span> OS users.  The project allows a Filecore (ie. <span class="caps">RISC</span> OS native) drive to exist on a network-connected device (eg. a Pi with <span class="caps">RAID</span> array).  The host system for the filecore partition is largely academic &#8211; as long as it exists on an accessible network, a <span class="caps">RISC</span> OS computer can access it.</p>
-        <p>As a demo, a filecore partition was hosted in one part of the country on a server, and accessed securely from a client computer several hundred miles away.  Amazingly performance for the database software using this was very  similar to running natively, but with the benefits of <span class="caps">RAID</span> and encryption.</p>
-        <p>Traditionally, network drives on <span class="caps">RISC</span> OS have been based on other filing systems and used protocols such as <span class="caps">SMB</span> for transport.  This project allows for secure &#8220;native&#8221; network drives.</p>
-        <p>The software was built on the open source BlockDevices platform which significantly shortened development time, allowing this work to be up and running quickly.  It also benefits from ROD&#8217;s CacheFS disc/memory cache system.</p>
-        <p>For more info, chat with Richard or Andy V on the <span class="caps">ROD</span> stand at the show.</p>
-        <p><span class="caps">RISC</span> OS Devs GitLab now live<br />
-        =-=-=-=-=-=-=-=-=-=-=-=-=-=-</p>
-        <p>The source code for many <span class="caps">ROD</span> projects is now live online at <a href="https://gitlab.riscosdev.com/">https://gitlab.riscosdev.com/</a></p>
-        <p>Click &#8220;Explore&#8221; at the bottom of that page to view the source.  If you&#8217;d like to contribute, please contact us via email to set things in motion.</p>]]>
-      </description>
-      <source:markdown>Lots of RISC OS Developments news ahead of the London Show this weekend. Please note that not all downloads will be live until the weekend, although the PackMan Iris server should be up and running already.
-
-Iris Releases via PackMan
-
-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-The Spring and Summer saw multiple beta releases of Iris as we worked hard towards producing a more public release this Autumn. Whilst nothing is ever as “finished” and “polished” as we’d like, we feel that Iris is now at a point where is provides a much more viable web browsing experience for RISC OS than was previously possible.
-
-If you would like to try installing Iris via PackMan right now, instructions follow:
-
-- 1) Load !PackMan from your Apps folder, and make sure you install any updated packages it tells you about.
-
-- 2) Check PackMan’s version number from its iconbar menu Info window. It should read 0.98 beta. If not, please quit and re-run it. If you have installed the updates mentioned in 1) you should now be on 0.98 beta.
-
-- 3) From the PackMan iconbar menu, go to Advanced→Sources
-
-Add the new RISC OS Developments package repository:
-
-- [http://packages.riscosdev.com/pkg/autobuilt](http://packages.riscosdev.com/pkg/autobuilt)
-
-Also, make sure the default package repositories are installed, in particular:
-
-- [http://packages.riscosopen.org/packages/pkg/programs-a…](http://packages.riscosopen.org/packages/pkg/programs-armv5)
-
-Tick “Refresh package lists” then Save.
-
-- 4) Now, assuming you’re on a machine capable of running Iris (an ARMv7 compliant machine ie. Pi 2 onwards), when you look in the pacakage list, you should find Iris list.
-
-Double click on it to install, then follow the screens through to install the Iris program and all its component parts (there are a lot of them).
-
-Iris will be installed into Apps.Network folder although you can change this or move it around.
-
-- 5) We recommend rebooting before using Iris in case any older module versions are still around.
-
-The first time you open Iris, it may take a bit longer to open its main window because it will be generating font indexes and cache files. Future runs should open more quickly.
-
-We’d like to thank Chris Gransden for his help with packaging Iris, and as always, Lee Noar for his development work.
-
-RISC OS Direct for Pi5
-
-=-=-=-=-=-=-=-=-=-=-=-
-
-This builds on the great work of the RISC OS for Linux team (Timothy Baldwin and Jan Rinze) to produce a version of RISC OS Direct capable of running on a Pi5 system. Because RISC OS doesn’t support the Pi5 CPU directly, this is achieved as an “application” on top of Linux, although as benchmarks attest, most code is run natively for very high performance.
-
-The RISC OS Direct distribution includes many popular applications and important assets such as compatible monitor definitions and working network configurations, to allow most RISC OS applications to run as expected, including network apps like NetSurf, !Store and more.
-
-The main limitations are that there is presently no sound support (which limits gaming options) and lack of ARMv7 support for Iris.
-
-Wifi and TCP/IP
-
-=-=-=-=-==-=-=-
-
-Check the RISC OS Developments website – there will be a new release around the time of the show, with fixes, improvements and some performance enhancements.
-
-Ethernet-based filing system
-
-=-=-=-=-=-==-=-=-=-=-=-=-=-=
-
-This is a by-product of another commercial project, but may be useful to some RISC OS users. The project allows a Filecore (ie. RISC OS native) drive to exist on a network-connected device (eg. a Pi with RAID array). The host system for the filecore partition is largely academic – as long as it exists on an accessible network, a RISC OS computer can access it.
-
-As a demo, a filecore partition was hosted in one part of the country on a server, and accessed securely from a client computer several hundred miles away. Amazingly performance for the database software using this was very similar to running natively, but with the benefits of RAID and encryption.
-
-Traditionally, network drives on RISC OS have been based on other filing systems and used protocols such as SMB for transport. This project allows for secure “native” network drives.
-
-The software was built on the open source BlockDevices platform which significantly shortened development time, allowing this work to be up and running quickly. It also benefits from ROD’s CacheFS disc/memory cache system.
-
-For more info, chat with Richard or Andy V on the ROD stand at the show.
-
-RISC OS Devs GitLab now live
-
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
-The source code for many ROD projects is now live online at [https://gitlab.riscosdev.com/](https://gitlab.riscosdev.com/)
-
-Click “Explore” at the bottom of that page to view the source. If you’d like to contribute, please contact us via email to set things in motion.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20064:159357</guid>
     </item>    <item>
       <title>32-bit acorn hardware • Re: Unipod and ADF10 or AEH52</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468207#p468207</link>
