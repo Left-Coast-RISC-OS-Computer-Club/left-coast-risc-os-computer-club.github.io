@@ -7,10 +7,110 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>24 Oct 25 16:00 -0700</lastBuildDate>
+    <lastBuildDate>25 Oct 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: Line jammed on econet (!FOZ! 2025)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468415#p468415</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468415#p468415</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Line jammed on econet (!FOZ! 2025)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468414#p468414</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468414#p468414</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Three - AntiAir</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468413#p468413</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468413#p468413</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Line jammed on econet (!FOZ! 2025)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468412#p468412</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468412#p468412</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Line jammed on econet (!FOZ! 2025)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468411#p468411</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468411#p468411</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic adventure games • Re: Acorn Atom Adventure Games online</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468410#p468410</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468410#p468410</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Line jammed on econet (!FOZ! 2025)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468409#p468409</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468409#p468409</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic adventure games • Re: &#39;Caribbean Treasure&#39; released for BBC</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468408#p468408</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468408#p468408</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Line jammed on econet (!FOZ! 2025)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468407#p468407</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468407#p468407</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Line jammed on econet (!FOZ! 2025)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468406#p468406</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468406#p468406</guid>
+    </item>    <item>
+      <title>Pubilc Beta Test - Multi Machine UI</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20074</link>
+      <description>
+        <![CDATA[<p>Hello to let you know that we&#8217;re currently testing a big feature that&#8217;s going to be rolled into the next formal release of RPCEmu, and would like some more eyeballs on it before it is released.</p>
+        <p>It&#8217;s a &#8216;multi machine&#8217; UI that lets you create, organise and manage many emulated machines.</p>
+        <p>For full info and download links please see;</p>
+        <p><a href="https://www.marutan.net/rpcemu/beta/">https://www.marutan.net/rpcemu/beta/</a></p>
+        <p><img src="https://www.marutan.net/rpcemu/beta/launcher.png" alt="" /></p>]]>
+      </description>
+      <source:markdown>Hello to let you know that we’re currently testing a big feature that’s going to be rolled into the next formal release of RPCEmu, and would like some more eyeballs on it before it is released.
+
+It’s a ‘multi machine’ UI that lets you create, organise and manage many emulated machines.
+
+For full info and download links please see;
+
+[https://www.marutan.net/rpcemu/beta/](https://www.marutan.net/rpcemu/beta/)
+
+![](https://www.marutan.net/rpcemu/beta/launcher.png)</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20074:159397</guid>
+    </item>    <item>
+      <title>!Chess 1.30 released</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19904</link>
+      <description>
+        <![CDATA[<p>A new release of !Chess is available, the big change is that there&#8217;s been a visual overhaul of piece and board graphics, to give a more traditional &#8216;newspaper&#8217; style.</p>
+        <p><img src="https://www.marutan.net/pics/ro-chess-131.png" alt="" /></p>
+        <p>1.31 is available for download from;</p>
+        <p><a href="https://github.com/marutan/ro-chess/releases/tag/v1.31">https://github.com/marutan/ro-chess/releases/tag/v1.31</a></p>]]>
+      </description>
+      <source:markdown>A new release of !Chess is available, the big change is that there’s been a visual overhaul of piece and board graphics, to give a more traditional ‘newspaper’ style.
+
+![](https://www.marutan.net/pics/ro-chess-131.png)
+
+1.31 is available for download from;
+
+[https://github.com/marutan/ro-chess/releases/tag/v1.31](https://github.com/marutan/ro-chess/releases/tag/v1.31)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:19904:159396</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3m3yste7h522r</link>
+      <description>
+        <![CDATA[RISCOSbits last minute hardware offers at tomorrow's show 
+        
+        https://www.iconbar.com/articles/RISCOSbits_last_minute_hardware_offers_at_tomorrows_show/index2246.html 
+        
+        RISCOSbits have a late-breaking announcement about some last minute hardware offers tomorrow]]>
+      </description>
+      <source:markdown>RISCOSbits last minute hardware offers at tomorrow&#39;s show
+
+https://www.iconbar.com/articles/RISCOSbits\_last\_minute\_hardware\_offers\_at\_tomorrows\_show/index2246.html
+
+RISCOSbits have a late-breaking announcement about some last minute hardware offers tomorrow</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3m3yste7h522r</guid>
+    </item>    <item>
+      <title>RISCOSbits last minute hardware offers at tomorrow&#39;s show</title>
+      <link>http://www.iconbar.com/comments/rss/news2246.html</link>
+      <description>
+        <![CDATA[RISCOSbits have a late-breaking announcement about some last minute hardware offers tomorrow...]]>
+      </description>
+      <source:markdown>RISCOSbits have a late-breaking announcement about some last minute hardware offers tomorrow...</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2246.html</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Dell Monitor for Master</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468358#p468358</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468358#p468358</guid>
@@ -169,6 +269,14 @@ So ‘coast’ on over to our stand to grab yours!</source:markdown>
       <title>8-bit acorn hardware • Re: Voltmace Delta 14B/1 keypad adaptor on an Electron? For Elite, perhaps?</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468334#p468334</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468334#p468334</guid>
+    </item>    <item>
+      <title>Sine Nomine Software at the London Show</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20068</link>
+      <description>
+        <![CDATA[<p>I should make a correction to what I said above. The applications currently only support left-to-right scripts, so no Hebrew or Arabic, I&#8217;m afraid.</p>]]>
+      </description>
+      <source:markdown>I should make a correction to what I said above. The applications currently only support left-to-right scripts, so no Hebrew or Arabic, I’m afraid.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20068:159390</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: Line jammed on econet (!FOZ! 2025)</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468333#p468333</link>
@@ -625,6 +733,14 @@ This amounts to over 242M bytes of data all on a 128Mbyte USB stick.
 ![](https://www.svrsig.org/images/CatFile.jpg)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20071:159380</guid>
     </item>    <item>
+      <title>London Show, Sat 25th October 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
+      <description>
+        <![CDATA[<p>thats fine, no livestream but i will be vlogging it, for my youtube channel i have a fairly decent following in the thousands and i assumed it would be good exposure for risc os, but if this is something that isnt wanted i&#8217;ll leave it.</p>]]>
+      </description>
+      <source:markdown>thats fine, no livestream but i will be vlogging it, for my youtube channel i have a fairly decent following in the thousands and i assumed it would be good exposure for risc os, but if this is something that isnt wanted i’ll leave it.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20020:159379</guid>
+    </item>    <item>
       <title>London Show sees launch of NetFetch 6 from R-Comp</title>
       <link>https://www.riscository.com/2025/london-show-netfetch-6/</link>
       <description>
@@ -645,6 +761,38 @@ This amounts to over 242M bytes of data all on a 128Mbyte USB stick.
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468290#p468290</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468290#p468290</guid>
     </item>    <item>
+      <title>!PDF crashing</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20066</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>(How does one get a text version from such a display to present like a quotation in Textile?)</p>
+        </blockquote>
+        <p><code>!PDF.!Run</code> had two alternative run lines, with logging.</p>
+        <pre>
+        WimpSlot -min 3121k -max 3121k
+        |run &lt;PDF$dir&gt;.!runimage %*0 1 &gt; &lt;PDF$dir&gt;.^.log 2&gt;&amp;1
+        |run &lt;PDF$dir&gt;.!runimage %*0 1&gt; Pipe:$.PDF.log 2&gt;&amp;1
+        
+        run &lt;PDF$dir&gt;.!runimage %*0
+        </pre>
+        <p>Adjust the comments to run the first one (only). The named text file should appear with the backtrace.</p>]]>
+      </description>
+      <source:markdown>&#62; (How does one get a text version from such a display to present like a quotation in Textile?)
+
+`!PDF.!Run` had two alternative run lines, with logging.
+
+```
+WimpSlot -min 3121k -max 3121k
+|run &#60;PDF$dir&#62;.!runimage %*0 1 &#62; &#60;PDF$dir&#62;.^.log 2&#62;&#38;1
+|run &#60;PDF$dir&#62;.!runimage %*0 1&#62; Pipe:$.PDF.log 2&#62;&#38;1
+
+run &#60;PDF$dir&#62;.!runimage %*0
+
+```
+
+Adjust the comments to run the first one (only). The named text file should appear with the backtrace.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20066:159378</guid>
+    </item>    <item>
       <title>Last minute show news from RISCOSbits</title>
       <link>https://www.riscository.com/2025/last-minute-london-show-riscosbits/</link>
       <description>
@@ -661,30 +809,6 @@ This amounts to over 242M bytes of data all on a 128Mbyte USB stick.
       <source:markdown>Looking out of the window, I see it&#39;s a beautiful autumn morning and much nicer than the numerous weather apps on my phone implied.
 #lake\_disctric #cumbria #living\_in\_the\_lakes #westmorland</source:markdown>
       <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3m3whpsskw22u</guid>
-    </item>    <item>
-      <title>London Show, Sat 25th October 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>May even live stream the talks</p>
-        </blockquote>
-        <p>Err, no. If we wanted the talks livestreamed we&#8217;d do it.</p>]]>
-      </description>
-      <source:markdown>&#62; May even live stream the talks
-
-Err, no. If we wanted the talks livestreamed we’d do it.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20020:159376</guid>
-    </item>    <item>
-      <title>!PDF crashing</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20066</link>
-      <description>
-        <![CDATA[<p>Photo of error box <a href="https://filedn.eu/lISiayU8ls0XMXubUjtLSn8/RISC_OS/PDF_crash.png">here</a><br />
-        (How does one get a text version from such a display to present like a quotation in Textile?)</p>]]>
-      </description>
-      <source:markdown>Photo of error box [here](https://filedn.eu/lISiayU8ls0XMXubUjtLSn8/RISC_OS/PDF_crash.png)
-
-(How does one get a text version from such a display to present like a quotation in Textile?)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20066:159375</guid>
     </item>    <item>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Three - AntiAir</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468254#p468254</link>
@@ -887,14 +1011,6 @@ We don’t need to make strangely calculated claims about how it compares to oth
       <title>32-bit acorn hardware • Re: Is there anyone in the UK that will repair an A5000</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468248#p468248</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468248#p468248</guid>
-    </item>    <item>
-      <title>Sine Nomine Software at the London Show</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20068</link>
-      <description>
-        <![CDATA[<p>Working now! ¯\<em>(ツ)</em>/¯</p>]]>
-      </description>
-      <source:markdown>Working now! ¯\ _(ツ)_/¯</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20068:159371</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: Voltmace Delta 14B/1 keypad adaptor on an Electron? For Elite, perhaps?</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468247#p468247</link>
