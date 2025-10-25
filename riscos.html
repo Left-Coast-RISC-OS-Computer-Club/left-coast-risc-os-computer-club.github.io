@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.15" >
-  <meta name="date" content="2025-10-25T12:00:25-07:00" >
+  <meta name="date" content="2025-10-25T16:00:30-07:00" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -19,6 +19,167 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2025-10-25T22:49:00Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=468467#p468467">
+      <h1>32-bit acorn software: other • Samba no longer accessible from Windows 11</h1>
+
+(date: 2025-10-25)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=468467#p468467">https://www.stardot.org.uk/forums/viewtopic.php?p=468467#p468467</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-25T22:19:57Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=468466#p468466">
+      <h1>32-bit acorn hardware • Re: Risc PC 600 faulty</h1>
+
+(date: 2025-10-25)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=468466#p468466">https://www.stardot.org.uk/forums/viewtopic.php?p=468466#p468466</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-25T22:02:47Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=468464#p468464">
+      <h1>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Three - AntiAir</h1>
+
+(date: 2025-10-25)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=468464#p468464">https://www.stardot.org.uk/forums/viewtopic.php?p=468464#p468464</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-25T21:54:25Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=468463#p468463">
+      <h1>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Three - AntiAir</h1>
+
+(date: 2025-10-25)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=468463#p468463">https://www.stardot.org.uk/forums/viewtopic.php?p=468463#p468463</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-25T21:29:35Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=468462#p468462">
+      <h1>8-bit acorn hardware • Re: Acorn electron crash after about 10 minutes</h1>
+
+(date: 2025-10-25)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=468462#p468462">https://www.stardot.org.uk/forums/viewtopic.php?p=468462#p468462</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-25T21:05:32Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=468461#p468461">
+      <h1>32-bit acorn hardware • Re: Risc PC 600 faulty</h1>
+
+(date: 2025-10-25)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=468461#p468461">https://www.stardot.org.uk/forums/viewtopic.php?p=468461#p468461</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-25T19:53:46Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=468460#p468460">
+      <h1>new ideas wishlist &amp; general chat • Re: Why was dizzy series not on the Beeb</h1>
+
+(date: 2025-10-25)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=468460#p468460">https://www.stardot.org.uk/forums/viewtopic.php?p=468460#p468460</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-25T19:44:49Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20061">
+      <h1>RO5.30 Why is SVC Stack Protected from USR Mode Reads ?</h1>
+
+(date: 2025-10-25)
+      <p>
+      <blockquote>
+<p>However, I appear to have totally failed to get my original point across. I seem to have the knack of confusing people :-(</p>
+</blockquote>
+<p>I don’t think you actually read what I had written, or it was not actually clear.</p>
+<blockquote>
+<p>A RO5.28 ARM 32-bit LDR R4,[R2,#0] instruction in USR mode (where R2=fa207fe0 i.e. in the SVC stack) does NOT manipulate, interfere or change the SVC stack RAM in any way. It cannot manipulate anything, as this is a READ instruction of a RAM location.</p>
+</blockquote>
+<p>I understood all this. Manipulating includes reading. You are reading a region that you have no rights to access. It is not the general usage of the system, and making it protected will affect nothing which is doing normal and legal operations. The fact that you are, and that you’re now having to jump through hoops is fine – that’s the price you pay for doing something that isn’t expected and is dangerous. You should expect that and move on. Taking a copy of the SVC stack would be better, as mentioned, but you cannot do anything beyond that.</p>
+<p>Stating that it appears to work fine – but that you’re losing some key clicks negates that statement. You’re seeing degraded behaviour. That’s the things that you’re <strong>seeing</strong>. But there may be other things that you are not seeing, and other users of the system who are doing entirely valid things may not be so fortunate. Accept that you’re doing something unsafe, and that the system may change under you.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20061">https://www.riscosopen.org/forum/forums/5/topics/20061</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-25T19:39:12Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=468459#p468459">
+      <h1>8-bit acorn software: classic adventure games • Re: Acorn Atom Adventure Games online</h1>
+
+(date: 2025-10-25)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=468459#p468459">https://www.stardot.org.uk/forums/viewtopic.php?p=468459#p468459</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-25T19:38:32Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=468458#p468458">
+      <h1>econet and other acorn specific networking • Re: How to set RiscPC Econet station ID to '0'</h1>
+
+(date: 2025-10-25)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=468458#p468458">https://www.stardot.org.uk/forums/viewtopic.php?p=468458#p468458</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-25T19:25:25Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=468457#p468457">
+      <h1>8-bit acorn hardware • Re: Line jammed on econet (!FOZ! 2025)</h1>
+
+(date: 2025-10-25)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=468457#p468457">https://www.stardot.org.uk/forums/viewtopic.php?p=468457#p468457</a>
+      </address>
+    </article>
+
+    <article data-published="2025-10-25T19:20:50Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20076">
+      <h1>Live Coding with Gerph, Sunday 26th October at 1pm.</h1>
+
+(date: 2025-10-25)
+      <p>
+      <p>Hiya,</p>
+<p>This Sunday (tomorrow) – 26th October, at 1pm – I’m doing the live coding again, continuing with the SystemVars module.</p>
+<p>Come along if you like – <a href="https://youtube.com/live/C2bvL8hF3bY?feature=share">https://youtube.com/live/C2bvL8hF3bY?feature=share</a></p>
+<p>– or you can always watch the video afterwards at the same address.</p>
+<p>This week, I’ll be looking at adding the code variable private word, and adding some more testing.</p>
+<hr>
+<p>For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.</p>
+<p>So far, the implementation has:</p>
+<ul>
+<li>SWI implementations in the module (as regular SWIs, and as OS_* SWIs)</li>
+<li>Reading string, macro, number and code variables through a SWI.</li>
+<li>Writing string, number, GSTrans, evaluated variables and code variables through a SWI.</li>
+<li>Enumeration and deletion of variables.</li>
+<li>Tests of the read/write process, both in the interface and the SWIs.</li>
+<li>Automatic builds and releases through the CI on GitHub.</li>
+<li>The module can be built and runs on 32-bit and 64-bit RISC OS.</li>
+</ul>
+<hr>
+<p>If you want to watch the whole series, you can follow it through the playlist on YouTube: <a href="https://www.youtube.com/watch?v=qLWrBmpvj5s&amp;list=PLVVIu906Y7rErDqQiC48sWdsrD-AeQ8wS">https://www.youtube.com/watch?v=qLWrBmpvj5s&amp;list=P…</a></p>
+<p>Or the sequence is also available linked from my presentations website: <a href="https://presentation.riscos.online/live/systemvars.html">https://presentation.riscos.online/live/systemvars.html</a></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20076">https://www.riscosopen.org/forum/forums/1/topics/20076</a>
+      </address>
+    </article>
 
     <article data-published="2025-10-25T18:51:00Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=468452#p468452">
       <h1>8-bit acorn hardware • Re: Time &amp; Config.</h1>
@@ -1085,6 +1246,18 @@ SYS(-flag) function.
       </address>
     </article>
 
+    <article data-published="2025-10-24T11:51:57Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20020">
+      <h1>London Show, Sat 25th October 2025</h1>
+
+(date: 2025-10-24)
+      <p>
+      <p>Martin – Don’t be put off – some of us just can’t make it – sometimes I think I will be discussing 64bit with PV before long :-(</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20020">https://www.riscosopen.org/forum/forums/1/topics/20020</a>
+      </address>
+    </article>
+
     <article data-published="2025-10-24T11:45:36Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=468298#p468298">
       <h1>archive requests • Re: Protected tapes and custom loaders (Electron)</h1>
 
@@ -1105,24 +1278,6 @@ SYS(-flag) function.
 
       <address>
         <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13504&page=1#125836">http://www.iconbar.com/forums/viewthread.php?threadid=13504&page=1#125836</a>
-      </address>
-    </article>
-
-    <article data-published="2025-10-24T11:30:27Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20020">
-      <h1>London Show, Sat 25th October 2025</h1>
-
-(date: 2025-10-24)
-      <p>
-      <blockquote>
-<p>i assumed it would be good exposure for risc os, but if this is something that isnt wanted i’ll leave it.</p>
-</blockquote>
-<p>It’s not that it isn’t wanted. Organizing in-person shows costs money. You come to the show, pay 7 quid for entry (money that goes toward covering the show’s expenses, by the way), record everything, and put it on YouTube. People who know that will choose not to attend; they’ll just wait for your videos. Without attendees, ROUGOL is left with only your 7 quid, and that’s it. So next year, there would be no RISC OS London Show.</p>
-<p>Even if you were willing to share some of your YouTube monetization revenue, it wouldn’t be enough to cover the costs.</p>
-<p>Colin Hoad seems to have found a good compromise (check out his ABug South event video summary), where he quickly shows a few highlights to tease people about what they missed, rather than providing an alternative way to attend the show.</p>
-<p>Hope this helps.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20020">https://www.riscosopen.org/forum/forums/1/topics/20020</a>
       </address>
     </article>
 
@@ -1547,24 +1702,6 @@ SYS(-flag) function.
       
       <address>
         <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=468240#p468240">https://www.stardot.org.uk/forums/viewtopic.php?p=468240#p468240</a>
-      </address>
-    </article>
-
-    <article data-published="2025-10-23T18:44:02Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20061">
-      <h1>RO5.30 Why is SVC Stack Protected from USR Mode Reads ?</h1>
-
-(date: 2025-10-23)
-      <p>
-      <blockquote>
-<p>Specifically that, when running on real Arm chips, the page table format which allows for LPAE to work doesn’t have the combination of user mode R/X priviledged R/W/X. Presumably they ran out of bits or something?</p>
-</blockquote>
-<p>Thanks Sprow – suddenly this thread makes some sense :-)</p>
-<p>In fairness I did download the RO5.31 source code a couple of nights ago, and got as far as trying to find where the ‘MMU’ USR-mode memory flag change had been implemented. I got as far as ‘kernel.s.hal’ (and Jeffery’s changes for more RAM) which sort of blew my mind (easily done). I now understand that the RO5.30 memory access model has changed completely from RO5.28.</p>
-<p>I’ve also learned a lot more about not ‘trusting’ SVC stacks in RISC OS…</p>
-<p>Ralph</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20061">https://www.riscosopen.org/forum/forums/5/topics/20061</a>
       </address>
     </article>
 
