@@ -7,10 +7,50 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>26 Oct 25 16:00 -0700</lastBuildDate>
+    <lastBuildDate>27 Oct 25 07:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn software: classic games • Re: Repton 2 longplay (BBC version)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468547#p468547</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468547#p468547</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Samba no longer accessible from Windows 11</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468546#p468546</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468546#p468546</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC B and Master - whats possible?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468545#p468545</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468545#p468545</guid>
+    </item>    <item>
+      <title>scanning of books, magazines, ads and letters • Re: How many sold? German tank problem:serial nums wtd</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468544#p468544</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468544#p468544</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Three - AntiAir</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468543#p468543</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468543#p468543</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Microdigital Omega Repair</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468542#p468542</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468542#p468542</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Three - AntiAir</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468541#p468541</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468541#p468541</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Three - AntiAir</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468540#p468540</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468540#p468540</guid>
+    </item>    <item>
+      <title>RPCEmu Support and Development • Re: Pubilc Beta Test - Multi Machine UI</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468538#p468538</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468538#p468538</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: adding a speech processor to the master or compact</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468537#p468537</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468537#p468537</guid>
+    </item>    <item>
       <title>programming • Re: Wish: MAVIS computer recreation in Mode 7</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468536#p468536</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468536#p468536</guid>
@@ -782,6 +822,14 @@ SYS(-flag) function.
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468406#p468406</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468406#p468406</guid>
     </item>    <item>
+      <title>!Chess 1.30 released</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19904</link>
+      <description>
+        <![CDATA[<p>The archive has lost the filetypes: they&#8217;re added as an extension to the filenames. But it&#8217;s easy to change that, though. Thank you for the update.</p>]]>
+      </description>
+      <source:markdown>The archive has lost the filetypes: they’re added as an extension to the filenames. But it’s easy to change that, though. Thank you for the update.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:19904:159400</guid>
+    </item>    <item>
       <title>London Show, Sat 25th October 2025</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
       <description>
@@ -809,23 +857,6 @@ For full info and download links please see;
 
 ![](https://www.marutan.net/rpcemu/beta/launcher.png)</source:markdown>
       <guid>cid://www.riscosopen.org:10:20074:159397</guid>
-    </item>    <item>
-      <title>!Chess 1.30 released</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/19904</link>
-      <description>
-        <![CDATA[<p>A new release of !Chess is available, the big change is that there&#8217;s been a visual overhaul of piece and board graphics, to give a more traditional &#8216;newspaper&#8217; style.</p>
-        <p><img src="https://www.marutan.net/pics/ro-chess-131.png" alt="" /></p>
-        <p>1.31 is available for download from;</p>
-        <p><a href="https://github.com/marutan/ro-chess/releases/tag/v1.31">https://github.com/marutan/ro-chess/releases/tag/v1.31</a></p>]]>
-      </description>
-      <source:markdown>A new release of !Chess is available, the big change is that there’s been a visual overhaul of piece and board graphics, to give a more traditional ‘newspaper’ style.
-
-![](https://www.marutan.net/pics/ro-chess-131.png)
-
-1.31 is available for download from;
-
-[https://github.com/marutan/ro-chess/releases/tag/v1.31](https://github.com/marutan/ro-chess/releases/tag/v1.31)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:19904:159396</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3m3yste7h522r</link>
       <description>
