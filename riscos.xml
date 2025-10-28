@@ -7,10 +7,121 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>28 Oct 25 12:00 -0700</lastBuildDate>
+    <lastBuildDate>28 Oct 25 16:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>new projects in development: games • Re: Burger Time</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468635#p468635</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468635#p468635</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic adventure games • Re: Acorn Atom Adventure Games online</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468634#p468634</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468634#p468634</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • EtherENC: ANOTHER open-source Ethernet podule</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468633#p468633</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468633#p468633</guid>
+    </item>    <item>
+      <title>London Show, Sat 25th October 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
+      <description>
+        <![CDATA[<p>Correction to <span class="caps">TIB</span> notes on show theatre talks. Impact is <strong>not</strong> Unicode compatible yet, but ImpEmail is. Impact can now recognise <span class="caps">UTF</span>-8 encoded <span class="caps">CSV</span> files and handle them by converting to Acorn Latin 1, but it cannot store characters outside Latin 1 in an actual database.</p>]]>
+      </description>
+      <source:markdown>Correction to TIB notes on show theatre talks. Impact is **not** Unicode compatible yet, but ImpEmail is. Impact can now recognise UTF-8 encoded CSV files and handle them by converting to Acorn Latin 1, but it cannot store characters outside Latin 1 in an actual database.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20020:159438</guid>
+    </item>    <item>
+      <title>acorn atom and acorn system series • Re: Atom Help for Beeb Programmer</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468632#p468632</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468632#p468632</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: RISC PC not recongising podules</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468631#p468631</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468631#p468631</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Benchmarks</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468630#p468630</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468630#p468630</guid>
+    </item>    <item>
+      <title>ToolboxC++Lib Discussion</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
+      <description>
+        <![CDATA[<p>This thread made me realise that I didn&#8217;t have 32-bit CFront or, indeed, any 32-bit native RO compiler&#8230; So I asked a parent at school pickup, who happens to be a lawyer at <span class="caps">ARM</span>, who pointed out that they open sourced Norcroft three years ago.</p>
+        <p>It&#8217;s missing an awful lot of code &#8211; I had to reverse engineer the missing parts, ending up writing 3000 lines of support code, fix many 64-bit host bugs (as in to run on a modern Mac), fix its source so it can compile itself (to run under <span class="caps">RISC</span> OS), and&#8230;</p>
+        <pre><code>Norcroft macOS ARM C++ vsn 5.05 (Acorn Computers Ltd) [Oct 28 2025]
+        "BitField.h", line 77: Warning: 'showProperties__Fv' inherits implicit virtual
+        "BitField.h", line 82: Warning: 'getClassName__Fv' inherits implicit virtual
+        "BitField.h", line 87: Warning: 'getClassType__Fv' inherits implicit virtual
+        "BitField.h", line 82: Warning: 'return': deprecated conversion of string literal to pointer to non-const
+        "BitField.cpp", line 8: Warning: declaration with no effect
+        "BitField.cpp", line 12: Warning: declaration with no effect
+        "BitField.cpp", line 29: Warning: declaration with no effect
+        "BitField.cpp", line 37: Warning: declaration with no effect
+        "BitField.cpp", line 45: Warning: declaration with no effect
+        "BitField.cpp", line 54: Warning: declaration with no effect
+        "BitField.cpp", line 63: Warning: declaration with no effect
+        "BitField.cpp", line 69: Warning: declaration with no effect
+        "BitField.cpp", line 79: Warning: implicit cast (to 'unsigned char') overflow
+        "BitField.cpp", line 81: Warning: declaration with no effect
+        "BitField.cpp", line 85: Warning: declaration with no effect
+        BitField.cpp: 15 warnings, 0 errors, 0 serious errors</code></pre>
+        <p>I&#8217;ve got Norcroft C and C++ compilers running on <span class="caps">RISC</span> OS, PiOS, macOS and I suppose I could do Linux x86-64. I&#8217;ll open source my glue code, my source code fixes, and the Makefiles once I&#8217;ve had a chance to tidy it up a bit. I&#8217;ve been using it with drlink which I got from <span class="caps">GCCSDK</span> and StubsG, because they easily exist &#8211; newer stubs would be sensible, but I don&#8217;t have an assembler to hand&#8230; I&#8217;ve mostly used the <span class="caps">ROOL</span> header files.</p>
+        <p>The version 5.05 refers to the release last given to Acorn, before they stopped paying for updates. It has had several years&#8217; worth of improvements since, though obviously it lacks support for the latest <span class="caps">CPU</span> features. The source is quite interesting to read (and also hideous in many, many ways).</p>
+        <p>I&#8217;ve also started toying with adding C++ features, because what use is a compiler that&#8217;s pre-C11? Though, I&#8217;m not sure how far I&#8217;ll go with that. I&#8217;ve got &#8216;explicit&#8217; working, and I&#8217;ve been looking at parsing namespaces (even if not honouring them) so a simple <span class="caps">STL</span> can be written &#8211; I have a simple &#8216;std_vector&#8217; class working (underscore instead of colons), but I&#8217;d prefer it to be std::vector. I&#8217;ve written an automated regression test suite with unit tests for the areas I&#8217;ve been modifying.</p>
+        <p>The C compiler front end (same source code) could probably do with some love and care, too. It&#8217;s frustratingly strict in ways that it isn&#8217;t, when compiled as a C++ compiler &#8211; like insisting on declaring all variables at the start of a code block.</p>
+        <p>Your library seems to be missing ToolboxObjectList.h to recompile ToolboxObjectList.cpp.</p>]]>
+      </description>
+      <source:markdown>This thread made me realise that I didn’t have 32-bit CFront or, indeed, any 32-bit native RO compiler… So I asked a parent at school pickup, who happens to be a lawyer at ARM, who pointed out that they open sourced Norcroft three years ago.
+
+It’s missing an awful lot of code – I had to reverse engineer the missing parts, ending up writing 3000 lines of support code, fix many 64-bit host bugs (as in to run on a modern Mac), fix its source so it can compile itself (to run under RISC OS), and…
+
+```
+Norcroft macOS ARM C++ vsn 5.05 (Acorn Computers Ltd) [Oct 28 2025]
+&#34;BitField.h&#34;, line 77: Warning: &#39;showProperties__Fv&#39; inherits implicit virtual
+&#34;BitField.h&#34;, line 82: Warning: &#39;getClassName__Fv&#39; inherits implicit virtual
+&#34;BitField.h&#34;, line 87: Warning: &#39;getClassType__Fv&#39; inherits implicit virtual
+&#34;BitField.h&#34;, line 82: Warning: &#39;return&#39;: deprecated conversion of string literal to pointer to non-const
+&#34;BitField.cpp&#34;, line 8: Warning: declaration with no effect
+&#34;BitField.cpp&#34;, line 12: Warning: declaration with no effect
+&#34;BitField.cpp&#34;, line 29: Warning: declaration with no effect
+&#34;BitField.cpp&#34;, line 37: Warning: declaration with no effect
+&#34;BitField.cpp&#34;, line 45: Warning: declaration with no effect
+&#34;BitField.cpp&#34;, line 54: Warning: declaration with no effect
+&#34;BitField.cpp&#34;, line 63: Warning: declaration with no effect
+&#34;BitField.cpp&#34;, line 69: Warning: declaration with no effect
+&#34;BitField.cpp&#34;, line 79: Warning: implicit cast (to &#39;unsigned char&#39;) overflow
+&#34;BitField.cpp&#34;, line 81: Warning: declaration with no effect
+&#34;BitField.cpp&#34;, line 85: Warning: declaration with no effect
+BitField.cpp: 15 warnings, 0 errors, 0 serious errors
+```
+
+I’ve got Norcroft C and C++ compilers running on RISC OS, PiOS, macOS and I suppose I could do Linux x86-64. I’ll open source my glue code, my source code fixes, and the Makefiles once I’ve had a chance to tidy it up a bit. I’ve been using it with drlink which I got from GCCSDK and StubsG, because they easily exist – newer stubs would be sensible, but I don’t have an assembler to hand… I’ve mostly used the ROOL header files.
+
+The version 5.05 refers to the release last given to Acorn, before they stopped paying for updates. It has had several years’ worth of improvements since, though obviously it lacks support for the latest CPU features. The source is quite interesting to read (and also hideous in many, many ways).
+
+I’ve also started toying with adding C++ features, because what use is a compiler that’s pre-C11? Though, I’m not sure how far I’ll go with that. I’ve got ‘explicit’ working, and I’ve been looking at parsing namespaces (even if not honouring them) so a simple STL can be written – I have a simple ‘std\_vector’ class working (underscore instead of colons), but I’d prefer it to be std::vector. I’ve written an automated regression test suite with unit tests for the areas I’ve been modifying.
+
+The C compiler front end (same source code) could probably do with some love and care, too. It’s frustratingly strict in ways that it isn’t, when compiled as a C++ compiler – like insisting on declaring all variables at the start of a code block.
+
+Your library seems to be missing ToolboxObjectList.h to recompile ToolboxObjectList.cpp.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19910:159436</guid>
+    </item>    <item>
+      <title>acorn atom and acorn system series • Re: Atom Help for Beeb Programmer</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468629#p468629</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468629#p468629</guid>
+    </item>    <item>
+      <title>development tools • Re: bas2uef is a command-line tool to tokenise BASIC 2 directly into a UEF file</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468628#p468628</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468628#p468628</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Risc PC 600 faulty</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468627#p468627</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468627#p468627</guid>
+    </item>    <item>
+      <title>acorn atom and acorn system series • Re: Acorn Atom with missing OS ROM - What EPROM to use?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468626#p468626</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468626#p468626</guid>
+    </item>    <item>
       <title>Time and Date Issue</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/19507</link>
       <description>
@@ -623,14 +734,6 @@ Does that mean the OS needs the SVC stack to be executable? Is that something I 
       <title>32-bit acorn hardware • Re: Risc PC 600 faulty</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468461#p468461</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468461#p468461</guid>
-    </item>    <item>
-      <title>London Show, Sat 25th October 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
-      <description>
-        <![CDATA[<p>Many thanks to everyone that put the show together this year, Amazing 1st time back to the London show since 2006, had a great time, just got home! amazing talented people and was truly a pleasure to meet everyone finally in person. Was a real buzz and plenty of people about. :)</p>]]>
-      </description>
-      <source:markdown>Many thanks to everyone that put the show together this year, Amazing 1st time back to the London show since 2006, had a great time, just got home! amazing talented people and was truly a pleasure to meet everyone finally in person. Was a real buzz and plenty of people about. :)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20020:159408</guid>
     </item>    <item>
       <title>new ideas wishlist &#38;amp; general chat • Re: Why was dizzy series not on the Beeb</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468460#p468460</link>
@@ -4616,17 +4719,6 @@ https://media.tenor.com/GugokSc3Q4EAAAAC/risa-bezos-speedball.gif?hh=331&#38;ww=
       <title>8-bit acorn hardware • Re: Logic analyser</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467159#p467159</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=467159#p467159</guid>
-    </item>    <item>
-      <title>ToolboxC++Lib Discussion</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
-      <description>
-        <![CDATA[<p>My point entirely, we each create our own starting point then reproduce them for other applications.</p>
-        <p>I assume you are talking about the cast of the handler instance information. Yes, can be challenge, I&#8217;ll have a think. Currently in my model the handlers are separate to the objects of classes they would handle, their names are just labels and the event/handler only come together in the switch with the event value, now in an enum.</p>]]>
-      </description>
-      <source:markdown>My point entirely, we each create our own starting point then reproduce them for other applications.
-
-I assume you are talking about the cast of the handler instance information. Yes, can be challenge, I’ll have a think. Currently in my model the handlers are separate to the objects of classes they would handle, their names are just labels and the event/handler only come together in the switch with the event value, now in an enum.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19910:159250</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: Logic analyser</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=467158#p467158</link>
