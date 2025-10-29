@@ -7,10 +7,46 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>29 Oct 25 12:00 -0700</lastBuildDate>
+    <lastBuildDate>29 Oct 25 16:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>acorn atom and acorn system series • Replica Atom and disks/AtomMMC</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468697#p468697</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468697#p468697</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Risc PC 600 faulty</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468696#p468696</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468696#p468696</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: EtherWiz - a new fully opensource Ethernet podule</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468695#p468695</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468695#p468695</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Risc PC 600 faulty</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468694#p468694</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468694#p468694</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: EtherENC: ANOTHER open-source Ethernet podule</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468693#p468693</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468693#p468693</guid>
+    </item>    <item>
+      <title>new ideas wishlist &#38;amp; general chat • Re: Why was dizzy series not on the Beeb</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468692#p468692</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468692#p468692</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Power on cursor character oddity</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468691#p468691</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468691#p468691</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: ADFS can interfere with FS persistent zero page workspace</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468690#p468690</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468690#p468690</guid>
+    </item>    <item>
+      <title>communications • Re: the Night Owl BBS*WED*</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468689#p468689</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468689#p468689</guid>
+    </item>    <item>
       <title>32-bit acorn hardware • Re: Risc PC 600 faulty</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468688#p468688</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468688#p468688</guid>
@@ -271,6 +307,17 @@ The C compiler front end (same source code) could probably do with some love and
 Your library seems to be missing ToolboxObjectList.h to recompile ToolboxObjectList.cpp.</source:markdown>
       <guid>cid://www.riscosopen.org:5:19910:159436</guid>
     </item>    <item>
+      <title>Sine Nomine Software at the London Show</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20068</link>
+      <description>
+        <![CDATA[<p>You&#8217;re right: it should not do that. I will look into it. Thank you for letting us know.</p>
+        <p>To email us, use the address &#8220;support@&#8221; followed by the same domain as the website, starting s and ending .uk</p>]]>
+      </description>
+      <source:markdown>You’re right: it should not do that. I will look into it. Thank you for letting us know.
+
+To email us, use the address “support@” followed by the same domain as the website, starting s and ending .uk</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20068:159435</guid>
+    </item>    <item>
       <title>acorn atom and acorn system series • Re: Atom Help for Beeb Programmer</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468629#p468629</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468629#p468629</guid>
@@ -323,17 +370,6 @@ Fair enough… I took the stuff about “primary purpose” to say that it wasn�
       <title>acorn atom and acorn system series • Re: Atom Help for Beeb Programmer</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468614#p468614</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468614#p468614</guid>
-    </item>    <item>
-      <title>Sine Nomine Software at the London Show</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20068</link>
-      <description>
-        <![CDATA[<p>The contact form doesn&#8217;t seem to working. <a href="https://sinenomine.co.uk/software/contact.php">https://sinenomine.co.uk/software/contact.php</a></p>
-        <p>I don&#8217;t think it&#8217;s my maths.</p>]]>
-      </description>
-      <source:markdown>The contact form doesn’t seem to working. [https://sinenomine.co.uk/software/contact.php](https://sinenomine.co.uk/software/contact.php)
-
-I don’t think it’s my maths.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20068:159431</guid>
     </item>    <item>
       <title>8-bit acorn software: classic adventure games • Re: Announcing The BDB Project</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468613#p468613</link>
