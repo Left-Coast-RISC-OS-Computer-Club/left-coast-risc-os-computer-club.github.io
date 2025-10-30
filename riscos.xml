@@ -7,10 +7,93 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>30 Oct 25 07:00 -0700</lastBuildDate>
+    <lastBuildDate>30 Oct 25 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn emulators • Re: B-Em</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468751#p468751</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468751#p468751</guid>
+    </item>    <item>
+      <title>new ideas wishlist &#38;amp; general chat • Re: Why was dizzy series not on the Beeb</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468750#p468750</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468750#p468750</guid>
+    </item>    <item>
+      <title>other vintage hardware, software and languages • Re: SNIC</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468749#p468749</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468749#p468749</guid>
+    </item>    <item>
+      <title>new ideas wishlist &#38;amp; general chat • Re: Why was dizzy series not on the Beeb</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468748#p468748</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468748#p468748</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: jsbeeb - a Javascript emulator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468747#p468747</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468747#p468747</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Four - Transistor&#39;s Revenge</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468746#p468746</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468746#p468746</guid>
+    </item>    <item>
+      <title>other vintage hardware, software and languages • Re: SNIC</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468745#p468745</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468745#p468745</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3010 Podule Specification</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468744#p468744</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468744#p468744</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: B-Em</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468743#p468743</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468743#p468743</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: jsbeeb - a Javascript emulator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468742#p468742</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468742#p468742</guid>
+    </item>    <item>
+      <title>ROOL adds Fortran support in latest DDE update</title>
+      <link>http://www.iconbar.com/comments/rss/news2254.html</link>
+      <description>
+        <![CDATA[ROOL clearly have big plans for the RISC OS DDE....]]>
+      </description>
+      <source:markdown>ROOL clearly have big plans for the RISC OS DDE....</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2254.html</guid>
+    </item>    <item>
+      <title>SerialUSB 0.16,  Hearsay 2.25.03 and !Serialdev blockdrivers  2.40 released</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/18858</link>
+      <description>
+        <![CDATA[<p>There is an item in the Bugs forum concerning SerialUSB.  Just mentioning it here in case this thread has higher visibility than something in Bugs.</p>]]>
+      </description>
+      <source:markdown>There is an item in the Bugs forum concerning SerialUSB. Just mentioning it here in case this thread has higher visibility than something in Bugs.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:18858:159467</guid>
+    </item>    <item>
+      <title>SerialUSB causes zero page access</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20084</link>
+      <description>
+        <![CDATA[<p>I got mildly fed up of seeing a ZeroPain log entry every time I plug my phone in to charge it, so finally I got round to looking at the problem.  Hardware is a Pi3B+ running RO5.31, never more than a few weeks old; and a Samsung S24 phone.  The phone defaults to charge only, so it doesn&#8217;t appear to be a serial <span class="caps">USB</span> device.</p>
+        <p>The error happens with SerialUSB versions 0.14 and 0.16, but not with 0.12.</p>
+        <p>The error is at offset 0000588c in module SerialUSB, same address in 0.14 and 0.16.  The instruction is <span class="caps">LDR</span> R1,[R0,#2] and R0 = 0.  It happens if the phone is plugged in before power-up, and also if the phone is plugged in later.</p>
+        <p>I&#8217;d like to give more info, but the USBInfo app normally just puts up an error window saying &#8220;nown4.20 &#169; Pineapple Software 1996&#8221; when I try to look at anything.  There you are, two bugs for the price of one.</p>
+        <p>More seriously: whatever useful debug info I can give, just ask.</p>]]>
+      </description>
+      <source:markdown>I got mildly fed up of seeing a ZeroPain log entry every time I plug my phone in to charge it, so finally I got round to looking at the problem. Hardware is a Pi3B+ running RO5.31, never more than a few weeks old; and a Samsung S24 phone. The phone defaults to charge only, so it doesn’t appear to be a serial USB device.
+
+The error happens with SerialUSB versions 0.14 and 0.16, but not with 0.12.
+
+The error is at offset 0000588c in module SerialUSB, same address in 0.14 and 0.16. The instruction is LDR R1,\[R0,#2\] and R0 = 0. It happens if the phone is plugged in before power-up, and also if the phone is plugged in later.
+
+I’d like to give more info, but the USBInfo app normally just puts up an error window saying “nown4.20 © Pineapple Software 1996” when I try to look at anything. There you are, two bugs for the price of one.
+
+More seriously: whatever useful debug info I can give, just ask.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20084:159465</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m4gbz3ayfk2h</link>
+      <description>
+        <![CDATA[45 years ago, the arcade game PAC-MAN was launched in North America ( October 1980 ). It was an instant hit and soon became one of the most iconic videgames of all time. 100s of copy-cat versions were created for home computers, virtually all were un-licensed. One of my all-time favourite games.]]>
+      </description>
+      <source:markdown>45 years ago, the arcade game PAC-MAN was launched in North America ( October 1980 ). It was an instant hit and soon became one of the most iconic videgames of all time. 100s of copy-cat versions were created for home computers, virtually all were un-licensed. One of my all-time favourite games.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m4gbz3ayfk2h</guid>
+    </item>    <item>
       <title>32-bit acorn software: other • Re: Brazil OS questions</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468720#p468720</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468720#p468720</guid>
@@ -342,6 +425,36 @@ You can add your drive to the list by going to the [Submit Drive](https://www.ri
 Huge thanks to Bryan and all at ROUGOL for organising a fantastic show. Same time next year?</source:markdown>
       <guid>cid://www.riscosopen.org:1:20081:159447</guid>
     </item>    <item>
+      <title>ToolboxC++Lib Discussion</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I think he is talking about CFront version for Norcroft C, not what we use as <span class="caps">DDE</span>.</p>
+        </blockquote>
+        <p>I&#8217;m talking about this: <a href="https://documentation-service.arm.com/static/60757cd785368c4c2b1c19c7">https://documentation-service.arm.com/static/60757cd78…</a><br />
+        and (v 2.11 of) this: <a href="https://documentation-service.arm.com/static/604f2c8aefb1a112dce66ba1">https://documentation-service.arm.com/static/604f2c8ae…</a></p>
+        <p><span class="caps">ARM</span> developed Norcroft for years after Acorn&#8217;s 5.05 release, and this is the result of that. I was friends with Lee Smith&#8217;s subordinate at the time, who kept trying to persuade me join <span class="caps">ARM</span> as Acorn were doomed&#8230; He might&#8217;ve had a point.</p>
+        <p>There&#8217;s no CFront involved here, and I&#8217;m unaware of any CFront source on <span class="caps">ROOL</span> website, though I&#8217;d love to try it. This Norcroft source (in C mode) still has compile-time hooks for CFront, in particular relaxation of parsing and a different name demangling algorithm to ARM&#8217;s, which I just made up as there&#8217;s no documentation other than &#8220;in a manner similar to that described&#8230;&#8221;</p>
+        <blockquote>
+        <p>There is an <span class="caps">STL</span> developed by Miles Sabin</p>
+        </blockquote>
+        <p>I wasn&#8217;t aware of that, but it looks quite thorough. However, my goal would be source level compatibility with more modern code, rather than adapt that code to an old compiler.</p>]]>
+      </description>
+      <source:markdown>&#62; I think he is talking about CFront version for Norcroft C, not what we use as DDE.
+
+I’m talking about this: [https://documentation-service.arm.com/static/60757cd78…](https://documentation-service.arm.com/static/60757cd785368c4c2b1c19c7)
+
+and (v 2.11 of) this: [https://documentation-service.arm.com/static/604f2c8ae…](https://documentation-service.arm.com/static/604f2c8aefb1a112dce66ba1)
+
+ARM developed Norcroft for years after Acorn’s 5.05 release, and this is the result of that. I was friends with Lee Smith’s subordinate at the time, who kept trying to persuade me join ARM as Acorn were doomed… He might’ve had a point.
+
+There’s no CFront involved here, and I’m unaware of any CFront source on ROOL website, though I’d love to try it. This Norcroft source (in C mode) still has compile-time hooks for CFront, in particular relaxation of parsing and a different name demangling algorithm to ARM’s, which I just made up as there’s no documentation other than “in a manner similar to that described…”
+
+&#62; There is an STL developed by Miles Sabin
+
+I wasn’t aware of that, but it looks quite thorough. However, my goal would be source level compatibility with more modern code, rather than adapt that code to an old compiler.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19910:159446</guid>
+    </item>    <item>
       <title>Introduce Yourself • Re: Hello from Aberdeenshire, Scotland</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468648#p468648</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468648#p468648</guid>
@@ -353,17 +466,6 @@ Huge thanks to Bryan and all at ROUGOL for organising a fantastic show. Same tim
       </description>
       <source:markdown>Belated thank you to everyone, exhibitors and visitors, who came along on Saturday and made it such a fun day with a lovely cheerful atmosphere. I had to keep putting extra chairs out in the theatre because it was packed with people standing at the back, which was great to see! Same again next year… :-)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20078:159443</guid>
-    </item>    <item>
-      <title>ToolboxC++Lib Discussion</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
-      <description>
-        <![CDATA[<p>Hi Piers, the ToolboxObjectList c++ source shouldn&#8217;t be on GitHub, it&#8217;s one which I uploaded some time ago by accident. It was used as an experiment, creating linked lists of toolbox objects, so I could have multiple windows created from the same template and stored in a convenient way, it has been modified a lot since then. Bitfield c++ is not in the ToolboxC++Lib, it&#8217;s in the CommonC++Lib which is on GitHub. Not sure what C++ compiler you are using but it compiles ok with the <span class="caps">DDE</span> CFront without warnings.</p>
-        <p>I&#8217;ll have to dust off my Fortran77 books currently in the attic, compiled and ran the examples this evening, it&#8217;s a long time since my Uni days&#8230;.</p>]]>
-      </description>
-      <source:markdown>Hi Piers, the ToolboxObjectList c++ source shouldn’t be on GitHub, it’s one which I uploaded some time ago by accident. It was used as an experiment, creating linked lists of toolbox objects, so I could have multiple windows created from the same template and stored in a convenient way, it has been modified a lot since then. Bitfield c++ is not in the ToolboxC++Lib, it’s in the CommonC++Lib which is on GitHub. Not sure what C++ compiler you are using but it compiles ok with the DDE CFront without warnings.
-
-I’ll have to dust off my Fortran77 books currently in the attic, compiled and ran the examples this evening, it’s a long time since my Uni days….</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19910:159439</guid>
     </item>    <item>
       <title>new projects in development: games • Re: Burger Time</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468635#p468635</link>
