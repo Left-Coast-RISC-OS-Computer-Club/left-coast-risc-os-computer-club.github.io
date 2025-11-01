@@ -7,10 +7,83 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>01 Nov 25 12:00 -0700</lastBuildDate>
+    <lastBuildDate>01 Nov 25 16:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>32-bit acorn hardware • Re: Risc PC 600 faulty</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468932#p468932</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468932#p468932</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: B-Em Tape Overhaul v3 (SAVE support, autotests)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468931#p468931</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468931#p468931</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Risc PC 600 faulty</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468930#p468930</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468930#p468930</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Econet on the research machines 380/480</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468929#p468929</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468929#p468929</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC Serial cable</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468927#p468927</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468927#p468927</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic games • Re: Repton 2 longplay (BBC version)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468926#p468926</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468926#p468926</guid>
+    </item>    <item>
+      <title>Why is ROOL doing this?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20090</link>
+      <description>
+        <![CDATA[<p>Community-driven projects are essential to the continued growth of <span class="caps">RISC</span> OS. When individuals dedicate their time and expertise to developing something valuable for the platform, it should be encouraged and supported. That’s why it was disappointing to see a member of <span class="caps">ROOL</span> publicly criticising open community projects on GitHub — an action that has understandably led to some backlash.</p>
+        <p>I agree with many of the points raised regarding !Allocate and the broader view that the community and independent developers are not beholden to <span class="caps">ROOL</span>, particularly when it comes to legacy hardware. If a developer chooses to create a new podule or piece of hardware without ROOL’s involvement, that is entirely within their right to do so.</p>
+        <p>Here is the github for context: <a href="https://github.com/rhalkyard/EtherENC/issues/1#issuecomment-3476842350">https://github.com/rhalkyard/EtherENC/issues/1#issueco…</a></p>]]>
+      </description>
+      <source:markdown>Community-driven projects are essential to the continued growth of RISC OS. When individuals dedicate their time and expertise to developing something valuable for the platform, it should be encouraged and supported. That’s why it was disappointing to see a member of ROOL publicly criticising open community projects on GitHub — an action that has understandably led to some backlash.
+
+I agree with many of the points raised regarding !Allocate and the broader view that the community and independent developers are not beholden to ROOL, particularly when it comes to legacy hardware. If a developer chooses to create a new podule or piece of hardware without ROOL’s involvement, that is entirely within their right to do so.
+
+Here is the github for context: [https://github.com/rhalkyard/EtherENC/issues/1#issueco…](https://github.com/rhalkyard/EtherENC/issues/1#issuecomment-3476842350)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20090:159506</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Risc PC 600 faulty</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468925#p468925</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468925#p468925</guid>
+    </item>    <item>
+      <title>general • Re: 3D Printed Parts for BBC Micro</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468924#p468924</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468924#p468924</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Who else is building a Beeb from scratch?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468923#p468923</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468923#p468923</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Risc PC 600 faulty</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468922#p468922</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468922#p468922</guid>
+    </item>    <item>
+      <title>October 2025 News Summary</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13487&#38;page=1#125838</link>
+      <description>
+        <![CDATA[https://www.davidpilling.com/wiki/index.php/Spell]]>
+      </description>
+      <source:markdown>https://www.davidpilling.com/wiki/index.php/Spell</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13487&#38;page=1#125838</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m4lpfcnlx22e</link>
+      <description>
+        <![CDATA[Two weeks to go....
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Two weeks to go....
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m4lpfcnlx22e</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: BBC Computer sound output</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468916#p468916</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468916#p468916</guid>
@@ -264,6 +337,19 @@ Or the sequence is also available linked from my presentations website: [https:/
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m4j7ybavy22m</guid>
     </item>    <item>
+      <title>ToolboxC++Lib Discussion</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>It also says it’s RogueWave C++ libraries – where’d you see the apache reference?]</p>
+        </blockquote>
+        <p><a href="https://lists.apache.org/thread/yl8p36x997bwq3510byl910s30y52pcs">https://lists.apache.org/thread/yl8p36x997bwq3510byl91…</a></p>]]>
+      </description>
+      <source:markdown>&#62; It also says it’s RogueWave C++ libraries – where’d you see the apache reference?\]
+
+[https://lists.apache.org/thread/yl8p36x997bwq3510byl91…](https://lists.apache.org/thread/yl8p36x997bwq3510byl910s30y52pcs)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19910:159487</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3m4j5bxyvhs2n</link>
       <description>
         <![CDATA[Look what's arrived, just in time for the weekend.
@@ -490,30 +576,6 @@ ROOL clearly have big plans for the RISC OS DDE</source:markdown>
       <title>8-bit acorn emulators • Re: jsbeeb - a Javascript emulator</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468763#p468763</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468763#p468763</guid>
-    </item>    <item>
-      <title>ToolboxC++Lib Discussion</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>The OS should have changed to support modern toolchains as a first tier platform</p>
-        </blockquote>
-        <p>Amen to that. By this point RO should support them natively and with debugging tools as well. Let&#8217;s hope someone at <span class="caps">ROOL</span> is reading this.</p>
-        <p>Side note: Obviously for my own version of RO <span class="caps">GCC</span>, <span class="caps">LLVM</span> are first class citizens (<span class="caps">LLVM</span> is used to build Merlin). While Merlin will support <span class="caps">AIF</span> too (as well as an extended <span class="caps">AIF</span> version to introduce DLLs, at some point). I hope we&#8217;ll also get what ROOL&#8217;s intentions are for their 64bit OS (if they endup using Merlin as the kernel, well next gen RO will support <span class="caps">ELF</span> as first class citizen; but as I have mentioned many times I am not in the persuasion business, so mentioning this after Steve R. himself opened up to the possibility).</p>
-        <blockquote>
-        <p>I’ve mentioned a few times that Acorn switched to gcc for all future projects (though, interestingly, the <span class="caps">ARM</span> Norcroft source code supports the AMP’s <span class="caps">FPU</span>, also known as SA1500, which was quite probably the primary trigger for Galileo being cancelled – though Galileo was definitely gcc). Element 14 (Inc, not Ltd) chose GreenHills as their compiler provider, rejecting a new Norcroft port, because of its <span class="caps">SIMD</span> support, and also gcc as it could be distributed at no cost.</p>
-        </blockquote>
-        <p>You did, and I copy and paste your mentioning again, to reinforce that supporting (at least) <span class="caps">GCC</span> is still part of the Acorn&#8217;s <span class="caps">DNA</span> and choices back then, so it&#8217;s not a new thing.</p>]]>
-      </description>
-      <source:markdown>&#62; The OS should have changed to support modern toolchains as a first tier platform
-
-Amen to that. By this point RO should support them natively and with debugging tools as well. Let’s hope someone at ROOL is reading this.
-
-Side note: Obviously for my own version of RO GCC, LLVM are first class citizens (LLVM is used to build Merlin). While Merlin will support AIF too (as well as an extended AIF version to introduce DLLs, at some point). I hope we’ll also get what ROOL’s intentions are for their 64bit OS (if they endup using Merlin as the kernel, well next gen RO will support ELF as first class citizen; but as I have mentioned many times I am not in the persuasion business, so mentioning this after Steve R. himself opened up to the possibility).
-
-&#62; I’ve mentioned a few times that Acorn switched to gcc for all future projects (though, interestingly, the ARM Norcroft source code supports the AMP’s FPU, also known as SA1500, which was quite probably the primary trigger for Galileo being cancelled – though Galileo was definitely gcc). Element 14 (Inc, not Ltd) chose GreenHills as their compiler provider, rejecting a new Norcroft port, because of its SIMD support, and also gcc as it could be distributed at no cost.
-
-You did, and I copy and paste your mentioning again, to reinforce that supporting (at least) GCC is still part of the Acorn’s DNA and choices back then, so it’s not a new thing.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19910:159472</guid>
     </item>    <item>
       <title>8-bit acorn emulators • Re: B-Em</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468751#p468751</link>
