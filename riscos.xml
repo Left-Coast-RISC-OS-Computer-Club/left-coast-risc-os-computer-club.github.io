@@ -7,10 +7,50 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>01 Nov 25 07:00 -0700</lastBuildDate>
+    <lastBuildDate>01 Nov 25 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: BBC Computer sound output</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468916#p468916</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468916#p468916</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Calculating digits of Pi in Basic</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468915#p468915</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468915#p468915</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Calculating digits of Pi in Basic</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468914#p468914</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468914#p468914</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC Serial cable</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468913#p468913</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468913#p468913</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Repair advice, A3000 dimming picture, 5v spade connector dry joint?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468912#p468912</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468912#p468912</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC Serial cable</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468910#p468910</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468910#p468910</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Greetings from Country Durham!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468909#p468909</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468909#p468909</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Crackling PSU</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468908#p468908</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468908#p468908</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: jsbeeb - a Javascript emulator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468907#p468907</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468907#p468907</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: jsbeeb - a Javascript emulator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468906#p468906</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468906#p468906</guid>
+    </item>    <item>
       <title>programming • Re: Advice wanted - getting started programming on the electron</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468881#p468881</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468881#p468881</guid>
@@ -454,24 +494,26 @@ ROOL clearly have big plans for the RISC OS DDE</source:markdown>
       <title>ToolboxC++Lib Discussion</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
       <description>
-        <![CDATA[<p>Did you both use -apcs 3/32bit? I forgot to mention that. I&#8217;ve made minimal changes intentionally, as it&#8217;s sort of software preservation by keeping it compiling (rather than rotting). Maybe I should change that to be the default. I used drlink, which warns if you try to mix 26bit and 32bit, and GStubs.</p>
-        <p>If that doesn&#8217;t fix it, is it crashing on literally anything for you? I tried compiling itself on itself, but I haven&#8217;t tested much else, so I&#8217;d guess it&#8217;s a use-case I haven&#8217;t tested.</p>
-        <blockquote>
-        <p>Who wants to code in C++ on <span class="caps">RISC</span> OS is using <span class="caps">GCC</span>. &#8230;</p>
+        <![CDATA[<blockquote>
+        <p>The OS should have changed to support modern toolchains as a first tier platform</p>
         </blockquote>
-        <p>Um, yes. I have <span class="caps">GCCSDK</span> with gcc 10 installed on Linux. The OS should have changed to support modern toolchains as a first tier platform, rather than the convoluted modifications they&#8217;ve previously required. Like <span class="caps">ELF</span>, contiguous stacks, and even just removing the faff of cmhg.</p>
-        <p>I&#8217;ve mentioned a few times that Acorn switched to gcc for all future projects (though, interestingly, the <span class="caps">ARM</span> Norcroft source code supports the AMP&#8217;s <span class="caps">FPU</span>, also known as SA1500, which was quite probably the primary trigger for Galileo being cancelled &#8211; though Galileo was definitely gcc). Element 14 (Inc, not Ltd) chose GreenHills as their compiler provider, rejecting a new Norcroft port, because of its <span class="caps">SIMD</span> support, and also gcc as it could be distributed at no cost.</p>]]>
+        <p>Amen to that. By this point RO should support them natively and with debugging tools as well. Let&#8217;s hope someone at <span class="caps">ROOL</span> is reading this.</p>
+        <p>Side note: Obviously for my own version of RO <span class="caps">GCC</span>, <span class="caps">LLVM</span> are first class citizens (<span class="caps">LLVM</span> is used to build Merlin). While Merlin will support <span class="caps">AIF</span> too (as well as an extended <span class="caps">AIF</span> version to introduce DLLs, at some point). I hope we&#8217;ll also get what ROOL&#8217;s intentions are for their 64bit OS (if they endup using Merlin as the kernel, well next gen RO will support <span class="caps">ELF</span> as first class citizen; but as I have mentioned many times I am not in the persuasion business, so mentioning this after Steve R. himself opened up to the possibility).</p>
+        <blockquote>
+        <p>I’ve mentioned a few times that Acorn switched to gcc for all future projects (though, interestingly, the <span class="caps">ARM</span> Norcroft source code supports the AMP’s <span class="caps">FPU</span>, also known as SA1500, which was quite probably the primary trigger for Galileo being cancelled – though Galileo was definitely gcc). Element 14 (Inc, not Ltd) chose GreenHills as their compiler provider, rejecting a new Norcroft port, because of its <span class="caps">SIMD</span> support, and also gcc as it could be distributed at no cost.</p>
+        </blockquote>
+        <p>You did, and I copy and paste your mentioning again, to reinforce that supporting (at least) <span class="caps">GCC</span> is still part of the Acorn&#8217;s <span class="caps">DNA</span> and choices back then, so it&#8217;s not a new thing.</p>]]>
       </description>
-      <source:markdown>Did you both use -apcs 3/32bit? I forgot to mention that. I’ve made minimal changes intentionally, as it’s sort of software preservation by keeping it compiling (rather than rotting). Maybe I should change that to be the default. I used drlink, which warns if you try to mix 26bit and 32bit, and GStubs.
+      <source:markdown>&#62; The OS should have changed to support modern toolchains as a first tier platform
 
-If that doesn’t fix it, is it crashing on literally anything for you? I tried compiling itself on itself, but I haven’t tested much else, so I’d guess it’s a use-case I haven’t tested.
+Amen to that. By this point RO should support them natively and with debugging tools as well. Let’s hope someone at ROOL is reading this.
 
-&#62; Who wants to code in C++ on RISC OS is using GCC. …
+Side note: Obviously for my own version of RO GCC, LLVM are first class citizens (LLVM is used to build Merlin). While Merlin will support AIF too (as well as an extended AIF version to introduce DLLs, at some point). I hope we’ll also get what ROOL’s intentions are for their 64bit OS (if they endup using Merlin as the kernel, well next gen RO will support ELF as first class citizen; but as I have mentioned many times I am not in the persuasion business, so mentioning this after Steve R. himself opened up to the possibility).
 
-Um, yes. I have GCCSDK with gcc 10 installed on Linux. The OS should have changed to support modern toolchains as a first tier platform, rather than the convoluted modifications they’ve previously required. Like ELF, contiguous stacks, and even just removing the faff of cmhg.
+&#62; I’ve mentioned a few times that Acorn switched to gcc for all future projects (though, interestingly, the ARM Norcroft source code supports the AMP’s FPU, also known as SA1500, which was quite probably the primary trigger for Galileo being cancelled – though Galileo was definitely gcc). Element 14 (Inc, not Ltd) chose GreenHills as their compiler provider, rejecting a new Norcroft port, because of its SIMD support, and also gcc as it could be distributed at no cost.
 
-I’ve mentioned a few times that Acorn switched to gcc for all future projects (though, interestingly, the ARM Norcroft source code supports the AMP’s FPU, also known as SA1500, which was quite probably the primary trigger for Galileo being cancelled – though Galileo was definitely gcc). Element 14 (Inc, not Ltd) chose GreenHills as their compiler provider, rejecting a new Norcroft port, because of its SIMD support, and also gcc as it could be distributed at no cost.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19910:159471</guid>
+You did, and I copy and paste your mentioning again, to reinforce that supporting (at least) GCC is still part of the Acorn’s DNA and choices back then, so it’s not a new thing.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19910:159472</guid>
     </item>    <item>
       <title>8-bit acorn emulators • Re: B-Em</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468751#p468751</link>
