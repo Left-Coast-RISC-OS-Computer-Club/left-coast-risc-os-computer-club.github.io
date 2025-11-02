@@ -7,10 +7,95 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>02 Nov 25 07:00 -0800</lastBuildDate>
+    <lastBuildDate>02 Nov 25 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>programming • Disassembly of tape protection of Repton (Acorn Electron)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468992#p468992</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468992#p468992</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • A3010 with RAM Control Line Failure</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468991#p468991</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468991#p468991</guid>
+    </item>    <item>
+      <title>Updated XP1Dr2SVG</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19365</link>
+      <description>
+        <![CDATA[<p>Discovered two bugs in Dr2SVG, both now fixed at version 1.31: <a href="https://clive.semmens.org.uk/RISCOS/XP1Dr2SVG.html">link</a><br />
+        I doubt anyone&#8217;s bumped into them, they&#8217;re really pretty obscure: in some probably rare circumstances, arrows, square ends and round ends could disappear off lines or even appear but in the wrong colour; and there could sometimes be a thin line (single pixel width) between a line and the arrows, square ends or round ends terminating them, through which whatever was behind could be seen.</p>
+        <p>If you <em>had</em> bumped into them, why didn&#8217;t you email me &amp; let me know??</p>]]>
+      </description>
+      <source:markdown>Discovered two bugs in Dr2SVG, both now fixed at version 1.31: [link](https://clive.semmens.org.uk/RISCOS/XP1Dr2SVG.html)
+
+I doubt anyone’s bumped into them, they’re really pretty obscure: in some probably rare circumstances, arrows, square ends and round ends could disappear off lines or even appear but in the wrong colour; and there could sometimes be a thin line (single pixel width) between a line and the arrows, square ends or round ends terminating them, through which whatever was behind could be seen.
+
+If you _had_ bumped into them, why didn’t you email me &#38; let me know??</source:markdown>
+      <guid>cid://www.riscosopen.org:1:19365:159565</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Tak: Racing Code Through Time</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468989#p468989</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468989#p468989</guid>
+    </item>    <item>
+      <title>BASIC V 1.85 buggy formatting</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20089</link>
+      <description>
+        <![CDATA[<p>I can&#8217;t think of a computer language I&#8217;ve used that has implied multiplication.</p>
+        <p>Computers are stupid, they need everything spelt out explicitly, which is exactly how it should be.</p>]]>
+      </description>
+      <source:markdown>I can’t think of a computer language I’ve used that has implied multiplication.
+
+Computers are stupid, they need everything spelt out explicitly, which is exactly how it should be.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20089:159564</guid>
+    </item>    <item>
+      <title>communications • Re: the Night Owl BBS *Sun*</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468988#p468988</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468988#p468988</guid>
+    </item>    <item>
+      <title>general • Re: Talks at CCH - ARM at 40 anniversary</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468987#p468987</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468987#p468987</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Sanity Check of TAK in ARM1 Assembler</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468986#p468986</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468986#p468986</guid>
+    </item>    <item>
+      <title>general • Re: Interesting YouTube videos</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468985#p468985</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468985#p468985</guid>
+    </item>    <item>
+      <title>general • Talks at CCH - ARM at 40 anniversary</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468984#p468984</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468984#p468984</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • MMFS ROM Options Advice</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468983#p468983</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468983#p468983</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Sanity Check of TAK in ARM1 Assembler</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468982#p468982</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468982#p468982</guid>
+    </item>    <item>
+      <title>Boot RISC OS Pi on Pi 4 from MSD</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20091</link>
+      <description>
+        <![CDATA[<p>You could try reformatting the card, downloading the <span class="caps">RISC</span> OS Open Raspberry Pi card image &#8211; it&#8217;s the first item here:</p>
+        <a href="https://www.riscosopen.org/content/downloads/raspberry-pi">https://www.riscosopen.org/content/downloads/raspberry…</a>
+        <p>and imaging it to the reformatted card. You&#8217;ll need a <span class="caps">USB</span> SD card reader but these are readily and cheaply obtainable. You&#8217;ll also need disc-imaging software &#8211; as it happens Raspberry Pi do a perfectly good one:</p>
+        <a href="https://raspberrytips.com/raspberry-pi-imager-guide/">https://raspberrytips.com/raspberry-pi-imager-guide/</a>
+        <p>You can&#8217;t simply copy the diskimage to the card, the card must be imaged, hence the need for imager software (apologies if you already know all this, I can&#8217;t estimate your capability from the original post). Good luck, <span class="caps">HTH</span>.</p>]]>
+      </description>
+      <source:markdown>You could try reformatting the card, downloading the RISC OS Open Raspberry Pi card image – it’s the first item here:
+
+ [https://www.riscosopen.org/content/downloads/raspberry…](https://www.riscosopen.org/content/downloads/raspberry-pi)
+
+and imaging it to the reformatted card. You’ll need a USB SD card reader but these are readily and cheaply obtainable. You’ll also need disc-imaging software – as it happens Raspberry Pi do a perfectly good one:
+
+ [https://raspberrytips.com/raspberry-pi-imager-guide/](https://raspberrytips.com/raspberry-pi-imager-guide/)
+
+You can’t simply copy the diskimage to the card, the card must be imaged, hence the need for imager software (apologies if you already know all this, I can’t estimate your capability from the original post). Good luck, HTH.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20091:159561</guid>
+    </item>    <item>
       <title>general • Re: Interesting YouTube videos</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468965#p468965</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468965#p468965</guid>
@@ -55,56 +140,28 @@
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468956#p468956</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468956#p468956</guid>
     </item>    <item>
-      <title>general • Re: Repton Overture Finally Finished</title>
-      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468954#p468954</link>
-      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468954#p468954</guid>
-    </item>    <item>
-      <title>BASIC V 1.85 buggy formatting</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20089</link>
-      <description>
-        <![CDATA[<p>A further prod of the inter web found a discussion on the validity of <code>2x == 2*x</code> which came up with this rather splendid notion, &#8220;You&#8217;ve just discovered that mathematical notation and programming language syntax are incompatible&#8221;.</p>
-        <p>Implicit multiplication is not supported in C in DDE32 either.</p>
-        <p>Obviously one should always be explicit when dealing with computers to avoid the potential for ambiguity.</p>
-        <blockquote>
-        <p>Implied multiplication isn&#8217;t something that&#8217;s documented as being possible</p>
-        </blockquote>
-        <p>Indeed it is not, the implication is therefore &#8220;don&#8217;t do it&#8221;. I failed to find an explicit statement that it is not supported.</p>
-        <p>It is not a bug in <span class="caps">BASIC</span>.</p>
-        <p>It was an unknown &#8216;known thing&#8217; here!</p>]]>
-      </description>
-      <source:markdown>A further prod of the inter web found a discussion on the validity of `2x == 2*x` which came up with this rather splendid notion, “You’ve just discovered that mathematical notation and programming language syntax are incompatible”.
-
-Implicit multiplication is not supported in C in DDE32 either.
-
-Obviously one should always be explicit when dealing with computers to avoid the potential for ambiguity.
-
-&#62; Implied multiplication isn’t something that’s documented as being possible
-
-Indeed it is not, the implication is therefore “don’t do it”. I failed to find an explicit statement that it is not supported.
-
-It is not a bug in BASIC.
-
-It was an unknown ‘known thing’ here!</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20089:159534</guid>
-    </item>    <item>
       <title>Why is ROOL doing this?</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20090</link>
       <description>
-        <![CDATA[<p>Someone on here was complaining about someone making a fortune selling RO5 <span class="caps">ROM</span> for Rpc a7000 ???</p>]]>
+        <![CDATA[<blockquote>
+        <p>I don’t think you’re normally interested in reading stuff in Aldershot</p>
+        </blockquote>
+        <p>Thanks &#8211; I&#8217;m not, and I think that thread summarises why&#8230; :-)</p>
+        <p>But again, I don&#8217;t see what someone having ROMs in stock has to do with <span class="caps">ROOL</span> &#8211; who aren&#8217;t the people with them in stock.</p>
+        <p>And ultimately, having ROMs (and bulky hardware) in stock requires somewhere to stock it, which implies costs, which in turn have to be covered by margins on the things being sold. Running a business is rather a different thing from a hobby turning out hardware designs from a spare bedroom.</p>]]>
       </description>
-      <source:markdown>Someone on here was complaining about someone making a fortune selling RO5 ROM for Rpc a7000 ???</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20090:159533</guid>
-    </item>    <item>
-      <title>Boot RISC OS Pi on Pi 4 from MSD</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20091</link>
-      <description>
-        <![CDATA[<p>I think there might be a bit of confusion here. You mention a card, so I suspect you have a Micro SD card. This is not the same thing as <span class="caps">MSD</span> (Mass Storage Device, which is usually connected to a <span class="caps">USB</span> socket rather than a card slot).</p>
-        <p>I wonder whether you&#8217;ve somehow managed to configure the Pi to only boot from <span class="caps">MSD</span>, ignoring the SD card. Unfortunately Pi boot options are a bit of a mystery to me so I don&#8217;t know how to recover if that&#8217;s what you&#8217;ve done.</p>]]>
-      </description>
-      <source:markdown>I think there might be a bit of confusion here. You mention a card, so I suspect you have a Micro SD card. This is not the same thing as MSD (Mass Storage Device, which is usually connected to a USB socket rather than a card slot).
+      <source:markdown>&#62; I don’t think you’re normally interested in reading stuff in Aldershot
 
-I wonder whether you’ve somehow managed to configure the Pi to only boot from MSD, ignoring the SD card. Unfortunately Pi boot options are a bit of a mystery to me so I don’t know how to recover if that’s what you’ve done.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20091:159532</guid>
+Thanks – I’m not, and I think that thread summarises why… :-)
+
+But again, I don’t see what someone having ROMs in stock has to do with ROOL – who aren’t the people with them in stock.
+
+And ultimately, having ROMs (and bulky hardware) in stock requires somewhere to stock it, which implies costs, which in turn have to be covered by margins on the things being sold. Running a business is rather a different thing from a hobby turning out hardware designs from a spare bedroom.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20090:159543</guid>
+    </item>    <item>
+      <title>general • Re: Repton Overture Finally Finished</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468954#p468954</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468954#p468954</guid>
     </item>    <item>
       <title>32-bit acorn hardware • Re: Risc PC 600 faulty</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468932#p468932</link>
