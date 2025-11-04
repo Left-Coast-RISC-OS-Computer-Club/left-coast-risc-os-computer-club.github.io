@@ -7,10 +7,58 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>03 Nov 25 12:00 -0800</lastBuildDate>
+    <lastBuildDate>03 Nov 25 16:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>32-bit acorn software: other • Re: Brazil OS questions</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469108#p469108</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469108#p469108</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Econet on the research machines 380/480</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469107#p469107</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469107#p469107</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Four - Transistor&#39;s Revenge</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469106#p469106</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469106#p469106</guid>
+    </item>    <item>
+      <title>SerialUSB 0.17</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20088</link>
+      <description>
+        <![CDATA[<p>Many thanks for the update, Colin.  (Apologies for the delay in posting my thanks &#8211; as usual, I got distracted.)</p>]]>
+      </description>
+      <source:markdown>Many thanks for the update, Colin. (Apologies for the delay in posting my thanks – as usual, I got distracted.)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20088:159587</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3010 with RAM Control Line Failure</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469105#p469105</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469105#p469105</guid>
+    </item>    <item>
+      <title>programming • Re: Disassembly of tape protection of Repton (Acorn Electron)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469104#p469104</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469104#p469104</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Instant mini-challenge: 10 PRINT maze in Mode 7</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469103#p469103</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469103#p469103</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Sanity Check of TAK in ARM1 Assembler</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469102#p469102</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469102#p469102</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3010 with RAM Control Line Failure</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469101#p469101</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469101#p469101</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Four - Transistor&#39;s Revenge</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469100#p469100</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469100#p469100</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Four - Transistor&#39;s Revenge</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469099#p469099</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469099#p469099</guid>
+    </item>    <item>
       <title>32-bit acorn emulators • Re: Arculator and Win 11</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469090#p469090</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469090#p469090</guid>
@@ -623,17 +671,6 @@ You can’t simply copy the diskimage to the card, the card must be imaged, henc
       <title>8-bit acorn hardware • Re: BBC Mouse User Port Wiring</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468872#p468872</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468872#p468872</guid>
-    </item>    <item>
-      <title>SerialUSB 0.17</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20088</link>
-      <description>
-        <![CDATA[<p>SerialUSB has been updated to fix a zeropage bug when detecting cdc devices.</p>
-        <p>It can be found <a href="https://ftpc.iconbar.com/usb/index.html">here</a>.</p>]]>
-      </description>
-      <source:markdown>SerialUSB has been updated to fix a zeropage bug when detecting cdc devices.
-
-It can be found [here](https://ftpc.iconbar.com/usb/index.html).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20088:159493</guid>
     </item>    <item>
       <title>Learning BASIC</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20045</link>
