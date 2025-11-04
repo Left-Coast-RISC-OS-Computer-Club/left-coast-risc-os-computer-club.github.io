@@ -7,10 +7,91 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>03 Nov 25 16:00 -0800</lastBuildDate>
+    <lastBuildDate>04 Nov 25 07:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn software: other • Re: MMFS ROM Options Advice</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469147#p469147</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469147#p469147</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: MMFS ROM Options Advice</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469146#p469146</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469146#p469146</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: MMFS ROM Options Advice</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469145#p469145</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469145#p469145</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Cumana doube disc drive issues</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469144#p469144</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469144#p469144</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Cumana doube disc drive issues</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469143#p469143</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469143#p469143</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Cumana doube disc drive issues</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469142#p469142</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469142#p469142</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m4solh6chs2e</link>
+      <description>
+        <![CDATA[BBC Basic is not Perl, but nemoBasic’s long strings and DIV$ operator do make it good at consuming and parsing text files.
+        
+        I’ve just added a long-planned feature: “StrongTabs” seps mode – which isn’t limited to tab characters or one-character separators, but consumes multiple separators as one...]]>
+      </description>
+      <source:markdown>BBC Basic is not Perl, but nemoBasic’s long strings and DIV$ operator do make it good at consuming and parsing text files.
+
+I’ve just added a long-planned feature: “StrongTabs” seps mode – which isn’t limited to tab characters or one-character separators, but consumes multiple separators as one...</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m4solh6chs2e</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Cumana doube disc drive issues</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469141#p469141</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469141#p469141</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: MMFS ROM Options Advice</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469140#p469140</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469140#p469140</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: MMFS ROM Options Advice</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469139#p469139</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469139#p469139</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: B-Em Tape Overhaul v4.3</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469138#p469138</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469138#p469138</guid>
+    </item>    <item>
+      <title>RPCEmu NAT fail.</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20095</link>
+      <description>
+        <![CDATA[<p>Is anyone else finding that RPCEmu&#8217;s <span class="caps">NAT</span> networking fails to start with the current daily beta <span class="caps">ROM</span> 02Nov25?</p>
+        <p>With a manual IP configured the error is &#8220;unrecoverable error ip_init&#8221;. <span class="caps">DHCP</span> stalls, pressing escape shows &#8220;interface lo0 does not exist&#8221;.</p>
+        <p>This happens on Ubuntu 22.04.2 with both with RPCEmu 0.9.5 and 0.9.99 (Multi machine <span class="caps">GUI</span>) and on macOS Sequoia with RPCEmu 0.9.4.</p>
+        <p>A <span class="caps">ROM</span> dated 09Oct25 is good.</p>
+        <p>There is no such problem on the Pi.</p>
+        <p>It is not DDE32a as a build with DDE31f also failed. A rebuild of EtherRPCEm with DDE32a did not help. Both the compiler and interpreter builds are affected.</p>]]>
+      </description>
+      <source:markdown>Is anyone else finding that RPCEmu’s NAT networking fails to start with the current daily beta ROM 02Nov25?
+
+With a manual IP configured the error is “unrecoverable error ip\_init”. DHCP stalls, pressing escape shows “interface lo0 does not exist”.
+
+This happens on Ubuntu 22.04.2 with both with RPCEmu 0.9.5 and 0.9.99 (Multi machine GUI) and on macOS Sequoia with RPCEmu 0.9.4.
+
+A ROM dated 09Oct25 is good.
+
+There is no such problem on the Pi.
+
+It is not DDE32a as a build with DDE31f also failed. A rebuild of EtherRPCEm with DDE32a did not help. Both the compiler and interpreter builds are affected.</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20095:159594</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3m4rd35twxc2r</link>
+      <description>
+        <![CDATA[This weekend I finally found some time to add multi-sentence line support and finish the Transpiling Framework for my #UltimaVM, a fast and secure bytecode interpreter for #Linux, #Windows, #macOS, #BSD, and #RISC_OS.]]>
+      </description>
+      <source:markdown>This weekend I finally found some time to add multi-sentence line support and finish the Transpiling Framework for my #UltimaVM, a fast and secure bytecode interpreter for #Linux, #Windows, #macOS, #BSD, and #RISC\_OS.</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3m4rd35twxc2r</guid>
+    </item>    <item>
       <title>32-bit acorn software: other • Re: Brazil OS questions</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469108#p469108</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469108#p469108</guid>
@@ -275,6 +356,14 @@ Plus main RAM up from Rpc of 512Mb to max of 1024M.</source:markdown>
       <source:markdown>The November 2025 WROCC talk is on Wednesday 5th November and starts at at 7.45pm on Zoom.</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2243.html</guid>
     </item>    <item>
+      <title>risc pc alpha 1 file transfer</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20092</link>
+      <description>
+        <![CDATA[<p>@Paolo PCexchange was (I think) a clipboard sharing program for the Windows clipboard back/forth to <span class="caps">RISC</span> OS.  Kind of like UniPrint does these days.  <span class="caps">IIRC</span> it was quite decent, but sometimes a bit hit&#8217;n&#8217;miss.</p>]]>
+      </description>
+      <source:markdown>@Paolo PCexchange was (I think) a clipboard sharing program for the Windows clipboard back/forth to RISC OS. Kind of like UniPrint does these days. IIRC it was quite decent, but sometimes a bit hit’n’miss.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20092:159574</guid>
+    </item>    <item>
       <title>8-bit acorn software: other • Re: Instant mini-challenge: 10 PRINT maze in Mode 7</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469007#p469007</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469007#p469007</guid>
@@ -331,14 +420,6 @@ Plus main RAM up from Rpc of 512Mb to max of 1024M.</source:markdown>
       <title>8-bit acorn software: other • Re: MMFS ROM Options Advice</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468996#p468996</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468996#p468996</guid>
-    </item>    <item>
-      <title>risc pc alpha 1 file transfer</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20092</link>
-      <description>
-        <![CDATA[<p>i have installed an alpha 1 586 and the !PC 3.08 and trying to work out how to get the file transfer to work so i can copy over the drivers for dos and windows.</p>]]>
-      </description>
-      <source:markdown>i have installed an alpha 1 586 and the !PC 3.08 and trying to work out how to get the file transfer to work so i can copy over the drivers for dos and windows.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20092:159568</guid>
     </item>    <item>
       <title>programming • Re: Disassembly of tape protection of Repton (Acorn Electron)</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468995#p468995</link>
