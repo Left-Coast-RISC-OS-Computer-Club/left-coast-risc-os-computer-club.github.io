@@ -7,10 +7,67 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>04 Nov 25 11:00 -0800</lastBuildDate>
+    <lastBuildDate>04 Nov 25 15:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>software preservation • Re: The people rescuing forgotten knowledge trapped on old floppy disks</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469188#p469188</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469188#p469188</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Master Compact MOS 5.x ADVAL for custom A/D and joystick hardware</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469187#p469187</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469187#p469187</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469186#p469186</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469186#p469186</guid>
+    </item>    <item>
+      <title>!Paint Outline Fonts</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20097</link>
+      <description>
+        <![CDATA[<p>I love being able to use the outline font system in the latest update to !paint under 5.31 beta that was released on the new ROM&#8217;s 2nd November, This has made such a massive difference to editing sprites, at last not just the System Font and with Sprites in 16m colour mode Text appears Antialiasing and smooth!</p>
+        <p>Nice job to the Developer who has done the work :)</p>
+        <p>Also the new 8GB 5.31 Rom feels pretty polished!<br />
+        <img src="https://images2.imgbox.com/69/ac/i2NJEmwx_o.jpg" alt="" /></p>]]>
+      </description>
+      <source:markdown>I love being able to use the outline font system in the latest update to !paint under 5.31 beta that was released on the new ROM’s 2nd November, This has made such a massive difference to editing sprites, at last not just the System Font and with Sprites in 16m colour mode Text appears Antialiasing and smooth!
+
+Nice job to the Developer who has done the work :)
+
+Also the new 8GB 5.31 Rom feels pretty polished!
+
+![](https://images2.imgbox.com/69/ac/i2NJEmwx_o.jpg)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20097:159605</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Leds not working</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469185#p469185</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469185#p469185</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Microdigital Omega Repair</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469184#p469184</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469184#p469184</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Microdigital Omega Repair</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469183#p469183</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469183#p469183</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469182#p469182</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469182#p469182</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • BBC Computer Shift Keys</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469181#p469181</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469181#p469181</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Brazil OS questions</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469180#p469180</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469180#p469180</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469178#p469178</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469178#p469178</guid>
+    </item>    <item>
       <title>Contacting members</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20096</link>
       <description>
@@ -257,6 +314,49 @@ It is not DDE32a as a build with DDE31f also failed. A rebuild of EtherRPCEm wit
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469064#p469064</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469064#p469064</guid>
     </item>    <item>
+      <title>Acorn Phoebe</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20093</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Ref Phoebe has anyone seen one working?</p>
+        </blockquote>
+        <blockquote>
+        <p>Rare to have one fired up: <a href="https://stardot.org.uk/forums/viewtopic.php?t=6753">https://stardot.org.uk/forums/viewtopic.php?t=6753</a></p>
+        </blockquote>
+        <p>Yeah it was fun to have access to it, if only for a couple of months.</p>
+        <p>I documented most of what I learnt here;</p>
+        <p><a href="https://www.4corn.co.uk/articles/phoebe/">https://www.4corn.co.uk/articles/phoebe/</a></p>
+        <blockquote>
+        <p>I think there is emulator version of Phoebe partly done.</p>
+        </blockquote>
+        <p>It&#8217;s rpcemu;</p>
+        <p><a href="https://www.4corn.co.uk/articles/phoebe/#emu">https://www.4corn.co.uk/articles/phoebe/#emu</a></p>
+        <blockquote>
+        <p>And having a 1GB physical address space != 1GB <span class="caps">RAM</span>.</p>
+        </blockquote>
+        <p>Indeed, it was a max of 512MB <span class="caps">RAM</span> on the Phoebe in 2x 256MB simms</p>]]>
+      </description>
+      <source:markdown>&#62; Ref Phoebe has anyone seen one working?
+
+&#62; Rare to have one fired up: [https://stardot.org.uk/forums/viewtopic.php?t=6753](https://stardot.org.uk/forums/viewtopic.php?t=6753)
+
+Yeah it was fun to have access to it, if only for a couple of months.
+
+I documented most of what I learnt here;
+
+[https://www.4corn.co.uk/articles/phoebe/](https://www.4corn.co.uk/articles/phoebe/)
+
+&#62; I think there is emulator version of Phoebe partly done.
+
+It’s rpcemu;
+
+[https://www.4corn.co.uk/articles/phoebe/#emu](https://www.4corn.co.uk/articles/phoebe/#emu)
+
+&#62; And having a 1GB physical address space != 1GB RAM.
+
+Indeed, it was a max of 512MB RAM on the Phoebe in 2x 256MB simms</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20093:159584</guid>
+    </item>    <item>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Four - Transistor&#39;s Revenge</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469063#p469063</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469063#p469063</guid>
@@ -293,71 +393,20 @@ It is not DDE32a as a build with DDE31f also failed. A rebuild of EtherRPCEm wit
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469055#p469055</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469055#p469055</guid>
     </item>    <item>
+      <title>What is Hearsay?</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20094</link>
+      <description>
+        <![CDATA[<p>So not David Pilling&#8217;s terminal emulator then, despite him being the first in your list, or maybe because&#8230;</p>]]>
+      </description>
+      <source:markdown>So not David Pilling’s terminal emulator then, despite him being the first in your list, or maybe because…</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20094:159582</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/archiveriscos.bsky.social/post/3m4q377f3h22r</link>
       <description>
         <![CDATA[What is Hearsay? www.riscosopen.org/forum/forums/1/topics/20094 #riscos #acorn #raspberrypi #opensource]]>
       </description>
       <source:markdown>What is Hearsay? www.riscosopen.org/forum/forums/1/topics/20094 #riscos #acorn #raspberrypi #opensource</source:markdown>
       <guid>cid://at://did:plc:3nemd4ccpca5uxluat5znw4s/app.bsky.feed.post/3m4q377f3h22r</guid>
-    </item>    <item>
-      <title>What is Hearsay?</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20094</link>
-      <description>
-        <![CDATA[<p><strong>What is Hearsay?</strong><br />
-        Hearsay is a series of exclusive interviews with high-profile <span class="caps">RISC</span> OS names, past and present, published in <strong>Archive Magazine</strong>. It is a mix of pivotal figures from ‘back in the day’, plus contemporary names from today. Hearsay interviews are conducted by <strong>Andy Marks</strong> (except if there is a possible conflict of interest).</p>
-        <p>There are now 11 interviews in the Hearsay catalogue, and we have more big names on the horizon. In the latest issue, Archive sat down with Hermann Hauser, best known as co-founder of Acorn and <span class="caps">ARM</span>. A limited supply of copies of this issue (and some back issues) are still available.</p>
-        <p>Here is the current Hearsay list of interviews:<br />
-        • David Pilling, of Ovation Pro fame (Archive 26:1)<br />
-        • Gavin Crawford, who uses <span class="caps">RISC</span> OS in a professional publishing capacity (Archive 26:2)<br />
-        • Steve Revill, the Managing Director of <span class="caps">RISC</span> OS Open (Archive 26:3)<br />
-        • Andrew Rawnsley with his R-Comp hat on talks about bringing Doom, Quake, and more to <span class="caps">RISC</span> OS (Archive 26:4)<br />
-        • Eben Upton, <span class="caps">CEO</span> of Raspberry Pi Ltd discusses <span class="caps">RISC</span> OS and his thoughts on its future, as well as the creation of the Raspberry Pi (Archive 26:5)<br />
-        • Bryan Hogan, ROUGOL’s chief discusses his long history with Acorn machines (Archive 27:1)<br />
-        • Paolo Fabio Zaino, a Senior Principal Engineer, undertaking a number of modern <span class="caps">RISC</span> OS projects (Archive 27:2)<br />
-        • Paul Fellows, Arthur team lead − and much more − at Acorn (Archive 27:3)<br />
-        • Matthew and Hilary Phillips, developer of excellent <span class="caps">RISC</span> OS software such as RiscOSM (Archive 27:4)<br />
-        • Lee Noar, developer of Iris, the modern <span class="caps">RISC</span> OS web browser (Archive 27:5)<br />
-        • Hermann Hauseer, co-founder of Acorn Computers and <span class="caps">ARM</span> (Archive 27:6)</p>
-        <p><strong>Archive subscription pricing</strong><br />
-        6 issue digital subscriptions cost £35, print subscriptions cost £42 (UK) or £62 (rest of world). The print subscriptions include the digital edition free of charge. It’s quick and easy to subscribe – payment can be made by PayPal, bank transfer, and cheque. Full details at <a href="https://www.archivemag.co.uk/subscriptions.html">https://www.archivemag.co.uk/subscriptions.html</a> or contact <a href="mailto:gavin@archivemag.co.uk">gavin@archivemag.co.uk</a> for more information.</p>
-        <p>Archive Magazine, Beresford Business Centre, 2 Beresford Road, Coleraine, BT52 1GE, UK</p>]]>
-      </description>
-      <source:markdown>**What is Hearsay?**
-
-Hearsay is a series of exclusive interviews with high-profile RISC OS names, past and present, published in **Archive Magazine**. It is a mix of pivotal figures from ‘back in the day’, plus contemporary names from today. Hearsay interviews are conducted by **Andy Marks** (except if there is a possible conflict of interest).
-
-There are now 11 interviews in the Hearsay catalogue, and we have more big names on the horizon. In the latest issue, Archive sat down with Hermann Hauser, best known as co-founder of Acorn and ARM. A limited supply of copies of this issue (and some back issues) are still available.
-
-Here is the current Hearsay list of interviews:
-
-• David Pilling, of Ovation Pro fame (Archive 26:1)
-
-• Gavin Crawford, who uses RISC OS in a professional publishing capacity (Archive 26:2)
-
-• Steve Revill, the Managing Director of RISC OS Open (Archive 26:3)
-
-• Andrew Rawnsley with his R-Comp hat on talks about bringing Doom, Quake, and more to RISC OS (Archive 26:4)
-
-• Eben Upton, CEO of Raspberry Pi Ltd discusses RISC OS and his thoughts on its future, as well as the creation of the Raspberry Pi (Archive 26:5)
-
-• Bryan Hogan, ROUGOL’s chief discusses his long history with Acorn machines (Archive 27:1)
-
-• Paolo Fabio Zaino, a Senior Principal Engineer, undertaking a number of modern RISC OS projects (Archive 27:2)
-
-• Paul Fellows, Arthur team lead − and much more − at Acorn (Archive 27:3)
-
-• Matthew and Hilary Phillips, developer of excellent RISC OS software such as RiscOSM (Archive 27:4)
-
-• Lee Noar, developer of Iris, the modern RISC OS web browser (Archive 27:5)
-
-• Hermann Hauseer, co-founder of Acorn Computers and ARM (Archive 27:6)
-
-**Archive subscription pricing**
-
-6 issue digital subscriptions cost £35, print subscriptions cost £42 (UK) or £62 (rest of world). The print subscriptions include the digital edition free of charge. It’s quick and easy to subscribe – payment can be made by PayPal, bank transfer, and cheque. Full details at [https://www.archivemag.co.uk/subscriptions.html](https://www.archivemag.co.uk/subscriptions.html) or contact [gavin@archivemag.co.uk](mailto:gavin@archivemag.co.uk) for more information.
-
-Archive Magazine, Beresford Business Centre, 2 Beresford Road, Coleraine, BT52 1GE, UK</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20094:159581</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m4pzg4rszc23</link>
       <description>
@@ -384,20 +433,6 @@ https://www.iconbar.com/articles/WROCC\_November\_2025\_talk\_on\_Wednesday\_-\_
 
 The November 2025 WROCC talk is on Wednesday 5th November and starts at at 7.45pm on Zoom.</source:markdown>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3m4ptu2vn5223</guid>
-    </item>    <item>
-      <title>Acorn Phoebe</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20093</link>
-      <description>
-        <![CDATA[<p>Ref Phoebe has anyone seen one working?</p>
-        <p>It seems to have had 4Mb of <span class="caps">VRAM</span>.</p>
-        <p>Plus main <span class="caps">RAM</span> up from Rpc of 512Mb to max of 1024M.</p>]]>
-      </description>
-      <source:markdown>Ref Phoebe has anyone seen one working?
-
-It seems to have had 4Mb of VRAM.
-
-Plus main RAM up from Rpc of 512Mb to max of 1024M.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20093:159577</guid>
     </item>    <item>
       <title>WROCC November 2025 talk on Wednesday - Martin Avison</title>
       <link>http://www.iconbar.com/comments/rss/news2243.html</link>
