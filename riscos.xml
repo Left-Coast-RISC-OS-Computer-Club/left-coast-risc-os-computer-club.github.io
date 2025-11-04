@@ -7,10 +7,61 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>04 Nov 25 07:00 -0800</lastBuildDate>
+    <lastBuildDate>04 Nov 25 11:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Contacting members</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20096</link>
+      <description>
+        <![CDATA[<p>Is there anyway for people behind the scenes to contact members?</p>
+        <p>Like William about his <span class="caps">ADFS</span> <span class="caps">USB</span> floppy driver.</p>]]>
+      </description>
+      <source:markdown>Is there anyway for people behind the scenes to contact members?
+
+Like William about his ADFSUSB floppy driver.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20096:159599</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469168#p469168</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469168#p469168</guid>
+    </item>    <item>
+      <title>software preservation • Re: The people rescuing forgotten knowledge trapped on old floppy disks</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469167#p469167</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469167#p469167</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469166#p469166</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469166#p469166</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469165#p469165</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469165#p469165</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469164#p469164</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469164#p469164</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469163#p469163</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469163#p469163</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469162#p469162</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469162#p469162</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469161#p469161</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469161#p469161</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469160#p469160</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469160#p469160</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469159#p469159</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469159#p469159</guid>
+    </item>    <item>
       <title>8-bit acorn software: other • Re: MMFS ROM Options Advice</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469147#p469147</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469147#p469147</guid>
@@ -359,10 +410,10 @@ Plus main RAM up from Rpc of 512Mb to max of 1024M.</source:markdown>
       <title>risc pc alpha 1 file transfer</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20092</link>
       <description>
-        <![CDATA[<p>@Paolo PCexchange was (I think) a clipboard sharing program for the Windows clipboard back/forth to <span class="caps">RISC</span> OS.  Kind of like UniPrint does these days.  <span class="caps">IIRC</span> it was quite decent, but sometimes a bit hit&#8217;n&#8217;miss.</p>]]>
+        <![CDATA[<p>The Drivers you need and app are all part of the 3.07 Package of !Pc which is here <a href="http://arcarc.nl/archive/Apps/P/PC/">PC3.07</a> &#8211; in this version is an app called !MakeBootDisc which will get you up and running, will display a menu and ask if you want to boot 95 or 98 CD</p>]]>
       </description>
-      <source:markdown>@Paolo PCexchange was (I think) a clipboard sharing program for the Windows clipboard back/forth to RISC OS. Kind of like UniPrint does these days. IIRC it was quite decent, but sometimes a bit hit’n’miss.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20092:159574</guid>
+      <source:markdown>The Drivers you need and app are all part of the 3.07 Package of !Pc which is here [PC3.07](http://arcarc.nl/archive/Apps/P/PC/) – in this version is an app called !MakeBootDisc which will get you up and running, will display a menu and ask if you want to boot 95 or 98 CD</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20092:159575</guid>
     </item>    <item>
       <title>8-bit acorn software: other • Re: Instant mini-challenge: 10 PRINT maze in Mode 7</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469007#p469007</link>
