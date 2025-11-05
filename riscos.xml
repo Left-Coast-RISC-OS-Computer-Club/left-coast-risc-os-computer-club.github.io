@@ -7,10 +7,58 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>05 Nov 25 07:00 -0800</lastBuildDate>
+    <lastBuildDate>05 Nov 25 11:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Four - Transistor&#39;s Revenge</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469245#p469245</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469245#p469245</guid>
+    </item>    <item>
+      <title>software &#38;amp; utilities for the pc, mac or unix • Re: Disc Image Manager</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469244#p469244</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469244#p469244</guid>
+    </item>    <item>
+      <title>software &#38;amp; utilities for the pc, mac or unix • Re: Disc Image Manager</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469243#p469243</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469243#p469243</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Repair advice, A3000 dimming picture, 5v spade connector dry joint?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469242#p469242</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469242#p469242</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Repair advice, A3000 dimming picture, 5v spade connector dry joint?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469241#p469241</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469241#p469241</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Microdigital Omega Repair</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469240#p469240</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469240#p469240</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Repair advice, A3000 dimming picture, 5v spade connector dry joint?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469239#p469239</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469239#p469239</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Repair advice, A3000 dimming picture, 5v spade connector dry joint?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469238#p469238</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469238#p469238</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Repair advice, A3000 dimming picture, 5v spade connector dry joint?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469237#p469237</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469237#p469237</guid>
+    </item>    <item>
+      <title>ToolboxC++Lib Discussion</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
+      <description>
+        <![CDATA[<p>Uploaded another example to GitHub, !CodeTemplate, however, the code was generated purely by !Prototype, which has also been uploaded into a Tools directory. !Prototype currently generates main and a class which extends ToolboxTask which is in ToolboxC++Lib, the rest is left to the end user. !Prototype is very rough and ready, needs some polishing but it does the job.</p>]]>
+      </description>
+      <source:markdown>Uploaded another example to GitHub, !CodeTemplate, however, the code was generated purely by !Prototype, which has also been uploaded into a Tools directory. !Prototype currently generates main and a class which extends ToolboxTask which is in ToolboxC++Lib, the rest is left to the end user. !Prototype is very rough and ready, needs some polishing but it does the job.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19910:159619</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Master Compact MOS 5.x ADVAL for custom A/D and joystick hardware</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469236#p469236</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469236#p469236</guid>
+    </item>    <item>
       <title>software &#38;amp; utilities for the pc, mac or unix • Re: Disc Image Manager</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469231#p469231</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469231#p469231</guid>
@@ -98,6 +146,19 @@ The Impression User Manual is still available in printed form and can be downloa
       <title>8-bit acorn hardware • Re: Master Compact MOS 5.x ADVAL for custom A/D and joystick hardware</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469187#p469187</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469187#p469187</guid>
+    </item>    <item>
+      <title>SerialUSB 0.17</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20088</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Do you have a <span class="caps">USB</span> audio device?</p>
+        </blockquote>
+        <p>Several.</p>]]>
+      </description>
+      <source:markdown>&#62; Do you have a USB audio device?
+
+Several.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20088:159606</guid>
     </item>    <item>
       <title>off-topic • Re: Measuring Resistance</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469186#p469186</link>
@@ -238,6 +299,17 @@ I’ve just added a long-planned feature: “StrongTabs” seps mode – which i
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469141#p469141</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469141#p469141</guid>
     </item>    <item>
+      <title>RPCEmu NAT fail.</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20095</link>
+      <description>
+        <![CDATA[<p>It&#8217;s possible something is relying on strict word alignment (or, for emulation, not emulating rotated loads properly), as from a skim read of what changed between 09-Oct-2025 and 02-Nov-2025 the only <span class="caps">IOMD</span> notable event was <a href="https://gitlab.riscosopen.org/RiscOS/Library/-/commit/83437785534a089ba1e3a22294cfd0ffe256ba12">restoring the previous compiler flags</a> which got accidentally lost when the <span class="caps">IOMD</span> <span class="caps">ROM</span> changed from &#8216;32&#8217; to &#8216;<span class="caps">IOMD</span>&#8217; machine types.</p>
+        <p>You could test that theory by editing the <span class="caps">APCS</span>-32 ToolOptions to either delete the <span class="caps">IOMD</span> line or change <code>-memaccess -L22-S22-L41</code> which looks like what would have been in force had they not been set.</p>]]>
+      </description>
+      <source:markdown>It’s possible something is relying on strict word alignment (or, for emulation, not emulating rotated loads properly), as from a skim read of what changed between 09-Oct-2025 and 02-Nov-2025 the only IOMD notable event was [restoring the previous compiler flags](https://gitlab.riscosopen.org/RiscOS/Library/-/commit/83437785534a089ba1e3a22294cfd0ffe256ba12) which got accidentally lost when the IOMDROM changed from ‘32’ to ‘IOMD’ machine types.
+
+You could test that theory by editing the APCS-32 ToolOptions to either delete the IOMD line or change `-memaccess -L22-S22-L41` which looks like what would have been in force had they not been set.</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20095:159597</guid>
+    </item>    <item>
       <title>8-bit acorn software: other • Re: MMFS ROM Options Advice</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469140#p469140</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469140#p469140</guid>
@@ -249,61 +321,6 @@ I’ve just added a long-planned feature: “StrongTabs” seps mode – which i
       <title>8-bit acorn emulators • Re: B-Em Tape Overhaul v4.3</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469138#p469138</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469138#p469138</guid>
-    </item>    <item>
-      <title>RPCEmu NAT fail.</title>
-      <link>https://www.riscosopen.org/forum/forums/10/topics/20095</link>
-      <description>
-        <![CDATA[<p>Is anyone else finding that RPCEmu&#8217;s <span class="caps">NAT</span> networking fails to start with the current daily beta <span class="caps">ROM</span> 02Nov25?</p>
-        <p>With a manual IP configured the error is &#8220;unrecoverable error ip_init&#8221;. <span class="caps">DHCP</span> stalls, pressing escape shows &#8220;interface lo0 does not exist&#8221;.</p>
-        <p>This happens on Ubuntu 22.04.2 with both with RPCEmu 0.9.5 and 0.9.99 (Multi machine <span class="caps">GUI</span>) and on macOS Sequoia with RPCEmu 0.9.4.</p>
-        <p>A <span class="caps">ROM</span> dated 09Oct25 is good.</p>
-        <p>There is no such problem on the Pi.</p>
-        <p>It is not DDE32a as a build with DDE31f also failed. A rebuild of EtherRPCEm with DDE32a did not help. Both the compiler and interpreter builds are affected.</p>]]>
-      </description>
-      <source:markdown>Is anyone else finding that RPCEmu’s NAT networking fails to start with the current daily beta ROM 02Nov25?
-
-With a manual IP configured the error is “unrecoverable error ip\_init”. DHCP stalls, pressing escape shows “interface lo0 does not exist”.
-
-This happens on Ubuntu 22.04.2 with both with RPCEmu 0.9.5 and 0.9.99 (Multi machine GUI) and on macOS Sequoia with RPCEmu 0.9.4.
-
-A ROM dated 09Oct25 is good.
-
-There is no such problem on the Pi.
-
-It is not DDE32a as a build with DDE31f also failed. A rebuild of EtherRPCEm with DDE32a did not help. Both the compiler and interpreter builds are affected.</source:markdown>
-      <guid>cid://www.riscosopen.org:10:20095:159594</guid>
-    </item>    <item>
-      <title>SerialUSB 0.17</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20088</link>
-      <description>
-        <![CDATA[<p>@Dave<br />
-        Do you have a <span class="caps">USB</span> audio device?<br />
-        IsocUSB modules are necessary and work very well.(Thanks Colin)<br />
-        To listen to an audio file (wav ot Mp3) with your device! IsocPlayer is very good.<br />
-        If you want to record ProSound can work.<br />
-        You can also test your device with ModulMeter and USBWavRec available here:<br />
-        <a href="http://jeanmichelb.riscos.fr/Audio/AudioJimLesurf.html">http://jeanmichelb.riscos.fr/Audio/AudioJimLesurf.html</a><br />
-        As it concerns audio streams, Colin&#8217;s modules are essential, and you need a device :-)<br />
-        If you&#8217;re having trouble with ProSound, I can help.</p>]]>
-      </description>
-      <source:markdown>@Dave
-
-Do you have a USB audio device?
-
-IsocUSB modules are necessary and work very well.(Thanks Colin)
-
-To listen to an audio file (wav ot Mp3) with your device! IsocPlayer is very good.
-
-If you want to record ProSound can work.
-
-You can also test your device with ModulMeter and USBWavRec available here:
-
-[http://jeanmichelb.riscos.fr/Audio/AudioJimLesurf.html](http://jeanmichelb.riscos.fr/Audio/AudioJimLesurf.html)
-
-As it concerns audio streams, Colin’s modules are essential, and you need a device :-)
-
-If you’re having trouble with ProSound, I can help.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20088:159591</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3m4rd35twxc2r</link>
       <description>
@@ -1044,19 +1061,6 @@ I also made some additional content, not yet included in this Happy Hacker serie
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m4j7ybavy22m</guid>
-    </item>    <item>
-      <title>ToolboxC++Lib Discussion</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>It also says it’s RogueWave C++ libraries – where’d you see the apache reference?]</p>
-        </blockquote>
-        <p><a href="https://lists.apache.org/thread/yl8p36x997bwq3510byl910s30y52pcs">https://lists.apache.org/thread/yl8p36x997bwq3510byl91…</a></p>]]>
-      </description>
-      <source:markdown>&#62; It also says it’s RogueWave C++ libraries – where’d you see the apache reference?\]
-
-[https://lists.apache.org/thread/yl8p36x997bwq3510byl91…](https://lists.apache.org/thread/yl8p36x997bwq3510byl910s30y52pcs)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19910:159487</guid>
     </item>    <item>
       <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3m4j5bxyvhs2n</link>
       <description>
