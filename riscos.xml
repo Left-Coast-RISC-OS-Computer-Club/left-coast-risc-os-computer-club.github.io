@@ -7,10 +7,95 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>06 Nov 25 07:00 -0800</lastBuildDate>
+    <lastBuildDate>06 Nov 25 11:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>RISCOSBITS New Stacker!</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20101</link>
+      <description>
+        <![CDATA[<p>So, over the summer I decided to pick up another Pi-based <span class="caps">RISC</span> OS machine — as if I don’t already have enough of them! One that caught my attention was the <span class="caps">DIY</span> kit range from RISCOSbits. Back then, they offered three or four versions, and I went for the top-end model: the <span class="caps">DIY</span> 3 Kit.</p>
+        <p>It came as a neat little wooden stackable unit and included a CM4 IO Board with a 2GHz <span class="caps">CPU</span>, 4GB <span class="caps">RAM</span>, and a 256GB NVMe, all pre-installed and ready to go. All I had to do was assemble it, which turned out to be both easy and genuinely fun.</p>
+        <p>I’ve been using this compact machine for a few months now, and just before the London Show this year, RISCOSbits announced a new add-on called the <span class="caps">STACKER</span>. Naturally, I was curious — what is it?</p>
+        <p>Well, it’s another <span class="caps">DIY</span> module designed to stack neatly on top of the existing <span class="caps">DIY</span> 3 Kit, giving it that nostalgic Risc PC-style modular look (which I love). But the real twist is that the <span class="caps">STACKER</span> brings the CM5 Pi 5 into play, complete with Linux support cleverly linked through the CM4.</p>
+        <p><b>Here’s the process of building the <span class="caps">STACKER</span> :)</b><br />
+        <img src="https://images2.imgbox.com/1d/ac/aWBQ6bXv_o.jpeg" alt="" /><br />
+        <img src="https://images2.imgbox.com/06/4f/aT4hzdSs_o.jpeg" alt="" /><br />
+        <img src="https://images2.imgbox.com/bd/a0/WIthMMRE_o.jpeg" alt="" /><br />
+        <img src="https://images2.imgbox.com/18/da/xb43SFa0_o.jpeg" alt="" /></p>
+        <p><b>Had lots of fun putting this together and when i switched it on and launched the desktop linux app it instantly fired up</b><br />
+        <b>the linux side without any configuring or hassle. Browsing and watching youtube is seamless!</b><br />
+        <img src="https://images2.imgbox.com/8d/55/9V6JsrVY_o.jpeg" alt="" /></p>]]>
+      </description>
+      <source:markdown>So, over the summer I decided to pick up another Pi-based RISC OS machine — as if I don’t already have enough of them! One that caught my attention was the DIY kit range from RISCOSbits. Back then, they offered three or four versions, and I went for the top-end model: the DIY 3 Kit.
+
+It came as a neat little wooden stackable unit and included a CM4 IO Board with a 2GHz CPU, 4GB RAM, and a 256GB NVMe, all pre-installed and ready to go. All I had to do was assemble it, which turned out to be both easy and genuinely fun.
+
+I’ve been using this compact machine for a few months now, and just before the London Show this year, RISCOSbits announced a new add-on called the STACKER. Naturally, I was curious — what is it?
+
+Well, it’s another DIY module designed to stack neatly on top of the existing DIY 3 Kit, giving it that nostalgic Risc PC-style modular look (which I love). But the real twist is that the STACKER brings the CM5 Pi 5 into play, complete with Linux support cleverly linked through the CM4.
+
+**Here’s the process of building the STACKER :)**
+
+![](https://images2.imgbox.com/1d/ac/aWBQ6bXv_o.jpeg)
+
+![](https://images2.imgbox.com/06/4f/aT4hzdSs_o.jpeg)
+
+![](https://images2.imgbox.com/bd/a0/WIthMMRE_o.jpeg)
+
+![](https://images2.imgbox.com/18/da/xb43SFa0_o.jpeg)
+
+**Had lots of fun putting this together and when i switched it on and launched the desktop linux app it instantly fired up**
+
+**the linux side without any configuring or hassle. Browsing and watching youtube is seamless!**
+
+![](https://images2.imgbox.com/8d/55/9V6JsrVY_o.jpeg)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20101:159638</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: Clock Signal now also emulates the Model B.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469301#p469301</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469301#p469301</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: (mis)adventures with a Basic tak benchmark</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469300#p469300</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469300#p469300</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: Clock Signal now also emulates the Model B.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469299#p469299</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469299#p469299</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Sanity Check of TAK in ARM1 Assembler</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469298#p469298</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469298#p469298</guid>
+    </item>    <item>
+      <title>scanning of books, magazines, ads and letters • Re: Viglen Winchester - User Guide &#38;amp; Utilities Disc</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469297#p469297</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469297#p469297</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: (mis)adventures with a Basic tak benchmark</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469296#p469296</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469296#p469296</guid>
+    </item>    <item>
+      <title>general • Re: Today I received.....</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469295#p469295</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469295#p469295</guid>
+    </item>    <item>
+      <title>RO 5.30 Upgrade</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20100</link>
+      <description>
+        <![CDATA[<p>Using a Pi, with items on existing RO 5.27 card. What options do I have to move items from the 5.27 card to a new 5.30 card?  <span class="caps">TIA</span></p>]]>
+      </description>
+      <source:markdown>Using a Pi, with items on existing RO 5.27 card. What options do I have to move items from the 5.27 card to a new 5.30 card? TIA</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20100:159634</guid>
+    </item>    <item>
+      <title>general • Re: Today I received.....</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469294#p469294</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469294#p469294</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Four - Transistor&#39;s Revenge</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469293#p469293</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469293#p469293</guid>
+    </item>    <item>
       <title>general • Re: Today I received.....</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469292#p469292</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469292#p469292</guid>
@@ -168,6 +253,30 @@ Just installed it here in place of 7.06, and it appears to be working fine. Both
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469236#p469236</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469236#p469236</guid>
     </item>    <item>
+      <title>Compute Module 4 supported?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19993</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Have you tried CPUClock?</p>
+        </blockquote>
+        <p>CPUClock is working just fine here. I have the fan set to come on at 54C. with a 4C. differential, which seems to strike a reasonable balance between operating temp and fan use: the fan is on about a quarter of the time. <br />
+        <span class="caps">EDIT</span>: my machine is clocked at 2200MHz.</p>
+        <blockquote>
+        <p>I also use a CM4 From Riscosbits super machine!</p>
+        </blockquote>
+        <p>Me too, and seconded!</p>]]>
+      </description>
+      <source:markdown>&#62; Have you tried CPUClock?
+
+CPUClock is working just fine here. I have the fan set to come on at 54C. with a 4C. differential, which seems to strike a reasonable balance between operating temp and fan use: the fan is on about a quarter of the time.
+
+EDIT: my machine is clocked at 2200MHz.
+
+&#62; I also use a CM4 From Riscosbits super machine!
+
+Me too, and seconded!</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19993:159618</guid>
+    </item>    <item>
       <title>software &#38;amp; utilities for the pc, mac or unix • Re: Disc Image Manager</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469231#p469231</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469231#p469231</guid>
@@ -190,6 +299,20 @@ Just installed it here in place of 7.06, and it appears to be working fine. Both
       </description>
       <source:markdown>VCR tape copying virus! Hilarious. I should have implemented a similar thing in my BBC Micro game protection systems.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m4v7wkcc6k27</guid>
+    </item>    <item>
+      <title>Sites blocking all but mainstream browsers</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20099</link>
+      <description>
+        <![CDATA[<p>Just tried going to ebay website from the Iris Homepage and got in no problem.</p>
+        <p>Try changing your Iris browser &#8216;user agent&#8217;. I tend to use a custom one nowadays: <br />
+        Mozilla/5.0 (compatible; Firefox/96.0; <span class="caps">RISC</span> OS 5.31)</p>]]>
+      </description>
+      <source:markdown>Just tried going to ebay website from the Iris Homepage and got in no problem.
+
+Try changing your Iris browser ‘user agent’. I tend to use a custom one nowadays:
+
+Mozilla/5.0 (compatible; Firefox/96.0; RISC OS 5.31)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20099:159615</guid>
     </item>    <item>
       <title>RPCEmu NAT fail.</title>
       <link>https://www.riscosopen.org/forum/forums/10/topics/20095</link>
@@ -224,14 +347,6 @@ As a next stage experiment I built [this test ROM](https://www.sprow.co.uk/iomdm
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469223#p469223</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469223#p469223</guid>
     </item>    <item>
-      <title>Sites blocking all but mainstream browsers</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20099</link>
-      <description>
-        <![CDATA[<p>There seems to be an increasing tendency for sites &#8211; eBay being the latest example &#8211; to block all browsers apart from mainstream ones such as Chrome and Safari. I tried logging into eBay (to set up a sale) with both Iris and Firefox (on a Windows laptop) and in both cases was submitted to the dreaded Captcha &#8216;are you human&#8217; test images, and my &#8211; correct &#8211; choices did not succeed in unblocking the site. Google Chrome on the same laptop gained instant access, without the &#8216;bot&#8217; check. The browser experience on Chrome is much inferior to Firefox and Iris &#8211; you are presented with a plethora of sites bearing only passing resemblance to the Search entry, all of which presumably have paid for search priority. It&#8217;s all rather depressing.</p>]]>
-      </description>
-      <source:markdown>There seems to be an increasing tendency for sites – eBay being the latest example – to block all browsers apart from mainstream ones such as Chrome and Safari. I tried logging into eBay (to set up a sale) with both Iris and Firefox (on a Windows laptop) and in both cases was submitted to the dreaded Captcha ‘are you human’ test images, and my – correct – choices did not succeed in unblocking the site. Google Chrome on the same laptop gained instant access, without the ‘bot’ check. The browser experience on Chrome is much inferior to Firefox and Iris – you are presented with a plethora of sites bearing only passing resemblance to the Search entry, all of which presumably have paid for search priority. It’s all rather depressing.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20099:159612</guid>
-    </item>    <item>
       <title>Introduce Yourself • Re: Hello from Aberdeenshire, Scotland</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469222#p469222</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469222#p469222</guid>
@@ -264,14 +379,6 @@ Now included with the application ‘!RingBind’ is an 8-page article explainin
 
 The Impression User Manual is still available in printed form and can be downloaded as PDF or RingBind from my web site and from !Store.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20098:159611</guid>
-    </item>    <item>
-      <title>Compute Module 4 supported?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19993</link>
-      <description>
-        <![CDATA[<p>I also use a CM4 From Riscosbits super machine!</p>]]>
-      </description>
-      <source:markdown>I also use a CM4 From Riscosbits super machine!</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19993:159610</guid>
     </item>    <item>
       <title>SerialUSB 0.17</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20088</link>
