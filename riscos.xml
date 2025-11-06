@@ -7,10 +7,57 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>05 Nov 25 15:00 -0800</lastBuildDate>
+    <lastBuildDate>06 Nov 25 07:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>general • Re: Today I received.....</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469292#p469292</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469292#p469292</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Four - Transistor&#39;s Revenge</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469291#p469291</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469291#p469291</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Instant mini-challenge: 10 PRINT maze in Mode 7</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469290#p469290</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469290#p469290</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: ABUG Dev night #102, Thursday 6 November 2025, 19:30 GMT</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469289#p469289</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469289#p469289</guid>
+    </item>    <item>
+      <title>software &#38;amp; utilities for the pc, mac or unix • Re: Disc Image Manager</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469288#p469288</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469288#p469288</guid>
+    </item>    <item>
+      <title>software &#38;amp; utilities for the pc, mac or unix • Re: Disc Image Manager</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469287#p469287</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469287#p469287</guid>
+    </item>    <item>
+      <title>RPCEmu Support and Development • Re: Pubilc Beta Test - Multi Machine UI</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469286#p469286</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469286#p469286</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Instant mini-challenge: 10 PRINT maze in Mode 7</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469285#p469285</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469285#p469285</guid>
+    </item>    <item>
+      <title>software &#38;amp; utilities for the pc, mac or unix • Re: Disc Image Manager</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469283#p469283</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469283#p469283</guid>
+    </item>    <item>
+      <title>RPCEmu Support and Development • Re: Pubilc Beta Test - Multi Machine UI</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469282#p469282</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469282#p469282</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m4x7bfxacs2h</link>
+      <description>
+        <![CDATA[Managed to Harry Potter myself on the corner of a kitchen cabinet this morning ⚡️]]>
+      </description>
+      <source:markdown>Managed to Harry Potter myself on the corner of a kitchen cabinet this morning ⚡️</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m4x7bfxacs2h</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Beeb PSU R26 replacement</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469264#p469264</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469264#p469264</guid>
@@ -221,10 +268,30 @@ The Impression User Manual is still available in printed form and can be downloa
       <title>Compute Module 4 supported?</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/19993</link>
       <description>
-        <![CDATA[<p>I am very impressed with my CM4,Waveshare Board and NVMe drive.  I opted for the A board, Waveshare box and 4 wire fan.  At the moment the fan is always on although I can switch it off via the <span class="caps">GPIO</span>. Any ideas how I can get the <span class="caps">CPU</span> temperature so that I can set high and low temperatures levels to switch the fan on/off.</p>]]>
+        <![CDATA[<p>I also use a CM4 From Riscosbits super machine!</p>]]>
       </description>
-      <source:markdown>I am very impressed with my CM4,Waveshare Board and NVMe drive. I opted for the A board, Waveshare box and 4 wire fan. At the moment the fan is always on although I can switch it off via the GPIO. Any ideas how I can get the CPU temperature so that I can set high and low temperatures levels to switch the fan on/off.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19993:159607</guid>
+      <source:markdown>I also use a CM4 From Riscosbits super machine!</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19993:159610</guid>
+    </item>    <item>
+      <title>SerialUSB 0.17</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20088</link>
+      <description>
+        <![CDATA[<p>@Dave <br />
+        It would be nice if you find time to test ProSound.<br />
+        I hope my English explanations aren&#8217;t too bad.<br />
+        The goal would be to create a list of devices tested and which could therefore be automatically detected by ProSound.</p>
+        <p>A good thing to collect are <span class="caps">USB</span> descriptors.</p>]]>
+      </description>
+      <source:markdown>@Dave
+
+It would be nice if you find time to test ProSound.
+
+I hope my English explanations aren’t too bad.
+
+The goal would be to create a list of devices tested and which could therefore be automatically detected by ProSound.
+
+A good thing to collect are USB descriptors.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20088:159609</guid>
     </item>    <item>
       <title>software preservation • Re: The people rescuing forgotten knowledge trapped on old floppy disks</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469188#p469188</link>
@@ -233,19 +300,6 @@ The Impression User Manual is still available in printed form and can be downloa
       <title>8-bit acorn hardware • Re: Master Compact MOS 5.x ADVAL for custom A/D and joystick hardware</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469187#p469187</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469187#p469187</guid>
-    </item>    <item>
-      <title>SerialUSB 0.17</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20088</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Do you have a <span class="caps">USB</span> audio device?</p>
-        </blockquote>
-        <p>Several.</p>]]>
-      </description>
-      <source:markdown>&#62; Do you have a USB audio device?
-
-Several.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20088:159606</guid>
     </item>    <item>
       <title>off-topic • Re: Measuring Resistance</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469186#p469186</link>
