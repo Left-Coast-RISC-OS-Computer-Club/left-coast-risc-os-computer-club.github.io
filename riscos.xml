@@ -7,10 +7,611 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>06 Nov 25 11:00 -0800</lastBuildDate>
+    <lastBuildDate>06 Nov 25 15:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>32-bit acorn hardware • Re: EtherWiz - a new fully opensource Ethernet podule</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469321#p469321</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469321#p469321</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A7000 no video output</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469320#p469320</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469320#p469320</guid>
+    </item>    <item>
+      <title>off-topic • Re: Scope for a dope?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469319#p469319</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469319#p469319</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3010 with RAM Control Line Failure</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469318#p469318</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469318#p469318</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Reprint of &#38;quot;Networking with the BBC Microcomputer&#38;quot; by Rob Napier</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469317#p469317</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469317#p469317</guid>
+    </item>    <item>
+      <title>general • Re: Interesting YouTube videos</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469316#p469316</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469316#p469316</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3010 with RAM Control Line Failure</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469315#p469315</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469315#p469315</guid>
+    </item>    <item>
+      <title>BBC BASIC - Simple OOP Extensions</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20102</link>
+      <description>
+        <![CDATA[<p>I have always thought that <span class="caps">BBC</span> <span class="caps">BASIC</span> needed records.</p>
+        <p>RTR&#8217;s BASICs have Structures, but the syntax doesn&#8217;t really feel native to <span class="caps">BBC</span> <span class="caps">BASIC</span>.</p>
+        <p>I have been a fan of Wirth&#8217;s Oberon with type extension of records as it is a clean simple concept.</p>
+        <p>Most OO languages go off into the weeds with very complex and subtle features that are not really needed for 99% of programs.</p>
+        <p>I have outlined a possible syntax/semantics for a simplified <span class="caps">OOP</span> style record structure description below.</p>
+        <p>Let me know what you think.</p>
+        <p><span class="caps">OUTLINE</span> OF <span class="caps">CONCEPT</span>:</p>
+        <p>&#8212; Defininng a record type</p>
+        <p>&#8212; No Args (fixed size)</p>
+        <p><span class="caps">DEF</span> RECmyrec<br />
+        		A%	&#8212;	Integer field<br />
+        		B	&#8212;	Floating field<br />
+        		C$	&#8212;	String field	<br />
+        		D@	&#8212;	Pointer field (any RECxxx) initial value <span class="caps">NULL</span><br />
+        		<span class="caps">DIM</span> E% 1024	&#8212;	Raw byte block field 1kB inline in record, use with indirection operators<br />
+        		<span class="caps">DIM</span> F%(9)	&#8212;	Array of 10 ints<br />
+        		<span class="caps">DIM</span> G(9)	&#8212;	Array of 10 floats<br />
+        		<span class="caps">DIM</span> H$(9)	&#8212;	Array of 10 strings<br />
+        		<span class="caps">DIM</span> I@(9)	&#8212;	Array of 10 pointer to record initial value <span class="caps">NULL</span></p>
+        <p><span class="caps">ENDREC</span></p>
+        <p>&#8212; With Args (variable size and initial values)</p>
+        <p><span class="caps">DEF</span> RECmyvarrec(n$,m%,blocksize%)</p>
+        <p>name$ = n$		&#8212;  Initialise value<br />
+        		<span class="caps">DIM</span> list$(m%)	&#8212;	n+1 strings &#8211; record contains a pointer to the array<br />
+        		<span class="caps">DIM</span> block% blocksize%*2+38	&#8212;	can do calculations; specifies number of bytes, numbered 0 to result-1</p>
+        <p><span class="caps">ENDREC</span></p>
+        <p></p>
+        <p>&#8212; Global or Private</p>
+        <p>R@ = RECmyrec 	&#8212; Globals use the heap (I would prefer if the language had <span class="caps">GLOBAL</span> to specify global varsfor symmetry/clarity)<br />
+        			&#8212; this version of the creation syntax does not make it obvious that allocation is taking place here</p>
+        <p><span class="caps">GLOBAL</span> R@ = RECmyrec  &#8212; Like this.</p>
+        <p>R@ = <span class="caps">NEW</span> RECobject   <del>- alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.<br />
+        			 -</del> prefer this</p>
+        <p><span class="caps">PRIVATE</span> T@ = <span class="caps">NEW</span> RECmyrec	&#8212;	PRIVATEs use the heap. Same as <span class="caps">PRIVATE</span> in <span class="caps">RTR</span> <span class="caps">BBC</span> <span class="caps">BASIC</span></p>
+        <p><span class="caps">STATIC</span> &#8212; used for &#8220;class variables/methods&#8221; see below</p>
+        <p>&#8212; I prefer the use of <span class="caps">NEW</span> rather than <span class="caps">DIM</span> because <span class="caps">DIM</span> is already used for Arrays and Structures</p>
+        <p>&#8212; Stack (<span class="caps">LOCAL</span> vars)</p>
+        <p><span class="caps">LOCAL</span> S@ = <span class="caps">NEW</span> RECmyvarrec(&#8220;Bob&#8221;,9,256)	&#8212; Locals also use the heap because we will often export the reference from the scope expecting the record to persist.</p>
+        <p><del>- When <span class="caps">LOCAL</span> pointer variable goes out of scope, the pointer on the stack is deleted, but the record (on heap) remains and may cause memory leaks, <br />
+        	-</del> <span class="caps">CLEANUP</span> should be used periodically.</p>
+        <p><del>- If it is known that the record is no longer needed, it should be deleted before it goes out of scope.<br />
+        	-</del> The interpreter could detect escaping references and delete those that don&#8217;t, this can be complex with subtle errors, so manual or GC is easier.<br />
+        	&#8212;  Alternatively use Reference Counting (simpler, but risks memory leaks)</p>
+        <p></p>
+        <p>&#8212; Delete Records and Release Heap Memory (manual GC)</p>
+        <p><span class="caps">DEL</span> p@	&#8212;	frees the storage fields (strings, arrays, blocks) then frees the record, does <span class="caps">NOT</span> follow pointer fields.</p>
+        <p><span class="caps">CLEANUP</span>	&#8212; executed outside any <span class="caps">PROC</span> or FN, marks all records reachable via global and private pointer variables then sweeps unmarked heap, does <span class="caps">NOT</span> follow pointers stored in Raw byte data blocks.</p>
+        <p>&#8212;			Method:<br />
+        	&#8212;				Add all global &amp; static pointers to the keep queue<br />
+        	&#8212;				While keep queue not empty<br />
+        	&#8212;					Pull the next pointer from the keep queue as current record<br />
+        	&#8212;					If current record not marked<br />
+        	&#8212;						Add all pointers to records to the keep queue<br />
+        	&#8212;						Mark current record for retention<br />
+        	&#8212;				Sweep the record heap freeing all unmarked records using the <span class="caps">DEL</span> operation above.</p>
+        <p><span class="caps">DELREC</span> q@ &#8212; as <span class="caps">DEL</span> above, <span class="caps">BUT</span> it also follows pointer chains deleting all linked records, does <span class="caps">NOT</span> follow pointers stored in Raw byte data blocks.</p>
+        <p>&#8212;			Method:<br />
+        	&#8212;				Add q@ to the delete queue<br />
+        	&#8212;				While delete queue not empty<br />
+        	&#8212;					Pull the next pointer from the delete queue as current record<br />
+        	&#8212;					If current record not marked<br />
+        	&#8212;						Add all pointers to the delete queue<br />
+        	&#8212;						Free all the storage fields<br />
+        	&#8212;						Mark current record for deletion<br />
+        	&#8212;				Sweep the record heap freeing all marked records</p>
+        <p>&#8212; Access to fields</p>
+        <p>&#8212; The field access operator is . followed by the name of a field.</p>
+        <p>name$ = P@.name$</p>
+        <p></p>
+        <p>&#8212; Procedure Fields / methods</p>
+        <p><span class="caps">DEF</span> RECobject</p>
+        <p>A%<br />
+        			B%</p>
+        <p><span class="caps">DEF</span> PROCmethod1(a%,b%) &#8212; <span class="caps">LOCAL</span> vars and params must not have the same name as a record field!<br />
+        				A%=a%-b%<br />
+        				B%=a%+b%<br />
+        			<span class="caps">ENDPROC</span></p>
+        <p><span class="caps">DEF</span> FNfunc1&#8230;.<br />
+        			<span class="caps">DEF</span> PROCmethod2&#8230;&#8230;</p>
+        <p><span class="caps">ENDREC</span></p>
+        <p>&#8212; Usage of procedure fields:</p>
+        <p>R@ = <span class="caps">NEW</span> RECobject   &#8212; alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.</p>
+        <p>R@.PROCmethod1(56,99)</p>
+        <p>q = R@.FNfunc1</p>
+        <p>&#8212; Record Extension and overrides</p>
+        <p><span class="caps">DEF</span> RECparent(args)</p>
+        <p>name$</p>
+        <p><span class="caps">DEF</span> PROCmethod1:<span class="caps">ENDPROC</span>  &#8212; an empty method, calling it does nothing, acts as a placeholder for later redefinition.</p>
+        <p><span class="caps">DEF</span> PROCmethod2(blah%)<br />
+        				&#8212; Some code here<br />
+        			<span class="caps">ENDPROC</span></p>
+        <p><span class="caps">DEF</span> PROCmethod3(blah%)<br />
+        				&#8212; Some other code here<br />
+        			<span class="caps">ENDPROC</span></p>
+        <p><span class="caps">DEF</span> PROCmethod4:<span class="caps">UNDEFINED</span>:<span class="caps">ENDPROC</span> &#8212; an undefined method placeholder, calling it throws an error, must redefine, like abstract in other languages.</p>
+        <p><span class="caps">ENDREC</span></p>
+        <p><span class="caps">DEF</span> RECchild1(args) <span class="caps">EXTEND</span> RECparent(arg exprs) &#8212; allows inherited fields to be initialised/dimensioned</p>
+        <p>address$	&#8212;	a new field</p>
+        <p><span class="caps">DEF</span> PROCmethod1	&#8212;	this overrides any method with the same name, implements something for method1.<br />
+        				&#8212; Do something<br />
+        			<span class="caps">ENDPROC</span></p>
+        <p>&#8212; PROCmethod2 is not defined here, so the one from the parent is inherited.</p>
+        <p><span class="caps">DEF</span> PROCmethod3(blah%)	&#8212;	overrides PROCmethod3<br />
+        				&#8212; Do this<br />
+        				<span class="caps">PARENT</span>.PROCmethod3(blah%+8)	&#8212;	here we call PROCmethod3 from the parent.<br />
+        				&#8212; Do That<br />
+        			<span class="caps">ENDPROC</span></p>
+        <p><span class="caps">DEF</span> PROCmethod4	&#8212;	this defines PROCmethod4 for the first time.<br />
+        				&#8212; Do something &#8212;	Calling <span class="caps">PARENT</span>.method4 here throws an error (default halt program)<br />
+        			<span class="caps">ENDPROC</span></p>
+        <p><span class="caps">ENDREC</span></p>
+        <p><span class="caps">PARENT</span> 	&#8212; passes control to an overridden method, that method may have been inherited through several levels of extension, it will activate the last<br />
+        			&#8212; matching definition.</p>
+        <p><span class="caps">THIS</span> &#8212; refers to the current object within a method, it is implied when accessing fields within methods.</p>
+        <p><span class="caps">TYPE</span>$ <del>- refers to the type of a record as a string e.g. &#8220;RECchild1&#8221;<br />
+        	<span class="caps">TYPE</span>  -</del> refers to the type of the record internal representation, can be used for type tests <br />
+        		  &#8212; eg <br />
+        				IF <span class="caps">THIS</span>.<span class="caps">TYPE</span> = RECchild1 <span class="caps">THEN</span> &#8230;</p>
+        <p>&#8212; <span class="caps">TYPE</span> and <span class="caps">TYPE</span>$ work on any pointer variable as well. to allow type comparisons (compare 2 pointers or pointer against <span class="caps">TYPE</span> value):</p>
+        <p>IF R@.<span class="caps">TYPE</span> = P@.<span class="caps">TYPE</span> &#8212; do they have the same dynamic type?</p>
+        <p>IF R@.<span class="caps">TYPE</span> &lt;&gt; RECsometype &#8212; R@ is <span class="caps">NOT</span> pointing to a RECsometype?</p>
+        <p>IF R@.<span class="caps">TYPE</span> &gt; P@.<span class="caps">TYPE</span> &#8212; is R@ pointing to a supertype of P@?</p>
+        <p>IF R@.<span class="caps">TYPE</span> &gt;= P@.<span class="caps">TYPE</span> &#8212; is R@ the same OR a supertype of P@?</p>
+        <p>IF R@.<span class="caps">TYPE</span> &lt; RECparent &#8212; is R@ a subtype of RECparent?</p>
+        <p>IF R@.<span class="caps">TYPE</span> &lt;= RECparent &#8212; is R@ the same as or a subtype of RECparent?</p>
+        <p>&#8212; Calling an undefined method is a fatal error and will halt the program.</p>
+        <p>&#8212; Fields are not redefined/overridden and must only be named once in an extension chain.</p>
+        <p>&#8212; There is no multiple inheritance, interfaces, generics as these are complex and hard to do correctly.</p>
+        <p></p>
+        <p>&#8212; Managing Namespace Pollution and example of &#8220;class&#8221; var/method</p>
+        <p><del>- If a program has a large number of record types with lots of internal fields and methods that the user of the record does not need to touch<br />
+        	-</del> the interface becomes a confusing mess.</p>
+        <p>&#8212; Most <span class="caps">OOP</span> languages allow marking fields and methods as private/public, etc</p>
+        <p><del>- I propose that for the <span class="caps">BASIC</span> extension above that all fields and methods are private by default and only<br />
+        	-</del> visible inside the <span class="caps">REC</span> structure and by any child <span class="caps">REC</span> that extends from it.</p>
+        <p><del>- To make things visible to the program at large, fields and methods are marked with an export mark &#8217;&lt;</del>&#8217;</p>
+        <p><span class="caps">DEF</span> RECobject</p>
+        <p>&lt;-	A%		&#8212; A% is visible to the whole program as MyPtr@.A%<br />
+        			B%		&#8212; B% is only visible to methods inside RECobject fatal error to attempt access outside.</p>
+        <p>&lt;-	<span class="caps">STATIC</span> C%	&#8212; this is global to all instances of RECobject</p>
+        <p>&lt;-	<span class="caps">DEF</span> PROCmethod1(a%,b%) &#8212; Can be called anywhere as MyPtr@.PROCmethod1(&#8230;)<br />
+        				A%=a%-b%<br />
+        				B%=a%+b%<br />
+        			<span class="caps">ENDPROC</span></p>
+        <p><span class="caps">DEF</span> FNfunc1		&#8212; Can be called inside PROCmethod1 or PROCmethod2 or FNfunc1 as <span class="caps">THIS</span>.FNfunc1(&#8230;) or <span class="caps">PARENT</span>.FNfunc1 (if inherited)<br />
+        				= C%</p>
+        <p>&lt;-	<span class="caps">DEF</span> PROCmethod2	&#8212; Can be called anywhere as MyPtr@.PROCmethod2(&#8230;)<br />
+        				A% = <span class="caps">THIS</span>.FNfunc1<br />
+        			<span class="caps">ENDPROC</span></p>
+        <p>&lt;-	<span class="caps">STATIC</span> <span class="caps">DEF</span> PROCdouble <del>- affects all instances, can be called without any live instance<br />
+        				C% = C% * 2   -</del> Can only manipulate <span class="caps">STATIC</span> fields and call <span class="caps">STATIC</span> methods/functions<br />
+        			<span class="caps">ENDPROC</span></p>
+        <p><span class="caps">ENDREC</span></p>
+        <p>&#8212; The exported <span class="caps">API</span> of this <span class="caps">REC</span> is:</p>
+        <p><span class="caps">DEF</span> RECobject</p>
+        <p>&lt;-	A%		&#8212; A% is visible to the whole program as MyPtr@.A%</p>
+        <p>&lt;-	<span class="caps">STATIC</span> C%	&#8212; this is global to all instances of RECobject</p>
+        <p>&lt;-	<span class="caps">DEF</span> PROCmethod1(a%,b%) &#8212; Can be called anywhere as MyPtr@.PROCmethod1(&#8230;)</p>
+        <p>&lt;-	<span class="caps">DEF</span> PROCmethod2	&#8212; Can be called anywhere as MyPtr@.PROCmethod2(&#8230;)</p>
+        <p>&lt;-	<span class="caps">STATIC</span> <span class="caps">DEF</span> PROCdouble &#8212; affects all instances, can be called without any live instance</p>
+        <p><span class="caps">ENDREC</span></p>
+        <p></p>
+        <p>&#8212; example usage outside the definition</p>
+        <p>RECobject.C% = 5  &#8212; set the class var C% to 5 for all RECobjects</p>
+        <p>R@ = <span class="caps">NEW</span> RECobject<br />
+        		R@.PROCmethod1(10,20)<br />
+        		<span class="caps">PRINT</span> R@.A%  &#8212; prints -10</p>
+        <p>R@.PROCmethod2 <br />
+        		<span class="caps">PRINT</span> R@.A%  <del>- prints 5<br />
+        		<span class="caps">DEL</span> R@       -</del> delete the record</p>
+        <p>RECobject.PROCdouble  &#8212; there are no live instances at this time</p>
+        <p>p@ = <span class="caps">NEW</span> RECobject<br />
+        		p@.PROCmethod1(100, 15)<br />
+        		<span class="caps">PRINT</span> p@.A%  &#8212; prints 85</p>
+        <p>p@.PROCmethod2 <br />
+        		<span class="caps">PRINT</span> p@.A%  <del>- prints 10, as C% was doubled by PROCdouble<br />
+        		<span class="caps">DEL</span> p@       -</del> delete the record</p>]]>
+      </description>
+      <source:markdown>I have always thought that BBCBASIC needed records.
+
+RTR’s BASICs have Structures, but the syntax doesn’t really feel native to BBCBASIC.
+
+I have been a fan of Wirth’s Oberon with type extension of records as it is a clean simple concept.
+
+Most OO languages go off into the weeds with very complex and subtle features that are not really needed for 99% of programs.
+
+I have outlined a possible syntax/semantics for a simplified OOP style record structure description below.
+
+Let me know what you think.
+
+OUTLINE OF CONCEPT:
+
+— Defininng a record type
+
+— No Args (fixed size)
+
+DEF RECmyrec
+
+A% — Integer field
+
+B — Floating field
+
+C$ — String field
+
+D@ — Pointer field (any RECxxx) initial value NULL
+
+DIM E% 1024 — Raw byte block field 1kB inline in record, use with indirection operators
+
+DIM F%(9) — Array of 10 ints
+
+DIM G(9) — Array of 10 floats
+
+DIM H$(9) — Array of 10 strings
+
+DIM I@(9) — Array of 10 pointer to record initial value NULL
+
+ENDREC
+
+— With Args (variable size and initial values)
+
+DEF RECmyvarrec(n$,m%,blocksize%)
+
+name$ = n$ — Initialise value
+
+DIM list$(m%) — n+1 strings – record contains a pointer to the array
+
+DIM block% blocksize%\*2+38 — can do calculations; specifies number of bytes, numbered 0 to result-1
+
+ENDREC
+
+— Global or Private
+
+R@ = RECmyrec — Globals use the heap (I would prefer if the language had GLOBAL to specify global varsfor symmetry/clarity)
+
+— this version of the creation syntax does not make it obvious that allocation is taking place here
+
+GLOBAL R@ = RECmyrec — Like this.
+
+R@ = NEW RECobject \- alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.
+
+ - prefer this
+
+PRIVATE T@ = NEW RECmyrec — PRIVATEs use the heap. Same as PRIVATE in RTRBBCBASIC
+
+STATIC — used for “class variables/methods” see below
+
+— I prefer the use of NEW rather than DIM because DIM is already used for Arrays and Structures
+
+— Stack (LOCAL vars)
+
+LOCAL S@ = NEW RECmyvarrec(“Bob”,9,256) — Locals also use the heap because we will often export the reference from the scope expecting the record to persist.
+
+\- When LOCAL pointer variable goes out of scope, the pointer on the stack is deleted, but the record (on heap) remains and may cause memory leaks,
+
+ -CLEANUP should be used periodically.
+
+\- If it is known that the record is no longer needed, it should be deleted before it goes out of scope.
+
+ - The interpreter could detect escaping references and delete those that don’t, this can be complex with subtle errors, so manual or GC is easier.
+
+— Alternatively use Reference Counting (simpler, but risks memory leaks)
+
+— Delete Records and Release Heap Memory (manual GC)
+
+DEL p@ — frees the storage fields (strings, arrays, blocks) then frees the record, does NOT follow pointer fields.
+
+CLEANUP — executed outside any PROC or FN, marks all records reachable via global and private pointer variables then sweeps unmarked heap, does NOT follow pointers stored in Raw byte data blocks.
+
+— Method:
+
+— Add all global &#38; static pointers to the keep queue
+
+— While keep queue not empty
+
+— Pull the next pointer from the keep queue as current record
+
+— If current record not marked
+
+— Add all pointers to records to the keep queue
+
+— Mark current record for retention
+
+— Sweep the record heap freeing all unmarked records using the DEL operation above.
+
+DELREC q@ — as DEL above, BUT it also follows pointer chains deleting all linked records, does NOT follow pointers stored in Raw byte data blocks.
+
+— Method:
+
+— Add q@ to the delete queue
+
+— While delete queue not empty
+
+— Pull the next pointer from the delete queue as current record
+
+— If current record not marked
+
+— Add all pointers to the delete queue
+
+— Free all the storage fields
+
+— Mark current record for deletion
+
+— Sweep the record heap freeing all marked records
+
+— Access to fields
+
+— The field access operator is . followed by the name of a field.
+
+name$ = P@.name$
+
+— Procedure Fields / methods
+
+DEF RECobject
+
+A%
+
+B%
+
+DEF PROCmethod1(a%,b%) — LOCAL vars and params must not have the same name as a record field!
+
+A%=a%-b%
+
+B%=a%+b%
+
+ENDPROC
+
+DEF FNfunc1….
+
+DEF PROCmethod2……
+
+ENDREC
+
+— Usage of procedure fields:
+
+R@ = NEW RECobject — alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.
+
+R@.PROCmethod1(56,99)
+
+q = R@.FNfunc1
+
+— Record Extension and overrides
+
+DEF RECparent(args)
+
+name$
+
+DEF PROCmethod1:ENDPROC — an empty method, calling it does nothing, acts as a placeholder for later redefinition.
+
+DEF PROCmethod2(blah%)
+
+— Some code here
+
+ENDPROC
+
+DEF PROCmethod3(blah%)
+
+— Some other code here
+
+ENDPROC
+
+DEF PROCmethod4:UNDEFINED:ENDPROC — an undefined method placeholder, calling it throws an error, must redefine, like abstract in other languages.
+
+ENDREC
+
+DEF RECchild1(args) EXTEND RECparent(arg exprs) — allows inherited fields to be initialised/dimensioned
+
+address$ — a new field
+
+DEF PROCmethod1 — this overrides any method with the same name, implements something for method1.
+
+— Do something
+
+ENDPROC
+
+— PROCmethod2 is not defined here, so the one from the parent is inherited.
+
+DEF PROCmethod3(blah%) — overrides PROCmethod3
+
+— Do this
+
+PARENT.PROCmethod3(blah%+8) — here we call PROCmethod3 from the parent.
+
+— Do That
+
+ENDPROC
+
+DEF PROCmethod4 — this defines PROCmethod4 for the first time.
+
+— Do something — Calling PARENT.method4 here throws an error (default halt program)
+
+ENDPROC
+
+ENDREC
+
+PARENT — passes control to an overridden method, that method may have been inherited through several levels of extension, it will activate the last
+
+— matching definition.
+
+THIS — refers to the current object within a method, it is implied when accessing fields within methods.
+
+TYPE$ \- refers to the type of a record as a string e.g. “RECchild1”
+
+TYPE - refers to the type of the record internal representation, can be used for type tests
+
+— eg
+
+IF THIS.TYPE = RECchild1 THEN …
+
+— TYPE and TYPE$ work on any pointer variable as well. to allow type comparisons (compare 2 pointers or pointer against TYPE value):
+
+IF R@.TYPE = P@.TYPE — do they have the same dynamic type?
+
+IF R@.TYPE &#60;\&#62; RECsometype — R@ is NOT pointing to a RECsometype?
+
+IF R@.TYPE \&#62; P@.TYPE — is R@ pointing to a supertype of P@?
+
+IF R@.TYPE &#62;= P@.TYPE — is R@ the same OR a supertype of P@?
+
+IF R@.TYPE &#60; RECparent — is R@ a subtype of RECparent?
+
+IF R@.TYPE &#60;= RECparent — is R@ the same as or a subtype of RECparent?
+
+— Calling an undefined method is a fatal error and will halt the program.
+
+— Fields are not redefined/overridden and must only be named once in an extension chain.
+
+— There is no multiple inheritance, interfaces, generics as these are complex and hard to do correctly.
+
+— Managing Namespace Pollution and example of “class” var/method
+
+\- If a program has a large number of record types with lots of internal fields and methods that the user of the record does not need to touch
+
+ - the interface becomes a confusing mess.
+
+— Most OOP languages allow marking fields and methods as private/public, etc
+
+\- I propose that for the BASIC extension above that all fields and methods are private by default and only
+
+ - visible inside the REC structure and by any child REC that extends from it.
+
+\- To make things visible to the program at large, fields and methods are marked with an export mark ’&#60;’
+
+DEF RECobject
+
+&#60;\- A% — A% is visible to the whole program as MyPtr@.A%
+
+B% — B% is only visible to methods inside RECobject fatal error to attempt access outside.
+
+&#60;\- STATIC C% — this is global to all instances of RECobject
+
+&#60;\- DEF PROCmethod1(a%,b%) — Can be called anywhere as MyPtr@.PROCmethod1(…)
+
+A%=a%-b%
+
+B%=a%+b%
+
+ENDPROC
+
+DEF FNfunc1 — Can be called inside PROCmethod1 or PROCmethod2 or FNfunc1 as THIS.FNfunc1(…) or PARENT.FNfunc1 (if inherited)
+
+= C%
+
+&#60;\- DEF PROCmethod2 — Can be called anywhere as MyPtr@.PROCmethod2(…)
+
+A% = THIS.FNfunc1
+
+ENDPROC
+
+&#60;\- STATICDEF PROCdouble \- affects all instances, can be called without any live instance
+
+C% = C% \* 2 - Can only manipulate STATIC fields and call STATIC methods/functions
+
+ENDPROC
+
+ENDREC
+
+— The exported API of this REC is:
+
+DEF RECobject
+
+&#60;\- A% — A% is visible to the whole program as MyPtr@.A%
+
+&#60;\- STATIC C% — this is global to all instances of RECobject
+
+&#60;\- DEF PROCmethod1(a%,b%) — Can be called anywhere as MyPtr@.PROCmethod1(…)
+
+&#60;\- DEF PROCmethod2 — Can be called anywhere as MyPtr@.PROCmethod2(…)
+
+&#60;\- STATICDEF PROCdouble — affects all instances, can be called without any live instance
+
+ENDREC
+
+— example usage outside the definition
+
+RECobject.C% = 5 — set the class var C% to 5 for all RECobjects
+
+R@ = NEW RECobject
+
+R@.PROCmethod1(10,20)
+
+PRINT R@.A% — prints -10
+
+R@.PROCmethod2
+
+PRINT R@.A% \- prints 5
+
+DEL R@ - delete the record
+
+RECobject.PROCdouble — there are no live instances at this time
+
+p@ = NEW RECobject
+
+p@.PROCmethod1(100, 15)
+
+PRINT p@.A% — prints 85
+
+p@.PROCmethod2
+
+PRINT p@.A% \- prints 10, as C% was doubled by PROCdouble
+
+DEL p@ - delete the record</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20102:159646</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Sanity Check of TAK in ARM1 Assembler</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469314#p469314</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469314#p469314</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3010 with RAM Control Line Failure</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469313#p469313</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469313#p469313</guid>
+    </item>    <item>
+      <title>general • Re: Interesting YouTube videos</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469312#p469312</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469312#p469312</guid>
+    </item>    <item>
+      <title>Why is ROOL doing this?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20090</link>
+      <description>
+        <![CDATA[<p>In the end it does all come down to trust.</p>
+        <p>Everyone wants to make sure that when <span class="caps">RISC</span> OS has a limited range of Things and two entities can&#8217;t have the same Thing or they&#8217;ll clash. The allocation system has worked well for a great many years to that end. Definitely, it <em>could</em> be a web site and that might be a better solution simply for ease of access, but that wouldn&#8217;t make it decentralised. You&#8217;ve still got to have one entity that coordinates the database of stuff, because the whole point is to make sure someone can get themselves a guaranteed-unique Thing.</p>
+        <p>It&#8217;s a shame things got heated on GitHub and the tone there is a bit worrying, but everyone <em>here</em> has had one of those &#8220;robust but healthy debates&#8221; <tt>;-D</tt> and if nothing else, this all helps keep <span class="caps">ROOL</span> honest. We know we&#8217;re being watched <span class="caps">LOL</span></p>]]>
+      </description>
+      <source:markdown>In the end it does all come down to trust.
+
+Everyone wants to make sure that when RISC OS has a limited range of Things and two entities can’t have the same Thing or they’ll clash. The allocation system has worked well for a great many years to that end. Definitely, it _could_ be a web site and that might be a better solution simply for ease of access, but that wouldn’t make it decentralised. You’ve still got to have one entity that coordinates the database of stuff, because the whole point is to make sure someone can get themselves a guaranteed-unique Thing.
+
+It’s a shame things got heated on GitHub and the tone there is a bit worrying, but everyone _here_ has had one of those “robust but healthy debates” `;-D` and if nothing else, this all helps keep ROOL honest. We know we’re being watched LOL</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20090:159641</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m4ye45b3m226</link>
+      <description>
+        <![CDATA[Here's a Sinclair Microdrive cartridge with a UK pound coin for comparison. We trusted these mini-magnetic tape loops with our valuable data in the 1980s. Totally insane! To be fair, they were actually quite reliable. The tape loop is 5 metres long and stores a minimum of 85 to 100KBytes of data.]]>
+      </description>
+      <source:markdown>Here&#39;s a Sinclair Microdrive cartridge with a UK pound coin for comparison. We trusted these mini-magnetic tape loops with our valuable data in the 1980s. Totally insane! To be fair, they were actually quite reliable. The tape loop is 5 metres long and stores a minimum of 85 to 100KBytes of data.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m4ye45b3m226</guid>
+    </item>    <item>
+      <title>!Paint Outline Fonts</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20097</link>
+      <description>
+        <![CDATA[<p>It&#8217;s fascinating to see the little differences in direction that <span class="caps">RISC</span> OS 5 and Select took. There&#8217;s things from both that are nice.</p>
+        <p>A similar font draw in Select&#8217;s !Paint&#8230;</p>
+        <p><img src="https://share.gerph.org/s/Meb7UKmQhWZXeCC/download"></p>]]>
+      </description>
+      <source:markdown>It’s fascinating to see the little differences in direction that RISC OS 5 and Select took. There’s things from both that are nice.
+
+A similar font draw in Select’s !Paint…
+
+![](https://share.gerph.org/s/Meb7UKmQhWZXeCC/download)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20097:159640</guid>
+    </item>    <item>
       <title>RISCOSBITS New Stacker!</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20101</link>
       <description>
@@ -143,6 +744,59 @@ Well, it’s another DIY module designed to stack neatly on top of the existing 
       <source:markdown>Managed to Harry Potter myself on the corner of a kitchen cabinet this morning ⚡️</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m4x7bfxacs2h</guid>
     </item>    <item>
+      <title>RPCEmu NAT fail.</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20095</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>As a next stage experiment I built this test <span class="caps">ROM</span> which selectively has just one component using -L22-S22-L41 and everything else (libraries &amp; modules etc) as -L22-S22+L41.</p>
+        </blockquote>
+        <p><span class="caps">FWIW</span> prompted by that a build with <code>ToolOptions.ACPS32</code> left alone with <code>-memaccess -L22-S22+L41</code> set for the <span class="caps">IOMD</span> Machine but with <code>-memaccess -L22-S22-L41</code> added to <span class="caps">CFLAGS</span> in <code>Internet.build.Makefile</code> does start up with networking working.</p>]]>
+      </description>
+      <source:markdown>&#62; As a next stage experiment I built this test ROM which selectively has just one component using -L22-S22-L41 and everything else (libraries &#38; modules etc) as -L22-S22+L41.
+
+FWIW prompted by that a build with `ToolOptions.ACPS32` left alone with `-memaccess -L22-S22+L41` set for the IOMD Machine but with `-memaccess -L22-S22-L41` added to CFLAGS in `Internet.build.Makefile` does start up with networking working.</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20095:159630</guid>
+    </item>    <item>
+      <title>Compute Module 4 supported?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19993</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Have you tried CPUClock?</p>
+        </blockquote>
+        <p>Many thanks Andy and everyone who replied, that was so simple and now CPUClock controls my CM4 temperature.</p>
+        <blockquote>
+        <p>my machine is clocked at 2200MHz.</p>
+        </blockquote>
+        <p>George I have increased my clock speed from 2 GHz to 2.1GHz, I am not quite brave enough at the moment to go all the way to 2.2GHz.</p>
+        <p>Finally, many thanks to all the brave pioneers who five years ago, helped develop the CM4 into the great device it is today.</p>]]>
+      </description>
+      <source:markdown>&#62; Have you tried CPUClock?
+
+Many thanks Andy and everyone who replied, that was so simple and now CPUClock controls my CM4 temperature.
+
+&#62; my machine is clocked at 2200MHz.
+
+George I have increased my clock speed from 2 GHz to 2.1GHz, I am not quite brave enough at the moment to go all the way to 2.2GHz.
+
+Finally, many thanks to all the brave pioneers who five years ago, helped develop the CM4 into the great device it is today.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19993:159627</guid>
+    </item>    <item>
+      <title>Sites blocking all but mainstream browsers</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20099</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve just tried updating the useragent on !Iris to a newer version as its a few versions behind, ebay loads but doesnt load very well with Chrome 132.0.0.0 as default agent. as suspected websites are changing again and Iris is starting to break down. i&#8217;ve noticed a few sites being rejected or just hanging.</p>]]>
+      </description>
+      <source:markdown>I’ve just tried updating the useragent on !Iris to a newer version as its a few versions behind, ebay loads but doesnt load very well with Chrome 132.0.0.0 as default agent. as suspected websites are changing again and Iris is starting to break down. i’ve noticed a few sites being rejected or just hanging.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20099:159626</guid>
+    </item>    <item>
+      <title>Iris/Python3</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20082</link>
+      <description>
+        <![CDATA[<p>Yep its very good, recommended to install if you&#8217;ve not got it yet already! <a href="https://www.riscosdev.com/wordpress/wp-content/uploads/2025/10/ROD_TCPIP_709.zip"><span class="caps">TCP</span> IP Stack 7.09 &#8211; Netmanager Oct 2025</a></p>]]>
+      </description>
+      <source:markdown>Yep its very good, recommended to install if you’ve not got it yet already! [TCP IP Stack 7.09 – Netmanager Oct 2025](https://www.riscosdev.com/wordpress/wp-content/uploads/2025/10/ROD_TCPIP_709.zip)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20082:159625</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Beeb PSU R26 replacement</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469264#p469264</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469264#p469264</guid>
@@ -167,6 +821,14 @@ Well, it’s another DIY module designed to stack neatly on top of the existing 
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469259#p469259</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469259#p469259</guid>
     </item>    <item>
+      <title>ToolboxC++Lib Discussion</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
+      <description>
+        <![CDATA[<p>I’ll try it on a Pi at the weekend &#8211; so far I’ve only used RPCEmu. Given I’ve had no problems, it seems quite probable it’s suffering from data alignment issues, like on another thread.</p>]]>
+      </description>
+      <source:markdown>I’ll try it on a Pi at the weekend – so far I’ve only used RPCEmu. Given I’ve had no problems, it seems quite probable it’s suffering from data alignment issues, like on another thread.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19910:159623</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Electron not firing up</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469257#p469257</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469257#p469257</guid>
@@ -182,19 +844,6 @@ Well, it’s another DIY module designed to stack neatly on top of the existing 
       <title>software &#38;amp; utilities for the pc, mac or unix • Re: Disc Image Manager</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469252#p469252</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469252#p469252</guid>
-    </item>    <item>
-      <title>Iris/Python3</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20082</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Correction the New stack is live!</p>
-        </blockquote>
-        <p>Just installed it here in place of 7.06, and it appears to be working fine.  Both my IPv6 &#8220;servers&#8221; are up.</p>]]>
-      </description>
-      <source:markdown>&#62; Correction the New stack is live!
-
-Just installed it here in place of 7.06, and it appears to be working fine. Both my IPv6 “servers” are up.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20082:159622</guid>
     </item>    <item>
       <link>https://bsky.app/profile/archiveriscos.bsky.social/post/3m4vqvpt7q224</link>
       <description>
@@ -241,41 +890,9 @@ Just installed it here in place of 7.06, and it appears to be working fine. Both
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469237#p469237</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469237#p469237</guid>
     </item>    <item>
-      <title>ToolboxC++Lib Discussion</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
-      <description>
-        <![CDATA[<p>Uploaded another example to GitHub, !CodeTemplate, however, the code was generated purely by !Prototype, which has also been uploaded into a Tools directory. !Prototype currently generates main and a class which extends ToolboxTask which is in ToolboxC++Lib, the rest is left to the end user. !Prototype is very rough and ready, needs some polishing but it does the job.</p>]]>
-      </description>
-      <source:markdown>Uploaded another example to GitHub, !CodeTemplate, however, the code was generated purely by !Prototype, which has also been uploaded into a Tools directory. !Prototype currently generates main and a class which extends ToolboxTask which is in ToolboxC++Lib, the rest is left to the end user. !Prototype is very rough and ready, needs some polishing but it does the job.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19910:159619</guid>
-    </item>    <item>
       <title>8-bit acorn hardware • Re: Master Compact MOS 5.x ADVAL for custom A/D and joystick hardware</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469236#p469236</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469236#p469236</guid>
-    </item>    <item>
-      <title>Compute Module 4 supported?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19993</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Have you tried CPUClock?</p>
-        </blockquote>
-        <p>CPUClock is working just fine here. I have the fan set to come on at 54C. with a 4C. differential, which seems to strike a reasonable balance between operating temp and fan use: the fan is on about a quarter of the time. <br />
-        <span class="caps">EDIT</span>: my machine is clocked at 2200MHz.</p>
-        <blockquote>
-        <p>I also use a CM4 From Riscosbits super machine!</p>
-        </blockquote>
-        <p>Me too, and seconded!</p>]]>
-      </description>
-      <source:markdown>&#62; Have you tried CPUClock?
-
-CPUClock is working just fine here. I have the fan set to come on at 54C. with a 4C. differential, which seems to strike a reasonable balance between operating temp and fan use: the fan is on about a quarter of the time.
-
-EDIT: my machine is clocked at 2200MHz.
-
-&#62; I also use a CM4 From Riscosbits super machine!
-
-Me too, and seconded!</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19993:159618</guid>
     </item>    <item>
       <title>software &#38;amp; utilities for the pc, mac or unix • Re: Disc Image Manager</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469231#p469231</link>
@@ -299,45 +916,6 @@ Me too, and seconded!</source:markdown>
       </description>
       <source:markdown>VCR tape copying virus! Hilarious. I should have implemented a similar thing in my BBC Micro game protection systems.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m4v7wkcc6k27</guid>
-    </item>    <item>
-      <title>Sites blocking all but mainstream browsers</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20099</link>
-      <description>
-        <![CDATA[<p>Just tried going to ebay website from the Iris Homepage and got in no problem.</p>
-        <p>Try changing your Iris browser &#8216;user agent&#8217;. I tend to use a custom one nowadays: <br />
-        Mozilla/5.0 (compatible; Firefox/96.0; <span class="caps">RISC</span> OS 5.31)</p>]]>
-      </description>
-      <source:markdown>Just tried going to ebay website from the Iris Homepage and got in no problem.
-
-Try changing your Iris browser ‘user agent’. I tend to use a custom one nowadays:
-
-Mozilla/5.0 (compatible; Firefox/96.0; RISC OS 5.31)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20099:159615</guid>
-    </item>    <item>
-      <title>RPCEmu NAT fail.</title>
-      <link>https://www.riscosopen.org/forum/forums/10/topics/20095</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Deleting the newly added <span class="caps">IOMD</span> line from <span class="caps">APCS</span>-32 ToolOptions did build a <span class="caps">ROM</span> that could start networking.</p>
-        </blockquote>
-        <p>OK, that&#8217;s progress, which I think narrows it to one of three possibilities:</p>
-        <ul>
-        	<li>An emulation inaccuracy (microscopic probability, I tried the <span class="caps">ROM</span> on a real Risc PC and it also gave the error, and RPCEmu works with 3.70 which would have used rotated loads too)</li>
-        	<li>A compiler regression (not much is using rotated loads now so possibly some edge case gone unnoticed)</li>
-        	<li>The source changed since 2013 (also a possibility)</li>
-        </ul>
-        <p>As a next stage experiment I built <a href="https://www.sprow.co.uk/iomdmemaccess.zip">this test <span class="caps">ROM</span></a> which selectively has just one component using -L22-S22-L41 and everything else (libraries &amp; modules etc) as -L22-S22+L41. How does that fair?</p>]]>
-      </description>
-      <source:markdown>&#62; Deleting the newly added IOMD line from APCS-32 ToolOptions did build a ROM that could start networking.
-
-OK, that’s progress, which I think narrows it to one of three possibilities:
-
-- An emulation inaccuracy (microscopic probability, I tried the ROM on a real Risc PC and it also gave the error, and RPCEmu works with 3.70 which would have used rotated loads too)
-- A compiler regression (not much is using rotated loads now so possibly some edge case gone unnoticed)
-- The source changed since 2013 (also a possibility)
-
-As a next stage experiment I built [this test ROM](https://www.sprow.co.uk/iomdmemaccess.zip) which selectively has just one component using -L22-S22-L41 and everything else (libraries &#38; modules etc) as -L22-S22+L41. How does that fair?</source:markdown>
-      <guid>cid://www.riscosopen.org:10:20095:159614</guid>
     </item>    <item>
       <title>off-topic • Re: Acorn Art Thread</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469224#p469224</link>
@@ -411,23 +989,6 @@ A good thing to collect are USB descriptors.</source:markdown>
       <title>off-topic • Re: Measuring Resistance</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469186#p469186</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469186#p469186</guid>
-    </item>    <item>
-      <title>!Paint Outline Fonts</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20097</link>
-      <description>
-        <![CDATA[<p>I love being able to use the outline font system in the latest update to !paint under 5.31 beta that was released on the new ROM&#8217;s 2nd November, This has made such a massive difference to editing sprites, at last not just the System Font and with Sprites in 16m colour mode Text appears Antialiasing and smooth!</p>
-        <p>Nice job to the Developer who has done the work :)</p>
-        <p>Also the new 8GB 5.31 Rom feels pretty polished!<br />
-        <img src="https://images2.imgbox.com/69/ac/i2NJEmwx_o.jpg" alt="" /></p>]]>
-      </description>
-      <source:markdown>I love being able to use the outline font system in the latest update to !paint under 5.31 beta that was released on the new ROM’s 2nd November, This has made such a massive difference to editing sprites, at last not just the System Font and with Sprites in 16m colour mode Text appears Antialiasing and smooth!
-
-Nice job to the Developer who has done the work :)
-
-Also the new 8GB 5.31 Rom feels pretty polished!
-
-![](https://images2.imgbox.com/69/ac/i2NJEmwx_o.jpg)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20097:159605</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Leds not working</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469185#p469185</link>
@@ -999,14 +1560,6 @@ and imaging it to the reformatted card. You’ll need a USB SD card reader but t
 
 You can’t simply copy the diskimage to the card, the card must be imaged, hence the need for imager software (apologies if you already know all this, I can’t estimate your capability from the original post). Good luck, HTH.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20091:159561</guid>
-    </item>    <item>
-      <title>Why is ROOL doing this?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20090</link>
-      <description>
-        <![CDATA[<p>Gavin i was purely posting the link from github with the comments to open discussion about it here, I wanted to understand why the system is the way that it is. and people have demonstrated that clearly. I seemed to have opened a rabbit hole for myself in doing that. and at least had engagement and debate which is always good to have even if im wrong which i except in this case i am. If the system works and its being looked after then great!</p>]]>
-      </description>
-      <source:markdown>Gavin i was purely posting the link from github with the comments to open discussion about it here, I wanted to understand why the system is the way that it is. and people have demonstrated that clearly. I seemed to have opened a rabbit hole for myself in doing that. and at least had engagement and debate which is always good to have even if im wrong which i except in this case i am. If the system works and its being looked after then great!</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20090:159560</guid>
     </item>    <item>
       <title>general • Re: Interesting YouTube videos</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468965#p468965</link>

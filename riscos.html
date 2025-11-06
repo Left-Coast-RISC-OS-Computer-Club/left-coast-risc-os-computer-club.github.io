@@ -2,8 +2,8 @@
 <html lang="en-US">
 <head>
   <meta charset="utf-8" >
-  <meta content="antenna/0.0.15" name="generator" >
-  <meta name="date" content="2025-11-06T11:00:25-08:00" >
+  <meta name="generator" content="antenna/0.0.15" >
+  <meta name="date" content="2025-11-06T15:00:19-08:00" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -19,6 +19,347 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2025-11-06T22:43:14Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=469321#p469321">
+      <h1>32-bit acorn hardware • Re: EtherWiz - a new fully opensource Ethernet podule</h1>
+
+(date: 2025-11-06)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=469321#p469321">https://www.stardot.org.uk/forums/viewtopic.php?p=469321#p469321</a>
+      </address>
+    </article>
+
+    <article data-published="2025-11-06T22:36:03Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=469320#p469320">
+      <h1>32-bit acorn hardware • Re: A7000 no video output</h1>
+
+(date: 2025-11-06)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=469320#p469320">https://www.stardot.org.uk/forums/viewtopic.php?p=469320#p469320</a>
+      </address>
+    </article>
+
+    <article data-published="2025-11-06T22:07:25Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=469319#p469319">
+      <h1>off-topic • Re: Scope for a dope?</h1>
+
+(date: 2025-11-06)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=469319#p469319">https://www.stardot.org.uk/forums/viewtopic.php?p=469319#p469319</a>
+      </address>
+    </article>
+
+    <article data-published="2025-11-06T21:53:05Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=469318#p469318">
+      <h1>32-bit acorn hardware • Re: A3010 with RAM Control Line Failure</h1>
+
+(date: 2025-11-06)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=469318#p469318">https://www.stardot.org.uk/forums/viewtopic.php?p=469318#p469318</a>
+      </address>
+    </article>
+
+    <article data-published="2025-11-06T21:36:01Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=469317#p469317">
+      <h1>econet and other acorn specific networking • Re: Reprint of &quot;Networking with the BBC Microcomputer&quot; by Rob Napier</h1>
+
+(date: 2025-11-06)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=469317#p469317">https://www.stardot.org.uk/forums/viewtopic.php?p=469317#p469317</a>
+      </address>
+    </article>
+
+    <article data-published="2025-11-06T21:24:14Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=469316#p469316">
+      <h1>general • Re: Interesting YouTube videos</h1>
+
+(date: 2025-11-06)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=469316#p469316">https://www.stardot.org.uk/forums/viewtopic.php?p=469316#p469316</a>
+      </address>
+    </article>
+
+    <article data-published="2025-11-06T21:17:09Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=469315#p469315">
+      <h1>32-bit acorn hardware • Re: A3010 with RAM Control Line Failure</h1>
+
+(date: 2025-11-06)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=469315#p469315">https://www.stardot.org.uk/forums/viewtopic.php?p=469315#p469315</a>
+      </address>
+    </article>
+
+    <article data-published="2025-11-06T21:16:36Z" data-link="https://www.riscosopen.org/forum/forums/2/topics/20102">
+      <h1>BBC BASIC - Simple OOP Extensions</h1>
+
+(date: 2025-11-06)
+      <p>
+      <p>I have always thought that BBCBASIC needed records.</p>
+<p>RTR’s BASICs have Structures, but the syntax doesn’t really feel native to BBCBASIC.</p>
+<p>I have been a fan of Wirth’s Oberon with type extension of records as it is a clean simple concept.</p>
+<p>Most OO languages go off into the weeds with very complex and subtle features that are not really needed for 99% of programs.</p>
+<p>I have outlined a possible syntax/semantics for a simplified OOP style record structure description below.</p>
+<p>Let me know what you think.</p>
+<p>OUTLINE OF CONCEPT:</p>
+<p>— Defininng a record type</p>
+<p>— No Args (fixed size)</p>
+<p>DEF RECmyrec</p>
+<p>A% — Integer field</p>
+<p>B — Floating field</p>
+<p>C$ — String field</p>
+<p>D@ — Pointer field (any RECxxx) initial value NULL</p>
+<p>DIM E% 1024 — Raw byte block field 1kB inline in record, use with indirection operators</p>
+<p>DIM F%(9) — Array of 10 ints</p>
+<p>DIM G(9) — Array of 10 floats</p>
+<p>DIM H$(9) — Array of 10 strings</p>
+<p>DIM I@(9) — Array of 10 pointer to record initial value NULL</p>
+<p>ENDREC</p>
+<p>— With Args (variable size and initial values)</p>
+<p>DEF RECmyvarrec(n$,m%,blocksize%)</p>
+<p>name<span class="math inline">\( = n\)</span> — Initialise value</p>
+<p>DIM list$(m%) — n+1 strings – record contains a pointer to the array</p>
+<p>DIM block% blocksize%*2+38 — can do calculations; specifies number of bytes, numbered 0 to result-1</p>
+<p>ENDREC</p>
+<p>— Global or Private</p>
+<p>R@ = RECmyrec — Globals use the heap (I would prefer if the language had GLOBAL to specify global varsfor symmetry/clarity)</p>
+<p>— this version of the creation syntax does not make it obvious that allocation is taking place here</p>
+<p>GLOBAL R@ = RECmyrec — Like this.</p>
+<p>R@ = NEW RECobject - alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.</p>
+<ul>
+<li>prefer this</li>
+</ul>
+<p>PRIVATE T@ = NEW RECmyrec — PRIVATEs use the heap. Same as PRIVATE in RTRBBCBASIC</p>
+<p>STATIC — used for “class variables/methods” see below</p>
+<p>— I prefer the use of NEW rather than DIM because DIM is already used for Arrays and Structures</p>
+<p>— Stack (LOCAL vars)</p>
+<p>LOCAL S@ = NEW RECmyvarrec(“Bob”,9,256) — Locals also use the heap because we will often export the reference from the scope expecting the record to persist.</p>
+<p>- When LOCAL pointer variable goes out of scope, the pointer on the stack is deleted, but the record (on heap) remains and may cause memory leaks,</p>
+<p>-CLEANUP should be used periodically.</p>
+<p>- If it is known that the record is no longer needed, it should be deleted before it goes out of scope.</p>
+<ul>
+<li>The interpreter could detect escaping references and delete those that don’t, this can be complex with subtle errors, so manual or GC is easier.</li>
+</ul>
+<p>— Alternatively use Reference Counting (simpler, but risks memory leaks)</p>
+<p>— Delete Records and Release Heap Memory (manual GC)</p>
+<p>DEL p@ — frees the storage fields (strings, arrays, blocks) then frees the record, does NOT follow pointer fields.</p>
+<p>CLEANUP — executed outside any PROC or FN, marks all records reachable via global and private pointer variables then sweeps unmarked heap, does NOT follow pointers stored in Raw byte data blocks.</p>
+<p>— Method:</p>
+<p>— Add all global &amp; static pointers to the keep queue</p>
+<p>— While keep queue not empty</p>
+<p>— Pull the next pointer from the keep queue as current record</p>
+<p>— If current record not marked</p>
+<p>— Add all pointers to records to the keep queue</p>
+<p>— Mark current record for retention</p>
+<p>— Sweep the record heap freeing all unmarked records using the DEL operation above.</p>
+<p>DELREC q@ — as DEL above, BUT it also follows pointer chains deleting all linked records, does NOT follow pointers stored in Raw byte data blocks.</p>
+<p>— Method:</p>
+<p>— Add q@ to the delete queue</p>
+<p>— While delete queue not empty</p>
+<p>— Pull the next pointer from the delete queue as current record</p>
+<p>— If current record not marked</p>
+<p>— Add all pointers to the delete queue</p>
+<p>— Free all the storage fields</p>
+<p>— Mark current record for deletion</p>
+<p>— Sweep the record heap freeing all marked records</p>
+<p>— Access to fields</p>
+<p>— The field access operator is . followed by the name of a field.</p>
+<p>name<span class="math inline">\( = P@.name\)</span></p>
+<p>— Procedure Fields / methods</p>
+<p>DEF RECobject</p>
+<p>A%</p>
+<p>B%</p>
+<p>DEF PROCmethod1(a%,b%) — LOCAL vars and params must not have the same name as a record field!</p>
+<p>A%=a%-b%</p>
+<p>B%=a%+b%</p>
+<p>ENDPROC</p>
+<p>DEF FNfunc1….</p>
+<p>DEF PROCmethod2……</p>
+<p>ENDREC</p>
+<p>— Usage of procedure fields:</p>
+<p>R@ = NEW RECobject — alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.</p>
+<p>R@.PROCmethod1(56,99)</p>
+<p>q = R@.FNfunc1</p>
+<p>— Record Extension and overrides</p>
+<p>DEF RECparent(args)</p>
+<p>name$</p>
+<p>DEF PROCmethod1:ENDPROC — an empty method, calling it does nothing, acts as a placeholder for later redefinition.</p>
+<p>DEF PROCmethod2(blah%)</p>
+<p>— Some code here</p>
+<p>ENDPROC</p>
+<p>DEF PROCmethod3(blah%)</p>
+<p>— Some other code here</p>
+<p>ENDPROC</p>
+<p>DEF PROCmethod4:UNDEFINED:ENDPROC — an undefined method placeholder, calling it throws an error, must redefine, like abstract in other languages.</p>
+<p>ENDREC</p>
+<p>DEF RECchild1(args) EXTEND RECparent(arg exprs) — allows inherited fields to be initialised/dimensioned</p>
+<p>address$ — a new field</p>
+<p>DEF PROCmethod1 — this overrides any method with the same name, implements something for method1.</p>
+<p>— Do something</p>
+<p>ENDPROC</p>
+<p>— PROCmethod2 is not defined here, so the one from the parent is inherited.</p>
+<p>DEF PROCmethod3(blah%) — overrides PROCmethod3</p>
+<p>— Do this</p>
+<p>PARENT.PROCmethod3(blah%+8) — here we call PROCmethod3 from the parent.</p>
+<p>— Do That</p>
+<p>ENDPROC</p>
+<p>DEF PROCmethod4 — this defines PROCmethod4 for the first time.</p>
+<p>— Do something — Calling PARENT.method4 here throws an error (default halt program)</p>
+<p>ENDPROC</p>
+<p>ENDREC</p>
+<p>PARENT — passes control to an overridden method, that method may have been inherited through several levels of extension, it will activate the last</p>
+<p>— matching definition.</p>
+<p>THIS — refers to the current object within a method, it is implied when accessing fields within methods.</p>
+<p>TYPE$ - refers to the type of a record as a string e.g. “RECchild1”</p>
+<p>TYPE - refers to the type of the record internal representation, can be used for type tests</p>
+<p>— eg</p>
+<p>IF THIS.TYPE = RECchild1 THEN …</p>
+<p>— TYPE and TYPE$ work on any pointer variable as well. to allow type comparisons (compare 2 pointers or pointer against TYPE value):</p>
+<p>IF R@.TYPE = P@.TYPE — do they have the same dynamic type?</p>
+<p>IF R@.TYPE &lt;&gt; RECsometype — R@ is NOT pointing to a RECsometype?</p>
+<p>IF R@.TYPE &gt; P@.TYPE — is R@ pointing to a supertype of P@?</p>
+<p>IF R@.TYPE &gt;= P@.TYPE — is R@ the same OR a supertype of P@?</p>
+<p>IF R@.TYPE &lt; RECparent — is R@ a subtype of RECparent?</p>
+<p>IF R@.TYPE &lt;= RECparent — is R@ the same as or a subtype of RECparent?</p>
+<p>— Calling an undefined method is a fatal error and will halt the program.</p>
+<p>— Fields are not redefined/overridden and must only be named once in an extension chain.</p>
+<p>— There is no multiple inheritance, interfaces, generics as these are complex and hard to do correctly.</p>
+<p>— Managing Namespace Pollution and example of “class” var/method</p>
+<p>- If a program has a large number of record types with lots of internal fields and methods that the user of the record does not need to touch</p>
+<ul>
+<li>the interface becomes a confusing mess.</li>
+</ul>
+<p>— Most OOP languages allow marking fields and methods as private/public, etc</p>
+<p>- I propose that for the BASIC extension above that all fields and methods are private by default and only</p>
+<ul>
+<li>visible inside the REC structure and by any child REC that extends from it.</li>
+</ul>
+<p>- To make things visible to the program at large, fields and methods are marked with an export mark ’&lt;’</p>
+<p>DEF RECobject</p>
+<p>&lt;- A% — A% is visible to the whole program as MyPtr@.A%</p>
+<p>B% — B% is only visible to methods inside RECobject fatal error to attempt access outside.</p>
+<p>&lt;- STATIC C% — this is global to all instances of RECobject</p>
+<p>&lt;- DEF PROCmethod1(a%,b%) — Can be called anywhere as MyPtr@.PROCmethod1(…)</p>
+<p>A%=a%-b%</p>
+<p>B%=a%+b%</p>
+<p>ENDPROC</p>
+<p>DEF FNfunc1 — Can be called inside PROCmethod1 or PROCmethod2 or FNfunc1 as THIS.FNfunc1(…) or PARENT.FNfunc1 (if inherited)</p>
+<p>= C%</p>
+<p>&lt;- DEF PROCmethod2 — Can be called anywhere as MyPtr@.PROCmethod2(…)</p>
+<p>A% = THIS.FNfunc1</p>
+<p>ENDPROC</p>
+<p>&lt;- STATICDEF PROCdouble - affects all instances, can be called without any live instance</p>
+<p>C% = C% * 2 - Can only manipulate STATIC fields and call STATIC methods/functions</p>
+<p>ENDPROC</p>
+<p>ENDREC</p>
+<p>— The exported API of this REC is:</p>
+<p>DEF RECobject</p>
+<p>&lt;- A% — A% is visible to the whole program as MyPtr@.A%</p>
+<p>&lt;- STATIC C% — this is global to all instances of RECobject</p>
+<p>&lt;- DEF PROCmethod1(a%,b%) — Can be called anywhere as MyPtr@.PROCmethod1(…)</p>
+<p>&lt;- DEF PROCmethod2 — Can be called anywhere as MyPtr@.PROCmethod2(…)</p>
+<p>&lt;- STATICDEF PROCdouble — affects all instances, can be called without any live instance</p>
+<p>ENDREC</p>
+<p>— example usage outside the definition</p>
+<p>RECobject.C% = 5 — set the class var C% to 5 for all RECobjects</p>
+<p>R@ = NEW RECobject</p>
+<p>R@.PROCmethod1(10,20)</p>
+<p>PRINT R@.A% — prints -10</p>
+<p>R@.PROCmethod2</p>
+<p>PRINT R@.A% - prints 5</p>
+<p>DEL R@ - delete the record</p>
+<p>RECobject.PROCdouble — there are no live instances at this time</p>
+<p>p@ = NEW RECobject</p>
+<p>p@.PROCmethod1(100, 15)</p>
+<p>PRINT p@.A% — prints 85</p>
+<p>p@.PROCmethod2</p>
+<p>PRINT p@.A% - prints 10, as C% was doubled by PROCdouble</p>
+<p>DEL p@ - delete the record</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/2/topics/20102">https://www.riscosopen.org/forum/forums/2/topics/20102</a>
+      </address>
+    </article>
+
+    <article data-published="2025-11-06T21:09:44Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=469314#p469314">
+      <h1>32-bit acorn software: other • Re: Sanity Check of TAK in ARM1 Assembler</h1>
+
+(date: 2025-11-06)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=469314#p469314">https://www.stardot.org.uk/forums/viewtopic.php?p=469314#p469314</a>
+      </address>
+    </article>
+
+    <article data-published="2025-11-06T21:08:28Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=469313#p469313">
+      <h1>32-bit acorn hardware • Re: A3010 with RAM Control Line Failure</h1>
+
+(date: 2025-11-06)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=469313#p469313">https://www.stardot.org.uk/forums/viewtopic.php?p=469313#p469313</a>
+      </address>
+    </article>
+
+    <article data-published="2025-11-06T21:06:01Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=469312#p469312">
+      <h1>general • Re: Interesting YouTube videos</h1>
+
+(date: 2025-11-06)
+      <p>
+      
+      <address>
+        <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=469312#p469312">https://www.stardot.org.uk/forums/viewtopic.php?p=469312#p469312</a>
+      </address>
+    </article>
+
+    <article data-published="2025-11-06T20:03:11Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20090">
+      <h1>Why is ROOL doing this?</h1>
+
+(date: 2025-11-06)
+      <p>
+      <p>In the end it does all come down to trust.</p>
+<p>Everyone wants to make sure that when RISC OS has a limited range of Things and two entities can’t have the same Thing or they’ll clash. The allocation system has worked well for a great many years to that end. Definitely, it <em>could</em> be a web site and that might be a better solution simply for ease of access, but that wouldn’t make it decentralised. You’ve still got to have one entity that coordinates the database of stuff, because the whole point is to make sure someone can get themselves a guaranteed-unique Thing.</p>
+<p>It’s a shame things got heated on GitHub and the tone there is a bit worrying, but everyone <em>here</em> has had one of those “robust but healthy debates” <code>;-D</code> and if nothing else, this all helps keep ROOL honest. We know we’re being watched LOL</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20090">https://www.riscosopen.org/forum/forums/5/topics/20090</a>
+      </address>
+    </article>
+
+    <article data-published="2025-11-06T20:00:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m4ye45b3m226">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-11-06)
+      <p>
+      <p>Here's a Sinclair Microdrive cartridge with a UK pound coin for comparison. We trusted these mini-magnetic tape loops with our valuable data in the 1980s. Totally insane! To be fair, they were actually quite reliable. The tape loop is 5 metres long and stores a minimum of 85 to 100KBytes of data.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m4ye45b3m226">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m4ye45b3m226</a>
+      </address>
+    </article>
+
+    <article data-published="2025-11-06T19:55:08Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20097">
+      <h1>!Paint Outline Fonts</h1>
+
+(date: 2025-11-06)
+      <p>
+      <p>It’s fascinating to see the little differences in direction that RISC OS 5 and Select took. There’s things from both that are nice.</p>
+<p>A similar font draw in Select’s !Paint…</p>
+<p><img src="https://share.gerph.org/s/Meb7UKmQhWZXeCC/download" alt=""></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20097">https://www.riscosopen.org/forum/forums/5/topics/20097</a>
+      </address>
+    </article>
 
     <article data-published="2025-11-06T18:48:33Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20101">
       <h1>RISCOSBITS New Stacker!</h1>
@@ -276,6 +617,65 @@
       </address>
     </article>
 
+    <article data-published="2025-11-06T08:42:22Z" data-link="https://www.riscosopen.org/forum/forums/10/topics/20095">
+      <h1>RPCEmu NAT fail.</h1>
+
+(date: 2025-11-06)
+      <p>
+      <blockquote>
+<p>As a next stage experiment I built this test ROM which selectively has just one component using -L22-S22-L41 and everything else (libraries &amp; modules etc) as -L22-S22+L41.</p>
+</blockquote>
+<p>FWIW prompted by that a build with <code>ToolOptions.ACPS32</code> left alone with <code>-memaccess -L22-S22+L41</code> set for the IOMD Machine but with <code>-memaccess -L22-S22-L41</code> added to CFLAGS in <code>Internet.build.Makefile</code> does start up with networking working.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/10/topics/20095">https://www.riscosopen.org/forum/forums/10/topics/20095</a>
+      </address>
+    </article>
+
+    <article data-published="2025-11-06T05:16:58Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/19993">
+      <h1>Compute Module 4 supported?</h1>
+
+(date: 2025-11-06)
+      <p>
+      <blockquote>
+<p>Have you tried CPUClock?</p>
+</blockquote>
+<p>Many thanks Andy and everyone who replied, that was so simple and now CPUClock controls my CM4 temperature.</p>
+<blockquote>
+<p>my machine is clocked at 2200MHz.</p>
+</blockquote>
+<p>George I have increased my clock speed from 2 GHz to 2.1GHz, I am not quite brave enough at the moment to go all the way to 2.2GHz.</p>
+<p>Finally, many thanks to all the brave pioneers who five years ago, helped develop the CM4 into the great device it is today.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/19993">https://www.riscosopen.org/forum/forums/5/topics/19993</a>
+      </address>
+    </article>
+
+    <article data-published="2025-11-05T22:55:12Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20099">
+      <h1>Sites blocking all but mainstream browsers</h1>
+
+(date: 2025-11-05)
+      <p>
+      <p>I’ve just tried updating the useragent on !Iris to a newer version as its a few versions behind, ebay loads but doesnt load very well with Chrome 132.0.0.0 as default agent. as suspected websites are changing again and Iris is starting to break down. i’ve noticed a few sites being rejected or just hanging.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20099">https://www.riscosopen.org/forum/forums/5/topics/20099</a>
+      </address>
+    </article>
+
+    <article data-published="2025-11-05T22:36:50Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20082">
+      <h1>Iris/Python3</h1>
+
+(date: 2025-11-05)
+      <p>
+      <p>Yep its very good, recommended to install if you’ve not got it yet already! <a href="https://www.riscosdev.com/wordpress/wp-content/uploads/2025/10/ROD_TCPIP_709.zip">TCP IP Stack 7.09 – Netmanager Oct 2025</a></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20082">https://www.riscosopen.org/forum/forums/11/topics/20082</a>
+      </address>
+    </article>
+
     <article data-published="2025-11-05T22:31:18Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=469264#p469264">
       <h1>8-bit acorn hardware • Re: Beeb PSU R26 replacement</h1>
 
@@ -342,6 +742,18 @@
       </address>
     </article>
 
+    <article data-published="2025-11-05T21:06:45Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/19910">
+      <h1>ToolboxC++Lib Discussion</h1>
+
+(date: 2025-11-05)
+      <p>
+      <p>I’ll try it on a Pi at the weekend – so far I’ve only used RPCEmu. Given I’ve had no problems, it seems quite probable it’s suffering from data alignment issues, like on another thread.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/19910">https://www.riscosopen.org/forum/forums/5/topics/19910</a>
+      </address>
+    </article>
+
     <article data-published="2025-11-05T20:52:14Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=469257#p469257">
       <h1>8-bit acorn hardware • Re: Electron not firing up</h1>
 
@@ -383,21 +795,6 @@
       
       <address>
         <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=469252#p469252">https://www.stardot.org.uk/forums/viewtopic.php?p=469252#p469252</a>
-      </address>
-    </article>
-
-    <article data-published="2025-11-05T19:27:46Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20082">
-      <h1>Iris/Python3</h1>
-
-(date: 2025-11-05)
-      <p>
-      <blockquote>
-<p>Correction the New stack is live!</p>
-</blockquote>
-<p>Just installed it here in place of 7.06, and it appears to be working fine. Both my IPv6 “servers” are up.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20082">https://www.riscosopen.org/forum/forums/11/topics/20082</a>
       </address>
     </article>
 
@@ -512,18 +909,6 @@
       </address>
     </article>
 
-    <article data-published="2025-11-05T16:24:38Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/19910">
-      <h1>ToolboxC++Lib Discussion</h1>
-
-(date: 2025-11-05)
-      <p>
-      <p>Uploaded another example to GitHub, !CodeTemplate, however, the code was generated purely by !Prototype, which has also been uploaded into a Tools directory. !Prototype currently generates main and a class which extends ToolboxTask which is in ToolboxC++Lib, the rest is left to the end user. !Prototype is very rough and ready, needs some polishing but it does the job.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/19910">https://www.riscosopen.org/forum/forums/5/topics/19910</a>
-      </address>
-    </article>
-
     <article data-published="2025-11-05T16:17:20Z" data-link="https://www.stardot.org.uk/forums/viewtopic.php?p=469236#p469236">
       <h1>8-bit acorn hardware • Re: Master Compact MOS 5.x ADVAL for custom A/D and joystick hardware</h1>
 
@@ -532,26 +917,6 @@
       
       <address>
         <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=469236#p469236">https://www.stardot.org.uk/forums/viewtopic.php?p=469236#p469236</a>
-      </address>
-    </article>
-
-    <article data-published="2025-11-05T16:14:08Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/19993">
-      <h1>Compute Module 4 supported?</h1>
-
-(date: 2025-11-05)
-      <p>
-      <blockquote>
-<p>Have you tried CPUClock?</p>
-</blockquote>
-<p>CPUClock is working just fine here. I have the fan set to come on at 54C. with a 4C. differential, which seems to strike a reasonable balance between operating temp and fan use: the fan is on about a quarter of the time.</p>
-<p>EDIT: my machine is clocked at 2200MHz.</p>
-<blockquote>
-<p>I also use a CM4 From Riscosbits super machine!</p>
-</blockquote>
-<p>Me too, and seconded!</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/19993">https://www.riscosopen.org/forum/forums/5/topics/19993</a>
       </address>
     </article>
 
@@ -608,41 +973,6 @@
 
       <address>
         <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m4v7wkcc6k27">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m4v7wkcc6k27</a>
-      </address>
-    </article>
-
-    <article data-published="2025-11-05T13:53:28Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20099">
-      <h1>Sites blocking all but mainstream browsers</h1>
-
-(date: 2025-11-05)
-      <p>
-      <p>Just tried going to ebay website from the Iris Homepage and got in no problem.</p>
-<p>Try changing your Iris browser ‘user agent’. I tend to use a custom one nowadays:</p>
-<p>Mozilla/5.0 (compatible; Firefox/96.0; RISC OS 5.31)</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20099">https://www.riscosopen.org/forum/forums/5/topics/20099</a>
-      </address>
-    </article>
-
-    <article data-published="2025-11-05T13:47:57Z" data-link="https://www.riscosopen.org/forum/forums/10/topics/20095">
-      <h1>RPCEmu NAT fail.</h1>
-
-(date: 2025-11-05)
-      <p>
-      <blockquote>
-<p>Deleting the newly added IOMD line from APCS-32 ToolOptions did build a ROM that could start networking.</p>
-</blockquote>
-<p>OK, that’s progress, which I think narrows it to one of three possibilities:</p>
-<ul>
-<li>An emulation inaccuracy (microscopic probability, I tried the ROM on a real Risc PC and it also gave the error, and RPCEmu works with 3.70 which would have used rotated loads too)</li>
-<li>A compiler regression (not much is using rotated loads now so possibly some edge case gone unnoticed)</li>
-<li>The source changed since 2013 (also a possibility)</li>
-</ul>
-<p>As a next stage experiment I built <a href="https://www.sprow.co.uk/iomdmemaccess.zip">this test ROM</a> which selectively has just one component using -L22-S22-L41 and everything else (libraries &amp; modules etc) as -L22-S22+L41. How does that fair?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/10/topics/20095">https://www.riscosopen.org/forum/forums/10/topics/20095</a>
       </address>
     </article>
 
@@ -773,21 +1103,6 @@
       
       <address>
         <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=469186#p469186">https://www.stardot.org.uk/forums/viewtopic.php?p=469186#p469186</a>
-      </address>
-    </article>
-
-    <article data-published="2025-11-04T22:25:38Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20097">
-      <h1>!Paint Outline Fonts</h1>
-
-(date: 2025-11-04)
-      <p>
-      <p>I love being able to use the outline font system in the latest update to !paint under 5.31 beta that was released on the new ROM’s 2nd November, This has made such a massive difference to editing sprites, at last not just the System Font and with Sprites in 16m colour mode Text appears Antialiasing and smooth!</p>
-<p>Nice job to the Developer who has done the work :)</p>
-<p>Also the new 8GB 5.31 Rom feels pretty polished!</p>
-<p><img src="https://images2.imgbox.com/69/ac/i2NJEmwx_o.jpg" alt=""></p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20097">https://www.riscosopen.org/forum/forums/5/topics/20097</a>
       </address>
     </article>
 
@@ -1926,18 +2241,6 @@ Omnicom Media is this you?</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/11/topics/20091">https://www.riscosopen.org/forum/forums/11/topics/20091</a>
-      </address>
-    </article>
-
-    <article data-published="2025-11-02T15:38:14Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20090">
-      <h1>Why is ROOL doing this?</h1>
-
-(date: 2025-11-02)
-      <p>
-      <p>Gavin i was purely posting the link from github with the comments to open discussion about it here, I wanted to understand why the system is the way that it is. and people have demonstrated that clearly. I seemed to have opened a rabbit hole for myself in doing that. and at least had engagement and debate which is always good to have even if im wrong which i except in this case i am. If the system works and its being looked after then great!</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20090">https://www.riscosopen.org/forum/forums/5/topics/20090</a>
       </address>
     </article>
 
