@@ -7,10 +7,64 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>07 Nov 25 07:00 -0800</lastBuildDate>
+    <lastBuildDate>07 Nov 25 11:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>32-bit acorn hardware • Re: Repair advice, A3000 dimming picture, 5v spade connector dry joint?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469359#p469359</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469359#p469359</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Repair advice, A3000 dimming picture, 5v spade connector dry joint?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469358#p469358</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469358#p469358</guid>
+    </item>    <item>
+      <title>archive requests • Re: tape inlay instructions wanted.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469357#p469357</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469357#p469357</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Repair advice, A3000 dimming picture, 5v spade connector dry joint?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469356#p469356</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469356#p469356</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469355#p469355</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469355#p469355</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: B-Em Tape Overhaul v4.3</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469354#p469354</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469354#p469354</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Econet Teletext server</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469353#p469353</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469353#p469353</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: B-Em</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469352#p469352</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469352#p469352</guid>
+    </item>    <item>
+      <title>off-topic • Re: Shipping Boxes for Beebs</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469351#p469351</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469351#p469351</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Repair advice, A3000 dimming picture, 5v spade connector dry joint?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469350#p469350</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469350#p469350</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m52gva5ekc2r</link>
+      <description>
+        <![CDATA[Preparing for the Retro Computing Festival ( Gaming Edition ) 2025 at The Centre for Computing History in Cambridge next weekend. Here's a Visual Code setup that allows me to build 'Galaforce 2' from its original 6502 source code and deploy the game to an emulator on a PC. Simple, quick workflow!]]>
+      </description>
+      <source:markdown>Preparing for the Retro Computing Festival ( Gaming Edition ) 2025 at The Centre for Computing History in Cambridge next weekend. Here&#39;s a Visual Code setup that allows me to build &#39;Galaforce 2&#39; from its original 6502 source code and deploy the game to an emulator on a PC. Simple, quick workflow!</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m52gva5ekc2r</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m52gkqkou22f</link>
+      <description>
+        <![CDATA[Les Dennis is counting the days to the inevitable dramatisation, isn't he.]]>
+      </description>
+      <source:markdown>Les Dennis is counting the days to the inevitable dramatisation, isn&#39;t he.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m52gkqkou22f</guid>
+    </item>    <item>
       <title>8-bit acorn emulators • Re: Clock Signal now also emulates the Model B.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469345#p469345</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469345#p469345</guid>
@@ -855,6 +909,14 @@ Well, it’s another DIY module designed to stack neatly on top of the existing 
 ![](https://images2.imgbox.com/8d/55/9V6JsrVY_o.jpeg)</source:markdown>
       <guid>cid://www.riscosopen.org:5:20101:159638</guid>
     </item>    <item>
+      <title>ToolboxC++Lib Discussion</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
+      <description>
+        <![CDATA[<p>Yes, one was already in place. If I remember correctly this was when I tried a command line compilation of the hello example. The internal error message was produced when I&#8217;ve tried to run n++ through making a copy and modifying the c++ <span class="caps">DDE</span> front end. The command line shown looks fine, there are a few differences in flags but they were taken care of by changing them in the desc file.</p>]]>
+      </description>
+      <source:markdown>Yes, one was already in place. If I remember correctly this was when I tried a command line compilation of the hello example. The internal error message was produced when I’ve tried to run n++ through making a copy and modifying the c++ DDE front end. The command line shown looks fine, there are a few differences in flags but they were taken care of by changing them in the desc file.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19910:159637</guid>
+    </item>    <item>
       <title>8-bit acorn emulators • Re: Clock Signal now also emulates the Model B.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469301#p469301</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469301#p469301</guid>
@@ -866,14 +928,6 @@ Well, it’s another DIY module designed to stack neatly on top of the existing 
       <title>8-bit acorn emulators • Re: Clock Signal now also emulates the Model B.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469299#p469299</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469299#p469299</guid>
-    </item>    <item>
-      <title>ToolboxC++Lib Discussion</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
-      <description>
-        <![CDATA[<p>Command lines, like Fez&#8217;s, are cool. Did you create an &#8220;o&#8221; directory first?</p>]]>
-      </description>
-      <source:markdown>Command lines, like Fez’s, are cool. Did you create an “o” directory first?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19910:159636</guid>
     </item>    <item>
       <title>32-bit acorn software: other • Re: Sanity Check of TAK in ARM1 Assembler</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469298#p469298</link>
