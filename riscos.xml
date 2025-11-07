@@ -7,10 +7,173 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>06 Nov 25 15:00 -0800</lastBuildDate>
+    <lastBuildDate>07 Nov 25 07:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn emulators • Re: Clock Signal now also emulates the Model B.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469345#p469345</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469345#p469345</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Electron not firing up</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469344#p469344</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469344#p469344</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Need Help with BBC Micro Model B - Issue 7</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469343#p469343</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469343#p469343</guid>
+    </item>    <item>
+      <title>other vintage hardware, software and languages • Zezito in the Glittering Caves - C64 - Forth</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469342#p469342</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469342#p469342</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: EtherWiz - a new fully opensource Ethernet podule</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469341#p469341</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469341#p469341</guid>
+    </item>    <item>
+      <title>new projects and releases: text and graphic adventures • Re: Exploring (fiddling about with) The Quill</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469340#p469340</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469340#p469340</guid>
+    </item>    <item>
+      <title>archive submissions • Re: 30th Anniversary BBC and Electron Collection</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469339#p469339</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469339#p469339</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469338#p469338</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469338#p469338</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Econet Teletext server</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469337#p469337</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469337#p469337</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Econet Teletext server</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469336#p469336</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469336#p469336</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m4zxnvg7i22r</link>
+      <description>
+        <![CDATA[The development studio for 'X2: Wolverine’s Revenge' - Bruntwood Hall, Cheadle, Manchester (2002). This is where we developed the game - on the top floor, formerly the servant's quarters. I'm at the back popping up my head to see what's going on. That arched window is where we are located - top left]]>
+      </description>
+      <source:markdown>The development studio for &#39;X2: Wolverine’s Revenge&#39; - Bruntwood Hall, Cheadle, Manchester (2002). This is where we developed the game - on the top floor, formerly the servant&#39;s quarters. I&#39;m at the back popping up my head to see what&#39;s going on. That arched window is where we are located - top left</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m4zxnvg7i22r</guid>
+    </item>    <item>
+      <title>Guide to Impression</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20098</link>
+      <description>
+        <![CDATA[<p>The <a href="https://www.svrsig.org/software/SuiteBound.zip">Guide to the Impression Suite</a> now comes with a complete worked example of how to turn a document into a RindBind manual. It starts with an Impression Publisher document which is the original manual for Equasor, TableMate etc. that was originally created in Impression. The process to print that as a <span class="caps">PDF</span>, then to extract individual Draw files for each page from that <span class="caps">PDF</span> is described in detail with examples at each stage. Packaging this into a &#8216;RingBind&#8217; file is also described in detail with all the files created at each stage provided. As RingBind reserves space for the Draw file data for four pages, each the size of the largest individual Draw file for a page, it makes sense to reduce the few largest Draw files to a resolution appropriate to screen display rather than printing. The process to do this is also described. A copy of MakeDraw is required.</p>]]>
+      </description>
+      <source:markdown>The [Guide to the Impression Suite](https://www.svrsig.org/software/SuiteBound.zip) now comes with a complete worked example of how to turn a document into a RindBind manual. It starts with an Impression Publisher document which is the original manual for Equasor, TableMate etc. that was originally created in Impression. The process to print that as a PDF, then to extract individual Draw files for each page from that PDF is described in detail with examples at each stage. Packaging this into a ‘RingBind’ file is also described in detail with all the files created at each stage provided. As RingBind reserves space for the Draw file data for four pages, each the size of the largest individual Draw file for a page, it makes sense to reduce the few largest Draw files to a resolution appropriate to screen display rather than printing. The process to do this is also described. A copy of MakeDraw is required.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20098:159652</guid>
+    </item>    <item>
+      <title>Status update for RISC OS 64-bit work</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20104</link>
+      <description>
+        <![CDATA[<p>It&#8217;s been about 4 weeks since I did a status update on the 64-bit <span class="caps">RISC</span> OS work.</p>
+        <p>A lot of distractions over this period, getting married and settling into the new job, but there have been some interesting developments&#8230;</p>
+        <ul>
+        	<li>The `SystemVars` module is pretty much complete now, supporting all the operations and working on both the 32bit and 64bit systems. See <a href="https://github.com/gerph/riscos-systemvars">https://github.com/gerph/riscos-systemvars</a> for the details.</li>
+        	<li>The Wimp Templates subcomponent is currently being worked on as part of the live coding.</li>
+        	<li>The notes in the `riscos64-status` repository have had more updates, with more component details updated.
+        	<ul>
+        		<li>The <span class="caps">BASIC</span> module has been expanded based on notes from Steve Revill.</li>
+        		<li>Each component has also been updated to include its expected state during each phase, which makes it clear what can be expected during development.</li>
+        		<li>Phases now have little percentage completion icons to make it clear how far they have progressed. For example: <img src="https://gist.githubusercontent.com/gerph/c26e8457269506554ec1f7533d2f9aed/raw/Progress-1.svg"></li>
+        		<li>New Languages page gives the explicit progress on language ports. See <a href="https://github.com/gerph/riscos64-status/wiki/Languages">https://github.com/gerph/riscos64-status/wiki/Languages</a> for details.</li>
+        		<li>See <a href="https://github.com/gerph/riscos64-status/wiki">https://github.com/gerph/riscos64-status/wiki</a> for the details and <a href="https://github.com/gerph/riscos64-status/wiki/Progress">https://github.com/gerph/riscos64-status/wiki/Progress</a> for the overall progress.</li>
+        	</ul></li>
+        	<li>Simple port of `PicoC` which allows interactive C calls (including <span class="caps">SWI</span> calls), and makes testing in the 64-bit environment possible without a good <span class="caps">BASIC</span> interpreter. See <a href="https://gitlab.com/gerph/picoc">https://gitlab.com/gerph/picoc</a> for details.</li>
+        	<li>Rudimentary support for Fortran in the build tools, though it&#8217;s not tested much. See <a href="https://asciinema.org/a/753942">https://asciinema.org/a/753942</a> for the first &#8216;hello world&#8217;.</li>
+        	<li>The C library has had a lot of improvements made, mostly in support of other components that have needed them &#8211; largely floating point, but a variety of other functions. See <a href="https://github.com/gerph/riscos64-clib">https://github.com/gerph/riscos64-clib</a> for the sources and release.</li>
+        </ul>
+        <p>On the 17th I&#8217;ll be doing a presentation to <span class="caps">ROUGOL</span> about the progress with <span class="caps">RISC</span> OS Pyromaniac, 64-bit development, tooling and related things, over Zoom.</p>
+        <p>Anyhow, that’s where things are for me. You can always follow the repositories to see what’s being done.</p>
+        <p>As usual, if anyone wants to contribute to these, please speak up.</p>]]>
+      </description>
+      <source:markdown>It’s been about 4 weeks since I did a status update on the 64-bit RISC OS work.
+
+A lot of distractions over this period, getting married and settling into the new job, but there have been some interesting developments…
+
+- The \`SystemVars\` module is pretty much complete now, supporting all the operations and working on both the 32bit and 64bit systems. See [https://github.com/gerph/riscos-systemvars](https://github.com/gerph/riscos-systemvars) for the details.
+- The Wimp Templates subcomponent is currently being worked on as part of the live coding.
+- The notes in the \`riscos64-status\` repository have had more updates, with more component details updated.
+  - The BASIC module has been expanded based on notes from Steve Revill.
+  - Each component has also been updated to include its expected state during each phase, which makes it clear what can be expected during development.
+  - Phases now have little percentage completion icons to make it clear how far they have progressed. For example: ![](https://gist.githubusercontent.com/gerph/c26e8457269506554ec1f7533d2f9aed/raw/Progress-1.svg)
+  - New Languages page gives the explicit progress on language ports. See [https://github.com/gerph/riscos64-status/wiki/Languages](https://github.com/gerph/riscos64-status/wiki/Languages) for details.
+  - See [https://github.com/gerph/riscos64-status/wiki](https://github.com/gerph/riscos64-status/wiki) for the details and [https://github.com/gerph/riscos64-status/wiki/Progress](https://github.com/gerph/riscos64-status/wiki/Progress) for the overall progress.
+- Simple port of \`PicoC\` which allows interactive C calls (including SWI calls), and makes testing in the 64-bit environment possible without a good BASIC interpreter. See [https://gitlab.com/gerph/picoc](https://gitlab.com/gerph/picoc) for details.
+- Rudimentary support for Fortran in the build tools, though it’s not tested much. See [https://asciinema.org/a/753942](https://asciinema.org/a/753942) for the first ‘hello world’.
+- The C library has had a lot of improvements made, mostly in support of other components that have needed them – largely floating point, but a variety of other functions. See [https://github.com/gerph/riscos64-clib](https://github.com/gerph/riscos64-clib) for the sources and release.
+
+On the 17th I’ll be doing a presentation to ROUGOL about the progress with RISC OS Pyromaniac, 64-bit development, tooling and related things, over Zoom.
+
+Anyhow, that’s where things are for me. You can always follow the repositories to see what’s being done.
+
+As usual, if anyone wants to contribute to these, please speak up.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20104:159650</guid>
+    </item>    <item>
+      <title>RO 5.30 Upgrade</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20100</link>
+      <description>
+        <![CDATA[<p>Thank you</p>]]>
+      </description>
+      <source:markdown>Thank you</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20100:159649</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 9th November at 1pm.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20103</link>
+      <description>
+        <![CDATA[<p>This Sunday – 9th November, at 1pm – I&#8217;m continuing the Wimp template manipulation.</p>
+        <p>Come along if you like – <a href="https://youtube.com/live/xaTtRy0TEYU?feature=share">https://youtube.com/live/xaTtRy0TEYU?feature=share</a><br />
+         – or you can always watch the video afterwards at the same address.</p>
+        <p>This week, I&#8217;ll be working on the decoding the template data for the Window Manager.</p>
+        <p>Also, fair warning that there won&#8217;t be a session on the 16th November, as I will be preparing for a presentation to <span class="caps">ROUGOL</span>.</p>
+        <hr />
+        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
+        <p>The functionality we need to implement is documented in the riscos64-status repository (<a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_Templates">https://github.com/gerph/riscos64-status/wiki/Module_W…</a>), and might take a couple of sessions to implement.</p>
+        <p>In general, I like to take the coding far enough through implementation to have useful code which provides most (if not all) of the features in the component, and includes at least rudimentary tests and automated builds. All this is open, within the GitHub repository &#8211; <a href="https://github.com/gerph/riscos-wimp-templates">https://github.com/gerph/riscos-wimp-templates</a>.</p>
+        <p>So far we have:</p>
+        <ul>
+        	<li>A small program that opens and closes template files.</li>
+        	<li>A dummy module that performs the template opening and closing when SWIs are called.</li>
+        	<li>Rudimentary tests to check we don&#8217;t crash.</li>
+        </ul>
+        <hr />
+        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rEklqsXOlxlqCAoAJDF8cXG">https://www.youtube.com/playlist?list=PLVVIu906Y7rEklq…</a></p>
+        <p>Or the sequence is also available linked from my presentations website: <a href="https://presentation.riscos.online/live/wimptemplates.html">https://presentation.riscos.online/live/wimptemplates.…</a></p>]]>
+      </description>
+      <source:markdown>This Sunday – 9th November, at 1pm – I’m continuing the Wimp template manipulation.
+
+Come along if you like – [https://youtube.com/live/xaTtRy0TEYU?feature=share](https://youtube.com/live/xaTtRy0TEYU?feature=share)
+
+– or you can always watch the video afterwards at the same address.
+
+This week, I’ll be working on the decoding the template data for the Window Manager.
+
+Also, fair warning that there won’t be a session on the 16th November, as I will be preparing for a presentation to ROUGOL.
+
+* * *
+
+For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
+
+The functionality we need to implement is documented in the riscos64-status repository ( [https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_Templates)), and might take a couple of sessions to implement.
+
+In general, I like to take the coding far enough through implementation to have useful code which provides most (if not all) of the features in the component, and includes at least rudimentary tests and automated builds. All this is open, within the GitHub repository – [https://github.com/gerph/riscos-wimp-templates](https://github.com/gerph/riscos-wimp-templates).
+
+So far we have:
+
+- A small program that opens and closes template files.
+- A dummy module that performs the template opening and closing when SWIs are called.
+- Rudimentary tests to check we don’t crash.
+
+* * *
+
+If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rEklq…](https://www.youtube.com/playlist?list=PLVVIu906Y7rEklqsXOlxlqCAoAJDF8cXG)
+
+Or the sequence is also available linked from my presentations website: [https://presentation.riscos.online/live/wimptemplates.…](https://presentation.riscos.online/live/wimptemplates.html)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20103:159648</guid>
+    </item>    <item>
       <title>32-bit acorn hardware • Re: EtherWiz - a new fully opensource Ethernet podule</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469321#p469321</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469321#p469321</guid>
@@ -49,176 +212,215 @@
         <p>I have outlined a possible syntax/semantics for a simplified <span class="caps">OOP</span> style record structure description below.</p>
         <p>Let me know what you think.</p>
         <p><span class="caps">OUTLINE</span> OF <span class="caps">CONCEPT</span>:</p>
-        <p>&#8212; Defininng a record type</p>
-        <p>&#8212; No Args (fixed size)</p>
+        <p>Defininng a record type</p>
+        <p>No Args (fixed size)</p>
+        <blockquote>
         <p><span class="caps">DEF</span> RECmyrec<br />
-        		A%	&#8212;	Integer field<br />
-        		B	&#8212;	Floating field<br />
-        		C$	&#8212;	String field	<br />
-        		D@	&#8212;	Pointer field (any RECxxx) initial value <span class="caps">NULL</span><br />
-        		<span class="caps">DIM</span> E% 1024	&#8212;	Raw byte block field 1kB inline in record, use with indirection operators<br />
-        		<span class="caps">DIM</span> F%(9)	&#8212;	Array of 10 ints<br />
-        		<span class="caps">DIM</span> G(9)	&#8212;	Array of 10 floats<br />
-        		<span class="caps">DIM</span> H$(9)	&#8212;	Array of 10 strings<br />
-        		<span class="caps">DIM</span> I@(9)	&#8212;	Array of 10 pointer to record initial value <span class="caps">NULL</span></p>
-        <p><span class="caps">ENDREC</span></p>
-        <p>&#8212; With Args (variable size and initial values)</p>
-        <p><span class="caps">DEF</span> RECmyvarrec(n$,m%,blocksize%)</p>
-        <p>name$ = n$		&#8212;  Initialise value<br />
-        		<span class="caps">DIM</span> list$(m%)	&#8212;	n+1 strings &#8211; record contains a pointer to the array<br />
-        		<span class="caps">DIM</span> block% blocksize%*2+38	&#8212;	can do calculations; specifies number of bytes, numbered 0 to result-1</p>
-        <p><span class="caps">ENDREC</span></p>
+        A%	//	Integer field<br />
+        B	//	Floating field<br />
+        C$	//	String field	<br />
+        D@	//	Pointer field (any RECxxx) initial value <span class="caps">NULL</span><br />
+        <span class="caps">DIM</span> E% 1024	//	Raw byte block field 1kB inline in record, use with indirection operators<br />
+        <span class="caps">DIM</span> F%(9)	//	Array of 10 ints<br />
+        <span class="caps">DIM</span> G(9)	//	Array of 10 floats<br />
+        <span class="caps">DIM</span> H$(9)	//	Array of 10 strings<br />
+        <span class="caps">DIM</span> I@(9)	//	Array of 10 pointer to record initial value <span class="caps">NULL</span><br />
+        <span class="caps">ENDREC</span></p>
+        </blockquote>
+        <p>With Args (variable size and initial values)</p>
+        <blockquote>
+        <p><span class="caps">DEF</span> RECmyvarrec(n$,m%,blocksize%)<br />
+        name$ = n$		//  Initialise value<br />
+        <span class="caps">DIM</span> list$(m%)	//	n+1 strings &#8211; record contains a pointer to the array<br />
+        <span class="caps">DIM</span> block% blocksize%*2+38	//	can do calculations; specifies number of bytes, numbered 0 to result-1<br />
+        <span class="caps">ENDREC</span></p>
+        </blockquote>
         <p></p>
-        <p>&#8212; Global or Private</p>
-        <p>R@ = RECmyrec 	&#8212; Globals use the heap (I would prefer if the language had <span class="caps">GLOBAL</span> to specify global varsfor symmetry/clarity)<br />
-        			&#8212; this version of the creation syntax does not make it obvious that allocation is taking place here</p>
-        <p><span class="caps">GLOBAL</span> R@ = RECmyrec  &#8212; Like this.</p>
-        <p>R@ = <span class="caps">NEW</span> RECobject   <del>- alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.<br />
-        			 -</del> prefer this</p>
-        <p><span class="caps">PRIVATE</span> T@ = <span class="caps">NEW</span> RECmyrec	&#8212;	PRIVATEs use the heap. Same as <span class="caps">PRIVATE</span> in <span class="caps">RTR</span> <span class="caps">BBC</span> <span class="caps">BASIC</span></p>
+        <p>Global or Private</p>
+        <blockquote>
+        <p>R@ = RECmyrec 	// Globals use the heap (I would prefer if the language had <span class="caps">GLOBAL</span> to specify global varsfor symmetry/clarity)<br />
+        			// this version of the creation syntax does not make it obvious that allocation is taking place here</p>
+        </blockquote>
+        <blockquote>
+        <p><span class="caps">GLOBAL</span> R@ = RECmyrec  // opt global designator</p>
+        </blockquote>
+        <blockquote>
+        <p>R@ = <span class="caps">NEW</span> RECobject   // alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.</p>
+        </blockquote>
+        <p></p>
+        <blockquote>
+        <p><span class="caps">PRIVATE</span> T@ = <span class="caps">NEW</span> RECmyrec	// PRIVATEs use the heap. Same as <span class="caps">PRIVATE</span> in <span class="caps">RTR</span> <span class="caps">BBC</span> <span class="caps">BASIC</span></p>
+        </blockquote>
         <p><span class="caps">STATIC</span> &#8212; used for &#8220;class variables/methods&#8221; see below</p>
-        <p>&#8212; I prefer the use of <span class="caps">NEW</span> rather than <span class="caps">DIM</span> because <span class="caps">DIM</span> is already used for Arrays and Structures</p>
-        <p>&#8212; Stack (<span class="caps">LOCAL</span> vars)</p>
-        <p><span class="caps">LOCAL</span> S@ = <span class="caps">NEW</span> RECmyvarrec(&#8220;Bob&#8221;,9,256)	&#8212; Locals also use the heap because we will often export the reference from the scope expecting the record to persist.</p>
-        <p><del>- When <span class="caps">LOCAL</span> pointer variable goes out of scope, the pointer on the stack is deleted, but the record (on heap) remains and may cause memory leaks, <br />
-        	-</del> <span class="caps">CLEANUP</span> should be used periodically.</p>
-        <p><del>- If it is known that the record is no longer needed, it should be deleted before it goes out of scope.<br />
-        	-</del> The interpreter could detect escaping references and delete those that don&#8217;t, this can be complex with subtle errors, so manual or GC is easier.<br />
-        	&#8212;  Alternatively use Reference Counting (simpler, but risks memory leaks)</p>
+        <p>I prefer the use of <span class="caps">NEW</span> rather than <span class="caps">DIM</span> because <span class="caps">DIM</span> is already used for Arrays and Structures</p>
+        <p>Stack (<span class="caps">LOCAL</span> vars)</p>
+        <blockquote>
+        <p><span class="caps">LOCAL</span> S@ = <span class="caps">NEW</span> RECmyvarrec(&#8220;Bob&#8221;,9,256)	// Locals also use the heap because we will often export the reference from the scope expecting the record to persist.</p>
+        </blockquote>
+        <p>When <span class="caps">LOCAL</span> pointer variable goes out of scope, the pointer on the stack is deleted, but the record (on heap) remains and may cause memory leaks, <br />
+        <span class="caps">CLEANUP</span> should be used periodically.</p>
+        <p>If it is known that the record is no longer needed, it should be deleted before it goes out of scope.<br />
+        The interpreter could detect escaping references and delete those that don&#8217;t, this can be complex with subtle errors, so manual or GC is easier.<br />
+        Alternatively use Reference Counting (simpler, but risks memory leaks)</p>
         <p></p>
-        <p>&#8212; Delete Records and Release Heap Memory (manual GC)</p>
+        <p>Delete Records and Release Heap Memory (manual GC)</p>
+        <blockquote>
         <p><span class="caps">DEL</span> p@	&#8212;	frees the storage fields (strings, arrays, blocks) then frees the record, does <span class="caps">NOT</span> follow pointer fields.</p>
+        </blockquote>
+        <blockquote>
         <p><span class="caps">CLEANUP</span>	&#8212; executed outside any <span class="caps">PROC</span> or FN, marks all records reachable via global and private pointer variables then sweeps unmarked heap, does <span class="caps">NOT</span> follow pointers stored in Raw byte data blocks.</p>
-        <p>&#8212;			Method:<br />
-        	&#8212;				Add all global &amp; static pointers to the keep queue<br />
-        	&#8212;				While keep queue not empty<br />
-        	&#8212;					Pull the next pointer from the keep queue as current record<br />
-        	&#8212;					If current record not marked<br />
-        	&#8212;						Add all pointers to records to the keep queue<br />
-        	&#8212;						Mark current record for retention<br />
-        	&#8212;				Sweep the record heap freeing all unmarked records using the <span class="caps">DEL</span> operation above.</p>
+        </blockquote>
+        <p>Method:<br />
+        Add all global &amp; static pointers to the keep queue<br />
+        While keep queue not empty<br />
+        &#8230;.Pull the next pointer from the keep queue as current record<br />
+        &#8230;.If current record not marked<br />
+        &#8230;&#8230;..Add all pointers to records to the keep queue<br />
+        &#8230;&#8230;..Mark current record for retention<br />
+        Sweep the record heap freeing all unmarked records using the <span class="caps">DEL</span> operation above.</p>
+        <blockquote>
         <p><span class="caps">DELREC</span> q@ &#8212; as <span class="caps">DEL</span> above, <span class="caps">BUT</span> it also follows pointer chains deleting all linked records, does <span class="caps">NOT</span> follow pointers stored in Raw byte data blocks.</p>
-        <p>&#8212;			Method:<br />
-        	&#8212;				Add q@ to the delete queue<br />
-        	&#8212;				While delete queue not empty<br />
-        	&#8212;					Pull the next pointer from the delete queue as current record<br />
-        	&#8212;					If current record not marked<br />
-        	&#8212;						Add all pointers to the delete queue<br />
-        	&#8212;						Free all the storage fields<br />
-        	&#8212;						Mark current record for deletion<br />
-        	&#8212;				Sweep the record heap freeing all marked records</p>
-        <p>&#8212; Access to fields</p>
-        <p>&#8212; The field access operator is . followed by the name of a field.</p>
+        </blockquote>
+        <p>Method:<br />
+        Add q@ to the delete queue<br />
+        While delete queue not empty<br />
+        &#8230;.Pull the next pointer from the delete queue as current record<br />
+        &#8230;.If current record not marked<br />
+        &#8230;&#8230;..Add all pointers to the delete queue<br />
+        &#8230;&#8230;..Free all the storage fields<br />
+        &#8230;&#8230;..Mark current record for deletion<br />
+        Sweep the record heap freeing all marked records</p>
+        <p>Access to fields</p>
+        <p>The field access operator is . followed by the name of a field.</p>
+        <blockquote>
         <p>name$ = P@.name$</p>
+        </blockquote>
         <p></p>
-        <p>&#8212; Procedure Fields / methods</p>
-        <p><span class="caps">DEF</span> RECobject</p>
-        <p>A%<br />
-        			B%</p>
-        <p><span class="caps">DEF</span> PROCmethod1(a%,b%) &#8212; <span class="caps">LOCAL</span> vars and params must not have the same name as a record field!<br />
+        <p>Procedure Fields / methods</p>
+        <blockquote>
+        <p><span class="caps">DEF</span> RECobject<br />
+        			A%<br />
+        			B%<br />
+        			<span class="caps">DEF</span> PROCmethod1(a%,b%) // <span class="caps">LOCAL</span> vars and params must not have the same name as a record field!<br />
         				A%=a%-b%<br />
         				B%=a%+b%<br />
-        			<span class="caps">ENDPROC</span></p>
-        <p><span class="caps">DEF</span> FNfunc1&#8230;.<br />
-        			<span class="caps">DEF</span> PROCmethod2&#8230;&#8230;</p>
-        <p><span class="caps">ENDREC</span></p>
-        <p>&#8212; Usage of procedure fields:</p>
-        <p>R@ = <span class="caps">NEW</span> RECobject   &#8212; alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.</p>
-        <p>R@.PROCmethod1(56,99)</p>
-        <p>q = R@.FNfunc1</p>
-        <p>&#8212; Record Extension and overrides</p>
-        <p><span class="caps">DEF</span> RECparent(args)</p>
-        <p>name$</p>
-        <p><span class="caps">DEF</span> PROCmethod1:<span class="caps">ENDPROC</span>  &#8212; an empty method, calling it does nothing, acts as a placeholder for later redefinition.</p>
-        <p><span class="caps">DEF</span> PROCmethod2(blah%)<br />
-        				&#8212; Some code here<br />
-        			<span class="caps">ENDPROC</span></p>
-        <p><span class="caps">DEF</span> PROCmethod3(blah%)<br />
-        				&#8212; Some other code here<br />
-        			<span class="caps">ENDPROC</span></p>
-        <p><span class="caps">DEF</span> PROCmethod4:<span class="caps">UNDEFINED</span>:<span class="caps">ENDPROC</span> &#8212; an undefined method placeholder, calling it throws an error, must redefine, like abstract in other languages.</p>
-        <p><span class="caps">ENDREC</span></p>
-        <p><span class="caps">DEF</span> RECchild1(args) <span class="caps">EXTEND</span> RECparent(arg exprs) &#8212; allows inherited fields to be initialised/dimensioned</p>
-        <p>address$	&#8212;	a new field</p>
-        <p><span class="caps">DEF</span> PROCmethod1	&#8212;	this overrides any method with the same name, implements something for method1.<br />
-        				&#8212; Do something<br />
-        			<span class="caps">ENDPROC</span></p>
-        <p>&#8212; PROCmethod2 is not defined here, so the one from the parent is inherited.</p>
-        <p><span class="caps">DEF</span> PROCmethod3(blah%)	&#8212;	overrides PROCmethod3<br />
-        				&#8212; Do this<br />
+        			<span class="caps">ENDPROC</span><br />
+        			<span class="caps">DEF</span> FNfunc1&#8230;.<br />
+        			<span class="caps">DEF</span> PROCmethod2&#8230;&#8230;<br />
+        		<span class="caps">ENDREC</span></p>
+        </blockquote>
+        <p>Usage of procedure fields:</p>
+        <blockquote>
+        <p>R@ = <span class="caps">NEW</span> RECobject   // alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.<br />
+        		R@.PROCmethod1(56,99)<br />
+        		q = R@.FNfunc1</p>
+        </blockquote>
+        <p>Record Extension and overrides</p>
+        <blockquote>
+        <p><span class="caps">DEF</span> RECparent(args)<br />
+        			name$<br />
+        			<span class="caps">DEF</span> PROCmethod1:<span class="caps">ENDPROC</span>  // an empty method, calling it does nothing, acts as a placeholder for later redefinition.<br />
+        			<span class="caps">DEF</span> PROCmethod2(blah%)<br />
+        				// Some code here<br />
+        			<span class="caps">ENDPROC</span><br />
+        			<span class="caps">DEF</span> PROCmethod3(blah%)<br />
+        				// Some other code here<br />
+        			<span class="caps">ENDPROC</span><br />
+        			<span class="caps">DEF</span> PROCmethod4:<span class="caps">UNDEFINED</span>:<span class="caps">ENDPROC</span> &#8212; an undefined method placeholder, calling it throws an error, must redefine, like abstract in other languages.<br />
+        		<span class="caps">ENDREC</span></p>
+        </blockquote>
+        <blockquote>
+        <p><span class="caps">DEF</span> RECchild1(args) <span class="caps">EXTEND</span> RECparent(arg exprs) // allows inherited fields to be initialised/dimensioned<br />
+        			address$	//	a new field<br />
+        			<span class="caps">DEF</span> PROCmethod1	//	this overrides any method with the same name, implements something for method1.<br />
+        				// Do something<br />
+        			<span class="caps">ENDPROC</span><br />
+        			// PROCmethod2 is not defined here, so the one from the parent is inherited.<br />
+        			<span class="caps">DEF</span> PROCmethod3(blah%)	//	overrides PROCmethod3<br />
+        				// Do this<br />
         				<span class="caps">PARENT</span>.PROCmethod3(blah%+8)	&#8212;	here we call PROCmethod3 from the parent.<br />
-        				&#8212; Do That<br />
-        			<span class="caps">ENDPROC</span></p>
-        <p><span class="caps">DEF</span> PROCmethod4	&#8212;	this defines PROCmethod4 for the first time.<br />
-        				&#8212; Do something &#8212;	Calling <span class="caps">PARENT</span>.method4 here throws an error (default halt program)<br />
-        			<span class="caps">ENDPROC</span></p>
-        <p><span class="caps">ENDREC</span></p>
-        <p><span class="caps">PARENT</span> 	&#8212; passes control to an overridden method, that method may have been inherited through several levels of extension, it will activate the last<br />
-        			&#8212; matching definition.</p>
-        <p><span class="caps">THIS</span> &#8212; refers to the current object within a method, it is implied when accessing fields within methods.</p>
-        <p><span class="caps">TYPE</span>$ <del>- refers to the type of a record as a string e.g. &#8220;RECchild1&#8221;<br />
-        	<span class="caps">TYPE</span>  -</del> refers to the type of the record internal representation, can be used for type tests <br />
-        		  &#8212; eg <br />
-        				IF <span class="caps">THIS</span>.<span class="caps">TYPE</span> = RECchild1 <span class="caps">THEN</span> &#8230;</p>
-        <p>&#8212; <span class="caps">TYPE</span> and <span class="caps">TYPE</span>$ work on any pointer variable as well. to allow type comparisons (compare 2 pointers or pointer against <span class="caps">TYPE</span> value):</p>
-        <p>IF R@.<span class="caps">TYPE</span> = P@.<span class="caps">TYPE</span> &#8212; do they have the same dynamic type?</p>
-        <p>IF R@.<span class="caps">TYPE</span> &lt;&gt; RECsometype &#8212; R@ is <span class="caps">NOT</span> pointing to a RECsometype?</p>
-        <p>IF R@.<span class="caps">TYPE</span> &gt; P@.<span class="caps">TYPE</span> &#8212; is R@ pointing to a supertype of P@?</p>
-        <p>IF R@.<span class="caps">TYPE</span> &gt;= P@.<span class="caps">TYPE</span> &#8212; is R@ the same OR a supertype of P@?</p>
-        <p>IF R@.<span class="caps">TYPE</span> &lt; RECparent &#8212; is R@ a subtype of RECparent?</p>
-        <p>IF R@.<span class="caps">TYPE</span> &lt;= RECparent &#8212; is R@ the same as or a subtype of RECparent?</p>
-        <p>&#8212; Calling an undefined method is a fatal error and will halt the program.</p>
-        <p>&#8212; Fields are not redefined/overridden and must only be named once in an extension chain.</p>
-        <p>&#8212; There is no multiple inheritance, interfaces, generics as these are complex and hard to do correctly.</p>
+        				// Do That<br />
+        			<span class="caps">ENDPROC</span><br />
+        			<span class="caps">DEF</span> PROCmethod4	//	this defines PROCmethod4 for the first time.<br />
+        				// Do something. Calling <span class="caps">PARENT</span>.method4 here throws an error (default halt program)<br />
+        			<span class="caps">ENDPROC</span><br />
+        		<span class="caps">ENDREC</span></p>
+        </blockquote>
+        <p><span class="caps">PARENT</span></p>
+        <p>// passes control to an overridden method, that method may have been inherited through several levels of extension, it will activate the last matching definition.</p>
+        <p><span class="caps">THIS</span></p>
+        // refers to the current object within a method, it is implied when accessing fields within methods.
+        <p><span class="caps">TYPE</span>$</p>
+        <p>// refers to the type of a record as a string e.g. &#8220;RECchild1&#8221;</p>
+        <p><span class="caps">TYPE</span></p>
+        <p>// refers to the type of the record internal representation, can be used for type tests</p>
+        <blockquote>
+        <p>IF <span class="caps">THIS</span>.<span class="caps">TYPE</span> = RECchild1 <span class="caps">THEN</span> &#8230;</p>
+        </blockquote>
+        <p><span class="caps">TYPE</span> and <span class="caps">TYPE</span>$ work on any pointer variable as well. to allow type comparisons (compare 2 pointers or pointer against <span class="caps">TYPE</span> value):</p>
+        <blockquote>
+        <p>IF R@.<span class="caps">TYPE</span> = P@.<span class="caps">TYPE</span> // do they have the same dynamic type?<br />
+        		IF R@.<span class="caps">TYPE</span> &lt;&gt; RECsometype // R@ is <span class="caps">NOT</span> pointing to a RECsometype?<br />
+        		IF R@.<span class="caps">TYPE</span> &gt; P@.<span class="caps">TYPE</span> // is R@ pointing to a supertype of P@?<br />
+        		IF R@.<span class="caps">TYPE</span> &gt;= P@.<span class="caps">TYPE</span> // is R@ the same OR a supertype of P@?<br />
+        		IF R@.<span class="caps">TYPE</span> &lt; RECparent // is R@ a subtype of RECparent?<br />
+        		IF R@.<span class="caps">TYPE</span> &lt;= RECparent // is R@ the same as or a subtype of RECparent?</p>
+        </blockquote>
+        <p>Calling an undefined method is a fatal error and will halt the program.</p>
+        <p>Fields are not redefined/overridden and must only be named once in an extension chain.</p>
+        <p>There is no multiple inheritance, interfaces, generics as these are complex and hard to do correctly.</p>
         <p></p>
-        <p>&#8212; Managing Namespace Pollution and example of &#8220;class&#8221; var/method</p>
-        <p><del>- If a program has a large number of record types with lots of internal fields and methods that the user of the record does not need to touch<br />
-        	-</del> the interface becomes a confusing mess.</p>
-        <p>&#8212; Most <span class="caps">OOP</span> languages allow marking fields and methods as private/public, etc</p>
-        <p><del>- I propose that for the <span class="caps">BASIC</span> extension above that all fields and methods are private by default and only<br />
-        	-</del> visible inside the <span class="caps">REC</span> structure and by any child <span class="caps">REC</span> that extends from it.</p>
-        <p><del>- To make things visible to the program at large, fields and methods are marked with an export mark &#8217;&lt;</del>&#8217;</p>
-        <p><span class="caps">DEF</span> RECobject</p>
-        <p>&lt;-	A%		&#8212; A% is visible to the whole program as MyPtr@.A%<br />
-        			B%		&#8212; B% is only visible to methods inside RECobject fatal error to attempt access outside.</p>
-        <p>&lt;-	<span class="caps">STATIC</span> C%	&#8212; this is global to all instances of RECobject</p>
-        <p>&lt;-	<span class="caps">DEF</span> PROCmethod1(a%,b%) &#8212; Can be called anywhere as MyPtr@.PROCmethod1(&#8230;)<br />
+        <p>Managing Namespace Pollution and example of &#8220;class&#8221; var/method</p>
+        <p>If a program has a large number of record types with lots of internal fields and methods that the user of the record does not need to touch the interface becomes a confusing mess.</p>
+        <p>Most <span class="caps">OOP</span> languages allow marking fields and methods as private/public, etc</p>
+        <p>I propose that for the <span class="caps">BASIC</span> extension above that all fields and methods are private by default and only visible inside the <span class="caps">REC</span> structure and by any child <span class="caps">REC</span> that extends from it.</p>
+        <p>To make things visible to the program at large, fields and methods are marked with an export mark &#8216;&lt;-&#8217;</p>
+        <blockquote>
+        <p><span class="caps">DEF</span> RECobject<br />
+        		&lt;-	A%		// A% is visible to the whole program as MyPtr@.A%<br />
+        			B%		// B% is only visible to methods inside RECobject fatal error to attempt access outside.<br />
+        		&lt;-	<span class="caps">STATIC</span> C%	// this is global to all instances of RECobject<br />
+        		&lt;-	<span class="caps">DEF</span> PROCmethod1(a%,b%) // Can be called anywhere as MyPtr@.PROCmethod1(&#8230;)<br />
         				A%=a%-b%<br />
         				B%=a%+b%<br />
-        			<span class="caps">ENDPROC</span></p>
-        <p><span class="caps">DEF</span> FNfunc1		&#8212; Can be called inside PROCmethod1 or PROCmethod2 or FNfunc1 as <span class="caps">THIS</span>.FNfunc1(&#8230;) or <span class="caps">PARENT</span>.FNfunc1 (if inherited)<br />
-        				= C%</p>
-        <p>&lt;-	<span class="caps">DEF</span> PROCmethod2	&#8212; Can be called anywhere as MyPtr@.PROCmethod2(&#8230;)<br />
+        			<span class="caps">ENDPROC</span><br />
+        			<span class="caps">DEF</span> FNfunc1		// Can be called inside PROCmethod1 or PROCmethod2 or FNfunc1 as <span class="caps">THIS</span>.FNfunc1(&#8230;) or <span class="caps">PARENT</span>.FNfunc1 (if inherited)<br />
+        				= C%<br />
+        		&lt;-	<span class="caps">DEF</span> PROCmethod2	// Can be called anywhere as MyPtr@.PROCmethod2(&#8230;)<br />
         				A% = <span class="caps">THIS</span>.FNfunc1<br />
-        			<span class="caps">ENDPROC</span></p>
-        <p>&lt;-	<span class="caps">STATIC</span> <span class="caps">DEF</span> PROCdouble <del>- affects all instances, can be called without any live instance<br />
-        				C% = C% * 2   -</del> Can only manipulate <span class="caps">STATIC</span> fields and call <span class="caps">STATIC</span> methods/functions<br />
-        			<span class="caps">ENDPROC</span></p>
-        <p><span class="caps">ENDREC</span></p>
-        <p>&#8212; The exported <span class="caps">API</span> of this <span class="caps">REC</span> is:</p>
-        <p><span class="caps">DEF</span> RECobject</p>
-        <p>&lt;-	A%		&#8212; A% is visible to the whole program as MyPtr@.A%</p>
-        <p>&lt;-	<span class="caps">STATIC</span> C%	&#8212; this is global to all instances of RECobject</p>
-        <p>&lt;-	<span class="caps">DEF</span> PROCmethod1(a%,b%) &#8212; Can be called anywhere as MyPtr@.PROCmethod1(&#8230;)</p>
-        <p>&lt;-	<span class="caps">DEF</span> PROCmethod2	&#8212; Can be called anywhere as MyPtr@.PROCmethod2(&#8230;)</p>
-        <p>&lt;-	<span class="caps">STATIC</span> <span class="caps">DEF</span> PROCdouble &#8212; affects all instances, can be called without any live instance</p>
-        <p><span class="caps">ENDREC</span></p>
+        			<span class="caps">ENDPROC</span><br />
+        		&lt;-	<span class="caps">STATIC</span> <span class="caps">DEF</span> PROCdouble // affects all instances, can be called without any live instance<br />
+        				C% = C% * 2   // Can only manipulate <span class="caps">STATIC</span> fields and call <span class="caps">STATIC</span> methods/functions<br />
+        			<span class="caps">ENDPROC</span><br />
+        		<span class="caps">ENDREC</span></p>
+        </blockquote>
+        <p>The exported <span class="caps">API</span> of this <span class="caps">REC</span> is:</p>
+        <blockquote>
+        <p><span class="caps">DEF</span> RECobject<br />
+        		&lt;-	A%		// A% is visible to the whole program as MyPtr@.A%<br />
+        		&lt;-	<span class="caps">STATIC</span> C%	// this is global to all instances of RECobject<br />
+        		&lt;-	<span class="caps">DEF</span> PROCmethod1(a%,b%) // Can be called anywhere as MyPtr@.PROCmethod1(&#8230;)			<br />
+        		&lt;-	<span class="caps">DEF</span> PROCmethod2	// Can be called anywhere as MyPtr@.PROCmethod2(&#8230;)	<br />
+        		&lt;-	<span class="caps">STATIC</span> <span class="caps">DEF</span> PROCdouble // affects all instances, can be called without any live instance	<br />
+        		<span class="caps">ENDREC</span></p>
+        </blockquote>
         <p></p>
-        <p>&#8212; example usage outside the definition</p>
-        <p>RECobject.C% = 5  &#8212; set the class var C% to 5 for all RECobjects</p>
-        <p>R@ = <span class="caps">NEW</span> RECobject<br />
-        		R@.PROCmethod1(10,20)<br />
-        		<span class="caps">PRINT</span> R@.A%  &#8212; prints -10</p>
-        <p>R@.PROCmethod2 <br />
-        		<span class="caps">PRINT</span> R@.A%  <del>- prints 5<br />
-        		<span class="caps">DEL</span> R@       -</del> delete the record</p>
-        <p>RECobject.PROCdouble  &#8212; there are no live instances at this time</p>
-        <p>p@ = <span class="caps">NEW</span> RECobject<br />
+        <p>Example usage outside the definition</p>
+        <p>RECobject.C% = 5  // set the class var C% to 5 for all RECobjects<br />
+        		R@ = <span class="caps">NEW</span> RECobject<br />
+        		R@.PROCmethod1(20,10)<br />
+        		<span class="caps">PRINT</span> R@.A%  // prints 10<br />
+        		R@.PROCmethod2 <br />
+        		<span class="caps">PRINT</span> R@.A%  // prints 5<br />
+        		<span class="caps">DEL</span> R@       // delete the record<br />
+        		RECobject.PROCdouble  // there are no live instances at this time<br />
+        		p@ = <span class="caps">NEW</span> RECobject<br />
         		p@.PROCmethod1(100, 15)<br />
-        		<span class="caps">PRINT</span> p@.A%  &#8212; prints 85</p>
-        <p>p@.PROCmethod2 <br />
-        		<span class="caps">PRINT</span> p@.A%  <del>- prints 10, as C% was doubled by PROCdouble<br />
-        		<span class="caps">DEL</span> p@       -</del> delete the record</p>]]>
+        		<span class="caps">PRINT</span> p@.A%  // prints 85<br />
+        		p@.PROCmethod2 <br />
+        		<span class="caps">PRINT</span> p@.A%  // prints 10, as C% was doubled by PROCdouble<br />
+        		<span class="caps">DEL</span> p@       // delete the record</p>
+        <p><strong>Sorry about the terrible formatting, the forum editor wipes indentation.</strong></p>]]>
       </description>
       <source:markdown>I have always thought that BBCBASIC needed records.
 
@@ -234,335 +436,335 @@ Let me know what you think.
 
 OUTLINE OF CONCEPT:
 
-— Defininng a record type
+Defininng a record type
 
-— No Args (fixed size)
+No Args (fixed size)
 
-DEF RECmyrec
+&#62; DEF RECmyrec
+&#62;
+&#62; A% // Integer field
+&#62;
+&#62; B // Floating field
+&#62;
+&#62; C$ // String field
+&#62;
+&#62; D@ // Pointer field (any RECxxx) initial value NULL
+&#62;
+&#62; DIM E% 1024 // Raw byte block field 1kB inline in record, use with indirection operators
+&#62;
+&#62; DIM F%(9) // Array of 10 ints
+&#62;
+&#62; DIM G(9) // Array of 10 floats
+&#62;
+&#62; DIM H$(9) // Array of 10 strings
+&#62;
+&#62; DIM I@(9) // Array of 10 pointer to record initial value NULL
+&#62;
+&#62; ENDREC
 
-A% — Integer field
+With Args (variable size and initial values)
 
-B — Floating field
+&#62; DEF RECmyvarrec(n$,m%,blocksize%)
+&#62;
+&#62; name$ = n$ // Initialise value
+&#62;
+&#62; DIM list$(m%) // n+1 strings – record contains a pointer to the array
+&#62;
+&#62; DIM block% blocksize%\*2+38 // can do calculations; specifies number of bytes, numbered 0 to result-1
+&#62;
+&#62; ENDREC
 
-C$ — String field
+Global or Private
 
-D@ — Pointer field (any RECxxx) initial value NULL
+&#62; R@ = RECmyrec // Globals use the heap (I would prefer if the language had GLOBAL to specify global varsfor symmetry/clarity)
+&#62;
+&#62; // this version of the creation syntax does not make it obvious that allocation is taking place here
 
-DIM E% 1024 — Raw byte block field 1kB inline in record, use with indirection operators
+&#62; GLOBAL R@ = RECmyrec // opt global designator
 
-DIM F%(9) — Array of 10 ints
+&#62; R@ = NEW RECobject // alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.
 
-DIM G(9) — Array of 10 floats
-
-DIM H$(9) — Array of 10 strings
-
-DIM I@(9) — Array of 10 pointer to record initial value NULL
-
-ENDREC
-
-— With Args (variable size and initial values)
-
-DEF RECmyvarrec(n$,m%,blocksize%)
-
-name$ = n$ — Initialise value
-
-DIM list$(m%) — n+1 strings – record contains a pointer to the array
-
-DIM block% blocksize%\*2+38 — can do calculations; specifies number of bytes, numbered 0 to result-1
-
-ENDREC
-
-— Global or Private
-
-R@ = RECmyrec — Globals use the heap (I would prefer if the language had GLOBAL to specify global varsfor symmetry/clarity)
-
-— this version of the creation syntax does not make it obvious that allocation is taking place here
-
-GLOBAL R@ = RECmyrec — Like this.
-
-R@ = NEW RECobject \- alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.
-
- - prefer this
-
-PRIVATE T@ = NEW RECmyrec — PRIVATEs use the heap. Same as PRIVATE in RTRBBCBASIC
+&#62; PRIVATE T@ = NEW RECmyrec // PRIVATEs use the heap. Same as PRIVATE in RTRBBCBASIC
 
 STATIC — used for “class variables/methods” see below
 
-— I prefer the use of NEW rather than DIM because DIM is already used for Arrays and Structures
+I prefer the use of NEW rather than DIM because DIM is already used for Arrays and Structures
 
-— Stack (LOCAL vars)
+Stack (LOCAL vars)
 
-LOCAL S@ = NEW RECmyvarrec(“Bob”,9,256) — Locals also use the heap because we will often export the reference from the scope expecting the record to persist.
+&#62; LOCAL S@ = NEW RECmyvarrec(“Bob”,9,256) // Locals also use the heap because we will often export the reference from the scope expecting the record to persist.
 
-\- When LOCAL pointer variable goes out of scope, the pointer on the stack is deleted, but the record (on heap) remains and may cause memory leaks,
+When LOCAL pointer variable goes out of scope, the pointer on the stack is deleted, but the record (on heap) remains and may cause memory leaks,
 
- -CLEANUP should be used periodically.
+CLEANUP should be used periodically.
 
-\- If it is known that the record is no longer needed, it should be deleted before it goes out of scope.
+If it is known that the record is no longer needed, it should be deleted before it goes out of scope.
 
- - The interpreter could detect escaping references and delete those that don’t, this can be complex with subtle errors, so manual or GC is easier.
+The interpreter could detect escaping references and delete those that don’t, this can be complex with subtle errors, so manual or GC is easier.
 
-— Alternatively use Reference Counting (simpler, but risks memory leaks)
+Alternatively use Reference Counting (simpler, but risks memory leaks)
 
-— Delete Records and Release Heap Memory (manual GC)
+Delete Records and Release Heap Memory (manual GC)
 
-DEL p@ — frees the storage fields (strings, arrays, blocks) then frees the record, does NOT follow pointer fields.
+&#62; DEL p@ — frees the storage fields (strings, arrays, blocks) then frees the record, does NOT follow pointer fields.
 
-CLEANUP — executed outside any PROC or FN, marks all records reachable via global and private pointer variables then sweeps unmarked heap, does NOT follow pointers stored in Raw byte data blocks.
+&#62; CLEANUP — executed outside any PROC or FN, marks all records reachable via global and private pointer variables then sweeps unmarked heap, does NOT follow pointers stored in Raw byte data blocks.
 
-— Method:
+Method:
 
-— Add all global &#38; static pointers to the keep queue
+Add all global &#38; static pointers to the keep queue
 
-— While keep queue not empty
+While keep queue not empty
 
-— Pull the next pointer from the keep queue as current record
+….Pull the next pointer from the keep queue as current record
 
-— If current record not marked
+….If current record not marked
 
-— Add all pointers to records to the keep queue
+……..Add all pointers to records to the keep queue
 
-— Mark current record for retention
+……..Mark current record for retention
 
-— Sweep the record heap freeing all unmarked records using the DEL operation above.
+Sweep the record heap freeing all unmarked records using the DEL operation above.
 
-DELREC q@ — as DEL above, BUT it also follows pointer chains deleting all linked records, does NOT follow pointers stored in Raw byte data blocks.
+&#62; DELREC q@ — as DEL above, BUT it also follows pointer chains deleting all linked records, does NOT follow pointers stored in Raw byte data blocks.
 
-— Method:
+Method:
 
-— Add q@ to the delete queue
+Add q@ to the delete queue
 
-— While delete queue not empty
+While delete queue not empty
 
-— Pull the next pointer from the delete queue as current record
+….Pull the next pointer from the delete queue as current record
 
-— If current record not marked
+….If current record not marked
 
-— Add all pointers to the delete queue
+……..Add all pointers to the delete queue
 
-— Free all the storage fields
+……..Free all the storage fields
 
-— Mark current record for deletion
+……..Mark current record for deletion
 
-— Sweep the record heap freeing all marked records
+Sweep the record heap freeing all marked records
 
-— Access to fields
+Access to fields
 
-— The field access operator is . followed by the name of a field.
+The field access operator is . followed by the name of a field.
 
-name$ = P@.name$
+&#62; name$ = P@.name$
 
-— Procedure Fields / methods
+Procedure Fields / methods
 
-DEF RECobject
+&#62; DEF RECobject
+&#62;
+&#62; A%
+&#62;
+&#62; B%
+&#62;
+&#62; DEF PROCmethod1(a%,b%) // LOCAL vars and params must not have the same name as a record field!
+&#62;
+&#62; A%=a%-b%
+&#62;
+&#62; B%=a%+b%
+&#62;
+&#62; ENDPROC
+&#62;
+&#62; DEF FNfunc1….
+&#62;
+&#62; DEF PROCmethod2……
+&#62;
+&#62; ENDREC
 
-A%
+Usage of procedure fields:
 
-B%
+&#62; R@ = NEW RECobject // alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.
+&#62;
+&#62; R@.PROCmethod1(56,99)
+&#62;
+&#62; q = R@.FNfunc1
 
-DEF PROCmethod1(a%,b%) — LOCAL vars and params must not have the same name as a record field!
+Record Extension and overrides
 
-A%=a%-b%
-
-B%=a%+b%
-
-ENDPROC
-
-DEF FNfunc1….
-
-DEF PROCmethod2……
-
-ENDREC
-
-— Usage of procedure fields:
-
-R@ = NEW RECobject — alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.
-
-R@.PROCmethod1(56,99)
-
-q = R@.FNfunc1
-
-— Record Extension and overrides
-
-DEF RECparent(args)
-
-name$
-
-DEF PROCmethod1:ENDPROC — an empty method, calling it does nothing, acts as a placeholder for later redefinition.
-
-DEF PROCmethod2(blah%)
-
-— Some code here
-
-ENDPROC
-
-DEF PROCmethod3(blah%)
-
-— Some other code here
-
-ENDPROC
-
-DEF PROCmethod4:UNDEFINED:ENDPROC — an undefined method placeholder, calling it throws an error, must redefine, like abstract in other languages.
-
-ENDREC
-
-DEF RECchild1(args) EXTEND RECparent(arg exprs) — allows inherited fields to be initialised/dimensioned
-
-address$ — a new field
-
-DEF PROCmethod1 — this overrides any method with the same name, implements something for method1.
-
-— Do something
-
-ENDPROC
-
-— PROCmethod2 is not defined here, so the one from the parent is inherited.
-
-DEF PROCmethod3(blah%) — overrides PROCmethod3
-
-— Do this
-
-PARENT.PROCmethod3(blah%+8) — here we call PROCmethod3 from the parent.
-
-— Do That
-
-ENDPROC
-
-DEF PROCmethod4 — this defines PROCmethod4 for the first time.
-
-— Do something — Calling PARENT.method4 here throws an error (default halt program)
-
-ENDPROC
-
-ENDREC
-
-PARENT — passes control to an overridden method, that method may have been inherited through several levels of extension, it will activate the last
-
-— matching definition.
-
-THIS — refers to the current object within a method, it is implied when accessing fields within methods.
-
-TYPE$ \- refers to the type of a record as a string e.g. “RECchild1”
-
-TYPE - refers to the type of the record internal representation, can be used for type tests
-
-— eg
-
-IF THIS.TYPE = RECchild1 THEN …
-
-— TYPE and TYPE$ work on any pointer variable as well. to allow type comparisons (compare 2 pointers or pointer against TYPE value):
-
-IF R@.TYPE = P@.TYPE — do they have the same dynamic type?
-
-IF R@.TYPE &#60;\&#62; RECsometype — R@ is NOT pointing to a RECsometype?
-
-IF R@.TYPE \&#62; P@.TYPE — is R@ pointing to a supertype of P@?
-
-IF R@.TYPE &#62;= P@.TYPE — is R@ the same OR a supertype of P@?
-
-IF R@.TYPE &#60; RECparent — is R@ a subtype of RECparent?
-
-IF R@.TYPE &#60;= RECparent — is R@ the same as or a subtype of RECparent?
-
-— Calling an undefined method is a fatal error and will halt the program.
-
-— Fields are not redefined/overridden and must only be named once in an extension chain.
-
-— There is no multiple inheritance, interfaces, generics as these are complex and hard to do correctly.
-
-— Managing Namespace Pollution and example of “class” var/method
-
-\- If a program has a large number of record types with lots of internal fields and methods that the user of the record does not need to touch
-
- - the interface becomes a confusing mess.
-
-— Most OOP languages allow marking fields and methods as private/public, etc
-
-\- I propose that for the BASIC extension above that all fields and methods are private by default and only
-
- - visible inside the REC structure and by any child REC that extends from it.
-
-\- To make things visible to the program at large, fields and methods are marked with an export mark ’&#60;’
-
-DEF RECobject
-
-&#60;\- A% — A% is visible to the whole program as MyPtr@.A%
-
-B% — B% is only visible to methods inside RECobject fatal error to attempt access outside.
-
-&#60;\- STATIC C% — this is global to all instances of RECobject
-
-&#60;\- DEF PROCmethod1(a%,b%) — Can be called anywhere as MyPtr@.PROCmethod1(…)
-
-A%=a%-b%
-
-B%=a%+b%
-
-ENDPROC
-
-DEF FNfunc1 — Can be called inside PROCmethod1 or PROCmethod2 or FNfunc1 as THIS.FNfunc1(…) or PARENT.FNfunc1 (if inherited)
-
-= C%
-
-&#60;\- DEF PROCmethod2 — Can be called anywhere as MyPtr@.PROCmethod2(…)
-
-A% = THIS.FNfunc1
-
-ENDPROC
-
-&#60;\- STATICDEF PROCdouble \- affects all instances, can be called without any live instance
-
-C% = C% \* 2 - Can only manipulate STATIC fields and call STATIC methods/functions
-
-ENDPROC
-
-ENDREC
-
-— The exported API of this REC is:
-
-DEF RECobject
-
-&#60;\- A% — A% is visible to the whole program as MyPtr@.A%
-
-&#60;\- STATIC C% — this is global to all instances of RECobject
-
-&#60;\- DEF PROCmethod1(a%,b%) — Can be called anywhere as MyPtr@.PROCmethod1(…)
-
-&#60;\- DEF PROCmethod2 — Can be called anywhere as MyPtr@.PROCmethod2(…)
-
-&#60;\- STATICDEF PROCdouble — affects all instances, can be called without any live instance
-
-ENDREC
-
-— example usage outside the definition
-
-RECobject.C% = 5 — set the class var C% to 5 for all RECobjects
+&#62; DEF RECparent(args)
+&#62;
+&#62; name$
+&#62;
+&#62; DEF PROCmethod1:ENDPROC // an empty method, calling it does nothing, acts as a placeholder for later redefinition.
+&#62;
+&#62; DEF PROCmethod2(blah%)
+&#62;
+&#62; // Some code here
+&#62;
+&#62; ENDPROC
+&#62;
+&#62; DEF PROCmethod3(blah%)
+&#62;
+&#62; // Some other code here
+&#62;
+&#62; ENDPROC
+&#62;
+&#62; DEF PROCmethod4:UNDEFINED:ENDPROC — an undefined method placeholder, calling it throws an error, must redefine, like abstract in other languages.
+&#62;
+&#62; ENDREC
+
+&#62; DEF RECchild1(args) EXTEND RECparent(arg exprs) // allows inherited fields to be initialised/dimensioned
+&#62;
+&#62; address$ // a new field
+&#62;
+&#62; DEF PROCmethod1 // this overrides any method with the same name, implements something for method1.
+&#62;
+&#62; // Do something
+&#62;
+&#62; ENDPROC
+&#62;
+&#62; // PROCmethod2 is not defined here, so the one from the parent is inherited.
+&#62;
+&#62; DEF PROCmethod3(blah%) // overrides PROCmethod3
+&#62;
+&#62; // Do this
+&#62;
+&#62; PARENT.PROCmethod3(blah%+8) — here we call PROCmethod3 from the parent.
+&#62;
+&#62; // Do That
+&#62;
+&#62; ENDPROC
+&#62;
+&#62; DEF PROCmethod4 // this defines PROCmethod4 for the first time.
+&#62;
+&#62; // Do something. Calling PARENT.method4 here throws an error (default halt program)
+&#62;
+&#62; ENDPROC
+&#62;
+&#62; ENDREC
+
+PARENT
+
+// passes control to an overridden method, that method may have been inherited through several levels of extension, it will activate the last matching definition.
+
+THIS
+
+// refers to the current object within a method, it is implied when accessing fields within methods.
+
+TYPE$
+
+// refers to the type of a record as a string e.g. “RECchild1”
+
+TYPE
+
+// refers to the type of the record internal representation, can be used for type tests
+
+&#62; IF THIS.TYPE = RECchild1 THEN …
+
+TYPE and TYPE$ work on any pointer variable as well. to allow type comparisons (compare 2 pointers or pointer against TYPE value):
+
+&#62; IF R@.TYPE = P@.TYPE // do they have the same dynamic type?
+&#62;
+&#62; IF R@.TYPE &#60;\&#62; RECsometype // R@ is NOT pointing to a RECsometype?
+&#62;
+&#62; IF R@.TYPE \&#62; P@.TYPE // is R@ pointing to a supertype of P@?
+&#62;
+&#62; IF R@.TYPE &#62;= P@.TYPE // is R@ the same OR a supertype of P@?
+&#62;
+&#62; IF R@.TYPE &#60; RECparent // is R@ a subtype of RECparent?
+&#62;
+&#62; IF R@.TYPE &#60;= RECparent // is R@ the same as or a subtype of RECparent?
+
+Calling an undefined method is a fatal error and will halt the program.
+
+Fields are not redefined/overridden and must only be named once in an extension chain.
+
+There is no multiple inheritance, interfaces, generics as these are complex and hard to do correctly.
+
+Managing Namespace Pollution and example of “class” var/method
+
+If a program has a large number of record types with lots of internal fields and methods that the user of the record does not need to touch the interface becomes a confusing mess.
+
+Most OOP languages allow marking fields and methods as private/public, etc
+
+I propose that for the BASIC extension above that all fields and methods are private by default and only visible inside the REC structure and by any child REC that extends from it.
+
+To make things visible to the program at large, fields and methods are marked with an export mark ‘&#60;-’
+
+&#62; DEF RECobject
+&#62;
+&#62; &#60;\- A% // A% is visible to the whole program as MyPtr@.A%
+&#62;
+&#62; B% // B% is only visible to methods inside RECobject fatal error to attempt access outside.
+&#62;
+&#62; &#60;\- STATIC C% // this is global to all instances of RECobject
+&#62;
+&#62; &#60;\- DEF PROCmethod1(a%,b%) // Can be called anywhere as MyPtr@.PROCmethod1(…)
+&#62;
+&#62; A%=a%-b%
+&#62;
+&#62; B%=a%+b%
+&#62;
+&#62; ENDPROC
+&#62;
+&#62; DEF FNfunc1 // Can be called inside PROCmethod1 or PROCmethod2 or FNfunc1 as THIS.FNfunc1(…) or PARENT.FNfunc1 (if inherited)
+&#62;
+&#62; = C%
+&#62;
+&#62; &#60;\- DEF PROCmethod2 // Can be called anywhere as MyPtr@.PROCmethod2(…)
+&#62;
+&#62; A% = THIS.FNfunc1
+&#62;
+&#62; ENDPROC
+&#62;
+&#62; &#60;\- STATICDEF PROCdouble // affects all instances, can be called without any live instance
+&#62;
+&#62; C% = C% \* 2 // Can only manipulate STATIC fields and call STATIC methods/functions
+&#62;
+&#62; ENDPROC
+&#62;
+&#62; ENDREC
+
+The exported API of this REC is:
+
+&#62; DEF RECobject
+&#62;
+&#62; &#60;\- A% // A% is visible to the whole program as MyPtr@.A%
+&#62;
+&#62; &#60;\- STATIC C% // this is global to all instances of RECobject
+&#62;
+&#62; &#60;\- DEF PROCmethod1(a%,b%) // Can be called anywhere as MyPtr@.PROCmethod1(…)
+&#62;
+&#62; &#60;\- DEF PROCmethod2 // Can be called anywhere as MyPtr@.PROCmethod2(…)
+&#62;
+&#62; &#60;\- STATICDEF PROCdouble // affects all instances, can be called without any live instance
+&#62;
+&#62; ENDREC
+
+Example usage outside the definition
+
+RECobject.C% = 5 // set the class var C% to 5 for all RECobjects
 
 R@ = NEW RECobject
 
-R@.PROCmethod1(10,20)
+R@.PROCmethod1(20,10)
 
-PRINT R@.A% — prints -10
+PRINT R@.A% // prints 10
 
 R@.PROCmethod2
 
-PRINT R@.A% \- prints 5
+PRINT R@.A% // prints 5
 
-DEL R@ - delete the record
+DEL R@ // delete the record
 
-RECobject.PROCdouble — there are no live instances at this time
+RECobject.PROCdouble // there are no live instances at this time
 
 p@ = NEW RECobject
 
 p@.PROCmethod1(100, 15)
 
-PRINT p@.A% — prints 85
+PRINT p@.A% // prints 85
 
 p@.PROCmethod2
 
-PRINT p@.A% \- prints 10, as C% was doubled by PROCdouble
+PRINT p@.A% // prints 10, as C% was doubled by PROCdouble
 
-DEL p@ - delete the record</source:markdown>
+DEL p@ // delete the record
+
+**Sorry about the terrible formatting, the forum editor wipes indentation.**</source:markdown>
       <guid>cid://www.riscosopen.org:2:20102:159646</guid>
     </item>    <item>
       <title>32-bit acorn software: other • Re: Sanity Check of TAK in ARM1 Assembler</title>
@@ -665,6 +867,14 @@ Well, it’s another DIY module designed to stack neatly on top of the existing 
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469299#p469299</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469299#p469299</guid>
     </item>    <item>
+      <title>ToolboxC++Lib Discussion</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
+      <description>
+        <![CDATA[<p>Command lines, like Fez&#8217;s, are cool. Did you create an &#8220;o&#8221; directory first?</p>]]>
+      </description>
+      <source:markdown>Command lines, like Fez’s, are cool. Did you create an “o” directory first?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19910:159636</guid>
+    </item>    <item>
       <title>32-bit acorn software: other • Re: Sanity Check of TAK in ARM1 Assembler</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469298#p469298</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469298#p469298</guid>
@@ -680,14 +890,6 @@ Well, it’s another DIY module designed to stack neatly on top of the existing 
       <title>general • Re: Today I received.....</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469295#p469295</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469295#p469295</guid>
-    </item>    <item>
-      <title>RO 5.30 Upgrade</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20100</link>
-      <description>
-        <![CDATA[<p>Using a Pi, with items on existing RO 5.27 card. What options do I have to move items from the 5.27 card to a new 5.30 card?  <span class="caps">TIA</span></p>]]>
-      </description>
-      <source:markdown>Using a Pi, with items on existing RO 5.27 card. What options do I have to move items from the 5.27 card to a new 5.30 card? TIA</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20100:159634</guid>
     </item>    <item>
       <title>general • Re: Today I received.....</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469294#p469294</link>
@@ -821,14 +1023,6 @@ Finally, many thanks to all the brave pioneers who five years ago, helped develo
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469259#p469259</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469259#p469259</guid>
     </item>    <item>
-      <title>ToolboxC++Lib Discussion</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
-      <description>
-        <![CDATA[<p>I’ll try it on a Pi at the weekend &#8211; so far I’ve only used RPCEmu. Given I’ve had no problems, it seems quite probable it’s suffering from data alignment issues, like on another thread.</p>]]>
-      </description>
-      <source:markdown>I’ll try it on a Pi at the weekend – so far I’ve only used RPCEmu. Given I’ve had no problems, it seems quite probable it’s suffering from data alignment issues, like on another thread.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19910:159623</guid>
-    </item>    <item>
       <title>8-bit acorn hardware • Re: Electron not firing up</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469257#p469257</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469257#p469257</guid>
@@ -940,23 +1134,6 @@ Finally, many thanks to all the brave pioneers who five years ago, helped develo
       <title>8-bit acorn software: other • Re: MMFS ROM Options Advice</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469219#p469219</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469219#p469219</guid>
-    </item>    <item>
-      <title>Guide to Impression</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20098</link>
-      <description>
-        <![CDATA[<p>The printed &#8216;Guide to the Impression Suite&#8217; is now out of print. This manual describes the installation of Impression, Object Linking &amp; Embedding (<span class="caps">OLE</span>), Equasor, TableMate, WordWorks and the Separation Editor provided in the Impression package.</p>
-        <p>This guide is now available as a RingBind file from my <a href="https://www.svrsig.org/software/SuiteBound.zip">web site</a> and from !Store.</p>
-        <p>Now included with the application &#8216;!RingBind&#8217; is an 8-page article explaining how RingBind works. Also available from my <a href="https://www.svrsig.org/software/RingBind.htm">web site</a> and from !Store.</p>
-        <p>The Impression User Manual is still available in printed form and can be downloaded as <span class="caps">PDF</span> or RingBind from my web site and from !Store.</p>]]>
-      </description>
-      <source:markdown>The printed ‘Guide to the Impression Suite’ is now out of print. This manual describes the installation of Impression, Object Linking &#38; Embedding (OLE), Equasor, TableMate, WordWorks and the Separation Editor provided in the Impression package.
-
-This guide is now available as a RingBind file from my [web site](https://www.svrsig.org/software/SuiteBound.zip) and from !Store.
-
-Now included with the application ‘!RingBind’ is an 8-page article explaining how RingBind works. Also available from my [web site](https://www.svrsig.org/software/RingBind.htm) and from !Store.
-
-The Impression User Manual is still available in printed form and can be downloaded as PDF or RingBind from my web site and from !Store.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20098:159611</guid>
     </item>    <item>
       <title>SerialUSB 0.17</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20088</link>
