@@ -7,10 +7,66 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>07 Nov 25 11:00 -0800</lastBuildDate>
+    <lastBuildDate>07 Nov 25 15:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m533z7zhjc2r</link>
+      <description>
+        <![CDATA[3Dfx. Simply the best! I remember buying my first 3Dfx videocard - an Orchid Righteous 3D. Truly a game changer! Programmers could use the Glide 3D graphics API or battle with an early version of DirectX.]]>
+      </description>
+      <source:markdown>3Dfx. Simply the best! I remember buying my first 3Dfx videocard - an Orchid Righteous 3D. Truly a game changer! Programmers could use the Glide 3D graphics API or battle with an early version of DirectX.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m533z7zhjc2r</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m53352zeks2r</link>
+      <description>
+        <![CDATA[Apparently overclocking calculators is actually a thing!
+        https://www.youtube.com/watch?v=seBmf9gMQO0]]>
+      </description>
+      <source:markdown>Apparently overclocking calculators is actually a thing!
+https://www.youtube.com/watch?v=seBmf9gMQO0</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m53352zeks2r</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Econet Teletext server</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469371#p469371</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469371#p469371</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Need Help with BBC Micro Model B - Issue 7</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469370#p469370</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469370#p469370</guid>
+    </item>    <item>
+      <title>32-bit acorn software: RISC iX • Re: How to run RISC iX for yourself!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469369#p469369</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469369#p469369</guid>
+    </item>    <item>
+      <title>acorn atom and acorn system series • Atom memory issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469368#p469368</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469368#p469368</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Need Help with BBC Micro Model B - Issue 7</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469367#p469367</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469367#p469367</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Sanity Check of TAK in ARM1 Assembler</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469366#p469366</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469366#p469366</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469365#p469365</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469365#p469365</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Instant mini-challenge: 10 PRINT maze in Mode 7</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469364#p469364</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469364#p469364</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469363#p469363</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469363#p469363</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469362#p469362</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469362#p469362</guid>
+    </item>    <item>
       <title>32-bit acorn hardware • Re: Repair advice, A3000 dimming picture, 5v spade connector dry joint?</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469359#p469359</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469359#p469359</guid>
@@ -833,6 +889,14 @@ DEL p@ // delete the record
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469312#p469312</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469312#p469312</guid>
     </item>    <item>
+      <title>RISCOSBITS New Stacker!</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20101</link>
+      <description>
+        <![CDATA[<p>My Pleasure! it really was a lot of fun to build and not as fiddly as expected, i think most people will find these enjoyable to build, and enjoy the sear effort thats gone into making these.</p>]]>
+      </description>
+      <source:markdown>My Pleasure! it really was a lot of fun to build and not as fiddly as expected, i think most people will find these enjoyable to build, and enjoy the sear effort thats gone into making these.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20101:159644</guid>
+    </item>    <item>
       <title>Why is ROOL doing this?</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20090</link>
       <description>
@@ -867,47 +931,6 @@ A similar font draw in Select’s !Paint…
 
 ![](https://share.gerph.org/s/Meb7UKmQhWZXeCC/download)</source:markdown>
       <guid>cid://www.riscosopen.org:5:20097:159640</guid>
-    </item>    <item>
-      <title>RISCOSBITS New Stacker!</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20101</link>
-      <description>
-        <![CDATA[<p>So, over the summer I decided to pick up another Pi-based <span class="caps">RISC</span> OS machine — as if I don’t already have enough of them! One that caught my attention was the <span class="caps">DIY</span> kit range from RISCOSbits. Back then, they offered three or four versions, and I went for the top-end model: the <span class="caps">DIY</span> 3 Kit.</p>
-        <p>It came as a neat little wooden stackable unit and included a CM4 IO Board with a 2GHz <span class="caps">CPU</span>, 4GB <span class="caps">RAM</span>, and a 256GB NVMe, all pre-installed and ready to go. All I had to do was assemble it, which turned out to be both easy and genuinely fun.</p>
-        <p>I’ve been using this compact machine for a few months now, and just before the London Show this year, RISCOSbits announced a new add-on called the <span class="caps">STACKER</span>. Naturally, I was curious — what is it?</p>
-        <p>Well, it’s another <span class="caps">DIY</span> module designed to stack neatly on top of the existing <span class="caps">DIY</span> 3 Kit, giving it that nostalgic Risc PC-style modular look (which I love). But the real twist is that the <span class="caps">STACKER</span> brings the CM5 Pi 5 into play, complete with Linux support cleverly linked through the CM4.</p>
-        <p><b>Here’s the process of building the <span class="caps">STACKER</span> :)</b><br />
-        <img src="https://images2.imgbox.com/1d/ac/aWBQ6bXv_o.jpeg" alt="" /><br />
-        <img src="https://images2.imgbox.com/06/4f/aT4hzdSs_o.jpeg" alt="" /><br />
-        <img src="https://images2.imgbox.com/bd/a0/WIthMMRE_o.jpeg" alt="" /><br />
-        <img src="https://images2.imgbox.com/18/da/xb43SFa0_o.jpeg" alt="" /></p>
-        <p><b>Had lots of fun putting this together and when i switched it on and launched the desktop linux app it instantly fired up</b><br />
-        <b>the linux side without any configuring or hassle. Browsing and watching youtube is seamless!</b><br />
-        <img src="https://images2.imgbox.com/8d/55/9V6JsrVY_o.jpeg" alt="" /></p>]]>
-      </description>
-      <source:markdown>So, over the summer I decided to pick up another Pi-based RISC OS machine — as if I don’t already have enough of them! One that caught my attention was the DIY kit range from RISCOSbits. Back then, they offered three or four versions, and I went for the top-end model: the DIY 3 Kit.
-
-It came as a neat little wooden stackable unit and included a CM4 IO Board with a 2GHz CPU, 4GB RAM, and a 256GB NVMe, all pre-installed and ready to go. All I had to do was assemble it, which turned out to be both easy and genuinely fun.
-
-I’ve been using this compact machine for a few months now, and just before the London Show this year, RISCOSbits announced a new add-on called the STACKER. Naturally, I was curious — what is it?
-
-Well, it’s another DIY module designed to stack neatly on top of the existing DIY 3 Kit, giving it that nostalgic Risc PC-style modular look (which I love). But the real twist is that the STACKER brings the CM5 Pi 5 into play, complete with Linux support cleverly linked through the CM4.
-
-**Here’s the process of building the STACKER :)**
-
-![](https://images2.imgbox.com/1d/ac/aWBQ6bXv_o.jpeg)
-
-![](https://images2.imgbox.com/06/4f/aT4hzdSs_o.jpeg)
-
-![](https://images2.imgbox.com/bd/a0/WIthMMRE_o.jpeg)
-
-![](https://images2.imgbox.com/18/da/xb43SFa0_o.jpeg)
-
-**Had lots of fun putting this together and when i switched it on and launched the desktop linux app it instantly fired up**
-
-**the linux side without any configuring or hassle. Browsing and watching youtube is seamless!**
-
-![](https://images2.imgbox.com/8d/55/9V6JsrVY_o.jpeg)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20101:159638</guid>
     </item>    <item>
       <title>ToolboxC++Lib Discussion</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
