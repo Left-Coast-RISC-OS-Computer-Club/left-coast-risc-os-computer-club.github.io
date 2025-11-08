@@ -7,10 +7,65 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>08 Nov 25 07:00 -0800</lastBuildDate>
+    <lastBuildDate>08 Nov 25 11:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>new ideas wishlist &#38;amp; general chat • Re: BBC Micro on Ethernet LAN?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469402#p469402</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469402#p469402</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Repair advice, A3000 dimming picture, 5v spade connector dry joint?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469401#p469401</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469401#p469401</guid>
+    </item>    <item>
+      <title>communications • Re: the Night Owl BBS *Sat*</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469400#p469400</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469400#p469400</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Master Compact MOS 5.x ADVAL for custom A/D and joystick hardware</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469399#p469399</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469399#p469399</guid>
+    </item>    <item>
+      <title>communications • Re: BeeBS the BBS hosted on a Beeb is Live!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469398#p469398</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469398#p469398</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Electron not firing up</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469397#p469397</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469397#p469397</guid>
+    </item>    <item>
+      <title>communications • Re: BeeBS the BBS hosted on a Beeb is Live!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469396#p469396</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469396#p469396</guid>
+    </item>    <item>
+      <title>acorn atom and acorn system series • Re: Atom memory issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469394#p469394</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469394#p469394</guid>
+    </item>    <item>
+      <title>acorn atom and acorn system series • Re: Atom memory issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469393#p469393</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469393#p469393</guid>
+    </item>    <item>
+      <title>RPCEmu NAT fail.</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20095</link>
+      <description>
+        <![CDATA[<pre>LDRB     r12,[r0,#8]
+        LDRB     r12,[r0,#9]</pre>
+        <p>Could this perhaps be a really really old codegen bug that&#8217;s been unmasked by a code change? It looks awfully similar to a short accessing bug I reported in 1989. We had to work around that with a macro that did the operations discretely.</p>]]>
+      </description>
+      <source:markdown>```
+LDRB     r12,[r0,#8]
+LDRB     r12,[r0,#9]
+```
+
+Could this perhaps be a really really old codegen bug that’s been unmasked by a code change? It looks awfully similar to a short accessing bug I reported in 1989. We had to work around that with a macro that did the operations discretely.</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20095:159671</guid>
+    </item>    <item>
+      <title>communications • Re: BeeBS the BBS hosted on a Beeb is Live!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469392#p469392</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469392#p469392</guid>
+    </item>    <item>
       <title>communications • Re: BeeBS the BBS hosted on a Beeb is Live!</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469389#p469389</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469389#p469389</guid>
@@ -1081,19 +1136,6 @@ It’s a shame things got heated on GitHub and the tone there is a bit worrying,
       </description>
       <source:markdown>Managed to Harry Potter myself on the corner of a kitchen cabinet this morning ⚡️</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m4x7bfxacs2h</guid>
-    </item>    <item>
-      <title>RPCEmu NAT fail.</title>
-      <link>https://www.riscosopen.org/forum/forums/10/topics/20095</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>As a next stage experiment I built this test <span class="caps">ROM</span> which selectively has just one component using -L22-S22-L41 and everything else (libraries &amp; modules etc) as -L22-S22+L41.</p>
-        </blockquote>
-        <p><span class="caps">FWIW</span> prompted by that a build with <code>ToolOptions.ACPS32</code> left alone with <code>-memaccess -L22-S22+L41</code> set for the <span class="caps">IOMD</span> Machine but with <code>-memaccess -L22-S22-L41</code> added to <span class="caps">CFLAGS</span> in <code>Internet.build.Makefile</code> does start up with networking working.</p>]]>
-      </description>
-      <source:markdown>&#62; As a next stage experiment I built this test ROM which selectively has just one component using -L22-S22-L41 and everything else (libraries &#38; modules etc) as -L22-S22+L41.
-
-FWIW prompted by that a build with `ToolOptions.ACPS32` left alone with `-memaccess -L22-S22+L41` set for the IOMD Machine but with `-memaccess -L22-S22-L41` added to CFLAGS in `Internet.build.Makefile` does start up with networking working.</source:markdown>
-      <guid>cid://www.riscosopen.org:10:20095:159630</guid>
     </item>    <item>
       <title>Compute Module 4 supported?</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/19993</link>
