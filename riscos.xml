@@ -7,10 +7,58 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>07 Nov 25 15:00 -0800</lastBuildDate>
+    <lastBuildDate>08 Nov 25 07:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>communications • Re: BeeBS the BBS hosted on a Beeb is Live!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469389#p469389</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469389#p469389</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: B-Em Tape Overhaul v4.3</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469388#p469388</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469388#p469388</guid>
+    </item>    <item>
+      <title>communications • Re: BeeBS the BBS hosted on a Beeb is Live!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469387#p469387</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469387#p469387</guid>
+    </item>    <item>
+      <title>32-bit acorn software: RISC iX • Re: How to run RISC iX for yourself!</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469386#p469386</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469386#p469386</guid>
+    </item>    <item>
+      <title>communications • Commstar Patch?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469385#p469385</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469385#p469385</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Four - Transistor&#39;s Revenge</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469384#p469384</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469384#p469384</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Master Compact MOS 5.x ADVAL for custom A/D and joystick hardware</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469383#p469383</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469383#p469383</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Electron not firing up</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469382#p469382</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469382#p469382</guid>
+    </item>    <item>
+      <title>software &#38;amp; utilities for the pc, mac or unix • Re: Disc Image Manager</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469381#p469381</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469381#p469381</guid>
+    </item>    <item>
+      <title>off-topic • Re: Measuring Resistance</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469380#p469380</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469380#p469380</guid>
+    </item>    <item>
+      <title>Problem connecting to gitlab.</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20105</link>
+      <description>
+        <![CDATA[<p>Is there a problem with gitlab? I haven&#8217;t been able to connect during the day for 2 days. I was wondering if other people have a problem connecting.</p>]]>
+      </description>
+      <source:markdown>Is there a problem with gitlab? I haven’t been able to connect during the day for 2 days. I was wondering if other people have a problem connecting.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20105:159666</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m533z7zhjc2r</link>
       <description>
         <![CDATA[3Dfx. Simply the best! I remember buying my first 3Dfx videocard - an Orchid Righteous 3D. Truly a game changer! Programmers could use the Glide 3D graphics API or battle with an early version of DirectX.]]>
@@ -168,6 +216,23 @@ https://www.youtube.com/watch?v=seBmf9gMQO0</source:markdown>
       <source:markdown>The development studio for &#39;X2: Wolverine’s Revenge&#39; - Bruntwood Hall, Cheadle, Manchester (2002). This is where we developed the game - on the top floor, formerly the servant&#39;s quarters. I&#39;m at the back popping up my head to see what&#39;s going on. That arched window is where we are located - top left</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m4zxnvg7i22r</guid>
     </item>    <item>
+      <title>RISCOSBITS New Stacker!</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20101</link>
+      <description>
+        <![CDATA[<p>i could also use the linux side&#8217;s <span class="caps">NVME</span> drive and mount as a <span class="caps">NAS</span>/Share on any of my RiscOS machines! it also showed up on Windows and Mac!<br />
+        <img src="https://images2.imgbox.com/ae/8a/5j5uRh2C_o.jpg" alt="" /></p>
+        <p>LinuxBits Icon &#8211; CM5 part of the stacker<br />
+        PiServer &#8211; Other CM5 with Netatalk for wider sharing across multiple platforms</p>]]>
+      </description>
+      <source:markdown>i could also use the linux side’s NVME drive and mount as a NAS/Share on any of my RiscOS machines! it also showed up on Windows and Mac!
+
+![](https://images2.imgbox.com/ae/8a/5j5uRh2C_o.jpg)
+
+LinuxBits Icon – CM5 part of the stacker
+
+PiServer – Other CM5 with Netatalk for wider sharing across multiple platforms</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20101:159655</guid>
+    </item>    <item>
       <title>Guide to Impression</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20098</link>
       <description>
@@ -303,6 +368,22 @@ Or the sequence is also available linked from my presentations website: [https:/
       <title>econet and other acorn specific networking • Re: Reprint of &#38;quot;Networking with the BBC Microcomputer&#38;quot; by Rob Napier</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469317#p469317</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469317#p469317</guid>
+    </item>    <item>
+      <title>!Paint Outline Fonts</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20097</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Next please integrated Recyclone</p>
+        </blockquote>
+        <p>I&#8217;m not sure anyone has cleared up the rights issues with the Select code and utilities, so <span class="caps">ROOL</span> having a conversation with Fred Graute about <a href="https://stronged.iconbar.com/fjg/">Transient &amp; TrapDelete</a> would probably be the easier path.<br />
+        Meanwhile, users are free to download that package from the linked page.</p>]]>
+      </description>
+      <source:markdown>&#62; Next please integrated Recyclone
+
+I’m not sure anyone has cleared up the rights issues with the Select code and utilities, so ROOL having a conversation with Fred Graute about [Transient &#38; TrapDelete](https://stronged.iconbar.com/fjg/) would probably be the easier path.
+
+Meanwhile, users are free to download that package from the linked page.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20097:159647</guid>
     </item>    <item>
       <title>general • Re: Interesting YouTube videos</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469316#p469316</link>
@@ -889,14 +970,6 @@ DEL p@ // delete the record
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469312#p469312</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469312#p469312</guid>
     </item>    <item>
-      <title>RISCOSBITS New Stacker!</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20101</link>
-      <description>
-        <![CDATA[<p>My Pleasure! it really was a lot of fun to build and not as fiddly as expected, i think most people will find these enjoyable to build, and enjoy the sear effort thats gone into making these.</p>]]>
-      </description>
-      <source:markdown>My Pleasure! it really was a lot of fun to build and not as fiddly as expected, i think most people will find these enjoyable to build, and enjoy the sear effort thats gone into making these.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20101:159644</guid>
-    </item>    <item>
       <title>Why is ROOL doing this?</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20090</link>
       <description>
@@ -917,20 +990,6 @@ It’s a shame things got heated on GitHub and the tone there is a bit worrying,
       </description>
       <source:markdown>Here&#39;s a Sinclair Microdrive cartridge with a UK pound coin for comparison. We trusted these mini-magnetic tape loops with our valuable data in the 1980s. Totally insane! To be fair, they were actually quite reliable. The tape loop is 5 metres long and stores a minimum of 85 to 100KBytes of data.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m4ye45b3m226</guid>
-    </item>    <item>
-      <title>!Paint Outline Fonts</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20097</link>
-      <description>
-        <![CDATA[<p>It&#8217;s fascinating to see the little differences in direction that <span class="caps">RISC</span> OS 5 and Select took. There&#8217;s things from both that are nice.</p>
-        <p>A similar font draw in Select&#8217;s !Paint&#8230;</p>
-        <p><img src="https://share.gerph.org/s/Meb7UKmQhWZXeCC/download"></p>]]>
-      </description>
-      <source:markdown>It’s fascinating to see the little differences in direction that RISC OS 5 and Select took. There’s things from both that are nice.
-
-A similar font draw in Select’s !Paint…
-
-![](https://share.gerph.org/s/Meb7UKmQhWZXeCC/download)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20097:159640</guid>
     </item>    <item>
       <title>ToolboxC++Lib Discussion</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
