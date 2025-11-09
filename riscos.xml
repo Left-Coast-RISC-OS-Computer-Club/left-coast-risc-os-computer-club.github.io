@@ -7,10 +7,71 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>09 Nov 25 07:00 -0800</lastBuildDate>
+    <lastBuildDate>09 Nov 25 11:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: Master Compact MOS 5.x ADVAL for custom A/D and joystick hardware</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469448#p469448</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469448#p469448</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic games • Re: Reptol programming</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469447#p469447</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469447#p469447</guid>
+    </item>    <item>
+      <title>UltimaVM - project&#38;#39;s updates 2025-11-08</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20107</link>
+      <description>
+        <![CDATA[<p>Given the interest shown at the latest <span class="caps">RISC</span> OS London Show by many people, here is a post about the new progress with examples:</p>
+        <p><a href="https://paolozaino.wordpress.com/2025/11/09/ultimavm-update-2025-11-08-more-features-added-to-ultima-function-pointers-code-sections-and-more/">https://paolozaino.wordpress.com/2025/11/09/ultimavm-u…</a></p>
+        <p>Enjoy! :)</p>]]>
+      </description>
+      <source:markdown>Given the interest shown at the latest RISC OS London Show by many people, here is a post about the new progress with examples:
+
+[https://paolozaino.wordpress.com/2025/11/09/ultimavm-u…](https://paolozaino.wordpress.com/2025/11/09/ultimavm-update-2025-11-08-more-features-added-to-ultima-function-pointers-code-sections-and-more/)
+
+Enjoy! :)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20107:159682</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Looking for a refurbished CUB monitor</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469446#p469446</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469446#p469446</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Looking for a refurbished CUB monitor</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469445#p469445</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469445#p469445</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Torch Graduate</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469444#p469444</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469444#p469444</guid>
+    </item>    <item>
+      <title>Titanium pci scsi</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20106</link>
+      <description>
+        <![CDATA[<p>Has anyone had a go with the Titanium pci with a <span class="caps">SCSI</span> card?</p>]]>
+      </description>
+      <source:markdown>Has anyone had a go with the Titanium pci with a SCSI card?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20106:159679</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3m57lekjvkc2z</link>
+      <description>
+        <![CDATA[Here is an article with all the details about a new chunk of progresses on #UltimaVM and the new project's mascot Luma. Still lots of work to finish to get the first beta release out, but hey I am moving forward!
+        https://paolozaino.wordpress.com/2025/11/09/ultimavm-update-2025-11-08-more-features-added-to-ultima-function-pointers-code-sections-and-more/
+        #RISC_OS #riscos #Linux #Windows #macOS #BSD]]>
+      </description>
+      <source:markdown>Here is an article with all the details about a new chunk of progresses on #UltimaVM and the new project&#39;s mascot Luma. Still lots of work to finish to get the first beta release out, but hey I am moving forward!
+https://paolozaino.wordpress.com/2025/11/09/ultimavm-update-2025-11-08-more-features-added-to-ultima-function-pointers-code-sections-and-more/
+#RISC\_OS #riscos #Linux #Windows #macOS #BSD</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3m57lekjvkc2z</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Systemd/logging configuration for Pi Econet bridges</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469443#p469443</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469443#p469443</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Systemd/logging configuration for Pi Econet bridges</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469442#p469442</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469442#p469442</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m57dfqscs22q</link>
       <description>
         <![CDATA[I've just uploaded an update to my RISC OS !RMA utility, primarily to fix RO3 compatibility (thanks to Phil Pemberton for the report) but I noticed I hadn't released the previous version that featured an important upgrade - the ability to explore ANY Heaped Dynamic Area. So, a useful update:
@@ -378,9 +439,36 @@ https://www.youtube.com/watch?v=seBmf9gMQO0</source:markdown>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469342#p469342</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469342#p469342</guid>
     </item>    <item>
+      <title>Status update for RISC OS 64-bit work</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20104</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>getting married</p>
+        </blockquote>
+        <p>Hey congrats! :)</p>]]>
+      </description>
+      <source:markdown>&#62; getting married
+
+Hey congrats! :)</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20104:159659</guid>
+    </item>    <item>
       <title>32-bit acorn hardware • Re: EtherWiz - a new fully opensource Ethernet podule</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469341#p469341</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469341#p469341</guid>
+    </item>    <item>
+      <title>!Paint Outline Fonts</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20097</link>
+      <description>
+        <![CDATA[<p>Maybe you could run it and make notes on the bits that don&#8217;t &#8220;feel&#8221; right to you?<br />
+        Maybe some of the things you don&#8217;t feel happy with are common to other users, maybe they haven&#8217;t done any feedback.<br />
+        Nothing ever improves without constructive feedback</p>]]>
+      </description>
+      <source:markdown>Maybe you could run it and make notes on the bits that don’t “feel” right to you?
+
+Maybe some of the things you don’t feel happy with are common to other users, maybe they haven’t done any feedback.
+
+Nothing ever improves without constructive feedback</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20097:159658</guid>
     </item>    <item>
       <title>new projects and releases: text and graphic adventures • Re: Exploring (fiddling about with) The Quill</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469340#p469340</link>
@@ -401,19 +489,6 @@ https://www.youtube.com/watch?v=seBmf9gMQO0</source:markdown>
       <title>econet and other acorn specific networking • Re: Econet Teletext server</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469336#p469336</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469336#p469336</guid>
-    </item>    <item>
-      <title>Status update for RISC OS 64-bit work</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/20104</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>getting married</p>
-        </blockquote>
-        <p>Congratulations!</p>]]>
-      </description>
-      <source:markdown>&#62; getting married
-
-Congratulations!</source:markdown>
-      <guid>cid://www.riscosopen.org:13:20104:159656</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m4zxnvg7i22r</link>
       <description>
@@ -438,14 +513,6 @@ LinuxBits Icon – CM5 part of the stacker
 
 PiServer – Other CM5 with Netatalk for wider sharing across multiple platforms</source:markdown>
       <guid>cid://www.riscosopen.org:5:20101:159655</guid>
-    </item>    <item>
-      <title>!Paint Outline Fonts</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20097</link>
-      <description>
-        <![CDATA[<p>I guess it might be the look and feel, it took me a very long time to move over from select, so don&#8217;t judge me too harshly.</p>]]>
-      </description>
-      <source:markdown>I guess it might be the look and feel, it took me a very long time to move over from select, so don’t judge me too harshly.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20097:159654</guid>
     </item>    <item>
       <title>Guide to Impression</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20098</link>
