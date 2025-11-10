@@ -7,10 +7,134 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>09 Nov 25 15:00 -0800</lastBuildDate>
+    <lastBuildDate>10 Nov 25 07:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>software &#38;amp; utilities for the pc, mac or unix • Re: Disc Image Manager</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469499#p469499</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469499#p469499</guid>
+    </item>    <item>
+      <title>RISC PC Boot Failure with UniPod</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20111</link>
+      <description>
+        <![CDATA[<p>Hello all. I am trying to get my Dad&#8217;s old <span class="caps">RISC</span> PC to boot up. It has a Unipod, which seems to be causing problems. If I remove the Unipod, it boots fine. (With a few error complaining about the network, but that&#8217;s to be expected, I would say.) However, with the Unipod in, I get this error before anything else is displayed on the screen at all:</p>
+        <blockquote>
+        <p>Error: NosuchSWI1:<span class="caps">SWI</span> &amp;%0 not known (Error Number &amp;1E6)</p>
+        </blockquote>
+        <p>Then I&#8217;m dropped into a supervisor prompt. *Podules shows the Unipod listed, so it&#8217;s recognized, but something about it being plugged in as making the machine unhappy. Any ideas on a way forward so I can get networking going? It doesn&#8217;t have any other <span class="caps">NIC</span>.</p>]]>
+      </description>
+      <source:markdown>Hello all. I am trying to get my Dad’s old RISC PC to boot up. It has a Unipod, which seems to be causing problems. If I remove the Unipod, it boots fine. (With a few error complaining about the network, but that’s to be expected, I would say.) However, with the Unipod in, I get this error before anything else is displayed on the screen at all:
+
+&#62; Error: NosuchSWI1:SWI &#38;%0 not known (Error Number &#38;1E6)
+
+Then I’m dropped into a supervisor prompt. \*Podules shows the Unipod listed, so it’s recognized, but something about it being plugged in as making the machine unhappy. Any ideas on a way forward so I can get networking going? It doesn’t have any other NIC.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20111:159700</guid>
+    </item>    <item>
+      <title>StrongED stopped working</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20110</link>
+      <description>
+        <![CDATA[<p>Dear all,</p>
+        <p>As a new(ish) RiscOS user, I recently purchased the ePic card for my Raspberry Pi 400. Everything works fine (I haven&#8217;t tested Wi-Fi yet), except StrongED, which has suddenly stopped working. Whenever I start the program (or open a text document), the following error message appears:</p>
+        <p>&#8220;Error</p>
+        <p>File<br />
+        &#8216;StrongED_Read:Tools.!ScriptSED.Icon&#8217;<br />
+        not found&quot;</p>
+        <p>The program ran fine before, though, and I don&#8217;t recall changing anything in the system settings apart from adding &#8220;!Organizer&#8221; and &#8220;!MoreDesk&#8221; to the &#8220;Run at startup&#8221; window. Removing these programs doesn&#8217;t fix the issue. I would therefore be grateful if one of you <span class="caps">RISC</span> OS specialists could help me out. Many thanks in advance and best wishes from Austria!</p>
+        <p>Berny :)</p>]]>
+      </description>
+      <source:markdown>Dear all,
+
+As a new(ish) RiscOS user, I recently purchased the ePic card for my Raspberry Pi 400. Everything works fine (I haven’t tested Wi-Fi yet), except StrongED, which has suddenly stopped working. Whenever I start the program (or open a text document), the following error message appears:
+
+“Error
+
+File
+
+‘StrongED\_Read:Tools.!ScriptSED.Icon’
+
+not found&#34;
+
+The program ran fine before, though, and I don’t recall changing anything in the system settings apart from adding “!Organizer” and “!MoreDesk” to the “Run at startup” window. Removing these programs doesn’t fix the issue. I would therefore be grateful if one of you RISC OS specialists could help me out. Many thanks in advance and best wishes from Austria!
+
+Berny :)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20110:159699</guid>
+    </item>    <item>
+      <title>acorn atom and acorn system series • Re: Atom memory issue</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469498#p469498</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469498#p469498</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 Gotek producing low level static/hissing noise</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469497#p469497</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469497#p469497</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: RISC OS 3.20 ROMs?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469496#p469496</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469496#p469496</guid>
+    </item>    <item>
+      <title>programming • Re: Disassemblies of BBC Micro Games</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469495#p469495</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469495#p469495</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: The Hidden Fifth Column: Integrating Wizzo with RISC OS 3.11</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469494#p469494</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469494#p469494</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: The Hidden Fifth Column: Integrating Wizzo with RISC OS 3.11</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469493#p469493</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469493#p469493</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 Gotek producing low level static/hissing noise</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469492#p469492</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469492#p469492</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 Gotek producing low level static/hissing noise</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469487#p469487</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469487#p469487</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 Gotek producing low level static/hissing noise</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469485#p469485</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469485#p469485</guid>
+    </item>    <item>
+      <title>Running a BASIC programme</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20109</link>
+      <description>
+        <![CDATA[<p>If you double-click on a <span class="caps">BASIC</span> file in a filer window, you get a window headed &#8216;Run <span class="caps">RAM</span>::RamDisc0.$.ProgName&#8217; when it asks for <span class="caps">INPUT</span>. <span class="caps">BASIC</span> has been run by the Alias$@RunType_FFB system variable *Basic -quit %0.<br />
+        Is there any way of accessing this info from within <span class="caps">BASIC</span> to know, for example, from which directory the file was launched?</p>]]>
+      </description>
+      <source:markdown>If you double-click on a BASIC file in a filer window, you get a window headed ‘Run RAM::RamDisc0.$.ProgName’ when it asks for INPUT. BASIC has been run by the Alias$@RunType\_FFB system variable \*Basic -quit %0.
+
+Is there any way of accessing this info from within BASIC to know, for example, from which directory the file was launched?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20109:159690</guid>
+    </item>    <item>
+      <title>Keyboard layout and *configure country</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20108</link>
+      <description>
+        <![CDATA[<p>Hello,</p>
+        <p>Is it a bug that *configure <span class="caps">USA</span>, when booting directly to supervisor/<span class="caps">BASIC</span>, does not set a <span class="caps">USA</span> keyboard layout? This is on a Raspberry Pi with <span class="caps">RISC</span> OS 5.30 and a <span class="caps">USB</span> keyboard (and there is no message about keyboard not being present, which did show up sometimes on previous versions of <span class="caps">RISC</span> OS with slow <span class="caps">USB</span> devices attached).</p>
+        <p>After a reset, *status correctly shows &#8220;Country <span class="caps">USA</span>&#8221;, *country shows &#8220;<span class="caps">USA</span>&#8221;, but *keyboard shows &#8220;UK&#8221;, and the keyboard mapping is indeed UK, where &quot; is on Shift-2. Pressing Ctrl-Alt-F2 correctly changes to the configured <span class="caps">USA</span> keyboard (where @ is on Shift-2). I was under the impression that *configure  was supposed to set the keyboard layout to  on boot, but I may be misunderstanding the <span class="caps">RISC</span> OS definitions of country/keyboard/language/alphabet/territory.
+        <p>I am trying to avoid having to press Ctrl-Alt-F2, issue a *keyboard command or have a !Boot file, just to set the keyboard layout. Can it not be configured?</p>
+        <p>Thanks! Apologies if this is expected behavior.</p>]]>
+      </description>
+      <source:markdown>Hello,
+
+Is it a bug that \*configure USA, when booting directly to supervisor/BASIC, does not set a USA keyboard layout? This is on a Raspberry Pi with RISC OS 5.30 and a USB keyboard (and there is no message about keyboard not being present, which did show up sometimes on previous versions of RISC OS with slow USB devices attached).
+
+After a reset, \*status correctly shows “Country USA”, \*country shows “USA”, but \*keyboard shows “UK”, and the keyboard mapping is indeed UK, where &#34; is on Shift-2. Pressing Ctrl-Alt-F2 correctly changes to the configured USA keyboard (where @ is on Shift-2). I was under the impression that \*configure was supposed to set the keyboard layout to on boot, but I may be misunderstanding the RISC OS definitions of country/keyboard/language/alphabet/territory.
+
+I am trying to avoid having to press Ctrl-Alt-F2, issue a \*keyboard command or have a !Boot file, just to set the keyboard layout. Can it not be configured?
+
+Thanks! Apologies if this is expected behavior.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20108:159688</guid>
+    </item>    <item>
+      <title>Why is ROOL doing this?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20090</link>
+      <description>
+        <![CDATA[<p>Yes, but it probably wont be you that has the problem, when a user has a clash between your application and another using the official allocation. Do not do this.</p>]]>
+      </description>
+      <source:markdown>Yes, but it probably wont be you that has the problem, when a user has a clash between your application and another using the official allocation. Do not do this.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20090:159687</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Torch Graduate</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469465#p469465</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469465#p469465</guid>
@@ -160,6 +284,17 @@ https://rma.20000.org</source:markdown>
       <source:markdown>Starting in 20 minutes.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20103:159677</guid>
     </item>    <item>
+      <title>!FTPcs Problem</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20002</link>
+      <description>
+        <![CDATA[<p>FTPc authenticates successfully and reuses that authentication for data connections successfully once with AcornSSL 1.07. Meaning you get a connection and a directory display then it stops working.</p>
+        <p>The change to riscos version of mbedtls that introduced the problem was 4th Jan 2025. AcornSSL 1.07 happened on 17th Dec 2024. So you could have a version of 1.07 that works otherwise 1.06 will.</p>]]>
+      </description>
+      <source:markdown>FTPc authenticates successfully and reuses that authentication for data connections successfully once with AcornSSL 1.07. Meaning you get a connection and a directory display then it stops working.
+
+The change to riscos version of mbedtls that introduced the problem was 4th Jan 2025. AcornSSL 1.07 happened on 17th Dec 2024. So you could have a version of 1.07 that works otherwise 1.06 will.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20002:159676</guid>
+    </item>    <item>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Four - Transistor&#39;s Revenge</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469434#p469434</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469434#p469434</guid>
@@ -186,33 +321,6 @@ https://rma.20000.org</source:markdown>
       <title>32-bit acorn software: other • Re: Tool to stack drive icons?</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469430#p469430</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469430#p469430</guid>
-    </item>    <item>
-      <title>!FTPcs Problem</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20002</link>
-      <description>
-        <![CDATA[<p>Better late than never.</p>
-        <p>Secure ftp fails with AcornSSL 1.07. This is because mbedtls_ssl_get_session in the updated mbedtls library has changed it&#8217;s behaviour and can no longer be called multiple times. For the moment AcornSSL 1.06 still works.</p>]]>
-      </description>
-      <source:markdown>Better late than never.
-
-Secure ftp fails with AcornSSL 1.07. This is because mbedtls\_ssl\_get\_session in the updated mbedtls library has changed it’s behaviour and can no longer be called multiple times. For the moment AcornSSL 1.06 still works.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20002:159673</guid>
-    </item>    <item>
-      <title>Why is ROOL doing this?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20090</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Allocation is never refused, to my knowledge.<br />
-        Let’s also remember that <span class="caps">ROOL</span> is staffed entirely by volunteers.</p>
-        </blockquote>
-        <p>Which is why, when I received no response at all to a recent allocation request for a swi, I decide to use something random and move on.  If it ever becomes a problem I will deal with it then.</p>]]>
-      </description>
-      <source:markdown>&#62; Allocation is never refused, to my knowledge.
-&#62;
-&#62; Let’s also remember that ROOL is staffed entirely by volunteers.
-
-Which is why, when I received no response at all to a recent allocation request for a swi, I decide to use something random and move on. If it ever becomes a problem I will deal with it then.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20090:159672</guid>
     </item>    <item>
       <title>communications • Re: the Night Owl BBS</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469411#p469411</link>
