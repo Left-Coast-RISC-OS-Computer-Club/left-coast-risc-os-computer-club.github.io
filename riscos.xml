@@ -7,10 +7,57 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>10 Nov 25 11:00 -0800</lastBuildDate>
+    <lastBuildDate>10 Nov 25 15:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn software: games - high scores • High Score Challenge - S26 - Round Five - Night Ninja</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469557#p469557</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469557#p469557</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Econet Teletext server</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469556#p469556</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469556#p469556</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • The Electron and Opus Challenger</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469555#p469555</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469555#p469555</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Econet Teletext server</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469554#p469554</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469554#p469554</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Exploring SKitphrati 15mhz Monitor</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469552#p469552</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469552#p469552</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Master in the house</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469551#p469551</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469551#p469551</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Master in the house</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469550#p469550</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469550#p469550</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Four - Transistor&#39;s Revenge</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469549#p469549</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469549#p469549</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Master in the house</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469548#p469548</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469548#p469548</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Master in the house</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469547#p469547</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469547#p469547</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m5cfl7pxzs2p</link>
+      <description>
+        <![CDATA[Okudagrams are old-hat, so of course must be supported in RISC OS.]]>
+      </description>
+      <source:markdown>Okudagrams are old-hat, so of course must be supported in RISC OS.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m5cfl7pxzs2p</guid>
+    </item>    <item>
       <title>32-bit acorn hardware • Re: Exploring SKitphrati 15mhz Monitor</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469529#p469529</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469529#p469529</guid>
@@ -143,6 +190,14 @@ PS: I forgot to mention that I am using RO 5.30 &#38; StrongED V4.69</source:mar
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469496#p469496</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469496#p469496</guid>
     </item>    <item>
+      <title>!FTPcs Problem</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20002</link>
+      <description>
+        <![CDATA[<p>Shouldn&#8217;t affect anything other than another ftp client that uses AcornSSL which it would fix</p>]]>
+      </description>
+      <source:markdown>Shouldn’t affect anything other than another ftp client that uses AcornSSL which it would fix</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20002:159697</guid>
+    </item>    <item>
       <title>programming • Re: Disassemblies of BBC Micro Games</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469495#p469495</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469495#p469495</guid>
@@ -150,14 +205,6 @@ PS: I forgot to mention that I am using RO 5.30 &#38; StrongED V4.69</source:mar
       <title>32-bit acorn software: other • Re: The Hidden Fifth Column: Integrating Wizzo with RISC OS 3.11</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469494#p469494</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469494#p469494</guid>
-    </item>    <item>
-      <title>!FTPcs Problem</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20002</link>
-      <description>
-        <![CDATA[<p>Ok so the module in <a href="https://ftpc.iconbar.com/AcornSSL-1_07reuse3.zip">AcornSSL-1_07reuse3.zip</a> should work. Can anyone who uses secure ftp with FTPc try it out and let me know if there are any problems.</p>]]>
-      </description>
-      <source:markdown>Ok so the module in [AcornSSL-1\_07reuse3.zip](https://ftpc.iconbar.com/AcornSSL-1_07reuse3.zip) should work. Can anyone who uses secure ftp with FTPc try it out and let me know if there are any problems.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20002:159695</guid>
     </item>    <item>
       <title>32-bit acorn software: other • Re: The Hidden Fifth Column: Integrating Wizzo with RISC OS 3.11</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469493#p469493</link>
