@@ -7,10 +7,78 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>10 Nov 25 07:00 -0800</lastBuildDate>
+    <lastBuildDate>10 Nov 25 11:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>32-bit acorn hardware • Re: Exploring SKitphrati 15mhz Monitor</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469529#p469529</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469529#p469529</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Exploring SKitphrati 15mhz Monitor</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469528#p469528</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469528#p469528</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: RISC OS 3.20 ROMs?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469527#p469527</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469527#p469527</guid>
+    </item>    <item>
+      <title>Keyboard layout and *configure country</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20108</link>
+      <description>
+        <![CDATA[<p>Looking at the <span class="caps">RISC</span> OS source, on reset the keyboard type is set to UK in KeyPostInit in Kernel/s/<span class="caps">PMF</span>/key. I have modified <span class="caps">RISCOS</span>.<span class="caps">IMG</span> so that this routine sets the type to <span class="caps">USA</span> instead of UK (by directly changing byte 0&#215;458d4 of the RPi Stable 5.30 <span class="caps">ROM</span> image to 0&#215;30, from 0&#215;01 &#8211; there doesn&#8217;t seem to be any checksum on this binary image on the Pi).</p>
+        <p>As a workaround, this seems fine &#8211; now I have a default <span class="caps">USA</span> keyboard when booting directly to supervisor/<span class="caps">BASIC</span>.</p>]]>
+      </description>
+      <source:markdown>Looking at the RISC OS source, on reset the keyboard type is set to UK in KeyPostInit in Kernel/s/PMF/key. I have modified RISCOS.IMG so that this routine sets the type to USA instead of UK (by directly changing byte 0×458d4 of the RPi Stable 5.30 ROM image to 0×30, from 0×01 – there doesn’t seem to be any checksum on this binary image on the Pi).
+
+As a workaround, this seems fine – now I have a default USA keyboard when booting directly to supervisor/BASIC.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20108:159713</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: RISC OS 3.20 ROMs?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469526#p469526</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469526#p469526</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Exploring SKitphrati 15mhz Monitor</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469525#p469525</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469525#p469525</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 cmos battery damage</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469524#p469524</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469524#p469524</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 cmos battery damage</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469522#p469522</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469522#p469522</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 cmos battery damage</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469521#p469521</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469521#p469521</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Four - Transistor&#39;s Revenge</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469520#p469520</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469520#p469520</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Exploring SKitphrati 15mhz Monitor</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469519#p469519</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469519#p469519</guid>
+    </item>    <item>
+      <title>Translating BASIC to C</title>
+      <link>https://www.riscosopen.org/forum/forums/3/topics/20112</link>
+      <description>
+        <![CDATA[<p>Long term readers of these fora may remember that I think Printer Manager is far too big to be extended to deal with <span class="caps">IPP</span> printers in its present <span class="caps">BASIC</span> form.</p>
+        <p>It occurred to me that it might be possible to translate it to C, in small increments, leaving it testable at all times, by translating bottom-up (i.e. replacing the lowest level functions and procedures first) and replacing them with calls to a module written in C.  The module would only be needed until all the translation is done, by which time we&#8217;d have a complete translation into C that then would be converted from a module to an app.</p>
+        <p>Printer Manager is an enormous job to take on top-down, as nothing could be used until it&#8217;s all done.  The way I&#8217;m suggesting would have something testable and usable (the ultimate test of testability!) at all stages.</p>
+        <p>Any thoughts?</p>]]>
+      </description>
+      <source:markdown>Long term readers of these fora may remember that I think Printer Manager is far too big to be extended to deal with IPP printers in its present BASIC form.
+
+It occurred to me that it might be possible to translate it to C, in small increments, leaving it testable at all times, by translating bottom-up (i.e. replacing the lowest level functions and procedures first) and replacing them with calls to a module written in C. The module would only be needed until all the translation is done, by which time we’d have a complete translation into C that then would be converted from a module to an app.
+
+Printer Manager is an enormous job to take on top-down, as nothing could be used until it’s all done. The way I’m suggesting would have something testable and usable (the ultimate test of testability!) at all stages.
+
+Any thoughts?</source:markdown>
+      <guid>cid://www.riscosopen.org:3:20112:159702</guid>
+    </item>    <item>
       <title>software &#38;amp; utilities for the pc, mac or unix • Re: Disc Image Manager</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469499#p469499</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469499#p469499</guid>
@@ -41,7 +109,8 @@ Then I’m dropped into a supervisor prompt. \*Podules shows the Unipod listed, 
         &#8216;StrongED_Read:Tools.!ScriptSED.Icon&#8217;<br />
         not found&quot;</p>
         <p>The program ran fine before, though, and I don&#8217;t recall changing anything in the system settings apart from adding &#8220;!Organizer&#8221; and &#8220;!MoreDesk&#8221; to the &#8220;Run at startup&#8221; window. Removing these programs doesn&#8217;t fix the issue. I would therefore be grateful if one of you <span class="caps">RISC</span> OS specialists could help me out. Many thanks in advance and best wishes from Austria!</p>
-        <p>Berny :)</p>]]>
+        <p>Berny :)</p>
+        <p>PS: I forgot to mention that I am using RO 5.30 &amp; StrongED V4.69</p>]]>
       </description>
       <source:markdown>Dear all,
 
@@ -57,7 +126,9 @@ not found&#34;
 
 The program ran fine before, though, and I don’t recall changing anything in the system settings apart from adding “!Organizer” and “!MoreDesk” to the “Run at startup” window. Removing these programs doesn’t fix the issue. I would therefore be grateful if one of you RISC OS specialists could help me out. Many thanks in advance and best wishes from Austria!
 
-Berny :)</source:markdown>
+Berny :)
+
+PS: I forgot to mention that I am using RO 5.30 &#38; StrongED V4.69</source:markdown>
       <guid>cid://www.riscosopen.org:11:20110:159699</guid>
     </item>    <item>
       <title>acorn atom and acorn system series • Re: Atom memory issue</title>
@@ -80,6 +151,14 @@ Berny :)</source:markdown>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469494#p469494</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469494#p469494</guid>
     </item>    <item>
+      <title>!FTPcs Problem</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20002</link>
+      <description>
+        <![CDATA[<p>Ok so the module in <a href="https://ftpc.iconbar.com/AcornSSL-1_07reuse3.zip">AcornSSL-1_07reuse3.zip</a> should work. Can anyone who uses secure ftp with FTPc try it out and let me know if there are any problems.</p>]]>
+      </description>
+      <source:markdown>Ok so the module in [AcornSSL-1\_07reuse3.zip](https://ftpc.iconbar.com/AcornSSL-1_07reuse3.zip) should work. Can anyone who uses secure ftp with FTPc try it out and let me know if there are any problems.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20002:159695</guid>
+    </item>    <item>
       <title>32-bit acorn software: other • Re: The Hidden Fifth Column: Integrating Wizzo with RISC OS 3.11</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469493#p469493</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469493#p469493</guid>
@@ -96,6 +175,23 @@ Berny :)</source:markdown>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469485#p469485</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469485#p469485</guid>
     </item>    <item>
+      <title>Titanium pci scsi</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20106</link>
+      <description>
+        <![CDATA[<p><span class="caps">SCSI</span> commands seems to used in <span class="caps">USB</span> &#8211; Colin seemed to use it to control a <span class="caps">USB</span> <span class="caps">DOS</span> Floppy Drive.</p>
+        <p>Was there any <span class="caps">SCSI</span> info on driving a Podule <span class="caps">SCSI</span>?</p>
+        <p>Castle cards?<br />
+        What&#8217;s the difference between Podules / PCIe?</p>]]>
+      </description>
+      <source:markdown>SCSI commands seems to used in USB – Colin seemed to use it to control a USBDOS Floppy Drive.
+
+Was there any SCSI info on driving a Podule SCSI?
+
+Castle cards?
+
+What’s the difference between Podules / PCIe?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20106:159692</guid>
+    </item>    <item>
       <title>Running a BASIC programme</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20109</link>
       <description>
@@ -107,33 +203,18 @@ Berny :)</source:markdown>
 Is there any way of accessing this info from within BASIC to know, for example, from which directory the file was launched?</source:markdown>
       <guid>cid://www.riscosopen.org:11:20109:159690</guid>
     </item>    <item>
-      <title>Keyboard layout and *configure country</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20108</link>
-      <description>
-        <![CDATA[<p>Hello,</p>
-        <p>Is it a bug that *configure <span class="caps">USA</span>, when booting directly to supervisor/<span class="caps">BASIC</span>, does not set a <span class="caps">USA</span> keyboard layout? This is on a Raspberry Pi with <span class="caps">RISC</span> OS 5.30 and a <span class="caps">USB</span> keyboard (and there is no message about keyboard not being present, which did show up sometimes on previous versions of <span class="caps">RISC</span> OS with slow <span class="caps">USB</span> devices attached).</p>
-        <p>After a reset, *status correctly shows &#8220;Country <span class="caps">USA</span>&#8221;, *country shows &#8220;<span class="caps">USA</span>&#8221;, but *keyboard shows &#8220;UK&#8221;, and the keyboard mapping is indeed UK, where &quot; is on Shift-2. Pressing Ctrl-Alt-F2 correctly changes to the configured <span class="caps">USA</span> keyboard (where @ is on Shift-2). I was under the impression that *configure  was supposed to set the keyboard layout to  on boot, but I may be misunderstanding the <span class="caps">RISC</span> OS definitions of country/keyboard/language/alphabet/territory.
-        <p>I am trying to avoid having to press Ctrl-Alt-F2, issue a *keyboard command or have a !Boot file, just to set the keyboard layout. Can it not be configured?</p>
-        <p>Thanks! Apologies if this is expected behavior.</p>]]>
-      </description>
-      <source:markdown>Hello,
-
-Is it a bug that \*configure USA, when booting directly to supervisor/BASIC, does not set a USA keyboard layout? This is on a Raspberry Pi with RISC OS 5.30 and a USB keyboard (and there is no message about keyboard not being present, which did show up sometimes on previous versions of RISC OS with slow USB devices attached).
-
-After a reset, \*status correctly shows “Country USA”, \*country shows “USA”, but \*keyboard shows “UK”, and the keyboard mapping is indeed UK, where &#34; is on Shift-2. Pressing Ctrl-Alt-F2 correctly changes to the configured USA keyboard (where @ is on Shift-2). I was under the impression that \*configure was supposed to set the keyboard layout to on boot, but I may be misunderstanding the RISC OS definitions of country/keyboard/language/alphabet/territory.
-
-I am trying to avoid having to press Ctrl-Alt-F2, issue a \*keyboard command or have a !Boot file, just to set the keyboard layout. Can it not be configured?
-
-Thanks! Apologies if this is expected behavior.</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20108:159688</guid>
-    </item>    <item>
       <title>Why is ROOL doing this?</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20090</link>
       <description>
-        <![CDATA[<p>Yes, but it probably wont be you that has the problem, when a user has a clash between your application and another using the official allocation. Do not do this.</p>]]>
+        <![CDATA[<blockquote>
+        <p>Allocation is never refused, to my knowledge.</p>
+        </blockquote>
+        <p>I wanted <code>!XP.....</code> which was refused because of a clash. I was allowed <code>!XP1....</code> which is what I&#8217;ve used ever since. (Not a <span class="caps">SWI</span>, of course &#8211; a range of application names.)</p>]]>
       </description>
-      <source:markdown>Yes, but it probably wont be you that has the problem, when a user has a clash between your application and another using the official allocation. Do not do this.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20090:159687</guid>
+      <source:markdown>&#62; Allocation is never refused, to my knowledge.
+
+I wanted `!XP.....` which was refused because of a clash. I was allowed `!XP1....` which is what I’ve used ever since. (Not a SWI, of course – a range of application names.)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20090:159689</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: Torch Graduate</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469465#p469465</link>
@@ -220,14 +301,6 @@ Enjoy! :)</source:markdown>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469444#p469444</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469444#p469444</guid>
     </item>    <item>
-      <title>Titanium pci scsi</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20106</link>
-      <description>
-        <![CDATA[<p>Has anyone had a go with the Titanium pci with a <span class="caps">SCSI</span> card?</p>]]>
-      </description>
-      <source:markdown>Has anyone had a go with the Titanium pci with a SCSI card?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20106:159679</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3m57lekjvkc2z</link>
       <description>
         <![CDATA[Here is an article with all the details about a new chunk of progresses on #UltimaVM and the new project's mascot Luma. Still lots of work to finish to get the first beta release out, but hey I am moving forward!
@@ -283,17 +356,6 @@ https://rma.20000.org</source:markdown>
       </description>
       <source:markdown>Starting in 20 minutes.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20103:159677</guid>
-    </item>    <item>
-      <title>!FTPcs Problem</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20002</link>
-      <description>
-        <![CDATA[<p>FTPc authenticates successfully and reuses that authentication for data connections successfully once with AcornSSL 1.07. Meaning you get a connection and a directory display then it stops working.</p>
-        <p>The change to riscos version of mbedtls that introduced the problem was 4th Jan 2025. AcornSSL 1.07 happened on 17th Dec 2024. So you could have a version of 1.07 that works otherwise 1.06 will.</p>]]>
-      </description>
-      <source:markdown>FTPc authenticates successfully and reuses that authentication for data connections successfully once with AcornSSL 1.07. Meaning you get a connection and a directory display then it stops working.
-
-The change to riscos version of mbedtls that introduced the problem was 4th Jan 2025. AcornSSL 1.07 happened on 17th Dec 2024. So you could have a version of 1.07 that works otherwise 1.06 will.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20002:159676</guid>
     </item>    <item>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Four - Transistor&#39;s Revenge</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469434#p469434</link>
