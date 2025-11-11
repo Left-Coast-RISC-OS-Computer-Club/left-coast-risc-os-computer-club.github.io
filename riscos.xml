@@ -7,10 +7,61 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>11 Nov 25 07:00 -0800</lastBuildDate>
+    <lastBuildDate>11 Nov 25 11:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>econet and other acorn specific networking • Re: Econet Teletext server</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469653#p469653</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469653#p469653</guid>
+    </item>    <item>
+      <title>miscellaneous new bbc and electron games • Re: Atari Missile Command</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469652#p469652</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469652#p469652</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Econet Teletext server</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469651#p469651</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469651#p469651</guid>
+    </item>    <item>
+      <title>general • From Acorn to ARM with Professor Steve Furber MBE</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469650#p469650</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469650#p469650</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Econet Teletext server</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469649#p469649</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469649#p469649</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: Econet Teletext server</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469648#p469648</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469648#p469648</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Master in the house</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469647#p469647</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469647#p469647</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Five - Night Ninja</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469646#p469646</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469646#p469646</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Master in the house</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469645#p469645</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469645#p469645</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Master in the house</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469644#p469644</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469644#p469644</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m5ekdmqvgs22</link>
+      <description>
+        <![CDATA[I’ve mentioned it before but it continues to intrigue me – compare the mysterious Mexico [sic] alphabet from the M128 International ROM with the CodePage-437 character set.
+        
+        Both of these are RISC OS Alphabets (but not 7bit numbers) and make a distinction between semantic and appearance Unicodes:]]>
+      </description>
+      <source:markdown>I’ve mentioned it before but it continues to intrigue me – compare the mysterious Mexico \[sic\] alphabet from the M128 International ROM with the CodePage-437 character set.
+
+Both of these are RISC OS Alphabets (but not 7bit numbers) and make a distinction between semantic and appearance Unicodes:</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m5ekdmqvgs22</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Who else is building a Beeb from scratch?</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469620#p469620</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469620#p469620</guid>
@@ -82,6 +133,14 @@ I&#39;m a big fan of RPCEmu which provides an excellent RISC OS environment on m
       <source:markdown>I&#39;m not sure how you&#39;re getting numbers so low on your Mac version. I just opened an old version I compiled a while back on my M1 Mac and get an average of just under 140 MIPS. Copying it over to an M4 Mac I have for work, it gets an average of around 220.</source:markdown>
       <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13496&#38;page=1#125840</guid>
     </item>    <item>
+      <title>RISC PC Boot Failure with UniPod</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20111</link>
+      <description>
+        <![CDATA[<p>Wonderful! glad its working</p>]]>
+      </description>
+      <source:markdown>Wonderful! glad its working</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20111:159740</guid>
+    </item>    <item>
       <title>Titanium pci scsi</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20106</link>
       <description>
@@ -89,6 +148,50 @@ I&#39;m a big fan of RPCEmu which provides an excellent RISC OS environment on m
       </description>
       <source:markdown>I wonder if the source for the serial / parallel PCIe Ti cards is available for download?</source:markdown>
       <guid>cid://www.riscosopen.org:5:20106:159739</guid>
+    </item>    <item>
+      <title>Floating Point in C</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/19431</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve got the score up over 900k, and once over 1m, by giving it more registers &#8211; I chose to set the baseline to allow the output to run on a PiZero which only has 8 D <span class="caps">VFP</span> registers. But 8 D registers means (under <span class="caps">AAPCS</span>) none are preserved over a function call. Giving it more would clearly be more efficient, but limits the h/w it can run on. I see apcs-softpcs (which I copied for <span class="caps">VFP</span> init) requests 16 D registers.</p>
+        <p>Curiously, 4 saved D FP registers outperforms 6 or 7 saved (ie. in addition to the 8 D arg registers) &#8211; I&#8217;ll investigate more as that shouldn&#8217;t really happen. ARM&#8217;s Norcroft currently has a limit of 31 registers (int + FP), due to its impressive use of signed maths throughout, so I can&#8217;t easily use 8 + 8.</p>
+        <blockquote>
+        <p>After a little bit of fiddling around &#8230; it now runs.</p>
+        </blockquote>
+        <p>That&#8217;s quite neat. Potentially could be useful, in fact, since my regression test harness (running on unix) can&#8217;t execute any code under <span class="caps">RISC</span> OS, only check the disassembled output. I was pondering <span class="caps">ELF</span> output for a Pi, but I&#8217;ve done all the work on a Mac (hence RPCEmu, hence forgetting about unaligned memory).</p>
+        <blockquote>
+        <p>Modern, mainstream browsers tend to block insecure links/content in secure pages.</p>
+        </blockquote>
+        <p>Yay, fewer spamages. It&#8217;s literally a one-line python http.server running as a very restricted user as I couldn&#8217;t be bothered to setup up a web server, but probably should one day.</p>]]>
+      </description>
+      <source:markdown>I’ve got the score up over 900k, and once over 1m, by giving it more registers – I chose to set the baseline to allow the output to run on a PiZero which only has 8 D VFP registers. But 8 D registers means (under AAPCS) none are preserved over a function call. Giving it more would clearly be more efficient, but limits the h/w it can run on. I see apcs-softpcs (which I copied for VFP init) requests 16 D registers.
+
+Curiously, 4 saved D FP registers outperforms 6 or 7 saved (ie. in addition to the 8 D arg registers) – I’ll investigate more as that shouldn’t really happen. ARM’s Norcroft currently has a limit of 31 registers (int + FP), due to its impressive use of signed maths throughout, so I can’t easily use 8 + 8.
+
+&#62; After a little bit of fiddling around … it now runs.
+
+That’s quite neat. Potentially could be useful, in fact, since my regression test harness (running on unix) can’t execute any code under RISC OS, only check the disassembled output. I was pondering ELF output for a Pi, but I’ve done all the work on a Mac (hence RPCEmu, hence forgetting about unaligned memory).
+
+&#62; Modern, mainstream browsers tend to block insecure links/content in secure pages.
+
+Yay, fewer spamages. It’s literally a one-line python http.server running as a very restricted user as I couldn’t be bothered to setup up a web server, but probably should one day.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:19431:159737</guid>
+    </item>    <item>
+      <title>StrongED stopped working</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20110</link>
+      <description>
+        <![CDATA[<p>Dear all,</p>
+        <p>I&#8217;m back with a brief — albeit somewhat unsettling — update: I have just performed a complete reinstallation and copied all commercial programs from a full backup of the ePic card. Whilst installing the software, I opened a ReadMe file and the &#8216;icon&#8217; error occurred again.</p>
+        <p>Either a file on the card is infected or the virus has infected the system via my backup <span class="caps">USB</span> stick. I am not sure if this is even possible on RiscOS as I didn&#8217;t start/open any files on the stick. It probably makes sense to contact <span class="caps">ROOL</span>&#8230;</p>
+        <p>Best regards, Berny :/</p>]]>
+      </description>
+      <source:markdown>Dear all,
+
+I’m back with a brief — albeit somewhat unsettling — update: I have just performed a complete reinstallation and copied all commercial programs from a full backup of the ePic card. Whilst installing the software, I opened a ReadMe file and the ‘icon’ error occurred again.
+
+Either a file on the card is infected or the virus has infected the system via my backup USB stick. I am not sure if this is even possible on RiscOS as I didn’t start/open any files on the stick. It probably makes sense to contact ROOL…
+
+Best regards, Berny :/</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20110:159736</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m5dr6fzgoc2m</link>
       <description>
@@ -101,42 +204,12 @@ I&#39;m a big fan of RPCEmu which provides an excellent RISC OS environment on m
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m5dr6fzgoc2m</guid>
     </item>    <item>
-      <title>RISC PC Boot Failure with UniPod</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20111</link>
-      <description>
-        <![CDATA[<p>Thanks to all of you who responded. Much appreciated. As luck would have it, I found !snafu on the <span class="caps">HDD</span> and managed to reflash the Unipod, and now it appears to be working! Well, it boots at least, so now I&#8217;ll try to get networking going. Many thanks again.</p>]]>
-      </description>
-      <source:markdown>Thanks to all of you who responded. Much appreciated. As luck would have it, I found !snafu on the HDD and managed to reflash the Unipod, and now it appears to be working! Well, it boots at least, so now I’ll try to get networking going. Many thanks again.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20111:159735</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3m5dpzjsnks2l</link>
       <description>
         <![CDATA[5 months in to the 5:2 diet and I've lost 7.5kg as of this morning 😊]]>
       </description>
       <source:markdown>5 months in to the 5:2 diet and I&#39;ve lost 7.5kg as of this morning 😊</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m5dpzjsnks2l</guid>
-    </item>    <item>
-      <title>Floating Point in C</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/19431</link>
-      <description>
-        <![CDATA[<p>One small thing: <code><a href="http://noegruts.duckdns">http://noegruts.duckdns</a></code><br />
-        Modern, mainstream browsers tend to block insecure links/content in secure pages.<br />
-        The forums are <span class="caps">HTTPS</span>, so <span class="caps">HTTP</span> links will give problems.</p>]]>
-      </description>
-      <source:markdown>One small thing: `http://noegruts.duckdns`
-
-Modern, mainstream browsers tend to block insecure links/content in secure pages.
-
-The forums are HTTPS, so HTTP links will give problems.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:19431:159734</guid>
-    </item>    <item>
-      <title>StrongED stopped working</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20110</link>
-      <description>
-        <![CDATA[<p>If you can remember which <span class="caps">ADF</span> images you downloaded, perhaps you could report them to the owners of the ArcArc.nl site so they can clean up.</p>]]>
-      </description>
-      <source:markdown>If you can remember which ADF images you downloaded, perhaps you could report them to the owners of the ArcArc.nl site so they can clean up.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20110:159732</guid>
     </item>    <item>
       <title>Moving back to Linux RPCEmu on my Mac</title>
       <link>http://www.iconbar.com/comments/rss/news2244.html</link>
