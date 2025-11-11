@@ -7,10 +7,153 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>10 Nov 25 15:00 -0800</lastBuildDate>
+    <lastBuildDate>11 Nov 25 07:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: Who else is building a Beeb from scratch?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469620#p469620</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469620#p469620</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Who else is building a Beeb from scratch?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469619#p469619</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469619#p469619</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Four - Transistor&#39;s Revenge</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469618#p469618</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469618#p469618</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Master in the house</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469617#p469617</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469617#p469617</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Master in the house</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469616#p469616</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469616#p469616</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 cmos battery damage</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469615#p469615</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469615#p469615</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Five - Night Ninja</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469614#p469614</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469614#p469614</guid>
+    </item>    <item>
+      <title>Time to Update !Killer :)</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20114</link>
+      <description>
+        <![CDATA[<p><span class="caps">ROOL</span> if you have the source code for !Killer might be an idea to update it for Risc OS 5 or start including VProtect again, Considering virus comebacks or if <span class="caps">ROOL</span> doesn&#8217;t want too, maybe others would want to update the source code.</p>]]>
+      </description>
+      <source:markdown>ROOL if you have the source code for !Killer might be an idea to update it for Risc OS 5 or start including VProtect again, Considering virus comebacks or if ROOL doesn’t want too, maybe others would want to update the source code.</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20114:159753</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Master in the house</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469613#p469613</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469613#p469613</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Master in the house</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469612#p469612</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469612#p469612</guid>
+    </item>    <item>
+      <title>archive submissions • Re: Popular Computing Weekly</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469611#p469611</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469611#p469611</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3m5e5d2mdz22u</link>
+      <description>
+        <![CDATA[Moving back to Linux RPCEmu on my Mac 
+        
+        https://www.iconbar.com/articles/Moving_back_to_Linux_RPCEmu_on_my_Mac/index2244.html 
+        
+        I'm a big fan of RPCEmu which provides an excellent RISC OS environment on my Mac when I'm travelling. In this post I'm going to explore why I have switched back to the Linux version and cover some of the issues I encountered.]]>
+      </description>
+      <source:markdown>Moving back to Linux RPCEmu on my Mac
+
+https://www.iconbar.com/articles/Moving\_back\_to\_Linux\_RPCEmu\_on\_my\_Mac/index2244.html
+
+I&#39;m a big fan of RPCEmu which provides an excellent RISC OS environment on my Mac when I&#39;m travelling. In this post I&#39;m going to explore why I have switched back to the Linux version and cover some of the issues I encountered.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3m5e5d2mdz22u</guid>
+    </item>    <item>
+      <title>Moving back to Linux RPCEmu on my Mac</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13496&#38;page=1#125840</link>
+      <description>
+        <![CDATA[I'm not sure how you're getting numbers so low on your Mac version.  I just opened an old version I compiled a while back on my M1 Mac and get an average of just under 140 MIPS.  Copying it over to an M4 Mac I have for work, it gets an average of around 220.]]>
+      </description>
+      <source:markdown>I&#39;m not sure how you&#39;re getting numbers so low on your Mac version. I just opened an old version I compiled a while back on my M1 Mac and get an average of just under 140 MIPS. Copying it over to an M4 Mac I have for work, it gets an average of around 220.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13496&#38;page=1#125840</guid>
+    </item>    <item>
+      <title>Titanium pci scsi</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20106</link>
+      <description>
+        <![CDATA[<p>I wonder if the source for the serial / parallel PCIe Ti cards is available for download?</p>]]>
+      </description>
+      <source:markdown>I wonder if the source for the serial / parallel PCIe Ti cards is available for download?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20106:159739</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m5dr6fzgoc2m</link>
+      <description>
+        <![CDATA[Timing... 🧐
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Timing... 🧐
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m5dr6fzgoc2m</guid>
+    </item>    <item>
+      <title>RISC PC Boot Failure with UniPod</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20111</link>
+      <description>
+        <![CDATA[<p>Thanks to all of you who responded. Much appreciated. As luck would have it, I found !snafu on the <span class="caps">HDD</span> and managed to reflash the Unipod, and now it appears to be working! Well, it boots at least, so now I&#8217;ll try to get networking going. Many thanks again.</p>]]>
+      </description>
+      <source:markdown>Thanks to all of you who responded. Much appreciated. As luck would have it, I found !snafu on the HDD and managed to reflash the Unipod, and now it appears to be working! Well, it boots at least, so now I’ll try to get networking going. Many thanks again.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20111:159735</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m5dpzjsnks2l</link>
+      <description>
+        <![CDATA[5 months in to the 5:2 diet and I've lost 7.5kg as of this morning 😊]]>
+      </description>
+      <source:markdown>5 months in to the 5:2 diet and I&#39;ve lost 7.5kg as of this morning 😊</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m5dpzjsnks2l</guid>
+    </item>    <item>
+      <title>Floating Point in C</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/19431</link>
+      <description>
+        <![CDATA[<p>One small thing: <code><a href="http://noegruts.duckdns">http://noegruts.duckdns</a></code><br />
+        Modern, mainstream browsers tend to block insecure links/content in secure pages.<br />
+        The forums are <span class="caps">HTTPS</span>, so <span class="caps">HTTP</span> links will give problems.</p>]]>
+      </description>
+      <source:markdown>One small thing: `http://noegruts.duckdns`
+
+Modern, mainstream browsers tend to block insecure links/content in secure pages.
+
+The forums are HTTPS, so HTTP links will give problems.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:19431:159734</guid>
+    </item>    <item>
+      <title>StrongED stopped working</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20110</link>
+      <description>
+        <![CDATA[<p>If you can remember which <span class="caps">ADF</span> images you downloaded, perhaps you could report them to the owners of the ArcArc.nl site so they can clean up.</p>]]>
+      </description>
+      <source:markdown>If you can remember which ADF images you downloaded, perhaps you could report them to the owners of the ArcArc.nl site so they can clean up.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20110:159732</guid>
+    </item>    <item>
+      <title>Moving back to Linux RPCEmu on my Mac</title>
+      <link>http://www.iconbar.com/comments/rss/news2244.html</link>
+      <description>
+        <![CDATA[I am a big fan of RPCEmu which provides an excellent RISC OS environment on my Mac when I am travelling. In this post I am going to explore why I have switched back to the Linux version and cover some of the issues I encountered.]]>
+      </description>
+      <source:markdown>I am a big fan of RPCEmu which provides an excellent RISC OS environment on my Mac when I am travelling. In this post I am going to explore why I have switched back to the Linux version and cover some of the issues I encountered.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2244.html</guid>
+    </item>    <item>
+      <title>ROOL adds Fortran support in latest DDE update</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13506&#38;page=1#125839</link>
+      <description>
+        <![CDATA[That's pretty cool. I'd love to see Python and COBOL added, particularly Python. Yes, it's an interpreted language by design, but on other platforms you can compile it, too.]]>
+      </description>
+      <source:markdown>That&#39;s pretty cool. I&#39;d love to see Python and COBOL added, particularly Python. Yes, it&#39;s an interpreted language by design, but on other platforms you can compile it, too.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13506&#38;page=1#125839</guid>
+    </item>    <item>
       <title>8-bit acorn software: games - high scores • High Score Challenge - S26 - Round Five - Night Ninja</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469557#p469557</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469557#p469557</guid>
@@ -130,54 +273,6 @@ Any thoughts?</source:markdown>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469499#p469499</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469499#p469499</guid>
     </item>    <item>
-      <title>RISC PC Boot Failure with UniPod</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20111</link>
-      <description>
-        <![CDATA[<p>Hello all. I am trying to get my Dad&#8217;s old <span class="caps">RISC</span> PC to boot up. It has a Unipod, which seems to be causing problems. If I remove the Unipod, it boots fine. (With a few error complaining about the network, but that&#8217;s to be expected, I would say.) However, with the Unipod in, I get this error before anything else is displayed on the screen at all:</p>
-        <blockquote>
-        <p>Error: NosuchSWI1:<span class="caps">SWI</span> &amp;%0 not known (Error Number &amp;1E6)</p>
-        </blockquote>
-        <p>Then I&#8217;m dropped into a supervisor prompt. *Podules shows the Unipod listed, so it&#8217;s recognized, but something about it being plugged in as making the machine unhappy. Any ideas on a way forward so I can get networking going? It doesn&#8217;t have any other <span class="caps">NIC</span>.</p>]]>
-      </description>
-      <source:markdown>Hello all. I am trying to get my Dad’s old RISC PC to boot up. It has a Unipod, which seems to be causing problems. If I remove the Unipod, it boots fine. (With a few error complaining about the network, but that’s to be expected, I would say.) However, with the Unipod in, I get this error before anything else is displayed on the screen at all:
-
-&#62; Error: NosuchSWI1:SWI &#38;%0 not known (Error Number &#38;1E6)
-
-Then I’m dropped into a supervisor prompt. \*Podules shows the Unipod listed, so it’s recognized, but something about it being plugged in as making the machine unhappy. Any ideas on a way forward so I can get networking going? It doesn’t have any other NIC.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20111:159700</guid>
-    </item>    <item>
-      <title>StrongED stopped working</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20110</link>
-      <description>
-        <![CDATA[<p>Dear all,</p>
-        <p>As a new(ish) RiscOS user, I recently purchased the ePic card for my Raspberry Pi 400. Everything works fine (I haven&#8217;t tested Wi-Fi yet), except StrongED, which has suddenly stopped working. Whenever I start the program (or open a text document), the following error message appears:</p>
-        <p>&#8220;Error</p>
-        <p>File<br />
-        &#8216;StrongED_Read:Tools.!ScriptSED.Icon&#8217;<br />
-        not found&quot;</p>
-        <p>The program ran fine before, though, and I don&#8217;t recall changing anything in the system settings apart from adding &#8220;!Organizer&#8221; and &#8220;!MoreDesk&#8221; to the &#8220;Run at startup&#8221; window. Removing these programs doesn&#8217;t fix the issue. I would therefore be grateful if one of you <span class="caps">RISC</span> OS specialists could help me out. Many thanks in advance and best wishes from Austria!</p>
-        <p>Berny :)</p>
-        <p>PS: I forgot to mention that I am using RO 5.30 &amp; StrongED V4.69</p>]]>
-      </description>
-      <source:markdown>Dear all,
-
-As a new(ish) RiscOS user, I recently purchased the ePic card for my Raspberry Pi 400. Everything works fine (I haven’t tested Wi-Fi yet), except StrongED, which has suddenly stopped working. Whenever I start the program (or open a text document), the following error message appears:
-
-“Error
-
-File
-
-‘StrongED\_Read:Tools.!ScriptSED.Icon’
-
-not found&#34;
-
-The program ran fine before, though, and I don’t recall changing anything in the system settings apart from adding “!Organizer” and “!MoreDesk” to the “Run at startup” window. Removing these programs doesn’t fix the issue. I would therefore be grateful if one of you RISC OS specialists could help me out. Many thanks in advance and best wishes from Austria!
-
-Berny :)
-
-PS: I forgot to mention that I am using RO 5.30 &#38; StrongED V4.69</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20110:159699</guid>
-    </item>    <item>
       <title>acorn atom and acorn system series • Re: Atom memory issue</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469498#p469498</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469498#p469498</guid>
@@ -221,23 +316,6 @@ PS: I forgot to mention that I am using RO 5.30 &#38; StrongED V4.69</source:mar
       <title>32-bit acorn hardware • Re: A3000 Gotek producing low level static/hissing noise</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469485#p469485</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469485#p469485</guid>
-    </item>    <item>
-      <title>Titanium pci scsi</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20106</link>
-      <description>
-        <![CDATA[<p><span class="caps">SCSI</span> commands seems to used in <span class="caps">USB</span> &#8211; Colin seemed to use it to control a <span class="caps">USB</span> <span class="caps">DOS</span> Floppy Drive.</p>
-        <p>Was there any <span class="caps">SCSI</span> info on driving a Podule <span class="caps">SCSI</span>?</p>
-        <p>Castle cards?<br />
-        What&#8217;s the difference between Podules / PCIe?</p>]]>
-      </description>
-      <source:markdown>SCSI commands seems to used in USB – Colin seemed to use it to control a USBDOS Floppy Drive.
-
-Was there any SCSI info on driving a Podule SCSI?
-
-Castle cards?
-
-What’s the difference between Podules / PCIe?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20106:159692</guid>
     </item>    <item>
       <title>Running a BASIC programme</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20109</link>
