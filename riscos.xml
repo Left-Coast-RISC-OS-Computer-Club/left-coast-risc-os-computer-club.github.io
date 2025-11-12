@@ -7,10 +7,81 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>12 Nov 25 11:00 -0800</lastBuildDate>
+    <lastBuildDate>12 Nov 25 15:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Moving back to Linux RPCEmu on my Mac</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13496&#38;page=1#125846</link>
+      <description>
+        <![CDATA[The pre-built version of v0.9.4 for Mac linked to from the official homepage includes an Intel and ARM64 universal binary for the Interpreter version, which averages around 280 MIPS on my M4 Mac.]]>
+      </description>
+      <source:markdown>The pre-built version of v0.9.4 for Mac linked to from the official homepage includes an Intel and ARM64 universal binary for the Interpreter version, which averages around 280 MIPS on my M4 Mac.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13496&#38;page=1#125846</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Need Help with BBC Micro Model B - Issue 7</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469749#p469749</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469749#p469749</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 storage options?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469748#p469748</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469748#p469748</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: How many Econet Fileservers?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469747#p469747</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469747#p469747</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Fault finding 2nd processor</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469746#p469746</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469746#p469746</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: 177x Disc Controller Module for Beeb</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469744#p469744</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469744#p469744</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Need Help with BBC Micro Model B - Issue 7</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469743#p469743</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469743#p469743</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Plus One suddenly died</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469742#p469742</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469742#p469742</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Fault finding 2nd processor</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469740#p469740</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469740#p469740</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • How many Econet Fileservers?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469739#p469739</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469739#p469739</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Need Help with BBC Micro Model B - Issue 7</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469738#p469738</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469738#p469738</guid>
+    </item>    <item>
+      <title>Time to Update !Killer :)</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20114</link>
+      <description>
+        <![CDATA[<p>The history/status of VProtect:</p>
+        <p>I don&#8217;t believe <span class="caps">ROOL</span> have the source code, John Ballance does.  I approached Andrew Rawnsley in 2015 and again in 2017 for the source, which he agreed, John didn&#8217;t sent me the source though &#8211; there&#8217;s some &#8220;sensitivity&#8221; around it.  It wasn&#8217;t a &#8220;no&#8221;, more some concerns around who I was and why I wanted it I believe.  I put in a similar request for the source to ABCLibrary, although someone else was prioritised for commercial reasons.</p>
+        <p>As I had to fix some serious OS breaking bugs in VProtect, regardless of official source code or not, I disassembled the last publicly released version and fixed all the known issues at the time.  That become v5.00 which is bundled with <span class="caps">ADFFS</span> and is loaded if VProtect is already running when <span class="caps">ADFFS</span> starts.  Its 26/32bit neutral and ARMv7 compatible.</p>
+        <p>In 2015 there was a <span class="caps">ROOL</span> discussion around continuing to include it in the <span class="caps">RISC</span> OS 5 disc image, it was decided to remove it.  From memory there were two main reasons, 1. the bugs, 2. Virus&#8217;s were considered to primarily be a 26bit only issue.</p>
+        <p>I&#8217;m not sure if the source for !Killer exists.  I understand Alan Glover passed everything on to John Ballance, so he may also have the !Killer source.</p>
+        <p>I have no issues with my tweaked VProtect v5.00 being distributed or bundle with an OS image &#8211; I simply fixed the known bugs.</p>]]>
+      </description>
+      <source:markdown>The history/status of VProtect:
+
+I don’t believe ROOL have the source code, John Ballance does. I approached Andrew Rawnsley in 2015 and again in 2017 for the source, which he agreed, John didn’t sent me the source though – there’s some “sensitivity” around it. It wasn’t a “no”, more some concerns around who I was and why I wanted it I believe. I put in a similar request for the source to ABCLibrary, although someone else was prioritised for commercial reasons.
+
+As I had to fix some serious OS breaking bugs in VProtect, regardless of official source code or not, I disassembled the last publicly released version and fixed all the known issues at the time. That become v5.00 which is bundled with ADFFS and is loaded if VProtect is already running when ADFFS starts. Its 26/32bit neutral and ARMv7 compatible.
+
+In 2015 there was a ROOL discussion around continuing to include it in the RISC OS 5 disc image, it was decided to remove it. From memory there were two main reasons, 1. the bugs, 2. Virus’s were considered to primarily be a 26bit only issue.
+
+I’m not sure if the source for !Killer exists. I understand Alan Glover passed everything on to John Ballance, so he may also have the !Killer source.
+
+I have no issues with my tweaked VProtect v5.00 being distributed or bundle with an OS image – I simply fixed the known bugs.</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20114:159792</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Need Help with BBC Micro Model B - Issue 7</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469733#p469733</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469733#p469733</guid>
@@ -92,13 +163,47 @@ Many thanks. Ian.</source:markdown>
       <title>!UnixFonts</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20116</link>
       <description>
-        <![CDATA[<p>Are there any more !UnixFonts available for Iris? or can we add more?<br />
-        and is there any reason Iris can&#8217;t use the full font system on risc os?</p>]]>
+        <![CDATA[<blockquote>
+        <p>Are there any more !UnixFonts available for Iris? or can we add more?</p>
+        </blockquote>
+        <p>See <a href="https://freetype.org/freetype2/docs/index.html">https://freetype.org/freetype2/docs/index.html</a> for supported font types.</p>
+        <p>There are some available via PackMan.</p>
+        <blockquote>
+        <p>and is there any reason Iris can?t use the full font system on risc os?</p>
+        </blockquote>
+        <p>It would be better to ask &#8216;is there any reason why <span class="caps">RISC</span> OS can&#8217;t use FreeType for it&#8217;s font system&#8217;.</p>]]>
       </description>
-      <source:markdown>Are there any more !UnixFonts available for Iris? or can we add more?
+      <source:markdown>&#62; Are there any more !UnixFonts available for Iris? or can we add more?
 
-and is there any reason Iris can’t use the full font system on risc os?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20116:159774</guid>
+See [https://freetype.org/freetype2/docs/index.html](https://freetype.org/freetype2/docs/index.html) for supported font types.
+
+There are some available via PackMan.
+
+&#62; and is there any reason Iris can?t use the full font system on risc os?
+
+It would be better to ask ‘is there any reason why RISC OS can’t use FreeType for it’s font system’.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20116:159778</guid>
+    </item>    <item>
+      <title>StrongED stopped working</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20110</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>None of the files are deleted or altered in any way</p>
+        </blockquote>
+        <p>That&#8217;s for distribution, surely? A user patch wouldn&#8217;t come under that so long as the resultant binary wasn&#8217;t distributed.</p>
+        <blockquote>
+        <p>I believe AndrewC is looking after Paul Vigay’s legacy.</p>
+        </blockquote>
+        <p>Hopefully amenable to an update :-)</p>]]>
+      </description>
+      <source:markdown>&#62; None of the files are deleted or altered in any way
+
+That’s for distribution, surely? A user patch wouldn’t come under that so long as the resultant binary wasn’t distributed.
+
+&#62; I believe AndrewC is looking after Paul Vigay’s legacy.
+
+Hopefully amenable to an update :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20110:159776</guid>
     </item>    <item>
       <title>32-bit acorn hardware • Re: A3000 cmos battery damage</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469717#p469717</link>
@@ -146,20 +251,6 @@ and is there any reason Iris can’t use the full font system on risc os?</sourc
       </description>
       <source:markdown>I detest this recent UX trend where the options to a supposedly binary question are &#34;Yes&#34; and &#34;Maybe Later&#34; / &#34;Not Right Now&#34; / &#34;Review Later&#34;. What&#39;s wrong with a plain &#34;No&#34;?</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m5gdb4xw5s2j</guid>
-    </item>    <item>
-      <title>StrongED stopped working</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20110</link>
-      <description>
-        <![CDATA[<p>Hello everyone! I would just like to thank you all again for your help. I decided to perform a clean reinstallation and now have VProtect running in the background. Having said that, I shall be more careful in the future and stop messing around with <span class="caps">ADF</span> files&#8230; ;-)</p>
-        <p>Having up-to-date antivirus software would be great, of course, and I am looking forward to a possible new version of VZap. Thank you for your efforts!</p>
-        <p>Best wishes from Austria, Berny :)</p>]]>
-      </description>
-      <source:markdown>Hello everyone! I would just like to thank you all again for your help. I decided to perform a clean reinstallation and now have VProtect running in the background. Having said that, I shall be more careful in the future and stop messing around with ADF files… ;-)
-
-Having up-to-date antivirus software would be great, of course, and I am looking forward to a possible new version of VZap. Thank you for your efforts!
-
-Best wishes from Austria, Berny :)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20110:159766</guid>
     </item>    <item>
       <title>Moving back to Linux RPCEmu on my Mac</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13496&#38;page=1#125842</link>
@@ -354,14 +445,6 @@ Both of these are RISC OS Alphabets (but not 7bit numbers) and make a distinctio
       <title>32-bit acorn hardware • Re: A3000 cmos battery damage</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469615#p469615</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469615#p469615</guid>
-    </item>    <item>
-      <title>Time to Update !Killer :)</title>
-      <link>https://www.riscosopen.org/forum/forums/2/topics/20114</link>
-      <description>
-        <![CDATA[<p>Vprotect 5 was reversed engineered from 4.03 i believe as the source code was refused when it was asked for to be updated. But it wouldn&#8217;t hurt to finally get a decent update bundled.</p>]]>
-      </description>
-      <source:markdown>Vprotect 5 was reversed engineered from 4.03 i believe as the source code was refused when it was asked for to be updated. But it wouldn’t hurt to finally get a decent update bundled.</source:markdown>
-      <guid>cid://www.riscosopen.org:2:20114:159755</guid>
     </item>    <item>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Five - Night Ninja</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469614#p469614</link>
