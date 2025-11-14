@@ -7,10 +7,110 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>14 Nov 25 07:00 -0800</lastBuildDate>
+    <lastBuildDate>14 Nov 25 10:26 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>software &#38;amp; utilities for the pc, mac or unix • Re: Disc Image Manager</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469944#p469944</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469944#p469944</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: 177x Disc Controller Module for Beeb</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469943#p469943</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469943#p469943</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: 177x Disc Controller Module for Beeb</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469942#p469942</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469942#p469942</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Increase BBC B Reset/Boot Delay</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469941#p469941</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469941#p469941</guid>
+    </item>    <item>
+      <title>NAS devices</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20122</link>
+      <description>
+        <![CDATA[<p>I think my Buffalo Link Station <span class="caps">NAS</span> (Network Attached Storage) device is dying; but, even if not, I could do with a second <span class="caps">NAS</span> in a second home.<br />
+        So what are the good makes?</p>
+        <p>Sometimes a ping to the Link Station <span class="caps">NAS</span> gets a response with no packets lost, but usually it gives an error message like &#8220;no route to host&#8221; or &#8220;host is down&#8221;. The power light comes on, and sometimes the <span class="caps">LINK</span>/<span class="caps">ACT</span> light stays solid, but mainly flickers.</p>]]>
+      </description>
+      <source:markdown>I think my Buffalo Link Station NAS (Network Attached Storage) device is dying; but, even if not, I could do with a second NAS in a second home.
+
+So what are the good makes?
+
+Sometimes a ping to the Link Station NAS gets a response with no packets lost, but usually it gives an error message like “no route to host” or “host is down”. The power light comes on, and sometimes the LINK/ACT light stays solid, but mainly flickers.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20122:159828</guid>
+    </item>    <item>
+      <title>Updated XP1Dr2SVG</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19365</link>
+      <description>
+        <![CDATA[<p>@Clive<br />
+        your new version works well, well done.<br />
+        I continued working on !Svg2Draw, I added xlink decoding. I had problems with your old files because there is a  element which is actually not used.<br />
+        In your new version the   tags remain but this element no longer has content and in this case my program works.<br />
+        Thank you for your drawings and your program, this allows me to develop the application.
+        <p>For anecdote, as I had not understood that these drawings were illustrations for your books, I looked for towns like Meyroha, Barioha&#8230; :-)</p>]]>
+      </description>
+      <source:markdown>@Clive
+
+your new version works well, well done.
+
+I continued working on !Svg2Draw, I added xlink decoding. I had problems with your old files because there is a element which is actually not used.
+
+In your new version the tags remain but this element no longer has content and in this case my program works.
+
+Thank you for your drawings and your program, this allows me to develop the application.
+
+For anecdote, as I had not understood that these drawings were illustrations for your books, I looked for towns like Meyroha, Barioha… :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:19365:159826</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 cmos battery damage</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469940#p469940</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469940#p469940</guid>
+    </item>    <item>
+      <title>archive submissions • Re: 30th Anniversary BBC and Electron Collection</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469939#p469939</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469939#p469939</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Increase BBC B Reset/Boot Delay</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469937#p469937</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469937#p469937</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 cmos battery damage</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469936#p469936</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469936#p469936</guid>
+    </item>    <item>
+      <title>communications • Re: GEM Terminal (80186 Co-Pro)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469935#p469935</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469935#p469935</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: BBC Master FP library</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469934#p469934</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469934#p469934</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3m5m3n7ovkk2c</link>
+      <description>
+        <![CDATA[https://youtube.com/playlist?list=PLdbtoCQ_z-HFgLf7GUliPGIX5CNSTk97B&si=ag3CwzFaUw_3cItA]]>
+      </description>
+      <source:markdown>https://youtube.com/playlist?list=PLdbtoCQ\_z-HFgLf7GUliPGIX5CNSTk97B&#38;si=ag3CwzFaUw\_3cItA</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3m5m3n7ovkk2c</guid>
+    </item>    <item>
+      <title>RingBound</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/16988</link>
+      <description>
+        <![CDATA[<p>Version 0.48 of !RingBind uploaded. This has almost identical functionality to version 0.44 but adds an edit mode where internal links can be added.</p>]]>
+      </description>
+      <source:markdown>Version 0.48 of !RingBind uploaded. This has almost identical functionality to version 0.44 but adds an edit mode where internal links can be added.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:16988:159825</guid>
+    </item>    <item>
+      <title>Rougol November 2025 meeting on monday - Pyromaniac update</title>
+      <link>http://www.iconbar.com/comments/rss/news2256.html</link>
+      <description>
+        <![CDATA[The November 2025 Rougol meeting is on Monday and features Gerph.]]>
+      </description>
+      <source:markdown>The November 2025 Rougol meeting is on Monday and features Gerph.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2256.html</guid>
+    </item>    <item>
       <title>acorn &#38;amp; bbc micro user group (abug) events • Re: SAVE THE DATE : ABUG South, March 13-15, 2026.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469915#p469915</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469915#p469915</guid>
@@ -248,6 +348,17 @@ That&#39;s a Wynne-Win for me.</source:markdown>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469818#p469818</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469818#p469818</guid>
     </item>    <item>
+      <title>Time to Update !Killer :)</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20114</link>
+      <description>
+        <![CDATA[<p>To follow up, I&#8217;ve put a request in to see what we can do.  My proposal is to host the source for both on <span class="caps">ROD</span> git and publish redistributable binaries.  Remember though, this will depend on time availability for all involved.</p>
+        <p>In the meantime, <span class="caps">ADFFS</span> with Vprotect 5 seems like a great tool.</p>]]>
+      </description>
+      <source:markdown>To follow up, I’ve put a request in to see what we can do. My proposal is to host the source for both on ROD git and publish redistributable binaries. Remember though, this will depend on time availability for all involved.
+
+In the meantime, ADFFS with Vprotect 5 seems like a great tool.</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20114:159807</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Compact option for beeb MMC</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469817#p469817</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469817#p469817</guid>
@@ -263,10 +374,28 @@ That&#39;s a Wynne-Win for me.</source:markdown>
       <title>Toolbox File Format</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20118</link>
       <description>
-        <![CDATA[<p>The Toolbox file format documentation, as far as I can see, goes down to the constituent objects, there seems to be no description of the body section within each object. Is this documented somewhere else?</p>]]>
+        <![CDATA[<p>Yes, though remember Gadget is a variable size depending on the gadget. The original Toolbox manual describes it the best as it highlights various pitfalls.</p>
+        <p>Set num_gadgets and they then go sequentially in the &#8216;data&#8217; field. Each gadget has a size, which is (usually) the offset to the next gadget.</p>
+        <p><a href="http://www.riscos.com/support/developers/toolbox/windows.html#26511">http://www.riscos.com/support/developers/toolbox/windo…</a><br />
+        <a href="http://www.riscos.com/support/developers/toolbox/windows.html#14545">http://www.riscos.com/support/developers/toolbox/windo…</a></p>
+        <p>The pitfalls are that you shouldn&#8217;t assume the size of each header (ie. Window template or Gadget template) and instead use the offsets &#8220;The use of a body_offset field is to allow expansion in the header, without losing backwards compatibility.&#8221; Similarly &#8216;gadgets&#8217; is an offset, in the Window template, and &#8220;type/size&#8221; has the gadget size in the gadget top two bytes (the second link above describes &#8220;type/size&#8221;).</p>
+        <p>For reading a file, you should handle the offsets properly, but the reality is they are just memory dumps of the C structures that have never changed size.</p>
+        <p>Annoyingly, it says &#8220;Note that for the gadgets listed below, the size is &#8216;built in&#8217; to the Window module, and so the size can be set to zero&#8230;&#8221; which is ridiculous, so means you&#8217;ll have to hard-code the sizes for the original gadget set. I think you should use the built-in size if the value in the file is zero, and the value in the file if it&#8217;s non-zero.</p>]]>
       </description>
-      <source:markdown>The Toolbox file format documentation, as far as I can see, goes down to the constituent objects, there seems to be no description of the body section within each object. Is this documented somewhere else?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20118:159801</guid>
+      <source:markdown>Yes, though remember Gadget is a variable size depending on the gadget. The original Toolbox manual describes it the best as it highlights various pitfalls.
+
+Set num\_gadgets and they then go sequentially in the ‘data’ field. Each gadget has a size, which is (usually) the offset to the next gadget.
+
+[http://www.riscos.com/support/developers/toolbox/windo…](http://www.riscos.com/support/developers/toolbox/windows.html#26511)
+
+[http://www.riscos.com/support/developers/toolbox/windo…](http://www.riscos.com/support/developers/toolbox/windows.html#14545)
+
+The pitfalls are that you shouldn’t assume the size of each header (ie. Window template or Gadget template) and instead use the offsets “The use of a body\_offset field is to allow expansion in the header, without losing backwards compatibility.” Similarly ‘gadgets’ is an offset, in the Window template, and “type/size” has the gadget size in the gadget top two bytes (the second link above describes “type/size”).
+
+For reading a file, you should handle the offsets properly, but the reality is they are just memory dumps of the C structures that have never changed size.
+
+Annoyingly, it says “Note that for the gadgets listed below, the size is ‘built in’ to the Window module, and so the size can be set to zero…” which is ridiculous, so means you’ll have to hard-code the sizes for the original gadget set. I think you should use the built-in size if the value in the file is zero, and the value in the file if it’s non-zero.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20118:159806</guid>
     </item>    <item>
       <title>Moving back to Linux RPCEmu on my Mac</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13496&#38;page=1#125846</link>
@@ -303,22 +432,6 @@ That&#39;s a Wynne-Win for me.</source:markdown>
       <title>8-bit acorn hardware • Re: Plus One suddenly died</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469742#p469742</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469742#p469742</guid>
-    </item>    <item>
-      <title>Time to Update !Killer :)</title>
-      <link>https://www.riscosopen.org/forum/forums/2/topics/20114</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I put in a similar request for the source to ABCLibrary, although someone else was prioritised for commercial reasons.</p>
-        </blockquote>
-        <p>I would guess it was more because Paul Fellows, who wrote it in the first place, was available to update it? I was chatting to him about it and Norcroft a couple of weekends ago (he runs a free monthly astronomy club for kids in Cambridge), and he said when he first wrote it it took 26 hours to compile itself. Now it&#8217;s only a few minutes on the Pi4 that <span class="caps">ROOL</span> lent him.</p>
-        <p>[Nearly free &#8211; £10/year, though I&#8217;m sure it was £4. It&#8217;s worth it just for the annual pantomime.]</p>]]>
-      </description>
-      <source:markdown>&#62; I put in a similar request for the source to ABCLibrary, although someone else was prioritised for commercial reasons.
-
-I would guess it was more because Paul Fellows, who wrote it in the first place, was available to update it? I was chatting to him about it and Norcroft a couple of weekends ago (he runs a free monthly astronomy club for kids in Cambridge), and he said when he first wrote it it took 26 hours to compile itself. Now it’s only a few minutes on the Pi4 that ROOL lent him.
-
-\[Nearly free – £10/year, though I’m sure it was £4. It’s worth it just for the annual pantomime.\]</source:markdown>
-      <guid>cid://www.riscosopen.org:2:20114:159797</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Fault finding 2nd processor</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469740#p469740</link>
@@ -2886,20 +2999,6 @@ Next week, I’ll be continuing, I think. Working on the Window and Icon decodin
       <title>32-bit acorn hardware • A3010 with RAM Control Line Failure</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468991#p468991</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=468991#p468991</guid>
-    </item>    <item>
-      <title>Updated XP1Dr2SVG</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/19365</link>
-      <description>
-        <![CDATA[<p>Discovered two bugs in Dr2SVG, both now fixed at version 1.31: <a href="https://clive.semmens.org.uk/RISCOS/XP1Dr2SVG.html">link</a><br />
-        I doubt anyone&#8217;s bumped into them, they&#8217;re really pretty obscure: in some probably rare circumstances, arrows, square ends and round ends could disappear off lines or even appear but in the wrong colour; and there could sometimes be a thin line (single pixel width) between a line and the arrows, square ends or round ends terminating them, through which whatever was behind could be seen.</p>
-        <p>If you <em>had</em> bumped into them, why didn&#8217;t you email me &amp; let me know??</p>]]>
-      </description>
-      <source:markdown>Discovered two bugs in Dr2SVG, both now fixed at version 1.31: [link](https://clive.semmens.org.uk/RISCOS/XP1Dr2SVG.html)
-
-I doubt anyone’s bumped into them, they’re really pretty obscure: in some probably rare circumstances, arrows, square ends and round ends could disappear off lines or even appear but in the wrong colour; and there could sometimes be a thin line (single pixel width) between a line and the arrows, square ends or round ends terminating them, through which whatever was behind could be seen.
-
-If you _had_ bumped into them, why didn’t you email me &#38; let me know??</source:markdown>
-      <guid>cid://www.riscosopen.org:1:19365:159565</guid>
     </item>    <item>
       <title>8-bit acorn software: other • Re: Tak: Racing Code Through Time</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=468989#p468989</link>

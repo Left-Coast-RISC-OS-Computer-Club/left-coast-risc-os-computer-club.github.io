@@ -1,0 +1,15 @@
+{
+  "content": "\n# News from the RISC OS London Show 2025\n\nYou can find Leo White's coverage of teh RISC OS London Show 2025 on [YouTube](https://www.youtube.com/playlist?list=PLdbtoCQ_z-HFgLf7GUliPGIX5CNSTk97B).  The talk I find very informative was Steve Revill's [talk](https://www.youtube.com/watch?v=Wyp5tvEoOaw&list=PLdbtoCQ_z-HFgLf7GUliPGIX5CNSTk97B&index=3) outlining what ROSC Open Ltd is up time, the work done on BBC Basic implemented in C and importantly what maybe coming next year in the upcoming stable RISC OS 5.32 release planned for 2026.\n\nThe Highlights for goals RISC OS 5.32 include\n\n- New user setup wizard (goal to make it eaiser to for people new to RISC OS)\n- Updated Paint\n- BASIC rewritten in C\n- Iconbar flip (configurable in the setup wizard)\n  - this would allow flip where drives versus applications are show\n  - makes a little more similar to other OS taskbar layouts\n- Light and Dark themes\n- Password reveal button for password prompts\n\n",
+  "data": {
+    "author": "R. S. Doiel",
+    "dateCreated": "2025-11-14",
+    "dateModified": "2025-11-14",
+    "datePublished": "2025-11-14",
+    "description": "A quick summary have wat Steven Revill's talk indicated as goals for the upcoming\nRISC OS 5.32 release in 2026.\n",
+    "keywords": [
+      "RISC OS"
+    ],
+    "postPath": "posts/2025/11/14/news_from_london_show.md",
+    "title": "News from the RISC OS London Show 2025"
+  }
+}
