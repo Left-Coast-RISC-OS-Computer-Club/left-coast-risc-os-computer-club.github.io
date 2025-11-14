@@ -7,10 +7,82 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>14 Nov 25 11:00 -0800</lastBuildDate>
+    <lastBuildDate>14 Nov 25 15:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: New Raspberry Pi to 1MHz bus interface</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469970#p469970</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469970#p469970</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic adventure games • Re: New port of 350p Adventure</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469969#p469969</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469969#p469969</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Advice on A3000 Battery Removal</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469968#p469968</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469968#p469968</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Advice on A3000 Battery Removal</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469967#p469967</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469967#p469967</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Quick DFS question</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469966#p469966</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469966#p469966</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Advice on A3000 Battery Removal</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469965#p469965</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469965#p469965</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Advice on A3000 Battery Removal</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469964#p469964</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469964#p469964</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Advice on A3000 Battery Removal</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469963#p469963</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469963#p469963</guid>
+    </item>    <item>
+      <title>programming • Re: Wish: MAVIS computer recreation in Mode 7</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469962#p469962</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469962#p469962</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Five - Night Ninja</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469961#p469961</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469961#p469961</guid>
+    </item>    <item>
+      <title>SerialUSB 0.17</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20088</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>It would be nice if you find time to test ProSound.</p>
+        </blockquote>
+        <p>No chance until isochronous mode works on my Pi.</p>
+        <p>Colin, is it only the USBDriver module that needs to be enhanced?  How many source files need to be changed?</p>]]>
+      </description>
+      <source:markdown>&#62; It would be nice if you find time to test ProSound.
+
+No chance until isochronous mode works on my Pi.
+
+Colin, is it only the USBDriver module that needs to be enhanced? How many source files need to be changed?</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20088:159834</guid>
+    </item>    <item>
+      <title>32Bit AKA Roms</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20124</link>
+      <description>
+        <![CDATA[<p>Does anyone know what the turn around is for 32Bit Rom&#8217;s for the <span class="caps">SCSI</span> Podule from the <span class="caps">ROOL</span> Store if anyone has ordered one in the past?</p>]]>
+      </description>
+      <source:markdown>Does anyone know what the turn around is for 32Bit Rom’s for the SCSI Podule from the ROOL Store if anyone has ordered one in the past?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20124:159833</guid>
+    </item>    <item>
+      <title>USB headsets</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20123</link>
+      <description>
+        <![CDATA[<p>Does anyone have a <span class="caps">USB</span> headset?  I&#8217;d be interested to know its <span class="caps">USB</span> descriptors, which you should be able to get using the <a href="https://ftpc.iconbar.com/usb/index.html">USBDescriptors</a> app.</p>]]>
+      </description>
+      <source:markdown>Does anyone have a USB headset? I’d be interested to know its USB descriptors, which you should be able to get using the [USBDescriptors](https://ftpc.iconbar.com/usb/index.html) app.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20123:159831</guid>
+    </item>    <item>
       <title>general • Re: Today I received.....</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469947#p469947</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469947#p469947</guid>
@@ -163,6 +235,19 @@ For anecdote, as I had not understood that these drawings were illustrations for
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469902#p469902</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469902#p469902</guid>
     </item>    <item>
+      <title>Hospital Tablets</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20119</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>It should be noted that with modern firewall instances, the setup detects the protocol, so attempting to connect <span class="caps">HTTP</span> on 443 will give difficulties. When we put <span class="caps">HTTPS</span> in the config, it means <span class="caps">HTTPS</span> not something else shoved through on <span class="caps">TCP</span> 443</p>
+        </blockquote>
+        <p>Yes, they do this on the guest WiFi at the secure site I work at, which is very annoying as I have to tether off my phone to be able to use the <span class="caps">VPN</span> on my other laptop.</p>]]>
+      </description>
+      <source:markdown>&#62; It should be noted that with modern firewall instances, the setup detects the protocol, so attempting to connect HTTP on 443 will give difficulties. When we put HTTPS in the config, it means HTTPS not something else shoved through on TCP 443
+
+Yes, they do this on the guest WiFi at the secure site I work at, which is very annoying as I have to tether off my phone to be able to use the VPN on my other laptop.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20119:159819</guid>
+    </item>    <item>
       <title>Talking to USB</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20121</link>
       <description>
@@ -173,6 +258,14 @@ For anecdote, as I had not understood that these drawings were illustrations for
 
 In extremis I’ll look at a relevant python script …</source:markdown>
       <guid>cid://www.riscosopen.org:11:20121:159818</guid>
+    </item>    <item>
+      <title>Looking for old Archive magazines</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20117</link>
+      <description>
+        <![CDATA[<p>Thank you John, I&#8217;ve replied directly.</p>]]>
+      </description>
+      <source:markdown>Thank you John, I’ve replied directly.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20117:159817</guid>
     </item>    <item>
       <title>Recce outage</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20120</link>
@@ -232,26 +325,6 @@ Later there&#39;d be 65C102, 80186, 80286, 32016 and of course ARM.
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469854#p469854</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469854#p469854</guid>
     </item>    <item>
-      <title>Hospital Tablets</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20119</link>
-      <description>
-        <![CDATA[<p>What &#8216;Tablet&#8217; not pill &#8211; would be suggested for &#8216;err&#8217; use in a Hospital &#8211; read mags like Archive etc and maybe a book &#8211; which can be done on a Smartphone but a fair bit of moving the pic on the screen.<br />
-        Being able to run  a Arc Emulator would be nice.</p>
-        <p>Any ideas -<br />
-        Like stare at the walls :-(<br />
-        Tks</p>]]>
-      </description>
-      <source:markdown>What ‘Tablet’ not pill – would be suggested for ‘err’ use in a Hospital – read mags like Archive etc and maybe a book – which can be done on a Smartphone but a fair bit of moving the pic on the screen.
-
-Being able to run a Arc Emulator would be nice.
-
-Any ideas -
-
-Like stare at the walls :-(
-
-Tks</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20119:159810</guid>
-    </item>    <item>
       <title>8-bit acorn software: classic games • Simcity and ELKSD64 saving issue</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469853#p469853</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469853#p469853</guid>
@@ -279,19 +352,6 @@ Tks</source:markdown>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Five - Night Ninja</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469847#p469847</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469847#p469847</guid>
-    </item>    <item>
-      <title>Looking for old Archive magazines</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20117</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>yes I would be interested in collecting them if posting is awkward</p>
-        </blockquote>
-        <p>I have replied to Ian via email.</p>]]>
-      </description>
-      <source:markdown>&#62; yes I would be interested in collecting them if posting is awkward
-
-I have replied to Ian via email.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20117:159809</guid>
     </item>    <item>
       <title>32-bit acorn hardware • Re: podue screws/bolts</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469846#p469846</link>
@@ -2505,26 +2565,6 @@ Finally, many thanks to all the brave pioneers who five years ago, helped develo
       <title>8-bit acorn software: other • Re: MMFS ROM Options Advice</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469219#p469219</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469219#p469219</guid>
-    </item>    <item>
-      <title>SerialUSB 0.17</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20088</link>
-      <description>
-        <![CDATA[<p>@Dave <br />
-        It would be nice if you find time to test ProSound.<br />
-        I hope my English explanations aren&#8217;t too bad.<br />
-        The goal would be to create a list of devices tested and which could therefore be automatically detected by ProSound.</p>
-        <p>A good thing to collect are <span class="caps">USB</span> descriptors.</p>]]>
-      </description>
-      <source:markdown>@Dave
-
-It would be nice if you find time to test ProSound.
-
-I hope my English explanations aren’t too bad.
-
-The goal would be to create a list of devices tested and which could therefore be automatically detected by ProSound.
-
-A good thing to collect are USB descriptors.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20088:159609</guid>
     </item>    <item>
       <title>software preservation • Re: The people rescuing forgotten knowledge trapped on old floppy disks</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469188#p469188</link>
