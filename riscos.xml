@@ -7,10 +7,87 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>13 Nov 25 15:00 -0800</lastBuildDate>
+    <lastBuildDate>14 Nov 25 07:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: SAVE THE DATE : ABUG South, March 13-15, 2026.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469915#p469915</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469915#p469915</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 cmos battery damage</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469914#p469914</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469914#p469914</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 cmos battery damage</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469913#p469913</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469913#p469913</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 cmos battery damage</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469912#p469912</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469912#p469912</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: SAVE THE DATE : ABUG South, March 13-15, 2026.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469911#p469911</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469911#p469911</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Timtheloon&#39;s Acorn A3010 Restoration</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469909#p469909</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469909#p469909</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Timtheloon&#39;s Acorn A3010 Restoration</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469907#p469907</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469907#p469907</guid>
+    </item>    <item>
+      <title>programming • Re: Code in C for the BBC right in your web browser (CC65 + JSBeeb)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469906#p469906</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469906#p469906</guid>
+    </item>    <item>
+      <title>programming • Re: Code in C for the BBC right in your web browser (CC65 + JSBeeb)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469905#p469905</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469905#p469905</guid>
+    </item>    <item>
+      <title>programming • Re: Code in C for the BBC right in your web browser (CC65 + JSBeeb)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469902#p469902</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469902#p469902</guid>
+    </item>    <item>
+      <title>Talking to USB</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20121</link>
+      <description>
+        <![CDATA[<p>I need to read and write from a MCP2221A chip plugged in to the <span class="caps">USB</span> socket. I can get its <span class="caps">USB</span> number by looking at the system variable that is set as a device is plugged in and I think I can then use the x=OPENIN&quot;USB##&quot; and y=OPENOUT&quot;USB##&quot; to send and receive data using OS_GBPB. I have its data sheet so I know the commands to send and receive data to an <span class="caps">IIC</span> device connected to it. It works with 64 byte send and receive strings. Any suggestions please?</p>
+        <p>In extremis I&#8217;ll look at a relevant python script &#8230;</p>]]>
+      </description>
+      <source:markdown>I need to read and write from a MCP2221A chip plugged in to the USB socket. I can get its USB number by looking at the system variable that is set as a device is plugged in and I think I can then use the x=OPENIN&#34;USB##&#34; and y=OPENOUT&#34;USB##&#34; to send and receive data using OS\_GBPB. I have its data sheet so I know the commands to send and receive data to an IIC device connected to it. It works with 64 byte send and receive strings. Any suggestions please?
+
+In extremis I’ll look at a relevant python script …</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20121:159818</guid>
+    </item>    <item>
+      <title>Recce outage</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20120</link>
+      <description>
+        <![CDATA[<p>Apologies to <a href="https://sinenomine.co.uk/software/riscosm/downloads.php#recce">Recce</a> users who may have noticed that fetching Google StreetView images has not been working since the start of November. We have now fixed the problem. There is no need to update your software.</p>
+        <p>If you do notice persistent problems with any of the Recce data sources, do please let us know via the support email address or our <a href="https://sinenomine.co.uk/software/contact.php">contact form</a> as we may not be using the software as frequently as you do!</p>]]>
+      </description>
+      <source:markdown>Apologies to [Recce](https://sinenomine.co.uk/software/riscosm/downloads.php#recce) users who may have noticed that fetching Google StreetView images has not been working since the start of November. We have now fixed the problem. There is no need to update your software.
+
+If you do notice persistent problems with any of the Recce data sources, do please let us know via the support email address or our [contact form](https://sinenomine.co.uk/software/contact.php) as we may not be using the software as frequently as you do!</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20120:159816</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m5lgg35fms2v</link>
+      <description>
+        <![CDATA[A creditable showing for the BBC Micro against various souped-up Apple IIs, but no Second Processor versions which (by the end of 1984) included 65C02, Z-80B, 6809 and 68000 options. All would have been faster yet.
+        
+        Later there'd be 65C102, 80186, 80286, 32016 and of course ARM.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>A creditable showing for the BBC Micro against various souped-up Apple IIs, but no Second Processor versions which (by the end of 1984) included 65C02, Z-80B, 6809 and 68000 options. All would have been faster yet.
+
+Later there&#39;d be 65C102, 80186, 80286, 32016 and of course ARM.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m5lgg35fms2v</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Fault finding 2nd processor</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469865#p469865</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469865#p469865</guid>
@@ -90,6 +167,19 @@ Tks</source:markdown>
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Five - Night Ninja</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469847#p469847</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469847#p469847</guid>
+    </item>    <item>
+      <title>Looking for old Archive magazines</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20117</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>yes I would be interested in collecting them if posting is awkward</p>
+        </blockquote>
+        <p>I have replied to Ian via email.</p>]]>
+      </description>
+      <source:markdown>&#62; yes I would be interested in collecting them if posting is awkward
+
+I have replied to Ian via email.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20117:159809</guid>
     </item>    <item>
       <title>32-bit acorn hardware • Re: podue screws/bolts</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469846#p469846</link>
@@ -214,6 +304,22 @@ That&#39;s a Wynne-Win for me.</source:markdown>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469742#p469742</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469742#p469742</guid>
     </item>    <item>
+      <title>Time to Update !Killer :)</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20114</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I put in a similar request for the source to ABCLibrary, although someone else was prioritised for commercial reasons.</p>
+        </blockquote>
+        <p>I would guess it was more because Paul Fellows, who wrote it in the first place, was available to update it? I was chatting to him about it and Norcroft a couple of weekends ago (he runs a free monthly astronomy club for kids in Cambridge), and he said when he first wrote it it took 26 hours to compile itself. Now it&#8217;s only a few minutes on the Pi4 that <span class="caps">ROOL</span> lent him.</p>
+        <p>[Nearly free &#8211; £10/year, though I&#8217;m sure it was £4. It&#8217;s worth it just for the annual pantomime.]</p>]]>
+      </description>
+      <source:markdown>&#62; I put in a similar request for the source to ABCLibrary, although someone else was prioritised for commercial reasons.
+
+I would guess it was more because Paul Fellows, who wrote it in the first place, was available to update it? I was chatting to him about it and Norcroft a couple of weekends ago (he runs a free monthly astronomy club for kids in Cambridge), and he said when he first wrote it it took 26 hours to compile itself. Now it’s only a few minutes on the Pi4 that ROOL lent him.
+
+\[Nearly free – £10/year, though I’m sure it was £4. It’s worth it just for the annual pantomime.\]</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20114:159797</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Fault finding 2nd processor</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469740#p469740</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469740#p469740</guid>
@@ -226,29 +332,6 @@ That&#39;s a Wynne-Win for me.</source:markdown>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469738#p469738</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469738#p469738</guid>
     </item>    <item>
-      <title>Time to Update !Killer :)</title>
-      <link>https://www.riscosopen.org/forum/forums/2/topics/20114</link>
-      <description>
-        <![CDATA[<p>The history/status of VProtect:</p>
-        <p>I don&#8217;t believe <span class="caps">ROOL</span> have the source code, John Ballance does.  I approached Andrew Rawnsley in 2015 and again in 2017 for the source, which he agreed, John didn&#8217;t sent me the source though &#8211; there&#8217;s some &#8220;sensitivity&#8221; around it.  It wasn&#8217;t a &#8220;no&#8221;, more some concerns around who I was and why I wanted it I believe.  I put in a similar request for the source to ABCLibrary, although someone else was prioritised for commercial reasons.</p>
-        <p>As I had to fix some serious OS breaking bugs in VProtect, regardless of official source code or not, I disassembled the last publicly released version and fixed all the known issues at the time.  That become v5.00 which is bundled with <span class="caps">ADFFS</span> and is loaded if VProtect is already running when <span class="caps">ADFFS</span> starts.  Its 26/32bit neutral and ARMv7 compatible.</p>
-        <p>In 2015 there was a <span class="caps">ROOL</span> discussion around continuing to include it in the <span class="caps">RISC</span> OS 5 disc image, it was decided to remove it.  From memory there were two main reasons, 1. the bugs, 2. Virus&#8217;s were considered to primarily be a 26bit only issue.</p>
-        <p>I&#8217;m not sure if the source for !Killer exists.  I understand Alan Glover passed everything on to John Ballance, so he may also have the !Killer source.</p>
-        <p>I have no issues with my tweaked VProtect v5.00 being distributed or bundle with an OS image &#8211; I simply fixed the known bugs.</p>]]>
-      </description>
-      <source:markdown>The history/status of VProtect:
-
-I don’t believe ROOL have the source code, John Ballance does. I approached Andrew Rawnsley in 2015 and again in 2017 for the source, which he agreed, John didn’t sent me the source though – there’s some “sensitivity” around it. It wasn’t a “no”, more some concerns around who I was and why I wanted it I believe. I put in a similar request for the source to ABCLibrary, although someone else was prioritised for commercial reasons.
-
-As I had to fix some serious OS breaking bugs in VProtect, regardless of official source code or not, I disassembled the last publicly released version and fixed all the known issues at the time. That become v5.00 which is bundled with ADFFS and is loaded if VProtect is already running when ADFFS starts. Its 26/32bit neutral and ARMv7 compatible.
-
-In 2015 there was a ROOL discussion around continuing to include it in the RISC OS 5 disc image, it was decided to remove it. From memory there were two main reasons, 1. the bugs, 2. Virus’s were considered to primarily be a 26bit only issue.
-
-I’m not sure if the source for !Killer exists. I understand Alan Glover passed everything on to John Ballance, so he may also have the !Killer source.
-
-I have no issues with my tweaked VProtect v5.00 being distributed or bundle with an OS image – I simply fixed the known bugs.</source:markdown>
-      <guid>cid://www.riscosopen.org:2:20114:159792</guid>
-    </item>    <item>
       <title>StrongED stopped working</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20110</link>
       <description>
@@ -259,14 +342,6 @@ I have no issues with my tweaked VProtect v5.00 being distributed or bundle with
 
 ![](https://images2.imgbox.com/21/da/DFqmgcsu_o.png)</source:markdown>
       <guid>cid://www.riscosopen.org:11:20110:159790</guid>
-    </item>    <item>
-      <title>Looking for old Archive magazines</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20117</link>
-      <description>
-        <![CDATA[<p>Hello Ian, I have my brother&#8217;s archive magazines from the 80&#8217;s till around 2009 when my he died. You are welcome to have them, I have a complete set of my own.</p>]]>
-      </description>
-      <source:markdown>Hello Ian, I have my brother’s archive magazines from the 80’s till around 2009 when my he died. You are welcome to have them, I have a complete set of my own.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20117:159788</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: Need Help with BBC Micro Model B - Issue 7</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469733#p469733</link>
