@@ -7,10 +7,715 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>14 Nov 25 15:00 -0800</lastBuildDate>
+    <lastBuildDate>15 Nov 25 07:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn software: other • Looking for people associated with Database Publishing</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470016#p470016</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470016#p470016</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Advice on A3020 repair</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470014#p470014</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470014#p470014</guid>
+    </item>    <item>
+      <title>Time to Update !Killer :)</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20114</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p><span class="caps">ROD</span> git</p>
+        </blockquote>
+        <p>Is that gitlab dot riscosdev dot com, or is there another public <span class="caps">ROD</span> Git instance? If it is, what&#8217;s the bar for getting an account?</p>]]>
+      </description>
+      <source:markdown>&#62; ROD git
+
+Is that gitlab dot riscosdev dot com, or is there another public ROD Git instance? If it is, what’s the bar for getting an account?</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20114:159868</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Advice on A3000 Battery Removal</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470013#p470013</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470013#p470013</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3010 repair</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470012#p470012</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470012#p470012</guid>
+    </item>    <item>
+      <title>new projects in development: games • Re: Real Time Strategy Game</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470011#p470011</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470011#p470011</guid>
+    </item>    <item>
+      <title>NAS devices</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20122</link>
+      <description>
+        <![CDATA[<p>Thanks for help so far. I&#8217;ll contact <span class="caps">RISC</span> OS suppliers next week.</p>]]>
+      </description>
+      <source:markdown>Thanks for help so far. I’ll contact RISC OS suppliers next week.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20122:159866</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: RISC OS 3.20 ROMs?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470010#p470010</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470010#p470010</guid>
+    </item>    <item>
+      <title>SerialUSB 0.17</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20088</link>
+      <description>
+        <![CDATA[<p>Dave</p>
+        <p>You may like to try <a href="https://ftpc.iconbar.com/piIsoUsb.zip">piIsocUSB</a>. It works for me. Just double click on it from anywhere and it should work &#8211; copies modules to ramdisc first to avoid problem with a usb disc disappearing while the changeover is happening.</p>]]>
+      </description>
+      <source:markdown>Dave
+
+You may like to try [piIsocUSB](https://ftpc.iconbar.com/piIsoUsb.zip). It works for me. Just double click on it from anywhere and it should work – copies modules to ramdisc first to avoid problem with a usb disc disappearing while the changeover is happening.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20088:159862</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Advice on A3000 Battery Removal</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470008#p470008</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470008#p470008</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Advice on A3000 Battery Removal</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470007#p470007</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470007#p470007</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Advice on A3020 repair</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470006#p470006</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470006#p470006</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3010 repair</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470005#p470005</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470005#p470005</guid>
+    </item>    <item>
+      <title>GitLab timeouts</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20125</link>
+      <description>
+        <![CDATA[<p>Anyone else having problems today with <span class="caps">ROOL</span> GitLab timing out?</p>]]>
+      </description>
+      <source:markdown>Anyone else having problems today with ROOL GitLab timing out?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20125:159857</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m5o4yxgyik2d</link>
+      <description>
+        <![CDATA[The "AI that's taking your job" drawing clocks...
+        https://clocks.brianmoore.com/]]>
+      </description>
+      <source:markdown>The &#34;AI that&#39;s taking your job&#34; drawing clocks...
+https://clocks.brianmoore.com/</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m5o4yxgyik2d</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3m5nxd5syh22l</link>
+      <description>
+        <![CDATA[Rougol November 2025 meeting on monday - Pyromaniac update 
+        
+        https://www.iconbar.com/articles/Rougol_November_2025_meeting_on_monday_-_Pyromaniac_update/index2256.html 
+        
+        The November 2025 Rougol meeting is on Monday and features Gerph.]]>
+      </description>
+      <source:markdown>Rougol November 2025 meeting on monday - Pyromaniac update
+
+https://www.iconbar.com/articles/Rougol\_November\_2025\_meeting\_on\_monday\_-\_Pyromaniac\_update/index2256.html
+
+The November 2025 Rougol meeting is on Monday and features Gerph.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3m5nxd5syh22l</guid>
+    </item>    <item>
+      <title>Why is ROOL doing this?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20090</link>
+      <description>
+        <![CDATA[<p>Ok, so maybe &#8216;random&#8217; wasn&#8217;t strictly accurate, what I really do is use the same one swi allocation that was ever even approximately mine every time I write a module.  From memory this includes the original use, a podule rom board to boot <span class="caps">NFS</span>, A broken driver for DE600 parallel Ethernet interface, a dot1Q vlan encapsulation layer (also broken) a driver for a bbc Winchester or Filestore drive on a Arc 1MHze bus podule, or more recently a <span class="caps">DCI</span> 4 implementation of the DCI2 ip over econet encapsulation, so I think I will get away with it for a while yet.</p>
+        <p>Clearly a web site you make an account on, confirm you email, upload the !Allocate file, which at least proves you are reasonably ligit, and emails you back and displays on the web page,  would be very much better.</p>]]>
+      </description>
+      <source:markdown>Ok, so maybe ‘random’ wasn’t strictly accurate, what I really do is use the same one swi allocation that was ever even approximately mine every time I write a module. From memory this includes the original use, a podule rom board to boot NFS, A broken driver for DE600 parallel Ethernet interface, a dot1Q vlan encapsulation layer (also broken) a driver for a bbc Winchester or Filestore drive on a Arc 1MHze bus podule, or more recently a DCI 4 implementation of the DCI2 ip over econet encapsulation, so I think I will get away with it for a while yet.
+
+Clearly a web site you make an account on, confirm you email, upload the !Allocate file, which at least proves you are reasonably ligit, and emails you back and displays on the web page, would be very much better.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20090:159851</guid>
+    </item>    <item>
+      <title>USB headsets</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20123</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I’d like to look at the <span class="caps">USB</span> descriptors, please!</p>
+        </blockquote>
+        <p>Sorry, I&#8217;m interested in the descriptors to be able to add the possibility of recording with ProSound.</p>
+        <p>But I think you&#8217;re more interested in listening than recording?<br />
+        Same problem with the earmuffs on my headphones :-)</p>]]>
+      </description>
+      <source:markdown>&#62; I’d like to look at the USB descriptors, please!
+
+Sorry, I’m interested in the descriptors to be able to add the possibility of recording with ProSound.
+
+But I think you’re more interested in listening than recording?
+
+Same problem with the earmuffs on my headphones :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20123:159847</guid>
+    </item>    <item>
+      <title>RISC OS and Wifi</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/19569</link>
+      <description>
+        <![CDATA[<p>I&#8217;m needing to set up a Raspberry Pi 4 based machine for wifi access for the first time. It&#8217;s currently on <span class="caps">RISC</span> OS 5.29 but I plan to upgrade to 5.30 first.</p>
+        <p>The <span class="caps">RISC</span> OS Developmemts stack seems the way to go at the moment. Their <a href="https://www.riscosdev.com/projects/network/">website</a> offers downloads of 7.06 from April 2024, which is described as &#8220;stable&#8221; and the &#8220;Latest Feature Release&#8221; version 7.09 from October 2025 which is described as &#8220;beta&#8221;. Unfortunately, although the 7.06 download includes a ChangeLog file, the 7.09 release does not, so it&#8217;s hard to tell what the benefits are for going with the beta option. It appears that sometime after 7.06 there was a big change to how NetManager is integrated into the stack so technically it sounds like 7.09 is a more sensible option to go with, despite the &#8220;beta&#8221; badge. And it is presumably considered an improvement on 7.08 otherwise that might still be available for download.</p>
+        <p>I could not see any announcement on the forum of any version since 7.06 so I have not been able to find information elsewhere that might help me decide! I think I am going to try 7.09 first and see how that goes.</p>]]>
+      </description>
+      <source:markdown>I’m needing to set up a Raspberry Pi 4 based machine for wifi access for the first time. It’s currently on RISC OS 5.29 but I plan to upgrade to 5.30 first.
+
+The RISC OS Developmemts stack seems the way to go at the moment. Their [website](https://www.riscosdev.com/projects/network/) offers downloads of 7.06 from April 2024, which is described as “stable” and the “Latest Feature Release” version 7.09 from October 2025 which is described as “beta”. Unfortunately, although the 7.06 download includes a ChangeLog file, the 7.09 release does not, so it’s hard to tell what the benefits are for going with the beta option. It appears that sometime after 7.06 there was a big change to how NetManager is integrated into the stack so technically it sounds like 7.09 is a more sensible option to go with, despite the “beta” badge. And it is presumably considered an improvement on 7.08 otherwise that might still be available for download.
+
+I could not see any announcement on the forum of any version since 7.06 so I have not been able to find information elsewhere that might help me decide! I think I am going to try 7.09 first and see how that goes.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:19569:159846</guid>
+    </item>    <item>
+      <title>Talking to USB</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20121</link>
+      <description>
+        <![CDATA[<p>Many thanks for all the help. If the device is accessed too quickly after being plugged in (with no battery) then writing the time fails and device has to be unplugged. This is likely to resolve itself once battery fitted. Now putting my thinking cap on to trap all the likely errors.</p>
+        <pre><code>&gt;RUN
+        REM Device newly plugged in, no battery and pause before running.
+        Time set to 14:10:00 on Tue 15-Nov-2025
+                                     Address 0 written to device
+                                     Time read from device
+                                     7 bytes read
+        Tue 15-11-25 14:10:0
+        REM press RETURN
+                                     Address 0 written to device
+                                     Time read from device
+                                     7 bytes read
+        Tue 15-11-25 14:10:9
+        REM device unplugged and plugged then press RETURN without delay
+        Opened new stream as device unplugged
+        &amp;90 write command to set time returned 145, error= 0, bytes failed=0
+        &amp;90 write command returned 144, error= 1, bytes failed=0
+        &amp;91 read command returned 145, error= 1, bytes failed=0
+                                     7 bytes read
+        Sun 1-1-0 0:0:1
+        REM press RETURN
+                                     Address 0 written to device
+                                     Time read from device
+                                     7 bytes read
+        Sun 1-1-0 0:0:7
+        REM Note values undefined
+        REM unplug and replug and wait for delay then press ENTER
+        opened new stream as device unplugged
+        &amp;90 write command to set time returned 145, error= 0, bytes failed=0
+        &amp;90 write command returned 144, error= 1, bytes failed=0
+        &amp;91 read command returned 145, error= 1, bytes failed=0
+                                     7 bytes read
+        Sun 1-1-0 0:0:4
+        REM press SPACE
+        &gt;RUN 
+        Time set to 14:10:00 on Tue 15-Nov-2025
+                                     Address 0 written to device
+                                     Time read from device
+                                     7 bytes read
+        Tue 15-11-25 14:10:0
+                                     Address 0 written to device
+                                     Time read from device
+                                     7 bytes read
+        Tue 15-11-25 14:10:5
+        REM press SPACE
+        &gt;LIST
+           10REM &gt;USBTest
+           20DIM qbuf% 200 , ssbuf% 200
+           30REM Start with device freshly plugged in
+           40fusb%=0
+           50gusb%=0
+           60nusb%=0
+           70REPEAT
+           80  REM evaluate device no.
+           90  REM HID class 8.2.0 64 bytes endpoint=3
+          100  SYS "XOS_ReadVarVal","USB$Device_03_00_00_04D8_00DD_01_02*",,-1 TO ,,usbdev%
+          110  IF usbdev% THEN
+          120    r4%=-1
+          130    SYS "XOS_ReadVarVal","USB$Device_03_00_00_04D8_00DD_01_02*",qbuf%,256,0 TO ,,r2%,r3%,r4%
+          140    IF r4%=0 THEN qbuf%?r2%=13:tusb%=VAL($qbuf%) ELSE tusb%=-1
+          150    IF nusb%&lt;&gt;tusb% THEN
+          160      REM close prev stream
+          170      IF fusb% THEN CLOSE#fusb%:fusb%=0
+          180      IF gusb% THEN CLOSE#gusb%:gusb%=0
+          190      IF tusb%&gt;0 THEN
+          200        REM open new stream
+          210        fusb%=OPENIN("devices#endpoint3:USB"+STR$(tusb%))
+          220        gusb%=OPENOUT("devices#endpoint3:USB"+STR$(tusb%))
+          230        IF nusb%&lt;&gt;0 THEN PRINT "opened new stream as device unplugged"
+          240        nusb%=tusb%
+          250        REM first access of device - read bytes and throw away
+          260        :
+          270        REM read bytes   -trap errors
+          280        LOCAL ERROR
+          290        ON ERROR LOCAL CLOSE#gusb%:gusb%=0:r1%=0:r2%=2:REPORT:PRINT " at line ";ERL
+          300        IF gusb% THEN
+          310          REM Now read from reg ukn and ignore
+          320          ssbuf%?0=&amp;91
+          330          ssbuf%?1=7
+          340          ssbuf%?2=0
+          350          ssbuf%?3=&amp;D1:REM read from IIC=&amp;68
+          360          SYS "OS_GBPB",2,gusb%,ssbuf%,64 TO ,,fend%
+          370          REM Read response should be &amp;91 then 0 (OK) or 1 (busy)
+          380          ssbuf%?0=-1
+          390          ssbuf%?1=-1
+          400          SYS "OS_GBPB",4,fusb%,ssbuf%,64 TO ,,fend%,bnt%
+          410          REM Check success but don't report
+          420          IF ?ssbuf%=&amp;91 AND ssbuf%?1=0 THEN
+          430            REM PRINT "Read from device OK but ignored"
+          440          ELSE
+          450            REM PRINT "&amp;91 read command returned ";?ssbuf%;", error= ";ssbuf%?1;", bytes failed=";bnt%
+          460          ENDIF
+          470          ssbuf%?0=&amp;40
+          480          REM Set RTC to time (no battery fitted yet)
+          490          REM Write command &amp;90,8,0,&amp;D0 - write to IIC &amp;68
+          500          ssbuf%?0=&amp;90
+          510          ssbuf%?1=8
+          520          ssbuf%?2=0
+          530          ssbuf%?3=&amp;D0:REM read from IIC=&amp;68
+          540          ssbuf%!4=0:REM set address to 0
+          550          ssbuf%!5=0:REM set seconds to 0
+          560          ssbuf%!6=&amp;10:REM set minutes to 10
+          570          ssbuf%!7=&amp;14:REM set hours to 14 on 24h
+          580          ssbuf%!8=3:REM set day to Tue
+          590          ssbuf%!9=&amp;15:REM set date to 15
+          600          ssbuf%!10=&amp;11:REM set month to 11
+          610          ssbuf%!11=&amp;25:REM set year to 25
+          620          SYS "OS_GBPB",2,gusb%,ssbuf%,64 TO ,,fend%
+          630          REM Read response should be &amp;90 then 0 (OK) or 1 (busy)
+          640          ssbuf%?0=-1
+          650          ssbuf%?1=-1
+          660          SYS "OS_GBPB",4,fusb%,ssbuf%,64 TO ,,fend%,bnt%
+          670          REM Check success
+          680          IF ?ssbuf%=&amp;90 AND ssbuf%?1=0 AND bnt%=0 THEN
+          690            PRINT "Time set to 14:10:00 on Tue 15-Nov-2025"
+          700          ELSE
+          710            PRINT "&amp;90 write command to set time returned ";?ssbuf%;", error= ";ssbuf%?1;", bytes failed=";bnt%
+          720          ENDIF
+          730        ENDIF
+          740        RESTORE ERROR
+          750      ELSE
+          760        PRINT "USB device evaluated as zero ";tusb%
+          770      ENDIF
+          780    ELSE
+          790      IF nusb%=0 THEN PRINT "USB device evaluated on first try as zero ";tusb%
+          800    ENDIF
+          810    IF nusb%=tusb% THEN
+          820      REM read bytes   -trap errors
+          830      LOCAL ERROR
+          840      ON ERROR LOCAL CLOSE#gusb%:gusb%=0:r1%=0:r2%=2:REPORT:PRINT " at line ";ERL
+          850      IF gusb% THEN
+          860        REM First write 00 to set register 00
+          870        REM Write command &amp;90,16,0,&amp;D0 - write to IIC &amp;68
+          880        ssbuf%?0=&amp;90
+          890        ssbuf%?1=1
+          900        ssbuf%?2=0
+          910        ssbuf%?3=&amp;D0:REM read from IIC=&amp;68
+          920        ssbuf%!4=0
+          930        SYS "OS_GBPB",2,gusb%,ssbuf%,64 TO ,,fend%
+          940        REM Read response should be &amp;90 then 0 (OK) or 1 (busy)
+          950        ssbuf%?0=-1
+          960        ssbuf%?1=-1
+          970        SYS "OS_GBPB",4,fusb%,ssbuf%,64 TO ,,fend%,bnt%
+          980        REM Check success
+          990        IF ?ssbuf%=&amp;90 AND ssbuf%?1=0 AND bnt%=0 THEN
+         1000          PRINT "                             Address 0 written to device"
+         1010        ELSE
+         1020          PRINT "&amp;90 write command returned ";?ssbuf%;", error= ";ssbuf%?1;", bytes failed=";bnt%
+         1030        ENDIF
+         1040        REM Now read from reg ukn
+         1050        ssbuf%?0=&amp;91
+         1060        ssbuf%?1=7
+         1070        ssbuf%?2=0
+         1080        ssbuf%?3=&amp;D1:REM read from IIC=&amp;68
+         1090        SYS "OS_GBPB",2,gusb%,ssbuf%,64 TO ,,fend%
+         1100        REM Read response should be &amp;91 then 0 (OK) or 1 (busy)
+         1110        ssbuf%?0=-1
+         1120        ssbuf%?1=-1
+         1130        SYS "OS_GBPB",4,fusb%,ssbuf%,64 TO ,,fend%,bnt%
+         1140        REM Check success
+         1150        IF ?ssbuf%=&amp;91 AND ssbuf%?1=0 AND bnt%=0 THEN
+         1160          PRINT "                             Time read from device"
+         1170          ssbuf%?0=&amp;40
+         1180          REM write command &amp;40 - read bytes from IIC
+         1190          SYS "OS_GBPB",2,gusb%,ssbuf%,64 TO ,,fend%
+         1200          REM read result  sb &amp;40,0/&amp;41,dc,nn=0..60 or 127,nn bytes
+         1210          ssbuf%?0=0
+         1220          ssbuf%?1=0
+         1230          ssbuf%?3=0
+         1240          SYS "OS_GBPB",4,fusb%,ssbuf%,64 TO ,,fend%,bnt%
+         1250          REM Check success
+         1260          IF ?ssbuf%=&amp;40 AND ssbuf%?1=0 AND bnt%=0 THEN
+         1270            PRINT "                             ";ssbuf%?3;" bytes read"
+         1280            i%=ssbuf%?3
+         1290            CASE i% OF
+         1300            WHEN 1:PRINT "xxxxxxxxxxxxxxxxxx:";FNbcd(ssbuf%?4)
+         1310            WHEN 2:PRINT "xxxxxxxxxxxxxxx:";FNbcd(ssbuf%?5);":";FNbcd(ssbuf%?4)
+         1320            WHEN 3:PRINT "xxxxxxxxxxxx ";FNbcd(ssbuf%?6);":";FNbcd(ssbuf%?5);":";FNbcd(ssbuf%?4)
+         1330            WHEN 4:PRINT FNbcd3(ssbuf%?7);" xxxxxxxx ";FNbcd(ssbuf%?6);":";FNbcd(ssbuf%?5);":";FNbcd(ssbuf%?4)
+         1340            WHEN 5:PRINT FNbcd3(ssbuf%?7);" "+FNbcd(ssbuf%?8)+"-xxxxx ";FNbcd(ssbuf%?6);":";FNbcd(ssbuf%?5);":";FNbcd(ssbuf%?4)
+         1350            WHEN 6:PRINT FNbcd3(ssbuf%?7);" "+FNbcd(ssbuf%?8)+"-"+FNbcd(ssbuf%?9)+"-xx ";FNbcd(ssbuf%?6);":";FNbcd(ssbuf%?5);":";FNbcd(ssbuf%?4)
+         1360            WHEN 7:PRINT FNbcd3(ssbuf%?7);" "+FNbcd(ssbuf%?8)+"-"+FNbcd(ssbuf%?9)+"-"+FNbcd4(ssbuf%?10)+" ";FNbcd(ssbuf%?6);":";FNbcd(ssbuf%?5);":";FNbcd(ssbuf%?4)
+         1370            OTHERWISE:PRINT "xxxxxxxxxxxxxxxxxxxxx"
+         1380            ENDCASE
+         1390          ELSE
+         1400            PRINT "&amp;40 read command returned ";?ssbuf%;", error= ";ssbuf%?1;", bytes failed=";bnt%
+         1410          ENDIF
+         1420        ELSE
+         1430          PRINT "&amp;91 read command returned ";?ssbuf%;", error= ";ssbuf%?1;", bytes failed=";bnt%
+         1440
+         1450          ssbuf%?0=&amp;40
+         1460          REM write command &amp;40 - read bytes from IIC
+         1470          SYS "OS_GBPB",2,gusb%,ssbuf%,64 TO ,,fend%
+         1480          REM read result  sb &amp;40,0/&amp;41,dc,nn=0..60 or 127,nn bytes
+         1490          ssbuf%?0=0
+         1500          ssbuf%?1=0
+         1510          ssbuf%?3=0
+         1520          SYS "OS_GBPB",4,fusb%,ssbuf%,64 TO ,,fend%,bnt%
+         1530          REM Check success
+         1540          IF ?ssbuf%=&amp;40 AND ssbuf%?1=0 AND bnt%=0 THEN
+         1550            PRINT "                             ";ssbuf%?3;" bytes read"
+         1560            i%=ssbuf%?3
+         1570            CASE i% OF
+         1580            WHEN 1:PRINT "xxxxxxxxxxxxxxxxxx:";FNbcd(ssbuf%?4)
+         1590            WHEN 2:PRINT "xxxxxxxxxxxxxxx:";FNbcd(ssbuf%?5);":";FNbcd(ssbuf%?4)
+         1600            WHEN 3:PRINT "xxxxxxxxxxxx ";FNbcd(ssbuf%?6);":";FNbcd(ssbuf%?5);":";FNbcd(ssbuf%?4)
+         1610            WHEN 4:PRINT FNbcd3(ssbuf%?7);" xxxxxxxx ";FNbcd(ssbuf%?6);":";FNbcd(ssbuf%?5);":";FNbcd(ssbuf%?4)
+         1620            WHEN 5:PRINT FNbcd3(ssbuf%?7);" "+FNbcd(ssbuf%?8)+"-xxxxx ";FNbcd(ssbuf%?6);":";FNbcd(ssbuf%?5);":";FNbcd(ssbuf%?4)
+         1630            WHEN 6:PRINT FNbcd3(ssbuf%?7);" "+FNbcd(ssbuf%?8)+"-"+FNbcd(ssbuf%?9)+"-xx ";FNbcd(ssbuf%?6);":";FNbcd(ssbuf%?5);":";FNbcd(ssbuf%?4)
+         1640            WHEN 7:PRINT FNbcd3(ssbuf%?7);" "+FNbcd(ssbuf%?8)+"-"+FNbcd(ssbuf%?9)+"-"+FNbcd4(ssbuf%?10)+" ";FNbcd(ssbuf%?6);":";FNbcd(ssbuf%?5);":";FNbcd(ssbuf%?4)
+         1650            OTHERWISE:PRINT "xxxxxxxxxxxxxxxxxxxxx"
+         1660            ENDCASE
+         1661          ELSE
+         1662            PRINT "&amp;40 read command returned ";?ssbuf%;", error= ";ssbuf%?1;", bytes failed=";bnt%
+         1663          ENDIF
+         1690        ENDIF
+         1700      ENDIF
+         1710      RESTORE ERROR
+         1720    ELSE
+         1730      PRINT nusb%;" &lt;&gt; ";tusb%
+         1740    ENDIF
+         1750  ELSE
+         1760    PRINT "Can't open"
+         1770  ENDIF
+         1780  W=GET
+         1790UNTIL W=32
+         1800IF fusb% THEN CLOSE#fusb%:fusb%=0
+         1810IF gusb% THEN CLOSE#gusb%:gusb%=0
+         1820END
+         1830DEFFNbcd(x%)
+         1840=STR$~(x%)
+         1850DEFFNbcd2(x%)
+         1860IF x% AND &amp;40 THEN
+         1870  REM 12 hour
+         1880  IF x% AND &amp;20 THEN
+         1890    =STR$~(x% AND &amp;1F)+" p.m."
+         1900  ELSE
+         1910    =STR$~(x% AND &amp;1F)+" a.m."
+         1920  ENDIF
+         1930ENDIF
+         1940REM 24 hour
+         1950=STR$~(x% AND &amp;3F)
+         1960DEFFNbcd3(x%)
+         1970CASE x% OF
+         1980WHEN 1:="Sun"
+         1990WHEN 2:="Mon"
+         2000WHEN 3:="Tue"
+         2010WHEN 4:="Wed"
+         2020WHEN 5:="Thu"
+         2030WHEN 6:="Fri"
+         2040WHEN 7:="Sat"
+         2050OTHERWISE:="???"+STR$(x%)
+         2060ENDCASE
+         2070DEFFNbcd4(x%)
+         2080IF x% AND &amp;80 THEN
+         2090  REM century set year&gt;99
+         2100  =STR$~(x% AND &amp;7F)+" century=1"
+         2110ELSE
+         2120  =STR$~(x% AND &amp;7F)
+         2130ENDIF
+        </code></pre>]]>
+      </description>
+      <source:markdown>Many thanks for all the help. If the device is accessed too quickly after being plugged in (with no battery) then writing the time fails and device has to be unplugged. This is likely to resolve itself once battery fitted. Now putting my thinking cap on to trap all the likely errors.
+
+```
+&#62;RUN
+REM Device newly plugged in, no battery and pause before running.
+Time set to 14:10:00 on Tue 15-Nov-2025
+                             Address 0 written to device
+                             Time read from device
+                             7 bytes read
+Tue 15-11-25 14:10:0
+REM press RETURN
+                             Address 0 written to device
+                             Time read from device
+                             7 bytes read
+Tue 15-11-25 14:10:9
+REM device unplugged and plugged then press RETURN without delay
+Opened new stream as device unplugged
+&#38;90 write command to set time returned 145, error= 0, bytes failed=0
+&#38;90 write command returned 144, error= 1, bytes failed=0
+&#38;91 read command returned 145, error= 1, bytes failed=0
+                             7 bytes read
+Sun 1-1-0 0:0:1
+REM press RETURN
+                             Address 0 written to device
+                             Time read from device
+                             7 bytes read
+Sun 1-1-0 0:0:7
+REM Note values undefined
+REM unplug and replug and wait for delay then press ENTER
+opened new stream as device unplugged
+&#38;90 write command to set time returned 145, error= 0, bytes failed=0
+&#38;90 write command returned 144, error= 1, bytes failed=0
+&#38;91 read command returned 145, error= 1, bytes failed=0
+                             7 bytes read
+Sun 1-1-0 0:0:4
+REM press SPACE
+&#62;RUN
+Time set to 14:10:00 on Tue 15-Nov-2025
+                             Address 0 written to device
+                             Time read from device
+                             7 bytes read
+Tue 15-11-25 14:10:0
+                             Address 0 written to device
+                             Time read from device
+                             7 bytes read
+Tue 15-11-25 14:10:5
+REM press SPACE
+&#62;LIST
+   10REM &#62;USBTest
+   20DIM qbuf% 200 , ssbuf% 200
+   30REM Start with device freshly plugged in
+   40fusb%=0
+   50gusb%=0
+   60nusb%=0
+   70REPEAT
+   80  REM evaluate device no.
+   90  REM HID class 8.2.0 64 bytes endpoint=3
+  100  SYS &#34;XOS_ReadVarVal&#34;,&#34;USB$Device_03_00_00_04D8_00DD_01_02*&#34;,,-1 TO ,,usbdev%
+  110  IF usbdev% THEN
+  120    r4%=-1
+  130    SYS &#34;XOS_ReadVarVal&#34;,&#34;USB$Device_03_00_00_04D8_00DD_01_02*&#34;,qbuf%,256,0 TO ,,r2%,r3%,r4%
+  140    IF r4%=0 THEN qbuf%?r2%=13:tusb%=VAL($qbuf%) ELSE tusb%=-1
+  150    IF nusb%&#60;&#62;tusb% THEN
+  160      REM close prev stream
+  170      IF fusb% THEN CLOSE#fusb%:fusb%=0
+  180      IF gusb% THEN CLOSE#gusb%:gusb%=0
+  190      IF tusb%&#62;0 THEN
+  200        REM open new stream
+  210        fusb%=OPENIN(&#34;devices#endpoint3:USB&#34;+STR$(tusb%))
+  220        gusb%=OPENOUT(&#34;devices#endpoint3:USB&#34;+STR$(tusb%))
+  230        IF nusb%&#60;&#62;0 THEN PRINT &#34;opened new stream as device unplugged&#34;
+  240        nusb%=tusb%
+  250        REM first access of device - read bytes and throw away
+  260        :
+  270        REM read bytes   -trap errors
+  280        LOCAL ERROR
+  290        ON ERROR LOCAL CLOSE#gusb%:gusb%=0:r1%=0:r2%=2:REPORT:PRINT &#34; at line &#34;;ERL
+  300        IF gusb% THEN
+  310          REM Now read from reg ukn and ignore
+  320          ssbuf%?0=&#38;91
+  330          ssbuf%?1=7
+  340          ssbuf%?2=0
+  350          ssbuf%?3=&#38;D1:REM read from IIC=&#38;68
+  360          SYS &#34;OS_GBPB&#34;,2,gusb%,ssbuf%,64 TO ,,fend%
+  370          REM Read response should be &#38;91 then 0 (OK) or 1 (busy)
+  380          ssbuf%?0=-1
+  390          ssbuf%?1=-1
+  400          SYS &#34;OS_GBPB&#34;,4,fusb%,ssbuf%,64 TO ,,fend%,bnt%
+  410          REM Check success but don&#39;t report
+  420          IF ?ssbuf%=&#38;91 AND ssbuf%?1=0 THEN
+  430            REM PRINT &#34;Read from device OK but ignored&#34;
+  440          ELSE
+  450            REM PRINT &#34;&#38;91 read command returned &#34;;?ssbuf%;&#34;, error= &#34;;ssbuf%?1;&#34;, bytes failed=&#34;;bnt%
+  460          ENDIF
+  470          ssbuf%?0=&#38;40
+  480          REM Set RTC to time (no battery fitted yet)
+  490          REM Write command &#38;90,8,0,&#38;D0 - write to IIC &#38;68
+  500          ssbuf%?0=&#38;90
+  510          ssbuf%?1=8
+  520          ssbuf%?2=0
+  530          ssbuf%?3=&#38;D0:REM read from IIC=&#38;68
+  540          ssbuf%!4=0:REM set address to 0
+  550          ssbuf%!5=0:REM set seconds to 0
+  560          ssbuf%!6=&#38;10:REM set minutes to 10
+  570          ssbuf%!7=&#38;14:REM set hours to 14 on 24h
+  580          ssbuf%!8=3:REM set day to Tue
+  590          ssbuf%!9=&#38;15:REM set date to 15
+  600          ssbuf%!10=&#38;11:REM set month to 11
+  610          ssbuf%!11=&#38;25:REM set year to 25
+  620          SYS &#34;OS_GBPB&#34;,2,gusb%,ssbuf%,64 TO ,,fend%
+  630          REM Read response should be &#38;90 then 0 (OK) or 1 (busy)
+  640          ssbuf%?0=-1
+  650          ssbuf%?1=-1
+  660          SYS &#34;OS_GBPB&#34;,4,fusb%,ssbuf%,64 TO ,,fend%,bnt%
+  670          REM Check success
+  680          IF ?ssbuf%=&#38;90 AND ssbuf%?1=0 AND bnt%=0 THEN
+  690            PRINT &#34;Time set to 14:10:00 on Tue 15-Nov-2025&#34;
+  700          ELSE
+  710            PRINT &#34;&#38;90 write command to set time returned &#34;;?ssbuf%;&#34;, error= &#34;;ssbuf%?1;&#34;, bytes failed=&#34;;bnt%
+  720          ENDIF
+  730        ENDIF
+  740        RESTORE ERROR
+  750      ELSE
+  760        PRINT &#34;USB device evaluated as zero &#34;;tusb%
+  770      ENDIF
+  780    ELSE
+  790      IF nusb%=0 THEN PRINT &#34;USB device evaluated on first try as zero &#34;;tusb%
+  800    ENDIF
+  810    IF nusb%=tusb% THEN
+  820      REM read bytes   -trap errors
+  830      LOCAL ERROR
+  840      ON ERROR LOCAL CLOSE#gusb%:gusb%=0:r1%=0:r2%=2:REPORT:PRINT &#34; at line &#34;;ERL
+  850      IF gusb% THEN
+  860        REM First write 00 to set register 00
+  870        REM Write command &#38;90,16,0,&#38;D0 - write to IIC &#38;68
+  880        ssbuf%?0=&#38;90
+  890        ssbuf%?1=1
+  900        ssbuf%?2=0
+  910        ssbuf%?3=&#38;D0:REM read from IIC=&#38;68
+  920        ssbuf%!4=0
+  930        SYS &#34;OS_GBPB&#34;,2,gusb%,ssbuf%,64 TO ,,fend%
+  940        REM Read response should be &#38;90 then 0 (OK) or 1 (busy)
+  950        ssbuf%?0=-1
+  960        ssbuf%?1=-1
+  970        SYS &#34;OS_GBPB&#34;,4,fusb%,ssbuf%,64 TO ,,fend%,bnt%
+  980        REM Check success
+  990        IF ?ssbuf%=&#38;90 AND ssbuf%?1=0 AND bnt%=0 THEN
+ 1000          PRINT &#34;                             Address 0 written to device&#34;
+ 1010        ELSE
+ 1020          PRINT &#34;&#38;90 write command returned &#34;;?ssbuf%;&#34;, error= &#34;;ssbuf%?1;&#34;, bytes failed=&#34;;bnt%
+ 1030        ENDIF
+ 1040        REM Now read from reg ukn
+ 1050        ssbuf%?0=&#38;91
+ 1060        ssbuf%?1=7
+ 1070        ssbuf%?2=0
+ 1080        ssbuf%?3=&#38;D1:REM read from IIC=&#38;68
+ 1090        SYS &#34;OS_GBPB&#34;,2,gusb%,ssbuf%,64 TO ,,fend%
+ 1100        REM Read response should be &#38;91 then 0 (OK) or 1 (busy)
+ 1110        ssbuf%?0=-1
+ 1120        ssbuf%?1=-1
+ 1130        SYS &#34;OS_GBPB&#34;,4,fusb%,ssbuf%,64 TO ,,fend%,bnt%
+ 1140        REM Check success
+ 1150        IF ?ssbuf%=&#38;91 AND ssbuf%?1=0 AND bnt%=0 THEN
+ 1160          PRINT &#34;                             Time read from device&#34;
+ 1170          ssbuf%?0=&#38;40
+ 1180          REM write command &#38;40 - read bytes from IIC
+ 1190          SYS &#34;OS_GBPB&#34;,2,gusb%,ssbuf%,64 TO ,,fend%
+ 1200          REM read result  sb &#38;40,0/&#38;41,dc,nn=0..60 or 127,nn bytes
+ 1210          ssbuf%?0=0
+ 1220          ssbuf%?1=0
+ 1230          ssbuf%?3=0
+ 1240          SYS &#34;OS_GBPB&#34;,4,fusb%,ssbuf%,64 TO ,,fend%,bnt%
+ 1250          REM Check success
+ 1260          IF ?ssbuf%=&#38;40 AND ssbuf%?1=0 AND bnt%=0 THEN
+ 1270            PRINT &#34;                             &#34;;ssbuf%?3;&#34; bytes read&#34;
+ 1280            i%=ssbuf%?3
+ 1290            CASE i% OF
+ 1300            WHEN 1:PRINT &#34;xxxxxxxxxxxxxxxxxx:&#34;;FNbcd(ssbuf%?4)
+ 1310            WHEN 2:PRINT &#34;xxxxxxxxxxxxxxx:&#34;;FNbcd(ssbuf%?5);&#34;:&#34;;FNbcd(ssbuf%?4)
+ 1320            WHEN 3:PRINT &#34;xxxxxxxxxxxx &#34;;FNbcd(ssbuf%?6);&#34;:&#34;;FNbcd(ssbuf%?5);&#34;:&#34;;FNbcd(ssbuf%?4)
+ 1330            WHEN 4:PRINT FNbcd3(ssbuf%?7);&#34; xxxxxxxx &#34;;FNbcd(ssbuf%?6);&#34;:&#34;;FNbcd(ssbuf%?5);&#34;:&#34;;FNbcd(ssbuf%?4)
+ 1340            WHEN 5:PRINT FNbcd3(ssbuf%?7);&#34; &#34;+FNbcd(ssbuf%?8)+&#34;-xxxxx &#34;;FNbcd(ssbuf%?6);&#34;:&#34;;FNbcd(ssbuf%?5);&#34;:&#34;;FNbcd(ssbuf%?4)
+ 1350            WHEN 6:PRINT FNbcd3(ssbuf%?7);&#34; &#34;+FNbcd(ssbuf%?8)+&#34;-&#34;+FNbcd(ssbuf%?9)+&#34;-xx &#34;;FNbcd(ssbuf%?6);&#34;:&#34;;FNbcd(ssbuf%?5);&#34;:&#34;;FNbcd(ssbuf%?4)
+ 1360            WHEN 7:PRINT FNbcd3(ssbuf%?7);&#34; &#34;+FNbcd(ssbuf%?8)+&#34;-&#34;+FNbcd(ssbuf%?9)+&#34;-&#34;+FNbcd4(ssbuf%?10)+&#34; &#34;;FNbcd(ssbuf%?6);&#34;:&#34;;FNbcd(ssbuf%?5);&#34;:&#34;;FNbcd(ssbuf%?4)
+ 1370            OTHERWISE:PRINT &#34;xxxxxxxxxxxxxxxxxxxxx&#34;
+ 1380            ENDCASE
+ 1390          ELSE
+ 1400            PRINT &#34;&#38;40 read command returned &#34;;?ssbuf%;&#34;, error= &#34;;ssbuf%?1;&#34;, bytes failed=&#34;;bnt%
+ 1410          ENDIF
+ 1420        ELSE
+ 1430          PRINT &#34;&#38;91 read command returned &#34;;?ssbuf%;&#34;, error= &#34;;ssbuf%?1;&#34;, bytes failed=&#34;;bnt%
+ 1440
+ 1450          ssbuf%?0=&#38;40
+ 1460          REM write command &#38;40 - read bytes from IIC
+ 1470          SYS &#34;OS_GBPB&#34;,2,gusb%,ssbuf%,64 TO ,,fend%
+ 1480          REM read result  sb &#38;40,0/&#38;41,dc,nn=0..60 or 127,nn bytes
+ 1490          ssbuf%?0=0
+ 1500          ssbuf%?1=0
+ 1510          ssbuf%?3=0
+ 1520          SYS &#34;OS_GBPB&#34;,4,fusb%,ssbuf%,64 TO ,,fend%,bnt%
+ 1530          REM Check success
+ 1540          IF ?ssbuf%=&#38;40 AND ssbuf%?1=0 AND bnt%=0 THEN
+ 1550            PRINT &#34;                             &#34;;ssbuf%?3;&#34; bytes read&#34;
+ 1560            i%=ssbuf%?3
+ 1570            CASE i% OF
+ 1580            WHEN 1:PRINT &#34;xxxxxxxxxxxxxxxxxx:&#34;;FNbcd(ssbuf%?4)
+ 1590            WHEN 2:PRINT &#34;xxxxxxxxxxxxxxx:&#34;;FNbcd(ssbuf%?5);&#34;:&#34;;FNbcd(ssbuf%?4)
+ 1600            WHEN 3:PRINT &#34;xxxxxxxxxxxx &#34;;FNbcd(ssbuf%?6);&#34;:&#34;;FNbcd(ssbuf%?5);&#34;:&#34;;FNbcd(ssbuf%?4)
+ 1610            WHEN 4:PRINT FNbcd3(ssbuf%?7);&#34; xxxxxxxx &#34;;FNbcd(ssbuf%?6);&#34;:&#34;;FNbcd(ssbuf%?5);&#34;:&#34;;FNbcd(ssbuf%?4)
+ 1620            WHEN 5:PRINT FNbcd3(ssbuf%?7);&#34; &#34;+FNbcd(ssbuf%?8)+&#34;-xxxxx &#34;;FNbcd(ssbuf%?6);&#34;:&#34;;FNbcd(ssbuf%?5);&#34;:&#34;;FNbcd(ssbuf%?4)
+ 1630            WHEN 6:PRINT FNbcd3(ssbuf%?7);&#34; &#34;+FNbcd(ssbuf%?8)+&#34;-&#34;+FNbcd(ssbuf%?9)+&#34;-xx &#34;;FNbcd(ssbuf%?6);&#34;:&#34;;FNbcd(ssbuf%?5);&#34;:&#34;;FNbcd(ssbuf%?4)
+ 1640            WHEN 7:PRINT FNbcd3(ssbuf%?7);&#34; &#34;+FNbcd(ssbuf%?8)+&#34;-&#34;+FNbcd(ssbuf%?9)+&#34;-&#34;+FNbcd4(ssbuf%?10)+&#34; &#34;;FNbcd(ssbuf%?6);&#34;:&#34;;FNbcd(ssbuf%?5);&#34;:&#34;;FNbcd(ssbuf%?4)
+ 1650            OTHERWISE:PRINT &#34;xxxxxxxxxxxxxxxxxxxxx&#34;
+ 1660            ENDCASE
+ 1661          ELSE
+ 1662            PRINT &#34;&#38;40 read command returned &#34;;?ssbuf%;&#34;, error= &#34;;ssbuf%?1;&#34;, bytes failed=&#34;;bnt%
+ 1663          ENDIF
+ 1690        ENDIF
+ 1700      ENDIF
+ 1710      RESTORE ERROR
+ 1720    ELSE
+ 1730      PRINT nusb%;&#34; &#60;&#62; &#34;;tusb%
+ 1740    ENDIF
+ 1750  ELSE
+ 1760    PRINT &#34;Can&#39;t open&#34;
+ 1770  ENDIF
+ 1780  W=GET
+ 1790UNTIL W=32
+ 1800IF fusb% THEN CLOSE#fusb%:fusb%=0
+ 1810IF gusb% THEN CLOSE#gusb%:gusb%=0
+ 1820END
+ 1830DEFFNbcd(x%)
+ 1840=STR$~(x%)
+ 1850DEFFNbcd2(x%)
+ 1860IF x% AND &#38;40 THEN
+ 1870  REM 12 hour
+ 1880  IF x% AND &#38;20 THEN
+ 1890    =STR$~(x% AND &#38;1F)+&#34; p.m.&#34;
+ 1900  ELSE
+ 1910    =STR$~(x% AND &#38;1F)+&#34; a.m.&#34;
+ 1920  ENDIF
+ 1930ENDIF
+ 1940REM 24 hour
+ 1950=STR$~(x% AND &#38;3F)
+ 1960DEFFNbcd3(x%)
+ 1970CASE x% OF
+ 1980WHEN 1:=&#34;Sun&#34;
+ 1990WHEN 2:=&#34;Mon&#34;
+ 2000WHEN 3:=&#34;Tue&#34;
+ 2010WHEN 4:=&#34;Wed&#34;
+ 2020WHEN 5:=&#34;Thu&#34;
+ 2030WHEN 6:=&#34;Fri&#34;
+ 2040WHEN 7:=&#34;Sat&#34;
+ 2050OTHERWISE:=&#34;???&#34;+STR$(x%)
+ 2060ENDCASE
+ 2070DEFFNbcd4(x%)
+ 2080IF x% AND &#38;80 THEN
+ 2090  REM century set year&#62;99
+ 2100  =STR$~(x% AND &#38;7F)+&#34; century=1&#34;
+ 2110ELSE
+ 2120  =STR$~(x% AND &#38;7F)
+ 2130ENDIF
+
+```</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20121:159845</guid>
+    </item>    <item>
+      <title>RISC OS London Show 2025 - Notes from the talks</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13502&#38;page=1#125847</link>
+      <description>
+        <![CDATA[The videos of the show theatre persentations are now online...]]>
+      </description>
+      <source:markdown>The videos of the show theatre persentations are now online...</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13502&#38;page=1#125847</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3m5n5djyolk2f</link>
+      <description>
+        <![CDATA[The recordings of the RISC OS London Show theatre presentations are now available 
+        https://www.youtube.com/playlist?list=PLdbtoCQ_z-HFgLf7GUliPGIX5CNSTk97B
+        https://m.youtube.com/playlist?list=PLdbtoCQ_z-HFgLf7GUliPGIX5CNSTk97B]]>
+      </description>
+      <source:markdown>The recordings of the RISC OS London Show theatre presentations are now available
+https://www.youtube.com/playlist?list=PLdbtoCQ\_z-HFgLf7GUliPGIX5CNSTk97B
+https://m.youtube.com/playlist?list=PLdbtoCQ\_z-HFgLf7GUliPGIX5CNSTk97B</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3m5n5djyolk2f</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3m5muhi5dts2r</link>
+      <description>
+        <![CDATA[It's starting to feel a lot like Christmas.]]>
+      </description>
+      <source:markdown>It&#39;s starting to feel a lot like Christmas.</source:markdown>
+      <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3m5muhi5dts2r</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: New Raspberry Pi to 1MHz bus interface</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469970#p469970</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469970#p469970</guid>
@@ -51,22 +756,6 @@
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469961#p469961</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469961#p469961</guid>
     </item>    <item>
-      <title>SerialUSB 0.17</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20088</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>It would be nice if you find time to test ProSound.</p>
-        </blockquote>
-        <p>No chance until isochronous mode works on my Pi.</p>
-        <p>Colin, is it only the USBDriver module that needs to be enhanced?  How many source files need to be changed?</p>]]>
-      </description>
-      <source:markdown>&#62; It would be nice if you find time to test ProSound.
-
-No chance until isochronous mode works on my Pi.
-
-Colin, is it only the USBDriver module that needs to be enhanced? How many source files need to be changed?</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20088:159834</guid>
-    </item>    <item>
       <title>32Bit AKA Roms</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20124</link>
       <description>
@@ -74,14 +763,6 @@ Colin, is it only the USBDriver module that needs to be enhanced? How many sourc
       </description>
       <source:markdown>Does anyone know what the turn around is for 32Bit Rom’s for the SCSI Podule from the ROOL Store if anyone has ordered one in the past?</source:markdown>
       <guid>cid://www.riscosopen.org:11:20124:159833</guid>
-    </item>    <item>
-      <title>USB headsets</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20123</link>
-      <description>
-        <![CDATA[<p>Does anyone have a <span class="caps">USB</span> headset?  I&#8217;d be interested to know its <span class="caps">USB</span> descriptors, which you should be able to get using the <a href="https://ftpc.iconbar.com/usb/index.html">USBDescriptors</a> app.</p>]]>
-      </description>
-      <source:markdown>Does anyone have a USB headset? I’d be interested to know its USB descriptors, which you should be able to get using the [USBDescriptors](https://ftpc.iconbar.com/usb/index.html) app.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20123:159831</guid>
     </item>    <item>
       <title>general • Re: Today I received.....</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469947#p469947</link>
@@ -110,20 +791,6 @@ Colin, is it only the USBDriver module that needs to be enhanced? How many sourc
       <title>8-bit acorn hardware • Re: Increase BBC B Reset/Boot Delay</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469941#p469941</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469941#p469941</guid>
-    </item>    <item>
-      <title>NAS devices</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20122</link>
-      <description>
-        <![CDATA[<p>I think my Buffalo Link Station <span class="caps">NAS</span> (Network Attached Storage) device is dying; but, even if not, I could do with a second <span class="caps">NAS</span> in a second home.<br />
-        So what are the good makes?</p>
-        <p>Sometimes a ping to the Link Station <span class="caps">NAS</span> gets a response with no packets lost, but usually it gives an error message like &#8220;no route to host&#8221; or &#8220;host is down&#8221;. The power light comes on, and sometimes the <span class="caps">LINK</span>/<span class="caps">ACT</span> light stays solid, but mainly flickers.</p>]]>
-      </description>
-      <source:markdown>I think my Buffalo Link Station NAS (Network Attached Storage) device is dying; but, even if not, I could do with a second NAS in a second home.
-
-So what are the good makes?
-
-Sometimes a ping to the Link Station NAS gets a response with no packets lost, but usually it gives an error message like “no route to host” or “host is down”. The power light comes on, and sometimes the LINK/ACT light stays solid, but mainly flickers.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20122:159828</guid>
     </item>    <item>
       <title>Updated XP1Dr2SVG</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/19365</link>
@@ -247,17 +914,6 @@ For anecdote, as I had not understood that these drawings were illustrations for
 
 Yes, they do this on the guest WiFi at the secure site I work at, which is very annoying as I have to tether off my phone to be able to use the VPN on my other laptop.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20119:159819</guid>
-    </item>    <item>
-      <title>Talking to USB</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20121</link>
-      <description>
-        <![CDATA[<p>I need to read and write from a MCP2221A chip plugged in to the <span class="caps">USB</span> socket. I can get its <span class="caps">USB</span> number by looking at the system variable that is set as a device is plugged in and I think I can then use the x=OPENIN&quot;USB##&quot; and y=OPENOUT&quot;USB##&quot; to send and receive data using OS_GBPB. I have its data sheet so I know the commands to send and receive data to an <span class="caps">IIC</span> device connected to it. It works with 64 byte send and receive strings. Any suggestions please?</p>
-        <p>In extremis I&#8217;ll look at a relevant python script &#8230;</p>]]>
-      </description>
-      <source:markdown>I need to read and write from a MCP2221A chip plugged in to the USB socket. I can get its USB number by looking at the system variable that is set as a device is plugged in and I think I can then use the x=OPENIN&#34;USB##&#34; and y=OPENOUT&#34;USB##&#34; to send and receive data using OS\_GBPB. I have its data sheet so I know the commands to send and receive data to an IIC device connected to it. It works with 64 byte send and receive strings. Any suggestions please?
-
-In extremis I’ll look at a relevant python script …</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20121:159818</guid>
     </item>    <item>
       <title>Looking for old Archive magazines</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20117</link>
@@ -419,17 +1075,6 @@ That&#39;s a Wynne-Win for me.</source:markdown>
       <title>8-bit acorn hardware • Re: 177x Disc Controller Module for Beeb</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469818#p469818</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=469818#p469818</guid>
-    </item>    <item>
-      <title>Time to Update !Killer :)</title>
-      <link>https://www.riscosopen.org/forum/forums/2/topics/20114</link>
-      <description>
-        <![CDATA[<p>To follow up, I&#8217;ve put a request in to see what we can do.  My proposal is to host the source for both on <span class="caps">ROD</span> git and publish redistributable binaries.  Remember though, this will depend on time availability for all involved.</p>
-        <p>In the meantime, <span class="caps">ADFFS</span> with Vprotect 5 seems like a great tool.</p>]]>
-      </description>
-      <source:markdown>To follow up, I’ve put a request in to see what we can do. My proposal is to host the source for both on ROD git and publish redistributable binaries. Remember though, this will depend on time availability for all involved.
-
-In the meantime, ADFFS with Vprotect 5 seems like a great tool.</source:markdown>
-      <guid>cid://www.riscosopen.org:2:20114:159807</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: Compact option for beeb MMC</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469817#p469817</link>
@@ -1138,19 +1783,6 @@ Any thoughts?</source:markdown>
 
 Is there any way of accessing this info from within BASIC to know, for example, from which directory the file was launched?</source:markdown>
       <guid>cid://www.riscosopen.org:11:20109:159690</guid>
-    </item>    <item>
-      <title>Why is ROOL doing this?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20090</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Allocation is never refused, to my knowledge.</p>
-        </blockquote>
-        <p>I wanted <code>!XP.....</code> which was refused because of a clash. I was allowed <code>!XP1....</code> which is what I&#8217;ve used ever since. (Not a <span class="caps">SWI</span>, of course &#8211; a range of application names.)</p>]]>
-      </description>
-      <source:markdown>&#62; Allocation is never refused, to my knowledge.
-
-I wanted `!XP.....` which was refused because of a clash. I was allowed `!XP1....` which is what I’ve used ever since. (Not a SWI, of course – a range of application names.)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20090:159689</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: Torch Graduate</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=469465#p469465</link>
