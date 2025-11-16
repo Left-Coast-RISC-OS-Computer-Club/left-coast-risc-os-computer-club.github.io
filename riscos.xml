@@ -7,10 +7,61 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>16 Nov 25 07:00 -0800</lastBuildDate>
+    <lastBuildDate>16 Nov 25 11:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>32-bit acorn software: classic games • Ricky dangerous arc</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470090#p470090</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470090#p470090</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: NetSurf hanging on Risc PC</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470089#p470089</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470089#p470089</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Plus One suddenly died</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470088#p470088</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470088#p470088</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: PiEconetBridge and .INF files</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470087#p470087</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470087#p470087</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Help finding !BootSparQ</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470086#p470086</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470086#p470086</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Plus One suddenly died</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470084#p470084</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470084#p470084</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m5r7z56f322n</link>
+      <description>
+        <![CDATA[I've just reminded myself that not only are Greek and Cyrillic Alphabets routinely confused with UTF-8, even Latin1 is not immune - something as typographically unremarkable as "×£" would be misunderstood as "ף", a Hebrew character.
+        
+        This is why KeyPress must be interpreted in the current Alphabet.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>I&#39;ve just reminded myself that not only are Greek and Cyrillic Alphabets routinely confused with UTF-8, even Latin1 is not immune - something as typographically unremarkable as &#34;×£&#34; would be misunderstood as &#34;ף&#34;, a Hebrew character.
+
+This is why KeyPress must be interpreted in the current Alphabet.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m5r7z56f322n</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: NetSurf hanging on Risc PC</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470083#p470083</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470083#p470083</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Fault finding index</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470081#p470081</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470081#p470081</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: NetSurf hanging on Risc PC</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470080#p470080</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470080#p470080</guid>
+    </item>    <item>
       <title>32-bit acorn software: other • Re: NetSurf hanging on Risc PC</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470079#p470079</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470079#p470079</guid>
@@ -193,6 +244,23 @@ I realise my previous postings may have sounded critical of ROD, but I was tryin
 It used the Iyonix’s built-in audio system.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20123:159884</guid>
     </item>    <item>
+      <title>SerialUSB 0.17</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20088</link>
+      <description>
+        <![CDATA[<p>Cracking, Colin, that does the job!  It even works on the <span class="caps">USB</span> A sockets.  (I&#8217;ve ordered one of those splitters, but it will be some time before it arrives.)</p>
+        <p>So I&#8217;ll use this <span class="caps">ROM</span> image as normal.</p>
+        <p>I also tried my own isochronous player (dated 2014 January 26 &#8211; gosh, that&#8217;s a long time ago!) which gives me control of volume and mute but not stop/start/restart, and that works too.</p>
+        <p>Edit: the machine is a Raspberry Pi 3B+.</p>]]>
+      </description>
+      <source:markdown>Cracking, Colin, that does the job! It even works on the USB A sockets. (I’ve ordered one of those splitters, but it will be some time before it arrives.)
+
+So I’ll use this ROM image as normal.
+
+I also tried my own isochronous player (dated 2014 January 26 – gosh, that’s a long time ago!) which gives me control of volume and mute but not stop/start/restart, and that works too.
+
+Edit: the machine is a Raspberry Pi 3B+.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20088:159883</guid>
+    </item>    <item>
       <title>acorn atom and acorn system series • Re: Chuckie Egg constant jumping.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470028#p470028</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470028#p470028</guid>
@@ -211,20 +279,6 @@ It used the Iyonix’s built-in audio system.</source:markdown>
       <title>32-bit acorn hardware • Re: Advice on A3020 repair</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470026#p470026</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470026#p470026</guid>
-    </item>    <item>
-      <title>SerialUSB 0.17</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20088</link>
-      <description>
-        <![CDATA[<p>Everything I try leads to the machine giving the message &#8220;Please insert disc HardDisc4&#8221; and being completely unresponsive.  I&#8217;ve gone to extremes (I think) to get HardDisc4 out of the way: I&#8217;ve closed all running apps, copied the modules from !PiIsocUSB into <span class="caps">RAMFS</span>, gone to the command line (so there is no reason to have a font file open), issued the commands &#8220;*ram&#8221;, &#8220;scsi:dismount HardDisc4&#8221;, &#8220;RMRun USBDriver&#8221;.  Error message and dead.  Even issuing &#8220;scsi:dismount HardDisc4&#8221; twice makes no difference, which makes me wonder if it silently errored out but didn&#8217;t dismount it.</p>
-        <p>It&#8217;s difficult because HardDisc4, the keyboard and the mouse are all connected via <span class="caps">USB</span>.</p>
-        <p>When the machine boots up normally, there are two lights on the <span class="caps">USB</span> hub (one for HD4, one for the external <span class="caps">USB</span> hub with the mouse and keyboard), but issuing &#8220;RmRun USBDriver&#8221; gives the error message and there are no lights on the hub, so it hasn&#8217;t initialised.</p>]]>
-      </description>
-      <source:markdown>Everything I try leads to the machine giving the message “Please insert disc HardDisc4” and being completely unresponsive. I’ve gone to extremes (I think) to get HardDisc4 out of the way: I’ve closed all running apps, copied the modules from !PiIsocUSB into RAMFS, gone to the command line (so there is no reason to have a font file open), issued the commands “\*ram”, “scsi:dismount HardDisc4”, “RMRun USBDriver”. Error message and dead. Even issuing “scsi:dismount HardDisc4” twice makes no difference, which makes me wonder if it silently errored out but didn’t dismount it.
-
-It’s difficult because HardDisc4, the keyboard and the mouse are all connected via USB.
-
-When the machine boots up normally, there are two lights on the USB hub (one for HD4, one for the external USB hub with the mouse and keyboard), but issuing “RmRun USBDriver” gives the error message and there are no lights on the hub, so it hasn’t initialised.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20088:159880</guid>
     </item>    <item>
       <title>32Bit AKA Roms</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20124</link>
