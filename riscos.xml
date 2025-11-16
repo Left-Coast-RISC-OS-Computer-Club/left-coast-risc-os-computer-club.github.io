@@ -7,10 +7,58 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>16 Nov 25 11:00 -0800</lastBuildDate>
+    <lastBuildDate>16 Nov 25 15:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Iris Feature Request</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20127</link>
+      <description>
+        <![CDATA[<p>Risc OS Developments, Is it possible we can have a function in the choices to save the zoom scaling, because on larger 4k screens if you increase the scale to 125% or larger it doesnt retain the setting when the browser is closed. unless i&#8217;ve missed it somewhere.</p>]]>
+      </description>
+      <source:markdown>Risc OS Developments, Is it possible we can have a function in the choices to save the zoom scaling, because on larger 4k screens if you increase the scale to 125% or larger it doesnt retain the setting when the browser is closed. unless i’ve missed it somewhere.</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20127:159913</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Plus One suddenly died</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470106#p470106</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470106#p470106</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3010 with RAM Control Line Failure</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470105#p470105</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470105#p470105</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Plus One suddenly died</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470104#p470104</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470104#p470104</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: NetSurf hanging on Risc PC</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470103#p470103</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470103#p470103</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Plus One suddenly died</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470102#p470102</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470102#p470102</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3010 with RAM Control Line Failure</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470101#p470101</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470101#p470101</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Plus One suddenly died</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470100#p470100</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470100#p470100</guid>
+    </item>    <item>
+      <title>32-bit acorn software: classic games • Re: Ricky dangerous arc</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470099#p470099</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470099#p470099</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Plus One suddenly died</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470098#p470098</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470098#p470098</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • BBC Model B hangs with flashing screen on power-up</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470097#p470097</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470097#p470097</guid>
+    </item>    <item>
       <title>32-bit acorn software: classic games • Ricky dangerous arc</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470090#p470090</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470090#p470090</guid>
@@ -223,6 +271,22 @@ I realise my previous postings may have sounded critical of ROD, but I was tryin
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470044#p470044</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470044#p470044</guid>
     </item>    <item>
+      <title>SerialUSB 0.17</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20088</link>
+      <description>
+        <![CDATA[<p>Dave:</p>
+        <blockquote>
+        <p>It even works on the <span class="caps">USB</span> A sockets</p>
+        </blockquote>
+        <p>You had me puzzled there until the edit :-) pi&#8217;s before the pi4 used the <span class="caps">DWC</span> driver exclusively so usb audio is available via the normal sockets. The adapter is for pi4s which uses <span class="caps">XHCI</span> for the main sockets so you have to use the charging port to use <span class="caps">DWC</span>.</p>]]>
+      </description>
+      <source:markdown>Dave:
+
+&#62; It even works on the USB A sockets
+
+You had me puzzled there until the edit :-) pi’s before the pi4 used the DWC driver exclusively so usb audio is available via the normal sockets. The adapter is for pi4s which uses XHCI for the main sockets so you have to use the charging port to use DWC.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20088:159890</guid>
+    </item>    <item>
       <title>8-bit acorn software: other • Re: Looking for people associated with Database Publishing</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470043#p470043</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470043#p470043</guid>
@@ -234,32 +298,13 @@ I realise my previous postings may have sounded critical of ROD, but I was tryin
       <title>USB headsets</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20123</link>
       <description>
-        <![CDATA[<blockquote>
-        <p>“Iyonix only” analog or via <span class="caps">USB</span> ?</p>
-        </blockquote>
-        <p>It used the Iyonix&#8217;s built-in audio system.</p>]]>
+        <![CDATA[<p>I&#8217;ve ordered a pair of replacement ear cushions from a well known auction site :-)</p>
+        <p>The headband has gone too.  Looking more closely, the problem is not so much the foam, it&#8217;s the thin mock leather covering it, in both cases.</p>]]>
       </description>
-      <source:markdown>&#62; “Iyonix only” analog or via USB ?
+      <source:markdown>I’ve ordered a pair of replacement ear cushions from a well known auction site :-)
 
-It used the Iyonix’s built-in audio system.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20123:159884</guid>
-    </item>    <item>
-      <title>SerialUSB 0.17</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20088</link>
-      <description>
-        <![CDATA[<p>Cracking, Colin, that does the job!  It even works on the <span class="caps">USB</span> A sockets.  (I&#8217;ve ordered one of those splitters, but it will be some time before it arrives.)</p>
-        <p>So I&#8217;ll use this <span class="caps">ROM</span> image as normal.</p>
-        <p>I also tried my own isochronous player (dated 2014 January 26 &#8211; gosh, that&#8217;s a long time ago!) which gives me control of volume and mute but not stop/start/restart, and that works too.</p>
-        <p>Edit: the machine is a Raspberry Pi 3B+.</p>]]>
-      </description>
-      <source:markdown>Cracking, Colin, that does the job! It even works on the USB A sockets. (I’ve ordered one of those splitters, but it will be some time before it arrives.)
-
-So I’ll use this ROM image as normal.
-
-I also tried my own isochronous player (dated 2014 January 26 – gosh, that’s a long time ago!) which gives me control of volume and mute but not stop/start/restart, and that works too.
-
-Edit: the machine is a Raspberry Pi 3B+.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20088:159883</guid>
+The headband has gone too. Looking more closely, the problem is not so much the foam, it’s the thin mock leather covering it, in both cases.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20123:159889</guid>
     </item>    <item>
       <title>acorn atom and acorn system series • Re: Chuckie Egg constant jumping.</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470028#p470028</link>
