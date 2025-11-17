@@ -7,10 +7,58 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>17 Nov 25 11:00 -0800</lastBuildDate>
+    <lastBuildDate>17 Nov 25 15:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: Issue 1 questions</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470204#p470204</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470204#p470204</guid>
+    </item>    <item>
+      <title>32-bit acorn software: classic games • Re: Ricky dangerous arc</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470203#p470203</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470203#p470203</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 RTC Frozen when Powered Off</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470202#p470202</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470202#p470202</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Pace 5.25&#38;quot; Single floppy drive - stopped spinning</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470200#p470200</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470200#p470200</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 RTC Frozen when Powered Off</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470199#p470199</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470199#p470199</guid>
+    </item>    <item>
+      <title>32-bit acorn software: classic games • Re: Ricky dangerous arc</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470196#p470196</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470196#p470196</guid>
+    </item>    <item>
+      <title>acorn &#38;amp; bbc micro user group (abug) events • Re: SAVE THE DATE : ABUG South, March 13-15, 2026.</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470195#p470195</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470195#p470195</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Plus One suddenly died</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470193#p470193</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470193#p470193</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Plus One suddenly died</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470192#p470192</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470192#p470192</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: A3000 RTC Frozen when Powered Off</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470191#p470191</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470191#p470191</guid>
+    </item>    <item>
+      <title>Developers’ fireside chat – 22nd November</title>
+      <link>https://www.riscository.com/2025/developers-fireside-chat-22nd-november/</link>
+      <description>
+        <![CDATA[The next friendly fireside chat for people interested in RISC OS software development will take place at 7:30pm on Saturday, 22nd November. Taking place online via the Zoom video conferencing service, these meetings are intended as an informal way of allowing RISC OS programmers, and anyone interested in the subject, to get together online to discuss relevant matters. There is no set agenda for these online meetings, and instead the discussion is steered by what people want to talk about. People are free to ask questions or bring up (and&#8230;]]>
+      </description>
+      <source:markdown>The next friendly fireside chat for people interested in RISC OS software development will take place at 7:30pm on Saturday, 22nd November. Taking place online via the Zoom video conferencing service, these meetings are intended as an informal way of allowing RISC OS programmers, and anyone interested in the subject, to get together online to discuss relevant matters. There is no set agenda for these online meetings, and instead the discussion is steered by what people want to talk about. People are free to ask questions or bring up (and…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10802</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Plus One suddenly died</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470171#p470171</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470171#p470171</guid>
@@ -621,6 +669,22 @@ This is why KeyPress must be interpreted in the current Alphabet.
       <source:markdown>I bought a cheap webcam a few months back. I thought I’d look at its audio characteristics. The microphone outputs linear PCM at any of four sample rates: 16 kHz, 24 hHz, 32 kHz and 48 kHz.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20123:159905</guid>
     </item>    <item>
+      <title>Hospital Tablets</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20119</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Can’t make out if Hospital WFi would let you log into Riscosopen etc</p>
+        </blockquote>
+        <p>Standard <span class="caps">HTTPS</span> connection, no problem<sup id="fnr1"><a href="#fn1">1</a></sup>. Not even <span class="caps">HSTS</span> on that to cause problems on a setup where they do things through an inspecting proxy.</p>
+        <p id="fn1"><a href="#fnr1"><sup>1</sup></a> <small> There&#8217;s one Trust that covers the hospitals of two UK population centres, plus a collection of health centres etc. where I&#8217;m sure there is no impediment at all.</p>]]>
+      </description>
+      <source:markdown>&#62; Can’t make out if Hospital WFi would let you log into Riscosopen etc
+
+Standard HTTPS connection, no problem[1](#fn1). Not even HSTS on that to cause problems on a setup where they do things through an inspecting proxy.
+
+[1](#fnr1) There’s one Trust that covers the hospitals of two UK population centres, plus a collection of health centres etc. where I’m sure there is no impediment at all.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20119:159904</guid>
+    </item>    <item>
       <title>8-bit acorn hardware • Re: Fault finding index</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470081#p470081</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470081#p470081</guid>
@@ -670,38 +734,6 @@ Summary info on the [ROAST](https://www.vermilionsands.uk/roast/) site , or see 
       <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Five - Night Ninja</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470076#p470076</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470076#p470076</guid>
-    </item>    <item>
-      <title>Hospital Tablets</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20119</link>
-      <description>
-        <![CDATA[<p>Thank you all &#8211; for the help over the years.</p>
-        <p><span class="caps">VPN</span> is a bit above me.</p>
-        <p>The Samsung 9in Tablet looks good &#8211; a sim version!<br />
-        Can&#8217;t make out if Hospital WFi would let you log into Riscosopen etc</p>
-        <p>A <span class="caps">PDF</span> reader would be nice {ie one that outputs sound}</p>
-        <p>A Text Editor.</p>
-        <p>The trick of using a Pi with a Tab interesting:-)</p>
-        <p>A Pine64 Tablet with keyboard &#8211; I wonder if Linux RO would work?</p>
-        <p>[Edit]</p>]]>
-      </description>
-      <source:markdown>Thank you all – for the help over the years.
-
-VPN is a bit above me.
-
-The Samsung 9in Tablet looks good – a sim version!
-
-Can’t make out if Hospital WFi would let you log into Riscosopen etc
-
-A PDF reader would be nice {ie one that outputs sound}
-
-A Text Editor.
-
-The trick of using a Pi with a Tab interesting:-)
-
-A Pine64 Tablet with keyboard – I wonder if Linux RO would work?
-
-\[Edit\]</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20119:159902</guid>
     </item>    <item>
       <title>miscellaneous new bbc and electron games • Re: Atari Missile Command</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470075#p470075</link>
