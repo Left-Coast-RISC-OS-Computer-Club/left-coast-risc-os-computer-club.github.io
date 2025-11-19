@@ -7,10 +7,64 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>19 Nov 25 07:00 -0800</lastBuildDate>
+    <lastBuildDate>19 Nov 25 13:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>software &#38;amp; utilities for the pc, mac or unix • Re: Disc Image Manager</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470349#p470349</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470349#p470349</guid>
+    </item>    <item>
+      <title>communications • Re: the Night Owl BBS *WED*</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470348#p470348</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470348#p470348</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Hello (again?)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470347#p470347</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470347#p470347</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Five - Night Ninja</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470346#p470346</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470346#p470346</guid>
+    </item>    <item>
+      <title>32-bit acorn software: classic games • Re: Ricky dangerous arc</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470345#p470345</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470345#p470345</guid>
+    </item>    <item>
+      <title>32-bit acorn software: classic games • Re: Ricky dangerous arc</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470344#p470344</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470344#p470344</guid>
+    </item>    <item>
+      <title>Introduce Yourself • Re: Hello (again?)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470343#p470343</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470343#p470343</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Pi-based Co-Pro on the cheap - 100MHz 6502 for £10? (now over 400MHz)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470342#p470342</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470342#p470342</guid>
+    </item>    <item>
+      <title>off-topic • Re: The North?  Where does it lie? Where does it not?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470341#p470341</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470341#p470341</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: Chameleon Computers &#38;quot;Whiteboard&#38;quot;</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470340#p470340</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470340#p470340</guid>
+    </item>    <item>
+      <title>Frosted Icon Set for 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20130</link>
+      <description>
+        <![CDATA[<p>Just wanted to let people know i&#8217;m currently in the process of creating a frosted risc os icon set for RO5 to give it a more modern makeover for those that want it<br />
+        here is a sneak peak of the icons so far with added transparency and shading. i&#8217;m looking at also semi transparent textures and icon bar updates too.<br />
+        <img src="https://images2.imgbox.com/4c/c8/wwWx3nLG_o.jpg" alt="" /></p>]]>
+      </description>
+      <source:markdown>Just wanted to let people know i’m currently in the process of creating a frosted risc os icon set for RO5 to give it a more modern makeover for those that want it
+
+here is a sneak peak of the icons so far with added transparency and shading. i’m looking at also semi transparent textures and icon bar updates too.
+
+![](https://images2.imgbox.com/4c/c8/wwWx3nLG_o.jpg)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20130:159959</guid>
+    </item>    <item>
       <title>Coding on RISC OS fireside chat, this Saturday - 22nd Nov.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20129</link>
       <description>
@@ -167,6 +221,23 @@ https://www.youtube.com/watch?v=eeQn\_AJqX54</source:markdown>
       <title>econet and other acorn specific networking • Re: Reprint of &#38;quot;Networking with the BBC Microcomputer&#38;quot; by Rob Napier</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470269#p470269</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470269#p470269</guid>
+    </item>    <item>
+      <title>Talking to USB</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20121</link>
+      <description>
+        <![CDATA[<p>Have tidied up the utilities as below:<br />
+        <img src="https://www.svrsig.org/images/USB-RTC.jpg" alt="" /><br />
+        will refine them and make a better attempt to write them in discrete functions in due course.<br />
+        Meanwhile I have a new computer &#8211; the Hydra &#8211; and am playing with it (and writing a review of it).</p>]]>
+      </description>
+      <source:markdown>Have tidied up the utilities as below:
+
+![](https://www.svrsig.org/images/USB-RTC.jpg)
+
+will refine them and make a better attempt to write them in discrete functions in due course.
+
+Meanwhile I have a new computer – the Hydra – and am playing with it (and writing a review of it).</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20121:159947</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: OpenFlops - The Cheap Open-Source Floppy Emulator for Everyone</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470267#p470267</link>
@@ -346,47 +417,24 @@ Yes, I confirm with Colin’s version available on his site.
 For information: I use it for file transfers from my smart phone via a serial Bluetooth adapter. The transfer works at 460000 Bauds.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20088:159940</guid>
     </item>    <item>
-      <title>Titanium pci scsi</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20106</link>
-      <description>
-        <![CDATA[<p>Good morning,<br />
-        two questions:<br />
-        1. Is the driver for the serial/parallel PCIe card publicly available? And if yes &#8230;<br />
-        2. Which card(s) are supported? Could really make use of a parallel card for my Titanium :-)<br />
-        With kind regards,<br />
-        Egon</p>]]>
-      </description>
-      <source:markdown>Good morning,
-
-two questions:
-
-1\. Is the driver for the serial/parallel PCIe card publicly available? And if yes …
-
-2\. Which card(s) are supported? Could really make use of a parallel card for my Titanium :-)
-
-With kind regards,
-
-Egon</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20106:159936</guid>
-    </item>    <item>
       <title>Pyromaniac Evolution at ROUGOL, Mon 17th Nov 2025</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20113</link>
       <description>
-        <![CDATA[<p>Thanks for a super talk, Gerph :)  It&#8217;s great to see all the progress that&#8217;s been made.  Also thanks to Bryan for organizing things.</p>
-        <p>Do you have the resources link that you mentioned in the talk for the materials?</p>]]>
+        <![CDATA[<p>It was one of the best talks in a long time, very enjoyable and thank you gerph for all the hard work, its very impressive!</p>]]>
       </description>
-      <source:markdown>Thanks for a super talk, Gerph :) It’s great to see all the progress that’s been made. Also thanks to Bryan for organizing things.
-
-Do you have the resources link that you mentioned in the talk for the materials?</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20113:159935</guid>
+      <source:markdown>It was one of the best talks in a long time, very enjoyable and thank you gerph for all the hard work, its very impressive!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20113:159938</guid>
     </item>    <item>
-      <title>Talking to USB</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20121</link>
+      <title>Titanium pci scsi</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20106</link>
       <description>
-        <![CDATA[<p>Oh! Just to make it complicated, when you do a <span class="caps">CTRL</span>-Break on the Titanium the power to the <span class="caps">USB</span> socket is momentarily cut off so the <span class="caps">USB</span>-<span class="caps">RTC</span> device (which does not yet have a battery fitted) resets itself to time zero. Clearly I need to fit a battery!</p>]]>
+        <![CDATA[<p>the only cards that are supported are the ones from elesar as far as i know and sadly the driver is only with purchase of the cards<br />
+        <a href="http://shop.elesar.co.uk/index.php?route=product/product&amp;path=20_46&amp;product_id=65">http://shop.elesar.co.uk/index.php?route=product/produ…</a></p>]]>
       </description>
-      <source:markdown>Oh! Just to make it complicated, when you do a CTRL-Break on the Titanium the power to the USB socket is momentarily cut off so the USB-RTC device (which does not yet have a battery fitted) resets itself to time zero. Clearly I need to fit a battery!</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20121:159934</guid>
+      <source:markdown>the only cards that are supported are the ones from elesar as far as i know and sadly the driver is only with purchase of the cards
+
+[http://shop.elesar.co.uk/index.php?route=product/produ…](http://shop.elesar.co.uk/index.php?route=product/product&#38;path=20_46&#38;product_id=65)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20106:159937</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: Issue 1 questions</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470204#p470204</link>
