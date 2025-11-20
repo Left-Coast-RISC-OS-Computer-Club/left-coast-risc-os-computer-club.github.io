@@ -7,10 +7,142 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>20 Nov 25 07:00 -0800</lastBuildDate>
+    <lastBuildDate>20 Nov 25 13:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/riscosopen.bsky.social/post/3m63jxit6pc2m</link>
+      <description>
+        <![CDATA[Fortran 77 is here, just a couple of years behind schedule!
+        https://www.riscosopen.org/news/articles/2025/11/20/episode-iv-a-new-hope]]>
+      </description>
+      <source:markdown>Fortran 77 is here, just a couple of years behind schedule!
+https://www.riscosopen.org/news/articles/2025/11/20/episode-iv-a-new-hope</source:markdown>
+      <guid>cid://at://did:plc:e3k7odasqhsg6xfgfkvovpsb/app.bsky.feed.post/3m63jxit6pc2m</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m63jp62wkc2j</link>
+      <description>
+        <![CDATA["The driver was stopped and given words of advice about the traffic offences he was committing and also reminded about the seriousness of celebrating Christmas before December" 🎄
+        https://www.bbc.co.uk/news/articles/ckgkgy8749xo.amp]]>
+      </description>
+      <source:markdown>&#34;The driver was stopped and given words of advice about the traffic offences he was committing and also reminded about the seriousness of celebrating Christmas before December&#34; 🎄
+https://www.bbc.co.uk/news/articles/ckgkgy8749xo.amp</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m63jp62wkc2j</guid>
+    </item>    <item>
+      <title>Episode IV - A New Hope</title>
+      <link>https://www.riscosopen.org/news/articles/2025/11/20/episode-iv-a-new-hope</link>
+      <description>
+        <![CDATA[<p>Not only did 1977 see the release of space opera <a href="https://www.disneyplus.com/en-gb/welcome/star-wars">Star Wars &#8211; A New Hope</a>, but it was also a year famous for the release of Fortran 77, the follow up to Fortran IV and &#8217;66.</p>
+        <h3>Your compliance is imperative</h3>
+        <p>Fortran is one of a family of <em>imperative</em> programming languages, and was originally short for <b>For</b>mula <b>Tran</b>slation. Finding applications in scientific fields such as modelling of weather systems, molecular structure, and of course calculating star ship propulsion vectors.</p>
+        <p><img src="/images/risc_os_open/xwing.jpg" title="Wireframe X-Wing" alt="Wireframe X-Wing" /><br />
+        <small>Image available as wallpaper from <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1941346742">r33v01v3</a> via Steam</small></p>
+        <p>As described in our <a href="/content/documents/dde-faq"><span class="caps">FAQ</span></a> the imperative languages are in the class of languages that the Norcroft compiler supports, and we&#8217;ve long known from odd scraps of evidence such as the <a href="http://www.computinghistory.org.uk/det/34486/Acorn-RISC-iX-User-Guide/"><span class="caps">RISC</span> iX User Guide</a> that there was a Fortran version at one time which went alongside the C language we&#8217;re so much more familiar with.</p>
+        <p>With help from Codemist a search of their archives managed to locate a partial copy last worked on in the 1990s on a backup tape stowed inside an old R2-unit.</p>
+        <p>Joining the Fortran front end &#8211; the part of the compiler which deals with language specifics &#8211; with the rest of the contemporary tools creates the <code>f77</code> compiler. In addition, a brand new 200+ page manual describes its use in detail, along with <span class="caps">ANSI</span> runtime library.</p>]]>
+      </description>
+      <source:markdown>Not only did 1977 see the release of space opera [Star Wars – A New Hope](https://www.disneyplus.com/en-gb/welcome/star-wars), but it was also a year famous for the release of Fortran 77, the follow up to Fortran IV and ’66.
+
+### Your compliance is imperative
+
+Fortran is one of a family of _imperative_ programming languages, and was originally short for **For** mula **Tran** slation. Finding applications in scientific fields such as modelling of weather systems, molecular structure, and of course calculating star ship propulsion vectors.
+
+![Wireframe X-Wing](/images/risc_os_open/xwing.jpg)
+
+Image available as wallpaper from [r33v01v3](https://steamcommunity.com/sharedfiles/filedetails/?id=1941346742) via Steam
+
+As described in our [FAQ](/content/documents/dde-faq) the imperative languages are in the class of languages that the Norcroft compiler supports, and we’ve long known from odd scraps of evidence such as the [RISC iX User Guide](http://www.computinghistory.org.uk/det/34486/Acorn-RISC-iX-User-Guide/) that there was a Fortran version at one time which went alongside the C language we’re so much more familiar with.
+
+With help from Codemist a search of their archives managed to locate a partial copy last worked on in the 1990s on a backup tape stowed inside an old R2-unit.
+
+Joining the Fortran front end – the part of the compiler which deals with language specifics – with the rest of the contemporary tools creates the `f77` compiler. In addition, a brand new 200+ page manual describes its use in detail, along with ANSI runtime library.</source:markdown>
+      <guid>cid://urn:uuid:ae0fa91d-adb3-4c3e-a87d-f38464b3f4fd</guid>
+    </item>    <item>
+      <title>off-topic • Re: The North?  Where does it lie? Where does it not?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470408#p470408</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470408#p470408</guid>
+    </item>    <item>
+      <title>32Bit AKA Roms</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20124</link>
+      <description>
+        <![CDATA[<p>Martin &#8211; I&#8217;ve seen that, so it&#8217;s arrived via the <span class="caps">ROOL</span> e-mail distribution list. I&#8217;m checking for you and will get back to you here once I have some info, so that the response is available to a wider audience.</p>]]>
+      </description>
+      <source:markdown>Martin – I’ve seen that, so it’s arrived via the ROOL e-mail distribution list. I’m checking for you and will get back to you here once I have some info, so that the response is available to a wider audience.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20124:160000</guid>
+    </item>    <item>
+      <title>software &#38;amp; utilities for the pc, mac or unix • Re: Repton Map Creator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470407#p470407</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470407#p470407</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m63emtkltk2i</link>
+      <description>
+        <![CDATA[I think we all know that if Beethoven had had a home micro, it would have been the Beeb 😉]]>
+      </description>
+      <source:markdown>I think we all know that if Beethoven had had a home micro, it would have been the Beeb 😉</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m63emtkltk2i</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic games • Re: Repton Infinity Decompiler</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470406#p470406</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470406#p470406</guid>
+    </item>    <item>
+      <title>off-topic • Re: The North?  Where does it lie? Where does it not?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470405#p470405</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470405#p470405</guid>
+    </item>    <item>
+      <title>software &#38;amp; utilities for the pc, mac or unix • Re: Disc Image Manager</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470404#p470404</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470404#p470404</guid>
+    </item>    <item>
+      <title>off-topic • Re: The North?  Where does it lie? Where does it not?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470403#p470403</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470403#p470403</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m63asb3hjs27</link>
+      <description>
+        <![CDATA[...arriving next Tuesday! 🤩
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>...arriving next Tuesday! 🤩
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m63asb3hjs27</guid>
+    </item>    <item>
+      <title>communications • Re: GEM Terminal (80186 Co-Pro)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470402#p470402</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470402#p470402</guid>
+    </item>    <item>
+      <title>off-topic • Re: The North?  Where does it lie? Where does it not?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470401#p470401</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470401#p470401</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: A5000 new owner questions</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470400#p470400</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470400#p470400</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: Amiga BBC emulators</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470399#p470399</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470399#p470399</guid>
+    </item>    <item>
+      <title>The IconBar advent calendar needs your help</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20131</link>
+      <description>
+        <![CDATA[<p>Another year of the same stuff then&#8230;.</p>]]>
+      </description>
+      <source:markdown>Another year of the same stuff then….</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20131:159981</guid>
+    </item>    <item>
+      <title>London Show, Sat 25th October 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
+      <description>
+        <![CDATA[<p>I rest my case. why do you bother commenting if you hate it so much.<br />
+        and also why are you here?</p>]]>
+      </description>
+      <source:markdown>I rest my case. why do you bother commenting if you hate it so much.
+
+and also why are you here?</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20020:159980</guid>
+    </item>    <item>
       <title>econet and other acorn specific networking • Re: ESP-32 Econet to WiFi bridge</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470391#p470391</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470391#p470391</guid>
@@ -54,14 +186,6 @@ For the last two years, TIB has run an advent calendar over the festive season. 
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470385#p470385</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470385#p470385</guid>
     </item>    <item>
-      <title>32Bit AKA Roms</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20124</link>
-      <description>
-        <![CDATA[<p>Right so i ordered a <span class="caps">ROM</span> 11 Days ago, no email to confirm, no replies to emails to steve. no idea what is happening if its been posted out of stock? nothing. anyone else i can contact to try and find an update on an order?</p>]]>
-      </description>
-      <source:markdown>Right so i ordered a ROM 11 Days ago, no email to confirm, no replies to emails to steve. no idea what is happening if its been posted out of stock? nothing. anyone else i can contact to try and find an update on an order?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20124:159973</guid>
-    </item>    <item>
       <title>32-bit acorn hardware • Re: New ARM machines</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470384#p470384</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470384#p470384</guid>
@@ -91,20 +215,6 @@ For the last two years, TIB has run an advent calendar over the festive season. 
       </description>
       <source:markdown>Saw an ad from JetBrains on the tube that read &#34;stop replacing AI devs with humans!&#34; and now I hate JetBrains.</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m62hqiftyc2n</guid>
-    </item>    <item>
-      <title>The IconBar advent calendar needs your help</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20131</link>
-      <description>
-        <![CDATA[<p>For the last 2 years, <span class="caps">TIB</span> has run an advent calender over the festive season. And we are looking for contributions again to make it 3 in a row&#8230;.</p>
-        <p>It&#8217;s your chance to show us your desktop, pet project, new hardware, book, promote some new hardware/software, tease us, etc as a page on our advent calendar. If you have a secret 128-bit port of <span class="caps">RISC</span> OS (let&#8217;s skip 64 and get ahead of the game), it&#8217;s your chance to tell the world!</p>
-        <p>Full details are at <a href="https://www.iconbar.com/articles/Announcing_the_TIB_2025_Advent_Calendar/index2259.html">https://www.iconbar.com/articles/Announcing_the_TIB_20…</a></p>]]>
-      </description>
-      <source:markdown>For the last 2 years, TIB has run an advent calender over the festive season. And we are looking for contributions again to make it 3 in a row….
-
-It’s your chance to show us your desktop, pet project, new hardware, book, promote some new hardware/software, tease us, etc as a page on our advent calendar. If you have a secret 128-bit port of RISC OS (let’s skip 64 and get ahead of the game), it’s your chance to tell the world!
-
-Full details are at [https://www.iconbar.com/articles/Announcing\_the\_TIB\_20…](https://www.iconbar.com/articles/Announcing_the_TIB_2025_Advent_Calendar/index2259.html)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20131:159966</guid>
     </item>    <item>
       <title>Announcing the TIB 2025 Advent Calendar</title>
       <link>http://www.iconbar.com/comments/rss/news2259.html</link>
@@ -289,14 +399,6 @@ https://laptopwithlinux.com</source:markdown>
       <title>8-bit acorn hardware • Re: Plus One suddenly died</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470289#p470289</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470289#p470289</guid>
-    </item>    <item>
-      <title>London Show, Sat 25th October 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
-      <description>
-        <![CDATA[<p>Its really sad you feel that way, but these events are always best to go to in person as the videos on youtube don&#8217;t do it justice.</p>]]>
-      </description>
-      <source:markdown>Its really sad you feel that way, but these events are always best to go to in person as the videos on youtube don’t do it justice.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20020:159951</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m5whebjgw22l</link>
       <description>
