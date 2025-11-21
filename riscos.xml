@@ -7,10 +7,88 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>21 Nov 25 07:00 -0800</lastBuildDate>
+    <lastBuildDate>21 Nov 25 13:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: BBC Micro Weird Display Corruption</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470469#p470469</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470469#p470469</guid>
+    </item>    <item>
+      <title>8-bit acorn software: games - high scores • Re: High Score Challenge - S26 - Round Five - Night Ninja</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470468#p470468</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470468#p470468</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m65zys4qt22m</link>
+      <description>
+        <![CDATA[My Polestar was perfectly happy crawling along behind a motorbike in traffic, but when the bike stopped at the lights, the cruise control switched off complaining "No lead car"...
+        
+        Which I think is species-ist or something? So not cool, car. Shame on you. Motorbycyclists can't help being like that.]]>
+      </description>
+      <source:markdown>My Polestar was perfectly happy crawling along behind a motorbike in traffic, but when the bike stopped at the lights, the cruise control switched off complaining &#34;No lead car&#34;...
+
+Which I think is species-ist or something? So not cool, car. Shame on you. Motorbycyclists can&#39;t help being like that.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m65zys4qt22m</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Exploring SKitphrati 15mhz Monitor</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470467#p470467</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470467#p470467</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: Amiga BBC emulators</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470466#p470466</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470466#p470466</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Replacement A3000 motherboards</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470464#p470464</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470464#p470464</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: Amiga BBC emulators</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470463#p470463</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470463#p470463</guid>
+    </item>    <item>
+      <title>communications • Re: the Night Owl BBS *FRI*</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470462#p470462</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470462#p470462</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Replacement A3000 motherboards</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470461#p470461</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470461#p470461</guid>
+    </item>    <item>
+      <title>Microfunding for small projects</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20134</link>
+      <description>
+        <![CDATA[<p>I was wondering about the feasibility of different funding mechanisms for small <span class="caps">RISC</span> OS projects. I&#8217;ve been tinkering with a few things for a while, but lack of time means they never get finished. Obviously <span class="caps">RISC</span> OS doesn&#8217;t really have a commercial market for all but a few big apps, but equally finding time to work on things entirely for free when there are so many other calls on time is difficult.</p>
+        <p>Here&#8217;s one example: a desktop theme called Clarity.</p>
+        <p><img src="http://lym.iconbar.com/screenshots/clarity.png" alt="" /></p>
+        <p>Things like this are never going to released on a paid-for basis, but they are really time consuming to work on and so tend to languish incomplete when real life gets in the way. Even a pretty modest mini-Bounty (say, a few hundred quid) might provide the motivation to get things finished off and released to the community. Possibly this could work through the current <span class="caps">ROOL</span> Bounty system, but I was thinking more of Kickstarter or similar. I don&#8217;t know if that would work for very low cost projects, and I also don&#8217;t know if there&#8217;d be any enthusiasm (or enough remaining users!) to get something like this off the ground.</p>
+        <p>Any thoughts?</p>]]>
+      </description>
+      <source:markdown>I was wondering about the feasibility of different funding mechanisms for small RISC OS projects. I’ve been tinkering with a few things for a while, but lack of time means they never get finished. Obviously RISC OS doesn’t really have a commercial market for all but a few big apps, but equally finding time to work on things entirely for free when there are so many other calls on time is difficult.
+
+Here’s one example: a desktop theme called Clarity.
+
+![](http://lym.iconbar.com/screenshots/clarity.png)
+
+Things like this are never going to released on a paid-for basis, but they are really time consuming to work on and so tend to languish incomplete when real life gets in the way. Even a pretty modest mini-Bounty (say, a few hundred quid) might provide the motivation to get things finished off and released to the community. Possibly this could work through the current ROOL Bounty system, but I was thinking more of Kickstarter or similar. I don’t know if that would work for very low cost projects, and I also don’t know if there’d be any enthusiasm (or enough remaining users!) to get something like this off the ground.
+
+Any thoughts?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20134:160026</guid>
+    </item>    <item>
+      <title>8-bit acorn emulators • Re: Amiga BBC emulators</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470459#p470459</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470459#p470459</guid>
+    </item>    <item>
+      <title>off-topic • Re: The North?  Where does it lie? Where does it not?</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470458#p470458</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470458#p470458</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m65kvklomk2v</link>
+      <description>
+        <![CDATA[Tonight's the night! #Telekon #GaryNuman]]>
+      </description>
+      <source:markdown>Tonight&#39;s the night! #Telekon #GaryNuman</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m65kvklomk2v</guid>
+    </item>    <item>
       <title>off-topic • Re: The North?  Where does it lie? Where does it not?</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470440#p470440</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470440#p470440</guid>
@@ -83,6 +161,14 @@ It definitely feels like the bleak mid-winter. So why not have a cosy Saturday n
       </description>
       <source:markdown>Magic smoke escape route.</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m654w6ggo22m</guid>
+    </item>    <item>
+      <title>The IconBar advent calendar needs your help</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20131</link>
+      <description>
+        <![CDATA[<p>If it runs <span class="caps">RISC</span> OS, we&#8217;d love to feature it on <span class="caps">TIB</span> for our adent calendar!</p>]]>
+      </description>
+      <source:markdown>If it runs RISC OS, we’d love to feature it on TIB for our adent calendar!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20131:160017</guid>
     </item>    <item>
       <link>https://bsky.app/profile/riscos.bsky.social/post/3m64v65qdrc2v</link>
       <description>
@@ -197,18 +283,22 @@ Cheers, Fred.</source:markdown>
       <title>London Show, Sat 25th October 2025</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20020</link>
       <description>
-        <![CDATA[<blockquote>
-        <p>Maybe we should all tone it down a bit and take such discussions to Aldershot. Bickering on the open forums does nothing to retain any new users and is likely one of the causes of previous users leaving the scene – this reached a crescendo some years ago – things have improved for the better more recently – let’s keep it friendly in here.</p>
-        </blockquote>
-        <p>What would benefit this forum massively is active moderation to remove things that are veering wildly off topic into a different channel and telling people, on the down low, to stop being arses rather than leaving it up to the userbase to point it out&#8230; Anyway, a boy can dream&#8230;</p>
-        <p>&#8220;This is how the world ends, in a stream of pointless bickering&#8230;&#8221;</p>]]>
+        <![CDATA[<p>No i think its been misunderstood, what im doing is seperate from anyone else, i wanted to do interviews at the London Show and record, but i was put off, then i was approached by <span class="caps">ROD</span> which indicated its something they wanted for north so i said i would look into it. Whoever is handling the theatre talks will be doing the same again.</p>
+        <p>But judging by the way its being presented i say fk it, i won&#8217;t bother due to the hostile nature of certain indivduals, it really isnt worth it.<br />
+        No one has said anything about taking over anyones job, Not that i knew that certain individuals had roles reserved to themselves.</p>
+        <p>Anyway crack on its clear the shows are a gathering party for the regulars and us newbies will have to just stay on the sideline<br />
+        i wont waste my time or money going to any more shows, i knew this in 2008 and nothing has changed since. Plus all i&#8217;ve had today is people gatecrashing my posts with abuse.</p>]]>
       </description>
-      <source:markdown>&#62; Maybe we should all tone it down a bit and take such discussions to Aldershot. Bickering on the open forums does nothing to retain any new users and is likely one of the causes of previous users leaving the scene – this reached a crescendo some years ago – things have improved for the better more recently – let’s keep it friendly in here.
+      <source:markdown>No i think its been misunderstood, what im doing is seperate from anyone else, i wanted to do interviews at the London Show and record, but i was put off, then i was approached by ROD which indicated its something they wanted for north so i said i would look into it. Whoever is handling the theatre talks will be doing the same again.
 
-What would benefit this forum massively is active moderation to remove things that are veering wildly off topic into a different channel and telling people, on the down low, to stop being arses rather than leaving it up to the userbase to point it out… Anyway, a boy can dream…
+But judging by the way its being presented i say fk it, i won’t bother due to the hostile nature of certain indivduals, it really isnt worth it.
 
-“This is how the world ends, in a stream of pointless bickering…”</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20020:160008</guid>
+No one has said anything about taking over anyones job, Not that i knew that certain individuals had roles reserved to themselves.
+
+Anyway crack on its clear the shows are a gathering party for the regulars and us newbies will have to just stay on the sideline
+
+i wont waste my time or money going to any more shows, i knew this in 2008 and nothing has changed since. Plus all i’ve had today is people gatecrashing my posts with abuse.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20020:160010</guid>
     </item>    <item>
       <link>https://bsky.app/profile/riscosopen.bsky.social/post/3m63jxit6pc2m</link>
       <description>
@@ -268,14 +358,6 @@ Joining the Fortran front end – the part of the compiler which deals with lang
       </description>
       <source:markdown>Martin – I’ve seen that, so it’s arrived via the ROOL e-mail distribution list. I’m checking for you and will get back to you here once I have some info, so that the response is available to a wider audience.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20124:160000</guid>
-    </item>    <item>
-      <title>The IconBar advent calendar needs your help</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20131</link>
-      <description>
-        <![CDATA[<p>I plan to live forever (or until I get bored &#8211; whichever comes first).</p>]]>
-      </description>
-      <source:markdown>I plan to live forever (or until I get bored – whichever comes first).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20131:159998</guid>
     </item>    <item>
       <title>software &#38;amp; utilities for the pc, mac or unix • Re: Repton Map Creator</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470407#p470407</link>
