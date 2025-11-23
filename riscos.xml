@@ -7,10 +7,118 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>23 Nov 25 07:00 -0800</lastBuildDate>
+    <lastBuildDate>23 Nov 25 13:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn software: other • Re: Basic Clock</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470674#p470674</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470674#p470674</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Retrobright A3010 with 3% peroxide and UV lamp</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470673#p470673</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470673#p470673</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Sanity Check of TAK in ARM1 Assembler</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470672#p470672</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470672#p470672</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Basic Clock</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470671#p470671</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470671#p470671</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Retrobright A3010 with 3% peroxide and UV lamp</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470670#p470670</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470670#p470670</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: New Hardware: 6502 Cartridge Co-Processor (Development Thread)</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470669#p470669</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470669#p470669</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Basic Clock</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470668#p470668</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470668#p470668</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Basic Clock</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470667#p470667</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470667#p470667</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Basic Clock</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470666#p470666</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470666#p470666</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Basic Clock</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470665#p470665</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470665#p470665</guid>
+    </item>    <item>
+      <title>Quick StrongED question</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20140</link>
+      <description>
+        <![CDATA[<p>In the <span class="caps">BASIC</span> mode, is it possible to stop StrongED capitalising keywords in <span class="caps">REM</span> statements? (<span class="caps">FOR</span>, <span class="caps">AND</span>, TO etc.) It&#8217;s mildly annoying. Unlike StrongED itself, which is otherwise wonderful :-)</p>
+        <p>I&#8217;ve looked through the configuration files but can&#8217;t see exactly where or how this is being done.</p>
+        <p>SE 4.70a15, RO 5.31</p>]]>
+      </description>
+      <source:markdown>In the BASIC mode, is it possible to stop StrongED capitalising keywords in REM statements? (FOR, AND, TO etc.) It’s mildly annoying. Unlike StrongED itself, which is otherwise wonderful :-)
+
+I’ve looked through the configuration files but can’t see exactly where or how this is being done.
+
+SE 4.70a15, RO 5.31</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20140:160077</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m6cnbpsazc2f</link>
+      <description>
+        <![CDATA[One of the best, original home computer games. Ported to so many different computers. Made by A&F Software, the name taken from the initials of the company's founders, Doug Anderson and Mike Fitzgerald]]>
+      </description>
+      <source:markdown>One of the best, original home computer games. Ported to so many different computers. Made by A&#38;F Software, the name taken from the initials of the company&#39;s founders, Doug Anderson and Mike Fitzgerald</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m6cnbpsazc2f</guid>
+    </item>    <item>
+      <title>Page breaks in ovpro</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20139</link>
+      <description>
+        <![CDATA[<p>Hi</p>
+        <p>I am trying to find out how I can do page breaks in Ovation Pro. Maybe someone can tell me!</p>]]>
+      </description>
+      <source:markdown>Hi
+
+I am trying to find out how I can do page breaks in Ovation Pro. Maybe someone can tell me!</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20139:160072</guid>
+    </item>    <item>
+      <title>Modern Frosted Theme</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
+      <description>
+        <![CDATA[<p>I&#8217;m working on a slightly different approach to a more modern theme, using shading, transparency and higher <span class="caps">DPI</span> icons<br />
+        I realised that work just doesn&#8217;t stop with the wimp, so adding the common apps for a redesign is also included.<br />
+        the template for the new theme is based on Ursula/Select&#8217;s Icon Base</p>
+        <p>The current Risc OS themes don&#8217;t blend very well with the Pinboard and Windows and tend to leave a white outline<br />
+        around the icons, by using alpha and higher <span class="caps">DPI</span> and shading we can get a much cleaner icon.<br />
+        Hopefully much of this will be fixed in 5.32 with ROOL&#8217;s attempt to fix the theming issue once and for all!</p>
+        
+        <p>Will be available as a free download at the end of December.</p>
+        <p><img src="https://images2.imgbox.com/e1/5b/81uUxZ73_o.jpg" alt="" /></p>
+        <p>Don&#8217;t forget to check out the Clarity Theme too! <a href="https://www.riscosopen.org/forum/forums/1/topics/20137">https://www.riscosopen.org/forum/forums/1/topics/20137</a><br />
+        a new take on the more classic morris style set with a fresh facelift</p>]]>
+      </description>
+      <source:markdown>I’m working on a slightly different approach to a more modern theme, using shading, transparency and higher DPI icons
+
+I realised that work just doesn’t stop with the wimp, so adding the common apps for a redesign is also included.
+
+the template for the new theme is based on Ursula/Select’s Icon Base
+
+The current Risc OS themes don’t blend very well with the Pinboard and Windows and tend to leave a white outline
+
+around the icons, by using alpha and higher DPI and shading we can get a much cleaner icon.
+
+Hopefully much of this will be fixed in 5.32 with ROOL’s attempt to fix the theming issue once and for all!
+
+Will be available as a free download at the end of December.
+
+![](https://images2.imgbox.com/e1/5b/81uUxZ73_o.jpg)
+
+Don’t forget to check out the Clarity Theme too! [https://www.riscosopen.org/forum/forums/1/topics/20137](https://www.riscosopen.org/forum/forums/1/topics/20137)
+
+a new take on the more classic morris style set with a fresh facelift</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20138:160071</guid>
+    </item>    <item>
       <title>32-bit acorn software: other • Re: A5000 new owner questions</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470631#p470631</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470631#p470631</guid>
@@ -103,6 +211,32 @@ There’s a ko-fi page [here](https://ko-fi.com/littleyellowmoon) with more deta
       <source:markdown>Ref Pine64 can this Tablet run Linux RO – if so is Andrew having a look at one?</source:markdown>
       <guid>cid://www.riscosopen.org:5:20136:160064</guid>
     </item>    <item>
+      <title>StrongED 4.70a19 released</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20132</link>
+      <description>
+        <![CDATA[<blockquote>X RMKill DeepKeys<br />
+        X RMKill StrongKeys<br />
+        RMEnsure StrongKeys  1.02 RMLoad &lt;StrongED$Dir&gt;.Tools.StrongKeys</blockquote>
+        <p>Thanks for that! I&#8217;d only killed DeepKeys but not StrongKeys. With both killed I do see the error.</p>
+        <p>The initialisation code of StrongKeys checks for some DeepKeys functionality in a way that needs DeepKeys to be present. Thing is I ended up not using that functionality so all that&#8217;s needed is to check for DeepKeys being loaded.</p>
+        <p>In fact I&#8217;d already done a version that does just that, and then forgot about it. :-(<br />
+        Oh well, at least this one is easy to fix.</p>]]>
+      </description>
+      <source:markdown>&#62; X RMKill DeepKeys
+&#62;
+&#62; X RMKill StrongKeys
+&#62;
+&#62; RMEnsure StrongKeys 1.02 RMLoad &#60;StrongED$Dir&#62;.Tools.StrongKeys
+
+Thanks for that! I’d only killed DeepKeys but not StrongKeys. With both killed I do see the error.
+
+The initialisation code of StrongKeys checks for some DeepKeys functionality in a way that needs DeepKeys to be present. Thing is I ended up not using that functionality so all that’s needed is to check for DeepKeys being loaded.
+
+In fact I’d already done a version that does just that, and then forgot about it. :-(
+
+Oh well, at least this one is easy to fix.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20132:160061</guid>
+    </item>    <item>
       <title>econet and other acorn specific networking • Re: ESP-32 Econet to WiFi bridge</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470559#p470559</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470559#p470559</guid>
@@ -110,6 +244,14 @@ There’s a ko-fi page [here](https://ko-fi.com/littleyellowmoon) with more deta
       <title>econet and other acorn specific networking • Re: ESP-32 Econet to WiFi bridge</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470558#p470558</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470558#p470558</guid>
+    </item>    <item>
+      <title>Microfunding for small projects</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20134</link>
+      <description>
+        <![CDATA[<p>Yes i agree a better window manager and wimp is what is needed.</p>]]>
+      </description>
+      <source:markdown>Yes i agree a better window manager and wimp is what is needed.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20134:160055</guid>
     </item>    <item>
       <title>32-bit acorn software: other • Re: A5000 new owner questions</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470557#p470557</link>
@@ -165,14 +307,6 @@ There’s a ko-fi page [here](https://ko-fi.com/littleyellowmoon) with more deta
       <source:markdown>The lead-up to November is always a busy time for game developers. You have to get your games on the shop shelves in time for Thanksgiving. If you missed this holiday then you would lose a huge amount of potential sales. Here&#39;s a few of the ones I worked on with incredibly talented teams.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m6a6dgaqus2k</guid>
     </item>    <item>
-      <title>Microfunding for small projects</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20134</link>
-      <description>
-        <![CDATA[<p>OK, this is set up now. I&#8217;ve created a <a href="https://ko-fi.com/littleyellowmoon">page</a> at ko-fi with some details. Would be interested to know what people think. If all goes well, I&#8217;ll shortly add more detail on the theme graphics, and publicise more widely.</p>]]>
-      </description>
-      <source:markdown>OK, this is set up now. I’ve created a [page](https://ko-fi.com/littleyellowmoon) at ko-fi with some details. Would be interested to know what people think. If all goes well, I’ll shortly add more detail on the theme graphics, and publicise more widely.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20134:160048</guid>
-    </item>    <item>
       <title>Looking for old Archive magazines</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20117</link>
       <description>
@@ -203,17 +337,6 @@ There is method in this madness, more later on this ;-)</source:markdown>
       <title>32-bit acorn hardware • Re: Exploring SKitphrati 15mhz Monitor</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470514#p470514</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470514#p470514</guid>
-    </item>    <item>
-      <title>StrongED 4.70a19 released</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20132</link>
-      <description>
-        <![CDATA[<p>i took a video of the problem<br />
-        <a href="https://www.youtube.com/shorts/9vUszuBZQZc">https://www.youtube.com/shorts/9vUszuBZQZc</a></p>]]>
-      </description>
-      <source:markdown>i took a video of the problem
-
-[https://www.youtube.com/shorts/9vUszuBZQZc](https://www.youtube.com/shorts/9vUszuBZQZc)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20132:160044</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: Need help with this MMC Card doo-dah -</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470513#p470513</link>
