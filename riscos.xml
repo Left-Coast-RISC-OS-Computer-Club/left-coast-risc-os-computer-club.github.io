@@ -7,10 +7,58 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>23 Nov 25 13:00 -0800</lastBuildDate>
+    <lastBuildDate>24 Nov 25 07:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: Compact option for beeb MMC</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470728#p470728</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470728#p470728</guid>
+    </item>    <item>
+      <title>8-bit acorn software: other • Re: Basic Clock</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470726#p470726</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470726#p470726</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Sanity Check of TAK in ARM1 Assembler</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470724#p470724</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470724#p470724</guid>
+    </item>    <item>
+      <title>32-bit acorn software: other • Re: Sanity Check of TAK in ARM1 Assembler</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470722#p470722</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470722#p470722</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: ESP-32 Econet to WiFi bridge</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470717#p470717</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470717#p470717</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: ESP-32 Econet to WiFi bridge</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470716#p470716</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470716#p470716</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Retrobright A3010 with 3% peroxide and UV lamp</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470714#p470714</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470714#p470714</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Replacement A3000 motherboards</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470712#p470712</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470712#p470712</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Replacement A3000 motherboards</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470711#p470711</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470711#p470711</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Retrobright A3010 with 3% peroxide and UV lamp</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470710#p470710</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470710#p470710</guid>
+    </item>    <item>
+      <title>Frosted Icon Set for 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20130</link>
+      <description>
+        <![CDATA[<p>This is fantastic &#8211; love it.</p>]]>
+      </description>
+      <source:markdown>This is fantastic – love it.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20130:160083</guid>
+    </item>    <item>
       <title>8-bit acorn software: other • Re: Basic Clock</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470674#p470674</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470674#p470674</guid>
@@ -203,13 +251,24 @@ To see if there’s any enthusiasm for this, I’ve proposed a new theme for the
 There’s a ko-fi page [here](https://ko-fi.com/littleyellowmoon) with more details of the theme, and a way to contribute. Some kind people have already chipped in – many thanks to them. I’ll be adding more info soon, so keep an eye on it if you’re interested in the project.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20137:160068</guid>
     </item>    <item>
+      <title>Microfunding for small projects</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20134</link>
+      <description>
+        <![CDATA[<p>the Wimp replacement you wrote and uploaded no longer can be found, did you pull it or is it hosted somewhere else @Fred?</p>
+        <p><a href="https://www.riscosopen.org/forum/forums/3/topics/123">https://www.riscosopen.org/forum/forums/3/topics/123</a></p>]]>
+      </description>
+      <source:markdown>the Wimp replacement you wrote and uploaded no longer can be found, did you pull it or is it hosted somewhere else @Fred?
+
+[https://www.riscosopen.org/forum/forums/3/topics/123](https://www.riscosopen.org/forum/forums/3/topics/123)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20134:160066</guid>
+    </item>    <item>
       <title>Pine64 Tablet</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20136</link>
       <description>
-        <![CDATA[<p>Ref Pine64 can this Tablet run Linux RO &#8211; if so is Andrew having a look at one?</p>]]>
+        <![CDATA[<p>it can&#8217;t run RO native but will run RO on Linux, but be advised RO on Linux has it&#8217;s issues still and isnt really fully ready to be daily used.</p>]]>
       </description>
-      <source:markdown>Ref Pine64 can this Tablet run Linux RO – if so is Andrew having a look at one?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20136:160064</guid>
+      <source:markdown>it can’t run RO native but will run RO on Linux, but be advised RO on Linux has it’s issues still and isnt really fully ready to be daily used.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20136:160065</guid>
     </item>    <item>
       <title>StrongED 4.70a19 released</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20132</link>
@@ -244,14 +303,6 @@ Oh well, at least this one is easy to fix.</source:markdown>
       <title>econet and other acorn specific networking • Re: ESP-32 Econet to WiFi bridge</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470558#p470558</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470558#p470558</guid>
-    </item>    <item>
-      <title>Microfunding for small projects</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20134</link>
-      <description>
-        <![CDATA[<p>Yes i agree a better window manager and wimp is what is needed.</p>]]>
-      </description>
-      <source:markdown>Yes i agree a better window manager and wimp is what is needed.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20134:160055</guid>
     </item>    <item>
       <title>32-bit acorn software: other • Re: A5000 new owner questions</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470557#p470557</link>
@@ -822,20 +873,6 @@ For the last two years, TIB has run an advent calendar over the festive season. 
       <title>8-bit acorn hardware • Re: Chameleon Computers &#38;quot;Whiteboard&#38;quot;</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470340#p470340</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=470340#p470340</guid>
-    </item>    <item>
-      <title>Frosted Icon Set for 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20130</link>
-      <description>
-        <![CDATA[<p>Just wanted to let people know i&#8217;m currently in the process of creating a frosted risc os icon set for RO5 to give it a more modern makeover for those that want it<br />
-        here is a sneak peak of the icons so far with added transparency and shading. i&#8217;m looking at also semi transparent textures and icon bar updates too.<br />
-        <img src="https://images2.imgbox.com/bd/91/crQ9q6pE_o.jpg" alt="" /></p>]]>
-      </description>
-      <source:markdown>Just wanted to let people know i’m currently in the process of creating a frosted risc os icon set for RO5 to give it a more modern makeover for those that want it
-
-here is a sneak peak of the icons so far with added transparency and shading. i’m looking at also semi transparent textures and icon bar updates too.
-
-![](https://images2.imgbox.com/bd/91/crQ9q6pE_o.jpg)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20130:159959</guid>
     </item>    <item>
       <title>8-bit acorn hardware • Re: OpenFlops - The Cheap Open-Source Floppy Emulator for Everyone</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=470320#p470320</link>
