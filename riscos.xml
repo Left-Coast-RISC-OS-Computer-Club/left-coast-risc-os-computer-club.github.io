@@ -7,10 +7,192 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>01 Dec 25 12:00 -0800</lastBuildDate>
+    <lastBuildDate>02 Dec 25 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.15</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>8-bit acorn hardware • Re: BBC Z80 Torch Communicator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=471384#p471384</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=471384#p471384</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC Z80 Torch Communicator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=471383#p471383</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=471383#p471383</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC Z80 Torch Communicator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=471382#p471382</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=471382#p471382</guid>
+    </item>    <item>
+      <title>communications • Re: the Night Owl BBS *Tues*</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=471381#p471381</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=471381#p471381</guid>
+    </item>    <item>
+      <title>32-bit acorn hardware • Re: Diagnosing a duff SIMM</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=471380#p471380</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=471380#p471380</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: ESP-32 Econet to WiFi gateway</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=471379#p471379</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=471379#p471379</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m6zkijzyjc2g</link>
+      <description>
+        <![CDATA[Loving this look! ASCII RPGs for the win!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Loving this look! ASCII RPGs for the win!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m6zkijzyjc2g</guid>
+    </item>    <item>
+      <title>8-bit acorn hardware • Re: BBC Z80 Torch Communicator</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=471378#p471378</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=471378#p471378</guid>
+    </item>    <item>
+      <title>8-bit acorn software: classic games • Re: The Advent of Beeb Games</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=471376#p471376</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=471376#p471376</guid>
+    </item>    <item>
+      <title>acorn atom and acorn system series • Re: Latest version of Atomulator for Linux</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=471375#p471375</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=471375#p471375</guid>
+    </item>    <item>
+      <title>econet and other acorn specific networking • Re: ESP-32 Econet to WiFi gateway</title>
+      <link>https://www.stardot.org.uk/forums/viewtopic.php?p=471374#p471374</link>
+      <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=471374#p471374</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m6z4hckyzk2m</link>
+      <description>
+        <![CDATA[And on the subject of the RISC OS Filer, the fact that there is no standardised way to cause the LOADING of a file is utterly shameful, and purely a result of ideological not-invented-here silo-purity tribalism which everyone concerned should have grown out of in the school playground.]]>
+      </description>
+      <source:markdown>And on the subject of the RISC OS Filer, the fact that there is no standardised way to cause the LOADING of a file is utterly shameful, and purely a result of ideological not-invented-here silo-purity tribalism which everyone concerned should have grown out of in the school playground.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m6z4hckyzk2m</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m6z2mu3nwk2m</link>
+      <description>
+        <![CDATA[Tiny RISC OS d’oh!
+        
+        I was just documenting the Filer’s star commands (which are many, varied, and highly variant-dependent) when I noticed how bad RO5’s *Filer_DClickHold is.
+        
+        This sets a delay which, if you hold the second click of a double-click for that time, simulates the Shift key.]]>
+      </description>
+      <source:markdown>Tiny RISC OS d’oh!
+
+I was just documenting the Filer’s star commands (which are many, varied, and highly variant-dependent) when I noticed how bad RO5’s \*Filer\_DClickHold is.
+
+This sets a delay which, if you hold the second click of a double-click for that time, simulates the Shift key.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m6z2mu3nwk2m</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3m6ywko34xc2c</link>
+      <description>
+        <![CDATA[Early notification that ROUGOL have a Christmas meeting this year, on Monday 15th December, but it is *online only*. Hear from Rob Napier who is writing the biography of Acorn
+        https://rougol.jellybaby.net/meetings/index.html]]>
+      </description>
+      <source:markdown>Early notification that ROUGOL have a Christmas meeting this year, on Monday 15th December, but it is \*online only\*. Hear from Rob Napier who is writing the biography of Acorn
+https://rougol.jellybaby.net/meetings/index.html</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3m6ywko34xc2c</guid>
+    </item>    <item>
+      <title>RISC OS &#39;Advent&#39; Calendar 2025 - Chris Hall tackles the Hydra</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13521&#38;page=1#125854</link>
+      <description>
+        <![CDATA[Then my mistake, my confusion, my apologies.]]>
+      </description>
+      <source:markdown>Then my mistake, my confusion, my apologies.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13521&#38;page=1#125854</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m6ylkdohj222</link>
+      <description>
+        <![CDATA[It's Day 2 of the Advent of Beeb Games!
+        youtu.be/CgUdbLLEjPw
+        https://youtu.be/CgUdbLLEjPw]]>
+      </description>
+      <source:markdown>It&#39;s Day 2 of the Advent of Beeb Games!
+youtu.be/CgUdbLLEjPw
+https://youtu.be/CgUdbLLEjPw</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m6ylkdohj222</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3m6yk3agllk2n</link>
+      <description>
+        <![CDATA[WROCC December 2025 talk on Wednesday - Amcog Games
+        
+        www.iconbar.com/comments/rss/news2268.html
+        
+        The December 2025 WROCC talk is on Wednesday 3rd December and starts at 7.45pm on Zoom.
+        https://www.iconbar.com/comments/rss/news2268.html]]>
+      </description>
+      <source:markdown>WROCC December 2025 talk on Wednesday - Amcog Games
+
+www.iconbar.com/comments/rss/news2268.html
+
+The December 2025 WROCC talk is on Wednesday 3rd December and starts at 7.45pm on Zoom.
+https://www.iconbar.com/comments/rss/news2268.html</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3m6yk3agllk2n</guid>
+    </item>    <item>
+      <title>WROCC December 2025 talk on Wednesday - Amcog Games</title>
+      <link>http://www.iconbar.com/comments/rss/news2268.html</link>
+      <description>
+        <![CDATA[The December 2025 WROCC talk is on Wednesday 3rd December and starts at at 7.45pm on Zoom.]]>
+      </description>
+      <source:markdown>The December 2025 WROCC talk is on Wednesday 3rd December and starts at at 7.45pm on Zoom.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2268.html</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3m6yb7xvjkk2n</link>
+      <description>
+        <![CDATA[RISC OS 'Advent' Calendar 2025 - Chris  Wraight brings us Clarity
+        
+        www.iconbar.com/comments/rss/news2274.html
+        
+        Many thanks to Chris Wraight for his new theme for RISC OS users and experiment with funding new developments (It's not too late to send us yours).
+        https://www.iconbar.com/comments/rss/news2274.html]]>
+      </description>
+      <source:markdown>RISC OS &#39;Advent&#39; Calendar 2025 - Chris Wraight brings us Clarity
+
+www.iconbar.com/comments/rss/news2274.html
+
+Many thanks to Chris Wraight for his new theme for RISC OS users and experiment with funding new developments (It&#39;s not too late to send us yours).
+https://www.iconbar.com/comments/rss/news2274.html</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3m6yb7xvjkk2n</guid>
+    </item>    <item>
+      <title>RISC OS &#39;Advent&#39; Calendar 2025 - Chris  Wraight brings us Clarity</title>
+      <link>http://www.iconbar.com/comments/rss/news2274.html</link>
+      <description>
+        <![CDATA[Many thanks to Chris Wraight for high new theme for RISC OS users and experiment with funding new developments (It's not too late to send us yours).]]>
+      </description>
+      <source:markdown>Many thanks to Chris Wraight for high new theme for RISC OS users and experiment with funding new developments (It&#39;s not too late to send us yours).</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2274.html</guid>
+    </item>    <item>
+      <title>RISC OS &#39;Advent&#39; Calendar 2025 - new Frosted theme from Martin Eastwood</title>
+      <link>http://www.iconbar.com/comments/rss/news2273.html</link>
+      <description>
+        <![CDATA[Many thanks to Martin Eastwood for bringing us a beta preview of his forth-coming Frosted Theme (It's not too late to send us yours).]]>
+      </description>
+      <source:markdown>Many thanks to Martin Eastwood for bringing us a beta preview of his forth-coming Frosted Theme (It&#39;s not too late to send us yours).</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2273.html</guid>
+    </item>    <item>
+      <title>RISC OS &#39;Advent&#39; Calendar 2025 - Chris Hall tackles the Hydra</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13521&#38;page=1#125853</link>
+      <description>
+        <![CDATA[What on earth are you on about, JJ?]]>
+      </description>
+      <source:markdown>What on earth are you on about, JJ?</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13521&#38;page=1#125853</guid>
+    </item>    <item>
+      <title>RISC OS &#39;Advent&#39; Calendar 2025 - Chris Hall tackles the Hydra</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13521&#38;page=1#125852</link>
+      <description>
+        <![CDATA[Why are you always so bitter about rod/rcomp? They are a company they have to make a living they give away a lot of their work for free.]]>
+      </description>
+      <source:markdown>Why are you always so bitter about rod/rcomp? They are a company they have to make a living they give away a lot of their work for free.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13521&#38;page=1#125852</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m6xcsdsdu22t</link>
+      <description>
+        <![CDATA[The BBC Micro is 44 years old today, Happy Birthday! However, many customers had to wait until early 1982 for delivery of theirs due to limited supply availability before Christmas. During its lifespan just over 1.5 million were sold - exact figures are not known. I still have my original one.]]>
+      </description>
+      <source:markdown>The BBC Micro is 44 years old today, Happy Birthday! However, many customers had to wait until early 1982 for delivery of theirs due to limited supply availability before Christmas. During its lifespan just over 1.5 million were sold - exact figures are not known. I still have my original one.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m6xcsdsdu22t</guid>
+    </item>    <item>
       <title>communications • Re: the Night Owl BBS *MON Up*</title>
       <link>https://www.stardot.org.uk/forums/viewtopic.php?p=471320#p471320</link>
       <guid>cid://https://www.stardot.org.uk/forums/viewtopic.php?p=471320#p471320</guid>
@@ -29,6 +211,17 @@
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m6x3fjctos2c</guid>
+    </item>    <item>
+      <title>Modern Frosted Theme</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
+      <description>
+        <![CDATA[<p>Designing and making icons is such a relaxing and fun exercise and always feels like a real accomplishment when things start to come together :)<br />
+        <img src="https://images2.imgbox.com/cd/5b/6V5JSjnT_o.jpg" alt="" /></p>]]>
+      </description>
+      <source:markdown>Designing and making icons is such a relaxing and fun exercise and always feels like a real accomplishment when things start to come together :)
+
+![](https://images2.imgbox.com/cd/5b/6V5JSjnT_o.jpg)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20138:160274</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3m6wzlhlm622g</link>
       <description>
@@ -100,6 +293,22 @@ Many thanks to Chris Hall for bravely tackling this beast for the benefit of all
       </description>
       <source:markdown>Many thanks to Chris Hall for bravely tackling this beast for the benefit of all RISC OS users (It&#39;s not too late to send us yours).</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2267.html</guid>
+    </item>    <item>
+      <title>32Bit AKA Roms</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20124</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Yes Yes, i know your really busy but yes! seeing as people that are holding select stuff at gunpoint.</p>
+        </blockquote>
+        <p>I&#8217;ll see what I can do, but please note: This is something extremely niche, why? Because StubG is needed only for Podule Modules (where the key is Podule &lt;&#8212;-). It is not required anywhere else, so basically only for old RiscPC/A7K users, and that extremely rare situation where someone owning an Iyonix with the Podule backplane would want to use an old podule on the Iyonix (for which the Module has to be first 32bit-ed).</p>
+        <p>Which lead the discussion to: Why would you need a <span class="caps">SCSI</span> Podule on an Iyonix? I understand you &#8220;want&#8221; a <span class="caps">SCSI</span> Podule on an Iyonix, but &#8220;want&#8221; and &#8220;need&#8221; are to different things.</p>]]>
+      </description>
+      <source:markdown>&#62; Yes Yes, i know your really busy but yes! seeing as people that are holding select stuff at gunpoint.
+
+I’ll see what I can do, but please note: This is something extremely niche, why? Because StubG is needed only for Podule Modules (where the key is Podule &#60;—-). It is not required anywhere else, so basically only for old RiscPC/A7K users, and that extremely rare situation where someone owning an Iyonix with the Podule backplane would want to use an old podule on the Iyonix (for which the Module has to be first 32bit-ed).
+
+Which lead the discussion to: Why would you need a SCSI Podule on an Iyonix? I understand you “want” a SCSI Podule on an Iyonix, but “want” and “need” are to different things.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20124:160269</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3m6wo2ikhuk2c</link>
       <description>
@@ -177,6 +386,14 @@ https://youtu.be/jWa0oNtmBc4</source:markdown>
       <source:markdown>Thanks for the idea, Simon – done!</source:markdown>
       <guid>cid://www.riscosopen.org:11:20058:160263</guid>
     </item>    <item>
+      <title>Windows 11 upgrade breaks LanMan98</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/19772</link>
+      <description>
+        <![CDATA[<p>yes that might be right :)</p>]]>
+      </description>
+      <source:markdown>yes that might be right :)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:19772:160261</guid>
+    </item>    <item>
       <title>SMB2/3 protocol</title>
       <link>https://www.riscosopen.org/forum/forums/8/topics/17901</link>
       <description>
@@ -189,60 +406,6 @@ https://youtu.be/jWa0oNtmBc4</source:markdown>
 
 Happy to help with ShareFS. Can’t contribute to any code but I can test the living bejeezus out of it!</source:markdown>
       <guid>cid://www.riscosopen.org:8:17901:160259</guid>
-    </item>    <item>
-      <title>Windows 11 upgrade breaks LanMan98</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/19772</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Have you double checked on your PC the setting for <span class="caps">SMB</span> 1.0/<span class="caps">CIFS</span> Client and Server ?</p>
-        </blockquote>
-        <p>Yes &#8211; both client and server enabled, though I don&#8217;t understand why client in involved in inbound connections.</p>]]>
-      </description>
-      <source:markdown>&#62; Have you double checked on your PC the setting for SMB 1.0/CIFS Client and Server ?
-
-Yes – both client and server enabled, though I don’t understand why client in involved in inbound connections.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:19772:160255</guid>
-    </item>    <item>
-      <title>32Bit AKA Roms</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20124</link>
-      <description>
-        <![CDATA[<p>@Colin:</p>
-        <blockquote>
-        <p>Isn’t StubsG a Gerph product?</p>
-        </blockquote>
-        <p>As I recall, it was developed by him when he was working for <span class="caps">RISCOS</span> Ltd, so is part of the <span class="caps">RISC</span> OS 4/6 IP now owned by 3QD. riscos.com appears to be down at the moment, so I can&#8217;t provide a link, but version 0.04 was still up on there last time I looked.</p>
-        <p>@Paolo:</p>
-        <blockquote>
-        <p>Why StubG is not being maintained is beyond me</p>
-        </blockquote>
-        <p>I guess it&#8217;s a victim of the demise of <span class="caps">RISCOS</span> Ltd.</p>
-        <p>Bizarrely, <a href="https://www.riscosopen.org/forum/forums/5/topics/15088?limit=25&amp;page=1#posts-115731">this thread from back in 2021</a> reveals that StubsG was developed further beyond 0.04 but <span class="caps">ROL</span>/3QD never publicly released any updated versions.</p>]]>
-      </description>
-      <source:markdown>@Colin:
-
-&#62; Isn’t StubsG a Gerph product?
-
-As I recall, it was developed by him when he was working for RISCOS Ltd, so is part of the RISC OS 4/6 IP now owned by 3QD. riscos.com appears to be down at the moment, so I can’t provide a link, but version 0.04 was still up on there last time I looked.
-
-@Paolo:
-
-&#62; Why StubG is not being maintained is beyond me
-
-I guess it’s a victim of the demise of RISCOS Ltd.
-
-Bizarrely, [this thread from back in 2021](https://www.riscosopen.org/forum/forums/5/topics/15088?limit=25&#38;page=1#posts-115731) reveals that StubsG was developed further beyond 0.04 but ROL/3QD never publicly released any updated versions.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20124:160254</guid>
-    </item>    <item>
-      <title>Modern Frosted Theme</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
-      <description>
-        <![CDATA[<p><img src="https://images2.imgbox.com/de/06/x8DQ6vFn_o.jpg" alt="" /></p>
-        <p>Iconbar tweaked slightly but almost finished and i&#8217;m happier with it now</p>]]>
-      </description>
-      <source:markdown>![](https://images2.imgbox.com/de/06/x8DQ6vFn_o.jpg)
-
-Iconbar tweaked slightly but almost finished and i’m happier with it now</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20138:160253</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3m6uoyby56k2l</link>
       <description>
