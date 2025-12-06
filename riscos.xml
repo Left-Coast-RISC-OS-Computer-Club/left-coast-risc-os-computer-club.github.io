@@ -7,56 +7,166 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>05 Dec 25 12:00 -0800</lastBuildDate>
-    <generator>antenna/0.0.16</generator>
+    <lastBuildDate>06 Dec 25 12:00 -0800</lastBuildDate>
+    <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Iris and Messenger Pro 9</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20154</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I… cough… insert a single <span class="caps">SYS</span> &#8220;WImp_Poll&#8221; command every 100th <span class="caps">READ</span> or <span class="caps">WRITE</span>, or every 100th iteration of huge nested loops, to make it multi-task. Real programmers will probably shout: “Eek!”, but well, it works.</p>
+        </blockquote>
+        <p>That&#8217;s fine until the <strong>Wimp_Poll</strong> returns an event that you need to handle immediately&#8230; at which point, things can start to get very messy, very quickly&#8230; As soon as you start to add things like window redraw, a state machine hanging off Null events is often easier to make work. :-)</p>]]>
+      </description>
+      <source:markdown>&#62; I… cough… insert a single SYS “WImp\_Poll” command every 100th READ or WRITE, or every 100th iteration of huge nested loops, to make it multi-task. Real programmers will probably shout: “Eek!”, but well, it works.
+
+That’s fine until the **Wimp\_Poll** returns an event that you need to handle immediately… at which point, things can start to get very messy, very quickly… As soon as you start to add things like window redraw, a state machine hanging off Null events is often easier to make work. :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20154:160399</guid>
+    </item>    <item>
+      <title>Archive magazines available</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20162</link>
+      <description>
+        <![CDATA[<p>As part of my mission to get a full set of Archive magazines, I&#8217;ve ended up with quite a few duplicates.</p>
+        <p>These are mainly from 1989 through to 2000. I&#8217;ve got 200-300 magazines, probably covering most of this range.</p>
+        <p>If anyone would like these please get in touch. They are free to collect. I&#8217;m based in Suffolk.</p>
+        <p>I&#8217;m still looking for the 2001- 2023 magazines.</p>
+        <p>Thanks all Ian.</p>]]>
+      </description>
+      <source:markdown>As part of my mission to get a full set of Archive magazines, I’ve ended up with quite a few duplicates.
+
+These are mainly from 1989 through to 2000. I’ve got 200-300 magazines, probably covering most of this range.
+
+If anyone would like these please get in touch. They are free to collect. I’m based in Suffolk.
+
+I’m still looking for the 2001- 2023 magazines.
+
+Thanks all Ian.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20162:160396</guid>
+    </item>    <item>
+      <title>Modern Frosted Theme</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
+      <description>
+        <![CDATA[<p><a href="https://www.iconbar.com/articles/RISC_OS_Advent_Calendar_2025_-_RISOSbits_brings_some_sharng_at_Christmas/index2278.html">https://www.iconbar.com/articles/RISC_OS_Advent_Calend…</a></p>
+        <p>RiscOSBits Demo&#8217;s Frosted Theme in latest Iconbar Advent post, Thanks to those that are testing the Theme :)</p>]]>
+      </description>
+      <source:markdown>[https://www.iconbar.com/articles/RISC\_OS\_Advent\_Calend…](https://www.iconbar.com/articles/RISC_OS_Advent_Calendar_2025_-_RISOSbits_brings_some_sharng_at_Christmas/index2278.html)
+
+RiscOSBits Demo’s Frosted Theme in latest Iconbar Advent post, Thanks to those that are testing the Theme :)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20138:160392</guid>
+    </item>    <item>
+      <title>RISC OS &#39;Advent&#39; Calendar 2025 - RISOSbits brings some sharng at Christmas</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13533&#38;page=1#125858</link>
+      <description>
+        <![CDATA[Yes it looks really good! thanks for demoing it]]>
+      </description>
+      <source:markdown>Yes it looks really good! thanks for demoing it</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13533&#38;page=1#125858</guid>
+    </item>    <item>
+      <title>RISC OS &#39;Advent&#39; Calendar 2025 - RISOSbits brings some sharng at Christmas</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13533&#38;page=1#125857</link>
+      <description>
+        <![CDATA[I thought you'd like that! And your original cogs backdrop on the ECOfile itself!]]>
+      </description>
+      <source:markdown>I thought you&#39;d like that! And your original cogs backdrop on the ECOfile itself!</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13533&#38;page=1#125857</guid>
+    </item>    <item>
+      <title>Obscure wimp sprites</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20161</link>
+      <description>
+        <![CDATA[<p>Going through the long list of sprite files as part of theming work, you come across some odd ones. There are lots of variants of the red triangle &#8216;error&#8217; sprite, used by Wimp_ReportError windows. In addition to this one, there&#8217;s also:</p>
+        <p>warning (an exclamation mark in a circle)<br />
+        question (question mark in a triangle)<br />
+        user1<br />
+        user2<br />
+        program (a stop sign)<br />
+        information (a blue &#8216;i&#8217; in a circle)</p>
+        <p>I&#8217;m not sure I&#8217;ve ever actually seen any of these in use. The &#8216;user1/2&#8217; ones are intriguing &#8211; are they meant to be redefinable, somehow? Maybe they&#8217;re all widely used, and I&#8217;ve never seen them. Anyway, it&#8217;s interesting what you find, when digging around&#8230;</p>]]>
+      </description>
+      <source:markdown>Going through the long list of sprite files as part of theming work, you come across some odd ones. There are lots of variants of the red triangle ‘error’ sprite, used by Wimp\_ReportError windows. In addition to this one, there’s also:
+
+warning (an exclamation mark in a circle)
+
+question (question mark in a triangle)
+
+user1
+
+user2
+
+program (a stop sign)
+
+information (a blue ‘i’ in a circle)
+
+I’m not sure I’ve ever actually seen any of these in use. The ‘user1/2’ ones are intriguing – are they meant to be redefinable, somehow? Maybe they’re all widely used, and I’ve never seen them. Anyway, it’s interesting what you find, when digging around…</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20161:160387</guid>
+    </item>    <item>
+      <title>RISC OS &#39;Advent&#39; Calendar 2025 - RISOSbits brings some sharng at Christmas</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13533&#38;page=1#125856</link>
+      <description>
+        <![CDATA[Oh Yay RiscOSBits is using the New Frosted Theme too! Nice]]>
+      </description>
+      <source:markdown>Oh Yay RiscOSBits is using the New Frosted Theme too! Nice</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13533&#38;page=1#125856</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m7col3sams2s</link>
+      <description>
+        <![CDATA[It's Day 6! Time to roll the Cascade dice once again...
+        youtu.be/b_4I7GOoMmA
+        https://youtu.be/b_4I7GOoMmA]]>
+      </description>
+      <source:markdown>It&#39;s Day 6! Time to roll the Cascade dice once again...
+youtu.be/b\_4I7GOoMmA
+https://youtu.be/b\_4I7GOoMmA</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7col3sams2s</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3m7cmyxd27c2l</link>
+      <description>
+        <![CDATA[RISC OS 'Advent' Calendar 2025 - RISOSbits brings some sharng at Christmas
+        
+        www.iconbar.com/comments/rss/news2278.html
+        
+        Many thanks to Andy at RISCOSbits for showing us sharing is not just for Christmas for RISC OS users (It's not too late to send us yours).
+        https://www.iconbar.com/comments/rss/news2278.html]]>
+      </description>
+      <source:markdown>RISC OS &#39;Advent&#39; Calendar 2025 - RISOSbits brings some sharng at Christmas
+
+www.iconbar.com/comments/rss/news2278.html
+
+Many thanks to Andy at RISCOSbits for showing us sharing is not just for Christmas for RISC OS users (It&#39;s not too late to send us yours).
+https://www.iconbar.com/comments/rss/news2278.html</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3m7cmyxd27c2l</guid>
+    </item>    <item>
+      <title>RISC OS &#39;Advent&#39; Calendar 2025 - RISOSbits brings some sharng at Christmas</title>
+      <link>http://www.iconbar.com/comments/rss/news2278.html</link>
+      <description>
+        <![CDATA[Many thanks to Andy at RISCOSbits for showing us sharing is not just for Christmas for RISC OS users (It's not too late to send us yours).]]>
+      </description>
+      <source:markdown>Many thanks to Andy at RISCOSbits for showing us sharing is not just for Christmas for RISC OS users (It&#39;s not too late to send us yours).</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2278.html</guid>
+    </item>    <item>
+      <title>IPv6</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20160</link>
+      <description>
+        <![CDATA[<p>O2 and Vodafone are still on IPv4 CG-<span class="caps">NAT</span> where as EE and Three use IPv6.</p>
+        <p>Vodafone will move to IPv6 post merger, but I have no idea of the timescale on that. Their fixed broadband has supported it for a while.</p>]]>
+      </description>
+      <source:markdown>O2 and Vodafone are still on IPv4 CG-NAT where as EE and Three use IPv6.
+
+Vodafone will move to IPv6 post merger, but I have no idea of the timescale on that. Their fixed broadband has supported it for a while.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20160:160378</guid>
+    </item>    <item>
       <title>*Count possible issue</title>
       <link>https://www.riscosopen.org/forum/forums/4/topics/20159</link>
       <description>
-        <![CDATA[<p>Hello<br />
-        I&#8217;ve been writing some backup scripts &amp; using *Count to compare the source &amp; destination directories.</p>
-        <p>Machine is a Pi4CM in a hydra case from RComp. Riscos 5.31 21-July-24  NMVe Filer</p>
-        <p>On a fresh rebooted machine<br />
-        If I use the filer to count the dir <span class="caps">NMVE</span>::Hydra.$.Internet<br />
-         I get 3,655 files counted 3,006,345,697 bytes total</p>
-        <p>If I shift drag the Filer dir to a task window<br />
-        *Count NMVe::Hydra.$.Internet<br />
-        I get 1,511 Files counted 2,379807,152 bytes total</p>
-        <p>No access to other machines at the minute<br />
-        Can anyone confirm or deny they see the same issue<br />
-        Results seem to be consistant using either method but give vastly differing results</p>
-        <p>Ta muchly<br />
-        Ron</p>]]>
+        <![CDATA[<blockquote>
+        <p>how would i tell which system it is?</p>
+        </blockquote>
+        <p>!PartMgr</p>]]>
       </description>
-      <source:markdown>Hello
+      <source:markdown>&#62; how would i tell which system it is?
 
-I’ve been writing some backup scripts &#38; using \*Count to compare the source &#38; destination directories.
-
-Machine is a Pi4CM in a hydra case from RComp. Riscos 5.31 21-July-24 NMVe Filer
-
-On a fresh rebooted machine
-
-If I use the filer to count the dir NMVE::Hydra.$.Internet
-
-I get 3,655 files counted 3,006,345,697 bytes total
-
-If I shift drag the Filer dir to a task window
-
-\*Count NMVe::Hydra.$.Internet
-
-I get 1,511 Files counted 2,379807,152 bytes total
-
-No access to other machines at the minute
-
-Can anyone confirm or deny they see the same issue
-
-Results seem to be consistant using either method but give vastly differing results
-
-Ta muchly
-
-Ron</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20159:160369</guid>
+!PartMgr</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20159:160377</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3m7b4nve4tc2x</link>
       <description>
@@ -199,17 +309,6 @@ If anyone wants to spend time on it, I’d suggest a module which accepts the re
       </description>
       <source:markdown>I wish CJE all the best in recovering from the fire.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20157:160360</guid>
-    </item>    <item>
-      <title>Modern Frosted Theme</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
-      <description>
-        <![CDATA[<p>Beta 1 is Out <a href="http://www.riscostechnologies.co.uk/Frosted/FrostedV03.zip">Frosted V0.3</a></p>
-        <p>Only on 5.30 for now &#8211; Please give us feedback :)</p>]]>
-      </description>
-      <source:markdown>Beta 1 is Out [Frosted V0.3](http://www.riscostechnologies.co.uk/Frosted/FrostedV03.zip)
-
-Only on 5.30 for now – Please give us feedback :)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20138:160359</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m76777q7vc2h</link>
       <description>
@@ -450,20 +549,6 @@ https://youtu.be/zGLcXSINg-o</source:markdown>
       </description>
       <source:markdown>Yes simon of course, You, Paolo and Gerph all have your own projects which isnt directly linked to ROOL itself. But everyone has a different idea as to what a future Risc OS should look like and some would prefer it just to remain the same, I don’t think ROOL have actually specified what the preference is for how a future risc os should be. I mean 32Bit is going to last us until at least 2030 with Pi4’s still in production till then. at this point id be happy with multicore.</source:markdown>
       <guid>cid://www.riscosopen.org:13:20151:160298</guid>
-    </item>    <item>
-      <title>Iris and Messenger Pro 9</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20154</link>
-      <description>
-        <![CDATA[<p>It is known that MPro can single-task while saving fetched mail.  This is only a problem with mails with large attachments.</p>
-        <p>I worked on it a few years back, and I made a marked improvement.  However, with the present architecture, it&#8217;s unlikely to get better.  The solution needs a state machine, which would be quite a large change to the code.</p>
-        <p>If you&#8217;re a competent C programmer, and you&#8217;re able and willing to volunteer to improve it, Andrew Rawnsley will give you access to the source code.</p>]]>
-      </description>
-      <source:markdown>It is known that MPro can single-task while saving fetched mail. This is only a problem with mails with large attachments.
-
-I worked on it a few years back, and I made a marked improvement. However, with the present architecture, it’s unlikely to get better. The solution needs a state machine, which would be quite a large change to the code.
-
-If you’re a competent C programmer, and you’re able and willing to volunteer to improve it, Andrew Rawnsley will give you access to the source code.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20154:160297</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m6zkijzyjc2g</link>
       <description>

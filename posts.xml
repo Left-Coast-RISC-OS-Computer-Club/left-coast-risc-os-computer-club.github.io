@@ -7,31 +7,9 @@
       This Antenna App collection olds the posts for the Left Coast RISC OS Computer Club.
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/posts.xml</link>
-    <lastBuildDate>05 Dec 25 12:00 -0800</lastBuildDate>
-    <generator>antenna/0.0.16</generator>
+    <lastBuildDate>06 Dec 25 12:00 -0800</lastBuildDate>
+    <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
-    <item>
-      <title>News from the RISC OS London Show 2025</title>
-      <link>https://left-coast-risc-os-computer-club.github.io/posts/2025/11/14/news_from_london_show.html</link>
-      <description>
-        <![CDATA[A quick summary have what Steven Revill's talk indicated as goals for the upcoming
-        RISC OS 5.32 release in 2026.]]>
-      </description>
-      <source:markdown># News from the RISC OS London Show 2025
 
-You can find Leo White&#39;s coverage of the RISC OS London Show 2025 on [YouTube](https://www.youtube.com/playlist?list=PLdbtoCQ_z-HFgLf7GUliPGIX5CNSTk97B).  The talk I find very informative was Steve Revill&#39;s [talk](https://www.youtube.com/watch?v=Wyp5tvEoOaw&#38;list=PLdbtoCQ_z-HFgLf7GUliPGIX5CNSTk97B&#38;index=3) outlining what RISC Open Ltd is up time, the work done on BBC Basic implemented in C and importantly what maybe coming next year in the upcoming stable RISC OS 5.32 release planned for 2026.
-
-The Highlights for goals RISC OS 5.32 include
-
-- New user setup wizard (goal to make it easier to for people new to RISC OS)
-- Updated Paint
-- BASIC rewritten in C
-- Iconbar flip (configurable in the setup wizard)
-  - this would allow flip where drives versus applications are show
-  - makes a little more similar to other OS taskbar layouts
-- Light and Dark themes
-- Password reveal button for password prompts</source:markdown>
-      <enclosure url="https://left-coast-risc-os-computer-club.github.io/posts/2025/11/14/news_from_london_show.md" length="1316" type="text/markdown" />
-    </item>
   </channel>
 </rss>
