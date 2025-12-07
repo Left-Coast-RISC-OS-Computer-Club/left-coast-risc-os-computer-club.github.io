@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.18" >
-  <meta name="date" content="2025-12-06T12:00:28-08:00" >
-  <link href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" type="application/rss+xml" >
+  <meta content="2025-12-07T12:00:26-08:00" name="date" >
+  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
   <header>
@@ -20,6 +20,73 @@
   </nav>
   <section>
 
+    <article data-published="2025-12-07T16:08:57Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20158">
+      <h1>Live Coding with Gerph, Sunday 7th December at 1pm.</h1>
+
+(date: 2025-12-07)
+      <p>
+      <p>Aside from some strange effects with the Classic FontManager giving me really weird sizes of fonts and then working fine after a reboot, things went well. We now have fonts loading in the WimpTemplates module.</p>
+<p>I’ve updated the RISC OS 64 Status page to reflect this component as now being Functional, and there is a WimpTemplates module in the status repository too.</p>
+<p>The templates status at:</p>
+<p><a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_Templates">https://github.com/gerph/riscos64-status/wiki/Module_W…</a></p>
+<p>Now shows 100%, so I’m pretty happy with it. It’s not got complete tests present, but it’s at least got smoke tests that show that it doesn’t crash and has been manually tested. The session demonstrated the template loading with and without the fonts present.</p>
+<hr>
+<p>So, next week, I’m going to start on a new session. I asked the viewers what they’d like to see out of Phase 1 and Phase 2 of the 64bit work, and Chris Williams suggested that the Kernel:Introspection subcomponent would be intriguing.</p>
+<p>For phase 2, the introspection only needs to be made into a Stub, so it should be a relatively easy process. We’re just creating SWI interfaces and functions that can return some information from the system, which we can plug things into later.</p>
+<p><a href="https://github.com/gerph/riscos64-status/wiki/Module_Kernel_Introspection">https://github.com/gerph/riscos64-status/wiki/Module_K…</a></p>
+<p>I’m expecting this might take about 3 sessions – probably less as we only need to create a stub – so it’ll be the last sessions of the year.</p>
+<hr>
+<p>As usual, if you’ve any comments or thoughts on the live coding, please drop me a line either here or by email to <a href="mailto:gerph@gerph.org">gerph@gerph.org</a>. Or there is the Discussions section on GitHub, if you want. Please get involved if you’re interested!</p>
+<p>If anyone has been working on parts of the system for C-ification of components, or creating 64-bit work, please let me know and I’ll give access to the GitHub repository, or update its status as necessary.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20158">https://www.riscosopen.org/forum/forums/1/topics/20158</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-07T09:04:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3m7f5w7fahk2s">
+      <h1>@colinhoad.com</h1>
+
+(date: 2025-12-07)
+      <p>
+      <p>It's Day 7! Can Cascade maintain its winning streak from yesterday? 🤔😅
+youtu.be/aTadPdoWI-0<a href="https://youtu.be/aTadPdoWI-0">https://youtu.be/aTadPdoWI-0</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3m7f5w7fahk2s">https://bsky.app/profile/colinhoad.com/post/3m7f5w7fahk2s</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-06T19:04:41Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20159">
+      <h1>*Count possible issue</h1>
+
+(date: 2025-12-06)
+      <p>
+      <p>Fresh Reboot with Nothing else run after Desktop.</p>
+<p>I try to keep the boot to a minimum and set the machine up after it has booted</p>
+<p>*Modules</p>
+<p>FC251654 201E9194 FileCore%NVMe</p>
+<p>130 201DE214 201E30F4 BlockDeviceNVMe</p>
+<p>131 201E60D4 201DCAF4 NVMeFS</p>
+<p>132 2022DE14 2028C294 NVMeFiler</p>
+<p>!PartMgr shows NVMeFS 1:0 Filecore</p>
+<p>Filecore 3.78 (15 Apr 2023</p>
+<p>BlockDevices 1.10 10 Jul 2025</p>
+<p>NVMeFS 1.02 10 Jul 2025</p>
+<p>NVMeFiler 1.16 22 Feb 2024</p>
+<p>On a dir without zip files, all 3 methods matched</p>
+<p>The Dir I was testing on DOES have zip files but still gives 2x different readings when doen in a task window</p>
+<p>*count NVMe::Hydra.$.Internet V</p>
+<p>Directory NVMe::Hydra.$.Internet counted, 2821 Mbytes</p>
+<p>3,646 files counted, total 2,958,162,218 bytes</p>
+<p>*Count NVMe::Hydra.$.Internet</p>
+<p>1,505 files counted, total 2,332,750,003 bytes</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/4/topics/20159">https://www.riscosopen.org/forum/forums/4/topics/20159</a>
+      </address>
+    </article>
+
     <article data-published="2025-12-06T16:52:53Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20154">
       <h1>Iris and Messenger Pro 9</h1>
 
@@ -32,6 +99,24 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/11/topics/20154">https://www.riscosopen.org/forum/forums/11/topics/20154</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-06T16:20:36Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20161">
+      <h1>Obscure wimp sprites</h1>
+
+(date: 2025-12-06)
+      <p>
+      <blockquote>
+<p>I don’t know about User1 and User2</p>
+</blockquote>
+<blockquote>
+<p>As I understand it, they’re used if you use “Categories”</p>
+</blockquote>
+<p>Yes those are supposed to be two categories reserved for user’s error types IIRC. Should be read as User Error type 1 and User Error type 2.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20161">https://www.riscosopen.org/forum/forums/5/topics/20161</a>
       </address>
     </article>
 
@@ -85,25 +170,6 @@
 
       <address>
         <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13533&page=1#125857">http://www.iconbar.com/forums/viewthread.php?threadid=13533&page=1#125857</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-06T15:02:38Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20161">
-      <h1>Obscure wimp sprites</h1>
-
-(date: 2025-12-06)
-      <p>
-      <p>Going through the long list of sprite files as part of theming work, you come across some odd ones. There are lots of variants of the red triangle ‘error’ sprite, used by Wimp_ReportError windows. In addition to this one, there’s also:</p>
-<p>warning (an exclamation mark in a circle)</p>
-<p>question (question mark in a triangle)</p>
-<p>user1</p>
-<p>user2</p>
-<p>program (a stop sign)</p>
-<p>information (a blue ‘i’ in a circle)</p>
-<p>I’m not sure I’ve ever actually seen any of these in use. The ‘user1/2’ ones are intriguing – are they meant to be redefinable, somehow? Maybe they’re all widely used, and I’ve never seen them. Anyway, it’s interesting what you find, when digging around…</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20161">https://www.riscosopen.org/forum/forums/5/topics/20161</a>
       </address>
     </article>
 
@@ -168,21 +234,6 @@ youtu.be/b_4I7GOoMmA<a href="https://youtu.be/b">https://youtu.be/b</a>_4I7GOoMm
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/5/topics/20160">https://www.riscosopen.org/forum/forums/5/topics/20160</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-06T01:06:42Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20159">
-      <h1>*Count possible issue</h1>
-
-(date: 2025-12-06)
-      <p>
-      <blockquote>
-<p>how would i tell which system it is?</p>
-</blockquote>
-<p>!PartMgr</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/4/topics/20159">https://www.riscosopen.org/forum/forums/4/topics/20159</a>
       </address>
     </article>
 

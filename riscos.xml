@@ -7,10 +7,127 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>06 Dec 25 12:00 -0800</lastBuildDate>
+    <lastBuildDate>07 Dec 25 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Live Coding with Gerph, Sunday 7th December at 1pm.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20158</link>
+      <description>
+        <![CDATA[<p>Aside from some strange effects with the Classic FontManager giving me really weird sizes of fonts and then working fine after a reboot, things went well. We now have fonts loading in the WimpTemplates module.</p>
+        <p>I&#8217;ve updated the <span class="caps">RISC</span> OS 64 Status page to reflect this component as now being Functional, and there is a WimpTemplates module in the status repository too.</p>
+        <p>The templates status at:</p>
+        <p><a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_Templates">https://github.com/gerph/riscos64-status/wiki/Module_W…</a></p>
+        <p>Now shows 100%, so I&#8217;m pretty happy with it. It&#8217;s not got complete tests present, but it&#8217;s at least got smoke tests that show that it doesn&#8217;t crash and has been manually tested. The session demonstrated the template loading with and without the fonts present.</p>
+        <hr />
+        <p>So, next week, I&#8217;m going to start on a new session. I asked the viewers what they&#8217;d like to see out of Phase 1 and Phase 2 of the 64bit work, and Chris Williams suggested that the Kernel:Introspection subcomponent would be intriguing.</p>
+        <p>For phase 2, the introspection only needs to be made into a Stub, so it should be a relatively easy process. We&#8217;re just creating <span class="caps">SWI</span> interfaces and functions that can return some information from the system, which we can plug things into later.</p>
+        <p><a href="https://github.com/gerph/riscos64-status/wiki/Module_Kernel_Introspection">https://github.com/gerph/riscos64-status/wiki/Module_K…</a></p>
+        <p>I&#8217;m expecting this might take about 3 sessions &#8211; probably less as we only need to create a stub &#8211; so it&#8217;ll be the last sessions of the year.</p>
+        <hr />
+        <p>As usual, if you&#8217;ve any comments or thoughts on the live coding, please drop me a line either here or by email to <a href="mailto:gerph@gerph.org">gerph@gerph.org</a>. Or there is the Discussions section on GitHub, if you want. Please get involved if you&#8217;re interested!</p>
+        <p>If anyone has been working on parts of the system for C-ification of components, or creating 64-bit work, please let me know and I&#8217;ll give access to the GitHub repository, or update its status as necessary.</p>]]>
+      </description>
+      <source:markdown>Aside from some strange effects with the Classic FontManager giving me really weird sizes of fonts and then working fine after a reboot, things went well. We now have fonts loading in the WimpTemplates module.
+
+I’ve updated the RISC OS 64 Status page to reflect this component as now being Functional, and there is a WimpTemplates module in the status repository too.
+
+The templates status at:
+
+[https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_Templates)
+
+Now shows 100%, so I’m pretty happy with it. It’s not got complete tests present, but it’s at least got smoke tests that show that it doesn’t crash and has been manually tested. The session demonstrated the template loading with and without the fonts present.
+
+* * *
+
+So, next week, I’m going to start on a new session. I asked the viewers what they’d like to see out of Phase 1 and Phase 2 of the 64bit work, and Chris Williams suggested that the Kernel:Introspection subcomponent would be intriguing.
+
+For phase 2, the introspection only needs to be made into a Stub, so it should be a relatively easy process. We’re just creating SWI interfaces and functions that can return some information from the system, which we can plug things into later.
+
+[https://github.com/gerph/riscos64-status/wiki/Module\_K…](https://github.com/gerph/riscos64-status/wiki/Module_Kernel_Introspection)
+
+I’m expecting this might take about 3 sessions – probably less as we only need to create a stub – so it’ll be the last sessions of the year.
+
+* * *
+
+As usual, if you’ve any comments or thoughts on the live coding, please drop me a line either here or by email to [gerph@gerph.org](mailto:gerph@gerph.org). Or there is the Discussions section on GitHub, if you want. Please get involved if you’re interested!
+
+If anyone has been working on parts of the system for C-ification of components, or creating 64-bit work, please let me know and I’ll give access to the GitHub repository, or update its status as necessary.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20158:160420</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m7f5w7fahk2s</link>
+      <description>
+        <![CDATA[It's Day 7! Can Cascade maintain its winning streak from yesterday? 🤔😅
+        youtu.be/aTadPdoWI-0
+        https://youtu.be/aTadPdoWI-0]]>
+      </description>
+      <source:markdown>It&#39;s Day 7! Can Cascade maintain its winning streak from yesterday? 🤔😅
+youtu.be/aTadPdoWI-0
+https://youtu.be/aTadPdoWI-0</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7f5w7fahk2s</guid>
+    </item>    <item>
+      <title>*Count possible issue</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20159</link>
+      <description>
+        <![CDATA[<p>Fresh Reboot with Nothing else run after Desktop. <br />
+        I try to keep the boot to a minimum and set the machine up after it has booted<br />
+        *Modules<br />
+              FC251654 201E9194  FileCore%NVMe<br />
+          130 201DE214 201E30F4  BlockDeviceNVMe<br />
+          131 201E60D4 201DCAF4  NVMeFS<br />
+          132 2022DE14 2028C294  NVMeFiler</p>
+        <p>!PartMgr shows NVMeFS 1:0 Filecore</p>
+        <p>Filecore 3.78 (15 Apr 2023<br />
+        BlockDevices 1.10 10 Jul 2025<br />
+        NVMeFS 1.02 10 Jul 2025<br />
+        NVMeFiler 1.16 22 Feb 2024<br />
+        On a dir without zip files, all 3 methods matched</p>
+        <p>The Dir I was testing on <span class="caps">DOES</span> have zip files but still gives 2x different readings when doen in a task window</p>
+        <p>*count NVMe::Hydra.$.Internet V<br />
+        Directory NVMe::Hydra.$.Internet counted, 2821 Mbytes<br />
+        3,646 files counted, total 2,958,162,218 bytes<br />
+        *Count NVMe::Hydra.$.Internet <br />
+        1,505 files counted, total 2,332,750,003 bytes</p>]]>
+      </description>
+      <source:markdown>Fresh Reboot with Nothing else run after Desktop.
+
+I try to keep the boot to a minimum and set the machine up after it has booted
+
+\*Modules
+
+FC251654 201E9194 FileCore%NVMe
+
+130 201DE214 201E30F4 BlockDeviceNVMe
+
+131 201E60D4 201DCAF4 NVMeFS
+
+132 2022DE14 2028C294 NVMeFiler
+
+!PartMgr shows NVMeFS 1:0 Filecore
+
+Filecore 3.78 (15 Apr 2023
+
+BlockDevices 1.10 10 Jul 2025
+
+NVMeFS 1.02 10 Jul 2025
+
+NVMeFiler 1.16 22 Feb 2024
+
+On a dir without zip files, all 3 methods matched
+
+The Dir I was testing on DOES have zip files but still gives 2x different readings when doen in a task window
+
+\*count NVMe::Hydra.$.Internet V
+
+Directory NVMe::Hydra.$.Internet counted, 2821 Mbytes
+
+3,646 files counted, total 2,958,162,218 bytes
+
+\*Count NVMe::Hydra.$.Internet
+
+1,505 files counted, total 2,332,750,003 bytes</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20159:160400</guid>
+    </item>    <item>
       <title>Iris and Messenger Pro 9</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20154</link>
       <description>
@@ -23,6 +140,24 @@
 
 That’s fine until the **Wimp\_Poll** returns an event that you need to handle immediately… at which point, things can start to get very messy, very quickly… As soon as you start to add things like window redraw, a state machine hanging off Null events is often easier to make work. :-)</source:markdown>
       <guid>cid://www.riscosopen.org:11:20154:160399</guid>
+    </item>    <item>
+      <title>Obscure wimp sprites</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20161</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I don’t know about User1 and User2</p>
+        </blockquote>
+        <blockquote>
+        <p>As I understand it, they’re used if you use “Categories”</p>
+        </blockquote>
+        <p>Yes those are supposed to be two categories reserved for user&#8217;s error types <span class="caps">IIRC</span>. Should be read as User Error type 1 and User Error type 2.</p>]]>
+      </description>
+      <source:markdown>&#62; I don’t know about User1 and User2
+
+&#62; As I understand it, they’re used if you use “Categories”
+
+Yes those are supposed to be two categories reserved for user’s error types IIRC. Should be read as User Error type 1 and User Error type 2.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20161:160397</guid>
     </item>    <item>
       <title>Archive magazines available</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20162</link>
@@ -70,35 +205,6 @@ RiscOSBits Demo’s Frosted Theme in latest Iconbar Advent post, Thanks to those
       </description>
       <source:markdown>I thought you&#39;d like that! And your original cogs backdrop on the ECOfile itself!</source:markdown>
       <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13533&#38;page=1#125857</guid>
-    </item>    <item>
-      <title>Obscure wimp sprites</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20161</link>
-      <description>
-        <![CDATA[<p>Going through the long list of sprite files as part of theming work, you come across some odd ones. There are lots of variants of the red triangle &#8216;error&#8217; sprite, used by Wimp_ReportError windows. In addition to this one, there&#8217;s also:</p>
-        <p>warning (an exclamation mark in a circle)<br />
-        question (question mark in a triangle)<br />
-        user1<br />
-        user2<br />
-        program (a stop sign)<br />
-        information (a blue &#8216;i&#8217; in a circle)</p>
-        <p>I&#8217;m not sure I&#8217;ve ever actually seen any of these in use. The &#8216;user1/2&#8217; ones are intriguing &#8211; are they meant to be redefinable, somehow? Maybe they&#8217;re all widely used, and I&#8217;ve never seen them. Anyway, it&#8217;s interesting what you find, when digging around&#8230;</p>]]>
-      </description>
-      <source:markdown>Going through the long list of sprite files as part of theming work, you come across some odd ones. There are lots of variants of the red triangle ‘error’ sprite, used by Wimp\_ReportError windows. In addition to this one, there’s also:
-
-warning (an exclamation mark in a circle)
-
-question (question mark in a triangle)
-
-user1
-
-user2
-
-program (a stop sign)
-
-information (a blue ‘i’ in a circle)
-
-I’m not sure I’ve ever actually seen any of these in use. The ‘user1/2’ ones are intriguing – are they meant to be redefinable, somehow? Maybe they’re all widely used, and I’ve never seen them. Anyway, it’s interesting what you find, when digging around…</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20161:160387</guid>
     </item>    <item>
       <title>RISC OS &#39;Advent&#39; Calendar 2025 - RISOSbits brings some sharng at Christmas</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13533&#38;page=1#125856</link>
@@ -154,19 +260,6 @@ https://www.iconbar.com/comments/rss/news2278.html</source:markdown>
 
 Vodafone will move to IPv6 post merger, but I have no idea of the timescale on that. Their fixed broadband has supported it for a while.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20160:160378</guid>
-    </item>    <item>
-      <title>*Count possible issue</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20159</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>how would i tell which system it is?</p>
-        </blockquote>
-        <p>!PartMgr</p>]]>
-      </description>
-      <source:markdown>&#62; how would i tell which system it is?
-
-!PartMgr</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20159:160377</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3m7b4nve4tc2x</link>
       <description>
