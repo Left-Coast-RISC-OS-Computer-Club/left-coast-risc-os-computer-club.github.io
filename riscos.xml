@@ -7,53 +7,193 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>07 Dec 25 12:00 -0800</lastBuildDate>
+    <lastBuildDate>08 Dec 25 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>A Puzzling Addition to the Platform</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19172</link>
+      <description>
+        <![CDATA[<p>With uncharacteristic speed following the release of Puzzles 1.00 for <span class="caps">RISC</span> OS, version 1.01 is now available to download from <a href="https://www.stevefryatt.org.uk/risc-os/games">https://www.stevefryatt.org.uk/risc-os/games</a> &#8211; copies can also be found on the PlingStore, and should appear in PackMan shortly.</p>
+        <p>The main changes from 1.00 are a few updates <a href="https://www.chiark.greenend.org.uk/~sgtatham/puzzles/">from the upstream</a> &#8211; the user-facing ones are to the Dominosa, Mines and Undead games.</p>
+        <p>The <span class="caps">RISC</span> OS front end now supports the <code>text_fallback()</code> function, which allows it to make the characters in the top half of the current <span class="caps">RISC</span> OS character set available to games if they wish to make use of them. This improves the text display in a couple of the puzzles. If you&#8217;re playing Puzzles on a platform that doesn&#8217;t support the <span class="caps">UCS</span> lookup tables, or are using an alphabet that doesn&#8217;t have the desired glyphs in it, then games will continue to use plain <span class="caps">ASCII</span> as before.</p>]]>
+      </description>
+      <source:markdown>With uncharacteristic speed following the release of Puzzles 1.00 for RISC OS, version 1.01 is now available to download from [https://www.stevefryatt.org.uk/risc-os/games](https://www.stevefryatt.org.uk/risc-os/games) – copies can also be found on the PlingStore, and should appear in PackMan shortly.
+
+The main changes from 1.00 are a few updates [from the upstream](https://www.chiark.greenend.org.uk/~sgtatham/puzzles/) – the user-facing ones are to the Dominosa, Mines and Undead games.
+
+The RISC OS front end now supports the `text_fallback()` function, which allows it to make the characters in the top half of the current RISC OS character set available to games if they wish to make use of them. This improves the text display in a couple of the puzzles. If you’re playing Puzzles on a platform that doesn’t support the UCS lookup tables, or are using an alphabet that doesn’t have the desired glyphs in it, then games will continue to use plain ASCII as before.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:19172:160449</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m7ilbzaqes26</link>
+      <description>
+        <![CDATA[Such a genuine relief to know I really don't have to care about any of this anymore #Linux
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Such a genuine relief to know I really don&#39;t have to care about any of this anymore #Linux
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7ilbzaqes26</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m7iihhbuqs26</link>
+      <description>
+        <![CDATA[Revolut, you are my going on holiday PAYG card, I am not going to use you to "Power up with CRYPTO!" so please, less of those app notifications, ta.]]>
+      </description>
+      <source:markdown>Revolut, you are my going on holiday PAYG card, I am not going to use you to &#34;Power up with CRYPTO!&#34; so please, less of those app notifications, ta.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7iihhbuqs26</guid>
+    </item>    <item>
+      <title>Allow creation of surfaces.</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20163</link>
+      <description>
+        <![CDATA[<p>I was intending that once you have set up the &#8216;printer&#8217; page, you can draw to it like you would the screen, or a sprite area, without additional wrapping, other than perhaps specifying which &#8216;surface&#8217;?</p>
+        <p>Hence:- <span class="caps">DIM</span> <span class="caps">MODE</span> &#8220;pdf&#8221; 400,400, 256;  <span class="caps">DRAW</span> &#8220;pdf&#8221;,10,100: <span class="caps">DRAW</span> &#8220;pdf&#8221;,100,100; DRAW&quot;pdf&quot;.10,100</p>
+        <p>to draw a triangle, which when you do <span class="caps">VDU</span> &#8220;pdf&#8221;,30 sends the generated page to the printer driver? With appropriate scaling, and ColorTrans? &#8230;</p>]]>
+      </description>
+      <source:markdown>I was intending that once you have set up the ‘printer’ page, you can draw to it like you would the screen, or a sprite area, without additional wrapping, other than perhaps specifying which ‘surface’?
+
+Hence:- DIMMODE “pdf” 400,400, 256; DRAW “pdf”,10,100: DRAW “pdf”,100,100; DRAW&#34;pdf&#34;.10,100
+
+to draw a triangle, which when you do VDU “pdf”,30 sends the generated page to the printer driver? With appropriate scaling, and ColorTrans? …</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20163:160439</guid>
+    </item>    <item>
+      <title>List of modules in C</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20164</link>
+      <description>
+        <![CDATA[<p>I was reading about 64 bit <span class="caps">RISCOS</span> and one of the ( good ) ideas is to rewrite RiscOS to a higher langaue.<br />
+        Is there a list of modules in C or assembler and if any work is done on them. This to avoid duplication work.</p>]]>
+      </description>
+      <source:markdown>I was reading about 64 bit RISCOS and one of the ( good ) ideas is to rewrite RiscOS to a higher langaue.
+
+Is there a list of modules in C or assembler and if any work is done on them. This to avoid duplication work.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20164:160438</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m7i6e3da5s26</link>
+      <description>
+        <![CDATA[What skill did you master that you will never, ever use again?
+        
+        Reciting the name of every book of the bible in order (both testaments).
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>What skill did you master that you will never, ever use again?
+
+Reciting the name of every book of the bible in order (both testaments).
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7i6e3da5s26</guid>
+    </item>    <item>
       <title>Live Coding with Gerph, Sunday 7th December at 1pm.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20158</link>
       <description>
-        <![CDATA[<p>Aside from some strange effects with the Classic FontManager giving me really weird sizes of fonts and then working fine after a reboot, things went well. We now have fonts loading in the WimpTemplates module.</p>
-        <p>I&#8217;ve updated the <span class="caps">RISC</span> OS 64 Status page to reflect this component as now being Functional, and there is a WimpTemplates module in the status repository too.</p>
-        <p>The templates status at:</p>
-        <p><a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_Templates">https://github.com/gerph/riscos64-status/wiki/Module_W…</a></p>
-        <p>Now shows 100%, so I&#8217;m pretty happy with it. It&#8217;s not got complete tests present, but it&#8217;s at least got smoke tests that show that it doesn&#8217;t crash and has been manually tested. The session demonstrated the template loading with and without the fonts present.</p>
-        <hr />
-        <p>So, next week, I&#8217;m going to start on a new session. I asked the viewers what they&#8217;d like to see out of Phase 1 and Phase 2 of the 64bit work, and Chris Williams suggested that the Kernel:Introspection subcomponent would be intriguing.</p>
-        <p>For phase 2, the introspection only needs to be made into a Stub, so it should be a relatively easy process. We&#8217;re just creating <span class="caps">SWI</span> interfaces and functions that can return some information from the system, which we can plug things into later.</p>
-        <p><a href="https://github.com/gerph/riscos64-status/wiki/Module_Kernel_Introspection">https://github.com/gerph/riscos64-status/wiki/Module_K…</a></p>
-        <p>I&#8217;m expecting this might take about 3 sessions &#8211; probably less as we only need to create a stub &#8211; so it&#8217;ll be the last sessions of the year.</p>
-        <hr />
-        <p>As usual, if you&#8217;ve any comments or thoughts on the live coding, please drop me a line either here or by email to <a href="mailto:gerph@gerph.org">gerph@gerph.org</a>. Or there is the Discussions section on GitHub, if you want. Please get involved if you&#8217;re interested!</p>
-        <p>If anyone has been working on parts of the system for C-ification of components, or creating 64-bit work, please let me know and I&#8217;ll give access to the GitHub repository, or update its status as necessary.</p>]]>
+        <![CDATA[<blockquote>
+        <p>That may not be entirely true.</p>
+        </blockquote>
+        <p>Indeed, it does depend on having those high resolution printers or displays &#8211; not having them is unusual in business settings nowadays, but it&#8217;s probably still fairly common in domestic settings, and perhaps some smaller business settings &#8211; but surely not if they care much about fine detail?</p>]]>
       </description>
-      <source:markdown>Aside from some strange effects with the Classic FontManager giving me really weird sizes of fonts and then working fine after a reboot, things went well. We now have fonts loading in the WimpTemplates module.
+      <source:markdown>&#62; That may not be entirely true.
 
-I’ve updated the RISC OS 64 Status page to reflect this component as now being Functional, and there is a WimpTemplates module in the status repository too.
+Indeed, it does depend on having those high resolution printers or displays – not having them is unusual in business settings nowadays, but it’s probably still fairly common in domestic settings, and perhaps some smaller business settings – but surely not if they care much about fine detail?</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20158:160429</guid>
+    </item>    <item>
+      <title>*Count possible issue</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20159</link>
+      <description>
+        <![CDATA[<p>To clarify my findings posted above. The directory that I used as a test contains NO zip / archive / Image Filing system files.<br />
+        And using the R-Comp NVMe filer with 4Kn sectors (not the RISCOSbits/<span class="caps">ROOL</span> variant).</p>]]>
+      </description>
+      <source:markdown>To clarify my findings posted above. The directory that I used as a test contains NO zip / archive / Image Filing system files.
 
-The templates status at:
+And using the R-Comp NVMe filer with 4Kn sectors (not the RISCOSbits/ROOL variant).</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20159:160428</guid>
+    </item>    <item>
+      <title>RISC OS &#39;Advent&#39; Calendar 2025 - Detlef Frohlich&#39;s D64Dir2Spr project</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13530&#38;page=1#125859</link>
+      <description>
+        <![CDATA[I love the C64. Amazing machine with a truly amazing sound chip.]]>
+      </description>
+      <source:markdown>I love the C64. Amazing machine with a truly amazing sound chip.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13530&#38;page=1#125859</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m7hqozgmik26</link>
+      <description>
+        <![CDATA[Spotify, there, telling me I have a listening age of 68...]]>
+      </description>
+      <source:markdown>Spotify, there, telling me I have a listening age of 68...</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7hqozgmik26</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3m7hq3uwmcc2v</link>
+      <description>
+        <![CDATA[RISC OS 'Advent' Calendar 2025 - Detlef Frohlich's D64Dir2Spr project 
+        
+        https://www.iconbar.com/articles/RISC_OS_Advent_Calendar_2025_-_Detlef_Frohlichs_D64Dir2Spr_project/index2275.html 
+        
+        Many thanks to Detlef for a second of his projects (It's not too late to send us yours).]]>
+      </description>
+      <source:markdown>RISC OS &#39;Advent&#39; Calendar 2025 - Detlef Frohlich&#39;s D64Dir2Spr project
 
-[https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_Templates)
+https://www.iconbar.com/articles/RISC\_OS\_Advent\_Calendar\_2025\_-\_Detlef\_Frohlichs\_D64Dir2Spr\_project/index2275.html
 
-Now shows 100%, so I’m pretty happy with it. It’s not got complete tests present, but it’s at least got smoke tests that show that it doesn’t crash and has been manually tested. The session demonstrated the template loading with and without the fonts present.
+Many thanks to Detlef for a second of his projects (It&#39;s not too late to send us yours).</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3m7hq3uwmcc2v</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m7ho6tvtss26</link>
+      <description>
+        <![CDATA[Happy Monday! Let the joy of another random Cascade Cassette 50 game get you set for the week... it's Day 8!
+        youtu.be/9XqIzIEzt6w
+        https://youtu.be/9XqIzIEzt6w]]>
+      </description>
+      <source:markdown>Happy Monday! Let the joy of another random Cascade Cassette 50 game get you set for the week... it&#39;s Day 8!
+youtu.be/9XqIzIEzt6w
+https://youtu.be/9XqIzIEzt6w</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7ho6tvtss26</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m7hnfjejoc26</link>
+      <description>
+        <![CDATA[OK, this is very funny! The bbcmicro.co.uk site has made "Cascade Cassette 50" their Game of the Month, in honour of my Advent of Beeb Games series this year 😂]]>
+      </description>
+      <source:markdown>OK, this is very funny! The bbcmicro.co.uk site has made &#34;Cascade Cassette 50&#34; their Game of the Month, in honour of my Advent of Beeb Games series this year 😂</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7hnfjejoc26</guid>
+    </item>    <item>
+      <title>RISC OS &#39;Advent&#39; Calendar 2025 - Detlef Frohlich&#39;s D64Dir2Spr project</title>
+      <link>http://www.iconbar.com/comments/rss/news2275.html</link>
+      <description>
+        <![CDATA[Many thanks to Detlef for a second of his projects (It's not too late to send us yours).]]>
+      </description>
+      <source:markdown>Many thanks to Detlef for a second of his projects (It&#39;s not too late to send us yours).</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2275.html</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3m7gkrb7lq22v</link>
+      <description>
+        <![CDATA[RISC OS 'Advent' Calendar 2025 - RISOSbits brings some sharing at Christmas 
+        
+        https://www.iconbar.com/articles/RISC_OS_Advent_Calendar_2025_-_RISOSbits_brings_some_sharng_at_Christmas/index2278.html 
+        
+        Many thanks to Andy at RISCOSbits for showing us sharing is not just for Christmas for RISC OS users (It's not too late to send us yours).]]>
+      </description>
+      <source:markdown>RISC OS &#39;Advent&#39; Calendar 2025 - RISOSbits brings some sharing at Christmas
 
-* * *
+https://www.iconbar.com/articles/RISC\_OS\_Advent\_Calendar\_2025\_-\_RISOSbits\_brings\_some\_sharng\_at\_Christmas/index2278.html
 
-So, next week, I’m going to start on a new session. I asked the viewers what they’d like to see out of Phase 1 and Phase 2 of the 64bit work, and Chris Williams suggested that the Kernel:Introspection subcomponent would be intriguing.
+Many thanks to Andy at RISCOSbits for showing us sharing is not just for Christmas for RISC OS users (It&#39;s not too late to send us yours).</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3m7gkrb7lq22v</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3m7gcrbwaw22p</link>
+      <description>
+        <![CDATA[A special festive treat coming soon!
+        
+        #risc_os
+        #ChristmasCracker
+        #LimitedEdition 
+        #BeQuick]]>
+      </description>
+      <source:markdown>A special festive treat coming soon!
 
-For phase 2, the introspection only needs to be made into a Stub, so it should be a relatively easy process. We’re just creating SWI interfaces and functions that can return some information from the system, which we can plug things into later.
-
-[https://github.com/gerph/riscos64-status/wiki/Module\_K…](https://github.com/gerph/riscos64-status/wiki/Module_Kernel_Introspection)
-
-I’m expecting this might take about 3 sessions – probably less as we only need to create a stub – so it’ll be the last sessions of the year.
-
-* * *
-
-As usual, if you’ve any comments or thoughts on the live coding, please drop me a line either here or by email to [gerph@gerph.org](mailto:gerph@gerph.org). Or there is the Discussions section on GitHub, if you want. Please get involved if you’re interested!
-
-If anyone has been working on parts of the system for C-ification of components, or creating 64-bit work, please let me know and I’ll give access to the GitHub repository, or update its status as necessary.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20158:160420</guid>
+#risc\_os
+#ChristmasCracker
+#LimitedEdition
+#BeQuick</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3m7gcrbwaw22p</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3m7f5w7fahk2s</link>
       <description>
@@ -65,68 +205,6 @@ If anyone has been working on parts of the system for C-ification of components,
 youtu.be/aTadPdoWI-0
 https://youtu.be/aTadPdoWI-0</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7f5w7fahk2s</guid>
-    </item>    <item>
-      <title>*Count possible issue</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20159</link>
-      <description>
-        <![CDATA[<p>Fresh Reboot with Nothing else run after Desktop. <br />
-        I try to keep the boot to a minimum and set the machine up after it has booted<br />
-        *Modules<br />
-              FC251654 201E9194  FileCore%NVMe<br />
-          130 201DE214 201E30F4  BlockDeviceNVMe<br />
-          131 201E60D4 201DCAF4  NVMeFS<br />
-          132 2022DE14 2028C294  NVMeFiler</p>
-        <p>!PartMgr shows NVMeFS 1:0 Filecore</p>
-        <p>Filecore 3.78 (15 Apr 2023<br />
-        BlockDevices 1.10 10 Jul 2025<br />
-        NVMeFS 1.02 10 Jul 2025<br />
-        NVMeFiler 1.16 22 Feb 2024<br />
-        On a dir without zip files, all 3 methods matched</p>
-        <p>The Dir I was testing on <span class="caps">DOES</span> have zip files but still gives 2x different readings when doen in a task window</p>
-        <p>*count NVMe::Hydra.$.Internet V<br />
-        Directory NVMe::Hydra.$.Internet counted, 2821 Mbytes<br />
-        3,646 files counted, total 2,958,162,218 bytes<br />
-        *Count NVMe::Hydra.$.Internet <br />
-        1,505 files counted, total 2,332,750,003 bytes</p>]]>
-      </description>
-      <source:markdown>Fresh Reboot with Nothing else run after Desktop.
-
-I try to keep the boot to a minimum and set the machine up after it has booted
-
-\*Modules
-
-FC251654 201E9194 FileCore%NVMe
-
-130 201DE214 201E30F4 BlockDeviceNVMe
-
-131 201E60D4 201DCAF4 NVMeFS
-
-132 2022DE14 2028C294 NVMeFiler
-
-!PartMgr shows NVMeFS 1:0 Filecore
-
-Filecore 3.78 (15 Apr 2023
-
-BlockDevices 1.10 10 Jul 2025
-
-NVMeFS 1.02 10 Jul 2025
-
-NVMeFiler 1.16 22 Feb 2024
-
-On a dir without zip files, all 3 methods matched
-
-The Dir I was testing on DOES have zip files but still gives 2x different readings when doen in a task window
-
-\*count NVMe::Hydra.$.Internet V
-
-Directory NVMe::Hydra.$.Internet counted, 2821 Mbytes
-
-3,646 files counted, total 2,958,162,218 bytes
-
-\*Count NVMe::Hydra.$.Internet
-
-1,505 files counted, total 2,332,750,003 bytes</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20159:160400</guid>
     </item>    <item>
       <title>Iris and Messenger Pro 9</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20154</link>
@@ -4582,40 +4660,6 @@ If you don&#39;t have a copy of the Impression User manual and would like a prin
 While the finger is still in contact with the screen (or the mouse button is down) the app (keyboard) provides feedback at the current coords...
 https://www.youtube.com/watch?v=hksVvXONrIo</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m3wzmawzdc2c</guid>
-    </item>    <item>
-      <title>A Puzzling Addition to the Platform</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/19172</link>
-      <description>
-        <![CDATA[<p>After a couple of years&#8217; development, I&#8217;m pleased to announce the first full release today of Puzzles 1.00 &#8211; just in time for the London Show tomorrow. A port of <a href="https://www.chiark.greenend.org.uk/~sgtatham/puzzles/">Simon Tatham&#8217;s Portable Puzzle Collection</a>, Puzzles is a set of 40 single-player games which run on the desktop.</p>
-        <p>With the arrival of version 1.00, Puzzles offers the following features:</p>
-        <ul>
-        	<li>40 separate puzzle games which are playable on the desktop using a fully <span class="caps">RISC</span> OS-compliant interface.</li>
-        	<li>Full undo and redo, game solutions, and the ability to save a game&#8217;s state and re-load it with all of the previous steps intact.</li>
-        	<li>Games can be exported as sprites, and many will also copy their state to the clipboard in a textual form that may be convenient if you wish to post it in an email or chat forum.</li>
-        	<li>Cross-platform compatibility for saved games and &#8220;Game IDs&#8221; with ports on other platforms (share your games with Windows users or play them on your smartphone).</li>
-        </ul>
-        <p>Copies of version 1.00 are <a href="https://www.stevefryatt.org.uk/risc-os/games">available to download from my website</a>, and can also be found on the PlingStore. Over the weekend, they should also start to become available via PackMan. The upstream code is licensed under the <span class="caps">MIT</span> Licence, and the <span class="caps">RISC</span> OS front-end is under version 1.2 of the <span class="caps">EUPL</span>.</p>
-        <p>If you&#8217;re at the London Show tomorrow, there should be a copy running on my stand.</p>
-        <p>I must once again say &#8220;Thank You&#8221; to Simon and the other contributors to the collection, both for making such an interesting set of games available completely free of charge and for making them so easily portable that it&#8217;s been possible to get a <span class="caps">RISC</span> OS version running with very few compromises to the <em>Style Guide</em>.</p>
-        <p>There&#8217;s still some work to do to the <span class="caps">RISC</span> OS port of Puzzles, so watch out for future updates. And if you find yourself playing it, why not let me know &#8211; it&#8217;s always easier to justify development time if other people will be using the end result!</p>]]>
-      </description>
-      <source:markdown>After a couple of years’ development, I’m pleased to announce the first full release today of Puzzles 1.00 – just in time for the London Show tomorrow. A port of [Simon Tatham’s Portable Puzzle Collection](https://www.chiark.greenend.org.uk/~sgtatham/puzzles/), Puzzles is a set of 40 single-player games which run on the desktop.
-
-With the arrival of version 1.00, Puzzles offers the following features:
-
-- 40 separate puzzle games which are playable on the desktop using a fully RISC OS-compliant interface.
-- Full undo and redo, game solutions, and the ability to save a game’s state and re-load it with all of the previous steps intact.
-- Games can be exported as sprites, and many will also copy their state to the clipboard in a textual form that may be convenient if you wish to post it in an email or chat forum.
-- Cross-platform compatibility for saved games and “Game IDs” with ports on other platforms (share your games with Windows users or play them on your smartphone).
-
-Copies of version 1.00 are [available to download from my website](https://www.stevefryatt.org.uk/risc-os/games), and can also be found on the PlingStore. Over the weekend, they should also start to become available via PackMan. The upstream code is licensed under the MIT Licence, and the RISC OS front-end is under version 1.2 of the EUPL.
-
-If you’re at the London Show tomorrow, there should be a copy running on my stand.
-
-I must once again say “Thank You” to Simon and the other contributors to the collection, both for making such an interesting set of games available completely free of charge and for making them so easily portable that it’s been possible to get a RISC OS version running with very few compromises to the _Style Guide_.
-
-There’s still some work to do to the RISC OS port of Puzzles, so watch out for future updates. And if you find yourself playing it, why not let me know – it’s always easier to justify development time if other people will be using the end result!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:19172:159388</guid>
     </item>    <item>
       <title>RCI Hardware at London Show - 20ukp off too</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20072</link>
