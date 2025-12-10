@@ -7,10 +7,200 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>09 Dec 25 12:00 -0800</lastBuildDate>
+    <lastBuildDate>10 Dec 25 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3m7nf7zgdzs2g</link>
+      <description>
+        <![CDATA[RISC OS 'Advent' Calendar 2025 - David Pitt's Festive RISC OS desktop 
+        
+        https://www.iconbar.com/articles/RISC_OS_Advent_Calendar_2025_-_David_Pitts_Festive_RISC_OS_desktop/index2280.html 
+        
+        Many thanks to David for a very seasonal and festive RISC OS desktop (It's not too late to send us yours).]]>
+      </description>
+      <source:markdown>RISC OS &#39;Advent&#39; Calendar 2025 - David Pitt&#39;s Festive RISC OS desktop
+
+https://www.iconbar.com/articles/RISC\_OS\_Advent\_Calendar\_2025\_-\_David\_Pitts\_Festive\_RISC\_OS\_desktop/index2280.html
+
+Many thanks to David for a very seasonal and festive RISC OS desktop (It&#39;s not too late to send us yours).</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3m7nf7zgdzs2g</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m7mpagqsnc2g</link>
+      <description>
+        <![CDATA[Day 10 is upon us! Will Cascade soar to new heights - or sink like a stone? youtu.be/UvbbHN3Bv3s
+        https://youtu.be/UvbbHN3Bv3s]]>
+      </description>
+      <source:markdown>Day 10 is upon us! Will Cascade soar to new heights - or sink like a stone? youtu.be/UvbbHN3Bv3s
+https://youtu.be/UvbbHN3Bv3s</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7mpagqsnc2g</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3m7mp74q2g22c</link>
+      <description>
+        <![CDATA[Our festive offer will be a hot one! And such a sweet deal!
+        
+        #ChristmasCracker 
+        #RISC_OS
+        #LimitedTimeOffer
+        #WhileStocksLast]]>
+      </description>
+      <source:markdown>Our festive offer will be a hot one! And such a sweet deal!
+
+#ChristmasCracker
+#RISC\_OS
+#LimitedTimeOffer
+#WhileStocksLast</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3m7mp74q2g22c</guid>
+    </item>    <item>
+      <title>RISC OS &#39;Advent&#39; Calendar 2025 - David Pitt&#39;s Festive RISC OS desktop</title>
+      <link>http://www.iconbar.com/comments/rss/news2280.html</link>
+      <description>
+        <![CDATA[Many thanks to David for a very seasonal and festive RISC OS desktop (It's not too late to send us yours).]]>
+      </description>
+      <source:markdown>Many thanks to David for a very seasonal and festive RISC OS desktop (It&#39;s not too late to send us yours).</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2280.html</guid>
+    </item>    <item>
+      <title>Setting up a new monitor</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20155</link>
+      <description>
+        <![CDATA[<p>The edid.dat file that I posted here from Ubuntu was the full file for one monitor.  Under certain circumstances the <span class="caps">EDID</span> is been parsed as invalid:</p>
+        <p>Warnings:</p>
+        <p>Block 1, <span class="caps">CTA</span>-861 Extension Block:<br />
+          Video Capability Data Block: IT scan behavior is expected to support underscanned.<br />
+          Video Capability Data Block: S_PT is equal to S_IT and S_CE, so should be set to 0 instead.<br />
+        <span class="caps">EDID</span>:<br />
+          Calculated image size is 796.6&#215;333.5mm, <span class="caps">EDID</span> image size is 790.0&#215;350.0mm.</p>
+        <p>Failures:</p>
+        <p>Block 1, <span class="caps">CTA</span>-861 Extension Block:<br />
+          Colorimetry Data Block: Reserved bits MD0-MD3 must be 0.<br />
+          Video Capability Data Block: IT video formats are always overscanned, but bit 7 of Byte 3 of the <span class="caps">CTA</span>-861 Extension header is set to underscanned.<br />
+          YCbCr 4:2:0 Capability Map Data Block: Empty Capability Map.<br />
+        <span class="caps">EDID</span>:<br />
+          Base <span class="caps">EDID</span>: Some timings are out of range of the Monitor Ranges:<br />
+            Vertical Freq: 50.000 &#8211; 120.000 Hz (Monitor: 48.000 &#8211; 100.000 Hz)<br />
+          <span class="caps">CTA</span>-861: Native progressive timings are a mix of several resolutions.</p>
+        <p><span class="caps">EDID</span> conformity: <span class="caps">FAIL</span></p>
+        <p>And&#8230;</p>
+        <p>edid-decode <span class="caps">SHA</span>: 84ddf9155376 2021-10-03 10:37:45</p>
+        <p>Warnings:</p>
+        <p>Block 1, <span class="caps">CTA</span>-861 Extension Block:<br />
+          Video Capability Data Block: S_PT is equal to S_IT and S_CE, so should be set to 0 instead.<br />
+        <span class="caps">EDID</span>:<br />
+          Base <span class="caps">EDID</span>: Some timings are out of range of the Monitor Ranges:<br />
+            Horizontal Freq: 31.250 &#8211; 265.679 kHz (Monitor: 250.000 &#8211; 250.000 kHz)</p>
+        <p>Failures:</p>
+        <p><span class="caps">EDID</span>:<br />
+          <span class="caps">CTA</span>-861: Native progressive timings are a mix of several resolutions.<br />
+          DisplayID: Missing DisplayID Product Identification Data Block.<br />
+          DisplayID: Missing DisplayID Display Parameters Data Block.<br />
+          DisplayID: Missing DisplayID Display Interface Features Data Block.<br />
+          DisplayID: DisplayID expects at least one preferred timing.</p>
+        <p><span class="caps">EDID</span> conformity: <span class="caps">FAIL</span></p>
+        <p>Is that why RO&#8217;s edid.dat file was cut short?</p>
+        <p>Fortunately, I have managed to get edid.dat from Ubuntu and make <span class="caps">RISC</span>-OS use that file.</p>
+        <p>I had earlier manually generated all the modes that my monitor specification sheet said it could, using Chris&#8217;s port of the cvt tool.  Some modes were giving a blank screen and I couldn&#8217;t be sure that the manually created cvt mdf was correct or if more &#8220;work&#8221; needed to be done in config.txt to allow the screen mode to work.</p>
+        <p>I have generated an mdf file from Ubuntu&#8217;s transferred edid.dat from savemodefile.  I will use that initially in preference to the cvt generated mode files to fix up my config.txt.</p>
+        <p>I&#8217;ve noticed the OS rounding up modes from say 59.94Hz to 60Hz before and see it again. <span class="caps">BTW</span>: This isn&#8217;t a good idea.</p>
+        <p>edid-decode on the edid.dat file produces identical output from Ubuntu as from Chris&#8217;s port of edid-decode (first release of the port) on <span class="caps">RISC</span>-OS so that&#8217;s good.</p>
+        <p>Thanks everyone.</p>]]>
+      </description>
+      <source:markdown>The edid.dat file that I posted here from Ubuntu was the full file for one monitor. Under certain circumstances the EDID is been parsed as invalid:
+
+Warnings:
+
+Block 1, CTA-861 Extension Block:
+
+Video Capability Data Block: IT scan behavior is expected to support underscanned.
+
+Video Capability Data Block: S\_PT is equal to S\_IT and S\_CE, so should be set to 0 instead.
+
+EDID:
+
+Calculated image size is 796.6×333.5mm, EDID image size is 790.0×350.0mm.
+
+Failures:
+
+Block 1, CTA-861 Extension Block:
+
+Colorimetry Data Block: Reserved bits MD0-MD3 must be 0.
+
+Video Capability Data Block: IT video formats are always overscanned, but bit 7 of Byte 3 of the CTA-861 Extension header is set to underscanned.
+
+YCbCr 4:2:0 Capability Map Data Block: Empty Capability Map.
+
+EDID:
+
+Base EDID: Some timings are out of range of the Monitor Ranges:
+
+Vertical Freq: 50.000 – 120.000 Hz (Monitor: 48.000 – 100.000 Hz)
+
+CTA-861: Native progressive timings are a mix of several resolutions.
+
+EDID conformity: FAIL
+
+And…
+
+edid-decode SHA: 84ddf9155376 2021-10-03 10:37:45
+
+Warnings:
+
+Block 1, CTA-861 Extension Block:
+
+Video Capability Data Block: S\_PT is equal to S\_IT and S\_CE, so should be set to 0 instead.
+
+EDID:
+
+Base EDID: Some timings are out of range of the Monitor Ranges:
+
+Horizontal Freq: 31.250 – 265.679 kHz (Monitor: 250.000 – 250.000 kHz)
+
+Failures:
+
+EDID:
+
+CTA-861: Native progressive timings are a mix of several resolutions.
+
+DisplayID: Missing DisplayID Product Identification Data Block.
+
+DisplayID: Missing DisplayID Display Parameters Data Block.
+
+DisplayID: Missing DisplayID Display Interface Features Data Block.
+
+DisplayID: DisplayID expects at least one preferred timing.
+
+EDID conformity: FAIL
+
+Is that why RO’s edid.dat file was cut short?
+
+Fortunately, I have managed to get edid.dat from Ubuntu and make RISC-OS use that file.
+
+I had earlier manually generated all the modes that my monitor specification sheet said it could, using Chris’s port of the cvt tool. Some modes were giving a blank screen and I couldn’t be sure that the manually created cvt mdf was correct or if more “work” needed to be done in config.txt to allow the screen mode to work.
+
+I have generated an mdf file from Ubuntu’s transferred edid.dat from savemodefile. I will use that initially in preference to the cvt generated mode files to fix up my config.txt.
+
+I’ve noticed the OS rounding up modes from say 59.94Hz to 60Hz before and see it again. BTW: This isn’t a good idea.
+
+edid-decode on the edid.dat file produces identical output from Ubuntu as from Chris’s port of edid-decode (first release of the port) on RISC-OS so that’s good.
+
+Thanks everyone.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20155:160494</guid>
+    </item>    <item>
+      <title>*Count possible issue</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20159</link>
+      <description>
+        <![CDATA[<p>Just like to echo a thanks on the fine detective work by @Thomas and the show of initiative by @Piers going into the code and digging in at code level.  Amazing stuff guys &#8211; well played :)</p>]]>
+      </description>
+      <source:markdown>Just like to echo a thanks on the fine detective work by @Thomas and the show of initiative by @Piers going into the code and digging in at code level. Amazing stuff guys – well played :)</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20159:160489</guid>
+    </item>    <item>
+      <title>Clarity Theme ko-fi</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20137</link>
+      <description>
+        <![CDATA[<p>Btw, Martin: is Frosted currently still available for for testing? The last download link I could find doesn&#8217;t seem to be working.</p>]]>
+      </description>
+      <source:markdown>Btw, Martin: is Frosted currently still available for for testing? The last download link I could find doesn’t seem to be working.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20137:160488</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m7l2yalcms2p</link>
       <description>
         <![CDATA[This rarely seen BBC Master 128 luggable recently sold on eBay. It's a custom build by Paxton Instruments and includes dual 5.25" drives and a green screen monitor. All of the original connectors/ports have been preserved on the back of the unit. This one is also fitted with an SD card device. HEAVY]]>
@@ -36,25 +226,6 @@
       <source:markdown>Lurgy has now almost gone. Back to disk archiving and hopefully discovering some lost gems from the 1980s. These game developer disks were sent to me by R. Fred Williams who worked at Big Red Software and Binary design in Manchester. We bumped into each other at the Retro Event in Cambridge recently</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m7l2anjkts2p</guid>
     </item>    <item>
-      <title>Setting up a new monitor</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20155</link>
-      <description>
-        <![CDATA[<p>edid-decode can now output in <span class="caps">RISC</span> OS <span class="caps">MDF</span> format. Download again from <a href="https://riscosports.co.uk/edid-decode.zip">here</a>.</p>
-        <pre>
-        <code>
-        *edid-decode -L -R Resources:$.Resources.ScreenMode.Monitors.EDID0 2&gt;mdf.txt
-        </code>
-        </pre>]]>
-      </description>
-      <source:markdown>edid-decode can now output in RISC OS MDF format. Download again from [here](https://riscosports.co.uk/edid-decode.zip).
-
-```
-
-*edid-decode -L -R Resources:$.Resources.ScreenMode.Monitors.EDID0 2&#62;mdf.txt
-
-```</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20155:160469</guid>
-    </item>    <item>
       <title>Ilitek-tp touchscreen</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20166</link>
       <description>
@@ -77,20 +248,6 @@ Also don’t think the USB ports on the main board (not the Rpi4) were working w
 
 If i can’t get it working with RISC OS then it may get used as a Pi-Core music player.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20166:160467</guid>
-    </item>    <item>
-      <title>Clarity Theme ko-fi</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20137</link>
-      <description>
-        <![CDATA[<p>There&#8217;s a first test release of Clarity <a href="https://lym.iconbar.com/downloads/clarity1.zip">here</a>. Please read the ReadMe before installing, as it has some information on what is and isn&#8217;t re-themed, and what other desktop settings need to be applied.</p>
-        <p>This initial release includes toolsprites, other window icons, and most hardware devices that sit on the icon bar. The next release will extend this to directories and files.</p>
-        <p>I hope I&#8217;ve packaged it up correctly &#8211; let me know if you have any problems. If all seems to be working correctly, I&#8217;ll add a download link to the website.</p>]]>
-      </description>
-      <source:markdown>There’s a first test release of Clarity [here](https://lym.iconbar.com/downloads/clarity1.zip). Please read the ReadMe before installing, as it has some information on what is and isn’t re-themed, and what other desktop settings need to be applied.
-
-This initial release includes toolsprites, other window icons, and most hardware devices that sit on the icon bar. The next release will extend this to directories and files.
-
-I hope I’ve packaged it up correctly – let me know if you have any problems. If all seems to be working correctly, I’ll add a download link to the website.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20137:160465</guid>
     </item>    <item>
       <title>Proivde Simple 3D api to basic?</title>
       <link>https://www.riscosopen.org/forum/forums/2/topics/20165</link>
@@ -162,22 +319,6 @@ The main changes from 1.00 are a few updates [from the upstream](https://www.chi
 
 The RISC OS front end now supports the `text_fallback()` function, which allows it to make the characters in the top half of the current RISC OS character set available to games if they wish to make use of them. This improves the text display in a couple of the puzzles. If you’re playing Puzzles on a platform that doesn’t support the UCS lookup tables, or are using an alphabet that doesn’t have the desired glyphs in it, then games will continue to use plain ASCII as before.</source:markdown>
       <guid>cid://www.riscosopen.org:1:19172:160449</guid>
-    </item>    <item>
-      <title>*Count possible issue</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20159</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>The problem seems to occur when the amount of Bytes goes over 2^31.</p>
-        </blockquote>
-        <p>I could understand that affecting the total bytes, but it should not affect the number of files (as seen on page 1).<br />
-        Filecore wont do 2^31 files, with it&#8217;s current configuration.</p>]]>
-      </description>
-      <source:markdown>&#62; The problem seems to occur when the amount of Bytes goes over 2^31.
-
-I could understand that affecting the total bytes, but it should not affect the number of files (as seen on page 1).
-
-Filecore wont do 2^31 files, with it’s current configuration.</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20159:160448</guid>
     </item>    <item>
       <title>List of modules in C</title>
       <link>https://www.riscosopen.org/forum/forums/13/topics/20164</link>
