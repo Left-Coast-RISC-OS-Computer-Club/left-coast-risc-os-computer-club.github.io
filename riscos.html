@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.18" >
-  <meta name="date" content="2025-12-10T12:00:25-08:00" >
-  <link type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" >
+  <meta name="date" content="2025-12-11T12:00:31-08:00" >
+  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
   <header>
@@ -20,6 +20,177 @@
   </nav>
   <section>
 
+    <article data-published="2025-12-11T19:28:08Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20168">
+      <h1>Downtime</h1>
+
+(date: 2025-12-11)
+      <p>
+      <p>Zero-hour notice, apologies. Busy week and it slipped my mind to post this sooner – we’re doing some server updates and there will be brief downtime round about now. It’s a question of coordinating a decent overlap between UK and NZ time.</p>
+<p>Hopefully nobody will notice as we expect only a brief hiccup!</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20168">https://www.riscosopen.org/forum/forums/1/topics/20168</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-11T18:57:48Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13538&page=1#125860">
+      <h1>RISC OS 'Advent' Calendar 2025 - David Pitt's Festive RISC OS Paint tip</h1>
+
+(date: 2025-12-11)
+      <p>
+      <p>When the text size gets really big, you may see some jaggedy edges.</p>
+
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13538&page=1#125860">http://www.iconbar.com/forums/viewthread.php?threadid=13538&page=1#125860</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-11T18:07:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3m7q64qhkb22x">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2025-12-11)
+      <p>
+      <p>Been busy recently with an electrical project that involved lots of intricate wire routing, but really struggled with soldering the cables now they're all in place.</p>
+<p>Just realised they're not copper, they're bleedin' copperised aluminium. 🤬🔥☹️😭<a href="https://media.tenor.com/vui2TXEoHasAAAAC/the-shining-jack-nicholson.gif?hh=278&amp;ww=498">https://media.tenor.com/vui2TXEoHasAAAAC/the-shining-jack-nicholson.gif?hh=278&amp;ww=498</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3m7q64qhkb22x">https://bsky.app/profile/nemo20000.bsky.social/post/3m7q64qhkb22x</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-11T16:43:34Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20167">
+      <h1>Iyonix SCSI Card Support</h1>
+
+(date: 2025-12-11)
+      <p>
+      <p>I recently picked up an Acorn AKA31 SCSI card to use with a failing IDE bus on my Iyonix. For the life of me I still can’t work out what’s wrong with the IDE bus itself. Anyway, I ordered the 32-bit ROM from ROOL and followed all the instructions to get a hard drive recognised under RISC OS 5.</p>
+<p>Fast-forward a few weeks: after testing various SCSI-II and Ultra160 drives (68-pin and 80-pin with adapters and terminators), nothing “spinning-rust” will show up under *Devices as a Direct Access Device. On the Iyonix running RO5, the card always reports them as either a printer or a processor, usually with some ridiculous capacity measured in petabytes!</p>
+<p>Since I have a fair number of Risc PCs, I did further testing with the same card. ROOL suggested by email that UltraSCSI wouldn’t work and that their testing was done with SCSI-II — which I have tried — but I’d still like to understand how ROOL tested the Iyonix and managed to get this working.</p>
+<p><strong>Test 1:</strong></p>
+<p>RISC OS 5 on a Risc PC with a StrongARM 300 MHz and an IBMDCAS 50-pin 9 GB drive. Detected instantly and formatted using Jon Abbott’s Partition Manager. Perfect — so it’s not an RO5 issue or a drive issue.</p>
+<p><strong>Test 2:</strong></p>
+<p>RISC OS Select 4.38 (v5) on a Kinetic DMA system with a Quantum Atlas V5 Ultra160 68-pin 18 GB drive. This setup had a SharedCLibrary conflict with Select, so I had to unplug the ROM version and use the newer one on the SCSI card. Again, instantly detected and formatted, with DMA working.</p>
+<p>So UltraSCSI-3, SCSI-II drives, RO5 and Select — all fine.</p>
+<p>Which raises the question: why is the Iyonix so awkward, and can ROOL actually fix this?</p>
+<p>I don’t understand why the behaviour is so different when the OS is the same. The only conclusion I can come to is that it must be conflicting with the SCSIFS system the Iyonix uses for USB.</p>
+<p>Any thoughts?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20167">https://www.riscosopen.org/forum/forums/11/topics/20167</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-11T14:05:14Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20137">
+      <h1>Clarity Theme ko-fi</h1>
+
+(date: 2025-12-11)
+      <p>
+      <blockquote>
+<p>I’ve played with a few other themes now, and the effect is the same if the ‘Protect theme icons’ option is set: you lose any sprites that aren’t present in the new theme. Whether or not that’s the intended behaviour, it means that new theme designs can’t safely supply a small subset of graphics – ideally, the minimal set would have everything that the ROM sprites set does.</p>
+</blockquote>
+<p>That’s right; the absolute minimum sprite set must be provided (the theme setup plugin isn’t going to invent sprites to fill in any holes). The list is explained in <strong>Icon set</strong> in PRM3, though since it predates the stuff that got added to Ursula it’s probably easier just to look at one of the ROM sets like <a href="https://gitlab.riscosopen.org/RiscOS/Sources/Desktop/Wimp/-/tree/master/Resources/UK/Sovereign">Sovereign</a> than reading that.</p>
+<p>By all means provide <em>more</em> sprites (see the ‘DiscSprites’ subdirectory from the above link) for more applications and more file types, but not less than the ROM set of 168.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20137">https://www.riscosopen.org/forum/forums/1/topics/20137</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-11T12:19:00Z" data-link="https://bsky.app/profile/riscosbits.co.uk/post/3m7pkofawf22q">
+      <h1>@riscosbits.co.uk</h1>
+
+(date: 2025-12-11)
+      <p>
+      <p>Just 24hrs to go! Is this going to be the #RISC_OS bargain of the year? We're full of #ChristmasSpirit (hic), so it may just be!</p>
+<p>#BuyingMyOwnPresents
+#RISCOSComputers
+#ModernRetro
+#We_Wish_You_A_RISCOS_Christmas
+#And_A_Linux_New_Year?</p>
+
+      <address>
+        <a href="https://bsky.app/profile/riscosbits.co.uk/post/3m7pkofawf22q">https://bsky.app/profile/riscosbits.co.uk/post/3m7pkofawf22q</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-11T10:27:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3m7pefxgx7s2t">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-12-11)
+      <p>
+      <p>RISC OS 'Advent' Calendar 2025 - David Pitt's Festive RISC OS Paint tip</p>
+<p><a href="http://www.iconbar.com/comments/rss/news2283.html">www.iconbar.com/comments/rss/news2283.html</a></p>
+<p>David also has an excellent festive tip for Paint users (It's not too late to send us your advent entry).<a href="https://www.iconbar.com/comments/rss/news2283.html">https://www.iconbar.com/comments/rss/news2283.html</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3m7pefxgx7s2t">https://bsky.app/profile/iconbar.com/post/3m7pefxgx7s2t</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-11T09:49:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3m7pcchmk3k23">
+      <h1>@colinhoad.com</h1>
+
+(date: 2025-12-11)
+      <p>
+      <p>SAVE THE DATE! ABUG North will be at a new venue in 2026 (6th &amp; 7th Feb) - more details on Stardot here: <a href="https://www.stardot.org.uk/forums/viewtopic.php?p=472092#p472092">https://www.stardot.org.uk/forums/viewtopic.php?p=472092#p472092</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3m7pcchmk3k23">https://bsky.app/profile/colinhoad.com/post/3m7pcchmk3k23</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-11T09:02:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3m7p7o2trcs2z">
+      <h1>@colinhoad.com</h1>
+
+(date: 2025-12-11)
+      <p>
+      <p>It's Day 11 in the Big Cascade House, who's up for eviction from the gaming world today? youtu.be/pL6o8J8-1Z0<a href="https://youtu.be/pL6o8J8-1Z0">https://youtu.be/pL6o8J8-1Z0</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3m7p7o2trcs2z">https://bsky.app/profile/colinhoad.com/post/3m7p7o2trcs2z</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-11T07:15:00Z" data-link="https://bsky.app/profile/riscosbits.co.uk/post/3m7ozopetms2a">
+      <h1>@riscosbits.co.uk</h1>
+
+(date: 2025-12-11)
+      <p>
+      <p>It's nearly time to unwrap our little #RISC_OS present. Friday 12th at midday. For those of you lucky enough to snap up the limited stock, it'll be worth the wait. So don't be a #Grinch or a slouch on Friday!</p>
+<p>#RISC_OS
+#Unwrapped
+#BestPresentEver</p>
+
+      <address>
+        <a href="https://bsky.app/profile/riscosbits.co.uk/post/3m7ozopetms2a">https://bsky.app/profile/riscosbits.co.uk/post/3m7ozopetms2a</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-11T06:51:00Z" data-link="http://www.iconbar.com/comments/rss/news2283.html">
+      <h1>RISC OS 'Advent' Calendar 2025 - David Pitt's Festive RISC OS Paint tip</h1>
+
+(date: 2025-12-11)
+      <p>
+      <p>David also has an excellent festive tip for Paint users (It's not too late to send us your advent entry).</p>
+
+      <address>
+        <a href="http://www.iconbar.com/comments/rss/news2283.html">http://www.iconbar.com/comments/rss/news2283.html</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-10T23:32:27Z" data-link="https://www.riscosopen.org/forum/forums/2/topics/20163">
+      <h1>Allow creation of surfaces.</h1>
+
+(date: 2025-12-10)
+      <p>
+      <p>There is a quick introduction to printing on RISC OS, with some example programs, at <a href="http://www.tofla.iconbar.com/tofla/prn/bsp/index.htm">http://www.tofla.iconbar.com/tofla/prn/bsp/index.htm</a></p>
+<p>I think that article originally appeared in <em>Acorn Computing</em> magazine back in the 90s, but like most things RISC OS, things haven’t changed much since then :)</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/2/topics/20163">https://www.riscosopen.org/forum/forums/2/topics/20163</a>
+      </address>
+    </article>
+
     <article data-published="2025-12-10T15:36:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3m7nf7zgdzs2g">
       <h1>@iconbar.com</h1>
 
@@ -31,6 +202,21 @@
 
       <address>
         <a href="https://bsky.app/profile/iconbar.com/post/3m7nf7zgdzs2g">https://bsky.app/profile/iconbar.com/post/3m7nf7zgdzs2g</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-10T13:55:28Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20155">
+      <h1>Setting up a new monitor</h1>
+
+(date: 2025-12-10)
+      <p>
+      <blockquote>
+<p>Perhaps a useful facility for RISC OS would be to be able to substitute a user-supplied EDID definition block during boot (pre-desktop).</p>
+</blockquote>
+<p>You can already do that. EDID blob files (with filetype &amp;F76) can be used in all the places an MDF can – you can drag and drop onto Display Manager’s icon bar icon, or <code>*LoadModeFile</code> it, and the monitor list shown in !Configure can chew them too if placed somewhere in the BootResources:Configure.Monitors to be scanned with the others.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20155">https://www.riscosopen.org/forum/forums/11/topics/20155</a>
       </address>
     </article>
 
@@ -74,57 +260,6 @@
       </address>
     </article>
 
-    <article data-published="2025-12-10T01:04:15Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20155">
-      <h1>Setting up a new monitor</h1>
-
-(date: 2025-12-10)
-      <p>
-      <p>The edid.dat file that I posted here from Ubuntu was the full file for one monitor. Under certain circumstances the EDID is been parsed as invalid:</p>
-<p>Warnings:</p>
-<p>Block 1, CTA-861 Extension Block:</p>
-<p>Video Capability Data Block: IT scan behavior is expected to support underscanned.</p>
-<p>Video Capability Data Block: S_PT is equal to S_IT and S_CE, so should be set to 0 instead.</p>
-<p>EDID:</p>
-<p>Calculated image size is 796.6×333.5mm, EDID image size is 790.0×350.0mm.</p>
-<p>Failures:</p>
-<p>Block 1, CTA-861 Extension Block:</p>
-<p>Colorimetry Data Block: Reserved bits MD0-MD3 must be 0.</p>
-<p>Video Capability Data Block: IT video formats are always overscanned, but bit 7 of Byte 3 of the CTA-861 Extension header is set to underscanned.</p>
-<p>YCbCr 4:2:0 Capability Map Data Block: Empty Capability Map.</p>
-<p>EDID:</p>
-<p>Base EDID: Some timings are out of range of the Monitor Ranges:</p>
-<p>Vertical Freq: 50.000 – 120.000 Hz (Monitor: 48.000 – 100.000 Hz)</p>
-<p>CTA-861: Native progressive timings are a mix of several resolutions.</p>
-<p>EDID conformity: FAIL</p>
-<p>And…</p>
-<p>edid-decode SHA: 84ddf9155376 2021-10-03 10:37:45</p>
-<p>Warnings:</p>
-<p>Block 1, CTA-861 Extension Block:</p>
-<p>Video Capability Data Block: S_PT is equal to S_IT and S_CE, so should be set to 0 instead.</p>
-<p>EDID:</p>
-<p>Base EDID: Some timings are out of range of the Monitor Ranges:</p>
-<p>Horizontal Freq: 31.250 – 265.679 kHz (Monitor: 250.000 – 250.000 kHz)</p>
-<p>Failures:</p>
-<p>EDID:</p>
-<p>CTA-861: Native progressive timings are a mix of several resolutions.</p>
-<p>DisplayID: Missing DisplayID Product Identification Data Block.</p>
-<p>DisplayID: Missing DisplayID Display Parameters Data Block.</p>
-<p>DisplayID: Missing DisplayID Display Interface Features Data Block.</p>
-<p>DisplayID: DisplayID expects at least one preferred timing.</p>
-<p>EDID conformity: FAIL</p>
-<p>Is that why RO’s edid.dat file was cut short?</p>
-<p>Fortunately, I have managed to get edid.dat from Ubuntu and make RISC-OS use that file.</p>
-<p>I had earlier manually generated all the modes that my monitor specification sheet said it could, using Chris’s port of the cvt tool. Some modes were giving a blank screen and I couldn’t be sure that the manually created cvt mdf was correct or if more “work” needed to be done in config.txt to allow the screen mode to work.</p>
-<p>I have generated an mdf file from Ubuntu’s transferred edid.dat from savemodefile. I will use that initially in preference to the cvt generated mode files to fix up my config.txt.</p>
-<p>I’ve noticed the OS rounding up modes from say 59.94Hz to 60Hz before and see it again. BTW: This isn’t a good idea.</p>
-<p>edid-decode on the edid.dat file produces identical output from Ubuntu as from Chris’s port of edid-decode (first release of the port) on RISC-OS so that’s good.</p>
-<p>Thanks everyone.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20155">https://www.riscosopen.org/forum/forums/11/topics/20155</a>
-      </address>
-    </article>
-
     <article data-published="2025-12-09T22:02:51Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20159">
       <h1>*Count possible issue</h1>
 
@@ -134,18 +269,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/4/topics/20159">https://www.riscosopen.org/forum/forums/4/topics/20159</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-09T21:55:39Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20137">
-      <h1>Clarity Theme ko-fi</h1>
-
-(date: 2025-12-09)
-      <p>
-      <p>Btw, Martin: is Frosted currently still available for for testing? The last download link I could find doesn’t seem to be working.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20137">https://www.riscosopen.org/forum/forums/1/topics/20137</a>
       </address>
     </article>
 
@@ -238,18 +361,6 @@
 
       <address>
         <a href="https://bsky.app/profile/colinhoad.com/post/3m7k6vhuhwc2q">https://bsky.app/profile/colinhoad.com/post/3m7k6vhuhwc2q</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-09T00:16:23Z" data-link="https://www.riscosopen.org/forum/forums/2/topics/20163">
-      <h1>Allow creation of surfaces.</h1>
-
-(date: 2025-12-09)
-      <p>
-      <p>Works perfectly well as is.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/2/topics/20163">https://www.riscosopen.org/forum/forums/2/topics/20163</a>
       </address>
     </article>
 
