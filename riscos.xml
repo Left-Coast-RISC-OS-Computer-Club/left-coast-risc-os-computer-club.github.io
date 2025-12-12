@@ -7,20 +7,237 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>11 Dec 25 12:00 -0800</lastBuildDate>
+    <lastBuildDate>12 Dec 25 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Allow creation of surfaces.</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20163</link>
+      <description>
+        <![CDATA[<p>Thank you!-  I need to read the manual.</p>
+        <p>(&#8216;&#8217;removed misunderstanding.. Not my week&#8217;&#8217;)</p>]]>
+      </description>
+      <source:markdown>Thank you!- I need to read the manual.
+
+(‘’removed misunderstanding.. Not my week’’)</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20163:160550</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m7sa7osvys22</link>
+      <description>
+        <![CDATA[RIP Stanley Baxter. This BBC Micro advert was a classic.
+        https://www.youtube.com/watch?v=CPdx5P1izwI]]>
+      </description>
+      <source:markdown>RIP Stanley Baxter. This BBC Micro advert was a classic.
+https://www.youtube.com/watch?v=CPdx5P1izwI</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m7sa7osvys22</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m7s4rsn2pk2y</link>
+      <description>
+        <![CDATA[If you've not been following this series, I highly recommend it (again!) It's been so informative, and will make you feel smarter 😁
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>If you&#39;ve not been following this series, I highly recommend it (again!) It&#39;s been so informative, and will make you feel smarter 😁
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7s4rsn2pk2y</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3m7s27fsqbc27</link>
+      <description>
+        <![CDATA[This is a real Christmas Cracker! Stocks are very limited at this price, and only available while the webpage is up. Once the stocks have gone, the page will disappear...
+        
+        riscosbits.co.uk/cracker.htm
+        
+        #risc_os
+        #LimitedOffer
+        #ChristmasCracker
+        #ItsAWrap]]>
+      </description>
+      <source:markdown>This is a real Christmas Cracker! Stocks are very limited at this price, and only available while the webpage is up. Once the stocks have gone, the page will disappear...
+
+riscosbits.co.uk/cracker.htm
+
+#risc\_os
+#LimitedOffer
+#ChristmasCracker
+#ItsAWrap</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3m7s27fsqbc27</guid>
+    </item>    <item>
+      <title>Rob Napier, Acorn Biographer – ROUGOL meeting, 15th December</title>
+      <link>https://www.riscository.com/2025/acorn-biographer-rougol-15th-december/</link>
+      <description>
+        <![CDATA[This Monday will see an incredibly rare event take place &#8211; so rare, in fact, that there are more dentists for hens than occurences like this: The RISC OS User Group of London (ROUGOL) will hold a December meeting, with Rob Napier taking the virtual podium to talk about his current work-in-progress, an Acorn biography. Beaming himself from Nicholson, a small hamlet 300km from Melbourne, Australia, the meeting will be held online only, via Zoom &#8211; details below. Serving in the Air Force until four decades ago, Rob resigned his&#8230;]]>
+      </description>
+      <source:markdown>This Monday will see an incredibly rare event take place – so rare, in fact, that there are more dentists for hens than occurences like this: The RISC OS User Group of London (ROUGOL) will hold a December meeting, with Rob Napier taking the virtual podium to talk about his current work-in-progress, an Acorn biography. Beaming himself from Nicholson, a small hamlet 300km from Melbourne, Australia, the meeting will be held online only, via Zoom – details below. Serving in the Air Force until four decades ago, Rob resigned his…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10830</guid>
+    </item>    <item>
+      <title>RISCOSbits Christmas Cracker</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20169</link>
+      <description>
+        <![CDATA[<p><strong>Bag yourself a RISCOSbits Chimera Christmas Cracker Edition for just £349 by taking advantage of a very limited Festive release!</strong></p>
+        <p>This Christmas, unwrap something truly special: a proper <span class="caps">RISC</span> OS desktop system that feels like a gift every time it powers on. The Chimera Christmas Cracker Edition is a special seasonal version of our flexible modular system, offered at a festive price and delivered fully built, configured, and ready to enjoy straight out of the Christmas box. The ideal Christmas Present!</p>
+        <p>At its heart sits a 4GB Raspberry Pi Compute Module 4 (an upgrade from the standard 2GB head found on the traditional Chimera), running <span class="caps">RISC</span> OS 5.30 directly from firmware on its onboard eMMC — it&#8217;s fast, reliable, and refreshingly uncomplicated. Storage is handled by a generous 256GB NVMe drive, which means rapid booting, smooth file transfers, and a level of responsiveness that makes the whole machine feel like freshly fallen snow: clean, crisp, and surprisingly even! It’s the ideal machine for anyone who wants to sit down with a mug of luxury hot chocolate and simply get on with using <span class="caps">RISC</span> OS, without the fiddly setup and configuration that can sometimes take the sparkle out of new hardware.</p>
+        <p>Under the tinsel, the Chimera platform itself offers a solid basic specification designed for dependable daily use. You get <span class="caps">HDMI</span> output for modern displays, two front and two rear <span class="caps">USB</span> ports for your keyboard, mouse, and storage devices, and wired gigabit network connectivity for smooth internet access and file sharing. The externally-powered Mini-<span class="caps">ITX</span> enclosure keeps things cool and quiet, like a silent night, while offering stable desk-ready hardware that doesn’t displace the baubles on your workspace. This is a system built to be practical, expandable, and straightforward — no elves required.</p>
+        <p>This edition is supplied in a neatly finished Mini-<span class="caps">ITX</span> case with that external power supply and is small enough to sit beside a tree or tuck neatly under your desk, but still smart and sturdy enough to serve as your everyday <span class="caps">RISC</span> OS system. And powering it works in exactly the same way as any other Mini-<span class="caps">ITX</span> system. With easy access to both the top and the bottom of the motherboard, for swift hardware changes, you just plug it in, add a keyboard, mouse and screen, press the power button and you’ve got a calm, reliable workstation for writing letters to Santa, sending your Round Robin Christmas email, composing a new Christmas Number One, and everything else that makes <span class="caps">RISC</span> OS such a Joy.</p>
+        <p>Although this Christmas offer is focused on a single head for pure, straightforward <span class="caps">RISC</span> OS computing, the magic of Chimera is that it is a gift that can keep on giving. The system has expansion capacity for up to <span class="caps">FIVE</span> additional heads, giving you the option, whenever you feel like treating yourself again, to add different styles of <span class="caps">RISC</span> OS setups, variants of Raspberry Pi OS, or alternative Linux environments. Today’s stocking filling extravaganza can turn into next year’s full-sized tech sleigh, complete with a Santa sack of heads ready to switch, swap, and evolve as your needs change.</p>
+        <p>This festive edition isn’t just affordable enough to appeal to Scrooge (at well over £100 off the price of a standard Chimera), it’s a way to step into the New Year with a <span class="caps">RISC</span> OS system that grows as you do. Whether you’re returning to <span class="caps">RISC</span> OS after some time away, upgrading from older hardware, or selecting a present for someone who still remembers their first Acorn machine from a Christmas Past with a little seasonal glow, this Chimera makes an excellent choice. There are no distractions, no coal in the stocking — just solid performance, thoughtful design, and room to expand when the Christmas Spirit moves you.</p>
+        <p>Let Rudolph the Red Nosed Postie bring home your Chimera Christmas Cracker for just £349 while our very limited stocks last — because the best presents are the ones that keep on giving long after the Christmas lights have been taken down, and well into the Christmas Future.</p>
+        <p>Cratchitt while you can! Just click <a href="https://www.riscosbits.co.uk/cracker.htm">here</a> for details!</p>]]>
+      </description>
+      <source:markdown>**Bag yourself a RISCOSbits Chimera Christmas Cracker Edition for just £349 by taking advantage of a very limited Festive release!**
+
+This Christmas, unwrap something truly special: a proper RISC OS desktop system that feels like a gift every time it powers on. The Chimera Christmas Cracker Edition is a special seasonal version of our flexible modular system, offered at a festive price and delivered fully built, configured, and ready to enjoy straight out of the Christmas box. The ideal Christmas Present!
+
+At its heart sits a 4GB Raspberry Pi Compute Module 4 (an upgrade from the standard 2GB head found on the traditional Chimera), running RISC OS 5.30 directly from firmware on its onboard eMMC — it’s fast, reliable, and refreshingly uncomplicated. Storage is handled by a generous 256GB NVMe drive, which means rapid booting, smooth file transfers, and a level of responsiveness that makes the whole machine feel like freshly fallen snow: clean, crisp, and surprisingly even! It’s the ideal machine for anyone who wants to sit down with a mug of luxury hot chocolate and simply get on with using RISC OS, without the fiddly setup and configuration that can sometimes take the sparkle out of new hardware.
+
+Under the tinsel, the Chimera platform itself offers a solid basic specification designed for dependable daily use. You get HDMI output for modern displays, two front and two rear USB ports for your keyboard, mouse, and storage devices, and wired gigabit network connectivity for smooth internet access and file sharing. The externally-powered Mini-ITX enclosure keeps things cool and quiet, like a silent night, while offering stable desk-ready hardware that doesn’t displace the baubles on your workspace. This is a system built to be practical, expandable, and straightforward — no elves required.
+
+This edition is supplied in a neatly finished Mini-ITX case with that external power supply and is small enough to sit beside a tree or tuck neatly under your desk, but still smart and sturdy enough to serve as your everyday RISC OS system. And powering it works in exactly the same way as any other Mini-ITX system. With easy access to both the top and the bottom of the motherboard, for swift hardware changes, you just plug it in, add a keyboard, mouse and screen, press the power button and you’ve got a calm, reliable workstation for writing letters to Santa, sending your Round Robin Christmas email, composing a new Christmas Number One, and everything else that makes RISC OS such a Joy.
+
+Although this Christmas offer is focused on a single head for pure, straightforward RISC OS computing, the magic of Chimera is that it is a gift that can keep on giving. The system has expansion capacity for up to FIVE additional heads, giving you the option, whenever you feel like treating yourself again, to add different styles of RISC OS setups, variants of Raspberry Pi OS, or alternative Linux environments. Today’s stocking filling extravaganza can turn into next year’s full-sized tech sleigh, complete with a Santa sack of heads ready to switch, swap, and evolve as your needs change.
+
+This festive edition isn’t just affordable enough to appeal to Scrooge (at well over £100 off the price of a standard Chimera), it’s a way to step into the New Year with a RISC OS system that grows as you do. Whether you’re returning to RISC OS after some time away, upgrading from older hardware, or selecting a present for someone who still remembers their first Acorn machine from a Christmas Past with a little seasonal glow, this Chimera makes an excellent choice. There are no distractions, no coal in the stocking — just solid performance, thoughtful design, and room to expand when the Christmas Spirit moves you.
+
+Let Rudolph the Red Nosed Postie bring home your Chimera Christmas Cracker for just £349 while our very limited stocks last — because the best presents are the ones that keep on giving long after the Christmas lights have been taken down, and well into the Christmas Future.
+
+Cratchitt while you can! Just click [here](https://www.riscosbits.co.uk/cracker.htm) for details!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20169:160548</guid>
+    </item>    <item>
+      <title>RISCOSbits hopes you’ll go crackers for a Christmas Chimera</title>
+      <link>https://www.riscository.com/2025/riscosbits-christmas-chimera/</link>
+      <description>
+        <![CDATA[A pet mythical beast that&#8217;s for life, not just for Christmas With Christmas fast approaching, there&#8217;s a festive funbox available from RISCOSbits for a limited period. The RISCOSbits Chimera Christmas Cracker Edition (easier written than said &#8211; especially after those Christmas drinks) will be available for a limited period from today. The seasonal special edition of the Chimera machine will be delivered fully built and configured &#8211; so it&#8217;s ready to plug in and use as soon as it&#8217;s unwrapped. Based around a Raspberry Compute Module 4 with 4GB RAM&#8230;]]>
+      </description>
+      <source:markdown>A pet mythical beast that’s for life, not just for Christmas With Christmas fast approaching, there’s a festive funbox available from RISCOSbits for a limited period. The RISCOSbits Chimera Christmas Cracker Edition (easier written than said – especially after those Christmas drinks) will be available for a limited period from today. The seasonal special edition of the Chimera machine will be delivered fully built and configured – so it’s ready to plug in and use as soon as it’s unwrapped. Based around a Raspberry Compute Module 4 with 4GB RAM…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10825</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m7rqjdyzj223</link>
+      <description>
+        <![CDATA[Whoaaa we're halfway thee-eere, whooaaa, livin' on a... Cascade game? Well, it's Day 12 and this is how far we've come:
+        youtu.be/PEbm0EnRprA
+        https://youtu.be/PEbm0EnRprA]]>
+      </description>
+      <source:markdown>Whoaaa we&#39;re halfway thee-eere, whooaaa, livin&#39; on a... Cascade game? Well, it&#39;s Day 12 and this is how far we&#39;ve come:
+youtu.be/PEbm0EnRprA
+https://youtu.be/PEbm0EnRprA</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7rqjdyzj223</guid>
+    </item>    <item>
+      <title>Rougol December 2025 meeting on monday - Rob Napier</title>
+      <link>http://www.iconbar.com/comments/rss/news2263.html</link>
+      <description>
+        <![CDATA[The December 2025 Rougol meeting is on Monday and is a special bonus extra (usually there is no meeting in December) with Rob Napier.]]>
+      </description>
+      <source:markdown>The December 2025 Rougol meeting is on Monday and is a special bonus extra (usually there is no meeting in December) with Rob Napier.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2263.html</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3m7rkiiz4wc2g</link>
+      <description>
+        <![CDATA[RISCOSbits Launches Chimera Christmas Cracker Edition
+        
+        www.iconbar.com/comments/rss/news2282.html
+        
+        RISCOSbits announced a festive variant of its Chimera modular RISC OS system, offering upgraded specs at a reduced price. An ideal Christmas present for someone - or yourself if you've been good…
+        https://www.iconbar.com/comments/rss/news2282.html]]>
+      </description>
+      <source:markdown>RISCOSbits Launches Chimera Christmas Cracker Edition
+
+www.iconbar.com/comments/rss/news2282.html
+
+RISCOSbits announced a festive variant of its Chimera modular RISC OS system, offering upgraded specs at a reduced price. An ideal Christmas present for someone - or yourself if you&#39;ve been good…
+https://www.iconbar.com/comments/rss/news2282.html</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3m7rkiiz4wc2g</guid>
+    </item>    <item>
+      <title>RISCOSbits Launches Chimera Christmas Cracker Edition</title>
+      <link>http://www.iconbar.com/comments/rss/news2282.html</link>
+      <description>
+        <![CDATA[RISCOSbits has announced a limited-run festive variant of its Chimera modular RISC OS system, offering upgraded specifications at a significantly reduced price point. It makes an ideal Christmas present for someone or even yourself (you have been very good this year!).]]>
+      </description>
+      <source:markdown>RISCOSbits has announced a limited-run festive variant of its Chimera modular RISC OS system, offering upgraded specifications at a significantly reduced price point. It makes an ideal Christmas present for someone or even yourself (you have been very good this year!).</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2282.html</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3m7r33pxxr22c</link>
+      <description>
+        <![CDATA[Coming up this Monday! We are hopeful that some of Rob's Acorn colleagues will also be joining the chat 😃
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Coming up this Monday! We are hopeful that some of Rob&#39;s Acorn colleagues will also be joining the chat 😃
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3m7r33pxxr22c</guid>
+    </item>    <item>
+      <title>Acorn biographer at ROUGOL, Mon 15th Dec 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20149</link>
+      <description>
+        <![CDATA[<p>Reminder that the meeting is this coming Monday. As an extra enticement, some of Rob&#8217;s former colleagues/interviewees might be joining us too :-)</p>]]>
+      </description>
+      <source:markdown>Reminder that the meeting is this coming Monday. As an extra enticement, some of Rob’s former colleagues/interviewees might be joining us too :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20149:160546</guid>
+    </item>    <item>
       <title>Downtime</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20168</link>
       <description>
-        <![CDATA[<p>Zero-hour notice, apologies. Busy week and it slipped my mind to post this sooner &#8211; we&#8217;re doing some server updates and there will be brief downtime round about now. It&#8217;s a question of coordinating a decent overlap between UK and NZ time.</p>
-        <p>Hopefully nobody will notice as we expect only a brief hiccup!</p>]]>
+        <![CDATA[<p>All done.</p>]]>
       </description>
-      <source:markdown>Zero-hour notice, apologies. Busy week and it slipped my mind to post this sooner – we’re doing some server updates and there will be brief downtime round about now. It’s a question of coordinating a decent overlap between UK and NZ time.
+      <source:markdown>All done.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20168:160544</guid>
+    </item>    <item>
+      <title>ToolboxC++Lib Discussion</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
+      <description>
+        <![CDATA[<p>Just an update. I&#8217;ve recreated from scratch an application to generate code for C++ Desktop applications from a Toolbox res file and interested selectable events. The application is called !Prototype and can be found in the tools directory of the GitHub Repository.</p>]]>
+      </description>
+      <source:markdown>Just an update. I’ve recreated from scratch an application to generate code for C++ Desktop applications from a Toolbox res file and interested selectable events. The application is called !Prototype and can be found in the tools directory of the GitHub Repository.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19910:160543</guid>
+    </item>    <item>
+      <title>SerialUSB 0.16,  Hearsay 2.25.03 and !Serialdev blockdrivers  2.40 released</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/18858</link>
+      <description>
+        <![CDATA[<p>I&#8217;m having difficulty opening the RaspberryPi serial port with Hearsay, things keep hanging. Is it even supposed to work?</p>]]>
+      </description>
+      <source:markdown>I’m having difficulty opening the RaspberryPi serial port with Hearsay, things keep hanging. Is it even supposed to work?</source:markdown>
+      <guid>cid://www.riscosopen.org:1:18858:160536</guid>
+    </item>    <item>
+      <title>Iyonix SCSI Card Support</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20167</link>
+      <description>
+        <![CDATA[<p>I would not recommend <span class="caps">SCSI</span>. I only used it for a brief time when the only 1GB and 2GB drives where <span class="caps">SCSI</span>, but it was nothing but trouble and as soon as larger drives became available I switched back to <span class="caps">IDE</span>, and only kept <span class="caps">SCSI</span> for the massively bulky scanner.</p>]]>
+      </description>
+      <source:markdown>I would not recommend SCSI. I only used it for a brief time when the only 1GB and 2GB drives where SCSI, but it was nothing but trouble and as soon as larger drives became available I switched back to IDE, and only kept SCSI for the massively bulky scanner.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20167:160535</guid>
+    </item>    <item>
+      <title>Obscure wimp sprites</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20161</link>
+      <description>
+        <![CDATA[<p>One thing I&#8217;ve learned while working systematically on sprites is how much better the new Paint is than the older RO5 ones. It&#8217;s far more reliable (I&#8217;ve been using the paintbrush tool all the time, with no crashes), and the new additions are genuinely helpful. In conjunction with ArtWorks, it&#8217;s become a very capable pixel editor. You can still crash it from time to time (deleting sprites from the spritefile window seems to sometimes cause this), but the Bounty improvements are really very impressive.</p>]]>
+      </description>
+      <source:markdown>One thing I’ve learned while working systematically on sprites is how much better the new Paint is than the older RO5 ones. It’s far more reliable (I’ve been using the paintbrush tool all the time, with no crashes), and the new additions are genuinely helpful. In conjunction with ArtWorks, it’s become a very capable pixel editor. You can still crash it from time to time (deleting sprites from the spritefile window seems to sometimes cause this), but the Bounty improvements are really very impressive.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20161:160534</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3m7qeloo6v22l</link>
+      <description>
+        <![CDATA[Yule be sorry if you miss this tree-mendous #RISC_OS cracker - it really is snow joke.  And don't mull it over for too long, or they'll all be gone!
+        
+        Remember, even at Christmas, it's okay to treat yours-elf.
+        
+        I'll get my coat...
+        
+        #puntastic
+        #RISC_OS
+        #LimitedEdition
+        #BeQuick]]>
+      </description>
+      <source:markdown>Yule be sorry if you miss this tree-mendous #RISC\_OS cracker - it really is snow joke. And don&#39;t mull it over for too long, or they&#39;ll all be gone!
 
-Hopefully nobody will notice as we expect only a brief hiccup!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20168:160529</guid>
+Remember, even at Christmas, it&#39;s okay to treat yours-elf.
+
+I&#39;ll get my coat...
+
+#puntastic
+#RISC\_OS
+#LimitedEdition
+#BeQuick</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3m7qeloo6v22l</guid>
     </item>    <item>
       <title>RISC OS &#39;Advent&#39; Calendar 2025 - David Pitt&#39;s Festive RISC OS Paint tip</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13538&#38;page=1#125860</link>
@@ -42,44 +259,6 @@ Hopefully nobody will notice as we expect only a brief hiccup!</source:markdown>
 Just realised they&#39;re not copper, they&#39;re bleedin&#39; copperised aluminium. 🤬🔥☹️😭
 https://media.tenor.com/vui2TXEoHasAAAAC/the-shining-jack-nicholson.gif?hh=278&#38;ww=498</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m7q64qhkb22x</guid>
-    </item>    <item>
-      <title>Iyonix SCSI Card Support</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20167</link>
-      <description>
-        <![CDATA[<p>I recently picked up an Acorn AKA31 <span class="caps">SCSI</span> card to use with a failing <span class="caps">IDE</span> bus on my Iyonix. For the life of me I still can’t work out what’s wrong with the <span class="caps">IDE</span> bus itself. Anyway, I ordered the 32-bit <span class="caps">ROM</span> from <span class="caps">ROOL</span> and followed all the instructions to get a hard drive recognised under <span class="caps">RISC</span> OS 5.</p>
-        <p>Fast-forward a few weeks: after testing various <span class="caps">SCSI</span>-II and Ultra160 drives (68-pin and 80-pin with adapters and terminators), nothing “spinning-rust” will show up under *Devices as a Direct Access Device. On the Iyonix running RO5, the card always reports them as either a printer or a processor, usually with some ridiculous capacity measured in petabytes!</p>
-        <p>Since I have a fair number of Risc PCs, I did further testing with the same card. <span class="caps">ROOL</span> suggested by email that UltraSCSI wouldn’t work and that their testing was done with <span class="caps">SCSI</span>-II — which I have tried — but I’d still like to understand how <span class="caps">ROOL</span> tested the Iyonix and managed to get this working.</p>
-        <p><b>Test 1:</b><br />
-        <span class="caps">RISC</span> OS 5 on a Risc PC with a StrongARM 300 MHz and an <span class="caps">IBM</span> <span class="caps">DCAS</span> 50-pin 9 GB drive. Detected instantly and formatted using Jon Abbott’s Partition Manager. Perfect — so it’s not an RO5 issue or a drive issue.</p>
-        <p><b>Test 2:</b><br />
-        <span class="caps">RISC</span> OS Select 4.38 (v5) on a Kinetic <span class="caps">DMA</span> system with a Quantum Atlas V5 Ultra160 68-pin 18 GB drive. This setup had a SharedCLibrary conflict with Select, so I had to unplug the <span class="caps">ROM</span> version and use the newer one on the <span class="caps">SCSI</span> card. Again, instantly detected and formatted, with <span class="caps">DMA</span> working.</p>
-        <p>So UltraSCSI-3, <span class="caps">SCSI</span>-II drives, RO5 and Select — all fine.</p>
-        <p>Which raises the question: why is the Iyonix so awkward, and can <span class="caps">ROOL</span> actually fix this?<br />
-        I don’t understand why the behaviour is so different when the OS is the same. The only conclusion I can come to is that it must be conflicting with the <span class="caps">SCSIFS</span> system the Iyonix uses for <span class="caps">USB</span>.</p>
-        <p>Any thoughts?</p>]]>
-      </description>
-      <source:markdown>I recently picked up an Acorn AKA31 SCSI card to use with a failing IDE bus on my Iyonix. For the life of me I still can’t work out what’s wrong with the IDE bus itself. Anyway, I ordered the 32-bit ROM from ROOL and followed all the instructions to get a hard drive recognised under RISC OS 5.
-
-Fast-forward a few weeks: after testing various SCSI-II and Ultra160 drives (68-pin and 80-pin with adapters and terminators), nothing “spinning-rust” will show up under \*Devices as a Direct Access Device. On the Iyonix running RO5, the card always reports them as either a printer or a processor, usually with some ridiculous capacity measured in petabytes!
-
-Since I have a fair number of Risc PCs, I did further testing with the same card. ROOL suggested by email that UltraSCSI wouldn’t work and that their testing was done with SCSI-II — which I have tried — but I’d still like to understand how ROOL tested the Iyonix and managed to get this working.
-
-**Test 1:**
-
-RISC OS 5 on a Risc PC with a StrongARM 300 MHz and an IBMDCAS 50-pin 9 GB drive. Detected instantly and formatted using Jon Abbott’s Partition Manager. Perfect — so it’s not an RO5 issue or a drive issue.
-
-**Test 2:**
-
-RISC OS Select 4.38 (v5) on a Kinetic DMA system with a Quantum Atlas V5 Ultra160 68-pin 18 GB drive. This setup had a SharedCLibrary conflict with Select, so I had to unplug the ROM version and use the newer one on the SCSI card. Again, instantly detected and formatted, with DMA working.
-
-So UltraSCSI-3, SCSI-II drives, RO5 and Select — all fine.
-
-Which raises the question: why is the Iyonix so awkward, and can ROOL actually fix this?
-
-I don’t understand why the behaviour is so different when the OS is the same. The only conclusion I can come to is that it must be conflicting with the SCSIFS system the Iyonix uses for USB.
-
-Any thoughts?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20167:160522</guid>
     </item>    <item>
       <title>Clarity Theme ko-fi</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20137</link>
@@ -171,17 +350,6 @@ https://youtu.be/pL6o8J8-1Z0</source:markdown>
       </description>
       <source:markdown>David also has an excellent festive tip for Paint users (It&#39;s not too late to send us your advent entry).</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2283.html</guid>
-    </item>    <item>
-      <title>Allow creation of surfaces.</title>
-      <link>https://www.riscosopen.org/forum/forums/2/topics/20163</link>
-      <description>
-        <![CDATA[<p>There is a quick introduction to printing on <span class="caps">RISC</span> OS, with some example programs, at <a href="http://www.tofla.iconbar.com/tofla/prn/bsp/index.htm">http://www.tofla.iconbar.com/tofla/prn/bsp/index.htm</a></p>
-        <p>I think that article originally appeared in <em>Acorn Computing</em> magazine back in the 90s, but like most things <span class="caps">RISC</span> OS, things haven&#8217;t changed much since then :)</p>]]>
-      </description>
-      <source:markdown>There is a quick introduction to printing on RISC OS, with some example programs, at [http://www.tofla.iconbar.com/tofla/prn/bsp/index.htm](http://www.tofla.iconbar.com/tofla/prn/bsp/index.htm)
-
-I think that article originally appeared in _Acorn Computing_ magazine back in the 90s, but like most things RISC OS, things haven’t changed much since then :)</source:markdown>
-      <guid>cid://www.riscosopen.org:2:20163:160515</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3m7nf7zgdzs2g</link>
       <description>
@@ -529,24 +697,6 @@ https://youtu.be/aTadPdoWI-0</source:markdown>
 
 That’s fine until the **Wimp\_Poll** returns an event that you need to handle immediately… at which point, things can start to get very messy, very quickly… As soon as you start to add things like window redraw, a state machine hanging off Null events is often easier to make work. :-)</source:markdown>
       <guid>cid://www.riscosopen.org:11:20154:160399</guid>
-    </item>    <item>
-      <title>Obscure wimp sprites</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20161</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I don’t know about User1 and User2</p>
-        </blockquote>
-        <blockquote>
-        <p>As I understand it, they’re used if you use “Categories”</p>
-        </blockquote>
-        <p>Yes those are supposed to be two categories reserved for user&#8217;s error types <span class="caps">IIRC</span>. Should be read as User Error type 1 and User Error type 2.</p>]]>
-      </description>
-      <source:markdown>&#62; I don’t know about User1 and User2
-
-&#62; As I understand it, they’re used if you use “Categories”
-
-Yes those are supposed to be two categories reserved for user’s error types IIRC. Should be read as User Error type 1 and User Error type 2.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20161:160397</guid>
     </item>    <item>
       <title>Archive magazines available</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20162</link>
@@ -1344,50 +1494,6 @@ If anyone has any thoughts or suggestions, please drop a line, as these sessions
       </description>
       <source:markdown>After the success of the inaugural RISC OS North show in 2025, picking up the baton from the Wakefield Show, we are pleased to announce the date of the second event as: Saturday, 21st March, 2026 We look forward to welcoming everyone at the same venue as last year: Village Hotel Warrington,110 Centre Park Square,Warrington,WA1 \[…\]</source:markdown>
       <guid>cid://https://www.riscosnorth.uk/?p=576</guid>
-    </item>    <item>
-      <title>Acorn biographer at ROUGOL, Mon 15th Dec 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20149</link>
-      <description>
-        <![CDATA[<p>The next meeting of the <span class="caps">RISC</span> OS User Group Of London is:</p>
-        <p><strong>Acorn Biography</strong>, presented by Rob Napier</p>
-        <p><strong>Monday 15th December 2025, 7.45pm</strong></p>
-        <p><strong>Online only</strong> via Zoom from 7.30pm</p>
-        <p><a href="https://rougol.jellybaby.net/meetings/">https://rougol.jellybaby.net/meetings/</a></p>
-        <p>In a break with tradition, <span class="caps">ROUGOL</span> are having a Christmas meeting! However because the pub is always very busy at this time of year, this will be an <strong><span class="caps">ONLINE</span> <span class="caps">ONLY</span></strong> meeting.</p>
-        <p>We will be joined by Rob Napier, who will be Zooming in from the little hamlet of Nicholson, 300km east of Melbourne. Forty years ago Rob resigned his Air Force commission to join Barson Computers, who were importing Acorn Atoms at the time. Rob then introduced the <span class="caps">BBC</span> Micro to Australia, and wrote the definitive guide to Econet (recently republished, twice!).</p>
-        <p>More recently, when he&#8217;s not driving appliances for the local volunteer fire brigade, and doing whatever chores his wife directs him to do, he spends every waking hour researching and writing <strong>Voices from a Future Passed</strong>, the official biography of Acorn Computers. This will chart the story from the early days of Cambridge Processor Unit through to Acorn&#8217;s rise and transition to <span class="caps">ARM</span> and Element 14, telling the stories through the voices of those who were there.</p>
-        <p>He has been busy chatting to all his old colleagues including Hermann Hauser, Chris Curry, Andy Hopper, Steve Furber, Sophie Wilson, Chris Turner, Brian Cockburn, Hugo Tyson, and many others. He has got all the behind the scenes gossip and collected hundreds of pages of previously confidential information, some of which he will be sharing with us.</p>
-        <p>Rob is planning to keep the formal talk quite short and then let the direction of the meeting be guided by what people want to hear more about. Take a look at the list of chapter titles that are in <a href="https://stardot.org.uk/forums/viewtopic.php?p=468266#p468266">this post</a> on the StarDot forum and have your questions ready.</p>
-        <p>The manuscript is currently going through final acceptance tests and Rob is hoping to have it published next year. Watch this space&#8230;</p>
-        <p>For any queries or to receive the Zoom link (same as previous months) contact us &#8211; <a href="https://rougol.jellybaby.net/contacts/">https://rougol.jellybaby.net/contacts/</a></p>
-        <p>Bryan.</p>]]>
-      </description>
-      <source:markdown>The next meeting of the RISC OS User Group Of London is:
-
-**Acorn Biography**, presented by Rob Napier
-
-**Monday 15th December 2025, 7.45pm**
-
-**Online only** via Zoom from 7.30pm
-
-[https://rougol.jellybaby.net/meetings/](https://rougol.jellybaby.net/meetings/)
-
-In a break with tradition, ROUGOL are having a Christmas meeting! However because the pub is always very busy at this time of year, this will be an **ONLINEONLY** meeting.
-
-We will be joined by Rob Napier, who will be Zooming in from the little hamlet of Nicholson, 300km east of Melbourne. Forty years ago Rob resigned his Air Force commission to join Barson Computers, who were importing Acorn Atoms at the time. Rob then introduced the BBC Micro to Australia, and wrote the definitive guide to Econet (recently republished, twice!).
-
-More recently, when he’s not driving appliances for the local volunteer fire brigade, and doing whatever chores his wife directs him to do, he spends every waking hour researching and writing **Voices from a Future Passed**, the official biography of Acorn Computers. This will chart the story from the early days of Cambridge Processor Unit through to Acorn’s rise and transition to ARM and Element 14, telling the stories through the voices of those who were there.
-
-He has been busy chatting to all his old colleagues including Hermann Hauser, Chris Curry, Andy Hopper, Steve Furber, Sophie Wilson, Chris Turner, Brian Cockburn, Hugo Tyson, and many others. He has got all the behind the scenes gossip and collected hundreds of pages of previously confidential information, some of which he will be sharing with us.
-
-Rob is planning to keep the formal talk quite short and then let the direction of the meeting be guided by what people want to hear more about. Take a look at the list of chapter titles that are in [this post](https://stardot.org.uk/forums/viewtopic.php?p=468266#p468266) on the StarDot forum and have your questions ready.
-
-The manuscript is currently going through final acceptance tests and Rob is hoping to have it published next year. Watch this space…
-
-For any queries or to receive the Zoom link (same as previous months) contact us – [https://rougol.jellybaby.net/contacts/](https://rougol.jellybaby.net/contacts/)
-
-Bryan.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20149:160175</guid>
     </item>    <item>
       <title>AMCOG delivers witness statement about Hugh Bowman to WROCC – 3rd December</title>
       <link>https://www.riscository.com/2025/amcog-hugh-bowman-wrocc-3rd-december/</link>
@@ -3716,14 +3822,6 @@ DEL p@ // delete the record
       <source:markdown>Here&#39;s a Sinclair Microdrive cartridge with a UK pound coin for comparison. We trusted these mini-magnetic tape loops with our valuable data in the 1980s. Totally insane! To be fair, they were actually quite reliable. The tape loop is 5 metres long and stores a minimum of 85 to 100KBytes of data.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m4ye45b3m226</guid>
     </item>    <item>
-      <title>ToolboxC++Lib Discussion</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19910</link>
-      <description>
-        <![CDATA[<p>Yes, one was already in place. If I remember correctly this was when I tried a command line compilation of the hello example. The internal error message was produced when I&#8217;ve tried to run n++ through making a copy and modifying the c++ <span class="caps">DDE</span> front end. The command line shown looks fine, there are a few differences in flags but they were taken care of by changing them in the desc file.</p>]]>
-      </description>
-      <source:markdown>Yes, one was already in place. If I remember correctly this was when I tried a command line compilation of the hello example. The internal error message was produced when I’ve tried to run n++ through making a copy and modifying the c++ DDE front end. The command line shown looks fine, there are a few differences in flags but they were taken care of by changing them in the desc file.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19910:159637</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3m4x7bfxacs2h</link>
       <description>
         <![CDATA[Managed to Harry Potter myself on the corner of a kitchen cabinet this morning ⚡️]]>
@@ -4254,14 +4352,6 @@ ROOL clearly have big plans for the RISC OS DDE</source:markdown>
       </description>
       <source:markdown>ROOL clearly have big plans for the RISC OS DDE....</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2254.html</guid>
-    </item>    <item>
-      <title>SerialUSB 0.16,  Hearsay 2.25.03 and !Serialdev blockdrivers  2.40 released</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/18858</link>
-      <description>
-        <![CDATA[<p>There is an item in the Bugs forum concerning SerialUSB.  Just mentioning it here in case this thread has higher visibility than something in Bugs.</p>]]>
-      </description>
-      <source:markdown>There is an item in the Bugs forum concerning SerialUSB. Just mentioning it here in case this thread has higher visibility than something in Bugs.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:18858:159467</guid>
     </item>    <item>
       <title>SerialUSB causes zero page access</title>
       <link>https://www.riscosopen.org/forum/forums/4/topics/20084</link>
