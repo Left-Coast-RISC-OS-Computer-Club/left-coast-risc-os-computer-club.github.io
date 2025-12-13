@@ -7,10 +7,218 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>12 Dec 25 12:00 -0800</lastBuildDate>
+    <lastBuildDate>13 Dec 25 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m7v76b5myc2k</link>
+      <description>
+        <![CDATA[Remarkably, I found some free time to pick up my OPL language server project again... https://www.colinhoad.com/getting-carried-away-and-how-to-stop-it]]>
+      </description>
+      <source:markdown>Remarkably, I found some free time to pick up my OPL language server project again... https://www.colinhoad.com/getting-carried-away-and-how-to-stop-it</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7v76b5myc2k</guid>
+    </item>    <item>
+      <title>RDPclient with Windows 10</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20005</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve just had the same issue with RDPClient connecting to a new install of Windows 11 Professional 25H2.<br />
+        There were some additional settings that I needed to change to get RDPClient to connect. (I was seeing the same &#8220;connection reset by peer error&#8221;)</p>
+        <p>1. Open <span class="caps">GPEDIT</span>.<span class="caps">MSC</span><br />
+        2. Expand Computer Configuration &gt; Administrative Templates &gt; Windows Components &gt; Remote Desktop Services &gt; Remote Desktop Session Host &gt; Security<br />
+        3. Change &#8220;Set client connection encryption level&#8221; to &#8220;<span class="caps">LOW</span>&#8221;<br />
+        4. Change &quot;Require use of specific security layer for remote (<span class="caps">RDP</span>) connections to &#8220;<span class="caps">RDP</span>&#8221;<br />
+        5. Change &quot;Require user authentication for remote connections by using Network Level Authtication to &#8220;<span class="caps">DISABLED</span>&#8221;<br />
+        6. Reboot the PC</p>
+        <p>Obviously lowering the security defaults for Remote Desktop is a bad idea security wise, so use at your own risk!</p>]]>
+      </description>
+      <source:markdown>I’ve just had the same issue with RDPClient connecting to a new install of Windows 11 Professional 25H2.
+
+There were some additional settings that I needed to change to get RDPClient to connect. (I was seeing the same “connection reset by peer error”)
+
+1\. Open GPEDIT.MSC
+
+2\. Expand Computer Configuration &#62; Administrative Templates &#62; Windows Components &#62; Remote Desktop Services &#62; Remote Desktop Session Host &#62; Security
+
+3\. Change “Set client connection encryption level” to “LOW”
+
+4\. Change &#34;Require use of specific security layer for remote (RDP) connections to “RDP”
+
+5\. Change &#34;Require user authentication for remote connections by using Network Level Authtication to “DISABLED”
+
+6\. Reboot the PC
+
+Obviously lowering the security defaults for Remote Desktop is a bad idea security wise, so use at your own risk!</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20005:160568</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m7uhewozpk2k</link>
+      <description>
+        <![CDATA[This, but code.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>This, but code.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m7uhewozpk2k</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m7ucfsys7c27</link>
+      <description>
+        <![CDATA[Day 13 and we're still going! youtu.be/ZfNyFH90ZrQ
+        https://youtu.be/ZfNyFH90ZrQ]]>
+      </description>
+      <source:markdown>Day 13 and we&#39;re still going! youtu.be/ZfNyFH90ZrQ
+https://youtu.be/ZfNyFH90ZrQ</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7ucfsys7c27</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m7t5353xb22s</link>
+      <description>
+        <![CDATA[Good wire obtained. Rethreading underway. Yes, I do like making it difficult for myself don't I?]]>
+      </description>
+      <source:markdown>Good wire obtained. Rethreading underway. Yes, I do like making it difficult for myself don&#39;t I?</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m7t5353xb22s</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m7t4vnbq722s</link>
+      <description>
+        <![CDATA[My dad just offered to make me a coffee... for the first time in 50 years.
+        
+        And they say people don't change!
+        https://media.tenor.com/QfhuPrcLdgQAAAAC/quite-frankly-im-overwhelmed.gif?hh=202&ww=498]]>
+      </description>
+      <source:markdown>My dad just offered to make me a coffee... for the first time in 50 years.
+
+And they say people don&#39;t change!
+https://media.tenor.com/QfhuPrcLdgQAAAAC/quite-frankly-im-overwhelmed.gif?hh=202&#38;ww=498</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m7t4vnbq722s</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3m7t3f4q2ps2r</link>
+      <description>
+        <![CDATA[Rougol December 2025 meeting on monday - Rob Napier
+        
+        www.iconbar.com/comments/rss/news2263.html
+        
+        The December 2025 Rougol meeting is on Monday and is a special bonus extra (usually there is no meeting in December) with Rob Napier.
+        https://www.iconbar.com/comments/rss/news2263.html]]>
+      </description>
+      <source:markdown>Rougol December 2025 meeting on monday - Rob Napier
+
+www.iconbar.com/comments/rss/news2263.html
+
+The December 2025 Rougol meeting is on Monday and is a special bonus extra (usually there is no meeting in December) with Rob Napier.
+https://www.iconbar.com/comments/rss/news2263.html</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3m7t3f4q2ps2r</guid>
+    </item>    <item>
+      <title>Status update for RISC OS 64-bit work</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20171</link>
+      <description>
+        <![CDATA[<p>It&#8217;s been about 5 weeks since I did a status update on the 64-bit <span class="caps">RISC</span> OS work.</p>
+        <ul>
+        	<li>The Wimp Templates subcomponent was worked on as part of the Live Coding and is now complete &#8211; See <a href="https://github.com/gerph/riscos-wimp-templates">https://github.com/gerph/riscos-wimp-templates</a> for the details.</li>
+        	<li>The `riscos64-status` repository has been updated with a few things:
+        	<ul>
+        		<li>`PicoC` is noted as a ported language.</li>
+        		<li>`Lua` is noted as a ported language.</li>
+        		<li>`<span class="caps">TCC</span>` is noted as a ported implementation of a C compiler.</li>
+        		<li>`<span class="caps">GCC</span>` was removed from the ported implementations (it&#8217;s not ported, but is usable to build for <span class="caps">RISC</span> OS 64, and had been misplaced).</li>
+        		<li>`Pascal` is noted as a ported language (using the P2C tool).</li>
+        		<li>`Rust` is noted as having been prototyped for use with <span class="caps">RISC</span> OS 64.</li>
+        		<li>All the feature documents for component now include completion percentages on their pages.</li>
+        	</ul></li>
+        	<li>The `Kernel: Modules` subcomponent had been started.</li>
+        	<li>The `EvaluateExpression` module has been stubbed.</li>
+        	<li>The `<span class="caps">IIC</span>` module has been stubbed.</li>
+        	<li>The `OSSWIs` module has been stubbed.</li>
+        	<li>The hourglass maker has been ported to <span class="caps">RISC</span> OS 64. See <a href="https://github.com/gerph/riscos-hourglass-maker">https://github.com/gerph/riscos-hourglass-maker</a> for details.
+        	<ul>
+        		<li>The module can be found in the `riscos64-status` repository as with many others.</li>
+        	</ul></li>
+        	<li>The Pascal-to-C implementation is being worked into the build environment.</li>
+        	<li>I presented the general status of <span class="caps">RISC</span> OS 64 work to <span class="caps">ROUGOL</span>, and the presentation is available on YouTube and through my presentation site. See <a href="https://presentations.riscos.online/pyromaniac4/index.html">https://presentations.riscos.online/pyromaniac4/index.…</a> for video, slides and resource links.</li>
+        	<li><span class="caps">RISC</span> OS Pyromaniac screenshots and videos were updated with the details of the changes and work towards 64-bit. See <a href="https://pyromaniac.riscos.online/examples.html#talk2025">https://pyromaniac.riscos.online/examples.html#talk2025</a> for images and videos.</li>
+        	<li>The <span class="caps">RISC</span> OS 64-bit C library has been updated with better handling of linking hidden and internal symbols, and `fgetc` now works properly. See <a href="https://github.com/gerph/riscos64-clib">https://github.com/gerph/riscos64-clib</a> for details.</li>
+        	<li>`objasm2gas` tool has been updated to handle `:<span class="caps">INDEX</span>:` and `:<span class="caps">BASE</span>:` (as well as the `@` metavariable), and fix problems with field mappings using registers not being calculated as expressions.</li>
+        	<li>The `Kernel: Introspection` component will be the next live coding project.</li>
+        </ul>
+        <p>Anyhow, that’s where things are for me. You can always follow the repositories to see what’s being done.</p>
+        <p>As usual, if anyone wants to contribute to these, please speak up.</p>]]>
+      </description>
+      <source:markdown>It’s been about 5 weeks since I did a status update on the 64-bit RISC OS work.
+
+- The Wimp Templates subcomponent was worked on as part of the Live Coding and is now complete – See [https://github.com/gerph/riscos-wimp-templates](https://github.com/gerph/riscos-wimp-templates) for the details.
+- The \`riscos64-status\` repository has been updated with a few things:
+  - \`PicoC\` is noted as a ported language.
+  - \`Lua\` is noted as a ported language.
+  - \`TCC\` is noted as a ported implementation of a C compiler.
+  - \`GCC\` was removed from the ported implementations (it’s not ported, but is usable to build for RISC OS 64, and had been misplaced).
+  - \`Pascal\` is noted as a ported language (using the P2C tool).
+  - \`Rust\` is noted as having been prototyped for use with RISC OS 64.
+  - All the feature documents for component now include completion percentages on their pages.
+- The \`Kernel: Modules\` subcomponent had been started.
+- The \`EvaluateExpression\` module has been stubbed.
+- The \`IIC\` module has been stubbed.
+- The \`OSSWIs\` module has been stubbed.
+- The hourglass maker has been ported to RISC OS 64. See [https://github.com/gerph/riscos-hourglass-maker](https://github.com/gerph/riscos-hourglass-maker) for details.
+
+  - The module can be found in the \`riscos64-status\` repository as with many others.
+- The Pascal-to-C implementation is being worked into the build environment.
+- I presented the general status of RISC OS 64 work to ROUGOL, and the presentation is available on YouTube and through my presentation site. See [https://presentations.riscos.online/pyromaniac4/index.…](https://presentations.riscos.online/pyromaniac4/index.html) for video, slides and resource links.
+- RISC OS Pyromaniac screenshots and videos were updated with the details of the changes and work towards 64-bit. See [https://pyromaniac.riscos.online/examples.html#talk2025](https://pyromaniac.riscos.online/examples.html#talk2025) for images and videos.
+- The RISC OS 64-bit C library has been updated with better handling of linking hidden and internal symbols, and \`fgetc\` now works properly. See [https://github.com/gerph/riscos64-clib](https://github.com/gerph/riscos64-clib) for details.
+- \`objasm2gas\` tool has been updated to handle \`:INDEX:\` and \`:BASE:\` (as well as the \`@\` metavariable), and fix problems with field mappings using registers not being calculated as expressions.
+- The \`Kernel: Introspection\` component will be the next live coding project.
+
+Anyhow, that’s where things are for me. You can always follow the repositories to see what’s being done.
+
+As usual, if anyone wants to contribute to these, please speak up.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20171:160560</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 14th December at 1pm.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20170</link>
+      <description>
+        <![CDATA[<p>This Sunday – 14th December, at 1pm – I&#8217;m starting a new series of my live coding, working on the introspection calls that allow components to read information about <span class="caps">RISC</span> OS.</p>
+        <p>Come along if you like – <a href="https://youtube.com/live/FmS6T4tzbYQ?feature=share">https://youtube.com/live/FmS6T4tzbYQ?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
+        <p>The prior sessions on coding the Wimp template loading were completed and worked well. At the end of the session, I asked for suggestions of things to work on, and Chris Williams thought that the Kernel: Introspection subcomponent looked intriguing.</p>
+        <hr />
+        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
+        <p>The functionality we need to implement is documented in the riscos64-status repository (<a href="https://github.com/gerph/riscos64-status/wiki/Module_Kernel_Introspection">https://github.com/gerph/riscos64-status/wiki/Module_K…</a>), and might take a couple of sessions to implement.</p>
+        <p>The implementation will start by setting up some stubs for the calls we will need and providing sufficient implementation that we can hook things together.</p>
+        <hr />
+        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rHCVKT5hbrkXc9gXZthl9Il">https://www.youtube.com/playlist?list=PLVVIu906Y7rHCVK…</a></p>
+        <p>Or the sequence is also available linked from my presentations website: <a href="https://presentation.riscos.online/live/kernelintrospection.html">https://presentation.riscos.online/live/kernelintrospe…</a> (once it has been published).</p>]]>
+      </description>
+      <source:markdown>This Sunday – 14th December, at 1pm – I’m starting a new series of my live coding, working on the introspection calls that allow components to read information about RISC OS.
+
+Come along if you like – [https://youtube.com/live/FmS6T4tzbYQ?feature=share](https://youtube.com/live/FmS6T4tzbYQ?feature=share) – or you can always watch the video afterwards at the same address.
+
+The prior sessions on coding the Wimp template loading were completed and worked well. At the end of the session, I asked for suggestions of things to work on, and Chris Williams thought that the Kernel: Introspection subcomponent looked intriguing.
+
+* * *
+
+For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
+
+The functionality we need to implement is documented in the riscos64-status repository ( [https://github.com/gerph/riscos64-status/wiki/Module\_K…](https://github.com/gerph/riscos64-status/wiki/Module_Kernel_Introspection)), and might take a couple of sessions to implement.
+
+The implementation will start by setting up some stubs for the calls we will need and providing sufficient implementation that we can hook things together.
+
+* * *
+
+If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rHCVK…](https://www.youtube.com/playlist?list=PLVVIu906Y7rHCVKT5hbrkXc9gXZthl9Il)
+
+Or the sequence is also available linked from my presentations website: [https://presentation.riscos.online/live/kernelintrospe…](https://presentation.riscos.online/live/kernelintrospection.html) (once it has been published).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20170:160559</guid>
+    </item>    <item>
+      <title>Iyonix SCSI Card Support</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20167</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>ive not had to do this because it just works out of the box. but softloading fails to boot at all</p>
+        </blockquote>
+        <p>Could you elaborate on what happens?</p>]]>
+      </description>
+      <source:markdown>&#62; ive not had to do this because it just works out of the box. but softloading fails to boot at all
+
+Could you elaborate on what happens?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20167:160557</guid>
+    </item>    <item>
       <title>Allow creation of surfaces.</title>
       <link>https://www.riscosopen.org/forum/forums/2/topics/20163</link>
       <description>
@@ -197,14 +405,6 @@ https://www.iconbar.com/comments/rss/news2282.html</source:markdown>
       </description>
       <source:markdown>I’m having difficulty opening the RaspberryPi serial port with Hearsay, things keep hanging. Is it even supposed to work?</source:markdown>
       <guid>cid://www.riscosopen.org:1:18858:160536</guid>
-    </item>    <item>
-      <title>Iyonix SCSI Card Support</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20167</link>
-      <description>
-        <![CDATA[<p>I would not recommend <span class="caps">SCSI</span>. I only used it for a brief time when the only 1GB and 2GB drives where <span class="caps">SCSI</span>, but it was nothing but trouble and as soon as larger drives became available I switched back to <span class="caps">IDE</span>, and only kept <span class="caps">SCSI</span> for the massively bulky scanner.</p>]]>
-      </description>
-      <source:markdown>I would not recommend SCSI. I only used it for a brief time when the only 1GB and 2GB drives where SCSI, but it was nothing but trouble and as soon as larger drives became available I switched back to IDE, and only kept SCSI for the massively bulky scanner.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20167:160535</guid>
     </item>    <item>
       <title>Obscure wimp sprites</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20161</link>
@@ -8926,22 +9126,6 @@ https://paolozaino.wordpress.com/2025/09/09/ai-why-generative-ai-hallucinates-al
         <![CDATA[Next step: figure out how John Connor used his to hack an ATM...]]>
       </description>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3ly4assbldc2p</guid>
-    </item>    <item>
-      <title>RDPclient with Windows 10</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20005</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>It would be nice to hear from somebody who can say:<br />
-        <em>“Yes, I am using !RDPclient on Windows 10 Pro 24H2 and this is what I did.”</em></p>
-        </blockquote>
-        <p>Mine is Windows 10 Pro, Version	22H2 (the latest), OS Build 19045.6216 and I can&#8217;t for the life of me work out why it works for me and not for you. It&#8217;ll be one mystical incantation somewhere that&#8217;s been forgotten by time (or, as Steve suggests, overridden in newer versions and updates). That said, I have it working on Windows 11 &#8211; for now, at least.</p>
-        <blockquote>
-        <p>The OpenSSL code compiled into RDPClient is dated 2004, recompiling to use the current code is the way to go. Probably utilising the AcornSSL module as a more future-proof system-wide <span class="caps">SSL</span>/<span class="caps">TLS</span> support.</p>
-        </blockquote>
-        <p>I&#8217;d love to see this happen, but I know where people have tried to build just the existing source, it doesn&#8217;t work well. Andrew Sellors did pop up at one point and in a brief conversation he said he might look at updating to the latest codebase, but I think he&#8217;s long gone from the <span class="caps">RISC</span> OS world now.</p>
-        <p>For anyone who&#8217;s used RDPClient, going back to <span class="caps">VNC</span> is painfully slow and clunky, and ultimately much poorer experience.</p>]]>
-      </description>
-      <guid>cid://www.riscosopen.org:11:20005:158921</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3ly3pyxjkqc2x</link>
       <description>
