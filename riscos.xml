@@ -7,10 +7,127 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>13 Dec 25 12:00 -0800</lastBuildDate>
+    <lastBuildDate>14 Dec 25 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Rectangles ... and more</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20173</link>
+      <description>
+        <![CDATA[<p>Hi everybody -<br />
+        I&#8217;ve written a guide to drawing rectangles &#8230; which I hope is rather more interesting than it sounds :-)</p>
+        <p><a href="https://vermilionsands.uk/roast/">Read it here.</a> Comments and corrections welcome!</p>
+        <p>Cheers, Chris</p>]]>
+      </description>
+      <source:markdown>Hi everybody -
+
+I’ve written a guide to drawing rectangles … which I hope is rather more interesting than it sounds :-)
+
+[Read it here.](https://vermilionsands.uk/roast/) Comments and corrections welcome!
+
+Cheers, Chris</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20173:160602</guid>
+    </item>    <item>
+      <title>Bluetooth Again</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20172</link>
+      <description>
+        <![CDATA[<p>Hi All,</p>
+        <p>I&#8217;m trying to get BT working again after I tried a couple of years to get it working. Please find the source code on github :<br />
+        <a href="https://github.com/TimoHartong/ROBT">Github</a></p>
+        <p>I develop on a Pi Zero 2W with as compiler the <span class="caps">ROOL</span> compiler.</p>
+        <p>Things working:<br />
+        -Several enquiries for version numbers of the chip<br />
+        -Firmware<br />
+        - HW Reset</p>
+        <p>The BT chip needs firmware to work and that is not loaded over the <span class="caps">SDIO</span> port but over the serial port.</p>
+        <p>Please note it is very much a project in progress and no guaranties it will be ever finished</p>]]>
+      </description>
+      <source:markdown>Hi All,
+
+I’m trying to get BT working again after I tried a couple of years to get it working. Please find the source code on github :
+
+[Github](https://github.com/TimoHartong/ROBT)
+
+I develop on a Pi Zero 2W with as compiler the ROOL compiler.
+
+Things working:
+
+-Several enquiries for version numbers of the chip
+
+-Firmware
+
+\- HW Reset
+
+The BT chip needs firmware to work and that is not loaded over the SDIO port but over the serial port.
+
+Please note it is very much a project in progress and no guaranties it will be ever finished</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20172:160593</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m7wzje2bcc2g</link>
+      <description>
+        <![CDATA[Paul Proctor's BBC Micro 'Cookie' development disk. A conversion of the 'Ultimate Play The Game' Sinclair Spectrum classic that was never officially released. However, a disk copy of it was leaked at some point and it spread around very quickly.]]>
+      </description>
+      <source:markdown>Paul Proctor&#39;s BBC Micro &#39;Cookie&#39; development disk. A conversion of the &#39;Ultimate Play The Game&#39; Sinclair Spectrum classic that was never officially released. However, a disk copy of it was leaked at some point and it spread around very quickly.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m7wzje2bcc2g</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 14th December at 1pm.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20170</link>
+      <description>
+        <![CDATA[<p>Is that 13:00 <span class="caps">UTC</span> ?</p>]]>
+      </description>
+      <source:markdown>Is that 13:00 UTC ?</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20170:160590</guid>
+    </item>    <item>
+      <title>GitLab timeouts</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20125</link>
+      <description>
+        <![CDATA[<p>Apologies to anyone who&#8217;s having trouble accessing GitLab (and packages.riscosopen.org) at the moment. The server is being heavily overloaded by crawler bots from China. We&#8217;re working on blocking these, but it may not be resolved for a day or so.</p>]]>
+      </description>
+      <source:markdown>Apologies to anyone who’s having trouble accessing GitLab (and packages.riscosopen.org) at the moment. The server is being heavily overloaded by crawler bots from China. We’re working on blocking these, but it may not be resolved for a day or so.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20125:160589</guid>
+    </item>    <item>
+      <title>RISCOSbits Launches Chimera Christmas Cracker Edition</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13537&#38;page=1#125861</link>
+      <description>
+        <![CDATA[What a Fab Deal! Wow]]>
+      </description>
+      <source:markdown>What a Fab Deal! Wow</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13537&#38;page=1#125861</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m7wsnewojc2o</link>
+      <description>
+        <![CDATA[Start your engines, it's day 14! youtu.be/tzz8pPjzmdE
+        https://youtu.be/tzz8pPjzmdE]]>
+      </description>
+      <source:markdown>Start your engines, it&#39;s day 14! youtu.be/tzz8pPjzmdE
+https://youtu.be/tzz8pPjzmdE</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7wsnewojc2o</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3m7vryzvgss22</link>
+      <description>
+        <![CDATA[https://www.riscository.com/2025/acorn-biographer-rougol-15th-december/
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>https://www.riscository.com/2025/acorn-biographer-rougol-15th-december/
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3m7vryzvgss22</guid>
+    </item>    <item>
+      <title>Iyonix SCSI Card Support</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20167</link>
+      <description>
+        <![CDATA[<p>Gets to be a little challenge:-)<br />
+        Like the impossible things over on Stardot.</p>
+        <p>Be well.</p>]]>
+      </description>
+      <source:markdown>Gets to be a little challenge:-)
+
+Like the impossible things over on Stardot.
+
+Be well.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20167:160583</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3m7v76b5myc2k</link>
       <description>
         <![CDATA[Remarkably, I found some free time to pick up my OPL language server project again... https://www.colinhoad.com/getting-carried-away-and-how-to-stop-it]]>
@@ -170,54 +287,6 @@ Anyhow, that’s where things are for me. You can always follow the repositories
 
 As usual, if anyone wants to contribute to these, please speak up.</source:markdown>
       <guid>cid://www.riscosopen.org:13:20171:160560</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 14th December at 1pm.</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20170</link>
-      <description>
-        <![CDATA[<p>This Sunday – 14th December, at 1pm – I&#8217;m starting a new series of my live coding, working on the introspection calls that allow components to read information about <span class="caps">RISC</span> OS.</p>
-        <p>Come along if you like – <a href="https://youtube.com/live/FmS6T4tzbYQ?feature=share">https://youtube.com/live/FmS6T4tzbYQ?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
-        <p>The prior sessions on coding the Wimp template loading were completed and worked well. At the end of the session, I asked for suggestions of things to work on, and Chris Williams thought that the Kernel: Introspection subcomponent looked intriguing.</p>
-        <hr />
-        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
-        <p>The functionality we need to implement is documented in the riscos64-status repository (<a href="https://github.com/gerph/riscos64-status/wiki/Module_Kernel_Introspection">https://github.com/gerph/riscos64-status/wiki/Module_K…</a>), and might take a couple of sessions to implement.</p>
-        <p>The implementation will start by setting up some stubs for the calls we will need and providing sufficient implementation that we can hook things together.</p>
-        <hr />
-        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rHCVKT5hbrkXc9gXZthl9Il">https://www.youtube.com/playlist?list=PLVVIu906Y7rHCVK…</a></p>
-        <p>Or the sequence is also available linked from my presentations website: <a href="https://presentation.riscos.online/live/kernelintrospection.html">https://presentation.riscos.online/live/kernelintrospe…</a> (once it has been published).</p>]]>
-      </description>
-      <source:markdown>This Sunday – 14th December, at 1pm – I’m starting a new series of my live coding, working on the introspection calls that allow components to read information about RISC OS.
-
-Come along if you like – [https://youtube.com/live/FmS6T4tzbYQ?feature=share](https://youtube.com/live/FmS6T4tzbYQ?feature=share) – or you can always watch the video afterwards at the same address.
-
-The prior sessions on coding the Wimp template loading were completed and worked well. At the end of the session, I asked for suggestions of things to work on, and Chris Williams thought that the Kernel: Introspection subcomponent looked intriguing.
-
-* * *
-
-For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
-
-The functionality we need to implement is documented in the riscos64-status repository ( [https://github.com/gerph/riscos64-status/wiki/Module\_K…](https://github.com/gerph/riscos64-status/wiki/Module_Kernel_Introspection)), and might take a couple of sessions to implement.
-
-The implementation will start by setting up some stubs for the calls we will need and providing sufficient implementation that we can hook things together.
-
-* * *
-
-If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rHCVK…](https://www.youtube.com/playlist?list=PLVVIu906Y7rHCVKT5hbrkXc9gXZthl9Il)
-
-Or the sequence is also available linked from my presentations website: [https://presentation.riscos.online/live/kernelintrospe…](https://presentation.riscos.online/live/kernelintrospection.html) (once it has been published).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20170:160559</guid>
-    </item>    <item>
-      <title>Iyonix SCSI Card Support</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20167</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>ive not had to do this because it just works out of the box. but softloading fails to boot at all</p>
-        </blockquote>
-        <p>Could you elaborate on what happens?</p>]]>
-      </description>
-      <source:markdown>&#62; ive not had to do this because it just works out of the box. but softloading fails to boot at all
-
-Could you elaborate on what happens?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20167:160557</guid>
     </item>    <item>
       <title>Allow creation of surfaces.</title>
       <link>https://www.riscosopen.org/forum/forums/2/topics/20163</link>
@@ -2422,14 +2491,6 @@ Meanwhile I have a new computer – the Hydra – and am playing with it (and wr
 
 https://www.windowscentral.com/microsoft/windows-11/microsoft-warns-security-risks-agentic-os-windows-11-xpia-malware</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m5w5wxlutk2j</guid>
-    </item>    <item>
-      <title>GitLab timeouts</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20125</link>
-      <description>
-        <![CDATA[<p>down again :(</p>]]>
-      </description>
-      <source:markdown>down again :(</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20125:159946</guid>
     </item>    <item>
       <title>Time to Update !Killer :)</title>
       <link>https://www.riscosopen.org/forum/forums/2/topics/20114</link>
