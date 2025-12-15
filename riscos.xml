@@ -7,10 +7,178 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>14 Dec 25 12:00 -0800</lastBuildDate>
+    <lastBuildDate>15 Dec 25 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>VNC-linke software or screen recorder for RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/9140</link>
+      <description>
+        <![CDATA[<p>I’ve recorded screencasts on Windows for tutorials before, and honestly, the built-in stuff like the snipping tool for windows is pretty handy for screenshots, but not for making full-length videos or capturing everything with audio and annotations. For regular OSes, I tend to use more advanced screen recorders when I want better options. I haven’t tried this on <span class="caps">RISC</span> OS, but on Windows, there’s so much more flexibility with third-party tools.</p>
+        <p>If you’re looking for tips on capturing or recording beyond basic screenshots, there are a bunch of guides and apps out there that show how to work around system limitations or get better results. I found a lot of useful info by reading up about the <a href="https://www.screencapture.com/blog/how-to-use-snipping-tool/">https://www.screencapture.com/blog/how-to-use-snipping…</a> and how different screen capture tools stack up.</p>]]>
+      </description>
+      <source:markdown>I’ve recorded screencasts on Windows for tutorials before, and honestly, the built-in stuff like the snipping tool for windows is pretty handy for screenshots, but not for making full-length videos or capturing everything with audio and annotations. For regular OSes, I tend to use more advanced screen recorders when I want better options. I haven’t tried this on RISC OS, but on Windows, there’s so much more flexibility with third-party tools.
+
+If you’re looking for tips on capturing or recording beyond basic screenshots, there are a bunch of guides and apps out there that show how to work around system limitations or get better results. I found a lot of useful info by reading up about the [https://www.screencapture.com/blog/how-to-use-snipping…](https://www.screencapture.com/blog/how-to-use-snipping-tool/) and how different screen capture tools stack up.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:9140:160646</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3ma24o6ikzs26</link>
+      <description>
+        <![CDATA[So... Perry in Scrubs, then.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>So... Perry in Scrubs, then.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3ma24o6ikzs26</guid>
+    </item>    <item>
+      <title>Accessing ROOL Via Three Broadband</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20175</link>
+      <description>
+        <![CDATA[<p>I am unable to access this site when using Three Broadband &#8211; I get:</p>
+        <pre>
+        
+        
+        Secure Connection Failed
+        
+        An error occurred during a connection to <a href="http://www.riscosopen.org">www.riscosopen.org</a>. PR_END_OF_FILE_ERROR
+        
+        Error code: PR_END_OF_FILE_ERROR
+        
+            The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+            Please contact the web site owners to inform them of this problem.
+        </pre>
+        <p>Is there anything in the site config that could be blocking Three broadband?</p>
+        <p>I am using a <span class="caps">TOR</span> browser to post this!</p>]]>
+      </description>
+      <source:markdown>I am unable to access this site when using Three Broadband – I get:
+
+```
+
+Secure Connection Failed
+
+An error occurred during a connection to www.riscosopen.org. PR_END_OF_FILE_ERROR
+
+Error code: PR_END_OF_FILE_ERROR
+
+    The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+    Please contact the web site owners to inform them of this problem.
+
+```
+
+Is there anything in the site config that could be blocking Three broadband?
+
+I am using a TOR browser to post this!</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20175:160641</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 14th December at 1pm.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20170</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Is that 13:00 <span class="caps">UTC</span> ?</p>
+        </blockquote>
+        <p>In the winter, yes :)</p>]]>
+      </description>
+      <source:markdown>&#62; Is that 13:00 UTC ?
+
+In the winter, yes :)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20170:160640</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m7zmc3bbq226</link>
+      <description>
+        <![CDATA[This is *TONIGHT*!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>This is \*TONIGHT\*!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7zmc3bbq226</guid>
+    </item>    <item>
+      <title>Clarity Theme ko-fi</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20137</link>
+      <description>
+        <![CDATA[<p>Thank you for Clarity3, which is looking good here.</p>
+        <p>In unprotected mode !Boot shows the default <span class="caps">ROOL</span> yellow icon. There is a !boot icon within the theme which is displayed in protected mode. As far as I can see the !boot theme icon needs to at <code>!Boot.Themes.Clarity.!Sprites</code> and does not need to be in the ThemeDefs Sprites file at all, applications can load their own icons. (Unless I am missing something. (Always hazard here.))</p>
+        <blockquote>
+        <p>I’d still advise unticking the ‘Protect theme icons’ in Configure while testing, in case there’s anything missing.</p>
+        </blockquote>
+        <p>Most noticeably the icon for text files, <code>file_fff</code>. <code>small_fff</code> is present.😀</p>
+        <p><span class="caps">HTH</span></p>]]>
+      </description>
+      <source:markdown>Thank you for Clarity3, which is looking good here.
+
+In unprotected mode !Boot shows the default ROOL yellow icon. There is a !boot icon within the theme which is displayed in protected mode. As far as I can see the !boot theme icon needs to at `!Boot.Themes.Clarity.!Sprites` and does not need to be in the ThemeDefs Sprites file at all, applications can load their own icons. (Unless I am missing something. (Always hazard here.))
+
+&#62; I’d still advise unticking the ‘Protect theme icons’ in Configure while testing, in case there’s anything missing.
+
+Most noticeably the icon for text files, `file_fff`. `small_fff` is present.😀
+
+HTH</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20137:160627</guid>
+    </item>    <item>
+      <title>Odd BASIC error messages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20174</link>
+      <description>
+        <![CDATA[<p>In first example (2&gt;&gt;1)= 1  is a equality test the answer is false (0) or true(-1)<br />
+        in second Print displays 2&gt;&gt;1 and doesn&#8217;t understand = 0 (affectation) in this sentence.</p>]]>
+      </description>
+      <source:markdown>In first example (2&#62;&#62;1)= 1 is a equality test the answer is false (0) or true(-1)
+
+in second Print displays 2&#62;&#62;1 and doesn’t understand = 0 (affectation) in this sentence.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20174:160625</guid>
+    </item>    <item>
+      <title>Bluetooth Again</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20172</link>
+      <description>
+        <![CDATA[<p>A small update from yesterdays progress:</p>
+        <p>In de code there was an example from BL scanning and advertising mod and that seems to work. Now the long process of code refactoring starts and getting the rest to work.</p>]]>
+      </description>
+      <source:markdown>A small update from yesterdays progress:
+
+In de code there was an example from BL scanning and advertising mod and that seems to work. Now the long process of code refactoring starts and getting the rest to work.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20172:160624</guid>
+    </item>    <item>
+      <title>Iyonix SCSI Card Support</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20167</link>
+      <description>
+        <![CDATA[<p>not much i can do with very little input from <span class="caps">ROOL</span> either, as they supplied the upgraded <span class="caps">ROM</span> in the store, i&#8217;ve added a Bug report in regards to the SharedCLibrary and i&#8217;ll see what they come back with.</p>]]>
+      </description>
+      <source:markdown>not much i can do with very little input from ROOL either, as they supplied the upgraded ROM in the store, i’ve added a Bug report in regards to the SharedCLibrary and i’ll see what they come back with.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20167:160621</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3m7zcpneijc26</link>
+      <description>
+        <![CDATA[It's Day 15, and it's fair to say this might just be the flagship game of the Cascade Cassette 50... youtu.be/hI7yn51QTRM
+        https://youtu.be/hI7yn51QTRM]]>
+      </description>
+      <source:markdown>It&#39;s Day 15, and it&#39;s fair to say this might just be the flagship game of the Cascade Cassette 50... youtu.be/hI7yn51QTRM
+https://youtu.be/hI7yn51QTRM</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7zcpneijc26</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m7ycnsnc4c2j</link>
+      <description>
+        <![CDATA["I don't need this water, I'll pour it in the bin" - my brain, apparently.
+        
+        It's happening folks, I'm going senile.]]>
+      </description>
+      <source:markdown>&#34;I don&#39;t need this water, I&#39;ll pour it in the bin&#34; - my brain, apparently.
+
+It&#39;s happening folks, I&#39;m going senile.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m7ycnsnc4c2j</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3m7xwjbrn6k2j</link>
+      <description>
+        <![CDATA[Typographers and fontographers, are you brave enough?!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Typographers and fontographers, are you brave enough?!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m7xwjbrn6k2j</guid>
+    </item>    <item>
       <title>Rectangles ... and more</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20173</link>
       <description>
@@ -28,55 +196,12 @@ I’ve written a guide to drawing rectangles … which I hope is rather more int
 Cheers, Chris</source:markdown>
       <guid>cid://www.riscosopen.org:1:20173:160602</guid>
     </item>    <item>
-      <title>Bluetooth Again</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20172</link>
-      <description>
-        <![CDATA[<p>Hi All,</p>
-        <p>I&#8217;m trying to get BT working again after I tried a couple of years to get it working. Please find the source code on github :<br />
-        <a href="https://github.com/TimoHartong/ROBT">Github</a></p>
-        <p>I develop on a Pi Zero 2W with as compiler the <span class="caps">ROOL</span> compiler.</p>
-        <p>Things working:<br />
-        -Several enquiries for version numbers of the chip<br />
-        -Firmware<br />
-        - HW Reset</p>
-        <p>The BT chip needs firmware to work and that is not loaded over the <span class="caps">SDIO</span> port but over the serial port.</p>
-        <p>Please note it is very much a project in progress and no guaranties it will be ever finished</p>]]>
-      </description>
-      <source:markdown>Hi All,
-
-I’m trying to get BT working again after I tried a couple of years to get it working. Please find the source code on github :
-
-[Github](https://github.com/TimoHartong/ROBT)
-
-I develop on a Pi Zero 2W with as compiler the ROOL compiler.
-
-Things working:
-
--Several enquiries for version numbers of the chip
-
--Firmware
-
-\- HW Reset
-
-The BT chip needs firmware to work and that is not loaded over the SDIO port but over the serial port.
-
-Please note it is very much a project in progress and no guaranties it will be ever finished</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20172:160593</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m7wzje2bcc2g</link>
       <description>
         <![CDATA[Paul Proctor's BBC Micro 'Cookie' development disk. A conversion of the 'Ultimate Play The Game' Sinclair Spectrum classic that was never officially released. However, a disk copy of it was leaked at some point and it spread around very quickly.]]>
       </description>
       <source:markdown>Paul Proctor&#39;s BBC Micro &#39;Cookie&#39; development disk. A conversion of the &#39;Ultimate Play The Game&#39; Sinclair Spectrum classic that was never officially released. However, a disk copy of it was leaked at some point and it spread around very quickly.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m7wzje2bcc2g</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 14th December at 1pm.</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20170</link>
-      <description>
-        <![CDATA[<p>Is that 13:00 <span class="caps">UTC</span> ?</p>]]>
-      </description>
-      <source:markdown>Is that 13:00 UTC ?</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20170:160590</guid>
     </item>    <item>
       <title>GitLab timeouts</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20125</link>
@@ -113,20 +238,6 @@ https://youtu.be/tzz8pPjzmdE</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3m7vryzvgss22</guid>
-    </item>    <item>
-      <title>Iyonix SCSI Card Support</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20167</link>
-      <description>
-        <![CDATA[<p>Gets to be a little challenge:-)<br />
-        Like the impossible things over on Stardot.</p>
-        <p>Be well.</p>]]>
-      </description>
-      <source:markdown>Gets to be a little challenge:-)
-
-Like the impossible things over on Stardot.
-
-Be well.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20167:160583</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3m7v76b5myc2k</link>
       <description>
@@ -528,22 +639,6 @@ I&#39;ll get my coat...
 Just realised they&#39;re not copper, they&#39;re bleedin&#39; copperised aluminium. 🤬🔥☹️😭
 https://media.tenor.com/vui2TXEoHasAAAAC/the-shining-jack-nicholson.gif?hh=278&#38;ww=498</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m7q64qhkb22x</guid>
-    </item>    <item>
-      <title>Clarity Theme ko-fi</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20137</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I’ve played with a few other themes now, and the effect is the same if the ‘Protect theme icons’ option is set: you lose any sprites that aren’t present in the new theme. Whether or not that’s the intended behaviour, it means that new theme designs can’t safely supply a small subset of graphics – ideally, the minimal set would have everything that the <span class="caps">ROM</span> sprites set does.</p>
-        </blockquote>
-        <p>That&#8217;s right; the absolute minimum sprite set must be provided (the theme setup plugin isn&#8217;t going to invent sprites to fill in any holes). The list is explained in <strong>Icon set</strong> in PRM3, though since it predates the stuff that got added to Ursula it&#8217;s probably easier just to look at one of the <span class="caps">ROM</span> sets like <a href="https://gitlab.riscosopen.org/RiscOS/Sources/Desktop/Wimp/-/tree/master/Resources/UK/Sovereign">Sovereign</a> than reading that.</p>
-        <p>By all means provide <em>more</em> sprites (see the &#8216;DiscSprites&#8217; subdirectory from the above link) for more applications and more file types, but not less than the <span class="caps">ROM</span> set of 168.</p>]]>
-      </description>
-      <source:markdown>&#62; I’ve played with a few other themes now, and the effect is the same if the ‘Protect theme icons’ option is set: you lose any sprites that aren’t present in the new theme. Whether or not that’s the intended behaviour, it means that new theme designs can’t safely supply a small subset of graphics – ideally, the minimal set would have everything that the ROM sprites set does.
-
-That’s right; the absolute minimum sprite set must be provided (the theme setup plugin isn’t going to invent sprites to fill in any holes). The list is explained in **Icon set** in PRM3, though since it predates the stuff that got added to Ursula it’s probably easier just to look at one of the ROM sets like [Sovereign](https://gitlab.riscosopen.org/RiscOS/Sources/Desktop/Wimp/-/tree/master/Resources/UK/Sovereign) than reading that.
-
-By all means provide _more_ sprites (see the ‘DiscSprites’ subdirectory from the above link) for more applications and more file types, but not less than the ROM set of 168.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20137:160520</guid>
     </item>    <item>
       <link>https://bsky.app/profile/riscosbits.co.uk/post/3m7pkofawf22q</link>
       <description>
