@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.18" >
-  <meta name="date" content="2025-12-15T12:00:28-08:00" >
-  <link href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" type="application/rss+xml" >
+  <meta name="date" content="2025-12-16T12:00:28-08:00" >
+  <link type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" >
 </head>
 <body>
   <header>
@@ -20,6 +20,154 @@
   </nav>
   <section>
 
+    <article data-published="2025-12-16T19:07:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3ma4trkigas2d">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-12-16)
+      <p>
+      <p>RISC OS 'Advent' Calendar 2025 - Colin McMurchie Christmas coding project</p>
+<p><a href="http://www.iconbar.com/comments/rss/news2281.html">www.iconbar.com/comments/rss/news2281.html</a></p>
+<p>Many thanks to Colin for bringing some festive antics to our RISC OS desktops (It's not too late to send us yours).<a href="https://www.iconbar.com/comments/rss/news2281.html">https://www.iconbar.com/comments/rss/news2281.html</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3ma4trkigas2d">https://bsky.app/profile/iconbar.com/post/3ma4trkigas2d</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-16T11:43:32Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20138">
+      <h1>Modern Frosted Theme</h1>
+
+(date: 2025-12-16)
+      <p>
+      <p>So over the next few weeks ill be working on the small icons and 180dpi icons aswell as converting them to work as far down as risc os 3.7. So lots more to come!</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20138">https://www.riscosopen.org/forum/forums/1/topics/20138</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-16T10:54:22Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20161">
+      <h1>Obscure wimp sprites</h1>
+
+(date: 2025-12-16)
+      <p>
+      <p>Some more thoughts on Paint, having been using it very heavily over the past few weeks:</p>
+<ul>
+<li>The various bugs that used to affect various tools in the Sprite window seem to have been very effectively squashed. I don’t think I’ve had a single crash from that source over many hours of use.</li>
+<li>The new outline font tool is great, as is the much better Paintbrush interface. Very nice work.</li>
+<li>There’s a bug report (ticket 520) open on the file dragging/selection in the Spritefile window. This issue would be great to look at – it’s pretty annoying to drag a sprite into a file window and have it replace whatever is currently selected, even if the sprites have different names. When dragging dozens of files around, it’s very easy to overwrite stuff by mistake this way.</li>
+<li>Relatedly, if you try to rename a sprite in a Spritefile window to one that already exists, Paint silently fails to rename it, rather than telling you why.</li>
+<li>The only crashes I’ve had came when deleting a sprite from a Spritefile window. Annoyingly, I can’t reproduce this reliably. If I can find some way to reproduce this, I’ll file a ticket.</li>
+</ul>
+<p>I’m not sure if the Bounty work is still current. If it is, then taking a look at some of these issues in the Spritefile window would be really useful. I think possible fixes here would be to:</p>
+<ul>
+<li>Mimic the Filer’s selection behaviour, so that selecting sprites in one Spritefile window clears the previous selection in another window</li>
+<li>Alternatively (or in addition), don’t overwrite selected sprites with different names when dragging sprite(s) into a Spritefile window, but just add the new sprites to the Spritefile</li>
+<li>When a sprite or selection of sprites is dragged to a Spritefile window containing a sprite(s) with the same name, or the user tries to rename a sprite with a name already existing in the file, query the decision. Either halt it, or offer to skip/abort/overwrite.</li>
+</ul>
+<p>In any case, congrats to Andy for all his hard work – the app has been really transformed.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20161">https://www.riscosopen.org/forum/forums/5/topics/20161</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-16T09:03:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3ma3s2k2vr224">
+      <h1>@colinhoad.com</h1>
+
+(date: 2025-12-16)
+      <p>
+      <p>It's Day 10! (That's 16 for you decimal folk) youtu.be/1EFpyBTzwJM<a href="https://youtu.be/1EFpyBTzwJM">https://youtu.be/1EFpyBTzwJM</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3ma3s2k2vr224">https://bsky.app/profile/colinhoad.com/post/3ma3s2k2vr224</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-16T09:00:08Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20167">
+      <h1>Iyonix SCSI Card Support</h1>
+
+(date: 2025-12-16)
+      <p>
+      <p>I wonder if Martin could be persuaded to send you a picture of the Podule that works on the Iyonix – to see if/what buffers it uses.</p>
+<p>Is that Iyonix manual available for download?</p>
+<p>Tks</p>
+<p>‘Edit’</p>
+<p>Has anyone done a writeup comparing Acorn Podule with PCI used on the Iyonix and Ti?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20167">https://www.riscosopen.org/forum/forums/11/topics/20167</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-16T07:38:00Z" data-link="http://www.iconbar.com/comments/rss/news2281.html">
+      <h1>RISC OS 'Advent' Calendar 2025 - Colin McMurchie Christmas coding project</h1>
+
+(date: 2025-12-16)
+      <p>
+      <p>Many thanks to Colin for a very bringing some festive antics to our RISC OS desktops (It's not too late to send us yours).</p>
+
+      <address>
+        <a href="http://www.iconbar.com/comments/rss/news2281.html">http://www.iconbar.com/comments/rss/news2281.html</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-16T07:31:33Z" data-link="https://www.riscosopen.org/forum/forums/10/topics/20095">
+      <h1>RPCEmu NAT fail.</h1>
+
+(date: 2025-12-16)
+      <p>
+      <p>Following the recent DDE update to DDE32b this issue is fixed in the IOMDROM of 14-Dec-25.</p>
+<p>From the changelogs :-</p>
+<blockquote>
+<p>Fix for loads of halfword values not making use of unaligned LDR instructions when they are permitted by -memaccess +L41. This resulted in the halfword being formulated from two LDRB instructions which the register allocator did not expect, and R12 being wrongly reused in some small leaf functions.</p>
+</blockquote>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/10/topics/20095">https://www.riscosopen.org/forum/forums/10/topics/20095</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-15T21:09:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3ma2k4ntja226">
+      <h1>@colinhoad.com</h1>
+
+(date: 2025-12-15)
+      <p>
+      <p>I love this 😄</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3ma2k4ntja226">https://bsky.app/profile/colinhoad.com/post/3ma2k4ntja226</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-15T20:41:56Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20175">
+      <h1>Accessing ROOL Via Three Broadband</h1>
+
+(date: 2025-12-15)
+      <p>
+      <p>Something isn’t working correctly (to state the obvious!) but it’s not clear to me exactly what it is.</p>
+<p>I tried from my mobile, which is on Three, but the error message was that the host closed the connection unexpectedly. Then the page appeared correctly. I suspect this may be symptoms of “IPv6 preferred” but falling back to IPv4.</p>
+<p>I know I don’t have any problem accessing this site from my Linux box (as I’m doing right now), so I did a Wireshark capture while accessing the site. ROOL’s IPv6 address didn’t appear. So Firefox on Ubuntu is also falling back to IPv4.</p>
+<p>The site’s IPv6 address is 2001:67c:6f0::10c, so it ought to work.</p>
+<p>I’ll email Andrew Hodgkinson to see what light he can shed on the issue.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20175">https://www.riscosopen.org/forum/forums/11/topics/20175</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-15T20:16:00Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20176">
+      <h1>Made file source in subdirectory</h1>
+
+(date: 2025-12-15)
+      <p>
+      <p>Does someone how to indicate that the source file is a subdirectory ?. I have some c-files in a sub directory but makes reports he does not know how to build it.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20176">https://www.riscosopen.org/forum/forums/11/topics/20176</a>
+      </address>
+    </article>
+
     <article data-published="2025-12-15T19:49:02Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/9140">
       <h1>VNC-linke software or screen recorder for RISC OS</h1>
 
@@ -33,6 +181,22 @@
       </address>
     </article>
 
+    <article data-published="2025-12-15T19:06:10Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20170">
+      <h1>Live Coding with Gerph, Sunday 14th December at 1pm.</h1>
+
+(date: 2025-12-15)
+      <p>
+      <p>Yes, times posted on this site are invariably using UK local time. I’ll include that note in the future, but you can always find out the timezone relative time by going to the YouTube link which should be accurate (unless I schedule stupidly). All my sessions have always been at 1pm UK time.</p>
+<hr>
+<p>The session yesterday went quite well, despite feeling a little unwell through it. Implementation of the stubbed functions is progressing well. OS_Byte calls are stubbed, although I went back and forth on their naming, as they seem to be given different names in different places. OS_ReadSysInfo has about a third of the calls stubbed as well. We’re only getting a skeleton right now, so it’s not especially complicated.</p>
+<p>Tests have been ported from RISC OS Pyromaniac and look ok – they will need to change as we update the implementation.</p>
+<p>Next week I’ll look at the OS_Platform calls and probably the memory calls as well.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20170">https://www.riscosopen.org/forum/forums/1/topics/20170</a>
+      </address>
+    </article>
+
     <article data-published="2025-12-15T17:08:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3ma24o6ikzs26">
       <h1>@colinhoad.com</h1>
 
@@ -43,46 +207,6 @@
 
       <address>
         <a href="https://bsky.app/profile/colinhoad.com/post/3ma24o6ikzs26">https://bsky.app/profile/colinhoad.com/post/3ma24o6ikzs26</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-15T17:03:20Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20175">
-      <h1>Accessing ROOL Via Three Broadband</h1>
-
-(date: 2025-12-15)
-      <p>
-      <p>I am unable to access this site when using Three Broadband – I get:</p>
-<pre><code>
-Secure Connection Failed
-
-An error occurred during a connection to www.riscosopen.org. PR_END_OF_FILE_ERROR
-
-Error code: PR_END_OF_FILE_ERROR
-
-    The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
-    Please contact the web site owners to inform them of this problem.
-
-</code></pre>
-<p>Is there anything in the site config that could be blocking Three broadband?</p>
-<p>I am using a TOR browser to post this!</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20175">https://www.riscosopen.org/forum/forums/11/topics/20175</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-15T15:59:46Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20170">
-      <h1>Live Coding with Gerph, Sunday 14th December at 1pm.</h1>
-
-(date: 2025-12-15)
-      <p>
-      <blockquote>
-<p>Is that 13:00 UTC ?</p>
-</blockquote>
-<p>In the winter, yes :)</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20170">https://www.riscosopen.org/forum/forums/1/topics/20170</a>
       </address>
     </article>
 
@@ -140,18 +264,6 @@ Error code: PR_END_OF_FILE_ERROR
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20172">https://www.riscosopen.org/forum/forums/1/topics/20172</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-15T11:12:43Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20167">
-      <h1>Iyonix SCSI Card Support</h1>
-
-(date: 2025-12-15)
-      <p>
-      <p>not much i can do with very little input from ROOL either, as they supplied the upgraded ROM in the store, i’ve added a Bug report in regards to the SharedCLibrary and i’ll see what they come back with.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20167">https://www.riscosopen.org/forum/forums/11/topics/20167</a>
       </address>
     </article>
 
@@ -640,18 +752,6 @@ youtu.be/PEbm0EnRprA<a href="https://youtu.be/PEbm0EnRprA">https://youtu.be/PEbm
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/18858">https://www.riscosopen.org/forum/forums/1/topics/18858</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-11T21:04:13Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20161">
-      <h1>Obscure wimp sprites</h1>
-
-(date: 2025-12-11)
-      <p>
-      <p>One thing I’ve learned while working systematically on sprites is how much better the new Paint is than the older RO5 ones. It’s far more reliable (I’ve been using the paintbrush tool all the time, with no crashes), and the new additions are genuinely helpful. In conjunction with ArtWorks, it’s become a very capable pixel editor. You can still crash it from time to time (deleting sprites from the spritefile window seems to sometimes cause this), but the Bounty improvements are really very impressive.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20161">https://www.riscosopen.org/forum/forums/5/topics/20161</a>
       </address>
     </article>
 
@@ -1196,19 +1296,6 @@ youtu.be/aTadPdoWI-0<a href="https://youtu.be/aTadPdoWI-0">https://youtu.be/aTad
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/5/topics/20162">https://www.riscosopen.org/forum/forums/5/topics/20162</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-06T15:39:47Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20138">
-      <h1>Modern Frosted Theme</h1>
-
-(date: 2025-12-06)
-      <p>
-      <p><a href="https://www.iconbar.com/articles/RISC_OS_Advent_Calendar_2025_-_RISOSbits_brings_some_sharng_at_Christmas/index2278.html">https://www.iconbar.com/articles/RISC_OS_Advent_Calend…</a></p>
-<p>RiscOSBits Demo’s Frosted Theme in latest Iconbar Advent post, Thanks to those that are testing the Theme :)</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20138">https://www.riscosopen.org/forum/forums/1/topics/20138</a>
       </address>
     </article>
 
@@ -3980,21 +4067,6 @@ youtu.be/RHdgIHr78RM<a href="https://youtu.be/RHdgIHr78RM">https://youtu.be/RHdg
 
       <address>
         <a href="https://bsky.app/profile/riscosbits.co.uk/post/3m55e2swvrk2k">https://bsky.app/profile/riscosbits.co.uk/post/3m55e2swvrk2k</a>
-      </address>
-    </article>
-
-    <article data-published="2025-11-08T16:15:12Z" data-link="https://www.riscosopen.org/forum/forums/10/topics/20095">
-      <h1>RPCEmu NAT fail.</h1>
-
-(date: 2025-11-08)
-      <p>
-      <pre><code>LDRB     r12,[r0,#8]
-LDRB     r12,[r0,#9]
-</code></pre>
-<p>Could this perhaps be a really really old codegen bug that’s been unmasked by a code change? It looks awfully similar to a short accessing bug I reported in 1989. We had to work around that with a macro that did the operations discretely.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/10/topics/20095">https://www.riscosopen.org/forum/forums/10/topics/20095</a>
       </address>
     </article>
 

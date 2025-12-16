@@ -7,10 +7,159 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>15 Dec 25 12:00 -0800</lastBuildDate>
+    <lastBuildDate>16 Dec 25 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3ma4trkigas2d</link>
+      <description>
+        <![CDATA[RISC OS 'Advent' Calendar 2025 - Colin McMurchie Christmas coding project
+        
+        www.iconbar.com/comments/rss/news2281.html
+        
+        Many thanks to Colin for bringing some festive antics to our RISC OS desktops (It's not too late to send us yours).
+        https://www.iconbar.com/comments/rss/news2281.html]]>
+      </description>
+      <source:markdown>RISC OS &#39;Advent&#39; Calendar 2025 - Colin McMurchie Christmas coding project
+
+www.iconbar.com/comments/rss/news2281.html
+
+Many thanks to Colin for bringing some festive antics to our RISC OS desktops (It&#39;s not too late to send us yours).
+https://www.iconbar.com/comments/rss/news2281.html</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3ma4trkigas2d</guid>
+    </item>    <item>
+      <title>Modern Frosted Theme</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
+      <description>
+        <![CDATA[<p>So over the next few weeks ill be working on the small icons and 180dpi icons aswell as converting them to work as far down as risc os 3.7. So lots more to come!</p>]]>
+      </description>
+      <source:markdown>So over the next few weeks ill be working on the small icons and 180dpi icons aswell as converting them to work as far down as risc os 3.7. So lots more to come!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20138:160666</guid>
+    </item>    <item>
+      <title>Obscure wimp sprites</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20161</link>
+      <description>
+        <![CDATA[<p>Some more thoughts on Paint, having been using it very heavily over the past few weeks:</p>
+        <ul>
+        	<li>The various bugs that used to affect various tools in the Sprite window seem to have been very effectively squashed. I don&#8217;t think I&#8217;ve had a single crash from that source over many hours of use.</li>
+        	<li>The new outline font tool is great, as is the much better Paintbrush interface. Very nice work.</li>
+        	<li>There&#8217;s a bug report (ticket 520) open on the file dragging/selection in the Spritefile window. This issue would be great to look at &#8211; it&#8217;s pretty annoying to drag a sprite into a file window and have it replace whatever is currently selected, even if the sprites have different names. When dragging dozens of files around, it&#8217;s very easy to overwrite stuff by mistake this way.</li>
+        	<li>Relatedly, if you try to rename a sprite in a Spritefile window to one that already exists, Paint silently fails to rename it, rather than telling you why.</li>
+        	<li>The only crashes I&#8217;ve had came when deleting a sprite from a Spritefile window. Annoyingly, I can&#8217;t reproduce this reliably. If I can find some way to reproduce this, I&#8217;ll file a ticket.</li>
+        </ul>
+        <p>I&#8217;m not sure if the Bounty work is still current. If it is, then taking a look at some of these issues in the Spritefile window would be really useful. I think possible fixes here would be to:</p>
+        <ul>
+        	<li>Mimic the Filer&#8217;s selection behaviour, so that selecting sprites in one Spritefile window clears the previous selection in another window</li>
+        	<li>Alternatively (or in addition), don&#8217;t overwrite selected sprites with different names when dragging sprite(s) into a Spritefile window, but just add the new sprites to the Spritefile</li>
+        	<li>When a sprite or selection of sprites is dragged to a Spritefile window containing a sprite(s) with the same name, or the user tries to rename a sprite with a name already existing in the file, query the decision. Either halt it, or offer to skip/abort/overwrite.</li>
+        </ul>
+        <p>In any case, congrats to Andy for all his hard work &#8211; the app has been really transformed.</p>]]>
+      </description>
+      <source:markdown>Some more thoughts on Paint, having been using it very heavily over the past few weeks:
+
+- The various bugs that used to affect various tools in the Sprite window seem to have been very effectively squashed. I don’t think I’ve had a single crash from that source over many hours of use.
+- The new outline font tool is great, as is the much better Paintbrush interface. Very nice work.
+- There’s a bug report (ticket 520) open on the file dragging/selection in the Spritefile window. This issue would be great to look at – it’s pretty annoying to drag a sprite into a file window and have it replace whatever is currently selected, even if the sprites have different names. When dragging dozens of files around, it’s very easy to overwrite stuff by mistake this way.
+- Relatedly, if you try to rename a sprite in a Spritefile window to one that already exists, Paint silently fails to rename it, rather than telling you why.
+- The only crashes I’ve had came when deleting a sprite from a Spritefile window. Annoyingly, I can’t reproduce this reliably. If I can find some way to reproduce this, I’ll file a ticket.
+
+I’m not sure if the Bounty work is still current. If it is, then taking a look at some of these issues in the Spritefile window would be really useful. I think possible fixes here would be to:
+
+- Mimic the Filer’s selection behaviour, so that selecting sprites in one Spritefile window clears the previous selection in another window
+- Alternatively (or in addition), don’t overwrite selected sprites with different names when dragging sprite(s) into a Spritefile window, but just add the new sprites to the Spritefile
+- When a sprite or selection of sprites is dragged to a Spritefile window containing a sprite(s) with the same name, or the user tries to rename a sprite with a name already existing in the file, query the decision. Either halt it, or offer to skip/abort/overwrite.
+
+In any case, congrats to Andy for all his hard work – the app has been really transformed.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20161:160665</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3ma3s2k2vr224</link>
+      <description>
+        <![CDATA[It's Day 10! (That's 16 for you decimal folk) youtu.be/1EFpyBTzwJM
+        https://youtu.be/1EFpyBTzwJM]]>
+      </description>
+      <source:markdown>It&#39;s Day 10! (That&#39;s 16 for you decimal folk) youtu.be/1EFpyBTzwJM
+https://youtu.be/1EFpyBTzwJM</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3ma3s2k2vr224</guid>
+    </item>    <item>
+      <title>Iyonix SCSI Card Support</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20167</link>
+      <description>
+        <![CDATA[<p>I wonder if Martin could be persuaded to send you a picture of the Podule that works on the Iyonix &#8211; to see if/what buffers it uses.</p>
+        <p>Is that Iyonix manual available for download?</p>
+        <p>Tks</p>
+        <p>&#8216;Edit&#8217;<br />
+        Has anyone done a writeup comparing Acorn Podule with <span class="caps">PCI</span> used on the Iyonix and Ti?</p>]]>
+      </description>
+      <source:markdown>I wonder if Martin could be persuaded to send you a picture of the Podule that works on the Iyonix – to see if/what buffers it uses.
+
+Is that Iyonix manual available for download?
+
+Tks
+
+‘Edit’
+
+Has anyone done a writeup comparing Acorn Podule with PCI used on the Iyonix and Ti?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20167:160661</guid>
+    </item>    <item>
+      <title>RISC OS &#39;Advent&#39; Calendar 2025 - Colin McMurchie Christmas coding project</title>
+      <link>http://www.iconbar.com/comments/rss/news2281.html</link>
+      <description>
+        <![CDATA[Many thanks to Colin for a very bringing some festive antics to our RISC OS desktops (It's not too late to send us yours).]]>
+      </description>
+      <source:markdown>Many thanks to Colin for a very bringing some festive antics to our RISC OS desktops (It&#39;s not too late to send us yours).</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2281.html</guid>
+    </item>    <item>
+      <title>RPCEmu NAT fail.</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20095</link>
+      <description>
+        <![CDATA[<p>Following the recent <span class="caps">DDE</span> update to DDE32b this issue is fixed in the <span class="caps">IOMD</span> <span class="caps">ROM</span> of 14-Dec-25.</p>
+        <p>From the changelogs :-</p>
+        <blockquote>
+        <p>Fix for loads of halfword values not making use of unaligned <span class="caps">LDR</span> instructions when they are permitted by -memaccess +L41. This resulted in the halfword being formulated from two <span class="caps">LDRB</span> instructions which the register allocator did not expect, and R12 being wrongly reused in some small leaf functions.</p>
+        </blockquote>]]>
+      </description>
+      <source:markdown>Following the recent DDE update to DDE32b this issue is fixed in the IOMDROM of 14-Dec-25.
+
+From the changelogs :-
+
+&#62; Fix for loads of halfword values not making use of unaligned LDR instructions when they are permitted by -memaccess +L41. This resulted in the halfword being formulated from two LDRB instructions which the register allocator did not expect, and R12 being wrongly reused in some small leaf functions.</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20095:160660</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3ma2k4ntja226</link>
+      <description>
+        <![CDATA[I love this 😄]]>
+      </description>
+      <source:markdown>I love this 😄</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3ma2k4ntja226</guid>
+    </item>    <item>
+      <title>Accessing ROOL Via Three Broadband</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20175</link>
+      <description>
+        <![CDATA[<p>Something isn&#8217;t working correctly (to state the obvious!) but it&#8217;s not clear to me exactly what it is.</p>
+        <p>I tried from my mobile, which is on Three, but the error message was that the host closed the connection unexpectedly.  Then the page appeared correctly.  I suspect this may be symptoms of &#8220;IPv6 preferred&#8221; but falling back to IPv4.</p>
+        <p>I know I don&#8217;t have any problem accessing this site from my Linux box (as I&#8217;m doing right now), so I did a Wireshark capture while accessing the site.  ROOL&#8217;s IPv6 address didn&#8217;t appear.  So Firefox on Ubuntu is also falling back to IPv4.</p>
+        <p>The site&#8217;s IPv6 address is 2001:67c:6f0::10c, so it ought to work.</p>
+        <p>I&#8217;ll email Andrew Hodgkinson to see what light he can shed on the issue.</p>]]>
+      </description>
+      <source:markdown>Something isn’t working correctly (to state the obvious!) but it’s not clear to me exactly what it is.
+
+I tried from my mobile, which is on Three, but the error message was that the host closed the connection unexpectedly. Then the page appeared correctly. I suspect this may be symptoms of “IPv6 preferred” but falling back to IPv4.
+
+I know I don’t have any problem accessing this site from my Linux box (as I’m doing right now), so I did a Wireshark capture while accessing the site. ROOL’s IPv6 address didn’t appear. So Firefox on Ubuntu is also falling back to IPv4.
+
+The site’s IPv6 address is 2001:67c:6f0::10c, so it ought to work.
+
+I’ll email Andrew Hodgkinson to see what light he can shed on the issue.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20175:160648</guid>
+    </item>    <item>
+      <title>Made file source in subdirectory</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20176</link>
+      <description>
+        <![CDATA[<p>Does someone how to indicate that the source file is a subdirectory ?. I have some c-files in a sub directory but makes reports he does not know how to build it.</p>]]>
+      </description>
+      <source:markdown>Does someone how to indicate that the source file is a subdirectory ?. I have some c-files in a sub directory but makes reports he does not know how to build it.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20176:160647</guid>
+    </item>    <item>
       <title>VNC-linke software or screen recorder for RISC OS</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/9140</link>
       <description>
@@ -22,6 +171,26 @@
 If you’re looking for tips on capturing or recording beyond basic screenshots, there are a bunch of guides and apps out there that show how to work around system limitations or get better results. I found a lot of useful info by reading up about the [https://www.screencapture.com/blog/how-to-use-snipping…](https://www.screencapture.com/blog/how-to-use-snipping-tool/) and how different screen capture tools stack up.</source:markdown>
       <guid>cid://www.riscosopen.org:11:9140:160646</guid>
     </item>    <item>
+      <title>Live Coding with Gerph, Sunday 14th December at 1pm.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20170</link>
+      <description>
+        <![CDATA[<p>Yes, times posted on this site are invariably using UK local time. I&#8217;ll include that note in the future, but you can always find out the timezone relative time by going to the YouTube link which should be accurate (unless I schedule stupidly). All my sessions have always been at 1pm UK time.</p>
+        <hr />
+        <p>The session yesterday went quite well, despite feeling a little unwell through it. Implementation of the stubbed functions is progressing well. OS_Byte calls are stubbed, although I went back and forth on their naming, as they seem to be given different names in different places. OS_ReadSysInfo has about a third of the calls stubbed as well. We&#8217;re only getting a skeleton right now, so it&#8217;s not especially complicated.</p>
+        <p>Tests have been ported from <span class="caps">RISC</span> OS Pyromaniac and look ok &#8211; they will need to change as we update the implementation.</p>
+        <p>Next week I&#8217;ll look at the OS_Platform calls and probably the memory calls as well.</p>]]>
+      </description>
+      <source:markdown>Yes, times posted on this site are invariably using UK local time. I’ll include that note in the future, but you can always find out the timezone relative time by going to the YouTube link which should be accurate (unless I schedule stupidly). All my sessions have always been at 1pm UK time.
+
+* * *
+
+The session yesterday went quite well, despite feeling a little unwell through it. Implementation of the stubbed functions is progressing well. OS\_Byte calls are stubbed, although I went back and forth on their naming, as they seem to be given different names in different places. OS\_ReadSysInfo has about a third of the calls stubbed as well. We’re only getting a skeleton right now, so it’s not especially complicated.
+
+Tests have been ported from RISC OS Pyromaniac and look ok – they will need to change as we update the implementation.
+
+Next week I’ll look at the OS\_Platform calls and probably the memory calls as well.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20170:160645</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3ma24o6ikzs26</link>
       <description>
         <![CDATA[So... Perry in Scrubs, then.
@@ -32,58 +201,6 @@ If you’re looking for tips on capturing or recording beyond basic screenshots,
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3ma24o6ikzs26</guid>
-    </item>    <item>
-      <title>Accessing ROOL Via Three Broadband</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20175</link>
-      <description>
-        <![CDATA[<p>I am unable to access this site when using Three Broadband &#8211; I get:</p>
-        <pre>
-        
-        
-        Secure Connection Failed
-        
-        An error occurred during a connection to <a href="http://www.riscosopen.org">www.riscosopen.org</a>. PR_END_OF_FILE_ERROR
-        
-        Error code: PR_END_OF_FILE_ERROR
-        
-            The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
-            Please contact the web site owners to inform them of this problem.
-        </pre>
-        <p>Is there anything in the site config that could be blocking Three broadband?</p>
-        <p>I am using a <span class="caps">TOR</span> browser to post this!</p>]]>
-      </description>
-      <source:markdown>I am unable to access this site when using Three Broadband – I get:
-
-```
-
-Secure Connection Failed
-
-An error occurred during a connection to www.riscosopen.org. PR_END_OF_FILE_ERROR
-
-Error code: PR_END_OF_FILE_ERROR
-
-    The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
-    Please contact the web site owners to inform them of this problem.
-
-```
-
-Is there anything in the site config that could be blocking Three broadband?
-
-I am using a TOR browser to post this!</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20175:160641</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 14th December at 1pm.</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20170</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Is that 13:00 <span class="caps">UTC</span> ?</p>
-        </blockquote>
-        <p>In the winter, yes :)</p>]]>
-      </description>
-      <source:markdown>&#62; Is that 13:00 UTC ?
-
-In the winter, yes :)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20170:160640</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3m7zmc3bbq226</link>
       <description>
@@ -139,14 +256,6 @@ in second Print displays 2&#62;&#62;1 and doesn’t understand = 0 (affectation)
 
 In de code there was an example from BL scanning and advertising mod and that seems to work. Now the long process of code refactoring starts and getting the rest to work.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20172:160624</guid>
-    </item>    <item>
-      <title>Iyonix SCSI Card Support</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20167</link>
-      <description>
-        <![CDATA[<p>not much i can do with very little input from <span class="caps">ROOL</span> either, as they supplied the upgraded <span class="caps">ROM</span> in the store, i&#8217;ve added a Bug report in regards to the SharedCLibrary and i&#8217;ll see what they come back with.</p>]]>
-      </description>
-      <source:markdown>not much i can do with very little input from ROOL either, as they supplied the upgraded ROM in the store, i’ve added a Bug report in regards to the SharedCLibrary and i’ll see what they come back with.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20167:160621</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3m7zcpneijc26</link>
       <description>
@@ -585,14 +694,6 @@ https://www.iconbar.com/comments/rss/news2282.html</source:markdown>
       </description>
       <source:markdown>I’m having difficulty opening the RaspberryPi serial port with Hearsay, things keep hanging. Is it even supposed to work?</source:markdown>
       <guid>cid://www.riscosopen.org:1:18858:160536</guid>
-    </item>    <item>
-      <title>Obscure wimp sprites</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20161</link>
-      <description>
-        <![CDATA[<p>One thing I&#8217;ve learned while working systematically on sprites is how much better the new Paint is than the older RO5 ones. It&#8217;s far more reliable (I&#8217;ve been using the paintbrush tool all the time, with no crashes), and the new additions are genuinely helpful. In conjunction with ArtWorks, it&#8217;s become a very capable pixel editor. You can still crash it from time to time (deleting sprites from the spritefile window seems to sometimes cause this), but the Bounty improvements are really very impressive.</p>]]>
-      </description>
-      <source:markdown>One thing I’ve learned while working systematically on sprites is how much better the new Paint is than the older RO5 ones. It’s far more reliable (I’ve been using the paintbrush tool all the time, with no crashes), and the new additions are genuinely helpful. In conjunction with ArtWorks, it’s become a very capable pixel editor. You can still crash it from time to time (deleting sprites from the spritefile window seems to sometimes cause this), but the Bounty improvements are really very impressive.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20161:160534</guid>
     </item>    <item>
       <link>https://bsky.app/profile/riscosbits.co.uk/post/3m7qeloo6v22l</link>
       <description>
@@ -1081,17 +1182,6 @@ I’m still looking for the 2001- 2023 magazines.
 
 Thanks all Ian.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20162:160396</guid>
-    </item>    <item>
-      <title>Modern Frosted Theme</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
-      <description>
-        <![CDATA[<p><a href="https://www.iconbar.com/articles/RISC_OS_Advent_Calendar_2025_-_RISOSbits_brings_some_sharng_at_Christmas/index2278.html">https://www.iconbar.com/articles/RISC_OS_Advent_Calend…</a></p>
-        <p>RiscOSBits Demo&#8217;s Frosted Theme in latest Iconbar Advent post, Thanks to those that are testing the Theme :)</p>]]>
-      </description>
-      <source:markdown>[https://www.iconbar.com/articles/RISC\_OS\_Advent\_Calend…](https://www.iconbar.com/articles/RISC_OS_Advent_Calendar_2025_-_RISOSbits_brings_some_sharng_at_Christmas/index2278.html)
-
-RiscOSBits Demo’s Frosted Theme in latest Iconbar Advent post, Thanks to those that are testing the Theme :)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20138:160392</guid>
     </item>    <item>
       <title>RISC OS &#39;Advent&#39; Calendar 2025 - RISOSbits brings some sharng at Christmas</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13533&#38;page=1#125858</link>
@@ -3485,21 +3575,6 @@ Demonstrates how our RISC OS Companions integrate with the RISC OS desktop envir
 #RISCOSCompanion
 https://youtu.be/AuB1leFGihY</source:markdown>
       <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3m55e2swvrk2k</guid>
-    </item>    <item>
-      <title>RPCEmu NAT fail.</title>
-      <link>https://www.riscosopen.org/forum/forums/10/topics/20095</link>
-      <description>
-        <![CDATA[<pre>LDRB     r12,[r0,#8]
-        LDRB     r12,[r0,#9]</pre>
-        <p>Could this perhaps be a really really old codegen bug that&#8217;s been unmasked by a code change? It looks awfully similar to a short accessing bug I reported in 1989. We had to work around that with a macro that did the operations discretely.</p>]]>
-      </description>
-      <source:markdown>```
-LDRB     r12,[r0,#8]
-LDRB     r12,[r0,#9]
-```
-
-Could this perhaps be a really really old codegen bug that’s been unmasked by a code change? It looks awfully similar to a short accessing bug I reported in 1989. We had to work around that with a macro that did the operations discretely.</source:markdown>
-      <guid>cid://www.riscosopen.org:10:20095:159671</guid>
     </item>    <item>
       <title>Problem connecting to gitlab.</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20105</link>
