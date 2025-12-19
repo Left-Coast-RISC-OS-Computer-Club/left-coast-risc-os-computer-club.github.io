@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.18" >
-  <meta name="date" content="2025-12-18T12:00:28-08:00" >
+  <meta name="date" content="2025-12-19T12:00:26-08:00" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -19,6 +19,170 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2025-12-19T17:15:50Z" data-link="https://www.riscosopen.org/forum/forums/3/topics/17019">
+      <h1>CRamFS</h1>
+
+(date: 2025-12-19)
+      <p>
+      <p>I finally got around to trying this out on the RiscPC (using a StrongARM and RISC OS 5.30), and have got some initial numbers from m1time:</p>
+<p>RamFS 2.33 (23 Nov 2020):</p>
+<p>Save 1M * 1000: 8539 csec</p>
+<p>Load 1M * 1000: 6131 csec</p>
+<p>CRamFS + memmove:</p>
+<p>Save 1M * 1000: 9370 csec</p>
+<p>Load 1M * 1000: 7028 csec</p>
+<p>CRamFS + BlockMove:</p>
+<p>Save 1M * 1000: 9517 csec</p>
+<p>Load 1M * 1000: 6346 csec</p>
+<p>I’ve added a bunch of comments on the merge request of things that might help, but I currently don’t have any tools for getting more detailed benchmarks on the RiscPC. That said, it should be possible to get the performance roughly equivalent in C – the BlockMove function seems to be the only part that’s doing something complicated that would require assembly code for performance.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/3/topics/17019">https://www.riscosopen.org/forum/forums/3/topics/17019</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-19T15:48:46Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20179">
+      <h1>Archive Dec/Jan 2026 now on sale</h1>
+
+(date: 2025-12-19)
+      <p>
+      <p>The <strong>December / January 2026</strong> issue of Archive, the magazine for RISC OS users, is out now! The digital edition is being sent out in batches today, with the printed edition dropping through letterboxes in 18 countries around the world shortly.</p>
+<p>Not a subscriber? It’s not too late to take out a print or digital subscription and still receive the latest issue! See below for details.</p>
+<p>It’s another absolutely packed <strong>52 page</strong> issue, including an interview with developer Jeffrey Lee, <strong>RISC OS: where things stand, what comes next</strong> from Steve Revill, <strong>ROD Revelations</strong> from Andrew Rawnsley, plus reviews and articles from <strong>Martin Eastwood, Chris Terran, Chris Hall, George Pearce, and Andrew Oyston</strong>! We’ve also got our usual comprehensive roundup of the latest <strong>news and software updates</strong>. See the cover for full contents.</p>
+<p><img src="https://www.archivemag.co.uk/covers/archive2801cover.jpg" alt=""></p>
+<p><strong>Viewing on RISC OS</strong></p>
+<p>For viewing on RISC OS, I highly recommend using the follow combination:</p>
+<p>- !MuView 0.05 alpha or later, downloadable from !PackMan</p>
+<p>- ButtonBar from The Flying Pig <a href="https://flypig.co.uk/riscos">https://flypig.co.uk/riscos</a></p>
+<p>- BarMuView from John Williams <a href="https://petitfour.space/BarMuView.zip">https://petitfour.space/BarMuView.zip</a></p>
+<p>The second two items should be placed in Tasks.</p>
+<p>Alternatively the !Iris browser also produces good results.</p>
+<p><strong>Subscribe</strong></p>
+<p>6 issue digital subscriptions cost £35, print subscriptions cost £42 (UK) or £62 (rest of world). The print subscriptions include the digital edition free of charge. It’s quick and easy to subscribe – payment can be made by PayPal, bank transfer, and cheque. Full details at <a href="https://www.archivemag.co.uk/subscriptions.html">https://www.archivemag.co.uk/subscriptions.html</a> or contact <a href="mailto:gavin@archivemag.co.uk">gavin@archivemag.co.uk</a> for more information.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20179">https://www.riscosopen.org/forum/forums/1/topics/20179</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-19T13:57:50Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20137">
+      <h1>Clarity Theme ko-fi</h1>
+
+(date: 2025-12-19)
+      <p>
+      <p>There’s a fourth release of the Clarity theme <a href="https://lym.iconbar.com/downloads/clarity4.zip">here</a>.</p>
+<p>This release expands the number of file types defined, including more bitmap formats, vector graphics, fonts, media (video and audio), music files and compression formats. There are over 50 file types defined now, which covers a fairly big chunk of what’s used on the desktop (for reference, Sovereign, which is a very comprehensive theme, has well over 100). All come in small and large versions.</p>
+<p>This will be the final release before Christmas. The next one will, I hope, extend coverage to the ROM apps, !Boot and Configure, as well as incrementally increasing the file types covered.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20137">https://www.riscosopen.org/forum/forums/1/topics/20137</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-19T13:28:38Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20138">
+      <h1>Modern Frosted Theme</h1>
+
+(date: 2025-12-19)
+      <p>
+      <p>Its now been updated <a href="https://riscostechnologies.co.uk/index.php?/files/file/1-frosted-version-10-beta/">Frosted V1</a></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20138">https://www.riscosopen.org/forum/forums/1/topics/20138</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-19T12:55:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3madqfifaw22t">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-12-19)
+      <p>
+      <p>ROOL updates DDE to DDE32b</p>
+<p><a href="http://www.iconbar.com/comments/rss/news2286.html">www.iconbar.com/comments/rss/news2286.html</a></p>
+<p>ROOL have released a new version of the DDE which is now DDE32b.<a href="https://www.iconbar.com/comments/rss/news2286.html">https://www.iconbar.com/comments/rss/news2286.html</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3madqfifaw22t">https://bsky.app/profile/iconbar.com/post/3madqfifaw22t</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-19T12:12:49Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20172">
+      <h1>Bluetooth Again</h1>
+
+(date: 2025-12-19)
+      <p>
+      <p>Yes that is correct according to Prof. Google that TypeOf was in the standard of C23. Well it keeps life exiting.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20172">https://www.riscosopen.org/forum/forums/1/topics/20172</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-19T11:12:10Z" data-link="https://www.riscosopen.org/forum/forums/3/topics/9068">
+      <h1>Linux Port</h1>
+
+(date: 2025-12-19)
+      <p>
+      <p>I have try the old Linux Port from the beginning of this on Pinephone. I mean with Manjaro and Mobian. Was a bit fiddely but at the end it was working.</p>
+<p><img src="https://pyra-handheld.com/boards/attachments/pinephone_riscos-jpg.38659/" alt=""></p>
+<p>The Pinephone keyboard was only working with Manjaro.</p>
+<p><img src="https://pyra-handheld.com/boards/attachments/20230601_052426-jpg.38660/" alt=""></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/3/topics/9068">https://www.riscosopen.org/forum/forums/3/topics/9068</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-19T10:34:51Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20164">
+      <h1>List of modules in C</h1>
+
+(date: 2025-12-19)
+      <p>
+      <p>I seem to remember a bod doing a revamp of the sprite module in ‘C’ then it went quiet – if I remember correctly the person who did had trouble keeping the speed up without some ARM code.</p>
+<p>Is Gerph’s code planed to be added to the source tree?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/13/topics/20164">https://www.riscosopen.org/forum/forums/13/topics/20164</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-19T09:41:00Z" data-link="http://www.iconbar.com/comments/rss/news2286.html">
+      <h1>ROOL updates DDE to DDE32b</h1>
+
+(date: 2025-12-19)
+      <p>
+      <p>ROOL have released a new version of the DDE which is now DDE32b.</p>
+
+      <address>
+        <a href="http://www.iconbar.com/comments/rss/news2286.html">http://www.iconbar.com/comments/rss/news2286.html</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-19T09:10:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3maddudp2is2k">
+      <h1>@colinhoad.com</h1>
+
+(date: 2025-12-19)
+      <p>
+      <p>It's Day 19 and this one comes with a warning: contains extreme flickering images... youtu.be/CC3jJBctL68<a href="https://youtu.be/CC3jJBctL68">https://youtu.be/CC3jJBctL68</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3maddudp2is2k">https://bsky.app/profile/colinhoad.com/post/3maddudp2is2k</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-18T21:20:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3mac46smkgc2d">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-12-18)
+      <p>
+      <p>RISC OS 'Advent' Calendar 2025 - ROOL festive brain teaser</p>
+<p><a href="http://www.iconbar.com/comments/rss/news2284.html">www.iconbar.com/comments/rss/news2284.html</a></p>
+<p>Many thanks to ROOL for some suitably cryptic challenges to keep our brains sharp (It's not too late to send us yours).<a href="https://www.iconbar.com/comments/rss/news2284.html">https://www.iconbar.com/comments/rss/news2284.html</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3mac46smkgc2d">https://bsky.app/profile/iconbar.com/post/3mac46smkgc2d</a>
+      </address>
+    </article>
 
     <article data-published="2025-12-18T18:35:27Z" data-link="https://kevsoft.wordpress.com/2025/12/18/flagquiz-goes-to-version-1-01/">
       <h1>FlagQuiz Goes To Version 1.01</h1>
@@ -71,20 +235,6 @@
       </address>
     </article>
 
-    <article data-published="2025-12-18T11:17:17Z" data-link="https://www.riscosopen.org/forum/forums/3/topics/9068">
-      <h1>Linux Port</h1>
-
-(date: 2025-12-18)
-      <p>
-      <p>I have try to install the Linux port on Pi500+ (16GB RAM, Linux from NVMe). Both, the Direct package and the installer for the Pi5 from Git, gives the same “memory map error” if I try to start RISC OS after installation.</p>
-<p>I have also try “sudo sysctl vm.mmap_min_addr=12288” but without success.</p>
-<p>Any ideas how I get it to work?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/3/topics/9068">https://www.riscosopen.org/forum/forums/3/topics/9068</a>
-      </address>
-    </article>
-
     <article data-published="2025-12-18T09:06:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3maat5npbgk22">
       <h1>@colinhoad.com</h1>
 
@@ -120,19 +270,6 @@ youtu.be/PXkPT23KHHk<a href="https://youtu.be/PXkPT23KHHk">https://youtu.be/PXkP
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3maagilbi522z">https://bsky.app/profile/nemo20000.bsky.social/post/3maagilbi522z</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-18T00:25:45Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20172">
-      <h1>Bluetooth Again</h1>
-
-(date: 2025-12-18)
-      <p>
-      <p>Another upload in the Github repository. I do apologize the code will still not compile under RISC-OS. That will be a lengthy process anyway</p>
-<p>Jean-Michel asked me in the other thread about sub directories why I don’t use NETBSD source the reason is very practical I use a Pi zero 2W as test platform and Raspberry Pi OS has good support for Bluetooth ( and even BLE) while as I look to netbsd is a question mark. I even had trouble to get a working netbsd on my pi zero. Do not get me wrong I would love to base the work on netbsd but I want to go to a working situation and with linux source I have the feeling I have a better change.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20172">https://www.riscosopen.org/forum/forums/1/topics/20172</a>
       </address>
     </article>
 
@@ -236,22 +373,6 @@ studio.youtube.com###comment-smart-replies-disclaimer</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/11/topics/20167">https://www.riscosopen.org/forum/forums/11/topics/20167</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-16T22:28:52Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20138">
-      <h1>Modern Frosted Theme</h1>
-
-(date: 2025-12-16)
-      <p>
-      <p>Final Beta now before christmas, Version 1.0</p>
-<p><a href="https://www.riscostechnologies.co.uk/Frosted/FrostedV1.zip">Frosted Theme V1.0</a></p>
-<p>Only for Risc OS 5.30+</p>
-<p>Includeds Frosted Font</p>
-<p>Standalone App to try before you merge !boot</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20138">https://www.riscosopen.org/forum/forums/1/topics/20138</a>
       </address>
     </article>
 
@@ -415,24 +536,6 @@ studio.youtube.com###comment-smart-replies-disclaimer</p>
 
       <address>
         <a href="https://bsky.app/profile/colinhoad.com/post/3m7zmc3bbq226">https://bsky.app/profile/colinhoad.com/post/3m7zmc3bbq226</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-15T12:13:50Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20137">
-      <h1>Clarity Theme ko-fi</h1>
-
-(date: 2025-12-15)
-      <p>
-      <p>Thank you for Clarity3, which is looking good here.</p>
-<p>In unprotected mode !Boot shows the default ROOL yellow icon. There is a !boot icon within the theme which is displayed in protected mode. As far as I can see the !boot theme icon needs to at <code>!Boot.Themes.Clarity.!Sprites</code> and does not need to be in the ThemeDefs Sprites file at all, applications can load their own icons. (Unless I am missing something. (Always hazard here.))</p>
-<blockquote>
-<p>I’d still advise unticking the ‘Protect theme icons’ in Configure while testing, in case there’s anything missing.</p>
-</blockquote>
-<p>Most noticeably the icon for text files, <code>file_fff</code>. <code>small_fff</code> is present.😀</p>
-<p>HTH</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20137">https://www.riscosopen.org/forum/forums/1/topics/20137</a>
       </address>
     </article>
 
@@ -1263,18 +1366,6 @@ youtu.be/PEbm0EnRprA<a href="https://youtu.be/PEbm0EnRprA">https://youtu.be/PEbm
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/19172">https://www.riscosopen.org/forum/forums/1/topics/19172</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-08T17:56:02Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20164">
-      <h1>List of modules in C</h1>
-
-(date: 2025-12-08)
-      <p>
-      <p>Perfect thank you</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/13/topics/20164">https://www.riscosopen.org/forum/forums/13/topics/20164</a>
       </address>
     </article>
 
