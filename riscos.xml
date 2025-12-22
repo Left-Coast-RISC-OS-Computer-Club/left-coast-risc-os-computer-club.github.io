@@ -7,10 +7,129 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>21 Dec 25 12:00 -0800</lastBuildDate>
+    <lastBuildDate>22 Dec 25 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3malptvwxns2p</link>
+      <description>
+        <![CDATA[A trio of nemoBasic updates I’ve added in December. Firstly a trivial one: Press any key!
+        
+        Being able to just GET without storing the result is surprisingly useful (and optimises something I’d already implemented – the statement form EVAL GET which evaluates its expression but ignores the result)]]>
+      </description>
+      <source:markdown>A trio of nemoBasic updates I’ve added in December. Firstly a trivial one: Press any key!
+
+Being able to just GET without storing the result is surprisingly useful (and optimises something I’d already implemented – the statement form EVAL GET which evaluates its expression but ignores the result)</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3malptvwxns2p</guid>
+    </item>    <item>
+      <title>RISC OS today and tomorrow: understanding behaviour and trade-offs</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20183</link>
+      <description>
+        <![CDATA[<p>Following recent comments by Steve Revill in Archive Magazine, about <span class="caps">RISC</span> OS Open’s intention to stay in touch with community-led modernisation efforts, I’ve started to write down some thoughts (and plan) on the future of <span class="caps">RISC</span> OS (according to my own analysis) by first looking carefully at its past.</p>
+        <p>I’ve published an article that tries to explain, in practical terms, why <span class="caps">RISC</span> OS behaves the way it does today, where those behaviours come from historically, and what trade-offs are involved when people talk about topics such as <b>multi-core support</b>, <b>multitasking models</b>, <b>memory protection</b>, <b>64-bit support</b>, and similar areas.</p>
+        <p>The article starts from the roots of legacy <span class="caps">RISC</span> OS, using historical material and documentation to provide context, before touching on how different modernisation efforts (including my own work on Merlin) attempt to address similar challenges in different ways. Merlin is included as an example, not as a proposal or direction.</p>
+        <p>I would very much like this to remain a collaborative effort. If others working on <span class="caps">RISC</span> OS modernisation or 64-bit ports are comfortable sharing high-level summaries of their work, I’d be happy to help host or reference them, with the aim of helping general users better understand what is being worked on and why, especially in terms of user-visible impact.</p>
+        <p>This is not about pushing changes or turning <span class="caps">RISC</span> OS into something else. It’s about improving understanding, reducing people talking past each other, and making discussions around these topics more productive.</p>
+        <p>The article is very much a work in progress, already shaped by community feedback. Corrections, clarifications, and alternative perspectives are very welcome. If something is wrong, unclear, or poorly explained, that’s exactly the kind of feedback I’m looking for.</p>
+        <p>Article here:</p>
+        <pre>
+        <a href="https://riscoscommunity.org/understanding-risc-os/risc-os-today-and-tomorrow-what-would-really-benefit-the-platform/">https://riscoscommunity.org/understanding-risc-os/risc…</a>
+        </pre>
+        <p>Thanks everyone for your time and feedback! :)</p>]]>
+      </description>
+      <source:markdown>Following recent comments by Steve Revill in Archive Magazine, about RISC OS Open’s intention to stay in touch with community-led modernisation efforts, I’ve started to write down some thoughts (and plan) on the future of RISC OS (according to my own analysis) by first looking carefully at its past.
+
+I’ve published an article that tries to explain, in practical terms, why RISC OS behaves the way it does today, where those behaviours come from historically, and what trade-offs are involved when people talk about topics such as **multi-core support**, **multitasking models**, **memory protection**, **64-bit support**, and similar areas.
+
+The article starts from the roots of legacy RISC OS, using historical material and documentation to provide context, before touching on how different modernisation efforts (including my own work on Merlin) attempt to address similar challenges in different ways. Merlin is included as an example, not as a proposal or direction.
+
+I would very much like this to remain a collaborative effort. If others working on RISC OS modernisation or 64-bit ports are comfortable sharing high-level summaries of their work, I’d be happy to help host or reference them, with the aim of helping general users better understand what is being worked on and why, especially in terms of user-visible impact.
+
+This is not about pushing changes or turning RISC OS into something else. It’s about improving understanding, reducing people talking past each other, and making discussions around these topics more productive.
+
+The article is very much a work in progress, already shaped by community feedback. Corrections, clarifications, and alternative perspectives are very welcome. If something is wrong, unclear, or poorly explained, that’s exactly the kind of feedback I’m looking for.
+
+Article here:
+
+```
+https://riscoscommunity.org/understanding-risc-os/risc…
+
+```
+
+Thanks everyone for your time and feedback! :)</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20183:160843</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3malk4af3k22x</link>
+      <description>
+        <![CDATA[New big post about the present and future of #RISC_OS. Open for corrections. First focus the kernel.
+        
+        @lproven.bsky.social , @nemo20000.bsky.social , @taynappe.bsky.social  and anyone who wish to provide corrections please let me know, thx!
+        
+        https://riscoscommunity.org/understanding-risc-os/risc-os-today-and-tomorrow-what-would-really-benefit-the-platform/]]>
+      </description>
+      <source:markdown>New big post about the present and future of #RISC\_OS. Open for corrections. First focus the kernel.
+
+@lproven.bsky.social , @nemo20000.bsky.social , @taynappe.bsky.social and anyone who wish to provide corrections please let me know, thx!
+
+https://riscoscommunity.org/understanding-risc-os/risc-os-today-and-tomorrow-what-would-really-benefit-the-platform/</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3malk4af3k22x</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3makxqjhapk2t</link>
+      <description>
+        <![CDATA[RISC OS 'Advent' Calendar 2025 - Raik Fischer has RISC OS in his pocket
+        
+        www.iconbar.com/comments/rss/news2285.html
+        
+        Many thanks to Raik for showing us how he keeps RISC OS in his pocket (It's not too late to send us yours).
+        https://www.iconbar.com/comments/rss/news2285.html]]>
+      </description>
+      <source:markdown>RISC OS &#39;Advent&#39; Calendar 2025 - Raik Fischer has RISC OS in his pocket
+
+www.iconbar.com/comments/rss/news2285.html
+
+Many thanks to Raik for showing us how he keeps RISC OS in his pocket (It&#39;s not too late to send us yours).
+https://www.iconbar.com/comments/rss/news2285.html</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3makxqjhapk2t</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3makurqujjk25</link>
+      <description>
+        <![CDATA[With just three more sleeps until Christmas, can Cascade redeem itself today 😆 youtu.be/9111DeU81yI
+        https://youtu.be/9111DeU81yI]]>
+      </description>
+      <source:markdown>With just three more sleeps until Christmas, can Cascade redeem itself today 😆 youtu.be/9111DeU81yI
+https://youtu.be/9111DeU81yI</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3makurqujjk25</guid>
+    </item>    <item>
+      <title>RISC OS &#39;Advent&#39; Calendar 2025 - Raik Fischer has RISC OS in his pocket</title>
+      <link>http://www.iconbar.com/comments/rss/news2285.html</link>
+      <description>
+        <![CDATA[Many thanks to Raik for a showing us how he keeps RISC OS in his pocket (It's not too late to send us yours).]]>
+      </description>
+      <source:markdown>Many thanks to Raik for a showing us how he keeps RISC OS in his pocket (It&#39;s not too late to send us yours).</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2285.html</guid>
+    </item>    <item>
+      <title>Archive Dec/Jan 2026 now on sale</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20179</link>
+      <description>
+        <![CDATA[<p>I read the Jeffrey interview. It is a really nice piece, and a big thanks to him for the shout-out to the <span class="caps">RISC</span> OS Community on GitHub! :)</p>
+        <p>Also, a huge thanks to Jeffrey for mentioning the importance of introducing test automation if people are serious about porting <span class="caps">RISC</span> OS to 64-bit systems. Let’s hope his words will be heard. ;)</p>]]>
+      </description>
+      <source:markdown>I read the Jeffrey interview. It is a really nice piece, and a big thanks to him for the shout-out to the RISC OS Community on GitHub! :)
+
+Also, a huge thanks to Jeffrey for mentioning the importance of introducing test automation if people are serious about porting RISC OS to 64-bit systems. Let’s hope his words will be heard. ;)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20179:160840</guid>
+    </item>    <item>
+      <title>So What Now?</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20151</link>
+      <description>
+        <![CDATA[<p><span class="caps">AIUI</span> a problem is that the existing <span class="caps">RISC</span> OS printing system requires the calling application to make all its requests without calling Wimp_Poll.  See the paper <span class="caps">PRM</span> page 3-260.</p>
+        <p>The <span class="caps">IPP</span> printing system that I&#8217;ve worked on does indeed buffer to disc, then multi-tasks while sending the data to the printer.</p>]]>
+      </description>
+      <source:markdown>AIUI a problem is that the existing RISC OS printing system requires the calling application to make all its requests without calling Wimp\_Poll. See the paper PRM page 3-260.
+
+The IPP printing system that I’ve worked on does indeed buffer to disc, then multi-tasks while sending the data to the printer.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20151:160837</guid>
+    </item>    <item>
       <title>Push code to my own github</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20181</link>
       <description>
@@ -47,6 +166,17 @@ Also had a look how the NetBSD bt stack works but again as long BT is not workin
 
 And now derate time ;-)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20172:160827</guid>
+    </item>    <item>
+      <title>List of modules in C</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20164</link>
+      <description>
+        <![CDATA[<p>Maybe !Browse with the homepage set to a basic page to download the tools and files needed to complete the disc setup for the A7000 and RiscPC Rom&#8217;s</p>
+        <p>Maybe with ROD&#8217;s upcoming FileCore Cloud system, maybe a Share to that to host read only disc resources to copy across.</p>]]>
+      </description>
+      <source:markdown>Maybe !Browse with the homepage set to a basic page to download the tools and files needed to complete the disc setup for the A7000 and RiscPC Rom’s
+
+Maybe with ROD’s upcoming FileCore Cloud system, maybe a Share to that to host read only disc resources to copy across.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20164:160825</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3maizsumdos23</link>
       <description>
@@ -97,30 +227,6 @@ Yours. It’s a Fast system.</source:markdown>
 Cheers! And happy holidays, everyone.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20173:160811</guid>
     </item>    <item>
-      <title>List of modules in C</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/20164</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I can’t see at all at the moment as gitlab is down again!!</p>
-        </blockquote>
-        <blockquote>
-        <p>It always seems to be down. I suggested having an external mirror, but was told it’s never down :-) (I may be unfairly paraphrasing).</p>
-        </blockquote>
-        <p>Mea culpa. I realised shortly after sending you that message that this probably wasn&#8217;t your recent actual experience. Strictly speaking, it hadn&#8217;t been down at all, it&#8217;s been running all the time, but in the last few weeks has had periods where it was fully occupied dealing with replying to malicious crawler bots, mostly from China, preventing more worthy users such as yourself from getting on.</p>
-        <p>We&#8217;ve now blocked access to GitLab from a large range of IP blocks in China and Vietnam, which is where most of the bad traffic was coming from, and this seems to have improved things considerably. We&#8217;re setting up some better monitoring so that in future we should be able to more quickly react if it starts slowing down again.</p>
-        <p>If anyone is having problems with GitLab, do send an e-mail to the &#8216;code@&#8217; address, because it will be seen more quickly by someone who can do something about it than a post on the forums.</p>]]>
-      </description>
-      <source:markdown>&#62; I can’t see at all at the moment as gitlab is down again!!
-
-&#62; It always seems to be down. I suggested having an external mirror, but was told it’s never down :-) (I may be unfairly paraphrasing).
-
-Mea culpa. I realised shortly after sending you that message that this probably wasn’t your recent actual experience. Strictly speaking, it hadn’t been down at all, it’s been running all the time, but in the last few weeks has had periods where it was fully occupied dealing with replying to malicious crawler bots, mostly from China, preventing more worthy users such as yourself from getting on.
-
-We’ve now blocked access to GitLab from a large range of IP blocks in China and Vietnam, which is where most of the bad traffic was coming from, and this seems to have improved things considerably. We’re setting up some better monitoring so that in future we should be able to more quickly react if it starts slowing down again.
-
-If anyone is having problems with GitLab, do send an e-mail to the ‘code@’ address, because it will be seen more quickly by someone who can do something about it than a post on the forums.</source:markdown>
-      <guid>cid://www.riscosopen.org:13:20164:160810</guid>
-    </item>    <item>
       <title>Linux Port</title>
       <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
       <description>
@@ -155,14 +261,6 @@ https://youtu.be/FzmeG8u4oqU</source:markdown>
       </description>
       <source:markdown>Just to say thank you, Coming from using a Raspi Pi 4 using Risc OS on a SD card. I have received my Chimera box and RISC OS is certainly blazing fast and zippy on a NVME drive. Apps like Netsurf just browse pages like a snap of the finger and playing Doom is very buttery smooth. :-D, Merry Christmas.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20169:160747</guid>
-    </item>    <item>
-      <title>Archive Dec/Jan 2026 now on sale</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20179</link>
-      <description>
-        <![CDATA[<p><span class="caps">ROOL</span> Director reveals all &#8211; Nothing we haven&#8217;t heard already, But it was nice to see Jeffery Lee back with us for the Feature :)</p>]]>
-      </description>
-      <source:markdown>ROOL Director reveals all – Nothing we haven’t heard already, But it was nice to see Jeffery Lee back with us for the Feature :)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20179:160743</guid>
     </item>    <item>
       <title>Modern Frosted Theme</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
@@ -1841,14 +1939,6 @@ https://youtu.be/zGLcXSINg-o</source:markdown>
       </description>
       <source:markdown>V0.2 Update With Added Stack.Sans Desktop Font</source:markdown>
       <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13528&#38;page=1#125855</guid>
-    </item>    <item>
-      <title>So What Now?</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/20151</link>
-      <description>
-        <![CDATA[<p>Yes simon of course, You, Paolo and Gerph all have your own projects which isnt directly linked to <span class="caps">ROOL</span> itself. But everyone has a different idea as to what a future Risc OS should look like and some would prefer it just to remain the same, I don&#8217;t think <span class="caps">ROOL</span> have actually specified what the preference is for how a future risc os should be. I mean 32Bit is going to last us until at least 2030 with Pi4&#8217;s still in production till then. at this point id be happy with multicore.</p>]]>
-      </description>
-      <source:markdown>Yes simon of course, You, Paolo and Gerph all have your own projects which isnt directly linked to ROOL itself. But everyone has a different idea as to what a future Risc OS should look like and some would prefer it just to remain the same, I don’t think ROOL have actually specified what the preference is for how a future risc os should be. I mean 32Bit is going to last us until at least 2030 with Pi4’s still in production till then. at this point id be happy with multicore.</source:markdown>
-      <guid>cid://www.riscosopen.org:13:20151:160298</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m6zkijzyjc2g</link>
       <description>
