@@ -7,10 +7,228 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>23 Dec 25 12:00 -0800</lastBuildDate>
+    <lastBuildDate>24 Dec 25 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3maqxyiujgk27</link>
+      <description>
+        <![CDATA[Twas the night before Christmas when all through the house, not a creature was stirring except maybe this game from Cascade!
+        youtu.be/hvgzOO3BWfw
+        https://youtu.be/hvgzOO3BWfw]]>
+      </description>
+      <source:markdown>Twas the night before Christmas when all through the house, not a creature was stirring except maybe this game from Cascade!
+youtu.be/hvgzOO3BWfw
+https://youtu.be/hvgzOO3BWfw</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3maqxyiujgk27</guid>
+    </item>    <item>
+      <title>Route: route already in table: File exists</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20188</link>
+      <description>
+        <![CDATA[<p>I have been reconfiguring a new Compute-4 based computer using <span class="caps">RISC</span> OS 5.30. It had the <span class="caps">ROD</span> <span class="caps">TCP</span>/IP stack installed when supplied (Internet module 7.09), but as I was having some instability issues with weird errors on startup and closedown, I uninstalled it, and then installed the <span class="caps">ROOL</span> wifi drivers. Actually, I am still getting many of the same errors, so the <span class="caps">ROD</span> stack cannot have been the problem.</p>
+        <p>Currently I have the machine configured to use the wired interface, not wifi, with IP address obtained via <span class="caps">DHCP</span>. But most times I boot, before the desktop appears I get &#8220;Message from Desktop&#8221; heading up an error dialogue, with &#8220;Machine startup has not completed successfully: &#8216;Route: route already in table: File exists&#8217;&#8221;.</p>
+        <p>(The machine is taking a while at the &#8220;Contacting <span class="caps">DHCP</span> server&#8230;&#8221; stage on booting, but it&#8217;s hard to tell if it times out when I get the error or if it has succeeded in getting an address.)</p>
+        <p>If I try &#8220;Retry&#8221; the dialogue remains, and nothing happens, but the mouse pointer does move so it is not a total crash. If I click Cancel it usually goes through to the desktop fine.</p>
+        <p>Can anyone give me a pointer as to where to investigate to get rid of this error?</p>
+        <p>The interface is set to obtain the address via <span class="caps">DHCP</span>, the Routes dialogue has 192.168.1.1 in the Gateway and neither of the options underneath ticked, and the Host names dialogue has a host name filled in, 8.8.8.8 in the Primary name server, and &#8220;Try name server too&#8221; ticked.</p>]]>
+      </description>
+      <source:markdown>I have been reconfiguring a new Compute-4 based computer using RISC OS 5.30. It had the RODTCP/IP stack installed when supplied (Internet module 7.09), but as I was having some instability issues with weird errors on startup and closedown, I uninstalled it, and then installed the ROOL wifi drivers. Actually, I am still getting many of the same errors, so the ROD stack cannot have been the problem.
+
+Currently I have the machine configured to use the wired interface, not wifi, with IP address obtained via DHCP. But most times I boot, before the desktop appears I get “Message from Desktop” heading up an error dialogue, with “Machine startup has not completed successfully: ‘Route: route already in table: File exists’”.
+
+(The machine is taking a while at the “Contacting DHCP server…” stage on booting, but it’s hard to tell if it times out when I get the error or if it has succeeded in getting an address.)
+
+If I try “Retry” the dialogue remains, and nothing happens, but the mouse pointer does move so it is not a total crash. If I click Cancel it usually goes through to the desktop fine.
+
+Can anyone give me a pointer as to where to investigate to get rid of this error?
+
+The interface is set to obtain the address via DHCP, the Routes dialogue has 192.168.1.1 in the Gateway and neither of the options underneath ticked, and the Host names dialogue has a host name filled in, 8.8.8.8 in the Primary name server, and “Try name server too” ticked.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20188:160902</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3maqtoa6qf22h</link>
+      <description>
+        <![CDATA[A “big” update to RISC OS nemoBasic.
+        
+        ON ERROR is a class of declaration I was hoping to significantly expand before Christmas, but the special surprise I have is still defrosting with the turkey, but in anticipation of that mystery meat I have implemented this:
+        
+        Large ON ERROR blocks:]]>
+      </description>
+      <source:markdown>A “big” update to RISC OS nemoBasic.
+
+ON ERROR is a class of declaration I was hoping to significantly expand before Christmas, but the special surprise I have is still defrosting with the turkey, but in anticipation of that mystery meat I have implemented this:
+
+Large ON ERROR blocks:</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3maqtoa6qf22h</guid>
+    </item>    <item>
+      <title>Happy Christmas and New Year from all at R-Comp and ROD</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20187</link>
+      <description>
+        <![CDATA[<p>Firstly, I&#8217;d like to wish everyone a Happy Christmas and a super, <span class="caps">RISC</span> OS-filled 2026.  Thankyou to eveyone for being part of the community this  year, and for all your <span class="caps">RISC</span> OS related activity, support, developments, purchases and forum posts etc.</p>
+        <p>I&#8217;m now finishing for Christmas (well, it is nearly 4pm on Christmas Eve).  The intention is to take a bit of a longer Christmas break as I&#8217;m absolutely exhausted from a non-stop year.  I&#8217;ve been working weekends since the summer, and still not found time to celebrate my birthday from back in October!  We&#8217;ve more-or-less cleared the decks in time for Christmas, so the plan is to take a rest until early Jan.</p>
+        <p>My intention is to return to work properly on Jan 12th, although I may well be checking email from the 7th onwards &#8211; if you can avoid sending tech support emails until then, it&#8217;d be appreciated.</p>
+        <p>In the meantime, Plingstore will continue to operate, although please be patient as I&#8217;ll likely only be approving orders every few days.</p>
+        <p>Christmas cards &#8211; I&#8217;m afraid we simply haven&#8217;t had a chance to do the usual Christmas Card send-out this year, so if you were expecting one and haven&#8217;t received, please don&#8217;t take it personally.  Hopefully normal service will be resumed next year.  I may try and slip a few out whilst listening to &#8220;Carols from Kings&#8221; this afternoon, but it is a wee bit late now.</p>
+        <p>Warrington Show (<span class="caps">RISC</span> OS North) is on Saturday, March 21st, 2026 &#8211; see <a href="http://www.riscosnorth.uk">www.riscosnorth.uk</a> for more info.  We&#8217;ve been slow on getting exhibitor invites out this year, but please pencil this date into your diary (the show has been paid for, so it is definitely happening).  We hope to see you there if possible :)</p>
+        <p>I hope you all have a really nice Chirstmas period, and have exactly the balance of fun, friendship, food, relaxation and <span class="caps">RISC</span> OS that you wish for :)</p>
+        <p>Best wishes to everyone,</p>
+        <p>Andrew &amp; all @ R-Comp and <span class="caps">RISC</span> OS Developments</p>]]>
+      </description>
+      <source:markdown>Firstly, I’d like to wish everyone a Happy Christmas and a super, RISC OS-filled 2026. Thankyou to eveyone for being part of the community this year, and for all your RISC OS related activity, support, developments, purchases and forum posts etc.
+
+I’m now finishing for Christmas (well, it is nearly 4pm on Christmas Eve). The intention is to take a bit of a longer Christmas break as I’m absolutely exhausted from a non-stop year. I’ve been working weekends since the summer, and still not found time to celebrate my birthday from back in October! We’ve more-or-less cleared the decks in time for Christmas, so the plan is to take a rest until early Jan.
+
+My intention is to return to work properly on Jan 12th, although I may well be checking email from the 7th onwards – if you can avoid sending tech support emails until then, it’d be appreciated.
+
+In the meantime, Plingstore will continue to operate, although please be patient as I’ll likely only be approving orders every few days.
+
+Christmas cards – I’m afraid we simply haven’t had a chance to do the usual Christmas Card send-out this year, so if you were expecting one and haven’t received, please don’t take it personally. Hopefully normal service will be resumed next year. I may try and slip a few out whilst listening to “Carols from Kings” this afternoon, but it is a wee bit late now.
+
+Warrington Show (RISC OS North) is on Saturday, March 21st, 2026 – see [www.riscosnorth.uk](http://www.riscosnorth.uk) for more info. We’ve been slow on getting exhibitor invites out this year, but please pencil this date into your diary (the show has been paid for, so it is definitely happening). We hope to see you there if possible :)
+
+I hope you all have a really nice Chirstmas period, and have exactly the balance of fun, friendship, food, relaxation and RISC OS that you wish for :)
+
+Best wishes to everyone,
+
+Andrew &#38; all @ R-Comp and RISC OS Developments</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20187:160896</guid>
+    </item>    <item>
+      <title>To Everyone in the Community</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20186</link>
+      <description>
+        <![CDATA[<p>To Everyone in the <span class="caps">RISC</span> OS Community, Have a very Merry Christmas and a Happy New Year<br />
+        from My Family to Yours :)</p>]]>
+      </description>
+      <source:markdown>To Everyone in the RISC OS Community, Have a very Merry Christmas and a Happy New Year
+
+from My Family to Yours :)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20186:160895</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3maqe2rywi22w</link>
+      <description>
+        <![CDATA[Wishing you all a Merry RISC OS and a cogtastic New Year! 🎄🚀🕹️🛸]]>
+      </description>
+      <source:markdown>Wishing you all a Merry RISC OS and a cogtastic New Year! 🎄🚀🕹️🛸</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3maqe2rywi22w</guid>
+    </item>    <item>
+      <title>The IconBar advent calendar needs your help</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20131</link>
+      <description>
+        <![CDATA[<p>All the entries for our xmas calendar are now live at <a href="https://www.iconbar.com/articles/advent/">https://www.iconbar.com/articles/advent/</a></p>
+        <p>Many thanks to everyone who contributed &#8211; I really appreciate your efforts and ingenuity. Some especially bad puns this year!</p>
+        <p>It is always one of my favourite items on <span class="caps">TIB</span> as we get a really interesting selection of news, opinions and real life things people are doing with <span class="caps">RISC</span> OS.</p>]]>
+      </description>
+      <source:markdown>All the entries for our xmas calendar are now live at [https://www.iconbar.com/articles/advent/](https://www.iconbar.com/articles/advent/)
+
+Many thanks to everyone who contributed – I really appreciate your efforts and ingenuity. Some especially bad puns this year!
+
+It is always one of my favourite items on TIB as we get a really interesting selection of news, opinions and real life things people are doing with RISC OS.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20131:160887</guid>
+    </item>    <item>
+      <title>RISC OS &#39;Advent&#39; Calendar 2025 - Gavin Crawford&#39;s RISC OS publishing system</title>
+      <link>http://www.iconbar.com/comments/rss/news2290.html</link>
+      <description>
+        <![CDATA[Many thanks to Gavin for sharing his desktop with us - something of a powerhouse....]]>
+      </description>
+      <source:markdown>Many thanks to Gavin for sharing his desktop with us - something of a powerhouse....</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2290.html</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mapyx3xses27</link>
+      <description>
+        <![CDATA[RISC OS 'Advent' Calendar 2025 - Gerph's update on 2025 RISC OS projects
+        
+        www.iconbar.com/comments/rss/news2288.html
+        
+        Many thanks to Gerph for a detailed RISC OS in his pocket. I have found his Sunday coding sessions really interesting.
+        https://www.iconbar.com/comments/rss/news2288.html]]>
+      </description>
+      <source:markdown>RISC OS &#39;Advent&#39; Calendar 2025 - Gerph&#39;s update on 2025 RISC OS projects
+
+www.iconbar.com/comments/rss/news2288.html
+
+Many thanks to Gerph for a detailed RISC OS in his pocket. I have found his Sunday coding sessions really interesting.
+https://www.iconbar.com/comments/rss/news2288.html</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mapyx3xses27</guid>
+    </item>    <item>
+      <title>Disabling scroll wheel on mouse</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20185</link>
+      <description>
+        <![CDATA[<p>Is it possible to configure <span class="caps">RISC</span> OS somehow so that the scrolling aspect of the mouse is ignored across the whole operating system, but clicking the scroll wheel still works as the Menu button?</p>
+        <p>I tried configuring the scroll speed to the slowest setting hoping that would disable it, but it just scrolls very slowly.</p>]]>
+      </description>
+      <source:markdown>Is it possible to configure RISC OS somehow so that the scrolling aspect of the mouse is ignored across the whole operating system, but clicking the scroll wheel still works as the Menu button?
+
+I tried configuring the scroll speed to the slowest setting hoping that would disable it, but it just scrolls very slowly.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20185:160884</guid>
+    </item>    <item>
+      <title>RISC OS &#39;Advent&#39; Calendar 2025 - Gerph&#39;s update on 2025 RISC OS projects</title>
+      <link>http://www.iconbar.com/comments/rss/news2288.html</link>
+      <description>
+        <![CDATA[Many thanks to Gerph for a detaled RISC OS in his pocket (I have found his sunday coding sessions really interesting).]]>
+      </description>
+      <source:markdown>Many thanks to Gerph for a detaled RISC OS in his pocket (I have found his sunday coding sessions really interesting).</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2288.html</guid>
+    </item>    <item>
+      <title>BASIC and LOCAL DATA</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/19900</link>
+      <description>
+        <![CDATA[<p>In PDP11 <span class="caps">BASIC</span> it took just one extra instruction to fix <span class="caps">LOCAL</span> <span class="caps">DATA</span>:continue tokenising:</p>
+        <pre><code>jsr  pc,TokenSearch	; Search token table
+        ;...
+        bit  #2,r2		; Are we at the start of statement?
+        bne  TokenWord1		; No, enter token/char
+        bit  #16,r1		; Is this a pseudo-variable?
+        beq  TokenWord2		; No, enter unchanged
+        add  #&amp;40,r0		; Convert token to command token
+        .TokenWord1
+        bic  #&amp;40,r2		; *EXTRA* Middle of statement, don't turn tokeniser off
+        .TokenWord2
+        mov  r1,r2		; Copy new flags to current flags
+        ;...</code></pre>
+        <p>It looks to me that the <span class="caps">ARM</span> code would be similarly simple to update. I&#8217;ll have a look at it over Christmas.</p>]]>
+      </description>
+      <source:markdown>In PDP11 BASIC it took just one extra instruction to fix LOCALDATA:continue tokenising:
+
+```
+jsr  pc,TokenSearch	; Search token table
+;...
+bit  #2,r2		; Are we at the start of statement?
+bne  TokenWord1		; No, enter token/char
+bit  #16,r1		; Is this a pseudo-variable?
+beq  TokenWord2		; No, enter unchanged
+add  #&#38;40,r0		; Convert token to command token
+.TokenWord1
+bic  #&#38;40,r2		; *EXTRA* Middle of statement, don&#39;t turn tokeniser off
+.TokenWord2
+mov  r1,r2		; Copy new flags to current flags
+;...
+```
+
+It looks to me that the ARM code would be similarly simple to update. I’ll have a look at it over Christmas.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:19900:160882</guid>
+    </item>    <item>
+      <title>GCCSDK Built with Nix!</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19890</link>
+      <description>
+        <![CDATA[<p>I&#8217;m pretty sure that I am the only person using <span class="caps">GCCSDK</span> via nix, but I&#8217;ve got some updates!<br />
+        Firstly, I&#8217;m using it to compile for RiscOS from an Apple Silicon Mac!  It will also definitely work on windows using <span class="caps">WSL</span>! So if you are using any of those platforms, great news! This will work a charm!</p>
+        <p>Next, I&#8217;ve managed to create an initial cross stdenv which means that it is much easier to use nix as the build system. The example flake is here:<br />
+        <a href="https://github.com/yobson/riscos-nix/tree/main/example">https://github.com/yobson/riscos-nix/tree/main/example</a></p>
+        <p>Next steps will be building OSLib and others this way and move some things over from the auto builder. I also spotted the nordsoft compiler on GitHub (I don&#8217;t think it&#8217;s the one <span class="caps">ROOL</span> uses but will work for risc os), so I may give that the same treatment.</p>
+        <p>Either way, this is turning out to be a very nice way to bring building for risc os to 2025.</p>]]>
+      </description>
+      <source:markdown>I’m pretty sure that I am the only person using GCCSDK via nix, but I’ve got some updates!
+
+Firstly, I’m using it to compile for RiscOS from an Apple Silicon Mac! It will also definitely work on windows using WSL! So if you are using any of those platforms, great news! This will work a charm!
+
+Next, I’ve managed to create an initial cross stdenv which means that it is much easier to use nix as the build system. The example flake is here:
+
+[https://github.com/yobson/riscos-nix/tree/main/example](https://github.com/yobson/riscos-nix/tree/main/example)
+
+Next steps will be building OSLib and others this way and move some things over from the auto builder. I also spotted the nordsoft compiler on GitHub (I don’t think it’s the one ROOL uses but will work for risc os), so I may give that the same treatment.
+
+Either way, this is turning out to be a very nice way to bring building for risc os to 2025.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:19890:160876</guid>
+    </item>    <item>
       <title>Prophet 4.15 brings mobility</title>
       <link>https://www.riscository.com/2025/prophet-4-15/</link>
       <description>
@@ -2924,14 +3142,6 @@ It definitely feels like the bleak mid-winter. So why not have a cosy Saturday n
       </description>
       <source:markdown>Magic smoke escape route.</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3m654w6ggo22m</guid>
-    </item>    <item>
-      <title>The IconBar advent calendar needs your help</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20131</link>
-      <description>
-        <![CDATA[<p>If it runs <span class="caps">RISC</span> OS, we&#8217;d love to feature it on <span class="caps">TIB</span> for our adent calendar!</p>]]>
-      </description>
-      <source:markdown>If it runs RISC OS, we’d love to feature it on TIB for our adent calendar!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20131:160017</guid>
     </item>    <item>
       <link>https://bsky.app/profile/riscos.bsky.social/post/3m64v65qdrc2v</link>
       <description>
