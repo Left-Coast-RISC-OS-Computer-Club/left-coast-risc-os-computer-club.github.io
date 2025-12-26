@@ -7,10 +7,132 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>25 Dec 25 12:00 -0800</lastBuildDate>
+    <lastBuildDate>26 Dec 25 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mavnacdmn22u</link>
+      <description>
+        <![CDATA[I'd have paid a negotiable amount of money for that in 1987. I remember lugging a Beeb plus Zenith CRT in a shoulder bag around South Wales' rail network whilst at my first engineering job. I left the M128 in the flat cos it wouldn't fit.
+        
+        I've been walking in large circles ever since.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>I&#39;d have paid a negotiable amount of money for that in 1987. I remember lugging a Beeb plus Zenith CRT in a shoulder bag around South Wales&#39; rail network whilst at my first engineering job. I left the M128 in the flat cos it wouldn&#39;t fit.
+
+I&#39;ve been walking in large circles ever since.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mavnacdmn22u</guid>
+    </item>    <item>
+      <title>Modern Frosted Theme</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
+      <description>
+        <![CDATA[<p>Frosted Iris Theme to go with the Desktop Theme now Added :)<br />
+        <a href="https://riscostechnologies.co.uk/Frosted/IrisFrostedV1.zip">Download Here</a></p>
+        <p>Main Theme update to 1.2 <a href="https://riscostechnologies.co.uk/Frosted/FrostedV12.zip">here</a><br />
+        <img src="https://images2.imgbox.com/2e/a2/vsVVuqB8_o.png" alt="" /><br />
+        <img src="https://images2.imgbox.com/5f/35/tgnnFBYQ_o.png" alt="" /></p>
+        <p>Main Theme is now working on Select 4 and <span class="caps">SIX</span> Downloads for that should be ready in the next week</p>]]>
+      </description>
+      <source:markdown>Frosted Iris Theme to go with the Desktop Theme now Added :)
+
+[Download Here](https://riscostechnologies.co.uk/Frosted/IrisFrostedV1.zip)
+
+Main Theme update to 1.2 [here](https://riscostechnologies.co.uk/Frosted/FrostedV12.zip)
+
+![](https://images2.imgbox.com/2e/a2/vsVVuqB8_o.png)
+
+![](https://images2.imgbox.com/5f/35/tgnnFBYQ_o.png)
+
+Main Theme is now working on Select 4 and SIX Downloads for that should be ready in the next week</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20138:160938</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mavd5b3c5c2b</link>
+      <description>
+        <![CDATA[This is what happens when search engines give way to LLMs. 
+        https://www.bbc.co.uk/news/articles/crklrnv5yn4o]]>
+      </description>
+      <source:markdown>This is what happens when search engines give way to LLMs.
+https://www.bbc.co.uk/news/articles/crklrnv5yn4o</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mavd5b3c5c2b</guid>
+    </item>    <item>
+      <title>SerialUSB causes zero page access</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20084</link>
+      <description>
+        <![CDATA[<p>RO 5.31 is een development version do you also have this issue with the &#8216;normal&#8217; RO version 5.30 ?</p>]]>
+      </description>
+      <source:markdown>RO 5.31 is een development version do you also have this issue with the ‘normal’ RO version 5.30 ?</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20084:160937</guid>
+    </item>    <item>
+      <title>Is there an XEyes-like tool for RISC OS?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20190</link>
+      <description>
+        <![CDATA[<p>Hello everyone,</p>
+        <p>I’m currently setting up my <span class="caps">RISC</span> OS system to be more “homely” and was wondering if there’s a modern XEyes-like application for <span class="caps">RISC</span> OS.</p>
+        <p>I found a program called “Follow” under the Sillies section on ArcArc.nl — it’s from 1989 and works. Like the original XEyes, it opens in its own window.</p>
+        <p>That got me thinking — is there anything similar that runs in the Iconbar? This is not a mission-critical feature, of course, but just a fun and useful tool since I often lose sight of the mouse cursor. And I have to admit, they simply look funny. At least to me; I’m fairly easy to entertain &#8230; ;-) 🙂</p>
+        <p>I’d be really grateful if anyone has a pointer or knows of such a program.</p>
+        <p>Thanks &amp; best regards,</p>
+        <p>Berny :-)</p>]]>
+      </description>
+      <source:markdown>Hello everyone,
+
+I’m currently setting up my RISC OS system to be more “homely” and was wondering if there’s a modern XEyes-like application for RISC OS.
+
+I found a program called “Follow” under the Sillies section on ArcArc.nl — it’s from 1989 and works. Like the original XEyes, it opens in its own window.
+
+That got me thinking — is there anything similar that runs in the Iconbar? This is not a mission-critical feature, of course, but just a fun and useful tool since I often lose sight of the mouse cursor. And I have to admit, they simply look funny. At least to me; I’m fairly easy to entertain … ;-) 🙂
+
+I’d be really grateful if anyone has a pointer or knows of such a program.
+
+Thanks &#38; best regards,
+
+Berny :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20190:160935</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mauzxdqpkc2m</link>
+      <description>
+        <![CDATA[Archive Edition 28:01 reviewed
+        
+        www.iconbar.com/comments/rss/news2289.html
+        
+        Archive Magazine 28:01 arrived this week, just in time for the holidays, and it's a cracker!
+        https://www.iconbar.com/comments/rss/news2289.html]]>
+      </description>
+      <source:markdown>Archive Edition 28:01 reviewed
+
+www.iconbar.com/comments/rss/news2289.html
+
+Archive Magazine 28:01 arrived this week, just in time for the holidays, and it&#39;s a cracker!
+https://www.iconbar.com/comments/rss/news2289.html</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mauzxdqpkc2m</guid>
+    </item>    <item>
+      <title>Archive Edition 28:01 reviewed</title>
+      <link>http://www.iconbar.com/comments/rss/news2289.html</link>
+      <description>
+        <![CDATA[Archive Magazine 28:01 arrived this week, just in time for the holidays, and it's a cracker!]]>
+      </description>
+      <source:markdown>Archive Magazine 28:01 arrived this week, just in time for the holidays, and it&#39;s a cracker!</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2289.html</guid>
+    </item>    <item>
+      <title>Bluetooth Again</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20172</link>
+      <description>
+        <![CDATA[<p>Today worked on the netbsd code to get it compiled I took the library approach here as advised by Charles and Paolo. It looks it is working ( working with a lib not BT yet , neither the compile)</p>]]>
+      </description>
+      <source:markdown>Today worked on the netbsd code to get it compiled I took the library approach here as advised by Charles and Paolo. It looks it is working ( working with a lib not BT yet , neither the compile)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20172:160928</guid>
+    </item>    <item>
+      <title>Route: route already in table: File exists</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20188</link>
+      <description>
+        <![CDATA[<p>Thank you, removing the Gateway setting got rid of that message. As to those suggesting that I set the IP address manually, that is not an option as I am setting up the machine for use in an environment where I do not control the network, so <span class="caps">DHCP</span> is the best solution unless I talk <strong>really</strong> nicely to the network administrator.</p>]]>
+      </description>
+      <source:markdown>Thank you, removing the Gateway setting got rid of that message. As to those suggesting that I set the IP address manually, that is not an option as I am setting up the machine for use in an environment where I do not control the network, so DHCP is the best solution unless I talk **really** nicely to the network administrator.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20188:160927</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/armbytes.bsky.social/post/3matchfxmdc25</link>
       <description>
         <![CDATA[RISC OS turns up in the strangest places: Acorn Computers' Online Media (Om) media. 🚀🛸🕹️
@@ -56,6 +178,70 @@ Lets me do that and run Moonfish, for example.
 
 The trouble is that it doesn’t “stick”. I have to do the same each time I reboot.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20189:160920</guid>
+    </item>    <item>
+      <title>RISC OS today and tomorrow: understanding behaviour and trade-offs</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20183</link>
+      <description>
+        <![CDATA[<p>I don&#8217;t know if you remember typing on <span class="caps">DOS</span> and early(?) Windows? The <span class="caps">BBC</span> micro was so much less frustrating because you could type more than 16 characters ahead. It&#8217;s that kind of little thing that makes a system more comfortable to use. Going uncooperative ;) on the desktop, I worry that we will lose some of the character of <span class="caps">RISC</span> OS that we may not even notice until it&#8217;s gone.</p>
+        <blockquote>
+        <p>bq. co-op on the desktop is that things happen because I, the user, am making them happen</p>
+        <p>If we ignore the <span class="caps">NULL</span> event, IRQs, and messages that may be initiated without direct user action.</p>
+        </blockquote>
+        <p>I&#8217;m talking about the tasks that interact directly with the Wimp, not all tasks.</p>
+        <p>Wimp applications since RO3 use the <span class="caps">NULL</span> event sparingly and without taking much time out from the desktop. <span class="caps">IRQ</span> handlers don&#8217;t steal contol of a processor for human-noticable periods of time. As you know, if they to affect a Wimp application, they set a poll word.</p>
+        <p>In my preferred future, <span class="caps">NULL</span> events are barely used at all (and most of them from PollIdle) because background support tasks are far more flexible. They run alongside the Wimp loop task, in the same memory, and only occasionally needing to get the Wimp&#8217;s attention. They can do all the waiting for incoming data from files, sockets, etc., leaving the Wimp loop task to deal with the really important thing: Me.</p>
+        <p>So, I would add one new Wimp <span class="caps">SWI</span>, callable from anywhere: &#8220;Check task T&#8217;s poll word&#8221;, and one new behaviour for UpdateWindow &#8220;Background update&#8221;. (Also, don&#8217;t have the Wimp check poll words constantly while idle.)</p>
+        <blockquote>
+        <p>But in cooperative multitasking, the <strong>application’s decision to yield</strong> is what makes the desktop work at all.</p>
+        </blockquote>
+        <p>Yes, and it makes it work very nicely.</p>
+        <p>If I close a window, I can click on another window and type text into it, knowing with relative certainty what will happen, even if there&#8217;s a delay in seeing it happen.</p>
+        <blockquote>
+        <p>Cooperative applications assume they will not be re-entered while they are running.</p>
+        </blockquote>
+        <p>Existing ones do, yes, and I think that should be kept for new ones as well. Start support tasks to be working away while the Wimp task is in (or processing the results of) a Poll. Those tasks have access to the Wimp task&#8217;s application memory, but the Wimp isn&#8217;t re-entering the program, it&#8217;s just another source of events, to be dealt with as efficiently as possible.</p>
+        <p>For example, a video player application might have one task reading a frame&#8217;s worth of video and audio data from a source, passing it to a pair of tasks that decode them, the audio task passes the sound on to the sound system (no Wimp involvement at all), the video task says when it has completed a frame and a final task attempts to update the visible parts of the window at the right time, all without the main task&#8217;s Poll returning.</p>
+        <p>When a key is pressed, the Wimp will inform the Poll task, which can tell the others to speed up, slow down, pause, change volume, etc., and return almost immediately to the Poll.</p>
+        <p>Another example: a task window building <span class="caps">RISC</span> OS. The command line programs that the Wimp call all have their output directed to a Wimp program that displays it in a window. The <code>make</code> program and the compilers it invokes run completely independently of the Wimp display, but they will be pre-empted by events coming in to the Wimp (keypresses, window movement, etc.). There&#8217;s a good chance that they won&#8217;t even be affected by a Wimp event, because there are multiple cores to run them on.</p>]]>
+      </description>
+      <source:markdown>I don’t know if you remember typing on DOS and early(?) Windows? The BBC micro was so much less frustrating because you could type more than 16 characters ahead. It’s that kind of little thing that makes a system more comfortable to use. Going uncooperative ;) on the desktop, I worry that we will lose some of the character of RISC OS that we may not even notice until it’s gone.
+
+&#62; bq. co-op on the desktop is that things happen because I, the user, am making them happen
+&#62;
+&#62; If we ignore the NULL event, IRQs, and messages that may be initiated without direct user action.
+
+I’m talking about the tasks that interact directly with the Wimp, not all tasks.
+
+Wimp applications since RO3 use the NULL event sparingly and without taking much time out from the desktop. IRQ handlers don’t steal contol of a processor for human-noticable periods of time. As you know, if they to affect a Wimp application, they set a poll word.
+
+In my preferred future, NULL events are barely used at all (and most of them from PollIdle) because background support tasks are far more flexible. They run alongside the Wimp loop task, in the same memory, and only occasionally needing to get the Wimp’s attention. They can do all the waiting for incoming data from files, sockets, etc., leaving the Wimp loop task to deal with the really important thing: Me.
+
+So, I would add one new Wimp SWI, callable from anywhere: “Check task T’s poll word”, and one new behaviour for UpdateWindow “Background update”. (Also, don’t have the Wimp check poll words constantly while idle.)
+
+&#62; But in cooperative multitasking, the **application’s decision to yield** is what makes the desktop work at all.
+
+Yes, and it makes it work very nicely.
+
+If I close a window, I can click on another window and type text into it, knowing with relative certainty what will happen, even if there’s a delay in seeing it happen.
+
+&#62; Cooperative applications assume they will not be re-entered while they are running.
+
+Existing ones do, yes, and I think that should be kept for new ones as well. Start support tasks to be working away while the Wimp task is in (or processing the results of) a Poll. Those tasks have access to the Wimp task’s application memory, but the Wimp isn’t re-entering the program, it’s just another source of events, to be dealt with as efficiently as possible.
+
+For example, a video player application might have one task reading a frame’s worth of video and audio data from a source, passing it to a pair of tasks that decode them, the audio task passes the sound on to the sound system (no Wimp involvement at all), the video task says when it has completed a frame and a final task attempts to update the visible parts of the window at the right time, all without the main task’s Poll returning.
+
+When a key is pressed, the Wimp will inform the Poll task, which can tell the others to speed up, slow down, pause, change volume, etc., and return almost immediately to the Poll.
+
+Another example: a task window building RISC OS. The command line programs that the Wimp call all have their output directed to a Wimp program that displays it in a window. The `make` program and the compilers it invokes run completely independently of the Wimp display, but they will be pre-empted by events coming in to the Wimp (keypresses, window movement, etc.). There’s a good chance that they won’t even be affected by a Wimp event, because there are multiple cores to run them on.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20183:160919</guid>
+    </item>    <item>
+      <title>Made file source in subdirectory</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20176</link>
+      <description>
+        <![CDATA[<p>Hi Paolo thanks now I know what went wrong. I now copied the lib and header files to the app directory. Sorry for the perhaps stupid questions but I have been out of sw development for a long time and that was with MS Visual studio&#8230;</p>]]>
+      </description>
+      <source:markdown>Hi Paolo thanks now I know what went wrong. I now copied the lib and header files to the app directory. Sorry for the perhaps stupid questions but I have been out of sw development for a long time and that was with MS Visual studio…</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20176:160917</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3masim3t7q22w</link>
       <description>
@@ -107,20 +293,6 @@ Many thanks to Gavin for sharing his desktop with us - something of a powerhouse
 https://www.iconbar.com/comments/rss/news2290.html</source:markdown>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3marbmcuopc22</guid>
     </item>    <item>
-      <title>RISC OS today and tomorrow: understanding behaviour and trade-offs</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/20183</link>
-      <description>
-        <![CDATA[<p>I&#8217;d like to offer an up-vote for keeping cooperative multi-tasking on the desktop!</p>
-        <p>Preemptive multi-tasking (<span class="caps">PMT</span>) and multi-proccessing is practically essential on modern hardware (it&#8217;s been over a decade since the Pi got 4 cores),  but the beauty of co-op on the desktop is that things happen because <strong>I</strong>, the user, am making them happen, if you see what I mean. The user is the most important part of a desktop computer system.</p>
-        <p>Audio has to be bomb-proof, continuing regardless of everything else gping on. Video continuing while I do something else is great, but I don&#8217;t mind if it skips a few frames because <strong>I</strong> was moving a window on the screen. I do, if it&#8217;s because I&#8217;m copying some files.</p>]]>
-      </description>
-      <source:markdown>I’d like to offer an up-vote for keeping cooperative multi-tasking on the desktop!
-
-Preemptive multi-tasking (PMT) and multi-proccessing is practically essential on modern hardware (it’s been over a decade since the Pi got 4 cores), but the beauty of co-op on the desktop is that things happen because **I**, the user, am making them happen, if you see what I mean. The user is the most important part of a desktop computer system.
-
-Audio has to be bomb-proof, continuing regardless of everything else gping on. Video continuing while I do something else is great, but I don’t mind if it skips a few frames because **I** was moving a window on the screen. I do, if it’s because I’m copying some files.</source:markdown>
-      <guid>cid://www.riscosopen.org:13:20183:160907</guid>
-    </item>    <item>
       <title>RISC OS &#39;Advent&#39; Calendar 2025 - Gerph&#39;s update on 2025 RISC OS projects</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13544&#38;page=1#125862</link>
       <description>
@@ -128,14 +300,6 @@ Audio has to be bomb-proof, continuing regardless of everything else gping on. V
       </description>
       <source:markdown>Also, I did a quick port of MicroQuickJS last night, just to see how easy it&#39;d be...</source:markdown>
       <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13544&#38;page=1#125862</guid>
-    </item>    <item>
-      <title>Made file source in subdirectory</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20176</link>
-      <description>
-        <![CDATA[<p>Hi Paolo would you like to share your make files ;-) my eysight is not that good. I&#8217;m trying to make the examples for the github but it is not entirely clear to me yet how the libs work in relation to the directories</p>]]>
-      </description>
-      <source:markdown>Hi Paolo would you like to share your make files ;-) my eysight is not that good. I’m trying to make the examples for the github but it is not entirely clear to me yet how the libs work in relation to the directories</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20176:160904</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3maqxyiujgk27</link>
       <description>
@@ -147,29 +311,6 @@ Audio has to be bomb-proof, continuing regardless of everything else gping on. V
 youtu.be/hvgzOO3BWfw
 https://youtu.be/hvgzOO3BWfw</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3maqxyiujgk27</guid>
-    </item>    <item>
-      <title>Route: route already in table: File exists</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20188</link>
-      <description>
-        <![CDATA[<p>I have been reconfiguring a new Compute-4 based computer using <span class="caps">RISC</span> OS 5.30. It had the <span class="caps">ROD</span> <span class="caps">TCP</span>/IP stack installed when supplied (Internet module 7.09), but as I was having some instability issues with weird errors on startup and closedown, I uninstalled it, and then installed the <span class="caps">ROOL</span> wifi drivers. Actually, I am still getting many of the same errors, so the <span class="caps">ROD</span> stack cannot have been the problem.</p>
-        <p>Currently I have the machine configured to use the wired interface, not wifi, with IP address obtained via <span class="caps">DHCP</span>. But most times I boot, before the desktop appears I get &#8220;Message from Desktop&#8221; heading up an error dialogue, with &#8220;Machine startup has not completed successfully: &#8216;Route: route already in table: File exists&#8217;&#8221;.</p>
-        <p>(The machine is taking a while at the &#8220;Contacting <span class="caps">DHCP</span> server&#8230;&#8221; stage on booting, but it&#8217;s hard to tell if it times out when I get the error or if it has succeeded in getting an address.)</p>
-        <p>If I try &#8220;Retry&#8221; the dialogue remains, and nothing happens, but the mouse pointer does move so it is not a total crash. If I click Cancel it usually goes through to the desktop fine.</p>
-        <p>Can anyone give me a pointer as to where to investigate to get rid of this error?</p>
-        <p>The interface is set to obtain the address via <span class="caps">DHCP</span>, the Routes dialogue has 192.168.1.1 in the Gateway and neither of the options underneath ticked, and the Host names dialogue has a host name filled in, 8.8.8.8 in the Primary name server, and &#8220;Try name server too&#8221; ticked.</p>]]>
-      </description>
-      <source:markdown>I have been reconfiguring a new Compute-4 based computer using RISC OS 5.30. It had the RODTCP/IP stack installed when supplied (Internet module 7.09), but as I was having some instability issues with weird errors on startup and closedown, I uninstalled it, and then installed the ROOL wifi drivers. Actually, I am still getting many of the same errors, so the ROD stack cannot have been the problem.
-
-Currently I have the machine configured to use the wired interface, not wifi, with IP address obtained via DHCP. But most times I boot, before the desktop appears I get “Message from Desktop” heading up an error dialogue, with “Machine startup has not completed successfully: ‘Route: route already in table: File exists’”.
-
-(The machine is taking a while at the “Contacting DHCP server…” stage on booting, but it’s hard to tell if it times out when I get the error or if it has succeeded in getting an address.)
-
-If I try “Retry” the dialogue remains, and nothing happens, but the mouse pointer does move so it is not a total crash. If I click Cancel it usually goes through to the desktop fine.
-
-Can anyone give me a pointer as to where to investigate to get rid of this error?
-
-The interface is set to obtain the address via DHCP, the Routes dialogue has 192.168.1.1 in the Gateway and neither of the options underneath ticked, and the Host names dialogue has a host name filled in, 8.8.8.8 in the Primary name server, and “Try name server too” ticked.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20188:160902</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3maqtoa6qf22h</link>
       <description>
@@ -433,17 +574,6 @@ https://youtu.be/lrPXzz\_jNqM</source:markdown>
       <source:markdown>Getting in the Christmas spirit at the Barbican carols singalong 🎅🌲🎵</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mam3gc6m222j</guid>
     </item>    <item>
-      <title>Bluetooth Again</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20172</link>
-      <description>
-        <![CDATA[<p>I had a look at the netbsd code and it looks much simpler than linux. No promises but the git repo based on netbsd code is here : <a href="https://github.com/TimoHartong/ROBTBSD"><span class="caps">ROBTBSD</span></a></p>
-        <p>Now I have to look to Charles and Paolo if I may nick their make files to do a proper make file setup&#8230;</p>]]>
-      </description>
-      <source:markdown>I had a look at the netbsd code and it looks much simpler than linux. No promises but the git repo based on netbsd code is here : [ROBTBSD](https://github.com/TimoHartong/ROBTBSD)
-
-Now I have to look to Charles and Paolo if I may nick their make files to do a proper make file setup…</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20172:160851</guid>
-    </item>    <item>
       <title>Push code to my own github</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20181</link>
       <description>
@@ -628,41 +758,6 @@ https://youtu.be/FzmeG8u4oqU</source:markdown>
       </description>
       <source:markdown>Just to say thank you, Coming from using a Raspi Pi 4 using Risc OS on a SD card. I have received my Chimera box and RISC OS is certainly blazing fast and zippy on a NVME drive. Apps like Netsurf just browse pages like a snap of the finger and playing Doom is very buttery smooth. :-D, Merry Christmas.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20169:160747</guid>
-    </item>    <item>
-      <title>Modern Frosted Theme</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
-      <description>
-        <![CDATA[<p>- I have downloaded and extracted the Frosted theme.<br />
-        - There was no readme file. <br />
-        - I am presented with !Boot and !Fonts folders. <br />
-        - I have merged both of them successfully. <br />
-        - But I also see a !Frosted, ExtraPiicon folder and Wallpapers folder. <br />
-        - While I can click !Frosted file, the entire desktop changes into Frosted theme in some parts of the Risc OS desktop. <br />
-        - And when I go to configure theme, I can see I have the Frosted option. <br />
-        - But when I scroll across, I see unavailable? <br />
-        - Question: Where should the !Frosted, ExtraPiIcon folder &amp; Wallpapers folder should go within <span class="caps">RISC</span> OS?<br />
-        - Any advice would be welcome and Thank you.</p>]]>
-      </description>
-      <source:markdown>\- I have downloaded and extracted the Frosted theme.
-
-\- There was no readme file.
-
-\- I am presented with !Boot and !Fonts folders.
-
-\- I have merged both of them successfully.
-
-\- But I also see a !Frosted, ExtraPiicon folder and Wallpapers folder.
-
-\- While I can click !Frosted file, the entire desktop changes into Frosted theme in some parts of the Risc OS desktop.
-
-\- And when I go to configure theme, I can see I have the Frosted option.
-
-\- But when I scroll across, I see unavailable?
-
-\- Question: Where should the !Frosted, ExtraPiIcon folder &#38; Wallpapers folder should go within RISC OS?
-
-\- Any advice would be welcome and Thank you.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20138:160741</guid>
     </item>    <item>
       <title>Clarity Theme ko-fi</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20137</link>
@@ -5499,26 +5594,6 @@ ROOL clearly have big plans for the RISC OS DDE</source:markdown>
       </description>
       <source:markdown>ROOL clearly have big plans for the RISC OS DDE....</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2254.html</guid>
-    </item>    <item>
-      <title>SerialUSB causes zero page access</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20084</link>
-      <description>
-        <![CDATA[<p>I got mildly fed up of seeing a ZeroPain log entry every time I plug my phone in to charge it, so finally I got round to looking at the problem.  Hardware is a Pi3B+ running RO5.31, never more than a few weeks old; and a Samsung S24 phone.  The phone defaults to charge only, so it doesn&#8217;t appear to be a serial <span class="caps">USB</span> device.</p>
-        <p>The error happens with SerialUSB versions 0.14 and 0.16, but not with 0.12.</p>
-        <p>The error is at offset 0000588c in module SerialUSB, same address in 0.14 and 0.16.  The instruction is <span class="caps">LDR</span> R1,[R0,#2] and R0 = 0.  It happens if the phone is plugged in before power-up, and also if the phone is plugged in later.</p>
-        <p>I&#8217;d like to give more info, but the USBInfo app normally just puts up an error window saying &#8220;nown4.20 &#169; Pineapple Software 1996&#8221; when I try to look at anything.  There you are, two bugs for the price of one.</p>
-        <p>More seriously: whatever useful debug info I can give, just ask.</p>]]>
-      </description>
-      <source:markdown>I got mildly fed up of seeing a ZeroPain log entry every time I plug my phone in to charge it, so finally I got round to looking at the problem. Hardware is a Pi3B+ running RO5.31, never more than a few weeks old; and a Samsung S24 phone. The phone defaults to charge only, so it doesn’t appear to be a serial USB device.
-
-The error happens with SerialUSB versions 0.14 and 0.16, but not with 0.12.
-
-The error is at offset 0000588c in module SerialUSB, same address in 0.14 and 0.16. The instruction is LDR R1,\[R0,#2\] and R0 = 0. It happens if the phone is plugged in before power-up, and also if the phone is plugged in later.
-
-I’d like to give more info, but the USBInfo app normally just puts up an error window saying “nown4.20 © Pineapple Software 1996” when I try to look at anything. There you are, two bugs for the price of one.
-
-More seriously: whatever useful debug info I can give, just ask.</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20084:159465</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m4gbz3ayfk2h</link>
       <description>
