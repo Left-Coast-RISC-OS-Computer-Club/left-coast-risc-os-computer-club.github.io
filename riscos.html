@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.18" >
-  <meta name="date" content="2025-12-26T12:00:22-08:00" >
-  <link type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" >
+  <meta name="date" content="2025-12-27T12:00:35-08:00" >
+  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
   <header>
@@ -19,6 +19,173 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2025-12-27T19:45:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3maykzncqk22j">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2025-12-27)
+      <p>
+      <p>All technology, forever...</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3maykzncqk22j">https://bsky.app/profile/nemo20000.bsky.social/post/3maykzncqk22j</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-27T18:13:01Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20125">
+      <h1>GitLab timeouts</h1>
+
+(date: 2025-12-27)
+      <p>
+      <p>@ James</p>
+<p>No idea if you are around today (27th of Dec 2025), but it seems ROOL GitLab is timing out again :(</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20125">https://www.riscosopen.org/forum/forums/11/topics/20125</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-27T17:43:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mayeaawas22t">
+      <h1>@colinhoad.com</h1>
+
+(date: 2025-12-27)
+      <p>
+      <p>Re-reading &quot;Hogfather&quot; and have just come to the bit where it refers to an &quot;Anthill Inside&quot; sticker on the side of Hex, the Unseen University computer - little details like that are why I will always love Terry Pratchett 😁</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mayeaawas22t">https://bsky.app/profile/colinhoad.com/post/3mayeaawas22t</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-27T16:50:23Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20183">
+      <h1>RISC OS today and tomorrow: understanding behaviour and trade-offs</h1>
+
+(date: 2025-12-27)
+      <p>
+      <blockquote>
+<p>Yes, it’s more or less that last one. The one that works.</p>
+</blockquote>
+<p>A quick note for the general reader: while there are ways to allow the old cooperative multitasking (CMT) model to continue to operate on top of a modern kernel, there are real challenges in reliably identifying which tasks should be treated as legacy CMT and which should not. This classification problem is central to making any such approach robust.</p>
+<p>At the moment, the lack of detailed discussion around this aspect makes it difficult to compare or align the various efforts. In my opinion, a useful discussion should focus on analysing these underlying problems and on identifying standardised approaches that could apply across all three current efforts, and possibly a fourth one in the future (the ROOL work, if it’ll ever happen).</p>
+<p>Describing individual solutions is absolutely valuable, but the discussion becomes more productive when it moves beyond “this works for me” and towards a deeper technical analysis of how such solutions could be generalised. The goal, ideally, should be to converge on approaches that are useful for the majority of applications and developers, rather than focusing only on specific cases. Edge cases will always exist, of course, but they should not drive the primary design.</p>
+<p>What I am trying to highlight is that we will most likely need a consistent and reliable mechanism to determine whether an application is intended to run under the old CMT model or whether it is compatible with a modern preemptive multitasking (PMT) environment. Without this, any PMT implementation risks either breaking legacy applications or failing to enforce its own scheduling guarantees.</p>
+<p>There are several possible approaches here, each with different trade-offs:</p>
+<ul>
+<li>
+<p>Classifying an application as CMT when it calls Wimp_Poll or Wimp_PollIdle. While this may work as a fallback, it happens too late in the lifecycle to inform PMT scheduling decisions, and it fails entirely for applications that do not poll correctly or at all.</p>
+</li>
+<li>
+<p>Adding an explicit tag or sub-header, in a safe and well-defined location, to both AIF and ELF object formats to declare the application’s multitasking model. This would be technically clean and deterministic, but it would require coordinated changes to linkers and toolchains. This would not work with old/abandoned apps unless we determine “no-tag” = legacy app, but in this case the non-wimp apps would not be abel to benefit from the new PMT.</p>
+</li>
+<li>
+<p>Introducing distinct file types for AIF and ELF binaries that indicate whether an application is legacy CMT or a new PMT-aware application. This is simple and quick to implement, but it relies on correct user choice and is therefore more prone to mistakes. Given the various ways to copy files to a RISC OS system, it can happen that a user has to set a FileType that has been “lost” during the various copyign around.</p>
+</li>
+<li>
+<p>Designing a loader that analyses the application binary before process creation to infer the appropriate execution model. This requires more work, but it avoids changes to existing build chains and reduces the risk of user error by keeping the decision within the system itself. This would also work with ROOL and/or other efforts not actively engaging in such discussion/decisional process. Which is partially why I am writing Merlin to be abel to adapt to other efforts, because historically the lack of open collaboration has always caused divergences.</p>
+</li>
+</ul>
+<p>My view is not that any single option is obviously “the right one”, but that this classification problem needs to be addressed explicitly and discussed collectively. Without a shared and well-defined strategy here, it will be very difficult to achieve long-term compatibility and coherence across the platform.</p>
+<p>HTH</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/13/topics/20183">https://www.riscosopen.org/forum/forums/13/topics/20183</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-27T16:42:58Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
+      <h1>Random projects...</h1>
+
+(date: 2025-12-27)
+      <p>
+      <p>Hi all,</p>
+<p>I’ve been spending some time recently tweaking RPCEmu to add a few features I felt were missing for my own workflow, and I thought the community might find them useful too.</p>
+<p>I’ve put together an extended version of RPCEmu 0.9.5 and a standalone Access/ShareFS server.</p>
+<p>My main goal was to improve networking and debugging tools.</p>
+<p>I’m mostly developing on Linux, so while I’ve tested things on Windows, I’d love to know how it holds up for others.</p>
+<p>Some of the additions include:</p>
+<p>Networking: Access/Access+/ShareFS support for both Linux and Windows.</p>
+<p>Workflow: Support for multiple machine configs, quick switching, and a new shared HostFS drive between machines.</p>
+<p>Performance: FPA emulation (seems stable with AMplayer on 3.71, but needs more eyes on it) and integer scaling for cleaner visuals.</p>
+<p>Remote Access: Individual VNC servers per machine configuration.</p>
+<p>Dev Tools: An integrated debugger/inspector for real-time disassembly and memory viewing.</p>
+<p>If you have some time to kick the tires, you can find the code here:</p>
+<p><a href="https://github.com/andrewtimmins/rpcemu-extended">https://github.com/andrewtimmins/rpcemu-extended</a></p>
+<p><a href="https://github.com/andrewtimmins/riscos-access-server">https://github.com/andrewtimmins/riscos-access-server</a></p>
+<p>It’s not the best, not the cleanest but hopefully it’ll work well for you.</p>
+<p>Any feedback or constructive criticism is always very welcome.</p>
+<p>Thanks.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-27T12:33:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3maxsve7ips2j">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2025-12-27)
+      <p>
+      <p>Excellent.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3maxsve7ips2j">https://bsky.app/profile/nemo20000.bsky.social/post/3maxsve7ips2j</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-27T12:12:38Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20191">
+      <h1>Is the system heap meant to be writable from BASIC?</h1>
+
+(date: 2025-12-27)
+      <p>
+      <p>I was just thinking about somewhere safe for privileged code to write to for user mode code to read from and thought perhaps the system heap, since that’s where I thought the system variables are stored (and R3 returned from <code>OS_ReadVarVal</code> points to).</p>
+<p>So I tried:</p>
+<p><code>SYS&quot;XOS_ReadVarVal&quot;, &quot;*&quot;, 0, -1, 0, 0 TO ,,,V%</code></p>
+<p>V% is set to &amp;303FF7CC, in the system heap, not RMA (&amp;20000000) and printing the string there shows “7backup<span class="math inline">\(Dir”, as expected. What I wasn’t expecting was `V%?5=42` to work, let alone change the name of the variable to “7back\*p\)</span>Dir”!</p>
+<p>Is this a limitation of recent MMUs?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/4/topics/20191">https://www.riscosopen.org/forum/forums/4/topics/20191</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-27T10:22:47Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20190">
+      <h1>Is there an XEyes-like tool for RISC OS?</h1>
+
+(date: 2025-12-27)
+      <p>
+      <p>Not that I’m aware but it looks a very nice programming challange which is I think good to do in BBC-BASIC</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20190">https://www.riscosopen.org/forum/forums/11/topics/20190</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-27T03:16:00Z" data-link="https://bsky.app/profile/rougol.bsky.social/post/3mawts3kge22l">
+      <h1>@rougol.bsky.social</h1>
+
+(date: 2025-12-27)
+      <p>
+      <p>If you want to see how Gavin produces books on RISC OS watch his recent talk at ROUGOL <a href="https://rougol.jellybaby.net/meetings/2025/sep.html">https://rougol.jellybaby.net/meetings/2025/sep.html</a></p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/rougol.bsky.social/post/3mawts3kge22l">https://bsky.app/profile/rougol.bsky.social/post/3mawts3kge22l</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-27T00:38:09Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20189">
+      <h1>Ambiguous Disc Name - with only one disc!</h1>
+
+(date: 2025-12-27)
+      <p>
+      <p>Did the DiscKnight repair alter the disc name?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20189">https://www.riscosopen.org/forum/forums/11/topics/20189</a>
+      </address>
+    </article>
 
     <article data-published="2025-12-26T15:46:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mavnacdmn22u">
       <h1>@nemo20000.bsky.social</h1>
@@ -75,21 +242,15 @@
       </address>
     </article>
 
-    <article data-published="2025-12-26T10:13:15Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20190">
-      <h1>Is there an XEyes-like tool for RISC OS?</h1>
+    <article data-published="2025-12-26T11:29:02Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20172">
+      <h1>Bluetooth Again</h1>
 
 (date: 2025-12-26)
       <p>
-      <p>Hello everyone,</p>
-<p>I’m currently setting up my RISC OS system to be more “homely” and was wondering if there’s a modern XEyes-like application for RISC OS.</p>
-<p>I found a program called “Follow” under the Sillies section on ArcArc.nl — it’s from 1989 and works. Like the original XEyes, it opens in its own window.</p>
-<p>That got me thinking — is there anything similar that runs in the Iconbar? This is not a mission-critical feature, of course, but just a fun and useful tool since I often lose sight of the mouse cursor. And I have to admit, they simply look funny. At least to me; I’m fairly easy to entertain … ;-) 🙂</p>
-<p>I’d be really grateful if anyone has a pointer or knows of such a program.</p>
-<p>Thanks &amp; best regards,</p>
-<p>Berny :-)</p>
+      <p>Four eyes see more than two eyes so more then welcome to have a look. The DDE already has one big issue and that is that TCPIPLIbs socket.h does not know Bluetooth ;-).</p>
 
       <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20190">https://www.riscosopen.org/forum/forums/11/topics/20190</a>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20172">https://www.riscosopen.org/forum/forums/1/topics/20172</a>
       </address>
     </article>
 
@@ -119,18 +280,6 @@
       </address>
     </article>
 
-    <article data-published="2025-12-25T20:38:16Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20172">
-      <h1>Bluetooth Again</h1>
-
-(date: 2025-12-25)
-      <p>
-      <p>Today worked on the netbsd code to get it compiled I took the library approach here as advised by Charles and Paolo. It looks it is working ( working with a lib not BT yet , neither the compile)</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20172">https://www.riscosopen.org/forum/forums/1/topics/20172</a>
-      </address>
-    </article>
-
     <article data-published="2025-12-25T20:33:14Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20188">
       <h1>Route: route already in table: File exists</h1>
 
@@ -153,59 +302,6 @@
 
       <address>
         <a href="https://bsky.app/profile/armbytes.bsky.social/post/3matchfxmdc25">https://bsky.app/profile/armbytes.bsky.social/post/3matchfxmdc25</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-25T14:47:18Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20189">
-      <h1>Ambiguous Disc Name - with only one disc!</h1>
-
-(date: 2025-12-25)
-      <p>
-      <p>I don’t understand how this error can occur with only a single mass storage device in the machine!</p>
-<p>I had a little oopsie with my SD card in a Pi.</p>
-<p>To fix it, I got the latest version of DiscKnight (thanks Druck!), booted with another SD card and put the other into a USB sdcard reader to run it on.</p>
-<p>That seemed to go alright, but booting from the fixed SD card again fails after DHCP with Ambiguous Disc Name.</p>
-<p><code>rereinit sdfs</code></p>
-<p><code>Desktop</code></p>
-<p>Gets to a desktop, but the error occurs again if I try to open the Utilities directory in the Filer.</p>
-<p>F12 then <code>rereinit sdfs</code></p>
-<p>Lets me do that and run Moonfish, for example.</p>
-<p>The trouble is that it doesn’t “stick”. I have to do the same each time I reboot.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20189">https://www.riscosopen.org/forum/forums/11/topics/20189</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-25T14:33:58Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20183">
-      <h1>RISC OS today and tomorrow: understanding behaviour and trade-offs</h1>
-
-(date: 2025-12-25)
-      <p>
-      <p>I don’t know if you remember typing on DOS and early(?) Windows? The BBC micro was so much less frustrating because you could type more than 16 characters ahead. It’s that kind of little thing that makes a system more comfortable to use. Going uncooperative ;) on the desktop, I worry that we will lose some of the character of RISC OS that we may not even notice until it’s gone.</p>
-<blockquote>
-<p>bq. co-op on the desktop is that things happen because I, the user, am making them happen</p>
-<p>If we ignore the NULL event, IRQs, and messages that may be initiated without direct user action.</p>
-</blockquote>
-<p>I’m talking about the tasks that interact directly with the Wimp, not all tasks.</p>
-<p>Wimp applications since RO3 use the NULL event sparingly and without taking much time out from the desktop. IRQ handlers don’t steal contol of a processor for human-noticable periods of time. As you know, if they to affect a Wimp application, they set a poll word.</p>
-<p>In my preferred future, NULL events are barely used at all (and most of them from PollIdle) because background support tasks are far more flexible. They run alongside the Wimp loop task, in the same memory, and only occasionally needing to get the Wimp’s attention. They can do all the waiting for incoming data from files, sockets, etc., leaving the Wimp loop task to deal with the really important thing: Me.</p>
-<p>So, I would add one new Wimp SWI, callable from anywhere: “Check task T’s poll word”, and one new behaviour for UpdateWindow “Background update”. (Also, don’t have the Wimp check poll words constantly while idle.)</p>
-<blockquote>
-<p>But in cooperative multitasking, the <strong>application’s decision to yield</strong> is what makes the desktop work at all.</p>
-</blockquote>
-<p>Yes, and it makes it work very nicely.</p>
-<p>If I close a window, I can click on another window and type text into it, knowing with relative certainty what will happen, even if there’s a delay in seeing it happen.</p>
-<blockquote>
-<p>Cooperative applications assume they will not be re-entered while they are running.</p>
-</blockquote>
-<p>Existing ones do, yes, and I think that should be kept for new ones as well. Start support tasks to be working away while the Wimp task is in (or processing the results of) a Poll. Those tasks have access to the Wimp task’s application memory, but the Wimp isn’t re-entering the program, it’s just another source of events, to be dealt with as efficiently as possible.</p>
-<p>For example, a video player application might have one task reading a frame’s worth of video and audio data from a source, passing it to a pair of tasks that decode them, the audio task passes the sound on to the sound system (no Wimp involvement at all), the video task says when it has completed a frame and a final task attempts to update the visible parts of the window at the right time, all without the main task’s Poll returning.</p>
-<p>When a key is pressed, the Wimp will inform the Poll task, which can tell the others to speed up, slow down, pause, change volume, etc., and return almost immediately to the Poll.</p>
-<p>Another example: a task window building RISC OS. The command line programs that the Wimp call all have their output directed to a Wimp program that displays it in a window. The <code>make</code> program and the compilers it invokes run completely independently of the Wimp display, but they will be pre-empted by events coming in to the Wimp (keypresses, window movement, etc.). There’s a good chance that they won’t even be affected by a Wimp event, because there are multiple cores to run them on.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/13/topics/20183">https://www.riscosopen.org/forum/forums/13/topics/20183</a>
       </address>
     </article>
 
@@ -1253,18 +1349,6 @@ studio.youtube.com###comment-smart-replies-disclaimer</p>
 
       <address>
         <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m7wzje2bcc2g">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m7wzje2bcc2g</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-14T11:12:29Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20125">
-      <h1>GitLab timeouts</h1>
-
-(date: 2025-12-14)
-      <p>
-      <p>Apologies to anyone who’s having trouble accessing GitLab (and packages.riscosopen.org) at the moment. The server is being heavily overloaded by crawler bots from China. We’re working on blocking these, but it may not be resolved for a day or so.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20125">https://www.riscosopen.org/forum/forums/11/topics/20125</a>
       </address>
     </article>
 

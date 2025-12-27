@@ -7,10 +7,204 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>26 Dec 25 12:00 -0800</lastBuildDate>
+    <lastBuildDate>27 Dec 25 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3maykzncqk22j</link>
+      <description>
+        <![CDATA[All technology, forever...
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>All technology, forever...
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3maykzncqk22j</guid>
+    </item>    <item>
+      <title>GitLab timeouts</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20125</link>
+      <description>
+        <![CDATA[<p>@ James</p>
+        <p>No idea if you are around today (27th of Dec 2025), but it seems <span class="caps">ROOL</span> GitLab is timing out again :(</p>]]>
+      </description>
+      <source:markdown>@ James
+
+No idea if you are around today (27th of Dec 2025), but it seems ROOL GitLab is timing out again :(</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20125:160958</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mayeaawas22t</link>
+      <description>
+        <![CDATA[Re-reading "Hogfather" and have just come to the bit where it refers to an "Anthill Inside" sticker on the side of Hex, the Unseen University computer - little details like that are why I will always love Terry Pratchett 😁]]>
+      </description>
+      <source:markdown>Re-reading &#34;Hogfather&#34; and have just come to the bit where it refers to an &#34;Anthill Inside&#34; sticker on the side of Hex, the Unseen University computer - little details like that are why I will always love Terry Pratchett 😁</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mayeaawas22t</guid>
+    </item>    <item>
+      <title>RISC OS today and tomorrow: understanding behaviour and trade-offs</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20183</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Yes, it’s more or less that last one. The one that works.</p>
+        </blockquote>
+        <p>A quick note for the general reader: while there are ways to allow the old cooperative multitasking (<span class="caps">CMT</span>) model to continue to operate on top of a modern kernel, there are real challenges in reliably identifying which tasks should be treated as legacy <span class="caps">CMT</span> and which should not. This classification problem is central to making any such approach robust.</p>
+        <p>At the moment, the lack of detailed discussion around this aspect makes it difficult to compare or align the various efforts. In my opinion, a useful discussion should focus on analysing these underlying problems and on identifying standardised approaches that could apply across all three current efforts, and possibly a fourth one in the future (the <span class="caps">ROOL</span> work, if it&#8217;ll ever happen).</p>
+        <p>Describing individual solutions is absolutely valuable, but the discussion becomes more productive when it moves beyond “this works for me” and towards a deeper technical analysis of how such solutions could be generalised. The goal, ideally, should be to converge on approaches that are useful for the majority of applications and developers, rather than focusing only on specific cases. Edge cases will always exist, of course, but they should not drive the primary design.</p>
+        <p>What I am trying to highlight is that we will most likely need a consistent and reliable mechanism to determine whether an application is intended to run under the old <span class="caps">CMT</span> model or whether it is compatible with a modern preemptive multitasking (<span class="caps">PMT</span>) environment. Without this, any <span class="caps">PMT</span> implementation risks either breaking legacy applications or failing to enforce its own scheduling guarantees.</p>
+        <p>There are several possible approaches here, each with different trade-offs:</p>
+        <ul>
+        	<li>Classifying an application as <span class="caps">CMT</span> when it calls Wimp_Poll or Wimp_PollIdle. While this may work as a fallback, it happens too late in the lifecycle to inform <span class="caps">PMT</span> scheduling decisions, and it fails entirely for applications that do not poll correctly or at all.</li>
+        </ul>
+        <ul>
+        	<li>Adding an explicit tag or sub-header, in a safe and well-defined location, to both <span class="caps">AIF</span> and <span class="caps">ELF</span> object formats to declare the application’s multitasking model. This would be technically clean and deterministic, but it would require coordinated changes to linkers and toolchains. This would not work with old/abandoned apps unless we determine &#8220;no-tag&#8221; = legacy app, but in this case the non-wimp apps would not be abel to benefit from the new <span class="caps">PMT</span>.</li>
+        </ul>
+        <ul>
+        	<li>Introducing distinct file types for <span class="caps">AIF</span> and <span class="caps">ELF</span> binaries that indicate whether an application is legacy <span class="caps">CMT</span> or a new <span class="caps">PMT</span>-aware application. This is simple and quick to implement, but it relies on correct user choice and is therefore more prone to mistakes. Given the various ways to copy files to a <span class="caps">RISC</span> OS system, it can happen that a user has to set a FileType that has been &#8220;lost&#8221; during the various copyign around.</li>
+        </ul>
+        <ul>
+        	<li>Designing a loader that analyses the application binary before process creation to infer the appropriate execution model. This requires more work, but it avoids changes to existing build chains and reduces the risk of user error by keeping the decision within the system itself. This would also work with <span class="caps">ROOL</span> and/or other efforts not actively engaging in such discussion/decisional process. Which is partially why I am writing Merlin to be abel to adapt to other efforts, because historically the lack of open collaboration has always caused divergences.</li>
+        </ul>
+        <p>My view is not that any single option is obviously “the right one”, but that this classification problem needs to be addressed explicitly and discussed collectively. Without a shared and well-defined strategy here, it will be very difficult to achieve long-term compatibility and coherence across the platform.</p>
+        <p><span class="caps">HTH</span></p>]]>
+      </description>
+      <source:markdown>&#62; Yes, it’s more or less that last one. The one that works.
+
+A quick note for the general reader: while there are ways to allow the old cooperative multitasking (CMT) model to continue to operate on top of a modern kernel, there are real challenges in reliably identifying which tasks should be treated as legacy CMT and which should not. This classification problem is central to making any such approach robust.
+
+At the moment, the lack of detailed discussion around this aspect makes it difficult to compare or align the various efforts. In my opinion, a useful discussion should focus on analysing these underlying problems and on identifying standardised approaches that could apply across all three current efforts, and possibly a fourth one in the future (the ROOL work, if it’ll ever happen).
+
+Describing individual solutions is absolutely valuable, but the discussion becomes more productive when it moves beyond “this works for me” and towards a deeper technical analysis of how such solutions could be generalised. The goal, ideally, should be to converge on approaches that are useful for the majority of applications and developers, rather than focusing only on specific cases. Edge cases will always exist, of course, but they should not drive the primary design.
+
+What I am trying to highlight is that we will most likely need a consistent and reliable mechanism to determine whether an application is intended to run under the old CMT model or whether it is compatible with a modern preemptive multitasking (PMT) environment. Without this, any PMT implementation risks either breaking legacy applications or failing to enforce its own scheduling guarantees.
+
+There are several possible approaches here, each with different trade-offs:
+
+- Classifying an application as CMT when it calls Wimp\_Poll or Wimp\_PollIdle. While this may work as a fallback, it happens too late in the lifecycle to inform PMT scheduling decisions, and it fails entirely for applications that do not poll correctly or at all.
+
+- Adding an explicit tag or sub-header, in a safe and well-defined location, to both AIF and ELF object formats to declare the application’s multitasking model. This would be technically clean and deterministic, but it would require coordinated changes to linkers and toolchains. This would not work with old/abandoned apps unless we determine “no-tag” = legacy app, but in this case the non-wimp apps would not be abel to benefit from the new PMT.
+
+- Introducing distinct file types for AIF and ELF binaries that indicate whether an application is legacy CMT or a new PMT-aware application. This is simple and quick to implement, but it relies on correct user choice and is therefore more prone to mistakes. Given the various ways to copy files to a RISC OS system, it can happen that a user has to set a FileType that has been “lost” during the various copyign around.
+
+- Designing a loader that analyses the application binary before process creation to infer the appropriate execution model. This requires more work, but it avoids changes to existing build chains and reduces the risk of user error by keeping the decision within the system itself. This would also work with ROOL and/or other efforts not actively engaging in such discussion/decisional process. Which is partially why I am writing Merlin to be abel to adapt to other efforts, because historically the lack of open collaboration has always caused divergences.
+
+My view is not that any single option is obviously “the right one”, but that this classification problem needs to be addressed explicitly and discussed collectively. Without a shared and well-defined strategy here, it will be very difficult to achieve long-term compatibility and coherence across the platform.
+
+HTH</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20183:160954</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>Hi all,</p>
+        <p>I’ve been spending some time recently tweaking RPCEmu to add a few features I felt were missing for my own workflow, and I thought the community might find them useful too.</p>
+        <p>I&#8217;ve put together an extended version of RPCEmu 0.9.5 and a standalone Access/ShareFS server.</p>
+        <p>My main goal was to improve networking and debugging tools.</p>
+        <p>I’m mostly developing on Linux, so while I’ve tested things on Windows, I’d love to know how it holds up for others.</p>
+        <p>Some of the additions include:</p>
+        <p>Networking: Access/Access+/ShareFS support for both Linux and Windows.<br />
+        Workflow: Support for multiple machine configs, quick switching, and a new shared HostFS drive between machines.<br />
+        Performance: <span class="caps">FPA</span> emulation (seems stable with AMplayer on 3.71, but needs more eyes on it) and integer scaling for cleaner visuals.<br />
+        Remote Access: Individual <span class="caps">VNC</span> servers per machine configuration.<br />
+        Dev Tools: An integrated debugger/inspector for real-time disassembly and memory viewing.</p>
+        <p>If you have some time to kick the tires, you can find the code here:</p>
+        <p><a href="https://github.com/andrewtimmins/rpcemu-extended">https://github.com/andrewtimmins/rpcemu-extended</a><br />
+        <a href="https://github.com/andrewtimmins/riscos-access-server">https://github.com/andrewtimmins/riscos-access-server</a></p>
+        <p>It&#8217;s not the best, not the cleanest but hopefully it&#8217;ll work well for you.</p>
+        <p>Any feedback or constructive criticism is always very welcome.</p>
+        <p>Thanks.</p>]]>
+      </description>
+      <source:markdown>Hi all,
+
+I’ve been spending some time recently tweaking RPCEmu to add a few features I felt were missing for my own workflow, and I thought the community might find them useful too.
+
+I’ve put together an extended version of RPCEmu 0.9.5 and a standalone Access/ShareFS server.
+
+My main goal was to improve networking and debugging tools.
+
+I’m mostly developing on Linux, so while I’ve tested things on Windows, I’d love to know how it holds up for others.
+
+Some of the additions include:
+
+Networking: Access/Access+/ShareFS support for both Linux and Windows.
+
+Workflow: Support for multiple machine configs, quick switching, and a new shared HostFS drive between machines.
+
+Performance: FPA emulation (seems stable with AMplayer on 3.71, but needs more eyes on it) and integer scaling for cleaner visuals.
+
+Remote Access: Individual VNC servers per machine configuration.
+
+Dev Tools: An integrated debugger/inspector for real-time disassembly and memory viewing.
+
+If you have some time to kick the tires, you can find the code here:
+
+[https://github.com/andrewtimmins/rpcemu-extended](https://github.com/andrewtimmins/rpcemu-extended)
+
+[https://github.com/andrewtimmins/riscos-access-server](https://github.com/andrewtimmins/riscos-access-server)
+
+It’s not the best, not the cleanest but hopefully it’ll work well for you.
+
+Any feedback or constructive criticism is always very welcome.
+
+Thanks.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:160953</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3maxsve7ips2j</link>
+      <description>
+        <![CDATA[Excellent.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Excellent.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3maxsve7ips2j</guid>
+    </item>    <item>
+      <title>Is the system heap meant to be writable from BASIC?</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20191</link>
+      <description>
+        <![CDATA[<p>I was just thinking about somewhere safe for privileged code to write to for user mode code to read from and thought perhaps the system heap, since that&#8217;s where I thought the system variables are stored (and R3 returned from <code>OS_ReadVarVal</code> points to).</p>
+        <p>So I tried:</p>
+        <p><code>SYS"XOS_ReadVarVal", "*", 0, -1, 0, 0 TO ,,,V%</code></p>
+        <p>V% is set to &amp;303FF7CC, in the system heap, not <span class="caps">RMA</span> (&amp;20000000) and printing the string there shows &#8220;7backup$Dir&#8221;, as expected. What I wasn&#8217;t expecting was <code>V%?5=42</code> to work, let alone change the name of the variable to &#8220;7back*p$Dir&#8221;!</p>
+        <p>Is this a limitation of recent MMUs?</p>]]>
+      </description>
+      <source:markdown>I was just thinking about somewhere safe for privileged code to write to for user mode code to read from and thought perhaps the system heap, since that’s where I thought the system variables are stored (and R3 returned from `OS_ReadVarVal` points to).
+
+So I tried:
+
+`SYS&#34;XOS_ReadVarVal&#34;, &#34;*&#34;, 0, -1, 0, 0 TO ,,,V%`
+
+V% is set to &#38;303FF7CC, in the system heap, not RMA (&#38;20000000) and printing the string there shows “7backup$Dir”, as expected. What I wasn’t expecting was `V%?5=42` to work, let alone change the name of the variable to “7back\*p$Dir”!
+
+Is this a limitation of recent MMUs?</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20191:160946</guid>
+    </item>    <item>
+      <title>Is there an XEyes-like tool for RISC OS?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20190</link>
+      <description>
+        <![CDATA[<p>Not that I&#8217;m aware but it looks a very nice programming challange which is I think good to do in <span class="caps">BBC</span>-<span class="caps">BASIC</span></p>]]>
+      </description>
+      <source:markdown>Not that I’m aware but it looks a very nice programming challange which is I think good to do in BBC-BASIC</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20190:160945</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3mawts3kge22l</link>
+      <description>
+        <![CDATA[If you want to see how Gavin produces books on RISC OS watch his recent talk at ROUGOL https://rougol.jellybaby.net/meetings/2025/sep.html
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>If you want to see how Gavin produces books on RISC OS watch his recent talk at ROUGOL https://rougol.jellybaby.net/meetings/2025/sep.html
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mawts3kge22l</guid>
+    </item>    <item>
+      <title>Ambiguous Disc Name - with only one disc!</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20189</link>
+      <description>
+        <![CDATA[<p>Did the DiscKnight repair alter the disc name?</p>]]>
+      </description>
+      <source:markdown>Did the DiscKnight repair alter the disc name?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20189:160943</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mavnacdmn22u</link>
       <description>
         <![CDATA[I'd have paid a negotiable amount of money for that in 1987. I remember lugging a Beeb plus Zenith CRT in a shoulder bag around South Wales' rail network whilst at my first engineering job. I left the M128 in the flat cos it wouldn't fit.
@@ -66,31 +260,13 @@ https://www.bbc.co.uk/news/articles/crklrnv5yn4o</source:markdown>
       <source:markdown>RO 5.31 is een development version do you also have this issue with the ‘normal’ RO version 5.30 ?</source:markdown>
       <guid>cid://www.riscosopen.org:4:20084:160937</guid>
     </item>    <item>
-      <title>Is there an XEyes-like tool for RISC OS?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20190</link>
+      <title>Bluetooth Again</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20172</link>
       <description>
-        <![CDATA[<p>Hello everyone,</p>
-        <p>I’m currently setting up my <span class="caps">RISC</span> OS system to be more “homely” and was wondering if there’s a modern XEyes-like application for <span class="caps">RISC</span> OS.</p>
-        <p>I found a program called “Follow” under the Sillies section on ArcArc.nl — it’s from 1989 and works. Like the original XEyes, it opens in its own window.</p>
-        <p>That got me thinking — is there anything similar that runs in the Iconbar? This is not a mission-critical feature, of course, but just a fun and useful tool since I often lose sight of the mouse cursor. And I have to admit, they simply look funny. At least to me; I’m fairly easy to entertain &#8230; ;-) 🙂</p>
-        <p>I’d be really grateful if anyone has a pointer or knows of such a program.</p>
-        <p>Thanks &amp; best regards,</p>
-        <p>Berny :-)</p>]]>
+        <![CDATA[<p>Four eyes see more than two eyes so more then welcome to have a look. The <span class="caps">DDE</span> already has one big issue and that is that TCPIPLIbs socket.h does not know Bluetooth ;-).</p>]]>
       </description>
-      <source:markdown>Hello everyone,
-
-I’m currently setting up my RISC OS system to be more “homely” and was wondering if there’s a modern XEyes-like application for RISC OS.
-
-I found a program called “Follow” under the Sillies section on ArcArc.nl — it’s from 1989 and works. Like the original XEyes, it opens in its own window.
-
-That got me thinking — is there anything similar that runs in the Iconbar? This is not a mission-critical feature, of course, but just a fun and useful tool since I often lose sight of the mouse cursor. And I have to admit, they simply look funny. At least to me; I’m fairly easy to entertain … ;-) 🙂
-
-I’d be really grateful if anyone has a pointer or knows of such a program.
-
-Thanks &#38; best regards,
-
-Berny :-)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20190:160935</guid>
+      <source:markdown>Four eyes see more than two eyes so more then welcome to have a look. The DDE already has one big issue and that is that TCPIPLIbs socket.h does not know Bluetooth ;-).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20172:160936</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mauzxdqpkc2m</link>
       <description>
@@ -117,14 +293,6 @@ https://www.iconbar.com/comments/rss/news2289.html</source:markdown>
       <source:markdown>Archive Magazine 28:01 arrived this week, just in time for the holidays, and it&#39;s a cracker!</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2289.html</guid>
     </item>    <item>
-      <title>Bluetooth Again</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20172</link>
-      <description>
-        <![CDATA[<p>Today worked on the netbsd code to get it compiled I took the library approach here as advised by Charles and Paolo. It looks it is working ( working with a lib not BT yet , neither the compile)</p>]]>
-      </description>
-      <source:markdown>Today worked on the netbsd code to get it compiled I took the library approach here as advised by Charles and Paolo. It looks it is working ( working with a lib not BT yet , neither the compile)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20172:160928</guid>
-    </item>    <item>
       <title>Route: route already in table: File exists</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20188</link>
       <description>
@@ -143,97 +311,6 @@ https://www.iconbar.com/comments/rss/news2289.html</source:markdown>
 
 https://www.cl.cam.ac.uk/~djg11/fromkoo/cambridge-itv-trial/</source:markdown>
       <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3matchfxmdc25</guid>
-    </item>    <item>
-      <title>Ambiguous Disc Name - with only one disc!</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20189</link>
-      <description>
-        <![CDATA[<p>I don&#8217;t understand how this error can occur with only a single mass storage device in the machine!</p>
-        <p>I had a little oopsie with my SD card in a Pi.</p>
-        <p>To fix it, I got the latest version of DiscKnight (thanks Druck!), booted with another SD card and put the other into a <span class="caps">USB</span> sdcard reader to run it on.</p>
-        <p>That seemed to go alright, but booting from the fixed SD card again fails after <span class="caps">DHCP</span> with Ambiguous Disc Name.</p>
-        <p><code>rereinit sdfs</code><br />
-        <code>Desktop</code></p>
-        <p>Gets to a desktop, but the error occurs again if I try to open the Utilities directory in the Filer.</p>
-        <p>F12 then <code>rereinit sdfs</code></p>
-        <p>Lets me do that and run Moonfish, for example.</p>
-        <p>The trouble is that it doesn&#8217;t &#8220;stick&#8221;. I have to do the same each time I reboot.</p>]]>
-      </description>
-      <source:markdown>I don’t understand how this error can occur with only a single mass storage device in the machine!
-
-I had a little oopsie with my SD card in a Pi.
-
-To fix it, I got the latest version of DiscKnight (thanks Druck!), booted with another SD card and put the other into a USB sdcard reader to run it on.
-
-That seemed to go alright, but booting from the fixed SD card again fails after DHCP with Ambiguous Disc Name.
-
-`rereinit sdfs`
-
-`Desktop`
-
-Gets to a desktop, but the error occurs again if I try to open the Utilities directory in the Filer.
-
-F12 then `rereinit sdfs`
-
-Lets me do that and run Moonfish, for example.
-
-The trouble is that it doesn’t “stick”. I have to do the same each time I reboot.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20189:160920</guid>
-    </item>    <item>
-      <title>RISC OS today and tomorrow: understanding behaviour and trade-offs</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/20183</link>
-      <description>
-        <![CDATA[<p>I don&#8217;t know if you remember typing on <span class="caps">DOS</span> and early(?) Windows? The <span class="caps">BBC</span> micro was so much less frustrating because you could type more than 16 characters ahead. It&#8217;s that kind of little thing that makes a system more comfortable to use. Going uncooperative ;) on the desktop, I worry that we will lose some of the character of <span class="caps">RISC</span> OS that we may not even notice until it&#8217;s gone.</p>
-        <blockquote>
-        <p>bq. co-op on the desktop is that things happen because I, the user, am making them happen</p>
-        <p>If we ignore the <span class="caps">NULL</span> event, IRQs, and messages that may be initiated without direct user action.</p>
-        </blockquote>
-        <p>I&#8217;m talking about the tasks that interact directly with the Wimp, not all tasks.</p>
-        <p>Wimp applications since RO3 use the <span class="caps">NULL</span> event sparingly and without taking much time out from the desktop. <span class="caps">IRQ</span> handlers don&#8217;t steal contol of a processor for human-noticable periods of time. As you know, if they to affect a Wimp application, they set a poll word.</p>
-        <p>In my preferred future, <span class="caps">NULL</span> events are barely used at all (and most of them from PollIdle) because background support tasks are far more flexible. They run alongside the Wimp loop task, in the same memory, and only occasionally needing to get the Wimp&#8217;s attention. They can do all the waiting for incoming data from files, sockets, etc., leaving the Wimp loop task to deal with the really important thing: Me.</p>
-        <p>So, I would add one new Wimp <span class="caps">SWI</span>, callable from anywhere: &#8220;Check task T&#8217;s poll word&#8221;, and one new behaviour for UpdateWindow &#8220;Background update&#8221;. (Also, don&#8217;t have the Wimp check poll words constantly while idle.)</p>
-        <blockquote>
-        <p>But in cooperative multitasking, the <strong>application’s decision to yield</strong> is what makes the desktop work at all.</p>
-        </blockquote>
-        <p>Yes, and it makes it work very nicely.</p>
-        <p>If I close a window, I can click on another window and type text into it, knowing with relative certainty what will happen, even if there&#8217;s a delay in seeing it happen.</p>
-        <blockquote>
-        <p>Cooperative applications assume they will not be re-entered while they are running.</p>
-        </blockquote>
-        <p>Existing ones do, yes, and I think that should be kept for new ones as well. Start support tasks to be working away while the Wimp task is in (or processing the results of) a Poll. Those tasks have access to the Wimp task&#8217;s application memory, but the Wimp isn&#8217;t re-entering the program, it&#8217;s just another source of events, to be dealt with as efficiently as possible.</p>
-        <p>For example, a video player application might have one task reading a frame&#8217;s worth of video and audio data from a source, passing it to a pair of tasks that decode them, the audio task passes the sound on to the sound system (no Wimp involvement at all), the video task says when it has completed a frame and a final task attempts to update the visible parts of the window at the right time, all without the main task&#8217;s Poll returning.</p>
-        <p>When a key is pressed, the Wimp will inform the Poll task, which can tell the others to speed up, slow down, pause, change volume, etc., and return almost immediately to the Poll.</p>
-        <p>Another example: a task window building <span class="caps">RISC</span> OS. The command line programs that the Wimp call all have their output directed to a Wimp program that displays it in a window. The <code>make</code> program and the compilers it invokes run completely independently of the Wimp display, but they will be pre-empted by events coming in to the Wimp (keypresses, window movement, etc.). There&#8217;s a good chance that they won&#8217;t even be affected by a Wimp event, because there are multiple cores to run them on.</p>]]>
-      </description>
-      <source:markdown>I don’t know if you remember typing on DOS and early(?) Windows? The BBC micro was so much less frustrating because you could type more than 16 characters ahead. It’s that kind of little thing that makes a system more comfortable to use. Going uncooperative ;) on the desktop, I worry that we will lose some of the character of RISC OS that we may not even notice until it’s gone.
-
-&#62; bq. co-op on the desktop is that things happen because I, the user, am making them happen
-&#62;
-&#62; If we ignore the NULL event, IRQs, and messages that may be initiated without direct user action.
-
-I’m talking about the tasks that interact directly with the Wimp, not all tasks.
-
-Wimp applications since RO3 use the NULL event sparingly and without taking much time out from the desktop. IRQ handlers don’t steal contol of a processor for human-noticable periods of time. As you know, if they to affect a Wimp application, they set a poll word.
-
-In my preferred future, NULL events are barely used at all (and most of them from PollIdle) because background support tasks are far more flexible. They run alongside the Wimp loop task, in the same memory, and only occasionally needing to get the Wimp’s attention. They can do all the waiting for incoming data from files, sockets, etc., leaving the Wimp loop task to deal with the really important thing: Me.
-
-So, I would add one new Wimp SWI, callable from anywhere: “Check task T’s poll word”, and one new behaviour for UpdateWindow “Background update”. (Also, don’t have the Wimp check poll words constantly while idle.)
-
-&#62; But in cooperative multitasking, the **application’s decision to yield** is what makes the desktop work at all.
-
-Yes, and it makes it work very nicely.
-
-If I close a window, I can click on another window and type text into it, knowing with relative certainty what will happen, even if there’s a delay in seeing it happen.
-
-&#62; Cooperative applications assume they will not be re-entered while they are running.
-
-Existing ones do, yes, and I think that should be kept for new ones as well. Start support tasks to be working away while the Wimp task is in (or processing the results of) a Poll. Those tasks have access to the Wimp task’s application memory, but the Wimp isn’t re-entering the program, it’s just another source of events, to be dealt with as efficiently as possible.
-
-For example, a video player application might have one task reading a frame’s worth of video and audio data from a source, passing it to a pair of tasks that decode them, the audio task passes the sound on to the sound system (no Wimp involvement at all), the video task says when it has completed a frame and a final task attempts to update the visible parts of the window at the right time, all without the main task’s Poll returning.
-
-When a key is pressed, the Wimp will inform the Poll task, which can tell the others to speed up, slow down, pause, change volume, etc., and return almost immediately to the Poll.
-
-Another example: a task window building RISC OS. The command line programs that the Wimp call all have their output directed to a Wimp program that displays it in a window. The `make` program and the compilers it invokes run completely independently of the Wimp display, but they will be pre-empted by events coming in to the Wimp (keypresses, window movement, etc.). There’s a good chance that they won’t even be affected by a Wimp event, because there are multiple cores to run them on.</source:markdown>
-      <guid>cid://www.riscosopen.org:13:20183:160919</guid>
     </item>    <item>
       <title>Made file source in subdirectory</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20176</link>
@@ -1178,14 +1255,6 @@ It&#39;s happening folks, I&#39;m going senile.</source:markdown>
       </description>
       <source:markdown>Paul Proctor&#39;s BBC Micro &#39;Cookie&#39; development disk. A conversion of the &#39;Ultimate Play The Game&#39; Sinclair Spectrum classic that was never officially released. However, a disk copy of it was leaked at some point and it spread around very quickly.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3m7wzje2bcc2g</guid>
-    </item>    <item>
-      <title>GitLab timeouts</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20125</link>
-      <description>
-        <![CDATA[<p>Apologies to anyone who&#8217;s having trouble accessing GitLab (and packages.riscosopen.org) at the moment. The server is being heavily overloaded by crawler bots from China. We&#8217;re working on blocking these, but it may not be resolved for a day or so.</p>]]>
-      </description>
-      <source:markdown>Apologies to anyone who’s having trouble accessing GitLab (and packages.riscosopen.org) at the moment. The server is being heavily overloaded by crawler bots from China. We’re working on blocking these, but it may not be resolved for a day or so.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20125:160589</guid>
     </item>    <item>
       <title>RISCOSbits Launches Chimera Christmas Cracker Edition</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13537&#38;page=1#125861</link>
