@@ -7,10 +7,61 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>27 Dec 25 12:00 -0800</lastBuildDate>
+    <lastBuildDate>28 Dec 25 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Is there an XEyes-like tool for RISC OS?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20190</link>
+      <description>
+        <![CDATA[<p>Can you not simply use GetWindowState to read the scroll offset of the iconbar? I&#8217;ve never tried.</p>
+        <p>Perhaps simply removing the window furniture from the old program and placing it bottom centre of the screen would be easier and save having to hunt for it on the icon bar proper.</p>]]>
+      </description>
+      <source:markdown>Can you not simply use GetWindowState to read the scroll offset of the iconbar? I’ve never tried.
+
+Perhaps simply removing the window furniture from the old program and placing it bottom centre of the screen would be easier and save having to hunt for it on the icon bar proper.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20190:160994</guid>
+    </item>    <item>
+      <title>NetSurf site dead?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20193</link>
+      <description>
+        <![CDATA[<p>It&#8217;s available again.</p>]]>
+      </description>
+      <source:markdown>It’s available again.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20193:160992</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>This all looks very cool!</p>
+        <p>I&#8217;ve tried building rpcemu-extended on Windows using MSYS2.</p>
+        <p>When running qmake rpcemu.pro, I get two warnings;<br />
+        <span class="caps">WARNING</span>: Failure to find: release/RPCEmu-Recompiler_resource_res.o<br />
+        <span class="caps">WARNING</span>: Failure to find: debug/RPCEmu-Recompiler-debug_resource_res.o</p>
+        <p>When attempting to compile, this fails whilst building hostfs.c<br />
+        win32-g++  -o release/hostfs.o ../hostfs.c</p>
+        <p>I&#8217;ve uploaded the log <a href="https://www.robheaton.co.uk/riscos/buildlog.txt">here</a><br />
+        (Sorry, I couldn&#8217;t work out how to format the build log on textile!)</p>]]>
+      </description>
+      <source:markdown>This all looks very cool!
+
+I’ve tried building rpcemu-extended on Windows using MSYS2.
+
+When running qmake rpcemu.pro, I get two warnings;
+
+WARNING: Failure to find: release/RPCEmu-Recompiler\_resource\_res.o
+
+WARNING: Failure to find: debug/RPCEmu-Recompiler-debug\_resource\_res.o
+
+When attempting to compile, this fails whilst building hostfs.c
+
+win32-g++ -o release/hostfs.o ../hostfs.c
+
+I’ve uploaded the log [here](https://www.robheaton.co.uk/riscos/buildlog.txt)
+
+(Sorry, I couldn’t work out how to format the build log on textile!)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:160982</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3maykzncqk22j</link>
       <description>
         <![CDATA[All technology, forever...
@@ -91,62 +142,6 @@ My view is not that any single option is obviously “the right one”, but that
 HTH</source:markdown>
       <guid>cid://www.riscosopen.org:13:20183:160954</guid>
     </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>Hi all,</p>
-        <p>I’ve been spending some time recently tweaking RPCEmu to add a few features I felt were missing for my own workflow, and I thought the community might find them useful too.</p>
-        <p>I&#8217;ve put together an extended version of RPCEmu 0.9.5 and a standalone Access/ShareFS server.</p>
-        <p>My main goal was to improve networking and debugging tools.</p>
-        <p>I’m mostly developing on Linux, so while I’ve tested things on Windows, I’d love to know how it holds up for others.</p>
-        <p>Some of the additions include:</p>
-        <p>Networking: Access/Access+/ShareFS support for both Linux and Windows.<br />
-        Workflow: Support for multiple machine configs, quick switching, and a new shared HostFS drive between machines.<br />
-        Performance: <span class="caps">FPA</span> emulation (seems stable with AMplayer on 3.71, but needs more eyes on it) and integer scaling for cleaner visuals.<br />
-        Remote Access: Individual <span class="caps">VNC</span> servers per machine configuration.<br />
-        Dev Tools: An integrated debugger/inspector for real-time disassembly and memory viewing.</p>
-        <p>If you have some time to kick the tires, you can find the code here:</p>
-        <p><a href="https://github.com/andrewtimmins/rpcemu-extended">https://github.com/andrewtimmins/rpcemu-extended</a><br />
-        <a href="https://github.com/andrewtimmins/riscos-access-server">https://github.com/andrewtimmins/riscos-access-server</a></p>
-        <p>It&#8217;s not the best, not the cleanest but hopefully it&#8217;ll work well for you.</p>
-        <p>Any feedback or constructive criticism is always very welcome.</p>
-        <p>Thanks.</p>]]>
-      </description>
-      <source:markdown>Hi all,
-
-I’ve been spending some time recently tweaking RPCEmu to add a few features I felt were missing for my own workflow, and I thought the community might find them useful too.
-
-I’ve put together an extended version of RPCEmu 0.9.5 and a standalone Access/ShareFS server.
-
-My main goal was to improve networking and debugging tools.
-
-I’m mostly developing on Linux, so while I’ve tested things on Windows, I’d love to know how it holds up for others.
-
-Some of the additions include:
-
-Networking: Access/Access+/ShareFS support for both Linux and Windows.
-
-Workflow: Support for multiple machine configs, quick switching, and a new shared HostFS drive between machines.
-
-Performance: FPA emulation (seems stable with AMplayer on 3.71, but needs more eyes on it) and integer scaling for cleaner visuals.
-
-Remote Access: Individual VNC servers per machine configuration.
-
-Dev Tools: An integrated debugger/inspector for real-time disassembly and memory viewing.
-
-If you have some time to kick the tires, you can find the code here:
-
-[https://github.com/andrewtimmins/rpcemu-extended](https://github.com/andrewtimmins/rpcemu-extended)
-
-[https://github.com/andrewtimmins/riscos-access-server](https://github.com/andrewtimmins/riscos-access-server)
-
-It’s not the best, not the cleanest but hopefully it’ll work well for you.
-
-Any feedback or constructive criticism is always very welcome.
-
-Thanks.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:160953</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3maxsve7ips2j</link>
       <description>
         <![CDATA[Excellent.
@@ -177,14 +172,6 @@ V% is set to &#38;303FF7CC, in the system heap, not RMA (&#38;20000000) and prin
 
 Is this a limitation of recent MMUs?</source:markdown>
       <guid>cid://www.riscosopen.org:4:20191:160946</guid>
-    </item>    <item>
-      <title>Is there an XEyes-like tool for RISC OS?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20190</link>
-      <description>
-        <![CDATA[<p>Not that I&#8217;m aware but it looks a very nice programming challange which is I think good to do in <span class="caps">BBC</span>-<span class="caps">BASIC</span></p>]]>
-      </description>
-      <source:markdown>Not that I’m aware but it looks a very nice programming challange which is I think good to do in BBC-BASIC</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20190:160945</guid>
     </item>    <item>
       <link>https://bsky.app/profile/rougol.bsky.social/post/3mawts3kge22l</link>
       <description>
