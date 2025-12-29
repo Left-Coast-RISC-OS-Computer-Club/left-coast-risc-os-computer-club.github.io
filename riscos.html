@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.18" >
-  <meta content="2025-12-28T12:00:25-08:00" name="date" >
-  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
+  <meta content="2025-12-29T12:00:27-08:00" name="date" >
+  <link href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" type="application/rss+xml" >
 </head>
 <body>
   <header>
@@ -20,16 +20,179 @@
   </nav>
   <section>
 
-    <article data-published="2025-12-28T15:43:35Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20190">
+    <article data-published="2025-12-29T18:39:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mb5icd2t4s27">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2025-12-29)
+      <p>
+      <p>I finally got around to fixing a bug in RISC OS Basic that is actually from BBC Micro Basic in 1982 – neither tokenises “FORx=1E1TO2E2” correctly!</p>
+<p>The reason is some there’s-only-16KB-so-that’ll-have-to-do code which was dutifully carried over to the actually-there’s-more-than-that-now ARM version.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mb5icd2t4s27">https://bsky.app/profile/nemo20000.bsky.social/post/3mb5icd2t4s27</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-29T18:01:03Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20194">
+      <h1>USBDriver vulnerability</h1>
+
+(date: 2025-12-29)
+      <p>
+      <p>I’d be glad of some advice on whether I ought to open a bug report for this. As it’s rather hardware specific it may well be that no-one can easily fix it.</p>
+<p>I spent a few days over Christmas trying to set up a new Compute 4 based machine for a relative. Overy 80% of the time on powering on, about 15 to 20 seconds after booting completed there was an error “Application may have gone wrong. Click Continue to try to resume or Quit to stop Application.” Whatever I clicked, an application then quit. but it varied as to what it was. Sometimes it was the ShareFS Filer, sometimes the Pinboard, sometimes the Task Manager. If I happened to be in the middle of using NetSurf, then NetSurf would quit silently, with no error being displayed.</p>
+<p>I concluded that the task that vanished was simply the currently paged-in task.</p>
+<p>Clicking Describe on two or three occasions told me that the offset was 5B18 into module USBDriver. That gave me the clue to try unplugging the wireless keyboard/mouse dongle which was the only thing plugged into the USB sockets. With this unplugged the machine booted up reliably (I tried ten times) and did not give any error.</p>
+<p>Clearly the keyboard/mouse dongle is doing something that upsets the USBDriver, and the USBDriver needs to be more robust. But that is not the only issue: the USBDriver also should not end up throwing an error in such a way that a random foreground application is taken down.</p>
+<p>I’ve not attempted to look at the source code, but I’d be glad of opinions on how best to report and test this!</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/4/topics/20194">https://www.riscosopen.org/forum/forums/4/topics/20194</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-29T16:09:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mb57w2cuvk24">
+      <h1>@colinhoad.com</h1>
+
+(date: 2025-12-29)
+      <p>
+      <p>Dune 3: Tokyo Drift</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mb57w2cuvk24">https://bsky.app/profile/colinhoad.com/post/3mb57w2cuvk24</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-29T15:16:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mb54xehat22s">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2025-12-29)
+      <p>
+      <p>This is the first time I've seen the Japanese manual for NES Solstice. I really like it. One of Software Creations' best know titles. Created by my former colleagues Mike Webb and Mark Wilson. Music and SFX by Tim Follin. Crafted in lovely 6502 assembly language.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mb54xehat22s">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mb54xehat22s</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-29T13:28:52Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20183">
+      <h1>RISC OS today and tomorrow: understanding behaviour and trade-offs</h1>
+
+(date: 2025-12-29)
+      <p>
+      <blockquote>
+<p>While PMT vs CMT is actually easy to fix (at the application level)</p>
+</blockquote>
+<p>Well everything apart from the whole message response thing, everything else at the application level is doable. The undoing of RISC OS in this situation is the entire OS is fundamentally single threaded, and unlike other OS’s which morphed from CMT to SMT allows a lot more low level meddling which will be broken.</p>
+<p>By single threaded, I mean that many API’s assume that only one task using them is ever running and don’t have any concept of who is calling them to be able to maintain separate states for different callers, and to be able to dispose of resources when a task ends. Even if you can hack together something that seems to work, without fundamental changes to the OS, it’s going to create a massive bottleneck for multicore usage, and be even more fragile.</p>
+<p>I’ve often thought an quicker and dirtier way around that is to instantiate RISC OS ‘containers’ in which RISC OS only thinks it is running one task with shim modules which would talk a separate supervisor layer which would arbitrate access to discs and networking, and implement a compositing window manager so each of the containers display buffers are stitched together on one desktop.</p>
+<p>Whether that would work, and be quicker to do than re-writing RISC OS properly is debatable, but then neither is ever likely to happen. Paolo will probably get there first with his UltimaVM/Merlin.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/13/topics/20183">https://www.riscosopen.org/forum/forums/13/topics/20183</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-29T13:12:38Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20189">
+      <h1>Ambiguous Disc Name - with only one disc!</h1>
+
+(date: 2025-12-29)
+      <p>
+      <p>Ah, try renaming one of them, that’s why RISC OS is confused.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20189">https://www.riscosopen.org/forum/forums/11/topics/20189</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-29T12:33:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mb4tujgcf22c">
+      <h1>@colinhoad.com</h1>
+
+(date: 2025-12-29)
+      <p>
+      <p>This guy continues to be a mental vacuum. Nobody is afraid of Copilot, mate.</p>
+<p><a href="https://www.independent.co.uk/tech/ai-jobs-microsoft-mustafa-suleyman-automation-copilot-chatgpt-b2891475.html">https://www.independent.co.uk/tech/ai-jobs-microsoft-mustafa-suleyman-automation-copilot-chatgpt-b2891475.html</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mb4tujgcf22c">https://bsky.app/profile/colinhoad.com/post/3mb4tujgcf22c</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-29T12:01:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mb4rznjwrk24">
+      <h1>@colinhoad.com</h1>
+
+(date: 2025-12-29)
+      <p>
+      <p>No.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mb4rznjwrk24">https://bsky.app/profile/colinhoad.com/post/3mb4rznjwrk24</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-29T11:43:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mb4qzridjk24">
+      <h1>@colinhoad.com</h1>
+
+(date: 2025-12-29)
+      <p>
+      <p>After spending several enjoyable days engaged in Pascal coding for hobby projects, my first day back at work has mainly been running Python code, wondering why it doesn't work and then realising I'm using := and semi-colons all over the place 🤣</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mb4qzridjk24">https://bsky.app/profile/colinhoad.com/post/3mb4qzridjk24</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-29T10:11:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3mb4lv3wn2s2c">
+      <h1>@iconbar.com</h1>
+
+(date: 2025-12-29)
+      <p>
+      <p>RISC OS 'Advent' Calendar 2025 R-Comp's new USB charging software</p>
+<p><a href="http://www.iconbar.com/comments/rss/news2291.html">www.iconbar.com/comments/rss/news2291.html</a></p>
+<p>Many thanks to Andrew for sharing the latest software release with us<a href="https://www.iconbar.com/comments/rss/news2291.html">https://www.iconbar.com/comments/rss/news2291.html</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3mb4lv3wn2s2c">https://bsky.app/profile/iconbar.com/post/3mb4lv3wn2s2c</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-29T07:10:00Z" data-link="http://www.iconbar.com/comments/rss/news2291.html">
+      <h1>RISC OS 'Advent' Calendar 2025 R-Comp's new USB charging software</h1>
+
+(date: 2025-12-29)
+      <p>
+      <p>Many thanks to Andrew for sharing the latest software release with us</p>
+
+      <address>
+        <a href="http://www.iconbar.com/comments/rss/news2291.html">http://www.iconbar.com/comments/rss/news2291.html</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-28T23:47:45Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20190">
       <h1>Is there an XEyes-like tool for RISC OS?</h1>
 
 (date: 2025-12-28)
       <p>
-      <p>Can you not simply use GetWindowState to read the scroll offset of the iconbar? I’ve never tried.</p>
-<p>Perhaps simply removing the window furniture from the old program and placing it bottom centre of the screen would be easier and save having to hunt for it on the icon bar proper.</p>
+      <p>Given the casual re-arrangements of icons on the iconbar produced by IconMover by Nemo, I suspect you could move it and fix it at any position you wanted with a little effort.</p>
+<p>Possibly not a current feature, but if the mood takes him, then it might become one. Or not.</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/11/topics/20190">https://www.riscosopen.org/forum/forums/11/topics/20190</a>
+      </address>
+    </article>
+
+    <article data-published="2025-12-28T21:55:47Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
+      <h1>Random projects...</h1>
+
+(date: 2025-12-28)
+      <p>
+      <p>Just to show it can be done.</p>
+<p><img src="https://homepages.plus.net/pittdj/rool25/rpcemux.png" alt=""></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
       </address>
     </article>
 
@@ -42,26 +205,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/5/topics/20193">https://www.riscosopen.org/forum/forums/5/topics/20193</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-28T08:43:02Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
-      <h1>Random projects...</h1>
-
-(date: 2025-12-28)
-      <p>
-      <p>This all looks very cool!</p>
-<p>I’ve tried building rpcemu-extended on Windows using MSYS2.</p>
-<p>When running qmake rpcemu.pro, I get two warnings;</p>
-<p>WARNING: Failure to find: release/RPCEmu-Recompiler_resource_res.o</p>
-<p>WARNING: Failure to find: debug/RPCEmu-Recompiler-debug_resource_res.o</p>
-<p>When attempting to compile, this fails whilst building hostfs.c</p>
-<p>win32-g++ -o release/hostfs.o ../hostfs.c</p>
-<p>I’ve uploaded the log <a href="https://www.robheaton.co.uk/riscos/buildlog.txt">here</a></p>
-<p>(Sorry, I couldn’t work out how to format the build log on textile!)</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
       </address>
     </article>
 
@@ -100,41 +243,6 @@
 
       <address>
         <a href="https://bsky.app/profile/colinhoad.com/post/3mayeaawas22t">https://bsky.app/profile/colinhoad.com/post/3mayeaawas22t</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-27T16:50:23Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20183">
-      <h1>RISC OS today and tomorrow: understanding behaviour and trade-offs</h1>
-
-(date: 2025-12-27)
-      <p>
-      <blockquote>
-<p>Yes, it’s more or less that last one. The one that works.</p>
-</blockquote>
-<p>A quick note for the general reader: while there are ways to allow the old cooperative multitasking (CMT) model to continue to operate on top of a modern kernel, there are real challenges in reliably identifying which tasks should be treated as legacy CMT and which should not. This classification problem is central to making any such approach robust.</p>
-<p>At the moment, the lack of detailed discussion around this aspect makes it difficult to compare or align the various efforts. In my opinion, a useful discussion should focus on analysing these underlying problems and on identifying standardised approaches that could apply across all three current efforts, and possibly a fourth one in the future (the ROOL work, if it’ll ever happen).</p>
-<p>Describing individual solutions is absolutely valuable, but the discussion becomes more productive when it moves beyond “this works for me” and towards a deeper technical analysis of how such solutions could be generalised. The goal, ideally, should be to converge on approaches that are useful for the majority of applications and developers, rather than focusing only on specific cases. Edge cases will always exist, of course, but they should not drive the primary design.</p>
-<p>What I am trying to highlight is that we will most likely need a consistent and reliable mechanism to determine whether an application is intended to run under the old CMT model or whether it is compatible with a modern preemptive multitasking (PMT) environment. Without this, any PMT implementation risks either breaking legacy applications or failing to enforce its own scheduling guarantees.</p>
-<p>There are several possible approaches here, each with different trade-offs:</p>
-<ul>
-<li>
-<p>Classifying an application as CMT when it calls Wimp_Poll or Wimp_PollIdle. While this may work as a fallback, it happens too late in the lifecycle to inform PMT scheduling decisions, and it fails entirely for applications that do not poll correctly or at all.</p>
-</li>
-<li>
-<p>Adding an explicit tag or sub-header, in a safe and well-defined location, to both AIF and ELF object formats to declare the application’s multitasking model. This would be technically clean and deterministic, but it would require coordinated changes to linkers and toolchains. This would not work with old/abandoned apps unless we determine “no-tag” = legacy app, but in this case the non-wimp apps would not be abel to benefit from the new PMT.</p>
-</li>
-<li>
-<p>Introducing distinct file types for AIF and ELF binaries that indicate whether an application is legacy CMT or a new PMT-aware application. This is simple and quick to implement, but it relies on correct user choice and is therefore more prone to mistakes. Given the various ways to copy files to a RISC OS system, it can happen that a user has to set a FileType that has been “lost” during the various copyign around.</p>
-</li>
-<li>
-<p>Designing a loader that analyses the application binary before process creation to infer the appropriate execution model. This requires more work, but it avoids changes to existing build chains and reduces the risk of user error by keeping the decision within the system itself. This would also work with ROOL and/or other efforts not actively engaging in such discussion/decisional process. Which is partially why I am writing Merlin to be abel to adapt to other efforts, because historically the lack of open collaboration has always caused divergences.</p>
-</li>
-</ul>
-<p>My view is not that any single option is obviously “the right one”, but that this classification problem needs to be addressed explicitly and discussed collectively. Without a shared and well-defined strategy here, it will be very difficult to achieve long-term compatibility and coherence across the platform.</p>
-<p>HTH</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/13/topics/20183">https://www.riscosopen.org/forum/forums/13/topics/20183</a>
       </address>
     </article>
 
@@ -177,18 +285,6 @@
 
       <address>
         <a href="https://bsky.app/profile/rougol.bsky.social/post/3mawts3kge22l">https://bsky.app/profile/rougol.bsky.social/post/3mawts3kge22l</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-27T00:38:09Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20189">
-      <h1>Ambiguous Disc Name - with only one disc!</h1>
-
-(date: 2025-12-27)
-      <p>
-      <p>Did the DiscKnight repair alter the disc name?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20189">https://www.riscosopen.org/forum/forums/11/topics/20189</a>
       </address>
     </article>
 
