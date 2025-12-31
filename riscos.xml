@@ -7,10 +7,175 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>30 Dec 25 12:00 -0800</lastBuildDate>
+    <lastBuildDate>31 Dec 25 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Ambiguous Disc Name - with only one disc!</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20189</link>
+      <description>
+        <![CDATA[<p><span class="caps">FYI</span>: Next time you can copy everything off with DiscKnight, expand it&#8217;s window and use the Backup option to copy all or part of a disc elsewhere. It does re-tries for failing rusty media, but wont make any difference with flash based stuff.</p>]]>
+      </description>
+      <source:markdown>FYI: Next time you can copy everything off with DiscKnight, expand it’s window and use the Backup option to copy all or part of a disc elsewhere. It does re-tries for failing rusty media, but wont make any difference with flash based stuff.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20189:161094</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbc4ydflfs2k</link>
+      <description>
+        <![CDATA[Just seen someone claiming the Amiga was "better than any PC In those days" in response to a post about Windows XP and early 2000s computing. I, err, don't think it was, old chap.]]>
+      </description>
+      <source:markdown>Just seen someone claiming the Amiga was &#34;better than any PC In those days&#34; in response to a post about Windows XP and early 2000s computing. I, err, don&#39;t think it was, old chap.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbc4ydflfs2k</guid>
+    </item>    <item>
+      <title>Help Needed setting my Internet</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20197</link>
+      <description>
+        <![CDATA[<p>I am with Plusnet and had New Router. I cannot remember Network Settings Network Configuration.</p>]]>
+      </description>
+      <source:markdown>I am with Plusnet and had New Router. I cannot remember Network Settings Network Configuration.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20197:161090</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mbbx4bscyk22</link>
+      <description>
+        <![CDATA[Arrived this morning – perfect! 
+        #RISC_OS #Archive #ArchiveMagazine]]>
+      </description>
+      <source:markdown>Arrived this morning – perfect!
+#RISC\_OS #Archive #ArchiveMagazine</source:markdown>
+      <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3mbbx4bscyk22</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbbx2idafs24</link>
+      <description>
+        <![CDATA[Sydney, that was epic! Proper fireworks display, they know how to do it #nye]]>
+      </description>
+      <source:markdown>Sydney, that was epic! Proper fireworks display, they know how to do it #nye</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbbx2idafs24</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mbbnghlyd22e</link>
+      <description>
+        <![CDATA[December 2025 News Summary
+        
+        www.iconbar.com/comments/rss/news2270.html
+        
+        Some things we noticed this month. What did you see?
+        https://www.iconbar.com/comments/rss/news2270.html]]>
+      </description>
+      <source:markdown>December 2025 News Summary
+
+www.iconbar.com/comments/rss/news2270.html
+
+Some things we noticed this month. What did you see?
+https://www.iconbar.com/comments/rss/news2270.html</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mbbnghlyd22e</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbblrvmql223</link>
+      <description>
+        <![CDATA[Over Christmas, we were reflecting on family memories and one in particular for which I had a vivid recollection but nobody else could recall (even though they were in it!) This morning I found a photo in an album (pre-digital!) that confirmed it and I realised what a privilege it is to have (1/3)]]>
+      </description>
+      <source:markdown>Over Christmas, we were reflecting on family memories and one in particular for which I had a vivid recollection but nobody else could recall (even though they were in it!) This morning I found a photo in an album (pre-digital!) that confirmed it and I realised what a privilege it is to have (1/3)</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbblrvmql223</guid>
+    </item>    <item>
+      <title>December 2025 News Summary</title>
+      <link>http://www.iconbar.com/comments/rss/news2270.html</link>
+      <description>
+        <![CDATA[Some things we noticed this month. What did you see?]]>
+      </description>
+      <source:markdown>Some things we noticed this month. What did you see?</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2270.html</guid>
+    </item>    <item>
+      <title>Telematic Iyonix Reference CD</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20196</link>
+      <description>
+        <![CDATA[<p>I had a CD i couldn&#8217;t read which i&#8217;ve now managed to extract the contents and place in a zip file which is now the complete Tungsten Technical Reference Schematics and PDF&#8217;s this is different to the one i uploaded on archive.</p>
+        <p><a href="https://www.riscostechnologies.co.uk/Frosted/Tungsten.zip">Download here</a></p>
+        <p>And the Post should say Tematic, my Keyboard decided to sh** itself <span class="caps">LOL</span></p>]]>
+      </description>
+      <source:markdown>I had a CD i couldn’t read which i’ve now managed to extract the contents and place in a zip file which is now the complete Tungsten Technical Reference Schematics and PDF’s this is different to the one i uploaded on archive.
+
+[Download here](https://www.riscostechnologies.co.uk/Frosted/Tungsten.zip)
+
+And the Post should say Tematic, my Keyboard decided to sh\*\* itself LOL</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20196:161079</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>That&#8217;s <span class="caps">STFP</span>, ie. <span class="caps">BCD</span> format. Looking at the rpcemu-extended source, it supports single, double and fake-extended precision, but doesn&#8217;t handle either <span class="caps">BCD</span> formats.</p>
+        <p><span class="caps">BASIC</span> VI presumably uses it as a convenient way to convert between FP value and strings. I&#8217;m not sure it&#8217;d be used by most apps &#8211; and presumably nothing that&#8217;s written in C.</p>]]>
+      </description>
+      <source:markdown>That’s STFP, ie. BCD format. Looking at the rpcemu-extended source, it supports single, double and fake-extended precision, but doesn’t handle either BCD formats.
+
+BASIC VI presumably uses it as a convenient way to convert between FP value and strings. I’m not sure it’d be used by most apps – and presumably nothing that’s written in C.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:161077</guid>
+    </item>    <item>
+      <title>KeyboardUtil v0.01 released</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20195</link>
+      <description>
+        <![CDATA[<p>KeyboardUtil is an on-screen keyboard utility for use on <span class="caps">RISC</span> OS computers. It currently requires <span class="caps">RISC</span> OS 3.5 or later.</p>
+        <p><img src="https://github.com/ccawley2011/KeyboardUtil/raw/main/img/screenshot.png" title="Screenshot of KeyboardUtil" alt="Screenshot of KeyboardUtil" /></p>
+        <p>It can be downloaded from <a href="https://github.com/ccawley2011/KeyboardUtil/releases">here,</a> and the source code is available on <a href="https://github.com/ccawley2011/KeyboardUtil">GitHub.</a></p>]]>
+      </description>
+      <source:markdown>KeyboardUtil is an on-screen keyboard utility for use on RISC OS computers. It currently requires RISC OS 3.5 or later.
+
+![Screenshot of KeyboardUtil](https://github.com/ccawley2011/KeyboardUtil/raw/main/img/screenshot.png)
+
+It can be downloaded from [here,](https://github.com/ccawley2011/KeyboardUtil/releases) and the source code is available on [GitHub.](https://github.com/ccawley2011/KeyboardUtil)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20195:161073</guid>
+    </item>    <item>
+      <title>FlagQuiz Version 1.02 Released</title>
+      <link>https://kevsoft.wordpress.com/2025/12/30/flagquiz-version-1-02-released/</link>
+      <description>
+        <![CDATA[I have made another little update to my RISC OS world flag quiz application FlagQuiz taking it to version 1.02 New in this version is that the question sprites are local to the application itself rather than being placed in the WIMP sprite pool. This should avoid conflicts with other application that use sprites with &#8230; <a href="https://kevsoft.wordpress.com/2025/12/30/flagquiz-version-1-02-released/" class="more-link">Continue reading<span class="screen-reader-text"> "FlagQuiz Version 1.02&#160;Released"</span></a>]]>
+      </description>
+      <source:markdown>I have made another little update to my RISC OS world flag quiz application FlagQuiz taking it to version 1.02 New in this version is that the question sprites are local to the application itself rather than being placed in the WIMP sprite pool. This should avoid conflicts with other application that use sprites with … [Continue reading &#34;FlagQuiz Version 1.02 Released&#34;](https://kevsoft.wordpress.com/2025/12/30/flagquiz-version-1-02-released/)</source:markdown>
+      <guid>cid://http://kevsoft.wordpress.com/?p=1401</guid>
+    </item>    <item>
+      <title>RISC OS today and tomorrow: understanding behaviour and trade-offs</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20183</link>
+      <description>
+        <![CDATA[<p>I modified <span class="caps">QEMU</span> to load the &#8220;bios&#8221; (<span class="caps">RISC</span> OS <span class="caps">ROM</span> image) at 0 instead of 0&#215;8000/0&#215;80000. So it behaves like kernel_old=1 in config.txt (iirc).</p>
+        <pre><code>#define FIRMWARE_ADDR_2 0 // 0x8000 /* Pi 2 loads kernel.img here by default */
+        #define FIRMWARE_ADDR_3 0 // 0x80000 /* Pi 3 loads kernel.img here by default */</code></pre>
+        <p>Plus a bunch of excessive logging, but that&#8217;s another matter.</p>
+        <p>If I were them, I&#8217;d have gone for a <code>-preload file,address</code> option, myself, to cover all eventualities like bios, kernel, inird, etc..</p>
+        <p>Just out of interest, do you do anything with ATAGs? I leave a gap, they&#8217;ll be readable, but I don&#8217;t scan them yet.</p>]]>
+      </description>
+      <source:markdown>I modified QEMU to load the “bios” (RISC OS ROM image) at 0 instead of 0×8000/0×80000. So it behaves like kernel\_old=1 in config.txt (iirc).
+
+```
+#define FIRMWARE_ADDR_2 0 // 0x8000 /* Pi 2 loads kernel.img here by default */
+#define FIRMWARE_ADDR_3 0 // 0x80000 /* Pi 3 loads kernel.img here by default */
+```
+
+Plus a bunch of excessive logging, but that’s another matter.
+
+If I were them, I’d have gone for a `-preload file,address` option, myself, to cover all eventualities like bios, kernel, inird, etc..
+
+Just out of interest, do you do anything with ATAGs? I leave a gap, they’ll be readable, but I don’t scan them yet.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20183:161072</guid>
+    </item>    <item>
+      <title>Is there an XEyes-like tool for RISC OS?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20190</link>
+      <description>
+        <![CDATA[<p>@Bernie I don&#8217;t know what level your knowledge is of how things work, but if you want to update your copy of the Follow application:</p>
+        <p>Shift-double-click on the !Follow icon, to open the application directory.<br />
+        Shift-double-click on !RunImage, to open the program in an editor<br />
+        Select everything (usually Control-A) and delete it, then copy and paste the <span class="caps">BASIC</span> from my corrected earlier post and save it.</p>
+        <p>(I think that way the saved file should be proper <span class="caps">BASIC</span>.)</p>
+        <p>Then try it out, Menu on the eyes closes it. It&#8217;s just a window opened over the iconbar, so it won&#8217;t move with scrolling.</p>]]>
+      </description>
+      <source:markdown>@Bernie I don’t know what level your knowledge is of how things work, but if you want to update your copy of the Follow application:
+
+Shift-double-click on the !Follow icon, to open the application directory.
+
+Shift-double-click on !RunImage, to open the program in an editor
+
+Select everything (usually Control-A) and delete it, then copy and paste the BASIC from my corrected earlier post and save it.
+
+(I think that way the saved file should be proper BASIC.)
+
+Then try it out, Menu on the eyes closes it. It’s just a window opened over the iconbar, so it won’t move with scrolling.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20190:161071</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mba57fgdfc2m</link>
       <description>
         <![CDATA[Iain M Banks was right. In no time there'll be giant Minds roaming space with various sized retinues of human pets, getting into skirmishes with each other and consuming all the energy in the cosmos...]]>
@@ -122,34 +287,6 @@ BBC Basic:</source:markdown>
       <link>https://bsky.app/profile/colinhoad.com/post/3mb6vuq43sk24</link>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mb6vuq43sk24</guid>
     </item>    <item>
-      <title>RISC OS today and tomorrow: understanding behaviour and trade-offs</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/20183</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Isn’t 2232 the end of time? I forget.</p>
-        </blockquote>
-        <p>Ahaha I definitely can see that &#8220;First commit&#8221; in 2232, but</p>
-        <p>“And then one day you find<br />
-        Ten years have got behind you<br />
-        No one told you when to run<br />
-        You missed the starting gun”</p>
-        <p>I prefer the never ending time of Pink Floyd, it doesn&#8217;t end, it sleeps away (but now we are being too naugthy! XD)</p>]]>
-      </description>
-      <source:markdown>&#62; Isn’t 2232 the end of time? I forget.
-
-Ahaha I definitely can see that “First commit” in 2232, but
-
-“And then one day you find
-
-Ten years have got behind you
-
-No one told you when to run
-
-You missed the starting gun”
-
-I prefer the never ending time of Pink Floyd, it doesn’t end, it sleeps away (but now we are being too naugthy! XD)</source:markdown>
-      <guid>cid://www.riscosopen.org:13:20183:161049</guid>
-    </item>    <item>
       <title>USBDriver vulnerability</title>
       <link>https://www.riscosopen.org/forum/forums/4/topics/20194</link>
       <description>
@@ -171,14 +308,6 @@ It is possible that the specific device is triggering some buffer overflow (most
 
 Martin’s suggestion is a good one especially to include more data in a bug report.</source:markdown>
       <guid>cid://www.riscosopen.org:4:20194:161047</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>I&#8217;m using Trixie, and I followed the instructions on marutan.net for the standard Linux build. I switched to Interpreter, rather than Recompiler, and then got stuck installing some of the dependencies (especially relating to a qt module called multimedia) but once I&#8217;d got past that, I had to use the above edits to remove the <span class="caps">FPA</span> stuff. I just deleted the only two lines I could find in rpcemu.pro and rpcemu.c (one line per file) and then it built.</p>]]>
-      </description>
-      <source:markdown>I’m using Trixie, and I followed the instructions on marutan.net for the standard Linux build. I switched to Interpreter, rather than Recompiler, and then got stuck installing some of the dependencies (especially relating to a qt module called multimedia) but once I’d got past that, I had to use the above edits to remove the FPA stuff. I just deleted the only two lines I could find in rpcemu.pro and rpcemu.c (one line per file) and then it built.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:161046</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mb5icd2t4s27</link>
       <description>
@@ -212,14 +341,6 @@ The reason is some there’s-only-16KB-so-that’ll-have-to-do code which was du
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mb54xehat22s</guid>
-    </item>    <item>
-      <title>Ambiguous Disc Name - with only one disc!</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20189</link>
-      <description>
-        <![CDATA[<p>Ah, try renaming one of them, that&#8217;s why <span class="caps">RISC</span> OS is confused.</p>]]>
-      </description>
-      <source:markdown>Ah, try renaming one of them, that’s why RISC OS is confused.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20189:161020</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mb4tujgcf22c</link>
       <description>
@@ -274,17 +395,6 @@ https://www.iconbar.com/comments/rss/news2291.html</source:markdown>
       </description>
       <source:markdown>Many thanks to Andrew for sharing the latest software release with us</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2291.html</guid>
-    </item>    <item>
-      <title>Is there an XEyes-like tool for RISC OS?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20190</link>
-      <description>
-        <![CDATA[<p>Given the casual re-arrangements of icons on the iconbar produced by IconMover by Nemo, I suspect you could move it and fix it at any position you wanted with a little effort.<br />
-        Possibly not a current feature, but if the mood takes him, then it might become one. Or not.</p>]]>
-      </description>
-      <source:markdown>Given the casual re-arrangements of icons on the iconbar produced by IconMover by Nemo, I suspect you could move it and fix it at any position you wanted with a little effort.
-
-Possibly not a current feature, but if the mood takes him, then it might become one. Or not.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20190:161012</guid>
     </item>    <item>
       <title>NetSurf site dead?</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20193</link>
