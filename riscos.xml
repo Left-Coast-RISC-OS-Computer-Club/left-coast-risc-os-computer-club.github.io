@@ -7,10 +7,125 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>02 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>03 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbk6lrieac2o</link>
+      <description>
+        <![CDATA[It's the New Year's Postbag, 2026!
+        youtu.be/fn87-LmMlDY
+        https://youtu.be/fn87-LmMlDY]]>
+      </description>
+      <source:markdown>It&#39;s the New Year&#39;s Postbag, 2026!
+youtu.be/fn87-LmMlDY
+https://youtu.be/fn87-LmMlDY</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbk6lrieac2o</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mbjvo3bxwk23</link>
+      <description>
+        <![CDATA[More great work from Mark Moxon. This time it's BBC Micro Sentinel that has been disassembled, annotated and made into buildable source code. Deep dives coming soon too. Looking forward to reading through all this. Geoff Crammond's code has been thoroughly dissected after almost 40 years!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>More great work from Mark Moxon. This time it&#39;s BBC Micro Sentinel that has been disassembled, annotated and made into buildable source code. Deep dives coming soon too. Looking forward to reading through all this. Geoff Crammond&#39;s code has been thoroughly dissected after almost 40 years!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mbjvo3bxwk23</guid>
+    </item>    <item>
+      <title>NetSurf site dead?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20193</link>
+      <description>
+        <![CDATA[<p>It looks that a few github repositories to build Netsurf are also down.</p>]]>
+      </description>
+      <source:markdown>It looks that a few github repositories to build Netsurf are also down.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20193:161170</guid>
+    </item>    <item>
+      <title>PicoC RISC OS version 0.02 released</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20205</link>
+      <description>
+        <![CDATA[<p>Hiya,</p>
+        <p>Just a little note to say that the PicoC tool that I&#8217;ve been using for some of the verification of 32-bit and 64-bit components has been released. PicoC is an interpreted C, which you can use at the command line or with files. It&#8217;s handy for writing small things in which just exercise a few <span class="caps">SWI</span> calls.</p>
+        <p>It is even passing its almost all the original tests that were supplied with it (those not run are largely for time).</p>
+        <p><img src="https://share.gerph.org/s/7saZneYtJC2btiX/download" alt="" /></p>
+        <ul>
+        	<li>The source can be found here: <a href="https://gitlab.com/gerph/picoc">https://gitlab.com/gerph/picoc</a></li>
+        	<li>The release can be found here: <a href="https://gitlab.com/gerph/picoc/-/releases/v0.02">https://gitlab.com/gerph/picoc/-/releases/v0.02</a></li>
+        </ul>]]>
+      </description>
+      <source:markdown>Hiya,
+
+Just a little note to say that the PicoC tool that I’ve been using for some of the verification of 32-bit and 64-bit components has been released. PicoC is an interpreted C, which you can use at the command line or with files. It’s handy for writing small things in which just exercise a few SWI calls.
+
+It is even passing its almost all the original tests that were supplied with it (those not run are largely for time).
+
+![](https://share.gerph.org/s/7saZneYtJC2btiX/download)
+
+- The source can be found here: [https://gitlab.com/gerph/picoc](https://gitlab.com/gerph/picoc)
+- The release can be found here: [https://gitlab.com/gerph/picoc/-/releases/v0.02](https://gitlab.com/gerph/picoc/-/releases/v0.02)</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20205:161169</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbi3hdnt222r</link>
+      <description>
+        <![CDATA[This is utterly hilarious. As anyone who's tried to use Pinterest recently will know, the site/app is completely swamped with AI slop. If Altman thinks he can use it for more image training data, he's going to be in for a surprise.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>This is utterly hilarious. As anyone who&#39;s tried to use Pinterest recently will know, the site/app is completely swamped with AI slop. If Altman thinks he can use it for more image training data, he&#39;s going to be in for a surprise.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbi3hdnt222r</guid>
+    </item>    <item>
+      <title>Using EX0 and EY0 for higher definition</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20200</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>There are a quite a few things that don’t take into account the screen scaling when using EX0 EY0. The mouse pointer is one of them.</p>
+        </blockquote>
+        <p>The OS <em>does</em> scale the mouse pointer for the eigen factors, witness changing to a EX1 EY2 mode. The issue is that a number of APIs assume no more than 32&#215;32 hardware cursor (probably arising from <span class="caps">VIDC</span>, but I think some other graphics controllers have that limit too) so for example when you try to scale ptr_default which is 22 pixels high at EX1 EY1 you&#8217;d get 44 pixels at EX0 EY0 and the bottom 12 pixels are cropped off. The hourglass with percentage is taller still.</p>
+        <p>So your options are:</p>
+        <ul>
+        	<li>Live with the cropped pointer. Result: at least it&#8217;s proportionally the right size compared with everything else</li>
+        	<li>Fudge it by using the 12&#215;22 pixel pointer sprite in the Wimp&#8217;s Sprites11 file, this is what Castle opted to do with the Iyonix and that&#8217;s spread to some of the other themes. Result: at least it&#8217;s not cropped, just a bit teeny tiny</li>
+        	<li>Roll up your sleeves and ripple <a href="/wiki/documentation/show/Proposed%20GraphicsV%20enhancements#TOC3.3">the planned <span class="caps">API</span> changes</a> through all the bits of low level graphics drivers which assume 32&#215;32. Result: not cropped and correctly scaled on hardware that can do bigger overlays</li>
+        </ul>]]>
+      </description>
+      <source:markdown>&#62; There are a quite a few things that don’t take into account the screen scaling when using EX0 EY0. The mouse pointer is one of them.
+
+The OS _does_ scale the mouse pointer for the eigen factors, witness changing to a EX1 EY2 mode. The issue is that a number of APIs assume no more than 32×32 hardware cursor (probably arising from VIDC, but I think some other graphics controllers have that limit too) so for example when you try to scale ptr\_default which is 22 pixels high at EX1 EY1 you’d get 44 pixels at EX0 EY0 and the bottom 12 pixels are cropped off. The hourglass with percentage is taller still.
+
+So your options are:
+
+- Live with the cropped pointer. Result: at least it’s proportionally the right size compared with everything else
+- Fudge it by using the 12×22 pixel pointer sprite in the Wimp’s Sprites11 file, this is what Castle opted to do with the Iyonix and that’s spread to some of the other themes. Result: at least it’s not cropped, just a bit teeny tiny
+- Roll up your sleeves and ripple [the planned API changes](/wiki/documentation/show/Proposed%20GraphicsV%20enhancements#TOC3.3) through all the bits of low level graphics drivers which assume 32×32. Result: not cropped and correctly scaled on hardware that can do bigger overlays</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20200:161163</guid>
+    </item>    <item>
+      <title>Bluetooth development</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
+      <description>
+        <![CDATA[<p>As suggested by Charles continue the BT development discussion here..</p>]]>
+      </description>
+      <source:markdown>As suggested by Charles continue the BT development discussion here..</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20204:161161</guid>
+    </item>    <item>
+      <title>Bluetooth Again</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20172</link>
+      <description>
+        <![CDATA[<p>The TCPIPLibs looked indeed nice but will give issues. But it is good to see it confirmed by several people. So I only use CLib. I have also worked on more automatic building so the Obey file &#8216;Mk&#8217; in the root should do the trick. I&#8217;m using the netbsd source ( and file structure ) to make the libs. I use the source for version 10.&#215;.</p>
+        <p>I do indeed concentrate on btattach for the pi because the firmware needs to get in first ;-).</p>
+        <p>I&#8217;m not sure for the seperator</p>
+        <p>Thanks for the help !</p>]]>
+      </description>
+      <source:markdown>The TCPIPLibs looked indeed nice but will give issues. But it is good to see it confirmed by several people. So I only use CLib. I have also worked on more automatic building so the Obey file ‘Mk’ in the root should do the trick. I’m using the netbsd source ( and file structure ) to make the libs. I use the source for version 10.×.
+
+I do indeed concentrate on btattach for the pi because the firmware needs to get in first ;-).
+
+I’m not sure for the seperator
+
+Thanks for the help !</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20172:161149</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mbhdix7zhk2f</link>
       <description>
         <![CDATA[New Dark Mode Theme release for #RISC_OS DME ExtTheme!
@@ -131,32 +246,6 @@ For further information, please email [info2025@wrocc.org.uk](mailto:info2025@wr
       </description>
       <source:markdown>2025 has been a great year for me in coding, thanks everyone for all the stars. I hope 2026 is going to be another stellar year! I&#39;m thrilled to be ranked in the top 1% of devs, and if I can do it so can you. Just keep on coding, don&#39;t give up, forget the hype about AI, keep digging and learning!</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mbgyody5w22x</guid>
-    </item>    <item>
-      <title>Bluetooth Again</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20172</link>
-      <description>
-        <![CDATA[<p>Timo, if you can specify exactly which part of the code you want to compile, I will try to be in sync with you.</p>
-        <p>I downloaded <span class="caps">ROTBSD</span> (01/1/2026) and read LogBook</p>
-        <p>The previous days,I did some experiments, and I came to the conclusion that we could not use the TCPIPLibs library of the <span class="caps">DDE</span>, thank you Charles for this confirmation.</p>
-        <p>If I don&#8217;t make a mistake in understanding I should concentrate on btattach?<br />
-        I think that explaining your approach in a file like LogBook would be good, to follow you and be able to cooperate.<br />
-        Thanks</p>
-        <p>NB, I noticed that you use the comma as a separator for the name suffixes, with <span class="caps">RISC</span> OS it is better to use &#8220;/&#8221;, I think?</p>]]>
-      </description>
-      <source:markdown>Timo, if you can specify exactly which part of the code you want to compile, I will try to be in sync with you.
-
-I downloaded ROTBSD (01/1/2026) and read LogBook
-
-The previous days,I did some experiments, and I came to the conclusion that we could not use the TCPIPLibs library of the DDE, thank you Charles for this confirmation.
-
-If I don’t make a mistake in understanding I should concentrate on btattach?
-
-I think that explaining your approach in a file like LogBook would be good, to follow you and be able to cooperate.
-
-Thanks
-
-NB, I noticed that you use the comma as a separator for the name suffixes, with RISC OS it is better to use “/”, I think?</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20172:161142</guid>
     </item>    <item>
       <title>So What Now?</title>
       <link>https://www.riscosopen.org/forum/forums/13/topics/20151</link>
@@ -286,20 +375,6 @@ If it’s of interest, I have a (macOS/Linux) Makefile that fetches the source f
 
 Like I said “pre-wrapped” a sort of computer wrapping paper that hides the sins. It would have been simpler to give the guy a good kicking back then and not have to fanny around now.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20192:161127</guid>
-    </item>    <item>
-      <title>Using EX0 and EY0 for higher definition</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20200</link>
-      <description>
-        <![CDATA[<p>EX0 EY0 would be an unscaled render, there are other values to try&#8230;</p>
-        <p>Reminder, it&#8217;s covered in the <a href="https://www.riscosopen.org/zipfiles/platform/common/UserGuide.5.30.pdf?1712325882">User Guide</a> page 65 in the dead tree terms ignoring the contents pages, or p86 of 618 if you&#8217;re looking at the <span class="caps">PDF</span>.</p>
-        <p>Or, off in the <a href="https://www.riscosopen.org/wiki/documentation/show/Mode%20String">ref manual online</a></p>]]>
-      </description>
-      <source:markdown>EX0 EY0 would be an unscaled render, there are other values to try…
-
-Reminder, it’s covered in the [User Guide](https://www.riscosopen.org/zipfiles/platform/common/UserGuide.5.30.pdf?1712325882) page 65 in the dead tree terms ignoring the contents pages, or p86 of 618 if you’re looking at the PDF.
-
-Or, off in the [ref manual online](https://www.riscosopen.org/wiki/documentation/show/Mode%20String)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20200:161126</guid>
     </item>    <item>
       <title>December 2025 News Summary</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13525&#38;page=1#125863</link>
@@ -734,14 +809,6 @@ https://www.iconbar.com/comments/rss/news2291.html</source:markdown>
       </description>
       <source:markdown>Many thanks to Andrew for sharing the latest software release with us</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2291.html</guid>
-    </item>    <item>
-      <title>NetSurf site dead?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20193</link>
-      <description>
-        <![CDATA[<p>It&#8217;s available again.</p>]]>
-      </description>
-      <source:markdown>It’s available again.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20193:160992</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3maykzncqk22j</link>
       <description>

@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.18" >
-  <meta name="date" content="2026-01-02T12:00:24-08:00" >
-  <link type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" >
+  <meta content="2026-01-03T12:00:33-08:00" name="date" >
+  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
   <header>
@@ -19,6 +19,124 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-01-03T19:50:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mbk6lrieac2o">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-01-03)
+      <p>
+      <p>It's the New Year's Postbag, 2026!
+youtu.be/fn87-LmMlDY<a href="https://youtu.be/fn87-LmMlDY">https://youtu.be/fn87-LmMlDY</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mbk6lrieac2o">https://bsky.app/profile/colinhoad.com/post/3mbk6lrieac2o</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-03T17:10:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mbjvo3bxwk23">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-01-03)
+      <p>
+      <p>More great work from Mark Moxon. This time it's BBC Micro Sentinel that has been disassembled, annotated and made into buildable source code. Deep dives coming soon too. Looking forward to reading through all this. Geoff Crammond's code has been thoroughly dissected after almost 40 years!</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mbjvo3bxwk23">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mbjvo3bxwk23</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-03T08:43:55Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20193">
+      <h1>NetSurf site dead?</h1>
+
+(date: 2026-01-03)
+      <p>
+      <p>It looks that a few github repositories to build Netsurf are also down.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20193">https://www.riscosopen.org/forum/forums/5/topics/20193</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-03T01:14:46Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20205">
+      <h1>PicoC RISC OS version 0.02 released</h1>
+
+(date: 2026-01-03)
+      <p>
+      <p>Hiya,</p>
+<p>Just a little note to say that the PicoC tool that I’ve been using for some of the verification of 32-bit and 64-bit components has been released. PicoC is an interpreted C, which you can use at the command line or with files. It’s handy for writing small things in which just exercise a few SWI calls.</p>
+<p>It is even passing its almost all the original tests that were supplied with it (those not run are largely for time).</p>
+<p><img src="https://share.gerph.org/s/7saZneYtJC2btiX/download" alt=""></p>
+<ul>
+<li>The source can be found here: <a href="https://gitlab.com/gerph/picoc">https://gitlab.com/gerph/picoc</a></li>
+<li>The release can be found here: <a href="https://gitlab.com/gerph/picoc/-/releases/v0.02">https://gitlab.com/gerph/picoc/-/releases/v0.02</a></li>
+</ul>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/13/topics/20205">https://www.riscosopen.org/forum/forums/13/topics/20205</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-02T23:49:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mbi3hdnt222r">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-01-02)
+      <p>
+      <p>This is utterly hilarious. As anyone who's tried to use Pinterest recently will know, the site/app is completely swamped with AI slop. If Altman thinks he can use it for more image training data, he's going to be in for a surprise.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mbi3hdnt222r">https://bsky.app/profile/colinhoad.com/post/3mbi3hdnt222r</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-02T21:32:24Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20200">
+      <h1>Using EX0 and EY0 for higher definition</h1>
+
+(date: 2026-01-02)
+      <p>
+      <blockquote>
+<p>There are a quite a few things that don’t take into account the screen scaling when using EX0 EY0. The mouse pointer is one of them.</p>
+</blockquote>
+<p>The OS <em>does</em> scale the mouse pointer for the eigen factors, witness changing to a EX1 EY2 mode. The issue is that a number of APIs assume no more than 32×32 hardware cursor (probably arising from VIDC, but I think some other graphics controllers have that limit too) so for example when you try to scale ptr_default which is 22 pixels high at EX1 EY1 you’d get 44 pixels at EX0 EY0 and the bottom 12 pixels are cropped off. The hourglass with percentage is taller still.</p>
+<p>So your options are:</p>
+<ul>
+<li>Live with the cropped pointer. Result: at least it’s proportionally the right size compared with everything else</li>
+<li>Fudge it by using the 12×22 pixel pointer sprite in the Wimp’s Sprites11 file, this is what Castle opted to do with the Iyonix and that’s spread to some of the other themes. Result: at least it’s not cropped, just a bit teeny tiny</li>
+<li>Roll up your sleeves and ripple <a href="/wiki/documentation/show/Proposed%20GraphicsV%20enhancements#TOC3.3">the planned API changes</a> through all the bits of low level graphics drivers which assume 32×32. Result: not cropped and correctly scaled on hardware that can do bigger overlays</li>
+</ul>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20200">https://www.riscosopen.org/forum/forums/11/topics/20200</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-02T20:16:18Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20204">
+      <h1>Bluetooth development</h1>
+
+(date: 2026-01-02)
+      <p>
+      <p>As suggested by Charles continue the BT development discussion here..</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20204">https://www.riscosopen.org/forum/forums/5/topics/20204</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-02T16:43:16Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20172">
+      <h1>Bluetooth Again</h1>
+
+(date: 2026-01-02)
+      <p>
+      <p>The TCPIPLibs looked indeed nice but will give issues. But it is good to see it confirmed by several people. So I only use CLib. I have also worked on more automatic building so the Obey file ‘Mk’ in the root should do the trick. I’m using the netbsd source ( and file structure ) to make the libs. I use the source for version 10.×.</p>
+<p>I do indeed concentrate on btattach for the pi because the firmware needs to get in first ;-).</p>
+<p>I’m not sure for the seperator</p>
+<p>Thanks for the help !</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20172">https://www.riscosopen.org/forum/forums/1/topics/20172</a>
+      </address>
+    </article>
 
     <article data-published="2026-01-02T16:40:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mbhdix7zhk2f">
       <h1>@paolofabiozaino.bsky.social</h1>
@@ -116,24 +234,6 @@ riscoscommunity.org/shop/</p>
 
       <address>
         <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mbgyody5w22x">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mbgyody5w22x</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-02T11:16:47Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20172">
-      <h1>Bluetooth Again</h1>
-
-(date: 2026-01-02)
-      <p>
-      <p>Timo, if you can specify exactly which part of the code you want to compile, I will try to be in sync with you.</p>
-<p>I downloaded ROTBSD (01/1/2026) and read LogBook</p>
-<p>The previous days,I did some experiments, and I came to the conclusion that we could not use the TCPIPLibs library of the DDE, thank you Charles for this confirmation.</p>
-<p>If I don’t make a mistake in understanding I should concentrate on btattach?</p>
-<p>I think that explaining your approach in a file like LogBook would be good, to follow you and be able to cooperate.</p>
-<p>Thanks</p>
-<p>NB, I noticed that you use the comma as a separator for the name suffixes, with RISC OS it is better to use “/”, I think?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20172">https://www.riscosopen.org/forum/forums/1/topics/20172</a>
       </address>
     </article>
 
@@ -240,20 +340,6 @@ riscoscommunity.org/shop/</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-01T22:19:45Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20200">
-      <h1>Using EX0 and EY0 for higher definition</h1>
-
-(date: 2026-01-01)
-      <p>
-      <p>EX0 EY0 would be an unscaled render, there are other values to try…</p>
-<p>Reminder, it’s covered in the <a href="https://www.riscosopen.org/zipfiles/platform/common/UserGuide.5.30.pdf?1712325882">User Guide</a> page 65 in the dead tree terms ignoring the contents pages, or p86 of 618 if you’re looking at the PDF.</p>
-<p>Or, off in the <a href="https://www.riscosopen.org/wiki/documentation/show/Mode%20String">ref manual online</a></p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20200">https://www.riscosopen.org/forum/forums/11/topics/20200</a>
       </address>
     </article>
 
@@ -769,18 +855,6 @@ Try #RISCOS this year.</p>
 
       <address>
         <a href="http://www.iconbar.com/comments/rss/news2291.html">http://www.iconbar.com/comments/rss/news2291.html</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-28T15:05:40Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20193">
-      <h1>NetSurf site dead?</h1>
-
-(date: 2025-12-28)
-      <p>
-      <p>It’s available again.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20193">https://www.riscosopen.org/forum/forums/5/topics/20193</a>
       </address>
     </article>
 
