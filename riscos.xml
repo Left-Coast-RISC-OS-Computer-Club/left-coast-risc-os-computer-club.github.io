@@ -7,10 +7,95 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>03 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>04 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Archive magazines available</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20162</link>
+      <description>
+        <![CDATA[<p>Just for future reference &#8211; all spare magazines were collected just before Christmas. I&#8217;m still on the lookout for 2009-2022 magazines, but not in any rush :-)</p>]]>
+      </description>
+      <source:markdown>Just for future reference – all spare magazines were collected just before Christmas. I’m still on the lookout for 2009-2022 magazines, but not in any rush :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20162:161190</guid>
+    </item>    <item>
+      <title>Weird issue setting up printers</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20207</link>
+      <description>
+        <![CDATA[<p>I&#8217;m trying to set up a new computer the same way as my old one (but much faster).</p>
+        <p>The printer setup uses lpr to connect, PS3 for postscript 3 printing, and ps_duplex for duplexing.</p>
+        <p>I&#8217;ve managed to get one printer set up, and it prints correctly from Ovation Pro. From StrongED however it produced a string of Wimp error messages &#8220;cannot print selected string&#8221;, and after I OK the third one, StrongED locks up the machine, requiring alt-break to recover. After rebooting the behaviour is the same.</p>
+        <p>Why the difference? I&#8217;m using the graphics printing option from StrongEd.</p>]]>
+      </description>
+      <source:markdown>I’m trying to set up a new computer the same way as my old one (but much faster).
+
+The printer setup uses lpr to connect, PS3 for postscript 3 printing, and ps\_duplex for duplexing.
+
+I’ve managed to get one printer set up, and it prints correctly from Ovation Pro. From StrongED however it produced a string of Wimp error messages “cannot print selected string”, and after I OK the third one, StrongED locks up the machine, requiring alt-break to recover. After rebooting the behaviour is the same.
+
+Why the difference? I’m using the graphics printing option from StrongEd.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20207:161188</guid>
+    </item>    <item>
+      <title>Modern Frosted Theme</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
+      <description>
+        <![CDATA[<p>Hi. An ignorant question. Can this beautiful theme live on my Iyonix? They really need an aesthetically pleasing theme, and the one you created is amazing. I have Risc OS 5.28 installed on my Iyonix.</p>]]>
+      </description>
+      <source:markdown>Hi. An ignorant question. Can this beautiful theme live on my Iyonix? They really need an aesthetically pleasing theme, and the one you created is amazing. I have Risc OS 5.28 installed on my Iyonix.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20138:161187</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 4th January at 1pm UK time.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20201</link>
+      <description>
+        <![CDATA[<p>A bit of a scattered day today. I had fixed PicoC so that it could handle the _IN() and _OUT() macros, but somehow broke _OUTR() so the testing got a little distracted. However, the SWIs all seem to work on <span class="caps">RISC</span> OS 64, and so I moved on to replacing the data blob for the <span class="caps">CPU</span> registers descriptions with one that can be generated. We now have some Python code that builds the data that these tables use, which will make it a lot easier when we need to replace them with a different platform (or update them!).</p>
+        <p>Hopefully that was interesting to people. I also showed off the hotkey lookup in the editor as well &#8211; pressing shift-ctrl-h opens a Chrome Window with the relevant <span class="caps">RISC</span> OS documentation in. Pretty simple to do with all the other work that&#8217;s gone before, but I finally got around to doing it.</p>
+        <hr />
+        <p>With that, I think I&#8217;m done on what I want to do on the Kernel Introspection for now &#8211; it&#8217;s stubbed well enough. I think next week, I think I&#8217;m going to have a look at FSCommands, unless anyone wants to jump in and ask for one of the other components&#8230;</p>
+        <p>Most of Phase 1 is complete (<a href="https://github.com/gerph/riscos64-status/wiki/Phase-1">https://github.com/gerph/riscos64-status/wiki/Phase-1</a>) but Phase 2 has lots of things in it (<a href="https://github.com/gerph/riscos64-status/wiki/Phase-2">https://github.com/gerph/riscos64-status/wiki/Phase-2</a>).</p>]]>
+      </description>
+      <source:markdown>A bit of a scattered day today. I had fixed PicoC so that it could handle the \_IN() and \_OUT() macros, but somehow broke \_OUTR() so the testing got a little distracted. However, the SWIs all seem to work on RISC OS 64, and so I moved on to replacing the data blob for the CPU registers descriptions with one that can be generated. We now have some Python code that builds the data that these tables use, which will make it a lot easier when we need to replace them with a different platform (or update them!).
+
+Hopefully that was interesting to people. I also showed off the hotkey lookup in the editor as well – pressing shift-ctrl-h opens a Chrome Window with the relevant RISC OS documentation in. Pretty simple to do with all the other work that’s gone before, but I finally got around to doing it.
+
+* * *
+
+With that, I think I’m done on what I want to do on the Kernel Introspection for now – it’s stubbed well enough. I think next week, I think I’m going to have a look at FSCommands, unless anyone wants to jump in and ask for one of the other components…
+
+Most of Phase 1 is complete ( [https://github.com/gerph/riscos64-status/wiki/Phase-1](https://github.com/gerph/riscos64-status/wiki/Phase-1)) but Phase 2 has lots of things in it ( [https://github.com/gerph/riscos64-status/wiki/Phase-2](https://github.com/gerph/riscos64-status/wiki/Phase-2)).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20201:161184</guid>
+    </item>    <item>
+      <title>Is there an XEyes-like tool for RISC OS?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20190</link>
+      <description>
+        <![CDATA[<p>Please accept my apologies for my somewhat delayed reply. My very sincere thanks go to Simon for the modifications to the original program and the helpful explanation regarding changing the <span class="caps">BASIC</span> file. Many thanks to David for the fix!</p>
+        <p>The Desktop Eyes have now found their place on my Iconbar and are happily keeping a close watch on my mouse pointer — simply perfect!</p>
+        <p>Many thanks once again, and with very kind regards</p>
+        <p>Berny :)</p>]]>
+      </description>
+      <source:markdown>Please accept my apologies for my somewhat delayed reply. My very sincere thanks go to Simon for the modifications to the original program and the helpful explanation regarding changing the BASIC file. Many thanks to David for the fix!
+
+The Desktop Eyes have now found their place on my Iconbar and are happily keeping a close watch on my mouse pointer — simply perfect!
+
+Many thanks once again, and with very kind regards
+
+Berny :)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20190:161181</guid>
+    </item>    <item>
+      <title>Iyonix and the rest of my Risc OS collection</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20206</link>
+      <description>
+        <![CDATA[<p>Hi, I&#8217;m new to the forum, so a few words about myself. I am a retro computer collector from Poland. I have different computers: Atari, Amiga, Sinclair (especially QL) and many others, but what is unusual in Poland, I have a large collection of Acorn computers. 8 Bit but also Archimedes or RiscPC. I don&#8217;t just collect them. I renew them and give them a second life. I often try to do something on them. The word I try to fit well here. Risc OS is absolutely different from all operating systems I know. His logic is an immeasurable mystery to me. In my collection, the king of Risc Os 5 finally appeared on board &#8211; Iyonix. I thought beautifully, it couldn&#8217;t get any better. Well, unfortunately, my A7000+ and every Risc PC can do more. It has a working Internet, <span class="caps">USB</span> (Unipod), <span class="caps">SCSI</span>, and most importantly, MP3s work on it. I bought these computers already configured so I don&#8217;t know how it&#8217;s all set up. There is a very strong group in Poland developing Atari or Amiga, but unfortunately there is almost no knowledge about Risc OS. I am one of the few people who is interested in this topic. Perhaps once I master Risc OS, I will start promoting the ideas of Acorn and Risc OS in Poland. I am convinced that a big fan club will quickly gather. I&#8217;ve already infected a few people with the subject. But today I come for advice. As step by step, without yet understanding the system, run on my Iyonix &#8211; 1. <span class="caps">LAN</span> and Internet (info from the guides does not work) I did what I needed in Confuguration. Network&#8230; and still NetSurf does not see the Internet. &#8211; 2. Install a sound card on <span class="caps">USB</span>. I know that the local card has 48kHz sampling and you need an external <span class="caps">USB</span> card to listen to mp3. &#8211; 3. What libraries are needed to play some sensible games on Iyonix, watch demos and do cool things. I bought a paper manual for Risc OS 5 but it&#8217;s still on its way. I also reviewed forums, but most of the information is for people who know the system. I get lost in this advice. I would be grateful for any help. A warm greeting to the entire Risc OS fan community present at this esteemed forum. Slavomir.</p>]]>
+      </description>
+      <source:markdown>Hi, I’m new to the forum, so a few words about myself. I am a retro computer collector from Poland. I have different computers: Atari, Amiga, Sinclair (especially QL) and many others, but what is unusual in Poland, I have a large collection of Acorn computers. 8 Bit but also Archimedes or RiscPC. I don’t just collect them. I renew them and give them a second life. I often try to do something on them. The word I try to fit well here. Risc OS is absolutely different from all operating systems I know. His logic is an immeasurable mystery to me. In my collection, the king of Risc Os 5 finally appeared on board – Iyonix. I thought beautifully, it couldn’t get any better. Well, unfortunately, my A7000+ and every Risc PC can do more. It has a working Internet, USB (Unipod), SCSI, and most importantly, MP3s work on it. I bought these computers already configured so I don’t know how it’s all set up. There is a very strong group in Poland developing Atari or Amiga, but unfortunately there is almost no knowledge about Risc OS. I am one of the few people who is interested in this topic. Perhaps once I master Risc OS, I will start promoting the ideas of Acorn and Risc OS in Poland. I am convinced that a big fan club will quickly gather. I’ve already infected a few people with the subject. But today I come for advice. As step by step, without yet understanding the system, run on my Iyonix – 1. LAN and Internet (info from the guides does not work) I did what I needed in Confuguration. Network… and still NetSurf does not see the Internet. – 2. Install a sound card on USB. I know that the local card has 48kHz sampling and you need an external USB card to listen to mp3. – 3. What libraries are needed to play some sensible games on Iyonix, watch demos and do cool things. I bought a paper manual for Risc OS 5 but it’s still on its way. I also reviewed forums, but most of the information is for people who know the system. I get lost in this advice. I would be grateful for any help. A warm greeting to the entire Risc OS fan community present at this esteemed forum. Slavomir.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20206:161180</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mbkbn7vbe22l</link>
+      <description>
+        <![CDATA[You can have too many steering wheel buttons...]]>
+      </description>
+      <source:markdown>You can have too many steering wheel buttons...</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mbkbn7vbe22l</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mbk6lrieac2o</link>
       <description>
         <![CDATA[It's the New Year's Postbag, 2026!
@@ -32,6 +117,28 @@ https://youtu.be/fn87-LmMlDY</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mbjvo3bxwk23</guid>
+    </item>    <item>
+      <title>Bluetooth development</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Yes and that is TCPIPLibs ;-)…..</p>
+        </blockquote>
+        <p>You&#8217;re right, TCPIPLibs also contains the <span class="caps">UNIX</span> library, and I think what&#8217;s interesting is the way <span class="caps">RISC</span> OS uses netbsd.</p>
+        <p>In the bt libraries there are a lot of references to sys.machine, perhaps to do directly with <span class="caps">RISC</span> OS?<br />
+        These are just guesses&#8230;.<br />
+        I&#8217;m trying to progress in libraries,</p>]]>
+      </description>
+      <source:markdown>&#62; Yes and that is TCPIPLibs ;-)…..
+
+You’re right, TCPIPLibs also contains the UNIX library, and I think what’s interesting is the way RISC OS uses netbsd.
+
+In the bt libraries there are a lot of references to sys.machine, perhaps to do directly with RISC OS?
+
+These are just guesses….
+
+I’m trying to progress in libraries,</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20204:161171</guid>
     </item>    <item>
       <title>NetSurf site dead?</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20193</link>
@@ -76,6 +183,32 @@ It is even passing its almost all the original tests that were supplied with it 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbi3hdnt222r</guid>
     </item>    <item>
+      <title>New DME ExtTheme and Launchpad available for download and testing</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
+      <description>
+        <![CDATA[<p>Thanks Chris, hope you&#8217;ll like your old protocol still living, breathing and growing, now The Little Yellow Moon original protocol also works for themes from boot :)</p>
+        <p>Meanwhile:</p>
+        <p>Big thanks to Martin for testing new themes creation and also running this on his own systems.</p>
+        <p>I have pushed a new build that implements it&#8217;s own file copying in C, because calling <span class="caps">RISC</span> OS `*Copy` via OS_CLI in a Task Window from an Application doesn&#8217;t seems to be very reliable on RO 5.31 if themes are a bit big (on the multiple megabytes size). Anyway the new in-app copy implementation is a lot more reliable, hence installing zipped themes from a TaskWindow should be fine now.</p>
+        <p>Also, I pushed a new build of the dark theme, because the previous one was missing the font. (Yes ExtTheme can install Theme&#8217;s fonts too).</p>
+        <p>Note: !PackMan replace the app when updating, so, my <span class="caps">DME</span> will create a backup copy of your old one in `Boot:Resources.DME_Backups`, so if you feel like your installed themes have disapeared after an update you can find them in the safety backup and/or you can simply install them again via `*theme install &#8230;`.</p>
+        <p>A note for Andrew/<span class="caps">ROD</span>, it seems that Iris had some issues downloading zip files (the themes), the same zips download fine with NetSurf. I am still figuring what&#8217;s going on with Iris, so consider this an heads up only for now (and if you are around and reading this).</p>]]>
+      </description>
+      <source:markdown>Thanks Chris, hope you’ll like your old protocol still living, breathing and growing, now The Little Yellow Moon original protocol also works for themes from boot :)
+
+Meanwhile:
+
+Big thanks to Martin for testing new themes creation and also running this on his own systems.
+
+I have pushed a new build that implements it’s own file copying in C, because calling RISC OS \`\*Copy\` via OS\_CLI in a Task Window from an Application doesn’t seems to be very reliable on RO 5.31 if themes are a bit big (on the multiple megabytes size). Anyway the new in-app copy implementation is a lot more reliable, hence installing zipped themes from a TaskWindow should be fine now.
+
+Also, I pushed a new build of the dark theme, because the previous one was missing the font. (Yes ExtTheme can install Theme’s fonts too).
+
+Note: !PackMan replace the app when updating, so, my DME will create a backup copy of your old one in \`Boot:Resources.DME\_Backups\`, so if you feel like your installed themes have disapeared after an update you can find them in the safety backup and/or you can simply install them again via \`\*theme install …\`.
+
+A note for Andrew/ROD, it seems that Iris had some issues downloading zip files (the themes), the same zips download fine with NetSurf. I am still figuring what’s going on with Iris, so consider this an heads up only for now (and if you are around and reading this).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20199:161165</guid>
+    </item>    <item>
       <title>Using EX0 and EY0 for higher definition</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20200</link>
       <description>
@@ -100,14 +233,6 @@ So your options are:
 - Fudge it by using the 12×22 pixel pointer sprite in the Wimp’s Sprites11 file, this is what Castle opted to do with the Iyonix and that’s spread to some of the other themes. Result: at least it’s not cropped, just a bit teeny tiny
 - Roll up your sleeves and ripple [the planned API changes](/wiki/documentation/show/Proposed%20GraphicsV%20enhancements#TOC3.3) through all the bits of low level graphics drivers which assume 32×32. Result: not cropped and correctly scaled on hardware that can do bigger overlays</source:markdown>
       <guid>cid://www.riscosopen.org:11:20200:161163</guid>
-    </item>    <item>
-      <title>Bluetooth development</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
-      <description>
-        <![CDATA[<p>As suggested by Charles continue the BT development discussion here..</p>]]>
-      </description>
-      <source:markdown>As suggested by Charles continue the BT development discussion here..</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20204:161161</guid>
     </item>    <item>
       <title>Bluetooth Again</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20172</link>
@@ -146,34 +271,6 @@ riscoscommunity.org/shop/
 #riscos #Desktop #Themeing #DarkMode #OpenSource
 https://riscoscommunity.org/shop/</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mbhdix7zhk2f</guid>
-    </item>    <item>
-      <title>New DME ExtTheme and Launchpad available for download and testing</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
-      <description>
-        <![CDATA[<p>Here we go!</p>
-        <p>Many have asked for it and here it is: <b>New Dark Mode Theme</b> released for <span class="caps">RISC</span> OS <span class="caps">DME</span> ExtTheme!</p>
-        <p>you can download it from here:</p>
-        <pre>
-        <a href="https://riscoscommunity.org/shop/">https://riscoscommunity.org/shop/</a>
-        </pre>
-        <p>Please make sure you have installed <span class="caps">RISC</span> OS <span class="caps">DME</span> ExtTheme first and then download and install the theme. I have also added more info on the Theme&#8217;s page to quickly try it and/or set it as your new default theme.</p>
-        <p>More themes are coming!</p>]]>
-      </description>
-      <source:markdown>Here we go!
-
-Many have asked for it and here it is: **New Dark Mode Theme** released for RISC OS DME ExtTheme!
-
-you can download it from here:
-
-```
-https://riscoscommunity.org/shop/
-
-```
-
-Please make sure you have installed RISC OS DME ExtTheme first and then download and install the theme. I have also added more info on the Theme’s page to quickly try it and/or set it as your new default theme.
-
-More themes are coming!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20199:161148</guid>
     </item>    <item>
       <title>FlagQuiz 1.02 released</title>
       <link>https://www.riscository.com/2026/flagquiz-1-02/</link>
@@ -282,62 +379,6 @@ I guess I’ve taken the cup half empty view of the situation opposed to the atl
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mbfu3fk2hs2z</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 4th January at 1pm UK time.</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20201</link>
-      <description>
-        <![CDATA[<p>This Sunday – 4th January, at 1pm UK time – I&#8217;m the latest in my series of my live coding, working on the introspection calls that allow components to read information about <span class="caps">RISC</span> OS.</p>
-        <p>Come along if you like – <a href="https://youtube.com/live/O4bfwRU10VA?feature=share">https://youtube.com/live/O4bfwRU10VA?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
-        <p>A lot of the interfaces have been stubbed, so we need to make them a little more general<br />
-        so that they can be populated by a real system.</p>
-        <hr />
-        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
-        <p>The functionality we need to implement is documented in the riscos64-status repository (<a href="https://github.com/gerph/riscos64-status/wiki/Module_Kernel_Introspection">https://github.com/gerph/riscos64-status/wiki/Module_K…</a>), and might take a couple of sessions to implement.</p>
-        <p>The implementation we&#8217;re providing here is largely stubbed, to allow something to be returned whilst the back end values are not present.</p>
-        <p>So far we have:</p>
-        <ul>
-        	<li>`OS_Byte` 0 and 129,0,255.</li>
-        	<li>Stubs for `OS_ReadSysInfo` 0-11.</li>
-        	<li>Stubs for `OS_Memory` reasons.</li>
-        	<li>Stubs for `OS_PlatformFeatures` reasons.</li>
-        	<li>Stubs for `OS_ReadMemMapEntries`.</li>
-        	<li>Tests to check the behaviour has not regressed.</li>
-        </ul>
-        <hr />
-        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rHCVKT5hbrkXc9gXZthl9Il">https://www.youtube.com/playlist?list=PLVVIu906Y7rHCVK…</a></p>
-        <p>Or the sequence is also available linked from my presentations website: <a href="https://presentation.riscos.online/live/kernelintrospection.html">https://presentation.riscos.online/live/kernelintrospe…</a> (once it has been published).</p>]]>
-      </description>
-      <source:markdown>This Sunday – 4th January, at 1pm UK time – I’m the latest in my series of my live coding, working on the introspection calls that allow components to read information about RISC OS.
-
-Come along if you like – [https://youtube.com/live/O4bfwRU10VA?feature=share](https://youtube.com/live/O4bfwRU10VA?feature=share) – or you can always watch the video afterwards at the same address.
-
-A lot of the interfaces have been stubbed, so we need to make them a little more general
-
-so that they can be populated by a real system.
-
-* * *
-
-For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
-
-The functionality we need to implement is documented in the riscos64-status repository ( [https://github.com/gerph/riscos64-status/wiki/Module\_K…](https://github.com/gerph/riscos64-status/wiki/Module_Kernel_Introspection)), and might take a couple of sessions to implement.
-
-The implementation we’re providing here is largely stubbed, to allow something to be returned whilst the back end values are not present.
-
-So far we have:
-
-- \`OS\_Byte\` 0 and 129,0,255.
-- Stubs for \`OS\_ReadSysInfo\` 0-11.
-- Stubs for \`OS\_Memory\` reasons.
-- Stubs for \`OS\_PlatformFeatures\` reasons.
-- Stubs for \`OS\_ReadMemMapEntries\`.
-- Tests to check the behaviour has not regressed.
-
-* * *
-
-If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rHCVK…](https://www.youtube.com/playlist?list=PLVVIu906Y7rHCVKT5hbrkXc9gXZthl9Il)
-
-Or the sequence is also available linked from my presentations website: [https://presentation.riscos.online/live/kernelintrospe…](https://presentation.riscos.online/live/kernelintrospection.html) (once it has been published).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20201:161134</guid>
     </item>    <item>
       <title>rustc, ELF, ld...</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/16763</link>
@@ -588,29 +629,6 @@ If I were them, I’d have gone for a `-preload file,address` option, myself, to
 
 Just out of interest, do you do anything with ATAGs? I leave a gap, they’ll be readable, but I don’t scan them yet.</source:markdown>
       <guid>cid://www.riscosopen.org:13:20183:161072</guid>
-    </item>    <item>
-      <title>Is there an XEyes-like tool for RISC OS?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20190</link>
-      <description>
-        <![CDATA[<p>@Bernie I don&#8217;t know what level your knowledge is of how things work, but if you want to update your copy of the Follow application:</p>
-        <p>Shift-double-click on the !Follow icon, to open the application directory.<br />
-        Shift-double-click on !RunImage, to open the program in an editor<br />
-        Select everything (usually Control-A) and delete it, then copy and paste the <span class="caps">BASIC</span> from my corrected earlier post and save it.</p>
-        <p>(I think that way the saved file should be proper <span class="caps">BASIC</span>.)</p>
-        <p>Then try it out, Menu on the eyes closes it. It&#8217;s just a window opened over the iconbar, so it won&#8217;t move with scrolling.</p>]]>
-      </description>
-      <source:markdown>@Bernie I don’t know what level your knowledge is of how things work, but if you want to update your copy of the Follow application:
-
-Shift-double-click on the !Follow icon, to open the application directory.
-
-Shift-double-click on !RunImage, to open the program in an editor
-
-Select everything (usually Control-A) and delete it, then copy and paste the BASIC from my corrected earlier post and save it.
-
-(I think that way the saved file should be proper BASIC.)
-
-Then try it out, Menu on the eyes closes it. It’s just a window opened over the iconbar, so it won’t move with scrolling.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20190:161071</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mba57fgdfc2m</link>
       <description>
@@ -895,29 +913,6 @@ I&#39;ve been walking in large circles ever since.
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mavnacdmn22u</guid>
-    </item>    <item>
-      <title>Modern Frosted Theme</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
-      <description>
-        <![CDATA[<p>Frosted Iris Theme to go with the Desktop Theme now Added :)<br />
-        <a href="https://riscostechnologies.co.uk/Frosted/IrisFrostedV1.zip">Download Here</a></p>
-        <p>Main Theme update to 1.2 <a href="https://riscostechnologies.co.uk/Frosted/FrostedV12.zip">here</a><br />
-        <img src="https://images2.imgbox.com/2e/a2/vsVVuqB8_o.png" alt="" /><br />
-        <img src="https://images2.imgbox.com/5f/35/tgnnFBYQ_o.png" alt="" /></p>
-        <p>Main Theme is now working on Select 4 and <span class="caps">SIX</span> Downloads for that should be ready in the next week</p>]]>
-      </description>
-      <source:markdown>Frosted Iris Theme to go with the Desktop Theme now Added :)
-
-[Download Here](https://riscostechnologies.co.uk/Frosted/IrisFrostedV1.zip)
-
-Main Theme update to 1.2 [here](https://riscostechnologies.co.uk/Frosted/FrostedV12.zip)
-
-![](https://images2.imgbox.com/2e/a2/vsVVuqB8_o.png)
-
-![](https://images2.imgbox.com/5f/35/tgnnFBYQ_o.png)
-
-Main Theme is now working on Select 4 and SIX Downloads for that should be ready in the next week</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20138:160938</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mavd5b3c5c2b</link>
       <description>
@@ -2704,26 +2699,6 @@ https://youtu.be/aTadPdoWI-0</source:markdown>
 
 That’s fine until the **Wimp\_Poll** returns an event that you need to handle immediately… at which point, things can start to get very messy, very quickly… As soon as you start to add things like window redraw, a state machine hanging off Null events is often easier to make work. :-)</source:markdown>
       <guid>cid://www.riscosopen.org:11:20154:160399</guid>
-    </item>    <item>
-      <title>Archive magazines available</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20162</link>
-      <description>
-        <![CDATA[<p>As part of my mission to get a full set of Archive magazines, I&#8217;ve ended up with quite a few duplicates.</p>
-        <p>These are mainly from 1989 through to 2000. I&#8217;ve got 200-300 magazines, probably covering most of this range.</p>
-        <p>If anyone would like these please get in touch. They are free to collect. I&#8217;m based in Suffolk.</p>
-        <p>I&#8217;m still looking for the 2001- 2023 magazines.</p>
-        <p>Thanks all Ian.</p>]]>
-      </description>
-      <source:markdown>As part of my mission to get a full set of Archive magazines, I’ve ended up with quite a few duplicates.
-
-These are mainly from 1989 through to 2000. I’ve got 200-300 magazines, probably covering most of this range.
-
-If anyone would like these please get in touch. They are free to collect. I’m based in Suffolk.
-
-I’m still looking for the 2001- 2023 magazines.
-
-Thanks all Ian.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20162:160396</guid>
     </item>    <item>
       <title>RISC OS &#39;Advent&#39; Calendar 2025 - RISOSbits brings some sharng at Christmas</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13533&#38;page=1#125858</link>
