@@ -7,10 +7,89 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>04 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>05 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>How old are you</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20208</link>
+      <description>
+        <![CDATA[<p>With ref to &#8216;Archive.org&#8217;<br />
+        Do you have to prove your age?</p>]]>
+      </description>
+      <source:markdown>With ref to ‘Archive.org’
+
+Do you have to prove your age?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20208:161207</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbopbkv5c22u</link>
+      <description>
+        <![CDATA[Fairly certain that regex bug I just fixed was a result of AI-generated code... 
+        
+        Kids! Learn your regular expressions. They will never not be useful to you.]]>
+      </description>
+      <source:markdown>Fairly certain that regex bug I just fixed was a result of AI-generated code...
+
+Kids! Learn your regular expressions. They will never not be useful to you.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbopbkv5c22u</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3mbonbpd3w22t</link>
+      <description>
+        <![CDATA[Early preview of the new 15.6in RiscDOCK. Bigger screen, bigger battery, same flexibility!
+        
+        #RISC_OS
+        #RISCOSLaptop]]>
+      </description>
+      <source:markdown>Early preview of the new 15.6in RiscDOCK. Bigger screen, bigger battery, same flexibility!
+
+#RISC\_OS
+#RISCOSLaptop</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3mbonbpd3w22t</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbomzws7q22u</link>
+      <description>
+        <![CDATA[If only the world's journalists were still on Twitter to report on this MASSIVE story about Musk's AI slopbot generating child porn on demand. Too bad they all left the platform, I guess.]]>
+      </description>
+      <source:markdown>If only the world&#39;s journalists were still on Twitter to report on this MASSIVE story about Musk&#39;s AI slopbot generating child porn on demand. Too bad they all left the platform, I guess.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbomzws7q22u</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbohxpzdbs2u</link>
+      <description>
+        <![CDATA[I had, up until yesterday, kept my dormant Twitter account (not posted anything or logged in since December 2023), the justification being "I don't want someone pretending to be me" over there. This latest Grok horror show has prompted me to login and deactivate said account.]]>
+      </description>
+      <source:markdown>I had, up until yesterday, kept my dormant Twitter account (not posted anything or logged in since December 2023), the justification being &#34;I don&#39;t want someone pretending to be me&#34; over there. This latest Grok horror show has prompted me to login and deactivate said account.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbohxpzdbs2u</guid>
+    </item>    <item>
+      <title>WROCC January 2026 talk on Wednesday - Elesar</title>
+      <link>http://www.iconbar.com/comments/rss/news2269.html</link>
+      <description>
+        <![CDATA[The January 2026 WROCC talk is on Wednesday 7th January and starts at at 7.45pm on Zoom.]]>
+      </description>
+      <source:markdown>The January 2026 WROCC talk is on Wednesday 7th January and starts at at 7.45pm on Zoom.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2269.html</guid>
+    </item>    <item>
+      <title>Celebrate ten years of the Titanium with WROCC – 7th January</title>
+      <link>https://www.riscository.com/2026/titanium-at-ten-wrocc-7th-january/</link>
+      <description>
+        <![CDATA[Back in October 2015, there was a surprise announcement something visitors to that year&#8217;s London Show could expect to see &#8211; a new motherboard, designed by Rob Sprowson, with RISC OS in mind; the Titanium. The board itself became available through Rob&#8217;s company Elesar Ltd in December of that year, allowing people to build DIY machines around it, and it wasn&#8217;t long before there were complete Titanium-based computer systems available from both R-Comp and CJE Micro&#8217;s. That was a touch over a decade ago, and Rob Sprowson will be taking&#8230;]]>
+      </description>
+      <source:markdown>Back in October 2015, there was a surprise announcement something visitors to that year’s London Show could expect to see – a new motherboard, designed by Rob Sprowson, with RISC OS in mind; the Titanium. The board itself became available through Rob’s company Elesar Ltd in December of that year, allowing people to build DIY machines around it, and it wasn’t long before there were complete Titanium-based computer systems available from both R-Comp and CJE Micro’s. That was a touch over a decade ago, and Rob Sprowson will be taking…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10841</guid>
+    </item>    <item>
+      <title>RISC OS - Flight Simulators</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/16304</link>
+      <description>
+        <![CDATA[<p>Old post, but Doug would you be able to share the flight simulators you listed? I cannot find them anywhere else.<br />
+        Geoff, all games you mention are on Arcarc.nl</p>
+        <p>(I&#8217;m unsure how to quote people on this forum, I tend to use StarDot.)</p>]]>
+      </description>
+      <source:markdown>Old post, but Doug would you be able to share the flight simulators you listed? I cannot find them anywhere else.
+
+Geoff, all games you mention are on Arcarc.nl
+
+(I’m unsure how to quote people on this forum, I tend to use StarDot.)</source:markdown>
+      <guid>cid://www.riscosopen.org:2:16304:161193</guid>
+    </item>    <item>
       <title>Archive magazines available</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20162</link>
       <description>
@@ -18,6 +97,46 @@
       </description>
       <source:markdown>Just for future reference – all spare magazines were collected just before Christmas. I’m still on the lookout for 2009-2022 magazines, but not in any rush :-)</source:markdown>
       <guid>cid://www.riscosopen.org:5:20162:161190</guid>
+    </item>    <item>
+      <title>Bluetooth development</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
+      <description>
+        <![CDATA[<p>Hi Timo<br />
+        I had trouble finding the download link, I used the one from the previous thread, maybe put it back on this thread.<br />
+        I was able to download it and I&#8217;m looking at the libraries that need to be built, with the version of <span class="caps">BSD</span> you are using.<br />
+        Those that are built compile well:</p>
+        <blockquote>
+        <p>Dépendances<br />
+        Librairies:<br />
+         &lt;<span class="caps">BTBSD</span>$Root&gt;.bsd.lib.libc.stdlib<br />
+         &lt;<span class="caps">BTBSD</span>$Root&gt;.bsd.lib.libc.gen<br />
+         &lt;<span class="caps">BTBSD</span>$Root&gt;.bsd.lib.libc.termios<br />
+         &lt;<span class="caps">BTBSD</span>$Root&gt;.bsd.lib.libbluetooth</p>
+        </blockquote>
+        <p>I continue what I started with sys.betbd and include.arm.h</p>]]>
+      </description>
+      <source:markdown>Hi Timo
+
+I had trouble finding the download link, I used the one from the previous thread, maybe put it back on this thread.
+
+I was able to download it and I’m looking at the libraries that need to be built, with the version of BSD you are using.
+
+Those that are built compile well:
+
+&#62; Dépendances
+&#62;
+&#62; Librairies:
+&#62;
+&#62; &#60;BTBSD$Root&#62;.bsd.lib.libc.stdlib
+&#62;
+&#62; &#60;BTBSD$Root&#62;.bsd.lib.libc.gen
+&#62;
+&#62; &#60;BTBSD$Root&#62;.bsd.lib.libc.termios
+&#62;
+&#62; &#60;BTBSD$Root&#62;.bsd.lib.libbluetooth
+
+I continue what I started with sys.betbd and include.arm.h</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20204:161189</guid>
     </item>    <item>
       <title>Weird issue setting up printers</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20207</link>
@@ -43,6 +162,89 @@ Why the difference? I’m using the graphics printing option from StrongEd.</sou
       </description>
       <source:markdown>Hi. An ignorant question. Can this beautiful theme live on my Iyonix? They really need an aesthetically pleasing theme, and the one you created is amazing. I have Risc OS 5.28 installed on my Iyonix.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20138:161187</guid>
+    </item>    <item>
+      <title>Iyonix and the rest of my Risc OS collection</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20206</link>
+      <description>
+        <![CDATA[<p>@Cameron Cawley<br />
+        Thank you for your reply.<br />
+        1. Steps I followed to enable the network:<br />
+        Built-in interface.<br />
+        <strong><span class="caps">CONFIGURATION</span><br />
+        *</strong><span class="caps">NETWORK</span> <span class="caps">CONFIGURATION</span><br />
+        <b>*ACCESS<br />
+        + Enable Access<br />
+        *</b><span class="caps">INTERNET</span><br />
+        <strong><span class="caps">INTERNET</span> <span class="caps">CONFIGURATION</span><br />
+        + Enable <span class="caps">TCP</span>/IP Protocol Suite<br />
+        *</strong><span class="caps">INTERFACES</span><br />
+        + Intel <span class="caps">PRO</span>/1000<br />
+        ***CONFIGURE<br />
+        + via <span class="caps">DHCP</span> (alternatively + manually IP 168.192.8.1, Netmask 255.255.255.0)<br />
+        + Primary interface<br />
+        <strong><span class="caps">ROUTING</span><br />
+        Gateway &#8211; 192.168.8.1<br />
+        + Act as an IP router<br />
+        *</strong><span class="caps">HOST</span> <span class="caps">NAMES</span><br />
+        Host name &#8211; Iyonix<br />
+        [Set]<br />
+        My router&#8217;s address is: 192.168.8.1<br />
+        I can&#8217;t share the <span class="caps">ADSF</span>::HardDisc4$ drive. Access+ says the network drivers aren&#8217;t fully installed.<br />
+        2. I installed DigitalCD, but it won&#8217;t work. Every time I try to run an .mp3 file, I get the message &#8220;This is a relocatable module.&#8221; However, today I managed to run AMPlayer on two Iyonixes. On one, everything works perfectly (where are the problems with the Iyonix sound card being 48kHz? On the other Iyonix, with the same settings as Ionix No. 1, I can hear distinct crackling noises, especially when I move the filer window around the screen).<br />
+        3.I have <span class="caps">AEMULOR</span> and <span class="caps">ADFFS</span>. <span class="caps">AEMULOR</span> starts with the system. Quite often, newer 32-bit software requests libraries. Unfortunately, I don&#8217;t know where these libraries are supposed to be installed. On the Amiga, it&#8217;s simple. There&#8217;s a Library directory in Workbench, and you install them there. In Risk OS, I found the library directory in !Boot in several places. What&#8217;s with the directories named 350, 360, or 500? Is that the OS number?</p>]]>
+      </description>
+      <source:markdown>@Cameron Cawley
+
+Thank you for your reply.
+
+1\. Steps I followed to enable the network:
+
+Built-in interface.
+
+**CONFIGURATION**
+
+**\*** NETWORKCONFIGURATION
+
+**\*ACCESS**
+
+**\+ Enable Access**
+
+**\*** INTERNET
+
+**INTERNETCONFIGURATION**
+
+**\+ Enable TCP/IP Protocol Suite**
+
+**\*** INTERFACES
+
+\+ Intel PRO/1000
+
+\*\*\*CONFIGURE
+
+\+ via DHCP (alternatively + manually IP 168.192.8.1, Netmask 255.255.255.0)
+
+\+ Primary interface
+
+**ROUTING**
+
+**Gateway – 192.168.8.1**
+
+**\+ Act as an IP router**
+
+**\*** HOSTNAMES
+
+Host name – Iyonix
+
+\[Set\]
+
+My router’s address is: 192.168.8.1
+
+I can’t share the ADSF::HardDisc4$ drive. Access+ says the network drivers aren’t fully installed.
+
+2\. I installed DigitalCD, but it won’t work. Every time I try to run an .mp3 file, I get the message “This is a relocatable module.” However, today I managed to run AMPlayer on two Iyonixes. On one, everything works perfectly (where are the problems with the Iyonix sound card being 48kHz? On the other Iyonix, with the same settings as Ionix No. 1, I can hear distinct crackling noises, especially when I move the filer window around the screen).
+
+3.I have AEMULOR and ADFFS. AEMULOR starts with the system. Quite often, newer 32-bit software requests libraries. Unfortunately, I don’t know where these libraries are supposed to be installed. On the Amiga, it’s simple. There’s a Library directory in Workbench, and you install them there. In Risk OS, I found the library directory in !Boot in several places. What’s with the directories named 350, 360, or 500? Is that the OS number?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20206:161185</guid>
     </item>    <item>
       <title>Live Coding with Gerph, Sunday 4th January at 1pm UK time.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20201</link>
@@ -81,14 +283,6 @@ Many thanks once again, and with very kind regards
 Berny :)</source:markdown>
       <guid>cid://www.riscosopen.org:11:20190:161181</guid>
     </item>    <item>
-      <title>Iyonix and the rest of my Risc OS collection</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20206</link>
-      <description>
-        <![CDATA[<p>Hi, I&#8217;m new to the forum, so a few words about myself. I am a retro computer collector from Poland. I have different computers: Atari, Amiga, Sinclair (especially QL) and many others, but what is unusual in Poland, I have a large collection of Acorn computers. 8 Bit but also Archimedes or RiscPC. I don&#8217;t just collect them. I renew them and give them a second life. I often try to do something on them. The word I try to fit well here. Risc OS is absolutely different from all operating systems I know. His logic is an immeasurable mystery to me. In my collection, the king of Risc Os 5 finally appeared on board &#8211; Iyonix. I thought beautifully, it couldn&#8217;t get any better. Well, unfortunately, my A7000+ and every Risc PC can do more. It has a working Internet, <span class="caps">USB</span> (Unipod), <span class="caps">SCSI</span>, and most importantly, MP3s work on it. I bought these computers already configured so I don&#8217;t know how it&#8217;s all set up. There is a very strong group in Poland developing Atari or Amiga, but unfortunately there is almost no knowledge about Risc OS. I am one of the few people who is interested in this topic. Perhaps once I master Risc OS, I will start promoting the ideas of Acorn and Risc OS in Poland. I am convinced that a big fan club will quickly gather. I&#8217;ve already infected a few people with the subject. But today I come for advice. As step by step, without yet understanding the system, run on my Iyonix &#8211; 1. <span class="caps">LAN</span> and Internet (info from the guides does not work) I did what I needed in Confuguration. Network&#8230; and still NetSurf does not see the Internet. &#8211; 2. Install a sound card on <span class="caps">USB</span>. I know that the local card has 48kHz sampling and you need an external <span class="caps">USB</span> card to listen to mp3. &#8211; 3. What libraries are needed to play some sensible games on Iyonix, watch demos and do cool things. I bought a paper manual for Risc OS 5 but it&#8217;s still on its way. I also reviewed forums, but most of the information is for people who know the system. I get lost in this advice. I would be grateful for any help. A warm greeting to the entire Risc OS fan community present at this esteemed forum. Slavomir.</p>]]>
-      </description>
-      <source:markdown>Hi, I’m new to the forum, so a few words about myself. I am a retro computer collector from Poland. I have different computers: Atari, Amiga, Sinclair (especially QL) and many others, but what is unusual in Poland, I have a large collection of Acorn computers. 8 Bit but also Archimedes or RiscPC. I don’t just collect them. I renew them and give them a second life. I often try to do something on them. The word I try to fit well here. Risc OS is absolutely different from all operating systems I know. His logic is an immeasurable mystery to me. In my collection, the king of Risc Os 5 finally appeared on board – Iyonix. I thought beautifully, it couldn’t get any better. Well, unfortunately, my A7000+ and every Risc PC can do more. It has a working Internet, USB (Unipod), SCSI, and most importantly, MP3s work on it. I bought these computers already configured so I don’t know how it’s all set up. There is a very strong group in Poland developing Atari or Amiga, but unfortunately there is almost no knowledge about Risc OS. I am one of the few people who is interested in this topic. Perhaps once I master Risc OS, I will start promoting the ideas of Acorn and Risc OS in Poland. I am convinced that a big fan club will quickly gather. I’ve already infected a few people with the subject. But today I come for advice. As step by step, without yet understanding the system, run on my Iyonix – 1. LAN and Internet (info from the guides does not work) I did what I needed in Confuguration. Network… and still NetSurf does not see the Internet. – 2. Install a sound card on USB. I know that the local card has 48kHz sampling and you need an external USB card to listen to mp3. – 3. What libraries are needed to play some sensible games on Iyonix, watch demos and do cool things. I bought a paper manual for Risc OS 5 but it’s still on its way. I also reviewed forums, but most of the information is for people who know the system. I get lost in this advice. I would be grateful for any help. A warm greeting to the entire Risc OS fan community present at this esteemed forum. Slavomir.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20206:161180</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mbkbn7vbe22l</link>
       <description>
         <![CDATA[You can have too many steering wheel buttons...]]>
@@ -117,28 +311,6 @@ https://youtu.be/fn87-LmMlDY</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mbjvo3bxwk23</guid>
-    </item>    <item>
-      <title>Bluetooth development</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Yes and that is TCPIPLibs ;-)…..</p>
-        </blockquote>
-        <p>You&#8217;re right, TCPIPLibs also contains the <span class="caps">UNIX</span> library, and I think what&#8217;s interesting is the way <span class="caps">RISC</span> OS uses netbsd.</p>
-        <p>In the bt libraries there are a lot of references to sys.machine, perhaps to do directly with <span class="caps">RISC</span> OS?<br />
-        These are just guesses&#8230;.<br />
-        I&#8217;m trying to progress in libraries,</p>]]>
-      </description>
-      <source:markdown>&#62; Yes and that is TCPIPLibs ;-)…..
-
-You’re right, TCPIPLibs also contains the UNIX library, and I think what’s interesting is the way RISC OS uses netbsd.
-
-In the bt libraries there are a lot of references to sys.machine, perhaps to do directly with RISC OS?
-
-These are just guesses….
-
-I’m trying to progress in libraries,</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20204:161171</guid>
     </item>    <item>
       <title>NetSurf site dead?</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20193</link>
