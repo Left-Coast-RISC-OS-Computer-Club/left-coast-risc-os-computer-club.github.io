@@ -7,10 +7,166 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>06 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>07 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mbu7vqthhk2r</link>
+      <description>
+        <![CDATA[My French teacher said my 'mind was constantly on other things - computers'. Yep, it sure was, and still is! Sorry, Miss Nicholls. Anyone else out there with memorable school reports?]]>
+      </description>
+      <source:markdown>My French teacher said my &#39;mind was constantly on other things - computers&#39;. Yep, it sure was, and still is! Sorry, Miss Nicholls. Anyone else out there with memorable school reports?</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mbu7vqthhk2r</guid>
+    </item>    <item>
+      <title>Developers’ fireside chat – 10th January</title>
+      <link>https://www.riscository.com/2026/developers-fireside-chat-10th-january/</link>
+      <description>
+        <![CDATA[The opportunity has once again come around for people involved or interested in software development on, for, or even of RISC OS to gather together and discuss matters relevant to the topic. The next friendly fireside chat is scheduled to take place on Saturday, 10th January. The meetings &#8211; which are held online, using the Zoom video conferencing system &#8211; don&#8217;t follow a set agenda. Instead, the discussion topics are down to those people present, and what they wish to bring up or ask about. For example, at the last&#8230;]]>
+      </description>
+      <source:markdown>The opportunity has once again come around for people involved or interested in software development on, for, or even of RISC OS to gather together and discuss matters relevant to the topic. The next friendly fireside chat is scheduled to take place on Saturday, 10th January. The meetings – which are held online, using the Zoom video conferencing system – don’t follow a set agenda. Instead, the discussion topics are down to those people present, and what they wish to bring up or ask about. For example, at the last…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10845</guid>
+    </item>    <item>
+      <title>Coding on RISC OS fireside chat, Saturday 10th Jan.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20212</link>
+      <description>
+        <![CDATA[<p>Join us around the “Coding on <span class="caps">RISC</span> OS” campfire this Saturday, 10th January, at 7:30 p.m. (<span class="caps">GMT</span>) for another one of our friendly and informal fireside chats.</p>
+        <p>Whether you’re looking to get started, need assistance, want to help others, or share a project or current challenge with the group, you’re all welcome! No experience necessary.</p>
+        <p>For the Zoom credentials (no change), DM me over on X (<a href="https://twitter.com/armbytes">Twitter</a>), <a href="https://bsky.app/profile/armbytes.bsky.social">BlueSky</a>, ChatCube or <a href="https://mastodon.online/@armbytes">Mastodon</a>. There&#8217;s also an email link at the bottom of this informative RISCOSitory news <a href="https://www.riscository.com/2025/developers-fireside-chat-22nd-november/">page</a>.</p>]]>
+      </description>
+      <source:markdown>Join us around the “Coding on RISC OS” campfire this Saturday, 10th January, at 7:30 p.m. (GMT) for another one of our friendly and informal fireside chats.
+
+Whether you’re looking to get started, need assistance, want to help others, or share a project or current challenge with the group, you’re all welcome! No experience necessary.
+
+For the Zoom credentials (no change), DM me over on X ( [Twitter](https://twitter.com/armbytes)), [BlueSky](https://bsky.app/profile/armbytes.bsky.social), ChatCube or [Mastodon](https://mastodon.online/@armbytes). There’s also an email link at the bottom of this informative RISCOSitory news [page](https://www.riscository.com/2025/developers-fireside-chat-22nd-november/).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20212:161235</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbtdfgkac22v</link>
+      <description>
+        <![CDATA[How is it that HMRC can know you've completed your tax return, know that it resulted in tax to pay, but *not* know that you've already paid it? Constant gaslighting texts and emails "reminding" me to pay are really not conducive to good mental health...]]>
+      </description>
+      <source:markdown>How is it that HMRC can know you&#39;ve completed your tax return, know that it resulted in tax to pay, but \*not\* know that you&#39;ve already paid it? Constant gaslighting texts and emails &#34;reminding&#34; me to pay are really not conducive to good mental health...</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbtdfgkac22v</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>Hi everyone, Happy new year to you all!</p>
+        <p>Thanks for all of the info; there&#8217;s lot&#8217;s to look through and digest!  I admit, I haven&#8217;t done so yet, but I&#8217;m planning on doing it later today.</p>
+        <p>I have done a super-quick scan of everything and I&#8217;m thinking of collating everything into an issues list in the separate GitHub Repo&#8217;s so I can work through issues, then post back updates back here; not sure if this works best for folks, so I&#8217;m open to suggestions.</p>
+        <p>I&#8217;ll also get those pre-made binaries built today/tomorrow and put onto the releases section of the separate GitHub Repo&#8217;s as well; hopefully this will make things easier for testing, etc. (although the feedback from compiling is great; thank you!).</p>
+        <p>Once again, thanks everyone for testing/commenting/suggestions/support, it&#8217;s muchly appreciated.</p>]]>
+      </description>
+      <source:markdown>Hi everyone, Happy new year to you all!
+
+Thanks for all of the info; there’s lot’s to look through and digest! I admit, I haven’t done so yet, but I’m planning on doing it later today.
+
+I have done a super-quick scan of everything and I’m thinking of collating everything into an issues list in the separate GitHub Repo’s so I can work through issues, then post back updates back here; not sure if this works best for folks, so I’m open to suggestions.
+
+I’ll also get those pre-made binaries built today/tomorrow and put onto the releases section of the separate GitHub Repo’s as well; hopefully this will make things easier for testing, etc. (although the feedback from compiling is great; thank you!).
+
+Once again, thanks everyone for testing/commenting/suggestions/support, it’s muchly appreciated.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:161232</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbtavqdtyk2v</link>
+      <description>
+        <![CDATA[As many others have noted... if even DELL are admitting this, that bubble is looking pretty bursty right about now...
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>As many others have noted... if even DELL are admitting this, that bubble is looking pretty bursty right about now...
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbtavqdtyk2v</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbt3kqtcyc2v</link>
+      <description>
+        <![CDATA["Powerful Copilot prompts from Satya Nadella!" screams the Microsoft email in my inbox this morning.
+        
+        Get. In. The. Sea.]]>
+      </description>
+      <source:markdown>&#34;Powerful Copilot prompts from Satya Nadella!&#34; screams the Microsoft email in my inbox this morning.
+
+Get. In. The. Sea.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbt3kqtcyc2v</guid>
+    </item>    <item>
+      <title>Acorn biographer at ROUGOL, Mon 15th Dec 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20149</link>
+      <description>
+        <![CDATA[<p>Details for pre-ordering Rob&#8217;s book, Voices from a Future Passed &#8211; <a href="https://www.riscosopen.org/forum/forums/1/topics/20211">https://www.riscosopen.org/forum/forums/1/topics/20211</a></p>
+        <p>His slides from the meeting are also up on the <span class="caps">ROUGOL</span> website &#8211; <a href="https://rougol.jellybaby.net/meetings/2025/dec.html">https://rougol.jellybaby.net/meetings/2025/dec.html</a></p>]]>
+      </description>
+      <source:markdown>Details for pre-ordering Rob’s book, Voices from a Future Passed – [https://www.riscosopen.org/forum/forums/1/topics/20211](https://www.riscosopen.org/forum/forums/1/topics/20211)
+
+His slides from the meeting are also up on the ROUGOL website – [https://rougol.jellybaby.net/meetings/2025/dec.html](https://rougol.jellybaby.net/meetings/2025/dec.html)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20149:161229</guid>
+    </item>    <item>
+      <title>Pre-order Voices From A Future Passed</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20211</link>
+      <description>
+        <![CDATA[<p>For those who enjoyed <a href="https://rougol.jellybaby.net/meetings/2025/dec.html">Rob Napier&#8217;s talk at <span class="caps">ROUGOL</span></a> last month, and those who missed it but were also excited to read the full history of Acorn, here&#8217;s a message from Rob about progress on publication of his book:</p>
+        <hr />
+        <p>Over the holiday break, <span class="caps">VOICES</span> <span class="caps">FROM</span> A <span class="caps">FUTURE</span> <span class="caps">PASSED</span> has moved toward publication.</p>
+        <p>I am cautiously confident that it will be released on 1 March online through Amazon and through some bookshops and possibly some museum shops.</p>
+        <p>I have set up an information site at <a href="https://www.doitonce.net.au/">www.doitonce.net.au</a> . It gives an outline of the book and a campaign to donate part of the sale price to museums. Please visit the site for details.</p>
+        <p>If you would like to pre-order or to contact me, just send me a message from there. I try to respond to everyone within one business day.</p>
+        <p>My <span class="caps">HTML</span> skills are a bit rusty and I&#8217;ve not managed to get too excited about current web design trends. If anyone has any comments/feedback, I&#8217;d be happy to receive your advice. That said: Please be gentle.</p>
+        <p>All the best<br />
+        Rob Napier<br />
+        <del>-</del>&#8212;&#8212;&#8212;-</p>]]>
+      </description>
+      <source:markdown>For those who enjoyed [Rob Napier’s talk at ROUGOL](https://rougol.jellybaby.net/meetings/2025/dec.html) last month, and those who missed it but were also excited to read the full history of Acorn, here’s a message from Rob about progress on publication of his book:
+
+* * *
+
+Over the holiday break, VOICESFROM A FUTUREPASSED has moved toward publication.
+
+I am cautiously confident that it will be released on 1 March online through Amazon and through some bookshops and possibly some museum shops.
+
+I have set up an information site at [www.doitonce.net.au](https://www.doitonce.net.au/) . It gives an outline of the book and a campaign to donate part of the sale price to museums. Please visit the site for details.
+
+If you would like to pre-order or to contact me, just send me a message from there. I try to respond to everyone within one business day.
+
+My HTML skills are a bit rusty and I’ve not managed to get too excited about current web design trends. If anyone has any comments/feedback, I’d be happy to receive your advice. That said: Please be gentle.
+
+All the best
+
+Rob Napier
+
+-———-</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20211:161228</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mbrynfxqhs2o</link>
+      <description>
+        <![CDATA[A belated Happy New Year to my RISC OS friends.
+        
+        I’m delighted to announce that I’ve completed the nemoBasic feature I teased before Christmas.
+        
+        This new functionality is really exciting for many reasons, so I’ll show you before I describe it: [I’ve coloured some strings here to clarify]]]>
+      </description>
+      <source:markdown>A belated Happy New Year to my RISC OS friends.
+
+I’m delighted to announce that I’ve completed the nemoBasic feature I teased before Christmas.
+
+This new functionality is really exciting for many reasons, so I’ll show you before I describe it: \[I’ve coloured some strings here to clarify\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mbrynfxqhs2o</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3mbrscvj46s2v</link>
+      <description>
+        <![CDATA[Interested in coding on RISC OS? Want to learn more or meet others? Join our friendly fireside chat on Zoom—DM for credentials (unchanged). The event is this Saturday, 10th January at 7:30 pm (GMT).
+        #Zoom #Meetup #RISCOS #Community #RaspberryPi #ARM #Retro #AcornComputers]]>
+      </description>
+      <source:markdown>Interested in coding on RISC OS? Want to learn more or meet others? Join our friendly fireside chat on Zoom—DM for credentials (unchanged). The event is this Saturday, 10th January at 7:30 pm (GMT).
+#Zoom #Meetup #RISCOS #Community #RaspberryPi #ARM #Retro #AcornComputers</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mbrscvj46s2v</guid>
+    </item>    <item>
+      <title>Modern Frosted Theme</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
+      <description>
+        <![CDATA[<p>The screenshot of your desktop Marin looks certainly different from the norm. I must admit I do like the experientation people go into customzing their desktops. Just to ask about the frosted theme, what version or release it is currently on just now? Also is there a direct link to the source of your themes to keep tabs of your latest updated themes? Thank you.</p>]]>
+      </description>
+      <source:markdown>The screenshot of your desktop Marin looks certainly different from the norm. I must admit I do like the experientation people go into customzing their desktops. Just to ask about the frosted theme, what version or release it is currently on just now? Also is there a direct link to the source of your themes to keep tabs of your latest updated themes? Thank you.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20138:161219</guid>
+    </item>    <item>
       <title>Sharing Directories Between Windows 11 and RISC OS</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20210</link>
       <description>
@@ -64,6 +220,14 @@ I’m aware that there are theme manager applications in development, such as Ex
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbqnscgko224</guid>
     </item>    <item>
+      <title>Iyonix and the rest of my Risc OS collection</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20206</link>
+      <description>
+        <![CDATA[<p>correct!</p>]]>
+      </description>
+      <source:markdown>correct!</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20206:161213</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mbpjaxqggk2b</link>
       <description>
         <![CDATA[WROCC January 2026 talk on Wednesday - Elesar
@@ -113,19 +277,6 @@ Do you have to prove your age?</source:markdown>
 
 Kids! Learn your regular expressions. They will never not be useful to you.</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbopbkv5c22u</guid>
-    </item>    <item>
-      <title>Iyonix and the rest of my Risc OS collection</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20206</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I think the problem with it being 48kHz is that it would need playback applications to convert from e.g. 44.1 kHz in software, which can be slow in some cases. I don’t know if this explains the crackling, though.</p>
-        </blockquote>
-        <p>I vaguely remember of Iyonix users complaining of the Sound quality when playing at full volume.</p>]]>
-      </description>
-      <source:markdown>&#62; I think the problem with it being 48kHz is that it would need playback applications to convert from e.g. 44.1 kHz in software, which can be slow in some cases. I don’t know if this explains the crackling, though.
-
-I vaguely remember of Iyonix users complaining of the Sound quality when playing at full volume.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20206:161206</guid>
     </item>    <item>
       <link>https://bsky.app/profile/riscosbits.co.uk/post/3mbonbpd3w22t</link>
       <description>
@@ -177,14 +328,6 @@ Like that ;-)
 
 See the easy guide at the bottom of the page and the linked [https://www.riscosopen.org/wiki/documentation/show/For…](https://www.riscosopen.org/wiki/documentation/show/Forum)</source:markdown>
       <guid>cid://www.riscosopen.org:2:16304:161201</guid>
-    </item>    <item>
-      <title>Modern Frosted Theme</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
-      <description>
-        <![CDATA[<p>At the moment its only for 5.30 and above, but i&#8217;m going to format it so it will work on 3.7 and above in the next few weeks so stay tuned!</p>]]>
-      </description>
-      <source:markdown>At the moment its only for 5.30 and above, but i’m going to format it so it will work on 3.7 and above in the next few weeks so stay tuned!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20138:161200</guid>
     </item>    <item>
       <title>Weird issue setting up printers</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20207</link>
@@ -584,19 +727,6 @@ The C library’s Apache licensed, so as long as you’re willing to make your c
 
 If it’s of interest, I have a (macOS/Linux) Makefile that fetches the source for stubs and builds three variants – 26bit, 32bit and vfp. The latter is a 32-bit stubs, patched automatically. It uses a python (extended) implementation of decaof to rename certain symbols in the symbol table in the .o files, and includes in the library veneers. These veneers export the original function name, and call the renamed functions. And they’re all made into a library with a python reimplementation of libfile. It sounds like it works very similarly to StubsG?</source:markdown>
       <guid>cid://www.riscosopen.org:13:20164:161130</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>They work fine on Linux… You do need to &#8220;Quote Them&#8221; or Quote\ Them in the shell,</p>
-        </blockquote>
-        <p>Like I said &#8220;pre-wrapped&#8221; a sort of computer wrapping paper that hides the sins. It would have been simpler to give the guy a good kicking back then and not have to fanny around now.</p>]]>
-      </description>
-      <source:markdown>&#62; They work fine on Linux… You do need to “Quote Them” or Quote\ Them in the shell,
-
-Like I said “pre-wrapped” a sort of computer wrapping paper that hides the sins. It would have been simpler to give the guy a good kicking back then and not have to fanny around now.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:161127</guid>
     </item>    <item>
       <title>December 2025 News Summary</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13525&#38;page=1#125863</link>
@@ -2388,14 +2518,6 @@ https://www.iconbar.com/comments/rss/news2282.html</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3m7r33pxxr22c</guid>
-    </item>    <item>
-      <title>Acorn biographer at ROUGOL, Mon 15th Dec 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20149</link>
-      <description>
-        <![CDATA[<p>Reminder that the meeting is this coming Monday. As an extra enticement, some of Rob&#8217;s former colleagues/interviewees might be joining us too :-)</p>]]>
-      </description>
-      <source:markdown>Reminder that the meeting is this coming Monday. As an extra enticement, some of Rob’s former colleagues/interviewees might be joining us too :-)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20149:160546</guid>
     </item>    <item>
       <title>Downtime</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20168</link>
