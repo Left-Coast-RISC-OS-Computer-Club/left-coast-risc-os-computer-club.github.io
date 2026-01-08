@@ -7,16 +7,288 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>07 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>08 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mbwoiblols2u</link>
+      <description>
+        <![CDATA[I found these AI generated images from about 4 years ago. I was trying out the latest craze. I hate to think how much power has been wasted over the years generating this stuff. I guess it helps tech companies stay 'relevant' and keeps share prices high. I do wonder how long before the bubble bursts]]>
+      </description>
+      <source:markdown>I found these AI generated images from about 4 years ago. I was trying out the latest craze. I hate to think how much power has been wasted over the years generating this stuff. I guess it helps tech companies stay &#39;relevant&#39; and keeps share prices high. I do wonder how long before the bubble bursts</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mbwoiblols2u</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbwma7cros2f</link>
+      <description>
+        <![CDATA[https://www.bbc.co.uk/news/technology-46275138
+        
+        Resharing this old story from 2018 for no reason at all.
+        
+        *stares*]]>
+      </description>
+      <source:markdown>https://www.bbc.co.uk/news/technology-46275138
+
+Resharing this old story from 2018 for no reason at all.
+
+\*stares\*</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbwma7cros2f</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbwlnpjemk2f</link>
+      <description>
+        <![CDATA[https://www.traffic.gov.scot/gritter-tracker
+        
+        Scotland, I salute you! These snow gritter names are incredible 😆]]>
+      </description>
+      <source:markdown>https://www.traffic.gov.scot/gritter-tracker
+
+Scotland, I salute you! These snow gritter names are incredible 😆</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbwlnpjemk2f</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mbwhy4dphc2u</link>
+      <description>
+        <![CDATA[In December 1987 'The Micro User' magazine was helping Acornsoft off-load surplus stock. Games and Languages were sold off at very reasonable prices.]]>
+      </description>
+      <source:markdown>In December 1987 &#39;The Micro User&#39; magazine was helping Acornsoft off-load surplus stock. Games and Languages were sold off at very reasonable prices.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mbwhy4dphc2u</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbw4rih32c2c</link>
+      <description>
+        <![CDATA[BBC News report on sick men using Meta AI glasses to film women in public without their consent and then post the videos online for clicks.
+        
+        "We contacted Meta, who said users should not use the AI glasses in this way."
+        
+        Oh, so that's ok then?]]>
+      </description>
+      <source:markdown>BBC News report on sick men using Meta AI glasses to film women in public without their consent and then post the videos online for clicks.
+
+&#34;We contacted Meta, who said users should not use the AI glasses in this way.&#34;
+
+Oh, so that&#39;s ok then?</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbw4rih32c2c</guid>
+    </item>    <item>
+      <title>Linux Port</title>
+      <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
+      <description>
+        <![CDATA[<p>All the best for 2026 to everyone here.</p>
+        <p>I played with my Pinephone once more. It had been lying unused for a very long time. <br />
+        Unfortunately, it no longer booted. I couldn&#8217;t figure out why and wrote a Mobian image, which I still have on my computer, to the eMMC.<br />
+        To actualize the System &#8230;<br />
+        sudo apt-get update<br />
+        sudo apt-get upgrade <br />
+        &#8230; in terminal.</p>
+        <p>Than I have tried to install Direct via the Linuxport. I have do it with the stuff I collected for the Pyra (the complete needed git-stuff from Timothy Baldwin + HardHisc4.5.28.util in Downloads + Direct HD4).</p>
+        <p>You can download from<br />
+        <a href="http://riscos.openpandora.org/Pyra/Download/pyra_direct.tar.gz">Pyra_Direct</a></p>
+        <p>After this you have to install the dependencies in terminal.</p>
+        <p>sudo apt-get install bash bubblewrap gcc g++ make libattr1-dev libseccomp-dev libsdl2-dev xattr</p>
+        <p>For other Linux than Debian/Mobian or Ubuntu the dependencies and the packagemanager are other. The packagemanager for manjaro is pacman.<br />
+        So the line begins with <code>sudo pacman -Syu ... </code> the name of the packages you have collect for yourself, I forget ;-) I try the Linuxport with manjaro on Pinebook Pro and was searching and install the dependencies via the softwaremanager.</p>
+        <p>Unpack the download with</p>
+        <p>tar &#8212;xattrs -xvf Downloads/pyra_direct.tar.gz</p>
+        <p>to your home directory. It takes a while.<br />
+        Then in Terminal&#8230;</p>
+        <p>Dir RISC_OS</p>
+        <p>./run_RISC_OS</p>
+        <p>The first start takes a bit longer.</p>
+        <p>At the Desktop you find a Pyra folder. Inside three tools.<br />
+        The !Keymapper tool map the right Nub to &#8220;Menu&#8221; and &quot;Adjust to both (is for the Pyra).<br />
+        The other two Obeys are for network use and contains the IP of the internet gateway. Change it to yours and start to use the network access (<span class="caps">WIFI</span> or <span class="caps">LTE</span>).</p>
+        <p>Was a short try this morning.</p>
+        <p><img src="http://riscos.openpandora.org/Diverses/Temp/PinePhone1.jpg" alt="" /></p>
+        <p>Or flip the screen&#8230;</p>
+        <p><img src="http://riscos.openpandora.org/Diverses/Temp/PinePhone2.jpg" alt="" /></p>
+        <p>Note: The display zoom of the phone is 200% by default. Has set to 100%. And you need an external mouse for using it.<br />
+        I will try Thomas &#8220;rotated&#8221; mouse solution I use for the Pi <span class="caps">DSI</span> Display but the time was running out this morning ;-)</p>]]>
+      </description>
+      <source:markdown>All the best for 2026 to everyone here.
+
+I played with my Pinephone once more. It had been lying unused for a very long time.
+
+Unfortunately, it no longer booted. I couldn’t figure out why and wrote a Mobian image, which I still have on my computer, to the eMMC.
+
+To actualize the System …
+
+sudo apt-get update
+
+sudo apt-get upgrade
+
+… in terminal.
+
+Than I have tried to install Direct via the Linuxport. I have do it with the stuff I collected for the Pyra (the complete needed git-stuff from Timothy Baldwin + HardHisc4.5.28.util in Downloads + Direct HD4).
+
+You can download from
+
+[Pyra\_Direct](http://riscos.openpandora.org/Pyra/Download/pyra_direct.tar.gz)
+
+After this you have to install the dependencies in terminal.
+
+sudo apt-get install bash bubblewrap gcc g++ make libattr1-dev libseccomp-dev libsdl2-dev xattr
+
+For other Linux than Debian/Mobian or Ubuntu the dependencies and the packagemanager are other. The packagemanager for manjaro is pacman.
+
+So the line begins with `sudo pacman -Syu ... ` the name of the packages you have collect for yourself, I forget ;-) I try the Linuxport with manjaro on Pinebook Pro and was searching and install the dependencies via the softwaremanager.
+
+Unpack the download with
+
+tar —xattrs -xvf Downloads/pyra\_direct.tar.gz
+
+to your home directory. It takes a while.
+
+Then in Terminal…
+
+Dir RISC\_OS
+
+./run\_RISC\_OS
+
+The first start takes a bit longer.
+
+At the Desktop you find a Pyra folder. Inside three tools.
+
+The !Keymapper tool map the right Nub to “Menu” and &#34;Adjust to both (is for the Pyra).
+
+The other two Obeys are for network use and contains the IP of the internet gateway. Change it to yours and start to use the network access (WIFI or LTE).
+
+Was a short try this morning.
+
+![](http://riscos.openpandora.org/Diverses/Temp/PinePhone1.jpg)
+
+Or flip the screen…
+
+![](http://riscos.openpandora.org/Diverses/Temp/PinePhone2.jpg)
+
+Note: The display zoom of the phone is 200% by default. Has set to 100%. And you need an external mouse for using it.
+
+I will try Thomas “rotated” mouse solution I use for the Pi DSI Display but the time was running out this morning ;-)</source:markdown>
+      <guid>cid://www.riscosopen.org:3:9068:161244</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mbveb6m7kc22</link>
+      <description>
+        <![CDATA[Those RISC OS users coping with the traumatic loss of 32b ARMs (after the traumatic loss of 26b ARMs) by pitching their hopes on 64b ARMs should raise their gaze slightly nearer the horizon. Things change like Hemingway said - gradually, then suddenly.
+        https://markets.financialcontent.com/wral/article/tokenring-2025-12-26-risc-v-hits-25-market-penetration-as-qualcomm-and-meta-lead-the-shift-to-open-source-silicon]]>
+      </description>
+      <source:markdown>Those RISC OS users coping with the traumatic loss of 32b ARMs (after the traumatic loss of 26b ARMs) by pitching their hopes on 64b ARMs should raise their gaze slightly nearer the horizon. Things change like Hemingway said - gradually, then suddenly.
+https://markets.financialcontent.com/wral/article/tokenring-2025-12-26-risc-v-hits-25-market-penetration-as-qualcomm-and-meta-lead-the-shift-to-open-source-silicon</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mbveb6m7kc22</guid>
+    </item>    <item>
+      <title>Telematic Iyonix Reference CD</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20196</link>
+      <description>
+        <![CDATA[<p>Looks like this link&#8217;s stopped working &#8211; I&#8217;m getting an <span class="caps">SSL</span> error:</p>
+        <p>Secure Connection Failed</p>
+        <p>An error occurred during a connection to <a href="http://www.riscostechnologies.co.uk">www.riscostechnologies.co.uk</a>. Peer reports it experienced an internal error.</p>
+        <p>Error code: SSL_ERROR_INTERNAL_ERROR_ALERT</p>
+        The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+        Please contact the web site owners to inform them of this problem.
+        <p>cURL gives similar:</p>
+        <ul>
+        	<li>Host <a href="http://www.riscostechnologies.co.uk:443">www.riscostechnologies.co.uk:443</a> was resolved.</li>
+        	<li>IPv6: 2001:8d8:100f:f000::200</li>
+        	<li>IPv4: 77.68.64.7</li>
+        	<li>Trying [2001:8d8:100f:f000::200]:443&#8230;</li>
+        	<li>Connected to <a href="http://www.riscostechnologies.co.uk">www.riscostechnologies.co.uk</a> (2001:8d8:100f:f000::200) port 443</li>
+        	<li><span class="caps">ALPN</span>: curl offers h2,http/1.1</li>
+        	<li>TLSv1.3 (<span class="caps">OUT</span>), <span class="caps">TLS</span> handshake, Client hello (1):</li>
+        	<li>CAfile: /etc/ssl/certs/ca-certificates.crt</li>
+        	<li>CApath: /etc/ssl/certs</li>
+        	<li>TLSv1.3 (IN), <span class="caps">TLS</span> alert, internal error (592):</li>
+        	<li>OpenSSL/3.0.13: error:0A000438:<span class="caps">SSL</span> routines::tlsv1 alert internal error</li>
+        	<li>Closing connection<br />
+        curl: (35) OpenSSL/3.0.13: error:0A000438:<span class="caps">SSL</span> routines::tlsv1 alert internal error</li>
+        </ul>]]>
+      </description>
+      <source:markdown>Looks like this link’s stopped working – I’m getting an SSL error:
+
+Secure Connection Failed
+
+An error occurred during a connection to [www.riscostechnologies.co.uk](http://www.riscostechnologies.co.uk). Peer reports it experienced an internal error.
+
+Error code: SSL\_ERROR\_INTERNAL\_ERROR\_ALERT
+
+The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
+Please contact the web site owners to inform them of this problem.
+
+cURL gives similar:
+
+- Host [www.riscostechnologies.co.uk:443](http://www.riscostechnologies.co.uk:443) was resolved.
+- IPv6: 2001:8d8:100f:f000::200
+- IPv4: 77.68.64.7
+- Trying \[2001:8d8:100f:f000::200\]:443…
+- Connected to [www.riscostechnologies.co.uk](http://www.riscostechnologies.co.uk) (2001:8d8:100f:f000::200) port 443
+- ALPN: curl offers h2,http/1.1
+- TLSv1.3 (OUT), TLS handshake, Client hello (1):
+- CAfile: /etc/ssl/certs/ca-certificates.crt
+- CApath: /etc/ssl/certs
+- TLSv1.3 (IN), TLS alert, internal error (592):
+- OpenSSL/3.0.13: error:0A000438:SSL routines::tlsv1 alert internal error
+- Closing connection
+
+
+  curl: (35) OpenSSL/3.0.13: error:0A000438:SSL routines::tlsv1 alert internal error</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20196:161240</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbun5oh5vc2a</link>
+      <description>
+        <![CDATA[No spoilers, but as someone who adored Stranger Things all the way through, I found the finale very satisfying. Great piece of television, one of the best series Netflix has ever put out.]]>
+      </description>
+      <source:markdown>No spoilers, but as someone who adored Stranger Things all the way through, I found the finale very satisfying. Great piece of television, one of the best series Netflix has ever put out.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbun5oh5vc2a</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mbumrcstz22e</link>
+      <description>
+        <![CDATA[If you ever developed for the Sony PS2 this book will bring back happy memories!]]>
+      </description>
+      <source:markdown>If you ever developed for the Sony PS2 this book will bring back happy memories!</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mbumrcstz22e</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mbumn5kss22e</link>
+      <description>
+        <![CDATA[Two more great books to add to the library.]]>
+      </description>
+      <source:markdown>Two more great books to add to the library.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mbumn5kss22e</guid>
+    </item>    <item>
+      <title>Sharing Directories Between Windows 11 and RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20210</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Make sure the smb1 server is enabled.</p>
+        </blockquote>
+        <p>That was what I was referring to when I said &#8220;downgrade the security of the Windows install by re-enabling the deprecated SMB1&#8221;</p>
+        <p>MS set SMB1 default to off back in April 2022, the next level up was SMB2 using <span class="caps">TLS</span> with TLS1.0 and TLS1.1 deprecated for some while now and scheduled to be removed from Win11 systems in an update later in 2026 <span class="caps">IIRC</span></p>
+        <p>I think it&#8217;s surprising that MS have allowed the possibility of re-enabling SMB1 for so long, I expect that to change with MS removing the SMB1 support dll&#8217;s in the not so distant future</p>]]>
+      </description>
+      <source:markdown>&#62; Make sure the smb1 server is enabled.
+
+That was what I was referring to when I said “downgrade the security of the Windows install by re-enabling the deprecated SMB1”
+
+MS set SMB1 default to off back in April 2022, the next level up was SMB2 using TLS with TLS1.0 and TLS1.1 deprecated for some while now and scheduled to be removed from Win11 systems in an update later in 2026 IIRC
+
+I think it’s surprising that MS have allowed the possibility of re-enabling SMB1 for so long, I expect that to change with MS removing the SMB1 support dll’s in the not so distant future</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20210:161239</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mbu7vqthhk2r</link>
       <description>
         <![CDATA[My French teacher said my 'mind was constantly on other things - computers'. Yep, it sure was, and still is! Sorry, Miss Nicholls. Anyone else out there with memorable school reports?]]>
       </description>
       <source:markdown>My French teacher said my &#39;mind was constantly on other things - computers&#39;. Yep, it sure was, and still is! Sorry, Miss Nicholls. Anyone else out there with memorable school reports?</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mbu7vqthhk2r</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>Hi all, quick update on the ShareFS project&#8230;</p>
+        <p>I&#8217;ve hopefully addressed a few of the minor issues and created those pre-compiled binaries for Windows/Linux (Ubuntu).  There is a .deb package available which should make installing and running on Linux way easier, I&#8217;m running Ubuntu 24.04 <span class="caps">LTS</span>.</p>
+        <p>You can download from here: <a href="https://github.com/andrewtimmins/riscos-access-server/releases">https://github.com/andrewtimmins/riscos-access-server/…</a></p>
+        <p>I&#8217;ve also also included scripts to modify Windows/Linux firewalls to allow traffic through, there&#8217;s also a new set of build scripts that should hopefully make setting up your development environment/performing builds much easier.</p>]]>
+      </description>
+      <source:markdown>Hi all, quick update on the ShareFS project…
+
+I’ve hopefully addressed a few of the minor issues and created those pre-compiled binaries for Windows/Linux (Ubuntu). There is a .deb package available which should make installing and running on Linux way easier, I’m running Ubuntu 24.04 LTS.
+
+You can download from here: [https://github.com/andrewtimmins/riscos-access-server/…](https://github.com/andrewtimmins/riscos-access-server/releases)
+
+I’ve also also included scripts to modify Windows/Linux firewalls to allow traffic through, there’s also a new set of build scripts that should hopefully make setting up your development environment/performing builds much easier.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:161238</guid>
     </item>    <item>
       <title>Developers’ fireside chat – 10th January</title>
       <link>https://www.riscository.com/2026/developers-fireside-chat-10th-january/</link>
@@ -46,26 +318,6 @@ For the Zoom credentials (no change), DM me over on X ( [Twitter](https://twitte
       </description>
       <source:markdown>How is it that HMRC can know you&#39;ve completed your tax return, know that it resulted in tax to pay, but \*not\* know that you&#39;ve already paid it? Constant gaslighting texts and emails &#34;reminding&#34; me to pay are really not conducive to good mental health...</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbtdfgkac22v</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>Hi everyone, Happy new year to you all!</p>
-        <p>Thanks for all of the info; there&#8217;s lot&#8217;s to look through and digest!  I admit, I haven&#8217;t done so yet, but I&#8217;m planning on doing it later today.</p>
-        <p>I have done a super-quick scan of everything and I&#8217;m thinking of collating everything into an issues list in the separate GitHub Repo&#8217;s so I can work through issues, then post back updates back here; not sure if this works best for folks, so I&#8217;m open to suggestions.</p>
-        <p>I&#8217;ll also get those pre-made binaries built today/tomorrow and put onto the releases section of the separate GitHub Repo&#8217;s as well; hopefully this will make things easier for testing, etc. (although the feedback from compiling is great; thank you!).</p>
-        <p>Once again, thanks everyone for testing/commenting/suggestions/support, it&#8217;s muchly appreciated.</p>]]>
-      </description>
-      <source:markdown>Hi everyone, Happy new year to you all!
-
-Thanks for all of the info; there’s lot’s to look through and digest! I admit, I haven’t done so yet, but I’m planning on doing it later today.
-
-I have done a super-quick scan of everything and I’m thinking of collating everything into an issues list in the separate GitHub Repo’s so I can work through issues, then post back updates back here; not sure if this works best for folks, so I’m open to suggestions.
-
-I’ll also get those pre-made binaries built today/tomorrow and put onto the releases section of the separate GitHub Repo’s as well; hopefully this will make things easier for testing, etc. (although the feedback from compiling is great; thank you!).
-
-Once again, thanks everyone for testing/commenting/suggestions/support, it’s muchly appreciated.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:161232</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mbtavqdtyk2v</link>
       <description>
@@ -166,17 +418,6 @@ This new functionality is really exciting for many reasons, so I’ll show you b
       </description>
       <source:markdown>The screenshot of your desktop Marin looks certainly different from the norm. I must admit I do like the experientation people go into customzing their desktops. Just to ask about the frosted theme, what version or release it is currently on just now? Also is there a direct link to the source of your themes to keep tabs of your latest updated themes? Thank you.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20138:161219</guid>
-    </item>    <item>
-      <title>Sharing Directories Between Windows 11 and RISC OS</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20210</link>
-      <description>
-        <![CDATA[<p>There were two directories on my Windows 10 PC which I could see from my <span class="caps">RISC</span> OS machine running 5.31.  I have just upgraded from Windows 10 to 11.  Can someone kindly advise how I connect to the two directories I have traditionally used to transfer files between Windows and my <span class="caps">RISC</span> OS machine please?</p>
-        <p>Thank you.</p>]]>
-      </description>
-      <source:markdown>There were two directories on my Windows 10 PC which I could see from my RISC OS machine running 5.31. I have just upgraded from Windows 10 to 11. Can someone kindly advise how I connect to the two directories I have traditionally used to transfer files between Windows and my RISC OS machine please?
-
-Thank you.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20210:161218</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mbqsznpjck24</link>
       <description>
@@ -823,14 +1064,6 @@ Try #RISCOS this year.</source:markdown>
       </description>
       <source:markdown>FYI: Next time you can copy everything off with DiscKnight, expand it’s window and use the Backup option to copy all or part of a disc elsewhere. It does re-tries for failing rusty media, but wont make any difference with flash based stuff.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20189:161094</guid>
-    </item>    <item>
-      <title>Telematic Iyonix Reference CD</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20196</link>
-      <description>
-        <![CDATA[<p>done :)</p>]]>
-      </description>
-      <source:markdown>done :)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20196:161091</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mbc4ydflfs2k</link>
       <description>
@@ -1752,17 +1985,6 @@ Yours. It’s a Fast system.</source:markdown>
 
 Cheers! And happy holidays, everyone.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20173:160811</guid>
-    </item>    <item>
-      <title>Linux Port</title>
-      <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
-      <description>
-        <![CDATA[<p>Is not the Pro Phone. Is one of the first Pinephone. The keyboard is usable for both.<br />
-        But for the truth&#8230; is more for &#8220;play around&#8221; than for really use.</p>]]>
-      </description>
-      <source:markdown>Is not the Pro Phone. Is one of the first Pinephone. The keyboard is usable for both.
-
-But for the truth… is more for “play around” than for really use.</source:markdown>
-      <guid>cid://www.riscosopen.org:3:9068:160809</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3maifr7dv6s2x</link>
       <description>
