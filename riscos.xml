@@ -7,10 +7,177 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>08 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>09 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>git switch not replacing files</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20214</link>
+      <description>
+        <![CDATA[<p>When I switch between branches the files are not replaced with the files of the new branch.<br />
+        eg:</p>
+        <pre><code>git switch master</code></pre>
+        <p>I am using the <span class="caps">ROOL</span> git client version 0.11 on rpcemu. The files are stored on the hostfs drive.</p>
+        <p>Any thoughts?</p>]]>
+      </description>
+      <source:markdown>When I switch between branches the files are not replaced with the files of the new branch.
+
+eg:
+
+```
+git switch master
+```
+
+I am using the ROOL git client version 0.11 on rpcemu. The files are stored on the hostfs drive.
+
+Any thoughts?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20214:161279</guid>
+    </item>    <item>
+      <title>NAS problem</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
+      <description>
+        <![CDATA[<p>I have a Synology <span class="caps">NAS</span> used to backup both <span class="caps">RISC</span> OS and Windows systems. It sits in a separate building away from the computers, and is set to use wake-on-lan when required, then sleep after inactivity.</p>
+        <p>This has worked well for a few years, but after the Dec 28th backup, it powered off completely. It no longer replied to ping, and didn&#8217;t respond to <span class="caps">WOL</span>.</p>
+        <p>I powered it up using the button on the front. That night both backups ran. I think the next night also worked. After that each time I want to back up, I have to press the button.</p>
+        <p>The network switch port shows green (Gbit) when the <span class="caps">NAS</span> is ready to backup. When it shuts down that changes to amber (10/100).</p>
+        <p>Any thoughts about why that changed when it did? I didn&#8217;t update anything before that. I did run all the requested updates afterwards, but it&#8217;s still doing the same thing. I wondered about the temperature, but it&#8217;s worked through colder periods in the past.</p>
+        <p>Logging in to it doesn&#8217;t show any messages.</p>]]>
+      </description>
+      <source:markdown>I have a Synology NAS used to backup both RISC OS and Windows systems. It sits in a separate building away from the computers, and is set to use wake-on-lan when required, then sleep after inactivity.
+
+This has worked well for a few years, but after the Dec 28th backup, it powered off completely. It no longer replied to ping, and didn’t respond to WOL.
+
+I powered it up using the button on the front. That night both backups ran. I think the next night also worked. After that each time I want to back up, I have to press the button.
+
+The network switch port shows green (Gbit) when the NAS is ready to backup. When it shuts down that changes to amber (10/100).
+
+Any thoughts about why that changed when it did? I didn’t update anything before that. I did run all the requested updates afterwards, but it’s still doing the same thing. I wondered about the temperature, but it’s worked through colder periods in the past.
+
+Logging in to it doesn’t show any messages.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20213:161277</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbykj4n5i22h</link>
+      <description>
+        <![CDATA[I agree, but it's also incredibly insulting that the UK government continues to use X for all of its official communications.
+        
+        https://www.bbc.co.uk/news/articles/c99kn52nx9do]]>
+      </description>
+      <source:markdown>I agree, but it&#39;s also incredibly insulting that the UK government continues to use X for all of its official communications.
+
+https://www.bbc.co.uk/news/articles/c99kn52nx9do</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbykj4n5i22h</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mbyeikg37s22</link>
+      <description>
+        <![CDATA[Fireside developer chat on saturday night 
+        
+        https://www.iconbar.com/articles/Fireside_developer_chat_on_saturday_night/index2272.html 
+        
+        The next developer chat is on Saturday night for anyone interested in a very informal event online.]]>
+      </description>
+      <source:markdown>Fireside developer chat on saturday night
+
+https://www.iconbar.com/articles/Fireside\_developer\_chat\_on\_saturday\_night/index2272.html
+
+The next developer chat is on Saturday night for anyone interested in a very informal event online.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mbyeikg37s22</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mby6pg3bqc2h</link>
+      <description>
+        <![CDATA[Apparently generating CSAM is ok, provided you pay Elon for it.
+        
+        https://www.bbc.co.uk/news/articles/c99kn52nx9do]]>
+      </description>
+      <source:markdown>Apparently generating CSAM is ok, provided you pay Elon for it.
+
+https://www.bbc.co.uk/news/articles/c99kn52nx9do</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mby6pg3bqc2h</guid>
+    </item>    <item>
+      <title>Fireside developer chat on saturday night</title>
+      <link>http://www.iconbar.com/comments/rss/news2272.html</link>
+      <description>
+        <![CDATA[The next developer chat is on saturday night for anyone interested in a very informal event online.]]>
+      </description>
+      <source:markdown>The next developer chat is on saturday night for anyone interested in a very informal event online.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2272.html</guid>
+    </item>    <item>
+      <title>Weird issue setting up printers</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20207</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>In case it matters, StrongED on the working machine is 4.68f12, while on the newer one it is 4.70a15, Has printing changed there?</p>
+        </blockquote>
+        <p>Firstly, do you mean 4.68f2 (last version of 4.68) or 4.69f12?</p>
+        <p>I&#8217;ve compared the printing code in 4.69f14 vs 4.70a20 and there aren&#8217;t that many differences. There&#8217;s some changes to how headers and footers are handled, and changes to make the print dbox override of the mode font height/width work.</p>
+        <p>If you&#8217;re using headers/footers then try turning them off and see if that helps.</p>
+        <p><span class="caps">ISTR</span> an earlier report of PS3 issues but I can&#8217;t find that right now. Anyway, try printing with the PS2 driver, if possible. That will show if there is an issue with PS3 or if it&#8217;s a more generic problem.</p>]]>
+      </description>
+      <source:markdown>&#62; In case it matters, StrongED on the working machine is 4.68f12, while on the newer one it is 4.70a15, Has printing changed there?
+
+Firstly, do you mean 4.68f2 (last version of 4.68) or 4.69f12?
+
+I’ve compared the printing code in 4.69f14 vs 4.70a20 and there aren’t that many differences. There’s some changes to how headers and footers are handled, and changes to make the print dbox override of the mode font height/width work.
+
+If you’re using headers/footers then try turning them off and see if that helps.
+
+ISTR an earlier report of PS3 issues but I can’t find that right now. Anyway, try printing with the PS2 driver, if possible. That will show if there is an issue with PS3 or if it’s a more generic problem.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20207:161271</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>Chris was there any progress with RPCEmu compiled for RiscOS?</p>]]>
+      </description>
+      <source:markdown>Chris was there any progress with RPCEmu compiled for RiscOS?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:161266</guid>
+    </item>    <item>
+      <title>Iyonix and the rest of my Risc OS collection</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20206</link>
+      <description>
+        <![CDATA[<p>Firstly, don&#8217;t tick &#8220;act as IP router&#8221;.  If you fill in anything in the Routing window, only put the address of your router &#8211; leave everything else blank.  If using <span class="caps">DHCP</span>, leave everything blank/unticked.</p>
+        <p>For IP address, either use <span class="caps">DHCP</span> (no options) or static (fixed) IP address within same range as router (eg. 192.168.8.100).  Netmask of 255.255.255.0    Note that not many routers use 192.168.8.x so you might want to confirm that.  192.168.1.x or 192.168.0.x are more common.</p>
+        <p>For Host names, put hostname (eg. iyonix) in first box.<br />
+        If using <span class="caps">DHCP</span> leave rest unticked/blank.<br />
+        If not using <span class="caps">DHCP</span>, put something in domain (must have a dot in it) such as .nom or .home  or a full domain if you have one (eg. riscos.com).  For primary <span class="caps">DNS</span>, put address of router.  For secondary address put 1.1.1.1 (Cloudflare) or 8.8.8.8 (Google).</p>
+        <p>Set/Save etc.  Don&#8217;t forget to reboot.</p>
+        <p>If this doesn&#8217;t work, be aware that one of the first signs of a failing Iyonix <span class="caps">PSU</span> is the network port failing.  <span class="caps">USB</span> ethernet is possible on <span class="caps">RISC</span> OS &#8211; stick to <span class="caps">USB</span> 2 adapters though, ideally with <span class="caps">ASIX</span> AX88772 chipset.  Not every <span class="caps">ROM</span> has EtherUSB in <span class="caps">ROM</span> though.</p>
+        <p><span class="caps">RISC</span> OS cannot use <span class="caps">USB</span> soundcards at all without a custom <span class="caps">ROM</span>.  Even then, it can&#8217;t use it system-wide, only via specific software.</p>
+        <p>Finally, be aware that Iyonixes are amongst the more troublesome machines to keep going (see Martin Eastwood&#8217;s problems).  You may be better off with a cheap Raspberry Pi to play around with &#8211; it will likely give you better compatibility with old games etc via !<span class="caps">ADFFS</span> and the AnyMode module.</p>]]>
+      </description>
+      <source:markdown>Firstly, don’t tick “act as IP router”. If you fill in anything in the Routing window, only put the address of your router – leave everything else blank. If using DHCP, leave everything blank/unticked.
+
+For IP address, either use DHCP (no options) or static (fixed) IP address within same range as router (eg. 192.168.8.100). Netmask of 255.255.255.0 Note that not many routers use 192.168.8.x so you might want to confirm that. 192.168.1.x or 192.168.0.x are more common.
+
+For Host names, put hostname (eg. iyonix) in first box.
+
+If using DHCP leave rest unticked/blank.
+
+If not using DHCP, put something in domain (must have a dot in it) such as .nom or .home or a full domain if you have one (eg. riscos.com). For primary DNS, put address of router. For secondary address put 1.1.1.1 (Cloudflare) or 8.8.8.8 (Google).
+
+Set/Save etc. Don’t forget to reboot.
+
+If this doesn’t work, be aware that one of the first signs of a failing Iyonix PSU is the network port failing. USB ethernet is possible on RISC OS – stick to USB 2 adapters though, ideally with ASIX AX88772 chipset. Not every ROM has EtherUSB in ROM though.
+
+RISC OS cannot use USB soundcards at all without a custom ROM. Even then, it can’t use it system-wide, only via specific software.
+
+Finally, be aware that Iyonixes are amongst the more troublesome machines to keep going (see Martin Eastwood’s problems). You may be better off with a cheap Raspberry Pi to play around with – it will likely give you better compatibility with old games etc via !ADFFS and the AnyMode module.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20206:161264</guid>
+    </item>    <item>
+      <title>Telematic Iyonix Reference CD</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20196</link>
+      <description>
+        <![CDATA[<p>Firefox on Ubuntu reports &#8220;An error occurred during a connection to riscostechnologies.co.uk. Peer reports it experienced an internal error.&#8221;</p>]]>
+      </description>
+      <source:markdown>Firefox on Ubuntu reports “An error occurred during a connection to riscostechnologies.co.uk. Peer reports it experienced an internal error.”</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20196:161263</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mbwrflcsi22u</link>
+      <description>
+        <![CDATA[This is the book I used to learn Z80 machine code programming on my Nascom 2 - so well written. I spent countless hours thumbing through this. I didn't have the luxury of a Z80 assembler to use so I had to hand-assemble the code and type it into memory in hexadecimal. Thank you, Graham Wilson.]]>
+      </description>
+      <source:markdown>This is the book I used to learn Z80 machine code programming on my Nascom 2 - so well written. I spent countless hours thumbing through this. I didn&#39;t have the luxury of a Z80 assembler to use so I had to hand-assemble the code and type it into memory in hexadecimal. Thank you, Graham Wilson.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mbwrflcsi22u</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mbwoiblols2u</link>
       <description>
         <![CDATA[I found these AI generated images from about 4 years ago. I was trying out the latest craze. I hate to think how much power has been wasted over the years generating this stuff. I guess it helps tech companies stay 'relevant' and keeps share prices high. I do wonder how long before the bubble bursts]]>
@@ -44,6 +211,19 @@ Resharing this old story from 2018 for no reason at all.
 Scotland, I salute you! These snow gritter names are incredible 😆</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbwlnpjemk2f</guid>
     </item>    <item>
+      <title>Linux Port</title>
+      <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p><span class="caps">NHS</span> magic mushroom</p>
+        </blockquote>
+        <p>I&#8217;m pretty sure Pharmacy don&#8217;t have those in stock, but there is a stock of cannabis derivatives for the clinical trials &#8211; I don&#8217;t think anyone ever did a c. sativa themed game, but they used to use a <span class="caps">BBC</span> Master for the queuing system.</p>]]>
+      </description>
+      <source:markdown>&#62; NHS magic mushroom
+
+I’m pretty sure Pharmacy don’t have those in stock, but there is a stock of cannabis derivatives for the clinical trials – I don’t think anyone ever did a c. sativa themed game, but they used to use a BBC Master for the queuing system.</source:markdown>
+      <guid>cid://www.riscosopen.org:3:9068:161258</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mbwhy4dphc2u</link>
       <description>
         <![CDATA[In December 1987 'The Micro User' magazine was helping Acornsoft off-load surplus stock. Games and Languages were sold off at very reasonable prices.]]>
@@ -66,101 +246,6 @@ Scotland, I salute you! These snow gritter names are incredible 😆</source:mar
 Oh, so that&#39;s ok then?</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbw4rih32c2c</guid>
     </item>    <item>
-      <title>Linux Port</title>
-      <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
-      <description>
-        <![CDATA[<p>All the best for 2026 to everyone here.</p>
-        <p>I played with my Pinephone once more. It had been lying unused for a very long time. <br />
-        Unfortunately, it no longer booted. I couldn&#8217;t figure out why and wrote a Mobian image, which I still have on my computer, to the eMMC.<br />
-        To actualize the System &#8230;<br />
-        sudo apt-get update<br />
-        sudo apt-get upgrade <br />
-        &#8230; in terminal.</p>
-        <p>Than I have tried to install Direct via the Linuxport. I have do it with the stuff I collected for the Pyra (the complete needed git-stuff from Timothy Baldwin + HardHisc4.5.28.util in Downloads + Direct HD4).</p>
-        <p>You can download from<br />
-        <a href="http://riscos.openpandora.org/Pyra/Download/pyra_direct.tar.gz">Pyra_Direct</a></p>
-        <p>After this you have to install the dependencies in terminal.</p>
-        <p>sudo apt-get install bash bubblewrap gcc g++ make libattr1-dev libseccomp-dev libsdl2-dev xattr</p>
-        <p>For other Linux than Debian/Mobian or Ubuntu the dependencies and the packagemanager are other. The packagemanager for manjaro is pacman.<br />
-        So the line begins with <code>sudo pacman -Syu ... </code> the name of the packages you have collect for yourself, I forget ;-) I try the Linuxport with manjaro on Pinebook Pro and was searching and install the dependencies via the softwaremanager.</p>
-        <p>Unpack the download with</p>
-        <p>tar &#8212;xattrs -xvf Downloads/pyra_direct.tar.gz</p>
-        <p>to your home directory. It takes a while.<br />
-        Then in Terminal&#8230;</p>
-        <p>Dir RISC_OS</p>
-        <p>./run_RISC_OS</p>
-        <p>The first start takes a bit longer.</p>
-        <p>At the Desktop you find a Pyra folder. Inside three tools.<br />
-        The !Keymapper tool map the right Nub to &#8220;Menu&#8221; and &quot;Adjust to both (is for the Pyra).<br />
-        The other two Obeys are for network use and contains the IP of the internet gateway. Change it to yours and start to use the network access (<span class="caps">WIFI</span> or <span class="caps">LTE</span>).</p>
-        <p>Was a short try this morning.</p>
-        <p><img src="http://riscos.openpandora.org/Diverses/Temp/PinePhone1.jpg" alt="" /></p>
-        <p>Or flip the screen&#8230;</p>
-        <p><img src="http://riscos.openpandora.org/Diverses/Temp/PinePhone2.jpg" alt="" /></p>
-        <p>Note: The display zoom of the phone is 200% by default. Has set to 100%. And you need an external mouse for using it.<br />
-        I will try Thomas &#8220;rotated&#8221; mouse solution I use for the Pi <span class="caps">DSI</span> Display but the time was running out this morning ;-)</p>]]>
-      </description>
-      <source:markdown>All the best for 2026 to everyone here.
-
-I played with my Pinephone once more. It had been lying unused for a very long time.
-
-Unfortunately, it no longer booted. I couldn’t figure out why and wrote a Mobian image, which I still have on my computer, to the eMMC.
-
-To actualize the System …
-
-sudo apt-get update
-
-sudo apt-get upgrade
-
-… in terminal.
-
-Than I have tried to install Direct via the Linuxport. I have do it with the stuff I collected for the Pyra (the complete needed git-stuff from Timothy Baldwin + HardHisc4.5.28.util in Downloads + Direct HD4).
-
-You can download from
-
-[Pyra\_Direct](http://riscos.openpandora.org/Pyra/Download/pyra_direct.tar.gz)
-
-After this you have to install the dependencies in terminal.
-
-sudo apt-get install bash bubblewrap gcc g++ make libattr1-dev libseccomp-dev libsdl2-dev xattr
-
-For other Linux than Debian/Mobian or Ubuntu the dependencies and the packagemanager are other. The packagemanager for manjaro is pacman.
-
-So the line begins with `sudo pacman -Syu ... ` the name of the packages you have collect for yourself, I forget ;-) I try the Linuxport with manjaro on Pinebook Pro and was searching and install the dependencies via the softwaremanager.
-
-Unpack the download with
-
-tar —xattrs -xvf Downloads/pyra\_direct.tar.gz
-
-to your home directory. It takes a while.
-
-Then in Terminal…
-
-Dir RISC\_OS
-
-./run\_RISC\_OS
-
-The first start takes a bit longer.
-
-At the Desktop you find a Pyra folder. Inside three tools.
-
-The !Keymapper tool map the right Nub to “Menu” and &#34;Adjust to both (is for the Pyra).
-
-The other two Obeys are for network use and contains the IP of the internet gateway. Change it to yours and start to use the network access (WIFI or LTE).
-
-Was a short try this morning.
-
-![](http://riscos.openpandora.org/Diverses/Temp/PinePhone1.jpg)
-
-Or flip the screen…
-
-![](http://riscos.openpandora.org/Diverses/Temp/PinePhone2.jpg)
-
-Note: The display zoom of the phone is 200% by default. Has set to 100%. And you need an external mouse for using it.
-
-I will try Thomas “rotated” mouse solution I use for the Pi DSI Display but the time was running out this morning ;-)</source:markdown>
-      <guid>cid://www.riscosopen.org:3:9068:161244</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mbveb6m7kc22</link>
       <description>
         <![CDATA[Those RISC OS users coping with the traumatic loss of 32b ARMs (after the traumatic loss of 26b ARMs) by pitching their hopes on 64b ARMs should raise their gaze slightly nearer the horizon. Things change like Hemingway said - gradually, then suddenly.
@@ -169,62 +254,6 @@ I will try Thomas “rotated” mouse solution I use for the Pi DSI Display but 
       <source:markdown>Those RISC OS users coping with the traumatic loss of 32b ARMs (after the traumatic loss of 26b ARMs) by pitching their hopes on 64b ARMs should raise their gaze slightly nearer the horizon. Things change like Hemingway said - gradually, then suddenly.
 https://markets.financialcontent.com/wral/article/tokenring-2025-12-26-risc-v-hits-25-market-penetration-as-qualcomm-and-meta-lead-the-shift-to-open-source-silicon</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mbveb6m7kc22</guid>
-    </item>    <item>
-      <title>Telematic Iyonix Reference CD</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20196</link>
-      <description>
-        <![CDATA[<p>Looks like this link&#8217;s stopped working &#8211; I&#8217;m getting an <span class="caps">SSL</span> error:</p>
-        <p>Secure Connection Failed</p>
-        <p>An error occurred during a connection to <a href="http://www.riscostechnologies.co.uk">www.riscostechnologies.co.uk</a>. Peer reports it experienced an internal error.</p>
-        <p>Error code: SSL_ERROR_INTERNAL_ERROR_ALERT</p>
-        The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
-        Please contact the web site owners to inform them of this problem.
-        <p>cURL gives similar:</p>
-        <ul>
-        	<li>Host <a href="http://www.riscostechnologies.co.uk:443">www.riscostechnologies.co.uk:443</a> was resolved.</li>
-        	<li>IPv6: 2001:8d8:100f:f000::200</li>
-        	<li>IPv4: 77.68.64.7</li>
-        	<li>Trying [2001:8d8:100f:f000::200]:443&#8230;</li>
-        	<li>Connected to <a href="http://www.riscostechnologies.co.uk">www.riscostechnologies.co.uk</a> (2001:8d8:100f:f000::200) port 443</li>
-        	<li><span class="caps">ALPN</span>: curl offers h2,http/1.1</li>
-        	<li>TLSv1.3 (<span class="caps">OUT</span>), <span class="caps">TLS</span> handshake, Client hello (1):</li>
-        	<li>CAfile: /etc/ssl/certs/ca-certificates.crt</li>
-        	<li>CApath: /etc/ssl/certs</li>
-        	<li>TLSv1.3 (IN), <span class="caps">TLS</span> alert, internal error (592):</li>
-        	<li>OpenSSL/3.0.13: error:0A000438:<span class="caps">SSL</span> routines::tlsv1 alert internal error</li>
-        	<li>Closing connection<br />
-        curl: (35) OpenSSL/3.0.13: error:0A000438:<span class="caps">SSL</span> routines::tlsv1 alert internal error</li>
-        </ul>]]>
-      </description>
-      <source:markdown>Looks like this link’s stopped working – I’m getting an SSL error:
-
-Secure Connection Failed
-
-An error occurred during a connection to [www.riscostechnologies.co.uk](http://www.riscostechnologies.co.uk). Peer reports it experienced an internal error.
-
-Error code: SSL\_ERROR\_INTERNAL\_ERROR\_ALERT
-
-The page you are trying to view cannot be shown because the authenticity of the received data could not be verified.
-Please contact the web site owners to inform them of this problem.
-
-cURL gives similar:
-
-- Host [www.riscostechnologies.co.uk:443](http://www.riscostechnologies.co.uk:443) was resolved.
-- IPv6: 2001:8d8:100f:f000::200
-- IPv4: 77.68.64.7
-- Trying \[2001:8d8:100f:f000::200\]:443…
-- Connected to [www.riscostechnologies.co.uk](http://www.riscostechnologies.co.uk) (2001:8d8:100f:f000::200) port 443
-- ALPN: curl offers h2,http/1.1
-- TLSv1.3 (OUT), TLS handshake, Client hello (1):
-- CAfile: /etc/ssl/certs/ca-certificates.crt
-- CApath: /etc/ssl/certs
-- TLSv1.3 (IN), TLS alert, internal error (592):
-- OpenSSL/3.0.13: error:0A000438:SSL routines::tlsv1 alert internal error
-- Closing connection
-
-
-  curl: (35) OpenSSL/3.0.13: error:0A000438:SSL routines::tlsv1 alert internal error</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20196:161240</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mbun5oh5vc2a</link>
       <description>
@@ -272,23 +301,6 @@ I think it’s surprising that MS have allowed the possibility of re-enabling SM
       </description>
       <source:markdown>My French teacher said my &#39;mind was constantly on other things - computers&#39;. Yep, it sure was, and still is! Sorry, Miss Nicholls. Anyone else out there with memorable school reports?</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mbu7vqthhk2r</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>Hi all, quick update on the ShareFS project&#8230;</p>
-        <p>I&#8217;ve hopefully addressed a few of the minor issues and created those pre-compiled binaries for Windows/Linux (Ubuntu).  There is a .deb package available which should make installing and running on Linux way easier, I&#8217;m running Ubuntu 24.04 <span class="caps">LTS</span>.</p>
-        <p>You can download from here: <a href="https://github.com/andrewtimmins/riscos-access-server/releases">https://github.com/andrewtimmins/riscos-access-server/…</a></p>
-        <p>I&#8217;ve also also included scripts to modify Windows/Linux firewalls to allow traffic through, there&#8217;s also a new set of build scripts that should hopefully make setting up your development environment/performing builds much easier.</p>]]>
-      </description>
-      <source:markdown>Hi all, quick update on the ShareFS project…
-
-I’ve hopefully addressed a few of the minor issues and created those pre-compiled binaries for Windows/Linux (Ubuntu). There is a .deb package available which should make installing and running on Linux way easier, I’m running Ubuntu 24.04 LTS.
-
-You can download from here: [https://github.com/andrewtimmins/riscos-access-server/…](https://github.com/andrewtimmins/riscos-access-server/releases)
-
-I’ve also also included scripts to modify Windows/Linux firewalls to allow traffic through, there’s also a new set of build scripts that should hopefully make setting up your development environment/performing builds much easier.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:161238</guid>
     </item>    <item>
       <title>Developers’ fireside chat – 10th January</title>
       <link>https://www.riscository.com/2026/developers-fireside-chat-10th-january/</link>
@@ -461,14 +473,6 @@ I’m aware that there are theme manager applications in development, such as Ex
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbqnscgko224</guid>
     </item>    <item>
-      <title>Iyonix and the rest of my Risc OS collection</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20206</link>
-      <description>
-        <![CDATA[<p>correct!</p>]]>
-      </description>
-      <source:markdown>correct!</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20206:161213</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mbpjaxqggk2b</link>
       <description>
         <![CDATA[WROCC January 2026 talk on Wednesday - Elesar
@@ -569,19 +573,6 @@ Like that ;-)
 
 See the easy guide at the bottom of the page and the linked [https://www.riscosopen.org/wiki/documentation/show/For…](https://www.riscosopen.org/wiki/documentation/show/Forum)</source:markdown>
       <guid>cid://www.riscosopen.org:2:16304:161201</guid>
-    </item>    <item>
-      <title>Weird issue setting up printers</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20207</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>the newer one it is 4.70a15</p>
-        </blockquote>
-        <p>Note that the latest is 4.70a19, though unsure if printing has changed since a15</p>]]>
-      </description>
-      <source:markdown>&#62; the newer one it is 4.70a15
-
-Note that the latest is 4.70a19, though unsure if printing has changed since a15</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20207:161198</guid>
     </item>    <item>
       <title>Celebrate ten years of the Titanium with WROCC – 7th January</title>
       <link>https://www.riscository.com/2026/titanium-at-ten-wrocc-7th-january/</link>
