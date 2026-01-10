@@ -7,10 +7,77 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>09 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>10 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mc3nhncqxc2a</link>
+      <description>
+        <![CDATA[Had a great post-Christmas lunchtime get together with Software Creations friends today. We talked about Z80 code optimization techniques, Gameboy development - including 'Wide Boy', Isometric games, Unreal, NES Solstice, CRASH Live, Tatung Einstein, RARE's RAZZ board and lots more!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Had a great post-Christmas lunchtime get together with Software Creations friends today. We talked about Z80 code optimization techniques, Gameboy development - including &#39;Wide Boy&#39;, Isometric games, Unreal, NES Solstice, CRASH Live, Tatung Einstein, RARE&#39;s RAZZ board and lots more!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mc3nhncqxc2a</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 11th January at 1pm UK time.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20216</link>
+      <description>
+        <![CDATA[<p>This Sunday – 11th January, at 1pm UK time (tomorrow) – I&#8217;ll be starting a new series of my live coding. This time I&#8217;m working on the text rendering calls for the Window Manager.</p>
+        <p>Come along if you like – <a href="https://youtube.com/live/M4MVXe9X1fo?feature=share">https://youtube.com/live/M4MVXe9X1fo?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
+        <hr />
+        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
+        <p>The functionality we need to implement is documented in the riscos64-status repository (<a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_TextRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a>), and might take a few sessions to implement.</p>
+        <hr />
+        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-RsoccMdcAep0iZSJQT">https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-…</a></p>
+        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimptextrender.html">https://presentation.riscos.online/live/wimptextrender…</a> (once it has been published).</p>]]>
+      </description>
+      <source:markdown>This Sunday – 11th January, at 1pm UK time (tomorrow) – I’ll be starting a new series of my live coding. This time I’m working on the text rendering calls for the Window Manager.
+
+Come along if you like – [https://youtube.com/live/M4MVXe9X1fo?feature=share](https://youtube.com/live/M4MVXe9X1fo?feature=share) – or you can always watch the video afterwards at the same address.
+
+* * *
+
+For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
+
+The functionality we need to implement is documented in the riscos64-status repository ( [https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_TextRender)), and might take a few sessions to implement.
+
+* * *
+
+If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-…](https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-RsoccMdcAep0iZSJQT)
+
+Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimptextrender…](https://presentation.riscos.online/live/wimptextrender.html) (once it has been published).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20216:161285</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mbzplo2owk2h</link>
+      <description>
+        <![CDATA[A spot of late night memory testing on the Beeb... nasty suspicion one of my DRAM chips is banjaxed 🙃]]>
+      </description>
+      <source:markdown>A spot of late night memory testing on the Beeb... nasty suspicion one of my DRAM chips is banjaxed 🙃</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbzplo2owk2h</guid>
+    </item>    <item>
+      <title>Sponsorship for 64-bit work</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20215</link>
+      <description>
+        <![CDATA[<p>Hiya,</p>
+        <p>There&#8217;s been a little bit of discussion about how people who are not technical can contribute towards work. One of the ways that has been suggested has been to provide donations towards people or that work. To try to provide a mechanism for this, I&#8217;ve decided to use the GitHub Sponsorship button.</p>
+        <p>On many of my GitHub projects, including the general `riscos64-status` project (<a href="https://github.com/gerph/riscos64-status">https://github.com/gerph/riscos64-status</a>), there is a Sponsor button. This will take you to <a href="https://github.com/sponsors/gerph/">https://github.com/sponsors/gerph/</a> where you can provide a sponsorship.</p>
+        <p>Providing sponsorship will encourage more development and tools for this project.<br />
+        If you feel that the things that I&#8217;m doing and the work towards <span class="caps">RISC</span> OS 64 is valuable, please feel free to sponsor me!</p>]]>
+      </description>
+      <source:markdown>Hiya,
+
+There’s been a little bit of discussion about how people who are not technical can contribute towards work. One of the ways that has been suggested has been to provide donations towards people or that work. To try to provide a mechanism for this, I’ve decided to use the GitHub Sponsorship button.
+
+On many of my GitHub projects, including the general \`riscos64-status\` project ( [https://github.com/gerph/riscos64-status](https://github.com/gerph/riscos64-status)), there is a Sponsor button. This will take you to [https://github.com/sponsors/gerph/](https://github.com/sponsors/gerph/) where you can provide a sponsorship.
+
+Providing sponsorship will encourage more development and tools for this project.
+
+If you feel that the things that I’m doing and the work towards RISC OS 64 is valuable, please feel free to sponsor me!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20215:161284</guid>
+    </item>    <item>
       <title>git switch not replacing files</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20214</link>
       <description>
@@ -56,6 +123,26 @@ Any thoughts about why that changed when it did? I didn’t update anything befo
 Logging in to it doesn’t show any messages.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20213:161277</guid>
     </item>    <item>
+      <title>Linux Port</title>
+      <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
+      <description>
+        <![CDATA[<p>Have made a small tool to switch Select/Menu (Left/Middle) via iconbar click. Works for me ;-)</p>
+        <p><img src="http://riscos.openpandora.org/Diverses/Temp/ROS_PinePhone.jpg" alt="" /></p>
+        <p>Left is Displayzoom 100%, right the default 200% in the Mobian settings.<br />
+        It is also possible to use the Mobian keyboard but the I get not the right chars at all.<br />
+        Through rose-coloured glasses, it looks good.</p>]]>
+      </description>
+      <source:markdown>Have made a small tool to switch Select/Menu (Left/Middle) via iconbar click. Works for me ;-)
+
+![](http://riscos.openpandora.org/Diverses/Temp/ROS_PinePhone.jpg)
+
+Left is Displayzoom 100%, right the default 200% in the Mobian settings.
+
+It is also possible to use the Mobian keyboard but the I get not the right chars at all.
+
+Through rose-coloured glasses, it looks good.</source:markdown>
+      <guid>cid://www.riscosopen.org:3:9068:161276</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mbykj4n5i22h</link>
       <description>
         <![CDATA[I agree, but it's also incredibly insulting that the UK government continues to use X for all of its official communications.
@@ -93,6 +180,22 @@ The next developer chat is on Saturday night for anyone interested in a very inf
 https://www.bbc.co.uk/news/articles/c99kn52nx9do</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mby6pg3bqc2h</guid>
     </item>    <item>
+      <title>Telematic Iyonix Reference CD</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20196</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>anyway i screenshot the thread and sent it to the provider hopefully they can shed some light on it.</p>
+        </blockquote>
+        <p>Oooh, test info. Support staff like that<sup id="fnr1"><a href="#fn1">1</a></sup> &#8211; information is always useful if it&#8217;s even vaguely relevant.</p>
+        <p id="fn1"><a href="#fnr1"><sup>1</sup></a> <small>That&#8217;s a big step up from the &#8220;incident&#8221; reports I&#8217;ve seen over the years, and those have already had a lot of &#8220;it&#8217;s broken&#8221; dross removed.</p>]]>
+      </description>
+      <source:markdown>&#62; anyway i screenshot the thread and sent it to the provider hopefully they can shed some light on it.
+
+Oooh, test info. Support staff like that[1](#fn1) – information is always useful if it’s even vaguely relevant.
+
+[1](#fnr1) That’s a big step up from the “incident” reports I’ve seen over the years, and those have already had a lot of “it’s broken” dross removed.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20196:161274</guid>
+    </item>    <item>
       <title>Fireside developer chat on saturday night</title>
       <link>http://www.iconbar.com/comments/rss/news2272.html</link>
       <description>
@@ -100,6 +203,38 @@ https://www.bbc.co.uk/news/articles/c99kn52nx9do</source:markdown>
       </description>
       <source:markdown>The next developer chat is on saturday night for anyone interested in a very informal event online.</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2272.html</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>@David Pitt &#8211; Thanks for this!  I&#8217;ve just put a new update on GitHub (I&#8217;ve updated the 0.1.0a release); this version should now let you run without the need for root/sudo.</p>
+        <p>@Rob Andrews &#8211; Sorry, not just yet&#8230; I&#8217;ll get some additional platforms targeted soon.  You should be able to build using the source code though.</p>
+        <p>I&#8217;ve also included a new Windows setup/installer to make things easier for users who wish to share files from their Windows systems; I&#8217;ve tested here on Windows 10/11/Server 2022.</p>
+        <p>I&#8217;m just finishing up fixing the other outstanding bits:</p>
+        <p>Directory creation bugs when saving files<br />
+        Spaces in filenames not handled consistently<br />
+        Filenames containing &#8216;/&#8217; create nested directories<br />
+        Filetype handling incorrect on Linux</p>
+        <p>I&#8217;ve started fixing the RPCEmu bit&#8217;s; I&#8217;ll post an update to this when I&#8217;ve finished the ShareFS issues.</p>]]>
+      </description>
+      <source:markdown>@David Pitt – Thanks for this! I’ve just put a new update on GitHub (I’ve updated the 0.1.0a release); this version should now let you run without the need for root/sudo.
+
+@Rob Andrews – Sorry, not just yet… I’ll get some additional platforms targeted soon. You should be able to build using the source code though.
+
+I’ve also included a new Windows setup/installer to make things easier for users who wish to share files from their Windows systems; I’ve tested here on Windows 10/11/Server 2022.
+
+I’m just finishing up fixing the other outstanding bits:
+
+Directory creation bugs when saving files
+
+Spaces in filenames not handled consistently
+
+Filenames containing ‘/’ create nested directories
+
+Filetype handling incorrect on Linux
+
+I’ve started fixing the RPCEmu bit’s; I’ll post an update to this when I’ve finished the ShareFS issues.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:161272</guid>
     </item>    <item>
       <title>Weird issue setting up printers</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20207</link>
@@ -122,14 +257,6 @@ If you’re using headers/footers then try turning them off and see if that help
 
 ISTR an earlier report of PS3 issues but I can’t find that right now. Anyway, try printing with the PS2 driver, if possible. That will show if there is an issue with PS3 or if it’s a more generic problem.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20207:161271</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>Chris was there any progress with RPCEmu compiled for RiscOS?</p>]]>
-      </description>
-      <source:markdown>Chris was there any progress with RPCEmu compiled for RiscOS?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:161266</guid>
     </item>    <item>
       <title>Iyonix and the rest of my Risc OS collection</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20206</link>
@@ -162,14 +289,6 @@ RISC OS cannot use USB soundcards at all without a custom ROM. Even then, it can
 
 Finally, be aware that Iyonixes are amongst the more troublesome machines to keep going (see Martin Eastwood’s problems). You may be better off with a cheap Raspberry Pi to play around with – it will likely give you better compatibility with old games etc via !ADFFS and the AnyMode module.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20206:161264</guid>
-    </item>    <item>
-      <title>Telematic Iyonix Reference CD</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20196</link>
-      <description>
-        <![CDATA[<p>Firefox on Ubuntu reports &#8220;An error occurred during a connection to riscostechnologies.co.uk. Peer reports it experienced an internal error.&#8221;</p>]]>
-      </description>
-      <source:markdown>Firefox on Ubuntu reports “An error occurred during a connection to riscostechnologies.co.uk. Peer reports it experienced an internal error.”</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20196:161263</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mbwrflcsi22u</link>
       <description>
@@ -210,19 +329,6 @@ Resharing this old story from 2018 for no reason at all.
 
 Scotland, I salute you! These snow gritter names are incredible 😆</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbwlnpjemk2f</guid>
-    </item>    <item>
-      <title>Linux Port</title>
-      <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p><span class="caps">NHS</span> magic mushroom</p>
-        </blockquote>
-        <p>I&#8217;m pretty sure Pharmacy don&#8217;t have those in stock, but there is a stock of cannabis derivatives for the clinical trials &#8211; I don&#8217;t think anyone ever did a c. sativa themed game, but they used to use a <span class="caps">BBC</span> Master for the queuing system.</p>]]>
-      </description>
-      <source:markdown>&#62; NHS magic mushroom
-
-I’m pretty sure Pharmacy don’t have those in stock, but there is a stock of cannabis derivatives for the clinical trials – I don’t think anyone ever did a c. sativa themed game, but they used to use a BBC Master for the queuing system.</source:markdown>
-      <guid>cid://www.riscosopen.org:3:9068:161258</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mbwhy4dphc2u</link>
       <description>
