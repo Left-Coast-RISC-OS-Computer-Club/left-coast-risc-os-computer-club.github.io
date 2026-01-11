@@ -7,10 +7,132 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>10 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>11 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mc65pguc5c25</link>
+      <description>
+        <![CDATA[Every time I look at the BBC Basic interpreter code a bug jumps out at me. Yet another “BBC Master International Character Sets Didn’t Make It To Basic” bug: [there’s so many]]]>
+      </description>
+      <source:markdown>Every time I look at the BBC Basic interpreter code a bug jumps out at me. Yet another “BBC Master International Character Sets Didn’t Make It To Basic” bug: \[there’s so many\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mc65pguc5c25</guid>
+    </item>    <item>
+      <title>Bluetooth development</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
+      <description>
+        <![CDATA[<p>Sorry for the what late reply but I&#8217;m working abroad so little time for <span class="caps">RISC</span>-OS ;-(</p>]]>
+      </description>
+      <source:markdown>Sorry for the what late reply but I’m working abroad so little time for RISC-OS ;-(</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20204:161316</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mc5zdj4rx22f</link>
+      <description>
+        <![CDATA[Thanks to @armbytes.bsky.social for reminding me of the RO2-era BBC Basic “LOCAL DATA” foul-up. I’d dealt with it in nemoBasic by allowing READ as a synonym for DATA after LOCAL/RESTORE, which avoids the ancient tokenisation problem (duplicated in editors like Zap of course).
+        
+        But I fixed it.]]>
+      </description>
+      <source:markdown>Thanks to @armbytes.bsky.social for reminding me of the RO2-era BBC Basic “LOCAL DATA” foul-up. I’d dealt with it in nemoBasic by allowing READ as a synonym for DATA after LOCAL/RESTORE, which avoids the ancient tokenisation problem (duplicated in editors like Zap of course).
+
+But I fixed it.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mc5zdj4rx22f</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mc5te7ju6k2t</link>
+      <description>
+        <![CDATA[The front cover of the BBC Micro 6502 second processor user guide is one of my all time favourites, the photograph is just *so* evocative. I adore this guy's setup, it perfectly captures the spirit of 1980s home computing.]]>
+      </description>
+      <source:markdown>The front cover of the BBC Micro 6502 second processor user guide is one of my all time favourites, the photograph is just \*so\* evocative. I adore this guy&#39;s setup, it perfectly captures the spirit of 1980s home computing.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mc5te7ju6k2t</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3mc5rt5exbc22</link>
+      <description>
+        <![CDATA[A huge shout-out to everyone who made it! The next meetup is pencilled in for 7th February.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>A huge shout-out to everyone who made it! The next meetup is pencilled in for 7th February.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mc5rt5exbc22</guid>
+    </item>    <item>
+      <title>Sharing Directories Between Windows 11 and RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20210</link>
+      <description>
+        <![CDATA[<p>In this matter I contacted Barry Smith who kindly sent me the following advice.</p>
+        <p>&#8220;I would agree that enabling SMB1 is required.<br />
+        Have you checked&#8230;<br />
+        Settings &#8211; Network &amp; internet &#8211; advanced network settings -<br />
+           advanced sharing settings &#8211; network discovery ON,<br />
+           file and printer sharing ON<br />
+        Public networks &#8211; discovery and sharing both ON<br />
+        All networks &#8211; public folder sharing ON<br />
+                       password protected sharing <span class="caps">OFF</span>&#8221;</p>
+        <p>I checked the settings and found that &#8220;public folder sharing&#8221; was <span class="caps">OFF</span> and that &#8220;password protected sharing&#8221; was ON.  Reversing those two settings resulted in sharing working.</p>
+        <p>Thanks to the wonderful Barry Smith.</p>]]>
+      </description>
+      <source:markdown>In this matter I contacted Barry Smith who kindly sent me the following advice.
+
+“I would agree that enabling SMB1 is required.
+
+Have you checked…
+
+Settings – Network &#38; internet – advanced network settings -
+
+advanced sharing settings – network discovery ON,
+
+file and printer sharing ON
+
+Public networks – discovery and sharing both ON
+
+All networks – public folder sharing ON
+
+password protected sharing OFF”
+
+I checked the settings and found that “public folder sharing” was OFF and that “password protected sharing” was ON. Reversing those two settings resulted in sharing working.
+
+Thanks to the wonderful Barry Smith.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20210:161312</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 11th January at 1pm UK time.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20216</link>
+      <description>
+        <![CDATA[<p>Starting in about 20 minutes.</p>]]>
+      </description>
+      <source:markdown>Starting in about 20 minutes.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20216:161306</guid>
+    </item>    <item>
+      <title>DHCPv6</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20217</link>
+      <description>
+        <![CDATA[<p>I&#8217;m in the very early stages of writing a DHCPv6 app to work with the <span class="caps">ROD</span> IP stack.  I&#8217;ve got as far as getting two IPv6 addresses assigned by the router to me (one global, one local), but I can&#8217;t see how to add them to my machine.  All my experiments so far with the &#8220;route&#8221; command have failed, mostly complaining of a bad address.  (I&#8217;ve only tried adding the local address so far.)</p>
+        <p>Does anyone know how to issue a command to add an IPv6 address to <span class="caps">RISC</span> OS?</p>]]>
+      </description>
+      <source:markdown>I’m in the very early stages of writing a DHCPv6 app to work with the ROD IP stack. I’ve got as far as getting two IPv6 addresses assigned by the router to me (one global, one local), but I can’t see how to add them to my machine. All my experiments so far with the “route” command have failed, mostly complaining of a bad address. (I’ve only tried adding the local address so far.)
+
+Does anyone know how to issue a command to add an IPv6 address to RISC OS?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20217:161305</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>A large text file, Zap’s !Help, was tried. That came back corrupted from the share, with a large block of zeros replacing text near the end of the file.</p>
+        </blockquote>
+        <p>The copy of that file in the Ubuntu shared folder is corrupted as described. It is the save to the share that is breaking things.</p>]]>
+      </description>
+      <source:markdown>&#62; A large text file, Zap’s !Help, was tried. That came back corrupted from the share, with a large block of zeros replacing text near the end of the file.
+
+The copy of that file in the Ubuntu shared folder is corrupted as described. It is the save to the share that is breaking things.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:161301</guid>
+    </item>    <item>
+      <title>git switch not replacing files</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20214</link>
+      <description>
+        <![CDATA[<p>Can you manually modify and save files in that directory from <span class="caps">RISC</span> OS?</p>]]>
+      </description>
+      <source:markdown>Can you manually modify and save files in that directory from RISC OS?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20214:161299</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mc3nhncqxc2a</link>
       <description>
         <![CDATA[Had a great post-Christmas lunchtime get together with Software Creations friends today. We talked about Z80 code optimization techniques, Gameboy development - including 'Wide Boy', Isometric games, Unreal, NES Solstice, CRASH Live, Tatung Einstein, RARE's RAZZ board and lots more!
@@ -22,34 +144,30 @@
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mc3nhncqxc2a</guid>
     </item>    <item>
-      <title>Live Coding with Gerph, Sunday 11th January at 1pm UK time.</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20216</link>
+      <title>NAS problem</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
       <description>
-        <![CDATA[<p>This Sunday – 11th January, at 1pm UK time (tomorrow) – I&#8217;ll be starting a new series of my live coding. This time I&#8217;m working on the text rendering calls for the Window Manager.</p>
-        <p>Come along if you like – <a href="https://youtube.com/live/M4MVXe9X1fo?feature=share">https://youtube.com/live/M4MVXe9X1fo?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
-        <hr />
-        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
-        <p>The functionality we need to implement is documented in the riscos64-status repository (<a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_TextRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a>), and might take a few sessions to implement.</p>
-        <hr />
-        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-RsoccMdcAep0iZSJQT">https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-…</a></p>
-        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimptextrender.html">https://presentation.riscos.online/live/wimptextrender…</a> (once it has been published).</p>]]>
+        <![CDATA[<blockquote>
+        <p>It shows “system started to shut down due to auto poweroff time up”</p>
+        </blockquote>
+        <p>Just putting that phrase into google comes up with this as the second link.</p>
+        <p>2019 thread <a href="https://community.synology.com/enu/forum/1/post/126798">https://community.synology.com/enu/forum/1/post/126798</a></p>
+        <p><em>&#8220;I had the same issue and I just found what was the root cause in my case.</em></p>
+        <p><em>In &#8220;Hardware and Power&#8221; &#8212;&gt; &#8220;<span class="caps">HDD</span> Hibernation&#8221; I had options &#8220;Enable advance <span class="caps">HDD</span> Hibernation&#8221; and &#8220;DS will enter standby via <span class="caps">WOL</span> after the <span class="caps">HDD</span> has hibernated&#8221; both checked.</em></p>
+        <p><em>This caused the <span class="caps">NAS</span> to power off, or maybe just to enter standby, but it did not wake up by itself, simply accessing the storage of through the web interface.  I removed the &#8220;enter standby&#8221; flag and everything works fine for me now.&quot;</em></p>]]>
       </description>
-      <source:markdown>This Sunday – 11th January, at 1pm UK time (tomorrow) – I’ll be starting a new series of my live coding. This time I’m working on the text rendering calls for the Window Manager.
+      <source:markdown>&#62; It shows “system started to shut down due to auto poweroff time up”
 
-Come along if you like – [https://youtube.com/live/M4MVXe9X1fo?feature=share](https://youtube.com/live/M4MVXe9X1fo?feature=share) – or you can always watch the video afterwards at the same address.
+Just putting that phrase into google comes up with this as the second link.
 
-* * *
+2019 thread [https://community.synology.com/enu/forum/1/post/126798](https://community.synology.com/enu/forum/1/post/126798)
 
-For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
+_“I had the same issue and I just found what was the root cause in my case._
 
-The functionality we need to implement is documented in the riscos64-status repository ( [https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_TextRender)), and might take a few sessions to implement.
+_In “Hardware and Power” —&#62; “HDD Hibernation” I had options “Enable advance HDD Hibernation” and “DS will enter standby via WOL after the HDD has hibernated” both checked._
 
-* * *
-
-If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-…](https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-RsoccMdcAep0iZSJQT)
-
-Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimptextrender…](https://presentation.riscos.online/live/wimptextrender.html) (once it has been published).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20216:161285</guid>
+_This caused the NAS to power off, or maybe just to enter standby, but it did not wake up by itself, simply accessing the storage of through the web interface. I removed the “enter standby” flag and everything works fine for me now.&#34;_</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20213:161296</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mbzplo2owk2h</link>
       <description>
@@ -77,51 +195,6 @@ Providing sponsorship will encourage more development and tools for this project
 
 If you feel that the things that I’m doing and the work towards RISC OS 64 is valuable, please feel free to sponsor me!</source:markdown>
       <guid>cid://www.riscosopen.org:1:20215:161284</guid>
-    </item>    <item>
-      <title>git switch not replacing files</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20214</link>
-      <description>
-        <![CDATA[<p>When I switch between branches the files are not replaced with the files of the new branch.<br />
-        eg:</p>
-        <pre><code>git switch master</code></pre>
-        <p>I am using the <span class="caps">ROOL</span> git client version 0.11 on rpcemu. The files are stored on the hostfs drive.</p>
-        <p>Any thoughts?</p>]]>
-      </description>
-      <source:markdown>When I switch between branches the files are not replaced with the files of the new branch.
-
-eg:
-
-```
-git switch master
-```
-
-I am using the ROOL git client version 0.11 on rpcemu. The files are stored on the hostfs drive.
-
-Any thoughts?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20214:161279</guid>
-    </item>    <item>
-      <title>NAS problem</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
-      <description>
-        <![CDATA[<p>I have a Synology <span class="caps">NAS</span> used to backup both <span class="caps">RISC</span> OS and Windows systems. It sits in a separate building away from the computers, and is set to use wake-on-lan when required, then sleep after inactivity.</p>
-        <p>This has worked well for a few years, but after the Dec 28th backup, it powered off completely. It no longer replied to ping, and didn&#8217;t respond to <span class="caps">WOL</span>.</p>
-        <p>I powered it up using the button on the front. That night both backups ran. I think the next night also worked. After that each time I want to back up, I have to press the button.</p>
-        <p>The network switch port shows green (Gbit) when the <span class="caps">NAS</span> is ready to backup. When it shuts down that changes to amber (10/100).</p>
-        <p>Any thoughts about why that changed when it did? I didn&#8217;t update anything before that. I did run all the requested updates afterwards, but it&#8217;s still doing the same thing. I wondered about the temperature, but it&#8217;s worked through colder periods in the past.</p>
-        <p>Logging in to it doesn&#8217;t show any messages.</p>]]>
-      </description>
-      <source:markdown>I have a Synology NAS used to backup both RISC OS and Windows systems. It sits in a separate building away from the computers, and is set to use wake-on-lan when required, then sleep after inactivity.
-
-This has worked well for a few years, but after the Dec 28th backup, it powered off completely. It no longer replied to ping, and didn’t respond to WOL.
-
-I powered it up using the button on the front. That night both backups ran. I think the next night also worked. After that each time I want to back up, I have to press the button.
-
-The network switch port shows green (Gbit) when the NAS is ready to backup. When it shuts down that changes to amber (10/100).
-
-Any thoughts about why that changed when it did? I didn’t update anything before that. I did run all the requested updates afterwards, but it’s still doing the same thing. I wondered about the temperature, but it’s worked through colder periods in the past.
-
-Logging in to it doesn’t show any messages.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20213:161277</guid>
     </item>    <item>
       <title>Linux Port</title>
       <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
@@ -203,38 +276,6 @@ Oooh, test info. Support staff like that[1](#fn1) – information is always usef
       </description>
       <source:markdown>The next developer chat is on saturday night for anyone interested in a very informal event online.</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2272.html</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>@David Pitt &#8211; Thanks for this!  I&#8217;ve just put a new update on GitHub (I&#8217;ve updated the 0.1.0a release); this version should now let you run without the need for root/sudo.</p>
-        <p>@Rob Andrews &#8211; Sorry, not just yet&#8230; I&#8217;ll get some additional platforms targeted soon.  You should be able to build using the source code though.</p>
-        <p>I&#8217;ve also included a new Windows setup/installer to make things easier for users who wish to share files from their Windows systems; I&#8217;ve tested here on Windows 10/11/Server 2022.</p>
-        <p>I&#8217;m just finishing up fixing the other outstanding bits:</p>
-        <p>Directory creation bugs when saving files<br />
-        Spaces in filenames not handled consistently<br />
-        Filenames containing &#8216;/&#8217; create nested directories<br />
-        Filetype handling incorrect on Linux</p>
-        <p>I&#8217;ve started fixing the RPCEmu bit&#8217;s; I&#8217;ll post an update to this when I&#8217;ve finished the ShareFS issues.</p>]]>
-      </description>
-      <source:markdown>@David Pitt – Thanks for this! I’ve just put a new update on GitHub (I’ve updated the 0.1.0a release); this version should now let you run without the need for root/sudo.
-
-@Rob Andrews – Sorry, not just yet… I’ll get some additional platforms targeted soon. You should be able to build using the source code though.
-
-I’ve also included a new Windows setup/installer to make things easier for users who wish to share files from their Windows systems; I’ve tested here on Windows 10/11/Server 2022.
-
-I’m just finishing up fixing the other outstanding bits:
-
-Directory creation bugs when saving files
-
-Spaces in filenames not handled consistently
-
-Filenames containing ‘/’ create nested directories
-
-Filetype handling incorrect on Linux
-
-I’ve started fixing the RPCEmu bit’s; I’ll post an update to this when I’ve finished the ShareFS issues.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:161272</guid>
     </item>    <item>
       <title>Weird issue setting up printers</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20207</link>
@@ -381,25 +422,6 @@ https://markets.financialcontent.com/wral/article/tokenring-2025-12-26-risc-v-hi
       </description>
       <source:markdown>Two more great books to add to the library.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mbumn5kss22e</guid>
-    </item>    <item>
-      <title>Sharing Directories Between Windows 11 and RISC OS</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20210</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Make sure the smb1 server is enabled.</p>
-        </blockquote>
-        <p>That was what I was referring to when I said &#8220;downgrade the security of the Windows install by re-enabling the deprecated SMB1&#8221;</p>
-        <p>MS set SMB1 default to off back in April 2022, the next level up was SMB2 using <span class="caps">TLS</span> with TLS1.0 and TLS1.1 deprecated for some while now and scheduled to be removed from Win11 systems in an update later in 2026 <span class="caps">IIRC</span></p>
-        <p>I think it&#8217;s surprising that MS have allowed the possibility of re-enabling SMB1 for so long, I expect that to change with MS removing the SMB1 support dll&#8217;s in the not so distant future</p>]]>
-      </description>
-      <source:markdown>&#62; Make sure the smb1 server is enabled.
-
-That was what I was referring to when I said “downgrade the security of the Windows install by re-enabling the deprecated SMB1”
-
-MS set SMB1 default to off back in April 2022, the next level up was SMB2 using TLS with TLS1.0 and TLS1.1 deprecated for some while now and scheduled to be removed from Win11 systems in an update later in 2026 IIRC
-
-I think it’s surprising that MS have allowed the possibility of re-enabling SMB1 for so long, I expect that to change with MS removing the SMB1 support dll’s in the not so distant future</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20210:161239</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mbu7vqthhk2r</link>
       <description>
@@ -695,46 +717,6 @@ See the easy guide at the bottom of the page and the linked [https://www.riscoso
       </description>
       <source:markdown>Just for future reference – all spare magazines were collected just before Christmas. I’m still on the lookout for 2009-2022 magazines, but not in any rush :-)</source:markdown>
       <guid>cid://www.riscosopen.org:5:20162:161190</guid>
-    </item>    <item>
-      <title>Bluetooth development</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
-      <description>
-        <![CDATA[<p>Hi Timo<br />
-        I had trouble finding the download link, I used the one from the previous thread, maybe put it back on this thread.<br />
-        I was able to download it and I&#8217;m looking at the libraries that need to be built, with the version of <span class="caps">BSD</span> you are using.<br />
-        Those that are built compile well:</p>
-        <blockquote>
-        <p>Dépendances<br />
-        Librairies:<br />
-         &lt;<span class="caps">BTBSD</span>$Root&gt;.bsd.lib.libc.stdlib<br />
-         &lt;<span class="caps">BTBSD</span>$Root&gt;.bsd.lib.libc.gen<br />
-         &lt;<span class="caps">BTBSD</span>$Root&gt;.bsd.lib.libc.termios<br />
-         &lt;<span class="caps">BTBSD</span>$Root&gt;.bsd.lib.libbluetooth</p>
-        </blockquote>
-        <p>I continue what I started with sys.betbd and include.arm.h</p>]]>
-      </description>
-      <source:markdown>Hi Timo
-
-I had trouble finding the download link, I used the one from the previous thread, maybe put it back on this thread.
-
-I was able to download it and I’m looking at the libraries that need to be built, with the version of BSD you are using.
-
-Those that are built compile well:
-
-&#62; Dépendances
-&#62;
-&#62; Librairies:
-&#62;
-&#62; &#60;BTBSD$Root&#62;.bsd.lib.libc.stdlib
-&#62;
-&#62; &#60;BTBSD$Root&#62;.bsd.lib.libc.gen
-&#62;
-&#62; &#60;BTBSD$Root&#62;.bsd.lib.libc.termios
-&#62;
-&#62; &#60;BTBSD$Root&#62;.bsd.lib.libbluetooth
-
-I continue what I started with sys.betbd and include.arm.h</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20204:161189</guid>
     </item>    <item>
       <title>Live Coding with Gerph, Sunday 4th January at 1pm UK time.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20201</link>
