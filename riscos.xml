@@ -7,10 +7,82 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>11 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>12 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mcah6anec22j</link>
+      <description>
+        <![CDATA[One thing that gives me a sense of job security is how generally poor I find juniors to be at debugging. "This failed, I don't know why" is increasingly common, and when I ask "did you read the logs?" they often look blankly at me, like logs are some kind of esoteric grimoire...]]>
+      </description>
+      <source:markdown>One thing that gives me a sense of job security is how generally poor I find juniors to be at debugging. &#34;This failed, I don&#39;t know why&#34; is increasingly common, and when I ask &#34;did you read the logs?&#34; they often look blankly at me, like logs are some kind of esoteric grimoire...</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mcah6anec22j</guid>
+    </item>    <item>
+      <title>&#38;#39;Mailbox is full&#38;#39; phishing puzzle</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20218</link>
+      <description>
+        <![CDATA[<p>I received an email yesterday saying:<br />
+        ==&gt;<br />
+        This message was created automatically by mail delivery software.</p>
+        <p>A message that you sent could not be delivered to one or more of its<br />
+        recipients. This is a permanent error. The following address(es) failed:</p>
+        <a href="mailto:info@theworkshopseries.co.uk">info@theworkshopseries.co.uk</a>
+        <span class="caps">LMTP</span> error after <span class="caps">RCPT</span> TO:&lt;<a href="mailto:info@theworkshopseries.co.uk">info@theworkshopseries.co.uk</a>&gt;:
+        552 5.2.2 &lt;<a href="mailto:info@theworkshopseries.co.uk">info@theworkshopseries.co.uk</a>&gt; Mailbox is full / Blocks limit exceeded / Inode limit exceeded
+        <p>Reporting-<span class="caps">MTA</span>: dns; s3161.fra1.stableserver.net</p>
+        <p>Action: failed<br />
+        Final-Recipient: rfc822;<a href="mailto:info@theworkshopseries.co.uk">info@theworkshopseries.co.uk</a><br />
+        Status: 5.0.0<br />
+        &#8230;.<br />
+        &lt;==<br />
+        It is lying, because my message did get through to the intended recipient, who said that his mailbox<br />
+        was certainly not full. Now I have heard of these &#8216;Mailbox full&#8217; phishing scams. But the links in this<br />
+        message appear to be harmless. I presume that the scam&#8217;s method relies on inserting malware into a<br />
+        computer to take note of the sender-addresses of emails arriving in the inbox. I had used Plusnet&#8217;s<br />
+        webmail to send my original email, using the Chrome browser, so I do not think there is any malware<br />
+        inserted at my end. So no harm done. But is my diagnosis correct? Should I be warning<br />
+        <a href="mailto:info@theworkshopseries.co.uk">info@theworkshopseries.co.uk</a> that his computer may have been compromised?</p>]]>
+      </description>
+      <source:markdown>I received an email yesterday saying:
+
+==&#62;
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+
+recipients. This is a permanent error. The following address(es) failed:
+
+ [info@theworkshopseries.co.uk](mailto:info@theworkshopseries.co.uk) LMTP error after RCPT TO:&#60; [info@theworkshopseries.co.uk](mailto:info@theworkshopseries.co.uk) &#62;:
+552 5.2.2 &#60; [info@theworkshopseries.co.uk](mailto:info@theworkshopseries.co.uk) \&#62; Mailbox is full / Blocks limit exceeded / Inode limit exceeded
+
+Reporting-MTA: dns; s3161.fra1.stableserver.net
+
+Action: failed
+
+Final-Recipient: rfc822; [info@theworkshopseries.co.uk](mailto:info@theworkshopseries.co.uk)
+
+Status: 5.0.0
+
+….
+
+&#60;==
+
+It is lying, because my message did get through to the intended recipient, who said that his mailbox
+
+was certainly not full. Now I have heard of these ‘Mailbox full’ phishing scams. But the links in this
+
+message appear to be harmless. I presume that the scam’s method relies on inserting malware into a
+
+computer to take note of the sender-addresses of emails arriving in the inbox. I had used Plusnet’s
+
+webmail to send my original email, using the Chrome browser, so I do not think there is any malware
+
+inserted at my end. So no harm done. But is my diagnosis correct? Should I be warning
+
+[info@theworkshopseries.co.uk](mailto:info@theworkshopseries.co.uk) that his computer may have been compromised?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20218:161326</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mc65pguc5c25</link>
       <description>
         <![CDATA[Every time I look at the BBC Basic interpreter code a bug jumps out at me. Yet another “BBC Master International Character Sets Didn’t Make It To Basic” bug: [there’s so many]]]>
@@ -93,6 +165,40 @@ I checked the settings and found that “public folder sharing” was OFF and th
 Thanks to the wonderful Barry Smith.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20210:161312</guid>
     </item>    <item>
+      <title>git switch not replacing files</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20214</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Don’t know if that’s likely to be a similar issue with the git port as I had with svn</p>
+        </blockquote>
+        <p>No, that was not it. I have !UnixHome not installed.</p>
+        <blockquote>
+        <p>From the desktop client, you can do iconbar menu → Choices</p>
+        </blockquote>
+        <p>I have already set those. But these are not used for the authentication when you do a push or pull. I might have to use an access token.</p>]]>
+      </description>
+      <source:markdown>&#62; Don’t know if that’s likely to be a similar issue with the git port as I had with svn
+
+No, that was not it. I have !UnixHome not installed.
+
+&#62; From the desktop client, you can do iconbar menu → Choices
+
+I have already set those. But these are not used for the authentication when you do a push or pull. I might have to use an access token.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20214:161309</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>A large text file, Zap’s !Help, was tried. That came back corrupted from the share, with a large block of zeros replacing text near the end of the file.</p>
+        </blockquote>
+        <p>A debug log of a write failure is <a href="https://homepages.plus.net/pittdj/rool26/accessDBG.zip">here.</a> The file to be written to the share is !Help2 of size 245310, which is Zap&#8217;s !Help renamed. The corruption is almost at the end of the file. Original and corrupted copies of the file are also in the zip.</p>]]>
+      </description>
+      <source:markdown>&#62; A large text file, Zap’s !Help, was tried. That came back corrupted from the share, with a large block of zeros replacing text near the end of the file.
+
+A debug log of a write failure is [here.](https://homepages.plus.net/pittdj/rool26/accessDBG.zip) The file to be written to the share is !Help2 of size 245310, which is Zap’s !Help renamed. The corruption is almost at the end of the file. Original and corrupted copies of the file are also in the zip.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:161307</guid>
+    </item>    <item>
       <title>Live Coding with Gerph, Sunday 11th January at 1pm UK time.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20216</link>
       <description>
@@ -111,27 +217,6 @@ Thanks to the wonderful Barry Smith.</source:markdown>
 
 Does anyone know how to issue a command to add an IPv6 address to RISC OS?</source:markdown>
       <guid>cid://www.riscosopen.org:11:20217:161305</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>A large text file, Zap’s !Help, was tried. That came back corrupted from the share, with a large block of zeros replacing text near the end of the file.</p>
-        </blockquote>
-        <p>The copy of that file in the Ubuntu shared folder is corrupted as described. It is the save to the share that is breaking things.</p>]]>
-      </description>
-      <source:markdown>&#62; A large text file, Zap’s !Help, was tried. That came back corrupted from the share, with a large block of zeros replacing text near the end of the file.
-
-The copy of that file in the Ubuntu shared folder is corrupted as described. It is the save to the share that is breaking things.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:161301</guid>
-    </item>    <item>
-      <title>git switch not replacing files</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20214</link>
-      <description>
-        <![CDATA[<p>Can you manually modify and save files in that directory from <span class="caps">RISC</span> OS?</p>]]>
-      </description>
-      <source:markdown>Can you manually modify and save files in that directory from RISC OS?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20214:161299</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mc3nhncqxc2a</link>
       <description>
