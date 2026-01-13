@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.18" >
-  <meta name="date" content="2026-01-12T12:00:26-08:00" >
-  <link href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" type="application/rss+xml" >
+  <meta content="2026-01-13T12:00:37-08:00" name="date" >
+  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
   <header>
@@ -20,6 +20,208 @@
   </nav>
   <section>
 
+    <article data-published="2026-01-13T19:30:45Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20220">
+      <h1>Updating Submenu Dialogue Boxes</h1>
+
+(date: 2026-01-13)
+      <p>
+      <p>I have a feeling that I might be missing something obvious here…</p>
+<p>I have a dialogue box as a submenu (a program information window), which has a toggle size icon so that the user can expand it to read additional details about the application. This works fine.</p>
+<p>However, it would be nice if it could always open in the small state, to be a little bit tidier. With a normal window, this would just be a case of fiddling with the visible extent before calling Wimp_OpenWindow, but as a submenu, I can’t see how to do it.</p>
+<p>I can set the submenu warning flag and catch Message_SubmenuWarning, but as far as I know that gives me the window handle and not the Open Window block. Similarly, Wimp_CreateSubmenu doesn’t take anything but the handle, so I can’t mess with the visible area before creating the dialogue on screen.</p>
+<p>Sitting on Open Window events for the dialogue suggests that the application doesn’t receive one until the window is moved, not when it initially opens – so that doesn’t appear to help either.</p>
+<p>Is there any way to achieve what I’m trying to do? Or is it a case of “I wouldn’t start from here”, and I need another approach to displaying the additional info (or just live with the toggled state persisting between visits)?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20220">https://www.riscosopen.org/forum/forums/11/topics/20220</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-13T18:45:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mcd7n2nzas2c">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-01-13)
+      <p>
+      <p>@givvygavvygoo.bsky.social Is this a form of bot-defeating obfuscation requiring human error correction or Fat Finger Syndrome?</p>
+<p>I'll send you a new version of !RMA.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mcd7n2nzas2c">https://bsky.app/profile/nemo20000.bsky.social/post/3mcd7n2nzas2c</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-13T12:54:50Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20137">
+      <h1>Clarity Theme ko-fi</h1>
+
+(date: 2026-01-13)
+      <p>
+      <p>There’s another test release of the Clarity desktop theme <a href="https://lym.iconbar.com/downloads/clarity5.zip">here</a>.</p>
+<p>This release includes iconsprites for the ROM apps, as well as sprites for their iconised files. It also includes iconsprites for most of the !Boot apps, such as !System, etc. It adds some pointer sprites missed from the last release, and makes some minor edits to some existing sprites. The next release will cover Configure. Any feedback welcome – this is still very much in development.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20137">https://www.riscosopen.org/forum/forums/1/topics/20137</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-13T10:56:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mccffr2hvc2r">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-01-13)
+      <p>
+      <p>Genuinely fascinating Drum Tower podcast from @economist.com on the sad demise of Lapsang Souchong tea. It was one of my grandma's favourite teas and the aroma of it reminds me of her. I've even enjoyed the odd cup. That Twinings have discontinued it for supply reasons feels like an 'end of an era'</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mccffr2hvc2r">https://bsky.app/profile/colinhoad.com/post/3mccffr2hvc2r</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-13T09:35:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mccavb3ofc2r">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-01-13)
+      <p>
+      <p>Fujitsu should be banned permanently from any public sector work after what happened with Horizon.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mccavb3ofc2r">https://bsky.app/profile/colinhoad.com/post/3mccavb3ofc2r</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-13T09:28:41Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20219">
+      <h1>Paint sprite dragging</h1>
+
+(date: 2026-01-13)
+      <p>
+      <p>Just discovered something in Paint 2.59, RO5.31, 14 Dec 2025. If I open a sprite file window, then try to drag one of the sprites to another window, I get an error saying <code>SpriteExtend: Sprite Doesn't Exist</code>, and Paint quits. If I click menu over the sprite, and use the Save dialogue, then the drag works fine. This is odd, as I’ve been using Paint very extensively over the last few weeks, also the latest version I think, and I haven’t come across this before. Can anyone else see this?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/4/topics/20219">https://www.riscosopen.org/forum/forums/4/topics/20219</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-13T07:55:00Z" data-link="https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mcc3c22jn22z">
+      <h1>@givvygavvygoo.bsky.social</h1>
+
+(date: 2026-01-13)
+      <p>
+      <p>Another interesting meeting. Very enjoyable. My thanks to everyone who took part.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mcc3c22jn22z">https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mcc3c22jn22z</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-13T01:51:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mcbgxry4v222">
+      <h1>@paolofabiozaino.bsky.social</h1>
+
+(date: 2026-01-13)
+      <p>
+      <p>My ShareFSServer for #RISC_OS is getting better and better, in the picture sharing a large PDF (more than 10MB) over #OpenVPN !!! Linux Server at home running the ShareFS server and picture on my RPCEmu from my favorite Cafe runnign on an Apple M1 and connected via OpenVPN. Progress!!!</p>
+
+      <address>
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mcbgxry4v222">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mcbgxry4v222</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-12T21:54:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mcazqkzljs2c">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-01-12)
+      <p>
+      <p>Be kind to your site administrator 😊 Genuinely lovely to read a little paragraph like this in my 1995 guide to the internet - advice we should all continue to follow!</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mcazqkzljs2c">https://bsky.app/profile/colinhoad.com/post/3mcazqkzljs2c</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-12T20:05:08Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/16763">
+      <h1>rustc, ELF, ld...</h1>
+
+(date: 2026-01-12)
+      <p>
+      <p>Found it!</p>
+<pre><code>rustc main.rs --target=armv7a-none-eabi -Clink-arg=--entry=_start -Clink-arg=-Tbaremetal.script
+</code></pre>
+<pre><code>arm-none-eabi-objcopy  -R .ignoring -O binary main main,ff8 &amp;&amp; od -t x4 -A x main,ff8
+</code></pre>
+<p>baremetal.script as above.</p>
+<p>main.rs:</p>
+<pre><code>#![no_std]
+#![no_main]
+
+use core::arch::asm;
+use core::arch::naked_asm;
+use core::panic::PanicInfo;
+
+// pub extern &quot;C&quot; to allow the naked asm to call main (with a stack).
+#[no_mangle]
+pub extern &quot;C&quot; fn main() {
+  writec( b'H' );
+  writec( b'e' );
+  writec( b'l' );
+  writec( b'l' );
+  writec( b'o' );
+  writec( b' ' );
+  writec( b'w' );
+  writec( b'o' );
+  writec( b'r' );
+  writec( b'l' );
+  writec( b'd' );
+  writec( 10 );
+}
+
+#[panic_handler]
+fn panic_handler(_p: &amp;PanicInfo) -&gt; ! {
+  loop {};
+}
+
+fn writec( c: u8 ) {
+  unsafe {
+    asm! ( &quot;mov r0, {0}\n svc 0&quot;, in(reg) c );
+  }
+}
+
+#[unsafe(link_section = &quot;.init&quot;)]
+#[no_mangle]
+#[unsafe(naked)]
+pub extern &quot;C&quot; fn _start() {
+  naked_asm! (
+         &quot;mov r0, #0&quot;,
+      &quot;\n mov r1, #0&quot;,
+      &quot;\n mov r2, #0&quot;,
+      &quot;\n mov r3, #0&quot;,
+      &quot;\n svc 0x40&quot;,
+      &quot;\n mov sp, r1&quot;,
+      &quot;\n bl main&quot;,
+      &quot;\n svc 0x11&quot;
+      );
+}
+</code></pre>
+<p>It’s untested, but the object code appears correct:</p>
+<pre><code>000000 e3a00000 e3a01000 e3a02000 e3a03000    Set r0-r3 to 0
+000010 ef000040 e1a0d001 eb000003 ef000011    OS_ChangeEnvironment, set SP, call main, OS_Exit on return
+000020 e1a00000 ef000000 e12fff1e e92d4800    writec r0 = c, OS_WriteC, return; main: push {fp, lr}
+000030 e24dd008 e3a00048 ebfffff8 e3a00065    sub sp, sp, #8 (for no apparent reason), writec( 'H' 0x48 )
+000040 ebfffff6 e3a0006c e58d0004 ebfffff3    writec( 'e' 0x65 ); writec( 'l' 0x6c ); ...
+000050 e59d0004 ebfffff1 e3a0006f e58d0000
+000060 ebffffee e3a00020 ebffffec e3a00077
+000070 ebffffea e59d0000 ebffffe8 e3a00072
+000080 ebffffe6 e59d0004 ebffffe4 e3a00064
+000090 ebffffe2 e3a0000a ebffffe0 e28dd008    ... add sp, sp, #8
+0000a0 e8bd8800 7fffff5c 00000001 7ffffff8    pop {fp, pc} (return); then 4 words .ARM.exidx
+0000b0 00000001                                                      (whatever that is)
+</code></pre>
+<p>I wonder if the language requires 16-byte stack alignment (it would explain the sp +/- 8).</p>
+<p>It doesn’t run on a RiscPC, uses <code>bx lr</code> 0xe12fff1e.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/16763">https://www.riscosopen.org/forum/forums/11/topics/16763</a>
+      </address>
+    </article>
+
     <article data-published="2026-01-12T16:22:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mcah6anec22j">
       <h1>@colinhoad.com</h1>
 
@@ -29,6 +231,91 @@
 
       <address>
         <a href="https://bsky.app/profile/colinhoad.com/post/3mcah6anec22j">https://bsky.app/profile/colinhoad.com/post/3mcah6anec22j</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-12T14:09:54Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
+      <h1>Random projects...</h1>
+
+(date: 2026-01-12)
+      <p>
+      <p>I’m seeing a noticable difference in speed between the interpreter spork and non spork build of RPCEMU on both Intel and Apple Silicon.</p>
+<p>On Intel the recompiler version is about the same.</p>
+<pre><code>
+Interpreter Version
+
+Apple Silicon 0.9.5-spork
+
+Test                                                   Benchmark
+Processor - Looped instructions (cache)                   202789     114%
+Memory - Multiple register transfer                         7758    4788%
+Rectangle Copy - Graphics acceleration test                 1812     748%
+Icon Plotting - 16 colour sprite with mask                  5134     256%
+Draw Path - Stroke narrow line                              1925     123%
+Draw Fill - Plot filled shape                               2238     153%
+Draw Render - Render draw file                              2549     281%
+
+Apple Silicon 0.9.99
+
+Test                                                   Benchmark
+Processor - Looped instructions (cache)                   400217     225%
+Memory - Multiple register transfer                        14122    8717%
+Rectangle Copy - Graphics acceleration test                 3154    1303%
+Icon Plotting - 16 colour sprite with mask                  8918     445%
+Draw Path - Stroke narrow line                              3022     193%
+Draw Fill - Plot filled shape                               3565     244%
+Draw Render - Render draw file                              3937     434%
+
+Intel 0.9.5-spork
+
+Test                                                   Benchmark
+Processor - Looped instructions (cache)                   164022      92%
+Memory - Multiple register transfer                         4473    2761%
+Rectangle Copy - Graphics acceleration test                 1147     473%
+Icon Plotting - 16 colour sprite with mask                  3134     156%
+Draw Path - Stroke narrow line                              1161      74%
+Draw Fill - Plot filled shape                               1361      93%
+Draw Render - Render draw file                              1531     168%
+
+Intel 0.9.99
+
+Test                                                   Benchmark
+Processor - Looped instructions (cache)                   278744     156%
+Memory - Multiple register transfer                         9937    6133%
+Rectangle Copy - Graphics acceleration test                 2099     867%
+Icon Plotting - 16 colour sprite with mask                  5669     283%
+Draw Path - Stroke narrow line                              2163     138%
+Draw Fill - Plot filled shape                               2649     181%
+Draw Render - Render draw file                              2777     306%
+
+Recompiler Version
+
+Intel 0.9.5-spork
+
+Test                                                   Benchmark
+Processor - Looped instructions (cache)                  3069859    1725%
+Memory - Multiple register transfer                        33320   20567%
+Rectangle Copy - Graphics acceleration test                 7327    3027%
+Icon Plotting - 16 colour sprite with mask                 19403     970%
+Draw Path - Stroke narrow line                              6327     405%
+Draw Fill - Plot filled shape                               7371     505%
+Draw Render - Render draw file                              7114     785%
+
+Intel 0.9.99
+
+Test                                                   Benchmark
+Processor - Looped instructions (cache)                  3127688    1758%
+Memory - Multiple register transfer                        37623   23224%
+Rectangle Copy - Graphics acceleration test                 7652    3161%
+Icon Plotting - 16 colour sprite with mask                 18538     926%
+Draw Path - Stroke narrow line                              6247     400%
+Draw Fill - Plot filled shape                               7710     528%
+Draw Render - Render draw file                              7623     841%
+
+</code></pre>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
       </address>
     </article>
 
@@ -63,6 +350,45 @@
       </address>
     </article>
 
+    <article data-published="2026-01-12T09:17:04Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20210">
+      <h1>Sharing Directories Between Windows 11 and RISC OS</h1>
+
+(date: 2026-01-12)
+      <p>
+      <p>For the record I used LanMan98.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20210">https://www.riscosopen.org/forum/forums/11/topics/20210</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-11T21:15:05Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20204">
+      <h1>Bluetooth development</h1>
+
+(date: 2026-01-11)
+      <p>
+      <p>That is also an option basicly there is already firmware in the pico ( specialist ) but I really aim for a more general BT stack. But it is method which is probably fast</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20204">https://www.riscosopen.org/forum/forums/5/topics/20204</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-11T19:46:10Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20214">
+      <h1>git switch not replacing files</h1>
+
+(date: 2026-01-11)
+      <p>
+      <blockquote>
+<p>The one the git client instructions are tested against lives in ! Boot.Resources.! Internet.bin</p>
+</blockquote>
+<p>There were two versions of ssh-keygen on my system. The one in ! Boot.Resources.! Internet.bin and one that was installed by the openssh package from !PackMan. After removing the latter it worked.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20214">https://www.riscosopen.org/forum/forums/11/topics/20214</a>
+      </address>
+    </article>
+
     <article data-published="2026-01-11T18:27:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mc65pguc5c25">
       <h1>@nemo20000.bsky.social</h1>
 
@@ -72,18 +398,6 @@
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mc65pguc5c25">https://bsky.app/profile/nemo20000.bsky.social/post/3mc65pguc5c25</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-11T17:45:04Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20204">
-      <h1>Bluetooth development</h1>
-
-(date: 2026-01-11)
-      <p>
-      <p>Sorry for the what late reply but I’m working abroad so little time for RISC-OS ;-(</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20204">https://www.riscosopen.org/forum/forums/5/topics/20204</a>
       </address>
     </article>
 
@@ -122,62 +436,6 @@
 
       <address>
         <a href="https://bsky.app/profile/armbytes.bsky.social/post/3mc5rt5exbc22">https://bsky.app/profile/armbytes.bsky.social/post/3mc5rt5exbc22</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-11T14:17:06Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20210">
-      <h1>Sharing Directories Between Windows 11 and RISC OS</h1>
-
-(date: 2026-01-11)
-      <p>
-      <p>In this matter I contacted Barry Smith who kindly sent me the following advice.</p>
-<p>“I would agree that enabling SMB1 is required.</p>
-<p>Have you checked…</p>
-<p>Settings – Network &amp; internet – advanced network settings -</p>
-<p>advanced sharing settings – network discovery ON,</p>
-<p>file and printer sharing ON</p>
-<p>Public networks – discovery and sharing both ON</p>
-<p>All networks – public folder sharing ON</p>
-<p>password protected sharing OFF”</p>
-<p>I checked the settings and found that “public folder sharing” was OFF and that “password protected sharing” was ON. Reversing those two settings resulted in sharing working.</p>
-<p>Thanks to the wonderful Barry Smith.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20210">https://www.riscosopen.org/forum/forums/11/topics/20210</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-11T12:54:02Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20214">
-      <h1>git switch not replacing files</h1>
-
-(date: 2026-01-11)
-      <p>
-      <blockquote>
-<p>Don’t know if that’s likely to be a similar issue with the git port as I had with svn</p>
-</blockquote>
-<p>No, that was not it. I have !UnixHome not installed.</p>
-<blockquote>
-<p>From the desktop client, you can do iconbar menu → Choices</p>
-</blockquote>
-<p>I have already set those. But these are not used for the authentication when you do a push or pull. I might have to use an access token.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20214">https://www.riscosopen.org/forum/forums/11/topics/20214</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-11T12:39:51Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
-      <h1>Random projects...</h1>
-
-(date: 2026-01-11)
-      <p>
-      <blockquote>
-<p>A large text file, Zap’s !Help, was tried. That came back corrupted from the share, with a large block of zeros replacing text near the end of the file.</p>
-</blockquote>
-<p>A debug log of a write failure is <a href="https://homepages.plus.net/pittdj/rool26/accessDBG.zip">here.</a> The file to be written to the share is !Help2 of size 245310, which is Zap’s !Help renamed. The corruption is almost at the end of the file. Original and corrupted copies of the file are also in the zip.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
       </address>
     </article>
 
@@ -1133,18 +1391,6 @@ riscoscommunity.org/shop/</p>
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mbfu3fk2hs2z">https://bsky.app/profile/nemo20000.bsky.social/post/3mbfu3fk2hs2z</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-01T23:26:27Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/16763">
-      <h1>rustc, ELF, ld...</h1>
-
-(date: 2026-01-01)
-      <p>
-      <p>Did anyone make any progress on getting Rust working further? I haven’t tried yet, but did have a go at creating an OSLib interface in Rust, based on Gerph’s defmod parser. The changes are in <a href="https://github.com/gerph/riscos64-oslib">https://github.com/gerph/riscos64-oslib</a> if anyone is interested.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/16763">https://www.riscosopen.org/forum/forums/11/topics/16763</a>
       </address>
     </article>
 
@@ -2362,18 +2608,6 @@ mov  r1,r2		; Copy new flags to current flags
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20169">https://www.riscosopen.org/forum/forums/1/topics/20169</a>
-      </address>
-    </article>
-
-    <article data-published="2025-12-19T20:32:52Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20137">
-      <h1>Clarity Theme ko-fi</h1>
-
-(date: 2025-12-19)
-      <p>
-      <p>Just downloaded and installed the clarity theme on my new Christmas Cracker Chimera RISC OS box and yes, it is really nice and clean, I am liking the new theme so far. Keep it up. Looking forward to the next version. Merry Christmas.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20137">https://www.riscosopen.org/forum/forums/1/topics/20137</a>
       </address>
     </article>
 

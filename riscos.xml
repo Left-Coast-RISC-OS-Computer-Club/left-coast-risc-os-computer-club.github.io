@@ -7,16 +7,433 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>12 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>13 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Updating Submenu Dialogue Boxes</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20220</link>
+      <description>
+        <![CDATA[<p>I have a feeling that I might be missing something obvious here&#8230;</p>
+        <p>I have a dialogue box as a submenu (a program information window), which has a toggle size icon so that the user can expand it to read additional details about the application. This works fine.</p>
+        <p>However, it would be nice if it could always open in the small state, to be a little bit tidier. With a normal window, this would just be a case of fiddling with the visible extent before calling Wimp_OpenWindow, but as a submenu, I can&#8217;t see how to do it.</p>
+        <p>I can set the submenu warning flag and catch Message_SubmenuWarning, but as far as I know that gives me the window handle and not the Open Window block. Similarly, Wimp_CreateSubmenu doesn&#8217;t take anything but the handle, so I can&#8217;t mess with the visible area before creating the dialogue on screen.</p>
+        <p>Sitting on Open Window events for the dialogue suggests that the application doesn&#8217;t receive one until the window is moved, not when it initially opens &#8211; so that doesn&#8217;t appear to help either.</p>
+        <p>Is there any way to achieve what I&#8217;m trying to do? Or is it a case of &#8220;I wouldn&#8217;t start from here&#8221;, and I need another approach to displaying the additional info (or just live with the toggled state persisting between visits)?</p>]]>
+      </description>
+      <source:markdown>I have a feeling that I might be missing something obvious here…
+
+I have a dialogue box as a submenu (a program information window), which has a toggle size icon so that the user can expand it to read additional details about the application. This works fine.
+
+However, it would be nice if it could always open in the small state, to be a little bit tidier. With a normal window, this would just be a case of fiddling with the visible extent before calling Wimp\_OpenWindow, but as a submenu, I can’t see how to do it.
+
+I can set the submenu warning flag and catch Message\_SubmenuWarning, but as far as I know that gives me the window handle and not the Open Window block. Similarly, Wimp\_CreateSubmenu doesn’t take anything but the handle, so I can’t mess with the visible area before creating the dialogue on screen.
+
+Sitting on Open Window events for the dialogue suggests that the application doesn’t receive one until the window is moved, not when it initially opens – so that doesn’t appear to help either.
+
+Is there any way to achieve what I’m trying to do? Or is it a case of “I wouldn’t start from here”, and I need another approach to displaying the additional info (or just live with the toggled state persisting between visits)?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20220:161345</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mcd7n2nzas2c</link>
+      <description>
+        <![CDATA[@givvygavvygoo.bsky.social Is this a form of bot-defeating obfuscation requiring human error correction or Fat Finger Syndrome?
+        
+        I'll send you a new version of !RMA.]]>
+      </description>
+      <source:markdown>@givvygavvygoo.bsky.social Is this a form of bot-defeating obfuscation requiring human error correction or Fat Finger Syndrome?
+
+I&#39;ll send you a new version of !RMA.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mcd7n2nzas2c</guid>
+    </item>    <item>
+      <title>Clarity Theme ko-fi</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20137</link>
+      <description>
+        <![CDATA[<p>There&#8217;s another test release of the Clarity desktop theme <a href="https://lym.iconbar.com/downloads/clarity5.zip">here</a>.</p>
+        <p>This release includes iconsprites for the <span class="caps">ROM</span> apps, as well as sprites for their iconised files. It also includes iconsprites for most of the !Boot apps, such as !System, etc. It adds some pointer sprites missed from the last release, and makes some minor edits to some existing sprites. The next release will cover Configure. Any feedback welcome &#8211; this is still very much in development.</p>]]>
+      </description>
+      <source:markdown>There’s another test release of the Clarity desktop theme [here](https://lym.iconbar.com/downloads/clarity5.zip).
+
+This release includes iconsprites for the ROM apps, as well as sprites for their iconised files. It also includes iconsprites for most of the !Boot apps, such as !System, etc. It adds some pointer sprites missed from the last release, and makes some minor edits to some existing sprites. The next release will cover Configure. Any feedback welcome – this is still very much in development.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20137:161341</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mccffr2hvc2r</link>
+      <description>
+        <![CDATA[Genuinely fascinating Drum Tower podcast from @economist.com on the sad demise of Lapsang Souchong tea. It was one of my grandma's favourite teas and the aroma of it reminds me of her. I've even enjoyed the odd cup. That Twinings have discontinued it for supply reasons feels like an 'end of an era']]>
+      </description>
+      <source:markdown>Genuinely fascinating Drum Tower podcast from @economist.com on the sad demise of Lapsang Souchong tea. It was one of my grandma&#39;s favourite teas and the aroma of it reminds me of her. I&#39;ve even enjoyed the odd cup. That Twinings have discontinued it for supply reasons feels like an &#39;end of an era&#39;</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mccffr2hvc2r</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mccavb3ofc2r</link>
+      <description>
+        <![CDATA[Fujitsu should be banned permanently from any public sector work after what happened with Horizon.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Fujitsu should be banned permanently from any public sector work after what happened with Horizon.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mccavb3ofc2r</guid>
+    </item>    <item>
+      <title>Paint sprite dragging</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20219</link>
+      <description>
+        <![CDATA[<p>Just discovered something in Paint 2.59, RO5.31, 14 Dec 2025. If I open a sprite file window, then try to drag one of the sprites to another window, I get an error saying <code>SpriteExtend: Sprite Doesn't Exist</code>, and Paint quits. If I click menu over the sprite, and use the Save dialogue, then the drag works fine. This is odd, as I&#8217;ve been using Paint very extensively over the last few weeks, also the latest version I think, and I haven&#8217;t come across this before. Can anyone else see this?</p>]]>
+      </description>
+      <source:markdown>Just discovered something in Paint 2.59, RO5.31, 14 Dec 2025. If I open a sprite file window, then try to drag one of the sprites to another window, I get an error saying `SpriteExtend: Sprite Doesn&#39;t Exist`, and Paint quits. If I click menu over the sprite, and use the Save dialogue, then the drag works fine. This is odd, as I’ve been using Paint very extensively over the last few weeks, also the latest version I think, and I haven’t come across this before. Can anyone else see this?</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20219:161338</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mcc3c22jn22z</link>
+      <description>
+        <![CDATA[Another interesting meeting. Very enjoyable. My thanks to everyone who took part.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Another interesting meeting. Very enjoyable. My thanks to everyone who took part.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3mcc3c22jn22z</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mcbgxry4v222</link>
+      <description>
+        <![CDATA[My ShareFSServer for #RISC_OS is getting better and better, in the picture sharing a large PDF (more than 10MB) over #OpenVPN !!! Linux Server at home running the ShareFS server and picture on my RPCEmu from my favorite Cafe runnign on an Apple M1 and connected via OpenVPN. Progress!!!]]>
+      </description>
+      <source:markdown>My ShareFSServer for #RISC\_OS is getting better and better, in the picture sharing a large PDF (more than 10MB) over #OpenVPN !!! Linux Server at home running the ShareFS server and picture on my RPCEmu from my favorite Cafe runnign on an Apple M1 and connected via OpenVPN. Progress!!!</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mcbgxry4v222</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mcazqkzljs2c</link>
+      <description>
+        <![CDATA[Be kind to your site administrator 😊 Genuinely lovely to read a little paragraph like this in my 1995 guide to the internet - advice we should all continue to follow!]]>
+      </description>
+      <source:markdown>Be kind to your site administrator 😊 Genuinely lovely to read a little paragraph like this in my 1995 guide to the internet - advice we should all continue to follow!</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mcazqkzljs2c</guid>
+    </item>    <item>
+      <title>rustc, ELF, ld...</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/16763</link>
+      <description>
+        <![CDATA[<p>Found it!</p>
+        <pre><code>rustc main.rs --target=armv7a-none-eabi -Clink-arg=--entry=_start -Clink-arg=-Tbaremetal.script</code></pre>
+        <pre><code>arm-none-eabi-objcopy  -R .ignoring -O binary main main,ff8 &amp;&amp; od -t x4 -A x main,ff8</code></pre>
+        <p>baremetal.script as above.</p>
+        <p>main.rs:</p>
+        <pre><code>#![no_std]
+        #![no_main]</code>
+        
+        <code>use core::arch::asm;
+        use core::arch::naked_asm;
+        use core::panic::PanicInfo;</code>
+        
+        <code>// pub extern "C" to allow the naked asm to call main (with a stack).
+        #[no_mangle]
+        pub extern "C" fn main() {
+          writec( b'H' );
+          writec( b'e' );
+          writec( b'l' );
+          writec( b'l' );
+          writec( b'o' );
+          writec( b' ' );
+          writec( b'w' );
+          writec( b'o' );
+          writec( b'r' );
+          writec( b'l' );
+          writec( b'd' );
+          writec( 10 );
+        }</code>
+        
+        <code>#[panic_handler]
+        fn panic_handler(_p: &amp;PanicInfo) -&gt; ! {
+          loop {};
+        }</code>
+        
+        <code>fn writec( c: u8 ) {
+          unsafe {
+            asm! ( "mov r0, {0}\n svc 0", in(reg) c );
+          }
+        }</code>
+        
+        <code>#[unsafe(link_section = ".init")]
+        #[no_mangle]
+        #[unsafe(naked)]
+        pub extern "C" fn _start() {
+          naked_asm! (
+                 "mov r0, #0",
+              "\n mov r1, #0",
+              "\n mov r2, #0",
+              "\n mov r3, #0",
+              "\n svc 0x40",
+              "\n mov sp, r1",
+              "\n bl main",
+              "\n svc 0x11"
+              );
+        }</code></pre>
+        <p>It&#8217;s untested, but the object code appears correct:</p>
+        <pre><code>000000 e3a00000 e3a01000 e3a02000 e3a03000    Set r0-r3 to 0
+        000010 ef000040 e1a0d001 eb000003 ef000011    OS_ChangeEnvironment, set SP, call main, OS_Exit on return
+        000020 e1a00000 ef000000 e12fff1e e92d4800    writec r0 = c, OS_WriteC, return; main: push {fp, lr}
+        000030 e24dd008 e3a00048 ebfffff8 e3a00065    sub sp, sp, #8 (for no apparent reason), writec( 'H' 0x48 )
+        000040 ebfffff6 e3a0006c e58d0004 ebfffff3    writec( 'e' 0x65 ); writec( 'l' 0x6c ); ...
+        000050 e59d0004 ebfffff1 e3a0006f e58d0000
+        000060 ebffffee e3a00020 ebffffec e3a00077
+        000070 ebffffea e59d0000 ebffffe8 e3a00072
+        000080 ebffffe6 e59d0004 ebffffe4 e3a00064
+        000090 ebffffe2 e3a0000a ebffffe0 e28dd008    ... add sp, sp, #8
+        0000a0 e8bd8800 7fffff5c 00000001 7ffffff8    pop {fp, pc} (return); then 4 words .ARM.exidx
+        0000b0 00000001                                                      (whatever that is)</code></pre>
+        <p>I wonder if the language requires 16-byte stack alignment (it would explain the sp +/- 8).</p>
+        <p>It doesn&#8217;t run on a RiscPC, uses <code>bx lr</code> 0xe12fff1e.</p>]]>
+      </description>
+      <source:markdown>Found it!
+
+```
+rustc main.rs --target=armv7a-none-eabi -Clink-arg=--entry=_start -Clink-arg=-Tbaremetal.script
+```
+
+```
+arm-none-eabi-objcopy  -R .ignoring -O binary main main,ff8 &#38;&#38; od -t x4 -A x main,ff8
+```
+
+baremetal.script as above.
+
+main.rs:
+
+```
+#![no_std]
+#![no_main]
+
+use core::arch::asm;
+use core::arch::naked_asm;
+use core::panic::PanicInfo;
+
+// pub extern &#34;C&#34; to allow the naked asm to call main (with a stack).
+#[no_mangle]
+pub extern &#34;C&#34; fn main() {
+  writec( b&#39;H&#39; );
+  writec( b&#39;e&#39; );
+  writec( b&#39;l&#39; );
+  writec( b&#39;l&#39; );
+  writec( b&#39;o&#39; );
+  writec( b&#39; &#39; );
+  writec( b&#39;w&#39; );
+  writec( b&#39;o&#39; );
+  writec( b&#39;r&#39; );
+  writec( b&#39;l&#39; );
+  writec( b&#39;d&#39; );
+  writec( 10 );
+}
+
+#[panic_handler]
+fn panic_handler(_p: &#38;PanicInfo) -&#62; ! {
+  loop {};
+}
+
+fn writec( c: u8 ) {
+  unsafe {
+    asm! ( &#34;mov r0, {0}\n svc 0&#34;, in(reg) c );
+  }
+}
+
+#[unsafe(link_section = &#34;.init&#34;)]
+#[no_mangle]
+#[unsafe(naked)]
+pub extern &#34;C&#34; fn _start() {
+  naked_asm! (
+         &#34;mov r0, #0&#34;,
+      &#34;\n mov r1, #0&#34;,
+      &#34;\n mov r2, #0&#34;,
+      &#34;\n mov r3, #0&#34;,
+      &#34;\n svc 0x40&#34;,
+      &#34;\n mov sp, r1&#34;,
+      &#34;\n bl main&#34;,
+      &#34;\n svc 0x11&#34;
+      );
+}
+```
+
+It’s untested, but the object code appears correct:
+
+```
+000000 e3a00000 e3a01000 e3a02000 e3a03000    Set r0-r3 to 0
+000010 ef000040 e1a0d001 eb000003 ef000011    OS_ChangeEnvironment, set SP, call main, OS_Exit on return
+000020 e1a00000 ef000000 e12fff1e e92d4800    writec r0 = c, OS_WriteC, return; main: push {fp, lr}
+000030 e24dd008 e3a00048 ebfffff8 e3a00065    sub sp, sp, #8 (for no apparent reason), writec( &#39;H&#39; 0x48 )
+000040 ebfffff6 e3a0006c e58d0004 ebfffff3    writec( &#39;e&#39; 0x65 ); writec( &#39;l&#39; 0x6c ); ...
+000050 e59d0004 ebfffff1 e3a0006f e58d0000
+000060 ebffffee e3a00020 ebffffec e3a00077
+000070 ebffffea e59d0000 ebffffe8 e3a00072
+000080 ebffffe6 e59d0004 ebffffe4 e3a00064
+000090 ebffffe2 e3a0000a ebffffe0 e28dd008    ... add sp, sp, #8
+0000a0 e8bd8800 7fffff5c 00000001 7ffffff8    pop {fp, pc} (return); then 4 words .ARM.exidx
+0000b0 00000001                                                      (whatever that is)
+```
+
+I wonder if the language requires 16-byte stack alignment (it would explain the sp +/- 8).
+
+It doesn’t run on a RiscPC, uses `bx lr` 0xe12fff1e.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:16763:161331</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mcah6anec22j</link>
       <description>
         <![CDATA[One thing that gives me a sense of job security is how generally poor I find juniors to be at debugging. "This failed, I don't know why" is increasingly common, and when I ask "did you read the logs?" they often look blankly at me, like logs are some kind of esoteric grimoire...]]>
       </description>
       <source:markdown>One thing that gives me a sense of job security is how generally poor I find juniors to be at debugging. &#34;This failed, I don&#39;t know why&#34; is increasingly common, and when I ask &#34;did you read the logs?&#34; they often look blankly at me, like logs are some kind of esoteric grimoire...</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mcah6anec22j</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>I&#8217;m seeing a noticable difference in speed between the interpreter spork and non spork build of <span class="caps">RPCEMU</span> on both Intel and Apple Silicon.<br />
+        On Intel the recompiler version is about the same.</p>
+        <pre>
+        <code>
+        Interpreter Version
+        
+        Apple Silicon 0.9.5-spork
+        
+        Test                                                   Benchmark
+        Processor - Looped instructions (cache)                   202789     114%
+        Memory - Multiple register transfer                         7758    4788%
+        Rectangle Copy - Graphics acceleration test                 1812     748%
+        Icon Plotting - 16 colour sprite with mask                  5134     256%
+        Draw Path - Stroke narrow line                              1925     123%
+        Draw Fill - Plot filled shape                               2238     153%
+        Draw Render - Render draw file                              2549     281%
+        
+        Apple Silicon 0.9.99
+        
+        Test                                                   Benchmark
+        Processor - Looped instructions (cache)                   400217     225%
+        Memory - Multiple register transfer                        14122    8717%
+        Rectangle Copy - Graphics acceleration test                 3154    1303%
+        Icon Plotting - 16 colour sprite with mask                  8918     445%
+        Draw Path - Stroke narrow line                              3022     193%
+        Draw Fill - Plot filled shape                               3565     244%
+        Draw Render - Render draw file                              3937     434%
+        
+        Intel 0.9.5-spork
+        
+        Test                                                   Benchmark
+        Processor - Looped instructions (cache)                   164022      92%
+        Memory - Multiple register transfer                         4473    2761%
+        Rectangle Copy - Graphics acceleration test                 1147     473%
+        Icon Plotting - 16 colour sprite with mask                  3134     156%
+        Draw Path - Stroke narrow line                              1161      74%
+        Draw Fill - Plot filled shape                               1361      93%
+        Draw Render - Render draw file                              1531     168%
+        
+        Intel 0.9.99
+        
+        Test                                                   Benchmark
+        Processor - Looped instructions (cache)                   278744     156%
+        Memory - Multiple register transfer                         9937    6133%
+        Rectangle Copy - Graphics acceleration test                 2099     867%
+        Icon Plotting - 16 colour sprite with mask                  5669     283%
+        Draw Path - Stroke narrow line                              2163     138%
+        Draw Fill - Plot filled shape                               2649     181%
+        Draw Render - Render draw file                              2777     306%
+        
+        Recompiler Version
+        
+        Intel 0.9.5-spork
+        
+        Test                                                   Benchmark
+        Processor - Looped instructions (cache)                  3069859    1725%
+        Memory - Multiple register transfer                        33320   20567%
+        Rectangle Copy - Graphics acceleration test                 7327    3027%
+        Icon Plotting - 16 colour sprite with mask                 19403     970%
+        Draw Path - Stroke narrow line                              6327     405%
+        Draw Fill - Plot filled shape                               7371     505%
+        Draw Render - Render draw file                              7114     785%
+        
+        Intel 0.9.99
+        
+        Test                                                   Benchmark
+        Processor - Looped instructions (cache)                  3127688    1758%
+        Memory - Multiple register transfer                        37623   23224%
+        Rectangle Copy - Graphics acceleration test                 7652    3161%
+        Icon Plotting - 16 colour sprite with mask                 18538     926%
+        Draw Path - Stroke narrow line                              6247     400%
+        Draw Fill - Plot filled shape                               7710     528%
+        Draw Render - Render draw file                              7623     841%
+        </code>
+        </pre>]]>
+      </description>
+      <source:markdown>I’m seeing a noticable difference in speed between the interpreter spork and non spork build of RPCEMU on both Intel and Apple Silicon.
+
+On Intel the recompiler version is about the same.
+
+```
+
+Interpreter Version
+
+Apple Silicon 0.9.5-spork
+
+Test                                                   Benchmark
+Processor - Looped instructions (cache)                   202789     114%
+Memory - Multiple register transfer                         7758    4788%
+Rectangle Copy - Graphics acceleration test                 1812     748%
+Icon Plotting - 16 colour sprite with mask                  5134     256%
+Draw Path - Stroke narrow line                              1925     123%
+Draw Fill - Plot filled shape                               2238     153%
+Draw Render - Render draw file                              2549     281%
+
+Apple Silicon 0.9.99
+
+Test                                                   Benchmark
+Processor - Looped instructions (cache)                   400217     225%
+Memory - Multiple register transfer                        14122    8717%
+Rectangle Copy - Graphics acceleration test                 3154    1303%
+Icon Plotting - 16 colour sprite with mask                  8918     445%
+Draw Path - Stroke narrow line                              3022     193%
+Draw Fill - Plot filled shape                               3565     244%
+Draw Render - Render draw file                              3937     434%
+
+Intel 0.9.5-spork
+
+Test                                                   Benchmark
+Processor - Looped instructions (cache)                   164022      92%
+Memory - Multiple register transfer                         4473    2761%
+Rectangle Copy - Graphics acceleration test                 1147     473%
+Icon Plotting - 16 colour sprite with mask                  3134     156%
+Draw Path - Stroke narrow line                              1161      74%
+Draw Fill - Plot filled shape                               1361      93%
+Draw Render - Render draw file                              1531     168%
+
+Intel 0.9.99
+
+Test                                                   Benchmark
+Processor - Looped instructions (cache)                   278744     156%
+Memory - Multiple register transfer                         9937    6133%
+Rectangle Copy - Graphics acceleration test                 2099     867%
+Icon Plotting - 16 colour sprite with mask                  5669     283%
+Draw Path - Stroke narrow line                              2163     138%
+Draw Fill - Plot filled shape                               2649     181%
+Draw Render - Render draw file                              2777     306%
+
+Recompiler Version
+
+Intel 0.9.5-spork
+
+Test                                                   Benchmark
+Processor - Looped instructions (cache)                  3069859    1725%
+Memory - Multiple register transfer                        33320   20567%
+Rectangle Copy - Graphics acceleration test                 7327    3027%
+Icon Plotting - 16 colour sprite with mask                 19403     970%
+Draw Path - Stroke narrow line                              6327     405%
+Draw Fill - Plot filled shape                               7371     505%
+Draw Render - Render draw file                              7114     785%
+
+Intel 0.9.99
+
+Test                                                   Benchmark
+Processor - Looped instructions (cache)                  3127688    1758%
+Memory - Multiple register transfer                        37623   23224%
+Rectangle Copy - Graphics acceleration test                 7652    3161%
+Icon Plotting - 16 colour sprite with mask                 18538     926%
+Draw Path - Stroke narrow line                              6247     400%
+Draw Fill - Plot filled shape                               7710     528%
+Draw Render - Render draw file                              7623     841%
+
+```</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:161329</guid>
     </item>    <item>
       <title>&#38;#39;Mailbox is full&#38;#39; phishing puzzle</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20218</link>
@@ -83,20 +500,41 @@ inserted at my end. So no harm done. But is my diagnosis correct? Should I be wa
 [info@theworkshopseries.co.uk](mailto:info@theworkshopseries.co.uk) that his computer may have been compromised?</source:markdown>
       <guid>cid://www.riscosopen.org:11:20218:161326</guid>
     </item>    <item>
+      <title>Sharing Directories Between Windows 11 and RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20210</link>
+      <description>
+        <![CDATA[<p>For the record I used LanMan98.</p>]]>
+      </description>
+      <source:markdown>For the record I used LanMan98.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20210:161323</guid>
+    </item>    <item>
+      <title>Bluetooth development</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
+      <description>
+        <![CDATA[<p>That is also an option basicly there is already firmware in the pico ( specialist ) but I really aim for a more general BT stack. But it is method which is probably fast</p>]]>
+      </description>
+      <source:markdown>That is also an option basicly there is already firmware in the pico ( specialist ) but I really aim for a more general BT stack. But it is method which is probably fast</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20204:161321</guid>
+    </item>    <item>
+      <title>git switch not replacing files</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20214</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>The one the git client instructions are tested against lives in ! Boot.Resources.! Internet.bin</p>
+        </blockquote>
+        <p>There were two versions of ssh-keygen on my system. The one in ! Boot.Resources.! Internet.bin and one that was installed by the openssh package from !PackMan. After removing the latter it worked.</p>]]>
+      </description>
+      <source:markdown>&#62; The one the git client instructions are tested against lives in ! Boot.Resources.! Internet.bin
+
+There were two versions of ssh-keygen on my system. The one in ! Boot.Resources.! Internet.bin and one that was installed by the openssh package from !PackMan. After removing the latter it worked.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20214:161320</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mc65pguc5c25</link>
       <description>
         <![CDATA[Every time I look at the BBC Basic interpreter code a bug jumps out at me. Yet another “BBC Master International Character Sets Didn’t Make It To Basic” bug: [there’s so many]]]>
       </description>
       <source:markdown>Every time I look at the BBC Basic interpreter code a bug jumps out at me. Yet another “BBC Master International Character Sets Didn’t Make It To Basic” bug: \[there’s so many\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mc65pguc5c25</guid>
-    </item>    <item>
-      <title>Bluetooth development</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
-      <description>
-        <![CDATA[<p>Sorry for the what late reply but I&#8217;m working abroad so little time for <span class="caps">RISC</span>-OS ;-(</p>]]>
-      </description>
-      <source:markdown>Sorry for the what late reply but I’m working abroad so little time for RISC-OS ;-(</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20204:161316</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mc5zdj4rx22f</link>
       <description>
@@ -126,78 +564,6 @@ But I fixed it.</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mc5rt5exbc22</guid>
-    </item>    <item>
-      <title>Sharing Directories Between Windows 11 and RISC OS</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20210</link>
-      <description>
-        <![CDATA[<p>In this matter I contacted Barry Smith who kindly sent me the following advice.</p>
-        <p>&#8220;I would agree that enabling SMB1 is required.<br />
-        Have you checked&#8230;<br />
-        Settings &#8211; Network &amp; internet &#8211; advanced network settings -<br />
-           advanced sharing settings &#8211; network discovery ON,<br />
-           file and printer sharing ON<br />
-        Public networks &#8211; discovery and sharing both ON<br />
-        All networks &#8211; public folder sharing ON<br />
-                       password protected sharing <span class="caps">OFF</span>&#8221;</p>
-        <p>I checked the settings and found that &#8220;public folder sharing&#8221; was <span class="caps">OFF</span> and that &#8220;password protected sharing&#8221; was ON.  Reversing those two settings resulted in sharing working.</p>
-        <p>Thanks to the wonderful Barry Smith.</p>]]>
-      </description>
-      <source:markdown>In this matter I contacted Barry Smith who kindly sent me the following advice.
-
-“I would agree that enabling SMB1 is required.
-
-Have you checked…
-
-Settings – Network &#38; internet – advanced network settings -
-
-advanced sharing settings – network discovery ON,
-
-file and printer sharing ON
-
-Public networks – discovery and sharing both ON
-
-All networks – public folder sharing ON
-
-password protected sharing OFF”
-
-I checked the settings and found that “public folder sharing” was OFF and that “password protected sharing” was ON. Reversing those two settings resulted in sharing working.
-
-Thanks to the wonderful Barry Smith.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20210:161312</guid>
-    </item>    <item>
-      <title>git switch not replacing files</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20214</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Don’t know if that’s likely to be a similar issue with the git port as I had with svn</p>
-        </blockquote>
-        <p>No, that was not it. I have !UnixHome not installed.</p>
-        <blockquote>
-        <p>From the desktop client, you can do iconbar menu → Choices</p>
-        </blockquote>
-        <p>I have already set those. But these are not used for the authentication when you do a push or pull. I might have to use an access token.</p>]]>
-      </description>
-      <source:markdown>&#62; Don’t know if that’s likely to be a similar issue with the git port as I had with svn
-
-No, that was not it. I have !UnixHome not installed.
-
-&#62; From the desktop client, you can do iconbar menu → Choices
-
-I have already set those. But these are not used for the authentication when you do a push or pull. I might have to use an access token.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20214:161309</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>A large text file, Zap’s !Help, was tried. That came back corrupted from the share, with a large block of zeros replacing text near the end of the file.</p>
-        </blockquote>
-        <p>A debug log of a write failure is <a href="https://homepages.plus.net/pittdj/rool26/accessDBG.zip">here.</a> The file to be written to the share is !Help2 of size 245310, which is Zap&#8217;s !Help renamed. The corruption is almost at the end of the file. Original and corrupted copies of the file are also in the zip.</p>]]>
-      </description>
-      <source:markdown>&#62; A large text file, Zap’s !Help, was tried. That came back corrupted from the share, with a large block of zeros replacing text near the end of the file.
-
-A debug log of a write failure is [here.](https://homepages.plus.net/pittdj/rool26/accessDBG.zip) The file to be written to the share is !Help2 of size 245310, which is Zap’s !Help renamed. The corruption is almost at the end of the file. Original and corrupted copies of the file are also in the zip.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:161307</guid>
     </item>    <item>
       <title>Live Coding with Gerph, Sunday 11th January at 1pm UK time.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20216</link>
@@ -1108,14 +1474,6 @@ I guess I’ve taken the cup half empty view of the situation opposed to the atl
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mbfu3fk2hs2z</guid>
-    </item>    <item>
-      <title>rustc, ELF, ld...</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/16763</link>
-      <description>
-        <![CDATA[<p>Did anyone make any progress on getting Rust working further? I haven&#8217;t tried yet, but did have a go at creating an OSLib interface in Rust, based on Gerph&#8217;s defmod parser. The changes are in  <a href="https://github.com/gerph/riscos64-oslib">https://github.com/gerph/riscos64-oslib</a> if anyone is interested.</p>]]>
-      </description>
-      <source:markdown>Did anyone make any progress on getting Rust working further? I haven’t tried yet, but did have a go at creating an OSLib interface in Rust, based on Gerph’s defmod parser. The changes are in [https://github.com/gerph/riscos64-oslib](https://github.com/gerph/riscos64-oslib) if anyone is interested.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:16763:161131</guid>
     </item>    <item>
       <title>List of modules in C</title>
       <link>https://www.riscosopen.org/forum/forums/13/topics/20164</link>
@@ -2173,14 +2531,6 @@ https://youtu.be/FzmeG8u4oqU</source:markdown>
       </description>
       <source:markdown>Just to say thank you, Coming from using a Raspi Pi 4 using Risc OS on a SD card. I have received my Chimera box and RISC OS is certainly blazing fast and zippy on a NVME drive. Apps like Netsurf just browse pages like a snap of the finger and playing Doom is very buttery smooth. :-D, Merry Christmas.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20169:160747</guid>
-    </item>    <item>
-      <title>Clarity Theme ko-fi</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20137</link>
-      <description>
-        <![CDATA[<p>Just downloaded and installed the clarity theme on my new Christmas Cracker Chimera <span class="caps">RISC</span> OS box and yes, it is really nice and clean, I am liking the new theme so far. Keep it up. Looking forward to the next version. Merry Christmas.</p>]]>
-      </description>
-      <source:markdown>Just downloaded and installed the clarity theme on my new Christmas Cracker Chimera RISC OS box and yes, it is really nice and clean, I am liking the new theme so far. Keep it up. Looking forward to the next version. Merry Christmas.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20137:160740</guid>
     </item>    <item>
       <title>CRamFS</title>
       <link>https://www.riscosopen.org/forum/forums/3/topics/17019</link>
