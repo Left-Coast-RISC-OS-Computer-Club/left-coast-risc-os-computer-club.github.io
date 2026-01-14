@@ -7,10 +7,56 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>13 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>14 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>RiscPCB Version 1.02</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/3590</link>
+      <description>
+        <![CDATA[<p>Did anyone put Terry&#8217;s demo on their site?</p>]]>
+      </description>
+      <source:markdown>Did anyone put Terry’s demo on their site?</source:markdown>
+      <guid>cid://www.riscosopen.org:1:3590:161360</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mcfcplyp6k2x</link>
+      <description>
+        <![CDATA[Not my house but I know my way around
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Not my house but I know my way around
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mcfcplyp6k2x</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mcexjkldoc2p</link>
+      <description>
+        <![CDATA[Gemini continues to impress me with its deep and accurate RISC OS knowledge. 🤭]]>
+      </description>
+      <source:markdown>Gemini continues to impress me with its deep and accurate RISC OS knowledge. 🤭</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mcexjkldoc2p</guid>
+    </item>    <item>
+      <title>ROUGOL Meeting on Monday 19th Jan 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20221</link>
+      <description>
+        <![CDATA[<p><span class="caps">SUBJECT</span>: 	  	Multi headed systems</p>
+        <p>This month Chris Hall will be Zooming in to show off his multiple heads. He has been experimenting with an R-Comp Hydra system, with two heads running <span class="caps">RISC</span> OS and a third with Linux.</p>
+        <p>He will be describing how well the new Hydra works, why he wanted multiple heads, how each head is configured, and how the system as a whole performs in use. He will expand on his article in the latest Archive, with a digression about <span class="caps">RDP</span> versus <span class="caps">VNC</span> for connecting between heads.</p>
+        <p>There should be time to look at some of his software &#8211; such as RingBind, Cat, DrawDis and Locking, all of which make use of MakeDraw. He will demonstrate how to make subtle changes to Draw files that aren&#8217;t possible in Draw, by disassembling them using MultiTask and recreating them using MakeDraw after some subtle edits.</p>
+        <p>@Bryan your email at helpful demon co uk is not responding. Is Thur evening OK for a practice run please.</p>]]>
+      </description>
+      <source:markdown>SUBJECT: Multi headed systems
+
+This month Chris Hall will be Zooming in to show off his multiple heads. He has been experimenting with an R-Comp Hydra system, with two heads running RISC OS and a third with Linux.
+
+He will be describing how well the new Hydra works, why he wanted multiple heads, how each head is configured, and how the system as a whole performs in use. He will expand on his article in the latest Archive, with a digression about RDP versus VNC for connecting between heads.
+
+There should be time to look at some of his software – such as RingBind, Cat, DrawDis and Locking, all of which make use of MakeDraw. He will demonstrate how to make subtle changes to Draw files that aren’t possible in Draw, by disassembling them using MultiTask and recreating them using MakeDraw after some subtle edits.
+
+@Bryan your email at helpful demon co uk is not responding. Is Thur evening OK for a practice run please.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20221:161357</guid>
+    </item>    <item>
       <title>Updating Submenu Dialogue Boxes</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20220</link>
       <description>
@@ -44,6 +90,22 @@ Is there any way to achieve what I’m trying to do? Or is it a case of “I wou
 
 I&#39;ll send you a new version of !RMA.</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mcd7n2nzas2c</guid>
+    </item>    <item>
+      <title>git switch not replacing files</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20214</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>So I imagine your need to update the equivalent of ~/.ssh/known_hosts</p>
+        </blockquote>
+        <p>I have tried this in both Choices:<span class="caps">WWW</span>. and Choices:ssh. but this did not help</p>
+        <p>anayway thanks for the sugestions</p>]]>
+      </description>
+      <source:markdown>&#62; So I imagine your need to update the equivalent of ~/.ssh/known\_hosts
+
+I have tried this in both Choices:WWW. and Choices:ssh. but this did not help
+
+anayway thanks for the sugestions</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20214:161342</guid>
     </item>    <item>
       <title>Clarity Theme ko-fi</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20137</link>
@@ -92,6 +154,22 @@ This release includes iconsprites for the ROM apps, as well as sprites for their
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3mcc3c22jn22z</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>For those not keeping up at the back, what the hell is a “spork” or “non spork” build?</p>
+        </blockquote>
+        <p>It&#8217;s not a fork :-)</p>
+        <p>Can I request that this thread be split out into a separate thread for each topic with a meaningful title? It&#8217;s a mess at the moment.</p>]]>
+      </description>
+      <source:markdown>&#62; For those not keeping up at the back, what the hell is a “spork” or “non spork” build?
+
+It’s not a fork :-)
+
+Can I request that this thread be split out into a separate thread for each topic with a meaningful title? It’s a mess at the moment.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:161336</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mcbgxry4v222</link>
       <description>
@@ -277,164 +355,6 @@ It doesn’t run on a RiscPC, uses `bx lr` 0xe12fff1e.</source:markdown>
       <source:markdown>One thing that gives me a sense of job security is how generally poor I find juniors to be at debugging. &#34;This failed, I don&#39;t know why&#34; is increasingly common, and when I ask &#34;did you read the logs?&#34; they often look blankly at me, like logs are some kind of esoteric grimoire...</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mcah6anec22j</guid>
     </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>I&#8217;m seeing a noticable difference in speed between the interpreter spork and non spork build of <span class="caps">RPCEMU</span> on both Intel and Apple Silicon.<br />
-        On Intel the recompiler version is about the same.</p>
-        <pre>
-        <code>
-        Interpreter Version
-        
-        Apple Silicon 0.9.5-spork
-        
-        Test                                                   Benchmark
-        Processor - Looped instructions (cache)                   202789     114%
-        Memory - Multiple register transfer                         7758    4788%
-        Rectangle Copy - Graphics acceleration test                 1812     748%
-        Icon Plotting - 16 colour sprite with mask                  5134     256%
-        Draw Path - Stroke narrow line                              1925     123%
-        Draw Fill - Plot filled shape                               2238     153%
-        Draw Render - Render draw file                              2549     281%
-        
-        Apple Silicon 0.9.99
-        
-        Test                                                   Benchmark
-        Processor - Looped instructions (cache)                   400217     225%
-        Memory - Multiple register transfer                        14122    8717%
-        Rectangle Copy - Graphics acceleration test                 3154    1303%
-        Icon Plotting - 16 colour sprite with mask                  8918     445%
-        Draw Path - Stroke narrow line                              3022     193%
-        Draw Fill - Plot filled shape                               3565     244%
-        Draw Render - Render draw file                              3937     434%
-        
-        Intel 0.9.5-spork
-        
-        Test                                                   Benchmark
-        Processor - Looped instructions (cache)                   164022      92%
-        Memory - Multiple register transfer                         4473    2761%
-        Rectangle Copy - Graphics acceleration test                 1147     473%
-        Icon Plotting - 16 colour sprite with mask                  3134     156%
-        Draw Path - Stroke narrow line                              1161      74%
-        Draw Fill - Plot filled shape                               1361      93%
-        Draw Render - Render draw file                              1531     168%
-        
-        Intel 0.9.99
-        
-        Test                                                   Benchmark
-        Processor - Looped instructions (cache)                   278744     156%
-        Memory - Multiple register transfer                         9937    6133%
-        Rectangle Copy - Graphics acceleration test                 2099     867%
-        Icon Plotting - 16 colour sprite with mask                  5669     283%
-        Draw Path - Stroke narrow line                              2163     138%
-        Draw Fill - Plot filled shape                               2649     181%
-        Draw Render - Render draw file                              2777     306%
-        
-        Recompiler Version
-        
-        Intel 0.9.5-spork
-        
-        Test                                                   Benchmark
-        Processor - Looped instructions (cache)                  3069859    1725%
-        Memory - Multiple register transfer                        33320   20567%
-        Rectangle Copy - Graphics acceleration test                 7327    3027%
-        Icon Plotting - 16 colour sprite with mask                 19403     970%
-        Draw Path - Stroke narrow line                              6327     405%
-        Draw Fill - Plot filled shape                               7371     505%
-        Draw Render - Render draw file                              7114     785%
-        
-        Intel 0.9.99
-        
-        Test                                                   Benchmark
-        Processor - Looped instructions (cache)                  3127688    1758%
-        Memory - Multiple register transfer                        37623   23224%
-        Rectangle Copy - Graphics acceleration test                 7652    3161%
-        Icon Plotting - 16 colour sprite with mask                 18538     926%
-        Draw Path - Stroke narrow line                              6247     400%
-        Draw Fill - Plot filled shape                               7710     528%
-        Draw Render - Render draw file                              7623     841%
-        </code>
-        </pre>]]>
-      </description>
-      <source:markdown>I’m seeing a noticable difference in speed between the interpreter spork and non spork build of RPCEMU on both Intel and Apple Silicon.
-
-On Intel the recompiler version is about the same.
-
-```
-
-Interpreter Version
-
-Apple Silicon 0.9.5-spork
-
-Test                                                   Benchmark
-Processor - Looped instructions (cache)                   202789     114%
-Memory - Multiple register transfer                         7758    4788%
-Rectangle Copy - Graphics acceleration test                 1812     748%
-Icon Plotting - 16 colour sprite with mask                  5134     256%
-Draw Path - Stroke narrow line                              1925     123%
-Draw Fill - Plot filled shape                               2238     153%
-Draw Render - Render draw file                              2549     281%
-
-Apple Silicon 0.9.99
-
-Test                                                   Benchmark
-Processor - Looped instructions (cache)                   400217     225%
-Memory - Multiple register transfer                        14122    8717%
-Rectangle Copy - Graphics acceleration test                 3154    1303%
-Icon Plotting - 16 colour sprite with mask                  8918     445%
-Draw Path - Stroke narrow line                              3022     193%
-Draw Fill - Plot filled shape                               3565     244%
-Draw Render - Render draw file                              3937     434%
-
-Intel 0.9.5-spork
-
-Test                                                   Benchmark
-Processor - Looped instructions (cache)                   164022      92%
-Memory - Multiple register transfer                         4473    2761%
-Rectangle Copy - Graphics acceleration test                 1147     473%
-Icon Plotting - 16 colour sprite with mask                  3134     156%
-Draw Path - Stroke narrow line                              1161      74%
-Draw Fill - Plot filled shape                               1361      93%
-Draw Render - Render draw file                              1531     168%
-
-Intel 0.9.99
-
-Test                                                   Benchmark
-Processor - Looped instructions (cache)                   278744     156%
-Memory - Multiple register transfer                         9937    6133%
-Rectangle Copy - Graphics acceleration test                 2099     867%
-Icon Plotting - 16 colour sprite with mask                  5669     283%
-Draw Path - Stroke narrow line                              2163     138%
-Draw Fill - Plot filled shape                               2649     181%
-Draw Render - Render draw file                              2777     306%
-
-Recompiler Version
-
-Intel 0.9.5-spork
-
-Test                                                   Benchmark
-Processor - Looped instructions (cache)                  3069859    1725%
-Memory - Multiple register transfer                        33320   20567%
-Rectangle Copy - Graphics acceleration test                 7327    3027%
-Icon Plotting - 16 colour sprite with mask                 19403     970%
-Draw Path - Stroke narrow line                              6327     405%
-Draw Fill - Plot filled shape                               7371     505%
-Draw Render - Render draw file                              7114     785%
-
-Intel 0.9.99
-
-Test                                                   Benchmark
-Processor - Looped instructions (cache)                  3127688    1758%
-Memory - Multiple register transfer                        37623   23224%
-Rectangle Copy - Graphics acceleration test                 7652    3161%
-Icon Plotting - 16 colour sprite with mask                 18538     926%
-Draw Path - Stroke narrow line                              6247     400%
-Draw Fill - Plot filled shape                               7710     528%
-Draw Render - Render draw file                              7623     841%
-
-```</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:161329</guid>
-    </item>    <item>
       <title>&#38;#39;Mailbox is full&#38;#39; phishing puzzle</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20218</link>
       <description>
@@ -515,19 +435,6 @@ inserted at my end. So no harm done. But is my diagnosis correct? Should I be wa
       </description>
       <source:markdown>That is also an option basicly there is already firmware in the pico ( specialist ) but I really aim for a more general BT stack. But it is method which is probably fast</source:markdown>
       <guid>cid://www.riscosopen.org:5:20204:161321</guid>
-    </item>    <item>
-      <title>git switch not replacing files</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20214</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>The one the git client instructions are tested against lives in ! Boot.Resources.! Internet.bin</p>
-        </blockquote>
-        <p>There were two versions of ssh-keygen on my system. The one in ! Boot.Resources.! Internet.bin and one that was installed by the openssh package from !PackMan. After removing the latter it worked.</p>]]>
-      </description>
-      <source:markdown>&#62; The one the git client instructions are tested against lives in ! Boot.Resources.! Internet.bin
-
-There were two versions of ssh-keygen on my system. The one in ! Boot.Resources.! Internet.bin and one that was installed by the openssh package from !PackMan. After removing the latter it worked.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20214:161320</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mc65pguc5c25</link>
       <description>
