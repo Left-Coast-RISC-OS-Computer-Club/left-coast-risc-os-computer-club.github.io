@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.18" >
-  <meta name="date" content="2026-01-14T12:00:32-08:00" >
-  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
+  <meta name="date" content="2026-01-15T12:00:20-08:00" >
+  <link type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" >
 </head>
 <body>
   <header>
@@ -19,6 +19,94 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-01-15T12:37:20Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20138">
+      <h1>Modern Frosted Theme</h1>
+
+(date: 2026-01-15)
+      <p>
+      <p>Frosted and ROM based Frosted can now be downloaded from <a href="http://www.riscos7.co.uk">www.riscos7.co.uk</a> Currently for Pi4 and Softload Titanium, Iyonix and IOMD Variants will follow in the next couple of weeks. With ROM Based Versions it replaces the default Sovereign Sprite set with the modern frosted set, and there is an included HardDisc4 Image with the complete theme and iconset for all Configure Icons. Slighlty Revamped Visuals to Taskmanager, Filer etc, to match the theme set.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20138">https://www.riscosopen.org/forum/forums/1/topics/20138</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-14T21:53:36Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/16763">
+      <h1>rustc, ELF, ld...</h1>
+
+(date: 2026-01-14)
+      <p>
+      <p>Posting an incorrect statement on the internet wins again! Thanks @Piers.</p>
+<p>With <code>-C opt-level=3</code> there’s no stack used at all, even if I make the code a little more practical. There are a lot of nops, because the parameter to writec is already in r0.</p>
+<p>@Paolo, When I try to install with rustup target add armv4t-none-eabi I get</p>
+<blockquote>
+<p>error: toolchain ‘stable-x86_64-unknown-linux-gnu’ does not support target ‘armv4t-none-eabi’; did you mean ‘armv7a-none-eabi’?</p>
+</blockquote>
+<pre><code>#![no_std]
+#![no_main]
+
+use core::arch::asm;
+use core::arch::naked_asm;
+use core::panic::PanicInfo;
+
+// pub extern &quot;C&quot; to allow the naked asm to call main (with a stack).
+#[no_mangle]
+pub extern &quot;C&quot; fn main() {
+  for c in &quot;Hello world!\n&quot;.bytes() {
+    writec( c );
+  }
+}
+
+#[panic_handler]
+fn panic_handler(_p: &amp;PanicInfo) -&gt; ! {
+  loop {};
+}
+
+fn writec( c: u8 ) {
+  unsafe {
+    asm! ( &quot;mov r0, {0}\n svc 0&quot;, in(reg) c );
+  }
+}
+
+#[unsafe(link_section = &quot;.init&quot;)]
+#[no_mangle]
+#[unsafe(naked)]
+pub extern &quot;C&quot; fn _start() {
+  naked_asm! (
+         &quot;mov r0, #0&quot;,
+      &quot;\n mov r1, #0&quot;,
+      &quot;\n mov r2, #0&quot;,
+      &quot;\n mov r3, #0&quot;,
+      &quot;\n svc 0x40&quot;,
+      &quot;\n mov sp, r1&quot;,
+      &quot;\n bl main&quot;,
+      &quot;\n svc 0x11&quot;
+      );
+}
+</code></pre>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/16763">https://www.riscosopen.org/forum/forums/11/topics/16763</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-14T20:11:20Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20222">
+      <h1>Gareth McCaughan&#39;s `mkdrawf`/`decdrawf` tools on GitHub</h1>
+
+(date: 2026-01-14)
+      <p>
+      <p>Hiya,</p>
+<p>I’ve made a copy of Gareth McCaughan’s `mkdrawf` and `decdrawf` tools available through GitHub. These are nice command line tools for creating DrawFiles from a text file, and convert them back again.</p>
+<p>This is (essentially) a re-release of Gareth’s programs which haven’t been touched in a while – I was looking to create something that would be able to convert Drawfiles into something textual, on Ubuntu/macOS, and these did the job.</p>
+<p>Releases are available for RISC OS and Ubuntu.</p>
+<p>You can find the tools here: <a href="https://github.com/gerph/garethmccaughan-mkdrawf">https://github.com/gerph/garethmccaughan-mkdrawf</a></p>
+<p>And the release binaries are here: <a href="https://github.com/gerph/garethmccaughan-mkdrawf/releases">https://github.com/gerph/garethmccaughan-mkdrawf/relea…</a></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20222">https://www.riscosopen.org/forum/forums/1/topics/20222</a>
+      </address>
+    </article>
 
     <article data-published="2026-01-14T18:47:32Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/3590">
       <h1>RiscPCB Version 1.02</h1>
@@ -57,6 +145,21 @@
       </address>
     </article>
 
+    <article data-published="2026-01-14T08:47:36Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20137">
+      <h1>Clarity Theme ko-fi</h1>
+
+(date: 2026-01-14)
+      <p>
+      <p>Thanks for <a href="https://lym.iconbar.com/downloads/clarity5.zip">Clarity5,</a> the ROM Apps and Resources icons are very ‘clear’. 😀</p>
+<p>One minor point.</p>
+<p>Given that this is work in progress requiring Theme icons not to be protected I do see one omission. The HTML, file_faf, icon is not yet in Clarity but it is not in the ROM icons either, nor do browsers provide one. HTML files appear as a blank rectangle.</p>
+<p>Otherwise it’s good.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20137">https://www.riscosopen.org/forum/forums/1/topics/20137</a>
+      </address>
+    </article>
+
     <article data-published="2026-01-14T03:24:10Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20221">
       <h1>ROUGOL Meeting on Monday 19th Jan 2026</h1>
 
@@ -70,6 +173,19 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20221">https://www.riscosopen.org/forum/forums/1/topics/20221</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-13T22:15:02Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20219">
+      <h1>Paint sprite dragging</h1>
+
+(date: 2026-01-13)
+      <p>
+      <p>Ok, so it’s an option. It’s still stupid, because it means that you’re going to get crashes unless the theme author is continually keeping up with what is in the ROM. The user is forced to choose between turning an option on and having crashes when they upgrade or at random times because a theme author missed something. If a given user who was using one theme happily switches to another that they downloaded, the system may crash in odd places just because a sprite was missing in the older theme.</p>
+<p>There’s really no justification for that sort of behaviour. If someone can explain why an option which is actively dangerous to unaware users exists, I’d love to hear it, but I genuinely cannot think of one.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/4/topics/20219">https://www.riscosopen.org/forum/forums/4/topics/20219</a>
       </address>
     </article>
 
@@ -119,19 +235,6 @@
       </address>
     </article>
 
-    <article data-published="2026-01-13T12:54:50Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20137">
-      <h1>Clarity Theme ko-fi</h1>
-
-(date: 2026-01-13)
-      <p>
-      <p>There’s another test release of the Clarity desktop theme <a href="https://lym.iconbar.com/downloads/clarity5.zip">here</a>.</p>
-<p>This release includes iconsprites for the ROM apps, as well as sprites for their iconised files. It also includes iconsprites for most of the !Boot apps, such as !System, etc. It adds some pointer sprites missed from the last release, and makes some minor edits to some existing sprites. The next release will cover Configure. Any feedback welcome – this is still very much in development.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20137">https://www.riscosopen.org/forum/forums/1/topics/20137</a>
-      </address>
-    </article>
-
     <article data-published="2026-01-13T10:56:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mccffr2hvc2r">
       <h1>@colinhoad.com</h1>
 
@@ -154,18 +257,6 @@
 
       <address>
         <a href="https://bsky.app/profile/colinhoad.com/post/3mccavb3ofc2r">https://bsky.app/profile/colinhoad.com/post/3mccavb3ofc2r</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-13T09:28:41Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20219">
-      <h1>Paint sprite dragging</h1>
-
-(date: 2026-01-13)
-      <p>
-      <p>Just discovered something in Paint 2.59, RO5.31, 14 Dec 2025. If I open a sprite file window, then try to drag one of the sprites to another window, I get an error saying <code>SpriteExtend: Sprite Doesn't Exist</code>, and Paint quits. If I click menu over the sprite, and use the Save dialogue, then the drag works fine. This is odd, as I’ve been using Paint very extensively over the last few weeks, also the latest version I think, and I haven’t come across this before. Can anyone else see this?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/4/topics/20219">https://www.riscosopen.org/forum/forums/4/topics/20219</a>
       </address>
     </article>
 
@@ -219,91 +310,6 @@
 
       <address>
         <a href="https://bsky.app/profile/colinhoad.com/post/3mcazqkzljs2c">https://bsky.app/profile/colinhoad.com/post/3mcazqkzljs2c</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-12T20:05:08Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/16763">
-      <h1>rustc, ELF, ld...</h1>
-
-(date: 2026-01-12)
-      <p>
-      <p>Found it!</p>
-<pre><code>rustc main.rs --target=armv7a-none-eabi -Clink-arg=--entry=_start -Clink-arg=-Tbaremetal.script
-</code></pre>
-<pre><code>arm-none-eabi-objcopy  -R .ignoring -O binary main main,ff8 &amp;&amp; od -t x4 -A x main,ff8
-</code></pre>
-<p>baremetal.script as above.</p>
-<p>main.rs:</p>
-<pre><code>#![no_std]
-#![no_main]
-
-use core::arch::asm;
-use core::arch::naked_asm;
-use core::panic::PanicInfo;
-
-// pub extern &quot;C&quot; to allow the naked asm to call main (with a stack).
-#[no_mangle]
-pub extern &quot;C&quot; fn main() {
-  writec( b'H' );
-  writec( b'e' );
-  writec( b'l' );
-  writec( b'l' );
-  writec( b'o' );
-  writec( b' ' );
-  writec( b'w' );
-  writec( b'o' );
-  writec( b'r' );
-  writec( b'l' );
-  writec( b'd' );
-  writec( 10 );
-}
-
-#[panic_handler]
-fn panic_handler(_p: &amp;PanicInfo) -&gt; ! {
-  loop {};
-}
-
-fn writec( c: u8 ) {
-  unsafe {
-    asm! ( &quot;mov r0, {0}\n svc 0&quot;, in(reg) c );
-  }
-}
-
-#[unsafe(link_section = &quot;.init&quot;)]
-#[no_mangle]
-#[unsafe(naked)]
-pub extern &quot;C&quot; fn _start() {
-  naked_asm! (
-         &quot;mov r0, #0&quot;,
-      &quot;\n mov r1, #0&quot;,
-      &quot;\n mov r2, #0&quot;,
-      &quot;\n mov r3, #0&quot;,
-      &quot;\n svc 0x40&quot;,
-      &quot;\n mov sp, r1&quot;,
-      &quot;\n bl main&quot;,
-      &quot;\n svc 0x11&quot;
-      );
-}
-</code></pre>
-<p>It’s untested, but the object code appears correct:</p>
-<pre><code>000000 e3a00000 e3a01000 e3a02000 e3a03000    Set r0-r3 to 0
-000010 ef000040 e1a0d001 eb000003 ef000011    OS_ChangeEnvironment, set SP, call main, OS_Exit on return
-000020 e1a00000 ef000000 e12fff1e e92d4800    writec r0 = c, OS_WriteC, return; main: push {fp, lr}
-000030 e24dd008 e3a00048 ebfffff8 e3a00065    sub sp, sp, #8 (for no apparent reason), writec( 'H' 0x48 )
-000040 ebfffff6 e3a0006c e58d0004 ebfffff3    writec( 'e' 0x65 ); writec( 'l' 0x6c ); ...
-000050 e59d0004 ebfffff1 e3a0006f e58d0000
-000060 ebffffee e3a00020 ebffffec e3a00077
-000070 ebffffea e59d0000 ebffffe8 e3a00072
-000080 ebffffe6 e59d0004 ebffffe4 e3a00064
-000090 ebffffe2 e3a0000a ebffffe0 e28dd008    ... add sp, sp, #8
-0000a0 e8bd8800 7fffff5c 00000001 7ffffff8    pop {fp, pc} (return); then 4 words .ARM.exidx
-0000b0 00000001                                                      (whatever that is)
-</code></pre>
-<p>I wonder if the language requires 16-byte stack alignment (it would explain the sp +/- 8).</p>
-<p>It doesn’t run on a RiscPC, uses <code>bx lr</code> 0xe12fff1e.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/16763">https://www.riscosopen.org/forum/forums/11/topics/16763</a>
       </address>
     </article>
 
@@ -890,18 +896,6 @@ pub extern &quot;C&quot; fn _start() {
 
       <address>
         <a href="https://bsky.app/profile/armbytes.bsky.social/post/3mbrscvj46s2v">https://bsky.app/profile/armbytes.bsky.social/post/3mbrscvj46s2v</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-06T16:52:02Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20138">
-      <h1>Modern Frosted Theme</h1>
-
-(date: 2026-01-06)
-      <p>
-      <p>The screenshot of your desktop Marin looks certainly different from the norm. I must admit I do like the experientation people go into customzing their desktops. Just to ask about the frosted theme, what version or release it is currently on just now? Also is there a direct link to the source of your themes to keep tabs of your latest updated themes? Thank you.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20138">https://www.riscosopen.org/forum/forums/1/topics/20138</a>
       </address>
     </article>
 

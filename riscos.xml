@@ -7,10 +7,145 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>14 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>15 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Modern Frosted Theme</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
+      <description>
+        <![CDATA[<p>Frosted and <span class="caps">ROM</span> based Frosted can now be downloaded from <a href="http://www.riscos7.co.uk">www.riscos7.co.uk</a> Currently for Pi4 and Softload Titanium, Iyonix and <span class="caps">IOMD</span> Variants will follow in the next couple of weeks. With <span class="caps">ROM</span> Based Versions it replaces the default Sovereign Sprite set with the modern frosted set, and there is an included HardDisc4 Image with the complete theme and iconset for all Configure Icons. Slighlty Revamped Visuals to Taskmanager, Filer etc, to match the theme set.</p>]]>
+      </description>
+      <source:markdown>Frosted and ROM based Frosted can now be downloaded from [www.riscos7.co.uk](http://www.riscos7.co.uk) Currently for Pi4 and Softload Titanium, Iyonix and IOMD Variants will follow in the next couple of weeks. With ROM Based Versions it replaces the default Sovereign Sprite set with the modern frosted set, and there is an included HardDisc4 Image with the complete theme and iconset for all Configure Icons. Slighlty Revamped Visuals to Taskmanager, Filer etc, to match the theme set.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20138:161378</guid>
+    </item>    <item>
+      <title>rustc, ELF, ld...</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/16763</link>
+      <description>
+        <![CDATA[<p>Posting an incorrect statement on the internet wins again! Thanks @Piers.</p>
+        <p>With <code>-C opt-level=3</code> there&#8217;s no stack used at all, even if I make the code a little more practical. There are a lot of nops, because the parameter to writec is already in r0.</p>
+        <p>@Paolo, When I try to install with rustup target add armv4t-none-eabi I get</p>
+        <blockquote>
+        <p>error: toolchain &#8216;stable-x86_64-unknown-linux-gnu&#8217; does not support target &#8216;armv4t-none-eabi&#8217;; did you mean &#8216;armv7a-none-eabi&#8217;?</p>
+        </blockquote>
+        <pre><code>#![no_std]
+        #![no_main]</code>
+        
+        <code>use core::arch::asm;
+        use core::arch::naked_asm;
+        use core::panic::PanicInfo;</code>
+        
+        <code>// pub extern "C" to allow the naked asm to call main (with a stack).
+        #[no_mangle]
+        pub extern "C" fn main() {
+          for c in "Hello world!\n".bytes() {
+            writec( c );
+          }
+        }</code>
+        
+        <code>#[panic_handler]
+        fn panic_handler(_p: &amp;PanicInfo) -&gt; ! {
+          loop {};
+        }</code>
+        
+        <code>fn writec( c: u8 ) {
+          unsafe {
+            asm! ( "mov r0, {0}\n svc 0", in(reg) c );
+          }
+        }</code>
+        
+        <code>#[unsafe(link_section = ".init")]
+        #[no_mangle]
+        #[unsafe(naked)]
+        pub extern "C" fn _start() {
+          naked_asm! (
+                 "mov r0, #0",
+              "\n mov r1, #0",
+              "\n mov r2, #0",
+              "\n mov r3, #0",
+              "\n svc 0x40",
+              "\n mov sp, r1",
+              "\n bl main",
+              "\n svc 0x11"
+              );
+        }</code></pre>]]>
+      </description>
+      <source:markdown>Posting an incorrect statement on the internet wins again! Thanks @Piers.
+
+With `-C opt-level=3` there’s no stack used at all, even if I make the code a little more practical. There are a lot of nops, because the parameter to writec is already in r0.
+
+@Paolo, When I try to install with rustup target add armv4t-none-eabi I get
+
+&#62; error: toolchain ‘stable-x86\_64-unknown-linux-gnu’ does not support target ‘armv4t-none-eabi’; did you mean ‘armv7a-none-eabi’?
+
+```
+#![no_std]
+#![no_main]
+
+use core::arch::asm;
+use core::arch::naked_asm;
+use core::panic::PanicInfo;
+
+// pub extern &#34;C&#34; to allow the naked asm to call main (with a stack).
+#[no_mangle]
+pub extern &#34;C&#34; fn main() {
+  for c in &#34;Hello world!\n&#34;.bytes() {
+    writec( c );
+  }
+}
+
+#[panic_handler]
+fn panic_handler(_p: &#38;PanicInfo) -&#62; ! {
+  loop {};
+}
+
+fn writec( c: u8 ) {
+  unsafe {
+    asm! ( &#34;mov r0, {0}\n svc 0&#34;, in(reg) c );
+  }
+}
+
+#[unsafe(link_section = &#34;.init&#34;)]
+#[no_mangle]
+#[unsafe(naked)]
+pub extern &#34;C&#34; fn _start() {
+  naked_asm! (
+         &#34;mov r0, #0&#34;,
+      &#34;\n mov r1, #0&#34;,
+      &#34;\n mov r2, #0&#34;,
+      &#34;\n mov r3, #0&#34;,
+      &#34;\n svc 0x40&#34;,
+      &#34;\n mov sp, r1&#34;,
+      &#34;\n bl main&#34;,
+      &#34;\n svc 0x11&#34;
+      );
+}
+```</source:markdown>
+      <guid>cid://www.riscosopen.org:11:16763:161362</guid>
+    </item>    <item>
+      <title>Gareth McCaughan&#38;#39;s `mkdrawf`/`decdrawf` tools on GitHub</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20222</link>
+      <description>
+        <![CDATA[<p>Hiya,</p>
+        <p>I&#8217;ve made a copy of Gareth McCaughan&#8217;s `mkdrawf` and `decdrawf` tools available through GitHub. These are nice command line tools for creating DrawFiles from a text file, and convert them back again.</p>
+        <p>This is (essentially) a re-release of Gareth&#8217;s programs which haven&#8217;t been touched in a while &#8211; I was looking to create something that would be able to convert Drawfiles into something textual, on Ubuntu/macOS, and these did the job.</p>
+        <p>Releases are available for <span class="caps">RISC</span> OS and Ubuntu.</p>
+        <p>You can find the tools here: <a href="https://github.com/gerph/garethmccaughan-mkdrawf">https://github.com/gerph/garethmccaughan-mkdrawf</a></p>
+        <p>And the release binaries are here: <a href="https://github.com/gerph/garethmccaughan-mkdrawf/releases">https://github.com/gerph/garethmccaughan-mkdrawf/relea…</a></p>]]>
+      </description>
+      <source:markdown>Hiya,
+
+I’ve made a copy of Gareth McCaughan’s \`mkdrawf\` and \`decdrawf\` tools available through GitHub. These are nice command line tools for creating DrawFiles from a text file, and convert them back again.
+
+This is (essentially) a re-release of Gareth’s programs which haven’t been touched in a while – I was looking to create something that would be able to convert Drawfiles into something textual, on Ubuntu/macOS, and these did the job.
+
+Releases are available for RISC OS and Ubuntu.
+
+You can find the tools here: [https://github.com/gerph/garethmccaughan-mkdrawf](https://github.com/gerph/garethmccaughan-mkdrawf)
+
+And the release binaries are here: [https://github.com/gerph/garethmccaughan-mkdrawf/relea…](https://github.com/gerph/garethmccaughan-mkdrawf/releases)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20222:161361</guid>
+    </item>    <item>
       <title>RiscPCB Version 1.02</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/3590</link>
       <description>
@@ -37,6 +172,23 @@
       <source:markdown>Gemini continues to impress me with its deep and accurate RISC OS knowledge. 🤭</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mcexjkldoc2p</guid>
     </item>    <item>
+      <title>Clarity Theme ko-fi</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20137</link>
+      <description>
+        <![CDATA[<p>Thanks for <a href="https://lym.iconbar.com/downloads/clarity5.zip">Clarity5,</a> the <span class="caps">ROM</span> Apps and Resources icons are very &#8216;clear&#8217;. 😀</p>
+        <p>One minor point.</p>
+        <p>Given that this is work in progress requiring Theme icons not to be protected I do see one omission. The <span class="caps">HTML</span>, file_faf, icon is not yet in Clarity but it is not in the <span class="caps">ROM</span> icons either, nor do browsers provide one. <span class="caps">HTML</span> files appear as a blank rectangle.</p>
+        <p>Otherwise it&#8217;s good.</p>]]>
+      </description>
+      <source:markdown>Thanks for [Clarity5,](https://lym.iconbar.com/downloads/clarity5.zip) the ROM Apps and Resources icons are very ‘clear’. 😀
+
+One minor point.
+
+Given that this is work in progress requiring Theme icons not to be protected I do see one omission. The HTML, file\_faf, icon is not yet in Clarity but it is not in the ROM icons either, nor do browsers provide one. HTML files appear as a blank rectangle.
+
+Otherwise it’s good.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20137:161358</guid>
+    </item>    <item>
       <title>ROUGOL Meeting on Monday 19th Jan 2026</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20221</link>
       <description>
@@ -56,6 +208,17 @@ There should be time to look at some of his software – such as RingBind, Cat, 
 
 @Bryan your email at helpful demon co uk is not responding. Is Thur evening OK for a practice run please.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20221:161357</guid>
+    </item>    <item>
+      <title>Paint sprite dragging</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20219</link>
+      <description>
+        <![CDATA[<p>Ok, so it&#8217;s an option. It&#8217;s still stupid, because it means that you&#8217;re going to get crashes unless the theme author is continually keeping up with what is in the <span class="caps">ROM</span>. The user is forced to choose between turning an option on and having crashes when they upgrade or at random times because a theme author missed something. If a given user who was using one theme happily switches to another that they downloaded, the system may crash in odd places just because a sprite was missing in the older theme.</p>
+        <p>There&#8217;s really no justification for that sort of behaviour. If someone can explain why an option which is actively dangerous to unaware users exists, I&#8217;d love to hear it, but I genuinely cannot think of one.</p>]]>
+      </description>
+      <source:markdown>Ok, so it’s an option. It’s still stupid, because it means that you’re going to get crashes unless the theme author is continually keeping up with what is in the ROM. The user is forced to choose between turning an option on and having crashes when they upgrade or at random times because a theme author missed something. If a given user who was using one theme happily switches to another that they downloaded, the system may crash in odd places just because a sprite was missing in the older theme.
+
+There’s really no justification for that sort of behaviour. If someone can explain why an option which is actively dangerous to unaware users exists, I’d love to hear it, but I genuinely cannot think of one.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20219:161355</guid>
     </item>    <item>
       <title>Updating Submenu Dialogue Boxes</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20220</link>
@@ -107,17 +270,6 @@ I have tried this in both Choices:WWW. and Choices:ssh. but this did not help
 anayway thanks for the sugestions</source:markdown>
       <guid>cid://www.riscosopen.org:11:20214:161342</guid>
     </item>    <item>
-      <title>Clarity Theme ko-fi</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20137</link>
-      <description>
-        <![CDATA[<p>There&#8217;s another test release of the Clarity desktop theme <a href="https://lym.iconbar.com/downloads/clarity5.zip">here</a>.</p>
-        <p>This release includes iconsprites for the <span class="caps">ROM</span> apps, as well as sprites for their iconised files. It also includes iconsprites for most of the !Boot apps, such as !System, etc. It adds some pointer sprites missed from the last release, and makes some minor edits to some existing sprites. The next release will cover Configure. Any feedback welcome &#8211; this is still very much in development.</p>]]>
-      </description>
-      <source:markdown>There’s another test release of the Clarity desktop theme [here](https://lym.iconbar.com/downloads/clarity5.zip).
-
-This release includes iconsprites for the ROM apps, as well as sprites for their iconised files. It also includes iconsprites for most of the !Boot apps, such as !System, etc. It adds some pointer sprites missed from the last release, and makes some minor edits to some existing sprites. The next release will cover Configure. Any feedback welcome – this is still very much in development.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20137:161341</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mccffr2hvc2r</link>
       <description>
         <![CDATA[Genuinely fascinating Drum Tower podcast from @economist.com on the sad demise of Lapsang Souchong tea. It was one of my grandma's favourite teas and the aroma of it reminds me of her. I've even enjoyed the odd cup. That Twinings have discontinued it for supply reasons feels like an 'end of an era']]>
@@ -135,14 +287,6 @@ This release includes iconsprites for the ROM apps, as well as sprites for their
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mccavb3ofc2r</guid>
-    </item>    <item>
-      <title>Paint sprite dragging</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20219</link>
-      <description>
-        <![CDATA[<p>Just discovered something in Paint 2.59, RO5.31, 14 Dec 2025. If I open a sprite file window, then try to drag one of the sprites to another window, I get an error saying <code>SpriteExtend: Sprite Doesn't Exist</code>, and Paint quits. If I click menu over the sprite, and use the Save dialogue, then the drag works fine. This is odd, as I&#8217;ve been using Paint very extensively over the last few weeks, also the latest version I think, and I haven&#8217;t come across this before. Can anyone else see this?</p>]]>
-      </description>
-      <source:markdown>Just discovered something in Paint 2.59, RO5.31, 14 Dec 2025. If I open a sprite file window, then try to drag one of the sprites to another window, I get an error saying `SpriteExtend: Sprite Doesn&#39;t Exist`, and Paint quits. If I click menu over the sprite, and use the Save dialogue, then the drag works fine. This is odd, as I’ve been using Paint very extensively over the last few weeks, also the latest version I think, and I haven’t come across this before. Can anyone else see this?</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20219:161338</guid>
     </item>    <item>
       <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mcc3c22jn22z</link>
       <description>
@@ -184,169 +328,6 @@ Can I request that this thread be split out into a separate thread for each topi
       </description>
       <source:markdown>Be kind to your site administrator 😊 Genuinely lovely to read a little paragraph like this in my 1995 guide to the internet - advice we should all continue to follow!</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mcazqkzljs2c</guid>
-    </item>    <item>
-      <title>rustc, ELF, ld...</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/16763</link>
-      <description>
-        <![CDATA[<p>Found it!</p>
-        <pre><code>rustc main.rs --target=armv7a-none-eabi -Clink-arg=--entry=_start -Clink-arg=-Tbaremetal.script</code></pre>
-        <pre><code>arm-none-eabi-objcopy  -R .ignoring -O binary main main,ff8 &amp;&amp; od -t x4 -A x main,ff8</code></pre>
-        <p>baremetal.script as above.</p>
-        <p>main.rs:</p>
-        <pre><code>#![no_std]
-        #![no_main]</code>
-        
-        <code>use core::arch::asm;
-        use core::arch::naked_asm;
-        use core::panic::PanicInfo;</code>
-        
-        <code>// pub extern "C" to allow the naked asm to call main (with a stack).
-        #[no_mangle]
-        pub extern "C" fn main() {
-          writec( b'H' );
-          writec( b'e' );
-          writec( b'l' );
-          writec( b'l' );
-          writec( b'o' );
-          writec( b' ' );
-          writec( b'w' );
-          writec( b'o' );
-          writec( b'r' );
-          writec( b'l' );
-          writec( b'd' );
-          writec( 10 );
-        }</code>
-        
-        <code>#[panic_handler]
-        fn panic_handler(_p: &amp;PanicInfo) -&gt; ! {
-          loop {};
-        }</code>
-        
-        <code>fn writec( c: u8 ) {
-          unsafe {
-            asm! ( "mov r0, {0}\n svc 0", in(reg) c );
-          }
-        }</code>
-        
-        <code>#[unsafe(link_section = ".init")]
-        #[no_mangle]
-        #[unsafe(naked)]
-        pub extern "C" fn _start() {
-          naked_asm! (
-                 "mov r0, #0",
-              "\n mov r1, #0",
-              "\n mov r2, #0",
-              "\n mov r3, #0",
-              "\n svc 0x40",
-              "\n mov sp, r1",
-              "\n bl main",
-              "\n svc 0x11"
-              );
-        }</code></pre>
-        <p>It&#8217;s untested, but the object code appears correct:</p>
-        <pre><code>000000 e3a00000 e3a01000 e3a02000 e3a03000    Set r0-r3 to 0
-        000010 ef000040 e1a0d001 eb000003 ef000011    OS_ChangeEnvironment, set SP, call main, OS_Exit on return
-        000020 e1a00000 ef000000 e12fff1e e92d4800    writec r0 = c, OS_WriteC, return; main: push {fp, lr}
-        000030 e24dd008 e3a00048 ebfffff8 e3a00065    sub sp, sp, #8 (for no apparent reason), writec( 'H' 0x48 )
-        000040 ebfffff6 e3a0006c e58d0004 ebfffff3    writec( 'e' 0x65 ); writec( 'l' 0x6c ); ...
-        000050 e59d0004 ebfffff1 e3a0006f e58d0000
-        000060 ebffffee e3a00020 ebffffec e3a00077
-        000070 ebffffea e59d0000 ebffffe8 e3a00072
-        000080 ebffffe6 e59d0004 ebffffe4 e3a00064
-        000090 ebffffe2 e3a0000a ebffffe0 e28dd008    ... add sp, sp, #8
-        0000a0 e8bd8800 7fffff5c 00000001 7ffffff8    pop {fp, pc} (return); then 4 words .ARM.exidx
-        0000b0 00000001                                                      (whatever that is)</code></pre>
-        <p>I wonder if the language requires 16-byte stack alignment (it would explain the sp +/- 8).</p>
-        <p>It doesn&#8217;t run on a RiscPC, uses <code>bx lr</code> 0xe12fff1e.</p>]]>
-      </description>
-      <source:markdown>Found it!
-
-```
-rustc main.rs --target=armv7a-none-eabi -Clink-arg=--entry=_start -Clink-arg=-Tbaremetal.script
-```
-
-```
-arm-none-eabi-objcopy  -R .ignoring -O binary main main,ff8 &#38;&#38; od -t x4 -A x main,ff8
-```
-
-baremetal.script as above.
-
-main.rs:
-
-```
-#![no_std]
-#![no_main]
-
-use core::arch::asm;
-use core::arch::naked_asm;
-use core::panic::PanicInfo;
-
-// pub extern &#34;C&#34; to allow the naked asm to call main (with a stack).
-#[no_mangle]
-pub extern &#34;C&#34; fn main() {
-  writec( b&#39;H&#39; );
-  writec( b&#39;e&#39; );
-  writec( b&#39;l&#39; );
-  writec( b&#39;l&#39; );
-  writec( b&#39;o&#39; );
-  writec( b&#39; &#39; );
-  writec( b&#39;w&#39; );
-  writec( b&#39;o&#39; );
-  writec( b&#39;r&#39; );
-  writec( b&#39;l&#39; );
-  writec( b&#39;d&#39; );
-  writec( 10 );
-}
-
-#[panic_handler]
-fn panic_handler(_p: &#38;PanicInfo) -&#62; ! {
-  loop {};
-}
-
-fn writec( c: u8 ) {
-  unsafe {
-    asm! ( &#34;mov r0, {0}\n svc 0&#34;, in(reg) c );
-  }
-}
-
-#[unsafe(link_section = &#34;.init&#34;)]
-#[no_mangle]
-#[unsafe(naked)]
-pub extern &#34;C&#34; fn _start() {
-  naked_asm! (
-         &#34;mov r0, #0&#34;,
-      &#34;\n mov r1, #0&#34;,
-      &#34;\n mov r2, #0&#34;,
-      &#34;\n mov r3, #0&#34;,
-      &#34;\n svc 0x40&#34;,
-      &#34;\n mov sp, r1&#34;,
-      &#34;\n bl main&#34;,
-      &#34;\n svc 0x11&#34;
-      );
-}
-```
-
-It’s untested, but the object code appears correct:
-
-```
-000000 e3a00000 e3a01000 e3a02000 e3a03000    Set r0-r3 to 0
-000010 ef000040 e1a0d001 eb000003 ef000011    OS_ChangeEnvironment, set SP, call main, OS_Exit on return
-000020 e1a00000 ef000000 e12fff1e e92d4800    writec r0 = c, OS_WriteC, return; main: push {fp, lr}
-000030 e24dd008 e3a00048 ebfffff8 e3a00065    sub sp, sp, #8 (for no apparent reason), writec( &#39;H&#39; 0x48 )
-000040 ebfffff6 e3a0006c e58d0004 ebfffff3    writec( &#39;e&#39; 0x65 ); writec( &#39;l&#39; 0x6c ); ...
-000050 e59d0004 ebfffff1 e3a0006f e58d0000
-000060 ebffffee e3a00020 ebffffec e3a00077
-000070 ebffffea e59d0000 ebffffe8 e3a00072
-000080 ebffffe6 e59d0004 ebffffe4 e3a00064
-000090 ebffffe2 e3a0000a ebffffe0 e28dd008    ... add sp, sp, #8
-0000a0 e8bd8800 7fffff5c 00000001 7ffffff8    pop {fp, pc} (return); then 4 words .ARM.exidx
-0000b0 00000001                                                      (whatever that is)
-```
-
-I wonder if the language requires 16-byte stack alignment (it would explain the sp +/- 8).
-
-It doesn’t run on a RiscPC, uses `bx lr` 0xe12fff1e.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:16763:161331</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mcah6anec22j</link>
       <description>
@@ -908,14 +889,6 @@ This new functionality is really exciting for many reasons, so I’ll show you b
       <source:markdown>Interested in coding on RISC OS? Want to learn more or meet others? Join our friendly fireside chat on Zoom—DM for credentials (unchanged). The event is this Saturday, 10th January at 7:30 pm (GMT).
 #Zoom #Meetup #RISCOS #Community #RaspberryPi #ARM #Retro #AcornComputers</source:markdown>
       <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mbrscvj46s2v</guid>
-    </item>    <item>
-      <title>Modern Frosted Theme</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
-      <description>
-        <![CDATA[<p>The screenshot of your desktop Marin looks certainly different from the norm. I must admit I do like the experientation people go into customzing their desktops. Just to ask about the frosted theme, what version or release it is currently on just now? Also is there a direct link to the source of your themes to keep tabs of your latest updated themes? Thank you.</p>]]>
-      </description>
-      <source:markdown>The screenshot of your desktop Marin looks certainly different from the norm. I must admit I do like the experientation people go into customzing their desktops. Just to ask about the frosted theme, what version or release it is currently on just now? Also is there a direct link to the source of your themes to keep tabs of your latest updated themes? Thank you.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20138:161219</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mbqsznpjck24</link>
       <description>
