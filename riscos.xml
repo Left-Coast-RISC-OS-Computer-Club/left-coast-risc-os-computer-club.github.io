@@ -7,10 +7,145 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>15 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>16 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3mckuqujcpk2l</link>
+      <description>
+        <![CDATA[The next ROUGOL meeting on Monday 19th January will feature multi headed systems, featuring RISC OS and Linux in the same box 
+        https://rougol.jellybaby.net/meetings/index.html]]>
+      </description>
+      <source:markdown>The next ROUGOL meeting on Monday 19th January will feature multi headed systems, featuring RISC OS and Linux in the same box
+https://rougol.jellybaby.net/meetings/index.html</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mckuqujcpk2l</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mcktssxsos2y</link>
+      <description>
+        <![CDATA[Back in the early 90s at Software Creations I designed a Portable Assembly Language ( PAL ) with the intention of using it to develop games for 32/64 bit consoles. The ideal being that this pseudo assembly would generate native code for multiple processors. You only needed to write the game once 1/2]]>
+      </description>
+      <source:markdown>Back in the early 90s at Software Creations I designed a Portable Assembly Language ( PAL ) with the intention of using it to develop games for 32/64 bit consoles. The ideal being that this pseudo assembly would generate native code for multiple processors. You only needed to write the game once 1/2</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mcktssxsos2y</guid>
+    </item>    <item>
+      <title>Linux Port</title>
+      <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
+      <description>
+        <![CDATA[<p>Last screenshot for the next time &#8230;</p>
+        <p><img src="http://riscos.openpandora.org/Diverses/Temp/Pinephone_1601.jpg" alt="" /></p>
+        <p>Have configured any things. My &#8220;mouse switch&#8221; is not ready but works for me&#8230;</p>]]>
+      </description>
+      <source:markdown>Last screenshot for the next time …
+
+![](http://riscos.openpandora.org/Diverses/Temp/Pinephone_1601.jpg)
+
+Have configured any things. My “mouse switch” is not ready but works for me…</source:markdown>
+      <guid>cid://www.riscosopen.org:3:9068:161383</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mcknwfmwqk2y</link>
+      <description>
+        <![CDATA[Look at the size of that disk icon!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Look at the size of that disk icon!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mcknwfmwqk2y</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mcknr3rwt22a</link>
+      <description>
+        <![CDATA[Windows 95: My Computer
+        Windows 7: Computer
+        Windows 8 (to now): This PC
+        
+        I do feel that says a lot, consciously or otherwise, about Microsoft's attitude!]]>
+      </description>
+      <source:markdown>Windows 95: My Computer
+Windows 7: Computer
+Windows 8 (to now): This PC
+
+I do feel that says a lot, consciously or otherwise, about Microsoft&#39;s attitude!</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mcknr3rwt22a</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mckbtmpto22k</link>
+      <description>
+        <![CDATA[Rougol January 2026 meeting on Monday - Chris Hall and his multiple heads 
+        
+        https://www.iconbar.com/articles/Rougol_January_2026_meeting_on_monday_-_Chris_Hall_and_his_multiple_heads/index2293.html 
+        
+        The January 2026 Rougol meeting is on Monday and features Chris Hall. His contribution to the TIB advent calendar may give you an idea of his topic.]]>
+      </description>
+      <source:markdown>Rougol January 2026 meeting on Monday - Chris Hall and his multiple heads
+
+https://www.iconbar.com/articles/Rougol\_January\_2026\_meeting\_on\_monday\_-\_Chris\_Hall\_and\_his\_multiple\_heads/index2293.html
+
+The January 2026 Rougol meeting is on Monday and features Chris Hall. His contribution to the TIB advent calendar may give you an idea of his topic.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mckbtmpto22k</guid>
+    </item>    <item>
+      <title>Chris Hall brings three (count ’em) heads to ROUGOL</title>
+      <link>https://www.riscository.com/2026/chris-hall-three-heads-rougol/</link>
+      <description>
+        <![CDATA[Zaphod Beeblebrox, eat your heart out. The next RISC OS User Group of London (ROUGOL) meeting will take place on Monday, 19th January, with a presentation by Chris Hall, joining the group via Zoom, about multi-headed systems. Chris has been using a Hydra system from R-Comp, with two of its Pi-based &#8216;heads&#8217; running RISC OS, and a third one running Linux, and he has had an article published in the latest issue of Archive Magazine (28:1) detailing his first impressions of the machine, with this presentation being a follow-up and&#8230;]]>
+      </description>
+      <source:markdown>Zaphod Beeblebrox, eat your heart out. The next RISC OS User Group of London (ROUGOL) meeting will take place on Monday, 19th January, with a presentation by Chris Hall, joining the group via Zoom, about multi-headed systems. Chris has been using a Hydra system from R-Comp, with two of its Pi-based ‘heads’ running RISC OS, and a third one running Linux, and he has had an article published in the latest issue of Archive Magazine (28:1) detailing his first impressions of the machine, with this presentation being a follow-up and…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10852</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/archiveriscos.bsky.social/post/3mcka42jfqc2s</link>
+      <description>
+        <![CDATA[The new issue of Archive Magazine is out now! The Dec/Jan 2026 issue is absolutely packed with all sorts of RISC OS awesomeness. It's not too late to subscribe and get a copy. www.archivemag.co.uk #riscos #acorn #opensource]]>
+      </description>
+      <source:markdown>The new issue of Archive Magazine is out now! The Dec/Jan 2026 issue is absolutely packed with all sorts of RISC OS awesomeness. It&#39;s not too late to subscribe and get a copy. www.archivemag.co.uk #riscos #acorn #opensource</source:markdown>
+      <guid>cid://at://did:plc:3nemd4ccpca5uxluat5znw4s/app.bsky.feed.post/3mcka42jfqc2s</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mck7qp6i7k2a</link>
+      <description>
+        <![CDATA[Calling all Mattel Aquarius fans! I am getting more than a little obsessed with this machine, but have never owned one... does anyone here have one and, if so, know how easy/hard/impossible it is to hook one up to a modern monitor? VGA, SCART, HDMI, any of these?]]>
+      </description>
+      <source:markdown>Calling all Mattel Aquarius fans! I am getting more than a little obsessed with this machine, but have never owned one... does anyone here have one and, if so, know how easy/hard/impossible it is to hook one up to a modern monitor? VGA, SCART, HDMI, any of these?</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mck7qp6i7k2a</guid>
+    </item>    <item>
+      <title>Time to express an interest in the official Acorn biography</title>
+      <link>https://www.riscository.com/2026/acorn-biography-express-an-interest/</link>
+      <description>
+        <![CDATA[December&#8217;s RISC OS User Group of London (ROUGOL) meeting featured Rob Napier as the guest speaker, on the subject of the book he has been working on. Titled &#8220;Voices from a Future Passed&#8221;, the book is the official biography of Acorn Computers, and Rob went over various aspects of the book and that biography at the meeting. The book is planned for release as a paperback at the start of March, with an expected price of $19.95 in the UK, and corresponding amounts in other currencies/parts of the world. It&#8230;]]>
+      </description>
+      <source:markdown>December’s RISC OS User Group of London (ROUGOL) meeting featured Rob Napier as the guest speaker, on the subject of the book he has been working on. Titled “Voices from a Future Passed”, the book is the official biography of Acorn Computers, and Rob went over various aspects of the book and that biography at the meeting. The book is planned for release as a paperback at the start of March, with an expected price of $19.95 in the UK, and corresponding amounts in other currencies/parts of the world. It…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10849</guid>
+    </item>    <item>
+      <title>Rougol January 2026 meeting on monday - Chris Hall and his multiple heads</title>
+      <link>http://www.iconbar.com/comments/rss/news2293.html</link>
+      <description>
+        <![CDATA[The January 2026 Rougol meeting is on Monday and features Chris Hall. His contribution to the TIB advent calendar may give you an idea of his topic.]]>
+      </description>
+      <source:markdown>The January 2026 Rougol meeting is on Monday and features Chris Hall. His contribution to the TIB advent calendar may give you an idea of his topic.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2293.html</guid>
+    </item>    <item>
+      <title>Hard Disk support</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20144</link>
+      <description>
+        <![CDATA[<p>You’re not being daft at all — this is one of those long-standing RPCEmu oddities that never really got a clean public explanation.</p>
+        <p>Short version: yes, a fix was discussed and partially prototyped back around 2011–2012, but it was never merged, and hard-disk support for RO5 remains deliberately disabled in RPCEmu.</p>
+        <p>A bit more detail:</p>
+        <p>RPCEmu’s hard-disc emulation was written to match <span class="caps">RISC</span> OS 4.x behaviour on the Risc PC. <span class="caps">RISC</span> OS 5 changed some low-level assumptions around disc drivers, timings, and error handling. When people tried RO5 <span class="caps">HDD</span> images, it exposed bugs in RPCEmu’s <span class="caps">IDE</span> emulation — data corruption, bad geometry reporting, and subtle filesystem breakage rather than clean crashes. That’s why the support was disabled rather than left “use at your own risk”.</p>
+        <p>The fix you’re remembering was essentially a workaround that made RO5 mount an image, but it didn’t fully solve the corruption issues. From the maintainer’s point of view at the time, half-working storage emulation was worse than none, so it never went upstream.</p>
+        <p>As for how it’s disabled: you’re right, it’s not in the ROMs. RPCEmu checks the OS version it thinks it’s running and refuses to attach <span class="caps">IDE</span> devices for RO5 builds. It’s done in the emulator logic rather than the filesystem layer, which is why it’s not obvious at first glance in the source.</p>
+        <p>Could you enable it locally? Yes — people have done so by removing or bypassing the RO5 checks — but it’s risky. You may get something that appears to work and then quietly corrupts the image. That’s the big reason it hasn’t been officially re-enabled.</p>]]>
+      </description>
+      <source:markdown>You’re not being daft at all — this is one of those long-standing RPCEmu oddities that never really got a clean public explanation.
+
+Short version: yes, a fix was discussed and partially prototyped back around 2011–2012, but it was never merged, and hard-disk support for RO5 remains deliberately disabled in RPCEmu.
+
+A bit more detail:
+
+RPCEmu’s hard-disc emulation was written to match RISC OS 4.x behaviour on the Risc PC. RISC OS 5 changed some low-level assumptions around disc drivers, timings, and error handling. When people tried RO5 HDD images, it exposed bugs in RPCEmu’s IDE emulation — data corruption, bad geometry reporting, and subtle filesystem breakage rather than clean crashes. That’s why the support was disabled rather than left “use at your own risk”.
+
+The fix you’re remembering was essentially a workaround that made RO5 mount an image, but it didn’t fully solve the corruption issues. From the maintainer’s point of view at the time, half-working storage emulation was worse than none, so it never went upstream.
+
+As for how it’s disabled: you’re right, it’s not in the ROMs. RPCEmu checks the OS version it thinks it’s running and refuses to attach IDE devices for RO5 builds. It’s done in the emulator logic rather than the filesystem layer, which is why it’s not obvious at first glance in the source.
+
+Could you enable it locally? Yes — people have done so by removing or bypassing the RO5 checks — but it’s risky. You may get something that appears to work and then quietly corrupts the image. That’s the big reason it hasn’t been officially re-enabled.</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20144:161382</guid>
+    </item>    <item>
       <title>Modern Frosted Theme</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
       <description>
@@ -534,26 +669,6 @@ Providing sponsorship will encourage more development and tools for this project
 
 If you feel that the things that I’m doing and the work towards RISC OS 64 is valuable, please feel free to sponsor me!</source:markdown>
       <guid>cid://www.riscosopen.org:1:20215:161284</guid>
-    </item>    <item>
-      <title>Linux Port</title>
-      <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
-      <description>
-        <![CDATA[<p>Have made a small tool to switch Select/Menu (Left/Middle) via iconbar click. Works for me ;-)</p>
-        <p><img src="http://riscos.openpandora.org/Diverses/Temp/ROS_PinePhone.jpg" alt="" /></p>
-        <p>Left is Displayzoom 100%, right the default 200% in the Mobian settings.<br />
-        It is also possible to use the Mobian keyboard but the I get not the right chars at all.<br />
-        Through rose-coloured glasses, it looks good.</p>]]>
-      </description>
-      <source:markdown>Have made a small tool to switch Select/Menu (Left/Middle) via iconbar click. Works for me ;-)
-
-![](http://riscos.openpandora.org/Diverses/Temp/ROS_PinePhone.jpg)
-
-Left is Displayzoom 100%, right the default 200% in the Mobian settings.
-
-It is also possible to use the Mobian keyboard but the I get not the right chars at all.
-
-Through rose-coloured glasses, it looks good.</source:markdown>
-      <guid>cid://www.riscosopen.org:3:9068:161276</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mbykj4n5i22h</link>
       <description>
@@ -4449,14 +4564,6 @@ https://www.iconbar.com/articles/DragnDrop\_15i1\_edition\_reviewed/index2258.ht
 
 The latest edition of Drag&#39;n&#39;Drop magazine was released at the recent London Show and should be with subscribers now. Congratulations on reaching Volume 15!</source:markdown>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3m6mycdi3ks26</guid>
-    </item>    <item>
-      <title>Hard Disk support</title>
-      <link>https://www.riscosopen.org/forum/forums/10/topics/20144</link>
-      <description>
-        <![CDATA[<p>Replying to myself. This is a moot point for me now as I realise that 32GB is the max size for <span class="caps">HHD</span> in RPCEmu so it wouldn&#8217;t have helped me anyway.</p>]]>
-      </description>
-      <source:markdown>Replying to myself. This is a moot point for me now as I realise that 32GB is the max size for HHD in RPCEmu so it wouldn’t have helped me anyway.</source:markdown>
-      <guid>cid://www.riscosopen.org:10:20144:160160</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3m6mnujuwjs2f</link>
       <description>
