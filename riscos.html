@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.18" >
-  <meta content="2026-01-16T12:00:28-08:00" name="date" >
+  <meta name="date" content="2026-01-17T12:00:29-08:00" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -19,6 +19,108 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-01-17T19:44:14Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20225">
+      <h1>Multi headed systems at ROUGOL, Mon 19th Jan 2026</h1>
+
+(date: 2026-01-17)
+      <p>
+      <p>(I know Chris has already posted about this, but here it is officially! Also, news of future meetings to put in your diary :-) )</p>
+<p>The next meeting of the RISC OS User Group Of London is:</p>
+<p><strong>Multi headed systems</strong>, presented by Chris Hall</p>
+<p><strong>Monday 19th January 2026, 7.45pm</strong></p>
+<p>The Duke of Sussex</p>
+<p>(upstairs in the Petworth Room from 6.30pm)</p>
+<p>23 Baylis Road, London, SE1 7AY</p>
+<p><a href="http://www.rougol.jellybaby.net/venue.html">http://www.rougol.jellybaby.net/venue.html</a></p>
+<p>Also online via Zoom from 7.30pm</p>
+<p><a href="https://rougol.jellybaby.net/meetings/">https://rougol.jellybaby.net/meetings/</a></p>
+<p>To kick off the year, Chris Hall will be Zooming in to show off his multiple heads. He has been experimenting with an R-Comp Hydra system, with two heads running RISC OS and a third with Linux.</p>
+<p>He will be describing how well the new Hydra works, why he wanted multiple heads, how each head is configured, and how the system as a whole performs in use. He will expand on his article in the latest Archive, with a digression about RDP versus VNC for connecting between heads.</p>
+<p>There should be time to look at some of his software – such as RingBind, Cat, DrawDis and Locking, all of which make use of MakeDraw. He will demonstrate how to make subtle changes to Draw files that aren’t possible in Draw, by disassembling them using MultiTask and recreating them using MakeDraw after some subtle edits.</p>
+<p>Future meetings:</p>
+<p>Mon 16th Feb – Colin Hoad will talk about his retro computing YouTube channel and, for those in the pub, show off some of his collection of Acorn and Psion handheld computers.</p>
+<p>Mon 16th Mar – Matt Godbolt is visiting London from his home in Chicago and will be joining us in the pub to talk about his RISC OS software, jsbeeb the Javascript Beeb emulator, and the Compiler Explorer website.</p>
+<p>Our venue is right next to Waterloo Station and there is parking directly outside. Directions here – <a href="https://rougol.jellybaby.net/venue.html">https://rougol.jellybaby.net/venue.html</a></p>
+<p>For any queries or to receive the Zoom link (same as previous months) contact us – <a href="https://rougol.jellybaby.net/contacts/">https://rougol.jellybaby.net/contacts/</a></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20225">https://www.riscosopen.org/forum/forums/1/topics/20225</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-17T15:33:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mcmwqv64e22z">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-01-17)
+      <p>
+      <p>The chances of having to build Nvidia FP8 single-byte floating point arrays in RISC OS BBC Basic is very small but non-zero – so can be represented by a float, and getting the rounding of E4M3 floats right has taken me a day longer than it should have.
+Yes I’ve done E5M2 too, that’s quite different.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mcmwqv64e22z">https://bsky.app/profile/nemo20000.bsky.social/post/3mcmwqv64e22z</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-17T14:22:28Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20216">
+      <h1>Live Coding with Gerph, Sunday 11th January at 1pm UK time.</h1>
+
+(date: 2026-01-17)
+      <p>
+      <p>No live coding this week. I’m not feeling too well, so I don’t think it would be an especially good session.</p>
+<p>Next week, I’ll try to do one.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20216">https://www.riscosopen.org/forum/forums/1/topics/20216</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-17T00:37:57Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20224">
+      <h1>Dynamic menu entries</h1>
+
+(date: 2026-01-17)
+      <p>
+      <p>I’m trying to add menu entries dynamically using the equivalent of:</p>
+<p>menu_add_entry</p>
+<p>from the toolbox.</p>
+<p>flags is set to 0</p>
+<p>menu is set to idBlock→self_id</p>
+<p>at_entry is set to -2 (add at end)</p>
+<p>*entry_description is set to a quoted string</p>
+<p>And last:</p>
+<p>*new_entry is set to an address for returning the id of the new entry.</p>
+<p>What happens is an entry is created but it is blank, the text passed in entry_description is absent. All the parameters appear to be correct and there is no error.</p>
+<p>Any clues? Thank you in advance.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20224">https://www.riscosopen.org/forum/forums/11/topics/20224</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-16T22:16:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mcl4sppw2s2a">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-01-16)
+      <p>
+      <p>Vote No
+voteyesornoai.com/vote/no<a href="https://voteyesornoai.com/vote/no">https://voteyesornoai.com/vote/no</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mcl4sppw2s2a">https://bsky.app/profile/colinhoad.com/post/3mcl4sppw2s2a</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-16T20:09:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mckvpen3n22y">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-01-16)
+      <p>
+      <p>These are the original Spider-Man sprite frames for SNES 'Spider-Man and the X-Men in Arcade's Revenge'. Recovered from my old development disks. Back then, in 1992, all of these frames were hand-drawn, pixel by pixel. No 3D modelling software was available to simplify this work or animate Spidey.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mckvpen3n22y">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mckvpen3n22y</a>
+      </address>
+    </article>
 
     <article data-published="2026-01-16T19:52:00Z" data-link="https://bsky.app/profile/rougol.bsky.social/post/3mckuqujcpk2l">
       <h1>@rougol.bsky.social</h1>
@@ -141,7 +243,7 @@ Windows 8 (to now): This PC</p>
 
 (date: 2026-01-16)
       <p>
-      <p>December’s RISC OS User Group of London (ROUGOL) meeting featured Rob Napier as the guest speaker, on the subject of the book he has been working on. Titled “Voices from a Future Passed”, the book is the official biography of Acorn Computers, and Rob went over various aspects of the book and that biography at the meeting. The book is planned for release as a paperback at the start of March, with an expected price of $19.95 in the UK, and corresponding amounts in other currencies/parts of the world. It…</p>
+      <p>December’s RISC OS User Group of London (ROUGOL) meeting featured Rob Napier as the guest speaker, on the subject of the book he has been working on. Titled “Voices from a Future Passed”, the book is the official biography of Acorn Computers, and Rob went over various aspects of the book and that biography at the meeting. The book is planned for release as a paperback at the start of March, with an expected price of £19.95 in the UK, and corresponding amounts in other currencies/parts of the world. It…</p>
 
       <address>
         <a href="https://www.riscository.com/2026/acorn-biography-express-an-interest/">https://www.riscository.com/2026/acorn-biography-express-an-interest/</a>
@@ -168,7 +270,7 @@ Windows 8 (to now): This PC</p>
       <p>You’re not being daft at all — this is one of those long-standing RPCEmu oddities that never really got a clean public explanation.</p>
 <p>Short version: yes, a fix was discussed and partially prototyped back around 2011–2012, but it was never merged, and hard-disk support for RO5 remains deliberately disabled in RPCEmu.</p>
 <p>A bit more detail:</p>
-<p>RPCEmu’s hard-disc emulation was written to match RISC OS 4.x behaviour on the Risc PC. RISC OS 5 changed some low-level assumptions around disc drivers, timings, and error handling. When people tried RO5 HDD images, it exposed bugs in RPCEmu’s IDE emulation — data corruption, bad geometry reporting, and subtle filesystem breakage rather than clean crashes. That’s why the support was disabled rather than left “use at your own risk”.</p>
+<p>RPCEmu’s hard-disc emulation was written to match RISC OS 4.x behaviour on the Risc PC. RISC OS 5 changed some low-level assumptions around disc drivers, timings, and error handling. When people tried RO5 HDD images, it exposed bugs in RPCEmu’s IDE emulation — data corruption, <a href="https://tropical-casino.com/">https://tropical-casino.com/</a> bad geometry reporting, and subtle filesystem breakage rather than clean crashes. That’s why the support was disabled rather than left “use at your own risk”.</p>
 <p>The fix you’re remembering was essentially a workaround that made RO5 mount an image, but it didn’t fully solve the corruption issues. From the maintainer’s point of view at the time, half-working storage emulation was worse than none, so it never went upstream.</p>
 <p>As for how it’s disabled: you’re right, it’s not in the ROMs. RPCEmu checks the OS version it thinks it’s running and refuses to attach IDE devices for RO5 builds. It’s done in the emulator logic rather than the filesystem layer, which is why it’s not obvious at first glance in the source.</p>
 <p>Could you enable it locally? Yes — people have done so by removing or bypassing the RO5 checks — but it’s risky. You may get something that appears to work and then quietly corrupts the image. That’s the big reason it hasn’t been officially re-enabled.</p>
@@ -187,6 +289,60 @@ Windows 8 (to now): This PC</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20138">https://www.riscosopen.org/forum/forums/1/topics/20138</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-15T09:12:18Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20222">
+      <h1>Gareth McCaughan&#39;s `mkdrawf`/`decdrawf` tools on GitHub</h1>
+
+(date: 2026-01-15)
+      <p>
+      <p>Hi Charles</p>
+<p>I have a 32bit version of Mkdraw and Decdrawf that I have been using since 2020. It is an excellent program, very useful in my opinion.</p>
+<p><a href="https://jeanmichelb.riscos.fr/Maj32b/Maj_32Bits.html#MKDrawf">https://jeanmichelb.riscos.fr/Maj32b/Maj_32Bits.html#M…</a></p>
+<p>I also recreated !Drawf a desktop interface that simplifies the use of MkDrawf and DecDrawf.</p>
+<p>DecDrawf allows you to correct the content if necessary and MkDrawF to check.</p>
+<p>But what interested me the most was using scripts to build Draw files.</p>
+<p>I discovered MkDraw when I adapted PariGp for Risc OS, the curves are drawn via Postscript scripts. so I added the MkDrawf scripts.</p>
+<p>It works very well and allows the conversion of programs existing on other OS.</p>
+<p>The programs on my site using this method:</p>
+<p>PariGP2132, PMW (Version 5.1 !PMS). AspicScript, SVG2Draw</p>
+<p>Note: for Mkdrawf there is a StrongEd mode.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20222">https://www.riscosopen.org/forum/forums/1/topics/20222</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-15T02:35:58Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20221">
+      <h1>ROUGOL Meeting on Monday 19th Jan 2026</h1>
+
+(date: 2026-01-15)
+      <p>
+      <p>Thanks for posting Chris. I got your second send attempt, and have replied to that. In case there are problems with that too – Yes, I’ll see you on Zoom tonight 8pm ish!</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20221">https://www.riscosopen.org/forum/forums/1/topics/20221</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-14T22:26:50Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20137">
+      <h1>Clarity Theme ko-fi</h1>
+
+(date: 2026-01-14)
+      <p>
+      <p>Thanks Chris,</p>
+<p>I got this text in the CoFlags file below:</p>
+<pre><code>| Instruct the configure plugin how to augment the Clarity theme
+WimpVisualFlags -WindowOutlineOver -WindowOutlineColour &amp;707085 -FontBlending -RemoveIconBoxes -ButtonColour &amp;E3E3E8 -ButtonWellColour &amp;B3D3FF -ButtonBorderOppColour &amp;777777 -ButtonBorderFaceColour &amp;FFFFFF
+</code></pre>
+<p>I am not aware I am using any other Theme apps except running Clarity as default.</p>
+<p>A mystery ineed?</p>
+<p>It not the end of world I can live with it but do keep the new updates coming.</p>
+<p>I do like the look of the clarity theme.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20137">https://www.riscosopen.org/forum/forums/1/topics/20137</a>
       </address>
     </article>
 
@@ -249,23 +405,6 @@ pub extern &quot;C&quot; fn _start() {
       </address>
     </article>
 
-    <article data-published="2026-01-14T20:11:20Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20222">
-      <h1>Gareth McCaughan&#39;s `mkdrawf`/`decdrawf` tools on GitHub</h1>
-
-(date: 2026-01-14)
-      <p>
-      <p>Hiya,</p>
-<p>I’ve made a copy of Gareth McCaughan’s `mkdrawf` and `decdrawf` tools available through GitHub. These are nice command line tools for creating DrawFiles from a text file, and convert them back again.</p>
-<p>This is (essentially) a re-release of Gareth’s programs which haven’t been touched in a while – I was looking to create something that would be able to convert Drawfiles into something textual, on Ubuntu/macOS, and these did the job.</p>
-<p>Releases are available for RISC OS and Ubuntu.</p>
-<p>You can find the tools here: <a href="https://github.com/gerph/garethmccaughan-mkdrawf">https://github.com/gerph/garethmccaughan-mkdrawf</a></p>
-<p>And the release binaries are here: <a href="https://github.com/gerph/garethmccaughan-mkdrawf/releases">https://github.com/gerph/garethmccaughan-mkdrawf/relea…</a></p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20222">https://www.riscosopen.org/forum/forums/1/topics/20222</a>
-      </address>
-    </article>
-
     <article data-published="2026-01-14T18:47:32Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/3590">
       <h1>RiscPCB Version 1.02</h1>
 
@@ -300,37 +439,6 @@ pub extern &quot;C&quot; fn _start() {
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mcexjkldoc2p">https://bsky.app/profile/nemo20000.bsky.social/post/3mcexjkldoc2p</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-14T08:47:36Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20137">
-      <h1>Clarity Theme ko-fi</h1>
-
-(date: 2026-01-14)
-      <p>
-      <p>Thanks for <a href="https://lym.iconbar.com/downloads/clarity5.zip">Clarity5,</a> the ROM Apps and Resources icons are very ‘clear’. 😀</p>
-<p>One minor point.</p>
-<p>Given that this is work in progress requiring Theme icons not to be protected I do see one omission. The HTML, file_faf, icon is not yet in Clarity but it is not in the ROM icons either, nor do browsers provide one. HTML files appear as a blank rectangle.</p>
-<p>Otherwise it’s good.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20137">https://www.riscosopen.org/forum/forums/1/topics/20137</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-14T03:24:10Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20221">
-      <h1>ROUGOL Meeting on Monday 19th Jan 2026</h1>
-
-(date: 2026-01-14)
-      <p>
-      <p>SUBJECT: Multi headed systems</p>
-<p>This month Chris Hall will be Zooming in to show off his multiple heads. He has been experimenting with an R-Comp Hydra system, with two heads running RISC OS and a third with Linux.</p>
-<p>He will be describing how well the new Hydra works, why he wanted multiple heads, how each head is configured, and how the system as a whole performs in use. He will expand on his article in the latest Archive, with a digression about RDP versus VNC for connecting between heads.</p>
-<p>There should be time to look at some of his software – such as RingBind, Cat, DrawDis and Locking, all of which make use of MakeDraw. He will demonstrate how to make subtle changes to Draw files that aren’t possible in Draw, by disassembling them using MultiTask and recreating them using MakeDraw after some subtle edits.</p>
-<p>@Bryan your email at helpful demon co uk is not responding. Is Thur evening OK for a practice run please.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20221">https://www.riscosopen.org/forum/forums/1/topics/20221</a>
       </address>
     </article>
 
@@ -585,18 +693,6 @@ pub extern &quot;C&quot; fn _start() {
 
       <address>
         <a href="https://bsky.app/profile/armbytes.bsky.social/post/3mc5rt5exbc22">https://bsky.app/profile/armbytes.bsky.social/post/3mc5rt5exbc22</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-11T12:38:09Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20216">
-      <h1>Live Coding with Gerph, Sunday 11th January at 1pm UK time.</h1>
-
-(date: 2026-01-11)
-      <p>
-      <p>Starting in about 20 minutes.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20216">https://www.riscosopen.org/forum/forums/1/topics/20216</a>
       </address>
     </article>
 
