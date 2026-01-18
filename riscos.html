@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.18" >
-  <meta name="date" content="2026-01-17T12:00:29-08:00" >
+  <meta name="date" content="2026-01-18T12:00:27-08:00" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -19,6 +19,47 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-01-18T17:53:03Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20199">
+      <h1>New DME ExtTheme and Launchpad available for download and testing</h1>
+
+(date: 2026-01-18)
+      <p>
+      <p>Hi All,</p>
+<p>Just downloaded and installed ExtTheme successfully via Packman.</p>
+<p>I downloaded the two themes packs (CleanDark &amp; MacOS9) via riscoscommunity website on Netsurf.</p>
+<p>Per instructions, it suggest to type in command-line (F12).</p>
+<pre><code>*theme install CleanDark_0/0/1-2.zip
+</code></pre>
+<p>and I also tried this:</p>
+<pre><code>*theme install CleanDark_0/0/1-2/zip
+</code></pre>
+<p>I get this:</p>
+<pre><code>theme source path not found:
+</code></pre>
+<p>I am I missing a step in the process of installing the theme?</p>
+<p>Any advice is welcome?</p>
+<p>Thank you.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20199">https://www.riscosopen.org/forum/forums/1/topics/20199</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-18T16:48:48Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/17507">
+      <h1>Repeat: Bad alignment request</h1>
+
+(date: 2026-01-18)
+      <p>
+      <p>I’m also getting “Bad alignment request”, but in an entirely different context: I’m using an ioctl to set an IPv6 address in an interface.</p>
+<p>A web search for the phrase seems to find your posting as the only occurrence in the world!</p>
+<p>The associated error number I get is 279.</p>
+<p>How to we find where this error is generated?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/4/topics/17507">https://www.riscosopen.org/forum/forums/4/topics/17507</a>
+      </address>
+    </article>
 
     <article data-published="2026-01-17T19:44:14Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20225">
       <h1>Multi headed systems at ROUGOL, Mon 19th Jan 2026</h1>
@@ -280,6 +321,26 @@ Windows 8 (to now): This PC</p>
       </address>
     </article>
 
+    <article data-published="2026-01-15T14:51:05Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20222">
+      <h1>Gareth McCaughan&#39;s `mkdrawf`/`decdrawf` tools on GitHub</h1>
+
+(date: 2026-01-15)
+      <p>
+      <p>Excellent; if you’ve got any improvements that you wish to feed back to the GitHub versions, I’ll happily include them.</p>
+<p>I didn’t realise that there would be other versions around and about as that’s not allowed by the license, but it would be good to get things synchronised if you have updates.</p>
+<hr>
+<p>I’ve updated my `lessfilter` tool to add the support for decoding and colouring of Drawfiles with `decdrawf`, as well.</p>
+<p><img src="https://share.gerph.org/s/BUz3bugitDECZA5/download" alt=""></p>
+<p><a href="https://asciinema.org/a/768154">https://asciinema.org/a/768154</a></p>
+<ul>
+<li>`lessfilter`: <a href="https://github.com/gerph/lessfilter">https://github.com/gerph/lessfilter</a></li>
+</ul>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20222">https://www.riscosopen.org/forum/forums/1/topics/20222</a>
+      </address>
+    </article>
+
     <article data-published="2026-01-15T12:37:20Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20138">
       <h1>Modern Frosted Theme</h1>
 
@@ -292,25 +353,18 @@ Windows 8 (to now): This PC</p>
       </address>
     </article>
 
-    <article data-published="2026-01-15T09:12:18Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20222">
-      <h1>Gareth McCaughan&#39;s `mkdrawf`/`decdrawf` tools on GitHub</h1>
+    <article data-published="2026-01-15T09:15:04Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20137">
+      <h1>Clarity Theme ko-fi</h1>
 
 (date: 2026-01-15)
       <p>
-      <p>Hi Charles</p>
-<p>I have a 32bit version of Mkdraw and Decdrawf that I have been using since 2020. It is an excellent program, very useful in my opinion.</p>
-<p><a href="https://jeanmichelb.riscos.fr/Maj32b/Maj_32Bits.html#MKDrawf">https://jeanmichelb.riscos.fr/Maj32b/Maj_32Bits.html#M…</a></p>
-<p>I also recreated !Drawf a desktop interface that simplifies the use of MkDrawf and DecDrawf.</p>
-<p>DecDrawf allows you to correct the content if necessary and MkDrawF to check.</p>
-<p>But what interested me the most was using scripts to build Draw files.</p>
-<p>I discovered MkDraw when I adapted PariGp for Risc OS, the curves are drawn via Postscript scripts. so I added the MkDrawf scripts.</p>
-<p>It works very well and allows the conversion of programs existing on other OS.</p>
-<p>The programs on my site using this method:</p>
-<p>PariGP2132, PMW (Version 5.1 !PMS). AspicScript, SVG2Draw</p>
-<p>Note: for Mkdrawf there is a StrongEd mode.</p>
+      <blockquote>
+<p>WindowOutlineOver not set</p>
+</blockquote>
+<p>Does that mean it’s not being set for you either, David?</p>
 
       <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20222">https://www.riscosopen.org/forum/forums/1/topics/20222</a>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20137">https://www.riscosopen.org/forum/forums/1/topics/20137</a>
       </address>
     </article>
 
@@ -323,26 +377,6 @@ Windows 8 (to now): This PC</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20221">https://www.riscosopen.org/forum/forums/1/topics/20221</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-14T22:26:50Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20137">
-      <h1>Clarity Theme ko-fi</h1>
-
-(date: 2026-01-14)
-      <p>
-      <p>Thanks Chris,</p>
-<p>I got this text in the CoFlags file below:</p>
-<pre><code>| Instruct the configure plugin how to augment the Clarity theme
-WimpVisualFlags -WindowOutlineOver -WindowOutlineColour &amp;707085 -FontBlending -RemoveIconBoxes -ButtonColour &amp;E3E3E8 -ButtonWellColour &amp;B3D3FF -ButtonBorderOppColour &amp;777777 -ButtonBorderFaceColour &amp;FFFFFF
-</code></pre>
-<p>I am not aware I am using any other Theme apps except running Clarity as default.</p>
-<p>A mystery ineed?</p>
-<p>It not the end of world I can live with it but do keep the new updates coming.</p>
-<p>I do like the look of the clarity theme.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20137">https://www.riscosopen.org/forum/forums/1/topics/20137</a>
       </address>
     </article>
 
@@ -1442,24 +1476,6 @@ youtu.be/fn87-LmMlDY<a href="https://youtu.be/fn87-LmMlDY">https://youtu.be/fn87
 
       <address>
         <a href="https://bsky.app/profile/colinhoad.com/post/3mbi3hdnt222r">https://bsky.app/profile/colinhoad.com/post/3mbi3hdnt222r</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-02T22:35:40Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20199">
-      <h1>New DME ExtTheme and Launchpad available for download and testing</h1>
-
-(date: 2026-01-02)
-      <p>
-      <p>Thanks Chris, hope you’ll like your old protocol still living, breathing and growing, now The Little Yellow Moon original protocol also works for themes from boot :)</p>
-<p>Meanwhile:</p>
-<p>Big thanks to Martin for testing new themes creation and also running this on his own systems.</p>
-<p>I have pushed a new build that implements it’s own file copying in C, because calling RISC OS `*Copy` via OS_CLI in a Task Window from an Application doesn’t seems to be very reliable on RO 5.31 if themes are a bit big (on the multiple megabytes size). Anyway the new in-app copy implementation is a lot more reliable, hence installing zipped themes from a TaskWindow should be fine now.</p>
-<p>Also, I pushed a new build of the dark theme, because the previous one was missing the font. (Yes ExtTheme can install Theme’s fonts too).</p>
-<p>Note: !PackMan replace the app when updating, so, my DME will create a backup copy of your old one in `Boot:Resources.DME_Backups`, so if you feel like your installed themes have disapeared after an update you can find them in the safety backup and/or you can simply install them again via `*theme install …`.</p>
-<p>A note for Andrew/ROD, it seems that Iris had some issues downloading zip files (the themes), the same zips download fine with NetSurf. I am still figuring what’s going on with Iris, so consider this an heads up only for now (and if you are around and reading this).</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20199">https://www.riscosopen.org/forum/forums/1/topics/20199</a>
       </address>
     </article>
 

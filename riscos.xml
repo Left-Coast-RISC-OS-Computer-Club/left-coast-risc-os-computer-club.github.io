@@ -7,10 +7,74 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>17 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>18 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>New DME ExtTheme and Launchpad available for download and testing</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
+      <description>
+        <![CDATA[<p>Hi All,</p>
+        <p>Just downloaded and installed ExtTheme successfully via Packman.</p>
+        <p>I downloaded the two themes packs (CleanDark &amp; MacOS9) via riscoscommunity website on Netsurf.</p>
+        <p>Per instructions, it suggest to type in command-line (F12).</p>
+        <pre><code>*theme install CleanDark_0/0/1-2.zip</code></pre>
+        <p>and I also tried this:</p>
+        <pre><code>*theme install CleanDark_0/0/1-2/zip</code></pre>
+        <p>I get this:</p>
+        <pre><code>theme source path not found:</code></pre>
+        <p>I am I missing a step in the process of installing the theme?</p>
+        <p>Any advice is welcome?</p>
+        <p>Thank you.</p>]]>
+      </description>
+      <source:markdown>Hi All,
+
+Just downloaded and installed ExtTheme successfully via Packman.
+
+I downloaded the two themes packs (CleanDark &#38; MacOS9) via riscoscommunity website on Netsurf.
+
+Per instructions, it suggest to type in command-line (F12).
+
+```
+*theme install CleanDark_0/0/1-2.zip
+```
+
+and I also tried this:
+
+```
+*theme install CleanDark_0/0/1-2/zip
+```
+
+I get this:
+
+```
+theme source path not found:
+```
+
+I am I missing a step in the process of installing the theme?
+
+Any advice is welcome?
+
+Thank you.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20199:161397</guid>
+    </item>    <item>
+      <title>Repeat: Bad alignment request</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/17507</link>
+      <description>
+        <![CDATA[<p>I&#8217;m also getting &#8220;Bad alignment request&#8221;, but in an entirely different context: I&#8217;m using an ioctl to set an IPv6 address in an interface.</p>
+        <p>A web search for the phrase seems to find your posting as the only occurrence in the world!</p>
+        <p>The associated error number I get is 279.</p>
+        <p>How to we find where this error is generated?</p>]]>
+      </description>
+      <source:markdown>I’m also getting “Bad alignment request”, but in an entirely different context: I’m using an ioctl to set an IPv6 address in an interface.
+
+A web search for the phrase seems to find your posting as the only occurrence in the world!
+
+The associated error number I get is 279.
+
+How to we find where this error is generated?</source:markdown>
+      <guid>cid://www.riscosopen.org:4:17507:161395</guid>
+    </item>    <item>
       <title>Multi headed systems at ROUGOL, Mon 19th Jan 2026</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20225</link>
       <description>
@@ -281,6 +345,34 @@ As for how it’s disabled: you’re right, it’s not in the ROMs. RPCEmu check
 Could you enable it locally? Yes — people have done so by removing or bypassing the RO5 checks — but it’s risky. You may get something that appears to work and then quietly corrupts the image. That’s the big reason it hasn’t been officially re-enabled.</source:markdown>
       <guid>cid://www.riscosopen.org:10:20144:161382</guid>
     </item>    <item>
+      <title>Gareth McCaughan&#38;#39;s `mkdrawf`/`decdrawf` tools on GitHub</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20222</link>
+      <description>
+        <![CDATA[<p>Excellent; if you&#8217;ve got any improvements that you wish to feed back to the GitHub versions, I&#8217;ll happily include them.</p>
+        <p>I didn&#8217;t realise that there would be other versions around and about as that&#8217;s not allowed by the license, but it would be good to get things synchronised if you have updates.</p>
+        <hr />
+        <p>I&#8217;ve updated my `lessfilter` tool to add the support for decoding and colouring of Drawfiles with `decdrawf`, as well.</p>
+        <p><img src="https://share.gerph.org/s/BUz3bugitDECZA5/download" alt="" /></p>
+        <p><a href="https://asciinema.org/a/768154">https://asciinema.org/a/768154</a></p>
+        <ul>
+        	<li>`lessfilter`: <a href="https://github.com/gerph/lessfilter">https://github.com/gerph/lessfilter</a></li>
+        </ul>]]>
+      </description>
+      <source:markdown>Excellent; if you’ve got any improvements that you wish to feed back to the GitHub versions, I’ll happily include them.
+
+I didn’t realise that there would be other versions around and about as that’s not allowed by the license, but it would be good to get things synchronised if you have updates.
+
+* * *
+
+I’ve updated my \`lessfilter\` tool to add the support for decoding and colouring of Drawfiles with \`decdrawf\`, as well.
+
+![](https://share.gerph.org/s/BUz3bugitDECZA5/download)
+
+[https://asciinema.org/a/768154](https://asciinema.org/a/768154)
+
+- \`lessfilter\`: [https://github.com/gerph/lessfilter](https://github.com/gerph/lessfilter)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20222:161379</guid>
+    </item>    <item>
       <title>Modern Frosted Theme</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
       <description>
@@ -289,43 +381,18 @@ Could you enable it locally? Yes — people have done so by removing or bypassin
       <source:markdown>Frosted and ROM based Frosted can now be downloaded from [www.riscos7.co.uk](http://www.riscos7.co.uk) Currently for Pi4 and Softload Titanium, Iyonix and IOMD Variants will follow in the next couple of weeks. With ROM Based Versions it replaces the default Sovereign Sprite set with the modern frosted set, and there is an included HardDisc4 Image with the complete theme and iconset for all Configure Icons. Slighlty Revamped Visuals to Taskmanager, Filer etc, to match the theme set.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20138:161378</guid>
     </item>    <item>
-      <title>Gareth McCaughan&#38;#39;s `mkdrawf`/`decdrawf` tools on GitHub</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20222</link>
+      <title>Clarity Theme ko-fi</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20137</link>
       <description>
-        <![CDATA[<p>Hi Charles<br />
-        I have a 32bit version of Mkdraw and Decdrawf that I have been using since 2020. It is an excellent program, very useful in my opinion.</p>
-        <p><a href="https://jeanmichelb.riscos.fr/Maj32b/Maj_32Bits.html#MKDrawf">https://jeanmichelb.riscos.fr/Maj32b/Maj_32Bits.html#M…</a></p>
-        <p>I also recreated !Drawf a desktop interface that simplifies the use of MkDrawf and DecDrawf.</p>
-        <p>DecDrawf allows you to correct the content if necessary and MkDrawF to check.<br />
-        But what interested me the most was using scripts to build Draw files.<br />
-        I discovered MkDraw when I adapted PariGp for Risc OS, the curves are drawn via Postscript scripts. so I added the MkDrawf scripts.<br />
-        It works very well and allows the conversion of programs existing on other OS.<br />
-        The programs on my site using this method:<br />
-        PariGP2132, <span class="caps">PMW</span> (Version 5.1 !<span class="caps">PMS</span>). AspicScript, SVG2Draw</p>
-        <p>Note: for Mkdrawf there is a StrongEd mode.</p>]]>
+        <![CDATA[<blockquote>
+        <p>WindowOutlineOver not set</p>
+        </blockquote>
+        <p>Does that mean it&#8217;s not being set for you either, David?</p>]]>
       </description>
-      <source:markdown>Hi Charles
+      <source:markdown>&#62; WindowOutlineOver not set
 
-I have a 32bit version of Mkdraw and Decdrawf that I have been using since 2020. It is an excellent program, very useful in my opinion.
-
-[https://jeanmichelb.riscos.fr/Maj32b/Maj\_32Bits.html#M…](https://jeanmichelb.riscos.fr/Maj32b/Maj_32Bits.html#MKDrawf)
-
-I also recreated !Drawf a desktop interface that simplifies the use of MkDrawf and DecDrawf.
-
-DecDrawf allows you to correct the content if necessary and MkDrawF to check.
-
-But what interested me the most was using scripts to build Draw files.
-
-I discovered MkDraw when I adapted PariGp for Risc OS, the curves are drawn via Postscript scripts. so I added the MkDrawf scripts.
-
-It works very well and allows the conversion of programs existing on other OS.
-
-The programs on my site using this method:
-
-PariGP2132, PMW (Version 5.1 !PMS). AspicScript, SVG2Draw
-
-Note: for Mkdrawf there is a StrongEd mode.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20222:161370</guid>
+Does that mean it’s not being set for you either, David?</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20137:161371</guid>
     </item>    <item>
       <title>ROUGOL Meeting on Monday 19th Jan 2026</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20221</link>
@@ -334,36 +401,6 @@ Note: for Mkdrawf there is a StrongEd mode.</source:markdown>
       </description>
       <source:markdown>Thanks for posting Chris. I got your second send attempt, and have replied to that. In case there are problems with that too – Yes, I’ll see you on Zoom tonight 8pm ish!</source:markdown>
       <guid>cid://www.riscosopen.org:1:20221:161366</guid>
-    </item>    <item>
-      <title>Clarity Theme ko-fi</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20137</link>
-      <description>
-        <![CDATA[<p>Thanks Chris,</p>
-        <p>I got this text in the CoFlags file below:</p>
-        <pre><code>| Instruct the configure plugin how to augment the Clarity theme
-        WimpVisualFlags -WindowOutlineOver -WindowOutlineColour &amp;707085 -FontBlending -RemoveIconBoxes -ButtonColour &amp;E3E3E8 -ButtonWellColour &amp;B3D3FF -ButtonBorderOppColour &amp;777777 -ButtonBorderFaceColour &amp;FFFFFF</code></pre>
-        <p>I am not aware I am using any other Theme apps except running Clarity as default.</p>
-        <p>A mystery ineed?</p>
-        <p>It not the end of world I can live with it but do keep the new updates coming.</p>
-        <p>I do like the look of the clarity theme.</p>]]>
-      </description>
-      <source:markdown>Thanks Chris,
-
-I got this text in the CoFlags file below:
-
-```
-| Instruct the configure plugin how to augment the Clarity theme
-WimpVisualFlags -WindowOutlineOver -WindowOutlineColour &#38;707085 -FontBlending -RemoveIconBoxes -ButtonColour &#38;E3E3E8 -ButtonWellColour &#38;B3D3FF -ButtonBorderOppColour &#38;777777 -ButtonBorderFaceColour &#38;FFFFFF
-```
-
-I am not aware I am using any other Theme apps except running Clarity as default.
-
-A mystery ineed?
-
-It not the end of world I can live with it but do keep the new updates coming.
-
-I do like the look of the clarity theme.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20137:161363</guid>
     </item>    <item>
       <title>rustc, ELF, ld...</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/16763</link>
@@ -1415,32 +1452,6 @@ It is even passing its almost all the original tests that were supplied with it 
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mbi3hdnt222r</guid>
-    </item>    <item>
-      <title>New DME ExtTheme and Launchpad available for download and testing</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
-      <description>
-        <![CDATA[<p>Thanks Chris, hope you&#8217;ll like your old protocol still living, breathing and growing, now The Little Yellow Moon original protocol also works for themes from boot :)</p>
-        <p>Meanwhile:</p>
-        <p>Big thanks to Martin for testing new themes creation and also running this on his own systems.</p>
-        <p>I have pushed a new build that implements it&#8217;s own file copying in C, because calling <span class="caps">RISC</span> OS `*Copy` via OS_CLI in a Task Window from an Application doesn&#8217;t seems to be very reliable on RO 5.31 if themes are a bit big (on the multiple megabytes size). Anyway the new in-app copy implementation is a lot more reliable, hence installing zipped themes from a TaskWindow should be fine now.</p>
-        <p>Also, I pushed a new build of the dark theme, because the previous one was missing the font. (Yes ExtTheme can install Theme&#8217;s fonts too).</p>
-        <p>Note: !PackMan replace the app when updating, so, my <span class="caps">DME</span> will create a backup copy of your old one in `Boot:Resources.DME_Backups`, so if you feel like your installed themes have disapeared after an update you can find them in the safety backup and/or you can simply install them again via `*theme install &#8230;`.</p>
-        <p>A note for Andrew/<span class="caps">ROD</span>, it seems that Iris had some issues downloading zip files (the themes), the same zips download fine with NetSurf. I am still figuring what&#8217;s going on with Iris, so consider this an heads up only for now (and if you are around and reading this).</p>]]>
-      </description>
-      <source:markdown>Thanks Chris, hope you’ll like your old protocol still living, breathing and growing, now The Little Yellow Moon original protocol also works for themes from boot :)
-
-Meanwhile:
-
-Big thanks to Martin for testing new themes creation and also running this on his own systems.
-
-I have pushed a new build that implements it’s own file copying in C, because calling RISC OS \`\*Copy\` via OS\_CLI in a Task Window from an Application doesn’t seems to be very reliable on RO 5.31 if themes are a bit big (on the multiple megabytes size). Anyway the new in-app copy implementation is a lot more reliable, hence installing zipped themes from a TaskWindow should be fine now.
-
-Also, I pushed a new build of the dark theme, because the previous one was missing the font. (Yes ExtTheme can install Theme’s fonts too).
-
-Note: !PackMan replace the app when updating, so, my DME will create a backup copy of your old one in \`Boot:Resources.DME\_Backups\`, so if you feel like your installed themes have disapeared after an update you can find them in the safety backup and/or you can simply install them again via \`\*theme install …\`.
-
-A note for Andrew/ROD, it seems that Iris had some issues downloading zip files (the themes), the same zips download fine with NetSurf. I am still figuring what’s going on with Iris, so consider this an heads up only for now (and if you are around and reading this).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20199:161165</guid>
     </item>    <item>
       <title>Using EX0 and EY0 for higher definition</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20200</link>
