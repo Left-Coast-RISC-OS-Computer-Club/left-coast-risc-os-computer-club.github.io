@@ -7,10 +7,39 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>18 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>19 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Any possibility of Bush IBX settop (Lazarus) being released?</title>
+      <link>https://www.riscosopen.org/forum/forums/9/topics/17673</link>
+      <description>
+        <![CDATA[<p>Hi. I&#8217;m new here, and to <span class="caps">RISCOS</span>. I know this is a very old post to be replying to but I&#8217;m at my wits end trying to get to a desktop on a Bush <span class="caps">IBX</span> 100 set top box. I followed the instructions at the link that Rick Murray posted here and that I&#8217;ve found I believe on Chris Sawer&#8217;s website. I see it worked for you Rick but I&#8217;ve been going around in circles and whilst I&#8217;m almost there, I just cannot get the filer to run. I have pics of what I&#8217;m seeing but I don&#8217;t seem to be able to add them to this reply. The box is booting off the zip drive but as it boots I get the following messages: <br />
+        File Filer:Templates not found<br />
+        File Pinboard:Messages not found<br />
+        File Filer_Run not found (presumably because the filer module has not loaded correctly so it doesn&#8217;t know what Filer_Run means)</p>
+        <p>I then get to a desktop with the task manager (the green acorn icon) and the display manager showing on the taskbar (pinboard?) but no filer window open and no drive icons showing. I can get to the command line by pressing the menu button on the acorn icon and choosing commands but if I try &quot;filer_opendir IZIpFS::<span class="caps">ZIP</span>.$.Apps for example I just get &#8220;use *Desktop to Start the filer&#8221;. So it seems the filer module just does not load even though some things like the display manager do. I extracted the modules from the OS 3.7 roms running on an emulator on a PC using !zap. I then zipped them up with !zipEE, transferred them to a raspberry pi running risc OS which can read acorn formatted zip discs with a <span class="caps">USB</span> zip drive, transferred them to the drive that way, and then I use a parallel port zip drive to boot the <span class="caps">IBX</span> box. Phew! As I say I have pictures if there&#8217;s an easy way for me to send those. If anyone has any theories as to why this isn&#8217;t working for me I&#8217;d be eternally grateful. I followed the instructions at this link:</p>
+        <p><a href="https://heyrick.eu/assembler/resources/stbgadt.html">https://heyrick.eu/assembler/resources/stbgadt.html</a></p>
+        <p>Cheers,<br />
+        Andrew.</p>]]>
+      </description>
+      <source:markdown>Hi. I’m new here, and to RISCOS. I know this is a very old post to be replying to but I’m at my wits end trying to get to a desktop on a Bush IBX 100 set top box. I followed the instructions at the link that Rick Murray posted here and that I’ve found I believe on Chris Sawer’s website. I see it worked for you Rick but I’ve been going around in circles and whilst I’m almost there, I just cannot get the filer to run. I have pics of what I’m seeing but I don’t seem to be able to add them to this reply. The box is booting off the zip drive but as it boots I get the following messages:
+
+File Filer:Templates not found
+
+File Pinboard:Messages not found
+
+File Filer\_Run not found (presumably because the filer module has not loaded correctly so it doesn’t know what Filer\_Run means)
+
+I then get to a desktop with the task manager (the green acorn icon) and the display manager showing on the taskbar (pinboard?) but no filer window open and no drive icons showing. I can get to the command line by pressing the menu button on the acorn icon and choosing commands but if I try &#34;filer\_opendir IZIpFS::ZIP.$.Apps for example I just get “use \*Desktop to Start the filer”. So it seems the filer module just does not load even though some things like the display manager do. I extracted the modules from the OS 3.7 roms running on an emulator on a PC using !zap. I then zipped them up with !zipEE, transferred them to a raspberry pi running risc OS which can read acorn formatted zip discs with a USB zip drive, transferred them to the drive that way, and then I use a parallel port zip drive to boot the IBX box. Phew! As I say I have pictures if there’s an easy way for me to send those. If anyone has any theories as to why this isn’t working for me I’d be eternally grateful. I followed the instructions at this link:
+
+[https://heyrick.eu/assembler/resources/stbgadt.html](https://heyrick.eu/assembler/resources/stbgadt.html)
+
+Cheers,
+
+Andrew.</source:markdown>
+      <guid>cid://www.riscosopen.org:9:17673:161399</guid>
+    </item>    <item>
       <title>New DME ExtTheme and Launchpad available for download and testing</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
       <description>
@@ -345,6 +374,20 @@ As for how it’s disabled: you’re right, it’s not in the ROMs. RPCEmu check
 Could you enable it locally? Yes — people have done so by removing or bypassing the RO5 checks — but it’s risky. You may get something that appears to work and then quietly corrupts the image. That’s the big reason it hasn’t been officially re-enabled.</source:markdown>
       <guid>cid://www.riscosopen.org:10:20144:161382</guid>
     </item>    <item>
+      <title>Modern Frosted Theme</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
+      <description>
+        <![CDATA[<p>Martin &#8211; The link to your site <a href="http://www.riscos7.co.uk">www.riscos7.co.uk</a> is timing out at the moment.<br />
+        I&#8217;ve just tried from BT Broadband and from my mobile on 3.</p>
+        <p>(<span class="caps">EDIT</span>) Then just like that, it starts working!</p>]]>
+      </description>
+      <source:markdown>Martin – The link to your site [www.riscos7.co.uk](http://www.riscos7.co.uk) is timing out at the moment.
+
+I’ve just tried from BT Broadband and from my mobile on 3.
+
+(EDIT) Then just like that, it starts working!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20138:161381</guid>
+    </item>    <item>
       <title>Gareth McCaughan&#38;#39;s `mkdrawf`/`decdrawf` tools on GitHub</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20222</link>
       <description>
@@ -372,14 +415,6 @@ I’ve updated my \`lessfilter\` tool to add the support for decoding and colour
 
 - \`lessfilter\`: [https://github.com/gerph/lessfilter](https://github.com/gerph/lessfilter)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20222:161379</guid>
-    </item>    <item>
-      <title>Modern Frosted Theme</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
-      <description>
-        <![CDATA[<p>Frosted and <span class="caps">ROM</span> based Frosted can now be downloaded from <a href="http://www.riscos7.co.uk">www.riscos7.co.uk</a> Currently for Pi4 and Softload Titanium, Iyonix and <span class="caps">IOMD</span> Variants will follow in the next couple of weeks. With <span class="caps">ROM</span> Based Versions it replaces the default Sovereign Sprite set with the modern frosted set, and there is an included HardDisc4 Image with the complete theme and iconset for all Configure Icons. Slighlty Revamped Visuals to Taskmanager, Filer etc, to match the theme set.</p>]]>
-      </description>
-      <source:markdown>Frosted and ROM based Frosted can now be downloaded from [www.riscos7.co.uk](http://www.riscos7.co.uk) Currently for Pi4 and Softload Titanium, Iyonix and IOMD Variants will follow in the next couple of weeks. With ROM Based Versions it replaces the default Sovereign Sprite set with the modern frosted set, and there is an included HardDisc4 Image with the complete theme and iconset for all Configure Icons. Slighlty Revamped Visuals to Taskmanager, Filer etc, to match the theme set.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20138:161378</guid>
     </item>    <item>
       <title>Clarity Theme ko-fi</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20137</link>
