@@ -7,10 +7,47 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>21 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>22 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>WROCC January 2026 talk on Wednesday - Elesar</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13524&#38;page=1#125864</link>
+      <description>
+        <![CDATA[Talk is now on youtube at https://www.youtube.com/watch?v=h3mqvDp2PAM]]>
+      </description>
+      <source:markdown>Talk is now on youtube at https://www.youtube.com/watch?v=h3mqvDp2PAM</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13524&#38;page=1#125864</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mczkj7t6xk2x</link>
+      <description>
+        <![CDATA[Wow! Saw this today on eBay...must resist bidding! This takes me back to my childhood when kids were allowed a box full of chemicals and a meths burner to play with! I had this exact set in the mid 1970s. I spent most of the time throwing iron fillings onto the burner. Meths not included!]]>
+      </description>
+      <source:markdown>Wow! Saw this today on eBay...must resist bidding! This takes me back to my childhood when kids were allowed a box full of chemicals and a meths burner to play with! I had this exact set in the mid 1970s. I spent most of the time throwing iron fillings onto the burner. Meths not included!</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mczkj7t6xk2x</guid>
+    </item>    <item>
+      <title>Toolbox_RaiseToolboxEvent</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
+      <description>
+        <![CDATA[<p>Is it possible to call the <span class="caps">SWI</span> Toolbox_RaiseToolboxEvent from within a Toolbox application? Or does it have to be called from outside the application, ie a Module?</p>
+        <p>I&#8217;m trying to make a feedback loop in an attempt to create psudo-threads by generating user events from within an application which has just received the same user event(s), but from a previous invocation.</p>
+        <p>So far, after calling Toolbox_RaiseToolboxEvent and then on the return poll loop, calling any other Toolbox routines I get a Data abort. If I remove the need to call a Toolbox routine the application appears to go into a loop and hangs the application and machine, unless <span class="caps">DDT</span> traps are placed on the points where Toolbox_RaiseToolboxEvent is called.</p>]]>
+      </description>
+      <source:markdown>Is it possible to call the SWI Toolbox\_RaiseToolboxEvent from within a Toolbox application? Or does it have to be called from outside the application, ie a Module?
+
+I’m trying to make a feedback loop in an attempt to create psudo-threads by generating user events from within an application which has just received the same user event(s), but from a previous invocation.
+
+So far, after calling Toolbox\_RaiseToolboxEvent and then on the return poll loop, calling any other Toolbox routines I get a Data abort. If I remove the need to call a Toolbox routine the application appears to go into a loop and hangs the application and machine, unless DDT traps are placed on the points where Toolbox\_RaiseToolboxEvent is called.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20230:161429</guid>
+    </item>    <item>
+      <title>Contacting Dave Hitchins</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20229</link>
+      <description>
+        <![CDATA[<p>I&#8217;m trying to contact Dave Hitchins but he seems to have discontinued his old email address.  If either Dave or someone who knows him could contact me privately, that&#8217;d be great.  Thanks :)</p>]]>
+      </description>
+      <source:markdown>I’m trying to contact Dave Hitchins but he seems to have discontinued his old email address. If either Dave or someone who knows him could contact me privately, that’d be great. Thanks :)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20229:161427</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mcxb4ecvek2u</link>
       <description>
         <![CDATA[They were still up?
@@ -131,13 +168,10 @@ There was a question about my book production using RISC OS – no article has b
       <title>New DME ExtTheme and Launchpad available for download and testing</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
       <description>
-        <![CDATA[<p>Method 3: <br />
-        Create an Obey file that sits in the same directory as the themes files, and use the Obey$Dir method of running things that all the other installers and apps use ?</p>]]>
+        <![CDATA[<p>Good to know, thanks Martin!</p>]]>
       </description>
-      <source:markdown>Method 3:
-
-Create an Obey file that sits in the same directory as the themes files, and use the Obey$Dir method of running things that all the other installers and apps use ?</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20199:161402</guid>
+      <source:markdown>Good to know, thanks Martin!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20199:161410</guid>
     </item>    <item>
       <title>Any possibility of Bush IBX settop (Lazarus) being released?</title>
       <link>https://www.riscosopen.org/forum/forums/9/topics/17673</link>
