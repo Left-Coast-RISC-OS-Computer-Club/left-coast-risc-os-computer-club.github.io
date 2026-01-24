@@ -7,10 +7,176 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>23 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>24 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>New DME ExtTheme and Launchpad available for download and testing</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
+      <description>
+        <![CDATA[<p>Hi David,</p>
+        <p>as usual thanks for the test report! Sorry for the late reply, I had a crazy busy week at work, looking at this now:</p>
+        <blockquote>
+        <p>Double click on ExtTheme and repeat the command, and that error goes away.</p>
+        </blockquote>
+        <p>Ok this is easy to fix.</p>
+        <blockquote>
+        <blockquote>
+        <p>X Backdrop -Colour &amp;000000 -BlendedText -TextColour &amp;ffffff00 -OutlineTextColour &amp;00000000 -FullScreen Themes:CleanDark.Backdrops.Bat-HD</p>
+        </blockquote>
+        <p>Edit The “not known to vanilla OS5.31” arguments are Pinboard 2 additions.</p>
+        <p>I throttled it back to :-</p>
+        <blockquote>
+        <p>Backdrop -Colour &amp;000000 -S Themes:CleanDark.Backdrops.Bat-HD</p>
+        </blockquote>
+        </blockquote>
+        <p>Correct, and I am adding a way to handle this. Unfortunately Pingboard2 has never been accepted by <span class="caps">ROOL</span> as a <span class="caps">RISC</span> OS native Pinboard2, so I need to detect if it&#8217;s running or not, like I do for all versions of the Wimp&#8230; The &#8220;war&#8221; between <span class="caps">ROD</span> and <span class="caps">ROOL</span> is one of the most damaging thing in the RO community, but it is what it is, so we need to handle them correctly.</p>
+        <p>On it. Again thanks for the update, will make a post when the next bunch of fixes are ready! :)</p>]]>
+      </description>
+      <source:markdown>Hi David,
+
+as usual thanks for the test report! Sorry for the late reply, I had a crazy busy week at work, looking at this now:
+
+&#62; Double click on ExtTheme and repeat the command, and that error goes away.
+
+Ok this is easy to fix.
+
+&#62; &#62; X Backdrop -Colour &#38;000000 -BlendedText -TextColour &#38;ffffff00 -OutlineTextColour &#38;00000000 -FullScreen Themes:CleanDark.Backdrops.Bat-HD
+&#62;
+&#62; Edit The “not known to vanilla OS5.31” arguments are Pinboard 2 additions.
+&#62;
+&#62; I throttled it back to :-
+&#62;
+&#62; &#62; Backdrop -Colour &#38;000000 -S Themes:CleanDark.Backdrops.Bat-HD
+
+Correct, and I am adding a way to handle this. Unfortunately Pingboard2 has never been accepted by ROOL as a RISC OS native Pinboard2, so I need to detect if it’s running or not, like I do for all versions of the Wimp… The “war” between ROD and ROOL is one of the most damaging thing in the RO community, but it is what it is, so we need to handle them correctly.
+
+On it. Again thanks for the update, will make a post when the next bunch of fixes are ready! :)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20199:161483</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3md6osj5lrc2x</link>
+      <description>
+        <![CDATA[This video shows how we developed games for the NES at Software Creations. PC-ED was our in-house IDE that we used to edit/build/deploy/debug our game code on a PC. This demonstration shows me loading up the 6502 source code for NES Wolverine - May 1991. Object code deployed to NES target dev kit.]]>
+      </description>
+      <source:markdown>This video shows how we developed games for the NES at Software Creations. PC-ED was our in-house IDE that we used to edit/build/deploy/debug our game code on a PC. This demonstration shows me loading up the 6502 source code for NES Wolverine - May 1991. Object code deployed to NES target dev kit.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3md6osj5lrc2x</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3md6j5wst622t</link>
+      <description>
+        <![CDATA[Some great news from R. Fred Williams about his missing game development disks - he's found them! Hopefully these include some 'missing-in-action' games that he worked on along with original source code for other titles. Looking forward to seeing them and hope we can extract all the data!]]>
+      </description>
+      <source:markdown>Some great news from R. Fred Williams about his missing game development disks - he&#39;s found them! Hopefully these include some &#39;missing-in-action&#39; games that he worked on along with original source code for other titles. Looking forward to seeing them and hope we can extract all the data!</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3md6j5wst622t</guid>
+    </item>    <item>
+      <title>RiscPC freezing with Unipod</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20237</link>
+      <description>
+        <![CDATA[<p>Hi all. What it says; I&#8217;ve resurrected my old RiscPC (luckily caught the battery before it leaked and replaced it with the <span class="caps">CJE</span> thing), but now it&#8217;s freezing at various random points, either before it gets the desktop or after, but only with the Unipod fitted, afaict. Is this a thing? My feeling is that I&#8217;ll have to replace it, as I&#8217;ve no Acorn mouse and only a rubbish Trust PS/2 keyboard. And no <span class="caps">LAN</span>. Anyway too many eggs in one basket as it stands. Suggestions on solutions/replacement products welcome&#8230;</p>]]>
+      </description>
+      <source:markdown>Hi all. What it says; I’ve resurrected my old RiscPC (luckily caught the battery before it leaked and replaced it with the CJE thing), but now it’s freezing at various random points, either before it gets the desktop or after, but only with the Unipod fitted, afaict. Is this a thing? My feeling is that I’ll have to replace it, as I’ve no Acorn mouse and only a rubbish Trust PS/2 keyboard. And no LAN. Anyway too many eggs in one basket as it stands. Suggestions on solutions/replacement products welcome…</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20237:161473</guid>
+    </item>    <item>
+      <title>Coding on RISC OS fireside chat, Saturday 10th Jan.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20212</link>
+      <description>
+        <![CDATA[<p>Thanks</p>]]>
+      </description>
+      <source:markdown>Thanks</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20212:161471</guid>
+    </item>    <item>
+      <title>Ti board in RPC</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20236</link>
+      <description>
+        <![CDATA[<p>Has anyone tried fitting a Ti Motherboard into a RiscPc case?</p>]]>
+      </description>
+      <source:markdown>Has anyone tried fitting a Ti Motherboard into a RiscPc case?</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20236:161469</guid>
+    </item>    <item>
+      <title>UUID Generation</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20235</link>
+      <description>
+        <![CDATA[<p>At the danger asking the obvious is there a RO module which generates and handles <span class="caps">UUID</span> ?</p>]]>
+      </description>
+      <source:markdown>At the danger asking the obvious is there a RO module which generates and handles UUID ?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20235:161467</guid>
+    </item>    <item>
+      <title>ROAST update</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20234</link>
+      <description>
+        <![CDATA[<p>A new ROCoding entry is now available, this time on Circles, which is a bit more complicated and interesting than rectangles.</p>
+        <p>Available here: <a href="https://vermilionsands.uk/roast/index.php/2026/01/20/rocoding-2-circles/"><span class="caps">ROAST</span> circles</a></p>]]>
+      </description>
+      <source:markdown>A new ROCoding entry is now available, this time on Circles, which is a bit more complicated and interesting than rectangles.
+
+Available here: [ROAST circles](https://vermilionsands.uk/roast/index.php/2026/01/20/rocoding-2-circles/)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20234:161466</guid>
+    </item>    <item>
+      <title>NAS devices</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20122</link>
+      <description>
+        <![CDATA[<p>I just recently started using my Titanium as a <span class="caps">NAS</span> as i got 4 x Seagate Exos 7E8 ST12000NM0105 for £25 Each, Excellent Drives and Format 4kn automatic under !PartMgr<br />
+        Anyone else wanting to grab a bargain here is the link &#8211; <a href="https://www.ebay.co.uk/itm/157497235710">https://www.ebay.co.uk/itm/157497235710</a> (7 Left)</p>]]>
+      </description>
+      <source:markdown>I just recently started using my Titanium as a NAS as i got 4 x Seagate Exos 7E8 ST12000NM0105 for £25 Each, Excellent Drives and Format 4kn automatic under !PartMgr
+
+Anyone else wanting to grab a bargain here is the link – [https://www.ebay.co.uk/itm/157497235710](https://www.ebay.co.uk/itm/157497235710) (7 Left)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20122:161465</guid>
+    </item>    <item>
+      <title>RPCEmu riscos 5.31 beta ROM</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20233</link>
+      <description>
+        <![CDATA[<p>Hello</p>
+        <p>Where can I download riscos 5.31 beta <span class="caps">ROM</span>? It is not in the riscpc downloads, just a softload version. Or can I use the rom that is in the softload?</p>]]>
+      </description>
+      <source:markdown>Hello
+
+Where can I download riscos 5.31 beta ROM? It is not in the riscpc downloads, just a softload version. Or can I use the rom that is in the softload?</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20233:161463</guid>
+    </item>    <item>
+      <title>Toolbox_RaiseToolboxEvent</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
+      <description>
+        <![CDATA[<p>I tried sending a user event from a menu item last night and got the same behaviour so I think its not the way I&#8217;m generating the event through Toolbox_RaiseToolboxEvent, that I think may be a &#8220;Red Herring&#8221;.</p>
+        <p>Something strange is happening when accessing the writable gadget which I want to update.</p>
+        <p>What I want to do overall is to create a mechanism where I can read I2C devices and display the data received but having a more direct route than via null wimp polls or <span class="caps">WIMP</span> Messaging.</p>
+        <p>It would tie together a gadget and an event to an I2C device in a single object, no extra code would be needed outside of the extended gadget object, other than in the events switch case to access the gadget objects methods.</p>]]>
+      </description>
+      <source:markdown>I tried sending a user event from a menu item last night and got the same behaviour so I think its not the way I’m generating the event through Toolbox\_RaiseToolboxEvent, that I think may be a “Red Herring”.
+
+Something strange is happening when accessing the writable gadget which I want to update.
+
+What I want to do overall is to create a mechanism where I can read I2C devices and display the data received but having a more direct route than via null wimp polls or WIMP Messaging.
+
+It would tie together a gadget and an event to an I2C device in a single object, no extra code would be needed outside of the extended gadget object, other than in the events switch case to access the gadget objects methods.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20230:161462</guid>
+    </item>    <item>
+      <title>!Switch - where can i find it?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20232</link>
+      <description>
+        <![CDATA[<p>Hello Community</p>
+        <p>I can&#8217;t find a site anymore where to download the !Switch desktop utility, allowing to get a list of open windows and easily switch between them.<br />
+        Does anyone has an url?<br />
+        Thank you for your help.</p>
+        <p>François</p>]]>
+      </description>
+      <source:markdown>Hello Community
+
+I can’t find a site anymore where to download the !Switch desktop utility, allowing to get a list of open windows and easily switch between them.
+
+Does anyone has an url?
+
+Thank you for your help.
+
+François</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20232:161460</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3md4tqvdnok2u</link>
+      <description>
+        <![CDATA[What a ridiculous new system Ebay now has for postage. Someone's bought two items from me and requested combined postage, quite naturally. But there is no way to do it, the button is greyed out and from what I've since read, Ebay has removed the facility and insists you use individual prepaid labels]]>
+      </description>
+      <source:markdown>What a ridiculous new system Ebay now has for postage. Someone&#39;s bought two items from me and requested combined postage, quite naturally. But there is no way to do it, the button is greyed out and from what I&#39;ve since read, Ebay has removed the facility and insists you use individual prepaid labels</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3md4tqvdnok2u</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3md45kbqrtk2s</link>
       <description>
         <![CDATA[I've finished recovering and archiving R Fred Williams' development disks - Einstein, Amstrad & Spectrum. Unfortunately, we didn't find the 'missing' source code and games that Fred was looking for, however, he may have more disks hidden away! Many of the disks did have errors, which is quite common]]>
@@ -40,20 +206,6 @@ www.ebay.co.uk/usr/colin\_hoad</source:markdown>
 Turned out to be quite easy:</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3md3wfy2at22p</guid>
     </item>    <item>
-      <title>Toolbox_RaiseToolboxEvent</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
-      <description>
-        <![CDATA[<p>The Toolbox messaging just uses the normal <span class="caps">WIMP</span> messaging anyway, it uses a single specific <span class="caps">WIMP</span> event value assigned to the Toolbox and a particularly body layout, the message header layout is otherwise exactly the same.</p>
-        <p>So I don&#8217;t see there should be any specific issue why I&#8217;m getting a data abort when calling a gadget method after receiving a Toolbox user event. The only difference is I&#8217;m generating the event from within the application and it&#8217;s not being generated by the Toolbox.</p>
-        <p>I think my question is, has anyone tried this and succeded or found issues?</p>]]>
-      </description>
-      <source:markdown>The Toolbox messaging just uses the normal WIMP messaging anyway, it uses a single specific WIMP event value assigned to the Toolbox and a particularly body layout, the message header layout is otherwise exactly the same.
-
-So I don’t see there should be any specific issue why I’m getting a data abort when calling a gadget method after receiving a Toolbox user event. The only difference is I’m generating the event from within the application and it’s not being generated by the Toolbox.
-
-I think my question is, has anyone tried this and succeded or found issues?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20230:161450</guid>
-    </item>    <item>
       <title>Impression-X</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/11208</link>
       <description>
@@ -70,14 +222,6 @@ Thank you for any information.
 
 François</source:markdown>
       <guid>cid://www.riscosopen.org:5:11208:161449</guid>
-    </item>    <item>
-      <title>Coding on RISC OS fireside chat, Saturday 10th Jan.</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20212</link>
-      <description>
-        <![CDATA[<p>When is the next one please?</p>]]>
-      </description>
-      <source:markdown>When is the next one please?</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20212:161440</guid>
     </item>    <item>
       <title>Bluetooth development</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
@@ -127,14 +271,6 @@ If you want to watch the whole series, you can follow it through the playlist on
 
 Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimptextrender…](https://presentation.riscos.online/live/wimptextrender.html) (once it has been published).</source:markdown>
       <guid>cid://www.riscosopen.org:1:20231:161438</guid>
-    </item>    <item>
-      <title>NAS devices</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20122</link>
-      <description>
-        <![CDATA[<p>I am thinking of buying the Synology DS124 <span class="caps">NAS</span> together with the 4TB Seagate IronWolf ST4000VN006 <span class="caps">NAS</span> Hard Drive, 3.5&quot; <span class="caps">HDD</span>, <span class="caps">SATA</span> <span class="caps">III</span>. Will this work well with <span class="caps">RISC</span> OS?</p>]]>
-      </description>
-      <source:markdown>I am thinking of buying the Synology DS124 NAS together with the 4TB Seagate IronWolf ST4000VN006 NAS Hard Drive, 3.5&#34; HDD, SATAIII. Will this work well with RISC OS?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20122:161435</guid>
     </item>    <item>
       <title>PCEmu</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20226</link>
@@ -281,14 +417,6 @@ François</source:markdown>
 
 There was a question about my book production using RISC OS – no article has been published but the information is [here](https://www.svrsig.org/Proj5_A4.pdf)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20225:161412</guid>
-    </item>    <item>
-      <title>New DME ExtTheme and Launchpad available for download and testing</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
-      <description>
-        <![CDATA[<p>Good to know, thanks Martin!</p>]]>
-      </description>
-      <source:markdown>Good to know, thanks Martin!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20199:161410</guid>
     </item>    <item>
       <title>Any possibility of Bush IBX settop (Lazarus) being released?</title>
       <link>https://www.riscosopen.org/forum/forums/9/topics/17673</link>
