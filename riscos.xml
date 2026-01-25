@@ -7,10 +7,98 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>24 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>25 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdbea3gku227</link>
+      <description>
+        <![CDATA[“How much of nemoBasic is new?” I sometimes get asked.
+        
+        The answer is “I’ve written more than I started with”:]]>
+      </description>
+      <source:markdown>“How much of nemoBasic is new?” I sometimes get asked.
+
+The answer is “I’ve written more than I started with”:</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdbea3gku227</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdb6qtmlgs2c</link>
+      <description>
+        <![CDATA[The problem with defining a new flag in the RISC OS window definition is suddenly coming across a window behaving oddly because it, erroneously, ALREADY HAD THE BIT SET.
+        
+        At some point a few years ago a default window got some flags randomised and neither !TempEdit or the Wimp noticed.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>The problem with defining a new flag in the RISC OS window definition is suddenly coming across a window behaving oddly because it, erroneously, ALREADY HAD THE BIT SET.
+
+At some point a few years ago a default window got some flags randomised and neither !TempEdit or the Wimp noticed.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdb6qtmlgs2c</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdb65o5k3c2c</link>
+      <description>
+        <![CDATA[nemoBasic is all about removing boilerplate from BBC Basic programs – this sort of thing. So obvious! Why wasn’t it always there? eg
+        
+        IF STR$~filename$ = "<wimp$scrap>" THEN ...]]>
+      </description>
+      <source:markdown>nemoBasic is all about removing boilerplate from BBC Basic programs – this sort of thing. So obvious! Why wasn’t it always there? eg
+
+IF STR$~filename$ = &#34;&#34; THEN ...</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdb65o5k3c2c</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mdb4seoxzk2o</link>
+      <description>
+        <![CDATA[Mike Webb - programmer and co-designer of NES Solstice. I worked with Mike at Software Creations in the late 80s / early 90s. He was the Technical Director and genius who reverse engineered the NES, created his own dev kits for NES and SNES and wrote much of the early development software.]]>
+      </description>
+      <source:markdown>Mike Webb - programmer and co-designer of NES Solstice. I worked with Mike at Software Creations in the late 80s / early 90s. He was the Technical Director and genius who reverse engineered the NES, created his own dev kits for NES and SNES and wrote much of the early development software.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mdb4seoxzk2o</guid>
+    </item>    <item>
+      <title>Toolbox_RaiseToolboxEvent</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
+      <description>
+        <![CDATA[<p>Discovered my issue! Stupid mistake!</p>
+        <p>Allocating a new block of memory for a gadget object but the pointer wasn&#8217;t being stored in the location allocated for the gadget object in a window object, it was being stored in a local variable with the same name therefore hiding the one it should have updated. Hence the data abort when the pointer to the gadget object in the window object was used!</p>
+        <p>Toolbox_RaiseToolboxEvent is working fine now but is swamping the <span class="caps">WIMP</span> with events, no other process gets a look in, something else to solve :/</p>]]>
+      </description>
+      <source:markdown>Discovered my issue! Stupid mistake!
+
+Allocating a new block of memory for a gadget object but the pointer wasn’t being stored in the location allocated for the gadget object in a window object, it was being stored in a local variable with the same name therefore hiding the one it should have updated. Hence the data abort when the pointer to the gadget object in the window object was used!
+
+Toolbox\_RaiseToolboxEvent is working fine now but is swamping the WIMP with events, no other process gets a look in, something else to solve :/</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20230:161490</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 25th January at 1pm UK time.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20231</link>
+      <description>
+        <![CDATA[<p>Coming up in about 40 minutes if anyone wants to come along&#8230;</p>]]>
+      </description>
+      <source:markdown>Coming up in about 40 minutes if anyone wants to come along…</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20231:161487</guid>
+    </item>    <item>
+      <title>RPCEmu riscos 5.31 beta ROM</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20233</link>
+      <description>
+        <![CDATA[<p>Thanks. That worked.</p>]]>
+      </description>
+      <source:markdown>Thanks. That worked.</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20233:161486</guid>
+    </item>    <item>
+      <title>Bluetooth development</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
+      <description>
+        <![CDATA[<p>Dear all two pushes(!) today on github for the <a href="https://github.com/TimoHartong/ROBTBSD">BT Stack</a> .<br />
+        - btconfig compiles and links but does not work. Empty functions ;-)<br />
+        - Work on compiling and linking btdevctl. I thought I did not need <span class="caps">USB</span> header related files but it seems to contain some things in relation to the <span class="caps">HID</span> so added from the <span class="caps">NETBSD</span> source</p>]]>
+      </description>
+      <source:markdown>Dear all two pushes(!) today on github for the [BT Stack](https://github.com/TimoHartong/ROBTBSD) .
+
+\- btconfig compiles and links but does not work. Empty functions ;-)
+
+\- Work on compiling and linking btdevctl. I thought I did not need USB header related files but it seems to contain some things in relation to the HID so added from the NETBSD source</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20204:161485</guid>
+    </item>    <item>
       <title>New DME ExtTheme and Launchpad available for download and testing</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
       <description>
@@ -76,6 +164,14 @@ On it. Again thanks for the update, will make a post when the next bunch of fixe
       <source:markdown>Hi all. What it says; I’ve resurrected my old RiscPC (luckily caught the battery before it leaked and replaced it with the CJE thing), but now it’s freezing at various random points, either before it gets the desktop or after, but only with the Unipod fitted, afaict. Is this a thing? My feeling is that I’ll have to replace it, as I’ve no Acorn mouse and only a rubbish Trust PS/2 keyboard. And no LAN. Anyway too many eggs in one basket as it stands. Suggestions on solutions/replacement products welcome…</source:markdown>
       <guid>cid://www.riscosopen.org:11:20237:161473</guid>
     </item>    <item>
+      <title>UUID Generation</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20235</link>
+      <description>
+        <![CDATA[<p>Perfect lets see if we can use that within the BT stack.</p>]]>
+      </description>
+      <source:markdown>Perfect lets see if we can use that within the BT stack.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20235:161472</guid>
+    </item>    <item>
       <title>Coding on RISC OS fireside chat, Saturday 10th Jan.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20212</link>
       <description>
@@ -91,14 +187,6 @@ On it. Again thanks for the update, will make a post when the next bunch of fixe
       </description>
       <source:markdown>Has anyone tried fitting a Ti Motherboard into a RiscPc case?</source:markdown>
       <guid>cid://www.riscosopen.org:2:20236:161469</guid>
-    </item>    <item>
-      <title>UUID Generation</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20235</link>
-      <description>
-        <![CDATA[<p>At the danger asking the obvious is there a RO module which generates and handles <span class="caps">UUID</span> ?</p>]]>
-      </description>
-      <source:markdown>At the danger asking the obvious is there a RO module which generates and handles UUID ?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20235:161467</guid>
     </item>    <item>
       <title>ROAST update</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20234</link>
@@ -121,34 +209,6 @@ Available here: [ROAST circles](https://vermilionsands.uk/roast/index.php/2026/0
 
 Anyone else wanting to grab a bargain here is the link – [https://www.ebay.co.uk/itm/157497235710](https://www.ebay.co.uk/itm/157497235710) (7 Left)</source:markdown>
       <guid>cid://www.riscosopen.org:11:20122:161465</guid>
-    </item>    <item>
-      <title>RPCEmu riscos 5.31 beta ROM</title>
-      <link>https://www.riscosopen.org/forum/forums/10/topics/20233</link>
-      <description>
-        <![CDATA[<p>Hello</p>
-        <p>Where can I download riscos 5.31 beta <span class="caps">ROM</span>? It is not in the riscpc downloads, just a softload version. Or can I use the rom that is in the softload?</p>]]>
-      </description>
-      <source:markdown>Hello
-
-Where can I download riscos 5.31 beta ROM? It is not in the riscpc downloads, just a softload version. Or can I use the rom that is in the softload?</source:markdown>
-      <guid>cid://www.riscosopen.org:10:20233:161463</guid>
-    </item>    <item>
-      <title>Toolbox_RaiseToolboxEvent</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
-      <description>
-        <![CDATA[<p>I tried sending a user event from a menu item last night and got the same behaviour so I think its not the way I&#8217;m generating the event through Toolbox_RaiseToolboxEvent, that I think may be a &#8220;Red Herring&#8221;.</p>
-        <p>Something strange is happening when accessing the writable gadget which I want to update.</p>
-        <p>What I want to do overall is to create a mechanism where I can read I2C devices and display the data received but having a more direct route than via null wimp polls or <span class="caps">WIMP</span> Messaging.</p>
-        <p>It would tie together a gadget and an event to an I2C device in a single object, no extra code would be needed outside of the extended gadget object, other than in the events switch case to access the gadget objects methods.</p>]]>
-      </description>
-      <source:markdown>I tried sending a user event from a menu item last night and got the same behaviour so I think its not the way I’m generating the event through Toolbox\_RaiseToolboxEvent, that I think may be a “Red Herring”.
-
-Something strange is happening when accessing the writable gadget which I want to update.
-
-What I want to do overall is to create a mechanism where I can read I2C devices and display the data received but having a more direct route than via null wimp polls or WIMP Messaging.
-
-It would tie together a gadget and an event to an I2C device in a single object, no extra code would be needed outside of the extended gadget object, other than in the events switch case to access the gadget objects methods.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20230:161462</guid>
     </item>    <item>
       <title>!Switch - where can i find it?</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20232</link>
@@ -222,55 +282,6 @@ Thank you for any information.
 
 François</source:markdown>
       <guid>cid://www.riscosopen.org:5:11208:161449</guid>
-    </item>    <item>
-      <title>Bluetooth development</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
-      <description>
-        <![CDATA[<p>I&#8217;m happy to announce that development on the BT stack has started again.New code has been pushed onto Github</p>]]>
-      </description>
-      <source:markdown>I’m happy to announce that development on the BT stack has started again.New code has been pushed onto Github</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20204:161439</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 25th January at 1pm UK time.</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20231</link>
-      <description>
-        <![CDATA[<p>This Sunday – 25th January, at 1pm UK time – I&#8217;ll be starting continuing my live coding. We skipped a week, last week, but this week I&#8217;ll be continuing with the text rendering calls for the Window Manager.</p>
-        <p>Come along if you like – <a href="https://youtube.com/live/lJzfkKKpHO0?feature=share">https://youtube.com/live/lJzfkKKpHO0?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
-        <hr />
-        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
-        <p>The functionality we need to implement is documented in the riscos64-status repository (<a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_TextRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a>), and might take a few sessions to implement.</p>
-        <p>So far, we&#8217;ve got:</p>
-        <ul>
-        	<li>Simple font rendering.</li>
-        	<li>Simple font sizing.</li>
-        	<li>Selection of font from system variable.</li>
-        </ul>
-        <hr />
-        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-RsoccMdcAep0iZSJQT">https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-…</a></p>
-        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimptextrender.html">https://presentation.riscos.online/live/wimptextrender…</a> (once it has been published).</p>]]>
-      </description>
-      <source:markdown>This Sunday – 25th January, at 1pm UK time – I’ll be starting continuing my live coding. We skipped a week, last week, but this week I’ll be continuing with the text rendering calls for the Window Manager.
-
-Come along if you like – [https://youtube.com/live/lJzfkKKpHO0?feature=share](https://youtube.com/live/lJzfkKKpHO0?feature=share) – or you can always watch the video afterwards at the same address.
-
-* * *
-
-For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
-
-The functionality we need to implement is documented in the riscos64-status repository ( [https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_TextRender)), and might take a few sessions to implement.
-
-So far, we’ve got:
-
-- Simple font rendering.
-- Simple font sizing.
-- Selection of font from system variable.
-
-* * *
-
-If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-…](https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-RsoccMdcAep0iZSJQT)
-
-Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimptextrender…](https://presentation.riscos.online/live/wimptextrender.html) (once it has been published).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20231:161438</guid>
     </item>    <item>
       <title>PCEmu</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20226</link>
@@ -1621,9 +1632,9 @@ Kids! Learn your regular expressions. They will never not be useful to you.</sou
       <title>WROCC January 2026 talk on Wednesday - Elesar</title>
       <link>http://www.iconbar.com/comments/rss/news2269.html</link>
       <description>
-        <![CDATA[The January 2026 WROCC talk is on Wednesday 7th January and starts at at 7.45pm on Zoom.]]>
+        <![CDATA[The January 2026 WROCC talk is on Wednesday 7th January and starts at 7.45pm on Zoom.]]>
       </description>
-      <source:markdown>The January 2026 WROCC talk is on Wednesday 7th January and starts at at 7.45pm on Zoom.</source:markdown>
+      <source:markdown>The January 2026 WROCC talk is on Wednesday 7th January and starts at 7.45pm on Zoom.</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2269.html</guid>
     </item>    <item>
       <title>RISC OS - Flight Simulators</title>
