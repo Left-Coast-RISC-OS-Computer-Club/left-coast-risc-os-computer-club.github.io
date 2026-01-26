@@ -7,10 +7,104 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>25 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>26 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mddszaay6s2e</link>
+      <description>
+        <![CDATA[RISC OS North Show is only 2 months away.... 
+        
+        https://www.iconbar.com/articles/RISC_OS_North_Show_is_only_2_months_away..../index2299.html 
+        
+        Time to make plans - RISC OS North returns on Saturday 21st March 2026 at the Village Hotel Warrington.]]>
+      </description>
+      <source:markdown>RISC OS North Show is only 2 months away....
+
+https://www.iconbar.com/articles/RISC\_OS\_North\_Show\_is\_only\_2\_months\_away..../index2299.html
+
+Time to make plans - RISC OS North returns on Saturday 21st March 2026 at the Village Hotel Warrington.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mddszaay6s2e</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mddsyj4snc2e</link>
+      <description>
+        <![CDATA[Working with Git client on RISC OS 
+        
+        https://www.iconbar.com/articles/Working_with_Git_client_on_RISC_OS/index2264.html 
+        
+        I have been getting back into programming RISC OS in BBC BASIC to scratch an itch and for a challenge. This also gave me an excellent way to try out the RISC OS Git client. So here are my experiences.]]>
+      </description>
+      <source:markdown>Working with Git client on RISC OS
+
+https://www.iconbar.com/articles/Working\_with\_Git\_client\_on\_RISC\_OS/index2264.html
+
+I have been getting back into programming RISC OS in BBC BASIC to scratch an itch and for a challenge. This also gave me an excellent way to try out the RISC OS Git client. So here are my experiences.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mddsyj4snc2e</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mddnaok6xs2v</link>
+      <description>
+        <![CDATA[Spare me from people enthusing about how much more productive AI has made them in programming languages they don't know.]]>
+      </description>
+      <source:markdown>Spare me from people enthusing about how much more productive AI has made them in programming languages they don&#39;t know.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mddnaok6xs2v</guid>
+    </item>    <item>
+      <title>PCEmu</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20226</link>
+      <description>
+        <![CDATA[<p>I can&#8217;t remember which variant of DosBox sits on my 4té2, I intended to put it originally to use it directly on the FAT32 disk were the files I intended to access were located but it was not able to read the folders correctly (lots of files and folder not seen) and had to copy everything on a FileCore disk. I guess another case of broken implementation of directory scanning routine making incorrect assumptions about OS_GBPB.</p>]]>
+      </description>
+      <source:markdown>I can’t remember which variant of DosBox sits on my 4té2, I intended to put it originally to use it directly on the FAT32 disk were the files I intended to access were located but it was not able to read the folders correctly (lots of files and folder not seen) and had to copy everything on a FileCore disk. I guess another case of broken implementation of directory scanning routine making incorrect assumptions about OS\_GBPB.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20226:161505</guid>
+    </item>    <item>
+      <title>Handling Unicode</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20238</link>
+      <description>
+        <![CDATA[<p>I think in the last month or so there has been a message, perhaps a meeting announcement, which mentioned a whole lot of things, but one of them was a little-known Wimp message which addresses the issue of the encoding of text in Wimp messages. I just tried to track this down via browsing recent postings and by using Google, but no joy.</p>
+        <p>Does this ring any bells for anyone, or did I dream the whole thing?</p>]]>
+      </description>
+      <source:markdown>I think in the last month or so there has been a message, perhaps a meeting announcement, which mentioned a whole lot of things, but one of them was a little-known Wimp message which addresses the issue of the encoding of text in Wimp messages. I just tried to track this down via browsing recent postings and by using Google, but no joy.
+
+Does this ring any bells for anyone, or did I dream the whole thing?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20238:161498</guid>
+    </item>    <item>
+      <title>RISC OS North Show is only 2 months away....</title>
+      <link>http://www.iconbar.com/comments/rss/news2299.html</link>
+      <description>
+        <![CDATA[Time to make plans - RISC OS North returns on Saturday 21st March 2026 at the Village Hotel Warrington.]]>
+      </description>
+      <source:markdown>Time to make plans - RISC OS North returns on Saturday 21st March 2026 at the Village Hotel Warrington.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2299.html</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mdbuuagwuc2o</link>
+      <description>
+        <![CDATA[In 2022 I was finally able to reunite Paul Proctor with his BBC Micro development disks that he left with me back in 1986. He'd moved home several times and we completely lost touch. These contained the source code for Knight Lore, Alien 8, Lunar Jetman and Nightshade. All safely archived.]]>
+      </description>
+      <source:markdown>In 2022 I was finally able to reunite Paul Proctor with his BBC Micro development disks that he left with me back in 1986. He&#39;d moved home several times and we completely lost touch. These contained the source code for Knight Lore, Alien 8, Lunar Jetman and Nightshade. All safely archived.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mdbuuagwuc2o</guid>
+    </item>    <item>
+      <title>New DME ExtTheme and Launchpad available for download and testing</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
+      <description>
+        <![CDATA[<p>Ok, ExtTheme alphas release 0.0.1-8 available for testers! (just update it via PackMan) :)</p>
+        <p>I have also made an update for CleanDark theme to make it work fine without Pinboard 2.</p>
+        <p>This update for ExtTheme should address the following issues reported by Davit Pitt:</p>
+        <p>1) After installation it should now do the automatic Filer_Boot int he <span class="caps">DME</span> engine) for the newly installed ExtTheme and that should fix the error &#8220;Failed to open choices file for writing&#8221;, hopefully this is fixed for every deployemnts.</p>
+        <p>2) Backdrop options have been updated to the correct Pinboard version and so ExtTheme should play nice also on <span class="caps">RIS</span> <span class="caps">COS</span> systems that are not using Pinboard 2.</p>
+        <p>Please let me know if there are still issues. Thanks for yoru feedback! :)</p>]]>
+      </description>
+      <source:markdown>Ok, ExtTheme alphas release 0.0.1-8 available for testers! (just update it via PackMan) :)
+
+I have also made an update for CleanDark theme to make it work fine without Pinboard 2.
+
+This update for ExtTheme should address the following issues reported by Davit Pitt:
+
+1) After installation it should now do the automatic Filer\_Boot int he DME engine) for the newly installed ExtTheme and that should fix the error “Failed to open choices file for writing”, hopefully this is fixed for every deployemnts.
+
+2) Backdrop options have been updated to the correct Pinboard version and so ExtTheme should play nice also on RISCOS systems that are not using Pinboard 2.
+
+Please let me know if there are still issues. Thanks for yoru feedback! :)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20199:161495</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdbea3gku227</link>
       <description>
         <![CDATA[“How much of nemoBasic is new?” I sometimes get asked.
@@ -21,6 +115,14 @@
 
 The answer is “I’ve written more than I started with”:</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdbea3gku227</guid>
+    </item>    <item>
+      <title>RiscPC freezing with Unipod</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20237</link>
+      <description>
+        <![CDATA[<p>Just wondering would making an image from the harddrive under Linux an idea and then RPCEmu work ?</p>]]>
+      </description>
+      <source:markdown>Just wondering would making an image from the harddrive under Linux an idea and then RPCEmu work ?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20237:161494</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdb6qtmlgs2c</link>
       <description>
@@ -99,49 +201,6 @@ Toolbox\_RaiseToolboxEvent is working fine now but is swamping the WIMP with eve
 \- Work on compiling and linking btdevctl. I thought I did not need USB header related files but it seems to contain some things in relation to the HID so added from the NETBSD source</source:markdown>
       <guid>cid://www.riscosopen.org:5:20204:161485</guid>
     </item>    <item>
-      <title>New DME ExtTheme and Launchpad available for download and testing</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
-      <description>
-        <![CDATA[<p>Hi David,</p>
-        <p>as usual thanks for the test report! Sorry for the late reply, I had a crazy busy week at work, looking at this now:</p>
-        <blockquote>
-        <p>Double click on ExtTheme and repeat the command, and that error goes away.</p>
-        </blockquote>
-        <p>Ok this is easy to fix.</p>
-        <blockquote>
-        <blockquote>
-        <p>X Backdrop -Colour &amp;000000 -BlendedText -TextColour &amp;ffffff00 -OutlineTextColour &amp;00000000 -FullScreen Themes:CleanDark.Backdrops.Bat-HD</p>
-        </blockquote>
-        <p>Edit The “not known to vanilla OS5.31” arguments are Pinboard 2 additions.</p>
-        <p>I throttled it back to :-</p>
-        <blockquote>
-        <p>Backdrop -Colour &amp;000000 -S Themes:CleanDark.Backdrops.Bat-HD</p>
-        </blockquote>
-        </blockquote>
-        <p>Correct, and I am adding a way to handle this. Unfortunately Pingboard2 has never been accepted by <span class="caps">ROOL</span> as a <span class="caps">RISC</span> OS native Pinboard2, so I need to detect if it&#8217;s running or not, like I do for all versions of the Wimp&#8230; The &#8220;war&#8221; between <span class="caps">ROD</span> and <span class="caps">ROOL</span> is one of the most damaging thing in the RO community, but it is what it is, so we need to handle them correctly.</p>
-        <p>On it. Again thanks for the update, will make a post when the next bunch of fixes are ready! :)</p>]]>
-      </description>
-      <source:markdown>Hi David,
-
-as usual thanks for the test report! Sorry for the late reply, I had a crazy busy week at work, looking at this now:
-
-&#62; Double click on ExtTheme and repeat the command, and that error goes away.
-
-Ok this is easy to fix.
-
-&#62; &#62; X Backdrop -Colour &#38;000000 -BlendedText -TextColour &#38;ffffff00 -OutlineTextColour &#38;00000000 -FullScreen Themes:CleanDark.Backdrops.Bat-HD
-&#62;
-&#62; Edit The “not known to vanilla OS5.31” arguments are Pinboard 2 additions.
-&#62;
-&#62; I throttled it back to :-
-&#62;
-&#62; &#62; Backdrop -Colour &#38;000000 -S Themes:CleanDark.Backdrops.Bat-HD
-
-Correct, and I am adding a way to handle this. Unfortunately Pingboard2 has never been accepted by ROOL as a RISC OS native Pinboard2, so I need to detect if it’s running or not, like I do for all versions of the Wimp… The “war” between ROD and ROOL is one of the most damaging thing in the RO community, but it is what it is, so we need to handle them correctly.
-
-On it. Again thanks for the update, will make a post when the next bunch of fixes are ready! :)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20199:161483</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3md6osj5lrc2x</link>
       <description>
         <![CDATA[This video shows how we developed games for the NES at Software Creations. PC-ED was our in-house IDE that we used to edit/build/deploy/debug our game code on a PC. This demonstration shows me loading up the 6502 source code for NES Wolverine - May 1991. Object code deployed to NES target dev kit.]]>
@@ -155,14 +214,6 @@ On it. Again thanks for the update, will make a post when the next bunch of fixe
       </description>
       <source:markdown>Some great news from R. Fred Williams about his missing game development disks - he&#39;s found them! Hopefully these include some &#39;missing-in-action&#39; games that he worked on along with original source code for other titles. Looking forward to seeing them and hope we can extract all the data!</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3md6j5wst622t</guid>
-    </item>    <item>
-      <title>RiscPC freezing with Unipod</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20237</link>
-      <description>
-        <![CDATA[<p>Hi all. What it says; I&#8217;ve resurrected my old RiscPC (luckily caught the battery before it leaked and replaced it with the <span class="caps">CJE</span> thing), but now it&#8217;s freezing at various random points, either before it gets the desktop or after, but only with the Unipod fitted, afaict. Is this a thing? My feeling is that I&#8217;ll have to replace it, as I&#8217;ve no Acorn mouse and only a rubbish Trust PS/2 keyboard. And no <span class="caps">LAN</span>. Anyway too many eggs in one basket as it stands. Suggestions on solutions/replacement products welcome&#8230;</p>]]>
-      </description>
-      <source:markdown>Hi all. What it says; I’ve resurrected my old RiscPC (luckily caught the battery before it leaked and replaced it with the CJE thing), but now it’s freezing at various random points, either before it gets the desktop or after, but only with the Unipod fitted, afaict. Is this a thing? My feeling is that I’ll have to replace it, as I’ve no Acorn mouse and only a rubbish Trust PS/2 keyboard. And no LAN. Anyway too many eggs in one basket as it stands. Suggestions on solutions/replacement products welcome…</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20237:161473</guid>
     </item>    <item>
       <title>UUID Generation</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20235</link>
@@ -282,20 +333,6 @@ Thank you for any information.
 
 François</source:markdown>
       <guid>cid://www.riscosopen.org:5:11208:161449</guid>
-    </item>    <item>
-      <title>PCEmu</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20226</link>
-      <description>
-        <![CDATA[<p>There were two pre-!PC (Aleph1 hardware podules and co-pros) PC emulators &#8211; !PCem which was common in Acorn&#8217;s Learning Curve bundle, and !FasterPC which was available from <span class="caps">APDL</span> if I remember correctly.  FasterPC was generally a bit less compatible, but significantly faster when it worked.  The Acorn one worked pretty well, but was quite slow on the hardware of the time, unless you just wanted to run office programs.  It initially suppored <span class="caps">CGA</span> and a bit of <span class="caps">EGA</span> but I believe it was updated to &#8220;EGA+&#8221; with a bit of <span class="caps">VGA</span>.</p>
-        <p>I forget what FasterPC did &#8211; it may have offered some form of <span class="caps">VGA</span> emulation being newer, but I can&#8217;t quite recall.</p>
-        <p>These days, you&#8217;d probably be better off using DosBox instead.  <span class="caps">IIRC</span> that can run Windows as well, although I&#8217;m not sure how well the <span class="caps">RISC</span> OS version does that.  I know a chap did a &#8220;faster&#8221; DosBox at one stage for ARMv7 machines (<span class="caps">NEON</span>/<span class="caps">VFP</span> maybe?), although I don&#8217;t know if it still works on ARMv8 etc.  I think it was on !Store (I haven&#8217;t checked).  DosBox is essentially very similar to what Acorn&#8217;s emulator offered, only more capable (ie. better sound, better graphics and more modern <span class="caps">CPU</span> emulation).</p>]]>
-      </description>
-      <source:markdown>There were two pre-!PC (Aleph1 hardware podules and co-pros) PC emulators – !PCem which was common in Acorn’s Learning Curve bundle, and !FasterPC which was available from APDL if I remember correctly. FasterPC was generally a bit less compatible, but significantly faster when it worked. The Acorn one worked pretty well, but was quite slow on the hardware of the time, unless you just wanted to run office programs. It initially suppored CGA and a bit of EGA but I believe it was updated to “EGA+” with a bit of VGA.
-
-I forget what FasterPC did – it may have offered some form of VGA emulation being newer, but I can’t quite recall.
-
-These days, you’d probably be better off using DosBox instead. IIRC that can run Windows as well, although I’m not sure how well the RISC OS version does that. I know a chap did a “faster” DosBox at one stage for ARMv7 machines (NEON/VFP maybe?), although I don’t know if it still works on ARMv8 etc. I think it was on !Store (I haven’t checked). DosBox is essentially very similar to what Acorn’s emulator offered, only more capable (ie. better sound, better graphics and more modern CPU emulation).</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20226:161432</guid>
     </item>    <item>
       <title>WROCC January 2026 talk on Wednesday - Elesar</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13524&#38;page=1#125864</link>
