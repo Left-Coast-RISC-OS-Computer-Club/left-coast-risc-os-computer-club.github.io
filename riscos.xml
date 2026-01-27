@@ -7,10 +7,89 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>26 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>27 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>RISCOSbits Stock News</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20239</link>
+      <description>
+        <![CDATA[<p>RISCOSbits must announce the immediate discontinuation of their highly successful <a href="https://www.riscosbits.co.uk/venom.htm"><span class="caps">VENOM</span></a> premium NVMe <span class="caps">RISC</span> OS computer system. The last remaining machine left HQ earlier this week, to a new home.</p>
+        <p>As part of the eulogy for <span class="caps">VENOM</span>, it&#8217;s worth noting that it has been our most successful machine to date, selling more than any other system we&#8217;ve produced, although our <a href="https://www.riscosbits.co.uk/fastnvme.htm"><span class="caps">FAST</span> NVMe</a> systems are hot on the heels. This has been especially surprising given its relatively short lifespan, but has been due, in no small part, to our excellent <a href="https://www.riscosbits.co.uk/nvme.htm">FreeNVMe drivers</a>, developed in conjunction with <a href="https://www.riscosopen.org/content/downloads/raspberry-pi"><span class="caps">RISC</span> OS Open</a> and <a href="http://www.stader-softwareentwicklung-gmbh.com.de/indexE.htm">Stader Softwareenwicklung</a>.</p>
+        <p>To mitigate the loss, we&#8217;ve introduced a couple of new systems to our website, to make amends. Well, more like one and a half!</p>
+        <p>The <a href="https://www.riscosbits.co.uk/plusfive.htm"><span class="caps">PLUS</span> <span class="caps">FIVE</span></a> is an add-on for the <a href="https://www.riscosbits.co.uk/three.htm"><span class="caps">DIY</span> <span class="caps">THREE</span></a> to add a very capable Linux board to the system. Using the modular nature of the <span class="caps">DIY</span> <span class="caps">THREE</span> case, the <span class="caps">PLUS</span> <span class="caps">FIVE</span> literally builds onto the existing system to add a Compute Module 5, running at 2.3GHz, with a base spec of 4GB <span class="caps">RAM</span> and 64GB of eMMC storage (NVMe is also available as an option). This can then be used to create a very powerful interconnected hybrid <span class="caps">RISC</span> OS/Linux system in a particularly small and expandable modular machine. This will be available to existing <span class="caps">DIY</span> <span class="caps">THREE</span> users for £169.</p>
+        <p>The is a full kit and caboodle of a <span class="caps">DIY</span> <span class="caps">THREE</span> and a <span class="caps">PLUS</span> <span class="caps">FIVE</span> is now also available, in the form of the new <a href="https://www.riscosbits.co.uk/stacker.htm"><span class="caps">STACKER</span> <span class="caps">DIY</span></a> kit. For just £369, you get the whole machine in one super compact case. For an extra £30, we can put it all together for you, with no <span class="caps">DIY</span> required!</p>
+        <p><img src="https://www.riscosbits.co.uk//ROOL/Stacker.jpg" alt="" /></p>
+        <p>Please check out our <a href="https://www.riscosbits.co.uk/diy.htm"><span class="caps">DIY</span> pages</a> for details of what the <span class="caps">PLUS</span> <span class="caps">FIVE</span> and the <span class="caps">STACKER</span> can do. There&#8217;s a user-written review and build article in the current issue of <a href="https://www.archivemag.co.uk">Archive</a> too.</p>
+        <p>As part of the process of updating the RISCOSbits website to reflect this, we have also taken the difficult decision to begin to reflect the <a href="https://www.tomsguide.com/computing/ram-prices-are-exploding-heres-why-and-everything-you-need-to-know-about-surviving-ramageddon">current changes in memory prices</a> that are hitting hard across the whole computing world. As an example, 1TB NVMe drives have more than doubled in price in the last few months, and even the Raspberry Pi Foundation have had to increase the price of their boards and drives as a result. For several months, we have been able to use existing stock to offset and absorb the price increases, but stock is dwindling and the cheaper suppliers are running dry.</p>
+        <p>We are proud to be open and honest about our prices and publish them on our website for all to see, allowing customers to get an idea of the excellent value of our systems when making a decision about their next <span class="caps">RISC</span> OS machine, so the eagle-eyed amongst you will have noticed that we&#8217;ve had to change some prices over the festive period. But we still managed to offer a highly successful <a href="https://www.riscosopen.org/forum/forums/1/topics/20169">Christmas Cracker</a> to quite a few new customers!</p>
+        <p>If you&#8217;re in the market for a new <span class="caps">RISC</span> OS machine, sometimes the early bird catches the worm! If you&#8217;re holding out for the next round of <a href="https://www.riscosnorth.uk">Show</a> Prices, we may not be able to offer the high discounts you&#8217;ve come to expect.</p>
+        <p>The good news on NVMe pricing is that we&#8217;re trying to hold our prices as low as we can, and are managing to absorb some of the price rises, or &#8216;split the difference&#8217; where we can&#8217;t hold them fast. But this won&#8217;t last for long and forecasters are currently predicting prices may continue to rise, <a href="https://www.tomsguide.com/computing/theres-just-not-enough-supply-to-go-around-micron-believes-ram-shortage-wont-improve-until-2028-at-least-until-the-ai-demand-starts-to-fade-away">possibly well into 2027</a>.</p>
+        <p>Rest assured that the most up-to-date prices shown on our <a href="https://www.riscosbits.co.uk">website</a> will always be the best we can offer,  without hidden surprises.</p>]]>
+      </description>
+      <source:markdown>RISCOSbits must announce the immediate discontinuation of their highly successful [VENOM](https://www.riscosbits.co.uk/venom.htm) premium NVMe RISC OS computer system. The last remaining machine left HQ earlier this week, to a new home.
+
+As part of the eulogy for VENOM, it’s worth noting that it has been our most successful machine to date, selling more than any other system we’ve produced, although our [FAST NVMe](https://www.riscosbits.co.uk/fastnvme.htm) systems are hot on the heels. This has been especially surprising given its relatively short lifespan, but has been due, in no small part, to our excellent [FreeNVMe drivers](https://www.riscosbits.co.uk/nvme.htm), developed in conjunction with [RISC OS Open](https://www.riscosopen.org/content/downloads/raspberry-pi) and [Stader Softwareenwicklung](http://www.stader-softwareentwicklung-gmbh.com.de/indexE.htm).
+
+To mitigate the loss, we’ve introduced a couple of new systems to our website, to make amends. Well, more like one and a half!
+
+The [PLUSFIVE](https://www.riscosbits.co.uk/plusfive.htm) is an add-on for the [DIYTHREE](https://www.riscosbits.co.uk/three.htm) to add a very capable Linux board to the system. Using the modular nature of the DIYTHREE case, the PLUSFIVE literally builds onto the existing system to add a Compute Module 5, running at 2.3GHz, with a base spec of 4GB RAM and 64GB of eMMC storage (NVMe is also available as an option). This can then be used to create a very powerful interconnected hybrid RISC OS/Linux system in a particularly small and expandable modular machine. This will be available to existing DIYTHREE users for £169.
+
+The is a full kit and caboodle of a DIYTHREE and a PLUSFIVE is now also available, in the form of the new [STACKERDIY](https://www.riscosbits.co.uk/stacker.htm) kit. For just £369, you get the whole machine in one super compact case. For an extra £30, we can put it all together for you, with no DIY required!
+
+![](https://www.riscosbits.co.uk//ROOL/Stacker.jpg)
+
+Please check out our [DIY pages](https://www.riscosbits.co.uk/diy.htm) for details of what the PLUSFIVE and the STACKER can do. There’s a user-written review and build article in the current issue of [Archive](https://www.archivemag.co.uk) too.
+
+As part of the process of updating the RISCOSbits website to reflect this, we have also taken the difficult decision to begin to reflect the [current changes in memory prices](https://www.tomsguide.com/computing/ram-prices-are-exploding-heres-why-and-everything-you-need-to-know-about-surviving-ramageddon) that are hitting hard across the whole computing world. As an example, 1TB NVMe drives have more than doubled in price in the last few months, and even the Raspberry Pi Foundation have had to increase the price of their boards and drives as a result. For several months, we have been able to use existing stock to offset and absorb the price increases, but stock is dwindling and the cheaper suppliers are running dry.
+
+We are proud to be open and honest about our prices and publish them on our website for all to see, allowing customers to get an idea of the excellent value of our systems when making a decision about their next RISC OS machine, so the eagle-eyed amongst you will have noticed that we’ve had to change some prices over the festive period. But we still managed to offer a highly successful [Christmas Cracker](https://www.riscosopen.org/forum/forums/1/topics/20169) to quite a few new customers!
+
+If you’re in the market for a new RISC OS machine, sometimes the early bird catches the worm! If you’re holding out for the next round of [Show](https://www.riscosnorth.uk) Prices, we may not be able to offer the high discounts you’ve come to expect.
+
+The good news on NVMe pricing is that we’re trying to hold our prices as low as we can, and are managing to absorb some of the price rises, or ‘split the difference’ where we can’t hold them fast. But this won’t last for long and forecasters are currently predicting prices may continue to rise, [possibly well into 2027](https://www.tomsguide.com/computing/theres-just-not-enough-supply-to-go-around-micron-believes-ram-shortage-wont-improve-until-2028-at-least-until-the-ai-demand-starts-to-fade-away).
+
+Rest assured that the most up-to-date prices shown on our [website](https://www.riscosbits.co.uk) will always be the best we can offer, without hidden surprises.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20239:161527</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mdg6evr45s2l</link>
+      <description>
+        <![CDATA[Paul Proctor wrote this BASIC program to display the MAP for his BBC Micro version of Alien 8. The start positions and locations of the various objects and Cryonaughts are all shown. I recovered this whilst archiving his old development disks. As you can see, the map is in the shape of a spaceship.]]>
+      </description>
+      <source:markdown>Paul Proctor wrote this BASIC program to display the MAP for his BBC Micro version of Alien 8. The start positions and locations of the various objects and Cryonaughts are all shown. I recovered this whilst archiving his old development disks. As you can see, the map is in the shape of a spaceship.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mdg6evr45s2l</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mdg4pyyxcc2l</link>
+      <description>
+        <![CDATA['Wake me up before you Go-Go' by WHAM! on the BBC Micro from 1984.]]>
+      </description>
+      <source:markdown>&#39;Wake me up before you Go-Go&#39; by WHAM! on the BBC Micro from 1984.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mdg4pyyxcc2l</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mdfm2vilts2x</link>
+      <description>
+        <![CDATA[Quite apart from how ugly and inefficient the code must be, these kinds of stories just make me despair at how little self-respect and care for the craft people like this must have. Take a look at yourself in the mirror, seriously.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Quite apart from how ugly and inefficient the code must be, these kinds of stories just make me despair at how little self-respect and care for the craft people like this must have. Take a look at yourself in the mirror, seriously.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mdfm2vilts2x</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mdff5zxmi225</link>
+      <description>
+        <![CDATA[@nemo20000.bsky.social
+        
+        Hi. I know you don't frequent the ROOL forums these days, but there's a thread about handling unicode that you may be able to help out on regarding a Cerilica message question.
+        https://www.riscosopen.org/forum/forums/5/topics/20238]]>
+      </description>
+      <source:markdown>@nemo20000.bsky.social
+
+Hi. I know you don&#39;t frequent the ROOL forums these days, but there&#39;s a thread about handling unicode that you may be able to help out on regarding a Cerilica message question.
+https://www.riscosopen.org/forum/forums/5/topics/20238</source:markdown>
+      <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3mdff5zxmi225</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mddszaay6s2e</link>
       <description>
         <![CDATA[RISC OS North Show is only 2 months away.... 
@@ -48,6 +127,59 @@ I have been getting back into programming RISC OS in BBC BASIC to scratch an itc
       <source:markdown>Spare me from people enthusing about how much more productive AI has made them in programming languages they don&#39;t know.</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mddnaok6xs2v</guid>
     </item>    <item>
+      <title>RiscPC freezing with Unipod</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20237</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>except that the <span class="caps">USB</span> doesn’t seem to work. Bah. <span class="caps">LAN</span> is fine and <span class="caps">IDEFS</span> too.</p>
+        </blockquote>
+        <p>Remember that the UniPOD has a small and socketed <span class="caps">PLA</span> (I think it was a <span class="caps">PLA</span> from memory), which is responsible for which functions are active. You probably want to contact Matt (if he is still around) at <span class="caps">STD</span> to see if he still has those chips that enable all the features. Might also be worth ask him for more info about the UniPOD, Matt is great and always been extremely helpful, and the UniPOD was one of the most complicated projects he worked on.</p>]]>
+      </description>
+      <source:markdown>&#62; except that the USB doesn’t seem to work. Bah. LAN is fine and IDEFS too.
+
+Remember that the UniPOD has a small and socketed PLA (I think it was a PLA from memory), which is responsible for which functions are active. You probably want to contact Matt (if he is still around) at STD to see if he still has those chips that enable all the features. Might also be worth ask him for more info about the UniPOD, Matt is great and always been extremely helpful, and the UniPOD was one of the most complicated projects he worked on.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20237:161510</guid>
+    </item>    <item>
+      <title>New DME ExtTheme and Launchpad available for download and testing</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
+      <description>
+        <![CDATA[<p>Thanks everyone, so I&#8217;ll swap the terms in the next release if this makes it clear for everyone &#8211; and this is why the community should always help testing! :)</p>
+        <p>Sounds good?</p>
+        <pre>
+        *Theme set - sets the default theme (does not apply it)
+        *Theme select [theme_name] - Applies the default theme if no theme_name is provided, or apply the theme_name
+        </pre>
+        <blockquote>
+        <p>Suggestion – a “now” parameter for select which also sets it – I cannot imagine many situations where you want to set it as default, but not use it now.</p>
+        </blockquote>
+        <p>This is easy, but I would suggest &#8220;-now&#8221; instead of &#8220;now&#8221; that might be missleading as a theme&#8217;s name. Open to suggestions of course.</p>]]>
+      </description>
+      <source:markdown>Thanks everyone, so I’ll swap the terms in the next release if this makes it clear for everyone – and this is why the community should always help testing! :)
+
+Sounds good?
+
+```
+*Theme set - sets the default theme (does not apply it)
+*Theme select [theme_name] - Applies the default theme if no theme_name is provided, or apply the theme_name
+
+```
+
+&#62; Suggestion – a “now” parameter for select which also sets it – I cannot imagine many situations where you want to set it as default, but not use it now.
+
+This is easy, but I would suggest “-now” instead of “now” that might be missleading as a theme’s name. Open to suggestions of course.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20199:161508</guid>
+    </item>    <item>
+      <title>Handling Unicode</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20238</link>
+      <description>
+        <![CDATA[<p>I believe it was this one that was mentioned:</p>
+        <p><a href="https://www.riscosopen.org/wiki/documentation/show/Cerilica_StyledText">https://www.riscosopen.org/wiki/documentation/show/Cer…</a></p>]]>
+      </description>
+      <source:markdown>I believe it was this one that was mentioned:
+
+[https://www.riscosopen.org/wiki/documentation/show/Cer…](https://www.riscosopen.org/wiki/documentation/show/Cerilica_StyledText)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20238:161506</guid>
+    </item>    <item>
       <title>PCEmu</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20226</link>
       <description>
@@ -55,17 +187,6 @@ I have been getting back into programming RISC OS in BBC BASIC to scratch an itc
       </description>
       <source:markdown>I can’t remember which variant of DosBox sits on my 4té2, I intended to put it originally to use it directly on the FAT32 disk were the files I intended to access were located but it was not able to read the folders correctly (lots of files and folder not seen) and had to copy everything on a FileCore disk. I guess another case of broken implementation of directory scanning routine making incorrect assumptions about OS\_GBPB.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20226:161505</guid>
-    </item>    <item>
-      <title>Handling Unicode</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20238</link>
-      <description>
-        <![CDATA[<p>I think in the last month or so there has been a message, perhaps a meeting announcement, which mentioned a whole lot of things, but one of them was a little-known Wimp message which addresses the issue of the encoding of text in Wimp messages. I just tried to track this down via browsing recent postings and by using Google, but no joy.</p>
-        <p>Does this ring any bells for anyone, or did I dream the whole thing?</p>]]>
-      </description>
-      <source:markdown>I think in the last month or so there has been a message, perhaps a meeting announcement, which mentioned a whole lot of things, but one of them was a little-known Wimp message which addresses the issue of the encoding of text in Wimp messages. I just tried to track this down via browsing recent postings and by using Google, but no joy.
-
-Does this ring any bells for anyone, or did I dream the whole thing?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20238:161498</guid>
     </item>    <item>
       <title>RISC OS North Show is only 2 months away....</title>
       <link>http://www.iconbar.com/comments/rss/news2299.html</link>
@@ -82,29 +203,6 @@ Does this ring any bells for anyone, or did I dream the whole thing?</source:mar
       <source:markdown>In 2022 I was finally able to reunite Paul Proctor with his BBC Micro development disks that he left with me back in 1986. He&#39;d moved home several times and we completely lost touch. These contained the source code for Knight Lore, Alien 8, Lunar Jetman and Nightshade. All safely archived.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mdbuuagwuc2o</guid>
     </item>    <item>
-      <title>New DME ExtTheme and Launchpad available for download and testing</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
-      <description>
-        <![CDATA[<p>Ok, ExtTheme alphas release 0.0.1-8 available for testers! (just update it via PackMan) :)</p>
-        <p>I have also made an update for CleanDark theme to make it work fine without Pinboard 2.</p>
-        <p>This update for ExtTheme should address the following issues reported by Davit Pitt:</p>
-        <p>1) After installation it should now do the automatic Filer_Boot int he <span class="caps">DME</span> engine) for the newly installed ExtTheme and that should fix the error &#8220;Failed to open choices file for writing&#8221;, hopefully this is fixed for every deployemnts.</p>
-        <p>2) Backdrop options have been updated to the correct Pinboard version and so ExtTheme should play nice also on <span class="caps">RIS</span> <span class="caps">COS</span> systems that are not using Pinboard 2.</p>
-        <p>Please let me know if there are still issues. Thanks for yoru feedback! :)</p>]]>
-      </description>
-      <source:markdown>Ok, ExtTheme alphas release 0.0.1-8 available for testers! (just update it via PackMan) :)
-
-I have also made an update for CleanDark theme to make it work fine without Pinboard 2.
-
-This update for ExtTheme should address the following issues reported by Davit Pitt:
-
-1) After installation it should now do the automatic Filer\_Boot int he DME engine) for the newly installed ExtTheme and that should fix the error “Failed to open choices file for writing”, hopefully this is fixed for every deployemnts.
-
-2) Backdrop options have been updated to the correct Pinboard version and so ExtTheme should play nice also on RISCOS systems that are not using Pinboard 2.
-
-Please let me know if there are still issues. Thanks for yoru feedback! :)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20199:161495</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdbea3gku227</link>
       <description>
         <![CDATA[“How much of nemoBasic is new?” I sometimes get asked.
@@ -115,14 +213,6 @@ Please let me know if there are still issues. Thanks for yoru feedback! :)</sour
 
 The answer is “I’ve written more than I started with”:</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdbea3gku227</guid>
-    </item>    <item>
-      <title>RiscPC freezing with Unipod</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20237</link>
-      <description>
-        <![CDATA[<p>Just wondering would making an image from the harddrive under Linux an idea and then RPCEmu work ?</p>]]>
-      </description>
-      <source:markdown>Just wondering would making an image from the harddrive under Linux an idea and then RPCEmu work ?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20237:161494</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdb6qtmlgs2c</link>
       <description>
