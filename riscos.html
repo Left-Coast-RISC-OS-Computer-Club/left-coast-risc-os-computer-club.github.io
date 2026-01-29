@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.18" >
-  <meta name="date" content="2026-01-28T12:00:30-08:00" >
+  <meta name="date" content="2026-01-29T12:00:30-08:00" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -19,6 +19,160 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-01-29T16:53:58Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20230">
+      <h1>Toolbox_RaiseToolboxEvent</h1>
+
+(date: 2026-01-29)
+      <p>
+      <blockquote>
+<p>Toolbox_RaiseToolboxEvent is working fine now but is swamping the WIMP with events, no other process gets a look in, something else to solve :/</p>
+</blockquote>
+<p>Again, if you’re a task, you shouldn’t need to be passing messages into the Wimp to pass them back down to the application. Your task knows what it wants to do, so there’s really no need to do any of that. If you’re a task, you control what the task is doing, and you can just dispatch the calls in to your routines when you get a null poll – use Wimp_PollIdle to get poll the system regularly to get your events and use a timer routine (like the one I suggested) to do things.</p>
+<p>Requesting that the Toolbox dispatch a message to you, through the Wimp is like sending a letter to your aunt to ask your mother to call you to ask you to buy more milk… you’re better off setting an alarm on your phone and leaving a note on the fridge that milk is needed.</p>
+<blockquote>
+<p>Created a module which sets up OS_CallEvery. The application registers details of the window objectId, componentId and the user Toolbox event number, these values are stored in a table and used when OS_CallEvery calls the handler to generate Toolbox_RaiseToolboxEvent. All is working but…. I had to write it in assembler, writing it in C produced errors when the handler tried to do anything other than exit immediately, so never managed to call Toolbox_RaiseToolboxEvent. Currently I’ve allocated space for up to 10 Toolbox events to be registered, more could be allowed but it would require the code to be reassembled and linked to create a new module.</p>
+</blockquote>
+<p>I think I’ll just cry now…</p>
+<p>Firstly, writing in assembler is not necessary for this. You should only be using C and writing with the CMHG veneers as you normally would, so that you get called in the correct form. Nothing should be written in assembler in this day… and particularly not anything like this.</p>
+<p>Secondly, it seems like you’ve just reinvented the Toolbox timers – <a href="https://www.riscos.com/support/developers/riscos6/toolbox/toolboxtimers.html#l0011">https://www.riscos.com/support/developers/riscos6/tool…</a> – which are intended for the objects and gadgets to perform operations as timed events. It’s necessary for the Toolbox to be special here, because it doesn’t get to control your Wimp_Poll loop in the application – applications which need this behaviour would merely use a timer system on their Wimp_PollIdle, so wouldn’t need to use tricks for waking up the application to do things periodically. And anything that needed triggering off other non-timer events (like sockets, hardware or anything else) would use the poll word (which the Toolbox cannot use because that pollword is controlled by the application, so the Toolbox has this other mechanism).</p>
+<p>I’m not sure if I’ve misunderstood your intent, but it feels like you’re trying to wedge in low level triggers for application things through the high level toolbox user interface… which isn’t really working.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20230">https://www.riscosopen.org/forum/forums/11/topics/20230</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-29T15:25:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mdl3vqbo6k2b">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-01-29)
+      <p>
+      <p>Another day, another bug in RISC OS BBC Basic [again, by code inspection].</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mdl3vqbo6k2b">https://bsky.app/profile/nemo20000.bsky.social/post/3mdl3vqbo6k2b</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-29T14:59:00Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20240">
+      <h1>Rasberry Pi - which is best in 2026?</h1>
+
+(date: 2026-01-29)
+      <p>
+      <p>Thanks all. 4gb Pi4 ordered – appreciate its overkill but belatedly realised that i need WiFi as my wired network is not yet set up and the earlier Pi’s dont have wifi… (and by the time i buy a usb dongle, i may as well get the 4!)</p>
+<p>Hoping to both see what the OS has turned into, but also use some of the old apps. Aware of Jaspp and the Archimedes archive… what are the emulators (for the 26bit Archie stuff and for BBC Micro) that work the best? Or will I find Arculator on PC still better for Archie…?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20240">https://www.riscosopen.org/forum/forums/5/topics/20240</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-29T14:00:15Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
+      <h1>MuView and rendering PDF pages</h1>
+
+(date: 2026-01-29)
+      <p>
+      <p>I’m trying to work on a better way to ‘de-oxidise’ the scans in PDFs of ancient books and magazine. Initially, wes playing with using Image Magik on Linux, but now looking at using either !Compo scripting or processing pages saved out from !MuView or similar.</p>
+<p>The key wish is to be able to remove the ‘oxidation’ which afflcits old pulp paper, making it go brown. Using Linux and Image Magik I can use a threashold level to try and tell ‘browned’ paper from black text using a simple threashold value applied to R+G+B examples. But with coloured bitmaps it probably will be better to detect and use the difference in stats of the R, G, B, values. i.e. ‘oxidised’ paper will give higher R values for a pixel than G, and lower still for B.</p>
+<p>Initially been looking at CompoScript for this. But…</p>
+<p>Noticed that MuView tends to show pages scaled down by default for the files I have. Question with that: Is there a way to get it to show the x1 scaling for each page – even if this differs for the cover pages? Given x1 scaled sprites I can peek and poke values for the pixels, do stats, and optimise the cleanup. Probably mean smaller PDF file sizes as it removes uncompressible ‘noise’ if I can remove the oxidation.</p>
+<p>With luck the results would help people like myself to read old books and mags. There’s a LOT of good items out there… sadly often afflicted by this problem!</p>
+<p>Help?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-29T13:36:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mdkvst6ws22y">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-01-29)
+      <p>
+      <p>Happy 30th birthday to Duke Nukem 3D! What a game.<a href="https://media.tenor.com/SwZwutecbnkAAAAC/duke-nukem-intro.gif?hh=280&amp;ww=498">https://media.tenor.com/SwZwutecbnkAAAAC/duke-nukem-intro.gif?hh=280&amp;ww=498</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mdkvst6ws22y">https://bsky.app/profile/colinhoad.com/post/3mdkvst6ws22y</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-29T12:34:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mdksesyibc2m">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-01-29)
+      <p>
+      <p>I think I've found my new browser</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mdksesyibc2m">https://bsky.app/profile/colinhoad.com/post/3mdksesyibc2m</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-29T12:30:45Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20199">
+      <h1>New DME ExtTheme and Launchpad available for download and testing</h1>
+
+(date: 2026-01-29)
+      <p>
+      <p>I’d agree with Martin. If you can’t figure out what a command does just be reading it in isolation (ie. without the help text) it is bad design. I know we used to have arcane commands with single-letter parameters, but that originated in the 1970s/80s. There’s no reason we can’t have clear terminology these days.</p>
+<p>FWIW Acorn themselves said that in the mid 90s, at a developer meeting, “Don’t use generic terms if a more descriptive word is clearer” (or words to that effect) . I’d imagine that advice would be in the Style Guide too, but IIRC the original Style Guide pre-dated Acorn’s progress in the mid-late 90s.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20199">https://www.riscosopen.org/forum/forums/1/topics/20199</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-29T11:06:01Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20243">
+      <h1>VNC access to Pi400</h1>
+
+(date: 2026-01-29)
+      <p>
+      <p>After installing RPiOS Trixie on the Pi400, setting its fixed IPv4 address, and turning Control Centre → Interfaces → VNC to ON, I find that Avalanche 0.28 doesn’t connect, giving the message ‘Server only offered unsupported authorisation method(s)’.</p>
+<p>Can anyone suggest what tweak is necessary to establish the connection?</p>
+<p>(RISC OS 5.31 21-Jul-2024 on a Pi CM4)</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20243">https://www.riscosopen.org/forum/forums/11/topics/20243</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-29T09:31:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mdki5awqak2y">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-01-29)
+      <p>
+      <p>This sounds utterly horrifying. It was only days ago that we had AI churning out CSAM on demand.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mdki5awqak2y">https://bsky.app/profile/colinhoad.com/post/3mdki5awqak2y</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-29T09:17:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mdkhegv2uk2y">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-01-29)
+      <p>
+      <p>I just got a Google news alert on my phone and when I tapped it, it automatically took me into Google AI Mode (which I have never enabled and always dismiss when prompted). They're so desperate for us to adopt these tools, they're now tricking us into using them. Wild.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mdkhegv2uk2y">https://bsky.app/profile/colinhoad.com/post/3mdkhegv2uk2y</a>
+      </address>
+    </article>
+
+    <article data-published="2026-01-29T01:30:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mdjnao4szs2v">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-01-29)
+      <p>
+      <p>I'm enjoying the language options on this random website. Yes! All the Englishes!</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mdjnao4szs2v">https://bsky.app/profile/nemo20000.bsky.social/post/3mdjnao4szs2v</a>
+      </address>
+    </article>
 
     <article data-published="2026-01-28T19:16:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3mdiyedzsok2q">
       <h1>@iconbar.com</h1>
@@ -44,21 +198,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20149">https://www.riscosopen.org/forum/forums/1/topics/20149</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-28T12:16:40Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20240">
-      <h1>Rasberry Pi - which is best in 2026?</h1>
-
-(date: 2026-01-28)
-      <p>
-      <p>Hi</p>
-<p>Just started exploring the RISCOS world (having played a bit with Arculator on PC). Want to get a Pi and set up on it. Assume now it is best to go for a model 4? Any issues with higher RAM versions and RISCOS? (as I may use it as a linux Pi as well). Lots of posts are from a couple of years ago and couldnt find an up to date view…</p>
-<p>Thanks</p>
-<p>Alex</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20240">https://www.riscosopen.org/forum/forums/5/topics/20240</a>
       </address>
     </article>
 
@@ -146,22 +285,6 @@
 
       <address>
         <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mdg4pyyxcc2l">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mdg4pyyxcc2l</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-27T11:39:22Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20199">
-      <h1>New DME ExtTheme and Launchpad available for download and testing</h1>
-
-(date: 2026-01-27)
-      <p>
-      <p>@Steve the whole “apply and set in the same dialogue box” is one of the Windows-isms that I found most linguistically confusing. Let’s not go there ;)</p>
-<p>If you don’t like “Default” then how about Theme Configure (themename)</p>
-<p>(Since *configure is used to set permanent settings on RISC OS)</p>
-<p>Or, since I still prefer to include the word Default (it means something to me) then Theme SetDefault (theme)</p>
-<p>I think “Theme Set” is too easily confused with “Theme Apply”, so we should only use one of those terms. “Theme Save” would imply saving changes to the theme itself.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20199">https://www.riscosopen.org/forum/forums/1/topics/20199</a>
       </address>
     </article>
 
@@ -331,20 +454,6 @@
 
       <address>
         <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mdb4seoxzk2o">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mdb4seoxzk2o</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-25T13:41:28Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20230">
-      <h1>Toolbox_RaiseToolboxEvent</h1>
-
-(date: 2026-01-25)
-      <p>
-      <p>Discovered my issue! Stupid mistake!</p>
-<p>Allocating a new block of memory for a gadget object but the pointer wasn’t being stored in the location allocated for the gadget object in a window object, it was being stored in a local variable with the same name therefore hiding the one it should have updated. Hence the data abort when the pointer to the gadget object in the window object was used!</p>
-<p>Toolbox_RaiseToolboxEvent is working fine now but is swamping the WIMP with events, no other process gets a look in, something else to solve :/</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20230">https://www.riscosopen.org/forum/forums/11/topics/20230</a>
       </address>
     </article>
 

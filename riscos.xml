@@ -7,10 +7,154 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>28 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>29 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Toolbox_RaiseToolboxEvent</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Toolbox_RaiseToolboxEvent is working fine now but is swamping the <span class="caps">WIMP</span> with events, no other process gets a look in, something else to solve :/</p>
+        </blockquote>
+        <p>Again, if you&#8217;re a task, you shouldn&#8217;t need to be passing messages into the Wimp to pass them back down to the application. Your task knows what it wants to do, so there&#8217;s really no need to do any of that. If you&#8217;re a task, you control what the task is doing, and you can just dispatch the calls in to your routines when you get a null poll &#8211; use Wimp_PollIdle to get poll the system regularly to get your events and use a timer routine (like the one I suggested) to do things.</p>
+        <p>Requesting that the Toolbox dispatch a message to you, through the Wimp is like sending a letter to your aunt to ask your mother to call you to ask you to buy more milk&#8230; you&#8217;re better off setting an alarm on your phone and leaving a note on the fridge that milk is needed.</p>
+        <blockquote>
+        <p>Created a module which sets up OS_CallEvery. The application registers details of the window objectId, componentId and the user Toolbox event number, these values are stored in a table and used when OS_CallEvery calls the handler to generate Toolbox_RaiseToolboxEvent. All is working but…. I had to write it in assembler, writing it in C produced errors when the handler tried to do anything other than exit immediately, so never managed to call Toolbox_RaiseToolboxEvent. Currently I’ve allocated space for up to 10 Toolbox events to be registered, more could be allowed but it would require the code to be reassembled and linked to create a new module.</p>
+        </blockquote>
+        <p>I think I&#8217;ll just cry now&#8230;</p>
+        <p>Firstly, writing in assembler is not necessary for this. You should only be using C and writing with the <span class="caps">CMHG</span> veneers as you normally would, so that you get called in the correct form. Nothing should be written in assembler in this day&#8230; and particularly not anything like this.</p>
+        <p>Secondly, it seems like you&#8217;ve just reinvented the Toolbox timers &#8211; <a href="https://www.riscos.com/support/developers/riscos6/toolbox/toolboxtimers.html#l0011">https://www.riscos.com/support/developers/riscos6/tool…</a> &#8211; which are intended for the objects and gadgets to perform operations as timed events. It&#8217;s necessary for the Toolbox to be special here, because it doesn&#8217;t get to control your Wimp_Poll loop in the application &#8211; applications which need this behaviour would merely use a timer system on their Wimp_PollIdle, so wouldn&#8217;t need to use tricks for waking up the application to do things periodically. And anything that needed triggering off other non-timer events (like sockets, hardware or anything else) would use the poll word (which the Toolbox cannot use because that pollword is controlled by the application, so the Toolbox has this other mechanism).</p>
+        <p>I&#8217;m not sure if I&#8217;ve misunderstood your intent, but it feels like you&#8217;re trying to wedge in low level triggers for application things through the high level toolbox user interface&#8230; which isn&#8217;t really working.</p>]]>
+      </description>
+      <source:markdown>&#62; Toolbox\_RaiseToolboxEvent is working fine now but is swamping the WIMP with events, no other process gets a look in, something else to solve :/
+
+Again, if you’re a task, you shouldn’t need to be passing messages into the Wimp to pass them back down to the application. Your task knows what it wants to do, so there’s really no need to do any of that. If you’re a task, you control what the task is doing, and you can just dispatch the calls in to your routines when you get a null poll – use Wimp\_PollIdle to get poll the system regularly to get your events and use a timer routine (like the one I suggested) to do things.
+
+Requesting that the Toolbox dispatch a message to you, through the Wimp is like sending a letter to your aunt to ask your mother to call you to ask you to buy more milk… you’re better off setting an alarm on your phone and leaving a note on the fridge that milk is needed.
+
+&#62; Created a module which sets up OS\_CallEvery. The application registers details of the window objectId, componentId and the user Toolbox event number, these values are stored in a table and used when OS\_CallEvery calls the handler to generate Toolbox\_RaiseToolboxEvent. All is working but…. I had to write it in assembler, writing it in C produced errors when the handler tried to do anything other than exit immediately, so never managed to call Toolbox\_RaiseToolboxEvent. Currently I’ve allocated space for up to 10 Toolbox events to be registered, more could be allowed but it would require the code to be reassembled and linked to create a new module.
+
+I think I’ll just cry now…
+
+Firstly, writing in assembler is not necessary for this. You should only be using C and writing with the CMHG veneers as you normally would, so that you get called in the correct form. Nothing should be written in assembler in this day… and particularly not anything like this.
+
+Secondly, it seems like you’ve just reinvented the Toolbox timers – [https://www.riscos.com/support/developers/riscos6/tool…](https://www.riscos.com/support/developers/riscos6/toolbox/toolboxtimers.html#l0011) – which are intended for the objects and gadgets to perform operations as timed events. It’s necessary for the Toolbox to be special here, because it doesn’t get to control your Wimp\_Poll loop in the application – applications which need this behaviour would merely use a timer system on their Wimp\_PollIdle, so wouldn’t need to use tricks for waking up the application to do things periodically. And anything that needed triggering off other non-timer events (like sockets, hardware or anything else) would use the poll word (which the Toolbox cannot use because that pollword is controlled by the application, so the Toolbox has this other mechanism).
+
+I’m not sure if I’ve misunderstood your intent, but it feels like you’re trying to wedge in low level triggers for application things through the high level toolbox user interface… which isn’t really working.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20230:161569</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdl3vqbo6k2b</link>
+      <description>
+        <![CDATA[Another day, another bug in RISC OS BBC Basic [again, by code inspection].]]>
+      </description>
+      <source:markdown>Another day, another bug in RISC OS BBC Basic \[again, by code inspection\].</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdl3vqbo6k2b</guid>
+    </item>    <item>
+      <title>Rasberry Pi - which is best in 2026?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20240</link>
+      <description>
+        <![CDATA[<p>Thanks all. 4gb Pi4 ordered &#8211; appreciate its overkill but belatedly realised that i need WiFi as my wired network is not yet set up and the earlier Pi&#8217;s dont have wifi&#8230; (and by the time i buy a usb dongle, i may as well get the 4!)</p>
+        <p>Hoping to both see what the OS has turned into, but also use some of the old apps. Aware of Jaspp and the Archimedes archive&#8230; what are the emulators (for the 26bit Archie stuff and for <span class="caps">BBC</span> Micro) that work the best? Or will I find Arculator on PC still better for Archie&#8230;?</p>]]>
+      </description>
+      <source:markdown>Thanks all. 4gb Pi4 ordered – appreciate its overkill but belatedly realised that i need WiFi as my wired network is not yet set up and the earlier Pi’s dont have wifi… (and by the time i buy a usb dongle, i may as well get the 4!)
+
+Hoping to both see what the OS has turned into, but also use some of the old apps. Aware of Jaspp and the Archimedes archive… what are the emulators (for the 26bit Archie stuff and for BBC Micro) that work the best? Or will I find Arculator on PC still better for Archie…?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20240:161561</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>I&#8217;m trying to work on a better way to &#8216;de-oxidise&#8217; the scans in PDFs of ancient books and magazine. Initially, wes playing with using Image Magik on Linux, but now looking at using either !Compo scripting or processing pages saved out from !MuView or similar.</p>
+        <p>The key wish is to be able to remove the &#8216;oxidation&#8217; which afflcits old pulp paper, making it go brown. Using Linux and Image Magik I can use a threashold level to try and tell &#8216;browned&#8217; paper from black text using a simple threashold value applied to R+G+B  examples. But with coloured bitmaps it probably will be better to detect and use the difference in stats of the R, G, B, values. i.e. &#8216;oxidised&#8217; paper will give higher R values for a pixel than G, and lower still for B.</p>
+        <p>Initially been looking at CompoScript for this. But&#8230;</p>
+        <p>Noticed that MuView tends to show pages scaled down by default for the files I have. Question with that: Is there a way to get it to show the x1 scaling for each page &#8211; even if this differs for the cover pages? Given x1 scaled sprites I can peek and poke values for the pixels, do stats, and optimise the cleanup. Probably mean smaller <span class="caps">PDF</span> file sizes as it removes uncompressible &#8216;noise&#8217; if I can remove the oxidation.</p>
+        <p>With luck the results would help people like myself to read old books and mags. There&#8217;s a <span class="caps">LOT</span> of good items out there&#8230; sadly often afflicted by this problem!</p>
+        <p>Help?</p>]]>
+      </description>
+      <source:markdown>I’m trying to work on a better way to ‘de-oxidise’ the scans in PDFs of ancient books and magazine. Initially, wes playing with using Image Magik on Linux, but now looking at using either !Compo scripting or processing pages saved out from !MuView or similar.
+
+The key wish is to be able to remove the ‘oxidation’ which afflcits old pulp paper, making it go brown. Using Linux and Image Magik I can use a threashold level to try and tell ‘browned’ paper from black text using a simple threashold value applied to R+G+B examples. But with coloured bitmaps it probably will be better to detect and use the difference in stats of the R, G, B, values. i.e. ‘oxidised’ paper will give higher R values for a pixel than G, and lower still for B.
+
+Initially been looking at CompoScript for this. But…
+
+Noticed that MuView tends to show pages scaled down by default for the files I have. Question with that: Is there a way to get it to show the x1 scaling for each page – even if this differs for the cover pages? Given x1 scaled sprites I can peek and poke values for the pixels, do stats, and optimise the cleanup. Probably mean smaller PDF file sizes as it removes uncompressible ‘noise’ if I can remove the oxidation.
+
+With luck the results would help people like myself to read old books and mags. There’s a LOT of good items out there… sadly often afflicted by this problem!
+
+Help?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:161560</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mdkvst6ws22y</link>
+      <description>
+        <![CDATA[Happy 30th birthday to Duke Nukem 3D! What a game.
+        https://media.tenor.com/SwZwutecbnkAAAAC/duke-nukem-intro.gif?hh=280&ww=498]]>
+      </description>
+      <source:markdown>Happy 30th birthday to Duke Nukem 3D! What a game.
+https://media.tenor.com/SwZwutecbnkAAAAC/duke-nukem-intro.gif?hh=280&#38;ww=498</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mdkvst6ws22y</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mdksesyibc2m</link>
+      <description>
+        <![CDATA[I think I've found my new browser
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>I think I&#39;ve found my new browser
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mdksesyibc2m</guid>
+    </item>    <item>
+      <title>New DME ExtTheme and Launchpad available for download and testing</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
+      <description>
+        <![CDATA[<p>I&#8217;d agree with Martin.  If you can&#8217;t figure out what a command does just be reading it in isolation (ie. without the help text) it is bad design.  I know we used to have arcane commands with single-letter parameters, but that originated in the 1970s/80s.  There&#8217;s no reason we can&#8217;t have clear terminology these days.</p>
+        <p><span class="caps">FWIW</span> Acorn themselves said that in the mid 90s, at a developer meeting, &#8220;Don&#8217;t use generic terms if a more descriptive word is clearer&#8221; (or words to that effect) .  I&#8217;d imagine that advice would be in the Style Guide too, but <span class="caps">IIRC</span> the original Style Guide pre-dated Acorn&#8217;s progress in the mid-late 90s.</p>]]>
+      </description>
+      <source:markdown>I’d agree with Martin. If you can’t figure out what a command does just be reading it in isolation (ie. without the help text) it is bad design. I know we used to have arcane commands with single-letter parameters, but that originated in the 1970s/80s. There’s no reason we can’t have clear terminology these days.
+
+FWIW Acorn themselves said that in the mid 90s, at a developer meeting, “Don’t use generic terms if a more descriptive word is clearer” (or words to that effect) . I’d imagine that advice would be in the Style Guide too, but IIRC the original Style Guide pre-dated Acorn’s progress in the mid-late 90s.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20199:161557</guid>
+    </item>    <item>
+      <title>VNC access to Pi400</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20243</link>
+      <description>
+        <![CDATA[<p>After installing RPiOS Trixie on the Pi400, setting its fixed IPv4 address, and turning Control Centre &rarr; Interfaces &rarr; <span class="caps">VNC</span> to ON, I find that Avalanche 0.28 doesn&#8217;t connect, giving the message &#8216;Server only offered unsupported authorisation method(s)&#8217;.</p>
+        <p>Can anyone suggest what tweak is necessary to establish the connection?</p>
+        <p>(<span class="caps">RISC</span> OS 5.31 21-Jul-2024 on a Pi CM4)</p>]]>
+      </description>
+      <source:markdown>After installing RPiOS Trixie on the Pi400, setting its fixed IPv4 address, and turning Control Centre → Interfaces → VNC to ON, I find that Avalanche 0.28 doesn’t connect, giving the message ‘Server only offered unsupported authorisation method(s)’.
+
+Can anyone suggest what tweak is necessary to establish the connection?
+
+(RISC OS 5.31 21-Jul-2024 on a Pi CM4)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20243:161556</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mdki5awqak2y</link>
+      <description>
+        <![CDATA[This sounds utterly horrifying. It was only days ago that we had AI churning out CSAM on demand.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>This sounds utterly horrifying. It was only days ago that we had AI churning out CSAM on demand.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mdki5awqak2y</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mdkhegv2uk2y</link>
+      <description>
+        <![CDATA[I just got a Google news alert on my phone and when I tapped it, it automatically took me into Google AI Mode (which I have never enabled and always dismiss when prompted). They're so desperate for us to adopt these tools, they're now tricking us into using them. Wild.]]>
+      </description>
+      <source:markdown>I just got a Google news alert on my phone and when I tapped it, it automatically took me into Google AI Mode (which I have never enabled and always dismiss when prompted). They&#39;re so desperate for us to adopt these tools, they&#39;re now tricking us into using them. Wild.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mdkhegv2uk2y</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdjnao4szs2v</link>
+      <description>
+        <![CDATA[I'm enjoying the language options on this random website. Yes! All the Englishes!]]>
+      </description>
+      <source:markdown>I&#39;m enjoying the language options on this random website. Yes! All the Englishes!</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdjnao4szs2v</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mdiyedzsok2q</link>
       <description>
         <![CDATA[RISCOSbits updates its Computer range and prices 
@@ -36,23 +180,6 @@ RISCOSbits has discontinued their VENOM premium NVMe RISC OS computer system, ac
 
 Thanks to Leo White for the excellent job of editing a long talk and Q&#38;A down to a manageable hour!</source:markdown>
       <guid>cid://www.riscosopen.org:1:20149:161547</guid>
-    </item>    <item>
-      <title>Rasberry Pi - which is best in 2026?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20240</link>
-      <description>
-        <![CDATA[<p>Hi</p>
-        <p>Just started exploring the <span class="caps">RISCOS</span> world (having played a bit with Arculator on PC). Want to get a Pi and set up on it. Assume now it is best to go for a model 4? Any issues with higher <span class="caps">RAM</span> versions and <span class="caps">RISCOS</span>? (as I may use it as a linux Pi as well). Lots of posts are from a couple of years ago and couldnt find an up to date view&#8230;</p>
-        <p>Thanks</p>
-        <p>Alex</p>]]>
-      </description>
-      <source:markdown>Hi
-
-Just started exploring the RISCOS world (having played a bit with Arculator on PC). Want to get a Pi and set up on it. Assume now it is best to go for a model 4? Any issues with higher RAM versions and RISCOS? (as I may use it as a linux Pi as well). Lots of posts are from a couple of years ago and couldnt find an up to date view…
-
-Thanks
-
-Alex</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20240:161539</guid>
     </item>    <item>
       <title>RISCOSbits updates its Computer range and prices</title>
       <link>http://www.iconbar.com/comments/rss/news2300.html</link>
@@ -140,26 +267,6 @@ Rest assured that the most up-to-date prices shown on our [website](https://www.
       </description>
       <source:markdown>&#39;Wake me up before you Go-Go&#39; by WHAM! on the BBC Micro from 1984.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mdg4pyyxcc2l</guid>
-    </item>    <item>
-      <title>New DME ExtTheme and Launchpad available for download and testing</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
-      <description>
-        <![CDATA[<p>@Steve the whole &#8220;apply and set in the same dialogue box&#8221; is one of the Windows-isms that I found most linguistically confusing.  Let&#8217;s not go there ;)</p>
-        <p>If you don&#8217;t like &#8220;Default&#8221; then how about Theme Configure (themename)<br />
-        (Since *configure is used to set permanent settings on <span class="caps">RISC</span> OS)</p>
-        <p>Or, since I still prefer to include the word Default (it means something to me) then Theme SetDefault (theme)</p>
-        <p>I think &#8220;Theme Set&#8221; is too easily confused with &#8220;Theme Apply&#8221;, so we should only use one of those terms.  &#8220;Theme Save&#8221; would imply saving changes to the theme itself.</p>]]>
-      </description>
-      <source:markdown>@Steve the whole “apply and set in the same dialogue box” is one of the Windows-isms that I found most linguistically confusing. Let’s not go there ;)
-
-If you don’t like “Default” then how about Theme Configure (themename)
-
-(Since \*configure is used to set permanent settings on RISC OS)
-
-Or, since I still prefer to include the word Default (it means something to me) then Theme SetDefault (theme)
-
-I think “Theme Set” is too easily confused with “Theme Apply”, so we should only use one of those terms. “Theme Save” would imply saving changes to the theme itself.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20199:161523</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mdfm2vilts2x</link>
       <description>
@@ -301,20 +408,6 @@ IF STR$~filename$ = &#34;&#34; THEN ...</source:markdown>
       </description>
       <source:markdown>Mike Webb - programmer and co-designer of NES Solstice. I worked with Mike at Software Creations in the late 80s / early 90s. He was the Technical Director and genius who reverse engineered the NES, created his own dev kits for NES and SNES and wrote much of the early development software.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mdb4seoxzk2o</guid>
-    </item>    <item>
-      <title>Toolbox_RaiseToolboxEvent</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
-      <description>
-        <![CDATA[<p>Discovered my issue! Stupid mistake!</p>
-        <p>Allocating a new block of memory for a gadget object but the pointer wasn&#8217;t being stored in the location allocated for the gadget object in a window object, it was being stored in a local variable with the same name therefore hiding the one it should have updated. Hence the data abort when the pointer to the gadget object in the window object was used!</p>
-        <p>Toolbox_RaiseToolboxEvent is working fine now but is swamping the <span class="caps">WIMP</span> with events, no other process gets a look in, something else to solve :/</p>]]>
-      </description>
-      <source:markdown>Discovered my issue! Stupid mistake!
-
-Allocating a new block of memory for a gadget object but the pointer wasn’t being stored in the location allocated for the gadget object in a window object, it was being stored in a local variable with the same name therefore hiding the one it should have updated. Hence the data abort when the pointer to the gadget object in the window object was used!
-
-Toolbox\_RaiseToolboxEvent is working fine now but is swamping the WIMP with events, no other process gets a look in, something else to solve :/</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20230:161490</guid>
     </item>    <item>
       <title>Live Coding with Gerph, Sunday 25th January at 1pm UK time.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20231</link>
