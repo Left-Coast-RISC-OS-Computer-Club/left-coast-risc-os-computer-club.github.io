@@ -7,10 +7,266 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>30 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>31 Jan 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdqild76e22t</link>
+      <description>
+        <![CDATA[Watch at 2x speed if you're short of time, but watch.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Watch at 2x speed if you&#39;re short of time, but watch.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdqild76e22t</guid>
+    </item>    <item>
+      <title>Handling Unicode</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20238</link>
+      <description>
+        <![CDATA[<p>I have now implemented receiving Cerilica_EncodedText and Cerilica_Styled_text (with some limitations) in our application library, so support will gradually appear in our software. The first to be updated is <a href="https://sinenomine.co.uk/software/riscosm/downloads.php#nominatim">Nominatim</a> &#8211; the search box obtainable by clicking on the iconbar menu is one part of the application which will now respond to these two messages.</p>
+        <p>Testing has been very limited, because I had to generate the messages myself and may not have thought of all the edge cases. I&#8217;ll try to fix anything that is brought to my attention.</p>
+        <p>(Apologies to Nemo: the Nominatim application relies on the RUfL library and so it scans all your fonts when it first runs. You may wish to test on a machine with few extra fonts.)</p>]]>
+      </description>
+      <source:markdown>I have now implemented receiving Cerilica\_EncodedText and Cerilica\_Styled\_text (with some limitations) in our application library, so support will gradually appear in our software. The first to be updated is [Nominatim](https://sinenomine.co.uk/software/riscosm/downloads.php#nominatim) – the search box obtainable by clicking on the iconbar menu is one part of the application which will now respond to these two messages.
+
+Testing has been very limited, because I had to generate the messages myself and may not have thought of all the edge cases. I’ll try to fix anything that is brought to my attention.
+
+(Apologies to Nemo: the Nominatim application relies on the RUfL library and so it scans all your fonts when it first runs. You may wish to test on a machine with few extra fonts.)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20238:161632</guid>
+    </item>    <item>
+      <title>Spread the word by displaying a show banner</title>
+      <link>https://www.riscosnorth.uk/index.php/2026/01/31/spread-the-word-by-displaying-a-show-banner/</link>
+      <description>
+        <![CDATA[If you want to help publicise the 2026 show, there are now a selection of banners available for you to display on your own web pages. Displaying a banner, with a link to this website, can help spread the word about the event to anyone who visits your own site, and in turn can help [&#8230;]]]>
+      </description>
+      <source:markdown>If you want to help publicise the 2026 show, there are now a selection of banners available for you to display on your own web pages. Displaying a banner, with a link to this website, can help spread the word about the event to anyone who visits your own site, and in turn can help \[…\]</source:markdown>
+      <guid>cid://https://www.riscosnorth.uk/?p=590</guid>
+    </item>    <item>
+      <title>ScummVM 2026.1.0 &#38;quot;Like a Version&#38;quot; is finally released</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20248</link>
+      <description>
+        <![CDATA[<p>From the <a href="https://scummvm.org/news/20260131/">original news post:</a></p>
+        <p>Another year has gone by, therefore we are releasing a new ScummVM version. As you may notice right away, we are changing our version numbering schema, but that’s not all! We are also planning on more frequent releases!, which you can read about on <a href="https://www.patreon.com/posts/new-milestone-in-149535385">sev’s blog.</a></p>
+        <p>This could be the biggest release we have made so far in terms of the added features and engines. If I count correctly, we have added 12 new engines to our compatibility page. Not games, engines. In terms of games, it is challenging to count, since two of the engines, <em><span class="caps">SLUDGE</span></em> and <em><span class="caps">WAGE</span></em> are authoring tools, but if you count games in our detection tables, that adds up to at least 194 titles.</p>
+        <h2>Newly Supported Games:</h2>
+        <ul>
+        	<li><em>Dark Seed</em></li>
+        	<li><em>God of Thunder</em></li>
+        	<li><em>The Adventures of Willy Beamish</em></li>
+        	<li><em>Heart of China</em></li>
+        	<li><em>Nancy Drew: Secret of the Scarlet Hand</em></li>
+        	<li><em>Nancy Drew: Ghost Dogs of Moon Lake</em></li>
+        	<li><em>Ripley&#8217;s Believe It or Not!: The Riddle of Master Lu</em></li>
+        	<li><em>Little Longnose</em></li>
+        	<li><em>Pilot Brothers 3: Back Side of the Earth</em></li>
+        	<li><em>Pilot Brothers 3D. The Case of Garden Pests</em></li>
+        	<li><em>Pilot Brothers 3D-2. Kennel Club Secrets</em></li>
+        	<li><em>Features of National Fishing</em></li>
+        	<li><em>Mom Don&#8217;t Worry</em></li>
+        	<li><em>Dog-n-cat: In the Footsteps of Unprecedented Beasts</em></li>
+        	<li><em>Dog-n-cat: Island of Dr Ratiarty</em></li>
+        	<li><em>Out of this World (Another World)</em></li>
+        	<li><em><span class="caps">SLUDGE</span>-based games</em></li>
+        	<li><em>Adibou 2: Nature &amp; Sciences</em></li>
+        	<li><em><span class="caps">WAGE</span>-based games</em></li>
+        	<li><em>Penumbra: Overture</em></li>
+        	<li><em>Tex Murphy: Martian Memorandum</em></li>
+        	<li><em>Mort&amp;Phil: A Movie Adventure (Special Edition)</em></li>
+        	<li><em>Trick or Treat</em></li>
+        	<li><em>Hodj &#8216;n&#8217; Podj</em></li>
+        	<li><em>The Last Express</em><br />
+        And probably various other games…</li>
+        </ul>
+        <p>Apart from the games and engines, two very noticeable features are the massive improvement of Keymapper and Text-to-Speech. We ran a successful Google Summer of Code last year &#8211; <a href="https://blogs.scummvm.org/ellen/" title="ellen">Ellen Moon</a> worked on <span class="caps">TTS</span> and <a href="https://blogs.scummvm.org/prime/" title="Prime">Aun Noman</a> added keymapper support to a <a href="https://wiki.scummvm.org/index.php?title=Keymapper_and_TTS_status">huge amount of games.</a> <span class="caps">TTS</span> is currently limited to desktops (Win/Lin/Mac), but we are working on support on the mobile platforms.</p>
+        <p>As usual, we have added support for more localizations &#8211; we love them! We also squashed a number of nasty bugs &#8211; we do not love them so much.</p>
+        <h2>Engines and Games Improvements</h2>
+        <p>The <em>Private Eye</em> engine got a major sound subsystem update, in addition to support for external subtitles. The <em><span class="caps">SCUMM</span></em> engine had a significant overhaul, and it now supports the original in-game <span class="caps">GUI</span> for <span class="caps">DOS</span>, Macintosh and Windows. The <em>Humongous Entertainment</em> subengine was fully revisited with practically impeccable compatibility, thanks to the efforts of Bosca. The <em>Stark</em> engine for <em>The Longest Journey</em> now has much better compatibility with graphics cards. The <em>Wintermute</em> engine is undergoing a complete code review with the game compatibility improving daily. Last but not least, the <em>ZVision</em> engine, running <em>Zork Nemesis</em> and <em>Zork: Grand Inquisitor</em> has acquired widescreen support, better sound, and better panorama rendering, upgrading your game experience to a new level all thanks to the work of Thomas N McEwan, who joined our team last year.</p>
+        <h2>Platforms</h2>
+        <p>On the subject of platform support, we now optionally support building with SDL3, support scaling shaders for 3D games, and significant upgrades for the Android, iOS and Atari ports.</p>
+        <hr />
+        <p>The full <a href="https://downloads.scummvm.org/frs/scummvm/2026.1.0/ReleaseNotes.html">release notes</a> contain a comprehensive summary of the changes and enhancements.</p>
+        <p>On <a href="https://www.scummvm.org/downloads/">our downloads page,</a> you can find the downloads for various platforms. The iOS version is available in the <a href="https://apps.apple.com/us/app/scummvm/id6446184412">Apple App Store</a>) and the Android versions should soon be available in the <a href="https://play.google.com/store/apps/details?id=org.scummvm.scummvm">Google Play Store.</a> If you are using Windows, macOS, or either the Ubuntu Snap or Flatpak packages, the automatic updater will assist you in updating to ScummVM 2026.1.0.</p>
+        <p>A final point, if you encounter any unrecognized <em><span class="caps">SLUDGE</span></em> or <em><span class="caps">WAGE</span></em> engine games which we are not currently aware of, please let us know. You can either do this by filing a bug at bugs.scummvm.org or by chatting to us on Discord at <a href="https://discord.gg/4cDsMNtcpG">https://discord.gg/4cDsMNtcpG</a>. Happy gaming!</p>]]>
+      </description>
+      <source:markdown>From the [original news post:](https://scummvm.org/news/20260131/)
+
+Another year has gone by, therefore we are releasing a new ScummVM version. As you may notice right away, we are changing our version numbering schema, but that’s not all! We are also planning on more frequent releases!, which you can read about on [sev’s blog.](https://www.patreon.com/posts/new-milestone-in-149535385)
+
+This could be the biggest release we have made so far in terms of the added features and engines. If I count correctly, we have added 12 new engines to our compatibility page. Not games, engines. In terms of games, it is challenging to count, since two of the engines, _SLUDGE_ and _WAGE_ are authoring tools, but if you count games in our detection tables, that adds up to at least 194 titles.
+
+## Newly Supported Games:
+
+- _Dark Seed_
+- _God of Thunder_
+- _The Adventures of Willy Beamish_
+- _Heart of China_
+- _Nancy Drew: Secret of the Scarlet Hand_
+- _Nancy Drew: Ghost Dogs of Moon Lake_
+- _Ripley’s Believe It or Not!: The Riddle of Master Lu_
+- _Little Longnose_
+- _Pilot Brothers 3: Back Side of the Earth_
+- _Pilot Brothers 3D. The Case of Garden Pests_
+- _Pilot Brothers 3D-2. Kennel Club Secrets_
+- _Features of National Fishing_
+- _Mom Don’t Worry_
+- _Dog-n-cat: In the Footsteps of Unprecedented Beasts_
+- _Dog-n-cat: Island of Dr Ratiarty_
+- _Out of this World (Another World)_
+- _SLUDGE-based games_
+- _Adibou 2: Nature &#38; Sciences_
+- _WAGE-based games_
+- _Penumbra: Overture_
+- _Tex Murphy: Martian Memorandum_
+- _Mort&#38;Phil: A Movie Adventure (Special Edition)_
+- _Trick or Treat_
+- _Hodj ‘n’ Podj_
+- _The Last Express_
+
+
+  And probably various other games…
+
+Apart from the games and engines, two very noticeable features are the massive improvement of Keymapper and Text-to-Speech. We ran a successful Google Summer of Code last year – [Ellen Moon](https://blogs.scummvm.org/ellen/ &#34;ellen&#34;) worked on TTS and [Aun Noman](https://blogs.scummvm.org/prime/ &#34;Prime&#34;) added keymapper support to a [huge amount of games.](https://wiki.scummvm.org/index.php?title=Keymapper_and_TTS_status) TTS is currently limited to desktops (Win/Lin/Mac), but we are working on support on the mobile platforms.
+
+As usual, we have added support for more localizations – we love them! We also squashed a number of nasty bugs – we do not love them so much.
+
+## Engines and Games Improvements
+
+The _Private Eye_ engine got a major sound subsystem update, in addition to support for external subtitles. The _SCUMM_ engine had a significant overhaul, and it now supports the original in-game GUI for DOS, Macintosh and Windows. The _Humongous Entertainment_ subengine was fully revisited with practically impeccable compatibility, thanks to the efforts of Bosca. The _Stark_ engine for _The Longest Journey_ now has much better compatibility with graphics cards. The _Wintermute_ engine is undergoing a complete code review with the game compatibility improving daily. Last but not least, the _ZVision_ engine, running _Zork Nemesis_ and _Zork: Grand Inquisitor_ has acquired widescreen support, better sound, and better panorama rendering, upgrading your game experience to a new level all thanks to the work of Thomas N McEwan, who joined our team last year.
+
+## Platforms
+
+On the subject of platform support, we now optionally support building with SDL3, support scaling shaders for 3D games, and significant upgrades for the Android, iOS and Atari ports.
+
+* * *
+
+The full [release notes](https://downloads.scummvm.org/frs/scummvm/2026.1.0/ReleaseNotes.html) contain a comprehensive summary of the changes and enhancements.
+
+On [our downloads page,](https://www.scummvm.org/downloads/) you can find the downloads for various platforms. The iOS version is available in the [Apple App Store](https://apps.apple.com/us/app/scummvm/id6446184412)) and the Android versions should soon be available in the [Google Play Store.](https://play.google.com/store/apps/details?id=org.scummvm.scummvm) If you are using Windows, macOS, or either the Ubuntu Snap or Flatpak packages, the automatic updater will assist you in updating to ScummVM 2026.1.0.
+
+A final point, if you encounter any unrecognized _SLUDGE_ or _WAGE_ engine games which we are not currently aware of, please let us know. You can either do this by filing a bug at bugs.scummvm.org or by chatting to us on Discord at [https://discord.gg/4cDsMNtcpG](https://discord.gg/4cDsMNtcpG). Happy gaming!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20248:161628</guid>
+    </item>    <item>
+      <title>Realtek RTL8152</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/19447</link>
+      <description>
+        <![CDATA[<p>Coming back to this after a very long time (and having missed your last reply, Thomas), I&#8217;ve since bought a different <span class="caps">USB</span> to Ethernet device using the Realtek 8152 chip and it &#8216;just works&#8217; out of the box. It sets a <span class="caps">MAC</span> address and my router recognised it immediately.</p>
+        <p>A bit more poking with the old one without the <span class="caps">MAC</span> address, I did discover it worked completely as expected on the local network only if I set the IP address manually. ShareFS worked (as previously mentioned), as did <span class="caps">VNC</span>, plus several other apps &#8211; as long it was local traffic, and used IP addresses, rather than hostnames. Netsurf and Iris did not work to browse web pages.</p>
+        <p>So I&#8217;m concluding that Thomas was right &#8211; the vendor was saving a few (fractions of) pennies by not including any hardware to push a <span class="caps">MAC</span> address when asked, and was leaving it to the OS to make one up. Cheapskates. <span class="caps">RISC</span> OS does not do this, it seems, and maybe rightly so.</p>]]>
+      </description>
+      <source:markdown>Coming back to this after a very long time (and having missed your last reply, Thomas), I’ve since bought a different USB to Ethernet device using the Realtek 8152 chip and it ‘just works’ out of the box. It sets a MAC address and my router recognised it immediately.
+
+A bit more poking with the old one without the MAC address, I did discover it worked completely as expected on the local network only if I set the IP address manually. ShareFS worked (as previously mentioned), as did VNC, plus several other apps – as long it was local traffic, and used IP addresses, rather than hostnames. Netsurf and Iris did not work to browse web pages.
+
+So I’m concluding that Thomas was right – the vendor was saving a few (fractions of) pennies by not including any hardware to push a MAC address when asked, and was leaving it to the OS to make one up. Cheapskates. RISC OS does not do this, it seems, and maybe rightly so.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:19447:161626</guid>
+    </item>    <item>
+      <title>MUG marks its 20th birthday</title>
+      <link>https://www.riscository.com/2026/mug-20th-birthday/</link>
+      <description>
+        <![CDATA[On Wednesday, 4th February, it will have been twenty years to the day since the Midlands User Group (MUG) held its first meeting, and will be getting together in a pub on the day to celebrate that anniversary. On the 4th February, 2006, a small cohort of RISC OS users in the Midlands area gathered together in the home of one &#8211; Robin Edwards of Serious Statistical Software, who is sadly no longer with us &#8211; and decided to formalise the group and hold regular meetings &#8211; initially settling on&#8230;]]>
+      </description>
+      <source:markdown>On Wednesday, 4th February, it will have been twenty years to the day since the Midlands User Group (MUG) held its first meeting, and will be getting together in a pub on the day to celebrate that anniversary. On the 4th February, 2006, a small cohort of RISC OS users in the Midlands area gathered together in the home of one – Robin Edwards of Serious Statistical Software, who is sadly no longer with us – and decided to formalise the group and hold regular meetings – initially settling on…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10863</guid>
+    </item>    <item>
+      <title>Qercus</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20247</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I have a full set of the Qercus magazine and Acorn Publisher. Wanting to find a new home for them.</p>
+        </blockquote>
+        <p>It would be nice if someone could also scan them to avoid losing this historical material&#8230; just my 0.5c.</p>]]>
+      </description>
+      <source:markdown>&#62; I have a full set of the Qercus magazine and Acorn Publisher. Wanting to find a new home for them.
+
+It would be nice if someone could also scan them to avoid losing this historical material… just my 0.5c.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20247:161625</guid>
+    </item>    <item>
+      <title>Toolbox_RaiseToolboxEvent</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
+      <description>
+        <![CDATA[<p><img src="https://images2.imgbox.com/70/49/vIx6EqKm_o.jpg" /></p>]]>
+      </description>
+      <source:markdown>![](https://images2.imgbox.com/70/49/vIx6EqKm_o.jpg)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20230:161624</guid>
+    </item>    <item>
+      <title>New DME ExtTheme and Launchpad available for download and testing</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
+      <description>
+        <![CDATA[<p>Ok, folks, it&#8217;s the weekend, so tonight I&#8217;ll try to count the votes and change those to parameters accordingly.</p>
+        <p>So, if you fancy to express your vote/opinion, please do so quickly, this ain&#8217;t gonna be an &#8220;open referendum&#8221; for the next forsiable future XD</p>]]>
+      </description>
+      <source:markdown>Ok, folks, it’s the weekend, so tonight I’ll try to count the votes and change those to parameters accordingly.
+
+So, if you fancy to express your vote/opinion, please do so quickly, this ain’t gonna be an “open referendum” for the next forsiable future XD</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20199:161623</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdq6tdbjdk2t</link>
+      <description>
+        <![CDATA[BBC journalism 101:
+        Fly-tipped cardboard boxes are "electric vehicle" boxes, but fly-tipped tyres are not "petrol vehicle" tyres.]]>
+      </description>
+      <source:markdown>BBC journalism 101:
+Fly-tipped cardboard boxes are &#34;electric vehicle&#34; boxes, but fly-tipped tyres are not &#34;petrol vehicle&#34; tyres.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdq6tdbjdk2t</guid>
+    </item>    <item>
+      <title>Modern Frosted Theme</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
+      <description>
+        <![CDATA[<p>More Updates to Frosted Coming Soon!</p>
+        <p><img src="https://images2.imgbox.com/6f/68/pEiE1AoP_o.png" alt="" /><br />
+        <img src="https://images2.imgbox.com/7f/84/uUJOKywg_o.png" alt="" /></p>]]>
+      </description>
+      <source:markdown>More Updates to Frosted Coming Soon!
+
+![](https://images2.imgbox.com/6f/68/pEiE1AoP_o.png)
+
+![](https://images2.imgbox.com/7f/84/uUJOKywg_o.png)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20138:161615</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>The advantage of Compo is that CompoScript now lets you load, analyse, alter, and then save bitmap images. Can run through a series of files doing this. And the processing code can be any language you like on RO. I tend to use progs compiled from &#8216;C&#8217; which then do the processing quite swiftly. It can also show you results as-you-go, and allow interaction by the user.</p>
+        <p>I suspect that most RO users simply don&#8217;t realise just what scope CompoScript offers, and being able to render results as you wish to give the user the info that helps them tweak the processing.</p>
+        <p>However you need one of the latest versions, and a manual, to realise this. It grew quite a lot from its early versions that Clares released.</p>
+        <p>My impression is that exporting text from inside PDFs tend to rely on the <span class="caps">PDF</span> actually having an object text &#8216;layer&#8217;. Not all do have a good example of this, and conversions of poor bitmaps of badly oxidised paper can produce object &#8216;text&#8217; that it riddled with errors, etc.</p>
+        <p>Thus being able to correct for exidation can also help make object-text extraction get better results!</p>]]>
+      </description>
+      <source:markdown>The advantage of Compo is that CompoScript now lets you load, analyse, alter, and then save bitmap images. Can run through a series of files doing this. And the processing code can be any language you like on RO. I tend to use progs compiled from ‘C’ which then do the processing quite swiftly. It can also show you results as-you-go, and allow interaction by the user.
+
+I suspect that most RO users simply don’t realise just what scope CompoScript offers, and being able to render results as you wish to give the user the info that helps them tweak the processing.
+
+However you need one of the latest versions, and a manual, to realise this. It grew quite a lot from its early versions that Clares released.
+
+My impression is that exporting text from inside PDFs tend to rely on the PDF actually having an object text ‘layer’. Not all do have a good example of this, and conversions of poor bitmaps of badly oxidised paper can produce object ‘text’ that it riddled with errors, etc.
+
+Thus being able to correct for exidation can also help make object-text extraction get better results!</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:161611</guid>
+    </item>    <item>
+      <title>NAS problem</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
+      <description>
+        <![CDATA[<p>That was the set of info I was looking for as WoL is an L2 thing<sup id="fnr1"><a href="#fn1">1</a></sup> and typically wired and wireless are treated by the router as different broadcast segments.<br />
+        Apparently not your issues as:</p>
+        <blockquote>
+        <p>However the path then and now was computer – switch – <span class="caps">NAS</span>, all wired.</p>
+        </blockquote>
+        <p>Which, given the router isn&#8217;t involved, suggests that you may have lost the WoL setting in the <span class="caps">NAS</span>, or that the power down is to a deeper level than is compatible with WoL. Deselect and Apply, then reselect and Apply and see what happens.</p>
+        <p id="fn1"><a href="#fnr1"><sup>1</sup></a> <small> Unless you set up a forwarder of some sort. In larger networks, a common workaround is to have a device in the same segment as the target operating as a proxy.</p>]]>
+      </description>
+      <source:markdown>That was the set of info I was looking for as WoL is an L2 thing[1](#fn1) and typically wired and wireless are treated by the router as different broadcast segments.
+
+Apparently not your issues as:
+
+&#62; However the path then and now was computer – switch – NAS, all wired.
+
+Which, given the router isn’t involved, suggests that you may have lost the WoL setting in the NAS, or that the power down is to a deeper level than is compatible with WoL. Deselect and Apply, then reselect and Apply and see what happens.
+
+[1](#fnr1) Unless you set up a forwarder of some sort. In larger networks, a common workaround is to have a device in the same segment as the target operating as a proxy.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20213:161610</guid>
+    </item>    <item>
       <title>Drag &#38;#39;N Drop 60th Edition</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20246</link>
       <description>
@@ -223,32 +479,6 @@ More information about [MUG](https://mug.riscos.org/)</source:markdown>
       <source:markdown>In honour of the big man&#39;s 30th, tonight&#39;s gaming had to be.... #DukeNukem3D #ComeGetSome</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mdloqsdyqk2y</guid>
     </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve been experimenting with !CompoScripting it, and also have downloaded the mutool and Image Magik packages. Also been experimnting with IM on Linux. (One aim has been to generate a Composcript that analyses the page&#8217;s colourisation before applying an appropriate correction.</p>
-        <p>I&#8217;m also trying to work out how the RO !MuTools + IM can be used.</p>
-        <p>Some <span class="caps">PDF</span> pages do show browning of the text. But others really seem to have black text. <span class="caps">FWIW</span> with experiments to just the screen &#8216;cast&#8217; I&#8217;d say you need about about a 20% saturation diff between <span class="caps">RGB</span> components to get a clear brown.  And the black text in many scans seems of squash this in many cases. Varies from scanned magazine/book to another.</p>
-        <p>So one of the points I want to cover is have the prog analyse the stats of a page to show the stats how the frequency of <span class="caps">RGB</span> components vary with the level of each component, etc. Then have this control the &#8216;clean up&#8217; to get optimum black ink on white paper for the output.</p>
-        <p>If I can do this I can do what I did for some earlier uses of running &#8216;C&#8217; progs with CompoScript t get results&#8230; then write it up for Archive magazine.</p>
-        <p><span class="caps">BTW</span> the newer versions of Compo are worth getting. They&#8217;d rather more powerful than one from 2008! Again <span class="caps">IIRC</span> I wrote about this for Archive. If you read that you may recall, for example, the script + &#8216;C&#8217; prog that generates plots of E-field patterns around simple antenna systems, etc. Cane be found on the web as well.</p>
-        <p><span class="caps">TBH</span> these days, though, I&#8217;m old, slow, and have 24/7 &#8216;carer&#8217; duties. Plus have a poorer memory. So welcome help!</p>]]>
-      </description>
-      <source:markdown>I’ve been experimenting with !CompoScripting it, and also have downloaded the mutool and Image Magik packages. Also been experimnting with IM on Linux. (One aim has been to generate a Composcript that analyses the page’s colourisation before applying an appropriate correction.
-
-I’m also trying to work out how the RO !MuTools + IM can be used.
-
-Some PDF pages do show browning of the text. But others really seem to have black text. FWIW with experiments to just the screen ‘cast’ I’d say you need about about a 20% saturation diff between RGB components to get a clear brown. And the black text in many scans seems of squash this in many cases. Varies from scanned magazine/book to another.
-
-So one of the points I want to cover is have the prog analyse the stats of a page to show the stats how the frequency of RGB components vary with the level of each component, etc. Then have this control the ‘clean up’ to get optimum black ink on white paper for the output.
-
-If I can do this I can do what I did for some earlier uses of running ‘C’ progs with CompoScript t get results… then write it up for Archive magazine.
-
-BTW the newer versions of Compo are worth getting. They’d rather more powerful than one from 2008! Again IIRC I wrote about this for Archive. If you read that you may recall, for example, the script + ‘C’ prog that generates plots of E-field patterns around simple antenna systems, etc. Cane be found on the web as well.
-
-TBH these days, though, I’m old, slow, and have 24/7 ‘carer’ duties. Plus have a poorer memory. So welcome help!</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:161576</guid>
-    </item>    <item>
       <title>Rasberry Pi - which is best in 2026?</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20240</link>
       <description>
@@ -298,14 +528,6 @@ For a worked example, see [this post by Chris Hall](/forum/forums/11/topics/1887
 This is the technique used by RComp’s 4té and several offerings from RISCOSbits.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20240:161575</guid>
     </item>    <item>
-      <title>Toolbox_RaiseToolboxEvent</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
-      <description>
-        <![CDATA[<p>But why are you using OS_CallEvery? As Charles says above, if you want timed events in a Wimp application, use Null events from Wimp_PollIdle (or Wimp_Poll, depending on exactly what you&#8217;re doing) to provide them. That way, your application is only doing things when given control through the standard Wimp polling interface, which is far more likely to be the right way to do things.</p>]]>
-      </description>
-      <source:markdown>But why are you using OS\_CallEvery? As Charles says above, if you want timed events in a Wimp application, use Null events from Wimp\_PollIdle (or Wimp\_Poll, depending on exactly what you’re doing) to provide them. That way, your application is only doing things when given control through the standard Wimp polling interface, which is far more likely to be the right way to do things.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20230:161573</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdl3vqbo6k2b</link>
       <description>
         <![CDATA[Another day, another bug in RISC OS BBC Basic [again, by code inspection].]]>
@@ -332,17 +554,6 @@ https://media.tenor.com/SwZwutecbnkAAAAC/duke-nukem-intro.gif?hh=280&#38;ww=498<
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mdksesyibc2m</guid>
-    </item>    <item>
-      <title>New DME ExtTheme and Launchpad available for download and testing</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
-      <description>
-        <![CDATA[<p>I&#8217;d agree with Martin.  If you can&#8217;t figure out what a command does just be reading it in isolation (ie. without the help text) it is bad design.  I know we used to have arcane commands with single-letter parameters, but that originated in the 1970s/80s.  There&#8217;s no reason we can&#8217;t have clear terminology these days.</p>
-        <p><span class="caps">FWIW</span> Acorn themselves said that in the mid 90s, at a developer meeting, &#8220;Don&#8217;t use generic terms if a more descriptive word is clearer&#8221; (or words to that effect) .  I&#8217;d imagine that advice would be in the Style Guide too, but <span class="caps">IIRC</span> the original Style Guide pre-dated Acorn&#8217;s progress in the mid-late 90s.</p>]]>
-      </description>
-      <source:markdown>I’d agree with Martin. If you can’t figure out what a command does just be reading it in isolation (ie. without the help text) it is bad design. I know we used to have arcane commands with single-letter parameters, but that originated in the 1970s/80s. There’s no reason we can’t have clear terminology these days.
-
-FWIW Acorn themselves said that in the mid 90s, at a developer meeting, “Don’t use generic terms if a more descriptive word is clearer” (or words to that effect) . I’d imagine that advice would be in the Style Guide too, but IIRC the original Style Guide pre-dated Acorn’s progress in the mid-late 90s.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20199:161557</guid>
     </item>    <item>
       <title>VNC access to Pi400</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20243</link>
@@ -506,19 +717,6 @@ Rest assured that the most up-to-date prices shown on our [website](https://www.
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mdfm2vilts2x</guid>
-    </item>    <item>
-      <title>Handling Unicode</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20238</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Wouldn’t it be cleaner for a new wimp message that’s <span class="caps">UTF</span>-8 instead of any arbitrary encoding?</p>
-        </blockquote>
-        <p>That would certainly be simpler. Chars could send a message containing the Unicode code point of the transmitted character, and if it doesn&#8217;t get a reply, fall back to the current system.</p>]]>
-      </description>
-      <source:markdown>&#62; Wouldn’t it be cleaner for a new wimp message that’s UTF-8 instead of any arbitrary encoding?
-
-That would certainly be simpler. Chars could send a message containing the Unicode code point of the transmitted character, and if it doesn’t get a reply, fall back to the current system.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20238:161522</guid>
     </item>    <item>
       <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mdff5zxmi225</link>
       <description>
@@ -1189,20 +1387,6 @@ As for how it’s disabled: you’re right, it’s not in the ROMs. RPCEmu check
 Could you enable it locally? Yes — people have done so by removing or bypassing the RO5 checks — but it’s risky. You may get something that appears to work and then quietly corrupts the image. That’s the big reason it hasn’t been officially re-enabled.</source:markdown>
       <guid>cid://www.riscosopen.org:10:20144:161382</guid>
     </item>    <item>
-      <title>Modern Frosted Theme</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
-      <description>
-        <![CDATA[<p>Martin &#8211; The link to your site <a href="http://www.riscos7.co.uk">www.riscos7.co.uk</a> is timing out at the moment.<br />
-        I&#8217;ve just tried from BT Broadband and from my mobile on 3.</p>
-        <p>(<span class="caps">EDIT</span>) Then just like that, it starts working!</p>]]>
-      </description>
-      <source:markdown>Martin – The link to your site [www.riscos7.co.uk](http://www.riscos7.co.uk) is timing out at the moment.
-
-I’ve just tried from BT Broadband and from my mobile on 3.
-
-(EDIT) Then just like that, it starts working!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20138:161381</guid>
-    </item>    <item>
       <title>Gareth McCaughan&#38;#39;s `mkdrawf`/`decdrawf` tools on GitHub</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20222</link>
       <description>
@@ -1639,31 +1823,6 @@ Does anyone know how to issue a command to add an IPv6 address to RISC OS?</sour
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mc3nhncqxc2a</guid>
-    </item>    <item>
-      <title>NAS problem</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>It shows “system started to shut down due to auto poweroff time up”</p>
-        </blockquote>
-        <p>Just putting that phrase into google comes up with this as the second link.</p>
-        <p>2019 thread <a href="https://community.synology.com/enu/forum/1/post/126798">https://community.synology.com/enu/forum/1/post/126798</a></p>
-        <p><em>&#8220;I had the same issue and I just found what was the root cause in my case.</em></p>
-        <p><em>In &#8220;Hardware and Power&#8221; &#8212;&gt; &#8220;<span class="caps">HDD</span> Hibernation&#8221; I had options &#8220;Enable advance <span class="caps">HDD</span> Hibernation&#8221; and &#8220;DS will enter standby via <span class="caps">WOL</span> after the <span class="caps">HDD</span> has hibernated&#8221; both checked.</em></p>
-        <p><em>This caused the <span class="caps">NAS</span> to power off, or maybe just to enter standby, but it did not wake up by itself, simply accessing the storage of through the web interface.  I removed the &#8220;enter standby&#8221; flag and everything works fine for me now.&quot;</em></p>]]>
-      </description>
-      <source:markdown>&#62; It shows “system started to shut down due to auto poweroff time up”
-
-Just putting that phrase into google comes up with this as the second link.
-
-2019 thread [https://community.synology.com/enu/forum/1/post/126798](https://community.synology.com/enu/forum/1/post/126798)
-
-_“I had the same issue and I just found what was the root cause in my case._
-
-_In “Hardware and Power” —&#62; “HDD Hibernation” I had options “Enable advance HDD Hibernation” and “DS will enter standby via WOL after the HDD has hibernated” both checked._
-
-_This caused the NAS to power off, or maybe just to enter standby, but it did not wake up by itself, simply accessing the storage of through the web interface. I removed the “enter standby” flag and everything works fine for me now.&#34;_</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20213:161296</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mbzplo2owk2h</link>
       <description>
