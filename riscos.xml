@@ -7,10 +7,111 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>31 Jan 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>01 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdstp6kvp22m</link>
+      <description>
+        <![CDATA[Today’s nemoBasic feature: PROCs & FNs should know what they’re called – FN$.
+        
+        Also useful for error handling: ONERRORLOCAL:PROCerror(FN$):ENDPROC]]>
+      </description>
+      <source:markdown>Today’s nemoBasic feature: PROCs &#38; FNs should know what they’re called – FN$.
+
+Also useful for error handling: ONERRORLOCAL:PROCerror(FN$):ENDPROC</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdstp6kvp22m</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mdsrrkdq3c2m</link>
+      <description>
+        <![CDATA[More old game development disk rescue and archive work underway. The latest batch of 3" disks have had fewer errors than previous ones I've worked with. Fingers crossed it keeps that way!]]>
+      </description>
+      <source:markdown>More old game development disk rescue and archive work underway. The latest batch of 3&#34; disks have had fewer errors than previous ones I&#39;ve worked with. Fingers crossed it keeps that way!</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mdsrrkdq3c2m</guid>
+    </item>    <item>
+      <title>PhotoDesk 3.25 crashes when trying to create new layer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20249</link>
+      <description>
+        <![CDATA[<p>Hi Community</p>
+        <p>I encounter a crash of PhotoDesk 3.25 on my Raspberry PI4 (RiscOS 5.30) when trying to create a new layer:<br />
+        PhotoDesk has suffered an unexpected error. Click OK to continue, Cancel to quit (12038).</p>
+        <p>Note I alse tested on my ARMini, and it does <strong>not</strong> crash on it&#8230;</p>
+        <p>Does anyone else encounter this issue?</p>
+        <p>Regards</p>
+        <p>François</p>]]>
+      </description>
+      <source:markdown>Hi Community
+
+I encounter a crash of PhotoDesk 3.25 on my Raspberry PI4 (RiscOS 5.30) when trying to create a new layer:
+
+PhotoDesk has suffered an unexpected error. Click OK to continue, Cancel to quit (12038).
+
+Note I alse tested on my ARMini, and it does **not** crash on it…
+
+Does anyone else encounter this issue?
+
+Regards
+
+François</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20249:161647</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 1st February at 1pm UK time.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20241</link>
+      <description>
+        <![CDATA[<p>Starting in about 20 minutes.</p>]]>
+      </description>
+      <source:markdown>Starting in about 20 minutes.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20241:161645</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mdsbzlgqvs2m</link>
+      <description>
+        <![CDATA[How many of you can remember this iconic scene from 1970s TV ( UK )?]]>
+      </description>
+      <source:markdown>How many of you can remember this iconic scene from 1970s TV ( UK )?</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mdsbzlgqvs2m</guid>
+    </item>    <item>
+      <title>Bluetooth development</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
+      <description>
+        <![CDATA[<p>An update for yesterdays update ;-): <br />
+        - Trying to get btdevctl compiled and linking. It is seems it compiles but not links it uses a lot of references to proplib so put my attention to compiling proplib<br />
+        - Trying to get proplib compiling ( and linking ) slow progress.</p>]]>
+      </description>
+      <source:markdown>An update for yesterdays update ;-):
+
+\- Trying to get btdevctl compiled and linking. It is seems it compiles but not links it uses a lot of references to proplib so put my attention to compiling proplib
+
+\- Trying to get proplib compiling ( and linking ) slow progress.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20204:161643</guid>
+    </item>    <item>
+      <title>ScummVM 2026.1.0 &#38;quot;Like a Version&#38;quot; is finally released</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20248</link>
+      <description>
+        <![CDATA[<p>Nice work Cam! :)  Sounds like the codebase has grown a lot, so congrats on getting it all going.</p>]]>
+      </description>
+      <source:markdown>Nice work Cam! :) Sounds like the codebase has grown a lot, so congrats on getting it all going.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20248:161642</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3mdqvnqdjws2k</link>
+      <description>
+        <![CDATA[Interested in coding on RISC OS? Want to learn more or meet others? Join our friendly fireside chat on Zoom—DM for credentials (unchanged). The event is on Saturday, 7th February at 7:30 pm (GMT).
+        #Zoom #Meetup #RISCOS #Community #RaspberryPi #ARM #Retro #AcornComputers]]>
+      </description>
+      <source:markdown>Interested in coding on RISC OS? Want to learn more or meet others? Join our friendly fireside chat on Zoom—DM for credentials (unchanged). The event is on Saturday, 7th February at 7:30 pm (GMT).
+#Zoom #Meetup #RISCOS #Community #RaspberryPi #ARM #Retro #AcornComputers</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mdqvnqdjws2k</guid>
+    </item>    <item>
+      <title>Modern Frosted Theme</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
+      <description>
+        <![CDATA[<p>Updated Theme now ready to try out :)<br />
+        <a href="https://riscostechnologies.co.uk/files/FrostedTheme.zip">Frosted V1.7</a></p>]]>
+      </description>
+      <source:markdown>Updated Theme now ready to try out :)
+
+[Frosted V1.7](https://riscostechnologies.co.uk/files/FrostedTheme.zip)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20138:161639</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdqild76e22t</link>
       <description>
         <![CDATA[Watch at 2x speed if you're short of time, but watch.
@@ -21,6 +122,20 @@
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdqild76e22t</guid>
+    </item>    <item>
+      <title>NAS problem</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
+      <description>
+        <![CDATA[<p>18:39. It still hasn&#8217;t shut down, despite all the computers being shut down, so could not be maintaining activity to prevent hibernation. So setting 10 minutes to hibernate, then 10 minutes after that to shut down, is no longer working.</p>
+        <p>So it won&#8217;t shut down when required, making it difficult to tell whether Wake-on-Lan is working.</p>
+        <p>Next test: I&#8217;m going to set up a power schedule so (hopefully) I can at least get it to shut down. Then the question will be &#8211; can I expect <span class="caps">WOL</span> to wake from a scheduled shutdown. That will be important when I need access to the backups outside the planned times.</p>]]>
+      </description>
+      <source:markdown>18:39. It still hasn’t shut down, despite all the computers being shut down, so could not be maintaining activity to prevent hibernation. So setting 10 minutes to hibernate, then 10 minutes after that to shut down, is no longer working.
+
+So it won’t shut down when required, making it difficult to tell whether Wake-on-Lan is working.
+
+Next test: I’m going to set up a power schedule so (hopefully) I can at least get it to shut down. Then the question will be – can I expect WOL to wake from a scheduled shutdown. That will be important when I need access to the backups outside the planned times.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20213:161634</guid>
     </item>    <item>
       <title>Handling Unicode</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20238</link>
@@ -44,109 +159,28 @@ Testing has been very limited, because I had to generate the messages myself and
       <source:markdown>If you want to help publicise the 2026 show, there are now a selection of banners available for you to display on your own web pages. Displaying a banner, with a link to this website, can help spread the word about the event to anyone who visits your own site, and in turn can help \[…\]</source:markdown>
       <guid>cid://https://www.riscosnorth.uk/?p=590</guid>
     </item>    <item>
-      <title>ScummVM 2026.1.0 &#38;quot;Like a Version&#38;quot; is finally released</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20248</link>
+      <title>Toolbox_RaiseToolboxEvent</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
       <description>
-        <![CDATA[<p>From the <a href="https://scummvm.org/news/20260131/">original news post:</a></p>
-        <p>Another year has gone by, therefore we are releasing a new ScummVM version. As you may notice right away, we are changing our version numbering schema, but that’s not all! We are also planning on more frequent releases!, which you can read about on <a href="https://www.patreon.com/posts/new-milestone-in-149535385">sev’s blog.</a></p>
-        <p>This could be the biggest release we have made so far in terms of the added features and engines. If I count correctly, we have added 12 new engines to our compatibility page. Not games, engines. In terms of games, it is challenging to count, since two of the engines, <em><span class="caps">SLUDGE</span></em> and <em><span class="caps">WAGE</span></em> are authoring tools, but if you count games in our detection tables, that adds up to at least 194 titles.</p>
-        <h2>Newly Supported Games:</h2>
-        <ul>
-        	<li><em>Dark Seed</em></li>
-        	<li><em>God of Thunder</em></li>
-        	<li><em>The Adventures of Willy Beamish</em></li>
-        	<li><em>Heart of China</em></li>
-        	<li><em>Nancy Drew: Secret of the Scarlet Hand</em></li>
-        	<li><em>Nancy Drew: Ghost Dogs of Moon Lake</em></li>
-        	<li><em>Ripley&#8217;s Believe It or Not!: The Riddle of Master Lu</em></li>
-        	<li><em>Little Longnose</em></li>
-        	<li><em>Pilot Brothers 3: Back Side of the Earth</em></li>
-        	<li><em>Pilot Brothers 3D. The Case of Garden Pests</em></li>
-        	<li><em>Pilot Brothers 3D-2. Kennel Club Secrets</em></li>
-        	<li><em>Features of National Fishing</em></li>
-        	<li><em>Mom Don&#8217;t Worry</em></li>
-        	<li><em>Dog-n-cat: In the Footsteps of Unprecedented Beasts</em></li>
-        	<li><em>Dog-n-cat: Island of Dr Ratiarty</em></li>
-        	<li><em>Out of this World (Another World)</em></li>
-        	<li><em><span class="caps">SLUDGE</span>-based games</em></li>
-        	<li><em>Adibou 2: Nature &amp; Sciences</em></li>
-        	<li><em><span class="caps">WAGE</span>-based games</em></li>
-        	<li><em>Penumbra: Overture</em></li>
-        	<li><em>Tex Murphy: Martian Memorandum</em></li>
-        	<li><em>Mort&amp;Phil: A Movie Adventure (Special Edition)</em></li>
-        	<li><em>Trick or Treat</em></li>
-        	<li><em>Hodj &#8216;n&#8217; Podj</em></li>
-        	<li><em>The Last Express</em><br />
-        And probably various other games…</li>
-        </ul>
-        <p>Apart from the games and engines, two very noticeable features are the massive improvement of Keymapper and Text-to-Speech. We ran a successful Google Summer of Code last year &#8211; <a href="https://blogs.scummvm.org/ellen/" title="ellen">Ellen Moon</a> worked on <span class="caps">TTS</span> and <a href="https://blogs.scummvm.org/prime/" title="Prime">Aun Noman</a> added keymapper support to a <a href="https://wiki.scummvm.org/index.php?title=Keymapper_and_TTS_status">huge amount of games.</a> <span class="caps">TTS</span> is currently limited to desktops (Win/Lin/Mac), but we are working on support on the mobile platforms.</p>
-        <p>As usual, we have added support for more localizations &#8211; we love them! We also squashed a number of nasty bugs &#8211; we do not love them so much.</p>
-        <h2>Engines and Games Improvements</h2>
-        <p>The <em>Private Eye</em> engine got a major sound subsystem update, in addition to support for external subtitles. The <em><span class="caps">SCUMM</span></em> engine had a significant overhaul, and it now supports the original in-game <span class="caps">GUI</span> for <span class="caps">DOS</span>, Macintosh and Windows. The <em>Humongous Entertainment</em> subengine was fully revisited with practically impeccable compatibility, thanks to the efforts of Bosca. The <em>Stark</em> engine for <em>The Longest Journey</em> now has much better compatibility with graphics cards. The <em>Wintermute</em> engine is undergoing a complete code review with the game compatibility improving daily. Last but not least, the <em>ZVision</em> engine, running <em>Zork Nemesis</em> and <em>Zork: Grand Inquisitor</em> has acquired widescreen support, better sound, and better panorama rendering, upgrading your game experience to a new level all thanks to the work of Thomas N McEwan, who joined our team last year.</p>
-        <h2>Platforms</h2>
-        <p>On the subject of platform support, we now optionally support building with SDL3, support scaling shaders for 3D games, and significant upgrades for the Android, iOS and Atari ports.</p>
-        <hr />
-        <p>The full <a href="https://downloads.scummvm.org/frs/scummvm/2026.1.0/ReleaseNotes.html">release notes</a> contain a comprehensive summary of the changes and enhancements.</p>
-        <p>On <a href="https://www.scummvm.org/downloads/">our downloads page,</a> you can find the downloads for various platforms. The iOS version is available in the <a href="https://apps.apple.com/us/app/scummvm/id6446184412">Apple App Store</a>) and the Android versions should soon be available in the <a href="https://play.google.com/store/apps/details?id=org.scummvm.scummvm">Google Play Store.</a> If you are using Windows, macOS, or either the Ubuntu Snap or Flatpak packages, the automatic updater will assist you in updating to ScummVM 2026.1.0.</p>
-        <p>A final point, if you encounter any unrecognized <em><span class="caps">SLUDGE</span></em> or <em><span class="caps">WAGE</span></em> engine games which we are not currently aware of, please let us know. You can either do this by filing a bug at bugs.scummvm.org or by chatting to us on Discord at <a href="https://discord.gg/4cDsMNtcpG">https://discord.gg/4cDsMNtcpG</a>. Happy gaming!</p>]]>
+        <![CDATA[<p>Hi Bill, thank you for this diagram, it clarifies my understanding of the problem which interests me very much. Being able to monitor events is also one of my projects. For example using <span class="caps">MQTT</span> and connected objects (ZigBee) such as a temperature sensor.<br />
+         Charles is certainly more competent than me to talk about the Wimp_Poll mechanism and the interaction with the ToolBox. I refer to the ToolBox manual page 12 and 13. <br />
+         The application must be able to manage the updating of gadgets at regular intervals without overloading the OS.<br />
+         I tested the method above and the timing is fast enough to update a gadget. Besides you only modify at the frequency of 10 Hz maximum.</p>
+        <p>I&#8217;m going to put it into practice by redoing a graphical interface for my Velleman kit, (I know David Higton has already done it) it&#8217;s just to set up this mechanism.</p>
+        <p>Regarding ToolBox, another challenge is to build new gadgets like those of Node-Red, it may be too ambitious&#8230;</p>]]>
       </description>
-      <source:markdown>From the [original news post:](https://scummvm.org/news/20260131/)
+      <source:markdown>Hi Bill, thank you for this diagram, it clarifies my understanding of the problem which interests me very much. Being able to monitor events is also one of my projects. For example using MQTT and connected objects (ZigBee) such as a temperature sensor.
 
-Another year has gone by, therefore we are releasing a new ScummVM version. As you may notice right away, we are changing our version numbering schema, but that’s not all! We are also planning on more frequent releases!, which you can read about on [sev’s blog.](https://www.patreon.com/posts/new-milestone-in-149535385)
+Charles is certainly more competent than me to talk about the Wimp\_Poll mechanism and the interaction with the ToolBox. I refer to the ToolBox manual page 12 and 13.
 
-This could be the biggest release we have made so far in terms of the added features and engines. If I count correctly, we have added 12 new engines to our compatibility page. Not games, engines. In terms of games, it is challenging to count, since two of the engines, _SLUDGE_ and _WAGE_ are authoring tools, but if you count games in our detection tables, that adds up to at least 194 titles.
+The application must be able to manage the updating of gadgets at regular intervals without overloading the OS.
 
-## Newly Supported Games:
+I tested the method above and the timing is fast enough to update a gadget. Besides you only modify at the frequency of 10 Hz maximum.
 
-- _Dark Seed_
-- _God of Thunder_
-- _The Adventures of Willy Beamish_
-- _Heart of China_
-- _Nancy Drew: Secret of the Scarlet Hand_
-- _Nancy Drew: Ghost Dogs of Moon Lake_
-- _Ripley’s Believe It or Not!: The Riddle of Master Lu_
-- _Little Longnose_
-- _Pilot Brothers 3: Back Side of the Earth_
-- _Pilot Brothers 3D. The Case of Garden Pests_
-- _Pilot Brothers 3D-2. Kennel Club Secrets_
-- _Features of National Fishing_
-- _Mom Don’t Worry_
-- _Dog-n-cat: In the Footsteps of Unprecedented Beasts_
-- _Dog-n-cat: Island of Dr Ratiarty_
-- _Out of this World (Another World)_
-- _SLUDGE-based games_
-- _Adibou 2: Nature &#38; Sciences_
-- _WAGE-based games_
-- _Penumbra: Overture_
-- _Tex Murphy: Martian Memorandum_
-- _Mort&#38;Phil: A Movie Adventure (Special Edition)_
-- _Trick or Treat_
-- _Hodj ‘n’ Podj_
-- _The Last Express_
+I’m going to put it into practice by redoing a graphical interface for my Velleman kit, (I know David Higton has already done it) it’s just to set up this mechanism.
 
-
-  And probably various other games…
-
-Apart from the games and engines, two very noticeable features are the massive improvement of Keymapper and Text-to-Speech. We ran a successful Google Summer of Code last year – [Ellen Moon](https://blogs.scummvm.org/ellen/ &#34;ellen&#34;) worked on TTS and [Aun Noman](https://blogs.scummvm.org/prime/ &#34;Prime&#34;) added keymapper support to a [huge amount of games.](https://wiki.scummvm.org/index.php?title=Keymapper_and_TTS_status) TTS is currently limited to desktops (Win/Lin/Mac), but we are working on support on the mobile platforms.
-
-As usual, we have added support for more localizations – we love them! We also squashed a number of nasty bugs – we do not love them so much.
-
-## Engines and Games Improvements
-
-The _Private Eye_ engine got a major sound subsystem update, in addition to support for external subtitles. The _SCUMM_ engine had a significant overhaul, and it now supports the original in-game GUI for DOS, Macintosh and Windows. The _Humongous Entertainment_ subengine was fully revisited with practically impeccable compatibility, thanks to the efforts of Bosca. The _Stark_ engine for _The Longest Journey_ now has much better compatibility with graphics cards. The _Wintermute_ engine is undergoing a complete code review with the game compatibility improving daily. Last but not least, the _ZVision_ engine, running _Zork Nemesis_ and _Zork: Grand Inquisitor_ has acquired widescreen support, better sound, and better panorama rendering, upgrading your game experience to a new level all thanks to the work of Thomas N McEwan, who joined our team last year.
-
-## Platforms
-
-On the subject of platform support, we now optionally support building with SDL3, support scaling shaders for 3D games, and significant upgrades for the Android, iOS and Atari ports.
-
-* * *
-
-The full [release notes](https://downloads.scummvm.org/frs/scummvm/2026.1.0/ReleaseNotes.html) contain a comprehensive summary of the changes and enhancements.
-
-On [our downloads page,](https://www.scummvm.org/downloads/) you can find the downloads for various platforms. The iOS version is available in the [Apple App Store](https://apps.apple.com/us/app/scummvm/id6446184412)) and the Android versions should soon be available in the [Google Play Store.](https://play.google.com/store/apps/details?id=org.scummvm.scummvm) If you are using Windows, macOS, or either the Ubuntu Snap or Flatpak packages, the automatic updater will assist you in updating to ScummVM 2026.1.0.
-
-A final point, if you encounter any unrecognized _SLUDGE_ or _WAGE_ engine games which we are not currently aware of, please let us know. You can either do this by filing a bug at bugs.scummvm.org or by chatting to us on Discord at [https://discord.gg/4cDsMNtcpG](https://discord.gg/4cDsMNtcpG). Happy gaming!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20248:161628</guid>
+Regarding ToolBox, another challenge is to build new gadgets like those of Node-Red, it may be too ambitious…</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20230:161629</guid>
     </item>    <item>
       <title>Realtek RTL8152</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/19447</link>
@@ -183,14 +217,6 @@ So I’m concluding that Thomas was right – the vendor was saving a few (fract
 It would be nice if someone could also scan them to avoid losing this historical material… just my 0.5c.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20247:161625</guid>
     </item>    <item>
-      <title>Toolbox_RaiseToolboxEvent</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
-      <description>
-        <![CDATA[<p><img src="https://images2.imgbox.com/70/49/vIx6EqKm_o.jpg" /></p>]]>
-      </description>
-      <source:markdown>![](https://images2.imgbox.com/70/49/vIx6EqKm_o.jpg)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20230:161624</guid>
-    </item>    <item>
       <title>New DME ExtTheme and Launchpad available for download and testing</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
       <description>
@@ -211,20 +237,6 @@ So, if you fancy to express your vote/opinion, please do so quickly, this ain’
 Fly-tipped cardboard boxes are &#34;electric vehicle&#34; boxes, but fly-tipped tyres are not &#34;petrol vehicle&#34; tyres.</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdq6tdbjdk2t</guid>
     </item>    <item>
-      <title>Modern Frosted Theme</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
-      <description>
-        <![CDATA[<p>More Updates to Frosted Coming Soon!</p>
-        <p><img src="https://images2.imgbox.com/6f/68/pEiE1AoP_o.png" alt="" /><br />
-        <img src="https://images2.imgbox.com/7f/84/uUJOKywg_o.png" alt="" /></p>]]>
-      </description>
-      <source:markdown>More Updates to Frosted Coming Soon!
-
-![](https://images2.imgbox.com/6f/68/pEiE1AoP_o.png)
-
-![](https://images2.imgbox.com/7f/84/uUJOKywg_o.png)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20138:161615</guid>
-    </item>    <item>
       <title>MuView and rendering PDF pages</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
       <description>
@@ -244,28 +256,6 @@ My impression is that exporting text from inside PDFs tend to rely on the PDF ac
 
 Thus being able to correct for exidation can also help make object-text extraction get better results!</source:markdown>
       <guid>cid://www.riscosopen.org:11:20244:161611</guid>
-    </item>    <item>
-      <title>NAS problem</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
-      <description>
-        <![CDATA[<p>That was the set of info I was looking for as WoL is an L2 thing<sup id="fnr1"><a href="#fn1">1</a></sup> and typically wired and wireless are treated by the router as different broadcast segments.<br />
-        Apparently not your issues as:</p>
-        <blockquote>
-        <p>However the path then and now was computer – switch – <span class="caps">NAS</span>, all wired.</p>
-        </blockquote>
-        <p>Which, given the router isn&#8217;t involved, suggests that you may have lost the WoL setting in the <span class="caps">NAS</span>, or that the power down is to a deeper level than is compatible with WoL. Deselect and Apply, then reselect and Apply and see what happens.</p>
-        <p id="fn1"><a href="#fnr1"><sup>1</sup></a> <small> Unless you set up a forwarder of some sort. In larger networks, a common workaround is to have a device in the same segment as the target operating as a proxy.</p>]]>
-      </description>
-      <source:markdown>That was the set of info I was looking for as WoL is an L2 thing[1](#fn1) and typically wired and wireless are treated by the router as different broadcast segments.
-
-Apparently not your issues as:
-
-&#62; However the path then and now was computer – switch – NAS, all wired.
-
-Which, given the router isn’t involved, suggests that you may have lost the WoL setting in the NAS, or that the power down is to a deeper level than is compatible with WoL. Deselect and Apply, then reselect and Apply and see what happens.
-
-[1](#fnr1) Unless you set up a forwarder of some sort. In larger networks, a common workaround is to have a device in the same segment as the target operating as a proxy.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20213:161610</guid>
     </item>    <item>
       <title>Drag &#38;#39;N Drop 60th Edition</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20246</link>
@@ -850,20 +840,6 @@ IF STR$~filename$ = &#34;&#34; THEN ...</source:markdown>
       </description>
       <source:markdown>Thanks. That worked.</source:markdown>
       <guid>cid://www.riscosopen.org:10:20233:161486</guid>
-    </item>    <item>
-      <title>Bluetooth development</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
-      <description>
-        <![CDATA[<p>Dear all two pushes(!) today on github for the <a href="https://github.com/TimoHartong/ROBTBSD">BT Stack</a> .<br />
-        - btconfig compiles and links but does not work. Empty functions ;-)<br />
-        - Work on compiling and linking btdevctl. I thought I did not need <span class="caps">USB</span> header related files but it seems to contain some things in relation to the <span class="caps">HID</span> so added from the <span class="caps">NETBSD</span> source</p>]]>
-      </description>
-      <source:markdown>Dear all two pushes(!) today on github for the [BT Stack](https://github.com/TimoHartong/ROBTBSD) .
-
-\- btconfig compiles and links but does not work. Empty functions ;-)
-
-\- Work on compiling and linking btdevctl. I thought I did not need USB header related files but it seems to contain some things in relation to the HID so added from the NETBSD source</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20204:161485</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3md6osj5lrc2x</link>
       <description>
