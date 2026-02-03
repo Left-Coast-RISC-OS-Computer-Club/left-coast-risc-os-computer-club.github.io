@@ -7,10 +7,214 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>02 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>03 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mdxrxulwlk2n</link>
+      <description>
+        <![CDATA[@loudscotsbloke.bsky.social Hello, me again! I'm looking at peripherals for the Aquarius (hoping to borrow one from a friend this weekend) and wondered if you'd had much success with the Maxduino or other tape emulators? Any recommendations would be most welcome! :)]]>
+      </description>
+      <source:markdown>@loudscotsbloke.bsky.social Hello, me again! I&#39;m looking at peripherals for the Aquarius (hoping to borrow one from a friend this weekend) and wondered if you&#39;d had much success with the Maxduino or other tape emulators? Any recommendations would be most welcome! :)</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mdxrxulwlk2n</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>To update: I&#8217;v now got a !Compo programme working on examining/processing bitmap files to do some &#8216;stats&#8217; on the content. The point being that these stats then allow a longer program to &#8216;cherry pick&#8217; or &#8216;target&#8217; how to do a cleanup of paper oxidisation.</p>
+        <p>For &#8216;colour&#8217; bitmaps this can target the way &#8216;brown&#8217; systematically has  R &gt; G &gt; B values* and use that to identify pixels to &#8216;make white&#8217;. But for pages where the degrading is grey, to use the stats of the relative frequencies of different greyscale values, say, to alter the gamut to give a cleaner result. In principle, both approaches can be deployed.</p>
+        <p><span class="caps">BTW</span> CompoScript lets me call <strong>compiled</strong> code (in my case written in ye olde &#8216;C&#8217;) to read the values out of !Compo&#8217;s memory, bash then numbers, and poke back &#8216;adjusted&#8217; values. In essence, !Compo acts as the interface for having the work done and giving the user a relevant <span class="caps">GUI</span>, etc!)</p>
+        <p>It also should allow the process to do things like chug through page by page. Indeed, should be able to let the user also &#8216;skip&#8217; the front cover. (Often that is clean, no oxidation, because it was &#8216;chinagraphed&#8217; paper to look better on magazine racks, etc. ). Many of the old free scanned magazines have a clean colour front page, with truly eye-wateringly-browned content pages (pulp paper, indeed)!</p>
+        <p>Somone else (don&#8217;t know if he wants his name mentioned here or not) has been sending me some progs that can so some of this on Linux. So I may end up using those. But I&#8217;d prefer to get this going on RO as I also use that for the fetching ofebooks.)</p>
+        <p>Maybe this might also help people to realise just how flexible the most recent versions of !Compo became. :-) It is also now effectively &#8216;open source&#8217; so could have features added in ways akin to using the scripting, but calling its own new functions rather than user-added ones like those I&#8217;ve done and am trying again to generate.</p>
+        <p>Main snag for me is that it is ages since I&#8217;ve done anything like this, and I&#8217;m now an old fart who is a full-time carer. So I&#8217;m sloooooow at doing things due to being forgetful, and often away dealing with a &#8216;non maskable interrupt&#8217; in life. :-)</p>
+        <ul>
+        	<li>My impression is that with 0 &#8211; 255 gamut <span class="caps">RGB</span> values the  differences R-G and G-B both tend to be of the order of 20. But I&#8217;ve not done stats yet, so that&#8217;s just a mk1 eyeball estimate.</li>
+        </ul>]]>
+      </description>
+      <source:markdown>To update: I’v now got a !Compo programme working on examining/processing bitmap files to do some ‘stats’ on the content. The point being that these stats then allow a longer program to ‘cherry pick’ or ‘target’ how to do a cleanup of paper oxidisation.
+
+For ‘colour’ bitmaps this can target the way ‘brown’ systematically has R &#62; G &#62; B values\* and use that to identify pixels to ‘make white’. But for pages where the degrading is grey, to use the stats of the relative frequencies of different greyscale values, say, to alter the gamut to give a cleaner result. In principle, both approaches can be deployed.
+
+BTW CompoScript lets me call **compiled** code (in my case written in ye olde ‘C’) to read the values out of !Compo’s memory, bash then numbers, and poke back ‘adjusted’ values. In essence, !Compo acts as the interface for having the work done and giving the user a relevant GUI, etc!)
+
+It also should allow the process to do things like chug through page by page. Indeed, should be able to let the user also ‘skip’ the front cover. (Often that is clean, no oxidation, because it was ‘chinagraphed’ paper to look better on magazine racks, etc. ). Many of the old free scanned magazines have a clean colour front page, with truly eye-wateringly-browned content pages (pulp paper, indeed)!
+
+Somone else (don’t know if he wants his name mentioned here or not) has been sending me some progs that can so some of this on Linux. So I may end up using those. But I’d prefer to get this going on RO as I also use that for the fetching ofebooks.)
+
+Maybe this might also help people to realise just how flexible the most recent versions of !Compo became. :-) It is also now effectively ‘open source’ so could have features added in ways akin to using the scripting, but calling its own new functions rather than user-added ones like those I’ve done and am trying again to generate.
+
+Main snag for me is that it is ages since I’ve done anything like this, and I’m now an old fart who is a full-time carer. So I’m sloooooow at doing things due to being forgetful, and often away dealing with a ‘non maskable interrupt’ in life. :-)
+
+- My impression is that with 0 – 255 gamut RGB values the differences R-G and G-B both tend to be of the order of 20. But I’ve not done stats yet, so that’s just a mk1 eyeball estimate.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:161677</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdx45l7lrs2q</link>
+      <description>
+        <![CDATA[Sacrificed on the altar of growth.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Sacrificed on the altar of growth.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdx45l7lrs2q</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mdwvxmt6p223</link>
+      <description>
+        <![CDATA[Aa of this morning's weigh-in, the Christmas kilo has been lost! 🥳]]>
+      </description>
+      <source:markdown>Aa of this morning&#39;s weigh-in, the Christmas kilo has been lost! 🥳</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mdwvxmt6p223</guid>
+    </item>    <item>
+      <title>Status update for RISC OS 64-bit work</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20251</link>
+      <description>
+        <![CDATA[<p>We&#8217;ve had a month and a half since the last status update on the 64-bit <span class="caps">RISC</span> OS work, so here we go&#8230;</p>
+        <ul>
+        	<li>Kernel introspection calls were given some stubbed entry points as part of the live coding work. See <a href="https://github.com/gerph/riscos-kernel-introspection">https://github.com/gerph/riscos-kernel-introspection</a> for details.</li>
+        	<li>Fixes for the Hourglass Maker have been applied (it seemed to always turn the pointer off!). See <a href="https://github.com/gerph/riscos-hourglass-maker">https://github.com/gerph/riscos-hourglass-maker</a> for details.</li>
+        	<li>Wimp text rendering was started as the live coding sessions. See <a href="https://github.com/gerph/riscos-wimp-textrender">https://github.com/gerph/riscos-wimp-textrender</a> for the details.</li>
+        	<li>The Wimp text rendering is using a library I created a long time ago which abstracts the graphics operations into logical routines. See <a href="https://github.com/gerph/riscos-gcontext">https://github.com/gerph/riscos-gcontext</a> for details of the library.</li>
+        	<li>Contributed to Matthew Godbolt&#8217;s <span class="caps">TBAFS</span> archive extraction tool, to improve some of the features. See <a href="https://github.com/mattgodbolt/tbafs">https://github.com/mattgodbolt/tbafs</a>.</li>
+        	<li>Released updated versions of Gareth McCaughan&#8217;s `mkdrawf`/`decdrawf` tools to create and decode <span class="caps">RISC</span> OS Drawfiles. See <a href="https://github.com/gerph/garethmccaughan-mkdrawf">https://github.com/gerph/garethmccaughan-mkdrawf</a> for details.
+        	<ul>
+        		<li>Released under <span class="caps">MIT</span> license, as 32-bit safe.</li>
+        		<li>Updated to run on 64-bit Ubuntu as well.</li>
+        	</ul></li>
+        	<li>Updated my `lessfilter` tooling. See <a href="https://github.com/gerph/lessfilter">https://github.com/gerph/lessfilter</a> for details.
+        	<ul>
+        		<li>Support for listing <span class="caps">RISC</span> OS zip archives.</li>
+        		<li>Improved frontmatter recognition in markdown.</li>
+        		<li>Improved colouring in some `decaof` output.</li>
+        		<li>Use `objdump` for 32-bit <span class="caps">ARM</span> <span class="caps">ELF</span> files.</li>
+        		<li>Support showing Drawfiles with `decdrawf`.
+        		<ul>
+        			<li>Screenshots here: <a href="https://www.riscosopen.org/forum/forums/1/topics/20222">https://www.riscosopen.org/forum/forums/1/topics/20222</a></li>
+        			<li>Video here: <a href="https://asciinema.org/a/768154">https://asciinema.org/a/768154</a></li>
+        		</ul></li>
+        	</ul></li>
+        	<li><span class="caps">RISC</span> OS Build service (and shell) updated to the 0.79 version of <span class="caps">RISC</span> OS Pyromaniac. See <a href="https://shell.riscos.online/">https://shell.riscos.online/</a> and <a href="https://build.riscos.online/">https://build.riscos.online/</a>.
+        	<ul>
+        		<li>Added `picoc` to the tools that are present, allowing testing with simple C scripts in both 32-bit and 64-bit configurations.</li>
+        	</ul></li>
+        	<li><span class="caps">RISC</span> OS language server for <span class="caps">SWI</span> calls created. See <a href="https://github.com/gerph/riscos-swi-language-server">https://github.com/gerph/riscos-swi-language-server</a> for details.
+        	<ul>
+        		<li>Videos for SublimeText here: <a href="https://share.gerph.org/s/tFGhUkZ9T5UVYsO">https://share.gerph.org/s/tFGhUkZ9T5UVYsO</a> <a href="https://share.gerph.org/s/jcfYJUgD02efYi5">https://share.gerph.org/s/jcfYJUgD02efYi5</a></li>
+        		<li>Video for VSCode here: <a href="https://share.gerph.org/s/znYmnFhyG3bZTNy">https://share.gerph.org/s/znYmnFhyG3bZTNy</a></li>
+        	</ul></li>
+        	<li>Port of the `wren` language to <span class="caps">RISC</span> OS 64. See <a href="https://github.com/gerph/riscos64-wren">https://github.com/gerph/riscos64-wren</a> for details.
+        	<ul>
+        		<li>Video here: <a href="https://asciinema.org/a/762898">https://asciinema.org/a/762898</a></li>
+        	</ul></li>
+        	<li>Port of `MicroQuickJS` to <span class="caps">RISC</span> OS 64. See <a href="https://github.com/gerph/riscos64-mquickjs">https://github.com/gerph/riscos64-mquickjs</a> for details.
+        	<ul>
+        		<li>Video here: <a href="https://asciinema.org/a/764232">https://asciinema.org/a/764232</a></li>
+        	</ul></li>
+        	<li>Port of `MicroUI` to <span class="caps">RISC</span> OS (both architectures). See <a href="https://github.com/gerph/microui">https://github.com/gerph/microui</a> for details.
+        	<ul>
+        		<li>Video here: <a href="https://share.gerph.org/s/w8UEFpWZZcXvB4K">https://share.gerph.org/s/w8UEFpWZZcXvB4K</a></li>
+        	</ul></li>
+        	<li>All GitHub repositories updated.
+        	<ul>
+        		<li>Automation has been added to make updating dependencies less time-consuming.</li>
+        		<li>PR and issue templates have been added to help guide users to give better reports on issues.</li>
+        	</ul></li>
+        	<li>Released the <span class="caps">UUID</span> module in case anyone needed it. See <a href="https://github.com/gerph/riscos-uuid">https://github.com/gerph/riscos-uuid</a> for details.</li>
+        	<li>Created example repository for using timed events in applications. See <a href="https://github.com/gerph/riscos-timed-events-example">https://github.com/gerph/riscos-timed-events-example</a> for details.</li>
+        	<li>Updated the build environment with the latest tooling. See <a href="https://hub.docker.com/r/gerph/riscos-build">https://hub.docker.com/r/gerph/riscos-build</a> for details.</li>
+        	<li>Started sponsorship programme on GitHub. See <a href="https://github.com/sponsors/gerph">https://github.com/sponsors/gerph</a> for details.</li>
+        </ul>
+        <p>The overall status of the components can be found in the <span class="caps">RISC</span> OS 64 Status repository: <a href="https://github.com/gerph/riscos64-status/wiki">https://github.com/gerph/riscos64-status/wiki</a></p>
+        <p>You can always follow the repositories to see what’s being done. The <span class="caps">RISC</span> OS Status repository also has a `Discussions` section for general discussions on the progress of 64-bit work.</p>
+        <p>The sponsorship programme is something that GitHub offers to allow people to provide contributions towards the <span class="caps">RISC</span> OS 64 project. If you like what&#8217;s being done, and want to encourage more, feel free to sponsor.</p>
+        <p>And of course, if you want to get involved in working on any of the conversion to C of components, please speak up.</p>]]>
+      </description>
+      <source:markdown>We’ve had a month and a half since the last status update on the 64-bit RISC OS work, so here we go…
+
+- Kernel introspection calls were given some stubbed entry points as part of the live coding work. See [https://github.com/gerph/riscos-kernel-introspection](https://github.com/gerph/riscos-kernel-introspection) for details.
+- Fixes for the Hourglass Maker have been applied (it seemed to always turn the pointer off!). See [https://github.com/gerph/riscos-hourglass-maker](https://github.com/gerph/riscos-hourglass-maker) for details.
+- Wimp text rendering was started as the live coding sessions. See [https://github.com/gerph/riscos-wimp-textrender](https://github.com/gerph/riscos-wimp-textrender) for the details.
+- The Wimp text rendering is using a library I created a long time ago which abstracts the graphics operations into logical routines. See [https://github.com/gerph/riscos-gcontext](https://github.com/gerph/riscos-gcontext) for details of the library.
+- Contributed to Matthew Godbolt’s TBAFS archive extraction tool, to improve some of the features. See [https://github.com/mattgodbolt/tbafs](https://github.com/mattgodbolt/tbafs).
+- Released updated versions of Gareth McCaughan’s \`mkdrawf\`/\`decdrawf\` tools to create and decode RISC OS Drawfiles. See [https://github.com/gerph/garethmccaughan-mkdrawf](https://github.com/gerph/garethmccaughan-mkdrawf) for details.
+
+  - Released under MIT license, as 32-bit safe.
+  - Updated to run on 64-bit Ubuntu as well.
+- Updated my \`lessfilter\` tooling. See [https://github.com/gerph/lessfilter](https://github.com/gerph/lessfilter) for details.
+
+  - Support for listing RISC OS zip archives.
+  - Improved frontmatter recognition in markdown.
+  - Improved colouring in some \`decaof\` output.
+  - Use \`objdump\` for 32-bit ARMELF files.
+  - Support showing Drawfiles with \`decdrawf\`.
+    - Screenshots here: [https://www.riscosopen.org/forum/forums/1/topics/20222](https://www.riscosopen.org/forum/forums/1/topics/20222)
+    - Video here: [https://asciinema.org/a/768154](https://asciinema.org/a/768154)
+- RISC OS Build service (and shell) updated to the 0.79 version of RISC OS Pyromaniac. See [https://shell.riscos.online/](https://shell.riscos.online/) and [https://build.riscos.online/](https://build.riscos.online/).
+
+  - Added \`picoc\` to the tools that are present, allowing testing with simple C scripts in both 32-bit and 64-bit configurations.
+- RISC OS language server for SWI calls created. See [https://github.com/gerph/riscos-swi-language-server](https://github.com/gerph/riscos-swi-language-server) for details.
+
+  - Videos for SublimeText here: [https://share.gerph.org/s/tFGhUkZ9T5UVYsO](https://share.gerph.org/s/tFGhUkZ9T5UVYsO) [https://share.gerph.org/s/jcfYJUgD02efYi5](https://share.gerph.org/s/jcfYJUgD02efYi5)
+  - Video for VSCode here: [https://share.gerph.org/s/znYmnFhyG3bZTNy](https://share.gerph.org/s/znYmnFhyG3bZTNy)
+- Port of the \`wren\` language to RISC OS 64. See [https://github.com/gerph/riscos64-wren](https://github.com/gerph/riscos64-wren) for details.
+
+  - Video here: [https://asciinema.org/a/762898](https://asciinema.org/a/762898)
+- Port of \`MicroQuickJS\` to RISC OS 64. See [https://github.com/gerph/riscos64-mquickjs](https://github.com/gerph/riscos64-mquickjs) for details.
+
+  - Video here: [https://asciinema.org/a/764232](https://asciinema.org/a/764232)
+- Port of \`MicroUI\` to RISC OS (both architectures). See [https://github.com/gerph/microui](https://github.com/gerph/microui) for details.
+
+  - Video here: [https://share.gerph.org/s/w8UEFpWZZcXvB4K](https://share.gerph.org/s/w8UEFpWZZcXvB4K)
+- All GitHub repositories updated.
+  - Automation has been added to make updating dependencies less time-consuming.
+  - PR and issue templates have been added to help guide users to give better reports on issues.
+- Released the UUID module in case anyone needed it. See [https://github.com/gerph/riscos-uuid](https://github.com/gerph/riscos-uuid) for details.
+- Created example repository for using timed events in applications. See [https://github.com/gerph/riscos-timed-events-example](https://github.com/gerph/riscos-timed-events-example) for details.
+- Updated the build environment with the latest tooling. See [https://hub.docker.com/r/gerph/riscos-build](https://hub.docker.com/r/gerph/riscos-build) for details.
+- Started sponsorship programme on GitHub. See [https://github.com/sponsors/gerph](https://github.com/sponsors/gerph) for details.
+
+The overall status of the components can be found in the RISC OS 64 Status repository: [https://github.com/gerph/riscos64-status/wiki](https://github.com/gerph/riscos64-status/wiki)
+
+You can always follow the repositories to see what’s being done. The RISC OS Status repository also has a \`Discussions\` section for general discussions on the progress of 64-bit work.
+
+The sponsorship programme is something that GitHub offers to allow people to provide contributions towards the RISC OS 64 project. If you like what’s being done, and want to encourage more, feel free to sponsor.
+
+And of course, if you want to get involved in working on any of the conversion to C of components, please speak up.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20251:161675</guid>
+    </item>    <item>
+      <title>Gareth McCaughan&#38;#39;s `mkdrawf`/`decdrawf` tools on GitHub</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20222</link>
+      <description>
+        <![CDATA[<p>Did you find a similar effect with the DecDrawF I&#8217;d released?</p>
+        <p>If you raise an issue on the repository and attach the Drawfile, I&#8217;ll have a look.</p>]]>
+      </description>
+      <source:markdown>Did you find a similar effect with the DecDrawF I’d released?
+
+If you raise an issue on the repository and attach the Drawfile, I’ll have a look.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20222:161674</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mdvy45fyzc2f</link>
+      <description>
+        <![CDATA[Having fun with John Pickford's Spectrum Sprite Editor - as found on one of Fred's dev disks during my archiving testing process. I doubt anyone has used this since the early 1990s! It's really good and very typical of the tools we used for home computer game development in the late 80s/early 90s.]]>
+      </description>
+      <source:markdown>Having fun with John Pickford&#39;s Spectrum Sprite Editor - as found on one of Fred&#39;s dev disks during my archiving testing process. I doubt anyone has used this since the early 1990s! It&#39;s really good and very typical of the tools we used for home computer game development in the late 80s/early 90s.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mdvy45fyzc2f</guid>
+    </item>    <item>
+      <title>Toolbox_RaiseToolboxEvent</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
+      <description>
+        <![CDATA[<p>Not sure if anyone is interested but here&#8217;s a link to my example using my C++ library. Note the application needs the Module ThreadTool to be run first, I haven&#8217;t added it to the !Run file. The bulk of the code was generated by another application I&#8217;ve written and then tweeked to suit the problem.<br />
+        GitHub:<a href="https://github.com/bantonia/ToolboxLibrary/tree/main/Examples%2F!ThreadExample">https://github.com/bantonia/ToolboxLibrary/tree/main/E…</a></p>
+        <p>I&#8217;m not going to discuss further, this is the route I&#8217;m taking.</p>]]>
+      </description>
+      <source:markdown>Not sure if anyone is interested but here’s a link to my example using my C++ library. Note the application needs the Module ThreadTool to be run first, I haven’t added it to the !Run file. The bulk of the code was generated by another application I’ve written and then tweeked to suit the problem.
+
+GitHub: [https://github.com/bantonia/ToolboxLibrary/tree/main/E…](https://github.com/bantonia/ToolboxLibrary/tree/main/Examples%2F!ThreadExample)
+
+I’m not going to discuss further, this is the route I’m taking.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20230:161670</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdvifuhnsc27</link>
       <description>
         <![CDATA[No RISC OS announcements at the moment because I’m deep DEEP in the weeds. Doing three or possibly four significant things to PROCFNs and it’s all very easy going oh yes /s]]>
@@ -82,6 +286,46 @@ The February meeting will be the Annual General Meeting, starting at 7:45pm on Z
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdutp5g75k2r</guid>
     </item>    <item>
+      <title>NAS problem</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
+      <description>
+        <![CDATA[<p>Draytek Vigor 263 manual, page 185 (page 186 covers wake by device on <span class="caps">WAN</span>, which I&#8217;m pretty sure you don&#8217;t want.)</p>
+        <p>Very quick skim. Looks like they isolate the wired and wireless, but build in a WoL forwarder.</p>
+        <p>One thing to note is that this may have difficulties if the transmit element (phone) is using the locally generated <span class="caps">MAC</span> &#8220;Private Address&#8221; feature.<br />
+        If you check the <span class="caps">MAC</span> your phone presents to the router then the generated <span class="caps">MAC</span> on a &#8220;Private Address&#8221; setting will have a second character that is 2,6, A or E<br />
+        Unset that for the phone settings on that <span class="caps">SSID</span>,</p>]]>
+      </description>
+      <source:markdown>Draytek Vigor 263 manual, page 185 (page 186 covers wake by device on WAN, which I’m pretty sure you don’t want.)
+
+Very quick skim. Looks like they isolate the wired and wireless, but build in a WoL forwarder.
+
+One thing to note is that this may have difficulties if the transmit element (phone) is using the locally generated MAC “Private Address” feature.
+
+If you check the MAC your phone presents to the router then the generated MAC on a “Private Address” setting will have a second character that is 2,6, A or E
+
+Unset that for the phone settings on that SSID,</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20213:161660</guid>
+    </item>    <item>
+      <title>Rasberry Pi - which is best in 2026?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20240</link>
+      <description>
+        <![CDATA[<p>See <a href="https://www.riscosopen.org/forum/forums/1/topics/19545?limit=25&amp;page=2#posts-152934">previously</a></p>
+        <p>To uncompress the download zip on the Mac &#8220;The Unarchiver&#8221; app, from the App Store, had to be used. The image written to an SD card by balenaEtcher did fail to verify.</p>
+        <p>Raspberry Pi Imager v2.0.0 eventually wrote a working Direct image. It really was very slow though.</p>
+        <p><strong>P.S</strong> Tried a second card with balenaEtcher and that also failed to validate.</p>
+        <p><strong>P.P.S</strong> Update the Mac Raspberry Pi Imager to the latest, v2.0.6, to considerably speed up the write. That is now faster than balenaEtcher 2.1.4, and as a further bonus writes a working image. (It is a bit odd in that balenaEtcher used to work.)</p>]]>
+      </description>
+      <source:markdown>See [previously](https://www.riscosopen.org/forum/forums/1/topics/19545?limit=25&#38;page=2#posts-152934)
+
+To uncompress the download zip on the Mac “The Unarchiver” app, from the App Store, had to be used. The image written to an SD card by balenaEtcher did fail to verify.
+
+Raspberry Pi Imager v2.0.0 eventually wrote a working Direct image. It really was very slow though.
+
+**P.S** Tried a second card with balenaEtcher and that also failed to validate.
+
+**P.P.S** Update the Mac Raspberry Pi Imager to the latest, v2.0.6, to considerably speed up the write. That is now faster than balenaEtcher 2.1.4, and as a further bonus writes a working image. (It is a bit odd in that balenaEtcher used to work.)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20240:161659</guid>
+    </item>    <item>
       <title>WROCC February 2026 talk on Wednesday - AGM</title>
       <link>http://www.iconbar.com/comments/rss/news2296.html</link>
       <description>
@@ -96,25 +340,6 @@ The February meeting will be the Annual General Meeting, starting at 7:45pm on Z
       </description>
       <source:markdown>Whilst archving some disks I found a sprite editor for the ZX Spectrum by former Software Creations colleague John Pickford. This was used at Binary Design and other Manchester based game devs back in 1986. No idea how to use it! Maybe his brother, Ste,remembers @stepickford.bsky.social</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mdti5sgjys2m</guid>
-    </item>    <item>
-      <title>Rasberry Pi - which is best in 2026?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20240</link>
-      <description>
-        <![CDATA[<p>Sorry another one&#8230; may be the wrong place to ask, i have got the <span class="caps">ROOL</span> Pi image up and working, i also tried the v3 RiscOS Direct one but Etcher fails to verify the image when writing, and seems to be corrupt&#8230; anyone got that working? Can add on error messages if useful&#8230;</p>
-        <p>I can manually build up the <span class="caps">ROOL</span> version with apps but seemed like a quicker start!</p>]]>
-      </description>
-      <source:markdown>Sorry another one… may be the wrong place to ask, i have got the ROOL Pi image up and working, i also tried the v3 RiscOS Direct one but Etcher fails to verify the image when writing, and seems to be corrupt… anyone got that working? Can add on error messages if useful…
-
-I can manually build up the ROOL version with apps but seemed like a quicker start!</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20240:161656</guid>
-    </item>    <item>
-      <title>Toolbox_RaiseToolboxEvent</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
-      <description>
-        <![CDATA[<p>Its not stupid at all, for a long time i think having a unified Toolbox between branches is a great idea, sadly no one wants to take on the bounty to do it, so we are where we are.</p>]]>
-      </description>
-      <source:markdown>Its not stupid at all, for a long time i think having a unified Toolbox between branches is a great idea, sadly no one wants to take on the bounty to do it, so we are where we are.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20230:161649</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdstp6kvp22m</link>
       <description>
@@ -133,23 +358,6 @@ Also useful for error handling: ONERRORLOCAL:PROCerror(FN$):ENDPROC</source:mark
       </description>
       <source:markdown>More old game development disk rescue and archive work underway. The latest batch of 3&#34; disks have had fewer errors than previous ones I&#39;ve worked with. Fingers crossed it keeps that way!</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mdsrrkdq3c2m</guid>
-    </item>    <item>
-      <title>NAS problem</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
-      <description>
-        <![CDATA[<p>Thanks. I&#8217;ll look into that. There may be an issue as the wired interface isn&#8217;t in the laptop, but in the <span class="caps">USB</span> connected docking station.<br />
-        An alternative might be to remove the setting in the wireless controls for my home network. It&#8217;s rare that I need to use wireless in the house.<br />
-        The interesting thing is that before I replaced the <span class="caps">ADSL</span> router with a full-fibre one both the laptop and the phone could control the <span class="caps">NAS</span>. Now the phone can&#8217;t even connect to it when it is running. The old router was a Netgear N300. The new one is a Draytek Vigor 2763. I might see whether there&#8217;s a setting in there, but last time I tried to change something I totally screwed it up and had to factory reset it to get in.<br />
-        The <span class="caps">VLAN</span> setting is an area I&#8217;ve avoided, but it might cover this. Any ideas anyone?</p>]]>
-      </description>
-      <source:markdown>Thanks. I’ll look into that. There may be an issue as the wired interface isn’t in the laptop, but in the USB connected docking station.
-
-An alternative might be to remove the setting in the wireless controls for my home network. It’s rare that I need to use wireless in the house.
-
-The interesting thing is that before I replaced the ADSL router with a full-fibre one both the laptop and the phone could control the NAS. Now the phone can’t even connect to it when it is running. The old router was a Netgear N300. The new one is a Draytek Vigor 2763. I might see whether there’s a setting in there, but last time I tried to change something I totally screwed it up and had to factory reset it to get in.
-
-The VLAN setting is an area I’ve avoided, but it might cover this. Any ideas anyone?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20213:161648</guid>
     </item>    <item>
       <title>PhotoDesk 3.25 crashes when trying to create new layer</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20249</link>
@@ -323,26 +531,6 @@ So, if you fancy to express your vote/opinion, please do so quickly, this ain’
       <source:markdown>BBC journalism 101:
 Fly-tipped cardboard boxes are &#34;electric vehicle&#34; boxes, but fly-tipped tyres are not &#34;petrol vehicle&#34; tyres.</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdq6tdbjdk2t</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>The advantage of Compo is that CompoScript now lets you load, analyse, alter, and then save bitmap images. Can run through a series of files doing this. And the processing code can be any language you like on RO. I tend to use progs compiled from &#8216;C&#8217; which then do the processing quite swiftly. It can also show you results as-you-go, and allow interaction by the user.</p>
-        <p>I suspect that most RO users simply don&#8217;t realise just what scope CompoScript offers, and being able to render results as you wish to give the user the info that helps them tweak the processing.</p>
-        <p>However you need one of the latest versions, and a manual, to realise this. It grew quite a lot from its early versions that Clares released.</p>
-        <p>My impression is that exporting text from inside PDFs tend to rely on the <span class="caps">PDF</span> actually having an object text &#8216;layer&#8217;. Not all do have a good example of this, and conversions of poor bitmaps of badly oxidised paper can produce object &#8216;text&#8217; that it riddled with errors, etc.</p>
-        <p>Thus being able to correct for exidation can also help make object-text extraction get better results!</p>]]>
-      </description>
-      <source:markdown>The advantage of Compo is that CompoScript now lets you load, analyse, alter, and then save bitmap images. Can run through a series of files doing this. And the processing code can be any language you like on RO. I tend to use progs compiled from ‘C’ which then do the processing quite swiftly. It can also show you results as-you-go, and allow interaction by the user.
-
-I suspect that most RO users simply don’t realise just what scope CompoScript offers, and being able to render results as you wish to give the user the info that helps them tweak the processing.
-
-However you need one of the latest versions, and a manual, to realise this. It grew quite a lot from its early versions that Clares released.
-
-My impression is that exporting text from inside PDFs tend to rely on the PDF actually having an object text ‘layer’. Not all do have a good example of this, and conversions of poor bitmaps of badly oxidised paper can produce object ‘text’ that it riddled with errors, etc.
-
-Thus being able to correct for exidation can also help make object-text extraction get better results!</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:161611</guid>
     </item>    <item>
       <title>Drag &#38;#39;N Drop 60th Edition</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20246</link>
@@ -1374,34 +1562,6 @@ The January 2026 Rougol meeting is on Monday and features Chris Hall. His contri
       </description>
       <source:markdown>The January 2026 Rougol meeting is on Monday and features Chris Hall. His contribution to the TIB advent calendar may give you an idea of his topic.</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2293.html</guid>
-    </item>    <item>
-      <title>Gareth McCaughan&#38;#39;s `mkdrawf`/`decdrawf` tools on GitHub</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20222</link>
-      <description>
-        <![CDATA[<p>Excellent; if you&#8217;ve got any improvements that you wish to feed back to the GitHub versions, I&#8217;ll happily include them.</p>
-        <p>I didn&#8217;t realise that there would be other versions around and about as that&#8217;s not allowed by the license, but it would be good to get things synchronised if you have updates.</p>
-        <hr />
-        <p>I&#8217;ve updated my `lessfilter` tool to add the support for decoding and colouring of Drawfiles with `decdrawf`, as well.</p>
-        <p><img src="https://share.gerph.org/s/BUz3bugitDECZA5/download" alt="" /></p>
-        <p><a href="https://asciinema.org/a/768154">https://asciinema.org/a/768154</a></p>
-        <ul>
-        	<li>`lessfilter`: <a href="https://github.com/gerph/lessfilter">https://github.com/gerph/lessfilter</a></li>
-        </ul>]]>
-      </description>
-      <source:markdown>Excellent; if you’ve got any improvements that you wish to feed back to the GitHub versions, I’ll happily include them.
-
-I didn’t realise that there would be other versions around and about as that’s not allowed by the license, but it would be good to get things synchronised if you have updates.
-
-* * *
-
-I’ve updated my \`lessfilter\` tool to add the support for decoding and colouring of Drawfiles with \`decdrawf\`, as well.
-
-![](https://share.gerph.org/s/BUz3bugitDECZA5/download)
-
-[https://asciinema.org/a/768154](https://asciinema.org/a/768154)
-
-- \`lessfilter\`: [https://github.com/gerph/lessfilter](https://github.com/gerph/lessfilter)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20222:161379</guid>
     </item>    <item>
       <title>Clarity Theme ko-fi</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20137</link>
