@@ -7,10 +7,62 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>03 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>04 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Linux Port</title>
+      <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Interesting – do you think that this would work with the Arm PineTab?</p>
+        </blockquote>
+        <p>I know it ;-)</p>
+        <p><img src="http://riscos.openpandora.org/Diverses/PineTab/ROS_PineTab1.jpg" alt="" /></p>
+        <p><img src="http://riscos.openpandora.org/Diverses/PineTab/ROS_PineTab2.jpg" alt="" /></p>
+        <p>The Pi5 Direct is not working. It gives a &#8220;glut error&#8221;. Freeglut is installed but is not enough. I have only given a short try.<br />
+        Timothys original port (and so my collection for the Pyra) is working without problems.<br />
+        I only install base-devel (Basic tools to build Arch Linux packages) with <br />
+        sudo pacman -S base-devel<br />
+        to use it.<br />
+        Works well. If you touch the touchpad with three fingers you get the menu (middle mouse button).</p>]]>
+      </description>
+      <source:markdown>&#62; Interesting – do you think that this would work with the Arm PineTab?
+
+I know it ;-)
+
+![](http://riscos.openpandora.org/Diverses/PineTab/ROS_PineTab1.jpg)
+
+![](http://riscos.openpandora.org/Diverses/PineTab/ROS_PineTab2.jpg)
+
+The Pi5 Direct is not working. It gives a “glut error”. Freeglut is installed but is not enough. I have only given a short try.
+
+Timothys original port (and so my collection for the Pyra) is working without problems.
+
+I only install base-devel (Basic tools to build Arch Linux packages) with
+
+sudo pacman -S base-devel
+
+to use it.
+
+Works well. If you touch the touchpad with three fingers you get the menu (middle mouse button).</source:markdown>
+      <guid>cid://www.riscosopen.org:3:9068:161685</guid>
+    </item>    <item>
+      <title>MUG celebrates 20 years</title>
+      <link>http://www.iconbar.com/comments/rss/news2302.html</link>
+      <description>
+        <![CDATA[Midlands User Group (more commonly known as MUG) is celebrating its (first) 20 years of operating today!]]>
+      </description>
+      <source:markdown>Midlands User Group (more commonly known as MUG) is celebrating its (first) 20 years of operating today!</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2302.html</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdydhipqnk2g</link>
+      <description>
+        <![CDATA[I’ll probably regret this. Pre-incremented is probably safe, but post-incremented is bound to fall foul of something. After all, A%-----B% is then valid.]]>
+      </description>
+      <source:markdown>I’ll probably regret this. Pre-incremented is probably safe, but post-incremented is bound to fall foul of something. After all, A%-----B% is then valid.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdydhipqnk2g</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mdxrxulwlk2n</link>
       <description>
         <![CDATA[@loudscotsbloke.bsky.social Hello, me again! I'm looking at peripherals for the Aquarius (hoping to borrow one from a friend this weekend) and wondered if you'd had much success with the Maxduino or other tape emulators? Any recommendations would be most welcome! :)]]>
@@ -222,6 +274,34 @@ I’m not going to discuss further, this is the route I’m taking.</source:mark
       <source:markdown>No RISC OS announcements at the moment because I’m deep DEEP in the weeds. Doing three or possibly four significant things to PROCFNs and it’s all very easy going oh yes /s</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdvifuhnsc27</guid>
     </item>    <item>
+      <title>NAS problem</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Looks like they isolate the wired and wireless, but build in a WoL forwarder.</p>
+        </blockquote>
+        <p>Thanks for the tip. I&#8217;ve found the section in the manual, though after a quick look, I&#8217;m not finding it easy to understand. I think it&#8217;s a case of too many options.<br />
+        The Wake-on-Lan section seems to be for <span class="caps">WOL</span> messages originated by the router.<br />
+        The Wake-on-Wan might be where incoming <span class="caps">WOL</span> messages can get passed on, if for example <span class="caps">WAN</span> refers to the mobile phone on wireless. That section at least has a &#8220;from&#8221; part.<br />
+        There are two wireless clients. The hardware addresses of them start with 4C and E8.</p>
+        <p>I did wonder whether Port Mirror was the section I needed, though I think not.<br />
+        Is <span class="caps">IGMP</span> relevant?</p>]]>
+      </description>
+      <source:markdown>&#62; Looks like they isolate the wired and wireless, but build in a WoL forwarder.
+
+Thanks for the tip. I’ve found the section in the manual, though after a quick look, I’m not finding it easy to understand. I think it’s a case of too many options.
+
+The Wake-on-Lan section seems to be for WOL messages originated by the router.
+
+The Wake-on-Wan might be where incoming WOL messages can get passed on, if for example WAN refers to the mobile phone on wireless. That section at least has a “from” part.
+
+There are two wireless clients. The hardware addresses of them start with 4C and E8.
+
+I did wonder whether Port Mirror was the section I needed, though I think not.
+
+Is IGMP relevant?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20213:161668</guid>
+    </item>    <item>
       <title>ScummVM 2026.1.0 released</title>
       <link>https://www.riscository.com/2026/scummvm-2026-1-0-released/</link>
       <description>
@@ -237,6 +317,14 @@ I’m not going to discuss further, this is the route I’m taking.</source:mark
       </description>
       <source:markdown>Agreed. But looking at the few copies of Quercus I’ve come across, they will not be easy to scan and get a very readable result. There is quite frequent use of black text on grey and patterned backgrounds. Still, once scans have been produced, they could be processed as necessary.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20247:161667</guid>
+    </item>    <item>
+      <title>Rasberry Pi - which is best in 2026?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20240</link>
+      <description>
+        <![CDATA[<p>I use dd in Terminal on my Mac to write the .img files to SD/MicroSD cards. First I zero-wipe the card and then write the image and haven&#8217;t had any issues.</p>]]>
+      </description>
+      <source:markdown>I use dd in Terminal on my Mac to write the .img files to SD/MicroSD cards. First I zero-wipe the card and then write the image and haven’t had any issues.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20240:161665</guid>
     </item>    <item>
       <title>Coding on RISC OS fireside chat, Saturday 7th Feb.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20250</link>
@@ -255,10 +343,10 @@ For the Zoom credentials (no change), DM me over on X ( [Twitter](https://twitte
       <title>Hard Disk support</title>
       <link>https://www.riscosopen.org/forum/forums/10/topics/20144</link>
       <description>
-        <![CDATA[<p>But the RPCemu website offers an &#8220;easy-start&#8221; bundle for Windows that includes a version of <span class="caps">RISC</span> OS Direct (RO 5.27). How does that work, then?</p>]]>
+        <![CDATA[<p>It uses HostFS rather than a disc image. [and please ignore the bot content above]</p>]]>
       </description>
-      <source:markdown>But the RPCemu website offers an “easy-start” bundle for Windows that includes a version of RISC OS Direct (RO 5.27). How does that work, then?</source:markdown>
-      <guid>cid://www.riscosopen.org:10:20144:161662</guid>
+      <source:markdown>It uses HostFS rather than a disc image. \[and please ignore the bot content above\]</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20144:161663</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mduul47rks2l</link>
       <description>
@@ -285,46 +373,6 @@ The February meeting will be the Annual General Meeting, starting at 7:45pm on Z
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdutp5g75k2r</guid>
-    </item>    <item>
-      <title>NAS problem</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
-      <description>
-        <![CDATA[<p>Draytek Vigor 263 manual, page 185 (page 186 covers wake by device on <span class="caps">WAN</span>, which I&#8217;m pretty sure you don&#8217;t want.)</p>
-        <p>Very quick skim. Looks like they isolate the wired and wireless, but build in a WoL forwarder.</p>
-        <p>One thing to note is that this may have difficulties if the transmit element (phone) is using the locally generated <span class="caps">MAC</span> &#8220;Private Address&#8221; feature.<br />
-        If you check the <span class="caps">MAC</span> your phone presents to the router then the generated <span class="caps">MAC</span> on a &#8220;Private Address&#8221; setting will have a second character that is 2,6, A or E<br />
-        Unset that for the phone settings on that <span class="caps">SSID</span>,</p>]]>
-      </description>
-      <source:markdown>Draytek Vigor 263 manual, page 185 (page 186 covers wake by device on WAN, which I’m pretty sure you don’t want.)
-
-Very quick skim. Looks like they isolate the wired and wireless, but build in a WoL forwarder.
-
-One thing to note is that this may have difficulties if the transmit element (phone) is using the locally generated MAC “Private Address” feature.
-
-If you check the MAC your phone presents to the router then the generated MAC on a “Private Address” setting will have a second character that is 2,6, A or E
-
-Unset that for the phone settings on that SSID,</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20213:161660</guid>
-    </item>    <item>
-      <title>Rasberry Pi - which is best in 2026?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20240</link>
-      <description>
-        <![CDATA[<p>See <a href="https://www.riscosopen.org/forum/forums/1/topics/19545?limit=25&amp;page=2#posts-152934">previously</a></p>
-        <p>To uncompress the download zip on the Mac &#8220;The Unarchiver&#8221; app, from the App Store, had to be used. The image written to an SD card by balenaEtcher did fail to verify.</p>
-        <p>Raspberry Pi Imager v2.0.0 eventually wrote a working Direct image. It really was very slow though.</p>
-        <p><strong>P.S</strong> Tried a second card with balenaEtcher and that also failed to validate.</p>
-        <p><strong>P.P.S</strong> Update the Mac Raspberry Pi Imager to the latest, v2.0.6, to considerably speed up the write. That is now faster than balenaEtcher 2.1.4, and as a further bonus writes a working image. (It is a bit odd in that balenaEtcher used to work.)</p>]]>
-      </description>
-      <source:markdown>See [previously](https://www.riscosopen.org/forum/forums/1/topics/19545?limit=25&#38;page=2#posts-152934)
-
-To uncompress the download zip on the Mac “The Unarchiver” app, from the App Store, had to be used. The image written to an SD card by balenaEtcher did fail to verify.
-
-Raspberry Pi Imager v2.0.0 eventually wrote a working Direct image. It really was very slow though.
-
-**P.S** Tried a second card with balenaEtcher and that also failed to validate.
-
-**P.P.S** Update the Mac Raspberry Pi Imager to the latest, v2.0.6, to considerably speed up the write. That is now faster than balenaEtcher 2.1.4, and as a further bonus writes a working image. (It is a bit odd in that balenaEtcher used to work.)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20240:161659</guid>
     </item>    <item>
       <title>WROCC February 2026 talk on Wednesday - AGM</title>
       <link>http://www.iconbar.com/comments/rss/news2296.html</link>
@@ -1469,20 +1517,6 @@ https://rougol.jellybaby.net/meetings/index.html</source:markdown>
       </description>
       <source:markdown>Back in the early 90s at Software Creations I designed a Portable Assembly Language ( PAL ) with the intention of using it to develop games for 32/64 bit consoles. The ideal being that this pseudo assembly would generate native code for multiple processors. You only needed to write the game once 1/2</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mcktssxsos2y</guid>
-    </item>    <item>
-      <title>Linux Port</title>
-      <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
-      <description>
-        <![CDATA[<p>Last screenshot for the next time &#8230;</p>
-        <p><img src="http://riscos.openpandora.org/Diverses/Temp/Pinephone_1601.jpg" alt="" /></p>
-        <p>Have configured any things. My &#8220;mouse switch&#8221; is not ready but works for me&#8230;</p>]]>
-      </description>
-      <source:markdown>Last screenshot for the next time …
-
-![](http://riscos.openpandora.org/Diverses/Temp/Pinephone_1601.jpg)
-
-Have configured any things. My “mouse switch” is not ready but works for me…</source:markdown>
-      <guid>cid://www.riscosopen.org:3:9068:161383</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mcknwfmwqk2y</link>
       <description>
