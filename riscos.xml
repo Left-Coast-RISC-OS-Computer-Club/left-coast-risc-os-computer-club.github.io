@@ -7,10 +7,186 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>04 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>05 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3me54y6wlqc25</link>
+      <description>
+        <![CDATA[Fireside developer chat on saturday night 
+        
+        https://www.iconbar.com/articles/Fireside_developer_chat_on_saturday_night/index2294.html 
+        
+        The next developer chat is on Saturday night (7th February) for anyone interested in a very informal event online aimed at RISC OS developers.]]>
+      </description>
+      <source:markdown>Fireside developer chat on saturday night
+
+https://www.iconbar.com/articles/Fireside\_developer\_chat\_on\_saturday\_night/index2294.html
+
+The next developer chat is on Saturday night (7th February) for anyone interested in a very informal event online aimed at RISC OS developers.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3me54y6wlqc25</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3me4vavfmns2v</link>
+      <description>
+        <![CDATA[https://www.raspberrypi.com/news/beige-is-back-remembering-the-bbc-micro-with-raspberry-pi-500-plus/]]>
+      </description>
+      <source:markdown>https://www.raspberrypi.com/news/beige-is-back-remembering-the-bbc-micro-with-raspberry-pi-500-plus/</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3me4vavfmns2v</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3me4sul3izc25</link>
+      <description>
+        <![CDATA[MUG celebrates 20 years 
+        
+        https://www.iconbar.com/articles/MUG_celebrates_20_years/index2302.html 
+        
+        Midlands User Group (more commonly known as MUG) is celebrating its (first) 20 years of operating!]]>
+      </description>
+      <source:markdown>MUG celebrates 20 years
+
+https://www.iconbar.com/articles/MUG\_celebrates\_20\_years/index2302.html
+
+Midlands User Group (more commonly known as MUG) is celebrating its (first) 20 years of operating!</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3me4sul3izc25</guid>
+    </item>    <item>
+      <title>VNC access to Pi400</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20243</link>
+      <description>
+        <![CDATA[<p>Thanks Steve.</p>
+        <p>I looked at that 2019 thread and remained confused :-( though I did get to specify &#8216;<span class="caps">VNC</span> password&#8217; (as opposed to the default &#8216;<span class="caps">UNIX</span> password&#8217;) in a RealVNC setup dialogue which is supposed to be significant.</p>
+        <p>Now, however, I&#8217;ve reverted to the previous RPi OS (Debian Bookworm) and got <span class="caps">VNC</span> to work via the IP address <span class="caps">DHCP</span> gives to the Pi. Attempts to use a manual IP address seem to fail, though messages such as the one I quoted above no longer appear. Obviously a minefield! &#8212; but it&#8217;s working.</p>]]>
+      </description>
+      <source:markdown>Thanks Steve.
+
+I looked at that 2019 thread and remained confused :-( though I did get to specify ‘VNC password’ (as opposed to the default ‘UNIX password’) in a RealVNC setup dialogue which is supposed to be significant.
+
+Now, however, I’ve reverted to the previous RPi OS (Debian Bookworm) and got VNC to work via the IP address DHCP gives to the Pi. Attempts to use a manual IP address seem to fail, though messages such as the one I quoted above no longer appear. Obviously a minefield! — but it’s working.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20243:161696</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3me4hlpq7r22o</link>
+      <description>
+        <![CDATA[Oof. Bad news for UK ™️ holders.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Oof. Bad news for UK ™️ holders.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3me4hlpq7r22o</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3me4hgxqpwc2o</link>
+      <description>
+        <![CDATA[Another rat dashing to the far right?!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Another rat dashing to the far right?!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3me4hgxqpwc2o</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3me4au7qqhc2c</link>
+      <description>
+        <![CDATA[Want
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Want
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3me4au7qqhc2c</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3me42uasbnc2x</link>
+      <description>
+        <![CDATA[Honestly, who comes up with this rubbish]]>
+      </description>
+      <source:markdown>Honestly, who comes up with this rubbish</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3me42uasbnc2x</guid>
+    </item>    <item>
+      <title>Coding on RISC OS fireside chat, Saturday 7th Feb.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20250</link>
+      <description>
+        <![CDATA[<p>That will be a busy development weekend Fireside at Saturday and Gerph on Sunday ;-)</p>]]>
+      </description>
+      <source:markdown>That will be a busy development weekend Fireside at Saturday and Gerph on Sunday ;-)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20250:161690</guid>
+    </item>    <item>
+      <title>Fireside developer chat on saturday night</title>
+      <link>http://www.iconbar.com/comments/rss/news2294.html</link>
+      <description>
+        <![CDATA[The next developer chat is on saturday night (7th February) for anyone interested in a very informal event online aimed at RISC OS developers.]]>
+      </description>
+      <source:markdown>The next developer chat is on saturday night (7th February) for anyone interested in a very informal event online aimed at RISC OS developers.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2294.html</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 8th February at 1pm UK time.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20252</link>
+      <description>
+        <![CDATA[<p>This Sunday – 8th February, at 1pm UK time – I&#8217;ll be continuing my live coding. This week, I&#8217;ll be continuing with the implementation for the Window Manager. Back in <span class="caps">RISC</span> OS Select, the truncation and split handling was written in C, so I&#8217;ll be copying that code into the module and updating it for this version.</p>
+        <p>Come along if you like – <a href="https://youtube.com/live/dc85pGAttOk?feature=share">https://youtube.com/live/dc85pGAttOk?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
+        <hr />
+        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
+        <p>The functionality we need to implement is documented in the riscos64-status repository (<a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_TextRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a>), and might take a few sessions to implement.</p>
+        <p>So far, we&#8217;ve got:</p>
+        <ul>
+        	<li>Font rendering, with substituted wimp symbol font.</li>
+        	<li>System font rendering, with substituted wimp symbol font.</li>
+        	<li>Simple font sizing.</li>
+        	<li><span class="caps">NVRAM</span> font selection.</li>
+        	<li>Selection of font from system variable.</li>
+        	<li>Simple module with an implementation of Wimp_TextOp.</li>
+        </ul>
+        <hr />
+        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-RsoccMdcAep0iZSJQT">https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-…</a></p>
+        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimptextrender.html">https://presentation.riscos.online/live/wimptextrender…</a> (once it has been published).</p>]]>
+      </description>
+      <source:markdown>This Sunday – 8th February, at 1pm UK time – I’ll be continuing my live coding. This week, I’ll be continuing with the implementation for the Window Manager. Back in RISC OS Select, the truncation and split handling was written in C, so I’ll be copying that code into the module and updating it for this version.
+
+Come along if you like – [https://youtube.com/live/dc85pGAttOk?feature=share](https://youtube.com/live/dc85pGAttOk?feature=share) – or you can always watch the video afterwards at the same address.
+
+* * *
+
+For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
+
+The functionality we need to implement is documented in the riscos64-status repository ( [https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_TextRender)), and might take a few sessions to implement.
+
+So far, we’ve got:
+
+- Font rendering, with substituted wimp symbol font.
+- System font rendering, with substituted wimp symbol font.
+- Simple font sizing.
+- NVRAM font selection.
+- Selection of font from system variable.
+- Simple module with an implementation of Wimp\_TextOp.
+
+* * *
+
+If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-…](https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-RsoccMdcAep0iZSJQT)
+
+Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimptextrender…](https://presentation.riscos.online/live/wimptextrender.html) (once it has been published).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20252:161689</guid>
+    </item>    <item>
+      <title>What are you doing with RISC OS?</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/653</link>
+      <description>
+        <![CDATA[<p>Buried in the Tools directory is an updated !Prototype app which now takes account of gadgets.<br />
+        GitHub:<a href="https://github.com/bantonia/ToolboxLibrary/tree/main">https://github.com/bantonia/ToolboxLibrary/tree/main</a><br />
+        !Prototype generates C++ code from a Toolbox res file, the code is compatible with the library.</p>]]>
+      </description>
+      <source:markdown>Buried in the Tools directory is an updated !Prototype app which now takes account of gadgets.
+
+GitHub: [https://github.com/bantonia/ToolboxLibrary/tree/main](https://github.com/bantonia/ToolboxLibrary/tree/main)
+
+!Prototype generates C++ code from a Toolbox res file, the code is compatible with the library.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:653:161688</guid>
+    </item>    <item>
+      <title>Rasberry Pi - which is best in 2026?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20240</link>
+      <description>
+        <![CDATA[<p>Brilliant &#8211; thank you all. I had noticed the extension on the image file was a compression, but as etcher happily took it in I assumed it was ok with that (and I didnt realise this was not usual). Pi imager worked perfectly (v2.0.6).</p>]]>
+      </description>
+      <source:markdown>Brilliant – thank you all. I had noticed the extension on the image file was a compression, but as etcher happily took it in I assumed it was ok with that (and I didnt realise this was not usual). Pi imager worked perfectly (v2.0.6).</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20240:161687</guid>
+    </item>    <item>
       <title>Linux Port</title>
       <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
       <description>
@@ -70,6 +246,37 @@ Works well. If you touch the touchpad with three fingers you get the menu (middl
       <source:markdown>@loudscotsbloke.bsky.social Hello, me again! I&#39;m looking at peripherals for the Aquarius (hoping to borrow one from a friend this weekend) and wondered if you&#39;d had much success with the Maxduino or other tape emulators? Any recommendations would be most welcome! :)</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mdxrxulwlk2n</guid>
     </item>    <item>
+      <title>NAS problem</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
+      <description>
+        <![CDATA[<p>So I&#8217;ve turned off the Wireless in the laptop, and now <span class="caps">WOL</span> from there works. This confirms that the blockage is in the router.</p>
+        <p>The phone app has the ability to send <span class="caps">WOL</span>, but also to connect to the <span class="caps">NAS</span> for management. Even when the <span class="caps">NAS</span> is running, that doesn&#8217;t work. I&#8217;ve no idea what protocol it is using, but I didn&#8217;t have to tell it what/where the <span class="caps">NAS</span> was, it discovered it on its own. That was with the previous router.</p>
+        <p>I&#8217;m still not clear how to set the router to forward <span class="caps">WOL</span> from the wireless segment to the <span class="caps">LAN</span>.</p>
+        <blockquote>
+        <p>Identify the <span class="caps">MAC</span> of your target (<span class="caps">NAS</span>) and select Wake by: <span class="caps">MAC</span> address, then enter the <span class="caps">MAC</span> in the panel and test the functionality with the “Wake Up!” button in the console.</p>
+        </blockquote>
+        <p>I don&#8217;t want to wake it using the router&#8217;s button. I need it to forward, and I don&#8217;t see anything in there to do that.</p>
+        <p>Ah, maybe it only forwards to hardware addresses it knows about. I&#8217;ll try (carefully) as last time I tried to set a binding, it screwed up the entire setup, locking me out.</p>
+        <p>[Edit] Didn&#8217;t work. At least, <span class="caps">WOL</span> from the phone isn&#8217;t being delivered, and the DSFinder app still says &#8220;unreachable&#8221;, even when the <span class="caps">NAS</span> is running and accessible from PCs.</p>
+        <p><span class="caps">NOTE</span> <span class="caps">WELL</span>: On the router, Do not enable &#8220;strict bind&#8221; unless you&#8217;ve first set up your means of access.</p>]]>
+      </description>
+      <source:markdown>So I’ve turned off the Wireless in the laptop, and now WOL from there works. This confirms that the blockage is in the router.
+
+The phone app has the ability to send WOL, but also to connect to the NAS for management. Even when the NAS is running, that doesn’t work. I’ve no idea what protocol it is using, but I didn’t have to tell it what/where the NAS was, it discovered it on its own. That was with the previous router.
+
+I’m still not clear how to set the router to forward WOL from the wireless segment to the LAN.
+
+&#62; Identify the MAC of your target (NAS) and select Wake by: MAC address, then enter the MAC in the panel and test the functionality with the “Wake Up!” button in the console.
+
+I don’t want to wake it using the router’s button. I need it to forward, and I don’t see anything in there to do that.
+
+Ah, maybe it only forwards to hardware addresses it knows about. I’ll try (carefully) as last time I tried to set a binding, it screwed up the entire setup, locking me out.
+
+\[Edit\] Didn’t work. At least, WOL from the phone isn’t being delivered, and the DSFinder app still says “unreachable”, even when the NAS is running and accessible from PCs.
+
+NOTEWELL: On the router, Do not enable “strict bind” unless you’ve first set up your means of access.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20213:161678</guid>
+    </item>    <item>
       <title>MuView and rendering PDF pages</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
       <description>
@@ -100,6 +307,38 @@ Main snag for me is that it is ages since I’ve done anything like this, and I�
 
 - My impression is that with 0 – 255 gamut RGB values the differences R-G and G-B both tend to be of the order of 20. But I’ve not done stats yet, so that’s just a mk1 eyeball estimate.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20244:161677</guid>
+    </item>    <item>
+      <title>Gareth McCaughan&#38;#39;s `mkdrawf`/`decdrawf` tools on GitHub</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20222</link>
+      <description>
+        <![CDATA[<p>Yes, just tested<br />
+        Draw: 1 Warning: Unknown object type<br />
+        I tried with other editors:<br />
+        Artworks: ok, no warning <br />
+        Vector:   ok, no warning<br />
+        Draw PLus: 6 Warning: Unknown object type</p>
+        <p>Note: If with Draw we save the selection, no problem in the decode file.</p>
+        <p>Ok to put information on the repository, I just need to find the instructions, and I would like to know how to do it.</p>
+        <p>The draw file is very easy to create, it&#8217;s just a rectangle then save.</p>]]>
+      </description>
+      <source:markdown>Yes, just tested
+
+Draw: 1 Warning: Unknown object type
+
+I tried with other editors:
+
+Artworks: ok, no warning
+
+Vector: ok, no warning
+
+Draw PLus: 6 Warning: Unknown object type
+
+Note: If with Draw we save the selection, no problem in the decode file.
+
+Ok to put information on the repository, I just need to find the instructions, and I would like to know how to do it.
+
+The draw file is very easy to create, it’s just a rectangle then save.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20222:161676</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdx45l7lrs2q</link>
       <description>
@@ -235,17 +474,6 @@ The sponsorship programme is something that GitHub offers to allow people to pro
 And of course, if you want to get involved in working on any of the conversion to C of components, please speak up.</source:markdown>
       <guid>cid://www.riscosopen.org:13:20251:161675</guid>
     </item>    <item>
-      <title>Gareth McCaughan&#38;#39;s `mkdrawf`/`decdrawf` tools on GitHub</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20222</link>
-      <description>
-        <![CDATA[<p>Did you find a similar effect with the DecDrawF I&#8217;d released?</p>
-        <p>If you raise an issue on the repository and attach the Drawfile, I&#8217;ll have a look.</p>]]>
-      </description>
-      <source:markdown>Did you find a similar effect with the DecDrawF I’d released?
-
-If you raise an issue on the repository and attach the Drawfile, I’ll have a look.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20222:161674</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mdvy45fyzc2f</link>
       <description>
         <![CDATA[Having fun with John Pickford's Spectrum Sprite Editor - as found on one of Fred's dev disks during my archiving testing process. I doubt anyone has used this since the early 1990s! It's really good and very typical of the tools we used for home computer game development in the late 80s/early 90s.]]>
@@ -274,34 +502,6 @@ I’m not going to discuss further, this is the route I’m taking.</source:mark
       <source:markdown>No RISC OS announcements at the moment because I’m deep DEEP in the weeds. Doing three or possibly four significant things to PROCFNs and it’s all very easy going oh yes /s</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mdvifuhnsc27</guid>
     </item>    <item>
-      <title>NAS problem</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Looks like they isolate the wired and wireless, but build in a WoL forwarder.</p>
-        </blockquote>
-        <p>Thanks for the tip. I&#8217;ve found the section in the manual, though after a quick look, I&#8217;m not finding it easy to understand. I think it&#8217;s a case of too many options.<br />
-        The Wake-on-Lan section seems to be for <span class="caps">WOL</span> messages originated by the router.<br />
-        The Wake-on-Wan might be where incoming <span class="caps">WOL</span> messages can get passed on, if for example <span class="caps">WAN</span> refers to the mobile phone on wireless. That section at least has a &#8220;from&#8221; part.<br />
-        There are two wireless clients. The hardware addresses of them start with 4C and E8.</p>
-        <p>I did wonder whether Port Mirror was the section I needed, though I think not.<br />
-        Is <span class="caps">IGMP</span> relevant?</p>]]>
-      </description>
-      <source:markdown>&#62; Looks like they isolate the wired and wireless, but build in a WoL forwarder.
-
-Thanks for the tip. I’ve found the section in the manual, though after a quick look, I’m not finding it easy to understand. I think it’s a case of too many options.
-
-The Wake-on-Lan section seems to be for WOL messages originated by the router.
-
-The Wake-on-Wan might be where incoming WOL messages can get passed on, if for example WAN refers to the mobile phone on wireless. That section at least has a “from” part.
-
-There are two wireless clients. The hardware addresses of them start with 4C and E8.
-
-I did wonder whether Port Mirror was the section I needed, though I think not.
-
-Is IGMP relevant?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20213:161668</guid>
-    </item>    <item>
       <title>ScummVM 2026.1.0 released</title>
       <link>https://www.riscository.com/2026/scummvm-2026-1-0-released/</link>
       <description>
@@ -317,28 +517,6 @@ Is IGMP relevant?</source:markdown>
       </description>
       <source:markdown>Agreed. But looking at the few copies of Quercus I’ve come across, they will not be easy to scan and get a very readable result. There is quite frequent use of black text on grey and patterned backgrounds. Still, once scans have been produced, they could be processed as necessary.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20247:161667</guid>
-    </item>    <item>
-      <title>Rasberry Pi - which is best in 2026?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20240</link>
-      <description>
-        <![CDATA[<p>I use dd in Terminal on my Mac to write the .img files to SD/MicroSD cards. First I zero-wipe the card and then write the image and haven&#8217;t had any issues.</p>]]>
-      </description>
-      <source:markdown>I use dd in Terminal on my Mac to write the .img files to SD/MicroSD cards. First I zero-wipe the card and then write the image and haven’t had any issues.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20240:161665</guid>
-    </item>    <item>
-      <title>Coding on RISC OS fireside chat, Saturday 7th Feb.</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20250</link>
-      <description>
-        <![CDATA[<p>Join us around the “Coding on <span class="caps">RISC</span> OS” campfire this Saturday, 7th February, at 7:30 p.m. (<span class="caps">GMT</span>) for another one of our friendly and informal fireside chats.</p>
-        <p>Whether you’re looking to get started, need assistance, want to help others, or share a project or current challenge with the group. You’re all welcome! No experience necessary.</p>
-        <p>For the Zoom credentials (no change), DM me over on X (<a href="https://twitter.com/armbytes">Twitter</a>), <a href="https://bsky.app/profile/armbytes.bsky.social">BlueSky</a>, ChatCube or <a href="https://mastodon.online/@armbytes">Mastodon</a>. There&#8217;s also an email link at the bottom of this informative RISCOSitory news <a href="https://www.riscository.com/2026/developers-fireside-chat-10th-january/">page</a>.</p>]]>
-      </description>
-      <source:markdown>Join us around the “Coding on RISC OS” campfire this Saturday, 7th February, at 7:30 p.m. (GMT) for another one of our friendly and informal fireside chats.
-
-Whether you’re looking to get started, need assistance, want to help others, or share a project or current challenge with the group. You’re all welcome! No experience necessary.
-
-For the Zoom credentials (no change), DM me over on X ( [Twitter](https://twitter.com/armbytes)), [BlueSky](https://bsky.app/profile/armbytes.bsky.social), ChatCube or [Mastodon](https://mastodon.online/@armbytes). There’s also an email link at the bottom of this informative RISCOSitory news [page](https://www.riscository.com/2026/developers-fireside-chat-10th-january/).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20250:161664</guid>
     </item>    <item>
       <title>Hard Disk support</title>
       <link>https://www.riscosopen.org/forum/forums/10/topics/20144</link>
@@ -818,20 +996,6 @@ https://media.tenor.com/SwZwutecbnkAAAAC/duke-nukem-intro.gif?hh=280&#38;ww=498<
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mdksesyibc2m</guid>
-    </item>    <item>
-      <title>VNC access to Pi400</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20243</link>
-      <description>
-        <![CDATA[<p>After installing RPiOS Trixie on the Pi400, setting its fixed IPv4 address, and turning Control Centre &rarr; Interfaces &rarr; <span class="caps">VNC</span> to ON, I find that Avalanche 0.28 doesn&#8217;t connect, giving the message &#8216;Server only offered unsupported authorisation method(s)&#8217;.</p>
-        <p>Can anyone suggest what tweak is necessary to establish the connection?</p>
-        <p>(<span class="caps">RISC</span> OS 5.31 21-Jul-2024 on a Pi CM4)</p>]]>
-      </description>
-      <source:markdown>After installing RPiOS Trixie on the Pi400, setting its fixed IPv4 address, and turning Control Centre → Interfaces → VNC to ON, I find that Avalanche 0.28 doesn’t connect, giving the message ‘Server only offered unsupported authorisation method(s)’.
-
-Can anyone suggest what tweak is necessary to establish the connection?
-
-(RISC OS 5.31 21-Jul-2024 on a Pi CM4)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20243:161556</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mdki5awqak2y</link>
       <description>
@@ -11593,20 +11757,6 @@ Rest in peace, she was an absolute star</source:markdown>
       </description>
       <source:markdown>Let’s be careful here. The printer hasn’t been disabled; the ink cartridges have. I bought a pair of HP ink cartridges (one black, one 3-colour) from Amazon, fitted them, and the printer is OK again.</source:markdown>
       <guid>cid://www.riscosopen.org:5:19574:159174</guid>
-    </item>    <item>
-      <title>What are you doing with RISC OS?</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/653</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve updated my ToolboxC++Lib to include ToolboxScrollList, ToolboxTab and ToolboxTreeView. However, only ToolboxScrollList has had a simple functional test, but it works.<br />
-        Sources can be found on <a href="https://github.com/bantonia/ToolboxLibrary/tree/main">GitHub</a><br />
-        The documentation in the docs directory was created using Doxygen and doesn&#8217;t work directly from GitHub, has to be downloaded and viewed locally.</p>]]>
-      </description>
-      <source:markdown>I’ve updated my ToolboxC++Lib to include ToolboxScrollList, ToolboxTab and ToolboxTreeView. However, only ToolboxScrollList has had a simple functional test, but it works.
-
-Sources can be found on [GitHub](https://github.com/bantonia/ToolboxLibrary/tree/main)
-
-The documentation in the docs directory was created using Doxygen and doesn’t work directly from GitHub, has to be downloaded and viewed locally.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:653:159173</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3m244jtjn722j</link>
       <description>
