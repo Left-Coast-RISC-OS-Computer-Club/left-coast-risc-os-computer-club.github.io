@@ -7,10 +7,115 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>05 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>06 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Modern Frosted Theme</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
+      <description>
+        <![CDATA[<p>Hi Martin,<br />
+        Loving the fact that you are developing this.<br />
+        I am testing it on RPCEmu and a Pi4.<br />
+        To be honest though I much prefer the configure icons without the puzzle pieces. The previous version appealed more. Is it possible to switch between the 2 icon sets?</p>]]>
+      </description>
+      <source:markdown>Hi Martin,
+
+Loving the fact that you are developing this.
+
+I am testing it on RPCEmu and a Pi4.
+
+To be honest though I much prefer the configure icons without the puzzle pieces. The previous version appealed more. Is it possible to switch between the 2 icon sets?</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20138:161719</guid>
+    </item>    <item>
+      <title>PhotoDesk 3.25 crashes when trying to create new layer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20249</link>
+      <description>
+        <![CDATA[<p>Just a quick &#8220;heads up&#8221;&#8230; The programmer has now fixed this, so if anyone wants to test the new version, drop me an email.<br />
+        For a more general release, Francois has reported several other issues privately, so I&#8217;d like to get a few of them looked at &#8211; hopefully with a full new release in time for <span class="caps">RISC</span> OS North.</p>]]>
+      </description>
+      <source:markdown>Just a quick “heads up”… The programmer has now fixed this, so if anyone wants to test the new version, drop me an email.
+
+For a more general release, Francois has reported several other issues privately, so I’d like to get a few of them looked at – hopefully with a full new release in time for RISC OS North.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20249:161718</guid>
+    </item>    <item>
+      <title>Pi500 painted like a Beeb KB</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20256</link>
+      <description>
+        <![CDATA[<p>Saw this on The Register this evening&#8230; Pi500+</p>
+        <p><a href="https://www.theregister.com/2026/02/06/summoning_the_spirit_of_the/">https://www.theregister.com/2026/02/06/summoning_the_s…</a></p>
+        <p>more info here on pi news:<br />
+        <a href="https://www.raspberrypi.com/news/beige-is-back-remembering-the-bbc-micro-with-raspberry-pi-500-plus/">https://www.raspberrypi.com/news/beige-is-back-remembe…</a></p>]]>
+      </description>
+      <source:markdown>Saw this on The Register this evening… Pi500+
+
+[https://www.theregister.com/2026/02/06/summoning\_the\_s…](https://www.theregister.com/2026/02/06/summoning_the_spirit_of_the/)
+
+more info here on pi news:
+
+[https://www.raspberrypi.com/news/beige-is-back-remembe…](https://www.raspberrypi.com/news/beige-is-back-remembering-the-bbc-micro-with-raspberry-pi-500-plus/)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20256:161716</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3me7e2h4edc2s</link>
+      <description>
+        <![CDATA[I was browsing new PCs and didn't think it would be a problem finding what I wanted. I visited a few recommended sites with good Trustpilot ratings including Scan, Overclockers, PCspecialist. I fell at the first hurdle - the case. All I want to do is add internal DVD/Blu-Ray drives - for archiving!]]>
+      </description>
+      <source:markdown>I was browsing new PCs and didn&#39;t think it would be a problem finding what I wanted. I visited a few recommended sites with good Trustpilot ratings including Scan, Overclockers, PCspecialist. I fell at the first hurdle - the case. All I want to do is add internal DVD/Blu-Ray drives - for archiving!</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3me7e2h4edc2s</guid>
+    </item>    <item>
+      <title>Toolbox_RaiseToolboxEvent</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
+      <description>
+        <![CDATA[<p>Interesting that the Toolbox does not take into account of which Object is attached to which application, all Toolbox applications receive all user events. It is left up to the programmer to check that the ObjectId is correct for the current Toolbox application.</p>]]>
+      </description>
+      <source:markdown>Interesting that the Toolbox does not take into account of which Object is attached to which application, all Toolbox applications receive all user events. It is left up to the programmer to check that the ObjectId is correct for the current Toolbox application.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20230:161712</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3me7apjneds2d</link>
+      <description>
+        <![CDATA[I'm beginning to think Bluesky needs Community Notes. 😕]]>
+      </description>
+      <source:markdown>I&#39;m beginning to think Bluesky needs Community Notes. 😕</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3me7apjneds2d</guid>
+    </item>    <item>
+      <title>Window to Window</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20255</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve wondered if there&#8217;s anyway of copying from one Window to Another &#8211; like Paint to Draw.<br />
+        Two Windows above or alongside each other.</p>
+        <p>Have the mouse pointer in one Prog and the output in the other Progs Window.</p>]]>
+      </description>
+      <source:markdown>I’ve wondered if there’s anyway of copying from one Window to Another – like Paint to Draw.
+
+Two Windows above or alongside each other.
+
+Have the mouse pointer in one Prog and the output in the other Progs Window.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20255:161711</guid>
+    </item>    <item>
+      <title>Developers’ fireside chat – 7th February</title>
+      <link>https://www.riscository.com/2026/developers-fireside-chat-7th-february/</link>
+      <description>
+        <![CDATA[Saturday, 7th February offers people involved or interested in software development for RISC OS the opportunity to once again to meet up online and discuss the issues and problems they face, seek help, offer advice, demonstrate what they&#8217;re working on, or just generally chat about the things programmers like to chat about. The meetings take place using the Zoom video conferencing software, which is available for most platforms. They are wholly informal and don&#8217;t follow a set agenda &#8211; those present steer the conversation as the evening progresses &#8211; and&#8230;]]>
+      </description>
+      <source:markdown>Saturday, 7th February offers people involved or interested in software development for RISC OS the opportunity to once again to meet up online and discuss the issues and problems they face, seek help, offer advice, demonstrate what they’re working on, or just generally chat about the things programmers like to chat about. The meetings take place using the Zoom video conferencing software, which is available for most platforms. They are wholly informal and don’t follow a set agenda – those present steer the conversation as the evening progresses – and…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10870</guid>
+    </item>    <item>
+      <title>HardDisc4.5.30.zip</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20254</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve tried around with &#8220;HardDisc4.5.30.zip&#8221; but had no luck either, decompressing it &amp; copying it into hostfs, or complete as zip-file. sk</p>]]>
+      </description>
+      <source:markdown>I’ve tried around with “HardDisc4.5.30.zip” but had no luck either, decompressing it &#38; copying it into hostfs, or complete as zip-file. sk</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20254:161701</guid>
+    </item>    <item>
+      <title>HardDisc4.5.30.util - is the file faulty?</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20253</link>
+      <description>
+        <![CDATA[<p>I followed &#8220;RPCEmu from scratch&#8221; renaming &#8220;HardDisc4.5.30.util&#8221; to &#8220;HardDisc4-util,ffc&#8221; and copying it to ~hostfs. When trying to extract it later on, I got a window with letters etc, !edit being opened in the icon bar. Everything worked fine with the &#8220;nightly&#8221; HardDisk4.util! So, is the file itself somehow faulty? Greetings, Stefan</p>]]>
+      </description>
+      <source:markdown>I followed “RPCEmu from scratch” renaming “HardDisc4.5.30.util” to “HardDisc4-util,ffc” and copying it to ~hostfs. When trying to extract it later on, I got a window with letters etc, !edit being opened in the icon bar. Everything worked fine with the “nightly” HardDisk4.util! So, is the file itself somehow faulty? Greetings, Stefan</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20253:161700</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3me54y6wlqc25</link>
       <description>
         <![CDATA[Fireside developer chat on saturday night 
@@ -61,6 +166,14 @@ I looked at that 2019 thread and remained confused :-( though I did get to speci
 
 Now, however, I’ve reverted to the previous RPi OS (Debian Bookworm) and got VNC to work via the IP address DHCP gives to the Pi. Attempts to use a manual IP address seem to fail, though messages such as the one I quoted above no longer appear. Obviously a minefield! — but it’s working.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20243:161696</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>:-)</p>]]>
+      </description>
+      <source:markdown>:-)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:161695</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3me4hlpq7r22o</link>
       <description>
@@ -277,37 +390,6 @@ Ah, maybe it only forwards to hardware addresses it knows about. I’ll try (car
 NOTEWELL: On the router, Do not enable “strict bind” unless you’ve first set up your means of access.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20213:161678</guid>
     </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>To update: I&#8217;v now got a !Compo programme working on examining/processing bitmap files to do some &#8216;stats&#8217; on the content. The point being that these stats then allow a longer program to &#8216;cherry pick&#8217; or &#8216;target&#8217; how to do a cleanup of paper oxidisation.</p>
-        <p>For &#8216;colour&#8217; bitmaps this can target the way &#8216;brown&#8217; systematically has  R &gt; G &gt; B values* and use that to identify pixels to &#8216;make white&#8217;. But for pages where the degrading is grey, to use the stats of the relative frequencies of different greyscale values, say, to alter the gamut to give a cleaner result. In principle, both approaches can be deployed.</p>
-        <p><span class="caps">BTW</span> CompoScript lets me call <strong>compiled</strong> code (in my case written in ye olde &#8216;C&#8217;) to read the values out of !Compo&#8217;s memory, bash then numbers, and poke back &#8216;adjusted&#8217; values. In essence, !Compo acts as the interface for having the work done and giving the user a relevant <span class="caps">GUI</span>, etc!)</p>
-        <p>It also should allow the process to do things like chug through page by page. Indeed, should be able to let the user also &#8216;skip&#8217; the front cover. (Often that is clean, no oxidation, because it was &#8216;chinagraphed&#8217; paper to look better on magazine racks, etc. ). Many of the old free scanned magazines have a clean colour front page, with truly eye-wateringly-browned content pages (pulp paper, indeed)!</p>
-        <p>Somone else (don&#8217;t know if he wants his name mentioned here or not) has been sending me some progs that can so some of this on Linux. So I may end up using those. But I&#8217;d prefer to get this going on RO as I also use that for the fetching ofebooks.)</p>
-        <p>Maybe this might also help people to realise just how flexible the most recent versions of !Compo became. :-) It is also now effectively &#8216;open source&#8217; so could have features added in ways akin to using the scripting, but calling its own new functions rather than user-added ones like those I&#8217;ve done and am trying again to generate.</p>
-        <p>Main snag for me is that it is ages since I&#8217;ve done anything like this, and I&#8217;m now an old fart who is a full-time carer. So I&#8217;m sloooooow at doing things due to being forgetful, and often away dealing with a &#8216;non maskable interrupt&#8217; in life. :-)</p>
-        <ul>
-        	<li>My impression is that with 0 &#8211; 255 gamut <span class="caps">RGB</span> values the  differences R-G and G-B both tend to be of the order of 20. But I&#8217;ve not done stats yet, so that&#8217;s just a mk1 eyeball estimate.</li>
-        </ul>]]>
-      </description>
-      <source:markdown>To update: I’v now got a !Compo programme working on examining/processing bitmap files to do some ‘stats’ on the content. The point being that these stats then allow a longer program to ‘cherry pick’ or ‘target’ how to do a cleanup of paper oxidisation.
-
-For ‘colour’ bitmaps this can target the way ‘brown’ systematically has R &#62; G &#62; B values\* and use that to identify pixels to ‘make white’. But for pages where the degrading is grey, to use the stats of the relative frequencies of different greyscale values, say, to alter the gamut to give a cleaner result. In principle, both approaches can be deployed.
-
-BTW CompoScript lets me call **compiled** code (in my case written in ye olde ‘C’) to read the values out of !Compo’s memory, bash then numbers, and poke back ‘adjusted’ values. In essence, !Compo acts as the interface for having the work done and giving the user a relevant GUI, etc!)
-
-It also should allow the process to do things like chug through page by page. Indeed, should be able to let the user also ‘skip’ the front cover. (Often that is clean, no oxidation, because it was ‘chinagraphed’ paper to look better on magazine racks, etc. ). Many of the old free scanned magazines have a clean colour front page, with truly eye-wateringly-browned content pages (pulp paper, indeed)!
-
-Somone else (don’t know if he wants his name mentioned here or not) has been sending me some progs that can so some of this on Linux. So I may end up using those. But I’d prefer to get this going on RO as I also use that for the fetching ofebooks.)
-
-Maybe this might also help people to realise just how flexible the most recent versions of !Compo became. :-) It is also now effectively ‘open source’ so could have features added in ways akin to using the scripting, but calling its own new functions rather than user-added ones like those I’ve done and am trying again to generate.
-
-Main snag for me is that it is ages since I’ve done anything like this, and I’m now an old fart who is a full-time carer. So I’m sloooooow at doing things due to being forgetful, and often away dealing with a ‘non maskable interrupt’ in life. :-)
-
-- My impression is that with 0 – 255 gamut RGB values the differences R-G and G-B both tend to be of the order of 20. But I’ve not done stats yet, so that’s just a mk1 eyeball estimate.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:161677</guid>
-    </item>    <item>
       <title>Gareth McCaughan&#38;#39;s `mkdrawf`/`decdrawf` tools on GitHub</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20222</link>
       <description>
@@ -481,20 +563,6 @@ And of course, if you want to get involved in working on any of the conversion t
       <source:markdown>Having fun with John Pickford&#39;s Spectrum Sprite Editor - as found on one of Fred&#39;s dev disks during my archiving testing process. I doubt anyone has used this since the early 1990s! It&#39;s really good and very typical of the tools we used for home computer game development in the late 80s/early 90s.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mdvy45fyzc2f</guid>
     </item>    <item>
-      <title>Toolbox_RaiseToolboxEvent</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
-      <description>
-        <![CDATA[<p>Not sure if anyone is interested but here&#8217;s a link to my example using my C++ library. Note the application needs the Module ThreadTool to be run first, I haven&#8217;t added it to the !Run file. The bulk of the code was generated by another application I&#8217;ve written and then tweeked to suit the problem.<br />
-        GitHub:<a href="https://github.com/bantonia/ToolboxLibrary/tree/main/Examples%2F!ThreadExample">https://github.com/bantonia/ToolboxLibrary/tree/main/E…</a></p>
-        <p>I&#8217;m not going to discuss further, this is the route I&#8217;m taking.</p>]]>
-      </description>
-      <source:markdown>Not sure if anyone is interested but here’s a link to my example using my C++ library. Note the application needs the Module ThreadTool to be run first, I haven’t added it to the !Run file. The bulk of the code was generated by another application I’ve written and then tweeked to suit the problem.
-
-GitHub: [https://github.com/bantonia/ToolboxLibrary/tree/main/E…](https://github.com/bantonia/ToolboxLibrary/tree/main/Examples%2F!ThreadExample)
-
-I’m not going to discuss further, this is the route I’m taking.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20230:161670</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdvifuhnsc27</link>
       <description>
         <![CDATA[No RISC OS announcements at the moment because I’m deep DEEP in the weeds. Doing three or possibly four significant things to PROCFNs and it’s all very easy going oh yes /s]]>
@@ -585,32 +653,6 @@ Also useful for error handling: ONERRORLOCAL:PROCerror(FN$):ENDPROC</source:mark
       <source:markdown>More old game development disk rescue and archive work underway. The latest batch of 3&#34; disks have had fewer errors than previous ones I&#39;ve worked with. Fingers crossed it keeps that way!</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mdsrrkdq3c2m</guid>
     </item>    <item>
-      <title>PhotoDesk 3.25 crashes when trying to create new layer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20249</link>
-      <description>
-        <![CDATA[<p>Hi Community</p>
-        <p>I encounter a crash of PhotoDesk 3.25 on my Raspberry PI4 (RiscOS 5.30) when trying to create a new layer:<br />
-        PhotoDesk has suffered an unexpected error. Click OK to continue, Cancel to quit (12038).</p>
-        <p>Note I alse tested on my ARMini, and it does <strong>not</strong> crash on it&#8230;</p>
-        <p>Does anyone else encounter this issue?</p>
-        <p>Regards</p>
-        <p>François</p>]]>
-      </description>
-      <source:markdown>Hi Community
-
-I encounter a crash of PhotoDesk 3.25 on my Raspberry PI4 (RiscOS 5.30) when trying to create a new layer:
-
-PhotoDesk has suffered an unexpected error. Click OK to continue, Cancel to quit (12038).
-
-Note I alse tested on my ARMini, and it does **not** crash on it…
-
-Does anyone else encounter this issue?
-
-Regards
-
-François</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20249:161647</guid>
-    </item>    <item>
       <title>Live Coding with Gerph, Sunday 1st February at 1pm UK time.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20241</link>
       <description>
@@ -671,17 +713,6 @@ Next week, I’ll try to complete the TextOp calls, adding in the split/truncati
       <source:markdown>Interested in coding on RISC OS? Want to learn more or meet others? Join our friendly fireside chat on Zoom—DM for credentials (unchanged). The event is on Saturday, 7th February at 7:30 pm (GMT).
 #Zoom #Meetup #RISCOS #Community #RaspberryPi #ARM #Retro #AcornComputers</source:markdown>
       <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mdqvnqdjws2k</guid>
-    </item>    <item>
-      <title>Modern Frosted Theme</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
-      <description>
-        <![CDATA[<p>Updated Theme now ready to try out :)<br />
-        <a href="https://riscostechnologies.co.uk/files/FrostedTheme.zip">Frosted V1.7</a></p>]]>
-      </description>
-      <source:markdown>Updated Theme now ready to try out :)
-
-[Frosted V1.7](https://riscostechnologies.co.uk/files/FrostedTheme.zip)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20138:161639</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mdqild76e22t</link>
       <description>
