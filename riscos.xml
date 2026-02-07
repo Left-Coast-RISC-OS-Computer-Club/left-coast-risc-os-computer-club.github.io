@@ -7,10 +7,93 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>06 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>07 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mec65yfwq22u</link>
+      <description>
+        <![CDATA[@rougol.bsky.social are you going g us tonight for the meeting?]]>
+      </description>
+      <source:markdown>@rougol.bsky.social are you going g us tonight for the meeting?</source:markdown>
+      <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3mec65yfwq22u</guid>
+    </item>    <item>
+      <title>Printing via Mac OS</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20258</link>
+      <description>
+        <![CDATA[<p>Has anybody tried printing from <span class="caps">RISC</span> OS via a Mac? I am wondering if I could transfer a pdf from <span class="caps">RISC</span> OS using <span class="caps">FTP</span>, so that it lands in a shared folder and is picked up automatically by macOS and printed using a mixture of Hazel and Automator. I don’t own Hazel, so would be an expensive experiment if it didn’t work! Has anyone tried it?<br />
+        Thanks, Martin</p>]]>
+      </description>
+      <source:markdown>Has anybody tried printing from RISC OS via a Mac? I am wondering if I could transfer a pdf from RISC OS using FTP, so that it lands in a shared folder and is picked up automatically by macOS and printed using a mixture of Hazel and Automator. I don’t own Hazel, so would be an expensive experiment if it didn’t work! Has anyone tried it?
+
+Thanks, Martin</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20258:161730</guid>
+    </item>    <item>
+      <title>!Family</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20257</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve used the !Family application, by Denis Howe, to record my family tree for many years and the version I have is 2.18. Whilst looking for Toolbox tutorials I came across Rosemary Miskin&#8217;s website which includes a genealogy section. It mentions !Family version 2.24 being available on Andy Waddington&#8217;s site but unfortunately that site no longer seems to exist. There&#8217;s also a reference to it on the <span class="caps">RISC</span> OS ProductsDB.</p>
+        <p>I wonder whether anyone knows if the later version is available anywhere and what was added?</p>
+        <p>Many thanks,</p>
+        <p>Daniel.</p>]]>
+      </description>
+      <source:markdown>I’ve used the !Family application, by Denis Howe, to record my family tree for many years and the version I have is 2.18. Whilst looking for Toolbox tutorials I came across Rosemary Miskin’s website which includes a genealogy section. It mentions !Family version 2.24 being available on Andy Waddington’s site but unfortunately that site no longer seems to exist. There’s also a reference to it on the RISC OS ProductsDB.
+
+I wonder whether anyone knows if the later version is available anywhere and what was added?
+
+Many thanks,
+
+Daniel.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20257:161727</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>@John <span class="caps">WILLIAMS</span></p>
+        <blockquote>
+        <p>I sometimes want to view 2 PDFs side by side, but MuView’s log file system prevents more than one instantiation.</p>
+        </blockquote>
+        <p>I have a small application that may interest you, initially it is designed to display a score. But in fact we can display any Draw file in A4 or A5 format.<br />
+        For example, files exported from !<span class="caps">PDF</span> in Draw format, the program uses the same numbering.</p>
+        <p><a href="https://jeanmichelb.riscos.fr/AppliTBox/AppliToolBox.html#Score_Affiche">https://jeanmichelb.riscos.fr/AppliTBox/AppliToolBox.h…</a></p>]]>
+      </description>
+      <source:markdown>@John WILLIAMS
+
+&#62; I sometimes want to view 2 PDFs side by side, but MuView’s log file system prevents more than one instantiation.
+
+I have a small application that may interest you, initially it is designed to display a score. But in fact we can display any Draw file in A4 or A5 format.
+
+For example, files exported from !PDF in Draw format, the program uses the same numbering.
+
+[https://jeanmichelb.riscos.fr/AppliTBox/AppliToolBox.h…](https://jeanmichelb.riscos.fr/AppliTBox/AppliToolBox.html#Score_Affiche)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:161723</guid>
+    </item>    <item>
+      <title>URI Launch Sometimes Fails</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20056</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve just encountered the problem Steve described on our Titanium (<span class="caps">RISC</span> OS 5.28, AcornURI 0.27 (26 Jun 2018). It&#8217;s very annoying as I was in the process of implementing in Python the procedure we use as standard in our C applications for launching URLs. Basically if NetSurf is not already running, it isn&#8217;t starting up in response to the <span class="caps">URI</span> Dispatch call.</p>
+        <p>I&#8217;ve not tested as thoroughly yet as Steve has, but I wondered whether anyone had got any further in working out why the process is not working any more?</p>
+        <p><strong>Edit</strong>: I&#8217;ve done some more testing, and now can&#8217;t get it to fail! Whether I use *URIDispatch or the <span class="caps">SWI</span>, URI_Dispatch, I successfully have NetSurf loading and opening its window on the web page on a freshly reset Titanium, and the same applies to opening &#8220;geo:&#8221; URLs in RiscOSM. That seems to confirm that there is nothing wrong with RiscOSM or my Python code.</p>
+        <p>I wonder what is mucking things up? It&#8217;s not Alarm, Reporter, <span class="caps">VNC</span> server, PrintPDF or Zap, which I also had running. Other things that have been running tonight include WimpMon and StrongHelp. I might have had !Find on the iconbar. Not sure there has been anything else!</p>
+        <p><strong>Further point</strong>: Hilary has in her RiscOSM bugs list an undated entry (probably before 2020) which says:</p>
+        <p><span class="caps">HAPPENED</span> <span class="caps">ONCE</span> &#8211; CAN&#8217;T <span class="caps">REPRODUCE</span>: Double-clicking <span class="caps">URI</span> file is not loading it into RiscOSM: message just keeps going round and round apps.  Pressing Shift means Zap gets it and stops the endless messaging.  Same regardless of whether RiscOSM and/or Netsurf are running.</p>
+        <p>That may have nothing to do with it, of course!</p>]]>
+      </description>
+      <source:markdown>I’ve just encountered the problem Steve described on our Titanium (RISC OS 5.28, AcornURI 0.27 (26 Jun 2018). It’s very annoying as I was in the process of implementing in Python the procedure we use as standard in our C applications for launching URLs. Basically if NetSurf is not already running, it isn’t starting up in response to the URI Dispatch call.
+
+I’ve not tested as thoroughly yet as Steve has, but I wondered whether anyone had got any further in working out why the process is not working any more?
+
+**Edit**: I’ve done some more testing, and now can’t get it to fail! Whether I use \*URIDispatch or the SWI, URI\_Dispatch, I successfully have NetSurf loading and opening its window on the web page on a freshly reset Titanium, and the same applies to opening “geo:” URLs in RiscOSM. That seems to confirm that there is nothing wrong with RiscOSM or my Python code.
+
+I wonder what is mucking things up? It’s not Alarm, Reporter, VNC server, PrintPDF or Zap, which I also had running. Other things that have been running tonight include WimpMon and StrongHelp. I might have had !Find on the iconbar. Not sure there has been anything else!
+
+**Further point**: Hilary has in her RiscOSM bugs list an undated entry (probably before 2020) which says:
+
+HAPPENEDONCE – CAN’T REPRODUCE: Double-clicking URI file is not loading it into RiscOSM: message just keeps going round and round apps. Pressing Shift means Zap gets it and stops the endless messaging. Same regardless of whether RiscOSM and/or Netsurf are running.
+
+That may have nothing to do with it, of course!</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20056:161722</guid>
+    </item>    <item>
       <title>Modern Frosted Theme</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
       <description>
@@ -56,6 +139,57 @@ more info here on pi news:
 [https://www.raspberrypi.com/news/beige-is-back-remembe…](https://www.raspberrypi.com/news/beige-is-back-remembering-the-bbc-micro-with-raspberry-pi-500-plus/)</source:markdown>
       <guid>cid://www.riscosopen.org:5:20256:161716</guid>
     </item>    <item>
+      <title>Toolbox_RaiseToolboxEvent</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Interesting that the Toolbox does not take into account of which Object is attached to which application, all Toolbox applications receive all user events.</p>
+        </blockquote>
+        <p>I suspect that&#8217;s because you&#8217;re sending events from a timer when the destination task isn&#8217;t the current task &#8211; which Toolbox_RaiseToolboxEvent isn&#8217;t designed for.</p>
+        <p>The <span class="caps">SWI</span> Toolbox_RaiseToolboxEvent, in <code>event_raise_toolbox_event()</code>, does this:</p>
+        <pre><code>   regs.r[2] = task-&gt;info.wimp_handle;   /* send to self */</code>
+        
+        <code>    if ((e = _kernel_swi (Wimp_SendMessage, &amp;regs, &amp;regs)) != NULL)</code></pre>
+        <p>The comment strongly implies to me that it was only ever intended to be sent by the current task.</p>
+        <p>&#8216;<code>task</code>&#8217; is a (poorly named!) global variable that is updated to point to the current toolbox task by the filters. If it&#8217;s not a Toolbox task, it&#8217;s set to <span class="caps">NULL</span>. There is no check that task is non-null before that line, so it is dereferencing a null pointer &#8211; &#8216;<code>info</code>&#8217; is 10 words in, and &#8216;<code>wimp_handle</code>&#8217; is a further 8 words in &#8211; which is 72 bytes in. In <span class="caps">BASIC</span>, if you do &#8220;<code>PRINT ~!72</code>&#8221;, you get zero.</p>
+        <p>Sending a message to a task handle of zero results in a broadcast message.</p>
+        <p>Now, clearly the <span class="caps">SWI</span> shouldn&#8217;t dereference zero, but fixing that would stop your event from being sent. However, even without fixing the toolbox, if you have two non-idle toolbox tasks running there&#8217;s every chance your message will be sent to (just) the current task which could be the wrong task, so you&#8217;ll never receive it.</p>
+        <p>Since the toolbox runs in <span class="caps">SVC</span> mode it won&#8217;t crash, but if the zero page were to change, or the toolbox structures were to change, you would get different undefined behaviour.</p>]]>
+      </description>
+      <source:markdown>&#62; Interesting that the Toolbox does not take into account of which Object is attached to which application, all Toolbox applications receive all user events.
+
+I suspect that’s because you’re sending events from a timer when the destination task isn’t the current task – which Toolbox\_RaiseToolboxEvent isn’t designed for.
+
+The SWI Toolbox\_RaiseToolboxEvent, in `event_raise_toolbox_event()`, does this:
+
+```
+   regs.r[2] = task-&#62;info.wimp_handle;   /* send to self */
+
+    if ((e = _kernel_swi (Wimp_SendMessage, &#38;regs, &#38;regs)) != NULL)
+```
+
+The comment strongly implies to me that it was only ever intended to be sent by the current task.
+
+‘ `task`’ is a (poorly named!) global variable that is updated to point to the current toolbox task by the filters. If it’s not a Toolbox task, it’s set to NULL. There is no check that task is non-null before that line, so it is dereferencing a null pointer – ‘ `info`’ is 10 words in, and ‘ `wimp_handle`’ is a further 8 words in – which is 72 bytes in. In BASIC, if you do “ `PRINT ~!72`”, you get zero.
+
+Sending a message to a task handle of zero results in a broadcast message.
+
+Now, clearly the SWI shouldn’t dereference zero, but fixing that would stop your event from being sent. However, even without fixing the toolbox, if you have two non-idle toolbox tasks running there’s every chance your message will be sent to (just) the current task which could be the wrong task, so you’ll never receive it.
+
+Since the toolbox runs in SVC mode it won’t crash, but if the zero page were to change, or the toolbox structures were to change, you would get different undefined behaviour.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20230:161715</guid>
+    </item>    <item>
+      <title>Window to Window</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20255</link>
+      <description>
+        <![CDATA[<p>Or how about selecting a sprite in the spritefile window and dragging it over the Draw file window and releasing it &#8211; just like copying a file from one filer window to another?</p>
+        <p>That works too!</p>]]>
+      </description>
+      <source:markdown>Or how about selecting a sprite in the spritefile window and dragging it over the Draw file window and releasing it – just like copying a file from one filer window to another?
+
+That works too!</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20255:161714</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3me7e2h4edc2s</link>
       <description>
         <![CDATA[I was browsing new PCs and didn't think it would be a problem finding what I wanted. I visited a few recommended sites with good Trustpilot ratings including Scan, Overclockers, PCspecialist. I fell at the first hurdle - the case. All I want to do is add internal DVD/Blu-Ray drives - for archiving!]]>
@@ -63,34 +197,12 @@ more info here on pi news:
       <source:markdown>I was browsing new PCs and didn&#39;t think it would be a problem finding what I wanted. I visited a few recommended sites with good Trustpilot ratings including Scan, Overclockers, PCspecialist. I fell at the first hurdle - the case. All I want to do is add internal DVD/Blu-Ray drives - for archiving!</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3me7e2h4edc2s</guid>
     </item>    <item>
-      <title>Toolbox_RaiseToolboxEvent</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
-      <description>
-        <![CDATA[<p>Interesting that the Toolbox does not take into account of which Object is attached to which application, all Toolbox applications receive all user events. It is left up to the programmer to check that the ObjectId is correct for the current Toolbox application.</p>]]>
-      </description>
-      <source:markdown>Interesting that the Toolbox does not take into account of which Object is attached to which application, all Toolbox applications receive all user events. It is left up to the programmer to check that the ObjectId is correct for the current Toolbox application.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20230:161712</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3me7apjneds2d</link>
       <description>
         <![CDATA[I'm beginning to think Bluesky needs Community Notes. 😕]]>
       </description>
       <source:markdown>I&#39;m beginning to think Bluesky needs Community Notes. 😕</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3me7apjneds2d</guid>
-    </item>    <item>
-      <title>Window to Window</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20255</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve wondered if there&#8217;s anyway of copying from one Window to Another &#8211; like Paint to Draw.<br />
-        Two Windows above or alongside each other.</p>
-        <p>Have the mouse pointer in one Prog and the output in the other Progs Window.</p>]]>
-      </description>
-      <source:markdown>I’ve wondered if there’s anyway of copying from one Window to Another – like Paint to Draw.
-
-Two Windows above or alongside each other.
-
-Have the mouse pointer in one Prog and the output in the other Progs Window.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20255:161711</guid>
     </item>    <item>
       <title>Developers’ fireside chat – 7th February</title>
       <link>https://www.riscository.com/2026/developers-fireside-chat-7th-february/</link>
@@ -166,14 +278,6 @@ I looked at that 2019 thread and remained confused :-( though I did get to speci
 
 Now, however, I’ve reverted to the previous RPi OS (Debian Bookworm) and got VNC to work via the IP address DHCP gives to the Pi. Attempts to use a manual IP address seem to fail, though messages such as the one I quoted above no longer appear. Obviously a minefield! — but it’s working.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20243:161696</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>:-)</p>]]>
-      </description>
-      <source:markdown>:-)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:161695</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3me4hlpq7r22o</link>
       <description>
@@ -10279,14 +10383,6 @@ Whether you’re a long-time RISC OS veteran or completely new to the scene, the
       </description>
       <source:markdown>It’s now only a few more days until this year’s RISC OS London Show, which will take place on Saturday, 25th October, at the Harrow District Masonic Centre – and last night was the latest RISC OS User Group of London (ROUGOL) meeting, at which RISCOSbits gave us a teaser of what to expect from them at the show. So here’s a more detailed run down directly from the horse’s mouth RISCOSbits keyboard: We are pleased to announce that RISCOSbits will be exhibiting at the RISC OS London Show on…</source:markdown>
       <guid>cid://https://www.riscository.com/?p=10744</guid>
-    </item>    <item>
-      <title>URI Launch Sometimes Fails</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20056</link>
-      <description>
-        <![CDATA[<p>Oops, yes. He was very happy for the first release to be any number I chose at random under 1.00 (or indeed over 1.00, but the conversation was about under).</p>]]>
-      </description>
-      <source:markdown>Oops, yes. He was very happy for the first release to be any number I chose at random under 1.00 (or indeed over 1.00, but the conversation was about under).</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20056:159335</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3m3nln74qis22</link>
       <description>
