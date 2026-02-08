@@ -7,10 +7,37 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>07 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>08 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Live Coding with Gerph, Sunday 8th February at 1pm UK time.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20252</link>
+      <description>
+        <![CDATA[<p>Going live in about 10 minutes.</p>]]>
+      </description>
+      <source:markdown>Going live in about 10 minutes.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20252:161744</guid>
+    </item>    <item>
+      <title>ScummVM 2026.1.0 &#38;quot;Like a Version&#38;quot; is finally released</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20248</link>
+      <description>
+        <![CDATA[<p>Great news and really appreciated!<br />
+        Having ScummVM 1.3.1-3 available on PackMan at the same time is a bit confusing though.</p>]]>
+      </description>
+      <source:markdown>Great news and really appreciated!
+
+Having ScummVM 1.3.1-3 available on PackMan at the same time is a bit confusing though.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20248:161742</guid>
+    </item>    <item>
+      <title>Coding on RISC OS fireside chat, Saturday 7th Feb.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20250</link>
+      <description>
+        <![CDATA[<p>Next meeting Saturday 28 March &#8211; a week after <span class="caps">RISC</span> OS North.</p>]]>
+      </description>
+      <source:markdown>Next meeting Saturday 28 March – a week after RISC OS North.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20250:161741</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mec65yfwq22u</link>
       <description>
         <![CDATA[@rougol.bsky.social are you going g us tonight for the meeting?]]>
@@ -29,6 +56,14 @@
 Thanks, Martin</source:markdown>
       <guid>cid://www.riscosopen.org:11:20258:161730</guid>
     </item>    <item>
+      <title>URI Launch Sometimes Fails</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20056</link>
+      <description>
+        <![CDATA[<p>Is the browser in LookAt in !Configure, or does it only work after you&#8217;ve found the browser in the filer and run it up once?</p>]]>
+      </description>
+      <source:markdown>Is the browser in LookAt in !Configure, or does it only work after you’ve found the browser in the filer and run it up once?</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20056:161729</guid>
+    </item>    <item>
       <title>!Family</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20257</link>
       <description>
@@ -46,53 +81,35 @@ Many thanks,
 Daniel.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20257:161727</guid>
     </item>    <item>
+      <title>Toolbox_RaiseToolboxEvent</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
+      <description>
+        <![CDATA[<p>Looking at it again, that won&#8217;t work, completely the wrong field. I think I&#8217;ll have to send the Wimp message myself with the correct wimp_handle.</p>]]>
+      </description>
+      <source:markdown>Looking at it again, that won’t work, completely the wrong field. I think I’ll have to send the Wimp message myself with the correct wimp\_handle.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20230:161725</guid>
+    </item>    <item>
       <title>MuView and rendering PDF pages</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
       <description>
-        <![CDATA[<p>@John <span class="caps">WILLIAMS</span></p>
+        <![CDATA[<p>@Jim</p>
         <blockquote>
-        <p>I sometimes want to view 2 PDFs side by side, but MuView’s log file system prevents more than one instantiation.</p>
+        <p>outfile = fopen(“RAM::RamDisc0.$.rgbout\0”,“rwt”);</p>
         </blockquote>
-        <p>I have a small application that may interest you, initially it is designed to display a score. But in fact we can display any Draw file in A4 or A5 format.<br />
-        For example, files exported from !<span class="caps">PDF</span> in Draw format, the program uses the same numbering.</p>
-        <p><a href="https://jeanmichelb.riscos.fr/AppliTBox/AppliToolBox.html#Score_Affiche">https://jeanmichelb.riscos.fr/AppliTBox/AppliToolBox.h…</a></p>]]>
+        <p>This mode for fopen does not exist, to be able to write and read you need mode= &#8220;w+&#8221;</p>
+        <p>For the Draw_stuff() function, I think spritepointer is used with an index &lt;0 !!!</p>
+        <p>Keep going.</p>]]>
       </description>
-      <source:markdown>@John WILLIAMS
+      <source:markdown>@Jim
 
-&#62; I sometimes want to view 2 PDFs side by side, but MuView’s log file system prevents more than one instantiation.
+&#62; outfile = fopen(“RAM::RamDisc0.$.rgbout\\0”,“rwt”);
 
-I have a small application that may interest you, initially it is designed to display a score. But in fact we can display any Draw file in A4 or A5 format.
+This mode for fopen does not exist, to be able to write and read you need mode= “w+”
 
-For example, files exported from !PDF in Draw format, the program uses the same numbering.
+For the Draw\_stuff() function, I think spritepointer is used with an index &#60;0 !!!
 
-[https://jeanmichelb.riscos.fr/AppliTBox/AppliToolBox.h…](https://jeanmichelb.riscos.fr/AppliTBox/AppliToolBox.html#Score_Affiche)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:161723</guid>
-    </item>    <item>
-      <title>URI Launch Sometimes Fails</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20056</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve just encountered the problem Steve described on our Titanium (<span class="caps">RISC</span> OS 5.28, AcornURI 0.27 (26 Jun 2018). It&#8217;s very annoying as I was in the process of implementing in Python the procedure we use as standard in our C applications for launching URLs. Basically if NetSurf is not already running, it isn&#8217;t starting up in response to the <span class="caps">URI</span> Dispatch call.</p>
-        <p>I&#8217;ve not tested as thoroughly yet as Steve has, but I wondered whether anyone had got any further in working out why the process is not working any more?</p>
-        <p><strong>Edit</strong>: I&#8217;ve done some more testing, and now can&#8217;t get it to fail! Whether I use *URIDispatch or the <span class="caps">SWI</span>, URI_Dispatch, I successfully have NetSurf loading and opening its window on the web page on a freshly reset Titanium, and the same applies to opening &#8220;geo:&#8221; URLs in RiscOSM. That seems to confirm that there is nothing wrong with RiscOSM or my Python code.</p>
-        <p>I wonder what is mucking things up? It&#8217;s not Alarm, Reporter, <span class="caps">VNC</span> server, PrintPDF or Zap, which I also had running. Other things that have been running tonight include WimpMon and StrongHelp. I might have had !Find on the iconbar. Not sure there has been anything else!</p>
-        <p><strong>Further point</strong>: Hilary has in her RiscOSM bugs list an undated entry (probably before 2020) which says:</p>
-        <p><span class="caps">HAPPENED</span> <span class="caps">ONCE</span> &#8211; CAN&#8217;T <span class="caps">REPRODUCE</span>: Double-clicking <span class="caps">URI</span> file is not loading it into RiscOSM: message just keeps going round and round apps.  Pressing Shift means Zap gets it and stops the endless messaging.  Same regardless of whether RiscOSM and/or Netsurf are running.</p>
-        <p>That may have nothing to do with it, of course!</p>]]>
-      </description>
-      <source:markdown>I’ve just encountered the problem Steve described on our Titanium (RISC OS 5.28, AcornURI 0.27 (26 Jun 2018). It’s very annoying as I was in the process of implementing in Python the procedure we use as standard in our C applications for launching URLs. Basically if NetSurf is not already running, it isn’t starting up in response to the URI Dispatch call.
-
-I’ve not tested as thoroughly yet as Steve has, but I wondered whether anyone had got any further in working out why the process is not working any more?
-
-**Edit**: I’ve done some more testing, and now can’t get it to fail! Whether I use \*URIDispatch or the SWI, URI\_Dispatch, I successfully have NetSurf loading and opening its window on the web page on a freshly reset Titanium, and the same applies to opening “geo:” URLs in RiscOSM. That seems to confirm that there is nothing wrong with RiscOSM or my Python code.
-
-I wonder what is mucking things up? It’s not Alarm, Reporter, VNC server, PrintPDF or Zap, which I also had running. Other things that have been running tonight include WimpMon and StrongHelp. I might have had !Find on the iconbar. Not sure there has been anything else!
-
-**Further point**: Hilary has in her RiscOSM bugs list an undated entry (probably before 2020) which says:
-
-HAPPENEDONCE – CAN’T REPRODUCE: Double-clicking URI file is not loading it into RiscOSM: message just keeps going round and round apps. Pressing Shift means Zap gets it and stops the endless messaging. Same regardless of whether RiscOSM and/or Netsurf are running.
-
-That may have nothing to do with it, of course!</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20056:161722</guid>
+Keep going.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:161724</guid>
     </item>    <item>
       <title>Modern Frosted Theme</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
@@ -138,46 +155,6 @@ more info here on pi news:
 
 [https://www.raspberrypi.com/news/beige-is-back-remembe…](https://www.raspberrypi.com/news/beige-is-back-remembering-the-bbc-micro-with-raspberry-pi-500-plus/)</source:markdown>
       <guid>cid://www.riscosopen.org:5:20256:161716</guid>
-    </item>    <item>
-      <title>Toolbox_RaiseToolboxEvent</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Interesting that the Toolbox does not take into account of which Object is attached to which application, all Toolbox applications receive all user events.</p>
-        </blockquote>
-        <p>I suspect that&#8217;s because you&#8217;re sending events from a timer when the destination task isn&#8217;t the current task &#8211; which Toolbox_RaiseToolboxEvent isn&#8217;t designed for.</p>
-        <p>The <span class="caps">SWI</span> Toolbox_RaiseToolboxEvent, in <code>event_raise_toolbox_event()</code>, does this:</p>
-        <pre><code>   regs.r[2] = task-&gt;info.wimp_handle;   /* send to self */</code>
-        
-        <code>    if ((e = _kernel_swi (Wimp_SendMessage, &amp;regs, &amp;regs)) != NULL)</code></pre>
-        <p>The comment strongly implies to me that it was only ever intended to be sent by the current task.</p>
-        <p>&#8216;<code>task</code>&#8217; is a (poorly named!) global variable that is updated to point to the current toolbox task by the filters. If it&#8217;s not a Toolbox task, it&#8217;s set to <span class="caps">NULL</span>. There is no check that task is non-null before that line, so it is dereferencing a null pointer &#8211; &#8216;<code>info</code>&#8217; is 10 words in, and &#8216;<code>wimp_handle</code>&#8217; is a further 8 words in &#8211; which is 72 bytes in. In <span class="caps">BASIC</span>, if you do &#8220;<code>PRINT ~!72</code>&#8221;, you get zero.</p>
-        <p>Sending a message to a task handle of zero results in a broadcast message.</p>
-        <p>Now, clearly the <span class="caps">SWI</span> shouldn&#8217;t dereference zero, but fixing that would stop your event from being sent. However, even without fixing the toolbox, if you have two non-idle toolbox tasks running there&#8217;s every chance your message will be sent to (just) the current task which could be the wrong task, so you&#8217;ll never receive it.</p>
-        <p>Since the toolbox runs in <span class="caps">SVC</span> mode it won&#8217;t crash, but if the zero page were to change, or the toolbox structures were to change, you would get different undefined behaviour.</p>]]>
-      </description>
-      <source:markdown>&#62; Interesting that the Toolbox does not take into account of which Object is attached to which application, all Toolbox applications receive all user events.
-
-I suspect that’s because you’re sending events from a timer when the destination task isn’t the current task – which Toolbox\_RaiseToolboxEvent isn’t designed for.
-
-The SWI Toolbox\_RaiseToolboxEvent, in `event_raise_toolbox_event()`, does this:
-
-```
-   regs.r[2] = task-&#62;info.wimp_handle;   /* send to self */
-
-    if ((e = _kernel_swi (Wimp_SendMessage, &#38;regs, &#38;regs)) != NULL)
-```
-
-The comment strongly implies to me that it was only ever intended to be sent by the current task.
-
-‘ `task`’ is a (poorly named!) global variable that is updated to point to the current toolbox task by the filters. If it’s not a Toolbox task, it’s set to NULL. There is no check that task is non-null before that line, so it is dereferencing a null pointer – ‘ `info`’ is 10 words in, and ‘ `wimp_handle`’ is a further 8 words in – which is 72 bytes in. In BASIC, if you do “ `PRINT ~!72`”, you get zero.
-
-Sending a message to a task handle of zero results in a broadcast message.
-
-Now, clearly the SWI shouldn’t dereference zero, but fixing that would stop your event from being sent. However, even without fixing the toolbox, if you have two non-idle toolbox tasks running there’s every chance your message will be sent to (just) the current task which could be the wrong task, so you’ll never receive it.
-
-Since the toolbox runs in SVC mode it won’t crash, but if the zero page were to change, or the toolbox structures were to change, you would get different undefined behaviour.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20230:161715</guid>
     </item>    <item>
       <title>Window to Window</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20255</link>
@@ -319,14 +296,6 @@ Now, however, I’ve reverted to the previous RPi OS (Debian Bookworm) and got V
       <source:markdown>Honestly, who comes up with this rubbish</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3me42uasbnc2x</guid>
     </item>    <item>
-      <title>Coding on RISC OS fireside chat, Saturday 7th Feb.</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20250</link>
-      <description>
-        <![CDATA[<p>That will be a busy development weekend Fireside at Saturday and Gerph on Sunday ;-)</p>]]>
-      </description>
-      <source:markdown>That will be a busy development weekend Fireside at Saturday and Gerph on Sunday ;-)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20250:161690</guid>
-    </item>    <item>
       <title>Fireside developer chat on saturday night</title>
       <link>http://www.iconbar.com/comments/rss/news2294.html</link>
       <description>
@@ -334,53 +303,6 @@ Now, however, I’ve reverted to the previous RPi OS (Debian Bookworm) and got V
       </description>
       <source:markdown>The next developer chat is on saturday night (7th February) for anyone interested in a very informal event online aimed at RISC OS developers.</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2294.html</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 8th February at 1pm UK time.</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20252</link>
-      <description>
-        <![CDATA[<p>This Sunday – 8th February, at 1pm UK time – I&#8217;ll be continuing my live coding. This week, I&#8217;ll be continuing with the implementation for the Window Manager. Back in <span class="caps">RISC</span> OS Select, the truncation and split handling was written in C, so I&#8217;ll be copying that code into the module and updating it for this version.</p>
-        <p>Come along if you like – <a href="https://youtube.com/live/dc85pGAttOk?feature=share">https://youtube.com/live/dc85pGAttOk?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
-        <hr />
-        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
-        <p>The functionality we need to implement is documented in the riscos64-status repository (<a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_TextRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a>), and might take a few sessions to implement.</p>
-        <p>So far, we&#8217;ve got:</p>
-        <ul>
-        	<li>Font rendering, with substituted wimp symbol font.</li>
-        	<li>System font rendering, with substituted wimp symbol font.</li>
-        	<li>Simple font sizing.</li>
-        	<li><span class="caps">NVRAM</span> font selection.</li>
-        	<li>Selection of font from system variable.</li>
-        	<li>Simple module with an implementation of Wimp_TextOp.</li>
-        </ul>
-        <hr />
-        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-RsoccMdcAep0iZSJQT">https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-…</a></p>
-        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimptextrender.html">https://presentation.riscos.online/live/wimptextrender…</a> (once it has been published).</p>]]>
-      </description>
-      <source:markdown>This Sunday – 8th February, at 1pm UK time – I’ll be continuing my live coding. This week, I’ll be continuing with the implementation for the Window Manager. Back in RISC OS Select, the truncation and split handling was written in C, so I’ll be copying that code into the module and updating it for this version.
-
-Come along if you like – [https://youtube.com/live/dc85pGAttOk?feature=share](https://youtube.com/live/dc85pGAttOk?feature=share) – or you can always watch the video afterwards at the same address.
-
-* * *
-
-For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
-
-The functionality we need to implement is documented in the riscos64-status repository ( [https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_TextRender)), and might take a few sessions to implement.
-
-So far, we’ve got:
-
-- Font rendering, with substituted wimp symbol font.
-- System font rendering, with substituted wimp symbol font.
-- Simple font sizing.
-- NVRAM font selection.
-- Selection of font from system variable.
-- Simple module with an implementation of Wimp\_TextOp.
-
-* * *
-
-If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-…](https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-RsoccMdcAep0iZSJQT)
-
-Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimptextrender…](https://presentation.riscos.online/live/wimptextrender.html) (once it has been published).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20252:161689</guid>
     </item>    <item>
       <title>What are you doing with RISC OS?</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/653</link>
@@ -800,14 +722,6 @@ Next week, I’ll try to complete the TextOp calls, adding in the split/truncati
 
 \- Trying to get proplib compiling ( and linking ) slow progress.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20204:161643</guid>
-    </item>    <item>
-      <title>ScummVM 2026.1.0 &#38;quot;Like a Version&#38;quot; is finally released</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20248</link>
-      <description>
-        <![CDATA[<p>Nice work Cam! :)  Sounds like the codebase has grown a lot, so congrats on getting it all going.</p>]]>
-      </description>
-      <source:markdown>Nice work Cam! :) Sounds like the codebase has grown a lot, so congrats on getting it all going.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20248:161642</guid>
     </item>    <item>
       <link>https://bsky.app/profile/armbytes.bsky.social/post/3mdqvnqdjws2k</link>
       <description>
