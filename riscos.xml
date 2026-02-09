@@ -7,10 +7,168 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>08 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>09 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>This site</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20259</link>
+      <description>
+        <![CDATA[<p>I get the errir message:</p>
+        <blockquote>
+        <p>Peer sent fatal <span class="caps">TLS</span> alert: Error in protocol version</p>
+        </blockquote>
+        <p>when I try to open this site using Iris. Is it just me or is this a common experience?</p>]]>
+      </description>
+      <source:markdown>I get the errir message:
+
+&#62; Peer sent fatal TLS alert: Error in protocol version
+
+when I try to open this site using Iris. Is it just me or is this a common experience?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20259:161761</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3meh2ui4thc2s</link>
+      <description>
+        <![CDATA[A huge shout-out to everyone who made it! The next meetup is pencilled in for 28th March – a week after RISC OS North.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>A huge shout-out to everyone who made it! The next meetup is pencilled in for 28th March – a week after RISC OS North.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3meh2ui4thc2s</guid>
+    </item>    <item>
+      <title>So What Now?</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20151</link>
+      <description>
+        <![CDATA[<p>I find all of this discussion somewhat strange.</p>
+        <p>ROOL&#8217;s strategy relies on funding. By paying developers, they will be able to steer the development in the way they think best (and, if you look at the wiki, it is clear that they have thought about the issues). Their approach seems to be to rewrite modules in C as and when there is sufficient money. They could then be recompiled to run on 64 bit processors. However, at the present rate of funding this would take not far short of 500 years.</p>
+        <p>Meanwhile three developers are proposing to produce modern operating systems with some level of compatibility with existing applications. This was a task which defeated both Apple and <span class="caps">IBM</span>, both separately and together. Apple in the end built a Mac-like <span class="caps">GUI</span> on top of an existing kernel and, essentially, Free <span class="caps">BSD</span>. <span class="caps">IBM</span> bought Red Hat and adopted <span class="caps">RHEL</span>.</p>
+        <p>Both Apple and Microsoft faced this issue when going 32-bit, so going 64 bit didn&#8217;t involve a huge amount of additional effort. Apple&#8217;s answer to compatibility was to produce an emulation layer (&#8220;Classic Mode&#8221;). This was abandoned long ago. The problem with <span class="caps">RISC</span> OS is that — unlike the Mac — many key applications are no longer being developed, even where the source code is available (and, in the short time I&#8217;ve been using <span class="caps">RISC</span> OS, since 2012, ArtWorks, Easi/Tech Writer and Ovation Pro have joined the list, whilst efforts to revive Impression have stalled). So compatibility — even with 26-bit applications — will always be a concern.</p>
+        <p>Microsoft introduced a 32-bit layer on top of the existing <span class="caps">DOS</span>/Windows setup, whilst hiring an experienced OS developer (Dave Cutler) to work on a replacement (and Windows NT et seq have many echoes of <span class="caps">VMS</span>).</p>
+        <p>I&#8217;m not sure that three individuals — however talented — can accomplish a task that was beyond Apple and <span class="caps">IBM</span>. Linus Torvalds only had to develop a kernel as much of the other work had already been done! The most logical approach, I believe, would be to build a <span class="caps">RISC</span> OS-like <span class="caps">GUI</span> on top of an existing Unix-based OS together with a way of emulating existing applications. But nobody’s doing this, <span class="caps">AFAIK</span>.</p>]]>
+      </description>
+      <source:markdown>I find all of this discussion somewhat strange.
+
+ROOL’s strategy relies on funding. By paying developers, they will be able to steer the development in the way they think best (and, if you look at the wiki, it is clear that they have thought about the issues). Their approach seems to be to rewrite modules in C as and when there is sufficient money. They could then be recompiled to run on 64 bit processors. However, at the present rate of funding this would take not far short of 500 years.
+
+Meanwhile three developers are proposing to produce modern operating systems with some level of compatibility with existing applications. This was a task which defeated both Apple and IBM, both separately and together. Apple in the end built a Mac-like GUI on top of an existing kernel and, essentially, Free BSD. IBM bought Red Hat and adopted RHEL.
+
+Both Apple and Microsoft faced this issue when going 32-bit, so going 64 bit didn’t involve a huge amount of additional effort. Apple’s answer to compatibility was to produce an emulation layer (“Classic Mode”). This was abandoned long ago. The problem with RISC OS is that — unlike the Mac — many key applications are no longer being developed, even where the source code is available (and, in the short time I’ve been using RISC OS, since 2012, ArtWorks, Easi/Tech Writer and Ovation Pro have joined the list, whilst efforts to revive Impression have stalled). So compatibility — even with 26-bit applications — will always be a concern.
+
+Microsoft introduced a 32-bit layer on top of the existing DOS/Windows setup, whilst hiring an experienced OS developer (Dave Cutler) to work on a replacement (and Windows NT et seq have many echoes of VMS).
+
+I’m not sure that three individuals — however talented — can accomplish a task that was beyond Apple and IBM. Linus Torvalds only had to develop a kernel as much of the other work had already been done! The most logical approach, I believe, would be to build a RISC OS-like GUI on top of an existing Unix-based OS together with a way of emulating existing applications. But nobody’s doing this, AFAIK.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20151:161757</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3megpqvrczk2q</link>
+      <description>
+        <![CDATA[Drag'n'Drop 15i2 edition reviewed 
+        
+        https://www.iconbar.com/articles/DragnDrop_15i2_edition_reviewed/index2301.html 
+        
+        The latest edition of Drag'n'Drop magazine is now available sporting what it claims is the worst ever cover. Do you agree?]]>
+      </description>
+      <source:markdown>Drag&#39;n&#39;Drop 15i2 edition reviewed
+
+https://www.iconbar.com/articles/DragnDrop\_15i2\_edition\_reviewed/index2301.html
+
+The latest edition of Drag&#39;n&#39;Drop magazine is now available sporting what it claims is the worst ever cover. Do you agree?</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3megpqvrczk2q</guid>
+    </item>    <item>
+      <title>Iron Dignity 2020</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/15643</link>
+      <description>
+        <![CDATA[<p>Just wondering has there been any updates on Iron Dignity, Magnetoids or any of the raytracing stuff mentioned here. Also possibly new stuff from the Iron Dignity team.</p>
+        <p>I don&#8217;t think anyone could deny having these apps or even new stuff updated for modern systems would be very desirable. I for one would pay decent money for at least updated and complete versions of ID and the raytracing stuff including a full editor.</p>
+        <p>Hope there has been positive movement in recent years.</p>]]>
+      </description>
+      <source:markdown>Just wondering has there been any updates on Iron Dignity, Magnetoids or any of the raytracing stuff mentioned here. Also possibly new stuff from the Iron Dignity team.
+
+I don’t think anyone could deny having these apps or even new stuff updated for modern systems would be very desirable. I for one would pay decent money for at least updated and complete versions of ID and the raytracing stuff including a full editor.
+
+Hope there has been positive movement in recent years.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:15643:161756</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3meghjpwea22w</link>
+      <description>
+        <![CDATA[Why am I nearer "Pokemon content creators" than @givvygavvygoo.bsky.social?
+        
+        Note to self: Be less Pokemon.
+        
+        bluesky-map.theo.io]]>
+      </description>
+      <source:markdown>Why am I nearer &#34;Pokemon content creators&#34; than @givvygavvygoo.bsky.social?
+
+Note to self: Be less Pokemon.
+
+bluesky-map.theo.io</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3meghjpwea22w</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3megd42vmsc2w</link>
+      <description>
+        <![CDATA[Speaking as an uber-woke net-zero rejoinerist I'm delighted to finally be represented.
+        
+        <continues to not hold breath>]]>
+      </description>
+      <source:markdown>Speaking as an uber-woke net-zero rejoinerist I&#39;m delighted to finally be represented.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3megd42vmsc2w</guid>
+    </item>    <item>
+      <title>Drag&#39;n&#39;Drop 15i2 edition reviewed</title>
+      <link>http://www.iconbar.com/comments/rss/news2301.html</link>
+      <description>
+        <![CDATA[The latest edition of Drag'n'Drop magazine is now available sporting what it claims is the worat ever cover. Do you agree????]]>
+      </description>
+      <source:markdown>The latest edition of Drag&#39;n&#39;Drop magazine is now available sporting what it claims is the worat ever cover. Do you agree????</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2301.html</guid>
+    </item>    <item>
+      <title>!Family</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20257</link>
+      <description>
+        <![CDATA[<p>Oh that&#8217;s great &#8211; thanks Douglas!</p>]]>
+      </description>
+      <source:markdown>Oh that’s great – thanks Douglas!</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20257:161751</guid>
+    </item>    <item>
+      <title>URI Launch Sometimes Fails</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20056</link>
+      <description>
+        <![CDATA[<p>Yes, the browser is looked at. It works on a freshly reset machine before I have run any other applications. The question is why the URI_Dispatch process subsequently <strong>stops</strong> working. I&#8217;ve not reproduced the problem again yet. I&#8217;ve not actively sought to, as I&#8217;d rather be developing software, but if it happens again I will try to spot any patterns.</p>]]>
+      </description>
+      <source:markdown>Yes, the browser is looked at. It works on a freshly reset machine before I have run any other applications. The question is why the URI\_Dispatch process subsequently **stops** working. I’ve not reproduced the problem again yet. I’ve not actively sought to, as I’d rather be developing software, but if it happens again I will try to spot any patterns.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20056:161750</guid>
+    </item>    <item>
+      <title>Bluetooth development</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
+      <description>
+        <![CDATA[<p>An update from this weekend work:<br />
+        - Work on getting libprop compiled in this process added some header files in sys and added two functions to <span class="caps">BSDFIX</span>.h. Implementation to be done ;-)<br />
+        - Small changes in Mk ( more memory allocation for the <span class="caps">ROOL</span> compiler ) and MkClear ( set the &#8216;current directory&#8217; back to the <span class="caps">ROBTBSD</span> root so my git life gets easier).</p>]]>
+      </description>
+      <source:markdown>An update from this weekend work:
+
+\- Work on getting libprop compiled in this process added some header files in sys and added two functions to BSDFIX.h. Implementation to be done ;-)
+
+\- Small changes in Mk ( more memory allocation for the ROOL compiler ) and MkClear ( set the ‘current directory’ back to the ROBTBSD root so my git life gets easier).</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20204:161749</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>I sent Jim a number of programs that offered slightly different ways of &#8220;de-browning&#8221; the text. They were all written on a Pi 500+ with Linux, mostly using Python 3. However the libraries used are binary — that is, the code is written in C — and as such they would be highly unlikely to install using pip on <span class="caps">RISC</span> OS. opencv in particular also needs the Qt <span class="caps">GUI</span> toolkit to be available.</p>
+        <p>Most of them used thresholding of one sort or another. This does not always produce as readable result as you might wish — much is going to depend on which device the output is going to be viewed on.</p>
+        <p>The best results I&#8217;ve obtained on the Pi is using the auto white balance feature of <span class="caps">GIMP</span> (version 3). I assume this simply decides that the brightest colour is white and rebalances accordingly. It&#8217;s possible to batch-process using <span class="caps">GIMP</span> with the &#8220;Batcher&#8221; add-on.</p>
+        <p>I&#8217;ve just looked at PhotoDesk. I get even better resulta by selecting Gamma in the Image Processing dialog, with the option &#8220;Brighten high tones&#8221; for both red and green, and using the magic wand to apply this to the whole of the image. Unfortunately, PhotoDesk isn&#8217;t scriptable.</p>]]>
+      </description>
+      <source:markdown>I sent Jim a number of programs that offered slightly different ways of “de-browning” the text. They were all written on a Pi 500+ with Linux, mostly using Python 3. However the libraries used are binary — that is, the code is written in C — and as such they would be highly unlikely to install using pip on RISC OS. opencv in particular also needs the Qt GUI toolkit to be available.
+
+Most of them used thresholding of one sort or another. This does not always produce as readable result as you might wish — much is going to depend on which device the output is going to be viewed on.
+
+The best results I’ve obtained on the Pi is using the auto white balance feature of GIMP (version 3). I assume this simply decides that the brightest colour is white and rebalances accordingly. It’s possible to batch-process using GIMP with the “Batcher” add-on.
+
+I’ve just looked at PhotoDesk. I get even better resulta by selecting Gamma in the Image Processing dialog, with the option “Brighten high tones” for both red and green, and using the magic wand to apply this to the whole of the image. Unfortunately, PhotoDesk isn’t scriptable.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:161748</guid>
+    </item>    <item>
       <title>Live Coding with Gerph, Sunday 8th February at 1pm UK time.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20252</link>
       <description>
@@ -48,38 +206,13 @@ Having ScummVM 1.3.1-3 available on PackMan at the same time is a bit confusing 
       <title>Printing via Mac OS</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20258</link>
       <description>
-        <![CDATA[<p>Has anybody tried printing from <span class="caps">RISC</span> OS via a Mac? I am wondering if I could transfer a pdf from <span class="caps">RISC</span> OS using <span class="caps">FTP</span>, so that it lands in a shared folder and is picked up automatically by macOS and printed using a mixture of Hazel and Automator. I don’t own Hazel, so would be an expensive experiment if it didn’t work! Has anyone tried it?<br />
-        Thanks, Martin</p>]]>
+        <![CDATA[<p>Hi, thanks, yes, I can print off from within Mac OS, but an automated workaround would be even better &#8211; it would effectively be like printing direct from <span class="caps">RISC</span> OS but using the Mac drivers, without having to faff around manually going through the Mac every time I want to print something. That would, to my mind, make <span class="caps">RISC</span> OS more usable on an everyday basis<br />
+        Martin</p>]]>
       </description>
-      <source:markdown>Has anybody tried printing from RISC OS via a Mac? I am wondering if I could transfer a pdf from RISC OS using FTP, so that it lands in a shared folder and is picked up automatically by macOS and printed using a mixture of Hazel and Automator. I don’t own Hazel, so would be an expensive experiment if it didn’t work! Has anyone tried it?
+      <source:markdown>Hi, thanks, yes, I can print off from within Mac OS, but an automated workaround would be even better – it would effectively be like printing direct from RISC OS but using the Mac drivers, without having to faff around manually going through the Mac every time I want to print something. That would, to my mind, make RISC OS more usable on an everyday basis
 
-Thanks, Martin</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20258:161730</guid>
-    </item>    <item>
-      <title>URI Launch Sometimes Fails</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20056</link>
-      <description>
-        <![CDATA[<p>Is the browser in LookAt in !Configure, or does it only work after you&#8217;ve found the browser in the filer and run it up once?</p>]]>
-      </description>
-      <source:markdown>Is the browser in LookAt in !Configure, or does it only work after you’ve found the browser in the filer and run it up once?</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20056:161729</guid>
-    </item>    <item>
-      <title>!Family</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20257</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve used the !Family application, by Denis Howe, to record my family tree for many years and the version I have is 2.18. Whilst looking for Toolbox tutorials I came across Rosemary Miskin&#8217;s website which includes a genealogy section. It mentions !Family version 2.24 being available on Andy Waddington&#8217;s site but unfortunately that site no longer seems to exist. There&#8217;s also a reference to it on the <span class="caps">RISC</span> OS ProductsDB.</p>
-        <p>I wonder whether anyone knows if the later version is available anywhere and what was added?</p>
-        <p>Many thanks,</p>
-        <p>Daniel.</p>]]>
-      </description>
-      <source:markdown>I’ve used the !Family application, by Denis Howe, to record my family tree for many years and the version I have is 2.18. Whilst looking for Toolbox tutorials I came across Rosemary Miskin’s website which includes a genealogy section. It mentions !Family version 2.24 being available on Andy Waddington’s site but unfortunately that site no longer seems to exist. There’s also a reference to it on the RISC OS ProductsDB.
-
-I wonder whether anyone knows if the later version is available anywhere and what was added?
-
-Many thanks,
-
-Daniel.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20257:161727</guid>
+Martin</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20258:161737</guid>
     </item>    <item>
       <title>Toolbox_RaiseToolboxEvent</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20230</link>
@@ -88,28 +221,6 @@ Daniel.</source:markdown>
       </description>
       <source:markdown>Looking at it again, that won’t work, completely the wrong field. I think I’ll have to send the Wimp message myself with the correct wimp\_handle.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20230:161725</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>@Jim</p>
-        <blockquote>
-        <p>outfile = fopen(“RAM::RamDisc0.$.rgbout\0”,“rwt”);</p>
-        </blockquote>
-        <p>This mode for fopen does not exist, to be able to write and read you need mode= &#8220;w+&#8221;</p>
-        <p>For the Draw_stuff() function, I think spritepointer is used with an index &lt;0 !!!</p>
-        <p>Keep going.</p>]]>
-      </description>
-      <source:markdown>@Jim
-
-&#62; outfile = fopen(“RAM::RamDisc0.$.rgbout\\0”,“rwt”);
-
-This mode for fopen does not exist, to be able to write and read you need mode= “w+”
-
-For the Draw\_stuff() function, I think spritepointer is used with an index &#60;0 !!!
-
-Keep going.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:161724</guid>
     </item>    <item>
       <title>Modern Frosted Theme</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
@@ -708,20 +819,6 @@ Next week, I’ll try to complete the TextOp calls, adding in the split/truncati
       </description>
       <source:markdown>How many of you can remember this iconic scene from 1970s TV ( UK )?</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mdsbzlgqvs2m</guid>
-    </item>    <item>
-      <title>Bluetooth development</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
-      <description>
-        <![CDATA[<p>An update for yesterdays update ;-): <br />
-        - Trying to get btdevctl compiled and linking. It is seems it compiles but not links it uses a lot of references to proplib so put my attention to compiling proplib<br />
-        - Trying to get proplib compiling ( and linking ) slow progress.</p>]]>
-      </description>
-      <source:markdown>An update for yesterdays update ;-):
-
-\- Trying to get btdevctl compiled and linking. It is seems it compiles but not links it uses a lot of references to proplib so put my attention to compiling proplib
-
-\- Trying to get proplib compiling ( and linking ) slow progress.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20204:161643</guid>
     </item>    <item>
       <link>https://bsky.app/profile/armbytes.bsky.social/post/3mdqvnqdjws2k</link>
       <description>
@@ -2958,31 +3055,6 @@ For further information, please email [info2025@wrocc.org.uk](mailto:info2025@wr
       </description>
       <source:markdown>2025 has been a great year for me in coding, thanks everyone for all the stars. I hope 2026 is going to be another stellar year! I&#39;m thrilled to be ranked in the top 1% of devs, and if I can do it so can you. Just keep on coding, don&#39;t give up, forget the hype about AI, keep digging and learning!</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mbgyody5w22x</guid>
-    </item>    <item>
-      <title>So What Now?</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/20151</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I don?t think that?s fair to <span class="caps">ROOL</span>. They have set out the degree to which they<br />
-        are committing to doing work towards 64-bit. They run these forums and will be<br />
-        watching them and seeing the work that?s gone on. Having a clear idea what<br />
-        involvement they want is a positive sign ? and one that is enlightening for<br />
-        those of us that had a different impression.</p>
-        </blockquote>
-        <p>I guess I&#8217;ve taken the cup half empty view of the situation opposed to the atleast there is a cup, but can see how that would give you at least a reference point to work from.</p>]]>
-      </description>
-      <source:markdown>&#62; I don?t think that?s fair to ROOL. They have set out the degree to which they
-&#62;
-&#62; are committing to doing work towards 64-bit. They run these forums and will be
-&#62;
-&#62; watching them and seeing the work that?s gone on. Having a clear idea what
-&#62;
-&#62; involvement they want is a positive sign ? and one that is enlightening for
-&#62;
-&#62; those of us that had a different impression.
-
-I guess I’ve taken the cup half empty view of the situation opposed to the atleast there is a cup, but can see how that would give you at least a reference point to work from.</source:markdown>
-      <guid>cid://www.riscosopen.org:13:20151:161139</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mbfu3fk2hs2z</link>
       <description>
