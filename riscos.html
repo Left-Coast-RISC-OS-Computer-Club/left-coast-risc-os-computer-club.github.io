@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.18" >
-  <meta name="date" content="2026-02-09T12:00:29-08:00" >
+  <meta name="date" content="2026-02-10T12:00:30-08:00" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -20,6 +20,201 @@
   </nav>
   <section>
 
+    <article data-published="2026-02-10T19:23:57Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20206">
+      <h1>Iyonix and the rest of my Risc OS collection</h1>
+
+(date: 2026-02-10)
+      <p>
+      <p>Andrew Rawnsley@</p>
+<p>Many thanks for the detailed info. I’ve followed your recommendations, but so far I still can’t get networking working. I’ve got two Iyonixes and I see the same behaviour on both — although to be fair they’re running the same software image (the second one is basically a clone of the first).</p>
+<p>Next step for me is to rule out a “dirty” system: I’m going to install a clean RISC OS 5.30 and try your settings again. That should tell me whether something in my current setup is breaking networking.</p>
+<p>One question: does the Iyonix RJ45 socket actually have link/activity LEDs? It’s hard to see the full connector because of the rear panel shroud, so I can’t tell whether there should be any indicators at all.</p>
+<p>I’m also planning to replace the PSUs in both machines with new, quiet units — hopefully more stable than the originals. The good news is that after a lot of work both Iyonixes now play MP3s reliably and with good quality, so at least that’s sorted. And yes — I’m abandoning the idea of USB sound cards.</p>
+<p>As for the Raspberry Pi: I get the suggestion, but my “retro hobby” is very much about restoring real hardware and pushing it to the limit, not running RISC OS on Pi (which feels like PC emulation to me). I’m currently trying to bring a Phoebe back to life as well — the easy route is Pi, but I’m deliberately taking the harder one. That’s where the fun is. Thanks again!</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20206">https://www.riscosopen.org/forum/forums/11/topics/20206</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-10T15:49:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mejcunc65k2j">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-02-10)
+      <p>
+      <p>I'll be speaking at the next @rougol.bsky.social (RISC OS User Group of London) meeting at the Duke of Sussex pub next Monday 16th February! Details available here: <a href="https://rougol.jellybaby.net/meetings/index.html">https://rougol.jellybaby.net/meetings/index.html</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mejcunc65k2j">https://bsky.app/profile/colinhoad.com/post/3mejcunc65k2j</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-10T11:02:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3meisryfqkc2y">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-02-10)
+      <p>
+      <p>Here's a great video of the Retro Computer Festival 2025 event that @computinghistory.org.uk hosted last year. Myself, and lots of other game developers were there and you can see what we were showing the visitors!<a href="https://youtu.be/v5CJwTemw-Q?si=nlkhqLHY4UhhoIyW&amp;t=895">https://youtu.be/v5CJwTemw-Q?si=nlkhqLHY4UhhoIyW&amp;t=895</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3meisryfqkc2y">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3meisryfqkc2y</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-10T10:59:21Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
+      <h1>MuView and rendering PDF pages</h1>
+
+(date: 2026-02-10)
+      <p>
+      <p>Update: I now have a composcript that collects the stats of the relative levels, rgb. To that I can add analysis of the stats of, say, &quot;WHEN (R-G &gt; chosen level) AND (G – B &gt; chosen level) and then DO a change of the RGB levels. e.g. to detect a level of ‘browning’ to then trigget making the pixel white (or a suitable greyscale).</p>
+<p>For me, the point of using Compo for this is that it lets you show what you have, what the change looks like, etc. Since Composcript also allows user interaction it means I can focus on the anallysis, etc, and have compo show me the results – which then can inform another application of some change – or to ‘back out’ on a previous one. Makes the result desktop interactive without my having to worry about the WIMP … which I neven managed to get the hang of. :-)</p>
+<p>It also means I can then automate having it do a set of pages with the ’recipy’test promises to get the best result.</p>
+<p>In effect, Compo + Scripting makes it easier to have an interactive ‘desktop app’ presentation, so far as I’m concerned.</p>
+<p>If I can find out useful info like determining that given R-G-B relative values tell-tale oxidation it may make better ‘de-toxing’ possible for the worst cases.</p>
+<p>Alas, many old scans of deteriorated pulps don’t HAVE a text-glyph content. Only bitmaps.</p>
+<p>BTW One puzzle I have with MuView is that it seems not to by default show the included bitmaps as x1 scale. If I ‘zoom in’ I get more detail in some cases but not others. Is there a way to tell it to default to x1 scaled rendering of bitmaps? Or do I need mutools or summat?</p>
+<p>And from my POV although I’m doing it this way I’d LOVE someone better-skilled at programming to do a better desktop app for cleaning up and optimising the bitmaps in these scans of old magz/books that are now badly oxidised. To some extent I’m doing this to draw people’s attention to the problem and stimulate someone finding a ‘better mousetrap’ for this particular rodent that eats the information on the old pages… 8-}</p>
+<p>Jim</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-10T10:50:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3meis4a5qlk2y">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-02-10)
+      <p>
+      <p>I'm still reeling at the price of RAM for a new PC. I wanted to install 64GB in my development machine. Ouch! That RAM will now cost more than the decent video card I had my eyes on. Apparently a lot of it is to do with AI. Please can everyone stop generating AI junk so I can get more RAM. Thanks!</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3meis4a5qlk2y">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3meis4a5qlk2y</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-10T02:14:05Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20260">
+      <h1>Family tree software -- possibly Ancestor+</h1>
+
+(date: 2026-02-10)
+      <p>
+      <p>TLDR: Do you have any family tree software? What’s it called, and how does it save its data? I am trying to unearth a family tree I made years ago on my dad’s RO machine.</p>
+<hr>
+<p>I previously asked this over on Stardot, and it was suggested there that I ask here.</p>
+<p>I’m trying to dig up a family tree I (with a lot of my late father’s help) put together years and years ago. The problem is that all I have is a pile of full-drive backups, no RO machine to inspect it all with, and no strong memory of what the software was called or where the file might have been saved or what it might look like. I can search for filenames, and for filetypes as long as I know the hex number of the filetype in question, and for strings in the contents of files. Unfortunately I don’t even know if the files will be in the backups, so as such I want to make the search as exhaustive as possible.</p>
+<p>A good first clue would be the name of the software I was using. Then I could hopefully gather some information on how it stored its data, so I know what to search for. I think it could have been anywhere between 1994 and 2002, which I realize is quite a range. I found <a href="http://www.riscos.com/the_archive/rol/productsdb/swcat/gene.htm">a list of family tree software</a> but rather depressingly every single one of its links is dead. And unfortunately none of the names of the pieces of software especially ring a bell. I wish I could see screenshots of them; that might help. Is there any other software not listed which it could have been?</p>
+<p>My best guess is that it was Ancestor+ ( <a href="http://apdl.davidhill.co/riscworld/volumes/volume3/issue5/ancman/manual/prefac.htm">here</a> is the best info online I can find about it), and that’s because it’s the only one of those which appears in the spreadsheet we put together when trying to inventory everything after dad died. It’s still only a guess, though, since there was certainly other software — things from compilations, things which were downloaded, things which were lost…</p>
+<p>Here’s what I can remember:</p>
+<ul>
+<li>It was definitely software specifically for family trees; it wasn’t a general-purpose database</li>
+<li>It was a GUI; I wasn’t editing any data files manually</li>
+<li>It was capable of displaying different parts of the tree, for example I could have it show my mother’s side or my father’s side</li>
+<li>It was capable of storing information further than just names and position on the tree: I was entering birthdays and dates of death, and I wish I could remember what else. I entered this information in a separate floating window, I think.</li>
+</ul>
+<p>I doubt that narrows it down much, but worth a try.</p>
+<p>So: does anyone have any idea what software it might have been? Does the above sound like Ancestor+? If you have Ancestor+ or any other family tree software which might be a match, could you tell me how it stores its data? What’s the 3-hex-letter code for any relevant filetypes it saves? Any other clues that might be useful in searching for its files? I can search filenames or I can search by string in file contents.</p>
+<p>With any luck I’ll find the files, and then hopefully I’ll be able to figure out how to parse its data format myself, or perhaps I will be able to persuade a kind community member to extract the data for me.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20260">https://www.riscosopen.org/forum/forums/5/topics/20260</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-10T02:13:45Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13561&page=1#125865">
+      <h1>System ID.</h1>
+
+(date: 2026-02-10)
+      <p>
+      <p>Hi All, I'm wondering if there is a listing of which model motherboard belongs to which model of Acorn? I've seen listings of motherboard for sale that are described as Acorn RISC or Archimedes but they never say what chassis it goes in, ie RISC PC or A7000 etc, that's just an example.</p>
+
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13561&page=1#125865">http://www.iconbar.com/forums/viewthread.php?threadid=13561&page=1#125865</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-10T02:01:54Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/16763">
+      <h1>rustc, ELF, ld...</h1>
+
+(date: 2026-02-10)
+      <p>
+      <blockquote>
+<p>@Paolo, When I try to install with rustup target add armv4t-none-eabi I get</p>
+</blockquote>
+<p>Sorry Simon just saw this one, my apologies for the very late response.</p>
+<p>To compile for ARMv4T (basically the StrongARM) you cannot use standard targets, because there isn’t one for ARMv4T, for Merlin I had to create a custom one (Rust supports them), if you need it I can share it, let me know.</p>
+<p>Then, to control and perform the low level part of the build, you’ll need the old arm-none-eabi-* (with support for ARMv4T).</p>
+<p>Finally you cannot use std, and that is fine by me for Merlin, Merlin is completely no_std, I rewrote also my own atomic library, as well as my own memory allocators and threading lib. For your program this is also fine, you’re not using any pieces of std.</p>
+<p>The last bit for ARMv4T (this is more of a general recomendation if you’re trying to build something for the RiscPC), you’ll also need a linker script that is correct for the RiscPC.</p>
+<p>When you have all these pieces in places the build is straight forward.</p>
+<p>Before someone asks: There is no way to build for ARM in 26 bit mode, there isn’t just anything in LLVM to support that, so no switches that can be enabled/disabled in the custom profile etc.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/16763">https://www.riscosopen.org/forum/forums/11/topics/16763</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-09T22:53:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mehk3tcr6k2o">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-02-09)
+      <p>
+      <p>Bluesky is having a bad day isn’t it?</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mehk3tcr6k2o">https://bsky.app/profile/nemo20000.bsky.social/post/3mehk3tcr6k2o</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-09T22:49:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mehjtiz7q22g">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-02-09)
+      <p>
+      <p>Apropos of nothing, I was reminded the other day that I should clarify that just because your BBC/Acorn/RISC OS machine is running your (Basic) program, this doesn’t mean the filing system syntax is “FS::Drive.root.dir.dir.dir.file/ext” – strictly speaking you have to check OS_Byte,0,1 to find out:</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mehjtiz7q22g">https://bsky.app/profile/nemo20000.bsky.social/post/3mehjtiz7q22g</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-09T22:18:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mehi4tpnis2z">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-02-09)
+      <p>
+      <p>I’ve said it before and I’ll no doubt be given reason to say it again, but I’ll repeat: Developers are *bad* at interfaces.</p>
+<p>And RISC OS developers are particularly bad at RISC OS interfaces.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mehi4tpnis2z">https://bsky.app/profile/nemo20000.bsky.social/post/3mehi4tpnis2z</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-09T21:22:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mehey4p7c22b">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-02-09)
+      <p>
+      <p>It was ABUG North (Leeds) this weekend, here's a video of what we all got up to...</p>
+<p>youtu.be/LHq_Y8MNEmw<a href="https://youtu.be/LHq">https://youtu.be/LHq</a>_Y8MNEmw</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mehey4p7c22b">https://bsky.app/profile/colinhoad.com/post/3mehey4p7c22b</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-09T20:32:59Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20258">
+      <h1>Printing via Mac OS</h1>
+
+(date: 2026-02-09)
+      <p>
+      <p>Thank you for that, David Gee</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20258">https://www.riscosopen.org/forum/forums/11/topics/20258</a>
+      </address>
+    </article>
+
     <article data-published="2026-02-09T19:06:34Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20259">
       <h1>This site</h1>
 
@@ -33,6 +228,24 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/5/topics/20259">https://www.riscosopen.org/forum/forums/5/topics/20259</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-09T19:02:54Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20204">
+      <h1>Bluetooth development</h1>
+
+(date: 2026-02-09)
+      <p>
+      <p>Hi Timo,</p>
+<p>Bravo for your work and your tenacity.</p>
+<p>I’m going to ask a possibly stupid question.</p>
+<p>To make your model work you have to modify a lot the BSD version you are working on.</p>
+<p>Can we draw inspiration from what was done for the Wifi TCPIP stack, I think it would be an excellent (working) model.</p>
+<p>On the other hand, I don’t know if sources are available even to study them.</p>
+<p>The idea is to move in the right direction for the development of Risc OS.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20204">https://www.riscosopen.org/forum/forums/5/topics/20204</a>
       </address>
     </article>
 
@@ -156,35 +369,6 @@
       </address>
     </article>
 
-    <article data-published="2026-02-08T20:03:42Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20204">
-      <h1>Bluetooth development</h1>
-
-(date: 2026-02-08)
-      <p>
-      <p>An update from this weekend work:</p>
-<p>- Work on getting libprop compiled in this process added some header files in sys and added two functions to BSDFIX.h. Implementation to be done ;-)</p>
-<p>- Small changes in Mk ( more memory allocation for the ROOL compiler ) and MkClear ( set the ‘current directory’ back to the ROBTBSD root so my git life gets easier).</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20204">https://www.riscosopen.org/forum/forums/5/topics/20204</a>
-      </address>
-    </article>
-
-    <article data-published="2026-02-08T19:14:13Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
-      <h1>MuView and rendering PDF pages</h1>
-
-(date: 2026-02-08)
-      <p>
-      <p>I sent Jim a number of programs that offered slightly different ways of “de-browning” the text. They were all written on a Pi 500+ with Linux, mostly using Python 3. However the libraries used are binary — that is, the code is written in C — and as such they would be highly unlikely to install using pip on RISC OS. opencv in particular also needs the Qt GUI toolkit to be available.</p>
-<p>Most of them used thresholding of one sort or another. This does not always produce as readable result as you might wish — much is going to depend on which device the output is going to be viewed on.</p>
-<p>The best results I’ve obtained on the Pi is using the auto white balance feature of GIMP (version 3). I assume this simply decides that the brightest colour is white and rebalances accordingly. It’s possible to batch-process using GIMP with the “Batcher” add-on.</p>
-<p>I’ve just looked at PhotoDesk. I get even better resulta by selecting Gamma in the Image Processing dialog, with the option “Brighten high tones” for both red and green, and using the magic wand to apply this to the whole of the image. Unfortunately, PhotoDesk isn’t scriptable.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
-      </address>
-    </article>
-
     <article data-published="2026-02-08T12:53:30Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20252">
       <h1>Live Coding with Gerph, Sunday 8th February at 1pm UK time.</h1>
 
@@ -231,19 +415,6 @@
 
       <address>
         <a href="https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mec65yfwq22u">https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mec65yfwq22u</a>
-      </address>
-    </article>
-
-    <article data-published="2026-02-07T18:31:48Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20258">
-      <h1>Printing via Mac OS</h1>
-
-(date: 2026-02-07)
-      <p>
-      <p>Hi, thanks, yes, I can print off from within Mac OS, but an automated workaround would be even better – it would effectively be like printing direct from RISC OS but using the Mac drivers, without having to faff around manually going through the Mac every time I want to print something. That would, to my mind, make RISC OS more usable on an everyday basis</p>
-<p>Martin</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20258">https://www.riscosopen.org/forum/forums/11/topics/20258</a>
       </address>
     </article>
 
@@ -2152,65 +2323,6 @@ Windows 8 (to now): This PC</p>
       </address>
     </article>
 
-    <article data-published="2026-01-14T21:53:36Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/16763">
-      <h1>rustc, ELF, ld...</h1>
-
-(date: 2026-01-14)
-      <p>
-      <p>Posting an incorrect statement on the internet wins again! Thanks @Piers.</p>
-<p>With <code>-C opt-level=3</code> there’s no stack used at all, even if I make the code a little more practical. There are a lot of nops, because the parameter to writec is already in r0.</p>
-<p>@Paolo, When I try to install with rustup target add armv4t-none-eabi I get</p>
-<blockquote>
-<p>error: toolchain ‘stable-x86_64-unknown-linux-gnu’ does not support target ‘armv4t-none-eabi’; did you mean ‘armv7a-none-eabi’?</p>
-</blockquote>
-<pre><code>#![no_std]
-#![no_main]
-
-use core::arch::asm;
-use core::arch::naked_asm;
-use core::panic::PanicInfo;
-
-// pub extern &quot;C&quot; to allow the naked asm to call main (with a stack).
-#[no_mangle]
-pub extern &quot;C&quot; fn main() {
-  for c in &quot;Hello world!\n&quot;.bytes() {
-    writec( c );
-  }
-}
-
-#[panic_handler]
-fn panic_handler(_p: &amp;PanicInfo) -&gt; ! {
-  loop {};
-}
-
-fn writec( c: u8 ) {
-  unsafe {
-    asm! ( &quot;mov r0, {0}\n svc 0&quot;, in(reg) c );
-  }
-}
-
-#[unsafe(link_section = &quot;.init&quot;)]
-#[no_mangle]
-#[unsafe(naked)]
-pub extern &quot;C&quot; fn _start() {
-  naked_asm! (
-         &quot;mov r0, #0&quot;,
-      &quot;\n mov r1, #0&quot;,
-      &quot;\n mov r2, #0&quot;,
-      &quot;\n mov r3, #0&quot;,
-      &quot;\n svc 0x40&quot;,
-      &quot;\n mov sp, r1&quot;,
-      &quot;\n bl main&quot;,
-      &quot;\n svc 0x11&quot;
-      );
-}
-</code></pre>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/16763">https://www.riscosopen.org/forum/forums/11/topics/16763</a>
-      </address>
-    </article>
-
     <article data-published="2026-01-14T18:47:32Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/3590">
       <h1>RiscPCB Version 1.02</h1>
 
@@ -2627,26 +2739,6 @@ pub extern &quot;C&quot; fn _start() {
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/11/topics/20207">https://www.riscosopen.org/forum/forums/11/topics/20207</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-08T20:25:13Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20206">
-      <h1>Iyonix and the rest of my Risc OS collection</h1>
-
-(date: 2026-01-08)
-      <p>
-      <p>Firstly, don’t tick “act as IP router”. If you fill in anything in the Routing window, only put the address of your router – leave everything else blank. If using DHCP, leave everything blank/unticked.</p>
-<p>For IP address, either use DHCP (no options) or static (fixed) IP address within same range as router (eg. 192.168.8.100). Netmask of 255.255.255.0 Note that not many routers use 192.168.8.x so you might want to confirm that. 192.168.1.x or 192.168.0.x are more common.</p>
-<p>For Host names, put hostname (eg. iyonix) in first box.</p>
-<p>If using DHCP leave rest unticked/blank.</p>
-<p>If not using DHCP, put something in domain (must have a dot in it) such as .nom or .home or a full domain if you have one (eg. riscos.com). For primary DNS, put address of router. For secondary address put 1.1.1.1 (Cloudflare) or 8.8.8.8 (Google).</p>
-<p>Set/Save etc. Don’t forget to reboot.</p>
-<p>If this doesn’t work, be aware that one of the first signs of a failing Iyonix PSU is the network port failing. USB ethernet is possible on RISC OS – stick to USB 2 adapters though, ideally with ASIX AX88772 chipset. Not every ROM has EtherUSB in ROM though.</p>
-<p>RISC OS cannot use USB soundcards at all without a custom ROM. Even then, it can’t use it system-wide, only via specific software.</p>
-<p>Finally, be aware that Iyonixes are amongst the more troublesome machines to keep going (see Martin Eastwood’s problems). You may be better off with a cheap Raspberry Pi to play around with – it will likely give you better compatibility with old games etc via !ADFFS and the AnyMode module.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20206">https://www.riscosopen.org/forum/forums/11/topics/20206</a>
       </address>
     </article>
 
