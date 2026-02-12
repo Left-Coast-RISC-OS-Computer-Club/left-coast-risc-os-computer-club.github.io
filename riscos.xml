@@ -7,10 +7,32 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>11 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>12 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3meobcwqjp22n</link>
+      <description>
+        <![CDATA[Fancy some mid-afternoon Beeb game silliness?
+        youtu.be/6Mtl5vua9t4
+        https://youtu.be/6Mtl5vua9t4]]>
+      </description>
+      <source:markdown>Fancy some mid-afternoon Beeb game silliness?
+youtu.be/6Mtl5vua9t4
+https://youtu.be/6Mtl5vua9t4</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3meobcwqjp22n</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3men3rqq6b22g</link>
+      <description>
+        <![CDATA[Very off topic for this account, but this is important research 😛
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Very off topic for this account, but this is important research 😛
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3men3rqq6b22g</guid>
+    </item>    <item>
       <title>Retro YouTube, and pocket computers – ROUGOL, 16th February</title>
       <link>https://www.riscository.com/2026/colin-hoade-rougol-16th-february/</link>
       <description>
@@ -38,6 +60,20 @@
 
 2 CORP Alex Waugh</source:markdown>
       <guid>cid://www.riscosopen.org:11:20257:161794</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>I now have a version of the CompoScript that saves out basic stats of the bitmap image it has loaded. I want to add a simple &#8216;filter&#8217; based on that which shows how the stats can be used to set &#8216;rules&#8217; for de-oxidisation (or, indeed, other alterations as the user may wish). Then I&#8217;ll make that process available on the web so people can see it and improve/alter it, or just use it to get some idea of how tweaks to improve ebook bitmaps can be batch processed.</p>
+        <p>I don&#8217;t really know much about working with other types of bitmap. So my approach depends on having sprites or using an app that converts to sprites.</p>
+        <p>Once I&#8217;ve made the above available, perhspa someone can explain in more detail how I could use the best method to deal with other types of file. And perhaps how to get &#8216;x1 size&#8217; bitmaps out of PDFs. (Many I have clearly by default show some other scale by default. (This is using MuView.)</p>]]>
+      </description>
+      <source:markdown>I now have a version of the CompoScript that saves out basic stats of the bitmap image it has loaded. I want to add a simple ‘filter’ based on that which shows how the stats can be used to set ‘rules’ for de-oxidisation (or, indeed, other alterations as the user may wish). Then I’ll make that process available on the web so people can see it and improve/alter it, or just use it to get some idea of how tweaks to improve ebook bitmaps can be batch processed.
+
+I don’t really know much about working with other types of bitmap. So my approach depends on having sprites or using an app that converts to sprites.
+
+Once I’ve made the above available, perhspa someone can explain in more detail how I could use the best method to deal with other types of file. And perhaps how to get ‘x1 size’ bitmaps out of PDFs. (Many I have clearly by default show some other scale by default. (This is using MuView.)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:161792</guid>
     </item>    <item>
       <title>Drag &#38;#39;N Drop 60th Edition</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20246</link>
@@ -131,12 +167,70 @@ Our venue is right next to Waterloo Station and there is parking directly outsid
 For any queries or to receive the Zoom link (same as previous months) contact us – [https://rougol.jellybaby.net/contacts/](https://rougol.jellybaby.net/contacts/)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20261:161787</guid>
     </item>    <item>
+      <title>rustc, ELF, ld...</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/16763</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>(It’s very cool.)</p>
+        </blockquote>
+        <p>Indeed it is, I am loving it. I had a couple of months (years ago) of stiff learning curve, but then all clicked, and now I prefer to use Rust to anything else if I can.</p>
+        <blockquote>
+        <p>Compiling binutils and gcc for arm-none-eabi-* shouldn’t be a problem unless they’ve dumped support at some point (and old versions of both are always available).</p>
+        </blockquote>
+        <p>Indeed and that&#8217;s what I use, older versions. I don&#8217;t think anyone will be interested in building Merlin for a RiscPC and for the few who will be (probably. mostly on stardot) I&#8217;ll make a copy of all the tools availble for download from somewhere.</p>
+        <blockquote>
+        <p>K2 doesn’t use any stdlib either. The plan is to port newclib to it for applications to use. I expect a similar approach would work for Rust.</p>
+        </blockquote>
+        <p>That is indeed a good approach :) &#8211; No CLib will solve a lot of issues. Thanks for the pointers, I am also looking at a CLib written in Rust, which actually is memory safe, I had no chance to test it yet, so Ido not have a done deal yet, so definitely will have a look at your suggested one, thanks!</p>
+        <blockquote>
+        <p>Don’t all versions of RO simply give you memory from 0×8000 to put your program in? I think baremetal.script, further up, does that.</p>
+        </blockquote>
+        <p>Indeed.</p>
+        <blockquote>
+        <p>We don’t care about memory protection, do we? :)</p>
+        </blockquote>
+        <p>Ahaha, indeed we don&#8217;t! And we brute-force the <span class="caps">CPU</span> into doing everything, even the work of a <span class="caps">GPU</span>. We are just too clever for this &#8220;nonsense&#8221; (and that was the beginning of the end lol) XD</p>]]>
+      </description>
+      <source:markdown>&#62; (It’s very cool.)
+
+Indeed it is, I am loving it. I had a couple of months (years ago) of stiff learning curve, but then all clicked, and now I prefer to use Rust to anything else if I can.
+
+&#62; Compiling binutils and gcc for arm-none-eabi-\* shouldn’t be a problem unless they’ve dumped support at some point (and old versions of both are always available).
+
+Indeed and that’s what I use, older versions. I don’t think anyone will be interested in building Merlin for a RiscPC and for the few who will be (probably. mostly on stardot) I’ll make a copy of all the tools availble for download from somewhere.
+
+&#62; K2 doesn’t use any stdlib either. The plan is to port newclib to it for applications to use. I expect a similar approach would work for Rust.
+
+That is indeed a good approach :) – No CLib will solve a lot of issues. Thanks for the pointers, I am also looking at a CLib written in Rust, which actually is memory safe, I had no chance to test it yet, so Ido not have a done deal yet, so definitely will have a look at your suggested one, thanks!
+
+&#62; Don’t all versions of RO simply give you memory from 0×8000 to put your program in? I think baremetal.script, further up, does that.
+
+Indeed.
+
+&#62; We don’t care about memory protection, do we? :)
+
+Ahaha, indeed we don’t! And we brute-force the CPU into doing everything, even the work of a GPU. We are just too clever for this “nonsense” (and that was the beginning of the end lol) XD</source:markdown>
+      <guid>cid://www.riscosopen.org:11:16763:161783</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mejwrn227c25</link>
       <description>
         <![CDATA[I really need this SGI Indy briefcase! Imagine rocking up to a meeting or inteview with this. Totally awesome.]]>
       </description>
       <source:markdown>I really need this SGI Indy briefcase! Imagine rocking up to a meeting or inteview with this. Totally awesome.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mejwrn227c25</guid>
+    </item>    <item>
+      <title>So What Now?</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20151</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I think Charles is thinking of <span class="caps">ROX</span> not <span class="caps">ROLF</span> (for completness, <span class="caps">RISCOSE</span>).</p>
+        </blockquote>
+        <p>Ah, apologies, you&#8217;re right, I was thinking of <span class="caps">ROX</span>.</p>]]>
+      </description>
+      <source:markdown>&#62; I think Charles is thinking of ROX not ROLF (for completness, RISCOSE).
+
+Ah, apologies, you’re right, I was thinking of ROX.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20151:161782</guid>
     </item>    <item>
       <title>Iyonix and the rest of my Risc OS collection</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20206</link>
@@ -168,120 +262,6 @@ As for the Raspberry Pi: I get the suggestion, but my “retro hobby” is very 
       <source:markdown>I&#39;ll be speaking at the next @rougol.bsky.social (RISC OS User Group of London) meeting at the Duke of Sussex pub next Monday 16th February! Details available here: https://rougol.jellybaby.net/meetings/index.html</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mejcunc65k2j</guid>
     </item>    <item>
-      <title>So What Now?</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/20151</link>
-      <description>
-        <![CDATA[<p>@ David Gee</p>
-        <p>I have read your comment carefully, but I admit I am struggling a little to understand what you are actually suggesting. Apologies if I have misunderstood your intent.</p>
-        <blockquote>
-        <p>However, at the present rate of funding this would take not far short of 500 years.</p>
-        </blockquote>
-        <p>Agreed. And this is one of the reasons why some capable people have decided to stop waiting and start doing the work themselves. Not only that, but all three projects are already producing visible results, which is what actually matters to everyone, including <span class="caps">ROOL</span>.</p>
-        <blockquote>
-        <p>Meanwhile three developers are proposing to produce modern operating systems with some level of compatibility with existing applications.</p>
-        </blockquote>
-        <p>This is where wording matters. Those three developers are <span class="caps">NOT</span> merely proposing anything. They are actively doing the work, and they are doing it without funding. That is usually considered a positive thing.</p>
-        <p>For my work, I prefer to show the improvements at the <span class="caps">RISC</span> OS Shows or meetings I attend, also to help the organisers of such events to have more people attending. By now everyone knows there is always a little demo of progress of my various projects at the end of every <span class="caps">ROUGOL</span> meeting (late after the programmed speech is over, so you gotta stay around!). People who attended last <span class="caps">RISC</span> OS London show could see Merlin starting and running its system tests and intercepting and processing some of the <span class="caps">RISC</span> OS <span class="caps">SWI</span> calls perfectly fine (and for code compiled on the actual <span class="caps">RISC</span> OS 5).</p>
-        <blockquote>
-        <p>This was a task which defeated both Apple and <span class="caps">IBM</span>, both separately and together. Apple in the end built a Mac-like <span class="caps">GUI</span> on top of an existing kernel and, essentially, Free <span class="caps">BSD</span>. <span class="caps">IBM</span> bought Red Hat and adopted <span class="caps">RHEL</span>.</p>
-        </blockquote>
-        <p>I think this comparison does not really hold, sorry.</p>
-        <p>Apple did not simply build a Mac-like <span class="caps">GUI</span> on top of FreeBSD. The foundations were laid at NeXT, founded by Steve Jobs in 1985. NeXTSTEP was based on the Mach kernel developed at Carnegie Mellon University and incorporated selected <span class="caps">BSD</span> components. When Apple acquired NeXT in 1997, Apple then adapted that platform into what became Mac OS X, adding the Mac user experience and a long transition path for users and developers. This was a large, multi-year engineering effort, but it is not comparable in scale or structure to <span class="caps">RISC</span> OS.</p>
-        <p><span class="caps">IBM</span> did not fail either. OS/2 was an excellent operating system and technically far ahead of Windows 95 and 98. Microsoft learned a great deal during that collaboration, and Windows NT reflects that heritage. It is also worth remembering that NT only became truly solid for end users around Windows 2000.</p>
-        <p>More importantly, <span class="caps">RISC</span> OS is a very different system. It is tiny by modern standards, with a small and efficient <span class="caps">API</span>. In today’s terms, and ignoring the use of an <span class="caps">MMU</span>, it is much closer to an embedded operating system than to a large desktop Unix or NT-style OS. That is why comparisons with Apple or <span class="caps">IBM</span> are hard to justify.</p>
-        <p>If you want meaningful comparisons, AmigaOS or Atari <span class="caps">TOS</span> are far closer, both historically and technically. Both have been successfully reimplemented by very small teams, sometimes even by single developers.</p>
-        <blockquote>
-        <p>I’m not sure that three individuals — however talented — can accomplish a task that was beyond Apple and <span class="caps">IBM</span>.</p>
-        </blockquote>
-        <p>Even if we accept that comparison for the sake of argument, why would this be a problem? People are allowed to work on whatever they wish, and attempting ambitious projects is entirely reasonable. That is how progress usually happens.</p>
-        <blockquote>
-        <p>The problem with <span class="caps">RISC</span> OS is that — unlike the Mac — many key applications are no longer being developed, even where the source code is available (and, in the short time I’ve been using <span class="caps">RISC</span> OS, since 2012, ArtWorks, Easi/Tech Writer and Ovation Pro have joined the list, whilst efforts to revive Impression have stalled). So compatibility — even with 26-bit applications — will always be a concern.</p>
-        </blockquote>
-        <p>If that were the only problem, we would be in excellent shape! XD In reality there are many issues, but compatibility is not a new one. Compatibility has always been addressed through varying degrees of emulation. That is how Windows, OS/2, and macOS handled it, and continue to handle it. If someone objects to emulation in principle, they are free to do so, but history suggests that position is neither very practical nor particularly useful.</p>
-        <blockquote>
-        <p>I believe, would be to build a <span class="caps">RISC</span> OS-like <span class="caps">GUI</span> on top of an existing Unix-based OS together with a way of emulating existing applications. But nobody’s doing this, <span class="caps">AFAIK</span>.</p>
-        </blockquote>
-        <p>This approach has already been tried. The project was called <span class="caps">RISCOSE</span>, and it failed, largely due to how the <span class="caps">RISC</span> OS <span class="caps">WIMP</span> model actually works internally. The idea may sound attractive to inexperienced readers, but in practice it turned out not to be the shortcut people hoped for.</p>
-        <p>So what is left now? On one side, there is the already existing and mostly working <span class="caps">RISC</span> OS On Linux project. This approach actually works, albeit by running the full <span class="caps">RISC</span> OS on top of Linux. Install it and be happy, nothing else required. Just enjoy the future you are asking for.</p>
-        <p>Which brings me to what I think is the real issue. As Gerph pointed out very clearly:</p>
-        <blockquote>
-        <p>The biggest thing holding <span class="caps">RISC</span> OS back (other than the desire of people to change nothing, which is kinda related) is that people only <span class="caps">TALK</span> about what should be done. Rather than getting on and doing it. That’s fine as there probably aren’t that many people who can do things. Hey-ho.</p>
-        </blockquote>
-        <p>The great Elvis Presley even wrote a song about this: <strong>A Little Less Conversation</strong>.</p>
-        <p>Even if these developers were learning as they went along, that would still be a good thing. Skills improve through practice, and systems improve as a result. So while I respect all opinions, I do find it puzzling that every so often someone feels the need to explain why nothing should be attempted, using comparisons that do not really fit <span class="caps">RISC</span> OS at all, and claiming approaches and paths they don&#8217;t fully understand as the solution.</p>
-        <p>Anywho, let&#8217;s get back to what actually matters: the doing ;)</p>]]>
-      </description>
-      <source:markdown>@ David Gee
-
-I have read your comment carefully, but I admit I am struggling a little to understand what you are actually suggesting. Apologies if I have misunderstood your intent.
-
-&#62; However, at the present rate of funding this would take not far short of 500 years.
-
-Agreed. And this is one of the reasons why some capable people have decided to stop waiting and start doing the work themselves. Not only that, but all three projects are already producing visible results, which is what actually matters to everyone, including ROOL.
-
-&#62; Meanwhile three developers are proposing to produce modern operating systems with some level of compatibility with existing applications.
-
-This is where wording matters. Those three developers are NOT merely proposing anything. They are actively doing the work, and they are doing it without funding. That is usually considered a positive thing.
-
-For my work, I prefer to show the improvements at the RISC OS Shows or meetings I attend, also to help the organisers of such events to have more people attending. By now everyone knows there is always a little demo of progress of my various projects at the end of every ROUGOL meeting (late after the programmed speech is over, so you gotta stay around!). People who attended last RISC OS London show could see Merlin starting and running its system tests and intercepting and processing some of the RISC OS SWI calls perfectly fine (and for code compiled on the actual RISC OS 5).
-
-&#62; This was a task which defeated both Apple and IBM, both separately and together. Apple in the end built a Mac-like GUI on top of an existing kernel and, essentially, Free BSD. IBM bought Red Hat and adopted RHEL.
-
-I think this comparison does not really hold, sorry.
-
-Apple did not simply build a Mac-like GUI on top of FreeBSD. The foundations were laid at NeXT, founded by Steve Jobs in 1985. NeXTSTEP was based on the Mach kernel developed at Carnegie Mellon University and incorporated selected BSD components. When Apple acquired NeXT in 1997, Apple then adapted that platform into what became Mac OS X, adding the Mac user experience and a long transition path for users and developers. This was a large, multi-year engineering effort, but it is not comparable in scale or structure to RISC OS.
-
-IBM did not fail either. OS/2 was an excellent operating system and technically far ahead of Windows 95 and 98. Microsoft learned a great deal during that collaboration, and Windows NT reflects that heritage. It is also worth remembering that NT only became truly solid for end users around Windows 2000.
-
-More importantly, RISC OS is a very different system. It is tiny by modern standards, with a small and efficient API. In today’s terms, and ignoring the use of an MMU, it is much closer to an embedded operating system than to a large desktop Unix or NT-style OS. That is why comparisons with Apple or IBM are hard to justify.
-
-If you want meaningful comparisons, AmigaOS or Atari TOS are far closer, both historically and technically. Both have been successfully reimplemented by very small teams, sometimes even by single developers.
-
-&#62; I’m not sure that three individuals — however talented — can accomplish a task that was beyond Apple and IBM.
-
-Even if we accept that comparison for the sake of argument, why would this be a problem? People are allowed to work on whatever they wish, and attempting ambitious projects is entirely reasonable. That is how progress usually happens.
-
-&#62; The problem with RISC OS is that — unlike the Mac — many key applications are no longer being developed, even where the source code is available (and, in the short time I’ve been using RISC OS, since 2012, ArtWorks, Easi/Tech Writer and Ovation Pro have joined the list, whilst efforts to revive Impression have stalled). So compatibility — even with 26-bit applications — will always be a concern.
-
-If that were the only problem, we would be in excellent shape! XD In reality there are many issues, but compatibility is not a new one. Compatibility has always been addressed through varying degrees of emulation. That is how Windows, OS/2, and macOS handled it, and continue to handle it. If someone objects to emulation in principle, they are free to do so, but history suggests that position is neither very practical nor particularly useful.
-
-&#62; I believe, would be to build a RISC OS-like GUI on top of an existing Unix-based OS together with a way of emulating existing applications. But nobody’s doing this, AFAIK.
-
-This approach has already been tried. The project was called RISCOSE, and it failed, largely due to how the RISC OS WIMP model actually works internally. The idea may sound attractive to inexperienced readers, but in practice it turned out not to be the shortcut people hoped for.
-
-So what is left now? On one side, there is the already existing and mostly working RISC OS On Linux project. This approach actually works, albeit by running the full RISC OS on top of Linux. Install it and be happy, nothing else required. Just enjoy the future you are asking for.
-
-Which brings me to what I think is the real issue. As Gerph pointed out very clearly:
-
-&#62; The biggest thing holding RISC OS back (other than the desire of people to change nothing, which is kinda related) is that people only TALK about what should be done. Rather than getting on and doing it. That’s fine as there probably aren’t that many people who can do things. Hey-ho.
-
-The great Elvis Presley even wrote a song about this: **A Little Less Conversation**.
-
-Even if these developers were learning as they went along, that would still be a good thing. Skills improve through practice, and systems improve as a result. So while I respect all opinions, I do find it puzzling that every so often someone feels the need to explain why nothing should be attempted, using comparisons that do not really fit RISC OS at all, and claiming approaches and paths they don’t fully understand as the solution.
-
-Anywho, let’s get back to what actually matters: the doing ;)</source:markdown>
-      <guid>cid://www.riscosopen.org:13:20151:161774</guid>
-    </item>    <item>
-      <title>rustc, ELF, ld...</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/16763</link>
-      <description>
-        <![CDATA[<p>No problem, this was just a little side-quest! I can&#8217;t remember why I felt the need to try it out on RO4.</p>
-        <p>I assumed the answer would have to be something like having to create a custom target, but that&#8217;s more than just dabbling with Rust, which is where I am now. (It&#8217;s very cool.)</p>
-        <p>Compiling binutils and gcc for arm-none-eabi-* shouldn&#8217;t be a problem unless they&#8217;ve dumped support at some point (and old versions of both are always available). Have you ever come across Linux From Scratch? It has detailed instructions on building a whole Linux distribution from first principles, including gcc; it&#8217;s what I based <span class="caps">ROLF</span> on, back in the day.</p>
-        <p>K2 doesn&#8217;t use any stdlib either. The plan is to port newclib to it for applications to use. I expect a similar approach would work for Rust.</p>
-        <p>Don&#8217;t all versions of RO simply give you memory from 0&#215;8000 to put your program in? I think baremetal.script, further up, does that. We don&#8217;t care about memory protection, do we? :)</p>]]>
-      </description>
-      <source:markdown>No problem, this was just a little side-quest! I can’t remember why I felt the need to try it out on RO4.
-
-I assumed the answer would have to be something like having to create a custom target, but that’s more than just dabbling with Rust, which is where I am now. (It’s very cool.)
-
-Compiling binutils and gcc for arm-none-eabi-\* shouldn’t be a problem unless they’ve dumped support at some point (and old versions of both are always available). Have you ever come across Linux From Scratch? It has detailed instructions on building a whole Linux distribution from first principles, including gcc; it’s what I based ROLF on, back in the day.
-
-K2 doesn’t use any stdlib either. The plan is to port newclib to it for applications to use. I expect a similar approach would work for Rust.
-
-Don’t all versions of RO simply give you memory from 0×8000 to put your program in? I think baremetal.script, further up, does that. We don’t care about memory protection, do we? :)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:16763:161773</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3meisryfqkc2y</link>
       <description>
         <![CDATA[Here's a great video of the Retro Computer Festival 2025 event that @computinghistory.org.uk hosted last year. Myself, and lots of other game developers were there and you can see what we were showing the visitors!
@@ -290,38 +270,6 @@ Don’t all versions of RO simply give you memory from 0×8000 to put your progr
       <source:markdown>Here&#39;s a great video of the Retro Computer Festival 2025 event that @computinghistory.org.uk hosted last year. Myself, and lots of other game developers were there and you can see what we were showing the visitors!
 https://youtu.be/v5CJwTemw-Q?si=nlkhqLHY4UhhoIyW&#38;t=895</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3meisryfqkc2y</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>Update: I now have a composcript that collects the stats of the relative levels, rgb. To that I can add analysis of the stats of, say, &quot;WHEN (R-G &gt; chosen level) <span class="caps">AND</span> (G &#8211; B &gt; chosen level) and then DO a change of the <span class="caps">RGB</span> levels. e.g. to detect a level of &#8216;browning&#8217; to then trigget making the pixel white (or a suitable greyscale).</p>
-        <p>For me, the point of using Compo for this is that it lets you show what you have, what the change looks like, etc. Since Composcript also allows user interaction it means I can focus on the anallysis, etc, and have compo show me the results &#8211; which then can inform another application of some change &#8211; or to &#8216;back out&#8217; on a previous one. Makes the result desktop interactive without my having to worry about the <span class="caps">WIMP</span> &#8230; which I neven managed to get the hang of. :-)</p>
-        <p>It also means I can then automate having it do a set of pages with the &#8217;recipy&#8217;test promises to get the best result.</p>
-        <p>In effect, Compo + Scripting makes it easier to have an interactive &#8216;desktop app&#8217; presentation, so far as I&#8217;m concerned.</p>
-        <p>If I can find out useful info like determining that given R-G-B relative values tell-tale oxidation it may make better &#8216;de-toxing&#8217; possible for the worst cases.</p>
-        <p>Alas, many old scans of deteriorated pulps don&#8217;t <span class="caps">HAVE</span> a text-glyph content. Only bitmaps.</p>
-        <p><span class="caps">BTW</span> One puzzle I have with MuView is that it seems not to by default show the included bitmaps as x1 scale. If I &#8216;zoom in&#8217; I get more detail in some cases but not others. Is there a way to tell it to default to x1 scaled rendering of bitmaps? Or do I need mutools or summat?</p>
-        <p>And from my <span class="caps">POV</span> although I&#8217;m doing it this way I&#8217;d <span class="caps">LOVE</span> someone better-skilled at programming to do a better desktop app for cleaning up and optimising the bitmaps in these scans of old magz/books that are now badly oxidised. To some extent I&#8217;m doing this to draw people&#8217;s attention to the problem and stimulate someone finding a &#8216;better mousetrap&#8217; for this particular rodent that eats the information on the old pages&#8230;  8-}</p>
-        <p>Jim</p>]]>
-      </description>
-      <source:markdown>Update: I now have a composcript that collects the stats of the relative levels, rgb. To that I can add analysis of the stats of, say, &#34;WHEN (R-G &#62; chosen level) AND (G – B &#62; chosen level) and then DO a change of the RGB levels. e.g. to detect a level of ‘browning’ to then trigget making the pixel white (or a suitable greyscale).
-
-For me, the point of using Compo for this is that it lets you show what you have, what the change looks like, etc. Since Composcript also allows user interaction it means I can focus on the anallysis, etc, and have compo show me the results – which then can inform another application of some change – or to ‘back out’ on a previous one. Makes the result desktop interactive without my having to worry about the WIMP … which I neven managed to get the hang of. :-)
-
-It also means I can then automate having it do a set of pages with the ’recipy’test promises to get the best result.
-
-In effect, Compo + Scripting makes it easier to have an interactive ‘desktop app’ presentation, so far as I’m concerned.
-
-If I can find out useful info like determining that given R-G-B relative values tell-tale oxidation it may make better ‘de-toxing’ possible for the worst cases.
-
-Alas, many old scans of deteriorated pulps don’t HAVE a text-glyph content. Only bitmaps.
-
-BTW One puzzle I have with MuView is that it seems not to by default show the included bitmaps as x1 scale. If I ‘zoom in’ I get more detail in some cases but not others. Is there a way to tell it to default to x1 scaled rendering of bitmaps? Or do I need mutools or summat?
-
-And from my POV although I’m doing it this way I’d LOVE someone better-skilled at programming to do a better desktop app for cleaning up and optimising the bitmaps in these scans of old magz/books that are now badly oxidised. To some extent I’m doing this to draw people’s attention to the problem and stimulate someone finding a ‘better mousetrap’ for this particular rodent that eats the information on the old pages… 8-}
-
-Jim</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:161771</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3meis4a5qlk2y</link>
       <description>
