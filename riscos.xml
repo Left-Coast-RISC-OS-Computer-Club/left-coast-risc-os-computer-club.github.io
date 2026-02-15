@@ -7,10 +7,62 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>14 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>15 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Thanks</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20264</link>
+      <description>
+        <![CDATA[<p>I just wanted to say Thank you! to everyone here. I wish I could contribute with something, but as it is now I can&#8217;t. It has been several months since I did  any <span class="caps">RISC</span> OS coding..</p>
+        <p>I hope I can find new motiviation ,, Atm I don&#8217;t code at all.</p>
+        <p>Anyway½ Tanks again! And I love all your projects!</p>]]>
+      </description>
+      <source:markdown>I just wanted to say Thank you! to everyone here. I wish I could contribute with something, but as it is now I can’t. It has been several months since I did any RISC OS coding..
+
+I hope I can find new motiviation ,, Atm I don’t code at all.
+
+Anyway½ Tanks again! And I love all your projects!</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20264:161868</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mew3ev6vws27</link>
+      <description>
+        <![CDATA[CJEMicros getting back up to speed and need your help 
+        
+        https://www.iconbar.com/articles/CJEMicros_getting_back_up_to_speed_and_need_your_help/index2303.html 
+        
+        We are really pleased to hear from CJEMicros who have emailed us to let us know that they are recovering after the fire at their premises last year.]]>
+      </description>
+      <source:markdown>CJEMicros getting back up to speed and need your help
+
+https://www.iconbar.com/articles/CJEMicros\_getting\_back\_up\_to\_speed\_and\_need\_your\_help/index2303.html
+
+We are really pleased to hear from CJEMicros who have emailed us to let us know that they are recovering after the fire at their premises last year.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mew3ev6vws27</guid>
+    </item>    <item>
+      <title>CJEMicros getting back up to speed and need your help</title>
+      <link>http://www.iconbar.com/comments/rss/news2303.html</link>
+      <description>
+        <![CDATA[We are really pleased to hear from CJEMicros hve emailed us to let us know that they are recovering after fire at their premises last year.]]>
+      </description>
+      <source:markdown>We are really pleased to hear from CJEMicros hve emailed us to let us know that they are recovering after fire at their premises last year.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2303.html</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mety4b4sqc2n</link>
+      <description>
+        <![CDATA[In a similar vein, I can't believe I've spent the last 5 hours trying to track down a ZeroPain bug. Haven't found it yet! And I think there's another lurking. I've been staring at numbers all day, not understanding any of it.
+        
+        Maybe it should be a topic for a RISC OS programmers fireside chat.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>In a similar vein, I can&#39;t believe I&#39;ve spent the last 5 hours trying to track down a ZeroPain bug. Haven&#39;t found it yet! And I think there&#39;s another lurking. I&#39;ve been staring at numbers all day, not understanding any of it.
+
+Maybe it should be a topic for a RISC OS programmers fireside chat.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3mety4b4sqc2n</guid>
+    </item>    <item>
       <title>NAS problem</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
       <description>
@@ -81,6 +133,53 @@ Updates the MODE7 Teletext emulation to Level 3.5 with attribute modification!
       <source:markdown>Linux rite of passage this evening! Managed to boot into an older kernel and resolve things, turned out to be a stale version of Virtualbox preventing various crucial dependencies from upgrading. Fresh install of Virtualbox, sudo apt upgrade and back in business again 😎</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3merrcdzbn226</guid>
     </item>    <item>
+      <title>Printing via Mac OS</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20258</link>
+      <description>
+        <![CDATA[<p>Encouraged by postings on:</p>
+        <p><a href="https://www.riscosopen.org/forum/forums/11/topics/20258">here</a></p>
+        <p>I decided to attempt once again to employ <span class="caps">IPP</span> to drive my Brother HL-L2400DW laser printer directly from <span class="caps">RISC</span> OS.</p>
+        <p>Currently I am using a shared drive to print <span class="caps">PDF</span> files using my Android mobile phone as an intermediary.  But it would be nice to print directly.</p>
+        <p>FindIPP 007 didn&#8217;t succeed, so I tried GetIPP 008.</p>
+        <p>What worked for the <span class="caps">URL</span> was entering http:// followed by the IP address of my printer &#8220;192.168.1.232&#8221;, followed by the recommended &#8220;/ipp/print&#8221;.</p>
+        <p>That is, <a href="http://192.168.1.232/ipp/print">http://192.168.1.232/ipp/print</a> &#8211; that is what I entered, and this miraculously gave me the dialogue allowing me to save a printer definition.</p>
+        <p>I decided to save it in the Brother folder in PrintDefs: accessible from the Printers menu under &#8220;Install new printer&#8221;.</p>
+        <p>As instructed, I dragged this definition to both Dave&#8217;s <span class="caps">IPP</span> transport app and Printers, and with the latter, not needing to alter the default configuration, I selected Connection from the menu obtained over the HL-L2400DW Printer control entry.</p>
+        <p>Here I chose File and dragged the Printout icon from the menu icon to a directory PrintSpool I had created for previous attemps at getting various other printer protocols to work.  This put that path in the path field.</p>
+        <p>I then (most importantly) saved the printer choices from the Printers menu.</p>
+        <p>I tested the printing by printing a TechWriter recipe file.  It worked.</p>
+        <p>I then tried <span class="caps">PDF</span> files from the <span class="caps">PDF</span> app.  It worked.  If the <span class="caps">PDF</span> app can display it, it prints.</p>
+        <p>Thanks, Dave!</p>]]>
+      </description>
+      <source:markdown>Encouraged by postings on:
+
+[here](https://www.riscosopen.org/forum/forums/11/topics/20258)
+
+I decided to attempt once again to employ IPP to drive my Brother HL-L2400DW laser printer directly from RISC OS.
+
+Currently I am using a shared drive to print PDF files using my Android mobile phone as an intermediary. But it would be nice to print directly.
+
+FindIPP 007 didn’t succeed, so I tried GetIPP 008.
+
+What worked for the URL was entering http:// followed by the IP address of my printer “192.168.1.232”, followed by the recommended “/ipp/print”.
+
+That is, [http://192.168.1.232/ipp/print](http://192.168.1.232/ipp/print) – that is what I entered, and this miraculously gave me the dialogue allowing me to save a printer definition.
+
+I decided to save it in the Brother folder in PrintDefs: accessible from the Printers menu under “Install new printer”.
+
+As instructed, I dragged this definition to both Dave’s IPP transport app and Printers, and with the latter, not needing to alter the default configuration, I selected Connection from the menu obtained over the HL-L2400DW Printer control entry.
+
+Here I chose File and dragged the Printout icon from the menu icon to a directory PrintSpool I had created for previous attemps at getting various other printer protocols to work. This put that path in the path field.
+
+I then (most importantly) saved the printer choices from the Printers menu.
+
+I tested the printing by printing a TechWriter recipe file. It worked.
+
+I then tried PDF files from the PDF app. It worked. If the PDF app can display it, it prints.
+
+Thanks, Dave!</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20258:161838</guid>
+    </item>    <item>
       <title>rustc, ELF, ld...</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/16763</link>
       <description>
@@ -124,34 +223,6 @@ https://www.iconbar.com/articles/Rougol\_February\_2026\_meeting\_on\_monday\_-\
 
 The February 2026 Rougol meeting is on Monday and features Retro YouTuber Colin Hoad</source:markdown>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mergby63vs2f</guid>
-    </item>    <item>
-      <title>Printing via Mac OS</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20258</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>When I tried to print to these 2 <span class="caps">IPP</span> printers initially I did get a slow moving hourglass timer but ultimately did not result in a print.<br />
-        via <span class="caps">IPP</span> Trnspt if I click on this for the respective printer I do get a ‘Printer Info’ window and if I click on Marker levels (after selected ‘always accept’ from an unverified certificate chain) I do get the ink-cartridge levels of the machine.<br />
-        So it is partially working.<br />
-        Maybe it is that unverified certificate chain issue<br />
-        says issued by 192.168.0.2 with validity 01 Jan 2013 to 30 Dec 2022</p>
-        </blockquote>
-        <p>The unverified cert chain is a possibility, but, despite having done some work on the AcornSSL module, I&#8217;m out of my depth when it comes to dealing with error cases.</p>
-        <p>Is it possible to configure the printer to accept plain http transfer, to see if it makes a difference?  You could manually edit the Printer Definition file accordingly &#8211; it&#8217;s in the second line of the file.</p>]]>
-      </description>
-      <source:markdown>&#62; When I tried to print to these 2 IPP printers initially I did get a slow moving hourglass timer but ultimately did not result in a print.
-&#62;
-&#62; via IPP Trnspt if I click on this for the respective printer I do get a ‘Printer Info’ window and if I click on Marker levels (after selected ‘always accept’ from an unverified certificate chain) I do get the ink-cartridge levels of the machine.
-&#62;
-&#62; So it is partially working.
-&#62;
-&#62; Maybe it is that unverified certificate chain issue
-&#62;
-&#62; says issued by 192.168.0.2 with validity 01 Jan 2013 to 30 Dec 2022
-
-The unverified cert chain is a possibility, but, despite having done some work on the AcornSSL module, I’m out of my depth when it comes to dealing with error cases.
-
-Is it possible to configure the printer to accept plain http transfer, to see if it makes a difference? You could manually edit the Printer Definition file accordingly – it’s in the second line of the file.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20258:161824</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mer3nbdktk27</link>
       <description>
