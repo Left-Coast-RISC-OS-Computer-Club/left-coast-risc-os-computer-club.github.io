@@ -7,20 +7,123 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>15 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>16 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3meyejqcgsc2q</link>
+      <description>
+        <![CDATA[Tonight!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Tonight!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3meyejqcgsc2q</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3meyc3sc3mc2q</link>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3meyc3sc3mc2q</guid>
+    </item>    <item>
+      <title>CJEMicros getting back up to speed and need your help</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13562&#38;page=1#125866</link>
+      <description>
+        <![CDATA[Best prices paid]]>
+      </description>
+      <source:markdown>Best prices paid</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13562&#38;page=1#125866</guid>
+    </item>    <item>
+      <title>Retro YouTube at ROUGOL, Mon 16th Feb 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20261</link>
+      <description>
+        <![CDATA[<p>Reminder, the meeting is tonight!</p>]]>
+      </description>
+      <source:markdown>Reminder, the meeting is tonight!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20261:161878</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>This may be of interest:</p>
+        <p><a href="http://jcgl.orpheusweb.co.uk/temp/RGB-Oxidisation.pdf">Jim</a></p>
+        <p>It shows the colour/probability distributions of an example page taken from an oxidised page. The result shows a clear overall <span class="caps">RGB</span> separation  characteristic of &#8216;browning&#8217;. And raises on way in which this could then be used to help extend the greyscaled range of processed output.</p>]]>
+      </description>
+      <source:markdown>This may be of interest:
+
+[Jim](http://jcgl.orpheusweb.co.uk/temp/RGB-Oxidisation.pdf)
+
+It shows the colour/probability distributions of an example page taken from an oxidised page. The result shows a clear overall RGB separation characteristic of ‘browning’. And raises on way in which this could then be used to help extend the greyscaled range of processed output.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:161877</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mexlw4oi2k2j</link>
+      <description>
+        <![CDATA[This is today! Hope to see you there :-)
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>This is today! Hope to see you there :-)
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mexlw4oi2k2j</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mewofzaxxk2x</link>
+      <description>
+        <![CDATA[It was just over 8 years ago that I attended an ABUG event in Manchester and met up with some of the most dedicated Acorn computer enthusiasts in the universe. It was also nice to chat with Prof. Steve Furber. Over the years he has given up so much of his own time attending events like this.]]>
+      </description>
+      <source:markdown>It was just over 8 years ago that I attended an ABUG event in Manchester and met up with some of the most dedicated Acorn computer enthusiasts in the universe. It was also nice to chat with Prof. Steve Furber. Over the years he has given up so much of his own time attending events like this.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mewofzaxxk2x</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mewfoxfswc2x</link>
+      <description>
+        <![CDATA[Part 2 of my milestone birthday celebrations today. So impressed with the cake my amazing wife managed to source with custom themed decorations - LEGO STAR WARS figures, a Lancaster bomber and walking boots. Inside is a lovely chocolate sponge. Time to sit down and recover now.]]>
+      </description>
+      <source:markdown>Part 2 of my milestone birthday celebrations today. So impressed with the cake my amazing wife managed to source with custom themed decorations - LEGO STAR WARS figures, a Lancaster bomber and walking boots. Inside is a lovely chocolate sponge. Time to sit down and recover now.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mewfoxfswc2x</guid>
+    </item>    <item>
+      <title>Iyonix and the rest of my Risc OS collection</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20206</link>
+      <description>
+        <![CDATA[<p>&#8220;Finally, be aware that Iyonixes are amongst the more troublesome machines to keep going (see Martin Eastwood’s problems). You may be better off with a cheap Raspberry Pi to play around with – it will likely give you better compatibility with old games etc via !<span class="caps">ADFFS</span> and the AnyMode module.&#8221;</p>
+        <p>If I would make the list the Acorn <span class="caps">RISC</span>-PC would be very high on the list ( actually higher then the Iyonix).</p>
+        <p>b) Yes getting the hardware to work and max out is much more fun than a Pi.</p>]]>
+      </description>
+      <source:markdown>“Finally, be aware that Iyonixes are amongst the more troublesome machines to keep going (see Martin Eastwood’s problems). You may be better off with a cheap Raspberry Pi to play around with – it will likely give you better compatibility with old games etc via !ADFFS and the AnyMode module.”
+
+If I would make the list the Acorn RISC-PC would be very high on the list ( actually higher then the Iyonix).
+
+b) Yes getting the hardware to work and max out is much more fun than a Pi.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20206:161872</guid>
+    </item>    <item>
+      <title>Bluetooth development</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
+      <description>
+        <![CDATA[<p>Again an update again on <a href="https://github.com/TimoHartong/ROBTBSD/">github</a> . Important items are:<br />
+        - Worked quite extensively on LibProp and I really had to do a few steps back because it was going nowhere. So at this moment only functions are in which are used in the BT stack. Empty functions so they have to be implemented over time. <br />
+        - With LibProp compiling I could continue on the btdevctl application. The LibProb lib is now linkedin and now the focus can be on the other items which are not linking at the moment.</p>
+        <p>Indeed we see that <span class="caps">BSD</span> is often used by <span class="caps">ROOL</span> and <span class="caps">ROD</span> and it would be for the future good to see if one and other can be brought into a more standarized libray but for now I&#8217;m focussing on my own.</p>
+        <p>If all went well all the &#8216;o&#8217; files are gone so Leo can be happy&#8230;</p>]]>
+      </description>
+      <source:markdown>Again an update again on [github](https://github.com/TimoHartong/ROBTBSD/) . Important items are:
+
+\- Worked quite extensively on LibProp and I really had to do a few steps back because it was going nowhere. So at this moment only functions are in which are used in the BT stack. Empty functions so they have to be implemented over time.
+
+\- With LibProp compiling I could continue on the btdevctl application. The LibProb lib is now linkedin and now the focus can be on the other items which are not linking at the moment.
+
+Indeed we see that BSD is often used by ROOL and ROD and it would be for the future good to see if one and other can be brought into a more standarized libray but for now I’m focussing on my own.
+
+If all went well all the ‘o’ files are gone so Leo can be happy…</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20204:161871</guid>
+    </item>    <item>
       <title>Thanks</title>
       <link>https://www.riscosopen.org/forum/forums/13/topics/20264</link>
       <description>
         <![CDATA[<p>I just wanted to say Thank you! to everyone here. I wish I could contribute with something, but as it is now I can&#8217;t. It has been several months since I did  any <span class="caps">RISC</span> OS coding..</p>
-        <p>I hope I can find new motiviation ,, Atm I don&#8217;t code at all.</p>
+        <p>I hope I can find joy in coding again ,, Atm I don&#8217;t code at all.</p>
         <p>Anyway½ Tanks again! And I love all your projects!</p>]]>
       </description>
       <source:markdown>I just wanted to say Thank you! to everyone here. I wish I could contribute with something, but as it is now I can’t. It has been several months since I did any RISC OS coding..
 
-I hope I can find new motiviation ,, Atm I don’t code at all.
+I hope I can find joy in coding again ,, Atm I don’t code at all.
 
 Anyway½ Tanks again! And I love all your projects!</source:markdown>
       <guid>cid://www.riscosopen.org:13:20264:161868</guid>
@@ -43,9 +146,9 @@ We are really pleased to hear from CJEMicros who have emailed us to let us know 
       <title>CJEMicros getting back up to speed and need your help</title>
       <link>http://www.iconbar.com/comments/rss/news2303.html</link>
       <description>
-        <![CDATA[We are really pleased to hear from CJEMicros hve emailed us to let us know that they are recovering after fire at their premises last year.]]>
+        <![CDATA[We are really pleased to hear from CJEMicros who have emailed to let us know that they are recovering after fire at their premises last year.]]>
       </description>
-      <source:markdown>We are really pleased to hear from CJEMicros hve emailed us to let us know that they are recovering after fire at their premises last year.</source:markdown>
+      <source:markdown>We are really pleased to hear from CJEMicros who have emailed to let us know that they are recovering after fire at their premises last year.</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2303.html</guid>
     </item>    <item>
       <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mety4b4sqc2n</link>
@@ -66,13 +169,34 @@ Maybe it should be a topic for a RISC OS programmers fireside chat.
       <title>NAS problem</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
       <description>
-        <![CDATA[<p>I don&#8217;t know why you want to shut down the <span class="caps">NAS</span>, normally the whole point of the things is they are always available. If it&#8217;s taking too much power you are using the wrong device for the job.</p>
-        <p>My primary <span class="caps">NAS</span> is a Pi 4B with a Samsung T7 <span class="caps">USB</span> <span class="caps">SSD</span>, it&#8217;s very low power and silent so you don&#8217;t have to worry about leaving it on 24/7. It syncs daily to another Pi with a <span class="caps">USB</span> HD which is spun down and dismounted except for the couple of minutes its in use, and that in turn syncs to a couple identical systems in off site locations.</p>]]>
+        <![CDATA[<blockquote>
+        <p>I don’t know why you want to shut down the <span class="caps">NAS</span></p>
+        </blockquote>
+        <p>Partly so if someone accesses my home network over wireless, they won&#8217;t know it&#8217;s there. Partly so if I suffer a ransomware attach the <span class="caps">NAS</span> data will not be accessible to them.</p>]]>
       </description>
-      <source:markdown>I don’t know why you want to shut down the NAS, normally the whole point of the things is they are always available. If it’s taking too much power you are using the wrong device for the job.
+      <source:markdown>&#62; I don’t know why you want to shut down the NAS
 
-My primary NAS is a Pi 4B with a Samsung T7 USBSSD, it’s very low power and silent so you don’t have to worry about leaving it on 24/7. It syncs daily to another Pi with a USB HD which is spun down and dismounted except for the couple of minutes its in use, and that in turn syncs to a couple identical systems in off site locations.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20213:161845</guid>
+Partly so if someone accesses my home network over wireless, they won’t know it’s there. Partly so if I suffer a ransomware attach the NAS data will not be accessible to them.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20213:161852</guid>
+    </item>    <item>
+      <title>Printing via Mac OS</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20258</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>FindIPP 007 didn’t succeed</p>
+        </blockquote>
+        <p>FindIPP is somewhat hit and miss.  The interesting part is that the request is sent out my FindIPP to a standard multicast address.  Any machine subscribed to the same multicast group can see all the traffic, and that includes my Linux box, on which I can run Wireshark.  This shows that machines don&#8217;t always reply.</p>
+        <p>In theory, FindIPP should  be easier, but not everything replies.</p>
+        <p>In theory, GetIPP should be more reliable, but not everyone knows the <span class="caps">DNS</span> name of their printer or its IP address.</p>]]>
+      </description>
+      <source:markdown>&#62; FindIPP 007 didn’t succeed
+
+FindIPP is somewhat hit and miss. The interesting part is that the request is sent out my FindIPP to a standard multicast address. Any machine subscribed to the same multicast group can see all the traffic, and that includes my Linux box, on which I can run Wireshark. This shows that machines don’t always reply.
+
+In theory, FindIPP should be easier, but not everything replies.
+
+In theory, GetIPP should be more reliable, but not everyone knows the DNS name of their printer or its IP address.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20258:161849</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3metnhzmaes2m</link>
       <description>
@@ -132,53 +256,6 @@ Updates the MODE7 Teletext emulation to Level 3.5 with attribute modification!
       </description>
       <source:markdown>Linux rite of passage this evening! Managed to boot into an older kernel and resolve things, turned out to be a stale version of Virtualbox preventing various crucial dependencies from upgrading. Fresh install of Virtualbox, sudo apt upgrade and back in business again 😎</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3merrcdzbn226</guid>
-    </item>    <item>
-      <title>Printing via Mac OS</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20258</link>
-      <description>
-        <![CDATA[<p>Encouraged by postings on:</p>
-        <p><a href="https://www.riscosopen.org/forum/forums/11/topics/20258">here</a></p>
-        <p>I decided to attempt once again to employ <span class="caps">IPP</span> to drive my Brother HL-L2400DW laser printer directly from <span class="caps">RISC</span> OS.</p>
-        <p>Currently I am using a shared drive to print <span class="caps">PDF</span> files using my Android mobile phone as an intermediary.  But it would be nice to print directly.</p>
-        <p>FindIPP 007 didn&#8217;t succeed, so I tried GetIPP 008.</p>
-        <p>What worked for the <span class="caps">URL</span> was entering http:// followed by the IP address of my printer &#8220;192.168.1.232&#8221;, followed by the recommended &#8220;/ipp/print&#8221;.</p>
-        <p>That is, <a href="http://192.168.1.232/ipp/print">http://192.168.1.232/ipp/print</a> &#8211; that is what I entered, and this miraculously gave me the dialogue allowing me to save a printer definition.</p>
-        <p>I decided to save it in the Brother folder in PrintDefs: accessible from the Printers menu under &#8220;Install new printer&#8221;.</p>
-        <p>As instructed, I dragged this definition to both Dave&#8217;s <span class="caps">IPP</span> transport app and Printers, and with the latter, not needing to alter the default configuration, I selected Connection from the menu obtained over the HL-L2400DW Printer control entry.</p>
-        <p>Here I chose File and dragged the Printout icon from the menu icon to a directory PrintSpool I had created for previous attemps at getting various other printer protocols to work.  This put that path in the path field.</p>
-        <p>I then (most importantly) saved the printer choices from the Printers menu.</p>
-        <p>I tested the printing by printing a TechWriter recipe file.  It worked.</p>
-        <p>I then tried <span class="caps">PDF</span> files from the <span class="caps">PDF</span> app.  It worked.  If the <span class="caps">PDF</span> app can display it, it prints.</p>
-        <p>Thanks, Dave!</p>]]>
-      </description>
-      <source:markdown>Encouraged by postings on:
-
-[here](https://www.riscosopen.org/forum/forums/11/topics/20258)
-
-I decided to attempt once again to employ IPP to drive my Brother HL-L2400DW laser printer directly from RISC OS.
-
-Currently I am using a shared drive to print PDF files using my Android mobile phone as an intermediary. But it would be nice to print directly.
-
-FindIPP 007 didn’t succeed, so I tried GetIPP 008.
-
-What worked for the URL was entering http:// followed by the IP address of my printer “192.168.1.232”, followed by the recommended “/ipp/print”.
-
-That is, [http://192.168.1.232/ipp/print](http://192.168.1.232/ipp/print) – that is what I entered, and this miraculously gave me the dialogue allowing me to save a printer definition.
-
-I decided to save it in the Brother folder in PrintDefs: accessible from the Printers menu under “Install new printer”.
-
-As instructed, I dragged this definition to both Dave’s IPP transport app and Printers, and with the latter, not needing to alter the default configuration, I selected Connection from the menu obtained over the HL-L2400DW Printer control entry.
-
-Here I chose File and dragged the Printout icon from the menu icon to a directory PrintSpool I had created for previous attemps at getting various other printer protocols to work. This put that path in the path field.
-
-I then (most importantly) saved the printer choices from the Printers menu.
-
-I tested the printing by printing a TechWriter recipe file. It worked.
-
-I then tried PDF files from the PDF app. It worked. If the PDF app can display it, it prints.
-
-Thanks, Dave!</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20258:161838</guid>
     </item>    <item>
       <title>rustc, ELF, ld...</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/16763</link>
@@ -249,14 +326,6 @@ Colour me shocked.
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3meqslgo54k27</guid>
-    </item>    <item>
-      <title>Bluetooth development</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
-      <description>
-        <![CDATA[<p>If I knew were to find the code ;-)&#8230;</p>]]>
-      </description>
-      <source:markdown>If I knew were to find the code ;-)…</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20204:161810</guid>
     </item>    <item>
       <title>Rougol February 2026 meeting on monday - Retro YouTuber Colin Hoad</title>
       <link>http://www.iconbar.com/comments/rss/news2298.html</link>
@@ -380,20 +449,6 @@ This then displays the required option, there is a description line above the Bl
 2 CORP Alex Waugh</source:markdown>
       <guid>cid://www.riscosopen.org:11:20257:161794</guid>
     </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>I now have a version of the CompoScript that saves out basic stats of the bitmap image it has loaded. I want to add a simple &#8216;filter&#8217; based on that which shows how the stats can be used to set &#8216;rules&#8217; for de-oxidisation (or, indeed, other alterations as the user may wish). Then I&#8217;ll make that process available on the web so people can see it and improve/alter it, or just use it to get some idea of how tweaks to improve ebook bitmaps can be batch processed.</p>
-        <p>I don&#8217;t really know much about working with other types of bitmap. So my approach depends on having sprites or using an app that converts to sprites.</p>
-        <p>Once I&#8217;ve made the above available, perhspa someone can explain in more detail how I could use the best method to deal with other types of file. And perhaps how to get &#8216;x1 size&#8217; bitmaps out of PDFs. (Many I have clearly by default show some other scale by default. (This is using MuView.)</p>]]>
-      </description>
-      <source:markdown>I now have a version of the CompoScript that saves out basic stats of the bitmap image it has loaded. I want to add a simple ‘filter’ based on that which shows how the stats can be used to set ‘rules’ for de-oxidisation (or, indeed, other alterations as the user may wish). Then I’ll make that process available on the web so people can see it and improve/alter it, or just use it to get some idea of how tweaks to improve ebook bitmaps can be batch processed.
-
-I don’t really know much about working with other types of bitmap. So my approach depends on having sprites or using an app that converts to sprites.
-
-Once I’ve made the above available, perhspa someone can explain in more detail how I could use the best method to deal with other types of file. And perhaps how to get ‘x1 size’ bitmaps out of PDFs. (Many I have clearly by default show some other scale by default. (This is using MuView.)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:161792</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3melhieugn22r</link>
       <description>
         <![CDATA[Today's vibe.
@@ -405,82 +460,12 @@ Once I’ve made the above available, perhspa someone can explain in more detail
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3melhieugn22r</guid>
     </item>    <item>
-      <title>Retro YouTube at ROUGOL, Mon 16th Feb 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20261</link>
-      <description>
-        <![CDATA[<p>The next meeting of the <span class="caps">RISC</span> OS User Group Of London is:</p>
-        <p><strong>Retro YouTube and Pocket Computers</strong>, presented by Colin Hoad</p>
-        <p><strong>Monday 16th February 2026, 7.45pm</strong></p>
-        <p>The Duke of Sussex<br />
-        (upstairs in the Petworth Room from 6.30pm)<br />
-        23 Baylis Road, London, SE1 7AY<br />
-        <a href="http://www.rougol.jellybaby.net/venue.html">http://www.rougol.jellybaby.net/venue.html</a></p>
-        <p>Also online via Zoom from 7.30pm</p>
-        <p><a href="https://rougol.jellybaby.net/meetings/">https://rougol.jellybaby.net/meetings/</a></p>
-        <p>Colin Hoad runs a <a href="https://youtube.com/@ColinHoad">YouTube channel</a> about retro computing, particularly focusing on his love of Acorn computers. This has included specials such as the 85 Best Beeb Games, or his recent suffering playing 25 of the worst games ever from the Cascade50 cassette!</p>
-        <p>Colin will talking about how he makes these videos, what research goes into producing them, and what inspires the topics chosen.</p>
-        <p>For those in the pub Colin will also be bringing along a selection of his growing collection of handheld computers from Acorn, Psion and others for everyone to play with. Bring along any you have too!</p>
-        <p>Our venue is right next to Waterloo Station and there is parking directly outside. Directions here &#8211; <a href="https://rougol.jellybaby.net/venue.html">https://rougol.jellybaby.net/venue.html</a></p>
-        <p>For any queries or to receive the Zoom link (same as previous months) contact us &#8211; <a href="https://rougol.jellybaby.net/contacts/">https://rougol.jellybaby.net/contacts/</a></p>]]>
-      </description>
-      <source:markdown>The next meeting of the RISC OS User Group Of London is:
-
-**Retro YouTube and Pocket Computers**, presented by Colin Hoad
-
-**Monday 16th February 2026, 7.45pm**
-
-The Duke of Sussex
-
-(upstairs in the Petworth Room from 6.30pm)
-
-23 Baylis Road, London, SE1 7AY
-
-[http://www.rougol.jellybaby.net/venue.html](http://www.rougol.jellybaby.net/venue.html)
-
-Also online via Zoom from 7.30pm
-
-[https://rougol.jellybaby.net/meetings/](https://rougol.jellybaby.net/meetings/)
-
-Colin Hoad runs a [YouTube channel](https://youtube.com/@ColinHoad) about retro computing, particularly focusing on his love of Acorn computers. This has included specials such as the 85 Best Beeb Games, or his recent suffering playing 25 of the worst games ever from the Cascade50 cassette!
-
-Colin will talking about how he makes these videos, what research goes into producing them, and what inspires the topics chosen.
-
-For those in the pub Colin will also be bringing along a selection of his growing collection of handheld computers from Acorn, Psion and others for everyone to play with. Bring along any you have too!
-
-Our venue is right next to Waterloo Station and there is parking directly outside. Directions here – [https://rougol.jellybaby.net/venue.html](https://rougol.jellybaby.net/venue.html)
-
-For any queries or to receive the Zoom link (same as previous months) contact us – [https://rougol.jellybaby.net/contacts/](https://rougol.jellybaby.net/contacts/)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20261:161787</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mejwrn227c25</link>
       <description>
         <![CDATA[I really need this SGI Indy briefcase! Imagine rocking up to a meeting or inteview with this. Totally awesome.]]>
       </description>
       <source:markdown>I really need this SGI Indy briefcase! Imagine rocking up to a meeting or inteview with this. Totally awesome.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mejwrn227c25</guid>
-    </item>    <item>
-      <title>Iyonix and the rest of my Risc OS collection</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20206</link>
-      <description>
-        <![CDATA[<p>Andrew Rawnsley@<br />
-        Many thanks for the detailed info. I’ve followed your recommendations, but so far I still can’t get networking working. I’ve got two Iyonixes and I see the same behaviour on both — although to be fair they’re running the same software image (the second one is basically a clone of the first).</p>
-        <p>Next step for me is to rule out a “dirty” system: I’m going to install a clean <span class="caps">RISC</span> OS 5.30 and try your settings again. That should tell me whether something in my current setup is breaking networking.</p>
-        <p>One question: does the Iyonix RJ45 socket actually have link/activity LEDs? It’s hard to see the full connector because of the rear panel shroud, so I can’t tell whether there should be any indicators at all.</p>
-        <p>I’m also planning to replace the PSUs in both machines with new, quiet units — hopefully more stable than the originals. The good news is that after a lot of work both Iyonixes now play MP3s reliably and with good quality, so at least that’s sorted. And yes — I’m abandoning the idea of <span class="caps">USB</span> sound cards.</p>
-        <p>As for the Raspberry Pi: I get the suggestion, but my “retro hobby” is very much about restoring real hardware and pushing it to the limit, not running <span class="caps">RISC</span> OS on Pi (which feels like PC emulation to me). I’m currently trying to bring a Phoebe back to life as well — the easy route is Pi, but I’m deliberately taking the harder one. That’s where the fun is. Thanks again!</p>]]>
-      </description>
-      <source:markdown>Andrew Rawnsley@
-
-Many thanks for the detailed info. I’ve followed your recommendations, but so far I still can’t get networking working. I’ve got two Iyonixes and I see the same behaviour on both — although to be fair they’re running the same software image (the second one is basically a clone of the first).
-
-Next step for me is to rule out a “dirty” system: I’m going to install a clean RISC OS 5.30 and try your settings again. That should tell me whether something in my current setup is breaking networking.
-
-One question: does the Iyonix RJ45 socket actually have link/activity LEDs? It’s hard to see the full connector because of the rear panel shroud, so I can’t tell whether there should be any indicators at all.
-
-I’m also planning to replace the PSUs in both machines with new, quiet units — hopefully more stable than the originals. The good news is that after a lot of work both Iyonixes now play MP3s reliably and with good quality, so at least that’s sorted. And yes — I’m abandoning the idea of USB sound cards.
-
-As for the Raspberry Pi: I get the suggestion, but my “retro hobby” is very much about restoring real hardware and pushing it to the limit, not running RISC OS on Pi (which feels like PC emulation to me). I’m currently trying to bring a Phoebe back to life as well — the easy route is Pi, but I’m deliberately taking the harder one. That’s where the fun is. Thanks again!</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20206:161780</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mejcunc65k2j</link>
       <description>
