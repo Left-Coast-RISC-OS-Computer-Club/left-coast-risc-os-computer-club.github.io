@@ -7,10 +7,73 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>16 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>17 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/archiveriscos.bsky.social/post/3mf35h2uoy22o</link>
+      <description>
+        <![CDATA[Incoming!
+        https://riscosopen.org/forum/forums/1/topics/20266 
+        
+        #riscos #opensource #magazine]]>
+      </description>
+      <source:markdown>Incoming!
+https://riscosopen.org/forum/forums/1/topics/20266
+
+#riscos #opensource #magazine</source:markdown>
+      <guid>cid://at://did:plc:3nemd4ccpca5uxluat5znw4s/app.bsky.feed.post/3mf35h2uoy22o</guid>
+    </item>    <item>
+      <title>Last call for Archive 28:2 - and a new button!</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20266</link>
+      <description>
+        <![CDATA[<p><strong>Incoming</strong><br />
+        Have news or other contributions for the next issue of Archive Magazine? Please get in touch <span class="caps">ASAP</span>. Email <a href="mailto:gavin@archivemag.co.uk">gavin@archivemag.co.uk</a> to be included. Thanks!</p>
+        <p><strong>Fancy a one-off issue?</strong><br />
+        There are still a few remaining paper copies of the current issue (Archive 28:1, Dec/Jan 2026). There&#8217;s a new Buy Now button on our homepage so that you can buy the most recent issue on its own, with no obligation for further issues. <a href="https://www.archivemag.co.uk">https://www.archivemag.co.uk</a></p>
+        <p><strong>Or subscribe</strong><br />
+        6 issue digital subscriptions cost £35, print subscriptions cost £42 (UK) or £62 (rest of world). The print subscriptions include the digital edition free of charge. It’s quick and easy to subscribe – payment can be made by PayPal, bank transfer, and cheque. Full details at <a href="https://www.archivemag.co.uk/subscriptions.html">https://www.archivemag.co.uk/subscriptions.html</a> or contact <a href="mailto:gavin@archivemag.co.uk">gavin@archivemag.co.uk</a> for more information.</p>
+        <p>Archive &#8211; the magazine for <span class="caps">RISC</span> OS users.<br />
+        Archive Magazine, Beresford Business Centre, 2 Beresford Road, Coleraine, BT52 1GE, UK.</p>]]>
+      </description>
+      <source:markdown>**Incoming**
+
+Have news or other contributions for the next issue of Archive Magazine? Please get in touch ASAP. Email [gavin@archivemag.co.uk](mailto:gavin@archivemag.co.uk) to be included. Thanks!
+
+**Fancy a one-off issue?**
+
+There are still a few remaining paper copies of the current issue (Archive 28:1, Dec/Jan 2026). There’s a new Buy Now button on our homepage so that you can buy the most recent issue on its own, with no obligation for further issues. [https://www.archivemag.co.uk](https://www.archivemag.co.uk)
+
+**Or subscribe**
+
+6 issue digital subscriptions cost £35, print subscriptions cost £42 (UK) or £62 (rest of world). The print subscriptions include the digital edition free of charge. It’s quick and easy to subscribe – payment can be made by PayPal, bank transfer, and cheque. Full details at [https://www.archivemag.co.uk/subscriptions.html](https://www.archivemag.co.uk/subscriptions.html) or contact [gavin@archivemag.co.uk](mailto:gavin@archivemag.co.uk) for more information.
+
+Archive – the magazine for RISC OS users.
+
+Archive Magazine, Beresford Business Centre, 2 Beresford Road, Coleraine, BT52 1GE, UK.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20266:161894</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mf2ysjw2ns2j</link>
+      <description>
+        <![CDATA[#SorryWhatPardon]]>
+      </description>
+      <source:markdown>#SorryWhatPardon</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mf2ysjw2ns2j</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mf2vg2fwds2u</link>
+      <description>
+        <![CDATA[(hat tip @markmoxon.bsky.social  for this one!)]]>
+      </description>
+      <source:markdown>(hat tip @markmoxon.bsky.social for this one!)</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mf2vg2fwds2u</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mf2oagok6c2w</link>
+      <description>
+        <![CDATA[👀]]>
+      </description>
+      <source:markdown>👀</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mf2oagok6c2w</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/rougol.bsky.social/post/3meyejqcgsc2q</link>
       <description>
         <![CDATA[Tonight!
@@ -114,6 +177,17 @@ Indeed we see that BSD is often used by ROOL and ROD and it would be for the fut
 If all went well all the ‘o’ files are gone so Leo can be happy…</source:markdown>
       <guid>cid://www.riscosopen.org:5:20204:161871</guid>
     </item>    <item>
+      <title>NAS problem</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
+      <description>
+        <![CDATA[<p>Starting and stopping mechanical drives are the hardest part of a drives life and will shorten the drives lifespan for sure, <span class="caps">NAS</span> based mechanical drives are designed for long term operation and are best left running. Otherwise whats the point? and i would say generally Mechanical drives are less likely to fail over a flash drive.</p>
+        <p>And always have spin up and spin down disabled. this too will shorten the drives life cycle.</p>]]>
+      </description>
+      <source:markdown>Starting and stopping mechanical drives are the hardest part of a drives life and will shorten the drives lifespan for sure, NAS based mechanical drives are designed for long term operation and are best left running. Otherwise whats the point? and i would say generally Mechanical drives are less likely to fail over a flash drive.
+
+And always have spin up and spin down disabled. this too will shorten the drives life cycle.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20213:161870</guid>
+    </item>    <item>
       <title>Thanks</title>
       <link>https://www.riscosopen.org/forum/forums/13/topics/20264</link>
       <description>
@@ -143,6 +217,38 @@ https://www.iconbar.com/articles/CJEMicros\_getting\_back\_up\_to\_speed\_and\_n
 We are really pleased to hear from CJEMicros who have emailed us to let us know that they are recovering after the fire at their premises last year.</source:markdown>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mew3ev6vws27</guid>
     </item>    <item>
+      <title>Printing via Mac OS</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20258</link>
+      <description>
+        <![CDATA[<p>@Dave:  I have been following the instructions to update my !IPPTrnspt to the latest version, having created an updated PrintDfn file.  In the Help, after dragging the PrintDfn file to !IPPTrnspt, it says</p>
+        <blockquote>
+        <p>Drag the same Printer Definition file to the Printers icon on the icon bar.</p>
+        </blockquote>
+        <p>But when I did this, I got an error:<br />
+        <pre><code>13:27:29.67 ** BASICError ** ERR=20 Number too big ERL=5855
+        13:27:29.67 ** WimpError ** from PrintEdit
+          Error  : &amp;00000014
+          Message: Unexpected error :- Number too big (20/5855)</code></pre>which suprised me! After some investigation I found to add a new printer a PrintDfn file should either be dragged to the Printer Control window, or just Double-click the PrintDefn file. Either of those works fine.</p>
+        <p>Thanks for the updates!</p>]]>
+      </description>
+      <source:markdown>@Dave: I have been following the instructions to update my !IPPTrnspt to the latest version, having created an updated PrintDfn file. In the Help, after dragging the PrintDfn file to !IPPTrnspt, it says
+
+&#62; Drag the same Printer Definition file to the Printers icon on the icon bar.
+
+But when I did this, I got an error:
+
+```
+13:27:29.67 ** BASICError ** ERR=20 Number too big ERL=5855
+13:27:29.67 ** WimpError ** from PrintEdit
+  Error  : &#38;00000014
+  Message: Unexpected error :- Number too big (20/5855)
+```
+
+which suprised me! After some investigation I found to add a new printer a PrintDfn file should either be dragged to the Printer Control window, or just Double-click the PrintDefn file. Either of those works fine.
+
+Thanks for the updates!</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20258:161867</guid>
+    </item>    <item>
       <title>CJEMicros getting back up to speed and need your help</title>
       <link>http://www.iconbar.com/comments/rss/news2303.html</link>
       <description>
@@ -165,38 +271,6 @@ Maybe it should be a topic for a RISC OS programmers fireside chat.
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3mety4b4sqc2n</guid>
-    </item>    <item>
-      <title>NAS problem</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20213</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I don’t know why you want to shut down the <span class="caps">NAS</span></p>
-        </blockquote>
-        <p>Partly so if someone accesses my home network over wireless, they won&#8217;t know it&#8217;s there. Partly so if I suffer a ransomware attach the <span class="caps">NAS</span> data will not be accessible to them.</p>]]>
-      </description>
-      <source:markdown>&#62; I don’t know why you want to shut down the NAS
-
-Partly so if someone accesses my home network over wireless, they won’t know it’s there. Partly so if I suffer a ransomware attach the NAS data will not be accessible to them.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20213:161852</guid>
-    </item>    <item>
-      <title>Printing via Mac OS</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20258</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>FindIPP 007 didn’t succeed</p>
-        </blockquote>
-        <p>FindIPP is somewhat hit and miss.  The interesting part is that the request is sent out my FindIPP to a standard multicast address.  Any machine subscribed to the same multicast group can see all the traffic, and that includes my Linux box, on which I can run Wireshark.  This shows that machines don&#8217;t always reply.</p>
-        <p>In theory, FindIPP should  be easier, but not everything replies.</p>
-        <p>In theory, GetIPP should be more reliable, but not everyone knows the <span class="caps">DNS</span> name of their printer or its IP address.</p>]]>
-      </description>
-      <source:markdown>&#62; FindIPP 007 didn’t succeed
-
-FindIPP is somewhat hit and miss. The interesting part is that the request is sent out my FindIPP to a standard multicast address. Any machine subscribed to the same multicast group can see all the traffic, and that includes my Linux box, on which I can run Wireshark. This shows that machines don’t always reply.
-
-In theory, FindIPP should be easier, but not everything replies.
-
-In theory, GetIPP should be more reliable, but not everyone knows the DNS name of their printer or its IP address.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20258:161849</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3metnhzmaes2m</link>
       <description>
