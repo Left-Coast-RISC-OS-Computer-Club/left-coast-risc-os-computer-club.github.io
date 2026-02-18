@@ -7,10 +7,79 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>17 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>18 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mf5klv3mj22g</link>
+      <description>
+        <![CDATA[Today’s new RISC OS nemoBasic feature: CASE/ENDCASE finally gains a ‘finally’ – THEN !
+        
+        CASE...OF
+        WHEN...
+        WHEN...
+        OTHERWISE...
+        THEN.... (always happens)
+        ENDCASE
+        
+        [Actually there’s lots of nemoBasic-exclusive syntax here – functional LET, functional IF, polymorphic VDU, as well as CASE...THEN]]]>
+      </description>
+      <source:markdown>Today’s new RISC OS nemoBasic feature: CASE/ENDCASE finally gains a ‘finally’ – THEN !
+
+CASE...OF
+WHEN...
+WHEN...
+OTHERWISE...
+THEN.... (always happens)
+ENDCASE
+
+\[Actually there’s lots of nemoBasic-exclusive syntax here – functional LET, functional IF, polymorphic VDU, as well as CASE...THEN\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mf5klv3mj22g</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mf5bf7a5pc2t</link>
+      <description>
+        <![CDATA[It is maddening how little people seem to understand about how LLMs work. They are pattern matchers, they produce strings based on the statistically most likely string to follow on from the preceding string. Why would anyone think that would be a good basis for generating secure passwords?
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>It is maddening how little people seem to understand about how LLMs work. They are pattern matchers, they produce strings based on the statistically most likely string to follow on from the preceding string. Why would anyone think that would be a good basis for generating secure passwords?
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mf5bf7a5pc2t</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mf4rcurqlc2t</link>
+      <description>
+        <![CDATA[Hahaha brilliant!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Hahaha brilliant!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mf4rcurqlc2t</guid>
+    </item>    <item>
+      <title>Odd BASIC error messages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20174</link>
+      <description>
+        <![CDATA[<p>To be more technical: comparisons are not associative. You cannot string multiples comparisons together, eg answer=1&lt;2&lt;3=4. Shifts &#8220;look like&#8221; comparisons and the evaluator is too deep down when it&#8217;s found it&#8217;s got to a shift operator, and is incapable of rewinding and dumping everything to go back up and let it be associative. So: shifts and comparisons are not associative*, full stop.</p>
+        <p>(*that&#8217;s probably the wrong term, the property that &#8220;a op b op c&#8221; is allowable.)</p>
+        <p>As always, with any evaluation, brackets are your friend. Do you mean a <span class="caps">AND</span> b OR c or do you mean a <span class="caps">AND</span> b OR c ?</p>]]>
+      </description>
+      <source:markdown>To be more technical: comparisons are not associative. You cannot string multiples comparisons together, eg answer=1&#60;2&#60;3=4. Shifts “look like” comparisons and the evaluator is too deep down when it’s found it’s got to a shift operator, and is incapable of rewinding and dumping everything to go back up and let it be associative. So: shifts and comparisons are not associative\*, full stop.
+
+(\*that’s probably the wrong term, the property that “a op b op c” is allowable.)
+
+As always, with any evaluation, brackets are your friend. Do you mean a AND b OR c or do you mean a AND b OR c ?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20174:161904</guid>
+    </item>    <item>
+      <title>Grokipedia Comes To TrainTimes</title>
+      <link>https://kevsoft.wordpress.com/2026/02/17/grokipedia-comes-to-traintimes/</link>
+      <description>
+        <![CDATA[My UK train time table application for RISC OS called TrainTimes has been upgraded to version 2.09 New in this version is that Grokipedia an online AI powered encyclopedia has been added to options for getting information about stations. Grokipedia is not the finished article at the moment so some URLS do not work properly. &#8230; <a href="https://kevsoft.wordpress.com/2026/02/17/grokipedia-comes-to-traintimes/" class="more-link">Continue reading<span class="screen-reader-text"> "Grokipedia Comes To&#160;TrainTimes"</span></a>]]>
+      </description>
+      <source:markdown>My UK train time table application for RISC OS called TrainTimes has been upgraded to version 2.09 New in this version is that Grokipedia an online AI powered encyclopedia has been added to options for getting information about stations. Grokipedia is not the finished article at the moment so some URLS do not work properly. … [Continue reading &#34;Grokipedia Comes To TrainTimes&#34;](https://kevsoft.wordpress.com/2026/02/17/grokipedia-comes-to-traintimes/)</source:markdown>
+      <guid>cid://http://kevsoft.wordpress.com/?p=1417</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/archiveriscos.bsky.social/post/3mf35h2uoy22o</link>
       <description>
         <![CDATA[Incoming!
@@ -74,6 +143,45 @@ Archive Magazine, Beresford Business Centre, 2 Beresford Road, Coleraine, BT52 1
       <source:markdown>👀</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mf2oagok6c2w</guid>
     </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>Yes, I think these results come from !Compo?<br />
+        I compared the results with the Histogram function of !DPlngScan, it corresponds:<br />
+         <a href="https://jeanmichelb.riscos.fr/Temp/SFHysto.zip">https://jeanmichelb.riscos.fr/Temp/SFHysto.zip</a></p>
+        <p>good luck with whitening.</p>]]>
+      </description>
+      <source:markdown>Yes, I think these results come from !Compo?
+
+I compared the results with the Histogram function of !DPlngScan, it corresponds:
+
+[https://jeanmichelb.riscos.fr/Temp/SFHysto.zip](https://jeanmichelb.riscos.fr/Temp/SFHysto.zip)
+
+good luck with whitening.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:161886</guid>
+    </item>    <item>
+      <title>Printing via Mac OS</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20258</link>
+      <description>
+        <![CDATA[<p>If anyone is feeling adventurous, you might like to try dragging a file of type <span class="caps">PDF</span> or <span class="caps">JPEG</span> direct to the IPPTrnspt icon on the icon bar.  If your printer directly supports that filetype (and it seems fairly common), IPPTrnspt should transport it to the printer.  If your printer doesn&#8217;t support it, you should see an error message to that effect. i.e. it won&#8217;t print just junk.</p>
+        <p>I don&#8217;t yet know what control it&#8217;s possible to exert on printouts of those types.</p>
+        <p>If you do try it, I&#8217;d very much like to hear about the results!</p>]]>
+      </description>
+      <source:markdown>If anyone is feeling adventurous, you might like to try dragging a file of type PDF or JPEG direct to the IPPTrnspt icon on the icon bar. If your printer directly supports that filetype (and it seems fairly common), IPPTrnspt should transport it to the printer. If your printer doesn’t support it, you should see an error message to that effect. i.e. it won’t print just junk.
+
+I don’t yet know what control it’s possible to exert on printouts of those types.
+
+If you do try it, I’d very much like to hear about the results!</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20258:161883</guid>
+    </item>    <item>
+      <title>Iyonix and the rest of my Risc OS collection</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20206</link>
+      <description>
+        <![CDATA[<p>I would argue that most general purpose computers are fragile. The general purpose computers build for the military could be an exception</p>]]>
+      </description>
+      <source:markdown>I would argue that most general purpose computers are fragile. The general purpose computers build for the military could be an exception</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20206:161881</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/rougol.bsky.social/post/3meyejqcgsc2q</link>
       <description>
         <![CDATA[Tonight!
@@ -104,20 +212,6 @@ Archive Magazine, Beresford Business Centre, 2 Beresford Road, Coleraine, BT52 1
       <source:markdown>Reminder, the meeting is tonight!</source:markdown>
       <guid>cid://www.riscosopen.org:1:20261:161878</guid>
     </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>This may be of interest:</p>
-        <p><a href="http://jcgl.orpheusweb.co.uk/temp/RGB-Oxidisation.pdf">Jim</a></p>
-        <p>It shows the colour/probability distributions of an example page taken from an oxidised page. The result shows a clear overall <span class="caps">RGB</span> separation  characteristic of &#8216;browning&#8217;. And raises on way in which this could then be used to help extend the greyscaled range of processed output.</p>]]>
-      </description>
-      <source:markdown>This may be of interest:
-
-[Jim](http://jcgl.orpheusweb.co.uk/temp/RGB-Oxidisation.pdf)
-
-It shows the colour/probability distributions of an example page taken from an oxidised page. The result shows a clear overall RGB separation characteristic of ‘browning’. And raises on way in which this could then be used to help extend the greyscaled range of processed output.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:161877</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mexlw4oi2k2j</link>
       <description>
         <![CDATA[This is today! Hope to see you there :-)
@@ -142,20 +236,6 @@ It shows the colour/probability distributions of an example page taken from an o
       </description>
       <source:markdown>Part 2 of my milestone birthday celebrations today. So impressed with the cake my amazing wife managed to source with custom themed decorations - LEGO STAR WARS figures, a Lancaster bomber and walking boots. Inside is a lovely chocolate sponge. Time to sit down and recover now.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mewfoxfswc2x</guid>
-    </item>    <item>
-      <title>Iyonix and the rest of my Risc OS collection</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20206</link>
-      <description>
-        <![CDATA[<p>&#8220;Finally, be aware that Iyonixes are amongst the more troublesome machines to keep going (see Martin Eastwood’s problems). You may be better off with a cheap Raspberry Pi to play around with – it will likely give you better compatibility with old games etc via !<span class="caps">ADFFS</span> and the AnyMode module.&#8221;</p>
-        <p>If I would make the list the Acorn <span class="caps">RISC</span>-PC would be very high on the list ( actually higher then the Iyonix).</p>
-        <p>b) Yes getting the hardware to work and max out is much more fun than a Pi.</p>]]>
-      </description>
-      <source:markdown>“Finally, be aware that Iyonixes are amongst the more troublesome machines to keep going (see Martin Eastwood’s problems). You may be better off with a cheap Raspberry Pi to play around with – it will likely give you better compatibility with old games etc via !ADFFS and the AnyMode module.”
-
-If I would make the list the Acorn RISC-PC would be very high on the list ( actually higher then the Iyonix).
-
-b) Yes getting the hardware to work and max out is much more fun than a Pi.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20206:161872</guid>
     </item>    <item>
       <title>Bluetooth development</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20204</link>
@@ -216,38 +296,6 @@ https://www.iconbar.com/articles/CJEMicros\_getting\_back\_up\_to\_speed\_and\_n
 
 We are really pleased to hear from CJEMicros who have emailed us to let us know that they are recovering after the fire at their premises last year.</source:markdown>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mew3ev6vws27</guid>
-    </item>    <item>
-      <title>Printing via Mac OS</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20258</link>
-      <description>
-        <![CDATA[<p>@Dave:  I have been following the instructions to update my !IPPTrnspt to the latest version, having created an updated PrintDfn file.  In the Help, after dragging the PrintDfn file to !IPPTrnspt, it says</p>
-        <blockquote>
-        <p>Drag the same Printer Definition file to the Printers icon on the icon bar.</p>
-        </blockquote>
-        <p>But when I did this, I got an error:<br />
-        <pre><code>13:27:29.67 ** BASICError ** ERR=20 Number too big ERL=5855
-        13:27:29.67 ** WimpError ** from PrintEdit
-          Error  : &amp;00000014
-          Message: Unexpected error :- Number too big (20/5855)</code></pre>which suprised me! After some investigation I found to add a new printer a PrintDfn file should either be dragged to the Printer Control window, or just Double-click the PrintDefn file. Either of those works fine.</p>
-        <p>Thanks for the updates!</p>]]>
-      </description>
-      <source:markdown>@Dave: I have been following the instructions to update my !IPPTrnspt to the latest version, having created an updated PrintDfn file. In the Help, after dragging the PrintDfn file to !IPPTrnspt, it says
-
-&#62; Drag the same Printer Definition file to the Printers icon on the icon bar.
-
-But when I did this, I got an error:
-
-```
-13:27:29.67 ** BASICError ** ERR=20 Number too big ERL=5855
-13:27:29.67 ** WimpError ** from PrintEdit
-  Error  : &#38;00000014
-  Message: Unexpected error :- Number too big (20/5855)
-```
-
-which suprised me! After some investigation I found to add a new printer a PrintDfn file should either be dragged to the Printer Control window, or just Double-click the PrintDefn file. Either of those works fine.
-
-Thanks for the updates!</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20258:161867</guid>
     </item>    <item>
       <title>CJEMicros getting back up to speed and need your help</title>
       <link>http://www.iconbar.com/comments/rss/news2303.html</link>
@@ -4824,17 +4872,6 @@ Next week I’ll look at the OS\_Platform calls and probably the memory calls as
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3m7zmc3bbq226</guid>
-    </item>    <item>
-      <title>Odd BASIC error messages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20174</link>
-      <description>
-        <![CDATA[<p>In first example (2&gt;&gt;1)= 1  is a equality test the answer is false (0) or true(-1)<br />
-        in second Print displays 2&gt;&gt;1 and doesn&#8217;t understand = 0 (affectation) in this sentence.</p>]]>
-      </description>
-      <source:markdown>In first example (2&#62;&#62;1)= 1 is a equality test the answer is false (0) or true(-1)
-
-in second Print displays 2&#62;&#62;1 and doesn’t understand = 0 (affectation) in this sentence.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20174:160625</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3m7zcpneijc26</link>
       <description>
