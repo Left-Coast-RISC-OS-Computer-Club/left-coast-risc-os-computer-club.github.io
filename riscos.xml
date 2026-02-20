@@ -7,10 +7,54 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>19 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>20 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mfclnnp4mc24</link>
+      <description>
+        <![CDATA[Fortunately my MMK keyboard handler for RISC OS doesn’t actually support the EBCDIC Alphabet, or I wouldn’t be able to switch back again!
+        
+        MacRoman is a useful stress test as its hard-space isn’t 160 (it’s 202), but EBCDIC doesn’t even have space=32 (it’s 64) – hence the wall-of-hex that’s mostly 20]]>
+      </description>
+      <source:markdown>Fortunately my MMK keyboard handler for RISC OS doesn’t actually support the EBCDIC Alphabet, or I wouldn’t be able to switch back again!
+
+MacRoman is a useful stress test as its hard-space isn’t 160 (it’s 202), but EBCDIC doesn’t even have space=32 (it’s 64) – hence the wall-of-hex that’s mostly 20</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mfclnnp4mc24</guid>
+    </item>    <item>
+      <title>Last call for Archive 28:2 - and a new button!</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20266</link>
+      <description>
+        <![CDATA[<p>Hi Gavin.  I&#8217;m down with the flu at the moment, and struggling to get much work done.  There&#8217;s a bit of news for you if there&#8217;s time, but not sure if I can get it to you this week.  Will see what I can do.</p>]]>
+      </description>
+      <source:markdown>Hi Gavin. I’m down with the flu at the moment, and struggling to get much work done. There’s a bit of news for you if there’s time, but not sure if I can get it to you this week. Will see what I can do.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20266:161930</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfcarh7djk2g</link>
+      <description>
+        <![CDATA[I love these old Atari 8-bit programmer reference manuals. They detail eveything about the Atari 400/800 8-bit systems. There's a fully annotated source code listing for the Operating System so you see understand exactly how the computer works. I do miss these kind of manuals.]]>
+      </description>
+      <source:markdown>I love these old Atari 8-bit programmer reference manuals. They detail eveything about the Atari 400/800 8-bit systems. There&#39;s a fully annotated source code listing for the Operating System so you see understand exactly how the computer works. I do miss these kind of manuals.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mfcarh7djk2g</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mfc2mty3pc2l</link>
+      <description>
+        <![CDATA[The joy of discovering leftover birthday cake in the fridge 😋]]>
+      </description>
+      <source:markdown>The joy of discovering leftover birthday cake in the fridge 😋</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mfc2mty3pc2l</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mfamty2clc2b</link>
+      <description>
+        <![CDATA[nemoBasic continues to have all the breaks.
+        
+        [some of these are literally hundreds of times faster than the alternative]]]>
+      </description>
+      <source:markdown>nemoBasic continues to have all the breaks.
+
+\[some of these are literally hundreds of times faster than the alternative\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mfamty2clc2b</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mfadhtdnus2s</link>
       <description>
         <![CDATA[MC400 absolutely can do QR though. Graphics is actually the weakest part of this OS (or at least this version of OPL). Love the MC400.
@@ -95,11 +139,14 @@ https://www.riscosopen.org/forum/forums/11/topics/20267</source:markdown>
         	<li><span class="caps">BSD</span> (FreeBSD and NetBSD), currently x86_64</li>
         </ul>
         <p>My ShareFSServer also works with all <span class="caps">RISC</span> OS versions from <span class="caps">RISC</span> OS 3.00 to 5, as well as <span class="caps">RISC</span> OS 4 and 6. I have not tested it on Pyromaniac, but I expect that if <span class="caps">NIC</span> drivers are implemented, it should work there as well.</p>
-        <p>If you are interested, please send me an email using my usual contact page:</p>
+        <p><b>An important reminder</b></p>
+        <p>Given the high amount of emails I have received, I think it&#8217;s important that I make it obsolutely clear that you are requesting to test a <b>pre-alpha</b> quality code! So if you think you may use it for stuff you need, think carefully, you will receive software that is still a) <i>incomplete</i> and b) most likely <i>broken</i>. So please refrain if you just need an easy way to copy your files. Just saying, because otherwise you will be disappointed, and you will only cause me extra work for no community gain. Thank you :)</p>
+        <p><b>How to get in the list</b></p>
+        <p>If you are (still) interested, please send me an email using my usual contact page:</p>
         <pre>
         <a href="https://paolozaino.wordpress.com/contact/">https://paolozaino.wordpress.com/contact/</a>
         </pre>
-        <p>Now one request. Given all this is free and I have been working very hard to fix the <span class="caps">RISC</span> OS file sharing problem once and for all, with many extra features: if you say “yes, I want to help test this”, you must send me feedback. This is not early access. The software is complex and requires testing before being made available to a larger audience. Capisce? ;)</p>
+        <p>Now one request. Given all this is free and I have been working very hard to fix the <span class="caps">RISC</span> OS file sharing problem once and for all (with many extra features too): if you say “yes, I want to help testing this”, you must send me feedback. This is not early access. The software is complex, pre-alpha quality, and requires testing before being made available to a larger audience. Capisce? ;)</p>
         <p><b>FAQs</b></p>
         <p>Q: Do I need to build anything?<br />
         A: No, this is unzip and run.</p>
@@ -151,14 +198,20 @@ Currently supported platforms:
 
 My ShareFSServer also works with all RISC OS versions from RISC OS 3.00 to 5, as well as RISC OS 4 and 6. I have not tested it on Pyromaniac, but I expect that if NIC drivers are implemented, it should work there as well.
 
-If you are interested, please send me an email using my usual contact page:
+**An important reminder**
+
+Given the high amount of emails I have received, I think it’s important that I make it obsolutely clear that you are requesting to test a **pre-alpha** quality code! So if you think you may use it for stuff you need, think carefully, you will receive software that is still a) _incomplete_ and b) most likely _broken_. So please refrain if you just need an easy way to copy your files. Just saying, because otherwise you will be disappointed, and you will only cause me extra work for no community gain. Thank you :)
+
+**How to get in the list**
+
+If you are (still) interested, please send me an email using my usual contact page:
 
 ```
 https://paolozaino.wordpress.com/contact/
 
 ```
 
-Now one request. Given all this is free and I have been working very hard to fix the RISC OS file sharing problem once and for all, with many extra features: if you say “yes, I want to help test this”, you must send me feedback. This is not early access. The software is complex and requires testing before being made available to a larger audience. Capisce? ;)
+Now one request. Given all this is free and I have been working very hard to fix the RISC OS file sharing problem once and for all (with many extra features too): if you say “yes, I want to help testing this”, you must send me feedback. This is not early access. The software is complex, pre-alpha quality, and requires testing before being made available to a larger audience. Capisce? ;)
 
 **FAQs**
 
@@ -349,35 +402,6 @@ https://riscosopen.org/forum/forums/1/topics/20266
 
 #riscos #opensource #magazine</source:markdown>
       <guid>cid://at://did:plc:3nemd4ccpca5uxluat5znw4s/app.bsky.feed.post/3mf35h2uoy22o</guid>
-    </item>    <item>
-      <title>Last call for Archive 28:2 - and a new button!</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20266</link>
-      <description>
-        <![CDATA[<p><strong>Incoming</strong><br />
-        Have news or other contributions for the next issue of Archive Magazine? Please get in touch <span class="caps">ASAP</span>. Email <a href="mailto:gavin@archivemag.co.uk">gavin@archivemag.co.uk</a> to be included. Thanks!</p>
-        <p><strong>Fancy a one-off issue?</strong><br />
-        There are still a few remaining paper copies of the current issue (Archive 28:1, Dec/Jan 2026). There&#8217;s a new Buy Now button on our homepage so that you can buy the most recent issue on its own, with no obligation for further issues. <a href="https://www.archivemag.co.uk">https://www.archivemag.co.uk</a></p>
-        <p><strong>Or subscribe</strong><br />
-        6 issue digital subscriptions cost £35, print subscriptions cost £42 (UK) or £62 (rest of world). The print subscriptions include the digital edition free of charge. It’s quick and easy to subscribe – payment can be made by PayPal, bank transfer, and cheque. Full details at <a href="https://www.archivemag.co.uk/subscriptions.html">https://www.archivemag.co.uk/subscriptions.html</a> or contact <a href="mailto:gavin@archivemag.co.uk">gavin@archivemag.co.uk</a> for more information.</p>
-        <p>Archive &#8211; the magazine for <span class="caps">RISC</span> OS users.<br />
-        Archive Magazine, Beresford Business Centre, 2 Beresford Road, Coleraine, BT52 1GE, UK.</p>]]>
-      </description>
-      <source:markdown>**Incoming**
-
-Have news or other contributions for the next issue of Archive Magazine? Please get in touch ASAP. Email [gavin@archivemag.co.uk](mailto:gavin@archivemag.co.uk) to be included. Thanks!
-
-**Fancy a one-off issue?**
-
-There are still a few remaining paper copies of the current issue (Archive 28:1, Dec/Jan 2026). There’s a new Buy Now button on our homepage so that you can buy the most recent issue on its own, with no obligation for further issues. [https://www.archivemag.co.uk](https://www.archivemag.co.uk)
-
-**Or subscribe**
-
-6 issue digital subscriptions cost £35, print subscriptions cost £42 (UK) or £62 (rest of world). The print subscriptions include the digital edition free of charge. It’s quick and easy to subscribe – payment can be made by PayPal, bank transfer, and cheque. Full details at [https://www.archivemag.co.uk/subscriptions.html](https://www.archivemag.co.uk/subscriptions.html) or contact [gavin@archivemag.co.uk](mailto:gavin@archivemag.co.uk) for more information.
-
-Archive – the magazine for RISC OS users.
-
-Archive Magazine, Beresford Business Centre, 2 Beresford Road, Coleraine, BT52 1GE, UK.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20266:161894</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mf2ysjw2ns2j</link>
       <description>
