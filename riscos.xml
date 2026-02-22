@@ -7,10 +7,115 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>21 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>22 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.18</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfhs2f4zpk25</link>
+      <description>
+        <![CDATA[Great result. 36 year old game finally sees the light of day after being 'lost'.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Great result. 36 year old game finally sees the light of day after being &#39;lost&#39;.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mfhs2f4zpk25</guid>
+    </item>    <item>
+      <title>extASM assembler and the StrongHelp Assembler manual updated to ARMv8</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20273</link>
+      <description>
+        <![CDATA[<p>Thanks. 🙂</p>]]>
+      </description>
+      <source:markdown>Thanks. 🙂</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20273:161985</guid>
+    </item>    <item>
+      <title>Voices from a Future Passed – on sale from 1st March</title>
+      <link>https://www.riscository.com/2026/voices-from-a-future-passed-available-1st-march/</link>
+      <description>
+        <![CDATA[The official Acorn biography, Voices from a Future Passed, put together by Rob Napier, will be available to buy from 1st March. The book outlines the history of Acorn Computers Ltd &#8211; the company that brought us the BBC Micro home computer, amongst many others, and designed the original ARM processor. The ARM first became the heart of their next generation of computers before going on to dominate the world when it came mobile and low-power processing; there are now many times more ARMs in the world than there are,&#8230;]]>
+      </description>
+      <source:markdown>The official Acorn biography, Voices from a Future Passed, put together by Rob Napier, will be available to buy from 1st March. The book outlines the history of Acorn Computers Ltd – the company that brought us the BBC Micro home computer, amongst many others, and designed the original ARM processor. The ARM first became the heart of their next generation of computers before going on to dominate the world when it came mobile and low-power processing; there are now many times more ARMs in the world than there are,…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10880</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p>Hi David,</p>
+        <p>make sure you have a directory called &#8220;public&#8221; where you have you riscos_share_fs, in your case.</p>
+        <p>&#8220;Not a directcory&#8221; error means the server can&#8217;t find the directory you&#8217;ve put in the Share&#8217;s path.</p>
+        <p>Also remember Linux is case sensitive.</p>
+        <p>So looking at your hsarefs.toml you should have this:</p>
+        <pre>
+        David's place where you unzipped riscos_sharefs
+        |
+        +--- riscos_share_fs
+        |
+        +--- public &lt;---- your configured "./public"
+        |
+        ... other sharefs files
+        </pre>
+        <p><span class="caps">HTH</span></p>]]>
+      </description>
+      <source:markdown>Hi David,
+
+make sure you have a directory called “public” where you have you riscos\_share\_fs, in your case.
+
+“Not a directcory” error means the server can’t find the directory you’ve put in the Share’s path.
+
+Also remember Linux is case sensitive.
+
+So looking at your hsarefs.toml you should have this:
+
+```
+David&#39;s place where you unzipped riscos_sharefs
+|
++--- riscos_share_fs
+|
++--- public &#60;---- your configured &#34;./public&#34;
+|
+... other sharefs files
+
+```
+
+HTH</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:161971</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 21st February at 1pm UK time.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20271</link>
+      <description>
+        <![CDATA[<p>Live Now!</p>]]>
+      </description>
+      <source:markdown>Live Now!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20271:161970</guid>
+    </item>    <item>
+      <title>Orange Pi 6</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20272</link>
+      <description>
+        <![CDATA[<p>Is there a complete list of <span class="caps">ARM</span> cores that have full (or partial) 32-bit support that could be used as a reference for which ones could feasibly support <span class="caps">RISC</span> OS?</p>
+        <p>On a separate note, does <span class="caps">RISC</span> OS run on any of the previous generation Orange Pi boards (particularly the Rockchip-based ones)?</p>]]>
+      </description>
+      <source:markdown>Is there a complete list of ARM cores that have full (or partial) 32-bit support that could be used as a reference for which ones could feasibly support RISC OS?
+
+On a separate note, does RISC OS run on any of the previous generation Orange Pi boards (particularly the Rockchip-based ones)?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20272:161969</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>I now want to read the issue of AS you picked out a page from! What issue is it?  8-]</p>]]>
+      </description>
+      <source:markdown>I now want to read the issue of AS you picked out a page from! What issue is it? 8-\]</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:161968</guid>
+    </item>    <item>
+      <title>Grok your railway stations in TrainTimes</title>
+      <link>https://www.riscository.com/2026/traintimes-2-09/</link>
+      <description>
+        <![CDATA[A new version of TrainTimes (2.09) has been released by Kevin Wells, featuring the ability to link to a second online encyclopaedia to look up information about railway stations, as well as a small fix for using the first. TrainTimes is an application that makes use of Wget to allow people using RISC OS to look up railway timetables and related information from online resources, without using a web browser (which on RISC OS might not entirely work, and may mean resorting to another platform). In this case those resources&#8230;]]>
+      </description>
+      <source:markdown>A new version of TrainTimes (2.09) has been released by Kevin Wells, featuring the ability to link to a second online encyclopaedia to look up information about railway stations, as well as a small fix for using the first. TrainTimes is an application that makes use of Wget to allow people using RISC OS to look up railway timetables and related information from online resources, without using a web browser (which on RISC OS might not entirely work, and may mean resorting to another platform). In this case those resources…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10878</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mffeu5actk25</link>
       <description>
         <![CDATA[Another great Software Creations lunchtime meetup today. As ever we discussed all that's wrong in the world, technology and our time at Creations. Tim mentioned a guy that analyses his NES/SNES music and here's a video of him tearing down some of Tim's well known work
@@ -19,55 +124,6 @@
       <source:markdown>Another great Software Creations lunchtime meetup today. As ever we discussed all that&#39;s wrong in the world, technology and our time at Creations. Tim mentioned a guy that analyses his NES/SNES music and here&#39;s a video of him tearing down some of Tim&#39;s well known work
 https://www.youtube.com/watch?v=Zh-rYtmC0Y8</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mffeu5actk25</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 21st February at 1pm UK time.</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20271</link>
-      <description>
-        <![CDATA[<p>This Sunday (tomorrow) – 21st February, at 1pm UK time – I&#8217;ll be continuing my live coding. This week, I&#8217;ll be continuing with the implementation for the Window Manager. Back in <span class="caps">RISC</span> OS Select, the split handling was written in C, so I&#8217;ll be copying that code into the module and updating it for this version.</p>
-        <p>Come along if you like – <a href="https://youtube.com/live/qAueFniptNA?feature=share">https://youtube.com/live/qAueFniptNA?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
-        <hr />
-        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
-        <p>The functionality we need to implement is documented in the riscos64-status repository (<a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_TextRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a>), and might take a few sessions to implement.</p>
-        <p>So far, we&#8217;ve got:</p>
-        <ul>
-        	<li>Font rendering, with substituted wimp symbol font.</li>
-        	<li>System font rendering, with substituted wimp symbol font.</li>
-        	<li>Simple font sizing.</li>
-        	<li><span class="caps">NVRAM</span> font selection.</li>
-        	<li>Selection of font from system variable.</li>
-        	<li>Simple module with an implementation of `Wimp_TextOp`.</li>
-        	<li>String truncation.</li>
-        </ul>
-        <hr />
-        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-RsoccMdcAep0iZSJQT">https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-…</a></p>
-        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimptextrender.html">https://presentation.riscos.online/live/wimptextrender…</a> (once it has been published).</p>]]>
-      </description>
-      <source:markdown>This Sunday (tomorrow) – 21st February, at 1pm UK time – I’ll be continuing my live coding. This week, I’ll be continuing with the implementation for the Window Manager. Back in RISC OS Select, the split handling was written in C, so I’ll be copying that code into the module and updating it for this version.
-
-Come along if you like – [https://youtube.com/live/qAueFniptNA?feature=share](https://youtube.com/live/qAueFniptNA?feature=share) – or you can always watch the video afterwards at the same address.
-
-* * *
-
-For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
-
-The functionality we need to implement is documented in the riscos64-status repository ( [https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_TextRender)), and might take a few sessions to implement.
-
-So far, we’ve got:
-
-- Font rendering, with substituted wimp symbol font.
-- System font rendering, with substituted wimp symbol font.
-- Simple font sizing.
-- NVRAM font selection.
-- Selection of font from system variable.
-- Simple module with an implementation of \`Wimp\_TextOp\`.
-- String truncation.
-
-* * *
-
-If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-…](https://www.youtube.com/playlist?list=PLVVIu906Y7rG5K-RsoccMdcAep0iZSJQT)
-
-Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimptextrender…](https://presentation.riscos.online/live/wimptextrender.html) (once it has been published).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20271:161948</guid>
     </item>    <item>
       <title>Stardot down (agian ?)</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20270</link>
@@ -141,54 +197,6 @@ The release contains 5 hourglass styles, which have different variations which m
 
 The ‘standard’ hourglass I use for RISC OS Pyromaniac is the green cog, but tastes differ, so there are a few styles there. If anyone has any other interesting images to make into hourglasses, particularly if they’re already animated GIFs, let me know and I’ll see what I can do.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20269:161932</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>Hi Jim,<br />
-        I have been experimenting with your DeToxPageW program.<br />
-        Using the results of rgbout/csv in !Fireworks I can know the limits for the 3 &#8220;spectrums&#8221;<br />
-        If we apply it to an area of ​​the page without text. we obtain a result reflecting the average value of the document.</p>
-        <p>With the values ​​read from the <span class="caps">RGB</span> curves we can delimit a volume in the color space and transform the corresponding points into almost white by the program.<br />
-        Modification in the detox_pixels function</p>
-        <pre><code> //filtage par delta R, G, dB , les pixels exclus deviennent ~blanc
-        // pour R on exclut entre 180 et 250 
-        // pour G                 180 et 230      
-        // pour B                 150 et 210      </code>
-        
-        <code>if( (red &gt; 180 &amp;&amp; red &lt;250) &amp;&amp;  (green &gt; 180 &amp;&amp; green &lt; 230) &amp;&amp;  (blue &gt; 150 &amp;&amp; blue &lt; 210) ){ 
-             spritepointer[pt] = 0x00F0F0F0;
-         }</code></pre>
-        <p>Tomorrow I will add illustrations. the anti-alising seems to be preserved, the background texture is much attenuated, replaced by a single color.</p>
-        <p>My explanations may not be very good :-(</p>]]>
-      </description>
-      <source:markdown>Hi Jim,
-
-I have been experimenting with your DeToxPageW program.
-
-Using the results of rgbout/csv in !Fireworks I can know the limits for the 3 “spectrums”
-
-If we apply it to an area of ​​the page without text. we obtain a result reflecting the average value of the document.
-
-With the values ​​read from the RGB curves we can delimit a volume in the color space and transform the corresponding points into almost white by the program.
-
-Modification in the detox\_pixels function
-
-```
- //filtage par delta R, G, dB , les pixels exclus deviennent ~blanc
-// pour R on exclut entre 180 et 250
-// pour G                 180 et 230
-// pour B                 150 et 210
-
-if( (red &#62; 180 &#38;&#38; red &#60;250) &#38;&#38;  (green &#62; 180 &#38;&#38; green &#60; 230) &#38;&#38;  (blue &#62; 150 &#38;&#38; blue &#60; 210) ){
-     spritepointer[pt] = 0x00F0F0F0;
- }
-```
-
-Tomorrow I will add illustrations. the anti-alising seems to be preserved, the background texture is much attenuated, replaced by a single color.
-
-My explanations may not be very good :-(</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:161931</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mfclnnp4mc24</link>
       <description>
@@ -271,28 +279,6 @@ See you there!
       </description>
       <source:markdown>R. Fred Williams&#39; old 3&#34; game development disks, batch 2, have now been archived. These are on their way back to Fred so he can go through the contents. They contain a mix of development source code, utilities and binary game images. The big find so far is the lost side &#39;B&#39; of Amstrad NY Warriors.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mf7w4vqvz22s</guid>
-    </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p>Quick note on Steve Pampling remark:</p>
-        <blockquote>
-        <p>Your setup needs a broadcast forwarder2, which might be selective in some routers, but most times just passes on the local broadcast noise into other nets and vice versa.</p>
-        </blockquote>
-        <p>Steve, again, ShareFSServer has a relay protocol, that means you can deploy 2 of them where one is sharing nothing directly, then configure <span class="caps">SFSS</span> 1 to relay to <span class="caps">SFSS</span> 2, no other &#8220;forwarders&#8221; are needed. <span class="caps">SFSS</span> 2 will re-broadcast the announcements <span class="caps">SFSS</span> 1 has sent it via relay.</p>
-        <p>As for the RPCEmu comment, the bridge mode is required only on Linux which in recent years has disabled broadcasting and left IP Forwarding only for unicast, but macOS for example still allow Limited Broadcast to be forwarded to RPCEmu and thus RPCEmu on the mac <span class="caps">CAN</span> receive ShareFSServer LB perfectly fine.</p>
-        <p><span class="caps">HTH</span></p>]]>
-      </description>
-      <source:markdown>Quick note on Steve Pampling remark:
-
-&#62; Your setup needs a broadcast forwarder2, which might be selective in some routers, but most times just passes on the local broadcast noise into other nets and vice versa.
-
-Steve, again, ShareFSServer has a relay protocol, that means you can deploy 2 of them where one is sharing nothing directly, then configure SFSS 1 to relay to SFSS 2, no other “forwarders” are needed. SFSS 2 will re-broadcast the announcements SFSS 1 has sent it via relay.
-
-As for the RPCEmu comment, the bridge mode is required only on Linux which in recent years has disabled broadcasting and left IP Forwarding only for unicast, but macOS for example still allow Limited Broadcast to be forwarded to RPCEmu and thus RPCEmu on the mac CAN receive ShareFSServer LB perfectly fine.
-
-HTH</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:161925</guid>
     </item>    <item>
       <title>What are you doing with RISC OS?</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/653</link>
