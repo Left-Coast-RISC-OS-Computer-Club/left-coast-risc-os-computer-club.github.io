@@ -7,10 +7,131 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>22 Feb 26 12:00 -0800</lastBuildDate>
-    <generator>antenna/0.0.18</generator>
+    <lastBuildDate>23 Feb 26 12:00 -0800</lastBuildDate>
+    <generator>antenna/0.0.22</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfkf5tkwc22t</link>
+      <description>
+        <![CDATA[I have just received a very interesting find from @bone6502.bsky.social who worked at ZED TWO. It's a disk containing the source code for PS2 Aqua Aqua and data for Wetrix+ ( Dreamcast ). It's great to see this being preserved, especially as it came of a ZIP 100 disk which don't survive very well!]]>
+      </description>
+      <source:markdown>I have just received a very interesting find from @bone6502.bsky.social who worked at ZED TWO. It&#39;s a disk containing the source code for PS2 Aqua Aqua and data for Wetrix+ ( Dreamcast ). It&#39;s great to see this being preserved, especially as it came of a ZIP 100 disk which don&#39;t survive very well!</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mfkf5tkwc22t</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mfkagzqpmk2g</link>
+      <description>
+        <![CDATA[My talk from last week's ROUGOL meeting is now up on my channel: youtu.be/Igljzw4o71U
+        
+        It was a fun evening, and I really enjoyed it!
+        @rougol.bsky.social
+        https://youtu.be/Igljzw4o71U]]>
+      </description>
+      <source:markdown>My talk from last week&#39;s ROUGOL meeting is now up on my channel: youtu.be/Igljzw4o71U
+
+It was a fun evening, and I really enjoyed it!
+@rougol.bsky.social
+https://youtu.be/Igljzw4o71U</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mfkagzqpmk2g</guid>
+    </item>    <item>
+      <title>Elliptical and annular gradients</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20276</link>
+      <description>
+        <![CDATA[<p>&#8230;or eggs and doughnuts if you prefer :-)<br />
+        Having had no luck with clear skies to try out our <a href="https://vermilionsands.uk/roast/index.php/2026/02/14/dwarf-mini-and-risc-os/">new telescope</a> , I&#8217;m reduced to writing another entry in our ROCoding series. This time it&#8217;s graduated elliptical and annular fills.<br />
+        Link: <a href="https://vermilionsands.uk/roast/index.php/2026/02/23/rocoding-3-ellipses-and-rings/">Ellipses and rings</a></p>]]>
+      </description>
+      <source:markdown>…or eggs and doughnuts if you prefer :-)
+
+Having had no luck with clear skies to try out our [new telescope](https://vermilionsands.uk/roast/index.php/2026/02/14/dwarf-mini-and-risc-os/) , I’m reduced to writing another entry in our ROCoding series. This time it’s graduated elliptical and annular fills.
+
+Link: [Ellipses and rings](https://vermilionsands.uk/roast/index.php/2026/02/23/rocoding-3-ellipses-and-rings/)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20276:162001</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>s&#8217;OK. Just twigged that it is the first issue of &#8220;Astounding&#8221;. :-)</p>]]>
+      </description>
+      <source:markdown>s’OK. Just twigged that it is the first issue of “Astounding”. :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:161996</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mfjj5rsokk2g</link>
+      <description>
+        <![CDATA[There's so much that's wrong with this, but for me the worst part is he probably thinks he's said something insightful - rather than borderline sociopathic.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>There&#39;s so much that&#39;s wrong with this, but for me the worst part is he probably thinks he&#39;s said something insightful - rather than borderline sociopathic.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mfjj5rsokk2g</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mfjhlr2grk2d</link>
+      <description>
+        <![CDATA[What's the word for retrospectively envious?
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>What&#39;s the word for retrospectively envious?
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mfjhlr2grk2d</guid>
+    </item>    <item>
+      <title>Draw_FillClipped / Draw_StrokeClipped</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20275</link>
+      <description>
+        <![CDATA[<p>It seems clipping was enabled when fixing an unrelated bug:</p>
+        <p><a href="https://gitlab.riscosopen.org/RiscOS/Sources/Video/Render/DrawMod/-/commit/6d9424249084f09b8b20b0175f95517aeb192e2e">https://gitlab.riscosopen.org/RiscOS/Sources/Video/Ren…</a></p>
+        <p>Does any app use it?</p>
+        <p>Unless I&#8217;ve missed something, the <span class="caps">API</span> doesn&#8217;t seem very sensible in that the clip path is recalculated on every call, so if you want to clip a 500-item DrawFile to a circle, you need to process the clip path 500 times.</p>
+        <p>I also disagree with one of the comments in the Clipping text file: &#8220;In an ideal world, the clipping code would take two paths and clip them against one another to generate a further path that would be the one that was plotted.&#8221; &#8211; I don&#8217;t believe that&#8217;s how any vector path renderer (as opposed to vector editor) works as it would cause problems with antialiasing, wouldn&#8217;t work easily with sprites, and would be slow.</p>
+        <p>I&#8217;m not suggesting any changes, but I think a better <span class="caps">API</span> would be for an opaque ClipRegion object be calculated by Draw, and somehow passed between subsequent calls. That object would be the scanlines. Looking at the GDraw <span class="caps">SWI</span> APIs, I suspect that&#8217;s what it may do (GDraw_ProcessClipPath, SetClipRegion, etc&#8230;).</p>
+        <p>Many years ago, I wrote a vector library for STBs, largely based on Draw, and it only generated run-length encoded scanlines, to save memory. Its font cache was actually <span class="caps">RLE</span> scanlines, rather than bitmaps. It&#8217;s sort of obsolete now as that doesn&#8217;t work with GPUs. Thinking about it, it&#8217;s also how Replay 3 worked &#8211; it maintained a set of scanlines representing the window, minus any overlapping windows (via Wimp filters), so could redraw off an interrupt.</p>
+        <p>(I only found it because I was playing around with the printer drivers which don&#8217;t seem to implement it.)</p>]]>
+      </description>
+      <source:markdown>It seems clipping was enabled when fixing an unrelated bug:
+
+[https://gitlab.riscosopen.org/RiscOS/Sources/Video/Ren…](https://gitlab.riscosopen.org/RiscOS/Sources/Video/Render/DrawMod/-/commit/6d9424249084f09b8b20b0175f95517aeb192e2e)
+
+Does any app use it?
+
+Unless I’ve missed something, the API doesn’t seem very sensible in that the clip path is recalculated on every call, so if you want to clip a 500-item DrawFile to a circle, you need to process the clip path 500 times.
+
+I also disagree with one of the comments in the Clipping text file: “In an ideal world, the clipping code would take two paths and clip them against one another to generate a further path that would be the one that was plotted.” – I don’t believe that’s how any vector path renderer (as opposed to vector editor) works as it would cause problems with antialiasing, wouldn’t work easily with sprites, and would be slow.
+
+I’m not suggesting any changes, but I think a better API would be for an opaque ClipRegion object be calculated by Draw, and somehow passed between subsequent calls. That object would be the scanlines. Looking at the GDraw SWI APIs, I suspect that’s what it may do (GDraw\_ProcessClipPath, SetClipRegion, etc…).
+
+Many years ago, I wrote a vector library for STBs, largely based on Draw, and it only generated run-length encoded scanlines, to save memory. Its font cache was actually RLE scanlines, rather than bitmaps. It’s sort of obsolete now as that doesn’t work with GPUs. Thinking about it, it’s also how Replay 3 worked – it maintained a set of scanlines representing the window, minus any overlapping windows (via Wimp filters), so could redraw off an interrupt.
+
+(I only found it because I was playing around with the printer drivers which don’t seem to implement it.)</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20275:161995</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 21st February at 1pm UK time.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20271</link>
+      <description>
+        <![CDATA[<p>Thanks for coming along today.</p>
+        <p>I think this is the last of the sessions on this component. The truncation with ellipsis is working, and we&#8217;ve got the additional SWIs implemented. There&#8217;s still some work to do on the flags, which I&#8217;ll make some notes about, but it&#8217;s largely working, and I&#8217;m quite happy with it.</p>
+        <hr />
+        <p>Next time, I&#8217;m planning on doing a slightly different part of the <span class="caps">RISC</span> OS 64 project, to demonstrate how to integrate C and assembler code. As you know, the <span class="caps">RISC</span> OS 64 project is intended to make it easier to produce 64-bit versions of components. The way in which this is being done is by creating new implementations in C which can be used in 32-bit systems, or 64-bit systems &#8211; and I&#8217;m testing in the 64-bit system as I go, but the 32-bit versions can be used right now.</p>
+        <p>The intention is that the things that are being built will be very easy to use within existing systems, or built into parts of the <span class="caps">ROM</span> if required. That means that they have benefits to anyone who wants to use them. Plus, demonstrating the way in which things are built may encourage others to get involved.</p>
+        <p>So, what I&#8217;m going to do in the next sessions is to take the Template loading code that I have in C, which seems to be functional and quite usable, and to build it into the existing WindowManager. Interworking C and assembler is generally a relatively easy process, but you do need to be aware of certain limitations. Back in the very dim past, I wrote a small guide on how to do this &#8211; the `Super-Quick guide to writing code to use from other languages in C`. Catchy name, I know&#8230; <a href="http://usenet.gerph.org/CGuide/">http://usenet.gerph.org/CGuide/</a> if you&#8217;re interested.</p>
+        <p>Anyhow, that&#8217;s my intention. It will almost certainly require a bit of thought and some jumping through hoops, but I&#8217;m sure it&#8217;ll be interesting.</p>]]>
+      </description>
+      <source:markdown>Thanks for coming along today.
+
+I think this is the last of the sessions on this component. The truncation with ellipsis is working, and we’ve got the additional SWIs implemented. There’s still some work to do on the flags, which I’ll make some notes about, but it’s largely working, and I’m quite happy with it.
+
+* * *
+
+Next time, I’m planning on doing a slightly different part of the RISC OS 64 project, to demonstrate how to integrate C and assembler code. As you know, the RISC OS 64 project is intended to make it easier to produce 64-bit versions of components. The way in which this is being done is by creating new implementations in C which can be used in 32-bit systems, or 64-bit systems – and I’m testing in the 64-bit system as I go, but the 32-bit versions can be used right now.
+
+The intention is that the things that are being built will be very easy to use within existing systems, or built into parts of the ROM if required. That means that they have benefits to anyone who wants to use them. Plus, demonstrating the way in which things are built may encourage others to get involved.
+
+So, what I’m going to do in the next sessions is to take the Template loading code that I have in C, which seems to be functional and quite usable, and to build it into the existing WindowManager. Interworking C and assembler is generally a relatively easy process, but you do need to be aware of certain limitations. Back in the very dim past, I wrote a small guide on how to do this – the \`Super-Quick guide to writing code to use from other languages in C\`. Catchy name, I know… [http://usenet.gerph.org/CGuide/](http://usenet.gerph.org/CGuide/) if you’re interested.
+
+Anyhow, that’s my intention. It will almost certainly require a bit of thought and some jumping through hoops, but I’m sure it’ll be interesting.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20271:161993</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfhs2f4zpk25</link>
       <description>
         <![CDATA[Great result. 36 year old game finally sees the light of day after being 'lost'.
@@ -30,6 +151,63 @@
       <source:markdown>Thanks. 🙂</source:markdown>
       <guid>cid://www.riscosopen.org:1:20273:161985</guid>
     </item>    <item>
+      <title>Orange Pi 6</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20272</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I understand, but I’d be interested in seeing the list anyway.</p>
+        </blockquote>
+        <p>No problem, here it is:</p>
+        <pre>
+        <a href="https://developer.arm.com/documentation/ka006014/latest/">https://developer.arm.com/documentation/ka006014/lates…</a>
+        </pre>
+        <blockquote>
+        <p>Does that mean that it supports AArch32 in user mode, or is that just using <span class="caps">QEMU</span>?</p>
+        </blockquote>
+        <p>Ok, let me be very clear on this: <span class="caps">RISC</span> OS on Linux <span class="caps">ALWAYS</span> uses <span class="caps">QEMU</span>, the difference between full AArch64 and user space AArch32 are only for the Apps, <span class="caps">RISC</span> OS itself should be always running in <span class="caps">QEMU</span>. <span class="caps">IIRC</span> (but I could be wrong) it uses <span class="caps">QEMU</span> Jit, so that keeps performance nice.</p>
+        <p>So in the case of the Orange Pi 6 it should use <span class="caps">QEMU</span> for everything. However, if it can run the Jit, the overhead is minimal, and given the performance of the Pi 6 board (especially on Linux and the much faster I/O), you should experience performance improvements over <span class="caps">RISC</span> OS on Linux on the Pi 5 (<span class="caps">TBD</span>, I haven&#8217;t tested it yet).</p>
+        <blockquote>
+        <p>Do you know if there any further details online?</p>
+        </blockquote>
+        <p>I have a test board here, but I did not have the time to run in depth tests, I&#8217;ll try to find some time, but as you know my hands and list of things are full and now I am dealign with users&#8217; feedback for both the ExtTheme and ShareFSServer, so I&#8217;d ask Andrew, I am 200% sure he&#8217;ll be happy to help and answer any questions.</p>
+        <p>As for the progress I am sure they are working on it, in the end is faster than the Pi 400 which is faster than the Pi 4, so probably the last best board for <span class="caps">RISC</span> OS 32 bit.</p>]]>
+      </description>
+      <source:markdown>&#62; I understand, but I’d be interested in seeing the list anyway.
+
+No problem, here it is:
+
+```
+https://developer.arm.com/documentation/ka006014/lates…
+
+```
+
+&#62; Does that mean that it supports AArch32 in user mode, or is that just using QEMU?
+
+Ok, let me be very clear on this: RISC OS on Linux ALWAYS uses QEMU, the difference between full AArch64 and user space AArch32 are only for the Apps, RISC OS itself should be always running in QEMU. IIRC (but I could be wrong) it uses QEMU Jit, so that keeps performance nice.
+
+So in the case of the Orange Pi 6 it should use QEMU for everything. However, if it can run the Jit, the overhead is minimal, and given the performance of the Pi 6 board (especially on Linux and the much faster I/O), you should experience performance improvements over RISC OS on Linux on the Pi 5 (TBD, I haven’t tested it yet).
+
+&#62; Do you know if there any further details online?
+
+I have a test board here, but I did not have the time to run in depth tests, I’ll try to find some time, but as you know my hands and list of things are full and now I am dealign with users’ feedback for both the ExtTheme and ShareFSServer, so I’d ask Andrew, I am 200% sure he’ll be happy to help and answer any questions.
+
+As for the progress I am sure they are working on it, in the end is faster than the Pi 400 which is faster than the Pi 4, so probably the last best board for RISC OS 32 bit.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20272:161982</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p>Ok, I have tried one more time.</p>
+        <p>Did not bounce back, but you need to check your spam list. &lt;&#8212;&#8212;-</p>
+        <p>Your email hosting cannot delete the emials, their security can only put on the spam list. If they are litterally deleting your emails without your approval, then I strongly suggest you change provider &#8217;cause these guys may have lost it! XD</p>]]>
+      </description>
+      <source:markdown>Ok, I have tried one more time.
+
+Did not bounce back, but you need to check your spam list. &#60;——-
+
+Your email hosting cannot delete the emials, their security can only put on the spam list. If they are litterally deleting your emails without your approval, then I strongly suggest you change provider ’cause these guys may have lost it! XD</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:161981</guid>
+    </item>    <item>
       <title>Voices from a Future Passed – on sale from 1st March</title>
       <link>https://www.riscository.com/2026/voices-from-a-future-passed-available-1st-march/</link>
       <description>
@@ -37,76 +215,6 @@
       </description>
       <source:markdown>The official Acorn biography, Voices from a Future Passed, put together by Rob Napier, will be available to buy from 1st March. The book outlines the history of Acorn Computers Ltd – the company that brought us the BBC Micro home computer, amongst many others, and designed the original ARM processor. The ARM first became the heart of their next generation of computers before going on to dominate the world when it came mobile and low-power processing; there are now many times more ARMs in the world than there are,…</source:markdown>
       <guid>cid://https://www.riscository.com/?p=10880</guid>
-    </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p>Hi David,</p>
-        <p>make sure you have a directory called &#8220;public&#8221; where you have you riscos_share_fs, in your case.</p>
-        <p>&#8220;Not a directcory&#8221; error means the server can&#8217;t find the directory you&#8217;ve put in the Share&#8217;s path.</p>
-        <p>Also remember Linux is case sensitive.</p>
-        <p>So looking at your hsarefs.toml you should have this:</p>
-        <pre>
-        David's place where you unzipped riscos_sharefs
-        |
-        +--- riscos_share_fs
-        |
-        +--- public &lt;---- your configured "./public"
-        |
-        ... other sharefs files
-        </pre>
-        <p><span class="caps">HTH</span></p>]]>
-      </description>
-      <source:markdown>Hi David,
-
-make sure you have a directory called “public” where you have you riscos\_share\_fs, in your case.
-
-“Not a directcory” error means the server can’t find the directory you’ve put in the Share’s path.
-
-Also remember Linux is case sensitive.
-
-So looking at your hsarefs.toml you should have this:
-
-```
-David&#39;s place where you unzipped riscos_sharefs
-|
-+--- riscos_share_fs
-|
-+--- public &#60;---- your configured &#34;./public&#34;
-|
-... other sharefs files
-
-```
-
-HTH</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:161971</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 21st February at 1pm UK time.</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20271</link>
-      <description>
-        <![CDATA[<p>Live Now!</p>]]>
-      </description>
-      <source:markdown>Live Now!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20271:161970</guid>
-    </item>    <item>
-      <title>Orange Pi 6</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20272</link>
-      <description>
-        <![CDATA[<p>Is there a complete list of <span class="caps">ARM</span> cores that have full (or partial) 32-bit support that could be used as a reference for which ones could feasibly support <span class="caps">RISC</span> OS?</p>
-        <p>On a separate note, does <span class="caps">RISC</span> OS run on any of the previous generation Orange Pi boards (particularly the Rockchip-based ones)?</p>]]>
-      </description>
-      <source:markdown>Is there a complete list of ARM cores that have full (or partial) 32-bit support that could be used as a reference for which ones could feasibly support RISC OS?
-
-On a separate note, does RISC OS run on any of the previous generation Orange Pi boards (particularly the Rockchip-based ones)?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20272:161969</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>I now want to read the issue of AS you picked out a page from! What issue is it?  8-]</p>]]>
-      </description>
-      <source:markdown>I now want to read the issue of AS you picked out a page from! What issue is it? 8-\]</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:161968</guid>
     </item>    <item>
       <title>Grok your railway stations in TrainTimes</title>
       <link>https://www.riscository.com/2026/traintimes-2-09/</link>
