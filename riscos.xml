@@ -7,10 +7,104 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>23 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>24 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.22</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>NAS devices</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20122</link>
+      <description>
+        <![CDATA[<p>I now have the Synology DS124 <span class="caps">NAS</span> with a Seagate 4TB disc inside mentioned in my earlier post, but am having a nightmare configuring the <span class="caps">NAS</span>. It seems to have a lot more features than my old Buffalo Link Station, but the content of the web interface is bloated and repetitive.<br />
+        I have managed to set up a shared directory and transferred a file into it, but not much further. I can only access the disc by <span class="caps">LAN</span> IP address, not by name, and this is an address in the <span class="caps">DHCP</span> pool which fortunately is the same every time I try. How do I give the <span class="caps">NAS</span> a fixed <span class="caps">LAN</span> IP address and get it to be accessed by name as well as IP address?</p>]]>
+      </description>
+      <source:markdown>I now have the Synology DS124 NAS with a Seagate 4TB disc inside mentioned in my earlier post, but am having a nightmare configuring the NAS. It seems to have a lot more features than my old Buffalo Link Station, but the content of the web interface is bloated and repetitive.
+
+I have managed to set up a shared directory and transferred a file into it, but not much further. I can only access the disc by LAN IP address, not by name, and this is an address in the DHCP pool which fortunately is the same every time I try. How do I give the NAS a fixed LAN IP address and get it to be accessed by name as well as IP address?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20122:162033</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mfmhlxjtfc2l</link>
+      <description>
+        <![CDATA["If you think you need JavaScript you probably only need CSS".
+        
+        <shakes fist at Turing Completeness>
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>&#34;If you think you need JavaScript you probably only need CSS&#34;.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mfmhlxjtfc2l</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mfmhcdqufk26</link>
+      <description>
+        <![CDATA[El Reg headline writers are 👌🏻
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>El Reg headline writers are 👌🏻
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mfmhcdqufk26</guid>
+    </item>    <item>
+      <title>Orange Pi 6</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20272</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>The comment suggests that it runs natively or with <span class="caps">QEMU</span>, but it’s possible I’ve misunderstood since I’m not familiar enough with how it works.</p>
+        </blockquote>
+        <p>That&#8217;s right. <span class="caps">RISC</span> OS Linux will run natively if aarch32 is available. The <span class="caps">RISC</span> OS Linux rom image is just a user mode aarch32 executable.</p>
+        <pre>
+        <code>
+        $ file RISCOS.IMG
+        RISCOS.IMG: ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux), statically linked, stripped
+        </code>
+        </pre>
+        <p>I did a quick comparison compiling a <span class="caps">RISC</span> OS rom running <span class="caps">RISC</span> OS Linux on a RPi 5 with RPi OS. Running <span class="caps">RISC</span> OS Linux with <span class="caps">QEMU</span> emulation is very slow.</p>
+        <p>Running natively.<br />
+        1m 54s</p>
+        <p>Running with <span class="caps">QEMU</span>.<br />
+        19m 14s</p>]]>
+      </description>
+      <source:markdown>&#62; The comment suggests that it runs natively or with QEMU, but it’s possible I’ve misunderstood since I’m not familiar enough with how it works.
+
+That’s right. RISC OS Linux will run natively if aarch32 is available. The RISC OS Linux rom image is just a user mode aarch32 executable.
+
+```
+
+$ file RISCOS.IMG
+RISCOS.IMG: ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux), statically linked, stripped
+
+```
+
+I did a quick comparison compiling a RISC OS rom running RISC OS Linux on a RPi 5 with RPi OS. Running RISC OS Linux with QEMU emulation is very slow.
+
+Running natively.
+
+1m 54s
+
+Running with QEMU.
+
+19m 14s</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20272:162009</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3mflreargx223</link>
+      <description>
+        <![CDATA[Even though I was there, I really enjoyed watching this again! Well worth a view 😃
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Even though I was there, I really enjoyed watching this again! Well worth a view 😃
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mflreargx223</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfkoripxp22t</link>
+      <description>
+        <![CDATA[Browsing the Texture assets from the development disk for Dreamcast Wetrix+. They are stored in Dreamcast PowerVR Texture format ( various compressed format variations ).]]>
+      </description>
+      <source:markdown>Browsing the Texture assets from the development disk for Dreamcast Wetrix+. They are stored in Dreamcast PowerVR Texture format ( various compressed format variations ).</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mfkoripxp22t</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfkf5tkwc22t</link>
       <description>
         <![CDATA[I have just received a very interesting find from @bone6502.bsky.social who worked at ZED TWO. It's a disk containing the source code for PS2 Aqua Aqua and data for Wetrix+ ( Dreamcast ). It's great to see this being preserved, especially as it came of a ZIP 100 disk which don't survive very well!]]>
@@ -150,49 +244,6 @@ Anyhow, that’s my intention. It will almost certainly require a bit of thought
       </description>
       <source:markdown>Thanks. 🙂</source:markdown>
       <guid>cid://www.riscosopen.org:1:20273:161985</guid>
-    </item>    <item>
-      <title>Orange Pi 6</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20272</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I understand, but I’d be interested in seeing the list anyway.</p>
-        </blockquote>
-        <p>No problem, here it is:</p>
-        <pre>
-        <a href="https://developer.arm.com/documentation/ka006014/latest/">https://developer.arm.com/documentation/ka006014/lates…</a>
-        </pre>
-        <blockquote>
-        <p>Does that mean that it supports AArch32 in user mode, or is that just using <span class="caps">QEMU</span>?</p>
-        </blockquote>
-        <p>Ok, let me be very clear on this: <span class="caps">RISC</span> OS on Linux <span class="caps">ALWAYS</span> uses <span class="caps">QEMU</span>, the difference between full AArch64 and user space AArch32 are only for the Apps, <span class="caps">RISC</span> OS itself should be always running in <span class="caps">QEMU</span>. <span class="caps">IIRC</span> (but I could be wrong) it uses <span class="caps">QEMU</span> Jit, so that keeps performance nice.</p>
-        <p>So in the case of the Orange Pi 6 it should use <span class="caps">QEMU</span> for everything. However, if it can run the Jit, the overhead is minimal, and given the performance of the Pi 6 board (especially on Linux and the much faster I/O), you should experience performance improvements over <span class="caps">RISC</span> OS on Linux on the Pi 5 (<span class="caps">TBD</span>, I haven&#8217;t tested it yet).</p>
-        <blockquote>
-        <p>Do you know if there any further details online?</p>
-        </blockquote>
-        <p>I have a test board here, but I did not have the time to run in depth tests, I&#8217;ll try to find some time, but as you know my hands and list of things are full and now I am dealign with users&#8217; feedback for both the ExtTheme and ShareFSServer, so I&#8217;d ask Andrew, I am 200% sure he&#8217;ll be happy to help and answer any questions.</p>
-        <p>As for the progress I am sure they are working on it, in the end is faster than the Pi 400 which is faster than the Pi 4, so probably the last best board for <span class="caps">RISC</span> OS 32 bit.</p>]]>
-      </description>
-      <source:markdown>&#62; I understand, but I’d be interested in seeing the list anyway.
-
-No problem, here it is:
-
-```
-https://developer.arm.com/documentation/ka006014/lates…
-
-```
-
-&#62; Does that mean that it supports AArch32 in user mode, or is that just using QEMU?
-
-Ok, let me be very clear on this: RISC OS on Linux ALWAYS uses QEMU, the difference between full AArch64 and user space AArch32 are only for the Apps, RISC OS itself should be always running in QEMU. IIRC (but I could be wrong) it uses QEMU Jit, so that keeps performance nice.
-
-So in the case of the Orange Pi 6 it should use QEMU for everything. However, if it can run the Jit, the overhead is minimal, and given the performance of the Pi 6 board (especially on Linux and the much faster I/O), you should experience performance improvements over RISC OS on Linux on the Pi 5 (TBD, I haven’t tested it yet).
-
-&#62; Do you know if there any further details online?
-
-I have a test board here, but I did not have the time to run in depth tests, I’ll try to find some time, but as you know my hands and list of things are full and now I am dealign with users’ feedback for both the ExtTheme and ShareFSServer, so I’d ask Andrew, I am 200% sure he’ll be happy to help and answer any questions.
-
-As for the progress I am sure they are working on it, in the end is faster than the Pi 400 which is faster than the Pi 4, so probably the last best board for RISC OS 32 bit.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20272:161982</guid>
     </item>    <item>
       <title>Need volunteers to start testing my new ShareFSServer</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
@@ -2328,17 +2379,6 @@ IF STR$~filename$ = &#34;&#34; THEN ...</source:markdown>
 
 Available here: [ROAST circles](https://vermilionsands.uk/roast/index.php/2026/01/20/rocoding-2-circles/)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20234:161466</guid>
-    </item>    <item>
-      <title>NAS devices</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20122</link>
-      <description>
-        <![CDATA[<p>I just recently started using my Titanium as a <span class="caps">NAS</span> as i got 4 x Seagate Exos 7E8 ST12000NM0105 for £25 Each, Excellent Drives and Format 4kn automatic under !PartMgr<br />
-        Anyone else wanting to grab a bargain here is the link &#8211; <a href="https://www.ebay.co.uk/itm/157497235710">https://www.ebay.co.uk/itm/157497235710</a> (7 Left)</p>]]>
-      </description>
-      <source:markdown>I just recently started using my Titanium as a NAS as i got 4 x Seagate Exos 7E8 ST12000NM0105 for £25 Each, Excellent Drives and Format 4kn automatic under !PartMgr
-
-Anyone else wanting to grab a bargain here is the link – [https://www.ebay.co.uk/itm/157497235710](https://www.ebay.co.uk/itm/157497235710) (7 Left)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20122:161465</guid>
     </item>    <item>
       <title>!Switch - where can i find it?</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20232</link>
