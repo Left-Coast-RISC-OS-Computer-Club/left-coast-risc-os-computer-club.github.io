@@ -7,10 +7,140 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>24 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>25 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.22</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Obey alias - *Set if not already set?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20277</link>
+      <description>
+        <![CDATA[<p>I&#8217;m cleaning up some old <span class="caps">RISC</span> OS code and I&#8217;ve hit a bit of a ShellCLI gremlin I don&#8217;t know how to fix&#8230;!</p>
+        <p>There&#8217;s this chunk of code in the !Boot which sets up a basic operating configuration, but it&#8217;s intended that this be overridable from outside too:</p>
+        <pre><code>Set Alias$Set If "&lt;%%0&gt;" = "" then %Set %*0</code>
+        
+        <code>Set IServer$Dir        &lt;Obey$Dir&gt;
+        Set IServer$IBoardSize #200000
+        Set IServer$IDebugSize #200000</code>
+        
+        <code>Unset Alias$Set</code></pre>
+        <p>I can see what the intent is here, but it doesn&#8217;t work. The &#8220;Set&#8221; is always run, so whatever values I set outside !Boot get overridden. This is on RO 3.11.</p>
+        <p>Does anyone have a &#8220;set if not already set&#8221; ShellCli/Obey pattern that they could share?</p>]]>
+      </description>
+      <source:markdown>I’m cleaning up some old RISC OS code and I’ve hit a bit of a ShellCLI gremlin I don’t know how to fix…!
+
+There’s this chunk of code in the !Boot which sets up a basic operating configuration, but it’s intended that this be overridable from outside too:
+
+```
+Set Alias$Set If &#34;&#60;%%0&#62;&#34; = &#34;&#34; then %Set %*0
+
+Set IServer$Dir        &#60;Obey$Dir&#62;
+Set IServer$IBoardSize #200000
+Set IServer$IDebugSize #200000
+
+Unset Alias$Set
+```
+
+I can see what the intent is here, but it doesn’t work. The “Set” is always run, so whatever values I set outside !Boot get overridden. This is on RO 3.11.
+
+Does anyone have a “set if not already set” ShellCli/Obey pattern that they could share?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20277:162042</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mfozs4zn7k2q</link>
+      <description>
+        <![CDATA[I am reminded today of just how amazing the Tron Legacy soundtrack by Daft Punk is. Every track pulses with electronic glory!]]>
+      </description>
+      <source:markdown>I am reminded today of just how amazing the Tron Legacy soundtrack by Daft Punk is. Every track pulses with electronic glory!</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mfozs4zn7k2q</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve now got the Compo-using program to apply a user-chosen set of &#8216;expansion&#8217; values. i.e. it can take the sourced range of pixel values and &#8216;expand&#8217; them on the following basis:</p>
+        <p>The program generates the &#8216;accumulated&#8217; stats for rgb. i.e. what percentage of pixel values is at-or-below each possible value in the 0 &#8211; 255 range. The user then chooses which &#8216;percentage values&#8217; to put outwith the expanded range.</p>
+        <p>i.e. if I specify 10% and 90% to exclude, the output is expanded to have what is between these in the image `fill up&#8217; the 0 &#8211; 255 range. It then re-writes the pixels using the source original values for each pixel as the &#8216;look up table&#8217; location fore the new brightness.</p>
+        <p>Found that 1%/99% did little more than greyscale the image &#8211; inc the darkening due to oxidation. But values more like 20% and 80% or higher give much better conversion to cleaner black text on a white background.</p>
+        <p>So far, just using the blue values to generate greyscale. But next step is to have user choise to use r, or, g, or any combination as the way to produce the exanded greyscale. Using accumulated probability plots essentially alignes away the browning &#8216;offsets&#8217;.</p>
+        <p>Which approach sems best in a given case can then be experimented with, and chosen by users.<br />
+        But simply using blue seems able to work fairly well on the test pages I have thus far.</p>
+        <p>The code is, as usual for me, clumsily written. But I can put a copy up some time today if I get a chamce. People can then experiment with it as they may wish.</p>
+        <p>Once it works well, I&#8217;ll see if it can be used along with !KPDFutil (spelling?) But at present my priorities are personal (carer duties) and my clumsy programming of what I&#8217;ve managed to get working.</p>]]>
+      </description>
+      <source:markdown>I’ve now got the Compo-using program to apply a user-chosen set of ‘expansion’ values. i.e. it can take the sourced range of pixel values and ‘expand’ them on the following basis:
+
+The program generates the ‘accumulated’ stats for rgb. i.e. what percentage of pixel values is at-or-below each possible value in the 0 – 255 range. The user then chooses which ‘percentage values’ to put outwith the expanded range.
+
+i.e. if I specify 10% and 90% to exclude, the output is expanded to have what is between these in the image \`fill up’ the 0 – 255 range. It then re-writes the pixels using the source original values for each pixel as the ‘look up table’ location fore the new brightness.
+
+Found that 1%/99% did little more than greyscale the image – inc the darkening due to oxidation. But values more like 20% and 80% or higher give much better conversion to cleaner black text on a white background.
+
+So far, just using the blue values to generate greyscale. But next step is to have user choise to use r, or, g, or any combination as the way to produce the exanded greyscale. Using accumulated probability plots essentially alignes away the browning ‘offsets’.
+
+Which approach sems best in a given case can then be experimented with, and chosen by users.
+
+But simply using blue seems able to work fairly well on the test pages I have thus far.
+
+The code is, as usual for me, clumsily written. But I can put a copy up some time today if I get a chamce. People can then experiment with it as they may wish.
+
+Once it works well, I’ll see if it can be used along with !KPDFutil (spelling?) But at present my priorities are personal (carer duties) and my clumsy programming of what I’ve managed to get working.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162038</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mfomlinoa22l</link>
+      <description>
+        <![CDATA[I used to work with a lady who could navigate anywhere in the city, but only from one particular roundabout. So every journey involved driving there first and then on to the destination, even if it was back the same direction.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>I used to work with a lady who could navigate anywhere in the city, but only from one particular roundabout. So every journey involved driving there first and then on to the destination, even if it was back the same direction.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mfomlinoa22l</guid>
+    </item>    <item>
+      <title>Rougol February 2026 meeting on monday - Retro YouTuber Colin Hoad</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13556&#38;page=1#125867</link>
+      <description>
+        <![CDATA[Video now available for those that missed Colin's excellent talk, or want to watch it again! https://youtu.be/Igljzw4o71U]]>
+      </description>
+      <source:markdown>Video now available for those that missed Colin&#39;s excellent talk, or want to watch it again! https://youtu.be/Igljzw4o71U</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13556&#38;page=1#125867</guid>
+    </item>    <item>
+      <title>Retro YouTube at ROUGOL, Mon 16th Feb 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20261</link>
+      <description>
+        <![CDATA[<p>The <a href="https://rougol.jellybaby.net/meetings/2026/feb.html">meeting page</a> has been updated with a download of the slides and a link to <a href="https://youtu.be/Igljzw4o71U">a video</a> of the meeting.</p>]]>
+      </description>
+      <source:markdown>The [meeting page](https://rougol.jellybaby.net/meetings/2026/feb.html) has been updated with a download of the slides and a link to [a video](https://youtu.be/Igljzw4o71U) of the meeting.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20261:162037</guid>
+    </item>    <item>
+      <title>Elliptical and annular gradients</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20276</link>
+      <description>
+        <![CDATA[<p>So far the series is concerned with bitmaps, not Draw. But I do plan to do some posts about Draw objects &#8212; mostly the posts so far have been prompted by their use in the solar panel app I&#8217;m working on, and that does indeed use draw objects as well as sprites (for thickening and dotting lines, for instance).</p>]]>
+      </description>
+      <source:markdown>So far the series is concerned with bitmaps, not Draw. But I do plan to do some posts about Draw objects — mostly the posts so far have been prompted by their use in the solar panel app I’m working on, and that does indeed use draw objects as well as sprites (for thickening and dotting lines, for instance).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20276:162036</guid>
+    </item>    <item>
+      <title>Using the Dwarf Mini on RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
+      <description>
+        <![CDATA[<p>We&#8217;ve just had our first clear night for what seems like months, and I&#8217;ve managed to inaugurate the Dwarf Mini with (among other objects) the de rigeur M42, aka the Orion Nebula. I&#8217;m well pleased with it&#8230;<br />
+        Link: <a href="https://vermilionsands.uk/blog/?p=22209">Clear Skies at Last!</a></p>]]>
+      </description>
+      <source:markdown>We’ve just had our first clear night for what seems like months, and I’ve managed to inaugurate the Dwarf Mini with (among other objects) the de rigeur M42, aka the Orion Nebula. I’m well pleased with it…
+
+Link: [Clear Skies at Last!](https://vermilionsands.uk/blog/?p=22209)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20262:162035</guid>
+    </item>    <item>
+      <title>Printing via Mac OS</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20258</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve done the other things I wanted to look at, so IPPTrnspt version 0.18 is up on my web site.  This should work substantially better with HP printers, and in fact any printers that use chunked transfer when sending back status.</p>
+        <p>There is no change to the requirements for printer definition files etc.  It should just be a drop-in (i.e. copy over) replacement for version 0.17.</p>]]>
+      </description>
+      <source:markdown>I’ve done the other things I wanted to look at, so IPPTrnspt version 0.18 is up on my web site. This should work substantially better with HP printers, and in fact any printers that use chunked transfer when sending back status.
+
+There is no change to the requirements for printer definition files etc. It should just be a drop-in (i.e. copy over) replacement for version 0.17.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20258:162034</guid>
+    </item>    <item>
       <title>NAS devices</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20122</link>
       <description>
@@ -21,6 +151,61 @@
 
 I have managed to set up a shared directory and transferred a file into it, but not much further. I can only access the disc by LAN IP address, not by name, and this is an address in the DHCP pool which fortunately is the same every time I try. How do I give the NAS a fixed LAN IP address and get it to be accessed by name as well as IP address?</source:markdown>
       <guid>cid://www.riscosopen.org:11:20122:162033</guid>
+    </item>    <item>
+      <title>Orange Pi 6</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20272</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>There aren’t two execution paths. There’s a script that checks whether the required <span class="caps">CPU</span> support is there. If it is it runs natively as an aarch32 application otherwise it runs the same application with <span class="caps">QEMU</span>.</p>
+        </blockquote>
+        <p>huh????</p>
+        <pre>
+        if [[ "$RISC_OS__INSECURE" == "YES" ]]; then
+          RISC_OS_IXFS_HardDisc4='IXFS:$.dev.fd.5.HardDisc4' exec $RISC_OS__GUI Built/wrapper --handle-reboots -- ./RISC_OS --nvram 'HardDisc4/!Boot/Loader/CMOS' 5&lt;.
+        else
+          . Built/sandbox_config_sh
+          RISC_OS_IXFS_HardDisc4='IXFS:$.HardDisc4' exec $RISC_OS__GUI Built/wrapper --network --handle-reboots \
+          bwrap --seccomp -- --unshare-all --tmpfs / --proc /proc --dev /dev \
+          "${auto_bwrap_args[@]}" \
+          "${qemu_libs[@]}" \
+          --ro-bind RISC_OS /RISC_OS \
+          --bind HardDisc4 /HardDisc4 --chdir / \
+          "${bwrap_extra[@]}" \
+          --remount-ro / \
+          $QEMU /RISC_OS --nvram 'HardDisc4/!Boot/Loader/CMOS'
+        fi
+        </pre>
+        <blockquote>
+        <p>The improvements for the Pi are mostly in the Pi <span class="caps">HAL</span> and all the extra hardware support.</p>
+        </blockquote>
+        <p>Indeed which is what I was refering to. So????</p>]]>
+      </description>
+      <source:markdown>&#62; There aren’t two execution paths. There’s a script that checks whether the required CPU support is there. If it is it runs natively as an aarch32 application otherwise it runs the same application with QEMU.
+
+huh????
+
+```
+if [[ &#34;$RISC_OS__INSECURE&#34; == &#34;YES&#34; ]]; then
+  RISC_OS_IXFS_HardDisc4=&#39;IXFS:$.dev.fd.5.HardDisc4&#39; exec $RISC_OS__GUI Built/wrapper --handle-reboots -- ./RISC_OS --nvram &#39;HardDisc4/!Boot/Loader/CMOS&#39; 5&#60;.
+else
+  . Built/sandbox_config_sh
+  RISC_OS_IXFS_HardDisc4=&#39;IXFS:$.HardDisc4&#39; exec $RISC_OS__GUI Built/wrapper --network --handle-reboots \
+  bwrap --seccomp -- --unshare-all --tmpfs / --proc /proc --dev /dev \
+  &#34;${auto_bwrap_args[@]}&#34; \
+  &#34;${qemu_libs[@]}&#34; \
+  --ro-bind RISC_OS /RISC_OS \
+  --bind HardDisc4 /HardDisc4 --chdir / \
+  &#34;${bwrap_extra[@]}&#34; \
+  --remount-ro / \
+  $QEMU /RISC_OS --nvram &#39;HardDisc4/!Boot/Loader/CMOS&#39;
+fi
+
+```
+
+&#62; The improvements for the Pi are mostly in the Pi HAL and all the extra hardware support.
+
+Indeed which is what I was refering to. So????</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20272:162019</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mfmhlxjtfc2l</link>
       <description>
@@ -45,47 +230,6 @@ I have managed to set up a shared directory and transferred a file into it, but 
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mfmhcdqufk26</guid>
-    </item>    <item>
-      <title>Orange Pi 6</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20272</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>The comment suggests that it runs natively or with <span class="caps">QEMU</span>, but it’s possible I’ve misunderstood since I’m not familiar enough with how it works.</p>
-        </blockquote>
-        <p>That&#8217;s right. <span class="caps">RISC</span> OS Linux will run natively if aarch32 is available. The <span class="caps">RISC</span> OS Linux rom image is just a user mode aarch32 executable.</p>
-        <pre>
-        <code>
-        $ file RISCOS.IMG
-        RISCOS.IMG: ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux), statically linked, stripped
-        </code>
-        </pre>
-        <p>I did a quick comparison compiling a <span class="caps">RISC</span> OS rom running <span class="caps">RISC</span> OS Linux on a RPi 5 with RPi OS. Running <span class="caps">RISC</span> OS Linux with <span class="caps">QEMU</span> emulation is very slow.</p>
-        <p>Running natively.<br />
-        1m 54s</p>
-        <p>Running with <span class="caps">QEMU</span>.<br />
-        19m 14s</p>]]>
-      </description>
-      <source:markdown>&#62; The comment suggests that it runs natively or with QEMU, but it’s possible I’ve misunderstood since I’m not familiar enough with how it works.
-
-That’s right. RISC OS Linux will run natively if aarch32 is available. The RISC OS Linux rom image is just a user mode aarch32 executable.
-
-```
-
-$ file RISCOS.IMG
-RISCOS.IMG: ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux), statically linked, stripped
-
-```
-
-I did a quick comparison compiling a RISC OS rom running RISC OS Linux on a RPi 5 with RPi OS. Running RISC OS Linux with QEMU emulation is very slow.
-
-Running natively.
-
-1m 54s
-
-Running with QEMU.
-
-19m 14s</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20272:162009</guid>
     </item>    <item>
       <link>https://bsky.app/profile/rougol.bsky.social/post/3mflreargx223</link>
       <description>
@@ -126,28 +270,6 @@ It was a fun evening, and I really enjoyed it!
 @rougol.bsky.social
 https://youtu.be/Igljzw4o71U</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mfkagzqpmk2g</guid>
-    </item>    <item>
-      <title>Elliptical and annular gradients</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20276</link>
-      <description>
-        <![CDATA[<p>&#8230;or eggs and doughnuts if you prefer :-)<br />
-        Having had no luck with clear skies to try out our <a href="https://vermilionsands.uk/roast/index.php/2026/02/14/dwarf-mini-and-risc-os/">new telescope</a> , I&#8217;m reduced to writing another entry in our ROCoding series. This time it&#8217;s graduated elliptical and annular fills.<br />
-        Link: <a href="https://vermilionsands.uk/roast/index.php/2026/02/23/rocoding-3-ellipses-and-rings/">Ellipses and rings</a></p>]]>
-      </description>
-      <source:markdown>…or eggs and doughnuts if you prefer :-)
-
-Having had no luck with clear skies to try out our [new telescope](https://vermilionsands.uk/roast/index.php/2026/02/14/dwarf-mini-and-risc-os/) , I’m reduced to writing another entry in our ROCoding series. This time it’s graduated elliptical and annular fills.
-
-Link: [Ellipses and rings](https://vermilionsands.uk/roast/index.php/2026/02/23/rocoding-3-ellipses-and-rings/)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20276:162001</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>s&#8217;OK. Just twigged that it is the first issue of &#8220;Astounding&#8221;. :-)</p>]]>
-      </description>
-      <source:markdown>s’OK. Just twigged that it is the first issue of “Astounding”. :-)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:161996</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mfjj5rsokk2g</link>
       <description>
@@ -313,20 +435,6 @@ Negative numbers get corrupted! They would be allowed, but for the bug.</source:
 
 The chances of having to get your point across in EBCDIC are pretty slim in RISC OS, but not zero! nemoBasic has you covered:</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mfd3zkw2nc2w</guid>
-    </item>    <item>
-      <title>Printing via Mac OS</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20258</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve got IPPTrnspt to offer all 5 scaling options when a <span class="caps">JPEG</span> file is dragged in: Auto, Auto-fit, Fill, Fit and None.  These work with the Epson XP8700.  &#8220;None&#8221; does indeed print the <span class="caps">JPEG</span> at actual size; the version that&#8217;s out there is fixed at that.  I find it interesting that my test image, which is 120mm wide and 50mm tall (thus landscape mode), is printed on the paper in landscape mode, so the printer is rotating the image.</p>
-        <p>I haven&#8217;t updated the version on my web site yet because there are a couple of other things I&#8217;d like to look at first, and this feature isn&#8217;t really such a big deal.</p>
-        <p>My way of getting a <span class="caps">JPEG</span> printed out at a particular size is to drag it into Draw and control the size and position there, then print from Draw.  I&#8217;ve used that to print stick-on photos for Christmas cards.</p>]]>
-      </description>
-      <source:markdown>I’ve got IPPTrnspt to offer all 5 scaling options when a JPEG file is dragged in: Auto, Auto-fit, Fill, Fit and None. These work with the Epson XP8700. “None” does indeed print the JPEG at actual size; the version that’s out there is fixed at that. I find it interesting that my test image, which is 120mm wide and 50mm tall (thus landscape mode), is printed on the paper in landscape mode, so the printer is rotating the image.
-
-I haven’t updated the version on my web site yet because there are a couple of other things I’d like to look at first, and this feature isn’t really such a big deal.
-
-My way of getting a JPEG printed out at a particular size is to drag it into Draw and control the size and position there, then print from Draw. I’ve used that to print stick-on photos for Christmas cards.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20258:161935</guid>
     </item>    <item>
       <title>Update for my hourglass modules</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20269</link>
@@ -602,14 +710,6 @@ https://riscosopen.org/forum/forums/1/topics/20266
       <source:markdown>Best prices paid</source:markdown>
       <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13562&#38;page=1#125866</guid>
     </item>    <item>
-      <title>Retro YouTube at ROUGOL, Mon 16th Feb 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20261</link>
-      <description>
-        <![CDATA[<p>Reminder, the meeting is tonight!</p>]]>
-      </description>
-      <source:markdown>Reminder, the meeting is tonight!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20261:161878</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mexlw4oi2k2j</link>
       <description>
         <![CDATA[This is today! Hope to see you there :-)
@@ -728,17 +828,6 @@ Maybe it should be a topic for a RISC OS programmers fireside chat.
 
 The fun but is that though this API is naturally 24b colour, L3.5 Teletext only supports 4096 colours, so it’s quantised internally (and currently colours 16-31 are ignored because of the Kernel implementation).</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3metnhzmaes2m</guid>
-    </item>    <item>
-      <title>Using the Dwarf Mini on RISC OS</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
-      <description>
-        <![CDATA[<p>The Dwarf Mini is a smart telescope, and I&#8217;ve written a blog entry on the <span class="caps">ROAST</span> site with some information on accessing its data from <span class="caps">RISC</span> OS.<br />
-        Link: <a href="https://vermilionsands.uk/roast/index.php/2026/02/14/dwarf-mini-and-risc-os/">https://vermilionsands.uk/roast/index.php/2026/02/14/d…</a></p>]]>
-      </description>
-      <source:markdown>The Dwarf Mini is a smart telescope, and I’ve written a blog entry on the ROAST site with some information on accessing its data from RISC OS.
-
-Link: [https://vermilionsands.uk/roast/index.php/2026/02/14/d…](https://vermilionsands.uk/roast/index.php/2026/02/14/dwarf-mini-and-risc-os/)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20262:161844</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3meti2326bc2v</link>
       <description>

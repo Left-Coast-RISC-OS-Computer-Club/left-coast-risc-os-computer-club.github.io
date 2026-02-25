@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.22" >
-  <meta content="2026-02-24T12:00:26-08:00" name="date" >
+  <meta name="date" content="2026-02-25T12:00:28-08:00" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -20,6 +20,136 @@
   </nav>
   <section>
 
+    <article data-published="2026-02-25T19:10:55Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20277">
+      <h1>Obey alias - *Set if not already set?</h1>
+
+(date: 2026-02-25)
+      <p>
+      <p>I’m cleaning up some old RISC OS code and I’ve hit a bit of a ShellCLI gremlin I don’t know how to fix…!</p>
+<p>There’s this chunk of code in the !Boot which sets up a basic operating configuration, but it’s intended that this be overridable from outside too:</p>
+<pre><code>Set Alias$Set If &quot;&lt;%%0&gt;&quot; = &quot;&quot; then %Set %*0
+
+Set IServer$Dir        &lt;Obey$Dir&gt;
+Set IServer$IBoardSize #200000
+Set IServer$IDebugSize #200000
+
+Unset Alias$Set
+</code></pre>
+<p>I can see what the intent is here, but it doesn’t work. The “Set” is always run, so whatever values I set outside !Boot get overridden. This is on RO 3.11.</p>
+<p>Does anyone have a “set if not already set” ShellCli/Obey pattern that they could share?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20277">https://www.riscosopen.org/forum/forums/11/topics/20277</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-25T15:48:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mfozs4zn7k2q">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-02-25)
+      <p>
+      <p>I am reminded today of just how amazing the Tron Legacy soundtrack by Daft Punk is. Every track pulses with electronic glory!</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mfozs4zn7k2q">https://bsky.app/profile/colinhoad.com/post/3mfozs4zn7k2q</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-25T12:49:58Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
+      <h1>MuView and rendering PDF pages</h1>
+
+(date: 2026-02-25)
+      <p>
+      <p>I’ve now got the Compo-using program to apply a user-chosen set of ‘expansion’ values. i.e. it can take the sourced range of pixel values and ‘expand’ them on the following basis:</p>
+<p>The program generates the ‘accumulated’ stats for rgb. i.e. what percentage of pixel values is at-or-below each possible value in the 0 – 255 range. The user then chooses which ‘percentage values’ to put outwith the expanded range.</p>
+<p>i.e. if I specify 10% and 90% to exclude, the output is expanded to have what is between these in the image `fill up’ the 0 – 255 range. It then re-writes the pixels using the source original values for each pixel as the ‘look up table’ location fore the new brightness.</p>
+<p>Found that 1%/99% did little more than greyscale the image – inc the darkening due to oxidation. But values more like 20% and 80% or higher give much better conversion to cleaner black text on a white background.</p>
+<p>So far, just using the blue values to generate greyscale. But next step is to have user choise to use r, or, g, or any combination as the way to produce the exanded greyscale. Using accumulated probability plots essentially alignes away the browning ‘offsets’.</p>
+<p>Which approach sems best in a given case can then be experimented with, and chosen by users.</p>
+<p>But simply using blue seems able to work fairly well on the test pages I have thus far.</p>
+<p>The code is, as usual for me, clumsily written. But I can put a copy up some time today if I get a chamce. People can then experiment with it as they may wish.</p>
+<p>Once it works well, I’ll see if it can be used along with !KPDFutil (spelling?) But at present my priorities are personal (carer duties) and my clumsy programming of what I’ve managed to get working.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-25T11:52:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mfomlinoa22l">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-02-25)
+      <p>
+      <p>I used to work with a lady who could navigate anywhere in the city, but only from one particular roundabout. So every journey involved driving there first and then on to the destination, even if it was back the same direction.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mfomlinoa22l">https://bsky.app/profile/nemo20000.bsky.social/post/3mfomlinoa22l</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-25T03:39:16Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13556&page=1#125867">
+      <h1>Rougol February 2026 meeting on monday - Retro YouTuber Colin Hoad</h1>
+
+(date: 2026-02-25, updated: 2025-12-06)
+      <p>
+      <p>Video now available for those that missed Colin's excellent talk, or want to watch it again! <a href="https://youtu.be/Igljzw4o71U">https://youtu.be/Igljzw4o71U</a></p>
+
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13556&page=1#125867">http://www.iconbar.com/forums/viewthread.php?threadid=13556&page=1#125867</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-25T03:07:01Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20261">
+      <h1>Retro YouTube at ROUGOL, Mon 16th Feb 2026</h1>
+
+(date: 2026-02-25)
+      <p>
+      <p>The <a href="https://rougol.jellybaby.net/meetings/2026/feb.html">meeting page</a> has been updated with a download of the slides and a link to <a href="https://youtu.be/Igljzw4o71U">a video</a> of the meeting.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20261">https://www.riscosopen.org/forum/forums/1/topics/20261</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-24T21:39:28Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20276">
+      <h1>Elliptical and annular gradients</h1>
+
+(date: 2026-02-24)
+      <p>
+      <p>So far the series is concerned with bitmaps, not Draw. But I do plan to do some posts about Draw objects — mostly the posts so far have been prompted by their use in the solar panel app I’m working on, and that does indeed use draw objects as well as sprites (for thickening and dotting lines, for instance).</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20276">https://www.riscosopen.org/forum/forums/1/topics/20276</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-24T21:27:20Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20262">
+      <h1>Using the Dwarf Mini on RISC OS</h1>
+
+(date: 2026-02-24)
+      <p>
+      <p>We’ve just had our first clear night for what seems like months, and I’ve managed to inaugurate the Dwarf Mini with (among other objects) the de rigeur M42, aka the Orion Nebula. I’m well pleased with it…</p>
+<p>Link: <a href="https://vermilionsands.uk/blog/?p=22209">Clear Skies at Last!</a></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20262">https://www.riscosopen.org/forum/forums/1/topics/20262</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-24T20:19:19Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20258">
+      <h1>Printing via Mac OS</h1>
+
+(date: 2026-02-24)
+      <p>
+      <p>I’ve done the other things I wanted to look at, so IPPTrnspt version 0.18 is up on my web site. This should work substantially better with HP printers, and in fact any printers that use chunked transfer when sending back status.</p>
+<p>There is no change to the requirements for printer definition files etc. It should just be a drop-in (i.e. copy over) replacement for version 0.17.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20258">https://www.riscosopen.org/forum/forums/11/topics/20258</a>
+      </address>
+    </article>
+
     <article data-published="2026-02-24T19:37:49Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20122">
       <h1>NAS devices</h1>
 
@@ -30,6 +160,41 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/11/topics/20122">https://www.riscosopen.org/forum/forums/11/topics/20122</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-24T16:01:28Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20272">
+      <h1>Orange Pi 6</h1>
+
+(date: 2026-02-24)
+      <p>
+      <blockquote>
+<p>There aren’t two execution paths. There’s a script that checks whether the required CPU support is there. If it is it runs natively as an aarch32 application otherwise it runs the same application with QEMU.</p>
+</blockquote>
+<p>huh????</p>
+<pre><code>if [[ &quot;$RISC_OS__INSECURE&quot; == &quot;YES&quot; ]]; then
+  RISC_OS_IXFS_HardDisc4='IXFS:$.dev.fd.5.HardDisc4' exec $RISC_OS__GUI Built/wrapper --handle-reboots -- ./RISC_OS --nvram 'HardDisc4/!Boot/Loader/CMOS' 5&lt;.
+else
+  . Built/sandbox_config_sh
+  RISC_OS_IXFS_HardDisc4='IXFS:$.HardDisc4' exec $RISC_OS__GUI Built/wrapper --network --handle-reboots \
+  bwrap --seccomp -- --unshare-all --tmpfs / --proc /proc --dev /dev \
+  &quot;${auto_bwrap_args[@]}&quot; \
+  &quot;${qemu_libs[@]}&quot; \
+  --ro-bind RISC_OS /RISC_OS \
+  --bind HardDisc4 /HardDisc4 --chdir / \
+  &quot;${bwrap_extra[@]}&quot; \
+  --remount-ro / \
+  $QEMU /RISC_OS --nvram 'HardDisc4/!Boot/Loader/CMOS'
+fi
+
+</code></pre>
+<blockquote>
+<p>The improvements for the Pi are mostly in the Pi HAL and all the extra hardware support.</p>
+</blockquote>
+<p>Indeed which is what I was refering to. So????</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20272">https://www.riscosopen.org/forum/forums/5/topics/20272</a>
       </address>
     </article>
 
@@ -56,31 +221,6 @@
 
       <address>
         <a href="https://bsky.app/profile/colinhoad.com/post/3mfmhcdqufk26">https://bsky.app/profile/colinhoad.com/post/3mfmhcdqufk26</a>
-      </address>
-    </article>
-
-    <article data-published="2026-02-24T11:02:13Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20272">
-      <h1>Orange Pi 6</h1>
-
-(date: 2026-02-24)
-      <p>
-      <blockquote>
-<p>The comment suggests that it runs natively or with QEMU, but it’s possible I’ve misunderstood since I’m not familiar enough with how it works.</p>
-</blockquote>
-<p>That’s right. RISC OS Linux will run natively if aarch32 is available. The RISC OS Linux rom image is just a user mode aarch32 executable.</p>
-<pre><code>
-$ file RISCOS.IMG
-RISCOS.IMG: ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux), statically linked, stripped
-
-</code></pre>
-<p>I did a quick comparison compiling a RISC OS rom running RISC OS Linux on a RPi 5 with RPi OS. Running RISC OS Linux with QEMU emulation is very slow.</p>
-<p>Running natively.</p>
-<p>1m 54s</p>
-<p>Running with QEMU.</p>
-<p>19m 14s</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20272">https://www.riscosopen.org/forum/forums/5/topics/20272</a>
       </address>
     </article>
 
@@ -132,32 +272,6 @@ RISCOS.IMG: ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux), statica
 
       <address>
         <a href="https://bsky.app/profile/colinhoad.com/post/3mfkagzqpmk2g">https://bsky.app/profile/colinhoad.com/post/3mfkagzqpmk2g</a>
-      </address>
-    </article>
-
-    <article data-published="2026-02-23T16:11:03Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20276">
-      <h1>Elliptical and annular gradients</h1>
-
-(date: 2026-02-23)
-      <p>
-      <p>…or eggs and doughnuts if you prefer :-)</p>
-<p>Having had no luck with clear skies to try out our <a href="https://vermilionsands.uk/roast/index.php/2026/02/14/dwarf-mini-and-risc-os/">new telescope</a> , I’m reduced to writing another entry in our ROCoding series. This time it’s graduated elliptical and annular fills.</p>
-<p>Link: <a href="https://vermilionsands.uk/roast/index.php/2026/02/23/rocoding-3-ellipses-and-rings/">Ellipses and rings</a></p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20276">https://www.riscosopen.org/forum/forums/1/topics/20276</a>
-      </address>
-    </article>
-
-    <article data-published="2026-02-23T11:24:55Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
-      <h1>MuView and rendering PDF pages</h1>
-
-(date: 2026-02-23)
-      <p>
-      <p>s’OK. Just twigged that it is the first issue of “Astounding”. :-)</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
       </address>
     </article>
 
@@ -334,20 +448,6 @@ RISCOS.IMG: ELF 32-bit LSB executable, ARM, EABI5 version 1 (GNU/Linux), statica
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mfd3zkw2nc2w">https://bsky.app/profile/nemo20000.bsky.social/post/3mfd3zkw2nc2w</a>
-      </address>
-    </article>
-
-    <article data-published="2026-02-20T21:43:08Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20258">
-      <h1>Printing via Mac OS</h1>
-
-(date: 2026-02-20)
-      <p>
-      <p>I’ve got IPPTrnspt to offer all 5 scaling options when a JPEG file is dragged in: Auto, Auto-fit, Fill, Fit and None. These work with the Epson XP8700. “None” does indeed print the JPEG at actual size; the version that’s out there is fixed at that. I find it interesting that my test image, which is 120mm wide and 50mm tall (thus landscape mode), is printed on the paper in landscape mode, so the printer is rotating the image.</p>
-<p>I haven’t updated the version on my web site yet because there are a couple of other things I’d like to look at first, and this feature isn’t really such a big deal.</p>
-<p>My way of getting a JPEG printed out at a particular size is to drag it into Draw and control the size and position there, then print from Draw. I’ve used that to print stick-on photos for Christmas cards.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20258">https://www.riscosopen.org/forum/forums/11/topics/20258</a>
       </address>
     </article>
 
@@ -679,18 +779,6 @@ ENDCASE</p>
       </address>
     </article>
 
-    <article data-published="2026-02-16T13:35:41Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20261">
-      <h1>Retro YouTube at ROUGOL, Mon 16th Feb 2026</h1>
-
-(date: 2026-02-16)
-      <p>
-      <p>Reminder, the meeting is tonight!</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20261">https://www.riscosopen.org/forum/forums/1/topics/20261</a>
-      </address>
-    </article>
-
     <article data-published="2026-02-16T08:09:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mexlw4oi2k2j">
       <h1>@colinhoad.com</h1>
 
@@ -821,19 +909,6 @@ ENDCASE</p>
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3metnhzmaes2m">https://bsky.app/profile/nemo20000.bsky.social/post/3metnhzmaes2m</a>
-      </address>
-    </article>
-
-    <article data-published="2026-02-14T17:37:05Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20262">
-      <h1>Using the Dwarf Mini on RISC OS</h1>
-
-(date: 2026-02-14)
-      <p>
-      <p>The Dwarf Mini is a smart telescope, and I’ve written a blog entry on the ROAST site with some information on accessing its data from RISC OS.</p>
-<p>Link: <a href="https://vermilionsands.uk/roast/index.php/2026/02/14/dwarf-mini-and-risc-os/">https://vermilionsands.uk/roast/index.php/2026/02/14/d…</a></p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20262">https://www.riscosopen.org/forum/forums/1/topics/20262</a>
       </address>
     </article>
 
