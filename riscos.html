@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.22" >
-  <meta name="date" content="2026-02-25T12:00:28-08:00" >
+  <meta name="date" content="2026-02-26T12:00:26-08:00" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -19,6 +19,93 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-02-26T16:26:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mfrmdvp7vk2e">
+      <h1>@paolofabiozaino.bsky.social</h1>
+
+(date: 2026-02-26)
+      <p>
+      <p>#RISC_OS community: Update for the folks helping testing new #ShareFSServer for this weekend:</p>
+<p><a href="https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&amp;page=2#posts-162048">https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&amp;page=2#posts-162048</a></p>
+<p>#Windows #Linux #MacOS #BSD #FreeBSD #riscos</p>
+
+      <address>
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mfrmdvp7vk2e">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mfrmdvp7vk2e</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-26T16:18:08Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
+      <h1>Need volunteers to start testing my new ShareFSServer</h1>
+
+(date: 2026-02-26)
+      <p>
+      <p>@ All</p>
+<p>I am starting to close the build for this weekend so people can run another set of tests. What I have managed to find the time to fix so far for the next build you will receive is:</p>
+<ul>
+<li>Fixed all reported issues with the sharefs.toml file being regenerated.</li>
+<li>Fixed all issues with transferring files from RISC OS to ShareFSServer. This should make file transfers safe in both directions now, but you will need to confirm.</li>
+<li>Added graceful system shutdown, so older versions of macOS on Intel should not behave oddly when pressing CTRL-C.</li>
+<li>Improved error reporting.</li>
+<li>Improved Unicode handling. This is not completed yet, so I am planning to finish it next week.</li>
+<li>Improved file extension handling, although this is also planned to be completed next week.</li>
+<li>Added a new parameter to store logs in a file, because a few of you forgot to send me logs with your reports. Sending those logs is vital.</li>
+<li>You can now start the server by double-clicking the executable icon.</li>
+</ul>
+<p>What I am fixing tonight:</p>
+<ul>
+<li>Unicode to Latin-1 translator causing problems with RISC OS NBSP (hard space used for file names). The issue is that Unicode uses 0xC2 0xA0 for NBSP, but RISC OS uses only 0xA0. The combination of the Unicode to Latin-1 translator and the space-to-hard-space translator creates a bug that makes ShareFSServer send RISC OS a hard space as two bytes: 0xC2 and 0xA0 (and 0xC2 gets displayed as an extended “A”). This obviously does not map back to what a file with a regular space is on macOS, Linux, Windows, and BSD, so the translation table returns an unknown share.</li>
+</ul>
+<p>Please let me know if there are other important fixes I forgot and need to implement.</p>
+<p>As soon as the new builds are ready, you will receive the usual email with instructions. I have also added a README.txt file with all the instructions in the zip file.</p>
+<p>Again, thanks everyone for helping to test this!</p>
+<pre><code>Roadmap:
+
+1) After file sharing testing is completed, we will move to printer sharing testing.
+2) Test Access+ features, they are not ready yet
+3) After A+ and printer sharing is completed, we will move to testing the two administrative functions:
+   - A web UI to administer the server from !Browse and !NetSurf ;)
+   - A REST API for people who wish to write their own native RISC OS desktop application to administer ShareFSServer
+4) After finishing testing of 1 and 2, we will need to test the new messaging protocol I am adding to ShareFSServer. This should be exciting for users who wish to build RISC OS clusters, because the messaging protocol allows:
+   - Creating a RISC OS cluster system to share processing load (the protocol allows sending and receiving processing load units, for example to create software that runs threads on remote systems. I demoed an early version at some of the RISC OS Shows in past years). So yes, RISC OS clustering is coming :)
+   - Creating distributed applications on RISC OS
+   - Creating ways to send update messages to running apps on separate RISC OS systems, even across VPNs
+   - Creating local chats lol (some of you asked if it was for this, well yes, you can use it for this as well)
+5) Finally, we will need to test all the new security features:
+   - You will be able to define which IPs, subnets, and CIDRs can access each specific share
+   - Set up a rate limiter
+   - Check if anything can break a RISC OS client
+
+</code></pre>
+<p>As a separate note, I am also trying to reverse/re-implement Acorn AUN too in ShareFSServer.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-26T14:59:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfrhjr2gp22t">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-02-26)
+      <p>
+      <p>This is Amnesia, a game I developed for the BBC Micro that was never published/released officially. As you can see it's a work in progress tech demo with programmer graphics ( my own ). I think I worked on this for about 5 or 6 weeks and decided to devote my time to other projects.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfrhjr2gp22t">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfrhjr2gp22t</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-26T14:32:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfrfzg53q22t">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-02-26)
+      <p>
+      <p>Morning Live was pure filth today! Here's Esther Rantzen's daughter being rather rude. I nearly spat my tea out. We didn't have this kind of crudity in the 1970s when That's Life was broadcast, just vegetables that looked like body parts. LOL.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfrfzg53q22t">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfrfzg53q22t</a>
+      </address>
+    </article>
 
     <article data-published="2026-02-25T19:10:55Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20277">
       <h1>Obey alias - *Set if not already set?</h1>
@@ -130,6 +217,7 @@ Unset Alias$Set
 (date: 2026-02-24)
       <p>
       <p>We’ve just had our first clear night for what seems like months, and I’ve managed to inaugurate the Dwarf Mini with (among other objects) the de rigeur M42, aka the Orion Nebula. I’m well pleased with it…</p>
+<p><img src="https://vermilionsands.uk/blog/wp-content/uploads/2026/02/m42-2025-02-24-cropdenoise.jpg" alt=""></p>
 <p>Link: <a href="https://vermilionsands.uk/blog/?p=22209">Clear Skies at Last!</a></p>
 
       <address>
@@ -163,35 +251,12 @@ Unset Alias$Set
       </address>
     </article>
 
-    <article data-published="2026-02-24T16:01:28Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20272">
+    <article data-published="2026-02-24T18:49:29Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20272">
       <h1>Orange Pi 6</h1>
 
 (date: 2026-02-24)
       <p>
-      <blockquote>
-<p>There aren’t two execution paths. There’s a script that checks whether the required CPU support is there. If it is it runs natively as an aarch32 application otherwise it runs the same application with QEMU.</p>
-</blockquote>
-<p>huh????</p>
-<pre><code>if [[ &quot;$RISC_OS__INSECURE&quot; == &quot;YES&quot; ]]; then
-  RISC_OS_IXFS_HardDisc4='IXFS:$.dev.fd.5.HardDisc4' exec $RISC_OS__GUI Built/wrapper --handle-reboots -- ./RISC_OS --nvram 'HardDisc4/!Boot/Loader/CMOS' 5&lt;.
-else
-  . Built/sandbox_config_sh
-  RISC_OS_IXFS_HardDisc4='IXFS:$.HardDisc4' exec $RISC_OS__GUI Built/wrapper --network --handle-reboots \
-  bwrap --seccomp -- --unshare-all --tmpfs / --proc /proc --dev /dev \
-  &quot;${auto_bwrap_args[@]}&quot; \
-  &quot;${qemu_libs[@]}&quot; \
-  --ro-bind RISC_OS /RISC_OS \
-  --bind HardDisc4 /HardDisc4 --chdir / \
-  &quot;${bwrap_extra[@]}&quot; \
-  --remount-ro / \
-  $QEMU /RISC_OS --nvram 'HardDisc4/!Boot/Loader/CMOS'
-fi
-
-</code></pre>
-<blockquote>
-<p>The improvements for the Pi are mostly in the Pi HAL and all the extra hardware support.</p>
-</blockquote>
-<p>Indeed which is what I was refering to. So????</p>
+      <p>I don’t mean to be overly pessimistic, but I struggle to see any significant benefits to running RISC OS on Linux at the moment. The Raspberry Pi 4 is still widely available and at least until 2030, it offers a native experience. In contrast, the Linux port feels far from ready for everyday use, I’ve experimented with it myself, and it’s quite fragile, prone to breaking with minimal effort. It definitely needs input from more skilled developers to enhance its stability and performance. That said…. the only noticeable upside seems to be a slight boost in speed. I’m optimistic that it will evolve into a more practical option over time.</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/5/topics/20272">https://www.riscosopen.org/forum/forums/5/topics/20272</a>
@@ -360,20 +425,6 @@ fi
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20273">https://www.riscosopen.org/forum/forums/1/topics/20273</a>
-      </address>
-    </article>
-
-    <article data-published="2026-02-22T15:35:08Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
-      <h1>Need volunteers to start testing my new ShareFSServer</h1>
-
-(date: 2026-02-22)
-      <p>
-      <p>Ok, I have tried one more time.</p>
-<p>Did not bounce back, but you need to check your spam list. &lt;——-</p>
-<p>Your email hosting cannot delete the emials, their security can only put on the spam list. If they are litterally deleting your emails without your approval, then I strongly suggest you change provider ’cause these guys may have lost it! XD</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
       </address>
     </article>
 

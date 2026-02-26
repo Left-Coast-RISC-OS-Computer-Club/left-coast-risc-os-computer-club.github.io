@@ -7,10 +7,127 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>25 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>26 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.22</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mfrmdvp7vk2e</link>
+      <description>
+        <![CDATA[#RISC_OS community: Update for the folks helping testing new #ShareFSServer for this weekend: 
+        
+        https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&page=2#posts-162048
+        
+        #Windows #Linux #MacOS #BSD #FreeBSD #riscos]]>
+      </description>
+      <source:markdown>#RISC\_OS community: Update for the folks helping testing new #ShareFSServer for this weekend:
+
+https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=2#posts-162048
+
+#Windows #Linux #MacOS #BSD #FreeBSD #riscos</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mfrmdvp7vk2e</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p>@ All</p>
+        <p>I am starting to close the build for this weekend so people can run another set of tests. What I have managed to find the time to fix so far for the next build you will receive is:</p>
+        <ul>
+        	<li>Fixed all reported issues with the sharefs.toml file being regenerated.</li>
+        	<li>Fixed all issues with transferring files from <span class="caps">RISC</span> OS to ShareFSServer. This should make file transfers safe in both directions now, but you will need to confirm.</li>
+        	<li>Added graceful system shutdown, so older versions of macOS on Intel should not behave oddly when pressing <span class="caps">CTRL</span>-C.</li>
+        	<li>Improved error reporting.</li>
+        	<li>Improved Unicode handling. This is not completed yet, so I am planning to finish it next week.</li>
+        	<li>Improved file extension handling, although this is also planned to be completed next week.</li>
+        	<li>Added a new parameter to store logs in a file, because a few of you forgot to send me logs with your reports. Sending those logs is vital.</li>
+        	<li>You can now start the server by double-clicking the executable icon.</li>
+        </ul>
+        <p>What I am fixing tonight:</p>
+        <ul>
+        	<li>Unicode to Latin-1 translator causing problems with <span class="caps">RISC</span> OS <span class="caps">NBSP</span> (hard space used for file names). The issue is that Unicode uses 0xC2 0xA0 for <span class="caps">NBSP</span>, but <span class="caps">RISC</span> OS uses only 0xA0. The combination of the Unicode to Latin-1 translator and the space-to-hard-space translator creates a bug that makes ShareFSServer send <span class="caps">RISC</span> OS a hard space as two bytes: 0xC2 and 0xA0 (and 0xC2 gets displayed as an extended “A”). This obviously does not map back to what a file with a regular space is on macOS, Linux, Windows, and <span class="caps">BSD</span>, so the translation table returns an unknown share.</li>
+        </ul>
+        <p>Please let me know if there are other important fixes I forgot and need to implement.</p>
+        <p>As soon as the new builds are ready, you will receive the usual email with instructions. I have also added a <span class="caps">README</span>.txt file with all the instructions in the zip file.</p>
+        <p>Again, thanks everyone for helping to test this!</p>
+        <pre>
+        Roadmap:
+        
+        1) After file sharing testing is completed, we will move to printer sharing testing.
+        2) Test Access+ features, they are not ready yet
+        3) After A+ and printer sharing is completed, we will move to testing the two administrative functions:
+           - A web UI to administer the server from !Browse and !NetSurf ;)
+           - A REST API for people who wish to write their own native RISC OS desktop application to administer ShareFSServer
+        4) After finishing testing of 1 and 2, we will need to test the new messaging protocol I am adding to ShareFSServer. This should be exciting for users who wish to build RISC OS clusters, because the messaging protocol allows:
+           - Creating a RISC OS cluster system to share processing load (the protocol allows sending and receiving processing load units, for example to create software that runs threads on remote systems. I demoed an early version at some of the RISC OS Shows in past years). So yes, RISC OS clustering is coming :)
+           - Creating distributed applications on RISC OS
+           - Creating ways to send update messages to running apps on separate RISC OS systems, even across VPNs
+           - Creating local chats lol (some of you asked if it was for this, well yes, you can use it for this as well)
+        5) Finally, we will need to test all the new security features:
+           - You will be able to define which IPs, subnets, and CIDRs can access each specific share
+           - Set up a rate limiter
+           - Check if anything can break a RISC OS client
+        </pre>
+        <p>As a separate note, I am also trying to reverse/re-implement Acorn <span class="caps">AUN</span> too in ShareFSServer.</p>]]>
+      </description>
+      <source:markdown>@ All
+
+I am starting to close the build for this weekend so people can run another set of tests. What I have managed to find the time to fix so far for the next build you will receive is:
+
+- Fixed all reported issues with the sharefs.toml file being regenerated.
+- Fixed all issues with transferring files from RISC OS to ShareFSServer. This should make file transfers safe in both directions now, but you will need to confirm.
+- Added graceful system shutdown, so older versions of macOS on Intel should not behave oddly when pressing CTRL-C.
+- Improved error reporting.
+- Improved Unicode handling. This is not completed yet, so I am planning to finish it next week.
+- Improved file extension handling, although this is also planned to be completed next week.
+- Added a new parameter to store logs in a file, because a few of you forgot to send me logs with your reports. Sending those logs is vital.
+- You can now start the server by double-clicking the executable icon.
+
+What I am fixing tonight:
+
+- Unicode to Latin-1 translator causing problems with RISC OS NBSP (hard space used for file names). The issue is that Unicode uses 0xC2 0xA0 for NBSP, but RISC OS uses only 0xA0. The combination of the Unicode to Latin-1 translator and the space-to-hard-space translator creates a bug that makes ShareFSServer send RISC OS a hard space as two bytes: 0xC2 and 0xA0 (and 0xC2 gets displayed as an extended “A”). This obviously does not map back to what a file with a regular space is on macOS, Linux, Windows, and BSD, so the translation table returns an unknown share.
+
+Please let me know if there are other important fixes I forgot and need to implement.
+
+As soon as the new builds are ready, you will receive the usual email with instructions. I have also added a README.txt file with all the instructions in the zip file.
+
+Again, thanks everyone for helping to test this!
+
+```
+Roadmap:
+
+1) After file sharing testing is completed, we will move to printer sharing testing.
+2) Test Access+ features, they are not ready yet
+3) After A+ and printer sharing is completed, we will move to testing the two administrative functions:
+   - A web UI to administer the server from !Browse and !NetSurf ;)
+   - A REST API for people who wish to write their own native RISC OS desktop application to administer ShareFSServer
+4) After finishing testing of 1 and 2, we will need to test the new messaging protocol I am adding to ShareFSServer. This should be exciting for users who wish to build RISC OS clusters, because the messaging protocol allows:
+   - Creating a RISC OS cluster system to share processing load (the protocol allows sending and receiving processing load units, for example to create software that runs threads on remote systems. I demoed an early version at some of the RISC OS Shows in past years). So yes, RISC OS clustering is coming :)
+   - Creating distributed applications on RISC OS
+   - Creating ways to send update messages to running apps on separate RISC OS systems, even across VPNs
+   - Creating local chats lol (some of you asked if it was for this, well yes, you can use it for this as well)
+5) Finally, we will need to test all the new security features:
+   - You will be able to define which IPs, subnets, and CIDRs can access each specific share
+   - Set up a rate limiter
+   - Check if anything can break a RISC OS client
+
+```
+
+As a separate note, I am also trying to reverse/re-implement Acorn AUN too in ShareFSServer.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:162048</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfrhjr2gp22t</link>
+      <description>
+        <![CDATA[This is Amnesia, a game I developed for the BBC Micro that was never published/released officially. As you can see it's a work in progress tech demo with programmer graphics ( my own ). I think I worked on this for about 5 or 6 weeks and decided to devote my time to other projects.]]>
+      </description>
+      <source:markdown>This is Amnesia, a game I developed for the BBC Micro that was never published/released officially. As you can see it&#39;s a work in progress tech demo with programmer graphics ( my own ). I think I worked on this for about 5 or 6 weeks and decided to devote my time to other projects.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mfrhjr2gp22t</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfrfzg53q22t</link>
+      <description>
+        <![CDATA[Morning Live was pure filth today! Here's Esther Rantzen's daughter being rather rude. I nearly spat my tea out. We didn't have this kind of crudity in the 1970s when That's Life was broadcast, just vegetables that looked like body parts. LOL.]]>
+      </description>
+      <source:markdown>Morning Live was pure filth today! Here&#39;s Esther Rantzen&#39;s daughter being rather rude. I nearly spat my tea out. We didn&#39;t have this kind of crudity in the 1970s when That&#39;s Life was broadcast, just vegetables that looked like body parts. LOL.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mfrfzg53q22t</guid>
+    </item>    <item>
       <title>Obey alias - *Set if not already set?</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20277</link>
       <description>
@@ -123,9 +240,12 @@ Once it works well, I’ll see if it can be used along with !KPDFutil (spelling?
       <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
       <description>
         <![CDATA[<p>We&#8217;ve just had our first clear night for what seems like months, and I&#8217;ve managed to inaugurate the Dwarf Mini with (among other objects) the de rigeur M42, aka the Orion Nebula. I&#8217;m well pleased with it&#8230;<br />
-        Link: <a href="https://vermilionsands.uk/blog/?p=22209">Clear Skies at Last!</a></p>]]>
+        <img src="https://vermilionsands.uk/blog/wp-content/uploads/2026/02/m42-2025-02-24-cropdenoise.jpg" alt="" /></p>
+        <p>Link: <a href="https://vermilionsands.uk/blog/?p=22209">Clear Skies at Last!</a></p>]]>
       </description>
       <source:markdown>We’ve just had our first clear night for what seems like months, and I’ve managed to inaugurate the Dwarf Mini with (among other objects) the de rigeur M42, aka the Orion Nebula. I’m well pleased with it…
+
+![](https://vermilionsands.uk/blog/wp-content/uploads/2026/02/m42-2025-02-24-cropdenoise.jpg)
 
 Link: [Clear Skies at Last!](https://vermilionsands.uk/blog/?p=22209)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20262:162035</guid>
@@ -155,57 +275,10 @@ I have managed to set up a shared directory and transferred a file into it, but 
       <title>Orange Pi 6</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20272</link>
       <description>
-        <![CDATA[<blockquote>
-        <p>There aren’t two execution paths. There’s a script that checks whether the required <span class="caps">CPU</span> support is there. If it is it runs natively as an aarch32 application otherwise it runs the same application with <span class="caps">QEMU</span>.</p>
-        </blockquote>
-        <p>huh????</p>
-        <pre>
-        if [[ "$RISC_OS__INSECURE" == "YES" ]]; then
-          RISC_OS_IXFS_HardDisc4='IXFS:$.dev.fd.5.HardDisc4' exec $RISC_OS__GUI Built/wrapper --handle-reboots -- ./RISC_OS --nvram 'HardDisc4/!Boot/Loader/CMOS' 5&lt;.
-        else
-          . Built/sandbox_config_sh
-          RISC_OS_IXFS_HardDisc4='IXFS:$.HardDisc4' exec $RISC_OS__GUI Built/wrapper --network --handle-reboots \
-          bwrap --seccomp -- --unshare-all --tmpfs / --proc /proc --dev /dev \
-          "${auto_bwrap_args[@]}" \
-          "${qemu_libs[@]}" \
-          --ro-bind RISC_OS /RISC_OS \
-          --bind HardDisc4 /HardDisc4 --chdir / \
-          "${bwrap_extra[@]}" \
-          --remount-ro / \
-          $QEMU /RISC_OS --nvram 'HardDisc4/!Boot/Loader/CMOS'
-        fi
-        </pre>
-        <blockquote>
-        <p>The improvements for the Pi are mostly in the Pi <span class="caps">HAL</span> and all the extra hardware support.</p>
-        </blockquote>
-        <p>Indeed which is what I was refering to. So????</p>]]>
+        <![CDATA[<p>I don&#8217;t mean to be overly pessimistic, but I struggle to see any significant benefits to running <span class="caps">RISC</span> OS on Linux at the moment. The Raspberry Pi 4 is still widely available and at least until 2030, it offers a native experience. In contrast, the Linux port feels far from ready for everyday use, I&#8217;ve experimented with it myself, and it&#8217;s quite fragile, prone to breaking with minimal effort. It definitely needs input from more skilled developers to enhance its stability and performance. That said&#8230;. the only noticeable upside seems to be a slight boost in speed. I&#8217;m optimistic that it will evolve into a more practical option over time.</p>]]>
       </description>
-      <source:markdown>&#62; There aren’t two execution paths. There’s a script that checks whether the required CPU support is there. If it is it runs natively as an aarch32 application otherwise it runs the same application with QEMU.
-
-huh????
-
-```
-if [[ &#34;$RISC_OS__INSECURE&#34; == &#34;YES&#34; ]]; then
-  RISC_OS_IXFS_HardDisc4=&#39;IXFS:$.dev.fd.5.HardDisc4&#39; exec $RISC_OS__GUI Built/wrapper --handle-reboots -- ./RISC_OS --nvram &#39;HardDisc4/!Boot/Loader/CMOS&#39; 5&#60;.
-else
-  . Built/sandbox_config_sh
-  RISC_OS_IXFS_HardDisc4=&#39;IXFS:$.HardDisc4&#39; exec $RISC_OS__GUI Built/wrapper --network --handle-reboots \
-  bwrap --seccomp -- --unshare-all --tmpfs / --proc /proc --dev /dev \
-  &#34;${auto_bwrap_args[@]}&#34; \
-  &#34;${qemu_libs[@]}&#34; \
-  --ro-bind RISC_OS /RISC_OS \
-  --bind HardDisc4 /HardDisc4 --chdir / \
-  &#34;${bwrap_extra[@]}&#34; \
-  --remount-ro / \
-  $QEMU /RISC_OS --nvram &#39;HardDisc4/!Boot/Loader/CMOS&#39;
-fi
-
-```
-
-&#62; The improvements for the Pi are mostly in the Pi HAL and all the extra hardware support.
-
-Indeed which is what I was refering to. So????</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20272:162019</guid>
+      <source:markdown>I don’t mean to be overly pessimistic, but I struggle to see any significant benefits to running RISC OS on Linux at the moment. The Raspberry Pi 4 is still widely available and at least until 2030, it offers a native experience. In contrast, the Linux port feels far from ready for everyday use, I’ve experimented with it myself, and it’s quite fragile, prone to breaking with minimal effort. It definitely needs input from more skilled developers to enhance its stability and performance. That said…. the only noticeable upside seems to be a slight boost in speed. I’m optimistic that it will evolve into a more practical option over time.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20272:162027</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mfmhlxjtfc2l</link>
       <description>
@@ -366,20 +439,6 @@ Anyhow, that’s my intention. It will almost certainly require a bit of thought
       </description>
       <source:markdown>Thanks. 🙂</source:markdown>
       <guid>cid://www.riscosopen.org:1:20273:161985</guid>
-    </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p>Ok, I have tried one more time.</p>
-        <p>Did not bounce back, but you need to check your spam list. &lt;&#8212;&#8212;-</p>
-        <p>Your email hosting cannot delete the emials, their security can only put on the spam list. If they are litterally deleting your emails without your approval, then I strongly suggest you change provider &#8217;cause these guys may have lost it! XD</p>]]>
-      </description>
-      <source:markdown>Ok, I have tried one more time.
-
-Did not bounce back, but you need to check your spam list. &#60;——-
-
-Your email hosting cannot delete the emials, their security can only put on the spam list. If they are litterally deleting your emails without your approval, then I strongly suggest you change provider ’cause these guys may have lost it! XD</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:161981</guid>
     </item>    <item>
       <title>Voices from a Future Passed – on sale from 1st March</title>
       <link>https://www.riscository.com/2026/voices-from-a-future-passed-available-1st-march/</link>
