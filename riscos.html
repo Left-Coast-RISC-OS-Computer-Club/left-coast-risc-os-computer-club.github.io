@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.22" >
-  <meta name="date" content="2026-02-26T12:00:26-08:00" >
+  <meta name="date" content="2026-02-27T12:00:28-08:00" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -19,6 +19,204 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-02-27T16:05:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mfu3nhpp6k2l">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-02-27)
+      <p>
+      <p>geLLMan amnesia.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mfu3nhpp6k2l">https://bsky.app/profile/nemo20000.bsky.social/post/3mfu3nhpp6k2l</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-27T16:03:33Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13551&page=1#125869">
+      <h1>February 2026 News Summary</h1>
+
+(date: 2026-02-27, updated: 2025-12-08)
+      <p>
+      <p>TrainTimes has had a little updgate and I have released Quiz Engine has had it's first release allowing people to create their own quizzes.</p>
+
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13551&page=1#125869">http://www.iconbar.com/forums/viewthread.php?threadid=13551&page=1#125869</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-27T15:43:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mfu2gnyooc2q">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-02-27)
+      <p>
+      <p>Off on a work trip for a few days, but thanks to @danrolfe.bsky.social I can still bring a Beeb with me 😁</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mfu2gnyooc2q">https://bsky.app/profile/colinhoad.com/post/3mfu2gnyooc2q</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-27T11:22:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mftlu5fe2c2j">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-02-27)
+      <p>
+      <p>'Search for the Lost Orb' is a text-based adventure game for the BBC Micro that I found whilst going through my disk collection. So far I have been unable to find out who actually wrote it. I asked the people on stardot, but had no luck. I think it could be Andy Bray (RIP) who I knew well BITD.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mftlu5fe2c2j">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mftlu5fe2c2j</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-27T10:23:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mftijmgnn22g">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-02-27)
+      <p>
+      <p>“Friends” is a beloved American sitcom that aired from 1994 to 2004, following six young adults—Rachel, Ross, Monica, Chandler [out of shot], Joey, and Phoebe—living in New York City. The show explores their friendships, romances, careers, and personal growth over ten seasons.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mftijmgnn22g">https://bsky.app/profile/colinhoad.com/post/3mftijmgnn22g</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-27T10:10:30Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20273">
+      <h1>extASM assembler and the StrongHelp Assembler manual updated to ARMv8</h1>
+
+(date: 2026-02-27)
+      <p>
+      <p>Is the source available? I’ve been maintaining it for the past 14 years, it would make sense to merge my changes into your source.</p>
+<p>Known bugs and changes I’ve made:</p>
+<pre><code>Issues to fix:
+
+        – MACRO’s remove local variables, bug in
+
+	        macro.macros Delete_Variables and Assemble_Macro
+
+		which alter Prev_Variable_Offset
+
+	- arm.decode_load_store_instruction DT_PUSH errors with a macro
+
+		named PUSHSWI
+
+	- ALIGN doesn’t work in STRUCT
+
+	- ALIGN doesn’t work in RELATIVE
+
+	- DIV uses lower two bits in R13
+Changes:
+
+2.05	20-08-22
+
+	- changed general.flex.Clear_Memory as it could overrun causing
+
+		general.variables.FV_Local_Loop to abort on it’s 1st instruction
+
+		@ AA68 when walking the local variable list (it overruns)
+
+2.03	20-08-16
+
+	= assembler.extra.decode_extra_instruction
+
+		ALIGN now correctly aligns to -
+
+		ALIGN now writes 0 to words added
+
+	- assembler.general.assembler
+
+		Align_PC corrected and now writes 0 to bytes added
+
+2.03	20-10-15
+
+	+ arm.decode_load_store_instruction
+
+		Checks for auto-expansion of PC
+
+2.02	27-03-15 / 30-03-15
+
+	= arm.decode_exception_instruction
+
+		Now checks if BKPT immediate exceeds the limits
+
+	= arm.decode_misc_instruction
+
+		Now checks if PLD immediate exceeds the limits
+
+	+ extra.decode_extra_instruction
+
+		Added Throwback option for OUTPUT
+
+	+ general.messages
+
+		Added Throwback option for Warning
+
+		Added Throwback option for Auto-expansion stacked/non-stacked
+
+2.01	14-10-12 / 16-10-12
+
+	= arm.decode_psr_register
+
+		CPSR_all / SPSR_all now encode correctly
+
+	= arm.decode_misc_instruction
+
+		NOP now uses MOVEQ R0,R0 instead of MOVNV R0,R0
+</code></pre>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20273">https://www.riscosopen.org/forum/forums/1/topics/20273</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-27T08:41:00Z" data-link="https://bsky.app/profile/alephspace.bsky.social/post/3mftcuo7ga223">
+      <h1>@@alephspace.bsky.social</h1>
+
+(date: 2026-02-27)
+      <p>
+      <p>💚<a href="https://media.tenor.com/geZPoFUgBEMAAAAC/shaun-of-the-dead-simon-pegg.gif?hh=498&amp;ww=498">https://media.tenor.com/geZPoFUgBEMAAAAC/shaun-of-the-dead-simon-pegg.gif?hh=498&amp;ww=498</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/alephspace.bsky.social/post/3mftcuo7ga223">https://bsky.app/profile/alephspace.bsky.social/post/3mftcuo7ga223</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-27T06:48:00Z" data-link="http://www.iconbar.com/comments/rss/news2295.html">
+      <h1>February 2026 News Summary</h1>
+
+(date: 2026-02-27, updated: 2026-01-26)
+      <p>
+      <p>Some things we noticed this month. What did you see?</p>
+
+      <address>
+        <a href="http://www.iconbar.com/comments/rss/news2295.html">http://www.iconbar.com/comments/rss/news2295.html</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-27T05:37:48Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
+      <h1>Random projects...</h1>
+
+(date: 2026-02-27)
+      <p>
+      <p>Is this project dead now?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
+      </address>
+    </article>
+
+    <article data-published="2026-02-26T23:13:30Z" data-link="https://kevsoft.wordpress.com/2026/02/26/quiz-engine-first-release/">
+      <h1>Quiz Engine First Release</h1>
+
+(date: 2026-02-26)
+      <p>
+      <p>Want to create your own quizzes for RISC OS now you can with the first release of my Quiz Engine as used by FlagQuiz. On the Quiz Engine web page you will find the instructions on what to do as well as a skeleton application called MyQuiz. Hopefully the instructions are clear and easy to … <a href="https://kevsoft.wordpress.com/2026/02/26/quiz-engine-first-release/">Continue reading &quot;Quiz Engine First Release&quot;</a></p>
+
+      <address>
+        <a href="https://kevsoft.wordpress.com/2026/02/26/quiz-engine-first-release/">https://kevsoft.wordpress.com/2026/02/26/quiz-engine-first-release/</a>
+      </address>
+    </article>
 
     <article data-published="2026-02-26T16:26:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mfrmdvp7vk2e">
       <h1>@paolofabiozaino.bsky.social</h1>
@@ -65,7 +263,7 @@
 3) After A+ and printer sharing is completed, we will move to testing the two administrative functions:
    - A web UI to administer the server from !Browse and !NetSurf ;)
    - A REST API for people who wish to write their own native RISC OS desktop application to administer ShareFSServer
-4) After finishing testing of 1 and 2, we will need to test the new messaging protocol I am adding to ShareFSServer. This should be exciting for users who wish to build RISC OS clusters, because the messaging protocol allows:
+4) After finishing testing of 1, 2 and 3, we will need to test the new messaging protocol I am adding to ShareFSServer. This should be exciting for users who wish to build RISC OS clusters, because the messaging protocol allows:
    - Creating a RISC OS cluster system to share processing load (the protocol allows sending and receiving processing load units, for example to create software that runs threads on remote systems. I demoed an early version at some of the RISC OS Shows in past years). So yes, RISC OS clustering is coming :)
    - Creating distributed applications on RISC OS
    - Creating ways to send update messages to running apps on separate RISC OS systems, even across VPNs
@@ -178,7 +376,7 @@ Unset Alias$Set
     <article data-published="2026-02-25T03:39:16Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13556&page=1#125867">
       <h1>Rougol February 2026 meeting on monday - Retro YouTuber Colin Hoad</h1>
 
-(date: 2026-02-25, updated: 2025-12-06)
+(date: 2026-02-25, updated: 2025-12-08)
       <p>
       <p>Video now available for those that missed Colin's excellent talk, or want to watch it again! <a href="https://youtu.be/Igljzw4o71U">https://youtu.be/Igljzw4o71U</a></p>
 
@@ -413,18 +611,6 @@ Unset Alias$Set
 
       <address>
         <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfhs2f4zpk25">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfhs2f4zpk25</a>
-      </address>
-    </article>
-
-    <article data-published="2026-02-22T16:03:21Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20273">
-      <h1>extASM assembler and the StrongHelp Assembler manual updated to ARMv8</h1>
-
-(date: 2026-02-22)
-      <p>
-      <p>Thanks. 🙂</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20273">https://www.riscosopen.org/forum/forums/1/topics/20273</a>
       </address>
     </article>
 
@@ -724,7 +910,7 @@ ENDCASE</p>
     <article data-published="2026-02-17T20:14:08Z" data-link="https://kevsoft.wordpress.com/2026/02/17/grokipedia-comes-to-traintimes/">
       <h1>Grokipedia Comes To TrainTimes</h1>
 
-(date: 2026-02-17)
+(date: 2026-02-17, updated: 2026-02-26)
       <p>
       <p>My UK train time table application for RISC OS called TrainTimes has been upgraded to version 2.09 New in this version is that Grokipedia an online AI powered encyclopedia has been added to options for getting information about stations. Grokipedia is not the finished article at the moment so some URLS do not work properly. … <a href="https://kevsoft.wordpress.com/2026/02/17/grokipedia-comes-to-traintimes/">Continue reading &quot;Grokipedia Comes To TrainTimes&quot;</a></p>
 
@@ -821,7 +1007,7 @@ ENDCASE</p>
     <article data-published="2026-02-16T14:33:50Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13562&page=1#125866">
       <h1>CJEMicros getting back up to speed and need your help</h1>
 
-(date: 2026-02-16, updated: 2025-12-06)
+(date: 2026-02-16, updated: 2025-12-08)
       <p>
       <p>Best prices paid</p>
 
@@ -927,7 +1113,7 @@ ENDCASE</p>
     <article data-published="2026-02-15T14:49:00Z" data-link="http://www.iconbar.com/comments/rss/news2303.html">
       <h1>CJEMicros getting back up to speed and need your help</h1>
 
-(date: 2026-02-15, updated: 2026-01-21)
+(date: 2026-02-15, updated: 2026-01-26)
       <p>
       <p>We are really pleased to hear from CJEMicros who have emailed to let us know that they are recovering after fire at their premises last year.</p>
 
@@ -1067,7 +1253,7 @@ ENDCASE</p>
     <article data-published="2026-02-13T07:29:00Z" data-link="http://www.iconbar.com/comments/rss/news2298.html">
       <h1>Rougol February 2026 meeting on monday - Retro YouTuber Colin Hoad</h1>
 
-(date: 2026-02-13, updated: 2026-01-21)
+(date: 2026-02-13, updated: 2026-01-26)
       <p>
       <p>The February 2026 Rougol meeting is on Monday and features Retro YouTuber Colin Hoad</p>
 
@@ -1289,7 +1475,7 @@ youtu.be/6Mtl5vua9t4<a href="https://youtu.be/6Mtl5vua9t4">https://youtu.be/6Mtl
     <article data-published="2026-02-10T02:13:45Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13561&page=1#125865">
       <h1>System ID.</h1>
 
-(date: 2026-02-10, updated: 2025-12-06)
+(date: 2026-02-10, updated: 2025-12-08)
       <p>
       <p>Hi All, I'm wondering if there is a listing of which model motherboard belongs to which model of Acorn? I've seen listings of motherboard for sale that are described as Acorn RISC or Archimedes but they never say what chassis it goes in, ie RISC PC or A7000 etc, that's just an example.</p>
 
@@ -1434,7 +1620,7 @@ youtu.be/6Mtl5vua9t4<a href="https://youtu.be/6Mtl5vua9t4">https://youtu.be/6Mtl
     <article data-published="2026-02-09T07:45:00Z" data-link="http://www.iconbar.com/comments/rss/news2301.html">
       <h1>Drag'n'Drop 15i2 edition reviewed</h1>
 
-(date: 2026-02-09, updated: 2026-01-21)
+(date: 2026-02-09, updated: 2026-01-26)
       <p>
       <p>The latest edition of Drag'n'Drop magazine is now available sporting what it claims is the worat ever cover. Do you agree????</p>
 
@@ -1728,7 +1914,7 @@ youtu.be/6Mtl5vua9t4<a href="https://youtu.be/6Mtl5vua9t4">https://youtu.be/6Mtl
     <article data-published="2026-02-05T04:27:00Z" data-link="http://www.iconbar.com/comments/rss/news2294.html">
       <h1>Fireside developer chat on saturday night</h1>
 
-(date: 2026-02-05, updated: 2026-01-21)
+(date: 2026-02-05, updated: 2026-01-26)
       <p>
       <p>The next developer chat is on saturday night (7th February) for anyone interested in a very informal event online aimed at RISC OS developers.</p>
 
@@ -1775,7 +1961,7 @@ youtu.be/6Mtl5vua9t4<a href="https://youtu.be/6Mtl5vua9t4">https://youtu.be/6Mtl
     <article data-published="2026-02-04T06:40:00Z" data-link="http://www.iconbar.com/comments/rss/news2302.html">
       <h1>MUG celebrates 20 years</h1>
 
-(date: 2026-02-04, updated: 2026-01-21)
+(date: 2026-02-04, updated: 2026-01-26)
       <p>
       <p>Midlands User Group (more commonly known as MUG) is celebrating its (first) 20 years of operating today!</p>
 
@@ -2048,7 +2234,7 @@ youtu.be/6Mtl5vua9t4<a href="https://youtu.be/6Mtl5vua9t4">https://youtu.be/6Mtl
     <article data-published="2026-02-02T06:58:00Z" data-link="http://www.iconbar.com/comments/rss/news2296.html">
       <h1>WROCC February 2026 talk on Wednesday - AGM</h1>
 
-(date: 2026-02-02, updated: 2026-01-21)
+(date: 2026-02-02, updated: 2026-01-26)
       <p>
       <p>WROCC February 2026 Meeting - AGM on Wednesday 4th February</p>
 
@@ -2327,7 +2513,7 @@ Fly-tipped cardboard boxes are &quot;electric vehicle&quot; boxes, but fly-tippe
     <article data-published="2026-01-30T07:38:00Z" data-link="http://www.iconbar.com/comments/rss/news2292.html">
       <h1>January 2026 News Summary</h1>
 
-(date: 2026-01-30, updated: 2026-01-21)
+(date: 2026-01-30, updated: 2026-01-26)
       <p>
       <p>Some things we noticed this month. What did you see?</p>
 
@@ -2477,7 +2663,7 @@ Fly-tipped cardboard boxes are &quot;electric vehicle&quot; boxes, but fly-tippe
     <article data-published="2026-01-28T09:24:00Z" data-link="http://www.iconbar.com/comments/rss/news2300.html">
       <h1>RISCOSbits updates its Computer range and prices</h1>
 
-(date: 2026-01-28, updated: 2026-01-21)
+(date: 2026-01-28, updated: 2026-01-26)
       <p>
       <p>RISCOSbits has discontinued their VENOM premium NVMe RISC OS computer system, according to a press release issued this week.</p>
 
@@ -2642,7 +2828,7 @@ Fly-tipped cardboard boxes are &quot;electric vehicle&quot; boxes, but fly-tippe
     <article data-published="2026-01-26T07:50:00Z" data-link="http://www.iconbar.com/comments/rss/news2299.html">
       <h1>RISC OS North Show is only 2 months away....</h1>
 
-(date: 2026-01-26, updated: 2026-01-21)
+(date: 2026-01-26)
       <p>
       <p>Time to make plans - RISC OS North returns on Saturday 21st March 2026 at the Village Hotel Warrington.</p>
 
@@ -2896,7 +3082,7 @@ Fly-tipped cardboard boxes are &quot;electric vehicle&quot; boxes, but fly-tippe
     <article data-published="2026-01-22T15:58:49Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13524&page=1#125864">
       <h1>WROCC January 2026 talk on Wednesday - Elesar</h1>
 
-(date: 2026-01-22, updated: 2025-12-06)
+(date: 2026-01-22, updated: 2025-12-08)
       <p>
       <p>Talk is now on youtube at <a href="https://www.youtube.com/watch?v=h3mqvDp2PAM">https://www.youtube.com/watch?v=h3mqvDp2PAM</a></p>
 
@@ -3451,22 +3637,6 @@ Windows 8 (to now): This PC</p>
 
       <address>
         <a href="https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mcc3c22jn22z">https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mcc3c22jn22z</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-13T02:22:54Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
-      <h1>Random projects...</h1>
-
-(date: 2026-01-13)
-      <p>
-      <blockquote>
-<p>For those not keeping up at the back, what the hell is a “spork” or “non spork” build?</p>
-</blockquote>
-<p>It’s not a fork :-)</p>
-<p>Can I request that this thread be split out into a separate thread for each topic with a meaningful title? It’s a mess at the moment.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
       </address>
     </article>
 
@@ -4430,7 +4600,7 @@ riscoscommunity.org/shop/</p>
     <article data-published="2026-01-01T21:52:44Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13525&page=1#125863">
       <h1>December 2025 News Summary</h1>
 
-(date: 2026-01-01, updated: 2025-12-06)
+(date: 2026-01-01, updated: 2025-12-08)
       <p>
       <p>FlagQuiz the world wide flag quiz for RISC OS has had a few upgrades in December.</p>
 
@@ -4642,7 +4812,7 @@ Try #RISCOS this year.</p>
     <article data-published="2025-12-30T22:17:47Z" data-link="https://kevsoft.wordpress.com/2025/12/30/flagquiz-version-1-02-released/">
       <h1>FlagQuiz Version 1.02 Released</h1>
 
-(date: 2025-12-30, updated: 2026-02-17)
+(date: 2025-12-30, updated: 2026-02-26)
       <p>
       <p>I have made another little update to my RISC OS world flag quiz application FlagQuiz taking it to version 1.02 New in this version is that the question sprites are local to the application itself rather than being placed in the WIMP sprite pool. This should avoid conflicts with other application that use sprites with … <a href="https://kevsoft.wordpress.com/2025/12/30/flagquiz-version-1-02-released/">Continue reading &quot;FlagQuiz Version 1.02 Released&quot;</a></p>
 
@@ -5149,7 +5319,7 @@ Try #RISCOS this year.</p>
     <article data-published="2025-12-24T21:18:26Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13544&page=1#125862">
       <h1>RISC OS 'Advent' Calendar 2025 - Gerph's update on 2025 RISC OS projects</h1>
 
-(date: 2025-12-24, updated: 2025-12-06)
+(date: 2025-12-24, updated: 2025-12-08)
       <p>
       <p>Also, I did a quick port of MicroQuickJS last night, just to see how easy it'd be...</p>
 
@@ -5705,7 +5875,7 @@ mov  r1,r2		; Copy new flags to current flags
     <article data-published="2025-12-18T18:35:27Z" data-link="https://kevsoft.wordpress.com/2025/12/18/flagquiz-goes-to-version-1-01/">
       <h1>FlagQuiz Goes To Version 1.01</h1>
 
-(date: 2025-12-18, updated: 2026-02-17)
+(date: 2025-12-18, updated: 2026-02-26)
       <p>
       <p>My RISC OS application for testing peoples knowledge on world flags called FlagQuiz has had a little upgrade taking it to version 1.01 One was a bug fix in which it was possible for no correct answers were available to be picked, which has now been fixed with the help of Reporter. The other changes … <a href="https://kevsoft.wordpress.com/2025/12/18/flagquiz-goes-to-version-1-01/">Continue reading &quot;FlagQuiz Goes To Version 1.01&quot;</a></p>
 
@@ -6068,7 +6238,7 @@ studio.youtube.com###comment-smart-replies-disclaimer</p>
     <article data-published="2025-12-14T09:36:06Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13537&page=1#125861">
       <h1>RISCOSbits Launches Chimera Christmas Cracker Edition</h1>
 
-(date: 2025-12-14, updated: 2025-12-06)
+(date: 2025-12-14, updated: 2025-12-08)
       <p>
       <p>What a Fab Deal! Wow</p>
 
@@ -6465,7 +6635,7 @@ youtu.be/PEbm0EnRprA<a href="https://youtu.be/PEbm0EnRprA">https://youtu.be/PEbm
     <article data-published="2025-12-11T18:57:48Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13538&page=1#125860">
       <h1>RISC OS 'Advent' Calendar 2025 - David Pitt's Festive RISC OS Paint tip</h1>
 
-(date: 2025-12-11, updated: 2025-12-06)
+(date: 2025-12-11, updated: 2025-12-08)
       <p>
       <p>When the text size gets really big, you may see some jaggedy edges.</p>
 
@@ -6830,7 +7000,7 @@ youtu.be/PEbm0EnRprA<a href="https://youtu.be/PEbm0EnRprA">https://youtu.be/PEbm
     <article data-published="2025-12-08T10:49:50Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13530&page=1#125859">
       <h1>RISC OS 'Advent' Calendar 2025 - Detlef Frohlich's D64Dir2Spr project</h1>
 
-(date: 2025-12-08, updated: 2025-12-06)
+(date: 2025-12-08)
       <p>
       <p>I love the C64. Amazing machine with a truly amazing sound chip.</p>
 
@@ -8560,7 +8730,7 @@ youtu.be/RHdgIHr78RM<a href="https://youtu.be/RHdgIHr78RM">https://youtu.be/RHdg
     <article data-published="2025-11-19T23:17:22Z" data-link="https://kevsoft.wordpress.com/2025/11/19/new-app-flagquiz/">
       <h1>New App FlagQuiz</h1>
 
-(date: 2025-11-19, updated: 2026-02-17)
+(date: 2025-11-19, updated: 2026-02-26)
       <p>
       <p>I have released a new RISC OS application called FlagQuiz which is a quiz about flags from around the world. It is multiple choice quiz with 10 questions with each question having 4 choices, you are presented a flag and have to guess the country it belongs to. It supports the RISC OS interactive help, … <a href="https://kevsoft.wordpress.com/2025/11/19/new-app-flagquiz/">Continue reading &quot;New App FlagQuiz&quot;</a></p>
 
@@ -12793,7 +12963,7 @@ youtu.be/O8U1R_09FDI<a href="https://youtu.be/O8U1R">https://youtu.be/O8U1R</a>_
     <article data-published="2025-10-13T17:51:21Z" data-link="https://kevsoft.wordpress.com/2025/10/13/traintimes-chugs-along-to-version-2-08/">
       <h1>TrainTimes Chugs Along To Version 2.08</h1>
 
-(date: 2025-10-13, updated: 2026-02-17)
+(date: 2025-10-13, updated: 2026-02-26)
       <p>
       <p>My train time table application for RISC OS called TrainTimes has had a couple of tweaks making it now version 2.08 New in this version is that it is now possible on the Station Details window to see th eopening times of the ticket office. The tweak was that when I introduced the station details … <a href="https://kevsoft.wordpress.com/2025/10/13/traintimes-chugs-along-to-version-2-08/">Continue reading &quot;TrainTimes Chugs Along To Version 2.08&quot;</a></p>
 
@@ -15207,7 +15377,7 @@ I wonder how long this fashion cycle will last at Google? Every generation rejec
     <article data-published="2025-09-12T20:50:06Z" data-link="https://kevsoft.wordpress.com/2025/09/12/traintimes-goes-to-version-2-07/">
       <h1>TrainTimes Goes To Version 2.07</h1>
 
-(date: 2025-09-12, updated: 2026-02-17)
+(date: 2025-09-12, updated: 2026-02-26)
       <p>
       <p>My UK train time table application for RiSC OS called TrainTimes has had a couple of updates taking it to version 2.07 New in this version is that on the train time table window the origin time was wrong, which has been fixed plus their are more ways to access the station information window which … <a href="https://kevsoft.wordpress.com/2025/09/12/traintimes-goes-to-version-2-07/">Continue reading &quot;TrainTimes Goes To Version 2.07&quot;</a></p>
 
@@ -16028,7 +16198,7 @@ So there was some Qemu code written by Jeffrey, but the code never reached the c
     <article data-published="2025-09-02T10:17:04Z" data-link="https://kevsoft.wordpress.com/2025/09/02/web2pdf-gets-help/">
       <h1>Web2PDF Gets Help</h1>
 
-(date: 2025-09-02, updated: 2026-02-17)
+(date: 2025-09-02, updated: 2026-02-26)
       <p>
       <p>I have made a few updates to my RISC OS application to turn web pages into PDF files with Web2PDF taking it to version 1.01 New in this version is the ability to use the interactive help to get help with the application, the other update is to fix a little bug that if certain … <a href="https://kevsoft.wordpress.com/2025/09/02/web2pdf-gets-help/">Continue reading &quot;Web2PDF Gets Help&quot;</a></p>
 
@@ -16988,7 +17158,7 @@ The electorate:
     <article data-published="2025-08-13T21:18:30Z" data-link="https://kevsoft.wordpress.com/2025/08/13/new-application-webshot/">
       <h1>New Application WebShot</h1>
 
-(date: 2025-08-13, updated: 2026-02-17)
+(date: 2025-08-13, updated: 2026-02-26)
       <p>
       <p>I have released a new RISC OS application that takes a screenshot of a web page which is called WebShot and it is at version 1.00 WebShot allows a screenshot of a web page on the internet to be taking based on the Chrome browser, with the screen shot can be viewed as a PNG … <a href="https://kevsoft.wordpress.com/2025/08/13/new-application-webshot/">Continue reading &quot;New Application WebShot&quot;</a></p>
 
@@ -17413,7 +17583,7 @@ https://www.instagram.com/grantkirkhopecomposer/p/DMxs6fdxq49/
     <article data-published="2025-08-01T19:15:10Z" data-link="https://kevsoft.wordpress.com/2025/08/01/kevsoft-goes-secure/">
       <h1>Kevsoft Goes Secure</h1>
 
-(date: 2025-08-01, updated: 2026-02-17)
+(date: 2025-08-01, updated: 2026-02-26)
       <p>
       <p>This is a short post to inform people that the software site at Kevsoft has at long last got the https attached to it. If you have a link to my site without the secure bit you may want ot alter it. Thanks.</p>
 

@@ -7,10 +7,213 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>26 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>27 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.22</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mfu3nhpp6k2l</link>
+      <description>
+        <![CDATA[geLLMan amnesia.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>geLLMan amnesia.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mfu3nhpp6k2l</guid>
+    </item>    <item>
+      <title>February 2026 News Summary</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13551&#38;page=1#125869</link>
+      <description>
+        <![CDATA[TrainTimes has had a little updgate and I have released Quiz Engine has had it's first release allowing people to create their own quizzes.]]>
+      </description>
+      <source:markdown>TrainTimes has had a little updgate and I have released Quiz Engine has had it&#39;s first release allowing people to create their own quizzes.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13551&#38;page=1#125869</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mfu2gnyooc2q</link>
+      <description>
+        <![CDATA[Off on a work trip for a few days, but thanks to @danrolfe.bsky.social I can still bring a Beeb with me 😁]]>
+      </description>
+      <source:markdown>Off on a work trip for a few days, but thanks to @danrolfe.bsky.social I can still bring a Beeb with me 😁</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mfu2gnyooc2q</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mftlu5fe2c2j</link>
+      <description>
+        <![CDATA['Search for the Lost Orb' is a text-based adventure game for the BBC Micro that I found whilst going through my disk collection. So far I have been unable to find out who actually wrote it. I asked the people on stardot, but had no luck. I think it could be Andy Bray (RIP) who I knew well BITD.]]>
+      </description>
+      <source:markdown>&#39;Search for the Lost Orb&#39; is a text-based adventure game for the BBC Micro that I found whilst going through my disk collection. So far I have been unable to find out who actually wrote it. I asked the people on stardot, but had no luck. I think it could be Andy Bray (RIP) who I knew well BITD.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mftlu5fe2c2j</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mftijmgnn22g</link>
+      <description>
+        <![CDATA[“Friends” is a beloved American sitcom that aired from 1994 to 2004, following six young adults—Rachel, Ross, Monica, Chandler [out of shot], Joey, and Phoebe—living in New York City. The show explores their friendships, romances, careers, and personal growth over ten seasons.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>“Friends” is a beloved American sitcom that aired from 1994 to 2004, following six young adults—Rachel, Ross, Monica, Chandler \[out of shot\], Joey, and Phoebe—living in New York City. The show explores their friendships, romances, careers, and personal growth over ten seasons.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mftijmgnn22g</guid>
+    </item>    <item>
+      <title>extASM assembler and the StrongHelp Assembler manual updated to ARMv8</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20273</link>
+      <description>
+        <![CDATA[<p>Is the source available?  I&#8217;ve been maintaining it for the past 14 years, it would make sense to merge my changes into your source.</p>
+        <p>Known bugs and changes I&#8217;ve made:<br />
+        <pre>Issues to fix:  <br />
+                &#8211; MACRO&#8217;s remove local variables, bug in<br />
+        	        macro.macros Delete_Variables and Assemble_Macro<br />
+        		which alter Prev_Variable_Offset<br />
+        	- arm.decode_load_store_instruction DT_PUSH errors with a macro<br />
+        		named <span class="caps">PUSHSWI</span><br />
+        	- <span class="caps">ALIGN</span> doesn&#8217;t work in <span class="caps">STRUCT</span><br />
+        	- <span class="caps">ALIGN</span> doesn&#8217;t work in <span class="caps">RELATIVE</span><br />
+        	- <span class="caps">DIV</span> uses lower two bits in R13</p>
+        <p>Changes:<br />
+        2.05	20-08-22<br />
+        	- changed general.flex.Clear_Memory as it could overrun causing<br />
+        		general.variables.FV_Local_Loop to abort on it&#8217;s 1st instruction<br />
+        		@ AA68 when walking the local variable list (it overruns)<br />
+        2.03	20-08-16<br />
+        	= assembler.extra.decode_extra_instruction<br />
+        		<span class="caps">ALIGN</span> now correctly aligns to -<br />
+        		<span class="caps">ALIGN</span> now writes 0 to words added<br />
+        	- assembler.general.assembler<br />
+        		Align_PC corrected and now writes 0 to bytes added<br />
+        2.03	20-10-15<br />
+        	+ arm.decode_load_store_instruction<br />
+        		Checks for auto-expansion of PC<br />
+        2.02	27-03-15 / 30-03-15<br />
+        	= arm.decode_exception_instruction<br />
+        		Now checks if <span class="caps">BKPT</span> immediate exceeds the limits<br />
+        	= arm.decode_misc_instruction<br />
+        		Now checks if <span class="caps">PLD</span> immediate exceeds the limits<br />
+        	+ extra.decode_extra_instruction<br />
+        		Added Throwback option for <span class="caps">OUTPUT</span><br />
+        	+ general.messages<br />
+        		Added Throwback option for Warning<br />
+        		Added Throwback option for Auto-expansion stacked/non-stacked<br />
+        2.01	14-10-12 / 16-10-12<br />
+        	= arm.decode_psr_register<br />
+        		CPSR_all / SPSR_all now encode correctly<br />
+        	= arm.decode_misc_instruction<br />
+        		<span class="caps">NOP</span> now uses <span class="caps">MOVEQ</span> R0,R0 instead of <span class="caps">MOVNV</span> R0,R0</pre>]]>
+      </description>
+      <source:markdown>Is the source available? I’ve been maintaining it for the past 14 years, it would make sense to merge my changes into your source.
+
+Known bugs and changes I’ve made:
+
+```
+Issues to fix:
+
+        – MACRO’s remove local variables, bug in
+
+	        macro.macros Delete_Variables and Assemble_Macro
+
+		which alter Prev_Variable_Offset
+
+	- arm.decode_load_store_instruction DT_PUSH errors with a macro
+
+		named PUSHSWI
+
+	- ALIGN doesn’t work in STRUCT
+
+	- ALIGN doesn’t work in RELATIVE
+
+	- DIV uses lower two bits in R13
+Changes:
+
+2.05	20-08-22
+
+	- changed general.flex.Clear_Memory as it could overrun causing
+
+		general.variables.FV_Local_Loop to abort on it’s 1st instruction
+
+		@ AA68 when walking the local variable list (it overruns)
+
+2.03	20-08-16
+
+	= assembler.extra.decode_extra_instruction
+
+		ALIGN now correctly aligns to -
+
+		ALIGN now writes 0 to words added
+
+	- assembler.general.assembler
+
+		Align_PC corrected and now writes 0 to bytes added
+
+2.03	20-10-15
+
+	+ arm.decode_load_store_instruction
+
+		Checks for auto-expansion of PC
+
+2.02	27-03-15 / 30-03-15
+
+	= arm.decode_exception_instruction
+
+		Now checks if BKPT immediate exceeds the limits
+
+	= arm.decode_misc_instruction
+
+		Now checks if PLD immediate exceeds the limits
+
+	+ extra.decode_extra_instruction
+
+		Added Throwback option for OUTPUT
+
+	+ general.messages
+
+		Added Throwback option for Warning
+
+		Added Throwback option for Auto-expansion stacked/non-stacked
+
+2.01	14-10-12 / 16-10-12
+
+	= arm.decode_psr_register
+
+		CPSR_all / SPSR_all now encode correctly
+
+	= arm.decode_misc_instruction
+
+		NOP now uses MOVEQ R0,R0 instead of MOVNV R0,R0
+```</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20273:162053</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/alephspace.bsky.social/post/3mftcuo7ga223</link>
+      <description>
+        <![CDATA[💚
+        https://media.tenor.com/geZPoFUgBEMAAAAC/shaun-of-the-dead-simon-pegg.gif?hh=498&ww=498]]>
+      </description>
+      <source:markdown>💚
+https://media.tenor.com/geZPoFUgBEMAAAAC/shaun-of-the-dead-simon-pegg.gif?hh=498&#38;ww=498</source:markdown>
+      <guid>cid://at://did:plc:6e6hyubsieooaqyrh4smwbm5/app.bsky.feed.post/3mftcuo7ga223</guid>
+    </item>    <item>
+      <title>February 2026 News Summary</title>
+      <link>http://www.iconbar.com/comments/rss/news2295.html</link>
+      <description>
+        <![CDATA[Some things we noticed this month. What did you see?]]>
+      </description>
+      <source:markdown>Some things we noticed this month. What did you see?</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2295.html</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>Is this project dead now?</p>]]>
+      </description>
+      <source:markdown>Is this project dead now?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:162052</guid>
+    </item>    <item>
+      <title>Quiz Engine First Release</title>
+      <link>https://kevsoft.wordpress.com/2026/02/26/quiz-engine-first-release/</link>
+      <description>
+        <![CDATA[Want to create your own quizzes for RISC OS now you can with the first release of my Quiz Engine as used by FlagQuiz. On the Quiz Engine web page you will find the instructions on what to do as well as a skeleton application called MyQuiz. Hopefully the instructions are clear and easy to &#8230; <a href="https://kevsoft.wordpress.com/2026/02/26/quiz-engine-first-release/" class="more-link">Continue reading<span class="screen-reader-text"> "Quiz Engine First&#160;Release"</span></a>]]>
+      </description>
+      <source:markdown>Want to create your own quizzes for RISC OS now you can with the first release of my Quiz Engine as used by FlagQuiz. On the Quiz Engine web page you will find the instructions on what to do as well as a skeleton application called MyQuiz. Hopefully the instructions are clear and easy to … [Continue reading &#34;Quiz Engine First Release&#34;](https://kevsoft.wordpress.com/2026/02/26/quiz-engine-first-release/)</source:markdown>
+      <guid>cid://http://kevsoft.wordpress.com/?p=1422</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mfrmdvp7vk2e</link>
       <description>
         <![CDATA[#RISC_OS community: Update for the folks helping testing new #ShareFSServer for this weekend: 
@@ -56,7 +259,7 @@ https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=2#post
         3) After A+ and printer sharing is completed, we will move to testing the two administrative functions:
            - A web UI to administer the server from !Browse and !NetSurf ;)
            - A REST API for people who wish to write their own native RISC OS desktop application to administer ShareFSServer
-        4) After finishing testing of 1 and 2, we will need to test the new messaging protocol I am adding to ShareFSServer. This should be exciting for users who wish to build RISC OS clusters, because the messaging protocol allows:
+        4) After finishing testing of 1, 2 and 3, we will need to test the new messaging protocol I am adding to ShareFSServer. This should be exciting for users who wish to build RISC OS clusters, because the messaging protocol allows:
            - Creating a RISC OS cluster system to share processing load (the protocol allows sending and receiving processing load units, for example to create software that runs threads on remote systems. I demoed an early version at some of the RISC OS Shows in past years). So yes, RISC OS clustering is coming :)
            - Creating distributed applications on RISC OS
            - Creating ways to send update messages to running apps on separate RISC OS systems, even across VPNs
@@ -99,7 +302,7 @@ Roadmap:
 3) After A+ and printer sharing is completed, we will move to testing the two administrative functions:
    - A web UI to administer the server from !Browse and !NetSurf ;)
    - A REST API for people who wish to write their own native RISC OS desktop application to administer ShareFSServer
-4) After finishing testing of 1 and 2, we will need to test the new messaging protocol I am adding to ShareFSServer. This should be exciting for users who wish to build RISC OS clusters, because the messaging protocol allows:
+4) After finishing testing of 1, 2 and 3, we will need to test the new messaging protocol I am adding to ShareFSServer. This should be exciting for users who wish to build RISC OS clusters, because the messaging protocol allows:
    - Creating a RISC OS cluster system to share processing load (the protocol allows sending and receiving processing load units, for example to create software that runs threads on remote systems. I demoed an early version at some of the RISC OS Shows in past years). So yes, RISC OS clustering is coming :)
    - Creating distributed applications on RISC OS
    - Creating ways to send update messages to running apps on separate RISC OS systems, even across VPNs
@@ -431,14 +634,6 @@ Anyhow, that’s my intention. It will almost certainly require a bit of thought
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mfhs2f4zpk25</guid>
-    </item>    <item>
-      <title>extASM assembler and the StrongHelp Assembler manual updated to ARMv8</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20273</link>
-      <description>
-        <![CDATA[<p>Thanks. 🙂</p>]]>
-      </description>
-      <source:markdown>Thanks. 🙂</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20273:161985</guid>
     </item>    <item>
       <title>Voices from a Future Passed – on sale from 1st March</title>
       <link>https://www.riscository.com/2026/voices-from-a-future-passed-available-1st-march/</link>
@@ -3086,22 +3281,6 @@ anayway thanks for the sugestions</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3mcc3c22jn22z</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>For those not keeping up at the back, what the hell is a “spork” or “non spork” build?</p>
-        </blockquote>
-        <p>It&#8217;s not a fork :-)</p>
-        <p>Can I request that this thread be split out into a separate thread for each topic with a meaningful title? It&#8217;s a mess at the moment.</p>]]>
-      </description>
-      <source:markdown>&#62; For those not keeping up at the back, what the hell is a “spork” or “non spork” build?
-
-It’s not a fork :-)
-
-Can I request that this thread be split out into a separate thread for each topic with a meaningful title? It’s a mess at the moment.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:161336</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mcbgxry4v222</link>
       <description>
