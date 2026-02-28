@@ -7,10 +7,135 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>27 Feb 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>28 Feb 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.22</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Live Coding with Gerph, Sunday 1st March at 1pm UK time.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20279</link>
+      <description>
+        <![CDATA[<p>This Sunday (tomorrow) – 1st March, at 1pm UK time – I&#8217;ll be starting a new series of live coding. This week, I&#8217;ll be starting work on integrating the previous templates implementation into the Window Manager.</p>
+        <p>Come along if you like – <a href="https://youtube.com/live/CEZ0klRPeq4?feature=share">https://youtube.com/live/CEZ0klRPeq4?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
+        <hr />
+        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
+        <hr />
+        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rEklqsXOlxlqCAoAJDF8cXG">https://www.youtube.com/playlist?list=PLVVIu906Y7rEklq…</a></p>
+        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimptemplates.html">https://presentation.riscos.online/live/wimptemplates.…</a> (once it has been published).</p>]]>
+      </description>
+      <source:markdown>This Sunday (tomorrow) – 1st March, at 1pm UK time – I’ll be starting a new series of live coding. This week, I’ll be starting work on integrating the previous templates implementation into the Window Manager.
+
+Come along if you like – [https://youtube.com/live/CEZ0klRPeq4?feature=share](https://youtube.com/live/CEZ0klRPeq4?feature=share) – or you can always watch the video afterwards at the same address.
+
+* * *
+
+For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
+
+* * *
+
+If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rEklq…](https://www.youtube.com/playlist?list=PLVVIu906Y7rEklqsXOlxlqCAoAJDF8cXG)
+
+Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimptemplates.…](https://presentation.riscos.online/live/wimptemplates.html) (once it has been published).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20279:162076</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mfwoj2yr2c2m</link>
+      <description>
+        <![CDATA[Calm down Tenzing, that's not cold.]]>
+      </description>
+      <source:markdown>Calm down Tenzing, that&#39;s not cold.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mfwoj2yr2c2m</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mfwnypjrsc2m</link>
+      <description>
+        <![CDATA[ALL THESE WORLDS
+        ARE YOURS EXCEPT
+            PUFFIN ISLAND
+              ATTEMPT NO
+           LANDING THERE]]>
+      </description>
+      <source:markdown>ALL THESE WORLDS
+ARE YOURS EXCEPT
+ PUFFIN ISLAND
+ ATTEMPT NO
+ LANDING THERE</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mfwnypjrsc2m</guid>
+    </item>    <item>
+      <title>Kevsoft’s Quiz creator released</title>
+      <link>https://www.riscository.com/2026/kevsoft-quiz-engine-released/</link>
+      <description>
+        <![CDATA[When Kevin Wells released FlagQuiz in late 2025, along with a couple of subsequent updates, he said that his plan was to make it possible for people to create their own quizzes using the software &#8211; and he has now met that goal with the release of The Kevsoft Quiz Engine. As well as two files that can be downloaded (although it appears only one &#8211; the skeleton &#8216;MyQuiz&#8217; is needed until and unless the Quiz Engine itself &#8211; which is currently at version 1.02 &#8211; is updated), the page&#8230;]]>
+      </description>
+      <source:markdown>When Kevin Wells released FlagQuiz in late 2025, along with a couple of subsequent updates, he said that his plan was to make it possible for people to create their own quizzes using the software – and he has now met that goal with the release of The Kevsoft Quiz Engine. As well as two files that can be downloaded (although it appears only one – the skeleton ‘MyQuiz’ is needed until and unless the Quiz Engine itself – which is currently at version 1.02 – is updated), the page…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10884</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mfwdwrgcgc2m</link>
+      <description>
+        <![CDATA[Ah yes, the military. Straight out of the Elizabeth Holmes Theranos playback.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Ah yes, the military. Straight out of the Elizabeth Holmes Theranos playback.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mfwdwrgcgc2m</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mfw2okadvk2s</link>
+      <description>
+        <![CDATA[This is now on sale! A history of Acorn, written by Rob Napier (of Barson Computing) and with contributions from all the major people involved at Acorn and the BBC: amzn.eu/d/06qvLzW8
+        https://amzn.eu/d/06qvLzW8]]>
+      </description>
+      <source:markdown>This is now on sale! A history of Acorn, written by Rob Napier (of Barson Computing) and with contributions from all the major people involved at Acorn and the BBC: amzn.eu/d/06qvLzW8
+https://amzn.eu/d/06qvLzW8</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mfw2okadvk2s</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mfvoqwyu6s23</link>
+      <description>
+        <![CDATA[February 2026 News Summary 
+        
+        https://www.iconbar.com/articles/February_2026_News_Summary/index2295.html 
+        
+        Some things we noticed this month. What did you see?]]>
+      </description>
+      <source:markdown>February 2026 News Summary
+
+https://www.iconbar.com/articles/February\_2026\_News\_Summary/index2295.html
+
+Some things we noticed this month. What did you see?</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mfvoqwyu6s23</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mfv2wvj7o22n</link>
+      <description>
+        <![CDATA[#RISC_OS, what this weekend update contains you have read it on the ROOL's forum post, but how does it looks like Screenshots! 😆
+        
+        RISC OS 3.10/3.7/5 Using very long file names, and getting #MacOS , #WIndows, #Linux and #BSD Unicode translated (where possible) to Latin1, now how cool is that?]]>
+      </description>
+      <source:markdown>#RISC\_OS, what this weekend update contains you have read it on the ROOL&#39;s forum post, but how does it looks like Screenshots! 😆
+
+RISC OS 3.10/3.7/5 Using very long file names, and getting #MacOS , #WIndows, #Linux and #BSD Unicode translated (where possible) to Latin1, now how cool is that?</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mfv2wvj7o22n</guid>
+    </item>    <item>
+      <title>What are you doing with RISC OS?</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/653</link>
+      <description>
+        <![CDATA[<p>Most important, fixed a bug in ToolboxDisplayField::getIntValue()<br />
+        Added !PollIdle example which can be found on <a href="https://github.com/bantonia/ToolboxLibrary/tree/main/Examples/!PollIdle">GitHub</a><br />
+        Had already coded the requirements in the library to implement PollIdle events, hope that covers any concerns.</p>]]>
+      </description>
+      <source:markdown>Most important, fixed a bug in ToolboxDisplayField::getIntValue()
+
+Added !PollIdle example which can be found on [GitHub](https://github.com/bantonia/ToolboxLibrary/tree/main/Examples/!PollIdle)
+
+Had already coded the requirements in the library to implement PollIdle events, hope that covers any concerns.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:653:162064</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3mfujdruv7s24</link>
+      <description>
+        <![CDATA[Do you remember Acorn Computers? The company designed and delivered the first ARM chip and the BBC Micro. Want to know more or catch up? The RISC OS North show, is on Saturday 21st March, in Warrington, UK.
+        riscosnorth.uk #RISC_OS #Event #Warrington #RaspberryPi #ARM]]>
+      </description>
+      <source:markdown>Do you remember Acorn Computers? The company designed and delivered the first ARM chip and the BBC Micro. Want to know more or catch up? The RISC OS North show, is on Saturday 21st March, in Warrington, UK.
+riscosnorth.uk #RISC\_OS #Event #Warrington #RaspberryPi #ARM</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mfujdruv7s24</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mfu3nhpp6k2l</link>
       <description>
         <![CDATA[geLLMan amnesia.
@@ -214,6 +339,60 @@ https://media.tenor.com/geZPoFUgBEMAAAAC/shaun-of-the-dead-simon-pegg.gif?hh=498
       <source:markdown>Want to create your own quizzes for RISC OS now you can with the first release of my Quiz Engine as used by FlagQuiz. On the Quiz Engine web page you will find the instructions on what to do as well as a skeleton application called MyQuiz. Hopefully the instructions are clear and easy to … [Continue reading &#34;Quiz Engine First Release&#34;](https://kevsoft.wordpress.com/2026/02/26/quiz-engine-first-release/)</source:markdown>
       <guid>cid://http://kevsoft.wordpress.com/?p=1422</guid>
     </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p>Hey Richard,</p>
+        <blockquote>
+        <p>Are you thinking about the over-IP implementation, or the classic? Or both?</p>
+        </blockquote>
+        <p>Just the over-IP implementation. But still an interesting jurney I would say! XD</p>]]>
+      </description>
+      <source:markdown>Hey Richard,
+
+&#62; Are you thinking about the over-IP implementation, or the classic? Or both?
+
+Just the over-IP implementation. But still an interesting jurney I would say! XD</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:162051</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>@Simon <br />
+        another very interesting approach, worth testing. thanks for the link.<br />
+        In one of the <span class="caps">PDF</span> files I was able to recover only the background without text, but I didn&#8217;t know how to use it.<br />
+        To test.<br />
+        @Jim<br />
+        With KPDFUtils, extracting images in Jpep mode, I have no problem opening them with Compo, even opening them with a script.<br />
+        I have Comp version 123a.35 and I just saw while searching with !Store that there is a problem with version 1.23c<br />
+        &#8220;1.23c fails to load <span class="caps">JPEG</span> images on 32 bit platform.&#8221;<br />
+        Both version are included in the download .<br />
+        I will download your latest version and review it.</p>
+        <p>NB the Farfrontiers pages were scanned with a quality machine, the format reached almost 3000 pts, the rendering of the background was too perfect :-)</p>]]>
+      </description>
+      <source:markdown>@Simon
+
+another very interesting approach, worth testing. thanks for the link.
+
+In one of the PDF files I was able to recover only the background without text, but I didn’t know how to use it.
+
+To test.
+
+@Jim
+
+With KPDFUtils, extracting images in Jpep mode, I have no problem opening them with Compo, even opening them with a script.
+
+I have Comp version 123a.35 and I just saw while searching with !Store that there is a problem with version 1.23c
+
+“1.23c fails to load JPEG images on 32 bit platform.”
+
+Both version are included in the download .
+
+I will download your latest version and review it.
+
+NB the Farfrontiers pages were scanned with a quality machine, the format reached almost 3000 pts, the rendering of the background was too perfect :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162050</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mfrmdvp7vk2e</link>
       <description>
         <![CDATA[#RISC_OS community: Update for the folks helping testing new #ShareFSServer for this weekend: 
@@ -228,94 +407,6 @@ https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=2#post
 
 #Windows #Linux #MacOS #BSD #FreeBSD #riscos</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mfrmdvp7vk2e</guid>
-    </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p>@ All</p>
-        <p>I am starting to close the build for this weekend so people can run another set of tests. What I have managed to find the time to fix so far for the next build you will receive is:</p>
-        <ul>
-        	<li>Fixed all reported issues with the sharefs.toml file being regenerated.</li>
-        	<li>Fixed all issues with transferring files from <span class="caps">RISC</span> OS to ShareFSServer. This should make file transfers safe in both directions now, but you will need to confirm.</li>
-        	<li>Added graceful system shutdown, so older versions of macOS on Intel should not behave oddly when pressing <span class="caps">CTRL</span>-C.</li>
-        	<li>Improved error reporting.</li>
-        	<li>Improved Unicode handling. This is not completed yet, so I am planning to finish it next week.</li>
-        	<li>Improved file extension handling, although this is also planned to be completed next week.</li>
-        	<li>Added a new parameter to store logs in a file, because a few of you forgot to send me logs with your reports. Sending those logs is vital.</li>
-        	<li>You can now start the server by double-clicking the executable icon.</li>
-        </ul>
-        <p>What I am fixing tonight:</p>
-        <ul>
-        	<li>Unicode to Latin-1 translator causing problems with <span class="caps">RISC</span> OS <span class="caps">NBSP</span> (hard space used for file names). The issue is that Unicode uses 0xC2 0xA0 for <span class="caps">NBSP</span>, but <span class="caps">RISC</span> OS uses only 0xA0. The combination of the Unicode to Latin-1 translator and the space-to-hard-space translator creates a bug that makes ShareFSServer send <span class="caps">RISC</span> OS a hard space as two bytes: 0xC2 and 0xA0 (and 0xC2 gets displayed as an extended “A”). This obviously does not map back to what a file with a regular space is on macOS, Linux, Windows, and <span class="caps">BSD</span>, so the translation table returns an unknown share.</li>
-        </ul>
-        <p>Please let me know if there are other important fixes I forgot and need to implement.</p>
-        <p>As soon as the new builds are ready, you will receive the usual email with instructions. I have also added a <span class="caps">README</span>.txt file with all the instructions in the zip file.</p>
-        <p>Again, thanks everyone for helping to test this!</p>
-        <pre>
-        Roadmap:
-        
-        1) After file sharing testing is completed, we will move to printer sharing testing.
-        2) Test Access+ features, they are not ready yet
-        3) After A+ and printer sharing is completed, we will move to testing the two administrative functions:
-           - A web UI to administer the server from !Browse and !NetSurf ;)
-           - A REST API for people who wish to write their own native RISC OS desktop application to administer ShareFSServer
-        4) After finishing testing of 1, 2 and 3, we will need to test the new messaging protocol I am adding to ShareFSServer. This should be exciting for users who wish to build RISC OS clusters, because the messaging protocol allows:
-           - Creating a RISC OS cluster system to share processing load (the protocol allows sending and receiving processing load units, for example to create software that runs threads on remote systems. I demoed an early version at some of the RISC OS Shows in past years). So yes, RISC OS clustering is coming :)
-           - Creating distributed applications on RISC OS
-           - Creating ways to send update messages to running apps on separate RISC OS systems, even across VPNs
-           - Creating local chats lol (some of you asked if it was for this, well yes, you can use it for this as well)
-        5) Finally, we will need to test all the new security features:
-           - You will be able to define which IPs, subnets, and CIDRs can access each specific share
-           - Set up a rate limiter
-           - Check if anything can break a RISC OS client
-        </pre>
-        <p>As a separate note, I am also trying to reverse/re-implement Acorn <span class="caps">AUN</span> too in ShareFSServer.</p>]]>
-      </description>
-      <source:markdown>@ All
-
-I am starting to close the build for this weekend so people can run another set of tests. What I have managed to find the time to fix so far for the next build you will receive is:
-
-- Fixed all reported issues with the sharefs.toml file being regenerated.
-- Fixed all issues with transferring files from RISC OS to ShareFSServer. This should make file transfers safe in both directions now, but you will need to confirm.
-- Added graceful system shutdown, so older versions of macOS on Intel should not behave oddly when pressing CTRL-C.
-- Improved error reporting.
-- Improved Unicode handling. This is not completed yet, so I am planning to finish it next week.
-- Improved file extension handling, although this is also planned to be completed next week.
-- Added a new parameter to store logs in a file, because a few of you forgot to send me logs with your reports. Sending those logs is vital.
-- You can now start the server by double-clicking the executable icon.
-
-What I am fixing tonight:
-
-- Unicode to Latin-1 translator causing problems with RISC OS NBSP (hard space used for file names). The issue is that Unicode uses 0xC2 0xA0 for NBSP, but RISC OS uses only 0xA0. The combination of the Unicode to Latin-1 translator and the space-to-hard-space translator creates a bug that makes ShareFSServer send RISC OS a hard space as two bytes: 0xC2 and 0xA0 (and 0xC2 gets displayed as an extended “A”). This obviously does not map back to what a file with a regular space is on macOS, Linux, Windows, and BSD, so the translation table returns an unknown share.
-
-Please let me know if there are other important fixes I forgot and need to implement.
-
-As soon as the new builds are ready, you will receive the usual email with instructions. I have also added a README.txt file with all the instructions in the zip file.
-
-Again, thanks everyone for helping to test this!
-
-```
-Roadmap:
-
-1) After file sharing testing is completed, we will move to printer sharing testing.
-2) Test Access+ features, they are not ready yet
-3) After A+ and printer sharing is completed, we will move to testing the two administrative functions:
-   - A web UI to administer the server from !Browse and !NetSurf ;)
-   - A REST API for people who wish to write their own native RISC OS desktop application to administer ShareFSServer
-4) After finishing testing of 1, 2 and 3, we will need to test the new messaging protocol I am adding to ShareFSServer. This should be exciting for users who wish to build RISC OS clusters, because the messaging protocol allows:
-   - Creating a RISC OS cluster system to share processing load (the protocol allows sending and receiving processing load units, for example to create software that runs threads on remote systems. I demoed an early version at some of the RISC OS Shows in past years). So yes, RISC OS clustering is coming :)
-   - Creating distributed applications on RISC OS
-   - Creating ways to send update messages to running apps on separate RISC OS systems, even across VPNs
-   - Creating local chats lol (some of you asked if it was for this, well yes, you can use it for this as well)
-5) Finally, we will need to test all the new security features:
-   - You will be able to define which IPs, subnets, and CIDRs can access each specific share
-   - Set up a rate limiter
-   - Check if anything can break a RISC OS client
-
-```
-
-As a separate note, I am also trying to reverse/re-implement Acorn AUN too in ShareFSServer.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:162048</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfrhjr2gp22t</link>
       <description>
@@ -371,38 +462,6 @@ Does anyone have a “set if not already set” ShellCli/Obey pattern that they 
       </description>
       <source:markdown>I am reminded today of just how amazing the Tron Legacy soundtrack by Daft Punk is. Every track pulses with electronic glory!</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mfozs4zn7k2q</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve now got the Compo-using program to apply a user-chosen set of &#8216;expansion&#8217; values. i.e. it can take the sourced range of pixel values and &#8216;expand&#8217; them on the following basis:</p>
-        <p>The program generates the &#8216;accumulated&#8217; stats for rgb. i.e. what percentage of pixel values is at-or-below each possible value in the 0 &#8211; 255 range. The user then chooses which &#8216;percentage values&#8217; to put outwith the expanded range.</p>
-        <p>i.e. if I specify 10% and 90% to exclude, the output is expanded to have what is between these in the image `fill up&#8217; the 0 &#8211; 255 range. It then re-writes the pixels using the source original values for each pixel as the &#8216;look up table&#8217; location fore the new brightness.</p>
-        <p>Found that 1%/99% did little more than greyscale the image &#8211; inc the darkening due to oxidation. But values more like 20% and 80% or higher give much better conversion to cleaner black text on a white background.</p>
-        <p>So far, just using the blue values to generate greyscale. But next step is to have user choise to use r, or, g, or any combination as the way to produce the exanded greyscale. Using accumulated probability plots essentially alignes away the browning &#8216;offsets&#8217;.</p>
-        <p>Which approach sems best in a given case can then be experimented with, and chosen by users.<br />
-        But simply using blue seems able to work fairly well on the test pages I have thus far.</p>
-        <p>The code is, as usual for me, clumsily written. But I can put a copy up some time today if I get a chamce. People can then experiment with it as they may wish.</p>
-        <p>Once it works well, I&#8217;ll see if it can be used along with !KPDFutil (spelling?) But at present my priorities are personal (carer duties) and my clumsy programming of what I&#8217;ve managed to get working.</p>]]>
-      </description>
-      <source:markdown>I’ve now got the Compo-using program to apply a user-chosen set of ‘expansion’ values. i.e. it can take the sourced range of pixel values and ‘expand’ them on the following basis:
-
-The program generates the ‘accumulated’ stats for rgb. i.e. what percentage of pixel values is at-or-below each possible value in the 0 – 255 range. The user then chooses which ‘percentage values’ to put outwith the expanded range.
-
-i.e. if I specify 10% and 90% to exclude, the output is expanded to have what is between these in the image \`fill up’ the 0 – 255 range. It then re-writes the pixels using the source original values for each pixel as the ‘look up table’ location fore the new brightness.
-
-Found that 1%/99% did little more than greyscale the image – inc the darkening due to oxidation. But values more like 20% and 80% or higher give much better conversion to cleaner black text on a white background.
-
-So far, just using the blue values to generate greyscale. But next step is to have user choise to use r, or, g, or any combination as the way to produce the exanded greyscale. Using accumulated probability plots essentially alignes away the browning ‘offsets’.
-
-Which approach sems best in a given case can then be experimented with, and chosen by users.
-
-But simply using blue seems able to work fairly well on the test pages I have thus far.
-
-The code is, as usual for me, clumsily written. But I can put a copy up some time today if I get a chamce. People can then experiment with it as they may wish.
-
-Once it works well, I’ll see if it can be used along with !KPDFutil (spelling?) But at present my priorities are personal (carer duties) and my clumsy programming of what I’ve managed to get working.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162038</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mfomlinoa22l</link>
       <description>
@@ -800,14 +859,6 @@ See you there!
       </description>
       <source:markdown>R. Fred Williams&#39; old 3&#34; game development disks, batch 2, have now been archived. These are on their way back to Fred so he can go through the contents. They contain a mix of development source code, utilities and binary game images. The big find so far is the lost side &#39;B&#39; of Amstrad NY Warriors.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mf7w4vqvz22s</guid>
-    </item>    <item>
-      <title>What are you doing with RISC OS?</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/653</link>
-      <description>
-        <![CDATA[<p>Uploaded a very old piece of software to <a href="https://github.com/bantonia/Inetd/tree/main">GitHub</a> which I wrote in 1998, !Inetd. Uses two modules Pollword and AsyncSock, also written some time ago, in assembler. All sources are available. These have been running on my RiscPC and RPi for a number of years without issue (for me anyway.) By the way, the Toolbox event dispatch module software has been updated, written in C. It uses TickerV, callbacks and generates the equivalent to Toolbox_RaiseToolboxEvent but sends them not to itself but to applications which register interest. High frequency events can cause an issue ie 1 centisecond but have had no issue with a frequency of 10 centisecond events on soak testing for 3 days.</p>]]>
-      </description>
-      <source:markdown>Uploaded a very old piece of software to [GitHub](https://github.com/bantonia/Inetd/tree/main) which I wrote in 1998, !Inetd. Uses two modules Pollword and AsyncSock, also written some time ago, in assembler. All sources are available. These have been running on my RiscPC and RPi for a number of years without issue (for me anyway.) By the way, the Toolbox event dispatch module software has been updated, written in C. It uses TickerV, callbacks and generates the equivalent to Toolbox\_RaiseToolboxEvent but sends them not to itself but to applications which register interest. High frequency events can cause an issue ie 1 centisecond but have had no issue with a frequency of 10 centisecond events on soak testing for 3 days.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:653:161919</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mf63oigzwc2q</link>
       <description>
