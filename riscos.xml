@@ -7,10 +7,234 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>01 Mar 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>02 Mar 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.22</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Setting up and Using Messenger for email – WROCC, 4th March</title>
+      <link>https://www.riscository.com/2026/messenger-for-email-wrocc-4th-march/</link>
+      <description>
+        <![CDATA[The next meeting of the Wakefield RISC OS Computer Club (WROCC) will take place on Wednesday 4th, March, at which the club&#8217;s own Chris Hughes will be delivering a talk on email and usenet access. More specifically, this is a follow-up talk to the one given by Martin Avison back in November, showing how to set up Pluto and Anti-Spam for accessing email. Chris will therefore be showing how to do the same using the commercial software available from R-Comp &#8211; Messenger Pro and Netfetch/Hermes. He will cover its set&#8230;]]>
+      </description>
+      <source:markdown>The next meeting of the Wakefield RISC OS Computer Club (WROCC) will take place on Wednesday 4th, March, at which the club’s own Chris Hughes will be delivering a talk on email and usenet access. More specifically, this is a follow-up talk to the one given by Martin Avison back in November, showing how to set up Pluto and Anti-Spam for accessing email. Chris will therefore be showing how to do the same using the commercial software available from R-Comp – Messenger Pro and Netfetch/Hermes. He will cover its set…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10887</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mg3x6qfio22l</link>
+      <description>
+        <![CDATA[Had some fun getting my blog migrated across to self-hosting via Hugo, which I must say is a lovely content management generator! This is now the companion site for my more 'serious' projects: beeb6502.com
+        https://beeb6502.com/]]>
+      </description>
+      <source:markdown>Had some fun getting my blog migrated across to self-hosting via Hugo, which I must say is a lovely content management generator! This is now the companion site for my more &#39;serious&#39; projects: beeb6502.com
+https://beeb6502.com/</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mg3x6qfio22l</guid>
+    </item>    <item>
+      <title>WROCC March 2026 talk on Wednesday - Setting up Messenger Pro and NetFetch/Hermes</title>
+      <link>http://www.iconbar.com/comments/rss/news2297.html</link>
+      <description>
+        <![CDATA[The March 2026 WROCC talk is on Wednesday 4th March and starts at 7.45pm on Zoom. After last month's AGM we are back to the usual format/link.]]>
+      </description>
+      <source:markdown>The March 2026 WROCC talk is on Wednesday 4th March and starts at 7.45pm on Zoom. After last month&#39;s AGM we are back to the usual format/link.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2297.html</guid>
+    </item>    <item>
+      <title>Rob Napier&#39;s book on Acorn published</title>
+      <link>http://www.iconbar.com/comments/rss/news2306.html</link>
+      <description>
+        <![CDATA[Rob gave a preview of his book at the Decemeber Rougol meeting.]]>
+      </description>
+      <source:markdown>Rob gave a preview of his book at the Decemeber Rougol meeting.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2306.html</guid>
+    </item>    <item>
+      <title>File renaming</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20281</link>
+      <description>
+        <![CDATA[<p>I am looking for a tool to rename a tree of files in very specific ways. If one doesn&#8217;t exist, I may want to write one.</p>
+        <p>So question 1: does anything exist?</p>
+        <p>Question 2: Which <span class="caps">SYS</span> calls would be needed to traverse a tree of directories and subdirectories and rename the contents?</p>
+        <p>The files are the result of scanning a large number of old photographic slides (&gt;2000 so far). The scanner starts each scan with the file PICT0001.jpg. This means that trying to merge directory contents fails. My aim is to do one (or both) of two operations.</p>
+        <p>1. Rename all the files as <span class="caps">ACA</span>-nnnnn.jpg, where nnnnn increases with each renumber irrespective of the subdirectory involved. Thus all the names become unique.</p>
+        <p>2. Read a text file inside each subdirectory which contains the file name prefix for those contents. I envisage that being used to retain some information about the subject and date of the original slide.</p>
+        <p>(It would be nice to add the embedded information into the jpegs too, but I don&#8217;t fancy writing code to do that.)</p>
+        <p>The files are on a Windows system, accessed via Lanman98.</p>
+        <p>I found a tool on Windows to do this and more, but the user interface is broken on Windows11, as a text field always expands over two of the most important rows of buttons and menus.</p>]]>
+      </description>
+      <source:markdown>I am looking for a tool to rename a tree of files in very specific ways. If one doesn’t exist, I may want to write one.
+
+So question 1: does anything exist?
+
+Question 2: Which SYS calls would be needed to traverse a tree of directories and subdirectories and rename the contents?
+
+The files are the result of scanning a large number of old photographic slides (&#62;2000 so far). The scanner starts each scan with the file PICT0001.jpg. This means that trying to merge directory contents fails. My aim is to do one (or both) of two operations.
+
+1\. Rename all the files as ACA-nnnnn.jpg, where nnnnn increases with each renumber irrespective of the subdirectory involved. Thus all the names become unique.
+
+2\. Read a text file inside each subdirectory which contains the file name prefix for those contents. I envisage that being used to retain some information about the subject and date of the original slide.
+
+(It would be nice to add the embedded information into the jpegs too, but I don’t fancy writing code to do that.)
+
+The files are on a Windows system, accessed via Lanman98.
+
+I found a tool on Windows to do this and more, but the user interface is broken on Windows11, as a text field always expands over two of the most important rows of buttons and menus.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20281:162096</guid>
+    </item>    <item>
+      <title>Acorn biographer at ROUGOL, Mon 15th Dec 2025</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20149</link>
+      <description>
+        <![CDATA[<p>Rob Napier&#8217;s biography of Acorn, Voices from a Future Passed is now on sale -</p>
+        <p><a href="https://www.amazon.co.uk/dp/1764460804">https://www.amazon.co.uk/dp/1764460804</a></p>
+        <p>Grab your copy today!</p>]]>
+      </description>
+      <source:markdown>Rob Napier’s biography of Acorn, Voices from a Future Passed is now on sale -
+
+[https://www.amazon.co.uk/dp/1764460804](https://www.amazon.co.uk/dp/1764460804)
+
+Grab your copy today!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20149:162095</guid>
+    </item>    <item>
+      <title>WROCC Meeting - Messenger Pro and NetFetch/Hermes - 4th Mar</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20280</link>
+      <description>
+        <![CDATA[<p><strong>Wakefield <span class="caps">RISC</span> OS Computer Club</strong></p>
+        <p><strong>Meeting on Wednesday 4th March at 7.45pm</strong></p>
+        <h1>Messenger Pro and NetFetch/Hermes</h1>
+        <p>At our November 2025 meeting, Martin Avison demonstrated the setup of Anti-Spam and Pluto software for email access.</p>
+        <p>As a follow-up, Chris Hughes will present the alternative option of configuring Messenger Pro and NetFetch/Hermes to send/receive email, access newsgroups (Usenet), and utilize the available spam filtering facilities.</p>
+        <p>This &#8216;virtual&#8217; meeting is open to all, and will take place using the Zoom conferencing service using our regular meeting credentials. Zoom invitations will be sent out ahead of the meeting, but only to those who email <a href="mailto:info2026@wrocc.org.uk">info2026@wrocc.org.uk</a> to request one. If you would like to be part of the meeting (and don&#8217;t already have the link from a previous meeting or receive an invite in the next 24 hours as a member of <span class="caps">WROCC</span>), please <span class="caps">RSVP</span> &#8212; at the latest by the end of Tuesday 3rd March (<span class="caps">GMT</span>). We email the links out on the morning of the meeting.</p>
+        <p>If you haven&#8217;t used Zoom before, we suggest that before Wednesday you try to join the Zoom test meeting at <a href="https://zoom.us/test">https://zoom.us/test</a> on the device that you intend to use, in order to check that your system works OK. You will not require a Zoom account to take part.</p>
+        <h2>Past Meetings</h2>
+        <p>Videos of previous meetings can be found in our links to past meetings at <a href="https://www.wrocc.org.uk/meetings">https://www.wrocc.org.uk/meetings</a></p>
+        <h2>Club Membership</h2>
+        <p>Annual membership of <span class="caps">WROCC</span> is available for those living near and far at 10.00ukp per year.</p>
+        <p>Members receive:</p>
+        <ul>
+        	<li>A <span class="caps">PDF</span> newsletter with all the latest news and articles.</li>
+        	<li>Entry to meetings.</li>
+        	<li>Access to the <span class="caps">WROCC</span> Internet Discussion Forum.</li>
+        </ul>
+        <p>For further information, please email <a href="mailto:info2026@wrocc.org.uk">info2026@wrocc.org.uk</a> or visit the Club&#8217;s website at <a href="https://www.wrocc.org.uk">https://www.wrocc.org.uk</a></p>]]>
+      </description>
+      <source:markdown>**Wakefield RISC OS Computer Club**
+
+**Meeting on Wednesday 4th March at 7.45pm**
+
+# Messenger Pro and NetFetch/Hermes
+
+At our November 2025 meeting, Martin Avison demonstrated the setup of Anti-Spam and Pluto software for email access.
+
+As a follow-up, Chris Hughes will present the alternative option of configuring Messenger Pro and NetFetch/Hermes to send/receive email, access newsgroups (Usenet), and utilize the available spam filtering facilities.
+
+This ‘virtual’ meeting is open to all, and will take place using the Zoom conferencing service using our regular meeting credentials. Zoom invitations will be sent out ahead of the meeting, but only to those who email [info2026@wrocc.org.uk](mailto:info2026@wrocc.org.uk) to request one. If you would like to be part of the meeting (and don’t already have the link from a previous meeting or receive an invite in the next 24 hours as a member of WROCC), please RSVP — at the latest by the end of Tuesday 3rd March (GMT). We email the links out on the morning of the meeting.
+
+If you haven’t used Zoom before, we suggest that before Wednesday you try to join the Zoom test meeting at [https://zoom.us/test](https://zoom.us/test) on the device that you intend to use, in order to check that your system works OK. You will not require a Zoom account to take part.
+
+## Past Meetings
+
+Videos of previous meetings can be found in our links to past meetings at [https://www.wrocc.org.uk/meetings](https://www.wrocc.org.uk/meetings)
+
+## Club Membership
+
+Annual membership of WROCC is available for those living near and far at 10.00ukp per year.
+
+Members receive:
+
+- A PDF newsletter with all the latest news and articles.
+- Entry to meetings.
+- Access to the WROCC Internet Discussion Forum.
+
+For further information, please email [info2026@wrocc.org.uk](mailto:info2026@wrocc.org.uk) or visit the Club’s website at [https://www.wrocc.org.uk](https://www.wrocc.org.uk)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20280:162092</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3mg2hg4r4ec2n</link>
+      <description>
+        <![CDATA[You can watch the author Rob Napier talking about the book and his time at Acorn here https://m.youtube.com/watch?v=N5yvbB-rqfI
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>You can watch the author Rob Napier talking about the book and his time at Acorn here https://m.youtube.com/watch?v=N5yvbB-rqfI
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mg2hg4r4ec2n</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosopen.bsky.social/post/3mfzohg6j2k2g</link>
+      <description>
+        <![CDATA[C BASIC update: https://www.riscosopen.org/news/articles/2026/03/01/putting-the-c-into-bee-bee-cee-basic]]>
+      </description>
+      <source:markdown>C BASIC update: https://www.riscosopen.org/news/articles/2026/03/01/putting-the-c-into-bee-bee-cee-basic</source:markdown>
+      <guid>cid://at://did:plc:e3k7odasqhsg6xfgfkvovpsb/app.bsky.feed.post/3mfzohg6j2k2g</guid>
+    </item>    <item>
+      <title>Putting the &#38;#39;C&#38;#39; into bee-bee-cee BASIC</title>
+      <link>https://www.riscosopen.org/news/articles/2026/03/01/putting-the-c-into-bee-bee-cee-basic</link>
+      <description>
+        <![CDATA[<p>An important first exploratory step to the moon is underway &#8211; creating a whole new <span class="caps">BASIC</span> interpreter, this time written in the high level language &#8216;C&#8217;. <span class="caps">BASIC</span> has been identified as one of nine significant parts of <span class="caps">RISC</span> OS which will need addressing for a <a href="/content/documents/risc-os-moonshots">future 64 bit</a> world, and what a historic place to get started!</p>
+        <h3>Why choose this approach?</h3>
+        <p>We took a long hard look at the 24,000+ lines of carefully tuned Arm assembler and decided that a literal translation, function by function, was not appropriate in this instance &#8211; the results would be just as difficult to understand and maintain. A survey of other implementations of <span class="caps">BASIC</span> (such as <a href="https://jaguar.orpheusweb.co.uk/branpage.html">Brandy <span class="caps">BASIC</span></a> and <a href="https://www.bbcbasic.net/bbcsdl/"><span class="caps">BBC</span> <span class="caps">BASIC</span> <span class="caps">SDL</span></a>) also ruled those out on licensing or compatibility grounds &#8211; a great deal of care and attention is needed to match the subtleties of the <span class="caps">RISC</span> OS Arm <span class="caps">BBC</span> <span class="caps">BASIC</span> interpreter &#8211; with a back catalogue of tokenised programs as far back as 1981&#8217;s seminal <code>BASIC I</code> the aim is to match nuances to the maximum extent possible.</p>
+        <p>The opportunity has also been taken to consolidate what are currently three separate copies of the interpreter in <span class="caps">RISC</span> OS 5 (<span class="caps">BASIC</span>, <span class="caps">BASICFPA</span>, <span class="caps">BASICVFP</span>) into a single module, reducing code duplication and wasted space.</p>]]>
+      </description>
+      <source:markdown>An important first exploratory step to the moon is underway – creating a whole new BASIC interpreter, this time written in the high level language ‘C’. BASIC has been identified as one of nine significant parts of RISC OS which will need addressing for a [future 64 bit](/content/documents/risc-os-moonshots) world, and what a historic place to get started!
+
+### Why choose this approach?
+
+We took a long hard look at the 24,000+ lines of carefully tuned Arm assembler and decided that a literal translation, function by function, was not appropriate in this instance – the results would be just as difficult to understand and maintain. A survey of other implementations of BASIC (such as [Brandy BASIC](https://jaguar.orpheusweb.co.uk/branpage.html) and [BBCBASICSDL](https://www.bbcbasic.net/bbcsdl/)) also ruled those out on licensing or compatibility grounds – a great deal of care and attention is needed to match the subtleties of the RISC OS Arm BBCBASIC interpreter – with a back catalogue of tokenised programs as far back as 1981’s seminal `BASIC I` the aim is to match nuances to the maximum extent possible.
+
+The opportunity has also been taken to consolidate what are currently three separate copies of the interpreter in RISC OS 5 (BASIC, BASICFPA, BASICVFP) into a single module, reducing code duplication and wasted space.</source:markdown>
+      <guid>cid://urn:uuid:f9216d5d-420e-4733-a165-5f4a7a225da4</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mfzmsezei22m</link>
+      <description>
+        <![CDATA[Who decided the colourscheme for resistors? Good grief.]]>
+      </description>
+      <source:markdown>Who decided the colourscheme for resistors? Good grief.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mfzmsezei22m</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>Chris Gransden &#8212; you mention results using RPCEmu on Apple Silicon. Does this mean that you&#8217;ve managed to get RPCEmu working on that platform? Since the previous version of RPCEmu for macOS <em>is</em> dead (or at least the repository is now read-only and no further development is taking place) it would be interesting to know.</p>
+        <p>If you have, did you use a native Qt installation or one using Homebrew? I&#8217;d prefer the latter as I&#8217;ve tried downloading the Windows version of Qt in the past and it&#8217;s hard to get the link to find the free version of Qt and then tricky to work out which bits to install (and Qt6 is now the default anyway). The free edition of Qt, installed on Windows, makes use of its own installation of <span class="caps">GCC</span> so might be ablw to compile everything without needing MSys.</p>
+        <p>An alternative to MSys on Windows might be to use <span class="caps">WSL</span> (Windows Subsystem for Linux). You can certainly install the Qt development environment that way (at least with the default distribution (Ubuntu).</p>]]>
+      </description>
+      <source:markdown>Chris Gransden — you mention results using RPCEmu on Apple Silicon. Does this mean that you’ve managed to get RPCEmu working on that platform? Since the previous version of RPCEmu for macOS _is_ dead (or at least the repository is now read-only and no further development is taking place) it would be interesting to know.
+
+If you have, did you use a native Qt installation or one using Homebrew? I’d prefer the latter as I’ve tried downloading the Windows version of Qt in the past and it’s hard to get the link to find the free version of Qt and then tricky to work out which bits to install (and Qt6 is now the default anyway). The free edition of Qt, installed on Windows, makes use of its own installation of GCC so might be ablw to compile everything without needing MSys.
+
+An alternative to MSys on Windows might be to use WSL (Windows Subsystem for Linux). You can certainly install the Qt development environment that way (at least with the default distribution (Ubuntu).</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:162087</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 1st March at 1pm UK time.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20279</link>
+      <description>
+        <![CDATA[<p>Live in 15 minutes.</p>]]>
+      </description>
+      <source:markdown>Live in 15 minutes.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20279:162084</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>The basic approach I tried for &#8216;de-oxidising&#8217; seems OK. But isn&#8217;t as good as I&#8217;d like. So, as per above, I&#8217;m wondering about experimenting with also using a &#8216;smart filter&#8217; to detect &#8216;noise on the paper&#8217; from &#8216;signal&#8217; (text glyphs).</p>
+        <p>i.e. scan as a square of 9&#215;9 pixel values, looking for when the central pixel is &#8216;dark&#8217; compared with most of its 8 neighbours. Then setting is as &#8216;white page&#8217; on the basis that it must be discolouration. Maybe use this pre the current method and use the level of &#8216;browning&#8217; for colour image files.</p>
+        <p>Need to also have a look at composcripting to get it to process a run of pages.</p>
+        <p>Also experiment to see if using the level of oranging may help in itself to tell orange/brown page from black text. (This, of course, would need to be pre the current method as that turns the image into greyscale!)</p>
+        <p>Comments?</p>]]>
+      </description>
+      <source:markdown>The basic approach I tried for ‘de-oxidising’ seems OK. But isn’t as good as I’d like. So, as per above, I’m wondering about experimenting with also using a ‘smart filter’ to detect ‘noise on the paper’ from ‘signal’ (text glyphs).
+
+i.e. scan as a square of 9×9 pixel values, looking for when the central pixel is ‘dark’ compared with most of its 8 neighbours. Then setting is as ‘white page’ on the basis that it must be discolouration. Maybe use this pre the current method and use the level of ‘browning’ for colour image files.
+
+Need to also have a look at composcripting to get it to process a run of pages.
+
+Also experiment to see if using the level of oranging may help in itself to tell orange/brown page from black text. (This, of course, would need to be pre the current method as that turns the image into greyscale!)
+
+Comments?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162082</guid>
+    </item>    <item>
+      <title>extASM assembler and the StrongHelp Assembler manual updated to ARMv8</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20273</link>
+      <description>
+        <![CDATA[<p>Charles, grab the <span class="caps">ZIP</span> from the <a href="https://packages.riscosopen.org/thirdparty/DevelopmentDetails.html#extASMany">package repository</a></p>]]>
+      </description>
+      <source:markdown>Charles, grab the ZIP from the [package repository](https://packages.riscosopen.org/thirdparty/DevelopmentDetails.html#extASMany)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20273:162081</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/armbytes.bsky.social/post/3mfyoadl3jc22</link>
       <description>
         <![CDATA[If you're unsure about the Acorn Computers Biography, here's a great news article, that provides some insights into the book:
@@ -37,32 +261,6 @@ https://www.riscository.com/2026/voices-from-a-future-passed-available-1st-march
       <source:markdown>A reminder that Rob Napier&#39;s history of Acorn, the BBC and ARM is available to buy now! Do spread the word, as he&#39;s also donating a percentage of the royalties to various computing museums, including @tnmoc.bsky.social 😀 Link to order here: amzn.eu/d/00BQj8tz
 https://amzn.eu/d/00BQj8tz</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mfyjeeyaac2m</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 1st March at 1pm UK time.</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20279</link>
-      <description>
-        <![CDATA[<p>This Sunday (tomorrow) – 1st March, at 1pm UK time – I&#8217;ll be starting a new series of live coding. This week, I&#8217;ll be starting work on integrating the previous templates implementation into the Window Manager.</p>
-        <p>Come along if you like – <a href="https://youtube.com/live/CEZ0klRPeq4?feature=share">https://youtube.com/live/CEZ0klRPeq4?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
-        <hr />
-        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
-        <hr />
-        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rEklqsXOlxlqCAoAJDF8cXG">https://www.youtube.com/playlist?list=PLVVIu906Y7rEklq…</a></p>
-        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimptemplates.html">https://presentation.riscos.online/live/wimptemplates.…</a> (once it has been published).</p>]]>
-      </description>
-      <source:markdown>This Sunday (tomorrow) – 1st March, at 1pm UK time – I’ll be starting a new series of live coding. This week, I’ll be starting work on integrating the previous templates implementation into the Window Manager.
-
-Come along if you like – [https://youtube.com/live/CEZ0klRPeq4?feature=share](https://youtube.com/live/CEZ0klRPeq4?feature=share) – or you can always watch the video afterwards at the same address.
-
-* * *
-
-For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
-
-* * *
-
-If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rEklq…](https://www.youtube.com/playlist?list=PLVVIu906Y7rEklqsXOlxlqCAoAJDF8cXG)
-
-Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimptemplates.…](https://presentation.riscos.online/live/wimptemplates.html) (once it has been published).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20279:162076</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mfwoj2yr2c2m</link>
       <description>
@@ -111,35 +309,6 @@ Enjoy! :)</source:markdown>
       <source:markdown>When Kevin Wells released FlagQuiz in late 2025, along with a couple of subsequent updates, he said that his plan was to make it possible for people to create their own quizzes using the software – and he has now met that goal with the release of The Kevsoft Quiz Engine. As well as two files that can be downloaded (although it appears only one – the skeleton ‘MyQuiz’ is needed until and unless the Quiz Engine itself – which is currently at version 1.02 – is updated), the page…</source:markdown>
       <guid>cid://https://www.riscository.com/?p=10884</guid>
     </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>I&#8217;m experimenting with some changes. The simple one is to  give the user a chance to set values for the greyscaled expansion limits. (Up to now I&#8217;ve hard-coded that in the program which works but isn&#8217;t very &#8217;friendly&#8217;as a way for the user to alter!) I&#8217;ve also wondered about having a user chosen &#8216;step up&#8217; at a location close to the black end of the range. Or adding a &#8216;gamma&#8217; value to the expansion. These could help get clearer black text against a &#8216;whiter&#8217; background. But again, might need user-twiddling case-by-case. Or some kind of pre-analysis by the program to find what works best. Crap removal may show up in a more &#8216;efficient&#8217; (in entropy coding terms) resulting data set than a simple correction.</p>
-        <p>The wider point I&#8217;m not yet sure of is the idea of detecting and using the &#8216;level and colour&#8217; of the browning/orange tinting to correct towards a higher grey-white level, again improving the apearance of black text on a now-whiter background. One caution being a risk of losing some useful anti-aliasing rather than being able to find it.(1)</p>
-        <p>My tests may be think that (G-B) and (R-G) both being negative flags up browning/oranging, so is &#8216;paper&#8217; rather than &#8216;ink&#8217;. i.e. use the displacements of the <span class="caps">RGB</span> values to trigger that the pixel should be black.</p>
-        <p>Frustratingly, it seems all too common for scans in PDFs of old material to be smothered in oxidation. I guess the people doing the scans assume this is unavoidable. Whereas I tend to view it as an old signal-processing engineer as being an &#8211; often &#8211; fixable effect.</p>
-        <p>The last time I had to think of anything similar was when working on radar for volcanologists who wanted to see from a (safe) distance what was going on at an erupting volcanoe though clouds of clag in the air!  8-]  That was harder, and a bit more risky for the &#8216;readers&#8217;&#8230;</p>
-        <p><span class="caps">BTW</span> I&#8217;ve come across a few pdfs which MyVue seems unable to open and render. No idea why. Not checked them with a linux alternative so they may be damaged in some way. But I just get an hourglass for a time, then MuVue vanishes from the Icon Bar.</p>
-        <p><span class="caps">BTW</span> I&#8217;m a tea enthusiast. :-)  Tend to like single estate FF Darjeeling teas. So I have no dislike of brown as a colour&#8230; just that I prefer that for tea, but not on old book/mag scans.</p>
-        <p>An anti aliasing/edge detector scan may also be useful for getting better results. Both in removing oxidation and keeping better text appearance &#8211; or even adding to the apperance!</p>]]>
-      </description>
-      <source:markdown>I’m experimenting with some changes. The simple one is to give the user a chance to set values for the greyscaled expansion limits. (Up to now I’ve hard-coded that in the program which works but isn’t very ’friendly’as a way for the user to alter!) I’ve also wondered about having a user chosen ‘step up’ at a location close to the black end of the range. Or adding a ‘gamma’ value to the expansion. These could help get clearer black text against a ‘whiter’ background. But again, might need user-twiddling case-by-case. Or some kind of pre-analysis by the program to find what works best. Crap removal may show up in a more ‘efficient’ (in entropy coding terms) resulting data set than a simple correction.
-
-The wider point I’m not yet sure of is the idea of detecting and using the ‘level and colour’ of the browning/orange tinting to correct towards a higher grey-white level, again improving the apearance of black text on a now-whiter background. One caution being a risk of losing some useful anti-aliasing rather than being able to find it.(1)
-
-My tests may be think that (G-B) and (R-G) both being negative flags up browning/oranging, so is ‘paper’ rather than ‘ink’. i.e. use the displacements of the RGB values to trigger that the pixel should be black.
-
-Frustratingly, it seems all too common for scans in PDFs of old material to be smothered in oxidation. I guess the people doing the scans assume this is unavoidable. Whereas I tend to view it as an old signal-processing engineer as being an – often – fixable effect.
-
-The last time I had to think of anything similar was when working on radar for volcanologists who wanted to see from a (safe) distance what was going on at an erupting volcanoe though clouds of clag in the air! 8-\] That was harder, and a bit more risky for the ‘readers’…
-
-BTW I’ve come across a few pdfs which MyVue seems unable to open and render. No idea why. Not checked them with a linux alternative so they may be damaged in some way. But I just get an hourglass for a time, then MuVue vanishes from the Icon Bar.
-
-BTW I’m a tea enthusiast. :-) Tend to like single estate FF Darjeeling teas. So I have no dislike of brown as a colour… just that I prefer that for tea, but not on old book/mag scans.
-
-An anti aliasing/edge detector scan may also be useful for getting better results. Both in removing oxidation and keeping better text appearance – or even adding to the apperance!</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162068</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mfwdwrgcgc2m</link>
       <description>
         <![CDATA[Ah yes, the military. Straight out of the Elizabeth Holmes Theranos playback.
@@ -186,20 +355,6 @@ Some things we noticed this month. What did you see?</source:markdown>
 RISC OS 3.10/3.7/5 Using very long file names, and getting #MacOS , #WIndows, #Linux and #BSD Unicode translated (where possible) to Latin1, now how cool is that?</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mfv2wvj7o22n</guid>
     </item>    <item>
-      <title>extASM assembler and the StrongHelp Assembler manual updated to ARMv8</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20273</link>
-      <description>
-        <![CDATA[<p>The updated StrongHelp &#8220;Assembly&#8221; manual is found here:</p>
-        <p><a href="https://www.dropbox.com/scl/fi/1c4lxknldl21plgm6o42n/Assembly.zip?rlkey=v6f5ga4ebu97uz3b7e4ohtkuk&amp;st=gn5tklfi&amp;dl=1">https://www.dropbox.com/scl/fi/1c4lxknldl21plgm6o42n/A…</a></p>
-        <p>I would be happy to put it somewhere it may be downloaded using PackMan but have not found any package for these ones.</p>]]>
-      </description>
-      <source:markdown>The updated StrongHelp “Assembly” manual is found here:
-
-[https://www.dropbox.com/scl/fi/1c4lxknldl21plgm6o42n/A…](https://www.dropbox.com/scl/fi/1c4lxknldl21plgm6o42n/Assembly.zip?rlkey=v6f5ga4ebu97uz3b7e4ohtkuk&#38;st=gn5tklfi&#38;dl=1)
-
-I would be happy to put it somewhere it may be downloaded using PackMan but have not found any package for these ones.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20273:162066</guid>
-    </item>    <item>
       <title>What are you doing with RISC OS?</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/653</link>
       <description>
@@ -222,14 +377,6 @@ Had already coded the requirements in the library to implement PollIdle events, 
       <source:markdown>Do you remember Acorn Computers? The company designed and delivered the first ARM chip and the BBC Micro. Want to know more or catch up? The RISC OS North show, is on Saturday 21st March, in Warrington, UK.
 riscosnorth.uk #RISC\_OS #Event #Warrington #RaspberryPi #ARM</source:markdown>
       <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mfujdruv7s24</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>Theres not been an update since Beginning of January so i assumed the project has come to a halt. Im aware of how open source works, and how was i rude?</p>]]>
-      </description>
-      <source:markdown>Theres not been an update since Beginning of January so i assumed the project has come to a halt. Im aware of how open source works, and how was i rude?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:162063</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mfu3nhpp6k2l</link>
       <description>
@@ -2389,17 +2536,6 @@ https://www.iconbar.com/articles/RISCOSbits\_updates\_its\_Computer\_range\_and\
 
 RISCOSbits has discontinued their VENOM premium NVMe RISC OS computer system, according to a press release issued this week.</source:markdown>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mdiyedzsok2q</guid>
-    </item>    <item>
-      <title>Acorn biographer at ROUGOL, Mon 15th Dec 2025</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20149</link>
-      <description>
-        <![CDATA[<p>The video of Rob Napier&#8217;s talk is now available here &#8211; <a href="https://youtu.be/N5yvbB-rqfI">https://youtu.be/N5yvbB-rqfI</a></p>
-        <p>Thanks to Leo White for the excellent job of editing a long talk and Q&amp;A down to a manageable hour!</p>]]>
-      </description>
-      <source:markdown>The video of Rob Napier’s talk is now available here – [https://youtu.be/N5yvbB-rqfI](https://youtu.be/N5yvbB-rqfI)
-
-Thanks to Leo White for the excellent job of editing a long talk and Q&#38;A down to a manageable hour!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20149:161547</guid>
     </item>    <item>
       <title>RISCOSbits updates its Computer range and prices</title>
       <link>http://www.iconbar.com/comments/rss/news2300.html</link>
