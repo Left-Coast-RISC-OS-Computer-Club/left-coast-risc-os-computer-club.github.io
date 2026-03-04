@@ -2,8 +2,8 @@
 <html lang="en-US">
 <head>
   <meta charset="utf-8" >
-  <meta name="generator" content="antenna/0.0.22" >
-  <meta name="date" content="2026-03-03T12:00:31-08:00" >
+  <meta name="generator" content="antenna/0.0.23-dev" >
+  <meta content="2026-03-04T12:00:31-08:00" name="date" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -19,6 +19,239 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-03-04T18:01:42Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
+      <h1>Need volunteers to start testing my new ShareFSServer</h1>
+
+(date: 2026-03-04)
+      <p>
+      <p>@ All testers</p>
+<p>I have received a few assistance requests for an issue where multiple people seem to be trying to configure shared directories in root’s locations, basically in paths like the following (on Linux, macOS etc.):</p>
+<pre><code>/{srv|sharefs}/...
+
+</code></pre>
+<p>Obviously when running ShareFSServer they systematically get this error:</p>
+<pre><code>ERROR: Share 'YourShare' path '/{srv|sharefs}/...' does not exist or is not accessible: No such file or directory (os error 2)
+
+</code></pre>
+<p>Why is this happening?</p>
+<ol>
+<li>
+<p>Paths created from the root in UNIXes (the root in Unix is the ‘/’) almost always require root privileges, and there are good reasons for this.</p>
+</li>
+<li>
+<p>You are running ShareFSServer with your local user account, which normally requires sudo permissions to run stuff as root.</p>
+</li>
+</ol>
+<p>So obviously ShareFSServer cannot access those top tree paths, unless you allow your user account for full control.</p>
+<p>You are most likely better off to set up a couple of test directories in your user’s home path instead, which normally looks like:</p>
+<pre><code>/home/me/...
+
+</code></pre>
+<p>Apart from that, I think I have mentioned plenty of times that ShareFSServer is still in a pre-Alpha/Alpha state, so I strongly discourage (at the moment) to:</p>
+<ol>
+<li>
+<p>run tests as root</p>
+</li>
+<li>
+<p>use top tree directory structures</p>
+</li>
+</ol>
+<p>I have done my best to jail the shares, so nothing can get out of those, but please BE PATIENT lol, we are getting to a point where it’ll be usable and yes you’ll be able to get wild with it. I know it seems to be working fine for a bunch of regular use cases, but that doesn’t mean it’s reliable yet!</p>
+<p>Also, next release will be sent only to users that are actively providing feedback. Sorry, but the deal was clear, so the silent ones have still got a few days to get in touch, thank you :)</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-04T17:39:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mgatam7j5s27">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-03-04)
+      <p>
+      <p>Design!</p>
+<p>Pay no attention to the puddle.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mgatam7j5s27">https://bsky.app/profile/nemo20000.bsky.social/post/3mgatam7j5s27</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-04T17:10:08Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20285">
+      <h1>File path length</h1>
+
+(date: 2026-03-04)
+      <p>
+      <p>Could someone confirm what the maximum allowable file path length is currently?</p>
+<p>I have had a problem reported affecting !SyncDiscs, and my first thought is there is a buffer overrun, with subsequent memory corruption. The observations I have been sent suggest the problem occurs when the !Iris browser caches are being copied, and it seems to generate some large directory names in the cache.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20285">https://www.riscosopen.org/forum/forums/11/topics/20285</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-04T16:21:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mgaouxxktc2n">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-03-04)
+      <p>
+      <p>Here's a brilliant book for anyone who has an interest in Acorn Computers, The BBC Micro, ARM or technology in the UK around that time. A collection of stories by the people who made it all happen. Whilst I have only quickly skimmed the contents since it arrived today, I know it's a 10 out of 10!</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mgaouxxktc2n">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mgaouxxktc2n</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-04T14:25:45Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20284">
+      <h1>RISC OS North - March 21st 2026</h1>
+
+(date: 2026-03-04)
+      <p>
+      <p>We’re now just a few weeks away from the RISC OS North exhibition in Warrington, taking place on Saturday March 21st 2026.</p>
+<p>As last year, the show will be taking place at the Village Hotel which is situated close to two train stations – Warrington Bank Quay (North/South) is the closest – just a few minutes walk, with Warrington Central (East/West) taking about 15 mins.</p>
+<p>The show’s website – <a href="http://riscosnorth.uk/">http://riscosnorth.uk/</a> has lots of information about exhibitors, transport and location.</p>
+<p>The RISC OS North Show is organised by R-Comp and Orpheus Internet, with sponsorship and assistance from the Wakefield User Group.</p>
+<p>We look forward to seeing as many of you as possible at the show – there should be some exciting new developments on display.</p>
+<p>Best wishes,</p>
+<p>Andrew &amp; Richard</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20284">https://www.riscosopen.org/forum/forums/1/topics/20284</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-04T11:49:29Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20273">
+      <h1>extASM assembler and the StrongHelp Assembler manual updated to ARMv8</h1>
+
+(date: 2026-03-04)
+      <p>
+      <p>Terje, hopefully you’ve received my email with the merged changes. If not, check your spam.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20273">https://www.riscosopen.org/forum/forums/1/topics/20273</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-04T11:23:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mga6adbwrs2h">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-03-04)
+      <p>
+      <p>Heh heh heh...</p>
+<p><a href="https://www.newsweek.com/microsoft-gets-major-backlash-banning-microslop-in-forums-11606934">https://www.newsweek.com/microsoft-gets-major-backlash-banning-microslop-in-forums-11606934</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mga6adbwrs2h">https://bsky.app/profile/colinhoad.com/post/3mga6adbwrs2h</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-04T11:22:21Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/19151">
+      <h1>Any ARM Debuggers Ported to RO5 ?</h1>
+
+(date: 2026-03-04)
+      <p>
+      <p>I have updated !ARM_Debug to work with Risc OS 5.30. Once again thanks again to David Feugey for providing space on his web-site at:</p>
+<p><a href="https://www.fladda.riscos.fr/">https://www.fladda.riscos.fr/</a></p>
+<p>When I finally updated my !ARM_Debug development RPi3 from Risc OS 5.28 to 5.30, I noticed that !Chocks_Away suddenly became available for download on Packman. Part of Jon and his team’s excellent ADFFS project. So I thought I’d use !ARM_Debug to have a look and see how the original 26bit !Chocks_Away was running on 32bit Risc OS 5.30/5.31.</p>
+<p>To have a look at the !Chocks_Away code:</p>
+<p>1. Load ADFFS</p>
+<p>2. Load !ARM_Debug</p>
+<p>3. Load !Chocks_Away. Take off and get into level flight…</p>
+<p>4. Press (CTRL)(SHFT)(keypad minus) – this jumps into !ARM_Debugger and shown the current !Chocks_Away instruction.</p>
+<p>5. You can run !Chocks_Away in the debugger and log all the instructions to a file.</p>
+<p>ADFFS is very clever. It runs most of the 26bit instructions natively in 32bit mode, as most of the older ARM instructions are actually the same in 26bit or 32bit modes. Any different behaviour (e.g. TEQP) are replaced with a branch instruction that jumps down to the blocks of ADFFS code that effectively emulates the 26bit instruction behaviour. Jon calls this Just-in-Time (JIT). Advantage is that most of the code is able to run natively (i.e. extremely fast on a RPi) and only problematical 26bit instructions or code are effectively emulated. Clever. Jon also syncs the game speed to VSYNC in order to ensure that the game doesn’t run too fast.</p>
+<p>On my old A310 !Chocks_Away used to slow down to a crawl when you were in a dog-fight with loads of other (‘enemy’) planes flying around you. I expect that this massive slow down no longer occurs on an RPi ?? Especially on an RPi4 ;-)</p>
+<p>I’ve created an auto-configuration file for !ARM_Debug so you only have to set up the break configuration once. In the latest !ARM_Deb32 the auto-</p>
+<p>configuration file is set to trigger on the *ADFGO command on the ADFFS module. So you can double-click on !Chocks_Away and capture all the ADFFS module code that loads and runs !Chocks_Away. Creates a 15Mbytes text file of ARM instructions until the !Chocks main_Away main screen appears…</p>
+<p>YMMV</p>
+<p>Ralph</p>
+<p>Edit: Fighting Textile as ever…</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/19151">https://www.riscosopen.org/forum/forums/5/topics/19151</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-04T11:01:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mga4zts6wk27">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-03-04)
+      <p>
+      <p>#2 is mind-blowing. 🤯</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mga4zts6wk27">https://bsky.app/profile/nemo20000.bsky.social/post/3mga4zts6wk27</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-04T10:34:51Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
+      <h1>MuView and rendering PDF pages</h1>
+
+(date: 2026-03-04)
+      <p>
+      <p>There are two reasons for focussing on the Blue… or other of the single colour components.</p>
+<p>One is to look for which might be least ‘infected’ by the oxidation.</p>
+<p>The other is to get the stats to choose how to process the result for optimum results.</p>
+<p>If you look at the process I’ve been using it does stats to get the accumuated values for the r, g, b. Then decides what range of actual values to expand based on choosing a low (c 1%) and high (c 50%) value for these <strong>accumulatative</strong> stats. As pages vary, this automatically shifts which actual range gets expanded to “follow the stats”. Using blue here, but this can be a user choice of colour component, or even the combined value of rgb.</p>
+<p>This isn’t the same as specifying the actual pixel-levels to expand and then using the same pixel-level for every page. My approach finds the levels for each page’s real distribution.</p>
+<p>How often that matters, I dunno. But some of the files I have show far more oxidation on some pages than others. Typically the first few and/or last few may be more oxidised.</p>
+<p>FWIW I’m currently (sic) looking at writing a direct process that bypasses Compo. This extracts the files using the utils, then reads in each source page RGBPBM, and does the stats, to then save an output ‘greyscale’ PBM expanded by whatever method the user prefers. i.e. ‘blind’ approach, or the page-stats one)</p>
+<p>Main problem I’m having is a daft one. Files from Compo add a # comment line. Those I’ve seen from the Utils don’t. Hoping that lack is the normal result as I’m confused about how to deal with detecting and removing the comment when reading the input page PBM file.</p>
+<p>Oh, and of course, I’m trying to use RO for all this. Linux tools being avalable is useful, but I’m mad enough to prefer using RO as and when I can, and add some usesfulness to it’s toolbox. Although I do switch to Linux when I can’t do something with RO.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-04T09:50:50Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
+      <h1>Random projects...</h1>
+
+(date: 2026-03-04)
+      <p>
+      <p>Go to <a href="https://www.macports.org/install.php">https://www.macports.org/install.php</a> and download the version that matches your OS versiom.</p>
+<p>Run the installer and follow the wizard to install.</p>
+<p>Once installed open a terminal and type,</p>
+<p>export PATH=/opt/local/bin:$PATH</p>
+<p>type gcc -v. If the xcode command line tools aren’t installed you should get prompted to install them.</p>
+<p>sudo port selfupdate</p>
+<p>sudo port install qt5</p>
+<p>Download the source for 0.99.9 which includes the macOS changes from <a href="https://www.riscosports.co.uk/rpcemu.tar.gz">https://www.riscosports.co.uk/rpcemu.tar.gz</a></p>
+<p>extract using tar -jxvf rpcemu.tar.gz</p>
+<p>Then build rpcemu as normal. (the qmake command is at /opt/local/libexec/qt5/bin/qmake)</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-03T22:35:43Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20281">
+      <h1>File renaming</h1>
+
+(date: 2026-03-03)
+      <p>
+      <p>I do not think you can assume any value for R4, except that R4=-1 indicates no more.</p>
+<p>But because you will be renaming files in the directory, which will change the directory, it could couse problems if you continue to read the directory – hence why I suggested a buffer large enough to hold all entries in one read. Note also that you cannot depend on the order in which entries are returned (particularly on foreign file systems).</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20281">https://www.riscosopen.org/forum/forums/11/topics/20281</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-03T22:34:23Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20282">
+      <h1>_kernel_oserror*</h1>
+
+(date: 2026-03-03)
+      <p>
+      <p>Yay, include even more files globally :-)</p>
+<p>My objection to kernel.h is not to do with OSLib, it’s that I can’t return or pass errors through APIs without including kernel.h. I gave OSLib as an example of a case where kernel.h is, in my opinion, equally unhelpful, not of a specific OSLib problem I need to work around. My brief excursion with OSLib is far more exciting than you’ll ever imagine, and doesn’t include its obsession with lower-case.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/4/topics/20282">https://www.riscosopen.org/forum/forums/4/topics/20282</a>
+      </address>
+    </article>
 
     <article data-published="2026-03-03T19:25:08Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/19564">
       <h1>File not found</h1>
@@ -62,22 +295,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20246">https://www.riscosopen.org/forum/forums/1/topics/20246</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-03T15:06:54Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20282">
-      <h1>_kernel_oserror*</h1>
-
-(date: 2026-03-03)
-      <p>
-      <p>_kernel_oserror’s an anonymous struct, and always has been. The big downside is it can’t be forward declared, so everything has to include <code>kernel.h</code> which is pretty ugly (I know it’s in-memory, so won’t be slow, but it’s the principle).</p>
-<p>Is there any particular reason that it’s never been updated to have a name? (and presumably the others in the same file, though I don’t care about them).</p>
-<p>I remember moaning about it to myself, many years ago. I should’ve been more vocal, but I left that sort of thing to Andrew.</p>
-<p>[Edit]: I think my annoyance was when using OSLib, you couldn’t mix the calls without casts. Something like that, anyway.</p>
-<p>[Edit2]: Same with _kernel_swi_regs.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/4/topics/20282">https://www.riscosopen.org/forum/forums/4/topics/20282</a>
       </address>
     </article>
 
@@ -205,39 +422,6 @@
       </address>
     </article>
 
-    <article data-published="2026-03-02T14:37:35Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
-      <h1>MuView and rendering PDF pages</h1>
-
-(date: 2026-03-02)
-      <p>
-      <p>Hi Jim,</p>
-<p>P1 is B/W ASCII</p>
-<p>P2 is Grayscale ASCII</p>
-<p>P3 is RGBASCII</p>
-<p>P4 is B/W bytes</p>
-<p>P5 is Grayscale bytes</p>
-<p>P6 is RGB bytes</p>
-<p>P7 is B/W, Grayscale, or RGB bytes depending on the header.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-02T14:36:53Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20281">
-      <h1>File renaming</h1>
-
-(date: 2026-03-02)
-      <p>
-      <p>It is really quite simple … you need an OS_GBPB,10 in a PROC to read the files, and the PROC needs to be recursive to handle directories it finds. As you will be changing the names of files in the directory, it is probably best that your buffer (LOCAL to the PROC) can hold all entries in the directory, so you read them all before you start messing with filenames.</p>
-<p>Then to rename files you need OS_FSControl,25.</p>
-<p>Contact me if a skeleton of the GBPB would be useful.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20281">https://www.riscosopen.org/forum/forums/11/topics/20281</a>
-      </address>
-    </article>
-
     <article data-published="2026-03-02T09:23:49Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20280">
       <h1>WROCC Meeting - Messenger Pro and NetFetch/Hermes - 4th Mar</h1>
 
@@ -319,20 +503,6 @@
       </address>
     </article>
 
-    <article data-published="2026-03-01T19:46:54Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
-      <h1>Random projects...</h1>
-
-(date: 2026-03-01)
-      <p>
-      <p>Chris Gransden — you mention results using RPCEmu on Apple Silicon. Does this mean that you’ve managed to get RPCEmu working on that platform? Since the previous version of RPCEmu for macOS <em>is</em> dead (or at least the repository is now read-only and no further development is taking place) it would be interesting to know.</p>
-<p>If you have, did you use a native Qt installation or one using Homebrew? I’d prefer the latter as I’ve tried downloading the Windows version of Qt in the past and it’s hard to get the link to find the free version of Qt and then tricky to work out which bits to install (and Qt6 is now the default anyway). The free edition of Qt, installed on Windows, makes use of its own installation of GCC so might be ablw to compile everything without needing MSys.</p>
-<p>An alternative to MSys on Windows might be to use WSL (Windows Subsystem for Linux). You can certainly install the Qt development environment that way (at least with the default distribution (Ubuntu).</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
-      </address>
-    </article>
-
     <article data-published="2026-03-01T12:46:11Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20279">
       <h1>Live Coding with Gerph, Sunday 1st March at 1pm UK time.</h1>
 
@@ -342,18 +512,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20279">https://www.riscosopen.org/forum/forums/1/topics/20279</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-01T12:24:11Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20273">
-      <h1>extASM assembler and the StrongHelp Assembler manual updated to ARMv8</h1>
-
-(date: 2026-03-01)
-      <p>
-      <p>Charles, grab the ZIP from the <a href="https://packages.riscosopen.org/thirdparty/DevelopmentDetails.html#extASMany">package repository</a></p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20273">https://www.riscosopen.org/forum/forums/1/topics/20273</a>
       </address>
     </article>
 
@@ -419,21 +577,6 @@ LANDING THERE</p>
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mfwnypjrsc2m">https://bsky.app/profile/nemo20000.bsky.social/post/3mfwnypjrsc2m</a>
-      </address>
-    </article>
-
-    <article data-published="2026-02-28T16:10:16Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
-      <h1>Need volunteers to start testing my new ShareFSServer</h1>
-
-(date: 2026-02-28)
-      <p>
-      <p>All emails with the update sent to all testers, please check your email :)</p>
-<p>For who wish to see how progress is going:</p>
-<p><a href="https://bsky.app/profile/did:plc:rkxyi6vbupvkgetuir5ljywn/post/3mfv2wvj7o22n">https://bsky.app/profile/did:plc:rkxyi6vbupvkgetuir5lj…</a></p>
-<p>Enjoy! :)</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
       </address>
     </article>
 
@@ -13649,23 +13792,6 @@ TaskWindow misbehaves. &quot;That ZapMode is annoying&quot;. Rewriting ZapBasic.
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3m2mwz3lkdc2z">https://bsky.app/profile/nemo20000.bsky.social/post/3m2mwz3lkdc2z</a>
-      </address>
-    </article>
-
-    <article data-published="2025-10-07T20:01:57Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/19151">
-      <h1>Any ARM Debuggers Ported to RO5 ?</h1>
-
-(date: 2025-10-07)
-      <p>
-      <p>Thanks to David Feugey for allowing me to use a sub-domain on his ‘riscos.fr’ website, I am releasing a 32-bit Risc OS 5 version of !ARM_Debug. Anybody interested can now have a ‘play’.</p>
-<p>This is 32-bit version of Theo Van Der Boogaert’s original RO4 standalone debugger and works independently of the DDE (or whatever). It does require RISC OS 5 to run though:</p>
-<p><a href="https://www.fladda.riscos.fr/">https://www.fladda.riscos.fr/</a></p>
-<p>This is a first ‘beta’ release and contains some known bugs and no doubt some unknown bugs. All comments welcome.</p>
-<p>I next plan to look at implementing SPSR (SVC and USR) support and possibly some co-processor instruction support (these instructions appear to be used in the RO5 kernel).</p>
-<p>Ralph</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/19151">https://www.riscosopen.org/forum/forums/5/topics/19151</a>
       </address>
     </article>
 
