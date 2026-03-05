@@ -7,10 +7,103 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>04 Mar 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>05 Mar 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.23-dev</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>3440x1440 on Pi</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20283</link>
+      <description>
+        <![CDATA[<p>@J.Ruck</p>
+        <p>Does this run with <span class="caps">RPI</span> 2 as I have been considering upgrading as I want more screen space and this is exactly the resolution I have been looking at.</p>]]>
+      </description>
+      <source:markdown>@J.Ruck
+
+Does this run with RPI 2 as I have been considering upgrading as I want more screen space and this is exactly the resolution I have been looking at.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20283:162162</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3mgd2y3h4ak2x</link>
+      <description>
+        <![CDATA[Perfectly timed arrival for #WorldBookDay - Voices from a Future Passed by Rob Napier, the history of Acorn Computers, ARM, and the BBC Computer Literacy Project]]>
+      </description>
+      <source:markdown>Perfectly timed arrival for #WorldBookDay - Voices from a Future Passed by Rob Napier, the history of Acorn Computers, ARM, and the BBC Computer Literacy Project</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mgd2y3h4ak2x</guid>
+    </item>    <item>
+      <title>Printing via Mac OS</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20258</link>
+      <description>
+        <![CDATA[<p>Thanks Dave excelant work. My Epson ET-2720 has printed everthing i have sent it and i do a lot of printing. <span class="caps">JPEG</span> prints, <span class="caps">PDF</span> Unsuported.</p>]]>
+      </description>
+      <source:markdown>Thanks Dave excelant work. My Epson ET-2720 has printed everthing i have sent it and i do a lot of printing. JPEG prints, PDF Unsuported.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20258:162158</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>As pages vary, this automatically shifts which actual range gets expanded to “follow the stats”.</p>
+        </blockquote>
+        <p>This also seems to me to be the right approach, statistics for each page.</p>
+        <blockquote>
+        <p>I’m currently (sic) looking at writing a direct process that bypasses Compo.</p>
+        </blockquote>
+        <p>I think you can refine your program with Compo, and you can use it from an Obey script which will allow the processing to be done in the background.</p>
+        <p>I&#8217;ll try to make a model.<br />
+        Reading ppm or sprite files from a folder, processing one by one and saving to another folder.</p>
+        <blockquote>
+        <p>This extracts the files using the utils,</p>
+        </blockquote>
+        <p>what is utils&#8217;?</p>]]>
+      </description>
+      <source:markdown>&#62; As pages vary, this automatically shifts which actual range gets expanded to “follow the stats”.
+
+This also seems to me to be the right approach, statistics for each page.
+
+&#62; I’m currently (sic) looking at writing a direct process that bypasses Compo.
+
+I think you can refine your program with Compo, and you can use it from an Obey script which will allow the processing to be done in the background.
+
+I’ll try to make a model.
+
+Reading ppm or sprite files from a folder, processing one by one and saving to another folder.
+
+&#62; This extracts the files using the utils,
+
+what is utils’?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162156</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 8th March at 1pm UK time.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20286</link>
+      <description>
+        <![CDATA[<p>This Sunday – 8th March, at 1pm UK time – I&#8217;ll be continuing the integration of the Wimp Templates into the WindowManager.</p>
+        <p>Come along if you like – <a href="https://youtube.com/live/qxNZVYcNZ10?feature=share">https://youtube.com/live/qxNZVYcNZ10?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
+        <hr />
+        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
+        <p>Last time, the WindowManager was made to build within GitHub and the C code<br />
+        added to it&#8230; it didn&#8217;t work, and that&#8217;s where we left things.</p>
+        <hr />
+        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rEklqsXOlxlqCAoAJDF8cXG">https://www.youtube.com/playlist?list=PLVVIu906Y7rEklq…</a></p>
+        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimptemplates.html">https://presentation.riscos.online/live/wimptemplates.…</a> (once it has been published).</p>]]>
+      </description>
+      <source:markdown>This Sunday – 8th March, at 1pm UK time – I’ll be continuing the integration of the Wimp Templates into the WindowManager.
+
+Come along if you like – [https://youtube.com/live/qxNZVYcNZ10?feature=share](https://youtube.com/live/qxNZVYcNZ10?feature=share) – or you can always watch the video afterwards at the same address.
+
+* * *
+
+For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
+
+Last time, the WindowManager was made to build within GitHub and the C code
+
+added to it… it didn’t work, and that’s where we left things.
+
+* * *
+
+If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rEklq…](https://www.youtube.com/playlist?list=PLVVIu906Y7rEklqsXOlxlqCAoAJDF8cXG)
+
+Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimptemplates.…](https://presentation.riscos.online/live/wimptemplates.html) (once it has been published).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20286:162154</guid>
+    </item>    <item>
       <title>Need volunteers to start testing my new ShareFSServer</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
       <description>
@@ -134,6 +227,138 @@ Best wishes,
 Andrew &#38; Richard</source:markdown>
       <guid>cid://www.riscosopen.org:1:20284:162147</guid>
     </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>perfect, thank you!</p>]]>
+      </description>
+      <source:markdown>perfect, thank you!</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:162145</guid>
+    </item>    <item>
+      <title>File renaming</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20281</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>(Martyn) But because you will be renaming files in the directory, which will change the directory, it could couse problems if you continue to read the directory</p>
+        </blockquote>
+        <p>I will be doing that. Rather than go down the recursion route, with the associated traps, and in <span class="caps">BASIC</span> the need to predefine array sizes, I&#8217;m scanning for directories and subdirectories first, and making one array of paths. Then I search each path in that list for files, into a second array. Then use the contents of that array for the rename. As I said I&#8217;m not over concerned about efficiency, as in the end I only expect to use this once or twice, but I need it to work as expected first time.</p>
+        <pre>
+        Set filenumber to 00001
+        For each path in the directory path array array
+          Call OS_GBPB 10, PICT*/jpg
+          Build file array
+          when array completed
+            Use directory leaf name as the prefix
+              replace any spaces with hyphens
+            For each entry in file array
+              rename file to &lt;prefix&gt;-&lt;filenumber&gt;
+              increment filenumber
+            clear file array
+        
+        For structure:
+        
+        A
+        B-&gt;C
+        B-&gt;D-&gt;E
+        B-&gt;F
+        G-&gt;H
+        
+        Directory pointer is always at first free slot
+        				Path array holds
+        Top Scan returns A,B,G		A B G
+        Scan of A returns none
+        Scan of B returns C,D,F		A B G C D F
+        Scan of G returns H		A B G C D F H
+        Scan of C returns none
+        Scan of D returns E		A B G C D F H E
+        Scan of F returns none
+        Scan of H returns none
+        Scan of E returns none
+        
+        Directory paths - full path stored
+        File Names - leaf name only
+        </pre>]]>
+      </description>
+      <source:markdown>&#62; (Martyn) But because you will be renaming files in the directory, which will change the directory, it could couse problems if you continue to read the directory
+
+I will be doing that. Rather than go down the recursion route, with the associated traps, and in BASIC the need to predefine array sizes, I’m scanning for directories and subdirectories first, and making one array of paths. Then I search each path in that list for files, into a second array. Then use the contents of that array for the rename. As I said I’m not over concerned about efficiency, as in the end I only expect to use this once or twice, but I need it to work as expected first time.
+
+```
+Set filenumber to 00001
+For each path in the directory path array array
+  Call OS_GBPB 10, PICT*/jpg
+  Build file array
+  when array completed
+    Use directory leaf name as the prefix
+      replace any spaces with hyphens
+    For each entry in file array
+      rename file to &#60;prefix&#62;-&#60;filenumber&#62;
+      increment filenumber
+    clear file array
+
+For structure:
+
+A
+B-&#62;C
+B-&#62;D-&#62;E
+B-&#62;F
+G-&#62;H
+
+Directory pointer is always at first free slot
+				Path array holds
+Top Scan returns A,B,G		A B G
+Scan of A returns none
+Scan of B returns C,D,F		A B G C D F
+Scan of G returns H		A B G C D F H
+Scan of C returns none
+Scan of D returns E		A B G C D F H E
+Scan of F returns none
+Scan of H returns none
+Scan of E returns none
+
+Directory paths - full path stored
+File Names - leaf name only
+
+```</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20281:162144</guid>
+    </item>    <item>
+      <title>_kernel_oserror*</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20282</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Talking of which, shouldn’t this use uintptr_t instead of uint32_t?</p>
+        </blockquote>
+        <p>uintptr_t would change the type to be 64-bit, which I don&#8217;t want.</p>
+        <p>The <span class="caps">RISC</span> OS 64 work is purely moving the system to run on a 64-bit system, whilst retaining the exact same interface where possible. This means the least amount of friction involved in updating external interfaces and APIs. Changing all the APIs to with full 64-bit address space and 64-bit wide parameters would mean a huge amount of changes to the system. Since many components need updating, and changing multiple things at once is more difficult, keeping the <span class="caps">API</span> the same (as far as is possible) means that there is less to go wrong, and it can be done in less time. The problem becomes &#8216;make things work on a new architecture&#8217;, not &#8216;make things work on a new architecture with a new address space size and <span class="caps">API</span> interfaces&#8217;.</p>]]>
+      </description>
+      <source:markdown>&#62; Talking of which, shouldn’t this use uintptr\_t instead of uint32\_t?
+
+uintptr\_t would change the type to be 64-bit, which I don’t want.
+
+The RISC OS 64 work is purely moving the system to run on a 64-bit system, whilst retaining the exact same interface where possible. This means the least amount of friction involved in updating external interfaces and APIs. Changing all the APIs to with full 64-bit address space and 64-bit wide parameters would mean a huge amount of changes to the system. Since many components need updating, and changing multiple things at once is more difficult, keeping the API the same (as far as is possible) means that there is less to go wrong, and it can be done in less time. The problem becomes ‘make things work on a new architecture’, not ‘make things work on a new architecture with a new address space size and API interfaces’.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20282:162143</guid>
+    </item>    <item>
+      <title>Any ARM Debuggers Ported to RO5 ?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19151</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I thought I’d use !ARM_Debug to have a look and see how the original 26bit !Chocks_Away was running on 32bit Risc OS 5.30/5.31</p>
+        </blockquote>
+        <p>Ooh, neat.  I&#8217;ve had the requirement to add a step-debugger to <span class="caps">ADFFS</span> on my to-do list for the past 13 years and still haven&#8217;t got around to it.  This might actually prove useful in debugging some of the more problematic games.</p>
+        <blockquote>
+        <p>set to trigger on the *ADFGO command on the <span class="caps">ADFFS</span> module</p>
+        </blockquote>
+        <p>You probably want to trigger when <span class="caps">ADFFS</span> raises <a href="https://www.riscosopen.org/wiki/documentation/show/OS_FSControl%202">OS_FSControl 2</a> &#8211; which is the final step before it branches into the JIT&#8217;d code-space.</p>]]>
+      </description>
+      <source:markdown>&#62; I thought I’d use !ARM\_Debug to have a look and see how the original 26bit !Chocks\_Away was running on 32bit Risc OS 5.30/5.31
+
+Ooh, neat. I’ve had the requirement to add a step-debugger to ADFFS on my to-do list for the past 13 years and still haven’t got around to it. This might actually prove useful in debugging some of the more problematic games.
+
+&#62; set to trigger on the \*ADFGO command on the ADFFS module
+
+You probably want to trigger when ADFFS raises [OS\_FSControl 2](https://www.riscosopen.org/wiki/documentation/show/OS_FSControl%202) – which is the final step before it branches into the JIT’d code-space.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19151:162142</guid>
+    </item>    <item>
       <title>extASM assembler and the StrongHelp Assembler manual updated to ARMv8</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20273</link>
       <description>
@@ -153,59 +378,6 @@ Andrew &#38; Richard</source:markdown>
 https://www.newsweek.com/microsoft-gets-major-backlash-banning-microslop-in-forums-11606934</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mga6adbwrs2h</guid>
     </item>    <item>
-      <title>Any ARM Debuggers Ported to RO5 ?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19151</link>
-      <description>
-        <![CDATA[<p>I have updated !ARM_Debug to work with Risc OS 5.30. Once again thanks again to David Feugey for providing space on his web-site at:</p>
-        <p><a href="https://www.fladda.riscos.fr/">https://www.fladda.riscos.fr/</a></p>
-        <p>When I finally updated my !ARM_Debug development RPi3 from Risc OS 5.28 to 5.30, I noticed that !Chocks_Away suddenly became available for download on Packman. Part of Jon and his team&#8217;s excellent <span class="caps">ADFFS</span> project. So I thought I&#8217;d use !ARM_Debug to have a look and see how the original 26bit !Chocks_Away was running on 32bit Risc OS 5.30/5.31.</p>
-        <p>To have a look at the !Chocks_Away code:</p>
-        <p>1. Load <span class="caps">ADFFS</span><br />
-        2. Load !ARM_Debug<br />
-        3. Load !Chocks_Away. Take off and get into level flight&#8230;<br />
-        4. Press (<span class="caps">CTRL</span>)(<span class="caps">SHFT</span>)(keypad minus) &#8211; this jumps into !ARM_Debugger and shown the current !Chocks_Away instruction.<br />
-        5. You can run !Chocks_Away in the debugger and log all the instructions to a file.</p>
-        <p><span class="caps">ADFFS</span> is very clever. It runs most of the 26bit instructions natively in 32bit mode, as most of the older <span class="caps">ARM</span> instructions are actually the same in 26bit or 32bit modes. Any different behaviour (e.g. <span class="caps">TEQP</span>) are replaced with a branch instruction that jumps down to the blocks of <span class="caps">ADFFS</span> code that effectively emulates the 26bit instruction behaviour. Jon calls this Just-in-Time (<span class="caps">JIT</span>). Advantage is that most of the code is able to run natively (i.e. extremely fast on a RPi) and only problematical 26bit instructions or code are effectively emulated. Clever. Jon also syncs the game speed to <span class="caps">VSYNC</span> in order to ensure that the game doesn&#8217;t run too fast.</p>
-        <p>On my old A310 !Chocks_Away used to slow down to a crawl when you were in a dog-fight with loads of other (&#8216;enemy&#8217;) planes flying around you. I expect that this massive slow down no longer occurs on an RPi ?? Especially on an RPi4 ;-)</p>
-        <p>I&#8217;ve created an auto-configuration file for !ARM_Debug so you only have to set up the break configuration once. In the latest !ARM_Deb32 the auto-<br />
-        configuration file is set to trigger on the *ADFGO command on the <span class="caps">ADFFS</span> module. So you can double-click on !Chocks_Away and capture all the <span class="caps">ADFFS</span> module code that loads and runs !Chocks_Away. Creates a 15Mbytes text file of <span class="caps">ARM</span> instructions until the !Chocks main_Away main screen appears&#8230;</p>
-        <p><span class="caps">YMMV</span></p>
-        <p>Ralph</p>
-        <p>Edit: Fighting Textile as ever&#8230;</p>]]>
-      </description>
-      <source:markdown>I have updated !ARM\_Debug to work with Risc OS 5.30. Once again thanks again to David Feugey for providing space on his web-site at:
-
-[https://www.fladda.riscos.fr/](https://www.fladda.riscos.fr/)
-
-When I finally updated my !ARM\_Debug development RPi3 from Risc OS 5.28 to 5.30, I noticed that !Chocks\_Away suddenly became available for download on Packman. Part of Jon and his team’s excellent ADFFS project. So I thought I’d use !ARM\_Debug to have a look and see how the original 26bit !Chocks\_Away was running on 32bit Risc OS 5.30/5.31.
-
-To have a look at the !Chocks\_Away code:
-
-1\. Load ADFFS
-
-2\. Load !ARM\_Debug
-
-3\. Load !Chocks\_Away. Take off and get into level flight…
-
-4\. Press (CTRL)(SHFT)(keypad minus) – this jumps into !ARM\_Debugger and shown the current !Chocks\_Away instruction.
-
-5\. You can run !Chocks\_Away in the debugger and log all the instructions to a file.
-
-ADFFS is very clever. It runs most of the 26bit instructions natively in 32bit mode, as most of the older ARM instructions are actually the same in 26bit or 32bit modes. Any different behaviour (e.g. TEQP) are replaced with a branch instruction that jumps down to the blocks of ADFFS code that effectively emulates the 26bit instruction behaviour. Jon calls this Just-in-Time (JIT). Advantage is that most of the code is able to run natively (i.e. extremely fast on a RPi) and only problematical 26bit instructions or code are effectively emulated. Clever. Jon also syncs the game speed to VSYNC in order to ensure that the game doesn’t run too fast.
-
-On my old A310 !Chocks\_Away used to slow down to a crawl when you were in a dog-fight with loads of other (‘enemy’) planes flying around you. I expect that this massive slow down no longer occurs on an RPi ?? Especially on an RPi4 ;-)
-
-I’ve created an auto-configuration file for !ARM\_Debug so you only have to set up the break configuration once. In the latest !ARM\_Deb32 the auto-
-
-configuration file is set to trigger on the \*ADFGO command on the ADFFS module. So you can double-click on !Chocks\_Away and capture all the ADFFS module code that loads and runs !Chocks\_Away. Creates a 15Mbytes text file of ARM instructions until the !Chocks main\_Away main screen appears…
-
-YMMV
-
-Ralph
-
-Edit: Fighting Textile as ever…</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19151:162137</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mga4zts6wk27</link>
       <description>
         <![CDATA[#2 is mind-blowing. 🤯
@@ -216,95 +388,6 @@ Edit: Fighting Textile as ever…</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mga4zts6wk27</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>There are two reasons for focussing on the Blue&#8230; or other of the single colour components.</p>
-        <p>One is to look for which might be least &#8216;infected&#8217; by the oxidation.</p>
-        <p>The other is to get the stats to choose how to process the result for optimum results.</p>
-        <p>If you look at the process I&#8217;ve been using it does stats to get the accumuated values for the r, g, b. Then decides what range of actual values to expand based on choosing a low (c 1%) and high (c 50%) value for these <strong>accumulatative</strong> stats. As pages vary, this automatically shifts which actual range gets expanded to &#8220;follow the stats&#8221;. Using blue here, but this can be a user choice of colour component, or even the combined value of rgb.</p>
-        <p>This isn&#8217;t the same as specifying the actual pixel-levels to expand and then using the same pixel-level  for every page. My approach finds the levels for each page&#8217;s real distribution.</p>
-        <p>How often that matters, I dunno. But some of the files I have show far more oxidation on some pages than others. Typically the first few and/or last few may be more oxidised.</p>
-        <p><span class="caps">FWIW</span> I&#8217;m currently (sic) looking at writing a direct process that bypasses Compo. This extracts the files using the utils, then reads in each source page <span class="caps">RGB</span> <span class="caps">PBM</span>, and does the stats, to then save an output &#8216;greyscale&#8217; <span class="caps">PBM</span> expanded by whatever method the user prefers. i.e. &#8216;blind&#8217; approach, or the page-stats one)</p>
-        <p>Main problem I&#8217;m having is a daft one. Files from Compo add a # comment line. Those I&#8217;ve seen from the Utils don&#8217;t. Hoping that lack is the normal result as I&#8217;m confused about how to deal with detecting and removing the comment when reading the input page <span class="caps">PBM</span> file.</p>
-        <p>Oh, and of course, I&#8217;m trying to use RO for all this. Linux tools being avalable is useful, but I&#8217;m mad enough to prefer using RO as and when I can, and add some usesfulness to it&#8217;s toolbox. Although I do switch to Linux when I can&#8217;t do something with RO.</p>]]>
-      </description>
-      <source:markdown>There are two reasons for focussing on the Blue… or other of the single colour components.
-
-One is to look for which might be least ‘infected’ by the oxidation.
-
-The other is to get the stats to choose how to process the result for optimum results.
-
-If you look at the process I’ve been using it does stats to get the accumuated values for the r, g, b. Then decides what range of actual values to expand based on choosing a low (c 1%) and high (c 50%) value for these **accumulatative** stats. As pages vary, this automatically shifts which actual range gets expanded to “follow the stats”. Using blue here, but this can be a user choice of colour component, or even the combined value of rgb.
-
-This isn’t the same as specifying the actual pixel-levels to expand and then using the same pixel-level for every page. My approach finds the levels for each page’s real distribution.
-
-How often that matters, I dunno. But some of the files I have show far more oxidation on some pages than others. Typically the first few and/or last few may be more oxidised.
-
-FWIW I’m currently (sic) looking at writing a direct process that bypasses Compo. This extracts the files using the utils, then reads in each source page RGBPBM, and does the stats, to then save an output ‘greyscale’ PBM expanded by whatever method the user prefers. i.e. ‘blind’ approach, or the page-stats one)
-
-Main problem I’m having is a daft one. Files from Compo add a # comment line. Those I’ve seen from the Utils don’t. Hoping that lack is the normal result as I’m confused about how to deal with detecting and removing the comment when reading the input page PBM file.
-
-Oh, and of course, I’m trying to use RO for all this. Linux tools being avalable is useful, but I’m mad enough to prefer using RO as and when I can, and add some usesfulness to it’s toolbox. Although I do switch to Linux when I can’t do something with RO.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162136</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>Go to <a href="https://www.macports.org/install.php">https://www.macports.org/install.php</a> and download the version that matches your OS versiom.<br />
-        Run the installer and follow the wizard to install.<br />
-        Once installed open a terminal and type,</p>
-        <p>export <span class="caps">PATH</span>=/opt/local/bin:$<span class="caps">PATH</span></p>
-        <p>type gcc -v. If the xcode command line tools aren&#8217;t installed you should get prompted to install them.</p>
-        <p>sudo port selfupdate</p>
-        <p>sudo port install qt5</p>
-        <p>Download the source for 0.99.9 which includes the macOS changes from <a href="https://www.riscosports.co.uk/rpcemu.tar.gz">https://www.riscosports.co.uk/rpcemu.tar.gz</a></p>
-        <p>extract using tar -jxvf rpcemu.tar.gz</p>
-        <p>Then build rpcemu as normal. (the qmake command is at /opt/local/libexec/qt5/bin/qmake)</p>]]>
-      </description>
-      <source:markdown>Go to [https://www.macports.org/install.php](https://www.macports.org/install.php) and download the version that matches your OS versiom.
-
-Run the installer and follow the wizard to install.
-
-Once installed open a terminal and type,
-
-export PATH=/opt/local/bin:$PATH
-
-type gcc -v. If the xcode command line tools aren’t installed you should get prompted to install them.
-
-sudo port selfupdate
-
-sudo port install qt5
-
-Download the source for 0.99.9 which includes the macOS changes from [https://www.riscosports.co.uk/rpcemu.tar.gz](https://www.riscosports.co.uk/rpcemu.tar.gz)
-
-extract using tar -jxvf rpcemu.tar.gz
-
-Then build rpcemu as normal. (the qmake command is at /opt/local/libexec/qt5/bin/qmake)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:162135</guid>
-    </item>    <item>
-      <title>File renaming</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20281</link>
-      <description>
-        <![CDATA[<p>I do not think you can assume any value for R4, except that R4=-1 indicates no more.<br />
-        But because you will be renaming files in the directory, which will change the directory, it could couse problems if you continue to read the directory &#8211; hence why I suggested a buffer large enough to hold all entries in one read. Note also that you cannot depend on the order in which entries are returned (particularly on foreign file systems).</p>]]>
-      </description>
-      <source:markdown>I do not think you can assume any value for R4, except that R4=-1 indicates no more.
-
-But because you will be renaming files in the directory, which will change the directory, it could couse problems if you continue to read the directory – hence why I suggested a buffer large enough to hold all entries in one read. Note also that you cannot depend on the order in which entries are returned (particularly on foreign file systems).</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20281:162129</guid>
-    </item>    <item>
-      <title>_kernel_oserror*</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20282</link>
-      <description>
-        <![CDATA[<p>Yay, include even more files globally :-)</p>
-        <p>My objection to kernel.h is not to do with OSLib, it&#8217;s that I can&#8217;t return or pass errors through APIs without including kernel.h. I gave OSLib as an example of a case where kernel.h is, in my opinion, equally unhelpful, not of a specific OSLib problem I need to work around. My brief excursion with OSLib is far more exciting than you&#8217;ll ever imagine, and doesn&#8217;t include its obsession with lower-case.</p>]]>
-      </description>
-      <source:markdown>Yay, include even more files globally :-)
-
-My objection to kernel.h is not to do with OSLib, it’s that I can’t return or pass errors through APIs without including kernel.h. I gave OSLib as an example of a case where kernel.h is, in my opinion, equally unhelpful, not of a specific OSLib problem I need to work around. My brief excursion with OSLib is far more exciting than you’ll ever imagine, and doesn’t include its obsession with lower-case.</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20282:162128</guid>
     </item>    <item>
       <title>File not found</title>
       <link>https://www.riscosopen.org/forum/forums/4/topics/19564</link>
@@ -322,32 +405,6 @@ And is there anything I can do to make it work without failing?
 
 I’ve been able to work round the problem by creating an empty file of the correct name in the correct place, but the restore has to start again each time it fails.</source:markdown>
       <guid>cid://www.riscosopen.org:4:19564:162121</guid>
-    </item>    <item>
-      <title>3440x1440 on Pi</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20283</link>
-      <description>
-        <![CDATA[<p>Hi guys,</p>
-        <p>I have recently updated my Raspberry Pi to the latest version of <span class="caps">RISC</span> OS and I’ve lost the ability to drive my Samsung monitor at its native resolution. It worked fine before I upgraded but I can’t for the life of me remember how I got it working last time.</p>
-        <p>The monitor is a Samsung S34J550WQN</p>
-        <p>I’ve followed all the guides I can find online and in these forums to no avail.</p>
-        <p>Can someone please help.</p>
-        <p>Thanks in advance,</p>
-        <p>Lee</p>]]>
-      </description>
-      <source:markdown>Hi guys,
-
-I have recently updated my Raspberry Pi to the latest version of RISC OS and I’ve lost the ability to drive my Samsung monitor at its native resolution. It worked fine before I upgraded but I can’t for the life of me remember how I got it working last time.
-
-The monitor is a Samsung S34J550WQN
-
-I’ve followed all the guides I can find online and in these forums to no avail.
-
-Can someone please help.
-
-Thanks in advance,
-
-Lee</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20283:162119</guid>
     </item>    <item>
       <title>Drag &#38;#39;N Drop 60th Edition</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20246</link>
@@ -867,17 +924,6 @@ Does anyone have a “set if not already set” ShellCli/Obey pattern that they 
 
 Link: [Clear Skies at Last!](https://vermilionsands.uk/blog/?p=22209)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20262:162035</guid>
-    </item>    <item>
-      <title>Printing via Mac OS</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20258</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve done the other things I wanted to look at, so IPPTrnspt version 0.18 is up on my web site.  This should work substantially better with HP printers, and in fact any printers that use chunked transfer when sending back status.</p>
-        <p>There is no change to the requirements for printer definition files etc.  It should just be a drop-in (i.e. copy over) replacement for version 0.17.</p>]]>
-      </description>
-      <source:markdown>I’ve done the other things I wanted to look at, so IPPTrnspt version 0.18 is up on my web site. This should work substantially better with HP printers, and in fact any printers that use chunked transfer when sending back status.
-
-There is no change to the requirements for printer definition files etc. It should just be a drop-in (i.e. copy over) replacement for version 0.17.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20258:162034</guid>
     </item>    <item>
       <title>NAS devices</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20122</link>
