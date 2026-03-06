@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.23-dev" >
-  <meta name="date" content="2026-03-05T12:00:22-08:00" >
-  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
+  <meta name="date" content="2026-03-06T12:00:26-08:00" >
+  <link href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" type="application/rss+xml" >
 </head>
 <body>
   <header>
@@ -19,6 +19,54 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-03-06T10:40:13Z" data-link="https://www.riscosnorth.uk/index.php/2026/03/06/exhibitor-list-almost-finalised/">
+      <h1>Exhibitor list almost finalised</h1>
+
+(date: 2026-03-06)
+      <p>
+      <p>With the show now just two weeks away, the exhibitor list is close to being finalised, with almost all of last year’s exhibitors having confirmed they will be at the 2026 event, and at least one new exhibitor booking a stand. If you are one of the remaining exhibitors from last year who wants to […]</p>
+
+      <address>
+        <a href="https://www.riscosnorth.uk/index.php/2026/03/06/exhibitor-list-almost-finalised/">https://www.riscosnorth.uk/index.php/2026/03/06/exhibitor-list-almost-finalised/</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-06T10:37:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mgf4mu2xxk2e">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-03-06)
+      <p>
+      <p>Big fan of the UK Eurovision entry for this year 😁 Best of luck, Sam<a href="https://www.youtube.com/watch?v=8XR2RvfZ-68">https://www.youtube.com/watch?v=8XR2RvfZ-68</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mgf4mu2xxk2e">https://bsky.app/profile/colinhoad.com/post/3mgf4mu2xxk2e</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-06T07:29:05Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20287">
+      <h1>Site Certificate</h1>
+
+(date: 2026-03-06)
+      <p>
+      <p>RISC OS Opens Certificate seems to have expired, access on riscos seems okay, can’t get on via a mac it just point blank refuses</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20287">https://www.riscosopen.org/forum/forums/11/topics/20287</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-05T21:16:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mgdptotfpk2i">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-03-05)
+      <p>
+      <p>Soak testing the Beeb after replacing a suspected faulty 6502... and now we play the waiting game! Thrust is a good test as it's demo mode keeps the chip active (and it reliably crashed every 20 minutes or so before with the old 6502...)</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mgdptotfpk2i">https://bsky.app/profile/colinhoad.com/post/3mgdptotfpk2i</a>
+      </address>
+    </article>
 
     <article data-published="2026-03-05T17:37:17Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20283">
       <h1>3440x1440 on Pi</h1>
@@ -102,6 +150,20 @@
       </address>
     </article>
 
+    <article data-published="2026-03-04T20:01:09Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20285">
+      <h1>File path length</h1>
+
+(date: 2026-03-04)
+      <p>
+      <p>That’s odd – it should (I think) be 1024 characters at the command line but with practical limits dictated by the wimp message block which can give a limit of 219/220 (from memory – someone will no doubt correct this).</p>
+<p>I remember the 1024 command line thing from RISC OS 3.8/4 from my RISC OS Ltd days, and that’s got the same DNA as OS 5. That was when “long filenames” (and by extension, paths) became a thing, so it feels etched into my memory.</p>
+<p>On a number of occasions I’ve had problems with Windows because RISC OS has allowed longer paths than Windows likes – circa 200 chars before parts of Windows bork.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20285">https://www.riscosopen.org/forum/forums/11/topics/20285</a>
+      </address>
+    </article>
+
     <article data-published="2026-03-04T18:01:42Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
       <h1>Need volunteers to start testing my new ShareFSServer</h1>
 
@@ -147,6 +209,24 @@
       </address>
     </article>
 
+    <article data-published="2026-03-04T17:59:06Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/19151">
+      <h1>Any ARM Debuggers Ported to RO5 ?</h1>
+
+(date: 2026-03-04)
+      <p>
+      <blockquote>
+<p>You probably want to trigger when ADFFS raises OS_FSControl 2 – which is the final step before it branches into the JIT’d code-space.</p>
+</blockquote>
+<p>!ARM_Debug has a “Trap SWI Call” option where you can also add a register value to the check. I just configured !ARM_Debug for SWI = OS_FSControl with R0 = 2, and the debugger screen triggered shortly after I double clicked on the !Chocks application icon.</p>
+<p>Most of the !ARM_Debug code is Theo’s original code for the original 26bit version of !ARM_Debug – and most of it still works fine. Theo must have spent man-years working on this ‘back in the day’.</p>
+<p>I’ll log some data and have a look tomorrow…</p>
+<p>Ralph</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/19151">https://www.riscosopen.org/forum/forums/5/topics/19151</a>
+      </address>
+    </article>
+
     <article data-published="2026-03-04T17:39:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mgatam7j5s27">
       <h1>@nemo20000.bsky.social</h1>
 
@@ -157,19 +237,6 @@
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mgatam7j5s27">https://bsky.app/profile/nemo20000.bsky.social/post/3mgatam7j5s27</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-04T17:10:08Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20285">
-      <h1>File path length</h1>
-
-(date: 2026-03-04)
-      <p>
-      <p>Could someone confirm what the maximum allowable file path length is currently?</p>
-<p>I have had a problem reported affecting !SyncDiscs, and my first thought is there is a buffer overrun, with subsequent memory corruption. The observations I have been sent suggest the problem occurs when the !Iris browser caches are being copied, and it seems to generate some large directory names in the cache.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20285">https://www.riscosopen.org/forum/forums/11/topics/20285</a>
       </address>
     </article>
 
@@ -279,25 +346,6 @@ File Names - leaf name only
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/4/topics/20282">https://www.riscosopen.org/forum/forums/4/topics/20282</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-04T12:12:59Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/19151">
-      <h1>Any ARM Debuggers Ported to RO5 ?</h1>
-
-(date: 2026-03-04)
-      <p>
-      <blockquote>
-<p>I thought I’d use !ARM_Debug to have a look and see how the original 26bit !Chocks_Away was running on 32bit Risc OS 5.30/5.31</p>
-</blockquote>
-<p>Ooh, neat. I’ve had the requirement to add a step-debugger to ADFFS on my to-do list for the past 13 years and still haven’t got around to it. This might actually prove useful in debugging some of the more problematic games.</p>
-<blockquote>
-<p>set to trigger on the *ADFGO command on the ADFFS module</p>
-</blockquote>
-<p>You probably want to trigger when ADFFS raises <a href="https://www.riscosopen.org/wiki/documentation/show/OS_FSControl%202">OS_FSControl 2</a> – which is the final step before it branches into the JIT’d code-space.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/19151">https://www.riscosopen.org/forum/forums/5/topics/19151</a>
       </address>
     </article>
 
@@ -2865,7 +2913,7 @@ youtu.be/6Mtl5vua9t4<a href="https://youtu.be/6Mtl5vua9t4">https://youtu.be/6Mtl
     <article data-published="2026-01-31T18:08:12Z" data-link="https://www.riscosnorth.uk/index.php/2026/01/31/spread-the-word-by-displaying-a-show-banner/">
       <h1>Spread the word by displaying a show banner</h1>
 
-(date: 2026-01-31)
+(date: 2026-01-31, updated: 2026-03-06)
       <p>
       <p>If you want to help publicise the 2026 show, there are now a selection of banners available for you to display on your own web pages. Displaying a banner, with a link to this website, can help spread the word about the event to anyone who visits your own site, and in turn can help […]</p>
 
@@ -8476,7 +8524,7 @@ youtu.be/RHdgIHr78RM<a href="https://youtu.be/RHdgIHr78RM">https://youtu.be/RHdg
     <article data-published="2025-11-29T13:18:55Z" data-link="https://www.riscosnorth.uk/index.php/2025/11/29/2026-risc-os-north-show-date-announced/">
       <h1>2026 show date announced</h1>
 
-(date: 2025-11-29, updated: 2026-01-31)
+(date: 2025-11-29, updated: 2026-03-06)
       <p>
       <p>After the success of the inaugural RISC OS North show in 2025, picking up the baton from the Wakefield Show, we are pleased to announce the date of the second event as: Saturday, 21st March, 2026 We look forward to welcoming everyone at the same venue as last year: Village Hotel Warrington,110 Centre Park Square,Warrington,WA1 […]</p>
 
@@ -19243,7 +19291,7 @@ While WROCC may no longer be running the Show, they are still very actively orga
     <article data-published="2025-04-02T18:07:55Z" data-link="https://www.riscosnorth.uk/index.php/2025/04/02/charity-stand-results/">
       <h1>Charity stand results</h1>
 
-(date: 2025-04-02, updated: 2026-01-31)
+(date: 2025-04-02, updated: 2026-03-06)
       <p>
       <p>We hope everyone enjoyed the show as much as we did – and a big thank you to everyone who either donated to or purchased anything from the charity stand, along with those looking after it. The amount of money raised as a result of the day’s efforts was an impressive £865. That money will […]</p>
 
@@ -19306,7 +19354,7 @@ While WROCC may no longer be running the Show, they are still very actively orga
     <article data-published="2025-03-28T08:00:00Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/28/and-theres-more/">
       <h1>And there’s more!</h1>
 
-(date: 2025-03-28, updated: 2026-01-31)
+(date: 2025-03-28, updated: 2026-03-06)
       <p>
       <p>Over the last week or two, the exhibitors falling into a number of broad areas have been explored – but there are some that either don’t fit in any of those areas, or who only do so in a small way. Here are a few of those: While Chris Hall has a few items of […]</p>
 
@@ -19342,7 +19390,7 @@ While WROCC may no longer be running the Show, they are still very actively orga
     <article data-published="2025-03-27T11:23:42Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/27/kit-yourself-out/">
       <h1>Kit yourself out!</h1>
 
-(date: 2025-03-27, updated: 2026-01-31)
+(date: 2025-03-27, updated: 2026-03-06)
       <p>
       <p>If you’re looking to upgrade your hardware to something new – or perhaps you’re just exploring the world of RISC OS and are thinking about buying your first bit of hardware – there will be something for you at the show, with at least two exhibitors offering hardware on which to run the operating system. […]</p>
 
@@ -19354,7 +19402,7 @@ While WROCC may no longer be running the Show, they are still very actively orga
     <article data-published="2025-03-26T13:11:07Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/26/come-along-and-play/">
       <h1>Come along and play</h1>
 
-(date: 2025-03-26, updated: 2026-01-31)
+(date: 2025-03-26, updated: 2026-03-06)
       <p>
       <p>If you enjoy playing games on your RISC OS computer, there will definitely be something for you at the show. AMCOG Games will be exhibiting, and will have a plethora of games for you to try and buy. AMCOG’s range is extensive, and there will be a new title launched at this show: Morphix. which […]</p>
 
@@ -19366,7 +19414,7 @@ While WROCC may no longer be running the Show, they are still very actively orga
     <article data-published="2025-03-25T20:55:31Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/25/retro-exhibitors-at-the-show/">
       <h1>Retro exhibitors at the show</h1>
 
-(date: 2025-03-25, updated: 2026-01-31)
+(date: 2025-03-25, updated: 2026-03-06)
       <p>
       <p>It’s not all about modern computing at RISC OS North – you’ll also be able to explore older systems, and perhaps even obtain something to keep that old kit running. Retro Hardware, for example, will be able to help you if you have an Acorn Electron in use, or if you’re planning on resurrecting one […]</p>
 
@@ -19391,7 +19439,7 @@ While WROCC may no longer be running the Show, they are still very actively orga
     <article data-published="2025-03-23T22:13:54Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/23/software-of-all-kinds/">
       <h1>Software of all kinds</h1>
 
-(date: 2025-03-23, updated: 2026-01-31)
+(date: 2025-03-23, updated: 2026-03-06)
       <p>
       <p>There will be a variety of things to see and discuss at the show, as this series of posts demonstrates, and probably one of the biggest (next to hardware) is the wide range of software available for the operating system. Almost every exhibitor will have software of one form or another available. You’ll be able […]</p>
 
@@ -19403,7 +19451,7 @@ While WROCC may no longer be running the Show, they are still very actively orga
     <article data-published="2025-03-20T20:27:14Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/20/user-groups-at-the-show/">
       <h1>User groups at the show</h1>
 
-(date: 2025-03-20, updated: 2026-01-31)
+(date: 2025-03-20, updated: 2026-03-06)
       <p>
       <p>As well as coming along to shows like RISC OS North, a good way to support the operating system is to attend your local user group – and a few will be represented at this event. Some groups hold regular online meetings that you can join from anywhere – you don’t need to be local […]</p>
 

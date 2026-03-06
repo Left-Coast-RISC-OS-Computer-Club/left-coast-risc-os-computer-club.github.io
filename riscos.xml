@@ -7,10 +7,42 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>05 Mar 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>06 Mar 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.23-dev</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Exhibitor list almost finalised</title>
+      <link>https://www.riscosnorth.uk/index.php/2026/03/06/exhibitor-list-almost-finalised/</link>
+      <description>
+        <![CDATA[With the show now just two weeks away, the exhibitor list is close to being finalised, with almost all of last year&#8217;s exhibitors having confirmed they will be at the 2026 event, and at least one new exhibitor booking a stand. If you are one of the remaining exhibitors from last year who wants to [&#8230;]]]>
+      </description>
+      <source:markdown>With the show now just two weeks away, the exhibitor list is close to being finalised, with almost all of last year’s exhibitors having confirmed they will be at the 2026 event, and at least one new exhibitor booking a stand. If you are one of the remaining exhibitors from last year who wants to \[…\]</source:markdown>
+      <guid>cid://https://www.riscosnorth.uk/?p=610</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mgf4mu2xxk2e</link>
+      <description>
+        <![CDATA[Big fan of the UK Eurovision entry for this year 😁 Best of luck, Sam
+        https://www.youtube.com/watch?v=8XR2RvfZ-68]]>
+      </description>
+      <source:markdown>Big fan of the UK Eurovision entry for this year 😁 Best of luck, Sam
+https://www.youtube.com/watch?v=8XR2RvfZ-68</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mgf4mu2xxk2e</guid>
+    </item>    <item>
+      <title>Site Certificate</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20287</link>
+      <description>
+        <![CDATA[<p><span class="caps">RISC</span> OS Opens Certificate seems to have expired, access on riscos seems okay, can&#8217;t get on via a mac it just point blank refuses</p>]]>
+      </description>
+      <source:markdown>RISC OS Opens Certificate seems to have expired, access on riscos seems okay, can’t get on via a mac it just point blank refuses</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20287:162169</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mgdptotfpk2i</link>
+      <description>
+        <![CDATA[Soak testing the Beeb after replacing a suspected faulty 6502... and now we play the waiting game! Thrust is a good test as it's demo mode keeps the chip active (and it reliably crashed every 20 minutes or so before with the old 6502...)]]>
+      </description>
+      <source:markdown>Soak testing the Beeb after replacing a suspected faulty 6502... and now we play the waiting game! Thrust is a good test as it&#39;s demo mode keeps the chip active (and it reliably crashed every 20 minutes or so before with the old 6502...)</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mgdptotfpk2i</guid>
+    </item>    <item>
       <title>3440x1440 on Pi</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20283</link>
       <description>
@@ -104,6 +136,20 @@ If you want to watch the whole series, you can follow it through the playlist on
 Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimptemplates.…](https://presentation.riscos.online/live/wimptemplates.html) (once it has been published).</source:markdown>
       <guid>cid://www.riscosopen.org:1:20286:162154</guid>
     </item>    <item>
+      <title>File path length</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20285</link>
+      <description>
+        <![CDATA[<p>That&#8217;s odd &#8211; it should (I think) be 1024 characters at the command line but with practical limits dictated by the wimp message block which can give a limit of 219/220 (from memory &#8211; someone will no doubt correct this).</p>
+        <p>I remember the 1024 command line thing from <span class="caps">RISC</span> OS 3.8/4 from my <span class="caps">RISC</span> OS Ltd days, and that&#8217;s got the same <span class="caps">DNA</span> as OS 5.  That was when &#8220;long filenames&#8221; (and by extension, paths) became a thing, so it feels etched into my memory.</p>
+        <p>On a number of occasions I&#8217;ve had problems with Windows because <span class="caps">RISC</span> OS has allowed longer paths than Windows likes &#8211; circa 200 chars before parts of Windows bork.</p>]]>
+      </description>
+      <source:markdown>That’s odd – it should (I think) be 1024 characters at the command line but with practical limits dictated by the wimp message block which can give a limit of 219/220 (from memory – someone will no doubt correct this).
+
+I remember the 1024 command line thing from RISC OS 3.8/4 from my RISC OS Ltd days, and that’s got the same DNA as OS 5. That was when “long filenames” (and by extension, paths) became a thing, so it feels etched into my memory.
+
+On a number of occasions I’ve had problems with Windows because RISC OS has allowed longer paths than Windows likes – circa 200 chars before parts of Windows bork.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20285:162153</guid>
+    </item>    <item>
       <title>Need volunteers to start testing my new ShareFSServer</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
       <description>
@@ -172,6 +218,28 @@ I have done my best to jail the shares, so nothing can get out of those, but ple
 Also, next release will be sent only to users that are actively providing feedback. Sorry, but the deal was clear, so the silent ones have still got a few days to get in touch, thank you :)</source:markdown>
       <guid>cid://www.riscosopen.org:11:20267:162152</guid>
     </item>    <item>
+      <title>Any ARM Debuggers Ported to RO5 ?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/19151</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>You probably want to trigger when <span class="caps">ADFFS</span> raises OS_FSControl 2 – which is the final step before it branches into the JIT’d code-space.</p>
+        </blockquote>
+        <p>!ARM_Debug has a &#8220;Trap <span class="caps">SWI</span> Call&#8221; option where you can also add a register value to the check. I just configured !ARM_Debug for <span class="caps">SWI</span> =  OS_FSControl with R0 = 2, and the debugger screen triggered shortly after I double clicked on the !Chocks application icon.</p>
+        <p>Most of the !ARM_Debug code is Theo&#8217;s original code for the original 26bit version of !ARM_Debug &#8211; and most of it still works fine. Theo must have spent man-years working on this &#8216;back in the day&#8217;.</p>
+        <p>I&#8217;ll log some data and have a look tomorrow&#8230;</p>
+        <p>Ralph</p>]]>
+      </description>
+      <source:markdown>&#62; You probably want to trigger when ADFFS raises OS\_FSControl 2 – which is the final step before it branches into the JIT’d code-space.
+
+!ARM\_Debug has a “Trap SWI Call” option where you can also add a register value to the check. I just configured !ARM\_Debug for SWI = OS\_FSControl with R0 = 2, and the debugger screen triggered shortly after I double clicked on the !Chocks application icon.
+
+Most of the !ARM\_Debug code is Theo’s original code for the original 26bit version of !ARM\_Debug – and most of it still works fine. Theo must have spent man-years working on this ‘back in the day’.
+
+I’ll log some data and have a look tomorrow…
+
+Ralph</source:markdown>
+      <guid>cid://www.riscosopen.org:5:19151:162151</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mgatam7j5s27</link>
       <description>
         <![CDATA[Design!
@@ -182,17 +250,6 @@ Also, next release will be sent only to users that are actively providing feedba
 
 Pay no attention to the puddle.</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mgatam7j5s27</guid>
-    </item>    <item>
-      <title>File path length</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20285</link>
-      <description>
-        <![CDATA[<p>Could someone confirm what the maximum allowable file path length is currently?</p>
-        <p>I have had a problem reported affecting !SyncDiscs, and my first thought is there is a buffer overrun, with subsequent memory corruption. The observations I have been sent suggest the problem occurs when the !Iris browser caches are being copied, and it seems to generate some large directory names in the cache.</p>]]>
-      </description>
-      <source:markdown>Could someone confirm what the maximum allowable file path length is currently?
-
-I have had a problem reported affecting !SyncDiscs, and my first thought is there is a buffer overrun, with subsequent memory corruption. The observations I have been sent suggest the problem occurs when the !Iris browser caches are being copied, and it seems to generate some large directory names in the cache.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20285:162149</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mgaouxxktc2n</link>
       <description>
@@ -337,27 +394,6 @@ uintptr\_t would change the type to be 64-bit, which I don’t want.
 
 The RISC OS 64 work is purely moving the system to run on a 64-bit system, whilst retaining the exact same interface where possible. This means the least amount of friction involved in updating external interfaces and APIs. Changing all the APIs to with full 64-bit address space and 64-bit wide parameters would mean a huge amount of changes to the system. Since many components need updating, and changing multiple things at once is more difficult, keeping the API the same (as far as is possible) means that there is less to go wrong, and it can be done in less time. The problem becomes ‘make things work on a new architecture’, not ‘make things work on a new architecture with a new address space size and API interfaces’.</source:markdown>
       <guid>cid://www.riscosopen.org:4:20282:162143</guid>
-    </item>    <item>
-      <title>Any ARM Debuggers Ported to RO5 ?</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/19151</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I thought I’d use !ARM_Debug to have a look and see how the original 26bit !Chocks_Away was running on 32bit Risc OS 5.30/5.31</p>
-        </blockquote>
-        <p>Ooh, neat.  I&#8217;ve had the requirement to add a step-debugger to <span class="caps">ADFFS</span> on my to-do list for the past 13 years and still haven&#8217;t got around to it.  This might actually prove useful in debugging some of the more problematic games.</p>
-        <blockquote>
-        <p>set to trigger on the *ADFGO command on the <span class="caps">ADFFS</span> module</p>
-        </blockquote>
-        <p>You probably want to trigger when <span class="caps">ADFFS</span> raises <a href="https://www.riscosopen.org/wiki/documentation/show/OS_FSControl%202">OS_FSControl 2</a> &#8211; which is the final step before it branches into the JIT&#8217;d code-space.</p>]]>
-      </description>
-      <source:markdown>&#62; I thought I’d use !ARM\_Debug to have a look and see how the original 26bit !Chocks\_Away was running on 32bit Risc OS 5.30/5.31
-
-Ooh, neat. I’ve had the requirement to add a step-debugger to ADFFS on my to-do list for the past 13 years and still haven’t got around to it. This might actually prove useful in debugging some of the more problematic games.
-
-&#62; set to trigger on the \*ADFGO command on the ADFFS module
-
-You probably want to trigger when ADFFS raises [OS\_FSControl 2](https://www.riscosopen.org/wiki/documentation/show/OS_FSControl%202) – which is the final step before it branches into the JIT’d code-space.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:19151:162142</guid>
     </item>    <item>
       <title>extASM assembler and the StrongHelp Assembler manual updated to ARMv8</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20273</link>
