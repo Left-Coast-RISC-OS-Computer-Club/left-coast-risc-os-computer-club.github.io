@@ -7,10 +7,52 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>06 Mar 26 12:00 -0800</lastBuildDate>
+    <lastBuildDate>07 Mar 26 12:00 -0800</lastBuildDate>
     <generator>antenna/0.0.23-dev</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mghwqdjthc2s</link>
+      <description>
+        <![CDATA[Well, this wasn't something I'd have anticipated doing even as recently as last year! Reflowing the solder joints of my Beeb's video ULA...!]]>
+      </description>
+      <source:markdown>Well, this wasn&#39;t something I&#39;d have anticipated doing even as recently as last year! Reflowing the solder joints of my Beeb&#39;s video ULA...!</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mghwqdjthc2s</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p>Thanks everyone for submitting your findings this week!</p>
+        <p>Tonight I&#8217;ll start working on the build for this weekend, so it&#8217;s going to be a busy night for me.</p>
+        <p>Meanwhile I&#8217;d like to share something extremely cool that is happening thanks to ShareFSServer:</p>
+        <p>There are some really cool projects going on <span class="caps">ALREADY</span> on/for SHhareFSServer:</p>
+        <p>- Jon Abbott is adapting !CDFaker to the Archimedes, and it obviously needs to use ShareFSServer to mount big file images (the Archie local FS can&#8217;t do it).</p>
+        <p>This lead to something really cool, by mounting an audio or photo CD on !CDFaker over ShareFSServer, now people can listen to high quality music or watch high qaulity photos on their <span class="caps">RISC</span> OS systems from 3.10 all the way up to RO 5 on the Pi.</p>
+        <p>This is leading to another cool project that is adapting the Pro Grade audio hat for the Pi to RO 5, so that not only one can litterally have an infinite jukebox of shared high quality music (either on their own local server or over pCloud/NextCloud/ownCloud etc.), but also play the audio at the best possible quality!</p>
+        <p>I mean this is totally awesome guys! :D</p>
+        <p>A huge thanks to Jon for that work!</p>
+        <p>Cheers</p>]]>
+      </description>
+      <source:markdown>Thanks everyone for submitting your findings this week!
+
+Tonight I’ll start working on the build for this weekend, so it’s going to be a busy night for me.
+
+Meanwhile I’d like to share something extremely cool that is happening thanks to ShareFSServer:
+
+There are some really cool projects going on ALREADY on/for SHhareFSServer:
+
+\- Jon Abbott is adapting !CDFaker to the Archimedes, and it obviously needs to use ShareFSServer to mount big file images (the Archie local FS can’t do it).
+
+This lead to something really cool, by mounting an audio or photo CD on !CDFaker over ShareFSServer, now people can listen to high quality music or watch high qaulity photos on their RISC OS systems from 3.10 all the way up to RO 5 on the Pi.
+
+This is leading to another cool project that is adapting the Pro Grade audio hat for the Pi to RO 5, so that not only one can litterally have an infinite jukebox of shared high quality music (either on their own local server or over pCloud/NextCloud/ownCloud etc.), but also play the audio at the best possible quality!
+
+I mean this is totally awesome guys! :D
+
+A huge thanks to Jon for that work!
+
+Cheers</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:162174</guid>
+    </item>    <item>
       <title>Exhibitor list almost finalised</title>
       <link>https://www.riscosnorth.uk/index.php/2026/03/06/exhibitor-list-almost-finalised/</link>
       <description>
@@ -36,6 +78,14 @@ https://www.youtube.com/watch?v=8XR2RvfZ-68</source:markdown>
       <source:markdown>RISC OS Opens Certificate seems to have expired, access on riscos seems okay, can’t get on via a mac it just point blank refuses</source:markdown>
       <guid>cid://www.riscosopen.org:11:20287:162169</guid>
     </item>    <item>
+      <title>3440x1440 on Pi</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20283</link>
+      <description>
+        <![CDATA[<p>It wont on a Pi2, the <span class="caps">GPU</span> isn&#8217;t powerful enough. I used a 2560&#215;1440 monitor with a Pi 3B+, but it struggled, so I would say a Pi 4 would be needed.</p>]]>
+      </description>
+      <source:markdown>It wont on a Pi2, the GPU isn’t powerful enough. I used a 2560×1440 monitor with a Pi 3B+, but it struggled, so I would say a Pi 4 would be needed.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20283:162167</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mgdptotfpk2i</link>
       <description>
         <![CDATA[Soak testing the Beeb after replacing a suspected faulty 6502... and now we play the waiting game! Thrust is a good test as it's demo mode keeps the chip active (and it reliably crashed every 20 minutes or so before with the old 6502...)]]>
@@ -43,16 +93,33 @@ https://www.youtube.com/watch?v=8XR2RvfZ-68</source:markdown>
       <source:markdown>Soak testing the Beeb after replacing a suspected faulty 6502... and now we play the waiting game! Thrust is a good test as it&#39;s demo mode keeps the chip active (and it reliably crashed every 20 minutes or so before with the old 6502...)</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mgdptotfpk2i</guid>
     </item>    <item>
-      <title>3440x1440 on Pi</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20283</link>
+      <title>File path length</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20285</link>
       <description>
-        <![CDATA[<p>@J.Ruck</p>
-        <p>Does this run with <span class="caps">RPI</span> 2 as I have been considering upgrading as I want more screen space and this is exactly the resolution I have been looking at.</p>]]>
+        <![CDATA[<p>I&#8217;m pretty sure it was only the <span class="caps">CLI</span> length that increased; I don&#8217;t think that the filename length changed, however, because of the limitations of the wimp messages, as others mentioned I believe 230-ish it probably about the limit. Outside the wimp, you&#8217;ll probably find that things work a little longer, but don&#8217;t forget that filename lengths can be modified by the path variables, so you might find yourself working with longer filenames than you thought.</p>]]>
       </description>
-      <source:markdown>@J.Ruck
+      <source:markdown>I’m pretty sure it was only the CLI length that increased; I don’t think that the filename length changed, however, because of the limitations of the wimp messages, as others mentioned I believe 230-ish it probably about the limit. Outside the wimp, you’ll probably find that things work a little longer, but don’t forget that filename lengths can be modified by the path variables, so you might find yourself working with longer filenames than you thought.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20285:162164</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve tried Jean-Michel&#8217;s script. It didn&#8217;t work very well for me with the files I tried it on — specifically some scans from a 1973 issue of <span class="caps">EQMM</span>. I chose this because it is particularly badly oxidised. The script certainly didn&#8217;t remove a lot of the browning — and it left the results as tiny images among a sea of white.</p>
+        <p>David Ruck&#8217;s suggestion I also tried. It gives good results from some pages but not from others. It&#8217;s not practical to do each page individually: the issue I was looking at has 164 pages.</p>
+        <p>There is a problem not just with the quality of the scans but with the way they were converted to .pdf. The <span class="caps">PDF</span> I&#8217;ve been looking at appears from the metadata to have been converted using OpenOffice.org Draw. The main issue with the files is that the MediaBox is very different from the ClipBox (these are attributes of <span class="caps">PDF</span> files) and this ssems to confuse certain versions of some tools — notably <strong>mutool</strong> on Windows and <strong>!KPDFUtil</strong> on <span class="caps">RISC</span> OS — giving a wide white border round the scanned image. The Poppler library tools which !KPDFUtils uses work correctly on all other OSs I&#8217;v tried them on — Windows 11/macOS 26/Linux (Pi 500+).</p>
+        <p>The conversion to NetPBM appears to be the fastest, but you will need to be patient if you are using <span class="caps">RISC</span> OS; it takes over 10 minutes to do the conversion of 164 pages compared to less than 1 minute on the Pi.</p>
+        <p>Note that !ConvImgs cannot load NetPBM files, though !ChangeFSI can. !ImageMagick can convert them to a <span class="caps">PDF</span> <em>but</em> it is a command line application and the tirck you would do on any other OS by passing a wild card doesn&#8217;t work — it only converts the first file&#8230;</p>]]>
+      </description>
+      <source:markdown>I’ve tried Jean-Michel’s script. It didn’t work very well for me with the files I tried it on — specifically some scans from a 1973 issue of EQMM. I chose this because it is particularly badly oxidised. The script certainly didn’t remove a lot of the browning — and it left the results as tiny images among a sea of white.
 
-Does this run with RPI 2 as I have been considering upgrading as I want more screen space and this is exactly the resolution I have been looking at.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20283:162162</guid>
+David Ruck’s suggestion I also tried. It gives good results from some pages but not from others. It’s not practical to do each page individually: the issue I was looking at has 164 pages.
+
+There is a problem not just with the quality of the scans but with the way they were converted to .pdf. The PDF I’ve been looking at appears from the metadata to have been converted using OpenOffice.org Draw. The main issue with the files is that the MediaBox is very different from the ClipBox (these are attributes of PDF files) and this ssems to confuse certain versions of some tools — notably **mutool** on Windows and **!KPDFUtil** on RISC OS — giving a wide white border round the scanned image. The Poppler library tools which !KPDFUtils uses work correctly on all other OSs I’v tried them on — Windows 11/macOS 26/Linux (Pi 500+).
+
+The conversion to NetPBM appears to be the fastest, but you will need to be patient if you are using RISC OS; it takes over 10 minutes to do the conversion of 164 pages compared to less than 1 minute on the Pi.
+
+Note that !ConvImgs cannot load NetPBM files, though !ChangeFSI can. !ImageMagick can convert them to a PDF _but_ it is a command line application and the tirck you would do on any other OS by passing a wild card doesn’t work — it only converts the first file…</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162163</guid>
     </item>    <item>
       <link>https://bsky.app/profile/rougol.bsky.social/post/3mgd2y3h4ak2x</link>
       <description>
@@ -68,41 +135,6 @@ Does this run with RPI 2 as I have been considering upgrading as I want more scr
       </description>
       <source:markdown>Thanks Dave excelant work. My Epson ET-2720 has printed everthing i have sent it and i do a lot of printing. JPEG prints, PDF Unsuported.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20258:162158</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>As pages vary, this automatically shifts which actual range gets expanded to “follow the stats”.</p>
-        </blockquote>
-        <p>This also seems to me to be the right approach, statistics for each page.</p>
-        <blockquote>
-        <p>I’m currently (sic) looking at writing a direct process that bypasses Compo.</p>
-        </blockquote>
-        <p>I think you can refine your program with Compo, and you can use it from an Obey script which will allow the processing to be done in the background.</p>
-        <p>I&#8217;ll try to make a model.<br />
-        Reading ppm or sprite files from a folder, processing one by one and saving to another folder.</p>
-        <blockquote>
-        <p>This extracts the files using the utils,</p>
-        </blockquote>
-        <p>what is utils&#8217;?</p>]]>
-      </description>
-      <source:markdown>&#62; As pages vary, this automatically shifts which actual range gets expanded to “follow the stats”.
-
-This also seems to me to be the right approach, statistics for each page.
-
-&#62; I’m currently (sic) looking at writing a direct process that bypasses Compo.
-
-I think you can refine your program with Compo, and you can use it from an Obey script which will allow the processing to be done in the background.
-
-I’ll try to make a model.
-
-Reading ppm or sprite files from a folder, processing one by one and saving to another folder.
-
-&#62; This extracts the files using the utils,
-
-what is utils’?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162156</guid>
     </item>    <item>
       <title>Live Coding with Gerph, Sunday 8th March at 1pm UK time.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20286</link>
@@ -135,88 +167,6 @@ If you want to watch the whole series, you can follow it through the playlist on
 
 Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimptemplates.…](https://presentation.riscos.online/live/wimptemplates.html) (once it has been published).</source:markdown>
       <guid>cid://www.riscosopen.org:1:20286:162154</guid>
-    </item>    <item>
-      <title>File path length</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20285</link>
-      <description>
-        <![CDATA[<p>That&#8217;s odd &#8211; it should (I think) be 1024 characters at the command line but with practical limits dictated by the wimp message block which can give a limit of 219/220 (from memory &#8211; someone will no doubt correct this).</p>
-        <p>I remember the 1024 command line thing from <span class="caps">RISC</span> OS 3.8/4 from my <span class="caps">RISC</span> OS Ltd days, and that&#8217;s got the same <span class="caps">DNA</span> as OS 5.  That was when &#8220;long filenames&#8221; (and by extension, paths) became a thing, so it feels etched into my memory.</p>
-        <p>On a number of occasions I&#8217;ve had problems with Windows because <span class="caps">RISC</span> OS has allowed longer paths than Windows likes &#8211; circa 200 chars before parts of Windows bork.</p>]]>
-      </description>
-      <source:markdown>That’s odd – it should (I think) be 1024 characters at the command line but with practical limits dictated by the wimp message block which can give a limit of 219/220 (from memory – someone will no doubt correct this).
-
-I remember the 1024 command line thing from RISC OS 3.8/4 from my RISC OS Ltd days, and that’s got the same DNA as OS 5. That was when “long filenames” (and by extension, paths) became a thing, so it feels etched into my memory.
-
-On a number of occasions I’ve had problems with Windows because RISC OS has allowed longer paths than Windows likes – circa 200 chars before parts of Windows bork.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20285:162153</guid>
-    </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p>@ All testers</p>
-        <p>I have received a few assistance requests for an issue where multiple people seem to be trying to configure shared directories in root&#8217;s locations, basically in paths like the following (on Linux, macOS etc.):</p>
-        <pre>
-        /{srv|sharefs}/...
-        </pre>
-        <p>Obviously when running ShareFSServer they systematically get this error:</p>
-        <pre>
-        ERROR: Share 'YourShare' path '/{srv|sharefs}/...' does not exist or is not accessible: No such file or directory (os error 2)
-        </pre>
-        <p>Why is this happening?</p>
-        <p>1) Paths created from the root in UNIXes (the root in Unix is the &#8216;/&#8217;) almost always require root privileges, and there are good reasons for this.</p>
-        <p>2) You are running ShareFSServer with your local user account, which normally requires sudo permissions to run stuff as root.</p>
-        <p>So obviously ShareFSServer cannot access those top tree paths, unless you allow your user account for full control.</p>
-        <p>You are most likely better off to set up a couple of test directories in your user&#8217;s home path instead, which normally looks like:</p>
-        <pre>
-        /home/me/...
-        </pre>
-        <p>Apart from that, I think I have mentioned plenty of times that ShareFSServer is still in a pre-Alpha/Alpha state, so I strongly discourage (at the moment) to:</p>
-        <p>1) run tests as root<br />
-        2) use top tree directory structures</p>
-        <p>I have done my best to jail the shares, so nothing can get out of those, but please BE <span class="caps">PATIENT</span> lol, we are getting to a point where it&#8217;ll be usable and yes you&#8217;ll be able to get wild with it. I know it seems to be working fine for a bunch of regular use cases, but that doesn&#8217;t mean it&#8217;s reliable yet!</p>
-        <p>Also, next release will be sent only to users that are actively providing feedback. Sorry, but the deal was clear, so the silent ones have still got a few days to get in touch, thank you :)</p>]]>
-      </description>
-      <source:markdown>@ All testers
-
-I have received a few assistance requests for an issue where multiple people seem to be trying to configure shared directories in root’s locations, basically in paths like the following (on Linux, macOS etc.):
-
-```
-/{srv|sharefs}/...
-
-```
-
-Obviously when running ShareFSServer they systematically get this error:
-
-```
-ERROR: Share &#39;YourShare&#39; path &#39;/{srv|sharefs}/...&#39; does not exist or is not accessible: No such file or directory (os error 2)
-
-```
-
-Why is this happening?
-
-1) Paths created from the root in UNIXes (the root in Unix is the ‘/’) almost always require root privileges, and there are good reasons for this.
-
-2) You are running ShareFSServer with your local user account, which normally requires sudo permissions to run stuff as root.
-
-So obviously ShareFSServer cannot access those top tree paths, unless you allow your user account for full control.
-
-You are most likely better off to set up a couple of test directories in your user’s home path instead, which normally looks like:
-
-```
-/home/me/...
-
-```
-
-Apart from that, I think I have mentioned plenty of times that ShareFSServer is still in a pre-Alpha/Alpha state, so I strongly discourage (at the moment) to:
-
-1) run tests as root
-
-2) use top tree directory structures
-
-I have done my best to jail the shares, so nothing can get out of those, but please BE PATIENT lol, we are getting to a point where it’ll be usable and yes you’ll be able to get wild with it. I know it seems to be working fine for a bunch of regular use cases, but that doesn’t mean it’s reliable yet!
-
-Also, next release will be sent only to users that are actively providing feedback. Sorry, but the deal was clear, so the silent ones have still got a few days to get in touch, thank you :)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:162152</guid>
     </item>    <item>
       <title>Any ARM Debuggers Ported to RO5 ?</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/19151</link>
