@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.23-dev" >
-  <meta name="date" content="2026-03-08T12:00:28-07:00" >
-  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
+  <meta name="date" content="2026-03-09T12:00:30-07:00" >
+  <link type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" >
 </head>
 <body>
   <header>
@@ -19,6 +19,222 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-03-09T15:14:02Z" data-link="https://www.riscository.com/2026/riscosbits-preview-north/">
+      <h1>RISCOSbits preview for the North show</h1>
+
+(date: 2026-03-09)
+      <p>
+      <p>You know it’s the final countdown to a RISC OS show when the announcements from individual exhibitors begin to land – and so it has begun; the first announcement regarding RISC OS North has come from RISCOSbits. Here’s what Andy Marks had to say: With just under two weeks to go, RISCOSbits are pleased to be able to attend, and briefly wanted to preview just a fraction of our offer for, the upcoming RISC OS North Show. Evolutions We’ll hopefully be demonstrating an update to our FAST SATA-based RISC OS…</p>
+
+      <address>
+        <a href="https://www.riscository.com/2026/riscosbits-preview-north/">https://www.riscository.com/2026/riscosbits-preview-north/</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-09T15:05:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mgn4xgxhhc2z">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-03-09)
+      <p>
+      <p>Paging @edzitron.com <a href="https://www.theguardian.com/technology/2026/mar/09/revealed-uks-multibillion-ai-drive-is-built-on-phantom-investments">https://www.theguardian.com/technology/2026/mar/09/revealed-uks-multibillion-ai-drive-is-built-on-phantom-investments</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mgn4xgxhhc2z">https://bsky.app/profile/colinhoad.com/post/3mgn4xgxhhc2z</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-09T13:50:50Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20289">
+      <h1>Release 10 of RCI NVMe Drives (plus other news)</h1>
+
+(date: 2026-03-09)
+      <p>
+      <p>We’re pleased to announce the release of version 10 of our high performance NVMe drivers and !NVMeTools software. This is quite a major release with lots of new functionality. In no particular order, users can expect to see…</p>
+<ol>
+<li>Support for Namespaces and (by extension) multiple drives</li>
+</ol>
+<p>Namespaces are an NVMe feature found on higher end drives which allow the device to be split at a hardware level into multiple sub-drives. A drive with Namespaces actually presents itself as multiple devices to the OS allowing each to be formatted and handled completely independantly.</p>
+<p>In many ways, this is like the partition support we’d already implemented in previous versions, but drives that support Namespaces can do it at a hardware level, actively separating the disc space into separate parts. This differs from partitions which are handled at a software level.</p>
+<p>In practise, we’d expect most users to continue using normal GPT partitions as they are cross-platform and work on all drives. However, for some use cases, you may prefer the physical separation offered by Namespaces.</p>
+<ol start="2">
+<li>Extensions to S.M.A.R.T disc health</li>
+</ol>
+<p>Release 8 introduced S.M.A.R.T health support via !NVMeTools, but this has been expanded in release 10. By testing with a wide range of drives, we’ve been able to improve manufacturer compatibility and add new features such as…</p>
+<ol start="3">
+<li>S.M.A.R.T health check</li>
+</ol>
+<p>This feature allows you to run automated disc health checks as part of the S.M.A.R.T system. Both short and extended tests are available, and they are run by the drive firmware to internally validate the drive’s health, with results reported via !NVMeTools.</p>
+<ol start="4">
+<li>Hardware and software Verify</li>
+</ol>
+<p>Some NVMe drives support a hardware verify system, and this is now supported. For drives that don’t, a traditional block-by-block verify is implemented in software.</p>
+<ol start="5">
+<li>
+<p>The BlockDevices interface has been tidied up and extended, with much more info visible via *blockdevices (etc) commands. This allows users to see the hierarchy of drives, partitions, namespaces etc.</p>
+</li>
+<li>
+<p>Partitions can be hidden based on their type</p>
+</li>
+</ol>
+<p>the partition system now has some understanding of the different formats and types of partitions that exist, allowing it to be selective over which partitions to assign icons to on the iconbar. There are several benefits to this:</p>
+<ul>
+<li>
+<p>you don’t waste iconbar icons on partitions that RISC OS can’t currently handle (eg. Linux ext4, NTFS)</p>
+</li>
+<li>
+<p>by extension, you can’t then accidentally format the NTFS/Ext4 partition on a drive which is shared between two OSs.</p>
+</li>
+<li>
+<p>Windows creates “protective” tiny FAT partitions at the start of all GPT discs. These aren’t intended to be used, but exist to protect the GPT disc from damage caused by non-GPT-aware disc tools. By being aware of this type of partition, we can be sure not to allocate it a superflous icon on the iconbar.</p>
+</li>
+</ul>
+<ol start="7">
+<li>
+<p>New (g)parted command line tool for interacting with disc partitions and types on RISC OS. This was created as part of the testing of feature 6 above, but has evolved into a useful tool in its own right.</p>
+</li>
+<li>
+<p>Compatibility and the odd bug fix</p>
+</li>
+</ol>
+<p>Whilst nothing major in this category, a few (non-threatening) bugs have been squashed and a few routines updated based on testing a range of additional NVMe drives. For example, some Samsung drives are fussy about reporting S.M.A.R.T info, and this has now been accounted for.</p>
+<p>We have also experimented (successfully) building ROMs with BlockDevices built-in, although our feeling is that the flexibility offered by loading the drivers at boot is still advantageous as it allows users to run R-Comp, ROOL (nighly beta) or ROD (RISC OS Direct) ROMs interchangeably.</p>
+<p>As usual, this will be a free update for anyone with a suitable computer (N.Ex.T, Hydra, mini.pi or Pinebook Pro). The software should be available around the time of RISC OS North (21st March).</p>
+<p>Given the high performance and large feature set of the NVMe driver (not to mention the !NVMeTools software), we’re aware that many folks without RCI computers would like to use it (eg. for DIY builds etc). We’ve offered it free with NVMe drives at shows previously, but the sky-high price rises on storage make this less appealing than it was last year. We’re evaluating the best way to handle this going forwards – perhaps keep an eye on !Store?</p>
+<p>Readers should be on the lookout for a possible new R-Comp project too, which may surface at the RISC OS North Show. There will also be a PhotoDesk update, and probably NetFetch 6.01 health permitting.</p>
+<p>Finally, we note that our competition has now embraced this BlockDevices technology we’ve been championing for our NVMe drivers for the last couple of years, for their SATA computer. The technology was made Open Source to allow all RISC OS users to benefit from its modern, forward looking design, and we welcome them to the party :) We hope that other companies will join us as the C-based, 64bit-aware nature of BlockDevices makes it ideal for things like MoonShot.</p>
+<p>BlockDevices allows our NVMe drivers to post benchmarks over 600 MB/s (sometimes faster than RAM disc!) which we believe is a record. We’re pleased to see that other companies want to take advantage of the tech too.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20289">https://www.riscosopen.org/forum/forums/1/topics/20289</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-08T23:00:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mglh2qb5222p">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-03-08)
+      <p>
+      <p>32-bit ( signed ) Bentley I spotted outside our work offices a few years ago!</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mglh2qb5222p">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mglh2qb5222p</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-08T20:32:01Z" data-link="https://www.riscository.com/2026/preview-risc-os-north-21st-march/">
+      <h1>Show time looms – RISC OS North, 21st March</h1>
+
+(date: 2026-03-08, updated: 2026-03-09)
+      <p>
+      <p>Two weeks from now, it’ll all be over. By this time on Sunday, 22nd March, I’ll probably be either home or possibly driving back towards the bunker, having enjoyed the previous day. But what about you? Will you have been there, or will you have missed it? I am of course talking about the second RISC OS North event, which will take place on Saturday, 21st March, at the Village Hotel Warrington. As ever for a RISC OS show, the main hall will be filled with a wide range of…</p>
+
+      <address>
+        <a href="https://www.riscository.com/2026/preview-risc-os-north-21st-march/">https://www.riscository.com/2026/preview-risc-os-north-21st-march/</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-08T20:15:00Z" data-link="https://bsky.app/profile/riscosbits.co.uk/post/3mgl5thzvnc2s">
+      <h1>@riscosbits.co.uk</h1>
+
+(date: 2026-03-08)
+      <p>
+      <p>What will we be up to at RISC OS North 2026? Here's a brief preview...</p>
+<p><a href="https://www.riscosopen.org/forum/forums/1/topics/20288">https://www.riscosopen.org/forum/forums/1/topics/20288</a></p>
+<p>#riscosnorth2026
+#risc_os
+#acorncomputers</p>
+
+      <address>
+        <a href="https://bsky.app/profile/riscosbits.co.uk/post/3mgl5thzvnc2s">https://bsky.app/profile/riscosbits.co.uk/post/3mgl5thzvnc2s</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-08T19:58:58Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20288">
+      <h1>RISCOSbits at RISC OS North 2026</h1>
+
+(date: 2026-03-08)
+      <p>
+      <p>With just under two weeks to go, RISCOSbits are pleased to be able to attend, and briefly wanted to preview just a fraction of our offer for, the upcoming RISC OS North Show.</p>
+<p><strong>Evolutions</strong></p>
+<p>We’ll hopefully be demonstrating an update to our FASTSATA-based RISC OS systems, to incorporate open source block device drivers. As with other block device based filing systems, this introduces partitioning, particularly useful with larger drives, and also additional speed improvements – is it the fastest disc-based filesystem available? We’re currently working with other RISC OS luminaries to ensure that available tools will work with our new SATAFS out of the box.</p>
+<p>We’ll hopefully have stock of machines and kits to take away on the day!</p>
+<p><strong>Stability</strong></p>
+<p>We’ll also be demonstrating our free and completely open source NVMe Drivers and some of the latest compatibility developments. We’ll be showing off the current stable feature-set on the day, many enabled by custom GUI tools for RISC OS:</p>
+<ul>
+<li>Rudimentary direct NVMe booting</li>
+<li>4K drives up to 2TB</li>
+<li>Multi-format drives</li>
+<li>Namespaces</li>
+</ul>
+<p>Many of these functions have been present from the first iterations of our drivers, and demonstrated at past shows and club meetings, but we’re aware that not everyone has picked up on them. But we still have plans for the future!</p>
+<p>And for those with some curiosity (and money to burn!), Namespaces is a form of hardware-based partitioning of larger drives, into multiple-format, separate drives. Prices for these drives are at a premium, often triple (or more!) the cost of similar capacity consumer devices, and with current pricing being as it is, we’re risking being Jim Bowen and telling you to ‘look at what you could have won!’ Whilst we aren’t in a position to supply Namespace drives unless specifically requested, we can advise you on compatible drives and prices, including often elusive 2280 variants of these ‘enterprise’ class devices.</p>
+<p>FreeNVMe systems will also be available on the day to take away, both pre-built and in DIY Kit form, often at ‘old’ prices as we use up our stock of components bought before the global price hike.</p>
+<p><strong>Portable Curios</strong></p>
+<p>We’ll have a couple of portable ‘curios’ for you to look at, which we’re contemplating offering as DIY products and self-build guides. We’re not telling you too much now, but giving you an insight to recent developments at RISCOSbits HQ.</p>
+<p>The first is an Argon One Up laptop with integrated Compute Module 5, running RISC OS via both RISC OS on Linux, and RPCemu. See just how fantastically well it works with RISC OS in situ, and how multiple operating systems can work on the same system at the same time! And when we say ‘multiple’ we don’t just mean different versions of RISC OS!</p>
+<p>We’ll also show off a gadget perhaps best described as a ‘terminal’ that works very nicely with RISC OS. Keep an eye on our <a href="https://riscosbits.blog">blog</a> for a preview of the device in the run up to the show, and also keep an eye on upcoming issues of Archive Magazine for a much more detailed overview!</p>
+<p>We also need to make a bit of space in our kit room, so we may have a few bargain older portable systems available on the day.</p>
+<p><strong>Just browsing?</strong></p>
+<p>We’ll also have a couple of ‘RISC OS in a Browser’ tools that you may find Remotely interesting as you Roam around the show. Pop over and have a look!</p>
+<p>Keep an eye open for more detailed announcements in the coming days, but we just wanted the whet your appetite for what will hopefully turn out to be a great show!</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20288">https://www.riscosopen.org/forum/forums/1/topics/20288</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-08T19:21:19Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20286">
+      <h1>Live Coding with Gerph, Sunday 8th March at 1pm UK time.</h1>
+
+(date: 2026-03-08)
+      <p>
+      <p>Lots of debugging, to work out where things went wrong… as expected the majority of the problem was in the assembler code, though there were some dumb bits in the C implementation too…</p>
+<p>Assembler integration errors:</p>
+<ul>
+<li>`OS_Find` was always returning failure due to a mix up in `VS`/`VC`.</li>
+<li>`OS_GBPB` wasn’t being called (copy and paste error where `OS_Args` was used instead)</li>
+<li>`OS_BGet` wasn’t working because I was passing in the file handle in R0, not R1.</li>
+<li>SWI entry points weren’t being handled properly, because the R1 value is passed in `userptr`, not R1. Although R1 is commonly the right register.</li>
+<li>Division problems with the `__rt_udiv` function wasn’t implemented right (not sure why; I thought my DivRem use was fine, but apparently not… pinched the version from SCL’s RTSK).</li>
+</ul>
+<p>Interface errors in the C code:</p>
+<ul>
+<li>Failure to check errors in a couple of places.</li>
+<li>Misimplementation of the read size interface meant that some calls were not handled properly.</li>
+</ul>
+<p>So now it loads and works mostly fine (still something odd with NetSurf), but ONLY if the debug is left enabled. So there’s still something odd in there.</p>
+<p>The bulk of the issues (and the hardest part of debugging) came from the integration into the assembly code.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20286">https://www.riscosopen.org/forum/forums/1/topics/20286</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-08T18:28:54Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20259">
+      <h1>This site</h1>
+
+(date: 2026-03-08)
+      <p>
+      <p>Just tried it again. Same error. Version of Iris as supplied with the current issue of RISC OS Direct.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20259">https://www.riscosopen.org/forum/forums/5/topics/20259</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-08T17:47:43Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
+      <h1>MuView and rendering PDF pages</h1>
+
+(date: 2026-03-08)
+      <p>
+      <p>Not sure what you mean by an “e-book” file. Depends what reader you are using on Android, but most will handle .pdf files and also .cbz “comic book” files. These latter are just .zip files containing consecutively numbered .jpg files with a different file extension.</p>
+<p>I don’t know offhand of any tool which can convert a set of NetPBM images to a single PDF. ImageMagick 7 on RISC OS can convert ONE file to a .pdf but not a set—you would need a way of calling it repeatedly on each of the files and then using one of the tools accessed via !KPDFUtils to join each of the PDFs together. ImageMagick 6 on this RPi 500+ (RPi OS = Debian Bookworm) crashes running out of cache if this is attempted.</p>
+<p>img2pdf running on Linux can’t handle NetPBM files. It is fine with .jpgs or .pngs, but there is a difference—and an unexpected one: the greyscale file produced by my threshold program (using Otsu’s method) if generated from JPEGs is actually larger than the original colour file (255Mb; the colour file is 155Mb) whereas that produced using .pngs is only 35Mb. Since this is a thresholded file I should be able to convert the images to monochrome; I’ll look into it.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
+      </address>
+    </article>
 
     <article data-published="2026-03-08T17:02:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mgkt2kbqj22p">
       <h1>@kevedwardsretro.bsky.social</h1>
@@ -57,6 +273,34 @@
       </address>
     </article>
 
+    <article data-published="2026-03-08T14:35:00Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
+      <h1>Need volunteers to start testing my new ShareFSServer</h1>
+
+(date: 2026-03-08)
+      <p>
+      <blockquote>
+<p>If the file extension on the server isn’t one that you have a configured transform to RISC OS file type for, how about just presenting leafname/extension to the RISC OS client? e.g. MyFile/html~</p>
+</blockquote>
+<p>This is a good idea, thanks! Easy to add too, so it’s int he list now :)</p>
+<p>However, I think there are still scenarios where a user may want to filter out certain objects by pattern recognition in the file-name, extension etc.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-08T14:30:05Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/14646">
+      <h1>Printing</h1>
+
+(date: 2026-03-08)
+      <p>
+      <p>Thanks, Martin, I tried it, but I couldn’t get it to do anything useful. Files over 1MB are a problem for it; the first one I tried is a little over 2MB. The JPEG it created for me was not of my file’s contents, but of a screenshot of its own summary web page.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/14646">https://www.riscosopen.org/forum/forums/5/topics/14646</a>
+      </address>
+    </article>
+
     <article data-published="2026-03-08T14:10:01Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20284">
       <h1>RISC OS North - March 21st 2026</h1>
 
@@ -83,34 +327,6 @@
       </address>
     </article>
 
-    <article data-published="2026-03-08T12:47:37Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20286">
-      <h1>Live Coding with Gerph, Sunday 8th March at 1pm UK time.</h1>
-
-(date: 2026-03-08)
-      <p>
-      <p>Live in about 10 minutes.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20286">https://www.riscosopen.org/forum/forums/1/topics/20286</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-08T12:35:02Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/14646">
-      <h1>Printing</h1>
-
-(date: 2026-03-08)
-      <p>
-      <p>I’m still struggling to generate correct URF files. The definition is proprietary to Apple, so they aren’t going to make it available to me.</p>
-<p>Does anyone know of a URF reader/verifier?</p>
-<p>I’ve experimented with various URF files, and some subsequent binary edits of them. What I often see is that, when sent to the printer, the job is reported as aborted rather than completed successfully, even if the page has printed. I’ve also seen one that prints and is reported as having completed successfully, but the printer has a message on its screen complaining that the paper size in the tray is incorrect and asks me to load the correct size.</p>
-<p>When a printer aborts a job, it returns job state reasons, which are always document format error. OK, it’s nice to tell me why it’s failed, but of course it’s not the printer’s job to tell me exactly what the error is or where exactly I should look in the file I sent. Which leaves me better informed but no wiser.</p>
-<p>I tried using the RISC OS port of ipptransform to generate some URF files to learn from. This has been less enlightening than I had hoped because it seems to produce files suitable for enormous margins, but I can’t see what ipptransform’s assumed margins are, nor any way to influence them.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/14646">https://www.riscosopen.org/forum/forums/5/topics/14646</a>
-      </address>
-    </article>
-
     <article data-published="2026-03-08T09:33:00Z" data-link="http://www.iconbar.com/comments/rss/news2307.html">
       <h1>RISC OS North show is less than 2 weeks away</h1>
 
@@ -133,61 +349,6 @@
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mgis3ntfe227">https://bsky.app/profile/nemo20000.bsky.social/post/3mgis3ntfe227</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-07T20:19:38Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20259">
-      <h1>This site</h1>
-
-(date: 2026-03-07)
-      <p>
-      <p>Only just saw this. It’s not something I’ve had reported before.</p>
-<p>That said, after a renewal failure issue a day or two ago, I gave up on Sectigo and switched to Let’s Encrypt, so we’re now using a totally different cert provider for the first time in a long time. There might be server misconfiguration issues on ours side related to TLS, or it might just be Iris objecting to specific cert issues – so, perhaps it’s OK with the newer cert? Worth another check.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20259">https://www.riscosopen.org/forum/forums/5/topics/20259</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-07T15:13:16Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
-      <h1>MuView and rendering PDF pages</h1>
-
-(date: 2026-03-07)
-      <p>
-      <p>Jim,</p>
-<p>The demo convert ‘one page at a time’, this is your script, for each page the statistics tables are calculated and applied.</p>
-<p>I don’t know how many pages you converted (50 in the scipt), but what is interesting is to make a comparison with the pages obtained.</p>
-<p>Attention, when using the ram disc, the 50 ppm file directory represents 750MB, it will be the same for the other two folders. To be cleaned after use.</p>
-<p>I used changFSI to modify the P6 format into sprites in order to load them for processing, we should be able to do this conversion differently. ChangeFsi can be interesting because it allows you to change the drawing scale, but I’m afraid we’ll lose information.</p>
-<p>The best use of ChangeFSI would be to apply it to deoxed files to make them black and white and make them the right size and reduce file size.</p>
-<p>Note je peux faire un essai de sauvegarder les fichiers en S8 au lieu de S32 dans mon programme de démo…</p>
-<p>Résultat à vérifier.</p>
-<p>No problem modifying DetoxPageW, I will add the development folder in the zip.</p>
-<p>I think it’s good to continue with Compo to work out the ‘cleaning’</p>
-<p>You are right about the old mags/books, but you are on the right track.</p>
-<p>Important question, what is the output format, am I talking about dimension?</p>
-<p>I am waiting for your article to have more details on the statistical methods used, I have the first 3 pages….</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-07T15:10:23Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
-      <h1>Need volunteers to start testing my new ShareFSServer</h1>
-
-(date: 2026-03-07)
-      <p>
-      <blockquote>
-<p>Wouldn’t you just write it as a FUSE backend?</p>
-</blockquote>
-<p>Yes I suppose FUSE is a really good option in this case. Good idea! :)</p>
-<p>@ everyone</p>
-<p>Emails with links are out, please download the new version, and let me know how this one goes, thank you and have fun! :)</p>
-<p>P.S. It’s my GF brithday today, so I won’t be responsive as usual, will check emails later tonight or tomorrow, thank you.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
       </address>
     </article>
 
@@ -553,7 +714,7 @@ File Names - leaf name only
     <article data-published="2026-03-02T19:47:10Z" data-link="https://www.riscository.com/2026/messenger-for-email-wrocc-4th-march/">
       <h1>Setting up and Using Messenger for email – WROCC, 4th March</h1>
 
-(date: 2026-03-02)
+(date: 2026-03-02, updated: 2026-03-09)
       <p>
       <p>The next meeting of the Wakefield RISC OS Computer Club (WROCC) will take place on Wednesday 4th, March, at which the club’s own Chris Hughes will be delivering a talk on email and usenet access. More specifically, this is a follow-up talk to the one given by Martin Avison back in November, showing how to set up Pluto and Anti-Spam for accessing email. Chris will therefore be showing how to do the same using the commercial software available from R-Comp – Messenger Pro and Netfetch/Hermes. He will cover its set…</p>
 
@@ -771,7 +932,7 @@ LANDING THERE</p>
     <article data-published="2026-02-28T13:55:50Z" data-link="https://www.riscository.com/2026/kevsoft-quiz-engine-released/">
       <h1>Kevsoft’s Quiz creator released</h1>
 
-(date: 2026-02-28, updated: 2026-03-02)
+(date: 2026-02-28, updated: 2026-03-09)
       <p>
       <p>When Kevin Wells released FlagQuiz in late 2025, along with a couple of subsequent updates, he said that his plan was to make it possible for people to create their own quizzes using the software – and he has now met that goal with the release of The Kevsoft Quiz Engine. As well as two files that can be downloaded (although it appears only one – the skeleton ‘MyQuiz’ is needed until and unless the Quiz Engine itself – which is currently at version 1.02 – is updated), the page…</p>
 
@@ -1274,7 +1435,7 @@ Unset Alias$Set
     <article data-published="2026-02-22T13:35:07Z" data-link="https://www.riscository.com/2026/voices-from-a-future-passed-available-1st-march/">
       <h1>Voices from a Future Passed – on sale from 1st March</h1>
 
-(date: 2026-02-22, updated: 2026-03-02)
+(date: 2026-02-22, updated: 2026-03-09)
       <p>
       <p>The official Acorn biography, Voices from a Future Passed, put together by Rob Napier, will be available to buy from 1st March. The book outlines the history of Acorn Computers Ltd – the company that brought us the BBC Micro home computer, amongst many others, and designed the original ARM processor. The ARM first became the heart of their next generation of computers before going on to dominate the world when it came mobile and low-power processing; there are now many times more ARMs in the world than there are,…</p>
 
@@ -1286,7 +1447,7 @@ Unset Alias$Set
     <article data-published="2026-02-22T12:51:13Z" data-link="https://www.riscository.com/2026/traintimes-2-09/">
       <h1>Grok your railway stations in TrainTimes</h1>
 
-(date: 2026-02-22, updated: 2026-03-02)
+(date: 2026-02-22, updated: 2026-03-09)
       <p>
       <p>A new version of TrainTimes (2.09) has been released by Kevin Wells, featuring the ability to link to a second online encyclopaedia to look up information about railway stations, as well as a small fix for using the first. TrainTimes is an application that makes use of Wget to allow people using RISC OS to look up railway timetables and related information from online resources, without using a web browser (which on RISC OS might not entirely work, and may mean resorting to another platform). In this case those resources…</p>
 
@@ -1990,7 +2151,7 @@ youtu.be/6Mtl5vua9t4<a href="https://youtu.be/6Mtl5vua9t4">https://youtu.be/6Mtl
     <article data-published="2026-02-11T18:44:37Z" data-link="https://www.riscository.com/2026/colin-hoade-rougol-16th-february/">
       <h1>Retro YouTube, and pocket computers – ROUGOL, 16th February</h1>
 
-(date: 2026-02-11, updated: 2026-03-02)
+(date: 2026-02-11, updated: 2026-03-09)
       <p>
       <p>The RISC OS User Group of London (ROUGOL) will next meet up on Monday, 16th February, and the guest speaker – who will be visiting the group in person – will be Colin Hoad. Colin runs a YouTube channel, which focuses on Acorn-centric retro content, particularly related to the BBC Micro, and includes retrospectives and reviews of games for the 8-bit systems, features on events he has visited such as the 2024 RISC OS London Show (unfortunately, Colin couldn’t make it to the 2025 event), and he even forced himself…</p>
 
@@ -2373,7 +2534,7 @@ youtu.be/6Mtl5vua9t4<a href="https://youtu.be/6Mtl5vua9t4">https://youtu.be/6Mtl
     <article data-published="2026-02-06T11:02:02Z" data-link="https://www.riscository.com/2026/developers-fireside-chat-7th-february/">
       <h1>Developers’ fireside chat – 7th February</h1>
 
-(date: 2026-02-06, updated: 2026-03-02)
+(date: 2026-02-06, updated: 2026-03-09)
       <p>
       <p>Saturday, 7th February offers people involved or interested in software development for RISC OS the opportunity to once again to meet up online and discuss the issues and problems they face, seek help, offer advice, demonstrate what they’re working on, or just generally chat about the things programmers like to chat about. The meetings take place using the Zoom video conferencing software, which is available for most platforms. They are wholly informal and don’t follow a set agenda – those present steer the conversation as the evening progresses – and…</p>
 
@@ -2771,7 +2932,7 @@ youtu.be/6Mtl5vua9t4<a href="https://youtu.be/6Mtl5vua9t4">https://youtu.be/6Mtl
     <article data-published="2026-02-02T16:45:02Z" data-link="https://www.riscository.com/2026/scummvm-2026-1-0-released/">
       <h1>ScummVM 2026.1.0 released</h1>
 
-(date: 2026-02-02, updated: 2026-03-02)
+(date: 2026-02-02, updated: 2026-03-09)
       <p>
       <p>With support for a dozen new game engines, and with them a raft of additional games, ScummVM has seen a new release. The original purpose of the software was to make it possible to play games on modern computers that were originally written using a particular system – LucasArts’ Script Creation Utility for Maniac Mansion. Since its original release, ScummVM has expanded far beyond that and now supports a range of similar engines, and therefore a plethora of games. It’s maintained by a team of developers, and here in the…</p>
 
@@ -2980,7 +3141,7 @@ youtu.be/6Mtl5vua9t4<a href="https://youtu.be/6Mtl5vua9t4">https://youtu.be/6Mtl
     <article data-published="2026-01-31T17:00:03Z" data-link="https://www.riscository.com/2026/mug-20th-birthday/">
       <h1>MUG marks its 20th birthday</h1>
 
-(date: 2026-01-31, updated: 2026-03-02)
+(date: 2026-01-31, updated: 2026-03-09)
       <p>
       <p>On Wednesday, 4th February, it will have been twenty years to the day since the Midlands User Group (MUG) held its first meeting, and will be getting together in a pub on the day to celebrate that anniversary. On the 4th February, 2006, a small cohort of RISC OS users in the Midlands area gathered together in the home of one – Robin Edwards of Serious Statistical Software, who is sadly no longer with us – and decided to formalise the group and hold regular meetings – initially settling on…</p>
 
