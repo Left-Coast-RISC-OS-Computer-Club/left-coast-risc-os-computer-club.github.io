@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.23-dev" >
-  <meta name="date" content="2026-03-09T12:00:30-07:00" >
-  <link type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" >
+  <meta name="date" content="2026-03-10T12:00:29-07:00" >
+  <link href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" type="application/rss+xml" >
 </head>
 <body>
   <header>
@@ -19,6 +19,18 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-03-09T23:15:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mgnydy7vqk2h">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-03-09)
+      <p>
+      <p>My Beeb is still not well, but I have at least found a solid, consistent test that proves it's broken... Zalaga! @nickpelling.bsky.social 's masterpiece delivers the results in a dazzling firework display of burst pixels, every time...</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mgnydy7vqk2h">https://bsky.app/profile/colinhoad.com/post/3mgnydy7vqk2h</a>
+      </address>
+    </article>
 
     <article data-published="2026-03-09T15:14:02Z" data-link="https://www.riscository.com/2026/riscosbits-preview-north/">
       <h1>RISCOSbits preview for the North show</h1>
@@ -109,6 +121,59 @@
       </address>
     </article>
 
+    <article data-published="2026-03-09T11:39:15Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
+      <h1>MuView and rendering PDF pages</h1>
+
+(date: 2026-03-09)
+      <p>
+      <p>There’s an ebook format which MuVue renders where rhe content is ‘xml-like’ text. But it can also contain a series of bitmaps IIUC. Nice results, compact. But by its nature doesn’t suffer from browning of the rendered result.</p>
+<p>However the puzzle I’ve just stumbled over is as follows: I’ll use EQMM 1973 03 as the example..</p>
+<p>(In some places below ‘I’ can mean someone else smarter than me! :-) )</p>
+<p>If I use the KPDFutils I can list the images it contains. They all show up as jpegs. So I can thene extract them. However for processing I’d prefer to use a plain ‘bitmap’ of the PBM P6 type.</p>
+<p>If I export as PBMs I get a set of files. But they show having <strong>fewer</strong> pixels than the jpegs!</p>
+<p>The exported list shows the page scans all being 1920 pixels wide. That is the size of the jpegs.</p>
+<p>But the exported PBMs are only 1275 pixels wide!!</p>
+<p>The PBMs I can process directly into detoxed page bitmaps to poke into a ‘cleaned’ version of the PDF. But it raises the question of if it will look poorer than processing the jpegs… which will also need more processing effort and run slower.</p>
+<p>Questions for those who know more than me: Why this difference, and will I in reality lose much by simply choosing PBM and then generating a DeToxed version containing P5 PBMs? Or would processing the larger (in pixels) jpegs give better results after a sloooow process? My inclination is to go for PBM as I know how to do that. So it would be nice to know this doesn’t mean I’ve degraded the result!</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-09T11:25:05Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
+      <h1>Need volunteers to start testing my new ShareFSServer</h1>
+
+(date: 2026-03-09)
+      <p>
+      <blockquote>
+<p>Jon Abbott is adapting !CDFaker to the Archimedes</p>
+</blockquote>
+<p>I have noticed a potential issue whilst testing this on an A440/1 with ARM3. If I mount a CD-Audio image via ShareFS and play it, all good. If I then jump tracks whilst it’s playing, it will invariably show a Red hourglass with a percentage count-down that takes 15-20 seconds to read ~300KB via ShareFS.</p>
+<p>An AI search tells me a red hourglass that counts down is an legacy Acorn thing, indicating network throttling so I suspect the combination of audio playing and the network trying to read 300Kb is probably too much for an ARM3. I’ll probably mitigate it by shutting down the audio handler when it needs to pre-cache audio after a skip/track change, so it’s not a major issue.</p>
+<p>Anyway, I note it here as I’ve never seen a red hourglass in 40 years of Acorn networking.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-09T07:16:23Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20259">
+      <h1>This site</h1>
+
+(date: 2026-03-09)
+      <p>
+      <blockquote>
+<p>Just tried it again. Same error. Version of Iris as supplied with the current issue of RISC OS Direct.</p>
+</blockquote>
+<p>I can confirm this issue on a new RISC OS Direct instance. However the version of Iris supplied is very old, 1.029 06-Dec-23.</p>
+<p>The current Iris, 1.037 21-Jul-25, is just fine.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20259">https://www.riscosopen.org/forum/forums/5/topics/20259</a>
+      </address>
+    </article>
+
     <article data-published="2026-03-08T23:00:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mglh2qb5222p">
       <h1>@kevedwardsretro.bsky.social</h1>
 
@@ -118,6 +183,18 @@
 
       <address>
         <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mglh2qb5222p">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mglh2qb5222p</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-08T21:39:32Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/14646">
+      <h1>Printing</h1>
+
+(date: 2026-03-08)
+      <p>
+      <p>Wouldn’t you believe it. Now that bleeding HP thing has decided it can no longer handle paper.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/14646">https://www.riscosopen.org/forum/forums/5/topics/14646</a>
       </address>
     </article>
 
@@ -210,32 +287,6 @@
       </address>
     </article>
 
-    <article data-published="2026-03-08T18:28:54Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20259">
-      <h1>This site</h1>
-
-(date: 2026-03-08)
-      <p>
-      <p>Just tried it again. Same error. Version of Iris as supplied with the current issue of RISC OS Direct.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20259">https://www.riscosopen.org/forum/forums/5/topics/20259</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-08T17:47:43Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
-      <h1>MuView and rendering PDF pages</h1>
-
-(date: 2026-03-08)
-      <p>
-      <p>Not sure what you mean by an “e-book” file. Depends what reader you are using on Android, but most will handle .pdf files and also .cbz “comic book” files. These latter are just .zip files containing consecutively numbered .jpg files with a different file extension.</p>
-<p>I don’t know offhand of any tool which can convert a set of NetPBM images to a single PDF. ImageMagick 7 on RISC OS can convert ONE file to a .pdf but not a set—you would need a way of calling it repeatedly on each of the files and then using one of the tools accessed via !KPDFUtils to join each of the PDFs together. ImageMagick 6 on this RPi 500+ (RPi OS = Debian Bookworm) crashes running out of cache if this is attempted.</p>
-<p>img2pdf running on Linux can’t handle NetPBM files. It is fine with .jpgs or .pngs, but there is a difference—and an unexpected one: the greyscale file produced by my threshold program (using Otsu’s method) if generated from JPEGs is actually larger than the original colour file (255Mb; the colour file is 155Mb) whereas that produced using .pngs is only 35Mb. Since this is a thresholded file I should be able to convert the images to monochrome; I’ll look into it.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
-      </address>
-    </article>
-
     <article data-published="2026-03-08T17:02:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mgkt2kbqj22p">
       <h1>@kevedwardsretro.bsky.social</h1>
 
@@ -270,34 +321,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20138">https://www.riscosopen.org/forum/forums/1/topics/20138</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-08T14:35:00Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
-      <h1>Need volunteers to start testing my new ShareFSServer</h1>
-
-(date: 2026-03-08)
-      <p>
-      <blockquote>
-<p>If the file extension on the server isn’t one that you have a configured transform to RISC OS file type for, how about just presenting leafname/extension to the RISC OS client? e.g. MyFile/html~</p>
-</blockquote>
-<p>This is a good idea, thanks! Easy to add too, so it’s int he list now :)</p>
-<p>However, I think there are still scenarios where a user may want to filter out certain objects by pattern recognition in the file-name, extension etc.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-08T14:30:05Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/14646">
-      <h1>Printing</h1>
-
-(date: 2026-03-08)
-      <p>
-      <p>Thanks, Martin, I tried it, but I couldn’t get it to do anything useful. Files over 1MB are a problem for it; the first one I tried is a little over 2MB. The JPEG it created for me was not of my file’s contents, but of a screenshot of its own summary web page.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/14646">https://www.riscosopen.org/forum/forums/5/topics/14646</a>
       </address>
     </article>
 

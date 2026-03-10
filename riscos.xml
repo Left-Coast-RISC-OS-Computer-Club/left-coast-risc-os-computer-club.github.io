@@ -7,10 +7,17 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>09 Mar 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>10 Mar 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23-dev</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mgnydy7vqk2h</link>
+      <description>
+        <![CDATA[My Beeb is still not well, but I have at least found a solid, consistent test that proves it's broken... Zalaga! @nickpelling.bsky.social 's masterpiece delivers the results in a dazzling firework display of burst pixels, every time...]]>
+      </description>
+      <source:markdown>My Beeb is still not well, but I have at least found a solid, consistent test that proves it&#39;s broken... Zalaga! @nickpelling.bsky.social &#39;s masterpiece delivers the results in a dazzling firework display of burst pixels, every time...</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mgnydy7vqk2h</guid>
+    </item>    <item>
       <title>RISCOSbits preview for the North show</title>
       <link>https://www.riscository.com/2026/riscosbits-preview-north/</link>
       <description>
@@ -115,12 +122,87 @@ Finally, we note that our competition has now embraced this BlockDevices technol
 BlockDevices allows our NVMe drivers to post benchmarks over 600 MB/s (sometimes faster than RAM disc!) which we believe is a record. We’re pleased to see that other companies want to take advantage of the tech too.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20289:162218</guid>
     </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>There&#8217;s an ebook format which MuVue renders where rhe content is &#8216;xml-like&#8217; text. But it can also contain a series of bitmaps <span class="caps">IIUC</span>. Nice results, compact. But by its nature doesn&#8217;t suffer from browning of the rendered result.</p>
+        <p>However the puzzle I&#8217;ve just stumbled over is as follows:  I&#8217;ll use <span class="caps">EQMM</span> 1973 03 as the example..</p>
+        <p>(In some places below &#8216;I&#8217; can mean someone else smarter than me!  :-) )</p>
+        <p>If I use the KPDFutils I can list the images it contains. They all show up as jpegs. So I can thene extract them. However for processing I&#8217;d prefer to use a plain &#8216;bitmap&#8217; of the <span class="caps">PBM</span> P6 type.</p>
+        <p>If I export as PBMs I get a set of files. But they show having <strong>fewer</strong> pixels than the jpegs!</p>
+        <p>The exported list shows the page scans all being 1920 pixels wide. That is the size of the jpegs.</p>
+        <p>But the exported PBMs are only 1275 pixels wide!!</p>
+        <p>The PBMs I can process directly into detoxed page bitmaps to poke into a &#8216;cleaned&#8217; version of the <span class="caps">PDF</span>. But it raises the question of if it will look poorer than processing the jpegs&#8230; which will also need more processing effort and run slower.</p>
+        <p>Questions for those who know more than me: Why this difference, and will I in reality lose much by simply choosing <span class="caps">PBM</span> and then generating a DeToxed version containing P5 PBMs? Or would processing the larger (in pixels) jpegs give better results after a sloooow process? My inclination is to go for <span class="caps">PBM</span> as I know how to do that. So it would be nice to know this doesn&#8217;t mean I&#8217;ve degraded the result!</p>]]>
+      </description>
+      <source:markdown>There’s an ebook format which MuVue renders where rhe content is ‘xml-like’ text. But it can also contain a series of bitmaps IIUC. Nice results, compact. But by its nature doesn’t suffer from browning of the rendered result.
+
+However the puzzle I’ve just stumbled over is as follows: I’ll use EQMM 1973 03 as the example..
+
+(In some places below ‘I’ can mean someone else smarter than me! :-) )
+
+If I use the KPDFutils I can list the images it contains. They all show up as jpegs. So I can thene extract them. However for processing I’d prefer to use a plain ‘bitmap’ of the PBM P6 type.
+
+If I export as PBMs I get a set of files. But they show having **fewer** pixels than the jpegs!
+
+The exported list shows the page scans all being 1920 pixels wide. That is the size of the jpegs.
+
+But the exported PBMs are only 1275 pixels wide!!
+
+The PBMs I can process directly into detoxed page bitmaps to poke into a ‘cleaned’ version of the PDF. But it raises the question of if it will look poorer than processing the jpegs… which will also need more processing effort and run slower.
+
+Questions for those who know more than me: Why this difference, and will I in reality lose much by simply choosing PBM and then generating a DeToxed version containing P5 PBMs? Or would processing the larger (in pixels) jpegs give better results after a sloooow process? My inclination is to go for PBM as I know how to do that. So it would be nice to know this doesn’t mean I’ve degraded the result!</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162216</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Jon Abbott is adapting !CDFaker to the Archimedes</p>
+        </blockquote>
+        <p>I have noticed a potential issue whilst testing this on an A440/1 with ARM3.  If I mount a CD-Audio image via ShareFS and play it, all good.  If I then jump tracks whilst it&#8217;s playing, it will invariably show a Red hourglass with a percentage count-down that takes 15-20 seconds to read ~300KB via ShareFS.</p>
+        <p>An AI search tells me a red hourglass that counts down is an legacy Acorn thing, indicating network throttling so I suspect the combination of audio playing and the network trying to read 300Kb is probably too much for an ARM3.  I&#8217;ll probably mitigate it by shutting down the audio handler when it needs to pre-cache audio after a skip/track change, so it&#8217;s not a major issue.</p>
+        <p>Anyway, I note it here as I&#8217;ve never seen a red hourglass in 40 years of Acorn networking.</p>]]>
+      </description>
+      <source:markdown>&#62; Jon Abbott is adapting !CDFaker to the Archimedes
+
+I have noticed a potential issue whilst testing this on an A440/1 with ARM3. If I mount a CD-Audio image via ShareFS and play it, all good. If I then jump tracks whilst it’s playing, it will invariably show a Red hourglass with a percentage count-down that takes 15-20 seconds to read ~300KB via ShareFS.
+
+An AI search tells me a red hourglass that counts down is an legacy Acorn thing, indicating network throttling so I suspect the combination of audio playing and the network trying to read 300Kb is probably too much for an ARM3. I’ll probably mitigate it by shutting down the audio handler when it needs to pre-cache audio after a skip/track change, so it’s not a major issue.
+
+Anyway, I note it here as I’ve never seen a red hourglass in 40 years of Acorn networking.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:162215</guid>
+    </item>    <item>
+      <title>This site</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20259</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Just tried it again. Same error. Version of Iris as supplied with the current issue of <span class="caps">RISC</span> OS Direct.</p>
+        </blockquote>
+        <p>I can confirm this issue on a new <span class="caps">RISC</span> OS Direct instance. However the version of Iris supplied is very old, 1.029 06-Dec-23.</p>
+        <p>The current Iris, 1.037 21-Jul-25, is just fine.</p>]]>
+      </description>
+      <source:markdown>&#62; Just tried it again. Same error. Version of Iris as supplied with the current issue of RISC OS Direct.
+
+I can confirm this issue on a new RISC OS Direct instance. However the version of Iris supplied is very old, 1.029 06-Dec-23.
+
+The current Iris, 1.037 21-Jul-25, is just fine.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20259:162214</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mglh2qb5222p</link>
       <description>
         <![CDATA[32-bit ( signed ) Bentley I spotted outside our work offices a few years ago!]]>
       </description>
       <source:markdown>32-bit ( signed ) Bentley I spotted outside our work offices a few years ago!</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mglh2qb5222p</guid>
+    </item>    <item>
+      <title>Printing</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/14646</link>
+      <description>
+        <![CDATA[<p>Wouldn&#8217;t you believe it.  Now that bleeding HP thing has decided it can no longer handle paper.</p>]]>
+      </description>
+      <source:markdown>Wouldn’t you believe it. Now that bleeding HP thing has decided it can no longer handle paper.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:14646:162213</guid>
     </item>    <item>
       <title>Show time looms – RISC OS North, 21st March</title>
       <link>https://www.riscository.com/2026/preview-risc-os-north-21st-march/</link>
@@ -256,28 +338,6 @@ So now it loads and works mostly fine (still something odd with NetSurf), but ON
 The bulk of the issues (and the hardest part of debugging) came from the integration into the assembly code.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20286:162210</guid>
     </item>    <item>
-      <title>This site</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20259</link>
-      <description>
-        <![CDATA[<p>Just tried it again. Same error. Version of Iris as supplied with the current issue of <span class="caps">RISC</span> OS Direct.</p>]]>
-      </description>
-      <source:markdown>Just tried it again. Same error. Version of Iris as supplied with the current issue of RISC OS Direct.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20259:162208</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>Not sure what you mean by an &#8220;e-book&#8221; file. Depends what reader you are using on Android, but most will handle .pdf files and also .cbz &#8220;comic book&#8221; files. These latter are just .zip files containing consecutively numbered .jpg files with a different file extension.</p>
-        <p>I don&#8217;t know offhand of any tool which can convert a set of NetPBM images to a single <span class="caps">PDF</span>. ImageMagick 7 on <span class="caps">RISC</span> OS can convert <span class="caps">ONE</span> file to a .pdf but not a set&#8212;you would need a way of calling it repeatedly on each of the files and then using one of the tools accessed via !KPDFUtils to join each of the PDFs together. ImageMagick 6 on this RPi 500+ (RPi OS = Debian Bookworm) crashes running out of cache if this is attempted.</p>
-        <p>img2pdf running on Linux can&#8217;t handle NetPBM files. It is fine with .jpgs or .pngs, but there is a difference&#8212;and an unexpected one: the greyscale file produced by my threshold program (using Otsu&#8217;s method) if generated from JPEGs is actually larger than the original colour file (255Mb; the colour file is 155Mb) whereas that produced using .pngs is only 35Mb. Since this is a thresholded file I should be able to convert the images to monochrome; I&#8217;ll look into it.</p>]]>
-      </description>
-      <source:markdown>Not sure what you mean by an “e-book” file. Depends what reader you are using on Android, but most will handle .pdf files and also .cbz “comic book” files. These latter are just .zip files containing consecutively numbered .jpg files with a different file extension.
-
-I don’t know offhand of any tool which can convert a set of NetPBM images to a single PDF. ImageMagick 7 on RISC OS can convert ONE file to a .pdf but not a set—you would need a way of calling it repeatedly on each of the files and then using one of the tools accessed via !KPDFUtils to join each of the PDFs together. ImageMagick 6 on this RPi 500+ (RPi OS = Debian Bookworm) crashes running out of cache if this is attempted.
-
-img2pdf running on Linux can’t handle NetPBM files. It is fine with .jpgs or .pngs, but there is a difference—and an unexpected one: the greyscale file produced by my threshold program (using Otsu’s method) if generated from JPEGs is actually larger than the original colour file (255Mb; the colour file is 155Mb) whereas that produced using .pngs is only 35Mb. Since this is a thresholded file I should be able to convert the images to monochrome; I’ll look into it.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162207</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mgkt2kbqj22p</link>
       <description>
         <![CDATA[Please take a look at the great stuff Andy has made. If you do decide to buy a MicroBeast it helps him fund new, cool projects. Feel free to share! Thanks.
@@ -303,30 +363,6 @@ img2pdf running on Linux can’t handle NetPBM files. It is fine with .jpgs or .
       </description>
       <source:markdown>Just applied Frosted theme to my CM4-based RISC OS 5.31 (25-Jan-2026) and find that window title bars no longer turn cream on gaining input focus. Is this an inevitable side effect of Frosted, or is there a tweak to restore nomal service?</source:markdown>
       <guid>cid://www.riscosopen.org:1:20138:162205</guid>
-    </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>If the file extension on the server isn’t one that you have a configured transform to <span class="caps">RISC</span> OS file type for, how about just presenting leafname/extension to the <span class="caps">RISC</span> OS client? e.g. MyFile/html~</p>
-        </blockquote>
-        <p>This is a good idea, thanks! Easy to add too, so it&#8217;s int he list now :)</p>
-        <p>However, I think there are still scenarios where a user may want to filter out certain objects by pattern recognition in the file-name, extension etc.</p>]]>
-      </description>
-      <source:markdown>&#62; If the file extension on the server isn’t one that you have a configured transform to RISC OS file type for, how about just presenting leafname/extension to the RISC OS client? e.g. MyFile/html~
-
-This is a good idea, thanks! Easy to add too, so it’s int he list now :)
-
-However, I think there are still scenarios where a user may want to filter out certain objects by pattern recognition in the file-name, extension etc.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:162202</guid>
-    </item>    <item>
-      <title>Printing</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/14646</link>
-      <description>
-        <![CDATA[<p>Thanks, Martin, I tried it, but I couldn&#8217;t get it to do anything useful.  Files over 1MB are a problem for it; the first one I tried is a little over 2MB.  The <span class="caps">JPEG</span> it created for me was not of my file&#8217;s contents, but of a screenshot of its own summary web page.</p>]]>
-      </description>
-      <source:markdown>Thanks, Martin, I tried it, but I couldn’t get it to do anything useful. Files over 1MB are a problem for it; the first one I tried is a little over 2MB. The JPEG it created for me was not of my file’s contents, but of a screenshot of its own summary web page.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:14646:162201</guid>
     </item>    <item>
       <title>RISC OS North - March 21st 2026</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20284</link>
