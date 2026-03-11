@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.23-dev" >
-  <meta name="date" content="2026-03-10T12:00:29-07:00" >
-  <link href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" type="application/rss+xml" >
+  <meta name="date" content="2026-03-11T12:00:24-07:00" >
+  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
   <header>
@@ -19,6 +19,121 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-03-11T04:29:33Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20291">
+      <h1>JSbeeb and Compiler Explorer at ROUGOL, Mon 16th March 2026</h1>
+
+(date: 2026-03-11)
+      <p>
+      <p>The next meeting of the RISC OS User Group Of London is:</p>
+<p><strong>JSbeeb and Compiler Explorer</strong>, presented by Matt Godbolt</p>
+<p><strong>Monday 16th March 2026, 7.45pm</strong></p>
+<p>The Duke of Sussex</p>
+<p>(upstairs in the <strong>Chichester Room</strong> from 6.30pm)</p>
+<p>23 Baylis Road, London, SE1 7AY</p>
+<p><a href="http://www.rougol.jellybaby.net/venue.html">http://www.rougol.jellybaby.net/venue.html</a></p>
+<p>Also online via Zoom from 7.30pm</p>
+<p><a href="https://rougol.jellybaby.net/meetings/">https://rougol.jellybaby.net/meetings/</a></p>
+<p>Matt Godbolt has a computing story that will be familiar, starting programming on a Spectrum before upgrading to a BBC Master and then an Archimedes, finally moving on to PCs. Having written for Acorn User and produced Beeb games as a teenager, he then wrote RISC OS software such as IRClient and FinalLook while at university, before going on to work for Argonaut Games, Google, and many more.</p>
+<p>These days Matt is known in the retro computing world for producing JSbeeb, the BBC Micro emulator in Javascript which powers the Complete BBC Micro Games Archive, enabling every Beeb game to be played live in you browser. (He has also done a Spectrum emulator, but we don’t talk about that!)</p>
+<p>Outside of retro circles, Matt’s major public project is the Compiler Explorer website, which enables the live analysis of the output of many different compilers to see how they optimise code.</p>
+<p>Matt is visiting London from his home in Chicago and will be joining us in the pub to talk about some/all/none of this and more! Come along to chat to him and maybe buy him a thank you drink :-)</p>
+<p>Note we are in the larger Chichester Room this month.</p>
+<p>Our venue is right next to Waterloo Station and there is parking directly outside. Directions here – <a href="https://rougol.jellybaby.net/venue.html">https://rougol.jellybaby.net/venue.html</a></p>
+<p>For any queries or to receive the Zoom link (same as previous months) contact us – <a href="https://rougol.jellybaby.net/contacts/">https://rougol.jellybaby.net/contacts/</a></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20291">https://www.riscosopen.org/forum/forums/1/topics/20291</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-10T21:58:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mgqek66g7k2n">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-03-10)
+      <p>
+      <p>Ay caramba, it's getting worse! Infinite beep of doom and a white flashing screen now 😬</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mgqek66g7k2n">https://bsky.app/profile/colinhoad.com/post/3mgqek66g7k2n</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-10T20:10:01Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
+      <h1>Random projects...</h1>
+
+(date: 2026-03-10)
+      <p>
+      <p>For anyone following this, for the RPCEmu side… I’ve just posted up a Docker image for the extended version of RPCEmu – see the announcement on the Announcements forum, or go to…</p>
+<ul>
+<li><a href="https://hub.docker.com/repository/docker/gerph/rpcemu-3.7/general">https://hub.docker.com/repository/docker/gerph/rpcemu-…</a></li>
+<li><a href="https://hub.docker.com/repository/docker/gerph/rpcemu-5/general">https://hub.docker.com/repository/docker/gerph/rpcemu-…</a></li>
+</ul>
+<p>Many, many thanks to David Ramsden who did the integration into my Dockerfile and posted the PR… and did a couple of other bits too!</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-10T20:05:54Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20290">
+      <h1>New release of docker images for RPCEmu</h1>
+
+(date: 2026-03-10)
+      <p>
+      <p>Hiya,</p>
+<p>Recently Andrew Timmins created a variant of the RPCEmu emulator which provides debug functions. In last week’s live coding I lamented not having had the time to integrate this variant into the emulator I was using to test the WindowManager – as it would probably have helped. Before I had even finished the stream, David Ramsden had built a docker image with Andrew’s RPCEmu in!</p>
+<p>He posted the PR and a couple of other improvements, and I’ve happily merged these and pushed a built version up to Docker Hub. I’ve not had the opportunity to build the ARM variant, so it’s AMD only, but it’s up there anyhow.</p>
+<p>If you want to use the extended version with debugging:</p>
+<ul>
+<li>`docker run -it —init —rm -p 5901:5901 gerph/rpcemu-3.7:debug`</li>
+<li>`docker run -it —init —rm -p 5901:5901 gerph/rpcemu-5:debug`</li>
+</ul>
+<p>Then connect to display 1 (localhost:1 or localhost:5901 depending on your client). The password is `password`.</p>
+<p>For more details, on Docker Hub:</p>
+<ul>
+<li><a href="https://hub.docker.com/repository/docker/gerph/rpcemu-3.7/">https://hub.docker.com/repository/docker/gerph/rpcemu-…</a></li>
+<li><a href="https://hub.docker.com/repository/docker/gerph/rpcemu-5/">https://hub.docker.com/repository/docker/gerph/rpcemu-…</a></li>
+</ul>
+<p>For more details, on GitHub:</p>
+<ul>
+<li><a href="https://github.com/gerph/rpcemu-docker">https://github.com/gerph/rpcemu-docker</a></li>
+</ul>
+<p><img src="https://share.gerph.org/s/W5MShIXJJ3Xj9Fn/download" alt=""></p>
+<p>Many thanks to Andrew and David for these recent contributions (and, of course, the usual thanks to the RPCEmu developers).</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20290">https://www.riscosopen.org/forum/forums/1/topics/20290</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-10T11:41:48Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
+      <h1>MuView and rendering PDF pages</h1>
+
+(date: 2026-03-10)
+      <p>
+      <p>Thanks David + Jean-Michel for the updates/info. Afraid this shows up the extent to which I’m a poor programmer, etc, and find the sheer number of factors that differ from one pdf/ebook to another bewildering! (And alas, that I’m mostly ‘away’ dealing with real-world worries.)</p>
+<p>May be best if I focus on the specific aspect of how to ‘de-tox’ the content optimally, down to greyscale output images, and try to make use of what you can do/explain about the extraction of the page images to get optimal results that adapt to the way the specific pdf holds the appearance of the text on page.</p>
+<p>One other frustration I have is that the ‘newest’ version of !Compo won’t accept jpegs! To the user that’s weird when it will accept formats like the PBMs!! Compo is great for experimentation of how to process files and immediately see how well a process worked at getting a ‘cleaner’ page. Compo is a set of ‘proglets’ so I assume the files inside it that have ‘jpeg-ish’ names are what fall over with the newer OS versions? I can try running !Compo uner an emulator, but guess that would make the process distinctly.</p>
+<p>PBMs are good because I can load/save/process them without always needing Compo because the format is soooo simple – e.g. to add conversion to single-byte-per-pixel greyscale. But the PDFUtils don’t seem to give me an easy way to get good PBMs from all types of PDF of scans. Or is that my ignorance again rather than the muddle of how PDFs are build in so many ways?</p>
+<p>Thanks, and apologies I’m so slow and dumb about some of this.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-10T10:16:16Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
+      <h1>Need volunteers to start testing my new ShareFSServer</h1>
+
+(date: 2026-03-10)
+      <p>
+      <p>Not just a test report, but also his opening statement was factually incorrect regarding the source code. (having sadly gotten nowhere at all when asking about the actual source code) – This is not true. The source code was requested, and there were no issues with providing it. The only problem was the lack of a written agreement from anyone at ANT confirming that it could be open-sourced or used. While some developing members verbally approved it, to avoid any potential legal issues, the code could be used as a resource tool for the project but not released as open source. Regardless the Project is Brilliant so far….</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
+      </address>
+    </article>
 
     <article data-published="2026-03-09T23:15:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mgnydy7vqk2h">
       <h1>@colinhoad.com</h1>
@@ -118,43 +233,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20289">https://www.riscosopen.org/forum/forums/1/topics/20289</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-09T11:39:15Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
-      <h1>MuView and rendering PDF pages</h1>
-
-(date: 2026-03-09)
-      <p>
-      <p>There’s an ebook format which MuVue renders where rhe content is ‘xml-like’ text. But it can also contain a series of bitmaps IIUC. Nice results, compact. But by its nature doesn’t suffer from browning of the rendered result.</p>
-<p>However the puzzle I’ve just stumbled over is as follows: I’ll use EQMM 1973 03 as the example..</p>
-<p>(In some places below ‘I’ can mean someone else smarter than me! :-) )</p>
-<p>If I use the KPDFutils I can list the images it contains. They all show up as jpegs. So I can thene extract them. However for processing I’d prefer to use a plain ‘bitmap’ of the PBM P6 type.</p>
-<p>If I export as PBMs I get a set of files. But they show having <strong>fewer</strong> pixels than the jpegs!</p>
-<p>The exported list shows the page scans all being 1920 pixels wide. That is the size of the jpegs.</p>
-<p>But the exported PBMs are only 1275 pixels wide!!</p>
-<p>The PBMs I can process directly into detoxed page bitmaps to poke into a ‘cleaned’ version of the PDF. But it raises the question of if it will look poorer than processing the jpegs… which will also need more processing effort and run slower.</p>
-<p>Questions for those who know more than me: Why this difference, and will I in reality lose much by simply choosing PBM and then generating a DeToxed version containing P5 PBMs? Or would processing the larger (in pixels) jpegs give better results after a sloooow process? My inclination is to go for PBM as I know how to do that. So it would be nice to know this doesn’t mean I’ve degraded the result!</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-09T11:25:05Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
-      <h1>Need volunteers to start testing my new ShareFSServer</h1>
-
-(date: 2026-03-09)
-      <p>
-      <blockquote>
-<p>Jon Abbott is adapting !CDFaker to the Archimedes</p>
-</blockquote>
-<p>I have noticed a potential issue whilst testing this on an A440/1 with ARM3. If I mount a CD-Audio image via ShareFS and play it, all good. If I then jump tracks whilst it’s playing, it will invariably show a Red hourglass with a percentage count-down that takes 15-20 seconds to read ~300KB via ShareFS.</p>
-<p>An AI search tells me a red hourglass that counts down is an legacy Acorn thing, indicating network throttling so I suspect the combination of audio playing and the network trying to read 300Kb is probably too much for an ARM3. I’ll probably mitigate it by shutting down the audio handler when it needs to pre-cache audio after a skip/track change, so it’s not a major issue.</p>
-<p>Anyway, I note it here as I’ve never seen a red hourglass in 40 years of Acorn networking.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
       </address>
     </article>
 
@@ -523,18 +601,6 @@
 
       <address>
         <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mgaouxxktc2n">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mgaouxxktc2n</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-04T13:25:52Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
-      <h1>Random projects...</h1>
-
-(date: 2026-03-04)
-      <p>
-      <p>perfect, thank you!</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
       </address>
     </article>
 
