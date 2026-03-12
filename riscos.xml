@@ -7,10 +7,258 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>11 Mar 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>12 Mar 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23-dev</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mguttsoxbk23</link>
+      <description>
+        <![CDATA[Ahhhhh! Been waiting for this for ages, what an amazing treat for ABUG Eve 🤩
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Ahhhhh! Been waiting for this for ages, what an amazing treat for ABUG Eve 🤩
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mguttsoxbk23</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mgustibqyk2a</link>
+      <description>
+        <![CDATA[A new project, and a new blog post...
+        https://beeb6502.com/blog/the-infinite-beep-of-doom/]]>
+      </description>
+      <source:markdown>A new project, and a new blog post...
+https://beeb6502.com/blog/the-infinite-beep-of-doom/</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mgustibqyk2a</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mgu6amedfk23</link>
+      <description>
+        <![CDATA[Woohoo, it's ABUG Eve! 😁 I shall be engaging in the time-honoured tradition of deciding what to pack, and ending up bringing far too much stuff than I will have time to use...]]>
+      </description>
+      <source:markdown>Woohoo, it&#39;s ABUG Eve! 😁 I shall be engaging in the time-honoured tradition of deciding what to pack, and ending up bringing far too much stuff than I will have time to use...</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mgu6amedfk23</guid>
+    </item>    <item>
+      <title>ShareFS goes cross platform</title>
+      <link>http://www.iconbar.com/comments/rss/news2309.html</link>
+      <description>
+        <![CDATA[ShareFS has been a key technology for RISC OS users for as long as I can remember.]]>
+      </description>
+      <source:markdown>ShareFS has been a key technology for RISC OS users for as long as I can remember.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2309.html</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3mgthznr55c2l</link>
+      <description>
+        <![CDATA[Surely the £50 note should have an Acorn Archimedes on it 🙂
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Surely the £50 note should have an Acorn Archimedes on it 🙂
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mgthznr55c2l</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 15th March at 1pm UK time.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20293</link>
+      <description>
+        <![CDATA[<p>This Sunday – 15th March, at 1pm UK time – I&#8217;ll be continuing the integration of the Wimp Templates into the WindowManager. We&#8217;re on &#8211; hopefully &#8211; the home straight now, with just a little debugging to find out why we&#8217;re crashing with debug off.</p>
+        <p>Come along if you like – <a href="https://youtube.com/live/fiWCVwCdSTs?feature=share">https://youtube.com/live/fiWCVwCdSTs?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
+        <hr />
+        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
+        <p>Last time, the WindowManager integration had a number of dumb bugs fixed, and we&#8217;re now able to use the C code as the Template loader for most applications. We still see a few places where things fail, which is sad, but we&#8217;ll get them fixed.</p>
+        <hr />
+        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rEklqsXOlxlqCAoAJDF8cXG">https://www.youtube.com/playlist?list=PLVVIu906Y7rEklq…</a></p>
+        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimptemplates.html">https://presentation.riscos.online/live/wimptemplates.…</a> (once it has been published).</p>]]>
+      </description>
+      <source:markdown>This Sunday – 15th March, at 1pm UK time – I’ll be continuing the integration of the Wimp Templates into the WindowManager. We’re on – hopefully – the home straight now, with just a little debugging to find out why we’re crashing with debug off.
+
+Come along if you like – [https://youtube.com/live/fiWCVwCdSTs?feature=share](https://youtube.com/live/fiWCVwCdSTs?feature=share) – or you can always watch the video afterwards at the same address.
+
+* * *
+
+For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
+
+Last time, the WindowManager integration had a number of dumb bugs fixed, and we’re now able to use the C code as the Template loader for most applications. We still see a few places where things fail, which is sad, but we’ll get them fixed.
+
+* * *
+
+If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rEklq…](https://www.youtube.com/playlist?list=PLVVIu906Y7rEklqsXOlxlqCAoAJDF8cXG)
+
+Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimptemplates.…](https://presentation.riscos.online/live/wimptemplates.html) (once it has been published).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20293:162264</guid>
+    </item>    <item>
+      <title>A Breaking Change to DeskLib?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20292</link>
+      <description>
+        <![CDATA[<p>This post is more in the hope that I&#8217;m missing something obvious, I think. DeskLib has a function, <code>Icon_ScanValidationString()</code>, which takes a pointer to an icon validation string and a validation command, and returns an offset into the string if that command was found.</p>
+        <p>That is, if we have a validation string of</p>
+        <pre><code>R2;Sptr_menu;L</code></pre>
+        <p>and we call the function with a pointer to it and the command <code>'S'</code>, we can expect it to return 4 &#8211; because that&#8217;s in zero-indexed offset of the <code>'p'</code> following the <code>'S'</code> command. On the other hand, if we tried <code>'F'</code> we would get an index of 0 returned &#8211; indicating &#8220;not found&#8221;.</p>
+        <p>Here&#8217;s the function:</p>
+        <pre><code>extern int Icon_ScanValidationString(const char *string, char tag)
+        {
+          register int  index;
+          register char trytag;</code>
+        
+        <code>  if ((int) string &lt;= 0 || string[0] &lt; 32)  /* Invalid pointer/NULL string   */
+            return(0);</code>
+        
+        <code>  if (tag &gt;= 'a' &amp;&amp; tag &lt;= 'z')
+            tag &amp;= 0xdf;                            /* Force to uppercase to compare */</code>
+        
+        <code>  index = -1;
+          while (TRUE)
+          {
+            if (string[++index] &lt; 32)               /* End of string-still not found */
+              return(0);</code>
+        
+        <code>    if (string[index] &gt;= 'a' &amp;&amp; string[index] &lt;= 'z')
+              trytag = string[index] &amp; 0xdf;
+            else
+              trytag = string[index];               /* Force to uppercase to compare */</code>
+        
+        <code>    if (trytag == tag)
+            {
+              if (string[index + 1] &lt; 32)
+                return(0);                         /* No chars following tag!        */
+              else
+                return(index + 1);                 /* Found, so return index         */
+            }</code>
+        
+        <code>    while (string[index] != ';')            /* Scan for ';' - item seperator */
+              if (string[++index] &lt; 32)                                 /* not found */
+                return(0);
+          }
+        }</code></pre>
+        <p>The problem is the line at <code>/* No chars following tag! */</code>. This <code>if()</code> clause ensures that if we would be returning the index of the terminating character, as we would if we passed the command <code>'L'</code> to the function with the validation string above, then we get an offset of zero for &#8220;not found&#8221; instead of the offset of the terminating character.</p>
+        <p>This makes some sense if you&#8217;re using it to find the offset of a command&#8217;s value. But if you&#8217;re using it to detect the presence of a command, it fails if you have a command which takes no value (such as <code>'L'</code>) at the end of the string (but it would pick up <code>'L'</code> if it wasn&#8217;t at the end, for example <code>L;R2;Sptr_menu</code>. This makes it useless for simply detecting the presence of validation commands in the general sense.</p>
+        <p>The &#8220;obvious&#8221; thing to do would be to fix the function to also return the offset in this situation. The call&#8217;s description doesn&#8217;t actually document this edge case, and the caller can detect it because the offset will be pointing to the validation string terminator and no-one would be daft enough to read past that&#8230;</p>
+        <p>Except that I feel that making this change would be a Very Bad Idea, because someone, somewhere will &#8211; intentionally or otherwise &#8211; be relying on this behaviour to avoid reading off the end of the buffer. As much as I don&#8217;t like sprawling code, I&#8217;m currently feeling that writing a new function to fix the edge case is the safest option.</p>
+        <p>Thoughts?</p>
+        <p>I suppose the other question is, is anyone else using the <span class="caps">RISCOS</span>.info version of DeskLib these days&#8230; so will this matter&#8230; :-)</p>
+        <p>And yes, this may mean a new version of WinEd could be incoming&#8230; :-)</p>]]>
+      </description>
+      <source:markdown>This post is more in the hope that I’m missing something obvious, I think. DeskLib has a function, `Icon_ScanValidationString()`, which takes a pointer to an icon validation string and a validation command, and returns an offset into the string if that command was found.
+
+That is, if we have a validation string of
+
+```
+R2;Sptr_menu;L
+```
+
+and we call the function with a pointer to it and the command `&#39;S&#39;`, we can expect it to return 4 – because that’s in zero-indexed offset of the `&#39;p&#39;` following the `&#39;S&#39;` command. On the other hand, if we tried `&#39;F&#39;` we would get an index of 0 returned – indicating “not found”.
+
+Here’s the function:
+
+```
+extern int Icon_ScanValidationString(const char *string, char tag)
+{
+  register int  index;
+  register char trytag;
+
+  if ((int) string &#60;= 0 || string[0] &#60; 32)  /* Invalid pointer/NULL string   */
+    return(0);
+
+  if (tag &#62;= &#39;a&#39; &#38;&#38; tag &#60;= &#39;z&#39;)
+    tag &#38;= 0xdf;                            /* Force to uppercase to compare */
+
+  index = -1;
+  while (TRUE)
+  {
+    if (string[++index] &#60; 32)               /* End of string-still not found */
+      return(0);
+
+    if (string[index] &#62;= &#39;a&#39; &#38;&#38; string[index] &#60;= &#39;z&#39;)
+      trytag = string[index] &#38; 0xdf;
+    else
+      trytag = string[index];               /* Force to uppercase to compare */
+
+    if (trytag == tag)
+    {
+      if (string[index + 1] &#60; 32)
+        return(0);                         /* No chars following tag!        */
+      else
+        return(index + 1);                 /* Found, so return index         */
+    }
+
+    while (string[index] != &#39;;&#39;)            /* Scan for &#39;;&#39; - item seperator */
+      if (string[++index] &#60; 32)                                 /* not found */
+        return(0);
+  }
+}
+```
+
+The problem is the line at `/* No chars following tag! */`. This `if()` clause ensures that if we would be returning the index of the terminating character, as we would if we passed the command `&#39;L&#39;` to the function with the validation string above, then we get an offset of zero for “not found” instead of the offset of the terminating character.
+
+This makes some sense if you’re using it to find the offset of a command’s value. But if you’re using it to detect the presence of a command, it fails if you have a command which takes no value (such as `&#39;L&#39;`) at the end of the string (but it would pick up `&#39;L&#39;` if it wasn’t at the end, for example `L;R2;Sptr_menu`. This makes it useless for simply detecting the presence of validation commands in the general sense.
+
+The “obvious” thing to do would be to fix the function to also return the offset in this situation. The call’s description doesn’t actually document this edge case, and the caller can detect it because the offset will be pointing to the validation string terminator and no-one would be daft enough to read past that…
+
+Except that I feel that making this change would be a Very Bad Idea, because someone, somewhere will – intentionally or otherwise – be relying on this behaviour to avoid reading off the end of the buffer. As much as I don’t like sprawling code, I’m currently feeling that writing a new function to fix the edge case is the safest option.
+
+Thoughts?
+
+I suppose the other question is, is anyone else using the RISCOS.info version of DeskLib these days… so will this matter… :-)
+
+And yes, this may mean a new version of WinEd could be incoming… :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20292:162261</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mgstdbeom22z</link>
+      <description>
+        <![CDATA[Another great deep dive into BBC Micro 'Sentinel' by Mark Moxon. Geoff Crammond's extraordinary programming skills are explored further.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Another great deep dive into BBC Micro &#39;Sentinel&#39; by Mark Moxon. Geoff Crammond&#39;s extraordinary programming skills are explored further.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mgstdbeom22z</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>Thanks Chris for an updated version.<br />
+        Following this discussion/thread I was able to do tests with ChangeFSI, PDFUtils and ImageMagick7 which I had never used.</p>
+        <p>Jim<br />
+        Being able to use the more recent version of Compo would be nice, &#8230;to do.<br />
+        I will put the development version of DeToxPageW in the scripts zip file.<br />
+        I confirm the treatment from the blue gives very good results.<br />
+        I just finished scripting a file containing 50 readable pages, and in order, with !<span class="caps">PDF</span> displaying 35%, it&#8217;s correct, the problem is that the file is 150 MB!<br />
+        They can be read with <span class="caps">PDF</span> and MUview,</p>
+        <p>I think that a conversion to <span class="caps">JPEG</span> is necessary and may be a reduction in the size of the pages, but without losses.</p>]]>
+      </description>
+      <source:markdown>Thanks Chris for an updated version.
+
+Following this discussion/thread I was able to do tests with ChangeFSI, PDFUtils and ImageMagick7 which I had never used.
+
+Jim
+
+Being able to use the more recent version of Compo would be nice, …to do.
+
+I will put the development version of DeToxPageW in the scripts zip file.
+
+I confirm the treatment from the blue gives very good results.
+
+I just finished scripting a file containing 50 readable pages, and in order, with !PDF displaying 35%, it’s correct, the problem is that the file is 150 MB!
+
+They can be read with PDF and MUview,
+
+I think that a conversion to JPEG is necessary and may be a reduction in the size of the pages, but without losses.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162250</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>The source code for RPCEmu 0.9.99 including the macOS specific changes is now available on github at <a href="https://github.com/riscosports/rpcemubeta">https://github.com/riscosports/rpcemubeta</a>.</p>
+        <p>It also includes the changes for the Qt6 build. There is currently a problem with the Qt6 build on macOS in that the ‘SHIFT’ key doesn’t work. The Linux build for Qt6 does work OK though.</p>
+        <p>Hopefully the macOS and Qt6 changes can be merged into rpcemuextended in the near future.</p>]]>
+      </description>
+      <source:markdown>The source code for RPCEmu 0.9.99 including the macOS specific changes is now available on github at [https://github.com/riscosports/rpcemubeta](https://github.com/riscosports/rpcemubeta).
+
+It also includes the changes for the Qt6 build. There is currently a problem with the Qt6 build on macOS in that the ‘SHIFT’ key doesn’t work. The Linux build for Qt6 does work OK though.
+
+Hopefully the macOS and Qt6 changes can be merged into rpcemuextended in the near future.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:162249</guid>
+    </item>    <item>
       <title>JSbeeb and Compiler Explorer at ROUGOL, Mon 16th March 2026</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20291</link>
       <description>
@@ -71,24 +319,6 @@ For any queries or to receive the Zoom link (same as previous months) contact us
       <source:markdown>Ay caramba, it&#39;s getting worse! Infinite beep of doom and a white flashing screen now 😬</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mgqek66g7k2n</guid>
     </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>For anyone following this, for the RPCEmu side&#8230; I&#8217;ve just posted up a Docker image for the extended version of RPCEmu &#8211; see the announcement on the Announcements forum, or go to&#8230;</p>
-        <ul>
-        	<li><a href="https://hub.docker.com/repository/docker/gerph/rpcemu-3.7/general">https://hub.docker.com/repository/docker/gerph/rpcemu-…</a></li>
-        	<li><a href="https://hub.docker.com/repository/docker/gerph/rpcemu-5/general">https://hub.docker.com/repository/docker/gerph/rpcemu-…</a></li>
-        </ul>
-        <p>Many, many thanks to David Ramsden who did the integration into my Dockerfile and posted the PR&#8230; and did a couple of other bits too!</p>]]>
-      </description>
-      <source:markdown>For anyone following this, for the RPCEmu side… I’ve just posted up a Docker image for the extended version of RPCEmu – see the announcement on the Announcements forum, or go to…
-
-- [https://hub.docker.com/repository/docker/gerph/rpcemu-…](https://hub.docker.com/repository/docker/gerph/rpcemu-3.7/general)
-- [https://hub.docker.com/repository/docker/gerph/rpcemu-…](https://hub.docker.com/repository/docker/gerph/rpcemu-5/general)
-
-Many, many thanks to David Ramsden who did the integration into my Dockerfile and posted the PR… and did a couple of other bits too!</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:162243</guid>
-    </item>    <item>
       <title>New release of docker images for RPCEmu</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20290</link>
       <description>
@@ -139,26 +369,6 @@ For more details, on GitHub:
 
 Many thanks to Andrew and David for these recent contributions (and, of course, the usual thanks to the RPCEmu developers).</source:markdown>
       <guid>cid://www.riscosopen.org:1:20290:162242</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>Thanks David + Jean-Michel for the updates/info. Afraid this shows up the extent to which I&#8217;m a poor programmer, etc, and find the sheer number of factors that differ from one pdf/ebook to another bewildering! (And alas, that I&#8217;m mostly &#8216;away&#8217; dealing with real-world worries.)</p>
-        <p>May be best if I focus on the specific aspect of how to &#8216;de-tox&#8217; the content optimally, down to greyscale output images, and try to make use of what you can do/explain about the extraction of the page images to get optimal results that adapt to the way the specific pdf holds the appearance of the text on page.</p>
-        <p>One other frustration I have is that the &#8216;newest&#8217; version of !Compo won&#8217;t accept jpegs! To the user that&#8217;s weird when it will accept formats like the PBMs!! Compo is great for experimentation of how to process files and immediately see how well a process worked at getting a &#8216;cleaner&#8217; page. Compo is a set of &#8216;proglets&#8217; so I assume the files inside it that have &#8216;jpeg-ish&#8217; names are what fall over with the newer OS versions? I can try running !Compo uner an emulator, but guess that would make the process distinctly.</p>
-        <p>PBMs are good because I can load/save/process them without always needing Compo because the format is soooo simple &#8211; e.g. to add conversion to single-byte-per-pixel greyscale. But the PDFUtils don&#8217;t seem to give me an easy way to get good PBMs from all types of <span class="caps">PDF</span> of scans. Or is that my ignorance again rather than the muddle of how PDFs are build in so many ways?</p>
-        <p>Thanks, and apologies I&#8217;m so slow and dumb about some of this.</p>]]>
-      </description>
-      <source:markdown>Thanks David + Jean-Michel for the updates/info. Afraid this shows up the extent to which I’m a poor programmer, etc, and find the sheer number of factors that differ from one pdf/ebook to another bewildering! (And alas, that I’m mostly ‘away’ dealing with real-world worries.)
-
-May be best if I focus on the specific aspect of how to ‘de-tox’ the content optimally, down to greyscale output images, and try to make use of what you can do/explain about the extraction of the page images to get optimal results that adapt to the way the specific pdf holds the appearance of the text on page.
-
-One other frustration I have is that the ‘newest’ version of !Compo won’t accept jpegs! To the user that’s weird when it will accept formats like the PBMs!! Compo is great for experimentation of how to process files and immediately see how well a process worked at getting a ‘cleaner’ page. Compo is a set of ‘proglets’ so I assume the files inside it that have ‘jpeg-ish’ names are what fall over with the newer OS versions? I can try running !Compo uner an emulator, but guess that would make the process distinctly.
-
-PBMs are good because I can load/save/process them without always needing Compo because the format is soooo simple – e.g. to add conversion to single-byte-per-pixel greyscale. But the PDFUtils don’t seem to give me an easy way to get good PBMs from all types of PDF of scans. Or is that my ignorance again rather than the muddle of how PDFs are build in so many ways?
-
-Thanks, and apologies I’m so slow and dumb about some of this.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162230</guid>
     </item>    <item>
       <title>Need volunteers to start testing my new ShareFSServer</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
