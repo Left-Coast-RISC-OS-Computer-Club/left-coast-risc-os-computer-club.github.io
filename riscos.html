@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.23-dev" >
-  <meta name="date" content="2026-03-13T12:00:27-07:00" >
+  <meta content="2026-03-14T12:00:30-07:00" name="date" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -19,6 +19,347 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-03-14T18:49:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mh23spfp4c2n">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-03-14)
+      <p>
+      <p>I've just completely rewritten the Wimp's text formatting from scratch and it worked first time. 😵</p>
+<p>I'm tip-toeing away before it explodes.</p>
+<p>[Required for seamlessly coping with UTF-8 - the RO5 code is total nonsense]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mh23spfp4c2n">https://bsky.app/profile/nemo20000.bsky.social/post/3mh23spfp4c2n</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-14T16:30:20Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20138">
+      <h1>Modern Frosted Theme</h1>
+
+(date: 2026-03-14)
+      <p>
+      <p>Thanks to the help of Paolo with ExtTheming System, a few issues at the moment, but here is what Frosted Dark Mode Looks Like :)</p>
+<p><img src="https://images2.imgbox.com/5c/91/qeI0fuqI_o.jpg" alt=""></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20138">https://www.riscosopen.org/forum/forums/1/topics/20138</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-14T15:21:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mgzq6n43e224">
+      <h1>@paolofabiozaino.bsky.social</h1>
+
+(date: 2026-03-14)
+      <p>
+      <p>Due to an undetected issue in the build pipeline last night this weekend #RISC_OS ShreFSServer alpha builds did not get on the distirbution server, my apologies to all the testers.</p>
+<p>The issue is now resolved and build 0.1.3 is available for testing using the usual URL.</p>
+<p>Thanks.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mgzq6n43e224">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mgzq6n43e224</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-14T14:55:04Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20295">
+      <h1>Status update for RISC OS 64-bit work</h1>
+
+(date: 2026-03-14)
+      <p>
+      <p>It’s about 6 weeks since the last update on the 64-bit progress, although I’ve had a lot of real work and a week’s holiday, so it’s been a little more light this time. Here’s the update…</p>
+<ul>
+<li>
+<p>WindowManager text rendering was completed as part of the live coding. See <a href="https://github.com/gerph/riscos-wimp-textrender">https://github.com/gerph/riscos-wimp-textrender</a> for details.</p>
+</li>
+<li>
+<p>Floating point updates for the 64-bit RISC OS C library. See <a href="https://github.com/gerph/riscos64-clib">https://github.com/gerph/riscos64-clib</a> for details.</p>
+</li>
+<li>
+<p>WindowManager integration of the C templates code is being done as part of the live coding. See <a href="https://github.com/gerph/riscos5-wimp/tree/c-templates-experiment">https://github.com/gerph/riscos5-wimp/tree/c-templates…</a> for detais.</p>
+</li>
+<li>
+<p>Improvements to the GContext library for graphics context to support the Wimp text rendering. See <a href="https://github.com/gerph/riscos-gcontext">https://github.com/gerph/riscos-gcontext</a> for details.</p>
+</li>
+<li>
+<p>Built the RPCEmu Docker image from David Ramsden’s integration of Andrew Timmins’ debugger fork.</p>
+<ul>
+<li>See <a href="https://hub.docker.com/repository/docker/gerph/rpcemu-5/">https://hub.docker.com/repository/docker/gerph/rpcemu-…</a> and <a href="https://hub.docker.com/repository/docker/gerph/rpcemu-3.7/general">https://hub.docker.com/repository/docker/gerph/rpcemu-…</a> for details (the ‘debug’ tag contains the new image).</li>
+<li>See <a href="https://share.gerph.org/s/W5MShIXJJ3Xj9Fn">https://share.gerph.org/s/W5MShIXJJ3Xj9Fn</a> for a screenshot.</li>
+</ul>
+</li>
+<li>
+<p>Improvements to the hourglass module.</p>
+<ul>
+<li>Default colour variants are now supported, allowing the module build to be reconfigured.</li>
+<li>Colour SWIs are now implemented.</li>
+<li>New hourglass ‘jimphic’ module created using a circular pattern.</li>
+<li>See <a href="https://github.com/gerph/riscos-hourglass-maker">https://github.com/gerph/riscos-hourglass-maker</a> for details.</li>
+</ul>
+</li>
+<li>
+<p>Initial RISC OS Pyromaniac support for filing systems has been merged.</p>
+<ul>
+<li>Filing systems can be registered and deregistered.</li>
+<li>Buffered filing systems work well at reading files.</li>
+<li>Testing with CDFS, PipeFS, ResourceFS and the SystemDevices works/shows lots of promise.</li>
+<li>See <a href="https://asciinema.org/a/793001">https://asciinema.org/a/793001</a> for the first filing system operations.</li>
+</ul>
+</li>
+</ul>
+<p>The overall status of the components can be found in the RISC OS 64 Status repository: <a href="https://github.com/gerph/riscos64-status/wiki">https://github.com/gerph/riscos64-status/wiki</a></p>
+<p>You can always follow the repositories to see what’s being done. The RISC OS Status repository also has a `Discussions` section for general discussions on the progress of 64-bit work.</p>
+<p>The sponsorship programme is something that GitHub offers to allow people to provide contributions towards the RISC OS 64 project. If you like what’s being done, and want to encourage more, feel free to sponsor.</p>
+<p>And of course, if you want to get involved in working on any of the conversion to C of components, please speak up.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/13/topics/20295">https://www.riscosopen.org/forum/forums/13/topics/20295</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-14T11:50:37Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20294">
+      <h1>More on using the Dwarf Mini with RISC OS</h1>
+
+(date: 2026-03-14)
+      <p>
+      <p>Despite very few clear skies recently, I’ve managed to get some photos with the Dwarf Mini smart telescope, and there’s a new post on ROAST with some processing examples:</p>
+<p><a href="https://vermilionsands.uk/roast/index.php/2026/03/13/more-on-the-dwarf-mini-and-risc-os/">More on the Dwarf Mini and RISC OS</a></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20294">https://www.riscosopen.org/forum/forums/1/topics/20294</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-14T10:51:57Z" data-link="https://www.riscosnorth.uk/index.php/2026/03/14/entry-prices-held-for-2026-show/">
+      <h1>Entry prices held for 2026 show</h1>
+
+(date: 2026-03-14)
+      <p>
+      <p>With the ever increasing cost of living, we are pleased to announce that we have been able to avoid increasing the entry prices for this year’s show. The price of entry into RISC OS North 2026 will be £7, with free entry for anyone under fourteen years of age.</p>
+
+      <address>
+        <a href="https://www.riscosnorth.uk/index.php/2026/03/14/entry-prices-held-for-2026-show/">https://www.riscosnorth.uk/index.php/2026/03/14/entry-prices-held-for-2026-show/</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-14T09:56:43Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20288">
+      <h1>RISCOSbits at RISC OS North 2026</h1>
+
+(date: 2026-03-14)
+      <p>
+      <p>On the back of the hugely popular <a href="https://www.riscosopen.org/forum/forums/1/topics/20169">Christmas Cracker</a>, RISCOSbits is pleased to introduce <strong>Chimera Lite</strong>, a streamlined and highly accessible version of the popular Chimera system, making its debut at the RISC OS North Show.</p>
+<p>Chimera Lite has been designed for users who want a fast, modern RISC OS machine in a simple, ready-to-go configuration, while still retaining the flexibility that has made the original Chimera such a popular platform.</p>
+<p>At its core, <strong>Chimera Lite</strong> features a 2GHz processor, 4GB of RAM, and a 256GB NVMe drive, delivering a responsive and capable RISC OS desktop suitable for both everyday use and more demanding tasks. The NVMe storage ensures fast boot times and rapid application loading, giving RISC OS the kind of performance that feels thoroughly modern while retaining the familiar elegance of the operating system.</p>
+<p>The system comes supplied with a power supply and a fully functional ITX case, creating a tidy, compact desktop machine that can be used immediately with minimal setup. Simply add a monitor, keyboard and mouse, and you are ready to enjoy RISC OS at full speed.</p>
+<p>Despite its simplified configuration, Chimera Lite remains true to the spirit of the original Chimera design. While it ships as a single RISC OS “head” system, it has been built so that additional heads can be added easily in the future. This means users can expand their systems to include additional RISC OS environments, Linux systems, or even classic 26-bit RISC OS heads for legacy software compatibility. The modular nature of the Chimera platform makes it an ideal machine for enthusiasts who enjoy experimenting with different environments, while still maintaining a powerful primary RISC OS desktop. We even bundle the necessary parts to make adding additional heads even easier!</p>
+<p>In other words, Chimera Lite is not a cut-down system, it is simply a clean starting point for a machine that can grow with its owner.</p>
+<p>To celebrate its launch, Chimera Lite will be available at the special RISC OS North Show price of <strong>just £349</strong>, before any additional show discounts are applied.</p>
+<p>Visitors to the RISCOSbits stand will be able to see <strong>Chimera Lite</strong> in action, explore its expansion possibilities, and discover how the Chimera platform brings together modern hardware performance with the flexibility to run multiple RISC OS environments, and more, within a single system.</p>
+<p>Whether you are looking for a fast new RISC OS desktop, a flexible experimental platform, or a machine capable of bridging modern and classic RISC OS environments, <strong>Chimera Lite</strong> offers an affordable and powerful way to begin.</p>
+<p>More details will be available at the RISCOSbits stand during the RISC OS North Show.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20288">https://www.riscosopen.org/forum/forums/1/topics/20288</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-14T03:35:49Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20199">
+      <h1>New DME ExtTheme and Launchpad available for download and testing</h1>
+
+(date: 2026-03-14)
+      <p>
+      <p>Finally I managed to fix my packaging automation and got a new build of ExtTheme ready for testing.</p>
+<p>What this build includes:</p>
+<ul>
+<li>A lot of code improvements that should make it more stable</li>
+<li>Improved theme handling for some edge case</li>
+<li>Enabled support to skip background configuration</li>
+<li>Changed the help, and added the requested new verbs:</li>
+</ul>
+<pre><code>*Theme allow a user to manage RISC OS themes from the command line using
+ExtTheme Theme Manager version 0.0.1.
+Available commands:
+  help
+      Show this help screen.
+
+  list
+      Lists all installed themes (from the Themes: directory).
+
+  setDefault &lt;theme_name&gt;
+      Selects &lt;theme_name&gt; as the default theme (the theme to use on boot).
+      To apply the theme immediately, add the -apply-theme (or -apply) option.
+
+  set or apply [&lt;theme_name&gt;]
+      Applies the default theme (if no theme_name is provided) or temporarily applies
+the theme specified. Set|apply do not change the default theme.
+
+  current
+      Shows the currently selected theme. If none has been selected yet, it will return none.
+
+  info &lt;theme_name&gt;
+      Shows information about the specified theme.
+
+  reset &lt;theme_name&gt;
+      Resets a theme by restoring its Default values.
+
+  restore &lt;theme_name&gt;
+      Restores a theme's User-Customization file from its backup (if available).
+
+  override &lt;target-theme&gt; &lt;source-theme&gt; &lt;group&gt; &lt;attribute&gt;
+      Overrides an &lt;attribute&gt; in &lt;group&gt; of &lt;target-theme&gt; using the value from &lt;source-theme&gt;.
+      Overriding means that the new attribute value will be added to the target theme's
+Choices file at the end, which then will override any previous values.
+
+  enable &lt;theme&gt; &lt;attribute&gt;
+      Enables a specific theme attribute in the given theme's Choices if the attribute is present.
+
+  disable &lt;theme&gt; &lt;attribute&gt;
+      Disables a specific attribute from a theme's user Choices if the attribute is present.
+
+  install &lt;zip_path&gt;|&lt;theme_directory_path&gt;
+      Installs a theme from a ZIP archive or a theme directory into the Themes: directory.
+      The archive should follow the standard theme structure.
+
+  remove &lt;theme_name&gt;
+      Removes an installed theme from the Themes: directory.
+
+  clear_cache
+      Clears ExtTheme cache directory (which is usually used to store temporary extracted theme files).
+
+  create &lt;theme_name&gt;
+      Create a new theme using RISC OS default theme.
+
+  copy &lt;source_theme&gt; &lt;dest_theme&gt; &lt;aspect&gt;
+      Copies a specific aspect (e.g., Icons, Tools) from &lt;source_theme&gt; to &lt;dest_theme&gt;.
+
+  edit &lt;theme_name&gt;
+      Opens the theme directory in the Filer for manual editing.
+
+Syntax: *theme &lt;command&gt; [&lt;options&gt;]
+(note: if a theme name contains spaces, enclose it in quotes)
+
+Options:
+  -reload-app-spr, -ras
+      Reload applications' sprites (if any defined in the &lt;theme&gt;.Apps) after applying the theme. (used only with 'set' command otherwise ignored)
+
+  -no-backdrop, -nob
+      When applying a theme, do not change backdrop settings even if the theme defines them. This is useful to preserve the current backdrop when applying themes that include backdrop changes. (used with 'set|apply' and 'setDefault' commands only otherwise ignored)
+
+  -apply-theme, -apply
+      When setting a default theme, also apply it immediately. (used only with 'setDefault' command otherwise ignored)
+
+</code></pre>
+<p>So now you can do things like:</p>
+<pre><code>
+*theme setDefault MyTheme -apply -no-backdrop
+
+</code></pre>
+<p>Which, in one liner, will set MyTheme as default theme, will apply it and also (on both) at reboot and when applying it now will skip the background configuration so you’ll keep your current background.</p>
+<p>Have fun and, as usual, let me know if there are any more issues.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20199">https://www.riscosopen.org/forum/forums/1/topics/20199</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-14T03:26:01Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
+      <h1>Need volunteers to start testing my new ShareFSServer</h1>
+
+(date: 2026-03-14)
+      <p>
+      <p>Ok, new build 0.1.3 is available for testing at the usual URL!</p>
+<p>Have fun :)</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-13T23:29:24Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20292">
+      <h1>A Breaking Change to DeskLib?</h1>
+
+(date: 2026-03-13)
+      <p>
+      <blockquote>
+<p>If you wanted to be Really Safe, reimplement it with a different name – that’s my suggestion.</p>
+</blockquote>
+<p>Those were the lines that I was thinking along, but I was wondering if I was worrying too much…</p>
+<blockquote>
+<p>Well, that and the fact that it’s not handling escapes either. `\;` is an escaped semi-colon, which isn’t a separator.</p>
+</blockquote>
+<p>I hadn’t spotted that one; my own library’s take on this may be similarly guilty. I’ve made a note to fix that sometime, too. :-)</p>
+<blockquote>
+<p>And it doesn’t handle pointers in high memory.</p>
+</blockquote>
+<p>I wonder how much else in DeskLib is coded that way. Checking may be outside the scope of this particular fix, however. :-)</p>
+<blockquote>
+<p>If it were me, I’d have made the function return the start of the parameter, and the end of the parameter, or its length, so that all the processing has already been done for the caller.</p>
+</blockquote>
+<p>Agreed.</p>
+<blockquote>
+<p>Something like this (not tested, I’m afraid)</p>
+</blockquote>
+<p>Thanks! I may use that as inspiration!</p>
+<p>On a more housekeeping note, as this is the first time that I’ve poked DeskLib in several years and I struggle to remember how to drive Subversion these days, I might look at moving the repo over to GitHub, alongside WinEd. I’ve had a Git version of the repo privately since 2020-ish, but up to now I didn’t think that it had diverged from RISCOS.info’s SVN repo<a href="#fn1">1</a>. It would be a shame to lose that work.</p>
+<p>I’ll post announcements if I do move it.</p>
+<p><a href="#fnr1">1</a> But looking at the repos this evening, there’s a <strong>Pointer_GetPosition()</strong> function in a Git commit that I can’t see in SVN. So maybe the published DeskLib code <em>is</em> out of date after all. It looks as if WinEd uses the function.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20292">https://www.riscosopen.org/forum/forums/11/topics/20292</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-13T22:27:15Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20291">
+      <h1>JSbeeb and Compiler Explorer at ROUGOL, Mon 16th March 2026</h1>
+
+(date: 2026-03-13)
+      <p>
+      <p>Nice one Piers :)</p>
+<p>I didn’t spot it on the compiler menu, but maybe it is still working its way through :)</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20291">https://www.riscosopen.org/forum/forums/1/topics/20291</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-13T22:12:58Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/14646">
+      <h1>Printing</h1>
+
+(date: 2026-03-13)
+      <p>
+      <p>I’ve updated the PDumperURF module to correct a rather important deficiency – it didn’t rotate the reverse side of double sided long edge printouts. You’ll find the new Dumpers zip on my website, <a href="http://davehigton.me.uk">http://davehigton.me.uk</a> in the “IPP printing” section.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/14646">https://www.riscosopen.org/forum/forums/5/topics/14646</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-13T22:07:35Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
+      <h1>MuView and rendering PDF pages</h1>
+
+(date: 2026-03-13)
+      <p>
+      <p>David, I just uploaded the script to assemble PDF files, to make it work you need to copy some pdf files into ImagesPDFout.</p>
+<p><a href="https://jeanmichelb.riscos.fr/Temp/pdfs2PDF.zip">https://jeanmichelb.riscos.fr/Temp/pdfs2PDF.zip</a></p>
+<p>Thanks for test and feedback</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-13T22:07:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mgxwguy45224">
+      <h1>@paolofabiozaino.bsky.social</h1>
+
+(date: 2026-03-13)
+      <p>
+      <p>#RISC_OS ShareFSServer testers, changes for this weekend build here:<a href="https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&amp;page=3#posts-162293">https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&amp;page=3#posts-162293</a></p>
+<p>Build should be available tomorrow morning.</p>
+<p>#FileSharing #Linux #Windows #macOS #BSD #RISCOS</p>
+
+      <address>
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mgxwguy45224">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mgxwguy45224</a>
+      </address>
+    </article>
 
     <article data-published="2026-03-13T17:58:17Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20259">
       <h1>This site</h1>
@@ -54,18 +395,6 @@
 
       <address>
         <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13569&page=1#125870">http://www.iconbar.com/forums/viewthread.php?threadid=13569&page=1#125870</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-13T13:55:10Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20291">
-      <h1>JSbeeb and Compiler Explorer at ROUGOL, Mon 16th March 2026</h1>
-
-(date: 2026-03-13)
-      <p>
-      <p>This should be fascinating, but checking out some of the links made me sad… (Seemingly) No Norcroft on Compiler Explorer, and it got me thinking of all this super-smart coders we used to have in Acorn/RISC OS-land who are now off doing other things, seemingly never to return. Time to go and make some RISC OS flags to wave!</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20291">https://www.riscosopen.org/forum/forums/1/topics/20291</a>
       </address>
     </article>
 
@@ -198,23 +527,6 @@
       </address>
     </article>
 
-    <article data-published="2026-03-12T08:56:48Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
-      <h1>MuView and rendering PDF pages</h1>
-
-(date: 2026-03-12)
-      <p>
-      <p>Thanks Chris for this Muview/muPDF update. The example above for javascript is interesting, but inaccessible with Risc OS? Mutool is not part of the package?</p>
-<p>Sorry for my ignorance.</p>
-<p>David,</p>
-<p>I have two workings scripts to build the pdf, the first one copies all the ppm files from one directory to another directory and converts them into a PDF file with magick .</p>
-<p>The second uses the pdf file directory to build a single PDF file with pdfunite.</p>
-<p>Ok for 50 pages…</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
-      </address>
-    </article>
-
     <article data-published="2026-03-12T08:17:00Z" data-link="http://www.iconbar.com/comments/rss/news2309.html">
       <h1>ShareFS goes cross platform</h1>
 
@@ -256,66 +568,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20293">https://www.riscosopen.org/forum/forums/1/topics/20293</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-11T22:21:03Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20292">
-      <h1>A Breaking Change to DeskLib?</h1>
-
-(date: 2026-03-11)
-      <p>
-      <p>This post is more in the hope that I’m missing something obvious, I think. DeskLib has a function, <code>Icon_ScanValidationString()</code>, which takes a pointer to an icon validation string and a validation command, and returns an offset into the string if that command was found.</p>
-<p>That is, if we have a validation string of</p>
-<pre><code>R2;Sptr_menu;L
-</code></pre>
-<p>and we call the function with a pointer to it and the command <code>'S'</code>, we can expect it to return 4 – because that’s in zero-indexed offset of the <code>'p'</code> following the <code>'S'</code> command. On the other hand, if we tried <code>'F'</code> we would get an index of 0 returned – indicating “not found”.</p>
-<p>Here’s the function:</p>
-<pre><code>extern int Icon_ScanValidationString(const char *string, char tag)
-{
-  register int  index;
-  register char trytag;
-
-  if ((int) string &lt;= 0 || string[0] &lt; 32)  /* Invalid pointer/NULL string   */
-    return(0);
-
-  if (tag &gt;= 'a' &amp;&amp; tag &lt;= 'z')
-    tag &amp;= 0xdf;                            /* Force to uppercase to compare */
-
-  index = -1;
-  while (TRUE)
-  {
-    if (string[++index] &lt; 32)               /* End of string-still not found */
-      return(0);
-
-    if (string[index] &gt;= 'a' &amp;&amp; string[index] &lt;= 'z')
-      trytag = string[index] &amp; 0xdf;
-    else
-      trytag = string[index];               /* Force to uppercase to compare */
-
-    if (trytag == tag)
-    {
-      if (string[index + 1] &lt; 32)
-        return(0);                         /* No chars following tag!        */
-      else
-        return(index + 1);                 /* Found, so return index         */
-    }
-
-    while (string[index] != ';')            /* Scan for ';' - item seperator */
-      if (string[++index] &lt; 32)                                 /* not found */
-        return(0);
-  }
-}
-</code></pre>
-<p>The problem is the line at <code>/* No chars following tag! */</code>. This <code>if()</code> clause ensures that if we would be returning the index of the terminating character, as we would if we passed the command <code>'L'</code> to the function with the validation string above, then we get an offset of zero for “not found” instead of the offset of the terminating character.</p>
-<p>This makes some sense if you’re using it to find the offset of a command’s value. But if you’re using it to detect the presence of a command, it fails if you have a command which takes no value (such as <code>'L'</code>) at the end of the string (but it would pick up <code>'L'</code> if it wasn’t at the end, for example <code>L;R2;Sptr_menu</code>. This makes it useless for simply detecting the presence of validation commands in the general sense.</p>
-<p>The “obvious” thing to do would be to fix the function to also return the offset in this situation. The call’s description doesn’t actually document this edge case, and the caller can detect it because the offset will be pointing to the validation string terminator and no-one would be daft enough to read past that…</p>
-<p>Except that I feel that making this change would be a Very Bad Idea, because someone, somewhere will – intentionally or otherwise – be relying on this behaviour to avoid reading off the end of the buffer. As much as I don’t like sprawling code, I’m currently feeling that writing a new function to fix the edge case is the safest option.</p>
-<p>Thoughts?</p>
-<p>I suppose the other question is, is anyone else using the RISCOS.info version of DeskLib these days… so will this matter… :-)</p>
-<p>And yes, this may mean a new version of WinEd could be incoming… :-)</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20292">https://www.riscosopen.org/forum/forums/11/topics/20292</a>
       </address>
     </article>
 
@@ -372,18 +624,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20290">https://www.riscosopen.org/forum/forums/1/topics/20290</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-10T10:16:16Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
-      <h1>Need volunteers to start testing my new ShareFSServer</h1>
-
-(date: 2026-03-10)
-      <p>
-      <p>Not just a test report, but also his opening statement was factually incorrect regarding the source code. (having sadly gotten nowhere at all when asking about the actual source code) – This is not true. The source code was requested, and there were no issues with providing it. The only problem was the lack of a written agreement from anyone at ANT confirming that it could be open-sourced or used. While some developing members verbally approved it, to avoid any potential legal issues, the code could be used as a resource tool for the project but not released as open source. Regardless the Project is Brilliant so far….</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
       </address>
     </article>
 
@@ -500,18 +740,6 @@
       </address>
     </article>
 
-    <article data-published="2026-03-08T21:39:32Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/14646">
-      <h1>Printing</h1>
-
-(date: 2026-03-08)
-      <p>
-      <p>Wouldn’t you believe it. Now that bleeding HP thing has decided it can no longer handle paper.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/14646">https://www.riscosopen.org/forum/forums/5/topics/14646</a>
-      </address>
-    </article>
-
     <article data-published="2026-03-08T20:32:01Z" data-link="https://www.riscository.com/2026/preview-risc-os-north-21st-march/">
       <h1>Show time looms – RISC OS North, 21st March</h1>
 
@@ -537,40 +765,6 @@
 
       <address>
         <a href="https://bsky.app/profile/riscosbits.co.uk/post/3mgl5thzvnc2s">https://bsky.app/profile/riscosbits.co.uk/post/3mgl5thzvnc2s</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-08T19:58:58Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20288">
-      <h1>RISCOSbits at RISC OS North 2026</h1>
-
-(date: 2026-03-08)
-      <p>
-      <p>With just under two weeks to go, RISCOSbits are pleased to be able to attend, and briefly wanted to preview just a fraction of our offer for, the upcoming RISC OS North Show.</p>
-<p><strong>Evolutions</strong></p>
-<p>We’ll hopefully be demonstrating an update to our FASTSATA-based RISC OS systems, to incorporate open source block device drivers. As with other block device based filing systems, this introduces partitioning, particularly useful with larger drives, and also additional speed improvements – is it the fastest disc-based filesystem available? We’re currently working with other RISC OS luminaries to ensure that available tools will work with our new SATAFS out of the box.</p>
-<p>We’ll hopefully have stock of machines and kits to take away on the day!</p>
-<p><strong>Stability</strong></p>
-<p>We’ll also be demonstrating our free and completely open source NVMe Drivers and some of the latest compatibility developments. We’ll be showing off the current stable feature-set on the day, many enabled by custom GUI tools for RISC OS:</p>
-<ul>
-<li>Rudimentary direct NVMe booting</li>
-<li>4K drives up to 2TB</li>
-<li>Multi-format drives</li>
-<li>Namespaces</li>
-</ul>
-<p>Many of these functions have been present from the first iterations of our drivers, and demonstrated at past shows and club meetings, but we’re aware that not everyone has picked up on them. But we still have plans for the future!</p>
-<p>And for those with some curiosity (and money to burn!), Namespaces is a form of hardware-based partitioning of larger drives, into multiple-format, separate drives. Prices for these drives are at a premium, often triple (or more!) the cost of similar capacity consumer devices, and with current pricing being as it is, we’re risking being Jim Bowen and telling you to ‘look at what you could have won!’ Whilst we aren’t in a position to supply Namespace drives unless specifically requested, we can advise you on compatible drives and prices, including often elusive 2280 variants of these ‘enterprise’ class devices.</p>
-<p>FreeNVMe systems will also be available on the day to take away, both pre-built and in DIY Kit form, often at ‘old’ prices as we use up our stock of components bought before the global price hike.</p>
-<p><strong>Portable Curios</strong></p>
-<p>We’ll have a couple of portable ‘curios’ for you to look at, which we’re contemplating offering as DIY products and self-build guides. We’re not telling you too much now, but giving you an insight to recent developments at RISCOSbits HQ.</p>
-<p>The first is an Argon One Up laptop with integrated Compute Module 5, running RISC OS via both RISC OS on Linux, and RPCemu. See just how fantastically well it works with RISC OS in situ, and how multiple operating systems can work on the same system at the same time! And when we say ‘multiple’ we don’t just mean different versions of RISC OS!</p>
-<p>We’ll also show off a gadget perhaps best described as a ‘terminal’ that works very nicely with RISC OS. Keep an eye on our <a href="https://riscosbits.blog">blog</a> for a preview of the device in the run up to the show, and also keep an eye on upcoming issues of Archive Magazine for a much more detailed overview!</p>
-<p>We also need to make a bit of space in our kit room, so we may have a few bargain older portable systems available on the day.</p>
-<p><strong>Just browsing?</strong></p>
-<p>We’ll also have a couple of ‘RISC OS in a Browser’ tools that you may find Remotely interesting as you Roam around the show. Pop over and have a look!</p>
-<p>Keep an eye open for more detailed announcements in the coming days, but we just wanted the whet your appetite for what will hopefully turn out to be a great show!</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20288">https://www.riscosopen.org/forum/forums/1/topics/20288</a>
       </address>
     </article>
 
@@ -623,18 +817,6 @@
 
       <address>
         <a href="https://bsky.app/profile/riscosbits.co.uk/post/3mgkssdzbw22s">https://bsky.app/profile/riscosbits.co.uk/post/3mgkssdzbw22s</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-08T16:34:49Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20138">
-      <h1>Modern Frosted Theme</h1>
-
-(date: 2026-03-08)
-      <p>
-      <p>Just applied Frosted theme to my CM4-based RISC OS 5.31 (25-Jan-2026) and find that window title bars no longer turn cream on gaining input focus. Is this an inevitable side effect of Frosted, or is there a tweak to restore nomal service?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20138">https://www.riscosopen.org/forum/forums/1/topics/20138</a>
       </address>
     </article>
 
@@ -704,7 +886,7 @@
     <article data-published="2026-03-06T10:40:13Z" data-link="https://www.riscosnorth.uk/index.php/2026/03/06/exhibitor-list-almost-finalised/">
       <h1>Exhibitor list almost finalised</h1>
 
-(date: 2026-03-06)
+(date: 2026-03-06, updated: 2026-03-14)
       <p>
       <p>With the show now just two weeks away, the exhibitor list is close to being finalised, with almost all of last year’s exhibitors having confirmed they will be at the 2026 event, and at least one new exhibitor booking a stand. If you are one of the remaining exhibitors from last year who wants to […]</p>
 
@@ -3424,7 +3606,7 @@ youtu.be/6Mtl5vua9t4<a href="https://youtu.be/6Mtl5vua9t4">https://youtu.be/6Mtl
     <article data-published="2026-01-31T18:08:12Z" data-link="https://www.riscosnorth.uk/index.php/2026/01/31/spread-the-word-by-displaying-a-show-banner/">
       <h1>Spread the word by displaying a show banner</h1>
 
-(date: 2026-01-31, updated: 2026-03-06)
+(date: 2026-01-31, updated: 2026-03-14)
       <p>
       <p>If you want to help publicise the 2026 show, there are now a selection of banners available for you to display on your own web pages. Displaying a banner, with a link to this website, can help spread the word about the event to anyone who visits your own site, and in turn can help […]</p>
 
@@ -3456,19 +3638,6 @@ youtu.be/6Mtl5vua9t4<a href="https://youtu.be/6Mtl5vua9t4">https://youtu.be/6Mtl
 
       <address>
         <a href="https://www.riscository.com/2026/mug-20th-birthday/">https://www.riscository.com/2026/mug-20th-birthday/</a>
-      </address>
-    </article>
-
-    <article data-published="2026-01-31T16:35:37Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20199">
-      <h1>New DME ExtTheme and Launchpad available for download and testing</h1>
-
-(date: 2026-01-31)
-      <p>
-      <p>Ok, folks, it’s the weekend, so tonight I’ll try to count the votes and change those to parameters accordingly.</p>
-<p>So, if you fancy to express your vote/opinion, please do so quickly, this ain’t gonna be an “open referendum” for the next forsiable future XD</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20199">https://www.riscosopen.org/forum/forums/1/topics/20199</a>
       </address>
     </article>
 
@@ -9035,7 +9204,7 @@ youtu.be/RHdgIHr78RM<a href="https://youtu.be/RHdgIHr78RM">https://youtu.be/RHdg
     <article data-published="2025-11-29T13:18:55Z" data-link="https://www.riscosnorth.uk/index.php/2025/11/29/2026-risc-os-north-show-date-announced/">
       <h1>2026 show date announced</h1>
 
-(date: 2025-11-29, updated: 2026-03-06)
+(date: 2025-11-29, updated: 2026-03-14)
       <p>
       <p>After the success of the inaugural RISC OS North show in 2025, picking up the baton from the Wakefield Show, we are pleased to announce the date of the second event as: Saturday, 21st March, 2026 We look forward to welcoming everyone at the same venue as last year: Village Hotel Warrington,110 Centre Park Square,Warrington,WA1 […]</p>
 
@@ -19802,7 +19971,7 @@ While WROCC may no longer be running the Show, they are still very actively orga
     <article data-published="2025-04-02T18:07:55Z" data-link="https://www.riscosnorth.uk/index.php/2025/04/02/charity-stand-results/">
       <h1>Charity stand results</h1>
 
-(date: 2025-04-02, updated: 2026-03-06)
+(date: 2025-04-02, updated: 2026-03-14)
       <p>
       <p>We hope everyone enjoyed the show as much as we did – and a big thank you to everyone who either donated to or purchased anything from the charity stand, along with those looking after it. The amount of money raised as a result of the day’s efforts was an impressive £865. That money will […]</p>
 
@@ -19865,7 +20034,7 @@ While WROCC may no longer be running the Show, they are still very actively orga
     <article data-published="2025-03-28T08:00:00Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/28/and-theres-more/">
       <h1>And there’s more!</h1>
 
-(date: 2025-03-28, updated: 2026-03-06)
+(date: 2025-03-28, updated: 2026-03-14)
       <p>
       <p>Over the last week or two, the exhibitors falling into a number of broad areas have been explored – but there are some that either don’t fit in any of those areas, or who only do so in a small way. Here are a few of those: While Chris Hall has a few items of […]</p>
 
@@ -19901,7 +20070,7 @@ While WROCC may no longer be running the Show, they are still very actively orga
     <article data-published="2025-03-27T11:23:42Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/27/kit-yourself-out/">
       <h1>Kit yourself out!</h1>
 
-(date: 2025-03-27, updated: 2026-03-06)
+(date: 2025-03-27, updated: 2026-03-14)
       <p>
       <p>If you’re looking to upgrade your hardware to something new – or perhaps you’re just exploring the world of RISC OS and are thinking about buying your first bit of hardware – there will be something for you at the show, with at least two exhibitors offering hardware on which to run the operating system. […]</p>
 
@@ -19913,7 +20082,7 @@ While WROCC may no longer be running the Show, they are still very actively orga
     <article data-published="2025-03-26T13:11:07Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/26/come-along-and-play/">
       <h1>Come along and play</h1>
 
-(date: 2025-03-26, updated: 2026-03-06)
+(date: 2025-03-26, updated: 2026-03-14)
       <p>
       <p>If you enjoy playing games on your RISC OS computer, there will definitely be something for you at the show. AMCOG Games will be exhibiting, and will have a plethora of games for you to try and buy. AMCOG’s range is extensive, and there will be a new title launched at this show: Morphix. which […]</p>
 
@@ -19925,7 +20094,7 @@ While WROCC may no longer be running the Show, they are still very actively orga
     <article data-published="2025-03-25T20:55:31Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/25/retro-exhibitors-at-the-show/">
       <h1>Retro exhibitors at the show</h1>
 
-(date: 2025-03-25, updated: 2026-03-06)
+(date: 2025-03-25, updated: 2026-03-14)
       <p>
       <p>It’s not all about modern computing at RISC OS North – you’ll also be able to explore older systems, and perhaps even obtain something to keep that old kit running. Retro Hardware, for example, will be able to help you if you have an Acorn Electron in use, or if you’re planning on resurrecting one […]</p>
 
@@ -19950,7 +20119,7 @@ While WROCC may no longer be running the Show, they are still very actively orga
     <article data-published="2025-03-23T22:13:54Z" data-link="https://www.riscosnorth.uk/index.php/2025/03/23/software-of-all-kinds/">
       <h1>Software of all kinds</h1>
 
-(date: 2025-03-23, updated: 2026-03-06)
+(date: 2025-03-23, updated: 2026-03-14)
       <p>
       <p>There will be a variety of things to see and discuss at the show, as this series of posts demonstrates, and probably one of the biggest (next to hardware) is the wide range of software available for the operating system. Almost every exhibitor will have software of one form or another available. You’ll be able […]</p>
 
