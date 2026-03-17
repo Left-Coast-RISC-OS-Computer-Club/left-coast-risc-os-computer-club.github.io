@@ -7,10 +7,186 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>16 Mar 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>17 Mar 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23-dev</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mhbm3ftbs22l</link>
+      <description>
+        <![CDATA[I was in two minds whether to reveal this new 𝒏𝒆𝒎𝒐𝑩𝒂𝒔𝒊𝒄 feature before the RISC OS North show at Warrington on Saturday 21st March, but I am 𝐒𝐎 excited about it I’m going to tease it here without explanation.
+        
+        It’s a game-changer not only for a BBC Basic, but for programming languages in general. 😲]]>
+      </description>
+      <source:markdown>I was in two minds whether to reveal this new 𝒏𝒆𝒎𝒐𝑩𝒂𝒔𝒊𝒄 feature before the RISC OS North show at Warrington on Saturday 21st March, but I am 𝐒𝐎 excited about it I’m going to tease it here without explanation.
+
+It’s a game-changer not only for a BBC Basic, but for programming languages in general. 😲</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mhbm3ftbs22l</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p>Thanks Job and others,</p>
+        <p>Sorry for the late reply, having a crazy busy week at work.</p>
+        <p>I think the issue with the extension is my fault, I have a special filter that blocks them and usually disable it when improving the algorithm and then re-enable before weekly release, but I was dead tired last week and most likely I have left it commented out. My apologies, will make sure this weekend build it&#8217;s enabled.</p>
+        <p>It basically captures all the mistakes like the ones you&#8217;re describing and avoid the rename.</p>]]>
+      </description>
+      <source:markdown>Thanks Job and others,
+
+Sorry for the late reply, having a crazy busy week at work.
+
+I think the issue with the extension is my fault, I have a special filter that blocks them and usually disable it when improving the algorithm and then re-enable before weekly release, but I was dead tired last week and most likely I have left it commented out. My apologies, will make sure this weekend build it’s enabled.
+
+It basically captures all the mistakes like the ones you’re describing and avoid the rename.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:162383</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mhbf7s4ks22t</link>
+      <description>
+        <![CDATA[Spot the problem...I've just received this handy adapter for  standard Shugart 34-pin floppy connector to 26-pin ( Amstrad / Spectrum +3 ) 3" drives. Now got to go through the hassle of sending it back, at my expense, or fix it myself - I dumped my soldering iron a while back. Maybe it'll work!]]>
+      </description>
+      <source:markdown>Spot the problem...I&#39;ve just received this handy adapter for standard Shugart 34-pin floppy connector to 26-pin ( Amstrad / Spectrum +3 ) 3&#34; drives. Now got to go through the hassle of sending it back, at my expense, or fix it myself - I dumped my soldering iron a while back. Maybe it&#39;ll work!</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mhbf7s4ks22t</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mhaturfxvk2o</link>
+      <description>
+        <![CDATA[RISC OS North Show 2026 preview 
+        
+        https://www.iconbar.com/articles/RISC_OS_North_Show_2026_preview/index2308.html 
+        
+        The RISC OS North show takes place this Saturday (21st March 2026) at Village Hotel (Warrington) from 10:30am-4:30pm]]>
+      </description>
+      <source:markdown>RISC OS North Show 2026 preview
+
+https://www.iconbar.com/articles/RISC\_OS\_North\_Show\_2026\_preview/index2308.html
+
+The RISC OS North show takes place this Saturday (21st March 2026) at Village Hotel (Warrington) from 10:30am-4:30pm</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mhaturfxvk2o</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mhaswe7s3s2q</link>
+      <description>
+        <![CDATA[Yet another "let's shovel gen AI into something that really, really doesn't need it"
+        
+        Quite apart from anything else, it's disrespectful to the artwork and design produced in the original game, turning it into weird, uncanny valley Franken-slop.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Yet another &#34;let&#39;s shovel gen AI into something that really, really doesn&#39;t need it&#34;
+
+Quite apart from anything else, it&#39;s disrespectful to the artwork and design produced in the original game, turning it into weird, uncanny valley Franken-slop.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mhaswe7s3s2q</guid>
+    </item>    <item>
+      <title>RISC OS North Show 2026 preview</title>
+      <link>http://www.iconbar.com/comments/rss/news2308.html</link>
+      <description>
+        <![CDATA[The RISC OS North show takes place this Saturday (21st March 2026) at Village Hotel (Warrington) from 10:30am-4:30pm]]>
+      </description>
+      <source:markdown>The RISC OS North show takes place this Saturday (21st March 2026) at Village Hotel (Warrington) from 10:30am-4:30pm</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2308.html</guid>
+    </item>    <item>
+      <title>Risc OS armTex</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20298</link>
+      <description>
+        <![CDATA[<p>Thread to ask people who use <span class="caps">GCC</span> well, if it would be possible to recompile !Tex.</p>
+        <p>This the version of Tex I am using <a href="https://github.com/llewelld/armTeX">https://github.com/llewelld/armTeX</a>?</p>]]>
+      </description>
+      <source:markdown>Thread to ask people who use GCC well, if it would be possible to recompile !Tex.
+
+This the version of Tex I am using [https://github.com/llewelld/armTeX](https://github.com/llewelld/armTeX)?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20298:162368</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3mhag5xbtbk2s</link>
+      <description>
+        <![CDATA[Come and see one of these in action, running #RISC_OS, on Saturday at #RISCOSnorth Show!
+        
+        https://thepihut.com/products/argon-one-up-laptop-shell-for-cm5]]>
+      </description>
+      <source:markdown>Come and see one of these in action, running #RISC\_OS, on Saturday at #RISCOSnorth Show!
+
+https://thepihut.com/products/argon-one-up-laptop-shell-for-cm5</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3mhag5xbtbk2s</guid>
+    </item>    <item>
+      <title>Templates and Outline Fonts</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20297</link>
+      <description>
+        <![CDATA[<p>As someone who has never used outline fonts in window templates, this one is uncharted territory for me&#8230;</p>
+        <p>I&#8217;ve been sent a template file which reliably crashes WinEd when the browser is closed. On investigation, it would appear that within the many windows inside, there are 280 icons which use the same outline font &#8211; and WinEd maintains a single &#8220;256 byte font reference array&#8221; for all of the windows within a single file. Add in no check (that I can see) for the count wrapping around as icons are created, and the subsequent outcome isn&#8217;t a surprise.</p>
+        <p>Clearly some bounds checking is in order, but beyond that, what&#8217;s the standard practice on this? The <span class="caps">PRM</span> says on the Wimp_LoadTemplate page that the user can supply a new array for each template, and presumably WinEd can do this. However, this must dictate the end software design, so presumably WinEd would need to <strong>clearly</strong> warn the user if the total count went above 255 for any font, so that they could program accordingly?</p>
+        <p>Is there a convention amongst template editors around this? Do any offer 255 icons per window with the same outline font, assuming a consenting user? Or is the general approach to stick to one array for the whole file, so that the user has options for how they handle the fonts in the end application?</p>]]>
+      </description>
+      <source:markdown>As someone who has never used outline fonts in window templates, this one is uncharted territory for me…
+
+I’ve been sent a template file which reliably crashes WinEd when the browser is closed. On investigation, it would appear that within the many windows inside, there are 280 icons which use the same outline font – and WinEd maintains a single “256 byte font reference array” for all of the windows within a single file. Add in no check (that I can see) for the count wrapping around as icons are created, and the subsequent outcome isn’t a surprise.
+
+Clearly some bounds checking is in order, but beyond that, what’s the standard practice on this? The PRM says on the Wimp\_LoadTemplate page that the user can supply a new array for each template, and presumably WinEd can do this. However, this must dictate the end software design, so presumably WinEd would need to **clearly** warn the user if the total count went above 255 for any font, so that they could program accordingly?
+
+Is there a convention amongst template editors around this? Do any offer 255 icons per window with the same outline font, assuming a consenting user? Or is the general approach to stick to one array for the whole file, so that the user has options for how they handle the fonts in the end application?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20297:162367</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mh7d3lefvs2z</link>
+      <description>
+        <![CDATA[Discover your 'Dark side' at RISC OS North Show 
+        
+        https://www.iconbar.com/articles/Discover_your_Dark_side_at_RISC_OS_North_Show/index2311.html 
+        
+        Martin Eastwood will be at www.riscosnorth.uk RISC OS North to showcase his new Frosted Theme.]]>
+      </description>
+      <source:markdown>Discover your &#39;Dark side&#39; at RISC OS North Show
+
+https://www.iconbar.com/articles/Discover\_your\_Dark\_side\_at\_RISC\_OS\_North\_Show/index2311.html
+
+Martin Eastwood will be at www.riscosnorth.uk RISC OS North to showcase his new Frosted Theme.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mh7d3lefvs2z</guid>
+    </item>    <item>
+      <title>This site</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20259</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve finally managed to update <b>!Iris</b> using Packman. Not helped because I needed to update Packman first and &mdash; even though it was already shown on the list as being installed &mdash; it placed the new version in a different place. I also had to allow for the fact that the <em>previous</em> !Iris wasn&#8217;t installed via Packman. But after an additional restart, I now have the new version and it is working fine with the <span class="caps">ROOL</span> site.</p>]]>
+      </description>
+      <source:markdown>I’ve finally managed to update **!Iris** using Packman. Not helped because I needed to update Packman first and — even though it was already shown on the list as being installed — it placed the new version in a different place. I also had to allow for the fact that the _previous_ !Iris wasn’t installed via Packman. But after an additional restart, I now have the new version and it is working fine with the ROOL site.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20259:162362</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>Thanks for the info ARMEABISupport, it is on my machine but was not loaded, ok for PDFutils.<br />
+        I am going to review the progress of a complete document with these tools, this should avoid conversions.<br />
+        Magick has a lot of functions, thank you Chris for enlightening us, without reading all the documentation.<br />
+        We can concentrate on the detox phase which is already well advanced.<br />
+        I will make the code available, to show the &#8220;progress&#8221;</p>
+        <p>Jim<br />
+        The version I sent makes a <span class="caps">PBM</span> type P5 file, and I opted for a table to model the sigmoid.<br />
+        If with magick, we can go directly from this type of file to a <span class="caps">PDF</span> file that would be very good, to experiment.</p>
+        <p>I thought about&#8230; the original documents, in fact the ink preserved the paper, the characters appear black without coloring. Blue is the color that remains when you remove red and green, I think that&#8217;s why this color plays this role. It&#8217;s just an idea.<br />
+        I&#8217;m taking advantage of this thread to ask people who use <span class="caps">GCC</span> well, Chris for example, if it would be possible to recompile !Tex.<br />
+        I have some documents that I was able to build or view on my ARMX6, but it no longer works on a CM4 :-)<br />
+        It&#8217;s not urgent, take your time, end of parenthesis,</p>]]>
+      </description>
+      <source:markdown>Thanks for the info ARMEABISupport, it is on my machine but was not loaded, ok for PDFutils.
+
+I am going to review the progress of a complete document with these tools, this should avoid conversions.
+
+Magick has a lot of functions, thank you Chris for enlightening us, without reading all the documentation.
+
+We can concentrate on the detox phase which is already well advanced.
+
+I will make the code available, to show the “progress”
+
+Jim
+
+The version I sent makes a PBM type P5 file, and I opted for a table to model the sigmoid.
+
+If with magick, we can go directly from this type of file to a PDF file that would be very good, to experiment.
+
+I thought about… the original documents, in fact the ink preserved the paper, the characters appear black without coloring. Blue is the color that remains when you remove red and green, I think that’s why this color plays this role. It’s just an idea.
+
+I’m taking advantage of this thread to ask people who use GCC well, Chris for example, if it would be possible to recompile !Tex.
+
+I have some documents that I was able to build or view on my ARMX6, but it no longer works on a CM4 :-)
+
+It’s not urgent, take your time, end of parenthesis,</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162360</guid>
+    </item>    <item>
       <title>2026 floorplan published</title>
       <link>https://www.riscosnorth.uk/index.php/2026/03/16/2026-floorplan-published/</link>
       <description>
@@ -19,6 +195,17 @@
       <source:markdown>The floorplan for this year’s show is now online, so if you are planning to visit the show and have any exhibitors in particular whose stand you’d like to visit, you can now see where they should be on the day.</source:markdown>
       <guid>cid://https://www.riscosnorth.uk/?p=626</guid>
     </item>    <item>
+      <title>RISC OS Developments at London Show (inc Iris download instructions)</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20064</link>
+      <description>
+        <![CDATA[<p>But I <em>have</em> upgraded Packman!</p>
+        <p>Just discovered why the issue &#8212; when Packman updated itself, it didn&#8217;t put the new version in the same place as the old one. So I was always running the old one. And Packman was listed as being installed in the old version&#8230; I wonder if there are any other apps to which this applies. If it can&#8217;t even manage the apps it <em>knows</em> about&#8230;</p>]]>
+      </description>
+      <source:markdown>But I _have_ upgraded Packman!
+
+Just discovered why the issue — when Packman updated itself, it didn’t put the new version in the same place as the old one. So I was always running the old one. And Packman was listed as being installed in the old version… I wonder if there are any other apps to which this applies. If it can’t even manage the apps it _knows_ about…</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20064:162359</guid>
+    </item>    <item>
       <title>ShareFS goes cross platform</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13569&#38;page=1#125874</link>
       <description>
@@ -26,23 +213,6 @@
       </description>
       <source:markdown>I totally understand why you would want/need to distance yourself from anything original on this.</source:markdown>
       <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13569&#38;page=1#125874</guid>
-    </item>    <item>
-      <title>RISC OS Developments at London Show (inc Iris download instructions)</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20064</link>
-      <description>
-        <![CDATA[<p>I&#8217;m finding it impossible to update !Iris using <em>either</em> of the suggested approaches.</p>
-        <p>Using the link on the Iris homepage takes me to a page where I am asked for a username and password <em>which I don&#8217;t have.</em> <span class="caps">FYI</span>, the version of Iris I&#8217;m using was one made available to <span class="caps">WROCC</span> members after a talk given by Andrew R. back in 2023.</p>
-        <p>I have tried getting !Packman to update itself, but while the list in its own window indicates version 9.8.1 is installed, Info from the iconbar menu still says 0.97 Beta. I am unable to complete the other upgrades (!Manuals, !PipeDream) due to multiple file conflicts.</p>
-        <p>This sort of experience will <b>not</b> encourage others to use this OS. And I&#8217;m familiar with package managers on Linux having used Ubuntu and its variants for longer than I&#8217;ve used <span class="caps">RISC</span> OS. Though, there does appear to be a move away from this sort of package manager on Linux towards distro-independent &#8220;bundles&#8221; — and being Linux there are three of these&#8230;</p>]]>
-      </description>
-      <source:markdown>I’m finding it impossible to update !Iris using _either_ of the suggested approaches.
-
-Using the link on the Iris homepage takes me to a page where I am asked for a username and password _which I don’t have._ FYI, the version of Iris I’m using was one made available to WROCC members after a talk given by Andrew R. back in 2023.
-
-I have tried getting !Packman to update itself, but while the list in its own window indicates version 9.8.1 is installed, Info from the iconbar menu still says 0.97 Beta. I am unable to complete the other upgrades (!Manuals, !PipeDream) due to multiple file conflicts.
-
-This sort of experience will **not** encourage others to use this OS. And I’m familiar with package managers on Linux having used Ubuntu and its variants for longer than I’ve used RISC OS. Though, there does appear to be a move away from this sort of package manager on Linux towards distro-independent “bundles” — and being Linux there are three of these…</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20064:162354</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mh6mpxore22p</link>
       <description>
@@ -61,20 +231,6 @@ This sort of experience will **not** encourage others to use this OS. And I’m 
       </description>
       <source:markdown>This is the unreleased Iron Man game Overview document - dated 2003. It gives an overall idea of the gameplay, mechanics and flow.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mh6lnbdfh22p</guid>
-    </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p>As per Martin&#8217;s observation, 0.1.3 is renaming files it touches on the source server.  eg. in my case on the Windows server test.cue gets renamed to test.cue.cue.cue if I open it from <span class="caps">RISC</span> OS.  test.bin gets renamed to test.bin,<span class="caps">FFD</span> etc.</p>
-        <p>I have all the shares configured as read-only, so its ignoring that as well.</p>
-        <p>Paolo, I regrabbed this build and retested today as although it was reporting 0.1.3 &#8211; it must have been the intermediate branch going by the <span class="caps">EXE</span> size.  As per my email, the red hourglass appears less but is still occurring.</p>]]>
-      </description>
-      <source:markdown>As per Martin’s observation, 0.1.3 is renaming files it touches on the source server. eg. in my case on the Windows server test.cue gets renamed to test.cue.cue.cue if I open it from RISC OS. test.bin gets renamed to test.bin,FFD etc.
-
-I have all the shares configured as read-only, so its ignoring that as well.
-
-Paolo, I regrabbed this build and retested today as although it was reporting 0.1.3 – it must have been the intermediate branch going by the EXE size. As per my email, the red hourglass appears less but is still occurring.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:162346</guid>
     </item>    <item>
       <title>Gradgrind update ... and a Galaxy Quest</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20296</link>
@@ -124,14 +280,6 @@ How to sort this one probably needs a bit more thought, and some emails – so p
 
 [1](#fnr1) I don’t think there are any content changes, but some of the metadata looks a bit different and so the commit hashes aren’t the same. Oops.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20292:162342</guid>
-    </item>    <item>
-      <title>This site</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20259</link>
-      <description>
-        <![CDATA[<p>It does sound like it&#8217;s an &#8220;old Iris&#8221; issue, given that two very different certs from different providers give that error along with David P&#8217;s observation. How did things go with finding &amp; trying out an updated version?</p>]]>
-      </description>
-      <source:markdown>It does sound like it’s an “old Iris” issue, given that two very different certs from different providers give that error along with David P’s observation. How did things go with finding &#38; trying out an updated version?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20259:162340</guid>
     </item>    <item>
       <title>Any ARM Debuggers Ported to RO5 ?</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/19151</link>
@@ -198,59 +346,6 @@ I was impressed…
 
 Ralph</source:markdown>
       <guid>cid://www.riscosopen.org:5:19151:162339</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>I updated DetoxPageAGC.c so it just accepts a file path for input and output.</p>
-        <p>Then it&#8217;s possible to use imagemagick to generate the sprite files to be detoxed.</p>
-        <pre>
-        <code>
-        *pdfimages -j -all EQMM_1973_03.pdf page
-        *bash
-        magick mogrify -format spr page*.jpg
-        </pre>
-        <p></code></p>
-        <p>Once detoxed then,</p>
-        <pre>
-        <code>
-        magick mogrify -units pixelsperinch -density 300x300 -quality 75 -format jpg page*.spr
-        tesseract --oem 1 list.txt EQMM_1973_03_detoxed_ocred pdf
-        </code>
-        </pre>
-        <p>Modified program is <a href="https://www.riscosports.co.uk/misc/DeToxPageAGS.c">here</a>.</p>
-        <p>Then the detoxed and ocred pdf is <a href="https://www.riscosports.co.uk/misc/EQMM_1973_03_detoxed_ocred.pdf">here</a>.</p>]]>
-      </description>
-      <source:markdown>I updated DetoxPageAGC.c so it just accepts a file path for input and output.
-
-Then it’s possible to use imagemagick to generate the sprite files to be detoxed.
-
-```
-
-*pdfimages -j -all EQMM_1973_03.pdf page
-*bash
-magick mogrify -format spr page*.jpg
-
-```
-
-`
-`
-
-``
-
-Once detoxed then,
-
-```
-
-magick mogrify -units pixelsperinch -density 300x300 -quality 75 -format jpg page*.spr
-tesseract --oem 1 list.txt EQMM_1973_03_detoxed_ocred pdf
-
-```
-
-Modified program is [here](https://www.riscosports.co.uk/misc/DeToxPageAGS.c).
-
-Then the detoxed and ocred pdf is [here](https://www.riscosports.co.uk/misc/EQMM_1973_03_detoxed_ocred.pdf).</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162337</guid>
     </item>    <item>
       <title>Live Coding with Gerph, Sunday 15th March at 1pm UK time.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20293</link>
