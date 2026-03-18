@@ -7,10 +7,175 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>17 Mar 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>18 Mar 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23-dev</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3mhdvjzu5fs2m</link>
+      <description>
+        <![CDATA[RISCOSbits to bring a full range of systems to the #RISC_OS North Show on Saturday 21st March
+        
+        https://riscosopen.org/forum/forums/1/topics/20288?limit=25&page=1#posts-162408
+        
+        #risc_os
+        #AcornComputers
+        #riscosnorth]]>
+      </description>
+      <source:markdown>RISCOSbits to bring a full range of systems to the #RISC\_OS North Show on Saturday 21st March
+
+https://riscosopen.org/forum/forums/1/topics/20288?limit=25&#38;page=1#posts-162408
+
+#risc\_os
+#AcornComputers
+#riscosnorth</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3mhdvjzu5fs2m</guid>
+    </item>    <item>
+      <title>RISC OS North is THIS WEEKEND!</title>
+      <link>https://www.riscository.com/2026/risc-os-north-this-weekend/</link>
+      <description>
+        <![CDATA[With RISC OS show-eve almost upon us (that&#8217;ll be Friday, folks &#8211; the day before the show), Andrew Rawnsley and Richard Brown, who jointly organise the RISC OS North shows, have sent out an announcement/reminder about the upcoming event: We&#8217;re now only a few days away from the first big RISC OS event of 2026 &#8211; the RISC OS North Show in Warrington, Saturday 21st March 2026. The show takes place at the Village Hotel in Warrington, from 10.30am &#8217;til 4.30pm. The hotel has food and drink available from its&#8230;]]>
+      </description>
+      <source:markdown>With RISC OS show-eve almost upon us (that’ll be Friday, folks – the day before the show), Andrew Rawnsley and Richard Brown, who jointly organise the RISC OS North shows, have sent out an announcement/reminder about the upcoming event: We’re now only a few days away from the first big RISC OS event of 2026 – the RISC OS North Show in Warrington, Saturday 21st March 2026. The show takes place at the Village Hotel in Warrington, from 10.30am ’til 4.30pm. The hotel has food and drink available from its…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10902</guid>
+    </item>    <item>
+      <title>RISCOSbits at RISC OS North 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20288</link>
+      <description>
+        <![CDATA[<p>As myself recently purchased Christmas Cracker Chimera box last year.</p>
+        <p>Just to ask 4x questions.</p>
+        <p>Q1: With the new enchancements coming like the NVMe drivers and future Chimera developments, how would I be able to obtain the updates?</p>
+        <p>Q2: And would it be a free update or a cost to it?</p>
+        <p>Q3: How can I install an additonal head and what options do I have?</p>
+        <p>Q4: I have 4GB on my Chimera, can I upgrade to 8GB and get RiscOS to use the full amount of <span class="caps">RAM</span>?</p>
+        <p>Thank you.</p>]]>
+      </description>
+      <source:markdown>As myself recently purchased Christmas Cracker Chimera box last year.
+
+Just to ask 4x questions.
+
+Q1: With the new enchancements coming like the NVMe drivers and future Chimera developments, how would I be able to obtain the updates?
+
+Q2: And would it be a free update or a cost to it?
+
+Q3: How can I install an additonal head and what options do I have?
+
+Q4: I have 4GB on my Chimera, can I upgrade to 8GB and get RiscOS to use the full amount of RAM?
+
+Thank you.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20288:162401</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mhdqvgctlc2a</link>
+      <description>
+        <![CDATA[Well this is very pleasant. 🌞
+        
+        String things will have to wait.]]>
+      </description>
+      <source:markdown>Well this is very pleasant. 🌞
+
+String things will have to wait.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mhdqvgctlc2a</guid>
+    </item>    <item>
+      <title>Modern Frosted Theme</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
+      <description>
+        <![CDATA[<p>Looking forward to seeing Dark Mode released Martin. My eyes are getting desperate now. :-)</p>]]>
+      </description>
+      <source:markdown>Looking forward to seeing Dark Mode released Martin. My eyes are getting desperate now. :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20138:162400</guid>
+    </item>    <item>
+      <title>RISC OS Developments at London Show (inc Iris download instructions)</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20064</link>
+      <description>
+        <![CDATA[<p>Hello All,</p>
+        <p>Like others on this thread having issues downloading and installing the latest Iris web-browser.</p>
+        <p>- I have the latest Packman installed, version: 0.9.8 Beta (Date: 18/7/24)<br />
+        - Made sure, the Packman sources have:<br />
+        - <a href="http://packages.riscosdev.com/pkg/autobuilt">http://packages.riscosdev.com/pkg/autobuilt</a><br />
+        - <a href="http://packages.riscosopen.org/packages/pkg/programs-armv5">http://packages.riscosopen.org/packages/pkg/programs-a…</a><br />
+        - Updated list and upgrade all.<br />
+        - Search for Iris under the Network category<br />
+        - Mine already had a green checkmark on Iris.<br />
+        - I notice the Iris version had 1.037-5<br />
+        - Installed it and rebooted system<br />
+        - But upon checking my Iris version, I still see 1.037 (Date: 21/7/25)</p>
+        <p>Question: Have I actually downloaded the latest version of Iris correctly? I apologize if it obvious but my impression was surely the iris date would have been updated to confirm the new change actually been installed ok or not.</p>
+        <p>Thank you.</p>]]>
+      </description>
+      <source:markdown>Hello All,
+
+Like others on this thread having issues downloading and installing the latest Iris web-browser.
+
+\- I have the latest Packman installed, version: 0.9.8 Beta (Date: 18/7/24)
+
+\- Made sure, the Packman sources have:
+
+\- [http://packages.riscosdev.com/pkg/autobuilt](http://packages.riscosdev.com/pkg/autobuilt)
+
+\- [http://packages.riscosopen.org/packages/pkg/programs-a…](http://packages.riscosopen.org/packages/pkg/programs-armv5)
+
+\- Updated list and upgrade all.
+
+\- Search for Iris under the Network category
+
+\- Mine already had a green checkmark on Iris.
+
+\- I notice the Iris version had 1.037-5
+
+\- Installed it and rebooted system
+
+\- But upon checking my Iris version, I still see 1.037 (Date: 21/7/25)
+
+Question: Have I actually downloaded the latest version of Iris correctly? I apologize if it obvious but my impression was surely the iris date would have been updated to confirm the new change actually been installed ok or not.
+
+Thank you.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20064:162396</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>Imagemagick can do everything in one command. The resulting <span class="caps">PDF</span> is then about 42MB</p>
+        <p>magick mogrify -sigmoidal-contrast 1024  -colorspace Gray -depth 4 -format  png page*.jpg</p>]]>
+      </description>
+      <source:markdown>Imagemagick can do everything in one command. The resulting PDF is then about 42MB
+
+magick mogrify -sigmoidal-contrast 1024 -colorspace Gray -depth 4 -format png page\*.jpg</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162394</guid>
+    </item>    <item>
+      <title>Templates and Outline Fonts</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20297</link>
+      <description>
+        <![CDATA[<p>@Piers:</p>
+        <blockquote>
+        <p>Fontlist&#8217;s also not accurate</p>
+        </blockquote>
+        <p>Oddly, I had never come across that! Perhaps I should use Font_ReadDefn instead of *FontList</p>]]>
+      </description>
+      <source:markdown>@Piers:
+
+&#62; Fontlist’s also not accurate
+
+Oddly, I had never come across that! Perhaps I should use Font\_ReadDefn instead of \*FontList</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20297:162393</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mhcznkxcxc2q</link>
+      <description>
+        <![CDATA[ABUG South was a blast, here's what we got up to!
+        youtu.be/wtths_J-XvU
+        https://youtu.be/wtths_J-XvU]]>
+      </description>
+      <source:markdown>ABUG South was a blast, here&#39;s what we got up to!
+youtu.be/wtths\_J-XvU
+https://youtu.be/wtths\_J-XvU</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mhcznkxcxc2q</guid>
+    </item>    <item>
+      <title>Theatre programme announced</title>
+      <link>https://www.riscosnorth.uk/index.php/2026/03/17/theatre-programme-announced/</link>
+      <description>
+        <![CDATA[The schedule has now been finalised for the show theatre, with four exhibitors lined up to give talks, show off hardware, or demonstrate their software: RISC OS Developments/Orpheus Internet, R-Comp, RISC OS Open Ltd, and Sine Nomine]]>
+      </description>
+      <source:markdown>The schedule has now been finalised for the show theatre, with four exhibitors lined up to give talks, show off hardware, or demonstrate their software: RISC OS Developments/Orpheus Internet, R-Comp, RISC OS Open Ltd, and Sine Nomine</source:markdown>
+      <guid>cid://https://www.riscosnorth.uk/?p=631</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mhbm3ftbs22l</link>
       <description>
         <![CDATA[I was in two minds whether to reveal this new 𝒏𝒆𝒎𝒐𝑩𝒂𝒔𝒊𝒄 feature before the RISC OS North show at Warrington on Saturday 21st March, but I am 𝐒𝐎 excited about it I’m going to tease it here without explanation.
@@ -106,23 +271,6 @@ This the version of Tex I am using [https://github.com/llewelld/armTeX](https://
 https://thepihut.com/products/argon-one-up-laptop-shell-for-cm5</source:markdown>
       <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3mhag5xbtbk2s</guid>
     </item>    <item>
-      <title>Templates and Outline Fonts</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20297</link>
-      <description>
-        <![CDATA[<p>As someone who has never used outline fonts in window templates, this one is uncharted territory for me&#8230;</p>
-        <p>I&#8217;ve been sent a template file which reliably crashes WinEd when the browser is closed. On investigation, it would appear that within the many windows inside, there are 280 icons which use the same outline font &#8211; and WinEd maintains a single &#8220;256 byte font reference array&#8221; for all of the windows within a single file. Add in no check (that I can see) for the count wrapping around as icons are created, and the subsequent outcome isn&#8217;t a surprise.</p>
-        <p>Clearly some bounds checking is in order, but beyond that, what&#8217;s the standard practice on this? The <span class="caps">PRM</span> says on the Wimp_LoadTemplate page that the user can supply a new array for each template, and presumably WinEd can do this. However, this must dictate the end software design, so presumably WinEd would need to <strong>clearly</strong> warn the user if the total count went above 255 for any font, so that they could program accordingly?</p>
-        <p>Is there a convention amongst template editors around this? Do any offer 255 icons per window with the same outline font, assuming a consenting user? Or is the general approach to stick to one array for the whole file, so that the user has options for how they handle the fonts in the end application?</p>]]>
-      </description>
-      <source:markdown>As someone who has never used outline fonts in window templates, this one is uncharted territory for me…
-
-I’ve been sent a template file which reliably crashes WinEd when the browser is closed. On investigation, it would appear that within the many windows inside, there are 280 icons which use the same outline font – and WinEd maintains a single “256 byte font reference array” for all of the windows within a single file. Add in no check (that I can see) for the count wrapping around as icons are created, and the subsequent outcome isn’t a surprise.
-
-Clearly some bounds checking is in order, but beyond that, what’s the standard practice on this? The PRM says on the Wimp\_LoadTemplate page that the user can supply a new array for each template, and presumably WinEd can do this. However, this must dictate the end software design, so presumably WinEd would need to **clearly** warn the user if the total count went above 255 for any font, so that they could program accordingly?
-
-Is there a convention amongst template editors around this? Do any offer 255 icons per window with the same outline font, assuming a consenting user? Or is the general approach to stick to one array for the whole file, so that the user has options for how they handle the fonts in the end application?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20297:162367</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mh7d3lefvs2z</link>
       <description>
         <![CDATA[Discover your 'Dark side' at RISC OS North Show 
@@ -146,47 +294,6 @@ Martin Eastwood will be at www.riscosnorth.uk RISC OS North to showcase his new 
       <source:markdown>I’ve finally managed to update **!Iris** using Packman. Not helped because I needed to update Packman first and — even though it was already shown on the list as being installed — it placed the new version in a different place. I also had to allow for the fact that the _previous_ !Iris wasn’t installed via Packman. But after an additional restart, I now have the new version and it is working fine with the ROOL site.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20259:162362</guid>
     </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>Thanks for the info ARMEABISupport, it is on my machine but was not loaded, ok for PDFutils.<br />
-        I am going to review the progress of a complete document with these tools, this should avoid conversions.<br />
-        Magick has a lot of functions, thank you Chris for enlightening us, without reading all the documentation.<br />
-        We can concentrate on the detox phase which is already well advanced.<br />
-        I will make the code available, to show the &#8220;progress&#8221;</p>
-        <p>Jim<br />
-        The version I sent makes a <span class="caps">PBM</span> type P5 file, and I opted for a table to model the sigmoid.<br />
-        If with magick, we can go directly from this type of file to a <span class="caps">PDF</span> file that would be very good, to experiment.</p>
-        <p>I thought about&#8230; the original documents, in fact the ink preserved the paper, the characters appear black without coloring. Blue is the color that remains when you remove red and green, I think that&#8217;s why this color plays this role. It&#8217;s just an idea.<br />
-        I&#8217;m taking advantage of this thread to ask people who use <span class="caps">GCC</span> well, Chris for example, if it would be possible to recompile !Tex.<br />
-        I have some documents that I was able to build or view on my ARMX6, but it no longer works on a CM4 :-)<br />
-        It&#8217;s not urgent, take your time, end of parenthesis,</p>]]>
-      </description>
-      <source:markdown>Thanks for the info ARMEABISupport, it is on my machine but was not loaded, ok for PDFutils.
-
-I am going to review the progress of a complete document with these tools, this should avoid conversions.
-
-Magick has a lot of functions, thank you Chris for enlightening us, without reading all the documentation.
-
-We can concentrate on the detox phase which is already well advanced.
-
-I will make the code available, to show the “progress”
-
-Jim
-
-The version I sent makes a PBM type P5 file, and I opted for a table to model the sigmoid.
-
-If with magick, we can go directly from this type of file to a PDF file that would be very good, to experiment.
-
-I thought about… the original documents, in fact the ink preserved the paper, the characters appear black without coloring. Blue is the color that remains when you remove red and green, I think that’s why this color plays this role. It’s just an idea.
-
-I’m taking advantage of this thread to ask people who use GCC well, Chris for example, if it would be possible to recompile !Tex.
-
-I have some documents that I was able to build or view on my ARMX6, but it no longer works on a CM4 :-)
-
-It’s not urgent, take your time, end of parenthesis,</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162360</guid>
-    </item>    <item>
       <title>2026 floorplan published</title>
       <link>https://www.riscosnorth.uk/index.php/2026/03/16/2026-floorplan-published/</link>
       <description>
@@ -194,17 +301,6 @@ It’s not urgent, take your time, end of parenthesis,</source:markdown>
       </description>
       <source:markdown>The floorplan for this year’s show is now online, so if you are planning to visit the show and have any exhibitors in particular whose stand you’d like to visit, you can now see where they should be on the day.</source:markdown>
       <guid>cid://https://www.riscosnorth.uk/?p=626</guid>
-    </item>    <item>
-      <title>RISC OS Developments at London Show (inc Iris download instructions)</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20064</link>
-      <description>
-        <![CDATA[<p>But I <em>have</em> upgraded Packman!</p>
-        <p>Just discovered why the issue &#8212; when Packman updated itself, it didn&#8217;t put the new version in the same place as the old one. So I was always running the old one. And Packman was listed as being installed in the old version&#8230; I wonder if there are any other apps to which this applies. If it can&#8217;t even manage the apps it <em>knows</em> about&#8230;</p>]]>
-      </description>
-      <source:markdown>But I _have_ upgraded Packman!
-
-Just discovered why the issue — when Packman updated itself, it didn’t put the new version in the same place as the old one. So I was always running the old one. And Packman was listed as being installed in the old version… I wonder if there are any other apps to which this applies. If it can’t even manage the apps it _knows_ about…</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20064:162359</guid>
     </item>    <item>
       <title>ShareFS goes cross platform</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13569&#38;page=1#125874</link>
@@ -493,28 +589,6 @@ I&#39;m tip-toeing away before it explodes.
       </description>
       <source:markdown>Er … not sure what you’re getting at here. The Dwarf Mini is a telescope/camera, and the only !NightSky I can find is a rather elderly star map program. Which doesn’t appear to work on modern RISC OS machines. The Mini does have a built-in star atlas (and a rather good one, too), which I’ll cover in a later post.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20294:162317</guid>
-    </item>    <item>
-      <title>Modern Frosted Theme</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
-      <description>
-        <![CDATA[<p>Thanks to the help of Paolo with ExtTheming System, a few issues at the moment, but here is what Frosted Dark Mode Looks Like :)<br />
-        <img src="https://images2.imgbox.com/5c/91/qeI0fuqI_o.jpg" alt="" /></p>]]>
-      </description>
-      <source:markdown>Thanks to the help of Paolo with ExtTheming System, a few issues at the moment, but here is what Frosted Dark Mode Looks Like :)
-
-![](https://images2.imgbox.com/5c/91/qeI0fuqI_o.jpg)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20138:162314</guid>
-    </item>    <item>
-      <title>RISCOSbits at RISC OS North 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20288</link>
-      <description>
-        <![CDATA[<p>We generally provide the &#8216;desktop&#8217; part of the system, without any other peripherals, except for power supplies. We can provide any other accessories and peripherals as required, or help people source the things they want, but in most cases, we find people generally have a favourite/spare keyboard, mouse and monitor.</p>
-        <p>Floppy drives aren&#8217;t really possible modern systems, as they don&#8217;t work in a traditional way, so can&#8217;t really read filecore discs.</p>]]>
-      </description>
-      <source:markdown>We generally provide the ‘desktop’ part of the system, without any other peripherals, except for power supplies. We can provide any other accessories and peripherals as required, or help people source the things they want, but in most cases, we find people generally have a favourite/spare keyboard, mouse and monitor.
-
-Floppy drives aren’t really possible modern systems, as they don’t work in a traditional way, so can’t really read filecore discs.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20288:162311</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mgzq6n43e224</link>
       <description>
@@ -2119,7 +2193,7 @@ Anyhow, that’s my intention. It will almost certainly require a bit of thought
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mfhs2f4zpk25</guid>
     </item>    <item>
-      <title>Voices from a Future Passed – on sale from 1st March</title>
+      <title>Voices from a Future Passed – on sale from 1st March (updated 18th March)</title>
       <link>https://www.riscository.com/2026/voices-from-a-future-passed-available-1st-march/</link>
       <description>
         <![CDATA[The official Acorn biography, Voices from a Future Passed, put together by Rob Napier, will be available to buy from 1st March. The book outlines the history of Acorn Computers Ltd &#8211; the company that brought us the BBC Micro home computer, amongst many others, and designed the original ARM processor. The ARM first became the heart of their next generation of computers before going on to dominate the world when it came mobile and low-power processing; there are now many times more ARMs in the world than there are,&#8230;]]>
