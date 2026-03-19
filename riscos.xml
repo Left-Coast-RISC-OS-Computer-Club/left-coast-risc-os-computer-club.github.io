@@ -7,10 +7,416 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>18 Mar 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>19 Mar 26 12:01 -0700</lastBuildDate>
     <generator>antenna/0.0.23-dev</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
+      <description>
+        <![CDATA[<p>We&#8217;re pleased to announce a new program for <span class="caps">RISC</span> OS to enable printing to many modern inkjet printers direct from <span class="caps">RISC</span> OS.  The new software is called <strong>MailPrint</strong> and takes advantage of the &#8220;print-by-email&#8221; facilities offered by many wifi-connected printers, especially from the likes of Epson and Brother, although some Canon and HP printers also offer(ed) this.  For those that don&#8217;t do email-based printing, a cloud-print mode allows jobs to be sent to Cloud services like DropBox or OneDrive, and printed from there.</p>
+        <p>The software streamlines the whole process, so all you need to do is click &#8220;Print&#8221; in your favourite <span class="caps">RISC</span> OS application, and then a few seconds later (depends on internet speed) your printer will burst into life (assuming it is on &#8211; yes, we made that mistake a few times during development!).</p>
+        <p>The software allows printing from wherever you are in the world, making it ideal for use with laptop computers &#8211; it supports both <span class="caps">RISC</span> OS 5 and <span class="caps">RISC</span> OS 4.x on emulators etc (and should work on other systems too).  This means you can print out an email (say) whilst you&#8217;re away, and have it waiting on your printer when you get home.</p>
+        <p>On top of that, it allows direct printing of photos, images and MS Office documents, which can be quite handy.  If someone sends you a powerpoint file (ppt or pptx), for example, you can print out a copy even though <span class="caps">RISC</span> OS can&#8217;t handle Powerpoint files directly (<span class="caps">AFAIK</span>).  The photo print mode allows for high quality photo prints on appropriate paper stocks.</p>
+        <p><strong>CloudPrint</strong> mode is offered as an alternative &#8211; it allows me to print to a Canon that doesn&#8217;t have an email mode.  It does so by allowing you to send your print job to a Cloud drive, and then print from Cloud.  The mode is a bit less exciting that it may sound &#8211; you&#8217;ll need to provide <span class="caps">RISC</span> OS access to the Cloud service.  I did this by doing a standard Windows share on my DropBox, and using LanMan98.  Paolo&#8217;s ShareFSserver seems like an ideal cross-platform solution to this.  Once created, CloudPrint mode uses the printer&#8217;s web service to print the document.</p>
+        <p>CloudPrint mode also offers an interesting &#8220;extra&#8221; capability that one tester has now employed for invoice printing.  It can generate <strong>sequential print job</strong> names in <span class="caps">PDF</span>.  So, you can simply set the file name and destination in the Choices window, and the counter to whatever value you need, then run off Invoice1001/pdf, Invoice1002/pdf and so on into your Invoices folder.  We did this to ensure unique names for CloudPrint jobs in the cloud service folder, but as you can see, it has other uses.</p>
+        <p><strong>Availability</strong></p>
+        <p>MailPrint launches at the show this weekend, but should appear on !Store later today.  The !Store version will include the Hermes mail transfer software and cost 35ukp.  It will be discounted to 25ukp at the show, and include a printed manual and CD.  There will likely be a cheaper version for !Store after the show without Hermes, but it requires creating a different build, and time is limited this week.</p>
+        <p><strong>Thanks</strong></p>
+        <p>Thanks to Colin Foster for the initial concept and for testing MailPrint during development.</p>]]>
+      </description>
+      <source:markdown>We’re pleased to announce a new program for RISC OS to enable printing to many modern inkjet printers direct from RISC OS. The new software is called **MailPrint** and takes advantage of the “print-by-email” facilities offered by many wifi-connected printers, especially from the likes of Epson and Brother, although some Canon and HP printers also offer(ed) this. For those that don’t do email-based printing, a cloud-print mode allows jobs to be sent to Cloud services like DropBox or OneDrive, and printed from there.
+
+The software streamlines the whole process, so all you need to do is click “Print” in your favourite RISC OS application, and then a few seconds later (depends on internet speed) your printer will burst into life (assuming it is on – yes, we made that mistake a few times during development!).
+
+The software allows printing from wherever you are in the world, making it ideal for use with laptop computers – it supports both RISC OS 5 and RISC OS 4.x on emulators etc (and should work on other systems too). This means you can print out an email (say) whilst you’re away, and have it waiting on your printer when you get home.
+
+On top of that, it allows direct printing of photos, images and MS Office documents, which can be quite handy. If someone sends you a powerpoint file (ppt or pptx), for example, you can print out a copy even though RISC OS can’t handle Powerpoint files directly (AFAIK). The photo print mode allows for high quality photo prints on appropriate paper stocks.
+
+**CloudPrint** mode is offered as an alternative – it allows me to print to a Canon that doesn’t have an email mode. It does so by allowing you to send your print job to a Cloud drive, and then print from Cloud. The mode is a bit less exciting that it may sound – you’ll need to provide RISC OS access to the Cloud service. I did this by doing a standard Windows share on my DropBox, and using LanMan98. Paolo’s ShareFSserver seems like an ideal cross-platform solution to this. Once created, CloudPrint mode uses the printer’s web service to print the document.
+
+CloudPrint mode also offers an interesting “extra” capability that one tester has now employed for invoice printing. It can generate **sequential print job** names in PDF. So, you can simply set the file name and destination in the Choices window, and the counter to whatever value you need, then run off Invoice1001/pdf, Invoice1002/pdf and so on into your Invoices folder. We did this to ensure unique names for CloudPrint jobs in the cloud service folder, but as you can see, it has other uses.
+
+**Availability**
+
+MailPrint launches at the show this weekend, but should appear on !Store later today. The !Store version will include the Hermes mail transfer software and cost 35ukp. It will be discounted to 25ukp at the show, and include a printed manual and CD. There will likely be a cheaper version for !Store after the show without Hermes, but it requires creating a different build, and time is limited this week.
+
+**Thanks**
+
+Thanks to Colin Foster for the initial concept and for testing MailPrint during development.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20301:162434</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3mhg6noxxwc24</link>
+      <description>
+        <![CDATA[Come and see a real novelty, but still useful, device at the RISC OS North Show on Saturday.
+        
+        We've used our little used blog to tell you a bit about it to whet your appetite: https://riscosbits.blog/2026/03/19/the-k3-keyboard-screen/
+        
+        #riscosnovelty
+        #niche
+        #reallyquiteuseful
+        #funwithriscos
+        #risc_os]]>
+      </description>
+      <source:markdown>Come and see a real novelty, but still useful, device at the RISC OS North Show on Saturday.
+
+We&#39;ve used our little used blog to tell you a bit about it to whet your appetite: https://riscosbits.blog/2026/03/19/the-k3-keyboard-screen/
+
+#riscosnovelty
+#niche
+#reallyquiteuseful
+#funwithriscos
+#risc\_os</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3mhg6noxxwc24</guid>
+    </item>    <item>
+      <title>RISC OS Developments at RISC OS North - Firewall and Iris</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20300</link>
+      <description>
+        <![CDATA[<p><span class="caps">RISC</span> OS Developments is pleased to announce it will have several new elements to exhibit at the show.</p>
+        <p>First up is a new March 2026 release of the <strong>Iris browser</strong>, which should be hitting PackMan and the upgrade site in time for the show.  Although not as significant as some releases, this build aims to address some bugs and features requested by users, whilst larger functions are worked on behind the scenes.  Changes and improvements include:</p>
+        <ul>
+        	<li>Ability to set default page zoom &#8211; you can now default to (say) 120% as needed.</li>
+        </ul>
+        <ul>
+        	<li>Can now save the target of a link by pressing menu over it and File&#8594;Save link content<br />
+        This is useful for saving downloads without having to individually click them first, especially now that PDFs are rendered by the browser.</li>
+        </ul>
+        <ul>
+        	<li>Fixes for BigMode (EX0 EY0 modes)<br />
+        Iris now works better when using BigMode on laptops or when going into high detail on 4K screens.</li>
+        </ul>
+        <ul>
+        	<li>Updated default UserAgent browser IDs and certificates<br />
+        This resolves oddities with a number of website &#8211; for example, Google no longer complains with &#8220;are you human?&#8221; checks<br />
+        The updated certificates help ensure <span class="caps">SSL</span>/<span class="caps">TLS</span> works as expected.</li>
+        </ul>
+        <p>In other news, the <span class="caps">ROD</span> <span class="caps">TCP</span>/IP stack has gained a working <strong>firewall</strong> (complete with graphical user interface).  This was achieved by implementing the /dev/ driver model as part of the stack, making porting features and drivers from other platforms easier.  The full feature set of the pf firewall is available (there are books on it), but we&#8217;ve tried to make it nice and easy to use with a friendly interface in NetManager.  Richard will be demonstrating how you can use it to block sites or control network traffic.</p>
+        <p>Whilst the firewall isn&#8217;t a &#8220;first for <span class="caps">RISC</span> OS&#8221; in and of itself (<span class="caps">RISC</span> OS Select/Adjust had one), we believe it is the first time that it has been available with a friendly interface, in a way that users will be able to feel comfortable setting up and using.</p>
+        <p>Finally, there&#8217;s a new version of <strong>Pinboard 2</strong> ready to go with some fixes to things reported by users.</p>
+        <p>Come and get more info at the show, and see the new features in action.</p>]]>
+      </description>
+      <source:markdown>RISC OS Developments is pleased to announce it will have several new elements to exhibit at the show.
+
+First up is a new March 2026 release of the **Iris browser**, which should be hitting PackMan and the upgrade site in time for the show. Although not as significant as some releases, this build aims to address some bugs and features requested by users, whilst larger functions are worked on behind the scenes. Changes and improvements include:
+
+- Ability to set default page zoom – you can now default to (say) 120% as needed.
+
+- Can now save the target of a link by pressing menu over it and File→Save link content
+
+
+  This is useful for saving downloads without having to individually click them first, especially now that PDFs are rendered by the browser.
+
+- Fixes for BigMode (EX0 EY0 modes)
+
+
+  Iris now works better when using BigMode on laptops or when going into high detail on 4K screens.
+
+- Updated default UserAgent browser IDs and certificates
+
+
+  This resolves oddities with a number of website – for example, Google no longer complains with “are you human?” checks
+
+
+  The updated certificates help ensure SSL/TLS works as expected.
+
+In other news, the RODTCP/IP stack has gained a working **firewall** (complete with graphical user interface). This was achieved by implementing the /dev/ driver model as part of the stack, making porting features and drivers from other platforms easier. The full feature set of the pf firewall is available (there are books on it), but we’ve tried to make it nice and easy to use with a friendly interface in NetManager. Richard will be demonstrating how you can use it to block sites or control network traffic.
+
+Whilst the firewall isn’t a “first for RISC OS” in and of itself (RISC OS Select/Adjust had one), we believe it is the first time that it has been available with a friendly interface, in a way that users will be able to feel comfortable setting up and using.
+
+Finally, there’s a new version of **Pinboard 2** ready to go with some fixes to things reported by users.
+
+Come and get more info at the show, and see the new features in action.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20300:162430</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mhg5l2fq5c2h</link>
+      <description>
+        <![CDATA[Some good news, for once!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Some good news, for once!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mhg5l2fq5c2h</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3mhg2j3xahc26</link>
+      <description>
+        <![CDATA[RISCOSbits to launch RiscDOCK Lite Editions at the RISC OS North Show
+        
+        https://www.riscosopen.org/forum/forums/1/topics/20288?limit=25&page=1#posts-162429
+        
+        #lapdock
+        #portablerisc_os
+        #riscoslaptop
+        #multios
+        #risc_os
+        #acorncomputers]]>
+      </description>
+      <source:markdown>RISCOSbits to launch RiscDOCK Lite Editions at the RISC OS North Show
+
+https://www.riscosopen.org/forum/forums/1/topics/20288?limit=25&#38;page=1#posts-162429
+
+#lapdock
+#portablerisc\_os
+#riscoslaptop
+#multios
+#risc\_os
+#acorncomputers</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3mhg2j3xahc26</guid>
+    </item>    <item>
+      <title>RISCOSbits at RISC OS North 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20288</link>
+      <description>
+        <![CDATA[<h2>RISCOSbits to launch RiscDOCK Lite Editions at the <span class="caps">RISC</span> OS North Show</h2>
+        <p>Visitors to the weekend&#8217;s <span class="caps">RISC</span> OS North Show will be able to get their hands on an exciting new addition to the portable <span class="caps">RISC</span> OS ecosystem. RISCOSbits will be unveiling the <a href="https://www.riscosbits.co.uk/lapdock.htm">RiscDOCK 14in Lite and RiscDOCK 15.6in</a> Lite, two affordable portable systems designed specifically for users who already have a spare Raspberry Pi 4 waiting for a new purpose.</p>
+        <p>The new RiscDOCK Lite editions take the proven RiscDOCK concept and make it even more accessible. Instead of including a Raspberry Pi, these models are designed for users who already own a Raspberry Pi 4, allowing them to transform it into a compact, self-contained <span class="caps">RISC</span> OS portable system.</p>
+        <p>Each RiscDOCK Lite package comes with everything needed to get started quickly and easily. The system includes a high-quality Lapdock display with integrated keyboard and trackpad, a custom Raspberry Pi 4 adaptor, a power supply, all the required cables, and a bootable SD card preloaded with RiscDOCK software. Simply insert your Raspberry Pi 4 and power up to enjoy a portable <span class="caps">RISC</span> OS machine.</p>
+        <p>The two screen sizes provide flexibility depending on how you like to work. The 14-inch model offers a compact, highly portable option that fits easily into a bag, while the 15.6-inch version provides a larger workspace for those who prefer more screen real estate for applications, coding, or everyday desktop tasks.</p>
+        <p>Visitors should also remember that the beauty of RiscDOCK lies in its flexibility. While it makes an excellent portable <span class="caps">RISC</span> OS machine, it is equally happy hosting a Linux-based Raspberry Pi environment, or even with a Windows MiniPC. In addition, selected smartphones can be connected to  provide a full desktop-style interface, meaning users can switch between <span class="caps">RISC</span> OS, Linux, and even a phone-powered desktop environment using the same keyboard, screen, and trackpad.</p>
+        <p>RiscDOCK Lite systems are ideal for <span class="caps">RISC</span> OS enthusiasts who want a portable setup without the hassle of assembling parts or configuring software from scratch. They also make an excellent second system for club meetings, demonstrations, or simply enjoying <span class="caps">RISC</span> OS away from the desk.</p>
+        <p>In true show-special fashion, both the RiscDOCK 14in Lite and RiscDOCK 15.6in Lite will be available at the North Show for just £199, before any additional show discounts are applied. That means visitors can walk away with a complete portable <span class="caps">RISC</span> OS setup—just add their own Raspberry Pi 4 and they’re ready to go.</p>
+        <p>Visitors are encouraged to stop by the RISCOSbits stand at the show to see the RiscDOCK Lite systems in action and try them for themselves.</p>]]>
+      </description>
+      <source:markdown>## RISCOSbits to launch RiscDOCK Lite Editions at the RISC OS North Show
+
+Visitors to the weekend’s RISC OS North Show will be able to get their hands on an exciting new addition to the portable RISC OS ecosystem. RISCOSbits will be unveiling the [RiscDOCK 14in Lite and RiscDOCK 15.6in](https://www.riscosbits.co.uk/lapdock.htm) Lite, two affordable portable systems designed specifically for users who already have a spare Raspberry Pi 4 waiting for a new purpose.
+
+The new RiscDOCK Lite editions take the proven RiscDOCK concept and make it even more accessible. Instead of including a Raspberry Pi, these models are designed for users who already own a Raspberry Pi 4, allowing them to transform it into a compact, self-contained RISC OS portable system.
+
+Each RiscDOCK Lite package comes with everything needed to get started quickly and easily. The system includes a high-quality Lapdock display with integrated keyboard and trackpad, a custom Raspberry Pi 4 adaptor, a power supply, all the required cables, and a bootable SD card preloaded with RiscDOCK software. Simply insert your Raspberry Pi 4 and power up to enjoy a portable RISC OS machine.
+
+The two screen sizes provide flexibility depending on how you like to work. The 14-inch model offers a compact, highly portable option that fits easily into a bag, while the 15.6-inch version provides a larger workspace for those who prefer more screen real estate for applications, coding, or everyday desktop tasks.
+
+Visitors should also remember that the beauty of RiscDOCK lies in its flexibility. While it makes an excellent portable RISC OS machine, it is equally happy hosting a Linux-based Raspberry Pi environment, or even with a Windows MiniPC. In addition, selected smartphones can be connected to provide a full desktop-style interface, meaning users can switch between RISC OS, Linux, and even a phone-powered desktop environment using the same keyboard, screen, and trackpad.
+
+RiscDOCK Lite systems are ideal for RISC OS enthusiasts who want a portable setup without the hassle of assembling parts or configuring software from scratch. They also make an excellent second system for club meetings, demonstrations, or simply enjoying RISC OS away from the desk.
+
+In true show-special fashion, both the RiscDOCK 14in Lite and RiscDOCK 15.6in Lite will be available at the North Show for just £199, before any additional show discounts are applied. That means visitors can walk away with a complete portable RISC OS setup—just add their own Raspberry Pi 4 and they’re ready to go.
+
+Visitors are encouraged to stop by the RISCOSbits stand at the show to see the RiscDOCK Lite systems in action and try them for themselves.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20288:162429</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mhfx3vpb4s2h</link>
+      <description>
+        <![CDATA[Superb little indie game here from Square Mezzmer, playable directly in your browser! Really fun to play, check it out:
+        https://square-mezzmer.itch.io/sheepdog-adventure]]>
+      </description>
+      <source:markdown>Superb little indie game here from Square Mezzmer, playable directly in your browser! Really fun to play, check it out:
+https://square-mezzmer.itch.io/sheepdog-adventure</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mhfx3vpb4s2h</guid>
+    </item>    <item>
+      <title>What’s on the RISCOSbits RISC OS North RISC OS menu?</title>
+      <link>https://www.riscository.com/2026/riscosbits-north-menu/</link>
+      <description>
+        <![CDATA[The RISC OS North show now only two (count &#8217;em) days away, and another announcement has bounced into the RISCOSitory inbox from RISCOSbits: Visitors to the RISC OS North Show on 21st March will find the RISCOSbits stand packed with hardware options for almost every kind of RISC OS user – from powerful desktop machines to compact modular systems and flexible DIY kits. Whether you’re looking for performance, expandability, or a hands-on project, there will be plenty to explore. Performance Systems: FAST Range At the high-performance end of the range&#8230;]]>
+      </description>
+      <source:markdown>The RISC OS North show now only two (count ’em) days away, and another announcement has bounced into the RISCOSitory inbox from RISCOSbits: Visitors to the RISC OS North Show on 21st March will find the RISCOSbits stand packed with hardware options for almost every kind of RISC OS user – from powerful desktop machines to compact modular systems and flexible DIY kits. Whether you’re looking for performance, expandability, or a hands-on project, there will be plenty to explore. Performance Systems: FAST Range At the high-performance end of the range…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10907</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mhfkqtdyl224</link>
+      <description>
+        <![CDATA[Post a gif of who you wanted to be as a kid
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Post a gif of who you wanted to be as a kid
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mhfkqtdyl224</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosopen.bsky.social/post/3mhenjl53fs2h</link>
+      <description>
+        <![CDATA[Spring starts at Warrington
+        https://www.riscosopen.org/news/articles/2026/03/18/spring-starts-at-warrington]]>
+      </description>
+      <source:markdown>Spring starts at Warrington
+https://www.riscosopen.org/news/articles/2026/03/18/spring-starts-at-warrington</source:markdown>
+      <guid>cid://at://did:plc:e3k7odasqhsg6xfgfkvovpsb/app.bsky.feed.post/3mhenjl53fs2h</guid>
+    </item>    <item>
+      <title>Spring starts at Warrington</title>
+      <link>https://www.riscosopen.org/news/articles/2026/03/18/spring-starts-at-warrington</link>
+      <description>
+        <![CDATA[<p>No sooner has the sun made it all the way to the equator, marking the spring equinox, then it&#8217;s time for the first show of the year: <a href="https://www.riscosnorth.uk/"><span class="caps">RISC</span> OS North</a>, in conjunction with the <a href="https://www.wrocc.org.uk/"><span class="caps">WROCC</span></a> user group. Align your chronometer for Saturday, 21th March, 2026.</p>
+        <p><img src="/images/risc_os_open/shows/warrington2026.png" title="Show banner" alt="Show banner" /></p>]]>
+      </description>
+      <source:markdown>No sooner has the sun made it all the way to the equator, marking the spring equinox, then it’s time for the first show of the year: [RISC OS North](https://www.riscosnorth.uk/), in conjunction with the [WROCC](https://www.wrocc.org.uk/) user group. Align your chronometer for Saturday, 21th March, 2026.
+
+![Show banner](/images/risc_os_open/shows/warrington2026.png)</source:markdown>
+      <guid>cid://urn:uuid:697b57a8-d7e2-45e4-9699-b31ee27b038d</guid>
+    </item>    <item>
+      <title>RISC OS North - March 21st 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20284</link>
+      <description>
+        <![CDATA[<p>The show is only three days away now, but make sure to check out the website which has been updated this week with more exhibitors, theatre info, floorplan and more.</p>]]>
+      </description>
+      <source:markdown>The show is only three days away now, but make sure to check out the website which has been updated this week with more exhibitors, theatre info, floorplan and more.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20284:162420</guid>
+    </item>    <item>
+      <title>Templates and Outline Fonts</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20297</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Had no joy using Iris or Netsurf, so had to try firing up Win11. That was better, but could find no zip to download for us simple souls.</p>
+        </blockquote>
+        <p>There isn&#8217;t one, yet. Building WinEd still isn&#8217;t <em>quite</em> as automated as building my own software, so I didn&#8217;t get around to it yesterday. The test build that I sent off didn&#8217;t have updated documentation or other niceties like that.</p>
+        <blockquote>
+        <p>I think that is really a spurious message, as the number of times the same font/size is used in one window is not limited by the Wimp, so I do not think WinEd should warn. It perhaps should warn if the number of uses of a specific font/size in all the windows in a Template file exceed 255, as then the application would have to use a word array to keep track of them all (if it did not use a byte array per window).</p>
+        </blockquote>
+        <p>I&#8217;m confused now&#8230;</p>
+        <p>I <em>thought</em> that we had established that while the number of icons wasn&#8217;t limited, <a href="https://www.riscosopen.org/forum/forums/11/topics/20297?limit=25&amp;page=1#posts-162385">the Font Manager and the Wimp between them limit us to 254 fonts in a template file</a>? And that <a href="https://www.riscosopen.org/forum/forums/11/topics/20297?limit=25&amp;page=1#posts-162382">WinEd probably shouldn&#8217;t crash out and take the desktop font with it when trying to add font 255</a>.</p>
+        <p>Or did I misunderstand that?</p>
+        <blockquote>
+        <p>The FindFont will be done by LoadTemplate, but when you subsequently change an icon’s font you may have to do it yourself.</p>
+        </blockquote>
+        <p>WinEd doesn&#8217;t use Wimp_LoadTemplate when it loads a file into memory for editing, so far as I can tell. It instead uses this lot:</p>
+        <pre><code>/*
+           Load Templates Process
+           ---- --------- -------</code>
+        
+        <code>   Templates are loaded using the following functions. Errors and messages are generated as the loading
+           proceeds. If one function returns anything other than load_OK, then it's calling function will
+           terminate or truncate the loading of the template, as appropriate. Within each function, bad results
+           can be dealt with and then the load_result reset to load_OK.</code>
+        
+        <code>   browser_load - returns nothing interesting
+                        - calls browser_close if gets FALSE back from:
+             browser_getfile - returns BOOL based on load_result. Calls fopen, fclose.
+                             - Issues user total failure messages based on load_result from:
+               calls browser_load_from_fp - returns load_result based on results of browser_load_templat. Loads complete file.
+                                          - issues partial failure messages based on load_result from:
+                 calls browser_load_templat - returns load_result based on window contents. Loads individual windows.
+                                            - issues rename errors info which still allows the window to load
+        */</code></pre>
+        <p>That said, I can&#8217;t work out where the fonts are getting found and lost, but <a href="https://www.riscosopen.org/forum/forums/11/topics/20297?limit=25&amp;page=1#posts-162387">earlier you said</a>&#8230;</p>
+        <blockquote>
+        <p>I think somehow it keeps track of the fonts used in each open window, because for each icon with a font the usage of that font is increased (with a FindFont) even if it is a duplicate font/size. It is decremented (with a LoseFont) if the font is removed or changed. So no fonts become ‘lost’ which is good.</p>
+        </blockquote>
+        <p>&#8230;from which I took it that you had seen it doing the &#8220;right thing&#8221;.</p>
+        <p>More digging through the source code required, I think. There are a lot of source files, but it doesn&#8217;t seem to be very modular&#8230; :-)</p>]]>
+      </description>
+      <source:markdown>&#62; Had no joy using Iris or Netsurf, so had to try firing up Win11. That was better, but could find no zip to download for us simple souls.
+
+There isn’t one, yet. Building WinEd still isn’t _quite_ as automated as building my own software, so I didn’t get around to it yesterday. The test build that I sent off didn’t have updated documentation or other niceties like that.
+
+&#62; I think that is really a spurious message, as the number of times the same font/size is used in one window is not limited by the Wimp, so I do not think WinEd should warn. It perhaps should warn if the number of uses of a specific font/size in all the windows in a Template file exceed 255, as then the application would have to use a word array to keep track of them all (if it did not use a byte array per window).
+
+I’m confused now…
+
+I _thought_ that we had established that while the number of icons wasn’t limited, [the Font Manager and the Wimp between them limit us to 254 fonts in a template file](https://www.riscosopen.org/forum/forums/11/topics/20297?limit=25&#38;page=1#posts-162385)? And that [WinEd probably shouldn’t crash out and take the desktop font with it when trying to add font 255](https://www.riscosopen.org/forum/forums/11/topics/20297?limit=25&#38;page=1#posts-162382).
+
+Or did I misunderstand that?
+
+&#62; The FindFont will be done by LoadTemplate, but when you subsequently change an icon’s font you may have to do it yourself.
+
+WinEd doesn’t use Wimp\_LoadTemplate when it loads a file into memory for editing, so far as I can tell. It instead uses this lot:
+
+```
+/*
+   Load Templates Process
+   ---- --------- -------
+
+   Templates are loaded using the following functions. Errors and messages are generated as the loading
+   proceeds. If one function returns anything other than load_OK, then it&#39;s calling function will
+   terminate or truncate the loading of the template, as appropriate. Within each function, bad results
+   can be dealt with and then the load_result reset to load_OK.
+
+   browser_load - returns nothing interesting
+                - calls browser_close if gets FALSE back from:
+     browser_getfile - returns BOOL based on load_result. Calls fopen, fclose.
+                     - Issues user total failure messages based on load_result from:
+       calls browser_load_from_fp - returns load_result based on results of browser_load_templat. Loads complete file.
+                                  - issues partial failure messages based on load_result from:
+         calls browser_load_templat - returns load_result based on window contents. Loads individual windows.
+                                    - issues rename errors info which still allows the window to load
+*/
+```
+
+That said, I can’t work out where the fonts are getting found and lost, but [earlier you said](https://www.riscosopen.org/forum/forums/11/topics/20297?limit=25&#38;page=1#posts-162387)…
+
+&#62; I think somehow it keeps track of the fonts used in each open window, because for each icon with a font the usage of that font is increased (with a FindFont) even if it is a duplicate font/size. It is decremented (with a LoseFont) if the font is removed or changed. So no fonts become ‘lost’ which is good.
+
+…from which I took it that you had seen it doing the “right thing”.
+
+More digging through the source code required, I think. There are a lot of source files, but it doesn’t seem to be very modular… :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20297:162419</guid>
+    </item>    <item>
+      <title>New Application MorseQuiz</title>
+      <link>https://kevsoft.wordpress.com/2026/03/18/new-application-morsequiz/</link>
+      <description>
+        <![CDATA[I have uploaded a new RISC OS application for testing your knowledge on Morse code called MorseQuiz It displays some Morse Code and gives you four options to pick from and ten questions in all. You just have to pick the right answer. It is built on my Quiz Engine which was released recently, and &#8230; <a href="https://kevsoft.wordpress.com/2026/03/18/new-application-morsequiz/" class="more-link">Continue reading<span class="screen-reader-text"> "New Application MorseQuiz"</span></a>]]>
+      </description>
+      <source:markdown>I have uploaded a new RISC OS application for testing your knowledge on Morse code called MorseQuiz It displays some Morse Code and gives you four options to pick from and ten questions in all. You just have to pick the right answer. It is built on my Quiz Engine which was released recently, and … [Continue reading &#34;New Application MorseQuiz&#34;](https://kevsoft.wordpress.com/2026/03/18/new-application-morsequiz/)</source:markdown>
+      <guid>cid://http://kevsoft.wordpress.com/?p=1428</guid>
+    </item>    <item>
+      <title>RISC OS North Frosted &#38;amp; Obsidian</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20299</link>
+      <description>
+        <![CDATA[<p><strong><span class="caps">RISC</span> OS North 2026 &#8211; Frosted &amp; Obsidian Themes</strong></p>
+        <p><strong><span class="caps">RISC</span> OS North is just a couple of days away!</strong></p>
+        <p>This year I’m exhibiting for the first time, and I’ll be proudly showing off the brand-new Frosted theme which will be ready for general release on ThemeDef! for <span class="caps">RISC</span> OS 5.30 and above.<br />
+        <img src="https://images2.imgbox.com/e2/7f/6o3X2eRg_o.jpg" alt="" /></p>
+        <p>While stocks last, I’ll be handing out <strong><span class="caps">FREE</span> <span class="caps">USB</span> sticks</strong> packed with everything you need to install and try the new theme straight away.</p>
+        <p>You’ll also find themed versions of other popular apps, plus custom softload ROMs for Iyonix, Titanium, and ROM&#8217;s for RPCEmu and Raspberry Pi already included on every stick.Plus,</p>
+        <p>I’ll also be giving a sneak preview of the upcoming Obsidian Dark Mode theme (still in development). Come and see what <span class="caps">RISC</span> OS looks like when it goes full dark and mysterious!<br />
+        <img src="https://images2.imgbox.com/bb/55/8MsDZXYW_o.jpg" alt="" /></p>
+        <p>Can’t wait to see everyone there — come and say hello!</p>]]>
+      </description>
+      <source:markdown>**RISC OS North 2026 – Frosted &#38; Obsidian Themes**
+
+**RISC OS North is just a couple of days away!**
+
+This year I’m exhibiting for the first time, and I’ll be proudly showing off the brand-new Frosted theme which will be ready for general release on ThemeDef! for RISC OS 5.30 and above.
+
+![](https://images2.imgbox.com/e2/7f/6o3X2eRg_o.jpg)
+
+While stocks last, I’ll be handing out **FREEUSB sticks** packed with everything you need to install and try the new theme straight away.
+
+You’ll also find themed versions of other popular apps, plus custom softload ROMs for Iyonix, Titanium, and ROM’s for RPCEmu and Raspberry Pi already included on every stick.Plus,
+
+I’ll also be giving a sneak preview of the upcoming Obsidian Dark Mode theme (still in development). Come and see what RISC OS looks like when it goes full dark and mysterious!
+
+![](https://images2.imgbox.com/bb/55/8MsDZXYW_o.jpg)
+
+Can’t wait to see everyone there — come and say hello!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20299:162418</guid>
+    </item>    <item>
+      <title>RISC OS Developments at London Show (inc Iris download instructions)</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20064</link>
+      <description>
+        <![CDATA[<p>There should be a new Iris in time for the show &#8211; not too many changes, but I thought it worth mentioning on this thread.  It should be available via both PackMan and the upgrades site mentioned on the home page.  It has a few bug fixes, and a couple of small features requested by users.</p>]]>
+      </description>
+      <source:markdown>There should be a new Iris in time for the show – not too many changes, but I thought it worth mentioning on this thread. It should be available via both PackMan and the upgrades site mentioned on the home page. It has a few bug fixes, and a couple of small features requested by users.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20064:162417</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I tried running the WimpSlot command from within bash but got the memory error as before.</p>
+        </blockquote>
+        <p>You need to set the wimpslot before running bash.</p>
+        <blockquote>
+        <p>Yet the ‘magick’ command itself is aliased to a command that first sets its WimpSlot.</p>
+        </blockquote>
+        <p>Those aliases are needed for older versions of <span class="caps">RISC</span> OS that don&#8217;t set the wimpslot automatically. They are also needed if running elf executables.</p>
+        <blockquote>
+        <p>wildcards work on the Windows version of ImageMagick, without requiring bash to be installed there.</p>
+        </blockquote>
+        <p>It&#8217;s cmd.exe that doesn&#8217;t do wildcard expansion but powershell does.</p>]]>
+      </description>
+      <source:markdown>&#62; I tried running the WimpSlot command from within bash but got the memory error as before.
+
+You need to set the wimpslot before running bash.
+
+&#62; Yet the ‘magick’ command itself is aliased to a command that first sets its WimpSlot.
+
+Those aliases are needed for older versions of RISC OS that don’t set the wimpslot automatically. They are also needed if running elf executables.
+
+&#62; wildcards work on the Windows version of ImageMagick, without requiring bash to be installed there.
+
+It’s cmd.exe that doesn’t do wildcard expansion but powershell does.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162411</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/riscosbits.co.uk/post/3mhdvjzu5fs2m</link>
       <description>
         <![CDATA[RISCOSbits to bring a full range of systems to the #RISC_OS North Show on Saturday 21st March
@@ -38,32 +444,6 @@ https://riscosopen.org/forum/forums/1/topics/20288?limit=25&#38;page=1#posts-162
       <source:markdown>With RISC OS show-eve almost upon us (that’ll be Friday, folks – the day before the show), Andrew Rawnsley and Richard Brown, who jointly organise the RISC OS North shows, have sent out an announcement/reminder about the upcoming event: We’re now only a few days away from the first big RISC OS event of 2026 – the RISC OS North Show in Warrington, Saturday 21st March 2026. The show takes place at the Village Hotel in Warrington, from 10.30am ’til 4.30pm. The hotel has food and drink available from its…</source:markdown>
       <guid>cid://https://www.riscository.com/?p=10902</guid>
     </item>    <item>
-      <title>RISCOSbits at RISC OS North 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20288</link>
-      <description>
-        <![CDATA[<p>As myself recently purchased Christmas Cracker Chimera box last year.</p>
-        <p>Just to ask 4x questions.</p>
-        <p>Q1: With the new enchancements coming like the NVMe drivers and future Chimera developments, how would I be able to obtain the updates?</p>
-        <p>Q2: And would it be a free update or a cost to it?</p>
-        <p>Q3: How can I install an additonal head and what options do I have?</p>
-        <p>Q4: I have 4GB on my Chimera, can I upgrade to 8GB and get RiscOS to use the full amount of <span class="caps">RAM</span>?</p>
-        <p>Thank you.</p>]]>
-      </description>
-      <source:markdown>As myself recently purchased Christmas Cracker Chimera box last year.
-
-Just to ask 4x questions.
-
-Q1: With the new enchancements coming like the NVMe drivers and future Chimera developments, how would I be able to obtain the updates?
-
-Q2: And would it be a free update or a cost to it?
-
-Q3: How can I install an additonal head and what options do I have?
-
-Q4: I have 4GB on my Chimera, can I upgrade to 8GB and get RiscOS to use the full amount of RAM?
-
-Thank you.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20288:162401</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mhdqvgctlc2a</link>
       <description>
         <![CDATA[Well this is very pleasant. 🌞
@@ -82,80 +462,6 @@ String things will have to wait.</source:markdown>
       </description>
       <source:markdown>Looking forward to seeing Dark Mode released Martin. My eyes are getting desperate now. :-)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20138:162400</guid>
-    </item>    <item>
-      <title>RISC OS Developments at London Show (inc Iris download instructions)</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20064</link>
-      <description>
-        <![CDATA[<p>Hello All,</p>
-        <p>Like others on this thread having issues downloading and installing the latest Iris web-browser.</p>
-        <p>- I have the latest Packman installed, version: 0.9.8 Beta (Date: 18/7/24)<br />
-        - Made sure, the Packman sources have:<br />
-        - <a href="http://packages.riscosdev.com/pkg/autobuilt">http://packages.riscosdev.com/pkg/autobuilt</a><br />
-        - <a href="http://packages.riscosopen.org/packages/pkg/programs-armv5">http://packages.riscosopen.org/packages/pkg/programs-a…</a><br />
-        - Updated list and upgrade all.<br />
-        - Search for Iris under the Network category<br />
-        - Mine already had a green checkmark on Iris.<br />
-        - I notice the Iris version had 1.037-5<br />
-        - Installed it and rebooted system<br />
-        - But upon checking my Iris version, I still see 1.037 (Date: 21/7/25)</p>
-        <p>Question: Have I actually downloaded the latest version of Iris correctly? I apologize if it obvious but my impression was surely the iris date would have been updated to confirm the new change actually been installed ok or not.</p>
-        <p>Thank you.</p>]]>
-      </description>
-      <source:markdown>Hello All,
-
-Like others on this thread having issues downloading and installing the latest Iris web-browser.
-
-\- I have the latest Packman installed, version: 0.9.8 Beta (Date: 18/7/24)
-
-\- Made sure, the Packman sources have:
-
-\- [http://packages.riscosdev.com/pkg/autobuilt](http://packages.riscosdev.com/pkg/autobuilt)
-
-\- [http://packages.riscosopen.org/packages/pkg/programs-a…](http://packages.riscosopen.org/packages/pkg/programs-armv5)
-
-\- Updated list and upgrade all.
-
-\- Search for Iris under the Network category
-
-\- Mine already had a green checkmark on Iris.
-
-\- I notice the Iris version had 1.037-5
-
-\- Installed it and rebooted system
-
-\- But upon checking my Iris version, I still see 1.037 (Date: 21/7/25)
-
-Question: Have I actually downloaded the latest version of Iris correctly? I apologize if it obvious but my impression was surely the iris date would have been updated to confirm the new change actually been installed ok or not.
-
-Thank you.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20064:162396</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>Imagemagick can do everything in one command. The resulting <span class="caps">PDF</span> is then about 42MB</p>
-        <p>magick mogrify -sigmoidal-contrast 1024  -colorspace Gray -depth 4 -format  png page*.jpg</p>]]>
-      </description>
-      <source:markdown>Imagemagick can do everything in one command. The resulting PDF is then about 42MB
-
-magick mogrify -sigmoidal-contrast 1024 -colorspace Gray -depth 4 -format png page\*.jpg</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162394</guid>
-    </item>    <item>
-      <title>Templates and Outline Fonts</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20297</link>
-      <description>
-        <![CDATA[<p>@Piers:</p>
-        <blockquote>
-        <p>Fontlist&#8217;s also not accurate</p>
-        </blockquote>
-        <p>Oddly, I had never come across that! Perhaps I should use Font_ReadDefn instead of *FontList</p>]]>
-      </description>
-      <source:markdown>@Piers:
-
-&#62; Fontlist’s also not accurate
-
-Oddly, I had never come across that! Perhaps I should use Font\_ReadDefn instead of \*FontList</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20297:162393</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mhcznkxcxc2q</link>
       <description>
@@ -1238,14 +1544,6 @@ The bulk of the issues (and the hardest part of debugging) came from the integra
       </description>
       <source:markdown>While I wait excitedly for the next impending issue of @archiveriscos.bsky.social , I&#39;ll have a bit of a read of this tome and see how to perfect those interviews!</source:markdown>
       <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3mgkssdzbw22s</guid>
-    </item>    <item>
-      <title>RISC OS North - March 21st 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20284</link>
-      <description>
-        <![CDATA[<p>We&#8217;re pleased to announce that Nemo20000 will be joining us as an exhibitor this year.  He&#8217;ll be showing his customised version of the OS, no doubt including Nemo <span class="caps">BASIC</span> and his work towards more mature UniCode support in <span class="caps">RISC</span> OS.  He&#8217;ll also be showing his more cosmetic and user-friendly improvements, many of which you can download from his website.</p>]]>
-      </description>
-      <source:markdown>We’re pleased to announce that Nemo20000 will be joining us as an exhibitor this year. He’ll be showing his customised version of the OS, no doubt including Nemo BASIC and his work towards more mature UniCode support in RISC OS. He’ll also be showing his more cosmetic and user-friendly improvements, many of which you can download from his website.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20284:162200</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mgkiopiyic2h</link>
       <description>
