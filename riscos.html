@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.23-dev" >
-  <meta content="2026-03-19T12:01:06-07:00" name="date" >
-  <link href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" type="application/rss+xml" >
+  <meta name="date" content="2026-03-20T12:00:26-07:00" >
+  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
   <header>
@@ -20,24 +20,258 @@
   </nav>
   <section>
 
-    <article data-published="2026-03-19T15:53:46Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20301">
+    <article data-published="2026-03-20T17:34:09Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20301">
       <h1>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</h1>
 
-(date: 2026-03-19)
+(date: 2026-03-20)
       <p>
-      <p>We’re pleased to announce a new program for RISC OS to enable printing to many modern inkjet printers direct from RISC OS. The new software is called <strong>MailPrint</strong> and takes advantage of the “print-by-email” facilities offered by many wifi-connected printers, especially from the likes of Epson and Brother, although some Canon and HP printers also offer(ed) this. For those that don’t do email-based printing, a cloud-print mode allows jobs to be sent to Cloud services like DropBox or OneDrive, and printed from there.</p>
-<p>The software streamlines the whole process, so all you need to do is click “Print” in your favourite RISC OS application, and then a few seconds later (depends on internet speed) your printer will burst into life (assuming it is on – yes, we made that mistake a few times during development!).</p>
-<p>The software allows printing from wherever you are in the world, making it ideal for use with laptop computers – it supports both RISC OS 5 and RISC OS 4.x on emulators etc (and should work on other systems too). This means you can print out an email (say) whilst you’re away, and have it waiting on your printer when you get home.</p>
-<p>On top of that, it allows direct printing of photos, images and MS Office documents, which can be quite handy. If someone sends you a powerpoint file (ppt or pptx), for example, you can print out a copy even though RISC OS can’t handle Powerpoint files directly (AFAIK). The photo print mode allows for high quality photo prints on appropriate paper stocks.</p>
-<p><strong>CloudPrint</strong> mode is offered as an alternative – it allows me to print to a Canon that doesn’t have an email mode. It does so by allowing you to send your print job to a Cloud drive, and then print from Cloud. The mode is a bit less exciting that it may sound – you’ll need to provide RISC OS access to the Cloud service. I did this by doing a standard Windows share on my DropBox, and using LanMan98. Paolo’s ShareFSserver seems like an ideal cross-platform solution to this. Once created, CloudPrint mode uses the printer’s web service to print the document.</p>
-<p>CloudPrint mode also offers an interesting “extra” capability that one tester has now employed for invoice printing. It can generate <strong>sequential print job</strong> names in PDF. So, you can simply set the file name and destination in the Choices window, and the counter to whatever value you need, then run off Invoice1001/pdf, Invoice1002/pdf and so on into your Invoices folder. We did this to ensure unique names for CloudPrint jobs in the cloud service folder, but as you can see, it has other uses.</p>
-<p><strong>Availability</strong></p>
-<p>MailPrint launches at the show this weekend, but should appear on !Store later today. The !Store version will include the Hermes mail transfer software and cost 35ukp. It will be discounted to 25ukp at the show, and include a printed manual and CD. There will likely be a cheaper version for !Store after the show without Hermes, but it requires creating a different build, and time is limited this week.</p>
-<p><strong>Thanks</strong></p>
-<p>Thanks to Colin Foster for the initial concept and for testing MailPrint during development.</p>
+      <p>Google AI just suggested a novel way of using MailPrint with other printers (eg. Canon). You can set it up to email to your phone, and simply tap the print jobs out via the Canon phone app to your printer. This assumes your phone can collect email, but otherwise there’s no reason it shouldn’t work. It’s an extra tap or two on your phone, but if you’re stuck with no other way to print, it’s hardly a major hardship…</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20301">https://www.riscosopen.org/forum/forums/1/topics/20301</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-20T17:33:44Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20306">
+      <h1>Out tomorrow - Drag N Drop</h1>
+
+(date: 2026-03-20)
+      <p>
+      <p><img src="http://www.dragdrop.co.uk/Images/index/Pic140.jpg" alt=""></p>
+<p>Out Saturday 21st March 2026 (RISC OS North) – Drag ’N Drop 15i3</p>
+<p>Drag ’N Drop is a quarterly magazine for RISC OS users, mainly the Raspberry Pi series of machines but much will be relevant to all users and programmers. It comes in PDF format (download).</p>
+<p>Drag ’N Drop is an accessible publication focusing on having fun whilst learning how to program with your RISC OS machine.</p>
+<p>It costs just GBP4.50, or GBP5.50 with a Zip file of programs typed-in and ready to run. You can try before you buy with free sample editions available for instant download.</p>
+<p>Volume 15 Issue 3 is out at RISC OS North, with the issue being emailed out to subscribers shortly afterwards. If you are one of those subscribers we’ll put it directly onto your memory stick if you have one and are coming to the show!</p>
+<p>In this issue:</p>
+<ul>
+<li>
+<p>News and Apps. All the latest in the world of RISC OS with details of where you can get new and updated free and commercial RISC OS software.</p>
+</li>
+<li>
+<p>Beginner‘s Pages. New to RISC OS? Don‘t know your adjust from your select? Wonder how to type in a BBC Basic program? Check out our newbie pages.</p>
+</li>
+<li>
+<p>Cover Story. Can you collect all the jewels from the hyper-maze before the robots get you? Find out in this exciting type-in RISC OS game brought to you by AMCOG. Full listing with procedures/variables commentary.</p>
+</li>
+<li>
+<p>8 Bits. Even today, talented programmers are at work writing games for the BBC Micro. We take a look over the last year of releases.</p>
+</li>
+<li>
+<p>Coffee Break. Bubble universe – a deceptively simple type-in program in BBC Basic that creates infinite variations on a circular cosmos.</p>
+</li>
+<li>
+<p>Big Dummies C. Making inroads to programming Wimp applications on RISC OS. We get to grips with character arrays, macros and error blocks.</p>
+</li>
+<li>
+<p>PDFs with FPDF. You shop online, check out and have an instant order summary in PDF. Have you wondered how it’s done? All it takes is a little PHP and the free FPDF library. All on RISC OS.</p>
+</li>
+<li>
+<p>RISC OZ. Pesky considers how to get icons with multiple lines of text in them for his RISC OS Wimp applications.</p>
+</li>
+</ul>
+<p>Sample and buy your copy of Drag N Drop at <a href="http://www.dragdrop.co.uk">www.dragdrop.co.uk</a>.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20306">https://www.riscosopen.org/forum/forums/1/topics/20306</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-20T16:38:27Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13568&page=1#125875">
+      <h1>RISC OS North Show 2026 preview</h1>
+
+(date: 2026-03-20, updated: 2026-02-10)
+      <p>
+      <p>Train times for Warrington Bank Quay</p>
+
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13568&page=1#125875">http://www.iconbar.com/forums/viewthread.php?threadid=13568&page=1#125875</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-20T16:01:19Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20305">
+      <h1>Archive Magazine Feb/Mar 2026</h1>
+
+(date: 2026-03-20)
+      <p>
+      <p>Nice!</p>
+<p>Thanks, Gavin, and a big shout-out for this issue. Many thanks to Robin Wilks for the article series on programming in Forth on RISC OS! Love it :)</p>
+<p>I’ve written many Forth compilers over the years, and for all Forth enthusiasts there will be a big surprise this autumn at the RISC OS London Show ;) (and no, I’m not going to reveal it before October!)</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20305">https://www.riscosopen.org/forum/forums/1/topics/20305</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-20T14:33:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mhiqbzl6zc25">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-03-20)
+      <p>
+      <p>So much to enjoy here, but probably the best part is knowing how desperate Altman is to be popular, to be loved... and at the Oscars, surrounded by precisely the people he probably *most* wants to be loved by... this happened.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mhiqbzl6zc25">https://bsky.app/profile/colinhoad.com/post/3mhiqbzl6zc25</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-20T13:17:00Z" data-link="https://bsky.app/profile/riscosbits.co.uk/post/3mhim2hsg5s2l">
+      <h1>@riscosbits.co.uk</h1>
+
+(date: 2026-03-20)
+      <p>
+      <p>Ready to Roam with RISCOSbits?</p>
+<p><a href="https://www.riscosopen.org/forum/forums/1/topics/20288?limit=25&amp;page=1#posts-162454">https://www.riscosopen.org/forum/forums/1/topics/20288?limit=25&amp;page=1#posts-162454</a></p>
+<p>#laptopconversion
+#riscoslaptop
+#riscosnorth
+#RISC_OS</p>
+
+      <address>
+        <a href="https://bsky.app/profile/riscosbits.co.uk/post/3mhim2hsg5s2l">https://bsky.app/profile/riscosbits.co.uk/post/3mhim2hsg5s2l</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-20T12:45:35Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20288">
+      <h1>RISCOSbits at RISC OS North 2026</h1>
+
+(date: 2026-03-20)
+      <p>
+      <h2>RISCOSbits Introduces RISC OS Roam – Take RISC OS Anywhere!</h2>
+<p>RISCOSbits is delighted to announce RISC OS Roam, a compact and rather clever hardware device that lets you turn almost any laptop into a native RISC OS workstation. No networking, no faffing with routers, and absolutely no cloud required.</p>
+<p>Designed with portability and practicality in mind, <a href="https://www.riscosbits.co.uk/roam.htm">RISC OS Roam</a> provides a refreshingly direct approach to mobile RISC OS computing. Simply connect your RISC OS machine, plug into your laptop, and you’re up and running—no installs, no configuration headaches, just your familiar desktop wherever you happen to be.</p>
+<p><strong>Your Laptop, Now Speaking Fluent RISC OS</strong></p>
+<p><a href="https://www.riscosbits.co.uk/roam.htm">RISC OS Roam</a> captures the live video output from your RISC OS system and presents it directly on your laptop screen, while simultaneously feeding keyboard and trackpad input back to the host machine. The result? A seamless experience that feels remarkably like using a dedicated RISC OS laptop. Without the need to actually own one.</p>
+<p>Because everything operates locally over direct hardware connections, there’s no reliance on internet access. Whether you’re in a village hall, a classroom, a train, or somewhere with Wi-Fi that’s more “wishful thinking” than reality, <a href="https://www.riscosbits.co.uk/roam.htm">RISC OS Roam</a> keeps working.</p>
+<p><strong>All the Control You’d Expect (and a Bit More Besides)</strong></p>
+<p>Borrowing some of the clever tricks from another <a href="https://www.riscosbits.co.uk/remote.htm">new product</a> (coming soon!), <a href="https://www.riscosbits.co.uk/roam.htm">RISC OS Roam</a> ensures you’re not missing out on essential controls. Custom shortcut handling means key combinations like Alt-Break and Ctrl-Break are always within reach, even on modern laptop keyboards that seem to have forgotten such things ever existed.</p>
+<p>Audio is handled just as neatly. Sound from your RISC OS machine is routed straight through your laptop’s speakers, keeping everything self-contained and tidy.</p>
+<p><strong>Record, Demonstrate, Share</strong></p>
+<p><a href="https://www.riscosbits.co.uk/roam.htm">RISC OS Roam</a> isn’t just about using your system, It’s about showing it off too. Built-in video and audio recording allows you to capture exactly what’s happening on your RISC OS desktop, making it ideal for:</p>
+<ul>
+<li>Demonstrations at shows and user groups</li>
+<li>Tutorials and walkthroughs</li>
+<li>“Look what this can do!” moments</li>
+</ul>
+<p>All without needing extra capture hardware or complex setups.</p>
+<p><strong>File Transfer Without the Fuss</strong></p>
+<p>One particularly neat trick is the switchable shared USB storage feature. With a simple toggle, a connected USB drive can be presented either to your laptop or your RISC OS machine. It’s a straightforward, no-nonsense way to move files between systems. No networking, no cloud syncing, and no hunting for spare memory sticks down the back of the sofa.</p>
+<p><strong>No Network? No Problem.</strong></p>
+<p>Because <a href="https://www.riscosbits.co.uk/roam.htm">RISC OS Roam</a> works entirely over local connections, it sidesteps all the usual complications of remote access:</p>
+<ul>
+<li>No router configuration</li>
+<li>No firewall adjustments</li>
+<li>No dependency on internet availability</li>
+</ul>
+<p>This makes it perfect for secure environments, exhibitions, education settings, field work, and travel—anywhere you want reliability without relying on connectivity.</p>
+<p><strong>Compact, Portable, Ready to Roam</strong></p>
+<p><a href="https://www.riscosbits.co.uk/roam.htm">RISC OS Roam</a> is all about mobility and simplicity. It turns your existing laptop into a flexible display and input hub for your RISC OS system, while also offering recording and file transfer capabilities in one tidy package.</p>
+<p>In short, it’s a practical, portable way to make RISC OS more accessible wherever you go.</p>
+<ul>
+<li>Key Features*</li>
+<li>Turn almost any laptop or desktop into a “native” RISC OS workstation</li>
+<li>No internet connection required</li>
+<li>Live RISC OS video capture</li>
+<li>Full keyboard and mouse control</li>
+<li>Alt-Break, Ctrl-Break and shortcut support</li>
+<li>Remote audio through laptop speakers</li>
+<li>Built-in video and audio recording</li>
+<li>Switchable shared USB drive for easy file transfer</li>
+<li>No host software installation required</li>
+<li>No firewall or router configuration</li>
+<li>Compact, portable hardware design</li>
+<li>Ideal for demos, meetings, education, and travel</li>
+</ul>
+<p><strong><a href="https://www.riscosbits.co.uk/roam.htm">RISC OS Roam</a> – turn nearly any laptop into a RISC OS laptop!</strong></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20288">https://www.riscosopen.org/forum/forums/1/topics/20288</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-20T12:05:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mhihzjv4ns25">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-03-20)
+      <p>
+      <p>*learns about the existence of an &quot;Art of Tron&quot; book*</p>
+<p>*gets very excited*</p>
+<p>*finds out it's over £100 second hand*</p>
+<p>Oh well.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mhihzjv4ns25">https://bsky.app/profile/colinhoad.com/post/3mhihzjv4ns25</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-20T11:56:27Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
+      <h1>MuView and rendering PDF pages</h1>
+
+(date: 2026-03-20)
+      <p>
+      <p>I’m currently using Compo to load jpegs onto the canvas, and these then get processed into the ‘DeToxed’ image. Thus far I do some stats and just write out some info files. Compo will load any of the filetypes it recognises, and on the canvas they &quot;look like a sprite* in terms of how the values are stored in Compo. The ‘C’ program in control can then save out info.</p>
+<p>At present I’ve just done this to demo/experiment the ability to DeTox. HOWEVER…</p>
+<p>At present Compo just lets the specified program (written in Acorn ‘C’) load and read from the item on the Compo canvas, and crunch numbers which can be saved into files. That’s how I get the data to plot the RGB stats. But the same routine should also be able to <strong>write out a P5 file</strong> of the DeToxed grescale result.</p>
+<p>i.e. go from any image format Compo can load to output a file of whatever type you get the ‘C’ program in control to write out as it has access to the data in Compo and can generate output files.</p>
+<p>Compo can also do loops through a series of files.</p>
+<p>So far as I can see that means it may well be able to do the job from start to finish. i.e. take a list/directory of input pages in any ‘recognisable’ format, and then generate DeToxed pages in any standard RO format <strong>or</strong> in a file with a simple format like P5. Loop till done. Deterimined by the program being run via CompoScript;</p>
+<p>The version I’ve just sent to Archive mag just does the DeTox demo on one page. But that’s a test/demo limited by my time-limits and my grindingly slow programming ability. So given that people here are clearly better at this than me, I wonder if I’m wrong somehow about the above, or if they may not yet realise the potential of using Compo like this. It isn’t GIMP, but it is the closest we have to it, and is open and expandable now.</p>
+<p>All of that said, yes, if what is being done by other means give us a good way to do the job, that’s fine with me. :-) … but I may well go on out of curiosity to also get Compo to loop though a series of input files and output DeToxed P5 Greyscale… just that it will probably take me ages to manage to get enough time to do it.</p>
+<p>Other side of this:- OK, is there now a routine I can get from you I can try out on some of the PDFs I have that need DeTox? 8-] Again, hope to see this, and would aim to write about it in due time for Archive.</p>
+<p>FWIW I’m still mostly using my old ARMX6, but do have a new NVME box from RComp that I am grandually migrating things to. Again, alas, this migration is less swift than is ideal.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-20T10:07:30Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20284">
+      <h1>RISC OS North - March 21st 2026</h1>
+
+(date: 2026-03-20)
+      <p>
+      <p>Just in case you had not heard, the Starbucks at the hotel, will not be re-opening till Monday after the show! Just been informed by the hotel.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20284">https://www.riscosopen.org/forum/forums/1/topics/20284</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-20T09:13:31Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20302">
+      <h1>R-Comp and RCI news thread for RISC OS North</h1>
+
+(date: 2026-03-20)
+      <p>
+      <p>Hi Chris, yes it was fixed in 3.25.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20302">https://www.riscosopen.org/forum/forums/1/topics/20302</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-20T09:07:00Z" data-link="https://bsky.app/profile/archiveriscos.bsky.social/post/3mhi63pkvgk23">
+      <h1>@archiveriscos.bsky.social</h1>
+
+(date: 2026-03-20)
+      <p>
+      <p>Archive Magazine 28:2 is out now. Digital editions are on their way, and printed copies will be dropping through letterboxes around the world shortly. It's not too late to subscribe, see <a href="http://www.archivemag.co.uk">www.archivemag.co.uk</a>. Archive - the magazine for RISC OS users.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/archiveriscos.bsky.social/post/3mhi63pkvgk23">https://bsky.app/profile/archiveriscos.bsky.social/post/3mhi63pkvgk23</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-19T22:34:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mhh2p6pqjk24">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-03-19)
+      <p>
+      <p>Oh look, a Cellular Automaton.</p>
+<p>Would you like to see the nemoBasic program that produces it?</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mhh2p6pqjk24">https://bsky.app/profile/nemo20000.bsky.social/post/3mhh2p6pqjk24</a>
       </address>
     </article>
 
@@ -126,26 +360,6 @@
       </address>
     </article>
 
-    <article data-published="2026-03-19T12:50:02Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20288">
-      <h1>RISCOSbits at RISC OS North 2026</h1>
-
-(date: 2026-03-19)
-      <p>
-      <h2>RISCOSbits to launch RiscDOCK Lite Editions at the RISC OS North Show</h2>
-<p>Visitors to the weekend’s RISC OS North Show will be able to get their hands on an exciting new addition to the portable RISC OS ecosystem. RISCOSbits will be unveiling the <a href="https://www.riscosbits.co.uk/lapdock.htm">RiscDOCK 14in Lite and RiscDOCK 15.6in</a> Lite, two affordable portable systems designed specifically for users who already have a spare Raspberry Pi 4 waiting for a new purpose.</p>
-<p>The new RiscDOCK Lite editions take the proven RiscDOCK concept and make it even more accessible. Instead of including a Raspberry Pi, these models are designed for users who already own a Raspberry Pi 4, allowing them to transform it into a compact, self-contained RISC OS portable system.</p>
-<p>Each RiscDOCK Lite package comes with everything needed to get started quickly and easily. The system includes a high-quality Lapdock display with integrated keyboard and trackpad, a custom Raspberry Pi 4 adaptor, a power supply, all the required cables, and a bootable SD card preloaded with RiscDOCK software. Simply insert your Raspberry Pi 4 and power up to enjoy a portable RISC OS machine.</p>
-<p>The two screen sizes provide flexibility depending on how you like to work. The 14-inch model offers a compact, highly portable option that fits easily into a bag, while the 15.6-inch version provides a larger workspace for those who prefer more screen real estate for applications, coding, or everyday desktop tasks.</p>
-<p>Visitors should also remember that the beauty of RiscDOCK lies in its flexibility. While it makes an excellent portable RISC OS machine, it is equally happy hosting a Linux-based Raspberry Pi environment, or even with a Windows MiniPC. In addition, selected smartphones can be connected to provide a full desktop-style interface, meaning users can switch between RISC OS, Linux, and even a phone-powered desktop environment using the same keyboard, screen, and trackpad.</p>
-<p>RiscDOCK Lite systems are ideal for RISC OS enthusiasts who want a portable setup without the hassle of assembling parts or configuring software from scratch. They also make an excellent second system for club meetings, demonstrations, or simply enjoying RISC OS away from the desk.</p>
-<p>In true show-special fashion, both the RiscDOCK 14in Lite and RiscDOCK 15.6in Lite will be available at the North Show for just £199, before any additional show discounts are applied. That means visitors can walk away with a complete portable RISC OS setup—just add their own Raspberry Pi 4 and they’re ready to go.</p>
-<p>Visitors are encouraged to stop by the RISCOSbits stand at the show to see the RiscDOCK Lite systems in action and try them for themselves.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20288">https://www.riscosopen.org/forum/forums/1/topics/20288</a>
-      </address>
-    </article>
-
     <article data-published="2026-03-19T11:56:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mhfx3vpb4s2h">
       <h1>@colinhoad.com</h1>
 
@@ -205,18 +419,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/news/articles/2026/03/18/spring-starts-at-warrington">https://www.riscosopen.org/news/articles/2026/03/18/spring-starts-at-warrington</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-18T22:32:00Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20284">
-      <h1>RISC OS North - March 21st 2026</h1>
-
-(date: 2026-03-18)
-      <p>
-      <p>The show is only three days away now, but make sure to check out the website which has been updated this week with more exhibitors, theatre info, floorplan and more.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20284">https://www.riscosopen.org/forum/forums/1/topics/20284</a>
       </address>
     </article>
 
@@ -311,29 +513,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20064">https://www.riscosopen.org/forum/forums/1/topics/20064</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-18T16:56:49Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
-      <h1>MuView and rendering PDF pages</h1>
-
-(date: 2026-03-18)
-      <p>
-      <blockquote>
-<p>I tried running the WimpSlot command from within bash but got the memory error as before.</p>
-</blockquote>
-<p>You need to set the wimpslot before running bash.</p>
-<blockquote>
-<p>Yet the ‘magick’ command itself is aliased to a command that first sets its WimpSlot.</p>
-</blockquote>
-<p>Those aliases are needed for older versions of RISC OS that don’t set the wimpslot automatically. They are also needed if running elf executables.</p>
-<blockquote>
-<p>wildcards work on the Windows version of ImageMagick, without requiring bash to be installed there.</p>
-</blockquote>
-<p>It’s cmd.exe that doesn’t do wildcard expansion but powershell does.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
       </address>
     </article>
 
@@ -562,7 +741,7 @@ youtu.be/wtths_J-XvU<a href="https://youtu.be/wtths">https://youtu.be/wtths</a>_
     <article data-published="2026-03-16T16:27:29Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13569&page=1#125874">
       <h1>ShareFS goes cross platform</h1>
 
-(date: 2026-03-16, updated: 2026-01-22)
+(date: 2026-03-16, updated: 2026-02-10)
       <p>
       <p>I totally understand why you would want/need to distance yourself from anything original on this.</p>
 
@@ -625,7 +804,7 @@ youtu.be/wtths_J-XvU<a href="https://youtu.be/wtths">https://youtu.be/wtths</a>_
     <article data-published="2026-03-16T00:23:17Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13569&page=1#125873">
       <h1>ShareFS goes cross platform</h1>
 
-(date: 2026-03-16, updated: 2026-01-22)
+(date: 2026-03-16, updated: 2026-02-10)
       <p>
       <p>There are no protocol specs. It's something sort of encoded in the sources and has evolved slightly over the years.</p>
 
@@ -702,7 +881,7 @@ youtu.be/wtths_J-XvU<a href="https://youtu.be/wtths">https://youtu.be/wtths</a>_
     <article data-published="2026-03-15T18:32:21Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13569&page=1#125872">
       <h1>ShareFS goes cross platform</h1>
 
-(date: 2026-03-15, updated: 2026-01-22)
+(date: 2026-03-15, updated: 2026-02-10)
       <p>
       <p>Hi Paolo,</p>
 
@@ -817,7 +996,7 @@ Imagine the headlines. The Daily Mail and the Telegraph would be FURIOUS. There�
     <article data-published="2026-03-15T00:05:57Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13569&page=1#125871">
       <h1>ShareFS goes cross platform</h1>
 
-(date: 2026-03-15, updated: 2026-01-22)
+(date: 2026-03-15, updated: 2026-02-10)
       <p>
       <p>Dear Richard,</p>
 
@@ -1045,7 +1224,7 @@ Options:
     <article data-published="2026-03-13T16:00:06Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13569&page=1#125870">
       <h1>ShareFS goes cross platform</h1>
 
-(date: 2026-03-13, updated: 2026-01-22)
+(date: 2026-03-13, updated: 2026-02-10)
       <p>
       <p>Just for completeness, it's like busses. Nothing for decades, then two in the same year!</p>
 
@@ -2119,7 +2298,7 @@ riscosnorth.uk #RISC_OS #Event #Warrington #RaspberryPi #ARM</p>
     <article data-published="2026-02-27T16:03:33Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13551&page=1#125869">
       <h1>February 2026 News Summary</h1>
 
-(date: 2026-02-27, updated: 2026-01-22)
+(date: 2026-02-27, updated: 2026-02-10)
       <p>
       <p>TrainTimes has had a little updgate and I have released Quiz Engine has had it's first release allowing people to create their own quizzes.</p>
 
@@ -2290,7 +2469,7 @@ Unset Alias$Set
     <article data-published="2026-02-25T03:39:16Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13556&page=1#125867">
       <h1>Rougol February 2026 meeting on monday - Retro YouTuber Colin Hoad</h1>
 
-(date: 2026-02-25, updated: 2026-01-22)
+(date: 2026-02-25, updated: 2026-02-10)
       <p>
       <p>Video now available for those that missed Colin's excellent talk, or want to watch it again! <a href="https://youtu.be/Igljzw4o71U">https://youtu.be/Igljzw4o71U</a></p>
 
@@ -2896,7 +3075,7 @@ ENDCASE</p>
     <article data-published="2026-02-16T14:33:50Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13562&page=1#125866">
       <h1>CJEMicros getting back up to speed and need your help</h1>
 
-(date: 2026-02-16, updated: 2026-01-22)
+(date: 2026-02-16, updated: 2026-02-10)
       <p>
       <p>Best prices paid</p>
 
@@ -3350,7 +3529,7 @@ youtu.be/6Mtl5vua9t4<a href="https://youtu.be/6Mtl5vua9t4">https://youtu.be/6Mtl
     <article data-published="2026-02-10T02:13:45Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13561&page=1#125865">
       <h1>System ID.</h1>
 
-(date: 2026-02-10, updated: 2026-01-22)
+(date: 2026-02-10)
       <p>
       <p>Hi All, I'm wondering if there is a listing of which model motherboard belongs to which model of Acorn? I've seen listings of motherboard for sale that are described as Acorn RISC or Archimedes but they never say what chassis it goes in, ie RISC PC or A7000 etc, that's just an example.</p>
 
