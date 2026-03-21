@@ -7,10 +7,244 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>20 Mar 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>21 Mar 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23-dev</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>RISC OS 64 project - Thanks!</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20308</link>
+      <description>
+        <![CDATA[<p>Hiya,</p>
+        <p>I thought today, being the day of the <span class="caps">RISC</span> OS show, to be good opportunity to say a big thank you to all the people who have been supporting the work towards the <span class="caps">RISC</span> OS 64 project I&#8217;ve been working on.</p>
+        <p>Over the last year, I&#8217;ve made a lot of progress on the work, and there are useful outputs that are being made available. The Live Coding sessions have been popular (for the <span class="caps">RISC</span> OS world), with generally around 10-20 people watching from different areas &#8211; some even chipping in with comments, questions and suggestions. We peak at about 40 people, and there are aberrations where a few hundred people descend on the channel! Overall the channel&#8217;s now got over 300 subscribers, which isn&#8217;t huge in the grand scheme of things, but for the niche environment, it&#8217;s quite amazing to me.</p>
+        <p>The GitHub projects have expanded, and the sponsorship programme has been very encouraging &#8211; a huge thank you to all the supporters there as well. It&#8217;s really appreciated! Thank you!</p>
+        <p>There have been a few issues and PRs raised by people on the repositories as well, which is really neat &#8211; it means that there are improvements that I&#8217;d not considered, or not had time for, and bugs that have got fixed. Again, this is wonderful and I&#8217;m very grateful.</p>
+        <p>The <span class="caps">RISC</span> OS Build Environment is now highly functional for 26-bit, 32-bit and 64-bit <span class="caps">RISC</span> OS builds. The <span class="caps">RISC</span> OS Build Service has been improved to make it more reliable in running tests and reporting useful information &#8211; almost all the GitHub tools build and test through the build service. <span class="caps">RISC</span> OS Pyromaniac, which underlies the build service, has been improving as features are needed and bugs are found.</p>
+        <p>And finally I want to thank everyone who has contacted me publicly or privately to talk about the project.</p>
+        <p>The work continues, and I&#8217;m hopeful that we&#8217;ll see real progress in many areas this summer.</p>
+        <p>Thanks once again to everyone.</p>
+        <p>If you want to get involved, contact me, or have a look at the work that&#8217;s needed on the <span class="caps">RISC</span> OS Status repository (<a href="https://github.com/gerph/riscos64-status">https://github.com/gerph/riscos64-status</a>). Or if you just want to show support, there&#8217;s the GitHub sponsorship (<a href="https://github.com/sponsors/gerph">https://github.com/sponsors/gerph</a>), you can always watch the live coding, or even just drop a line here.</p>]]>
+      </description>
+      <source:markdown>Hiya,
+
+I thought today, being the day of the RISC OS show, to be good opportunity to say a big thank you to all the people who have been supporting the work towards the RISC OS 64 project I’ve been working on.
+
+Over the last year, I’ve made a lot of progress on the work, and there are useful outputs that are being made available. The Live Coding sessions have been popular (for the RISC OS world), with generally around 10-20 people watching from different areas – some even chipping in with comments, questions and suggestions. We peak at about 40 people, and there are aberrations where a few hundred people descend on the channel! Overall the channel’s now got over 300 subscribers, which isn’t huge in the grand scheme of things, but for the niche environment, it’s quite amazing to me.
+
+The GitHub projects have expanded, and the sponsorship programme has been very encouraging – a huge thank you to all the supporters there as well. It’s really appreciated! Thank you!
+
+There have been a few issues and PRs raised by people on the repositories as well, which is really neat – it means that there are improvements that I’d not considered, or not had time for, and bugs that have got fixed. Again, this is wonderful and I’m very grateful.
+
+The RISC OS Build Environment is now highly functional for 26-bit, 32-bit and 64-bit RISC OS builds. The RISC OS Build Service has been improved to make it more reliable in running tests and reporting useful information – almost all the GitHub tools build and test through the build service. RISC OS Pyromaniac, which underlies the build service, has been improving as features are needed and bugs are found.
+
+And finally I want to thank everyone who has contacted me publicly or privately to talk about the project.
+
+The work continues, and I’m hopeful that we’ll see real progress in many areas this summer.
+
+Thanks once again to everyone.
+
+If you want to get involved, contact me, or have a look at the work that’s needed on the RISC OS Status repository ( [https://github.com/gerph/riscos64-status](https://github.com/gerph/riscos64-status)). Or if you just want to show support, there’s the GitHub sponsorship ( [https://github.com/sponsors/gerph](https://github.com/sponsors/gerph)), you can always watch the live coding, or even just drop a line here.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20308:162488</guid>
+    </item>    <item>
+      <title>Being locked out</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20307</link>
+      <description>
+        <![CDATA[<p>Not sure if this is the correct part of the forum for this, however&#8230;</p>
+        <p>In the last few days I keep finding that trying to log in to the forum fails. I type in my details, and they get rejected. I check what I typed, then try again ensuring what I type is correct, and it fails again.</p>
+        <p>If I take a break and try again, it then may well work. Same input from me.</p>
+        <p>Today I was briefly &#8216;locked out&#8217; as the system decided my re-tries were the sign of me being a malign intruder. Was a pest as I wanted to discuss something on a particlar thread of interest.</p>]]>
+      </description>
+      <source:markdown>Not sure if this is the correct part of the forum for this, however…
+
+In the last few days I keep finding that trying to log in to the forum fails. I type in my details, and they get rejected. I check what I typed, then try again ensuring what I type is correct, and it fails again.
+
+If I take a break and try again, it then may well work. Same input from me.
+
+Today I was briefly ‘locked out’ as the system decided my re-tries were the sign of me being a malign intruder. Was a pest as I wanted to discuss something on a particlar thread of interest.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20307:162486</guid>
+    </item>    <item>
+      <title>RISC OS North Show 2026 - pictures</title>
+      <link>http://www.iconbar.com/comments/rss/news2314.html</link>
+      <description>
+        <![CDATA[Here is a selection of pictures to show you what this years event was like.....]]>
+      </description>
+      <source:markdown>Here is a selection of pictures to show you what this years event was like.....</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2314.html</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mhkwpa2cns2e</link>
+      <description>
+        <![CDATA[We've just had the spring Equinox in the Northern Hemisphere, which neatly links to the game of the same name. A sequel to Software Creations' original NES game Solstice. Designed and created by John and Ste Pickford for the SNES. @breakintoprogram.co.uk gets a mention in the credits too.]]>
+      </description>
+      <source:markdown>We&#39;ve just had the spring Equinox in the Northern Hemisphere, which neatly links to the game of the same name. A sequel to Software Creations&#39; original NES game Solstice. Designed and created by John and Ste Pickford for the SNES. @breakintoprogram.co.uk gets a mention in the credits too.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mhkwpa2cns2e</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 22nd March at 1pm UK time.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20303</link>
+      <description>
+        <![CDATA[<p>For those interested in learning a bit more about Gerph&#8217;s project, <span class="caps">ROD</span> will have some leaflets on the stand at <span class="caps">RISC</span> OS North, introducing the project and answering some frequently asked questions about it.</p>]]>
+      </description>
+      <source:markdown>For those interested in learning a bit more about Gerph’s project, ROD will have some leaflets on the stand at RISC OS North, introducing the project and answering some frequently asked questions about it.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20303:162477</guid>
+    </item>    <item>
+      <title>R-Comp powers up printing at RISC OS North</title>
+      <link>https://www.riscository.com/2026/r-comp-powers-up-printing/</link>
+      <description>
+        <![CDATA[Today is RISC OS show-eve, which means tomorrow is RISC OS show-day &#8211; and the show in question is RISC OS North &#8211; and as ever, exhibitors have been beavering away to bring get updates and/or new products ready. In the case of R-Comp, there is always a wide range of goodies, but in particular Andrew Rawnsley has announced some new software: R-Comp is pleased to announce a new program for RISC OS to enable printing to many modern inkjet printers direct from RISC OS. The new software is called&#8230;]]>
+      </description>
+      <source:markdown>Today is RISC OS show-eve, which means tomorrow is RISC OS show-day – and the show in question is RISC OS North – and as ever, exhibitors have been beavering away to bring get updates and/or new products ready. In the case of R-Comp, there is always a wide range of goodies, but in particular Andrew Rawnsley has announced some new software: R-Comp is pleased to announce a new program for RISC OS to enable printing to many modern inkjet printers direct from RISC OS. The new software is called…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10910</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3mhjjknnrhk2w</link>
+      <description>
+        <![CDATA[Remember to pop and see us at tomorrow's #RISCOSNorth Show - here's just a few of the reasons why:
+        
+        https://www.riscosopen.org/forum/forums/1/topics/20288?limit=25&page=1#posts-162475
+        
+        #riscosnorth
+        #risc_os
+        #acorncomputers]]>
+      </description>
+      <source:markdown>Remember to pop and see us at tomorrow&#39;s #RISCOSNorth Show - here&#39;s just a few of the reasons why:
+
+https://www.riscosopen.org/forum/forums/1/topics/20288?limit=25&#38;page=1#posts-162475
+
+#riscosnorth
+#risc\_os
+#acorncomputers</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3mhjjknnrhk2w</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosbits.co.uk/post/3mhjdzrhv5c2z</link>
+      <description>
+        <![CDATA[RISC OS Remote comes to RISC OS North (and stays at home - all at the same time!).
+        
+        Experience RISC OS on your laptop, smartphone, tablet - anywhere.
+        
+        https://www.riscosopen.org/forum/forums/1/topics/20288?limit=25&page=1#posts-162472
+        
+        #riscosremote
+        #risc_os
+        #transporting_riscos
+        #acorncomputers]]>
+      </description>
+      <source:markdown>RISC OS Remote comes to RISC OS North (and stays at home - all at the same time!).
+
+Experience RISC OS on your laptop, smartphone, tablet - anywhere.
+
+https://www.riscosopen.org/forum/forums/1/topics/20288?limit=25&#38;page=1#posts-162472
+
+#riscosremote
+#risc\_os
+#transporting\_riscos
+#acorncomputers</source:markdown>
+      <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3mhjdzrhv5c2z</guid>
+    </item>    <item>
+      <title>RISCOSbits at RISC OS North 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20288</link>
+      <description>
+        <![CDATA[<h2>Launching <span class="caps">RISC</span> OS Remote: Take Your Desktop Further Than Your Desk</h2>
+        <p>Ever wished your <span class="caps">RISC</span> OS machine could stretch its legs? Now it can.</p>
+        <p><a href="https://www.riscosbits.co.uk/remote.htm"><span class="caps">RISC</span> OS Remote</a> is a delightfully compact hardware device that lets you access and control your <span class="caps">RISC</span> OS computer from anywhere with an internet connection. Home, office, café, train, or that suspiciously comfy settee — your familiar desktop is just a browser tab away. No emulators. No complicated setup rituals. No fiddly software installs on your <span class="caps">RISC</span> OS machine. Simply connect <span class="caps">RISC</span> OS Remote to your computer and enjoy your very own desktop, live and in real time, as if you never left your chair (even if you absolutely did).</p>
+        <p><strong>Your <span class="caps">RISC</span> OS. Your Desktop. Anywhere.</strong><br />
+        <a href="https://www.riscosbits.co.uk/remote.htm"><span class="caps">RISC</span> OS Remote</a> captures your machine’s video output along with keyboard and mouse input, securely presenting your desktop through a responsive, browser-based interface. That means you can run your usual applications, keep your carefully curated pinboard exactly as you left it, and work within your established environment without missing a <del>beat</del> pixel.</p>
+        <p>Optimised for smooth, interactive control rather than bulk data transfer, <a href="https://www.riscosbits.co.uk/remote.htm"><span class="caps">RISC</span> OS Remote</a> focuses on what matters: using your machine, not wrestling with it. Files stay exactly where they belong &#8211; safely on your host system.</p>
+        <p>It even supplies its own <span class="caps">EDID</span>, ensuring reliable display behaviour. Because remote access shouldn’t require remote guesswork.</p>
+        <p>Some keyboards lack the ability to provide those wonderfully <span class="caps">RISC</span> OS-specific combinations, but <a href="https://www.riscosbits.co.uk/remote.htm"><span class="caps">RISC</span> OS Remote</a> steps in neatly here. The device supports custom shortcut keypresses, allowing essential commands such as Alt-Break and Ctrl-Shift-F12 to be sent directly from the web interface. Resets, break operations, and other system-level actions are therefore entirely practical, even when using laptops or compact keyboards that don’t normally offer those keys. There&#8217;s also the option to type ordinary text and paste it directly to your <span class="caps">RISC</span> OS system, through an over-the-air clipboard.</p>
+        <p>For longer sessions, background processing, or unattended tasks, <a href="https://www.riscosbits.co.uk/remote.htm"><span class="caps">RISC</span> OS Remote</a> includes a built-in mouse jiggle function. This feature generates subtle, periodic mouse movements to prevent the host machine from entering screen blanking or power-saving states. Whether you’re monitoring a process, running a lengthy job, or simply keeping an eye on your system from afar, your desktop stays awake and ready.</p>
+        <p><a href="https://www.riscosbits.co.uk/remote.htm"><span class="caps">RISC</span> OS Remote</a> also carries audio from the host machine to the client device, enabling remote audio playback through whatever you are using to connect. System sounds and application audio remain part of the experience, rather than something you only imagine happening.</p>
+        <p>Installation has been designed to be refreshingly painless. <a href="https://www.riscosbits.co.uk/remote.htm"><span class="caps">RISC</span> OS Remote</a> connects without requiring manual port forwarding or complex firewall configuration, avoiding the sort of networking gymnastics that typically accompany remote-access solutions. The device is equally comfortable on home broadband, office networks, or mobile connections.</p>
+        <p>Access is provided through a built-in web interface or custom app, compatible with PCs, laptops, tablets, and smartphones. Setup is straightforward, and once configured, <a href="https://www.riscosbits.co.uk/remote.htm"><span class="caps">RISC</span> OS Remote</a> functions as an always-available bridge to your machine. Your desktop, your applications, your workflow — available from virtually anywhere in the world.</p>
+        <p><strong>Key Features</strong></p>
+        <ul>
+        	<li>Remote access to a live <span class="caps">RISC</span> OS desktop via web browser (Iris not supported)</li>
+        	<li>No software installation required on the <span class="caps">RISC</span> OS machine</li>
+        	<li>Custom shortcut key support (including Alt-Break and Ctrl-Break)</li>
+        	<li>Mouse “jiggle” function to prevent sleep or screen blanking</li>
+        	<li>Audio playback on the client device</li>
+        	<li>Works without manual router firewall or port-forwarding configuration</li>
+        	<li>Compatible with PCs, laptops, tablets, and smartphones</li>
+        	<li>Designed for interactive control rather than file transfer</li>
+        </ul>
+        <p>See it live at the <span class="caps">RISC</span> OS North Show, and at RISCOSbits HQ &#8211; at the same time! Visitors are invited to try it first-hand and experience just how liberating remote <span class="caps">RISC</span> OS can be.</p>
+        <p><strong>Because <span class="caps">RISC</span> OS shouldn’t be grounded.</strong></p>]]>
+      </description>
+      <source:markdown>## Launching RISC OS Remote: Take Your Desktop Further Than Your Desk
+
+Ever wished your RISC OS machine could stretch its legs? Now it can.
+
+[RISC OS Remote](https://www.riscosbits.co.uk/remote.htm) is a delightfully compact hardware device that lets you access and control your RISC OS computer from anywhere with an internet connection. Home, office, café, train, or that suspiciously comfy settee — your familiar desktop is just a browser tab away. No emulators. No complicated setup rituals. No fiddly software installs on your RISC OS machine. Simply connect RISC OS Remote to your computer and enjoy your very own desktop, live and in real time, as if you never left your chair (even if you absolutely did).
+
+**Your RISC OS. Your Desktop. Anywhere.**
+
+[RISC OS Remote](https://www.riscosbits.co.uk/remote.htm) captures your machine’s video output along with keyboard and mouse input, securely presenting your desktop through a responsive, browser-based interface. That means you can run your usual applications, keep your carefully curated pinboard exactly as you left it, and work within your established environment without missing a beat pixel.
+
+Optimised for smooth, interactive control rather than bulk data transfer, [RISC OS Remote](https://www.riscosbits.co.uk/remote.htm) focuses on what matters: using your machine, not wrestling with it. Files stay exactly where they belong – safely on your host system.
+
+It even supplies its own EDID, ensuring reliable display behaviour. Because remote access shouldn’t require remote guesswork.
+
+Some keyboards lack the ability to provide those wonderfully RISC OS-specific combinations, but [RISC OS Remote](https://www.riscosbits.co.uk/remote.htm) steps in neatly here. The device supports custom shortcut keypresses, allowing essential commands such as Alt-Break and Ctrl-Shift-F12 to be sent directly from the web interface. Resets, break operations, and other system-level actions are therefore entirely practical, even when using laptops or compact keyboards that don’t normally offer those keys. There’s also the option to type ordinary text and paste it directly to your RISC OS system, through an over-the-air clipboard.
+
+For longer sessions, background processing, or unattended tasks, [RISC OS Remote](https://www.riscosbits.co.uk/remote.htm) includes a built-in mouse jiggle function. This feature generates subtle, periodic mouse movements to prevent the host machine from entering screen blanking or power-saving states. Whether you’re monitoring a process, running a lengthy job, or simply keeping an eye on your system from afar, your desktop stays awake and ready.
+
+[RISC OS Remote](https://www.riscosbits.co.uk/remote.htm) also carries audio from the host machine to the client device, enabling remote audio playback through whatever you are using to connect. System sounds and application audio remain part of the experience, rather than something you only imagine happening.
+
+Installation has been designed to be refreshingly painless. [RISC OS Remote](https://www.riscosbits.co.uk/remote.htm) connects without requiring manual port forwarding or complex firewall configuration, avoiding the sort of networking gymnastics that typically accompany remote-access solutions. The device is equally comfortable on home broadband, office networks, or mobile connections.
+
+Access is provided through a built-in web interface or custom app, compatible with PCs, laptops, tablets, and smartphones. Setup is straightforward, and once configured, [RISC OS Remote](https://www.riscosbits.co.uk/remote.htm) functions as an always-available bridge to your machine. Your desktop, your applications, your workflow — available from virtually anywhere in the world.
+
+**Key Features**
+
+- Remote access to a live RISC OS desktop via web browser (Iris not supported)
+- No software installation required on the RISC OS machine
+- Custom shortcut key support (including Alt-Break and Ctrl-Break)
+- Mouse “jiggle” function to prevent sleep or screen blanking
+- Audio playback on the client device
+- Works without manual router firewall or port-forwarding configuration
+- Compatible with PCs, laptops, tablets, and smartphones
+- Designed for interactive control rather than file transfer
+
+See it live at the RISC OS North Show, and at RISCOSbits HQ – at the same time! Visitors are invited to try it first-hand and experience just how liberating remote RISC OS can be.
+
+**Because RISC OS shouldn’t be grounded.**</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20288:162472</guid>
+    </item>    <item>
+      <title>R-Comp and RCI news thread for RISC OS North</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20302</link>
+      <description>
+        <![CDATA[<p>We&#8217;ll have <strong>Fireworkz</strong> 2.33 CDs available &#8211; this isn&#8217;t technically a new release as it came out for London last year, but it may well be new to <span class="caps">RISC</span> OS North visitors.</p>]]>
+      </description>
+      <source:markdown>We’ll have **Fireworkz** 2.33 CDs available – this isn’t technically a new release as it came out for London last year, but it may well be new to RISC OS North visitors.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20302:162471</guid>
+    </item>    <item>
+      <title>Archive Magazine Feb/Mar 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20305</link>
+      <description>
+        <![CDATA[<p>I&#8217;ll check it out, thanks for let me know.</p>]]>
+      </description>
+      <source:markdown>I’ll check it out, thanks for let me know.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20305:162470</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>For binary libraries like <span class="caps">PIL</span> it would be very helpful if somebody could create a &#8216;wheel&#8217; (i.e. a precompiled version of the library which can be installed using <b>pip</b>&mdash;it would be nice if it could be more generally available.</p>
+        <p>Chris: Powershell does tend to be rather long-winded. It seems to be inspired by <span class="caps">VMS</span>, with which the NT series of Windows has a connection in that Microsoft hired Dave Cutler, who had been involved with <span class="caps">VMS</span>, to head the development of NT.</p>
+        <p>After all, the command to go to a user&#8217;s home directory, which would be <code>cd ~</code> on a <span class="caps">UNIX</span> system, on <span class="caps">VMS</span> was <code>SET DEFAULT SYS$LOGIN</code>.</p>]]>
+      </description>
+      <source:markdown>For binary libraries like PIL it would be very helpful if somebody could create a ‘wheel’ (i.e. a precompiled version of the library which can be installed using **pip**—it would be nice if it could be more generally available.
+
+Chris: Powershell does tend to be rather long-winded. It seems to be inspired by VMS, with which the NT series of Windows has a connection in that Microsoft hired Dave Cutler, who had been involved with VMS, to head the development of NT.
+
+After all, the command to go to a user’s home directory, which would be `cd ~` on a UNIX system, on VMS was `SET DEFAULT SYS$LOGIN`.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162468</guid>
+    </item>    <item>
+      <title>RISC OS North - March 21st 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20284</link>
+      <description>
+        <![CDATA[<p>I&#8217;m waving to you guys from about a mile away :)  Still trying to finish work and load the car.  New software arrived from programmer this morning!  Maybe give Richard a call &#8211; he and Serena visited earlier to say &#8220;Hi&#8221;, so they&#8217;re around somewhere :)</p>]]>
+      </description>
+      <source:markdown>I’m waving to you guys from about a mile away :) Still trying to finish work and load the car. New software arrived from programmer this morning! Maybe give Richard a call – he and Serena visited earlier to say “Hi”, so they’re around somewhere :)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20284:162467</guid>
+    </item>    <item>
       <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
       <description>
@@ -96,20 +330,6 @@ Sample and buy your copy of Drag N Drop at [www.dragdrop.co.uk](http://www.dragd
       <source:markdown>Train times for Warrington Bank Quay</source:markdown>
       <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13568&#38;page=1#125875</guid>
     </item>    <item>
-      <title>Archive Magazine Feb/Mar 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20305</link>
-      <description>
-        <![CDATA[<p>Nice!</p>
-        <p>Thanks, Gavin, and a big shout-out for this issue. Many thanks to Robin Wilks for the article series on programming in Forth on <span class="caps">RISC</span> OS! Love it :)</p>
-        <p>I’ve written many Forth compilers over the years, and for all Forth enthusiasts there will be a big surprise this autumn at the <span class="caps">RISC</span> OS London Show ;) (and no, I’m not going to reveal it before October!)</p>]]>
-      </description>
-      <source:markdown>Nice!
-
-Thanks, Gavin, and a big shout-out for this issue. Many thanks to Robin Wilks for the article series on programming in Forth on RISC OS! Love it :)
-
-I’ve written many Forth compilers over the years, and for all Forth enthusiasts there will be a big surprise this autumn at the RISC OS London Show ;) (and no, I’m not going to reveal it before October!)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20305:162457</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mhiqbzl6zc25</link>
       <description>
         <![CDATA[So much to enjoy here, but probably the best part is knowing how desperate Altman is to be popular, to be loved... and at the Oscars, surrounded by precisely the people he probably *most* wants to be loved by... this happened.
@@ -142,121 +362,6 @@ https://www.riscosopen.org/forum/forums/1/topics/20288?limit=25&#38;page=1#posts
 #RISC\_OS</source:markdown>
       <guid>cid://at://did:plc:la2htv4hkumsun6qyecwejli/app.bsky.feed.post/3mhim2hsg5s2l</guid>
     </item>    <item>
-      <title>RISCOSbits at RISC OS North 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20288</link>
-      <description>
-        <![CDATA[<h2>RISCOSbits Introduces <span class="caps">RISC</span> OS Roam – Take <span class="caps">RISC</span> OS Anywhere!</h2>
-        <p>RISCOSbits is delighted to announce <span class="caps">RISC</span> OS Roam, a compact and rather clever hardware device that lets you turn almost any laptop into a native <span class="caps">RISC</span> OS workstation. No networking, no faffing with routers, and absolutely no cloud required.</p>
-        <p>Designed with portability and practicality in mind, <a href="https://www.riscosbits.co.uk/roam.htm"><span class="caps">RISC</span> OS Roam</a> provides a refreshingly direct approach to mobile <span class="caps">RISC</span> OS computing. Simply connect your <span class="caps">RISC</span> OS machine, plug into your laptop, and you’re up and running—no installs, no configuration headaches, just your familiar desktop wherever you happen to be.</p>
-        <p><strong>Your Laptop, Now Speaking Fluent <span class="caps">RISC</span> OS</strong><br />
-        <a href="https://www.riscosbits.co.uk/roam.htm"><span class="caps">RISC</span> OS Roam</a> captures the live video output from your <span class="caps">RISC</span> OS system and presents it directly on your laptop screen, while simultaneously feeding keyboard and trackpad input back to the host machine. The result? A seamless experience that feels remarkably like using a dedicated <span class="caps">RISC</span> OS laptop. Without the need to actually own one.</p>
-        <p>Because everything operates locally over direct hardware connections, there’s no reliance on internet access. Whether you’re in a village hall, a classroom, a train, or somewhere with Wi-Fi that’s more “wishful thinking” than reality, <a href="https://www.riscosbits.co.uk/roam.htm"><span class="caps">RISC</span> OS Roam</a> keeps working.</p>
-        <p><strong>All the Control You’d Expect (and a Bit More Besides)</strong><br />
-        Borrowing some of the clever tricks from another <a href="https://www.riscosbits.co.uk/remote.htm">new product</a> (coming soon!), <a href="https://www.riscosbits.co.uk/roam.htm"><span class="caps">RISC</span> OS Roam</a> ensures you’re not missing out on essential controls. Custom shortcut handling means key combinations like Alt-Break and Ctrl-Break are always within reach, even on modern laptop keyboards that seem to have forgotten such things ever existed.</p>
-        <p>Audio is handled just as neatly. Sound from your <span class="caps">RISC</span> OS machine is routed straight through your laptop’s speakers, keeping everything self-contained and  tidy.</p>
-        <p><strong>Record, Demonstrate, Share</strong><br />
-        <a href="https://www.riscosbits.co.uk/roam.htm"><span class="caps">RISC</span> OS Roam</a> isn’t just about using your system, It’s about showing it off too. Built-in video and audio recording allows you to capture exactly what’s happening on your <span class="caps">RISC</span> OS desktop, making it ideal for:</p>
-        <ul>
-        	<li>Demonstrations at shows and user groups</li>
-        	<li>Tutorials and walkthroughs</li>
-        	<li>“Look what this can do!” moments</li>
-        </ul>
-        <p>All without needing extra capture hardware or complex setups.</p>
-        <p><strong>File Transfer Without the Fuss</strong><br />
-        One particularly neat trick is the switchable shared <span class="caps">USB</span> storage feature. With a simple toggle, a connected <span class="caps">USB</span> drive can be presented either to your laptop or your <span class="caps">RISC</span> OS machine. It’s a straightforward, no-nonsense way to move files between systems. No networking, no cloud syncing, and no hunting for spare memory sticks down the back of the sofa.</p>
-        <p><strong>No Network? No Problem.</strong><br />
-        Because <a href="https://www.riscosbits.co.uk/roam.htm"><span class="caps">RISC</span> OS Roam</a> works entirely over local connections, it sidesteps all the usual complications of remote access:</p>
-        <ul>
-        	<li>No router configuration</li>
-        	<li>No firewall adjustments</li>
-        	<li>No dependency on internet availability</li>
-        </ul>
-        <p>This makes it perfect for secure environments, exhibitions, education settings, field work, and travel—anywhere you want reliability without relying on connectivity.</p>
-        <p><strong>Compact, Portable, Ready to Roam</strong><br />
-        <a href="https://www.riscosbits.co.uk/roam.htm"><span class="caps">RISC</span> OS Roam</a> is all about mobility and simplicity. It turns your existing laptop into a flexible display and input hub for your <span class="caps">RISC</span> OS system, while also offering recording and file transfer capabilities in one tidy package.</p>
-        <p>In short, it’s a practical, portable way to make <span class="caps">RISC</span> OS more accessible wherever you go.</p>
-        <ul>
-        	<li>Key Features*</li>
-        	<li>Turn almost any laptop or desktop into a “native” <span class="caps">RISC</span> OS workstation</li>
-        	<li>No internet connection required</li>
-        	<li>Live <span class="caps">RISC</span> OS video capture</li>
-        	<li>Full keyboard and mouse control</li>
-        	<li>Alt-Break, Ctrl-Break and shortcut support</li>
-        	<li>Remote audio through laptop speakers</li>
-        	<li>Built-in video and audio recording</li>
-        	<li>Switchable shared <span class="caps">USB</span> drive for easy file transfer</li>
-        	<li>No host software installation required</li>
-        	<li>No firewall or router configuration</li>
-        	<li>Compact, portable hardware design</li>
-        	<li>Ideal for demos, meetings, education, and travel</li>
-        </ul>
-        <p><strong><a href="https://www.riscosbits.co.uk/roam.htm"><span class="caps">RISC</span> OS Roam</a> &#8211; turn nearly any laptop into a <span class="caps">RISC</span> OS laptop!</strong></p>]]>
-      </description>
-      <source:markdown>## RISCOSbits Introduces RISC OS Roam – Take RISC OS Anywhere!
-
-RISCOSbits is delighted to announce RISC OS Roam, a compact and rather clever hardware device that lets you turn almost any laptop into a native RISC OS workstation. No networking, no faffing with routers, and absolutely no cloud required.
-
-Designed with portability and practicality in mind, [RISC OS Roam](https://www.riscosbits.co.uk/roam.htm) provides a refreshingly direct approach to mobile RISC OS computing. Simply connect your RISC OS machine, plug into your laptop, and you’re up and running—no installs, no configuration headaches, just your familiar desktop wherever you happen to be.
-
-**Your Laptop, Now Speaking Fluent RISC OS**
-
-[RISC OS Roam](https://www.riscosbits.co.uk/roam.htm) captures the live video output from your RISC OS system and presents it directly on your laptop screen, while simultaneously feeding keyboard and trackpad input back to the host machine. The result? A seamless experience that feels remarkably like using a dedicated RISC OS laptop. Without the need to actually own one.
-
-Because everything operates locally over direct hardware connections, there’s no reliance on internet access. Whether you’re in a village hall, a classroom, a train, or somewhere with Wi-Fi that’s more “wishful thinking” than reality, [RISC OS Roam](https://www.riscosbits.co.uk/roam.htm) keeps working.
-
-**All the Control You’d Expect (and a Bit More Besides)**
-
-Borrowing some of the clever tricks from another [new product](https://www.riscosbits.co.uk/remote.htm) (coming soon!), [RISC OS Roam](https://www.riscosbits.co.uk/roam.htm) ensures you’re not missing out on essential controls. Custom shortcut handling means key combinations like Alt-Break and Ctrl-Break are always within reach, even on modern laptop keyboards that seem to have forgotten such things ever existed.
-
-Audio is handled just as neatly. Sound from your RISC OS machine is routed straight through your laptop’s speakers, keeping everything self-contained and tidy.
-
-**Record, Demonstrate, Share**
-
-[RISC OS Roam](https://www.riscosbits.co.uk/roam.htm) isn’t just about using your system, It’s about showing it off too. Built-in video and audio recording allows you to capture exactly what’s happening on your RISC OS desktop, making it ideal for:
-
-- Demonstrations at shows and user groups
-- Tutorials and walkthroughs
-- “Look what this can do!” moments
-
-All without needing extra capture hardware or complex setups.
-
-**File Transfer Without the Fuss**
-
-One particularly neat trick is the switchable shared USB storage feature. With a simple toggle, a connected USB drive can be presented either to your laptop or your RISC OS machine. It’s a straightforward, no-nonsense way to move files between systems. No networking, no cloud syncing, and no hunting for spare memory sticks down the back of the sofa.
-
-**No Network? No Problem.**
-
-Because [RISC OS Roam](https://www.riscosbits.co.uk/roam.htm) works entirely over local connections, it sidesteps all the usual complications of remote access:
-
-- No router configuration
-- No firewall adjustments
-- No dependency on internet availability
-
-This makes it perfect for secure environments, exhibitions, education settings, field work, and travel—anywhere you want reliability without relying on connectivity.
-
-**Compact, Portable, Ready to Roam**
-
-[RISC OS Roam](https://www.riscosbits.co.uk/roam.htm) is all about mobility and simplicity. It turns your existing laptop into a flexible display and input hub for your RISC OS system, while also offering recording and file transfer capabilities in one tidy package.
-
-In short, it’s a practical, portable way to make RISC OS more accessible wherever you go.
-
-- Key Features\*
-- Turn almost any laptop or desktop into a “native” RISC OS workstation
-- No internet connection required
-- Live RISC OS video capture
-- Full keyboard and mouse control
-- Alt-Break, Ctrl-Break and shortcut support
-- Remote audio through laptop speakers
-- Built-in video and audio recording
-- Switchable shared USB drive for easy file transfer
-- No host software installation required
-- No firewall or router configuration
-- Compact, portable hardware design
-- Ideal for demos, meetings, education, and travel
-
-**[RISC OS Roam](https://www.riscosbits.co.uk/roam.htm) – turn nearly any laptop into a RISC OS laptop!**</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20288:162454</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mhihzjv4ns25</link>
       <description>
         <![CDATA[*learns about the existence of an "Art of Tron" book*
@@ -275,57 +380,6 @@ In short, it’s a practical, portable way to make RISC OS more accessible where
 
 Oh well.</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mhihzjv4ns25</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>I&#8217;m currently using Compo to load jpegs onto the canvas, and these then get processed into the &#8216;DeToxed&#8217; image. Thus far I do some stats and just write out some info files. Compo will load any of the filetypes it recognises, and on the canvas they &quot;look like a sprite* in terms of how the values are stored in Compo. The &#8216;C&#8217; program in control can then save out info.<br />
-        At present I&#8217;ve just done this to demo/experiment the ability to DeTox. <span class="caps">HOWEVER</span>&#8230;</p>
-        <p>At present Compo just lets the specified program (written in Acorn &#8216;C&#8217;) load and read from the item on the Compo canvas, and crunch numbers which can be saved into files. That&#8217;s how I get the data to plot the <span class="caps">RGB</span> stats. But the same routine should also be able to <strong>write out a P5 file</strong> of the DeToxed grescale result.</p>
-        <p>i.e. go from any image format Compo can load to output a file of whatever type you get the &#8216;C&#8217; program in control to write out as it has access to the data in Compo and can generate output files.</p>
-        <p>Compo can also do loops through a series of files.</p>
-        <p>So far as I can see that means it may well be able to do the job from start to finish. i.e. take a list/directory of input pages in any &#8216;recognisable&#8217; format, and then generate DeToxed pages in any standard RO format <strong>or</strong> in a file with a simple format like P5. Loop till done. Deterimined by the program being run via CompoScript;</p>
-        <p>The version I&#8217;ve just sent to Archive mag just does the DeTox demo on one page. But that&#8217;s a test/demo limited by my time-limits and my grindingly slow programming ability. So given that people here are clearly better at this than me, I wonder if I&#8217;m wrong somehow about the above, or if they may not yet realise the potential of using Compo like this. It isn&#8217;t <span class="caps">GIMP</span>, but it is the closest we have to it, and is open and expandable now.</p>
-        <p>All of that said, yes, if what is being done by other means give us a good way to do the job, that&#8217;s fine with me. :-) &#8230; but I may well go on out of curiosity to also get Compo to loop though a series of input files and output DeToxed P5 Greyscale&#8230; just that it will probably take me ages to manage to get enough time to do it.</p>
-        <p>Other side of this:- OK, is there now a routine I can get from you I can try out on some of the PDFs I have that need DeTox? 8-] Again, hope to see this, and would aim to write about it in due time for Archive.</p>
-        <p><span class="caps">FWIW</span> I&#8217;m still mostly using my old ARMX6, but do have a new <span class="caps">NVME</span> box from RComp that I am grandually migrating things to.  Again, alas, this migration is less swift than is ideal.</p>]]>
-      </description>
-      <source:markdown>I’m currently using Compo to load jpegs onto the canvas, and these then get processed into the ‘DeToxed’ image. Thus far I do some stats and just write out some info files. Compo will load any of the filetypes it recognises, and on the canvas they &#34;look like a sprite\* in terms of how the values are stored in Compo. The ‘C’ program in control can then save out info.
-
-At present I’ve just done this to demo/experiment the ability to DeTox. HOWEVER…
-
-At present Compo just lets the specified program (written in Acorn ‘C’) load and read from the item on the Compo canvas, and crunch numbers which can be saved into files. That’s how I get the data to plot the RGB stats. But the same routine should also be able to **write out a P5 file** of the DeToxed grescale result.
-
-i.e. go from any image format Compo can load to output a file of whatever type you get the ‘C’ program in control to write out as it has access to the data in Compo and can generate output files.
-
-Compo can also do loops through a series of files.
-
-So far as I can see that means it may well be able to do the job from start to finish. i.e. take a list/directory of input pages in any ‘recognisable’ format, and then generate DeToxed pages in any standard RO format **or** in a file with a simple format like P5. Loop till done. Deterimined by the program being run via CompoScript;
-
-The version I’ve just sent to Archive mag just does the DeTox demo on one page. But that’s a test/demo limited by my time-limits and my grindingly slow programming ability. So given that people here are clearly better at this than me, I wonder if I’m wrong somehow about the above, or if they may not yet realise the potential of using Compo like this. It isn’t GIMP, but it is the closest we have to it, and is open and expandable now.
-
-All of that said, yes, if what is being done by other means give us a good way to do the job, that’s fine with me. :-) … but I may well go on out of curiosity to also get Compo to loop though a series of input files and output DeToxed P5 Greyscale… just that it will probably take me ages to manage to get enough time to do it.
-
-Other side of this:- OK, is there now a routine I can get from you I can try out on some of the PDFs I have that need DeTox? 8-\] Again, hope to see this, and would aim to write about it in due time for Archive.
-
-FWIW I’m still mostly using my old ARMX6, but do have a new NVME box from RComp that I am grandually migrating things to. Again, alas, this migration is less swift than is ideal.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162451</guid>
-    </item>    <item>
-      <title>RISC OS North - March 21st 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20284</link>
-      <description>
-        <![CDATA[<p>Just in case you had not heard, the Starbucks at the hotel, will not be re-opening till Monday after the show! Just been informed by the hotel.</p>]]>
-      </description>
-      <source:markdown>Just in case you had not heard, the Starbucks at the hotel, will not be re-opening till Monday after the show! Just been informed by the hotel.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20284:162447</guid>
-    </item>    <item>
-      <title>R-Comp and RCI news thread for RISC OS North</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20302</link>
-      <description>
-        <![CDATA[<p>Hi Chris, yes it was fixed in 3.25.</p>]]>
-      </description>
-      <source:markdown>Hi Chris, yes it was fixed in 3.25.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20302:162446</guid>
     </item>    <item>
       <link>https://bsky.app/profile/archiveriscos.bsky.social/post/3mhi63pkvgk23</link>
       <description>
