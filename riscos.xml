@@ -7,10 +7,85 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>22 Mar 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>23 Mar 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mhqlvpka2k23</link>
+      <description>
+        <![CDATA[Iron Man concept art and render previews for Genepool Software's unreleased 'The Invincible Iron Man' game from 2003. I'm 99% certain these were created by the amazingly talented Han Randhawa. Recovered from my old development DVD backups.]]>
+      </description>
+      <source:markdown>Iron Man concept art and render previews for Genepool Software&#39;s unreleased &#39;The Invincible Iron Man&#39; game from 2003. I&#39;m 99% certain these were created by the amazingly talented Han Randhawa. Recovered from my old development DVD backups.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mhqlvpka2k23</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mhqkuqrrwk23</link>
+      <description>
+        <![CDATA['Slavebot' concept art and textures for the unreleased 'The Invincible Iron Man' game. Started in 2003 by Genepool Software this game reached prototyping and was then cancelled.]]>
+      </description>
+      <source:markdown>&#39;Slavebot&#39; concept art and textures for the unreleased &#39;The Invincible Iron Man&#39; game. Started in 2003 by Genepool Software this game reached prototyping and was then cancelled.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mhqkuqrrwk23</guid>
+    </item>    <item>
+      <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
+      <description>
+        <![CDATA[<p>Wow, great news, Andrew! I’ve got my eye on the Epson ET8550, which can scan to a <span class="caps">USB</span>-drive and print on A3 paper. The only thing is, I don’t know how to drive it directly from <span class="caps">RISC</span> OS. There are various options (including print-by-mail), but for <span class="caps">CAD</span> drawings in a few colors, a simple Printer-Definition-File should suffice. With printing via email, I do wonder who will be able to see your work?</p>
+        <p>Do you know what printer emulation type the <span class="caps">RISC</span> OS Printer-DefinitionFiles use? <span class="caps">PCL</span>-? Or <span class="caps">ESC</span>/P&#8230; or something else?</p>]]>
+      </description>
+      <source:markdown>Wow, great news, Andrew! I’ve got my eye on the Epson ET8550, which can scan to a USB-drive and print on A3 paper. The only thing is, I don’t know how to drive it directly from RISC OS. There are various options (including print-by-mail), but for CAD drawings in a few colors, a simple Printer-Definition-File should suffice. With printing via email, I do wonder who will be able to see your work?
+
+Do you know what printer emulation type the RISC OS Printer-DefinitionFiles use? PCL-? Or ESC/P… or something else?</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20301:162510</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mhqcn6ma6k2p</link>
+      <description>
+        <![CDATA[I know it's passé to dump on Adobe, but honestly... the absolute state of this
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>I know it&#39;s passé to dump on Adobe, but honestly... the absolute state of this
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mhqcn6ma6k2p</guid>
+    </item>    <item>
+      <title>RISC OS North Show Report 2026</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13575&#38;page=1#125876</link>
+      <description>
+        <![CDATA[Thanks for the show report and latest from the show presentations too.]]>
+      </description>
+      <source:markdown>Thanks for the show report and latest from the show presentations too.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13575&#38;page=1#125876</guid>
+    </item>    <item>
+      <title>Linux Port</title>
+      <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
+      <description>
+        <![CDATA[<p>I have play around a bit with the PineTab2. <br />
+        ArchiEmu is working with my old A5000 stuff.</p>
+        <p><img src="https://riscos.openpandora.org/Diverses/PineTab/PineTab_LP_Archi2.png" alt="" /><br />
+        WorraCAD and TechWriter with German language pack (is not working with the latest TechWriter)</p>
+        <p><img src="https://riscos.openpandora.org/Diverses/PineTab/PineTab_Archi_PCEm.png" alt="" /><br />
+        PCEm with the student version of RStab I use 1993-95.</p>]]>
+      </description>
+      <source:markdown>I have play around a bit with the PineTab2.
+
+ArchiEmu is working with my old A5000 stuff.
+
+![](https://riscos.openpandora.org/Diverses/PineTab/PineTab_LP_Archi2.png)
+
+WorraCAD and TechWriter with German language pack (is not working with the latest TechWriter)
+
+![](https://riscos.openpandora.org/Diverses/PineTab/PineTab_Archi_PCEm.png)
+
+PCEm with the student version of RStab I use 1993-95.</source:markdown>
+      <guid>cid://www.riscosopen.org:3:9068:162504</guid>
+    </item>    <item>
+      <title>RISC OS 64 project - Thanks!</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20308</link>
+      <description>
+        <![CDATA[<p>That&#8217;s really good to hear. Personally I haven&#8217;t watched anything live (I&#8217;m on the other side of the world so they&#8217;re in the wee hours for me) but it&#8217;s great to hear that there&#8217;s interest. I haven&#8217;t made many comments on the 64-bit front as I&#8217;m happy to let smarter people work things out, but I figured that this thread was a good place to break my silence :)</p>]]>
+      </description>
+      <source:markdown>That’s really good to hear. Personally I haven’t watched anything live (I’m on the other side of the world so they’re in the wee hours for me) but it’s great to hear that there’s interest. I haven’t made many comments on the 64-bit front as I’m happy to let smarter people work things out, but I figured that this thread was a good place to break my silence :)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20308:162502</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mho52lfpr22l</link>
       <description>
         <![CDATA[Oops I accidentally]]>
@@ -79,6 +154,49 @@ Is it available from any UK wholesaler or importer or… ?
 I prefer to buy books from real UK shops, not via Amazoom, etc.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20309:162494</guid>
     </item>    <item>
+      <title>Live Coding with Gerph, Sunday 22nd March at 1pm UK time.</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20303</link>
+      <description>
+        <![CDATA[<p>Thanks Andrew!</p>
+        <p>Hope that people from the show learnt a little about the project :-)</p>
+        <p>Live Coding is starting in about 30 minutes, and anyone interested in the project is invited along as I&#8217;ll always take questions through the coding work.</p>]]>
+      </description>
+      <source:markdown>Thanks Andrew!
+
+Hope that people from the show learnt a little about the project :-)
+
+Live Coding is starting in about 30 minutes, and anyone interested in the project is invited along as I’ll always take questions through the coding work.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20303:162492</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>If you use bash to do the wildcard expansion it generates &#8216;Unix&#8217; paths but <span class="caps">RISC</span> OS python expects <span class="caps">RISC</span> OS paths.</p>
+        <p>This script replaces . with / so file names become example/png instead of example.png. If you save this script to a file you can run it passing the wildcard  and output pdf as parameters.</p>
+        <p>*bash example.sh *.png example/pdf</p>
+        <pre>
+        <code>
+        filesorig=`echo $1`
+        files=${filesorig//.//}
+        img2pdf -o $2 $files
+        </code>
+        </pre>]]>
+      </description>
+      <source:markdown>If you use bash to do the wildcard expansion it generates ‘Unix’ paths but RISC OS python expects RISC OS paths.
+
+This script replaces . with / so file names become example/png instead of example.png. If you save this script to a file you can run it passing the wildcard and output pdf as parameters.
+
+\*bash example.sh \*.png example/pdf
+
+```
+
+filesorig=`echo $1`
+files=${filesorig//.//}
+img2pdf -o $2 $files
+
+```</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162491</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mhm3e7bxmk2y</link>
       <description>
         <![CDATA[RISC OS North Show 2026 - pictures 
@@ -132,41 +250,6 @@ After the success of 2025, RISC OS North show was back for 2026, bigger and bett
       <source:markdown>We have our usual show report at [https://www.iconbar.com/articles/RISC\_OS\_North\_Show\_Re…](https://www.iconbar.com/articles/RISC_OS_North_Show_Report_2026/index2315.html)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20284:162489</guid>
     </item>    <item>
-      <title>RISC OS 64 project - Thanks!</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20308</link>
-      <description>
-        <![CDATA[<p>Hiya,</p>
-        <p>I thought today, being the day of the <span class="caps">RISC</span> OS show, to be good opportunity to say a big thank you to all the people who have been supporting the work towards the <span class="caps">RISC</span> OS 64 project I&#8217;ve been working on.</p>
-        <p>Over the last year, I&#8217;ve made a lot of progress on the work, and there are useful outputs that are being made available. The Live Coding sessions have been popular (for the <span class="caps">RISC</span> OS world), with generally around 10-20 people watching from different areas &#8211; some even chipping in with comments, questions and suggestions. We peak at about 40 people, and there are aberrations where a few hundred people descend on the channel! Overall the channel&#8217;s now got over 300 subscribers, which isn&#8217;t huge in the grand scheme of things, but for the niche environment, it&#8217;s quite amazing to me.</p>
-        <p>The GitHub projects have expanded, and the sponsorship programme has been very encouraging &#8211; a huge thank you to all the supporters there as well. It&#8217;s really appreciated! Thank you!</p>
-        <p>There have been a few issues and PRs raised by people on the repositories as well, which is really neat &#8211; it means that there are improvements that I&#8217;d not considered, or not had time for, and bugs that have got fixed. Again, this is wonderful and I&#8217;m very grateful.</p>
-        <p>The <span class="caps">RISC</span> OS Build Environment is now highly functional for 26-bit, 32-bit and 64-bit <span class="caps">RISC</span> OS builds. The <span class="caps">RISC</span> OS Build Service has been improved to make it more reliable in running tests and reporting useful information &#8211; almost all the GitHub tools build and test through the build service. <span class="caps">RISC</span> OS Pyromaniac, which underlies the build service, has been improving as features are needed and bugs are found.</p>
-        <p>And finally I want to thank everyone who has contacted me publicly or privately to talk about the project.</p>
-        <p>The work continues, and I&#8217;m hopeful that we&#8217;ll see real progress in many areas this summer.</p>
-        <p>Thanks once again to everyone.</p>
-        <p>If you want to get involved, contact me, or have a look at the work that&#8217;s needed on the <span class="caps">RISC</span> OS Status repository (<a href="https://github.com/gerph/riscos64-status">https://github.com/gerph/riscos64-status</a>). Or if you just want to show support, there&#8217;s the GitHub sponsorship (<a href="https://github.com/sponsors/gerph">https://github.com/sponsors/gerph</a>), you can always watch the live coding, or even just drop a line here.</p>]]>
-      </description>
-      <source:markdown>Hiya,
-
-I thought today, being the day of the RISC OS show, to be good opportunity to say a big thank you to all the people who have been supporting the work towards the RISC OS 64 project I’ve been working on.
-
-Over the last year, I’ve made a lot of progress on the work, and there are useful outputs that are being made available. The Live Coding sessions have been popular (for the RISC OS world), with generally around 10-20 people watching from different areas – some even chipping in with comments, questions and suggestions. We peak at about 40 people, and there are aberrations where a few hundred people descend on the channel! Overall the channel’s now got over 300 subscribers, which isn’t huge in the grand scheme of things, but for the niche environment, it’s quite amazing to me.
-
-The GitHub projects have expanded, and the sponsorship programme has been very encouraging – a huge thank you to all the supporters there as well. It’s really appreciated! Thank you!
-
-There have been a few issues and PRs raised by people on the repositories as well, which is really neat – it means that there are improvements that I’d not considered, or not had time for, and bugs that have got fixed. Again, this is wonderful and I’m very grateful.
-
-The RISC OS Build Environment is now highly functional for 26-bit, 32-bit and 64-bit RISC OS builds. The RISC OS Build Service has been improved to make it more reliable in running tests and reporting useful information – almost all the GitHub tools build and test through the build service. RISC OS Pyromaniac, which underlies the build service, has been improving as features are needed and bugs are found.
-
-And finally I want to thank everyone who has contacted me publicly or privately to talk about the project.
-
-The work continues, and I’m hopeful that we’ll see real progress in many areas this summer.
-
-Thanks once again to everyone.
-
-If you want to get involved, contact me, or have a look at the work that’s needed on the RISC OS Status repository ( [https://github.com/gerph/riscos64-status](https://github.com/gerph/riscos64-status)). Or if you just want to show support, there’s the GitHub sponsorship ( [https://github.com/sponsors/gerph](https://github.com/sponsors/gerph)), you can always watch the live coding, or even just drop a line here.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20308:162488</guid>
-    </item>    <item>
       <title>Being locked out</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20307</link>
       <description>
@@ -198,34 +281,6 @@ Today I was briefly ‘locked out’ as the system decided my re-tries were the 
       </description>
       <source:markdown>We&#39;ve just had the spring Equinox in the Northern Hemisphere, which neatly links to the game of the same name. A sequel to Software Creations&#39; original NES game Solstice. Designed and created by John and Ste Pickford for the SNES. @breakintoprogram.co.uk gets a mention in the credits too.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mhkwpa2cns2e</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>Thanks Chris for all these program releases for <span class="caps">RISC</span> OS.<br />
-        I hope I won&#8217;t have any problems with Python, I use Iris!</p>
-        <p>Jim, <br />
-        I have made the code for <span class="caps">PBM</span> type 5 available, I am providing the link again.<br />
-        <a href="https://jeanmichelb.riscos.fr/Temp/DetoxComplement.zip">https://jeanmichelb.riscos.fr/Temp/DetoxComplement.zip</a></p>]]>
-      </description>
-      <source:markdown>Thanks Chris for all these program releases for RISC OS.
-
-I hope I won’t have any problems with Python, I use Iris!
-
-Jim,
-
-I have made the code for PBM type 5 available, I am providing the link again.
-
-[https://jeanmichelb.riscos.fr/Temp/DetoxComplement.zip](https://jeanmichelb.riscos.fr/Temp/DetoxComplement.zip)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162478</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 22nd March at 1pm UK time.</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20303</link>
-      <description>
-        <![CDATA[<p>For those interested in learning a bit more about Gerph&#8217;s project, <span class="caps">ROD</span> will have some leaflets on the stand at <span class="caps">RISC</span> OS North, introducing the project and answering some frequently asked questions about it.</p>]]>
-      </description>
-      <source:markdown>For those interested in learning a bit more about Gerph’s project, ROD will have some leaflets on the stand at RISC OS North, introducing the project and answering some frequently asked questions about it.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20303:162477</guid>
     </item>    <item>
       <title>R-Comp powers up printing at RISC OS North</title>
       <link>https://www.riscository.com/2026/r-comp-powers-up-printing/</link>
@@ -363,14 +418,6 @@ See it live at the RISC OS North Show, and at RISCOSbits HQ – at the same time
       </description>
       <source:markdown>I’ll check it out, thanks for let me know.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20305:162470</guid>
-    </item>    <item>
-      <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
-      <description>
-        <![CDATA[<p>Google AI just suggested a novel way of using MailPrint with other printers (eg. Canon).  You can set it up to email to your phone, and simply tap the print jobs out via the Canon phone app to your printer.  This assumes your phone can collect email, but otherwise there&#8217;s no reason it shouldn&#8217;t work.  It&#8217;s an extra tap or two on your phone, but if you&#8217;re stuck with no other way to print, it&#8217;s hardly a major hardship&#8230;</p>]]>
-      </description>
-      <source:markdown>Google AI just suggested a novel way of using MailPrint with other printers (eg. Canon). You can set it up to email to your phone, and simply tap the print jobs out via the Canon phone app to your printer. This assumes your phone can collect email, but otherwise there’s no reason it shouldn’t work. It’s an extra tap or two on your phone, but if you’re stuck with no other way to print, it’s hardly a major hardship…</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20301:162466</guid>
     </item>    <item>
       <title>Out tomorrow - Drag N Drop</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20306</link>
@@ -3979,43 +4026,6 @@ Now, however, I’ve reverted to the previous RPi OS (Debian Bookworm) and got V
       </description>
       <source:markdown>Brilliant – thank you all. I had noticed the extension on the image file was a compression, but as etcher happily took it in I assumed it was ok with that (and I didnt realise this was not usual). Pi imager worked perfectly (v2.0.6).</source:markdown>
       <guid>cid://www.riscosopen.org:5:20240:161687</guid>
-    </item>    <item>
-      <title>Linux Port</title>
-      <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Interesting – do you think that this would work with the Arm PineTab?</p>
-        </blockquote>
-        <p>I know it ;-)</p>
-        <p><img src="http://riscos.openpandora.org/Diverses/PineTab/ROS_PineTab1.jpg" alt="" /></p>
-        <p><img src="http://riscos.openpandora.org/Diverses/PineTab/ROS_PineTab2.jpg" alt="" /></p>
-        <p>The Pi5 Direct is not working. It gives a &#8220;glut error&#8221;. Freeglut is installed but is not enough. I have only given a short try.<br />
-        Timothys original port (and so my collection for the Pyra) is working without problems.<br />
-        I only install base-devel (Basic tools to build Arch Linux packages) with <br />
-        sudo pacman -S base-devel<br />
-        to use it.<br />
-        Works well. If you touch the touchpad with three fingers you get the menu (middle mouse button).</p>]]>
-      </description>
-      <source:markdown>&#62; Interesting – do you think that this would work with the Arm PineTab?
-
-I know it ;-)
-
-![](http://riscos.openpandora.org/Diverses/PineTab/ROS_PineTab1.jpg)
-
-![](http://riscos.openpandora.org/Diverses/PineTab/ROS_PineTab2.jpg)
-
-The Pi5 Direct is not working. It gives a “glut error”. Freeglut is installed but is not enough. I have only given a short try.
-
-Timothys original port (and so my collection for the Pyra) is working without problems.
-
-I only install base-devel (Basic tools to build Arch Linux packages) with
-
-sudo pacman -S base-devel
-
-to use it.
-
-Works well. If you touch the touchpad with three fingers you get the menu (middle mouse button).</source:markdown>
-      <guid>cid://www.riscosopen.org:3:9068:161685</guid>
     </item>    <item>
       <title>MUG celebrates 20 years</title>
       <link>http://www.iconbar.com/comments/rss/news2302.html</link>
