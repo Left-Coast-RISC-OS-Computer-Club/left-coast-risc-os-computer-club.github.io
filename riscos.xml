@@ -7,16 +7,99 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>23 Mar 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>24 Mar 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>PCEmu</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20226</link>
+      <description>
+        <![CDATA[<p>DOSBox-X can run Windows 98 — at least I had it running on a 2020 (Intel) MacBook Air. There are instructions on how to go about this on the web site.</p>]]>
+      </description>
+      <source:markdown>DOSBox-X can run Windows 98 — at least I had it running on a 2020 (Intel) MacBook Air. There are instructions on how to go about this on the web site.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20226:162536</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mht67aegbc2d</link>
+      <description>
+        <![CDATA[How busy is an ice cave, usually?]]>
+      </description>
+      <source:markdown>How busy is an ice cave, usually?</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mht67aegbc2d</guid>
+    </item>    <item>
+      <title>Desktop magnifier</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20310</link>
+      <description>
+        <![CDATA[<p>I have a customer with very bad eyesight, and on Windows he makes extensive use of the Windows magnifier.</p>
+        <p>My recollection is that the <span class="caps">RISC</span> OS equivalent (CloseUp?) isn&#8217;t the best tool, but I&#8217;m wondering if anyone has any recommendations or experience.  My thoughts are that others in the community have probably needed to zoom in on things and may have found good alternatives, or may simply say, &#8220;No, Andrew, CloseUp is great&#8221; which would also be good news.</p>
+        <p>Thanks in advance.</p>]]>
+      </description>
+      <source:markdown>I have a customer with very bad eyesight, and on Windows he makes extensive use of the Windows magnifier.
+
+My recollection is that the RISC OS equivalent (CloseUp?) isn’t the best tool, but I’m wondering if anyone has any recommendations or experience. My thoughts are that others in the community have probably needed to zoom in on things and may have found good alternatives, or may simply say, “No, Andrew, CloseUp is great” which would also be good news.
+
+Thanks in advance.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20310:162533</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mhszywr3722k</link>
+      <description>
+        <![CDATA[I’ve made a new version of the ObeySupport module that was supplied with Zap (and is not ubiquitous I was shocked to realise – ought to be).
+        
+        I’ve added a few new commands and fixed the ones that were broken. Are there any other *IFs that people would find useful?
+        
+        [ALT for syntax]]]>
+      </description>
+      <source:markdown>I’ve made a new version of the ObeySupport module that was supplied with Zap (and is not ubiquitous I was shocked to realise – ought to be).
+
+I’ve added a few new commands and fixed the ones that were broken. Are there any other \*IFs that people would find useful?
+
+\[ALT for syntax\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mhszywr3722k</guid>
+    </item>    <item>
+      <title>Linux Port</title>
+      <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
+      <description>
+        <![CDATA[<p>Interesting &#8211;  can Linux RO run full screen?</p>
+        <p>I see no mention of &#8216;Linux RO&#8217; being shown at the 2026 North England RO Show.</p>]]>
+      </description>
+      <source:markdown>Interesting – can Linux RO run full screen?
+
+I see no mention of ‘Linux RO’ being shown at the 2026 North England RO Show.</source:markdown>
+      <guid>cid://www.riscosopen.org:3:9068:162520</guid>
+    </item>    <item>
+      <title>Voices from a future passed</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20309</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I just tried the <span class="caps">NMC</span> shop webpage above and it says “Sold Out!”</p>
+        </blockquote>
+        <p>Ah, it said &#8220;limited stock&#8221; when I ordered on Sunday.</p>]]>
+      </description>
+      <source:markdown>&#62; I just tried the NMC shop webpage above and it says “Sold Out!”
+
+Ah, it said “limited stock” when I ordered on Sunday.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20309:162518</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mhs3zy6gnk2o</link>
+      <description>
+        <![CDATA[This guy is doing his level best to outdo Sam Altman in the insufferable idiot stakes. What a ridiculous thing to say, of course we haven't achieved AGI. Not even close.]]>
+      </description>
+      <source:markdown>This guy is doing his level best to outdo Sam Altman in the insufferable idiot stakes. What a ridiculous thing to say, of course we haven&#39;t achieved AGI. Not even close.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mhs3zy6gnk2o</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mhqlvpka2k23</link>
       <description>
         <![CDATA[Iron Man concept art and render previews for Genepool Software's unreleased 'The Invincible Iron Man' game from 2003. I'm 99% certain these were created by the amazingly talented Han Randhawa. Recovered from my old development DVD backups.]]>
       </description>
       <source:markdown>Iron Man concept art and render previews for Genepool Software&#39;s unreleased &#39;The Invincible Iron Man&#39; game from 2003. I&#39;m 99% certain these were created by the amazingly talented Han Randhawa. Recovered from my old development DVD backups.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mhqlvpka2k23</guid>
+    </item>    <item>
+      <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
+      <description>
+        <![CDATA[<p>@Steve: If the ET8550 is a recent model, then I would expect it will have <span class="caps">IPP</span> printing, in which case have a look at the <a href="https://www.riscosopen.org/forum/forums/5/topics/14646"><span class="caps">IPP</span> Printing</a> thread. I use it with my Epson XP-8700 with a WiFi connection and it works fine for my use.</p>]]>
+      </description>
+      <source:markdown>@Steve: If the ET8550 is a recent model, then I would expect it will have IPP printing, in which case have a look at the [IPP Printing](https://www.riscosopen.org/forum/forums/5/topics/14646) thread. I use it with my Epson XP-8700 with a WiFi connection and it works fine for my use.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20301:162513</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mhqkuqrrwk23</link>
       <description>
@@ -25,16 +108,16 @@
       <source:markdown>&#39;Slavebot&#39; concept art and textures for the unreleased &#39;The Invincible Iron Man&#39; game. Started in 2003 by Genepool Software this game reached prototyping and was then cancelled.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mhqkuqrrwk23</guid>
     </item>    <item>
-      <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
       <description>
-        <![CDATA[<p>Wow, great news, Andrew! I’ve got my eye on the Epson ET8550, which can scan to a <span class="caps">USB</span>-drive and print on A3 paper. The only thing is, I don’t know how to drive it directly from <span class="caps">RISC</span> OS. There are various options (including print-by-mail), but for <span class="caps">CAD</span> drawings in a few colors, a simple Printer-Definition-File should suffice. With printing via email, I do wonder who will be able to see your work?</p>
-        <p>Do you know what printer emulation type the <span class="caps">RISC</span> OS Printer-DefinitionFiles use? <span class="caps">PCL</span>-? Or <span class="caps">ESC</span>/P&#8230; or something else?</p>]]>
+        <![CDATA[<p>The version of Python3 on this Pinebook Pro was preinstalled when I obtained the machine. It&#8217;s not shown as &#8220;installed&#8221; according to Packman. I&#8217;m going to try installing the stuff Chris suggested on the Pi3 which also has preinstalled Python3 (<span class="caps">RISC</span> OS Direct), before trying it on the <span class="caps">PBP</span> (which I use far more often).</p>
+        <p>I agree that for most people it would be best to have an app that <em>didn&#8217;t</em> require a lot of installations. That&#8217;s partly why I was looking at using Python3 to do the job&mdash;by using <code>glob.glob()</code> you can expand the wildcards on <span class="caps">RISC</span> OS. But the <b>WimpSlot</b> problems have ruled this approach out for the present.</p>]]>
       </description>
-      <source:markdown>Wow, great news, Andrew! I’ve got my eye on the Epson ET8550, which can scan to a USB-drive and print on A3 paper. The only thing is, I don’t know how to drive it directly from RISC OS. There are various options (including print-by-mail), but for CAD drawings in a few colors, a simple Printer-Definition-File should suffice. With printing via email, I do wonder who will be able to see your work?
+      <source:markdown>The version of Python3 on this Pinebook Pro was preinstalled when I obtained the machine. It’s not shown as “installed” according to Packman. I’m going to try installing the stuff Chris suggested on the Pi3 which also has preinstalled Python3 (RISC OS Direct), before trying it on the PBP (which I use far more often).
 
-Do you know what printer emulation type the RISC OS Printer-DefinitionFiles use? PCL-? Or ESC/P… or something else?</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20301:162510</guid>
+I agree that for most people it would be best to have an app that _didn’t_ require a lot of installations. That’s partly why I was looking at using Python3 to do the job—by using `glob.glob()` you can expand the wildcards on RISC OS. But the **WimpSlot** problems have ruled this approach out for the present.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162512</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mhqcn6ma6k2p</link>
       <description>
@@ -54,29 +137,6 @@ Do you know what printer emulation type the RISC OS Printer-DefinitionFiles use?
       </description>
       <source:markdown>Thanks for the show report and latest from the show presentations too.</source:markdown>
       <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13575&#38;page=1#125876</guid>
-    </item>    <item>
-      <title>Linux Port</title>
-      <link>https://www.riscosopen.org/forum/forums/3/topics/9068</link>
-      <description>
-        <![CDATA[<p>I have play around a bit with the PineTab2. <br />
-        ArchiEmu is working with my old A5000 stuff.</p>
-        <p><img src="https://riscos.openpandora.org/Diverses/PineTab/PineTab_LP_Archi2.png" alt="" /><br />
-        WorraCAD and TechWriter with German language pack (is not working with the latest TechWriter)</p>
-        <p><img src="https://riscos.openpandora.org/Diverses/PineTab/PineTab_Archi_PCEm.png" alt="" /><br />
-        PCEm with the student version of RStab I use 1993-95.</p>]]>
-      </description>
-      <source:markdown>I have play around a bit with the PineTab2.
-
-ArchiEmu is working with my old A5000 stuff.
-
-![](https://riscos.openpandora.org/Diverses/PineTab/PineTab_LP_Archi2.png)
-
-WorraCAD and TechWriter with German language pack (is not working with the latest TechWriter)
-
-![](https://riscos.openpandora.org/Diverses/PineTab/PineTab_Archi_PCEm.png)
-
-PCEm with the student version of RStab I use 1993-95.</source:markdown>
-      <guid>cid://www.riscosopen.org:3:9068:162504</guid>
     </item>    <item>
       <title>RISC OS 64 project - Thanks!</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20308</link>
@@ -140,20 +200,6 @@ This is called “Functional THEN(” – I’ve highlighted the new syntax in c
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mhnvskmakc2p</guid>
     </item>    <item>
-      <title>Voices from a future passed</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20309</link>
-      <description>
-        <![CDATA[<p><span class="caps">IIUC</span> The book &#8220;Voices from a future passed&#8221; by Robert Napier has just been published, and is about Acorn, etc. I have tried ordering a copy from my local bookshop. But they&#8217;ve just told me that it is an Australian publication and as such they currently can&#8217;t get a copy!</p>
-        <p>Is it available from any UK wholesaler or importer or&#8230; ?</p>
-        <p>I prefer to buy books from real UK shops, not via Amazoom, etc.</p>]]>
-      </description>
-      <source:markdown>IIUC The book “Voices from a future passed” by Robert Napier has just been published, and is about Acorn, etc. I have tried ordering a copy from my local bookshop. But they’ve just told me that it is an Australian publication and as such they currently can’t get a copy!
-
-Is it available from any UK wholesaler or importer or… ?
-
-I prefer to buy books from real UK shops, not via Amazoom, etc.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20309:162494</guid>
-    </item>    <item>
       <title>Live Coding with Gerph, Sunday 22nd March at 1pm UK time.</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20303</link>
       <description>
@@ -167,35 +213,6 @@ Hope that people from the show learnt a little about the project :-)
 
 Live Coding is starting in about 30 minutes, and anyone interested in the project is invited along as I’ll always take questions through the coding work.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20303:162492</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>If you use bash to do the wildcard expansion it generates &#8216;Unix&#8217; paths but <span class="caps">RISC</span> OS python expects <span class="caps">RISC</span> OS paths.</p>
-        <p>This script replaces . with / so file names become example/png instead of example.png. If you save this script to a file you can run it passing the wildcard  and output pdf as parameters.</p>
-        <p>*bash example.sh *.png example/pdf</p>
-        <pre>
-        <code>
-        filesorig=`echo $1`
-        files=${filesorig//.//}
-        img2pdf -o $2 $files
-        </code>
-        </pre>]]>
-      </description>
-      <source:markdown>If you use bash to do the wildcard expansion it generates ‘Unix’ paths but RISC OS python expects RISC OS paths.
-
-This script replaces . with / so file names become example/png instead of example.png. If you save this script to a file you can run it passing the wildcard and output pdf as parameters.
-
-\*bash example.sh \*.png example/pdf
-
-```
-
-filesorig=`echo $1`
-files=${filesorig//.//}
-img2pdf -o $2 $files
-
-```</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162491</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mhm3e7bxmk2y</link>
       <description>
@@ -4782,14 +4799,6 @@ I have been getting back into programming RISC OS in BBC BASIC to scratch an itc
       </description>
       <source:markdown>Spare me from people enthusing about how much more productive AI has made them in programming languages they don&#39;t know.</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mddnaok6xs2v</guid>
-    </item>    <item>
-      <title>PCEmu</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20226</link>
-      <description>
-        <![CDATA[<p>I can&#8217;t remember which variant of DosBox sits on my 4té2, I intended to put it originally to use it directly on the FAT32 disk were the files I intended to access were located but it was not able to read the folders correctly (lots of files and folder not seen) and had to copy everything on a FileCore disk. I guess another case of broken implementation of directory scanning routine making incorrect assumptions about OS_GBPB.</p>]]>
-      </description>
-      <source:markdown>I can’t remember which variant of DosBox sits on my 4té2, I intended to put it originally to use it directly on the FAT32 disk were the files I intended to access were located but it was not able to read the folders correctly (lots of files and folder not seen) and had to copy everything on a FileCore disk. I guess another case of broken implementation of directory scanning routine making incorrect assumptions about OS\_GBPB.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20226:161505</guid>
     </item>    <item>
       <title>RISC OS North Show is only 2 months away....</title>
       <link>http://www.iconbar.com/comments/rss/news2299.html</link>
