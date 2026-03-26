@@ -7,10 +7,134 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>25 Mar 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>26 Mar 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mhy7yr5idk22</link>
+      <description>
+        <![CDATA[Lord Vetinari
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Lord Vetinari
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mhy7yr5idk22</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mhy42wquyk22</link>
+      <description>
+        <![CDATA[These continue to be fascinating! The memory heatmap visualisations and how they correlate with tile generation is properly 🤯 stuff
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>These continue to be fascinating! The memory heatmap visualisations and how they correlate with tile generation is properly 🤯 stuff
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mhy42wquyk22</guid>
+    </item>    <item>
+      <title>SD-Card usage on RPi400</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20314</link>
+      <description>
+        <![CDATA[<p>Hi, I downloaded Risc OS Pi and wrote it to a 32GB SD-Card. <span class="caps">RISC</span> OS 5.3 tells that &#8220;size: 1.875 MBytes, 1.482 MBytes free&#8221;. In Linux Mint I can see 2 partitions on the SD-Card, 50MB PiBoot (<span class="caps">FAT</span>) and 1.915.743.232 Bytes unknown partition. Is there a way in <span class="caps">RISC</span> OS 5.3 to enlarge this RO partition to 32GB? I&#8217;ve read the User Guide completely, there I cannot find the information.</p>]]>
+      </description>
+      <source:markdown>Hi, I downloaded Risc OS Pi and wrote it to a 32GB SD-Card. RISC OS 5.3 tells that “size: 1.875 MBytes, 1.482 MBytes free”. In Linux Mint I can see 2 partitions on the SD-Card, 50MB PiBoot (FAT) and 1.915.743.232 Bytes unknown partition. Is there a way in RISC OS 5.3 to enlarge this RO partition to 32GB? I’ve read the User Guide completely, there I cannot find the information.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20314:162570</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mhxaa4szsc2e</link>
+      <description>
+        <![CDATA[Neee naaa neee naaa.
+        
+        In full jam sandwich livery, this Polestar 2 looks even more like a scaled-up toy car than it usually does.
+        
+        An all-time classic shape.]]>
+      </description>
+      <source:markdown>Neee naaa neee naaa.
+
+In full jam sandwich livery, this Polestar 2 looks even more like a scaled-up toy car than it usually does.
+
+An all-time classic shape.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mhxaa4szsc2e</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p>@all</p>
+        <p>A new alpha build, release 0.1.4, is now available for testers to try. Please give it a go and let me know how it works for you. Thank you. :)</p>
+        <p>This past weekend, I tried not to distract people from the <span class="caps">RISC</span> OS North Show, but now we are resuming the normal schedule, so the weekend build has gone live tonight.</p>
+        <p>What does release 0.1.4 bring?</p>
+        <ul>
+        	<li>Big directory handling. I finally figured out the correct byte sequence to transfer very large file catalogs, so please try it and see if it works for you too.</li>
+        	<li>Improved filetype/extension handling. Hopefully it will now start working for all use cases and for everyone, so please let me know how it goes for you.</li>
+        	<li>Big directory copying.</li>
+        	<li>New options have been added to `sharefs.toml` to configure read-ahead and write cache, so it should now be easier to tune those two settings.</li>
+        </ul>
+        <p>The link to download the build for your specific system remains the same. Tomorrow morning, I will send the usual emails to people who do not read this forum.</p>
+        <p>In the meantime, have fun, and do not forget to send me your feedback. :)</p>]]>
+      </description>
+      <source:markdown>@all
+
+A new alpha build, release 0.1.4, is now available for testers to try. Please give it a go and let me know how it works for you. Thank you. :)
+
+This past weekend, I tried not to distract people from the RISC OS North Show, but now we are resuming the normal schedule, so the weekend build has gone live tonight.
+
+What does release 0.1.4 bring?
+
+- Big directory handling. I finally figured out the correct byte sequence to transfer very large file catalogs, so please try it and see if it works for you too.
+- Improved filetype/extension handling. Hopefully it will now start working for all use cases and for everyone, so please let me know how it goes for you.
+- Big directory copying.
+- New options have been added to \`sharefs.toml\` to configure read-ahead and write cache, so it should now be easier to tune those two settings.
+
+The link to download the build for your specific system remains the same. Tomorrow morning, I will send the usual emails to people who do not read this forum.
+
+In the meantime, have fun, and do not forget to send me your feedback. :)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:162567</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mhw7tbyjok2p</link>
+      <description>
+        <![CDATA[I'm at the game. #go_Leafs_go]]>
+      </description>
+      <source:markdown>I&#39;m at the game. #go\_Leafs\_go</source:markdown>
+      <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3mhw7tbyjok2p</guid>
+    </item>    <item>
+      <title>Coding on RISC OS fireside chat, Saturday 28th March</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20313</link>
+      <description>
+        <![CDATA[<p>Join us around the “Coding on <span class="caps">RISC</span> OS” campfire this Saturday, 28th March, at 7:30 p.m. (<span class="caps">GMT</span>) for another one of our friendly and informal fireside chats.</p>
+        <p>Whether you’re looking to get started, need assistance, want to help others, or share a project or current challenge with the group. You’re all welcome! No experience necessary.</p>
+        <p>For the Zoom credentials (no change), DM me over on X (<a href="https://twitter.com/armbytes">Twitter</a>), <a href="https://bsky.app/profile/armbytes.bsky.social">BlueSky</a>, ChatCube or <a href="https://mastodon.online/@armbytes">Mastodon</a>. There&#8217;s also an email link at the bottom of this informative RISCOSitory news <a href="https://www.riscository.com/2026/developers-fireside-chat-28th-march/">page</a>.</p>]]>
+      </description>
+      <source:markdown>Join us around the “Coding on RISC OS” campfire this Saturday, 28th March, at 7:30 p.m. (GMT) for another one of our friendly and informal fireside chats.
+
+Whether you’re looking to get started, need assistance, want to help others, or share a project or current challenge with the group. You’re all welcome! No experience necessary.
+
+For the Zoom credentials (no change), DM me over on X ( [Twitter](https://twitter.com/armbytes)), [BlueSky](https://bsky.app/profile/armbytes.bsky.social), ChatCube or [Mastodon](https://mastodon.online/@armbytes). There’s also an email link at the bottom of this informative RISCOSitory news [page](https://www.riscository.com/2026/developers-fireside-chat-28th-march/).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20313:162565</guid>
+    </item>    <item>
+      <title>Developers’ fireside chat – 28th March</title>
+      <link>https://www.riscository.com/2026/developers-fireside-chat-28th-march/</link>
+      <description>
+        <![CDATA[If you have any interest in programming on or for RISC OS, and would like to chat to other developers, then the next &#8216;friendly fireside chat&#8217; &#8211; held online, with actual fires entirely optional &#8211; will take place on Saturday, 28th March. These meetings, which take place roughly every four to six weeks, provide an ideal opportunity for developers of every level to get together and discuss anything related to the topic of RISC OS programming. That could include problems they have encountered and with which they need help, or&#8230;]]>
+      </description>
+      <source:markdown>If you have any interest in programming on or for RISC OS, and would like to chat to other developers, then the next ‘friendly fireside chat’ – held online, with actual fires entirely optional – will take place on Saturday, 28th March. These meetings, which take place roughly every four to six weeks, provide an ideal opportunity for developers of every level to get together and discuss anything related to the topic of RISC OS programming. That could include problems they have encountered and with which they need help, or…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10915</guid>
+    </item>    <item>
+      <title>Brush up on your Morse code</title>
+      <link>https://www.riscository.com/2026/morsequiz-released/</link>
+      <description>
+        <![CDATA[Following his FlagQuiz and Quiz Engine releases, Kevin Wells has now made another quiz available, this time to allow people to test their knowledge of Morse code. The application, MorseQuiz presents the user with a series of ten multiple choice questions, each of which has four possible answers. The program comes equipped with English, Dutch, French, German, and Italian translations of all its messages, etc., and supports the interactive help system. The source for the Morse (!) used by the program was a website called Morse Code Translator, and Kevin&#8230;]]>
+      </description>
+      <source:markdown>Following his FlagQuiz and Quiz Engine releases, Kevin Wells has now made another quiz available, this time to allow people to test their knowledge of Morse code. The application, MorseQuiz presents the user with a series of ten multiple choice questions, each of which has four possible answers. The program comes equipped with English, Dutch, French, German, and Italian translations of all its messages, etc., and supports the interactive help system. The source for the Morse (!) used by the program was a website called Morse Code Translator, and Kevin…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10913</guid>
+    </item>    <item>
+      <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
+      <description>
+        <![CDATA[<p>@Steve: Just to clarify in case you are not clear &#8211; <span class="caps">IPP</span> printing does not need the Internet at all. It simply uses your Local Area Network (<span class="caps">LAN</span>) to communicate directly from device to printer (via router, obviously).</p>]]>
+      </description>
+      <source:markdown>@Steve: Just to clarify in case you are not clear – IPP printing does not need the Internet at all. It simply uses your Local Area Network (LAN) to communicate directly from device to printer (via router, obviously).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20301:162562</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mhvmouu4wk2p</link>
       <description>
         <![CDATA[Why me?
@@ -22,40 +146,60 @@ Why is it always me?
 Why is it only me?</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mhvmouu4wk2p</guid>
     </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>Chris thank you very much, this is the best solution impressive, all you have to do is read&#8230;</p>
+        <p>Jim, it works on my ARMX6, but Muview is much faster on CM4.<br />
+        with Muview 0.07, the detox functionality is activated by menu, therefore very easy to use, one click and you find the page in color.<br />
+        I added this command to my wibli bar&#8230;<br />
+        The libraries in !SharedLibs may not be up to date, check with PackMan.<br />
+        But I advise you to use it on your new machine.</p>
+        <p>If you wish, I can help you build an application that transforms a P5 folder into a <span class="caps">PDF</span> file.<br />
+        All ingredients have been provided in this thread.</p>]]>
+      </description>
+      <source:markdown>Chris thank you very much, this is the best solution impressive, all you have to do is read…
+
+Jim, it works on my ARMX6, but Muview is much faster on CM4.
+
+with Muview 0.07, the detox functionality is activated by menu, therefore very easy to use, one click and you find the page in color.
+
+I added this command to my wibli bar…
+
+The libraries in !SharedLibs may not be up to date, check with PackMan.
+
+But I advise you to use it on your new machine.
+
+If you wish, I can help you build an application that transforms a P5 folder into a PDF file.
+
+All ingredients have been provided in this thread.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162559</guid>
+    </item>    <item>
+      <title>RISC OS Developments at RISC OS North - Firewall and Iris</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20300</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>There were some files missing in the !Iris folder &#8230; do an ‘Update Lists’ in PackMan there is an updated version available.</p>
+        </blockquote>
+        <p>That&#8217;s sorted it, and the Alignment Exceptions can now be set to Off.</p>
+        <p>Note that the Packman package is now 1.038-2.</p>
+        <p>Thanks.</p>]]>
+      </description>
+      <source:markdown>&#62; There were some files missing in the !Iris folder … do an ‘Update Lists’ in PackMan there is an updated version available.
+
+That’s sorted it, and the Alignment Exceptions can now be set to Off.
+
+Note that the Packman package is now 1.038-2.
+
+Thanks.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20300:162558</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mhvd5ee3ac2c</link>
       <description>
         <![CDATA[Ultimate Play The Game's 'Cookie' for the BBC Micro. Visually ported by Paul Proctor but not released. However, a copy of the game was leaked at some point and the game became public! Here's Cookie assembling and running from Paul's original development disk - 6502 M/C. Music/SFX by Martin Galway.]]>
       </description>
       <source:markdown>Ultimate Play The Game&#39;s &#39;Cookie&#39; for the BBC Micro. Visually ported by Paul Proctor but not released. However, a copy of the game was leaked at some point and the game became public! Here&#39;s Cookie assembling and running from Paul&#39;s original development disk - 6502 M/C. Music/SFX by Martin Galway.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mhvd5ee3ac2c</guid>
-    </item>    <item>
-      <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
-      <description>
-        <![CDATA[<p>The MailPrint certainly secures that I can use the printer in all it&#8217;s glory. And if I can drive it via <span class="caps">USB</span> or <span class="caps">LAN</span> with some old Printer-Definition-File than that is nice to have the extra option. Internet in my neighborhood is not always what it needs to be. I&#8217;m meeting some one home knows more about these things den I do, lets see that he makes of this new info.</p>]]>
-      </description>
-      <source:markdown>The MailPrint certainly secures that I can use the printer in all it’s glory. And if I can drive it via USB or LAN with some old Printer-Definition-File than that is nice to have the extra option. Internet in my neighborhood is not always what it needs to be. I’m meeting some one home knows more about these things den I do, lets see that he makes of this new info.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20301:162555</guid>
-    </item>    <item>
-      <title>RISC OS Developments at RISC OS North - Firewall and Iris</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20300</link>
-      <description>
-        <![CDATA[<p>Iris 1.038, March 26, has arrived in both forms, the standalone package as downloaded from Iris&#8217;s front page or via Packman.</p>
-        <p>The standalone download only contains the Sharedlibs required by Iris, previous versions did have the option of ExtraLibs. The implication here is that gcc does not run with the Iris only Sharedlibs.</p>
-        <p>With Iris 1.037 already installed by Packman, after a Packman update Iris failed to start with an libgnutls/so/30/34/5: OS Error: Bad page number. (I think Packman may have missed a bit.)</p>
-        <p>This is on two separate <span class="caps">RISC</span> OS installations which were rebooted after the upgrades.</p>
-        <p><strong>Added</strong> I note the Packman Iris does not attempt to force Exceptions off.</p>]]>
-      </description>
-      <source:markdown>Iris 1.038, March 26, has arrived in both forms, the standalone package as downloaded from Iris’s front page or via Packman.
-
-The standalone download only contains the Sharedlibs required by Iris, previous versions did have the option of ExtraLibs. The implication here is that gcc does not run with the Iris only Sharedlibs.
-
-With Iris 1.037 already installed by Packman, after a Packman update Iris failed to start with an libgnutls/so/30/34/5: OS Error: Bad page number. (I think Packman may have missed a bit.)
-
-This is on two separate RISC OS installations which were rebooted after the upgrades.
-
-**Added** I note the Packman Iris does not attempt to force Exceptions off.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20300:162548</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mhuwhtfdz22b</link>
       <description>
@@ -260,19 +404,6 @@ I suspect things may be different in the UK.</source:markdown>
 
 So I have to say, “No, Andrew, CloseUp is great”</source:markdown>
       <guid>cid://www.riscosopen.org:5:20310:162539</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>The app kind of already exists. In theory it should be possible to add a detox option to MuView which detoxes the page before it is viewed.</p>
-        </blockquote>
-        <p>It turns out it was straight forward to add a &#8216;detox&#8217; toggle menu entry to MuView. It should be available to download at some point tomorrow.</p>]]>
-      </description>
-      <source:markdown>&#62; The app kind of already exists. In theory it should be possible to add a detox option to MuView which detoxes the page before it is viewed.
-
-It turns out it was straight forward to add a ‘detox’ toggle menu entry to MuView. It should be available to download at some point tomorrow.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162538</guid>
     </item>    <item>
       <title>PCEmu</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20226</link>
@@ -1098,23 +1229,6 @@ https://youtu.be/wtths\_J-XvU</source:markdown>
 
 It’s a game-changer not only for a BBC Basic, but for programming languages in general. 😲</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mhbm3ftbs22l</guid>
-    </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p>Thanks Job and others,</p>
-        <p>Sorry for the late reply, having a crazy busy week at work.</p>
-        <p>I think the issue with the extension is my fault, I have a special filter that blocks them and usually disable it when improving the algorithm and then re-enable before weekly release, but I was dead tired last week and most likely I have left it commented out. My apologies, will make sure this weekend build it&#8217;s enabled.</p>
-        <p>It basically captures all the mistakes like the ones you&#8217;re describing and avoid the rename.</p>]]>
-      </description>
-      <source:markdown>Thanks Job and others,
-
-Sorry for the late reply, having a crazy busy week at work.
-
-I think the issue with the extension is my fault, I have a special filter that blocks them and usually disable it when improving the algorithm and then re-enable before weekly release, but I was dead tired last week and most likely I have left it commented out. My apologies, will make sure this weekend build it’s enabled.
-
-It basically captures all the mistakes like the ones you’re describing and avoid the rename.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:162383</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mhbf7s4ks22t</link>
       <description>
