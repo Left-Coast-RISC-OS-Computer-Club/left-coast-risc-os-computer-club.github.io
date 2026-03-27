@@ -7,10 +7,92 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>26 Mar 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>27 Mar 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>DiscKnight on 5.31</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20315</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve had a report of an crash when using DiscKnight 1.55 on <span class="caps">RISC</span> OS 5.31.</p>
+        <p>Turns out it&#8217;s actually the front end which is going wrong immediately on starting, with an abort at &amp;DCE8 in application memory.</p>
+        <p>Please can anyone else using 5.31 let me know if the DiscKnight <span class="caps">GUI</span> works or fails for them.</p>]]>
+      </description>
+      <source:markdown>I’ve had a report of an crash when using DiscKnight 1.55 on RISC OS 5.31.
+
+Turns out it’s actually the front end which is going wrong immediately on starting, with an abort at &#38;DCE8 in application memory.
+
+Please can anyone else using 5.31 let me know if the DiscKnight GUI works or fails for them.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20315:162601</guid>
+    </item>    <item>
+      <title>Voices from a future passed</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20309</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve managed to order a copy from a local bookshop. (i.e. in Scotland) However they are doing this via an arrangement where they keep a &#8216;gift card&#8217; for me which I top up. And they then charge me for getting and bringing the books to my home They add a modest charge for this. If a local retailer does this at least they can make income via a &#8216;retail markup&#8217; and hopefully stay in business <strong>despite</strong> Amazoon&#8217;s behaviour which acts to drive all local retail bookshops out-of-buisness&#8217;!</p>
+        <p>Local retail can &#8211; if not excluded &#8211; provide a useful service as well as keep jobs and profits (and rates) more local. &#8230;if they can survive being up against international corporations making use of their domination of the market.</p>]]>
+      </description>
+      <source:markdown>I’ve managed to order a copy from a local bookshop. (i.e. in Scotland) However they are doing this via an arrangement where they keep a ‘gift card’ for me which I top up. And they then charge me for getting and bringing the books to my home They add a modest charge for this. If a local retailer does this at least they can make income via a ‘retail markup’ and hopefully stay in business **despite** Amazoon’s behaviour which acts to drive all local retail bookshops out-of-buisness’!
+
+Local retail can – if not excluded – provide a useful service as well as keep jobs and profits (and rates) more local. …if they can survive being up against international corporations making use of their domination of the market.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20309:162597</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p>Did you figure out what was causing the red hourglass?  I&#8217;ve just tested playing an Audio CD and didn&#8217;t manage to trigger it &#8211; should I give it a more thorough test, or has that issue been resolved?</p>
+        <p>The file extensions are no longer changing on the source server when I mount a CD image, so that&#8217;s good.</p>]]>
+      </description>
+      <source:markdown>Did you figure out what was causing the red hourglass? I’ve just tested playing an Audio CD and didn’t manage to trigger it – should I give it a more thorough test, or has that issue been resolved?
+
+The file extensions are no longer changing on the source server when I mount a CD image, so that’s good.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:162594</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mhzvb3vups2z</link>
+      <description>
+        <![CDATA[Fireside developer chat on Saturday night 
+        
+        https://www.iconbar.com/articles/Fireside_developer_chat_on_saturday_night/index2316.html 
+        
+        The next developer chat is on Saturday night (27th March) for anyone interested in a very informal event online aimed at RISC OS developers.]]>
+      </description>
+      <source:markdown>Fireside developer chat on Saturday night
+
+https://www.iconbar.com/articles/Fireside\_developer\_chat\_on\_saturday\_night/index2316.html
+
+The next developer chat is on Saturday night (27th March) for anyone interested in a very informal event online aimed at RISC OS developers.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mhzvb3vups2z</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mhzv7wet4s2b</link>
+      <description>
+        <![CDATA[March 2026 News Summary 
+        
+        https://www.iconbar.com/articles/March_2026_News_Summary/index2305.html 
+        
+        Some things we noticed this month. What did you see?]]>
+      </description>
+      <source:markdown>March 2026 News Summary
+
+https://www.iconbar.com/articles/March\_2026\_News\_Summary/index2305.html
+
+Some things we noticed this month. What did you see?</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mhzv7wet4s2b</guid>
+    </item>    <item>
+      <title>Fireside developer chat on saturday night</title>
+      <link>http://www.iconbar.com/comments/rss/news2316.html</link>
+      <description>
+        <![CDATA[The next developer chat is on saturday night (27th March) for anyone interested in a very informal event online aimed at RISC OS developers.]]>
+      </description>
+      <source:markdown>The next developer chat is on saturday night (27th March) for anyone interested in a very informal event online aimed at RISC OS developers.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2316.html</guid>
+    </item>    <item>
+      <title>March 2026 News Summary</title>
+      <link>http://www.iconbar.com/comments/rss/news2305.html</link>
+      <description>
+        <![CDATA[Some things we noticed this month. What did you see?]]>
+      </description>
+      <source:markdown>Some things we noticed this month. What did you see?</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2305.html</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mhy7yr5idk22</link>
       <description>
         <![CDATA[Lord Vetinari
@@ -22,6 +104,38 @@
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mhy7yr5idk22</guid>
     </item>    <item>
+      <title>SD-Card usage on RPi400</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20314</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>enlarge this RO partition to 32GB?</p>
+        </blockquote>
+        <p>Can I ask why you want to do that? That partition only normally holds the files required to Boot <span class="caps">RISC</span> OS &#8211; the files normally used by <span class="caps">RISC</span> OS will be in the &#8216;unknown partition&#8217;. It may be unknown to Linux, but it is what is used by <span class="caps">RISC</span> OS for all the normal files when it is running.</p>]]>
+      </description>
+      <source:markdown>&#62; enlarge this RO partition to 32GB?
+
+Can I ask why you want to do that? That partition only normally holds the files required to Boot RISC OS – the files normally used by RISC OS will be in the ‘unknown partition’. It may be unknown to Linux, but it is what is used by RISC OS for all the normal files when it is running.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20314:162580</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>Jim,</p>
+        <blockquote>
+        <p>The DeTox looks good, though. :-))</p>
+        </blockquote>
+        <p>Yes, your idea was the right one and Chris added your code and the necessary menu, Bravo</p>
+        <p>The Iris installation procedure is changing, as it was causing issues with <span class="caps">GCC</span> and Python.</p>]]>
+      </description>
+      <source:markdown>Jim,
+
+&#62; The DeTox looks good, though. :-))
+
+Yes, your idea was the right one and Chris added your code and the necessary menu, Bravo
+
+The Iris installation procedure is changing, as it was causing issues with GCC and Python.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162579</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mhy42wquyk22</link>
       <description>
         <![CDATA[These continue to be fascinating! The memory heatmap visualisations and how they correlate with tile generation is properly 🤯 stuff
@@ -32,14 +146,6 @@
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mhy42wquyk22</guid>
-    </item>    <item>
-      <title>SD-Card usage on RPi400</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20314</link>
-      <description>
-        <![CDATA[<p>Hi, I downloaded Risc OS Pi and wrote it to a 32GB SD-Card. <span class="caps">RISC</span> OS 5.3 tells that &#8220;size: 1.875 MBytes, 1.482 MBytes free&#8221;. In Linux Mint I can see 2 partitions on the SD-Card, 50MB PiBoot (<span class="caps">FAT</span>) and 1.915.743.232 Bytes unknown partition. Is there a way in <span class="caps">RISC</span> OS 5.3 to enlarge this RO partition to 32GB? I&#8217;ve read the User Guide completely, there I cannot find the information.</p>]]>
-      </description>
-      <source:markdown>Hi, I downloaded Risc OS Pi and wrote it to a 32GB SD-Card. RISC OS 5.3 tells that “size: 1.875 MBytes, 1.482 MBytes free”. In Linux Mint I can see 2 partitions on the SD-Card, 50MB PiBoot (FAT) and 1.915.743.232 Bytes unknown partition. Is there a way in RISC OS 5.3 to enlarge this RO partition to 32GB? I’ve read the User Guide completely, there I cannot find the information.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20314:162570</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mhxaa4szsc2e</link>
       <description>
@@ -55,40 +161,6 @@ In full jam sandwich livery, this Polestar 2 looks even more like a scaled-up to
 
 An all-time classic shape.</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mhxaa4szsc2e</guid>
-    </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p>@all</p>
-        <p>A new alpha build, release 0.1.4, is now available for testers to try. Please give it a go and let me know how it works for you. Thank you. :)</p>
-        <p>This past weekend, I tried not to distract people from the <span class="caps">RISC</span> OS North Show, but now we are resuming the normal schedule, so the weekend build has gone live tonight.</p>
-        <p>What does release 0.1.4 bring?</p>
-        <ul>
-        	<li>Big directory handling. I finally figured out the correct byte sequence to transfer very large file catalogs, so please try it and see if it works for you too.</li>
-        	<li>Improved filetype/extension handling. Hopefully it will now start working for all use cases and for everyone, so please let me know how it goes for you.</li>
-        	<li>Big directory copying.</li>
-        	<li>New options have been added to `sharefs.toml` to configure read-ahead and write cache, so it should now be easier to tune those two settings.</li>
-        </ul>
-        <p>The link to download the build for your specific system remains the same. Tomorrow morning, I will send the usual emails to people who do not read this forum.</p>
-        <p>In the meantime, have fun, and do not forget to send me your feedback. :)</p>]]>
-      </description>
-      <source:markdown>@all
-
-A new alpha build, release 0.1.4, is now available for testers to try. Please give it a go and let me know how it works for you. Thank you. :)
-
-This past weekend, I tried not to distract people from the RISC OS North Show, but now we are resuming the normal schedule, so the weekend build has gone live tonight.
-
-What does release 0.1.4 bring?
-
-- Big directory handling. I finally figured out the correct byte sequence to transfer very large file catalogs, so please try it and see if it works for you too.
-- Improved filetype/extension handling. Hopefully it will now start working for all use cases and for everyone, so please let me know how it goes for you.
-- Big directory copying.
-- New options have been added to \`sharefs.toml\` to configure read-ahead and write cache, so it should now be easier to tune those two settings.
-
-The link to download the build for your specific system remains the same. Tomorrow morning, I will send the usual emails to people who do not read this forum.
-
-In the meantime, have fun, and do not forget to send me your feedback. :)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:162567</guid>
     </item>    <item>
       <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mhw7tbyjok2p</link>
       <description>
@@ -145,35 +217,6 @@ For the Zoom credentials (no change), DM me over on X ( [Twitter](https://twitte
 Why is it always me?
 Why is it only me?</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mhvmouu4wk2p</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>Chris thank you very much, this is the best solution impressive, all you have to do is read&#8230;</p>
-        <p>Jim, it works on my ARMX6, but Muview is much faster on CM4.<br />
-        with Muview 0.07, the detox functionality is activated by menu, therefore very easy to use, one click and you find the page in color.<br />
-        I added this command to my wibli bar&#8230;<br />
-        The libraries in !SharedLibs may not be up to date, check with PackMan.<br />
-        But I advise you to use it on your new machine.</p>
-        <p>If you wish, I can help you build an application that transforms a P5 folder into a <span class="caps">PDF</span> file.<br />
-        All ingredients have been provided in this thread.</p>]]>
-      </description>
-      <source:markdown>Chris thank you very much, this is the best solution impressive, all you have to do is read…
-
-Jim, it works on my ARMX6, but Muview is much faster on CM4.
-
-with Muview 0.07, the detox functionality is activated by menu, therefore very easy to use, one click and you find the page in color.
-
-I added this command to my wibli bar…
-
-The libraries in !SharedLibs may not be up to date, check with PackMan.
-
-But I advise you to use it on your new machine.
-
-If you wish, I can help you build an application that transforms a P5 folder into a PDF file.
-
-All ingredients have been provided in this thread.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162559</guid>
     </item>    <item>
       <title>RISC OS Developments at RISC OS North - Firewall and Iris</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20300</link>
@@ -351,17 +394,6 @@ I’d hoped to update the riscos64-status with the details for these, and ensure
 
 Can ROOL say where to find the source, or provide an update for the riscos64-status details to reflect the state.</source:markdown>
       <guid>cid://www.riscosopen.org:13:20311:162543</guid>
-    </item>    <item>
-      <title>Voices from a future passed</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20309</link>
-      <description>
-        <![CDATA[<p>I love how the back cover says &#8220;NZ $46.95&#8221; yet Amazon wants $50.33 for it. I wonder whether there&#8217;s a way to actually get it for the listed <span class="caps">RRP</span>.</p>
-        <p>I suspect things may be different in the UK.</p>]]>
-      </description>
-      <source:markdown>I love how the back cover says “NZ $46.95” yet Amazon wants $50.33 for it. I wonder whether there’s a way to actually get it for the listed RRP.
-
-I suspect things may be different in the UK.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20309:162541</guid>
     </item>    <item>
       <link>https://bsky.app/profile/rougol.bsky.social/post/3mhtfzij6yk2v</link>
       <description>
