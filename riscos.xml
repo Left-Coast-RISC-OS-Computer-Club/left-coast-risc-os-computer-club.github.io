@@ -7,10 +7,147 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>27 Mar 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>28 Mar 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>C, DDE &#38;amp; OSLib Wimp Programming Tutorual Updates</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20317</link>
+      <description>
+        <![CDATA[<p>It doesn&#8217;t look as if I&#8217;ve ever &#8220;officially&#8221; posted about my <a href="https://www.stevefryatt.org.uk/risc-os/wimp-prog">Wimp Programming In C</a> tutorial series here, so apparently a new thread will be required to announce some small updates&#8230;</p>
+        <p>A few people gently prodded me at <span class="caps">RISC</span> OS North last weekend about updates to the series, in particular whether it could look at window redraw. I haven&#8217;t quite got there yet, but a bit of effort has cleared the blockage that was MessageTrans and Internationalisation &#8211; which should allow new work to be done more easily.</p>
+        <ul>
+        	<li><a href="https://blencathra/~steve/steve/risc-os/wimp-prog/message-trans">Chapter 29: Using MessageTrans</a></li>
+        	<li><a href="https://blencathra/~steve/steve/risc-os/wimp-prog/internationalisation">Chapter 30: Internationalisation</a></li>
+        </ul>
+        <p>There&#8217;s still some work to be done on these, but the bulk of the structure is there and the examples should be complete. I&#8217;ll now wait for the more knowledgeable folk around here to tell me how wrong I am&#8230; :-)</p>
+        <p>Window redraw was coincidentally next on my &#8220;plan&#8221; (that&#8217;s a grand word), but when I get around to it is another matter.</p>
+        <p>The full contents is at <a href="https://www.stevefryatt.org.uk/risc-os/wimp-prog">https://www.stevefryatt.org.uk/risc-os/wimp-prog</a> &#8211; you&#8217;ll need the <a href="https://www.riscosopen.org/content/sales/dde">Desktop Development Environment</a> to play along, unless you re-work the supplied files for <span class="caps">GCC</span>.</p>]]>
+      </description>
+      <source:markdown>It doesn’t look as if I’ve ever “officially” posted about my [Wimp Programming In C](https://www.stevefryatt.org.uk/risc-os/wimp-prog) tutorial series here, so apparently a new thread will be required to announce some small updates…
+
+A few people gently prodded me at RISC OS North last weekend about updates to the series, in particular whether it could look at window redraw. I haven’t quite got there yet, but a bit of effort has cleared the blockage that was MessageTrans and Internationalisation – which should allow new work to be done more easily.
+
+- [Chapter 29: Using MessageTrans](https://blencathra/~steve/steve/risc-os/wimp-prog/message-trans)
+- [Chapter 30: Internationalisation](https://blencathra/~steve/steve/risc-os/wimp-prog/internationalisation)
+
+There’s still some work to be done on these, but the bulk of the structure is there and the examples should be complete. I’ll now wait for the more knowledgeable folk around here to tell me how wrong I am… :-)
+
+Window redraw was coincidentally next on my “plan” (that’s a grand word), but when I get around to it is another matter.
+
+The full contents is at [https://www.stevefryatt.org.uk/risc-os/wimp-prog](https://www.stevefryatt.org.uk/risc-os/wimp-prog) – you’ll need the [Desktop Development Environment](https://www.riscosopen.org/content/sales/dde) to play along, unless you re-work the supplied files for GCC.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20317:162621</guid>
+    </item>    <item>
+      <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
+      <description>
+        <![CDATA[<p>Quick addition to thread to say that the version of the software without Hermes included is now available on !Store.  This version looks for !Hermes elsewhere or requests the user to drag it into the UI if it can&#8217;t find it in NetFetch etc.  Because it doesn&#8217;t include Hermes, the price of this version has been reduced to 20ukp.  Basically, if you already use NetFetch, this version will integrate with your existing setup.  If you don&#8217;t, you&#8217;ll want the other version.</p>]]>
+      </description>
+      <source:markdown>Quick addition to thread to say that the version of the software without Hermes included is now available on !Store. This version looks for !Hermes elsewhere or requests the user to drag it into the UI if it can’t find it in NetFetch etc. Because it doesn’t include Hermes, the price of this version has been reduced to 20ukp. Basically, if you already use NetFetch, this version will integrate with your existing setup. If you don’t, you’ll want the other version.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20301:162619</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mi4qkkqq5s2k</link>
+      <description>
+        <![CDATA[#RISC_OS Folks: New #ShareFSServer Alpha 0.2.0 available to all the testers to give it a go. Let me know how it goes.
+        
+        Change logs here:
+        https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&page=4#posts-162609
+        
+        #riscos #FileSharing #Linux #WIndows #macOS #BSD]]>
+      </description>
+      <source:markdown>#RISC\_OS Folks: New #ShareFSServer Alpha 0.2.0 available to all the testers to give it a go. Let me know how it goes.
+
+Change logs here:
+https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=4#posts-162609
+
+#riscos #FileSharing #Linux #WIndows #macOS #BSD</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mi4qkkqq5s2k</guid>
+    </item>    <item>
+      <title>RISC OS Developments at RISC OS North - Firewall and Iris</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20300</link>
+      <description>
+        <![CDATA[<p>@david pitt &#8211; if you have the time, it&#8217;d be useful to locate some of the extra libraries needed by <span class="caps">GCC</span> in your master !SharedLibs and zip them up (with the required folder structure so that I know where to put them) and send them over.  I&#8217;m happy to add extras to the all-in-one Iris if it helps other programs work.</p>
+        <p>I know it is somewhat superfluous now it is on PackMan, but I also know that some people still prefer the monolithic version, so we might as well make it as good as it can be :)</p>]]>
+      </description>
+      <source:markdown>@david pitt – if you have the time, it’d be useful to locate some of the extra libraries needed by GCC in your master !SharedLibs and zip them up (with the required folder structure so that I know where to put them) and send them over. I’m happy to add extras to the all-in-one Iris if it helps other programs work.
+
+I know it is somewhat superfluous now it is on PackMan, but I also know that some people still prefer the monolithic version, so we might as well make it as good as it can be :)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20300:162615</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>Thanks. :-)</p>
+        <p>I&#8217;m currently altering my Compo-based process to output series of detoxed pages.</p>
+        <p>I know how to use the current &#8216;Utils&#8217; to get page files out of a <span class="caps">PDF</span> whose content needs DeToxing. But&#8230;</p>
+        <p>This brings up the question:- What RO app/prog can I use to take in a series of pages (of whatever format, jpeg, P5, etc) and put them into a <span class="caps">PDF</span> eBook/file? I know how to automate the detoxxing OK, but then need to get the results into a <span class="caps">PDF</span>. I have a set of PDFutils, etc, but dunno how to do this&#8230;</p>]]>
+      </description>
+      <source:markdown>Thanks. :-)
+
+I’m currently altering my Compo-based process to output series of detoxed pages.
+
+I know how to use the current ‘Utils’ to get page files out of a PDF whose content needs DeToxing. But…
+
+This brings up the question:- What RO app/prog can I use to take in a series of pages (of whatever format, jpeg, P5, etc) and put them into a PDF eBook/file? I know how to automate the detoxxing OK, but then need to get the results into a PDF. I have a set of PDFutils, etc, but dunno how to do this…</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162614</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 29th March at 1pm UK time (BST!)</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20316</link>
+      <description>
+        <![CDATA[<p>This Sunday – 29th March (UK time), at 1pm UK time – I&#8217;ll be starting a new series of my implementation of <span class="caps">RISC</span> OS interfaces in C. In this series, I&#8217;ll be looking at the `*GOS` command line system. This will be a little painful, but should make for some interesting work.</p>
+        <p>Come along if you like – <a href="https://youtube.com/live/iEo2wgt_R2A?feature=share">https://youtube.com/live/iEo2wgt_R2A?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
+        <p>Remember: The clocks change on Sunday morning for British Summer Time! :-)</p>
+        <hr />
+        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
+        <p>The features I&#8217;ve described in the details are a little light (<a href="https://github.com/gerph/riscos64-status/wiki/Module_UtilityModule">https://github.com/gerph/riscos64-status/wiki/Module_U…</a>) but we&#8217;ll no doubt expand those as we do the work.</p>
+        <hr />
+        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/watch?v=iEo2wgt_R2A&amp;list=PLVVIu906Y7rF2ztisbUa0dVTV6MvNS9si">https://www.youtube.com/watch?v=iEo2wgt_R2A&amp;amp;list=P…</a></p>
+        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/gos.html">https://presentation.riscos.online/live/gos.html</a> (once it has been published).</p>]]>
+      </description>
+      <source:markdown>This Sunday – 29th March (UK time), at 1pm UK time – I’ll be starting a new series of my implementation of RISC OS interfaces in C. In this series, I’ll be looking at the \`\*GOS\` command line system. This will be a little painful, but should make for some interesting work.
+
+Come along if you like – [https://youtube.com/live/iEo2wgt\_R2A?feature=share](https://youtube.com/live/iEo2wgt_R2A?feature=share) – or you can always watch the video afterwards at the same address.
+
+Remember: The clocks change on Sunday morning for British Summer Time! :-)
+
+* * *
+
+For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
+
+The features I’ve described in the details are a little light ( [https://github.com/gerph/riscos64-status/wiki/Module\_U…](https://github.com/gerph/riscos64-status/wiki/Module_UtilityModule)) but we’ll no doubt expand those as we do the work.
+
+* * *
+
+If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/watch?v=iEo2wgt\_R2A&#38;amp;list=P…](https://www.youtube.com/watch?v=iEo2wgt_R2A&#38;list=PLVVIu906Y7rF2ztisbUa0dVTV6MvNS9si)
+
+Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/gos.html](https://presentation.riscos.online/live/gos.html) (once it has been published).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20316:162612</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mi3bpamsis2n</link>
+      <description>
+        <![CDATA[The ARM Evaluation System 2nd processor for the BBC Micro is a rare beast. Steve Furber said he believed less than 100 were produced. I have no idea how many survived, but they do come up for sale occasionally. One appeared on eBay in 2011 and sold for £2,850! Cheap as they cost £4,500+VAT when new.]]>
+      </description>
+      <source:markdown>The ARM Evaluation System 2nd processor for the BBC Micro is a rare beast. Steve Furber said he believed less than 100 were produced. I have no idea how many survived, but they do come up for sale occasionally. One appeared on eBay in 2011 and sold for £2,850! Cheap as they cost £4,500+VAT when new.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mi3bpamsis2n</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mi3b35m6e22n</link>
+      <description>
+        <![CDATA[A bit more detail about the infamous FAX that Software Creations received when we were working on SNES 'Spider-Man and the X-Men in Arcade's Revenge'. I'm very doubtful $40Million of royalties would have come our way. They usually paid developers a flat-fee for each game.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>A bit more detail about the infamous FAX that Software Creations received when we were working on SNES &#39;Spider-Man and the X-Men in Arcade&#39;s Revenge&#39;. I&#39;m very doubtful $40Million of royalties would have come our way. They usually paid developers a flat-fee for each game.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mi3b35m6e22n</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mi3ahv7tnc2n</link>
+      <description>
+        <![CDATA[Our resident dog, Luna, is not impressed with this weeks' visitors. First, there's a local cat that likes to chew our car radio aerials and yesterday Winnine the hamster arrived for a week while her mum and dad are on holiday. Sulk mode has been engaged as the hammy is getting way too much attention]]>
+      </description>
+      <source:markdown>Our resident dog, Luna, is not impressed with this weeks&#39; visitors. First, there&#39;s a local cat that likes to chew our car radio aerials and yesterday Winnine the hamster arrived for a week while her mum and dad are on holiday. Sulk mode has been engaged as the hammy is getting way too much attention</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mi3ahv7tnc2n</guid>
+    </item>    <item>
       <title>DiscKnight on 5.31</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20315</link>
       <description>
@@ -25,6 +162,14 @@ Turns out it’s actually the front end which is going wrong immediately on star
 Please can anyone else using 5.31 let me know if the DiscKnight GUI works or fails for them.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20315:162601</guid>
     </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p>Was it updated again since i last downloaded it?</p>]]>
+      </description>
+      <source:markdown>Was it updated again since i last downloaded it?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:162600</guid>
+    </item>    <item>
       <title>Voices from a future passed</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20309</link>
       <description>
@@ -35,17 +180,6 @@ Please can anyone else using 5.31 let me know if the DiscKnight GUI works or fai
 
 Local retail can – if not excluded – provide a useful service as well as keep jobs and profits (and rates) more local. …if they can survive being up against international corporations making use of their domination of the market.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20309:162597</guid>
-    </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p>Did you figure out what was causing the red hourglass?  I&#8217;ve just tested playing an Audio CD and didn&#8217;t manage to trigger it &#8211; should I give it a more thorough test, or has that issue been resolved?</p>
-        <p>The file extensions are no longer changing on the source server when I mount a CD image, so that&#8217;s good.</p>]]>
-      </description>
-      <source:markdown>Did you figure out what was causing the red hourglass? I’ve just tested playing an Audio CD and didn’t manage to trigger it – should I give it a more thorough test, or has that issue been resolved?
-
-The file extensions are no longer changing on the source server when I mount a CD image, so that’s good.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:162594</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mhzvb3vups2z</link>
       <description>
@@ -117,25 +251,6 @@ Some things we noticed this month. What did you see?</source:markdown>
 Can I ask why you want to do that? That partition only normally holds the files required to Boot RISC OS – the files normally used by RISC OS will be in the ‘unknown partition’. It may be unknown to Linux, but it is what is used by RISC OS for all the normal files when it is running.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20314:162580</guid>
     </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>Jim,</p>
-        <blockquote>
-        <p>The DeTox looks good, though. :-))</p>
-        </blockquote>
-        <p>Yes, your idea was the right one and Chris added your code and the necessary menu, Bravo</p>
-        <p>The Iris installation procedure is changing, as it was causing issues with <span class="caps">GCC</span> and Python.</p>]]>
-      </description>
-      <source:markdown>Jim,
-
-&#62; The DeTox looks good, though. :-))
-
-Yes, your idea was the right one and Chris added your code and the necessary menu, Bravo
-
-The Iris installation procedure is changing, as it was causing issues with GCC and Python.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162579</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mhy42wquyk22</link>
       <description>
         <![CDATA[These continue to be fascinating! The memory heatmap visualisations and how they correlate with tile generation is properly 🤯 stuff
@@ -199,14 +314,6 @@ For the Zoom credentials (no change), DM me over on X ( [Twitter](https://twitte
       <source:markdown>Following his FlagQuiz and Quiz Engine releases, Kevin Wells has now made another quiz available, this time to allow people to test their knowledge of Morse code. The application, MorseQuiz presents the user with a series of ten multiple choice questions, each of which has four possible answers. The program comes equipped with English, Dutch, French, German, and Italian translations of all its messages, etc., and supports the interactive help system. The source for the Morse (!) used by the program was a website called Morse Code Translator, and Kevin…</source:markdown>
       <guid>cid://https://www.riscository.com/?p=10913</guid>
     </item>    <item>
-      <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
-      <description>
-        <![CDATA[<p>@Steve: Just to clarify in case you are not clear &#8211; <span class="caps">IPP</span> printing does not need the Internet at all. It simply uses your Local Area Network (<span class="caps">LAN</span>) to communicate directly from device to printer (via router, obviously).</p>]]>
-      </description>
-      <source:markdown>@Steve: Just to clarify in case you are not clear – IPP printing does not need the Internet at all. It simply uses your Local Area Network (LAN) to communicate directly from device to printer (via router, obviously).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20301:162562</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mhvmouu4wk2p</link>
       <description>
         <![CDATA[Why me?
@@ -217,25 +324,6 @@ For the Zoom credentials (no change), DM me over on X ( [Twitter](https://twitte
 Why is it always me?
 Why is it only me?</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mhvmouu4wk2p</guid>
-    </item>    <item>
-      <title>RISC OS Developments at RISC OS North - Firewall and Iris</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20300</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>There were some files missing in the !Iris folder &#8230; do an ‘Update Lists’ in PackMan there is an updated version available.</p>
-        </blockquote>
-        <p>That&#8217;s sorted it, and the Alignment Exceptions can now be set to Off.</p>
-        <p>Note that the Packman package is now 1.038-2.</p>
-        <p>Thanks.</p>]]>
-      </description>
-      <source:markdown>&#62; There were some files missing in the !Iris folder … do an ‘Update Lists’ in PackMan there is an updated version available.
-
-That’s sorted it, and the Alignment Exceptions can now be set to Off.
-
-Note that the Packman package is now 1.038-2.
-
-Thanks.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20300:162558</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mhvd5ee3ac2c</link>
       <description>
