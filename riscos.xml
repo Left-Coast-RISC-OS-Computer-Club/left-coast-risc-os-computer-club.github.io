@@ -7,10 +7,198 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>28 Mar 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>29 Mar 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>ARM now making its own Silicon</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20322</link>
+      <description>
+        <![CDATA[<p><a href="https://www.arm.com">https://www.arm.com</a></p>
+        <p><a href="https://www.arm.com/company/arm-everywhere">https://www.arm.com/company/arm-everywhere</a> &#8211; Keynote (Acorn is mentioned)</p>
+        <p>About time!<br />
+        Interesting to see where this goes!</p>]]>
+      </description>
+      <source:markdown>[https://www.arm.com](https://www.arm.com)
+
+[https://www.arm.com/company/arm-everywhere](https://www.arm.com/company/arm-everywhere) – Keynote (Acorn is mentioned)
+
+About time!
+
+Interesting to see where this goes!</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20322:162670</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mi7k3yjsq227</link>
+      <description>
+        <![CDATA[Today's recommended website is chiptube.app. If you love chiptune music/SFX then head over for a huge slice of nostalgia. A massive catalogue of SID, NES, SNES, N64, GENESIS music awaits, plus lots more. Volume up to 11.
+        chiptune.app/browse
+        https://chiptune.app/browse]]>
+      </description>
+      <source:markdown>Today&#39;s recommended website is chiptube.app. If you love chiptune music/SFX then head over for a huge slice of nostalgia. A massive catalogue of SID, NES, SNES, N64, GENESIS music awaits, plus lots more. Volume up to 11.
+chiptune.app/browse
+https://chiptune.app/browse</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mi7k3yjsq227</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mi7ioxrlrc2e</link>
+      <description>
+        <![CDATA[Sky News just said they can't describe Artemis as "Manned flight" because there's a woman on board ("and also a Canadian!").
+        
+        Will someone PLEASE explain to these numbskulls the etymology of "manned". For all mankind. Before there's a manslaughter. Somebody call the ombudsman. Oh, the humanity!]]>
+      </description>
+      <source:markdown>Sky News just said they can&#39;t describe Artemis as &#34;Manned flight&#34; because there&#39;s a woman on board (&#34;and also a Canadian!&#34;).
+
+Will someone PLEASE explain to these numbskulls the etymology of &#34;manned&#34;. For all mankind. Before there&#39;s a manslaughter. Somebody call the ombudsman. Oh, the humanity!</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mi7ioxrlrc2e</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p>thanks man! Very much appreciated.</p>]]>
+      </description>
+      <source:markdown>thanks man! Very much appreciated.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:162663</guid>
+    </item>    <item>
+      <title>General consideration</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20321</link>
+      <description>
+        <![CDATA[<p>Of course I&#8217;m a Risc OS Open (<span class="caps">ROS</span>) newbie and of course I&#8217;m far too late for a discussion whether 64-bit makes sense or not. Obviously, the train is running already. And I only can speak of myself when describing the shortcomings of <span class="caps">ROS</span> in 2026.<br />
+        That being said (to cite Christopher Barnatt) let&#8217;s go &#8230; and get started.<br />
+        I&#8217;m using an RPi400 or an RPi4B w/ 4GB <span class="caps">RAM</span>. <br />
+        1. <span class="caps">ROS</span> has a partition limit of 2 GB (although I&#8217;ve read that <span class="caps">ROS</span> can address up to 256 GB space, is that not a contradiction?) and it is using FileCore, a filing system I have never heard of until these very days. (And I&#8217;m in Computing since 1987 with my C64, with <span class="caps">DOS</span>, Win3.11/98/2000/XP/7/10, Linux since the 90ies, BeOS and some time OS/2&#8230; and getting 68 in the summer, most probably.)<br />
+        2. RPi&#8217;s have WiFi on board at least since the 3B. <span class="caps">ROS</span> does support this by downloading a driver file, how to install it, who knows. Why not incorporate that driver in the Raspi image of 5.30 right away?<br />
+        3. <span class="caps">ROS</span> has network, if you plug in a cable. I cannot &#8211; <span class="caps">OOBE</span> &#8211; print via network on my Brother HL2360DN, only via <span class="caps">USB</span>. I cannot &#8211; <span class="caps">OOBE</span> &#8211; connect to my smb:// fileserver. And I cannot connect to the Internet&#8230; at least only to the most simple sites, because <span class="caps">ROS</span> has no <span class="caps">JAVA</span>.<br />
+        4. <span class="caps">ROS</span> has no sound. Consequently, the Raspi image has no music playing software (but funningly enough a music composing program).<br />
+        5. As a newbie <strong>and</strong> being out of job nowadays, I&#8217;ve worked myself through the complete User Guide. Interesting!, especially that it is from 1992, if I remember correctly. And that you can notice often. An abundance of problems/questions is <strong>not</strong> being addressed there!<br />
+        So, let&#8217;s assume you finally succeed in converting <span class="caps">ROS</span> to 64-bit. You than have an OS working on the Raspberry Pi 5 &#8211; bravo! &#8211; still having all the problems above described. For that goal you want to collect 2,5 million L. &#8220;Alter Schwede!!&#8221; I would say in German (&#8220;old swede&#8221; does not make sense in English, I presume &#8211; &quot;Can&#8217;t believe it!?).<br />
+        I got interested in <span class="caps">ROS</span> by a video from ExplainingComputers. In my opinion it is a very interesting, fascinating OS and I&#8217;m into retro computing, also. The more time progresses, the more. But you have to invest very much time and effort to get acquainted with it because it is so totally different from <strong>all</strong> other OSes.<br />
+        How many users <strong>does</strong> <span class="caps">ROS</span> have? Has <span class="caps">ROS</span> gained new users? How many? Older people like me or younger, too? Are they into investing so much time and work in <span class="caps">ROS</span>? Or is <span class="caps">ROS</span> mainly the thing of an older generation, probably coming from the good Acorn PCs and the like?<br />
+        What I want to say is: for whom do you want to bring <span class="caps">ROS</span> into the future?<br />
+        I would rather have made a survey: how many users might we have? how old are they? what do they expect from <span class="caps">ROS</span>? what are their wishes?<br />
+        So my conclusion as a question: Does make 64-bit without Java and networking make sense?</p>]]>
+      </description>
+      <source:markdown>Of course I’m a Risc OS Open (ROS) newbie and of course I’m far too late for a discussion whether 64-bit makes sense or not. Obviously, the train is running already. And I only can speak of myself when describing the shortcomings of ROS in 2026.
+
+That being said (to cite Christopher Barnatt) let’s go … and get started.
+
+I’m using an RPi400 or an RPi4B w/ 4GB RAM.
+
+1\. ROS has a partition limit of 2 GB (although I’ve read that ROS can address up to 256 GB space, is that not a contradiction?) and it is using FileCore, a filing system I have never heard of until these very days. (And I’m in Computing since 1987 with my C64, with DOS, Win3.11/98/2000/XP/7/10, Linux since the 90ies, BeOS and some time OS/2… and getting 68 in the summer, most probably.)
+
+2\. RPi’s have WiFi on board at least since the 3B. ROS does support this by downloading a driver file, how to install it, who knows. Why not incorporate that driver in the Raspi image of 5.30 right away?
+
+3\. ROS has network, if you plug in a cable. I cannot – OOBE – print via network on my Brother HL2360DN, only via USB. I cannot – OOBE – connect to my smb:// fileserver. And I cannot connect to the Internet… at least only to the most simple sites, because ROS has no JAVA.
+
+4\. ROS has no sound. Consequently, the Raspi image has no music playing software (but funningly enough a music composing program).
+
+5\. As a newbie **and** being out of job nowadays, I’ve worked myself through the complete User Guide. Interesting!, especially that it is from 1992, if I remember correctly. And that you can notice often. An abundance of problems/questions is **not** being addressed there!
+
+So, let’s assume you finally succeed in converting ROS to 64-bit. You than have an OS working on the Raspberry Pi 5 – bravo! – still having all the problems above described. For that goal you want to collect 2,5 million L. “Alter Schwede!!” I would say in German (“old swede” does not make sense in English, I presume – &#34;Can’t believe it!?).
+
+I got interested in ROS by a video from ExplainingComputers. In my opinion it is a very interesting, fascinating OS and I’m into retro computing, also. The more time progresses, the more. But you have to invest very much time and effort to get acquainted with it because it is so totally different from **all** other OSes.
+
+How many users **does** ROS have? Has ROS gained new users? How many? Older people like me or younger, too? Are they into investing so much time and work in ROS? Or is ROS mainly the thing of an older generation, probably coming from the good Acorn PCs and the like?
+
+What I want to say is: for whom do you want to bring ROS into the future?
+
+I would rather have made a survey: how many users might we have? how old are they? what do they expect from ROS? what are their wishes?
+
+So my conclusion as a question: Does make 64-bit without Java and networking make sense?</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20321:162659</guid>
+    </item>    <item>
+      <title>SD-Card usage on RPi400</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20314</link>
+      <description>
+        <![CDATA[<p>I suspect the reference to &#8220;Explaining Computers&#8221; is referring to the YouTube channel of that name; it has 1.17m subscribers. It&#8217;s worth remembering that the presenter on the channel, Christopher Barnatt, spent 25 years as a university lecturer in Computing. There&#8217;s little or no coverage of <span class="caps">RISC</span> OS. I think he&#8217;s referring to the <em>style</em> of the presentation rather than any specific content.</p>
+        <p>As Andrew suggested, you&#8217;re not likely to need a lot of space for the applications you want to use. And remember, you can insert a pen drive and access that on <span class="caps">RISC</span> OS using Fat32FS (which is already installed). Best to avoid larger capacity drives&mdash;64Gb or more&mdash; as they could be formatted as ExFat rather than Fat32.</p>]]>
+      </description>
+      <source:markdown>I suspect the reference to “Explaining Computers” is referring to the YouTube channel of that name; it has 1.17m subscribers. It’s worth remembering that the presenter on the channel, Christopher Barnatt, spent 25 years as a university lecturer in Computing. There’s little or no coverage of RISC OS. I think he’s referring to the _style_ of the presentation rather than any specific content.
+
+As Andrew suggested, you’re not likely to need a lot of space for the applications you want to use. And remember, you can insert a pen drive and access that on RISC OS using Fat32FS (which is already installed). Best to avoid larger capacity drives—64Gb or more— as they could be formatted as ExFat rather than Fat32.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20314:162653</guid>
+    </item>    <item>
+      <title>ScummVM 2026.2.0 &#38;quot;Railmonicon&#38;quot; sees the light</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20318</link>
+      <description>
+        <![CDATA[<p>Great work Cameron and good to see <span class="caps">RISC</span> OS as one of the few fist ports to the latest version.</p>]]>
+      </description>
+      <source:markdown>Great work Cameron and good to see RISC OS as one of the few fist ports to the latest version.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20318:162652</guid>
+    </item>    <item>
+      <title>Planed short-form videos for RISC OS Coding</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20320</link>
+      <description>
+        <![CDATA[<p>Hiya,</p>
+        <p>A few years ago there were a number of <span class="caps">RISC</span> OS Coding videos that people were creating. These were quite interesting, but they seem to have tailed off. I&#8217;m going to create some videos shortly which describe how to do a few things in a short (5-10 minutes video). Not complex or involved &#8211; just single task to completion.</p>
+        <p>Things I&#8217;m thinking of:</p>
+        <ul>
+        	<li>Creating GitHub project.</li>
+        	<li>Installing the <span class="caps">RISC</span> OS Build environment.</li>
+        	<li>A short tour around using the build environment.</li>
+        	<li>Using CI with <span class="caps">RISC</span> OS repositories.</li>
+        	<li>Creating skeleton command line tool.</li>
+        	<li>Creating skeleton module.</li>
+        	<li>Adding SWIs to a module.</li>
+        	<li>Adding vectors to a module.</li>
+        	<li>Adding service handling to a module.</li>
+        </ul>
+        <p>Maybe some other bits as well, but I&#8217;d also like people to suggest things if they&#8217;re small enough.</p>
+        <p>I&#8217;ll show how things can be done and maybe a little explanation of how and why they&#8217;re done that way.</p>
+        <p>Please&#8230; feedback here!</p>]]>
+      </description>
+      <source:markdown>Hiya,
+
+A few years ago there were a number of RISC OS Coding videos that people were creating. These were quite interesting, but they seem to have tailed off. I’m going to create some videos shortly which describe how to do a few things in a short (5-10 minutes video). Not complex or involved – just single task to completion.
+
+Things I’m thinking of:
+
+- Creating GitHub project.
+- Installing the RISC OS Build environment.
+- A short tour around using the build environment.
+- Using CI with RISC OS repositories.
+- Creating skeleton command line tool.
+- Creating skeleton module.
+- Adding SWIs to a module.
+- Adding vectors to a module.
+- Adding service handling to a module.
+
+Maybe some other bits as well, but I’d also like people to suggest things if they’re small enough.
+
+I’ll show how things can be done and maybe a little explanation of how and why they’re done that way.
+
+Please… feedback here!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20320:162650</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>No. !PackMan will find it, uninstall it and install the latest version.</p>
+        </blockquote>
+        <p>That&#8217;s not my experience; it left the original !Iris in place. When this happens I initially rename the existing !Iris to &#8220;Iris&#8221; (without the pling) until I&#8217;ve checked that the new version worked.</p>
+        <p>As for the settings, I&#8217;m not sure&mdash;in my case it picked up settings I&#8217;d originally made in !PineBrowse.</p>]]>
+      </description>
+      <source:markdown>&#62; No. !PackMan will find it, uninstall it and install the latest version.
+
+That’s not my experience; it left the original !Iris in place. When this happens I initially rename the existing !Iris to “Iris” (without the pling) until I’ve checked that the new version worked.
+
+As for the settings, I’m not sure—in my case it picked up settings I’d originally made in !PineBrowse.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162649</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mi6ukli3722e</link>
+      <description>
+        <![CDATA[Which allows me to point out that the superb Radio Garden is available worldwide EXCEPT for the UK, where it is hobbled to ONLY play UK stations.
+        
+        This is because of the effective monopoly enjoyed by PPL PRS Ltd over the collection of music licencing fees, which it persues highly aggressively.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Which allows me to point out that the superb Radio Garden is available worldwide EXCEPT for the UK, where it is hobbled to ONLY play UK stations.
+
+This is because of the effective monopoly enjoyed by PPL PRS Ltd over the collection of music licencing fees, which it persues highly aggressively.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mi6ukli3722e</guid>
+    </item>    <item>
       <title>C, DDE &#38;amp; OSLib Wimp Programming Tutorual Updates</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20317</link>
       <description>
@@ -73,23 +261,6 @@ https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=4#post
 
 I know it is somewhat superfluous now it is on PackMan, but I also know that some people still prefer the monolithic version, so we might as well make it as good as it can be :)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20300:162615</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>Thanks. :-)</p>
-        <p>I&#8217;m currently altering my Compo-based process to output series of detoxed pages.</p>
-        <p>I know how to use the current &#8216;Utils&#8217; to get page files out of a <span class="caps">PDF</span> whose content needs DeToxing. But&#8230;</p>
-        <p>This brings up the question:- What RO app/prog can I use to take in a series of pages (of whatever format, jpeg, P5, etc) and put them into a <span class="caps">PDF</span> eBook/file? I know how to automate the detoxxing OK, but then need to get the results into a <span class="caps">PDF</span>. I have a set of PDFutils, etc, but dunno how to do this&#8230;</p>]]>
-      </description>
-      <source:markdown>Thanks. :-)
-
-I’m currently altering my Compo-based process to output series of detoxed pages.
-
-I know how to use the current ‘Utils’ to get page files out of a PDF whose content needs DeToxing. But…
-
-This brings up the question:- What RO app/prog can I use to take in a series of pages (of whatever format, jpeg, P5, etc) and put them into a PDF eBook/file? I know how to automate the detoxxing OK, but then need to get the results into a PDF. I have a set of PDFutils, etc, but dunno how to do this…</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162614</guid>
     </item>    <item>
       <title>Live Coding with Gerph, Sunday 29th March at 1pm UK time (BST!)</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20316</link>
@@ -162,14 +333,6 @@ Turns out it’s actually the front end which is going wrong immediately on star
 Please can anyone else using 5.31 let me know if the DiscKnight GUI works or fails for them.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20315:162601</guid>
     </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p>Was it updated again since i last downloaded it?</p>]]>
-      </description>
-      <source:markdown>Was it updated again since i last downloaded it?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:162600</guid>
-    </item>    <item>
       <title>Voices from a future passed</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20309</link>
       <description>
@@ -237,19 +400,6 @@ Some things we noticed this month. What did you see?</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mhy7yr5idk22</guid>
-    </item>    <item>
-      <title>SD-Card usage on RPi400</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20314</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>enlarge this RO partition to 32GB?</p>
-        </blockquote>
-        <p>Can I ask why you want to do that? That partition only normally holds the files required to Boot <span class="caps">RISC</span> OS &#8211; the files normally used by <span class="caps">RISC</span> OS will be in the &#8216;unknown partition&#8217;. It may be unknown to Linux, but it is what is used by <span class="caps">RISC</span> OS for all the normal files when it is running.</p>]]>
-      </description>
-      <source:markdown>&#62; enlarge this RO partition to 32GB?
-
-Can I ask why you want to do that? That partition only normally holds the files required to Boot RISC OS – the files normally used by RISC OS will be in the ‘unknown partition’. It may be unknown to Linux, but it is what is used by RISC OS for all the normal files when it is running.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20314:162580</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mhy42wquyk22</link>
       <description>
