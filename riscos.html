@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.23b" >
-  <meta name="date" content="2026-03-29T12:00:24-07:00" >
-  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
+  <meta content="2026-03-30T12:00:26-07:00" name="date" >
+  <link href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" type="application/rss+xml" >
 </head>
 <body>
   <header>
@@ -20,18 +20,311 @@
   </nav>
   <section>
 
-    <article data-published="2026-03-29T17:05:10Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20322">
+    <article data-published="2026-03-30T18:02:39Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20322">
       <h1>ARM now making its own Silicon</h1>
 
-(date: 2026-03-29)
+(date: 2026-03-30)
       <p>
-      <p><a href="https://www.arm.com">https://www.arm.com</a></p>
-<p><a href="https://www.arm.com/company/arm-everywhere">https://www.arm.com/company/arm-everywhere</a> – Keynote (Acorn is mentioned)</p>
-<p>About time!</p>
-<p>Interesting to see where this goes!</p>
+      <p>It rather worried me, to be honest. I always felt that ARM have been so successful precisely because they didn’t manufacture anything – their partners don’t need to be worried about competition from their own licence provider (who by definition don’t have to pay for a licence themselves). I worry that licencees may become a bit antsy if they think they may be undercut by their own supplier…</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/5/topics/20322">https://www.riscosopen.org/forum/forums/5/topics/20322</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-30T17:54:35Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13564&page=1#125877">
+      <h1>March 2026 News Summary</h1>
+
+(date: 2026-03-30, updated: 2026-02-25)
+      <p>
+      <p>MorseQuiz released a Morse Code quiz using my Quiz Engine.</p>
+
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13564&page=1#125877">http://www.iconbar.com/forums/viewthread.php?threadid=13564&page=1#125877</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-30T17:47:25Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20317">
+      <h1>C, DDE &amp; OSLib Wimp Programming Tutorual Updates</h1>
+
+(date: 2026-03-30)
+      <p>
+      <p>Hi, thank you for your Wimp Programming In C series, We learn a lot about RISC OS and especially that we can build our own applications with DDE.</p>
+<p>I was able to build your examples from chapter 28 to arrive at a version with messages file, internationalization (UK and France) and help file, French version.</p>
+<p>Like you, I use OSLib, and your SLib library is very useful. I have a StrongEd ​​Manual for it, you have well documented your library it would be a shame not to take advantage of it.</p>
+<p>I use the same structure as you for the development folder. I had no problem using my Diderot app. Note: In this one I made a modification which allows with the RES button to open the Res or Templates file.</p>
+<p>The application also allows you to kill the current task using an adaptation of your TaskKill program. but for it to work correctly, there must be an item: _TaskName:Example App in the messages file</p>
+<p>Good luck, your tutorial should attract new programmers….</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20317">https://www.riscosopen.org/forum/forums/1/topics/20317</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-30T16:52:54Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20323">
+      <h1>Audio on RISC OS</h1>
+
+(date: 2026-03-30)
+      <p>
+      <p>After reading the thread,</p>
+<p><a href="https://www.riscosopen.org/forum/forums/13/topics/20321">https://www.riscosopen.org/forum/forums/13/topics/20321</a></p>
+<p>Just to inform (new) users about the audio possibilities of our OS</p>
+<ul>
+<li>
+<p>Audio on Risco <strong>*</strong></p>
+<p>You can listen to the internal sound on an analog output for machines with their own analog converter: Pi3/Pi4 and old hardware.</p>
+</li>
+</ul>
+<p>Today we use the HDMI output, therefore digital, it is your monitor which does the conversion, otherwise there are boxes that can extract the audio from the HDMI.</p>
+<p>To listen to music, there is a very good program maintained by André Timmermans DigitalCD which works very well for many types of audio files (Wav/Mp3/Radio/Midi…)</p>
+<p>For direct use via USB, a program which allows you to listen to wav or Mp3 files on a USB dac box is that of Colin Granville: IsocUSB, I use it with a Steinberg box or with a Behringer CA202.</p>
+<p>To make the music:</p>
+<p>Pete Everett made a very good adaptation of Midiman (ESP) for our machines with a Midi device manager (USB/Serial) and added an internal MidiSynthé for those who don’t have an expander.</p>
+<p>To edit scores:</p>
+<p>• With Risc OS comes !Maestro which has been adapted to play in Midi, so it works with MidiSynthé.</p>
+<p>• More complete editor Rhapsody 4 with permission of its author Jo. Linton, which I use very often and try to maintain.</p>
+<p>• PMS/PMW from Philip Hazel, works with a very powerful script editor. There are two versions 3.20 (PMS) and an adaptation of the much more recent version 5.33 (PMW).</p>
+<p>• Audio conversion:</p>
+<p>Sox, lame, etc.</p>
+<p>• Edition audio</p>
+<p>deux programmes par Henrik B. Pedersen</p>
+<p>– Prosound</p>
+<p>– StudioSnd</p>
+<p>Note1:</p>
+<p>Prosound has been “redesigned” to work on a CM4, everything planned in the manual is functional.</p>
+<p>With Colin Granville’s IscoUSB modules you can even record with Prosound, Raik Fischer tested it with a headset… I use it with my UR22 and the ECA202</p>
+<p>Audio reproduction is always done via HDMI.</p>
+<p>This list is not exhaustive, I must have forgotten some…</p>
+<p>If anyone would like to rewrite this list correctly, I would appreciate it.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20323">https://www.riscosopen.org/forum/forums/5/topics/20323</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-30T15:32:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mibyartczk2x">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-03-30)
+      <p>
+      <p>I just received my shiny new Greaseweazle V4.1 from Keir - the designer. I decided to go with the funky cased version designed by Tom Dalby. It only cost £24.99 + £1.99 delivery to the UK.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mibyartczk2x">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mibyartczk2x</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-30T13:45:12Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/19403">
+      <h1>Beta Git client and SSH keys</h1>
+
+(date: 2026-03-30)
+      <p>
+      <p><a href="https://www.riscosopen.org/zipfiles/platform/common/GitClient.0.12.zip">GitClient.0.12.zip</a> seems to be available.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/19403">https://www.riscosopen.org/forum/forums/11/topics/19403</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-30T10:47:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mibiebri4c2h">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-03-30)
+      <p>
+      <p>I see that Bluesky &quot;Attie&quot; AI account is just 9 days old and has already been blocked by over 100k users 😆<a href="https://media.tenor.com/R5gi51Vxx">https://media.tenor.com/R5gi51Vxx</a>_8AAAAC/jack-nicholson-yes.gif?hh=396&amp;ww=498</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mibiebri4c2h">https://bsky.app/profile/colinhoad.com/post/3mibiebri4c2h</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-30T10:13:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mibghvi3622h">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-03-30)
+      <p>
+      <p>Genuinely amazing how a few simple notes with the appropriate synth sound can instantly evoke memories like this...</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mibghvi3622h">https://bsky.app/profile/colinhoad.com/post/3mibghvi3622h</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-30T09:47:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mibexx4mkc2x">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-03-30)
+      <p>
+      <p>The amazing chiptune.app player can be found on GitHub. For me, probably the best JS code ever created! Thank you, @mattmontag.bsky.social<a href="https://github.com/mmontag/chip-player-js">https://github.com/mmontag/chip-player-js</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mibexx4mkc2x">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mibexx4mkc2x</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-30T08:25:37Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
+      <h1>MuView and rendering PDF pages</h1>
+
+(date: 2026-03-30)
+      <p>
+      <p>Hi,</p>
+<p>About Packman, I accidentally deleted my “sources for packages” list, and I’m having trouble updating it.</p>
+<p>I tried the links referenced by Know sources, but there seems to be a problem to get sources, am I making a mistake?</p>
+<p>Chris, luckily you put a link to download pythonupdates/zip…</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-30T07:46:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mib6b2mpds2o">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-03-30)
+      <p>
+      <p>Thanks, I guess.</p>
+<p>And yes, it is.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mib6b2mpds2o">https://bsky.app/profile/nemo20000.bsky.social/post/3mib6b2mpds2o</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-30T06:57:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mib3iv5sok2a">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-03-30)
+      <p>
+      <p>Done.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mib3iv5sok2a">https://bsky.app/profile/colinhoad.com/post/3mib3iv5sok2a</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-30T06:10:00Z" data-link="http://www.iconbar.com/comments/rss/news2310.html">
+      <h1>WROCC April 2026 talk on Wednesday</h1>
+
+(date: 2026-03-30, updated: 2026-03-12)
+      <p>
+      <p>The April 2026 WROCC talk is on Wednesday 1st April and starts at 7.45pm on Zoom.That's after 12 o'clock so no April fools....</p>
+
+      <address>
+        <a href="http://www.iconbar.com/comments/rss/news2310.html">http://www.iconbar.com/comments/rss/news2310.html</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-30T01:13:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3miaiastxj22j">
+      <h1>@riscosopen.bsky.social</h1>
+
+(date: 2026-03-30)
+      <p>
+      <p>Matching doubles up your moonshot contributions.<a href="https://www.riscosopen.org/news/articles/2026/03/30/matching-doubles-up-your-moonshot-contributions">https://www.riscosopen.org/news/articles/2026/03/30/matching-doubles-up-your-moonshot-contributions</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3miaiastxj22j">https://bsky.app/profile/riscosopen.bsky.social/post/3miaiastxj22j</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-30T01:08:00Z" data-link="https://www.riscosopen.org/news/articles/2026/03/30/matching-doubles-up-your-moonshot-contributions">
+      <h1>Matching doubles up your moonshot contributions</h1>
+
+(date: 2026-03-30)
+      <p>
+      <p>Announced at the recent <a href="/news/articles/2026/03/18/spring-starts-at-warrington">RISC OS North</a> show, money pledged to the Moonshot for a <a href="/bounty/polls/45">64-bit RISC OS</a> will be matched 1-to-1 until ROOL’s 20th birthday.</p>
+<p><img src="/images/risc_os_open/moonshot-matching.png" alt="Double boost"></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/news/articles/2026/03/30/matching-doubles-up-your-moonshot-contributions">https://www.riscosopen.org/news/articles/2026/03/30/matching-doubles-up-your-moonshot-contributions</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-30T00:05:39Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20321">
+      <h1>General consideration</h1>
+
+(date: 2026-03-30)
+      <p>
+      <p>@Martin Eastwood: I must confess that audio-wise I’ve had plugged in a FIIOUSBDAC into my RPi400. I’ve read User Guide p.102 Audio setup, in my case I couldn’t change anything, no sound on my stereo equipment via RPi/ROS via the USBDAC. BUT!: it is capable to make “beeps” via hdmi and a ttf monitor connected. Just after my post and your reply I’ve learned that ROS is not into USB DAC’s. Okay, it is sound, of sorts.</p>
+<p>Re: WI-FI. With the User Guide I’ve not been able to understand how to configure the wifi driver for the RPi BCM43 chip. Having downloaded the “On board WiFi drivers” from the Raspberry Pi link and having printed out and read the “ReadMe.txt”, I’ve configured my RPi WiFi. Important to know (ReadMe.txt tells you): Not both are working at the same time – cable network and WiFi, but only one of them. In any Raspberry Pi Linux you can have both of them at the same time!</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/13/topics/20321">https://www.riscosopen.org/forum/forums/13/topics/20321</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-29T23:54:09Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20316">
+      <h1>Live Coding with Gerph, Sunday 29th March at 1pm UK time (BST!)</h1>
+
+(date: 2026-03-29)
+      <p>
+      <p>Went quite well, and we have a regular C application which runs that input loop, with some stubs for the environment handlers. Next week, we’ll try to work this into being more like the original assembly implementation with a completely separate entry point.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20316">https://www.riscosopen.org/forum/forums/1/topics/20316</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-29T23:52:54Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20320">
+      <h1>Planed short-form videos for RISC OS Coding</h1>
+
+(date: 2026-03-29)
+      <p>
+      <p>Damn this thread needs a cold shower! Anyway back on topic….</p>
+<p>Creating a GitHub project.</p>
+<p>Installing the RISC OS Build environment.</p>
+<p>A short tour around using the build environment.</p>
+<p>Using CI with RISC OS repositories.</p>
+<p>Creating skeleton command line tool.</p>
+<p>How to create a basic module.</p>
+<p>Maybe Linking Templates to BASIC Runimages another one? (Creating Basic Wimp Applications)</p>
+<p>These i think would be very useful especially for new people trying to get into it more. Hopefully it hasn’t de-railed your initial plans.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20320">https://www.riscosopen.org/forum/forums/1/topics/20320</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-29T23:41:05Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20314">
+      <h1>SD-Card usage on RPi400</h1>
+
+(date: 2026-03-29)
+      <p>
+      <blockquote>
+<p>For instance, C.B. enlarges the fonts and everything very much so that on video the watching user can reckognize everything.</p>
+</blockquote>
+<p>We have plenty of videos made like that, check them out. However, videos are also provided by voluteers, we made suggestions on how they should record them, but that doesn’t mean people must strictly adhere to those.</p>
+<p>As for the story of the limit, again, with standard formatting RISC OS can use up to 256GB.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20314">https://www.riscosopen.org/forum/forums/11/topics/20314</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-29T22:11:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mia647gsjk2f">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-03-29)
+      <p>
+      <p>A new SWI for the prototype RISC OS FM4 FontManager: EnumerateString, which allows callers to step through a Paint/Scan string one element at a time without knowing the format (it’ll be extended over time).</p>
+<p>This code is calling it in single-shot mode, but a callback can be provided – much faster.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mia647gsjk2f">https://bsky.app/profile/nemo20000.bsky.social/post/3mia647gsjk2f</a>
+      </address>
+    </article>
+
+    <article data-published="2026-03-29T20:02:00Z" data-link="https://bsky.app/profile/armbytes.bsky.social/post/3mi7wvmzgjk2u">
+      <h1>@armbytes.bsky.social</h1>
+
+(date: 2026-03-29)
+      <p>
+      <p>A huge shout-out to everyone who made it! The next meetup is pencilled in for the 25th April.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/armbytes.bsky.social/post/3mi7wvmzgjk2u">https://bsky.app/profile/armbytes.bsky.social/post/3mi7wvmzgjk2u</a>
       </address>
     </article>
 
@@ -73,44 +366,6 @@ chiptune.app/browse<a href="https://chiptune.app/browse">https://chiptune.app/br
       </address>
     </article>
 
-    <article data-published="2026-03-29T14:42:58Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20321">
-      <h1>General consideration</h1>
-
-(date: 2026-03-29)
-      <p>
-      <p>Of course I’m a Risc OS Open (ROS) newbie and of course I’m far too late for a discussion whether 64-bit makes sense or not. Obviously, the train is running already. And I only can speak of myself when describing the shortcomings of ROS in 2026.</p>
-<p>That being said (to cite Christopher Barnatt) let’s go … and get started.</p>
-<p>I’m using an RPi400 or an RPi4B w/ 4GB RAM.</p>
-<p>1. ROS has a partition limit of 2 GB (although I’ve read that ROS can address up to 256 GB space, is that not a contradiction?) and it is using FileCore, a filing system I have never heard of until these very days. (And I’m in Computing since 1987 with my C64, with DOS, Win3.11/98/2000/XP/7/10, Linux since the 90ies, BeOS and some time OS/2… and getting 68 in the summer, most probably.)</p>
-<p>2. RPi’s have WiFi on board at least since the 3B. ROS does support this by downloading a driver file, how to install it, who knows. Why not incorporate that driver in the Raspi image of 5.30 right away?</p>
-<p>3. ROS has network, if you plug in a cable. I cannot – OOBE – print via network on my Brother HL2360DN, only via USB. I cannot – OOBE – connect to my smb:// fileserver. And I cannot connect to the Internet… at least only to the most simple sites, because ROS has no JAVA.</p>
-<p>4. ROS has no sound. Consequently, the Raspi image has no music playing software (but funningly enough a music composing program).</p>
-<p>5. As a newbie <strong>and</strong> being out of job nowadays, I’ve worked myself through the complete User Guide. Interesting!, especially that it is from 1992, if I remember correctly. And that you can notice often. An abundance of problems/questions is <strong>not</strong> being addressed there!</p>
-<p>So, let’s assume you finally succeed in converting ROS to 64-bit. You than have an OS working on the Raspberry Pi 5 – bravo! – still having all the problems above described. For that goal you want to collect 2,5 million L. “Alter Schwede!!” I would say in German (“old swede” does not make sense in English, I presume – &quot;Can’t believe it!?).</p>
-<p>I got interested in ROS by a video from ExplainingComputers. In my opinion it is a very interesting, fascinating OS and I’m into retro computing, also. The more time progresses, the more. But you have to invest very much time and effort to get acquainted with it because it is so totally different from <strong>all</strong> other OSes.</p>
-<p>How many users <strong>does</strong> ROS have? Has ROS gained new users? How many? Older people like me or younger, too? Are they into investing so much time and work in ROS? Or is ROS mainly the thing of an older generation, probably coming from the good Acorn PCs and the like?</p>
-<p>What I want to say is: for whom do you want to bring ROS into the future?</p>
-<p>I would rather have made a survey: how many users might we have? how old are they? what do they expect from ROS? what are their wishes?</p>
-<p>So my conclusion as a question: Does make 64-bit without Java and networking make sense?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/13/topics/20321">https://www.riscosopen.org/forum/forums/13/topics/20321</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-29T13:32:04Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20314">
-      <h1>SD-Card usage on RPi400</h1>
-
-(date: 2026-03-29)
-      <p>
-      <p>I suspect the reference to “Explaining Computers” is referring to the YouTube channel of that name; it has 1.17m subscribers. It’s worth remembering that the presenter on the channel, Christopher Barnatt, spent 25 years as a university lecturer in Computing. There’s little or no coverage of RISC OS. I think he’s referring to the <em>style</em> of the presentation rather than any specific content.</p>
-<p>As Andrew suggested, you’re not likely to need a lot of space for the applications you want to use. And remember, you can insert a pen drive and access that on RISC OS using Fat32FS (which is already installed). Best to avoid larger capacity drives—64Gb or more— as they could be formatted as ExFat rather than Fat32.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20314">https://www.riscosopen.org/forum/forums/11/topics/20314</a>
-      </address>
-    </article>
-
     <article data-published="2026-03-29T13:26:27Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20318">
       <h1>ScummVM 2026.2.0 &quot;Railmonicon&quot; sees the light</h1>
 
@@ -120,50 +375,6 @@ chiptune.app/browse<a href="https://chiptune.app/browse">https://chiptune.app/br
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20318">https://www.riscosopen.org/forum/forums/1/topics/20318</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-29T13:22:38Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20320">
-      <h1>Planed short-form videos for RISC OS Coding</h1>
-
-(date: 2026-03-29)
-      <p>
-      <p>Hiya,</p>
-<p>A few years ago there were a number of RISC OS Coding videos that people were creating. These were quite interesting, but they seem to have tailed off. I’m going to create some videos shortly which describe how to do a few things in a short (5-10 minutes video). Not complex or involved – just single task to completion.</p>
-<p>Things I’m thinking of:</p>
-<ul>
-<li>Creating GitHub project.</li>
-<li>Installing the RISC OS Build environment.</li>
-<li>A short tour around using the build environment.</li>
-<li>Using CI with RISC OS repositories.</li>
-<li>Creating skeleton command line tool.</li>
-<li>Creating skeleton module.</li>
-<li>Adding SWIs to a module.</li>
-<li>Adding vectors to a module.</li>
-<li>Adding service handling to a module.</li>
-</ul>
-<p>Maybe some other bits as well, but I’d also like people to suggest things if they’re small enough.</p>
-<p>I’ll show how things can be done and maybe a little explanation of how and why they’re done that way.</p>
-<p>Please… feedback here!</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20320">https://www.riscosopen.org/forum/forums/1/topics/20320</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-29T13:11:50Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
-      <h1>MuView and rendering PDF pages</h1>
-
-(date: 2026-03-29)
-      <p>
-      <blockquote>
-<p>No. !PackMan will find it, uninstall it and install the latest version.</p>
-</blockquote>
-<p>That’s not my experience; it left the original !Iris in place. When this happens I initially rename the existing !Iris to “Iris” (without the pling) until I’ve checked that the new version worked.</p>
-<p>As for the settings, I’m not sure—in my case it picked up settings I’d originally made in !PineBrowse.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
       </address>
     </article>
 
@@ -178,26 +389,6 @@ chiptune.app/browse<a href="https://chiptune.app/browse">https://chiptune.app/br
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mi6ukli3722e">https://bsky.app/profile/nemo20000.bsky.social/post/3mi6ukli3722e</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-28T18:29:54Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20317">
-      <h1>C, DDE &amp; OSLib Wimp Programming Tutorual Updates</h1>
-
-(date: 2026-03-28)
-      <p>
-      <p>It doesn’t look as if I’ve ever “officially” posted about my <a href="https://www.stevefryatt.org.uk/risc-os/wimp-prog">Wimp Programming In C</a> tutorial series here, so apparently a new thread will be required to announce some small updates…</p>
-<p>A few people gently prodded me at RISC OS North last weekend about updates to the series, in particular whether it could look at window redraw. I haven’t quite got there yet, but a bit of effort has cleared the blockage that was MessageTrans and Internationalisation – which should allow new work to be done more easily.</p>
-<ul>
-<li><a href="https://blencathra/~steve/steve/risc-os/wimp-prog/message-trans">Chapter 29: Using MessageTrans</a></li>
-<li><a href="https://blencathra/~steve/steve/risc-os/wimp-prog/internationalisation">Chapter 30: Internationalisation</a></li>
-</ul>
-<p>There’s still some work to be done on these, but the bulk of the structure is there and the examples should be complete. I’ll now wait for the more knowledgeable folk around here to tell me how wrong I am… :-)</p>
-<p>Window redraw was coincidentally next on my “plan” (that’s a grand word), but when I get around to it is another matter.</p>
-<p>The full contents is at <a href="https://www.stevefryatt.org.uk/risc-os/wimp-prog">https://www.stevefryatt.org.uk/risc-os/wimp-prog</a> – you’ll need the <a href="https://www.riscosopen.org/content/sales/dde">Desktop Development Environment</a> to play along, unless you re-work the supplied files for GCC.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20317">https://www.riscosopen.org/forum/forums/1/topics/20317</a>
       </address>
     </article>
 
@@ -237,26 +428,6 @@ chiptune.app/browse<a href="https://chiptune.app/browse">https://chiptune.app/br
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20300">https://www.riscosopen.org/forum/forums/1/topics/20300</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-28T10:14:54Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20316">
-      <h1>Live Coding with Gerph, Sunday 29th March at 1pm UK time (BST!)</h1>
-
-(date: 2026-03-28)
-      <p>
-      <p>This Sunday – 29th March (UK time), at 1pm UK time – I’ll be starting a new series of my implementation of RISC OS interfaces in C. In this series, I’ll be looking at the `*GOS` command line system. This will be a little painful, but should make for some interesting work.</p>
-<p>Come along if you like – <a href="https://youtube.com/live/iEo2wgt_R2A?feature=share">https://youtube.com/live/iEo2wgt_R2A?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
-<p>Remember: The clocks change on Sunday morning for British Summer Time! :-)</p>
-<hr>
-<p>For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.</p>
-<p>The features I’ve described in the details are a little light ( <a href="https://github.com/gerph/riscos64-status/wiki/Module_UtilityModule">https://github.com/gerph/riscos64-status/wiki/Module_U…</a>) but we’ll no doubt expand those as we do the work.</p>
-<hr>
-<p>If you want to watch the whole series, you can follow it through the playlist on YouTube – <a href="https://www.youtube.com/watch?v=iEo2wgt_R2A&amp;list=PLVVIu906Y7rF2ztisbUa0dVTV6MvNS9si">https://www.youtube.com/watch?v=iEo2wgt_R2A&amp;list=P…</a></p>
-<p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/gos.html">https://presentation.riscos.online/live/gos.html</a> (once it has been published).</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20316">https://www.riscosopen.org/forum/forums/1/topics/20316</a>
       </address>
     </article>
 
@@ -355,7 +526,7 @@ chiptune.app/browse<a href="https://chiptune.app/browse">https://chiptune.app/br
     <article data-published="2026-03-27T07:59:00Z" data-link="http://www.iconbar.com/comments/rss/news2316.html">
       <h1>Fireside developer chat on saturday night</h1>
 
-(date: 2026-03-27, updated: 2026-03-08)
+(date: 2026-03-27, updated: 2026-03-12)
       <p>
       <p>The next developer chat is on saturday night (27th March) for anyone interested in a very informal event online aimed at RISC OS developers.</p>
 
@@ -367,7 +538,7 @@ chiptune.app/browse<a href="https://chiptune.app/browse">https://chiptune.app/br
     <article data-published="2026-03-27T06:31:00Z" data-link="http://www.iconbar.com/comments/rss/news2305.html">
       <h1>March 2026 News Summary</h1>
 
-(date: 2026-03-27, updated: 2026-03-08)
+(date: 2026-03-27, updated: 2026-03-12)
       <p>
       <p>Some things we noticed this month. What did you see?</p>
 
@@ -777,7 +948,7 @@ Why is it only me?</p>
     <article data-published="2026-03-23T09:45:24Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13575&page=1#125876">
       <h1>RISC OS North Show Report 2026</h1>
 
-(date: 2026-03-23, updated: 2026-02-16)
+(date: 2026-03-23, updated: 2026-02-25)
       <p>
       <p>Thanks for the show report and latest from the show presentations too.</p>
 
@@ -947,7 +1118,7 @@ Why is it only me?</p>
     <article data-published="2026-03-21T17:10:00Z" data-link="http://www.iconbar.com/comments/rss/news2314.html">
       <h1>RISC OS North Show 2026 - pictures</h1>
 
-(date: 2026-03-21, updated: 2026-03-08)
+(date: 2026-03-21, updated: 2026-03-12)
       <p>
       <p>Here is a selection of pictures to show you what this years event was like.....</p>
 
@@ -1122,7 +1293,7 @@ Why is it only me?</p>
     <article data-published="2026-03-20T16:38:27Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13568&page=1#125875">
       <h1>RISC OS North Show 2026 preview</h1>
 
-(date: 2026-03-20, updated: 2026-02-16)
+(date: 2026-03-20, updated: 2026-02-25)
       <p>
       <p>Train times for Warrington Bank Quay</p>
 
@@ -1541,7 +1712,7 @@ youtu.be/wtths_J-XvU<a href="https://youtu.be/wtths">https://youtu.be/wtths</a>_
     <article data-published="2026-03-17T09:58:00Z" data-link="http://www.iconbar.com/comments/rss/news2308.html">
       <h1>RISC OS North Show 2026 preview</h1>
 
-(date: 2026-03-17, updated: 2026-03-08)
+(date: 2026-03-17, updated: 2026-03-12)
       <p>
       <p>The RISC OS North show takes place this Saturday (21st March 2026) at Village Hotel (Warrington) from 10:30am-4:30pm</p>
 
@@ -1617,7 +1788,7 @@ youtu.be/wtths_J-XvU<a href="https://youtu.be/wtths">https://youtu.be/wtths</a>_
     <article data-published="2026-03-16T16:27:29Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13569&page=1#125874">
       <h1>ShareFS goes cross platform</h1>
 
-(date: 2026-03-16, updated: 2026-02-16)
+(date: 2026-03-16, updated: 2026-02-25)
       <p>
       <p>I totally understand why you would want/need to distance yourself from anything original on this.</p>
 
@@ -1668,7 +1839,7 @@ youtu.be/wtths_J-XvU<a href="https://youtu.be/wtths">https://youtu.be/wtths</a>_
     <article data-published="2026-03-16T06:51:00Z" data-link="http://www.iconbar.com/comments/rss/news2311.html">
       <h1>Discover your 'Dark side' at RISC OS North Show</h1>
 
-(date: 2026-03-16, updated: 2026-03-08)
+(date: 2026-03-16, updated: 2026-03-12)
       <p>
       <p>Martin Eastwood will be at RISC OS North to showcase his new Frosted Theme.</p>
 
@@ -1680,7 +1851,7 @@ youtu.be/wtths_J-XvU<a href="https://youtu.be/wtths">https://youtu.be/wtths</a>_
     <article data-published="2026-03-16T00:23:17Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13569&page=1#125873">
       <h1>ShareFS goes cross platform</h1>
 
-(date: 2026-03-16, updated: 2026-02-16)
+(date: 2026-03-16, updated: 2026-02-25)
       <p>
       <p>There are no protocol specs. It's something sort of encoded in the sources and has evolved slightly over the years.</p>
 
@@ -1757,7 +1928,7 @@ youtu.be/wtths_J-XvU<a href="https://youtu.be/wtths">https://youtu.be/wtths</a>_
     <article data-published="2026-03-15T18:32:21Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13569&page=1#125872">
       <h1>ShareFS goes cross platform</h1>
 
-(date: 2026-03-15, updated: 2026-02-16)
+(date: 2026-03-15, updated: 2026-02-25)
       <p>
       <p>Hi Paolo,</p>
 
@@ -1872,7 +2043,7 @@ Imagine the headlines. The Daily Mail and the Telegraph would be FURIOUS. There�
     <article data-published="2026-03-15T00:05:57Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13569&page=1#125871">
       <h1>ShareFS goes cross platform</h1>
 
-(date: 2026-03-15, updated: 2026-02-16)
+(date: 2026-03-15, updated: 2026-02-25)
       <p>
       <p>Dear Richard,</p>
 
@@ -2100,7 +2271,7 @@ Options:
     <article data-published="2026-03-13T16:00:06Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13569&page=1#125870">
       <h1>ShareFS goes cross platform</h1>
 
-(date: 2026-03-13, updated: 2026-02-16)
+(date: 2026-03-13, updated: 2026-02-25)
       <p>
       <p>Just for completeness, it's like busses. Nothing for decades, then two in the same year!</p>
 
@@ -2138,7 +2309,7 @@ Options:
     <article data-published="2026-03-13T06:25:00Z" data-link="http://www.iconbar.com/comments/rss/news2304.html">
       <h1>Rougol March 2026 meeting on monday - Matt Godbolt</h1>
 
-(date: 2026-03-13, updated: 2026-03-08)
+(date: 2026-03-13, updated: 2026-03-12)
       <p>
       <p>The March 2026 Rougol meeting is on Monday and has an international flavour</p>
 
@@ -2226,7 +2397,7 @@ Options:
     <article data-published="2026-03-12T08:17:00Z" data-link="http://www.iconbar.com/comments/rss/news2309.html">
       <h1>ShareFS goes cross platform</h1>
 
-(date: 2026-03-12, updated: 2026-03-08)
+(date: 2026-03-12)
       <p>
       <p>ShareFS has been a key technology for RISC OS users for as long as I can remember.</p>
 
@@ -3174,7 +3345,7 @@ riscosnorth.uk #RISC_OS #Event #Warrington #RaspberryPi #ARM</p>
     <article data-published="2026-02-27T16:03:33Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13551&page=1#125869">
       <h1>February 2026 News Summary</h1>
 
-(date: 2026-02-27, updated: 2026-02-16)
+(date: 2026-02-27, updated: 2026-02-25)
       <p>
       <p>TrainTimes has had a little updgate and I have released Quiz Engine has had it's first release allowing people to create their own quizzes.</p>
 
@@ -3345,7 +3516,7 @@ Unset Alias$Set
     <article data-published="2026-02-25T03:39:16Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13556&page=1#125867">
       <h1>Rougol February 2026 meeting on monday - Retro YouTuber Colin Hoad</h1>
 
-(date: 2026-02-25, updated: 2026-02-16)
+(date: 2026-02-25)
       <p>
       <p>Video now available for those that missed Colin's excellent talk, or want to watch it again! <a href="https://youtu.be/Igljzw4o71U">https://youtu.be/Igljzw4o71U</a></p>
 

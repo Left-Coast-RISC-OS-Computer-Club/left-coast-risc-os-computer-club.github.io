@@ -7,26 +7,334 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>29 Mar 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>30 Mar 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
       <title>ARM now making its own Silicon</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20322</link>
       <description>
-        <![CDATA[<p><a href="https://www.arm.com">https://www.arm.com</a></p>
-        <p><a href="https://www.arm.com/company/arm-everywhere">https://www.arm.com/company/arm-everywhere</a> &#8211; Keynote (Acorn is mentioned)</p>
-        <p>About time!<br />
-        Interesting to see where this goes!</p>]]>
+        <![CDATA[<p>It rather worried me, to be honest.  I always felt that <span class="caps">ARM</span> have been so successful precisely because they didn&#8217;t manufacture anything &#8211; their partners don&#8217;t need to be worried about competition from their own licence provider (who by definition don&#8217;t have to pay for a licence themselves).  I worry that licencees may become a bit antsy if they think they may be undercut by their own supplier&#8230;</p>]]>
       </description>
-      <source:markdown>[https://www.arm.com](https://www.arm.com)
+      <source:markdown>It rather worried me, to be honest. I always felt that ARM have been so successful precisely because they didn’t manufacture anything – their partners don’t need to be worried about competition from their own licence provider (who by definition don’t have to pay for a licence themselves). I worry that licencees may become a bit antsy if they think they may be undercut by their own supplier…</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20322:162714</guid>
+    </item>    <item>
+      <title>March 2026 News Summary</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13564&#38;page=1#125877</link>
+      <description>
+        <![CDATA[MorseQuiz released a Morse Code quiz using my Quiz Engine.]]>
+      </description>
+      <source:markdown>MorseQuiz released a Morse Code quiz using my Quiz Engine.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13564&#38;page=1#125877</guid>
+    </item>    <item>
+      <title>C, DDE &#38;amp; OSLib Wimp Programming Tutorual Updates</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20317</link>
+      <description>
+        <![CDATA[<p>Hi, thank you for your Wimp Programming In C series, We learn a lot about <span class="caps">RISC</span> OS and especially that we can build our own applications with <span class="caps">DDE</span>.</p>
+        <p>I was able to build your examples from chapter 28 to arrive at a version with messages file, internationalization (UK and France) and help file, French version.<br />
+        Like you, I use OSLib, and your SLib library is very useful. I have a StrongEd ​​Manual for it, you have well documented your library it would be a shame not to take advantage of it.</p>
+        <p>I use the same structure as you for the development folder. I had no problem using my Diderot app. Note: In this one I made a modification which allows with the <span class="caps">RES</span> button to open the Res or Templates file.</p>
+        <p>The application also allows you to kill the current task using an adaptation of your TaskKill program. but for it to work correctly, there must be an item: _TaskName:Example App in the messages file</p>
+        <p>Good luck, your tutorial should attract new programmers&#8230;.</p>]]>
+      </description>
+      <source:markdown>Hi, thank you for your Wimp Programming In C series, We learn a lot about RISC OS and especially that we can build our own applications with DDE.
 
-[https://www.arm.com/company/arm-everywhere](https://www.arm.com/company/arm-everywhere) – Keynote (Acorn is mentioned)
+I was able to build your examples from chapter 28 to arrive at a version with messages file, internationalization (UK and France) and help file, French version.
 
-About time!
+Like you, I use OSLib, and your SLib library is very useful. I have a StrongEd ​​Manual for it, you have well documented your library it would be a shame not to take advantage of it.
 
-Interesting to see where this goes!</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20322:162670</guid>
+I use the same structure as you for the development folder. I had no problem using my Diderot app. Note: In this one I made a modification which allows with the RES button to open the Res or Templates file.
+
+The application also allows you to kill the current task using an adaptation of your TaskKill program. but for it to work correctly, there must be an item: \_TaskName:Example App in the messages file
+
+Good luck, your tutorial should attract new programmers….</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20317:162712</guid>
+    </item>    <item>
+      <title>Audio on RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20323</link>
+      <description>
+        <![CDATA[<p>After reading the thread,<br />
+          <a href="https://www.riscosopen.org/forum/forums/13/topics/20321">https://www.riscosopen.org/forum/forums/13/topics/20321</a><br />
+         Just to inform (new) users about the audio possibilities of our OS</p>
+        
+        		<ul>
+        			<li>Audio on Risco <strong>*</strong><br />
+        You can listen to the internal sound on an analog output for machines with their own analog converter: Pi3/Pi4 and old hardware.</li>
+        		</ul><p>Today we use the <span class="caps">HDMI</span> output, therefore digital, it is your monitor which does the conversion, otherwise there are boxes that can extract the audio from the <span class="caps">HDMI</span>.</p>
+        <p>To listen to music, there is a very good program maintained by André Timmermans DigitalCD which works very well for many types of audio files (Wav/Mp3/Radio/Midi&#8230;)</p>
+        <p>For direct use via <span class="caps">USB</span>, a program which allows you to listen to wav or Mp3 files on a <span class="caps">USB</span> dac box is that of Colin Granville: IsocUSB, I use it with a Steinberg box or with a Behringer CA202.</p>
+        <p>To make the music: <br />
+        Pete Everett made a very good adaptation of Midiman (<span class="caps">ESP</span>) for our machines with a Midi device manager (<span class="caps">USB</span>/Serial) and added an internal MidiSynthé for those who don&#8217;t have an expander.</p>
+        <p>To edit scores: <br />
+        • With Risc OS comes !Maestro which has been adapted to play in Midi, so it works with MidiSynthé. <br />
+        • More complete editor Rhapsody 4 with permission of its author Jo. Linton, which I use very often and try to maintain. <br />
+        • <span class="caps">PMS</span>/<span class="caps">PMW</span> from Philip Hazel, works with a very powerful script editor. There are two versions 3.20 (<span class="caps">PMS</span>) and an adaptation of the much more recent version 5.33 (<span class="caps">PMW</span>).</p>
+        <p>• Audio conversion:<br />
+          Sox, lame, etc.</p>
+        <p>• Edition audio<br />
+          deux programmes par Henrik B. Pedersen<br />
+          &#8211; Prosound<br />
+          &#8211; StudioSnd</p>
+        <p>Note1:<br />
+         Prosound has been &#8220;redesigned&#8221; to work on a CM4, everything planned in the manual is functional.<br />
+         With Colin Granville&#8217;s IscoUSB modules you can even record with Prosound, Raik Fischer tested it with a headset&#8230; I use it with my UR22 and the ECA202 <br />
+         Audio reproduction is always done via <span class="caps">HDMI</span>.</p>
+        <p>This list is not exhaustive, I must have forgotten some&#8230;<br />
+        If anyone would like to rewrite this list correctly, I would appreciate it.</p>]]>
+      </description>
+      <source:markdown>After reading the thread,
+
+[https://www.riscosopen.org/forum/forums/13/topics/20321](https://www.riscosopen.org/forum/forums/13/topics/20321)
+
+Just to inform (new) users about the audio possibilities of our OS
+
+- Audio on Risco **\***
+
+
+  You can listen to the internal sound on an analog output for machines with their own analog converter: Pi3/Pi4 and old hardware.
+
+Today we use the HDMI output, therefore digital, it is your monitor which does the conversion, otherwise there are boxes that can extract the audio from the HDMI.
+
+To listen to music, there is a very good program maintained by André Timmermans DigitalCD which works very well for many types of audio files (Wav/Mp3/Radio/Midi…)
+
+For direct use via USB, a program which allows you to listen to wav or Mp3 files on a USB dac box is that of Colin Granville: IsocUSB, I use it with a Steinberg box or with a Behringer CA202.
+
+To make the music:
+
+Pete Everett made a very good adaptation of Midiman (ESP) for our machines with a Midi device manager (USB/Serial) and added an internal MidiSynthé for those who don’t have an expander.
+
+To edit scores:
+
+• With Risc OS comes !Maestro which has been adapted to play in Midi, so it works with MidiSynthé.
+
+• More complete editor Rhapsody 4 with permission of its author Jo. Linton, which I use very often and try to maintain.
+
+• PMS/PMW from Philip Hazel, works with a very powerful script editor. There are two versions 3.20 (PMS) and an adaptation of the much more recent version 5.33 (PMW).
+
+• Audio conversion:
+
+Sox, lame, etc.
+
+• Edition audio
+
+deux programmes par Henrik B. Pedersen
+
+– Prosound
+
+– StudioSnd
+
+Note1:
+
+Prosound has been “redesigned” to work on a CM4, everything planned in the manual is functional.
+
+With Colin Granville’s IscoUSB modules you can even record with Prosound, Raik Fischer tested it with a headset… I use it with my UR22 and the ECA202
+
+Audio reproduction is always done via HDMI.
+
+This list is not exhaustive, I must have forgotten some…
+
+If anyone would like to rewrite this list correctly, I would appreciate it.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20323:162709</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mibyartczk2x</link>
+      <description>
+        <![CDATA[I just received my shiny new Greaseweazle V4.1 from Keir - the designer. I decided to go with the funky cased version designed by Tom Dalby. It only cost £24.99 + £1.99 delivery to the UK.]]>
+      </description>
+      <source:markdown>I just received my shiny new Greaseweazle V4.1 from Keir - the designer. I decided to go with the funky cased version designed by Tom Dalby. It only cost £24.99 + £1.99 delivery to the UK.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mibyartczk2x</guid>
+    </item>    <item>
+      <title>Beta Git client and SSH keys</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/19403</link>
+      <description>
+        <![CDATA[<p><a href="https://www.riscosopen.org/zipfiles/platform/common/GitClient.0.12.zip">GitClient.0.12.zip</a> seems to be available.</p>]]>
+      </description>
+      <source:markdown>[GitClient.0.12.zip](https://www.riscosopen.org/zipfiles/platform/common/GitClient.0.12.zip) seems to be available.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:19403:162701</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mibiebri4c2h</link>
+      <description>
+        <![CDATA[I see that Bluesky "Attie" AI account is just 9 days old and has already been blocked by over 100k users 😆
+        https://media.tenor.com/R5gi51Vxx_8AAAAC/jack-nicholson-yes.gif?hh=396&ww=498]]>
+      </description>
+      <source:markdown>I see that Bluesky &#34;Attie&#34; AI account is just 9 days old and has already been blocked by over 100k users 😆
+https://media.tenor.com/R5gi51Vxx\_8AAAAC/jack-nicholson-yes.gif?hh=396&#38;ww=498</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mibiebri4c2h</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mibghvi3622h</link>
+      <description>
+        <![CDATA[Genuinely amazing how a few simple notes with the appropriate synth sound can instantly evoke memories like this...
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Genuinely amazing how a few simple notes with the appropriate synth sound can instantly evoke memories like this...
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mibghvi3622h</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mibexx4mkc2x</link>
+      <description>
+        <![CDATA[The amazing chiptune.app player can be found on GitHub. For me, probably the best JS code ever created! Thank you, @mattmontag.bsky.social 
+        https://github.com/mmontag/chip-player-js]]>
+      </description>
+      <source:markdown>The amazing chiptune.app player can be found on GitHub. For me, probably the best JS code ever created! Thank you, @mattmontag.bsky.social
+https://github.com/mmontag/chip-player-js</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mibexx4mkc2x</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>Hi,<br />
+        About Packman, I accidentally deleted my &#8220;sources for packages&#8221; list, and I&#8217;m having trouble updating it.</p>
+        <p>I tried the links referenced by Know sources, but there seems to be a problem to get sources, am I making a mistake?<br />
+        Chris, luckily you put a link to download pythonupdates/zip&#8230;</p>]]>
+      </description>
+      <source:markdown>Hi,
+
+About Packman, I accidentally deleted my “sources for packages” list, and I’m having trouble updating it.
+
+I tried the links referenced by Know sources, but there seems to be a problem to get sources, am I making a mistake?
+
+Chris, luckily you put a link to download pythonupdates/zip…</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162696</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mib6b2mpds2o</link>
+      <description>
+        <![CDATA[Thanks, I guess.
+        
+        And yes, it is.]]>
+      </description>
+      <source:markdown>Thanks, I guess.
+
+And yes, it is.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mib6b2mpds2o</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mib3iv5sok2a</link>
+      <description>
+        <![CDATA[Done.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Done.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mib3iv5sok2a</guid>
+    </item>    <item>
+      <title>WROCC April 2026 talk on Wednesday</title>
+      <link>http://www.iconbar.com/comments/rss/news2310.html</link>
+      <description>
+        <![CDATA[The April 2026 WROCC talk is on Wednesday 1st April and starts at 7.45pm on Zoom.That's after 12 o'clock so no April fools....]]>
+      </description>
+      <source:markdown>The April 2026 WROCC talk is on Wednesday 1st April and starts at 7.45pm on Zoom.That&#39;s after 12 o&#39;clock so no April fools....</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2310.html</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosopen.bsky.social/post/3miaiastxj22j</link>
+      <description>
+        <![CDATA[Matching doubles up your moonshot contributions.
+        https://www.riscosopen.org/news/articles/2026/03/30/matching-doubles-up-your-moonshot-contributions]]>
+      </description>
+      <source:markdown>Matching doubles up your moonshot contributions.
+https://www.riscosopen.org/news/articles/2026/03/30/matching-doubles-up-your-moonshot-contributions</source:markdown>
+      <guid>cid://at://did:plc:e3k7odasqhsg6xfgfkvovpsb/app.bsky.feed.post/3miaiastxj22j</guid>
+    </item>    <item>
+      <title>Matching doubles up your moonshot contributions</title>
+      <link>https://www.riscosopen.org/news/articles/2026/03/30/matching-doubles-up-your-moonshot-contributions</link>
+      <description>
+        <![CDATA[<p>Announced at the recent <a href="/news/articles/2026/03/18/spring-starts-at-warrington"><span class="caps">RISC</span> OS North</a> show, money pledged to the Moonshot for a <a href="/bounty/polls/45">64-bit <span class="caps">RISC</span> OS</a> will be matched 1-to-1 until ROOL&#8217;s 20th birthday.</p>
+        <p><img src="/images/risc_os_open/moonshot-matching.png" title="Double boost" alt="Double boost" /></p>]]>
+      </description>
+      <source:markdown>Announced at the recent [RISC OS North](/news/articles/2026/03/18/spring-starts-at-warrington) show, money pledged to the Moonshot for a [64-bit RISC OS](/bounty/polls/45) will be matched 1-to-1 until ROOL’s 20th birthday.
+
+![Double boost](/images/risc_os_open/moonshot-matching.png)</source:markdown>
+      <guid>cid://urn:uuid:54423d65-62df-4354-9973-fa4458e3b5d0</guid>
+    </item>    <item>
+      <title>General consideration</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20321</link>
+      <description>
+        <![CDATA[<p>@Martin Eastwood: I must confess that audio-wise I&#8217;ve had plugged in a <span class="caps">FIIO</span> <span class="caps">USB</span> <span class="caps">DAC</span> into my RPi400. I&#8217;ve read User Guide p.102 Audio setup, in my case I couldn&#8217;t change anything, no sound on my stereo equipment via RPi/<span class="caps">ROS</span> via the <span class="caps">USB</span> <span class="caps">DAC</span>. <span class="caps">BUT</span>!: it is capable to make &#8220;beeps&#8221; via hdmi and a ttf monitor connected. Just after my post and your reply I&#8217;ve learned that <span class="caps">ROS</span> is not into <span class="caps">USB</span> DAC&#8217;s. Okay, it is sound, of sorts.<br />
+        Re: WI-FI. With the User Guide I&#8217;ve not been able to understand how to configure the wifi driver for the RPi BCM43 chip. Having downloaded the &#8220;On board WiFi drivers&#8221; from the Raspberry Pi link and having printed out and read the &#8220;ReadMe.txt&#8221;, I&#8217;ve configured my RPi WiFi. Important to know (ReadMe.txt tells you): Not both are working at the same time &#8211; cable network and WiFi, but only one of them. In any Raspberry Pi Linux you can have both of them at the same time!</p>]]>
+      </description>
+      <source:markdown>@Martin Eastwood: I must confess that audio-wise I’ve had plugged in a FIIOUSBDAC into my RPi400. I’ve read User Guide p.102 Audio setup, in my case I couldn’t change anything, no sound on my stereo equipment via RPi/ROS via the USBDAC. BUT!: it is capable to make “beeps” via hdmi and a ttf monitor connected. Just after my post and your reply I’ve learned that ROS is not into USB DAC’s. Okay, it is sound, of sorts.
+
+Re: WI-FI. With the User Guide I’ve not been able to understand how to configure the wifi driver for the RPi BCM43 chip. Having downloaded the “On board WiFi drivers” from the Raspberry Pi link and having printed out and read the “ReadMe.txt”, I’ve configured my RPi WiFi. Important to know (ReadMe.txt tells you): Not both are working at the same time – cable network and WiFi, but only one of them. In any Raspberry Pi Linux you can have both of them at the same time!</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20321:162693</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 29th March at 1pm UK time (BST!)</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20316</link>
+      <description>
+        <![CDATA[<p>Went quite well, and we have a regular C application which runs that input loop, with some stubs for the environment handlers. Next week, we&#8217;ll try to work this into being more like the original assembly implementation with a completely separate entry point.</p>]]>
+      </description>
+      <source:markdown>Went quite well, and we have a regular C application which runs that input loop, with some stubs for the environment handlers. Next week, we’ll try to work this into being more like the original assembly implementation with a completely separate entry point.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20316:162692</guid>
+    </item>    <item>
+      <title>Planed short-form videos for RISC OS Coding</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20320</link>
+      <description>
+        <![CDATA[<p>Damn this thread needs a cold shower! Anyway back on topic&#8230;.</p>
+        <p>Creating a GitHub project.<br />
+        Installing the <span class="caps">RISC</span> OS Build environment.<br />
+        A short tour around using the build environment.<br />
+        Using CI with <span class="caps">RISC</span> OS repositories.<br />
+        Creating skeleton command line tool.<br />
+        How to create a basic module.<br />
+        Maybe Linking Templates to <span class="caps">BASIC</span> Runimages another one? (Creating Basic Wimp Applications)</p>
+        <p>These i think would be very useful especially for new people trying to get into it more.  Hopefully it hasn&#8217;t de-railed your initial plans.</p>]]>
+      </description>
+      <source:markdown>Damn this thread needs a cold shower! Anyway back on topic….
+
+Creating a GitHub project.
+
+Installing the RISC OS Build environment.
+
+A short tour around using the build environment.
+
+Using CI with RISC OS repositories.
+
+Creating skeleton command line tool.
+
+How to create a basic module.
+
+Maybe Linking Templates to BASIC Runimages another one? (Creating Basic Wimp Applications)
+
+These i think would be very useful especially for new people trying to get into it more. Hopefully it hasn’t de-railed your initial plans.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20320:162691</guid>
+    </item>    <item>
+      <title>SD-Card usage on RPi400</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20314</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>For instance, C.B. enlarges the fonts and everything very much so that on video the watching user can reckognize everything.</p>
+        </blockquote>
+        <p>We have plenty of videos made like that, check them out. However, videos are also provided by voluteers, we made suggestions on how they should record them, but that doesn&#8217;t mean people must strictly adhere to those.</p>
+        <p>As for the story of the limit, again, with standard formatting <span class="caps">RISC</span> OS can use up to 256GB.</p>]]>
+      </description>
+      <source:markdown>&#62; For instance, C.B. enlarges the fonts and everything very much so that on video the watching user can reckognize everything.
+
+We have plenty of videos made like that, check them out. However, videos are also provided by voluteers, we made suggestions on how they should record them, but that doesn’t mean people must strictly adhere to those.
+
+As for the story of the limit, again, with standard formatting RISC OS can use up to 256GB.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20314:162690</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mia647gsjk2f</link>
+      <description>
+        <![CDATA[A new SWI for the prototype RISC OS FM4 FontManager: EnumerateString, which allows callers to step through a Paint/Scan string one element at a time without knowing the format (it’ll be extended over time).
+        
+        This code is calling it in single-shot mode, but a callback can be provided – much faster.]]>
+      </description>
+      <source:markdown>A new SWI for the prototype RISC OS FM4 FontManager: EnumerateString, which allows callers to step through a Paint/Scan string one element at a time without knowing the format (it’ll be extended over time).
+
+This code is calling it in single-shot mode, but a callback can be provided – much faster.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mia647gsjk2f</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3mi7wvmzgjk2u</link>
+      <description>
+        <![CDATA[A huge shout-out to everyone who made it! The next meetup is pencilled in for the 25th April.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>A huge shout-out to everyone who made it! The next meetup is pencilled in for the 25th April.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mi7wvmzgjk2u</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mi7k3yjsq227</link>
       <description>
@@ -58,64 +366,6 @@ Will someone PLEASE explain to these numbskulls the etymology of &#34;manned&#34
       <source:markdown>thanks man! Very much appreciated.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20267:162663</guid>
     </item>    <item>
-      <title>General consideration</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/20321</link>
-      <description>
-        <![CDATA[<p>Of course I&#8217;m a Risc OS Open (<span class="caps">ROS</span>) newbie and of course I&#8217;m far too late for a discussion whether 64-bit makes sense or not. Obviously, the train is running already. And I only can speak of myself when describing the shortcomings of <span class="caps">ROS</span> in 2026.<br />
-        That being said (to cite Christopher Barnatt) let&#8217;s go &#8230; and get started.<br />
-        I&#8217;m using an RPi400 or an RPi4B w/ 4GB <span class="caps">RAM</span>. <br />
-        1. <span class="caps">ROS</span> has a partition limit of 2 GB (although I&#8217;ve read that <span class="caps">ROS</span> can address up to 256 GB space, is that not a contradiction?) and it is using FileCore, a filing system I have never heard of until these very days. (And I&#8217;m in Computing since 1987 with my C64, with <span class="caps">DOS</span>, Win3.11/98/2000/XP/7/10, Linux since the 90ies, BeOS and some time OS/2&#8230; and getting 68 in the summer, most probably.)<br />
-        2. RPi&#8217;s have WiFi on board at least since the 3B. <span class="caps">ROS</span> does support this by downloading a driver file, how to install it, who knows. Why not incorporate that driver in the Raspi image of 5.30 right away?<br />
-        3. <span class="caps">ROS</span> has network, if you plug in a cable. I cannot &#8211; <span class="caps">OOBE</span> &#8211; print via network on my Brother HL2360DN, only via <span class="caps">USB</span>. I cannot &#8211; <span class="caps">OOBE</span> &#8211; connect to my smb:// fileserver. And I cannot connect to the Internet&#8230; at least only to the most simple sites, because <span class="caps">ROS</span> has no <span class="caps">JAVA</span>.<br />
-        4. <span class="caps">ROS</span> has no sound. Consequently, the Raspi image has no music playing software (but funningly enough a music composing program).<br />
-        5. As a newbie <strong>and</strong> being out of job nowadays, I&#8217;ve worked myself through the complete User Guide. Interesting!, especially that it is from 1992, if I remember correctly. And that you can notice often. An abundance of problems/questions is <strong>not</strong> being addressed there!<br />
-        So, let&#8217;s assume you finally succeed in converting <span class="caps">ROS</span> to 64-bit. You than have an OS working on the Raspberry Pi 5 &#8211; bravo! &#8211; still having all the problems above described. For that goal you want to collect 2,5 million L. &#8220;Alter Schwede!!&#8221; I would say in German (&#8220;old swede&#8221; does not make sense in English, I presume &#8211; &quot;Can&#8217;t believe it!?).<br />
-        I got interested in <span class="caps">ROS</span> by a video from ExplainingComputers. In my opinion it is a very interesting, fascinating OS and I&#8217;m into retro computing, also. The more time progresses, the more. But you have to invest very much time and effort to get acquainted with it because it is so totally different from <strong>all</strong> other OSes.<br />
-        How many users <strong>does</strong> <span class="caps">ROS</span> have? Has <span class="caps">ROS</span> gained new users? How many? Older people like me or younger, too? Are they into investing so much time and work in <span class="caps">ROS</span>? Or is <span class="caps">ROS</span> mainly the thing of an older generation, probably coming from the good Acorn PCs and the like?<br />
-        What I want to say is: for whom do you want to bring <span class="caps">ROS</span> into the future?<br />
-        I would rather have made a survey: how many users might we have? how old are they? what do they expect from <span class="caps">ROS</span>? what are their wishes?<br />
-        So my conclusion as a question: Does make 64-bit without Java and networking make sense?</p>]]>
-      </description>
-      <source:markdown>Of course I’m a Risc OS Open (ROS) newbie and of course I’m far too late for a discussion whether 64-bit makes sense or not. Obviously, the train is running already. And I only can speak of myself when describing the shortcomings of ROS in 2026.
-
-That being said (to cite Christopher Barnatt) let’s go … and get started.
-
-I’m using an RPi400 or an RPi4B w/ 4GB RAM.
-
-1\. ROS has a partition limit of 2 GB (although I’ve read that ROS can address up to 256 GB space, is that not a contradiction?) and it is using FileCore, a filing system I have never heard of until these very days. (And I’m in Computing since 1987 with my C64, with DOS, Win3.11/98/2000/XP/7/10, Linux since the 90ies, BeOS and some time OS/2… and getting 68 in the summer, most probably.)
-
-2\. RPi’s have WiFi on board at least since the 3B. ROS does support this by downloading a driver file, how to install it, who knows. Why not incorporate that driver in the Raspi image of 5.30 right away?
-
-3\. ROS has network, if you plug in a cable. I cannot – OOBE – print via network on my Brother HL2360DN, only via USB. I cannot – OOBE – connect to my smb:// fileserver. And I cannot connect to the Internet… at least only to the most simple sites, because ROS has no JAVA.
-
-4\. ROS has no sound. Consequently, the Raspi image has no music playing software (but funningly enough a music composing program).
-
-5\. As a newbie **and** being out of job nowadays, I’ve worked myself through the complete User Guide. Interesting!, especially that it is from 1992, if I remember correctly. And that you can notice often. An abundance of problems/questions is **not** being addressed there!
-
-So, let’s assume you finally succeed in converting ROS to 64-bit. You than have an OS working on the Raspberry Pi 5 – bravo! – still having all the problems above described. For that goal you want to collect 2,5 million L. “Alter Schwede!!” I would say in German (“old swede” does not make sense in English, I presume – &#34;Can’t believe it!?).
-
-I got interested in ROS by a video from ExplainingComputers. In my opinion it is a very interesting, fascinating OS and I’m into retro computing, also. The more time progresses, the more. But you have to invest very much time and effort to get acquainted with it because it is so totally different from **all** other OSes.
-
-How many users **does** ROS have? Has ROS gained new users? How many? Older people like me or younger, too? Are they into investing so much time and work in ROS? Or is ROS mainly the thing of an older generation, probably coming from the good Acorn PCs and the like?
-
-What I want to say is: for whom do you want to bring ROS into the future?
-
-I would rather have made a survey: how many users might we have? how old are they? what do they expect from ROS? what are their wishes?
-
-So my conclusion as a question: Does make 64-bit without Java and networking make sense?</source:markdown>
-      <guid>cid://www.riscosopen.org:13:20321:162659</guid>
-    </item>    <item>
-      <title>SD-Card usage on RPi400</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20314</link>
-      <description>
-        <![CDATA[<p>I suspect the reference to &#8220;Explaining Computers&#8221; is referring to the YouTube channel of that name; it has 1.17m subscribers. It&#8217;s worth remembering that the presenter on the channel, Christopher Barnatt, spent 25 years as a university lecturer in Computing. There&#8217;s little or no coverage of <span class="caps">RISC</span> OS. I think he&#8217;s referring to the <em>style</em> of the presentation rather than any specific content.</p>
-        <p>As Andrew suggested, you&#8217;re not likely to need a lot of space for the applications you want to use. And remember, you can insert a pen drive and access that on <span class="caps">RISC</span> OS using Fat32FS (which is already installed). Best to avoid larger capacity drives&mdash;64Gb or more&mdash; as they could be formatted as ExFat rather than Fat32.</p>]]>
-      </description>
-      <source:markdown>I suspect the reference to “Explaining Computers” is referring to the YouTube channel of that name; it has 1.17m subscribers. It’s worth remembering that the presenter on the channel, Christopher Barnatt, spent 25 years as a university lecturer in Computing. There’s little or no coverage of RISC OS. I think he’s referring to the _style_ of the presentation rather than any specific content.
-
-As Andrew suggested, you’re not likely to need a lot of space for the applications you want to use. And remember, you can insert a pen drive and access that on RISC OS using Fat32FS (which is already installed). Best to avoid larger capacity drives—64Gb or more— as they could be formatted as ExFat rather than Fat32.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20314:162653</guid>
-    </item>    <item>
       <title>ScummVM 2026.2.0 &#38;quot;Railmonicon&#38;quot; sees the light</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20318</link>
       <description>
@@ -123,66 +373,6 @@ As Andrew suggested, you’re not likely to need a lot of space for the applicat
       </description>
       <source:markdown>Great work Cameron and good to see RISC OS as one of the few fist ports to the latest version.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20318:162652</guid>
-    </item>    <item>
-      <title>Planed short-form videos for RISC OS Coding</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20320</link>
-      <description>
-        <![CDATA[<p>Hiya,</p>
-        <p>A few years ago there were a number of <span class="caps">RISC</span> OS Coding videos that people were creating. These were quite interesting, but they seem to have tailed off. I&#8217;m going to create some videos shortly which describe how to do a few things in a short (5-10 minutes video). Not complex or involved &#8211; just single task to completion.</p>
-        <p>Things I&#8217;m thinking of:</p>
-        <ul>
-        	<li>Creating GitHub project.</li>
-        	<li>Installing the <span class="caps">RISC</span> OS Build environment.</li>
-        	<li>A short tour around using the build environment.</li>
-        	<li>Using CI with <span class="caps">RISC</span> OS repositories.</li>
-        	<li>Creating skeleton command line tool.</li>
-        	<li>Creating skeleton module.</li>
-        	<li>Adding SWIs to a module.</li>
-        	<li>Adding vectors to a module.</li>
-        	<li>Adding service handling to a module.</li>
-        </ul>
-        <p>Maybe some other bits as well, but I&#8217;d also like people to suggest things if they&#8217;re small enough.</p>
-        <p>I&#8217;ll show how things can be done and maybe a little explanation of how and why they&#8217;re done that way.</p>
-        <p>Please&#8230; feedback here!</p>]]>
-      </description>
-      <source:markdown>Hiya,
-
-A few years ago there were a number of RISC OS Coding videos that people were creating. These were quite interesting, but they seem to have tailed off. I’m going to create some videos shortly which describe how to do a few things in a short (5-10 minutes video). Not complex or involved – just single task to completion.
-
-Things I’m thinking of:
-
-- Creating GitHub project.
-- Installing the RISC OS Build environment.
-- A short tour around using the build environment.
-- Using CI with RISC OS repositories.
-- Creating skeleton command line tool.
-- Creating skeleton module.
-- Adding SWIs to a module.
-- Adding vectors to a module.
-- Adding service handling to a module.
-
-Maybe some other bits as well, but I’d also like people to suggest things if they’re small enough.
-
-I’ll show how things can be done and maybe a little explanation of how and why they’re done that way.
-
-Please… feedback here!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20320:162650</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>No. !PackMan will find it, uninstall it and install the latest version.</p>
-        </blockquote>
-        <p>That&#8217;s not my experience; it left the original !Iris in place. When this happens I initially rename the existing !Iris to &#8220;Iris&#8221; (without the pling) until I&#8217;ve checked that the new version worked.</p>
-        <p>As for the settings, I&#8217;m not sure&mdash;in my case it picked up settings I&#8217;d originally made in !PineBrowse.</p>]]>
-      </description>
-      <source:markdown>&#62; No. !PackMan will find it, uninstall it and install the latest version.
-
-That’s not my experience; it left the original !Iris in place. When this happens I initially rename the existing !Iris to “Iris” (without the pling) until I’ve checked that the new version worked.
-
-As for the settings, I’m not sure—in my case it picked up settings I’d originally made in !PineBrowse.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162649</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mi6ukli3722e</link>
       <description>
@@ -198,33 +388,6 @@ This is because of the effective monopoly enjoyed by PPL PRS Ltd over the collec
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mi6ukli3722e</guid>
-    </item>    <item>
-      <title>C, DDE &#38;amp; OSLib Wimp Programming Tutorual Updates</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20317</link>
-      <description>
-        <![CDATA[<p>It doesn&#8217;t look as if I&#8217;ve ever &#8220;officially&#8221; posted about my <a href="https://www.stevefryatt.org.uk/risc-os/wimp-prog">Wimp Programming In C</a> tutorial series here, so apparently a new thread will be required to announce some small updates&#8230;</p>
-        <p>A few people gently prodded me at <span class="caps">RISC</span> OS North last weekend about updates to the series, in particular whether it could look at window redraw. I haven&#8217;t quite got there yet, but a bit of effort has cleared the blockage that was MessageTrans and Internationalisation &#8211; which should allow new work to be done more easily.</p>
-        <ul>
-        	<li><a href="https://blencathra/~steve/steve/risc-os/wimp-prog/message-trans">Chapter 29: Using MessageTrans</a></li>
-        	<li><a href="https://blencathra/~steve/steve/risc-os/wimp-prog/internationalisation">Chapter 30: Internationalisation</a></li>
-        </ul>
-        <p>There&#8217;s still some work to be done on these, but the bulk of the structure is there and the examples should be complete. I&#8217;ll now wait for the more knowledgeable folk around here to tell me how wrong I am&#8230; :-)</p>
-        <p>Window redraw was coincidentally next on my &#8220;plan&#8221; (that&#8217;s a grand word), but when I get around to it is another matter.</p>
-        <p>The full contents is at <a href="https://www.stevefryatt.org.uk/risc-os/wimp-prog">https://www.stevefryatt.org.uk/risc-os/wimp-prog</a> &#8211; you&#8217;ll need the <a href="https://www.riscosopen.org/content/sales/dde">Desktop Development Environment</a> to play along, unless you re-work the supplied files for <span class="caps">GCC</span>.</p>]]>
-      </description>
-      <source:markdown>It doesn’t look as if I’ve ever “officially” posted about my [Wimp Programming In C](https://www.stevefryatt.org.uk/risc-os/wimp-prog) tutorial series here, so apparently a new thread will be required to announce some small updates…
-
-A few people gently prodded me at RISC OS North last weekend about updates to the series, in particular whether it could look at window redraw. I haven’t quite got there yet, but a bit of effort has cleared the blockage that was MessageTrans and Internationalisation – which should allow new work to be done more easily.
-
-- [Chapter 29: Using MessageTrans](https://blencathra/~steve/steve/risc-os/wimp-prog/message-trans)
-- [Chapter 30: Internationalisation](https://blencathra/~steve/steve/risc-os/wimp-prog/internationalisation)
-
-There’s still some work to be done on these, but the bulk of the structure is there and the examples should be complete. I’ll now wait for the more knowledgeable folk around here to tell me how wrong I am… :-)
-
-Window redraw was coincidentally next on my “plan” (that’s a grand word), but when I get around to it is another matter.
-
-The full contents is at [https://www.stevefryatt.org.uk/risc-os/wimp-prog](https://www.stevefryatt.org.uk/risc-os/wimp-prog) – you’ll need the [Desktop Development Environment](https://www.riscosopen.org/content/sales/dde) to play along, unless you re-work the supplied files for GCC.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20317:162621</guid>
     </item>    <item>
       <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
@@ -261,38 +424,6 @@ https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=4#post
 
 I know it is somewhat superfluous now it is on PackMan, but I also know that some people still prefer the monolithic version, so we might as well make it as good as it can be :)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20300:162615</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 29th March at 1pm UK time (BST!)</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20316</link>
-      <description>
-        <![CDATA[<p>This Sunday – 29th March (UK time), at 1pm UK time – I&#8217;ll be starting a new series of my implementation of <span class="caps">RISC</span> OS interfaces in C. In this series, I&#8217;ll be looking at the `*GOS` command line system. This will be a little painful, but should make for some interesting work.</p>
-        <p>Come along if you like – <a href="https://youtube.com/live/iEo2wgt_R2A?feature=share">https://youtube.com/live/iEo2wgt_R2A?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
-        <p>Remember: The clocks change on Sunday morning for British Summer Time! :-)</p>
-        <hr />
-        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
-        <p>The features I&#8217;ve described in the details are a little light (<a href="https://github.com/gerph/riscos64-status/wiki/Module_UtilityModule">https://github.com/gerph/riscos64-status/wiki/Module_U…</a>) but we&#8217;ll no doubt expand those as we do the work.</p>
-        <hr />
-        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/watch?v=iEo2wgt_R2A&amp;list=PLVVIu906Y7rF2ztisbUa0dVTV6MvNS9si">https://www.youtube.com/watch?v=iEo2wgt_R2A&amp;amp;list=P…</a></p>
-        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/gos.html">https://presentation.riscos.online/live/gos.html</a> (once it has been published).</p>]]>
-      </description>
-      <source:markdown>This Sunday – 29th March (UK time), at 1pm UK time – I’ll be starting a new series of my implementation of RISC OS interfaces in C. In this series, I’ll be looking at the \`\*GOS\` command line system. This will be a little painful, but should make for some interesting work.
-
-Come along if you like – [https://youtube.com/live/iEo2wgt\_R2A?feature=share](https://youtube.com/live/iEo2wgt_R2A?feature=share) – or you can always watch the video afterwards at the same address.
-
-Remember: The clocks change on Sunday morning for British Summer Time! :-)
-
-* * *
-
-For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
-
-The features I’ve described in the details are a little light ( [https://github.com/gerph/riscos64-status/wiki/Module\_U…](https://github.com/gerph/riscos64-status/wiki/Module_UtilityModule)) but we’ll no doubt expand those as we do the work.
-
-* * *
-
-If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/watch?v=iEo2wgt\_R2A&#38;amp;list=P…](https://www.youtube.com/watch?v=iEo2wgt_R2A&#38;list=PLVVIu906Y7rF2ztisbUa0dVTV6MvNS9si)
-
-Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/gos.html](https://presentation.riscos.online/live/gos.html) (once it has been published).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20316:162612</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mi3bpamsis2n</link>
       <description>
