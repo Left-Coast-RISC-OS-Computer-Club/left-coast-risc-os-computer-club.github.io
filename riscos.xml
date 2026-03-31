@@ -7,10 +7,402 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>30 Mar 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>31 Mar 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mieqya3j7s2z</link>
+      <description>
+        <![CDATA[Driving music.]]>
+      </description>
+      <source:markdown>Driving music.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mieqya3j7s2z</guid>
+    </item>    <item>
+      <title>Archive Magazine Feb/Mar 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20305</link>
+      <description>
+        <![CDATA[<p>Apparently the latest issue started showing up today for UK folk. If you don&#8217;t receive yours by the weekend, do let me know.</p>
+        <p>Still a few copies left for new subscribers out there, and digital-only subscriptions are also available. <a href="http://www.archivemag.co.uk">www.archivemag.co.uk</a></p>]]>
+      </description>
+      <source:markdown>Apparently the latest issue started showing up today for UK folk. If you don’t receive yours by the weekend, do let me know.
+
+Still a few copies left for new subscribers out there, and digital-only subscriptions are also available. [www.archivemag.co.uk](http://www.archivemag.co.uk)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20305:162739</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3miej6vq3dc2w</link>
+      <description>
+        <![CDATA[RISC OS in a post-AI world: Could simplicity be the missing link in education? 
+        
+        https://www.iconbar.com/articles/RISC_OS_in_a_Post-AI_World_Could_Simplicity_Be_the_Missing_Link_in_Education/index2317.html 
+        
+        In an age dominated by artificial intelligence and platforms engineered to maximize attention, a counter-question: What if progress means stripping back rather than adding more?]]>
+      </description>
+      <source:markdown>RISC OS in a post-AI world: Could simplicity be the missing link in education?
+
+https://www.iconbar.com/articles/RISC\_OS\_in\_a\_Post-AI\_World\_Could\_Simplicity\_Be\_the\_Missing\_Link\_in\_Education/index2317.html
+
+In an age dominated by artificial intelligence and platforms engineered to maximize attention, a counter-question: What if progress means stripping back rather than adding more?</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3miej6vq3dc2w</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3miec7azhkk27</link>
+      <description>
+        <![CDATA[Sometimes an article comes along that just... clicks. Well worth your time.
+        https://bigthink.com/the-long-game/it-was-never-about-ai-we-are-not-our-tools/]]>
+      </description>
+      <source:markdown>Sometimes an article comes along that just... clicks. Well worth your time.
+https://bigthink.com/the-long-game/it-was-never-about-ai-we-are-not-our-tools/</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3miec7azhkk27</guid>
+    </item>    <item>
+      <title>RISC OS Developments at RISC OS North - Firewall and Iris</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20300</link>
+      <description>
+        <![CDATA[<p>I tries a little bit the new version of Iris yesterday and encountered an issue while viewing merge request from the <span class="caps">RISC</span> OS gitlab. The page usually displays partially then remains unchanged with the indicator that it still loads the page. The cancel or back buttons don&#8217;t work. Sounds like is it his stuck in the Javascript trying to load the changes.</p>]]>
+      </description>
+      <source:markdown>I tries a little bit the new version of Iris yesterday and encountered an issue while viewing merge request from the RISC OS gitlab. The page usually displays partially then remains unchanged with the indicator that it still loads the page. The cancel or back buttons don’t work. Sounds like is it his stuck in the Javascript trying to load the changes.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20300:162727</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mie3us77zs2x</link>
+      <description>
+        <![CDATA[The 2nd part of the series 'How to Write Machine Code Game' was published 41 years ago in the March 1985 issue of The Micro User. In this article I explained Exclusive OR ( EOR ) and how to use it to plot, and erase, software sprites on a BBC Micro. It used 6502 machine code for performance reasons.]]>
+      </description>
+      <source:markdown>The 2nd part of the series &#39;How to Write Machine Code Game&#39; was published 41 years ago in the March 1985 issue of The Micro User. In this article I explained Exclusive OR ( EOR ) and how to use it to plot, and erase, software sprites on a BBC Micro. It used 6502 machine code for performance reasons.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mie3us77zs2x</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mie2v55smc2k</link>
+      <description>
+        <![CDATA[The Phloopy drive was an alternative solution to disk drives on the BBC Micro. Whilst it boasted relatively fast load times compared with cassette it was nowhere near as quick as floppy disk based systems. Inside the disk is a huge loop of magnetic tape, rather like a Sinclair Microdrive cart.]]>
+      </description>
+      <source:markdown>The Phloopy drive was an alternative solution to disk drives on the BBC Micro. Whilst it boasted relatively fast load times compared with cassette it was nowhere near as quick as floppy disk based systems. Inside the disk is a huge loop of magnetic tape, rather like a Sinclair Microdrive cart.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mie2v55smc2k</guid>
+    </item>    <item>
+      <title>RISC OS in a Post-AI World: Could Simplicity Be the Missing Link in Education?</title>
+      <link>http://www.iconbar.com/comments/rss/news2317.html</link>
+      <description>
+        <![CDATA[In an age dominated by artificial intelligence, algorithm-driven content, and platforms engineered to maximize attention, a counter-question is gaining traction: What if real progress sometimes means stripping things back rather than adding more layers?]]>
+      </description>
+      <source:markdown>In an age dominated by artificial intelligence, algorithm-driven content, and platforms engineered to maximize attention, a counter-question is gaining traction: What if real progress sometimes means stripping things back rather than adding more layers?</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2317.html</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3midmcbrqqc2k</link>
+      <description>
+        <![CDATA[A seat? On this commute?
+        
+        Ah. School holidays!]]>
+      </description>
+      <source:markdown>A seat? On this commute?
+
+Ah. School holidays!</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3midmcbrqqc2k</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3micovl4nos2s</link>
+      <description>
+        <![CDATA[Wendigo + Wolverine model renders. You get a better idea of how huge Wendigo is. From 'X-Men 2 : Wolverine's Revenge', found on my old development archive DVD.]]>
+      </description>
+      <source:markdown>Wendigo + Wolverine model renders. You get a better idea of how huge Wendigo is. From &#39;X-Men 2 : Wolverine&#39;s Revenge&#39;, found on my old development archive DVD.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3micovl4nos2s</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3micokazsfc2s</link>
+      <description>
+        <![CDATA[Cyberpunk 2077 for the BBC Micro.]]>
+      </description>
+      <source:markdown>Cyberpunk 2077 for the BBC Micro.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3micokazsfc2s</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p><b>@ All</b></p>
+        <p>I thought it would be helpful to post this here for everyone, as I have been receiving a few questions about it.</p>
+        <p>A number of users have asked whether it would be possible to avoid renaming files on the host, and instead keep them exactly as they appear on <span class="caps">RISC</span> OS. Unfortunately, this is not possible. Filenames cannot be kept identical to the way they are on <span class="caps">RISC</span> OS, because there are a number of technical reasons why some form of transformation is required.</p>
+        <p>One important point is that <span class="caps">RISC</span> OS uses FileType information. As most people here will know, this is a hexadecimal code stored with the file entry in the file table, and it describes the type of file, such as text, <span class="caps">HTML</span>, and so on.</p>
+        <p>That information has to be preserved on the ShareFSServer host. If it is not preserved, problems arise when the file is presented back to <span class="caps">RISC</span> OS, because the original filetype information would otherwise be lost.</p>
+        <blockquote>
+        <p>But &#8216;this&#8217; or &#8216;that&#8217; software does not rename files</p>
+        </blockquote>
+        <p>In practice, all clients do rename files in some form. The main difference is in how they do it, and where the responsibility for that translation sits.</p>
+        <p>On top of that, there is also the &#8220;position&#8221; in the architecture they have, LanMan98 and OmniClient for example are client-side solutions, so they have options available that ShareFSServer does not. For example, on !LanMan98 a user can pass special connection strings in the connection name to change the behavior for a specific share. ShareFSServer, however, is a server-side solution, and the client, <span class="caps">RISC</span> OS ShareFS, expects to be talking to another real <span class="caps">RISC</span> OS system, at least for now, until I am able to modify ShareFS on <span class="caps">RISC</span> OS as well. So also the assumptions are different.</p>
+        <p>Because of that, ShareFSServer has to present a directory to ShareFS exactly as another real ShareFS system would do. That is the constraint it has to work within.</p>
+        <p>There are several separate issues involved here.</p>
+        <p>First, there is Unicode. Where possible, Unicode characters have to be translated to Latin-1. For characters that cannot be translated, the Unicode value has to be introduced in some form in order to preserve the uniqueness of the original filename. Otherwise, different filenames could collapse into the same one.</p>
+        <p>For example, if unsupported characters were simply removed, then something like:</p>
+        <p>&#8220;File_[smiley-face].txt&#8221;<br />
+        and<br />
+        &#8220;File_[sad-face].txt&#8221;</p>
+        <p>could both become:</p>
+        <p>&#8220;File_.txt&#8221;</p>
+        <p>Clearly that would create collisions, so the Unicode value is used to ensure the filenames remain distinct.</p>
+        <p>Second, there are special characters that are illegal in <span class="caps">RISC</span> OS filenames, and in some cases the reverse is also true on the host side. These also have to be handled appropriately, because they cannot simply be left unchanged on both sides.</p>
+        <p>Third, there is the FileType issue mentioned above.</p>
+        <p>At the moment, ShareFSServer supports two modes, although support for both is not yet fully complete:</p>
+        <p>1. HostFS mode<br />
+        2. Advanced mode</p>
+        <p>In HostFS mode, things work broadly in the traditional way, much like RPCEmu:</p>
+        <p>From <span class="caps">RISC</span> OS to ShareFSServer</p>
+        <p>1.1) &#8220;MyFile&#8221; of FileType &amp;<span class="caps">FAF</span> is renamed on the host as &#8220;MyFile,<span class="caps">FAF</span>&#8221;.<br />
+        The &#8220;,<span class="caps">FAF</span>&#8221; is used to preserve the original FileType. This already happens on all clients.</p>
+        <p>1.2) &#8220;MyFile/htm&#8221; is renamed on the host as &#8220;MyFile.htm&#8221;.</p>
+        <p>From ShareFSServer to <span class="caps">RISC</span> OS</p>
+        <p>1.3) If a file is &#8220;MyFile.html&#8221;, it becomes &#8220;MyFile/html&#8221;.<br />
+        This applies to all files with an extension on the PC side.</p>
+        <p>In Advanced mode, things work as follows:</p>
+        <p>2.1) &#8220;MyFile&#8221; of FileType &amp;<span class="caps">FAF</span> is renamed as &#8220;MyFile.html&#8221;, because the mapping from &amp;<span class="caps">FAF</span> to <span class="caps">HTML</span> is known.<br />
+        This can be disabled on a per-file basis if needed, but if disabled it falls back to &#8220;MyFile,<span class="caps">FAF</span>&#8221;.</p>
+        <p>2.2) &#8220;MyFile&#8221; with a filetype that has no counterpart on a PC is transformed into the usual &#8220;MyFile,<span class="caps">XXX</span>&#8221;, where &#8220;,<span class="caps">XXX</span>&#8221; is the <span class="caps">RISC</span> OS filetype.</p>
+        <p>2.3) &#8220;MyFile/html&#8221; is renamed as &#8220;MyFile,#html.html&#8221;.<br />
+        This is done to preserve both the original &#8220;/html&#8221; and also make it runnable on a PC, as in 2.1.</p>
+        <p>From ShareFSServer to <span class="caps">RISC</span> OS</p>
+        <p>2.4) &#8220;MyFile.html&#8221; is translated into &#8220;MyFile&#8221; with <span class="caps">HTML</span> filetype.</p>
+        <p>2.5) &#8220;MyFile,#html.html&#8221; is translated into &#8220;MyFile/html&#8221; of type <span class="caps">HTML</span>.</p>
+        <p>So the practical difference between the two modes is this:</p>
+        <p>1. HostFS mode preserves the more traditional style of operation, but it put responsabilities on the end user to work out interoperability. For example &#8220;MyFile,<span class="caps">FAF</span>&#8221; vs &#8220;MyFile.htm&#8221;, will need some script to convert and when converting things might break on the <span class="caps">RISC</span> OS side.</p>
+        <p>2. Advanced mode improves interoperability between the PC side and the <span class="caps">RISC</span> OS side (ensuring <span class="caps">RISC</span> OS side to be 100% consistent) for file types that are common to both, essentially making it easier to double-click and open common files on either side. For example &#8220;MyFile.htm&#8221; and &#8220;MyFile,#htm.htm&#8221; both immediately usable.</p>
+        <p>If another solution such as LanMan98 is a better fit for a particular workflow, that is of course completely fine. Different tools make different trade-offs. ShareFSServer is aimed more at users who want better network environment for <span class="caps">RISC</span> OS, and on top of that allows both user-focused repsonsabilities for interoperability or ShareFSServer focused responsabilities for interoperability. And in both cases files are renamed.</p>
+        <p><b>F.A.Q.</b></p>
+        <p>Q: Why not simply use &#8220;MyFile/pdf&#8221;?<br />
+        A: Because that would work only on a Windows host. It does not work on Linux, macOS, <span class="caps">BSD</span>, or any future host platforms such as Haiku.</p>
+        <p>Q: But LanMan98 or <span class="caps">XYZ</span> does not change the names<br />
+        A: In practice, they do rename files as well, usually in the general form &#8220;name,<span class="caps">XXX</span>&#8221;. The difference is that they reduce direct interoperability between the two sides, and leave more of the conversion responsibility to the user, for example through manual handling or scripts. That may be perfectly suitable for some use cases. However, if someone wants to access files easily from both sides, for example movies, PDFs, and similar files, especially on an <span class="caps">NAS</span>, and simply double-click them and open them, then this becomes more important. In the case of LanMan98, being a client-side solution, it can also make use of extra connection flags. ShareFSServer cannot do that, because the client is literally the original <span class="caps">ANT</span> ShareFS, which was designed for <span class="caps">RISC</span> OS hosts.</p>
+        <p>Q: What about using an hidden file for the metadata?<br />
+        A: That would definitely work, until a file is moved to another place on the host system, at that point the metadata would be lost and if the file has no extension or `,<span class="caps">XXX</span>` there would be no way for ShareFSServer to know how to present that file to <span class="caps">RISC</span> OS, and it would default to Text or Data.</p>
+        <p><b>Also, not related, but still F.A.Q.:</b></p>
+        <p>Q: Does ShareFSServer can be used on <span class="caps">NAS</span>?<br />
+        A: Yes, absolutely, the easy way is via Docker, there will be an official docker hub with latest updates and for all typical <span class="caps">NAS</span> architectures: x86_64, ARMv7, ARMv8 and also a planned <span class="caps">RISC</span>-V build.</p>
+        <p>Q: But my <span class="caps">NAS</span> has no support for Docker!<br />
+        A: That is <span class="caps">NOT</span> a problem. You have already noticed that ShareFSServer is completely self contained, it has no external dependecies (not evel the Standard C Library!) apart from the OS syscalls. That means you can also install on <span class="caps">NAS</span> without Docker support, but on those installation may not be as straight forward as on the <span class="caps">NAS</span> that support Docker.</p>
+        <p>Q: When I install it on a <span class="caps">NAS</span>, will my <span class="caps">NAS</span> become <span class="caps">RISC</span> OS compatible?<br />
+        A: I am not 100% sure what does this mean exactly, but <span class="caps">YES</span> the <span class="caps">NAS</span> will appear as a <span class="caps">RISC</span> OS system on your network and you&#8217;ll be able to access the resources as you would on another <span class="caps">RISC</span> OS system.</p>
+        <p>Q: But how do I operate it from a <span class="caps">NAS</span>?<br />
+        A: We are just starting this path to get ShareFSServer complete, so please relax and be patient. I am already working on an embedded Web Management UI that will work from Acorn !Browse to <span class="caps">ROD</span> !Iris. So you&#8217;ll use your browser to operate the system.</p>
+        <p>Q: Can I access remote resources from the <span class="caps">NAS</span> too?<br />
+        A: Yes, you can already see that, for example, the experimental <span class="caps">SFTP</span> support is embedded in ShareFSServer, so all you need to do is configure a share that access your system in the other side of the world, and that system will appear as local to your <span class="caps">RISC</span> OS system all the way down to your Archimedes (with <span class="caps">RISC</span> OS 3.10) included.</p>
+        <p>(obviously on Linux and other regular hosts, and also some <span class="caps">NAS</span> models you can already use remote protocols by simply resharing them via ShareFSServer, but that type of re-sharing requires a local storage as cache, while the direct support for remote protocols in ShareFSServer means no local storage required).</p>
+        <p><span class="caps">HTH</span></p>]]>
+      </description>
+      <source:markdown>**@ All**
+
+I thought it would be helpful to post this here for everyone, as I have been receiving a few questions about it.
+
+A number of users have asked whether it would be possible to avoid renaming files on the host, and instead keep them exactly as they appear on RISC OS. Unfortunately, this is not possible. Filenames cannot be kept identical to the way they are on RISC OS, because there are a number of technical reasons why some form of transformation is required.
+
+One important point is that RISC OS uses FileType information. As most people here will know, this is a hexadecimal code stored with the file entry in the file table, and it describes the type of file, such as text, HTML, and so on.
+
+That information has to be preserved on the ShareFSServer host. If it is not preserved, problems arise when the file is presented back to RISC OS, because the original filetype information would otherwise be lost.
+
+&#62; But ‘this’ or ‘that’ software does not rename files
+
+In practice, all clients do rename files in some form. The main difference is in how they do it, and where the responsibility for that translation sits.
+
+On top of that, there is also the “position” in the architecture they have, LanMan98 and OmniClient for example are client-side solutions, so they have options available that ShareFSServer does not. For example, on !LanMan98 a user can pass special connection strings in the connection name to change the behavior for a specific share. ShareFSServer, however, is a server-side solution, and the client, RISC OS ShareFS, expects to be talking to another real RISC OS system, at least for now, until I am able to modify ShareFS on RISC OS as well. So also the assumptions are different.
+
+Because of that, ShareFSServer has to present a directory to ShareFS exactly as another real ShareFS system would do. That is the constraint it has to work within.
+
+There are several separate issues involved here.
+
+First, there is Unicode. Where possible, Unicode characters have to be translated to Latin-1. For characters that cannot be translated, the Unicode value has to be introduced in some form in order to preserve the uniqueness of the original filename. Otherwise, different filenames could collapse into the same one.
+
+For example, if unsupported characters were simply removed, then something like:
+
+“File\_\[smiley-face\].txt”
+
+and
+
+“File\_\[sad-face\].txt”
+
+could both become:
+
+“File\_.txt”
+
+Clearly that would create collisions, so the Unicode value is used to ensure the filenames remain distinct.
+
+Second, there are special characters that are illegal in RISC OS filenames, and in some cases the reverse is also true on the host side. These also have to be handled appropriately, because they cannot simply be left unchanged on both sides.
+
+Third, there is the FileType issue mentioned above.
+
+At the moment, ShareFSServer supports two modes, although support for both is not yet fully complete:
+
+1\. HostFS mode
+
+2\. Advanced mode
+
+In HostFS mode, things work broadly in the traditional way, much like RPCEmu:
+
+From RISC OS to ShareFSServer
+
+1.1) “MyFile” of FileType &#38;FAF is renamed on the host as “MyFile,FAF”.
+
+The “,FAF” is used to preserve the original FileType. This already happens on all clients.
+
+1.2) “MyFile/htm” is renamed on the host as “MyFile.htm”.
+
+From ShareFSServer to RISC OS
+
+1.3) If a file is “MyFile.html”, it becomes “MyFile/html”.
+
+This applies to all files with an extension on the PC side.
+
+In Advanced mode, things work as follows:
+
+2.1) “MyFile” of FileType &#38;FAF is renamed as “MyFile.html”, because the mapping from &#38;FAF to HTML is known.
+
+This can be disabled on a per-file basis if needed, but if disabled it falls back to “MyFile,FAF”.
+
+2.2) “MyFile” with a filetype that has no counterpart on a PC is transformed into the usual “MyFile,XXX”, where “,XXX” is the RISC OS filetype.
+
+2.3) “MyFile/html” is renamed as “MyFile,#html.html”.
+
+This is done to preserve both the original “/html” and also make it runnable on a PC, as in 2.1.
+
+From ShareFSServer to RISC OS
+
+2.4) “MyFile.html” is translated into “MyFile” with HTML filetype.
+
+2.5) “MyFile,#html.html” is translated into “MyFile/html” of type HTML.
+
+So the practical difference between the two modes is this:
+
+1\. HostFS mode preserves the more traditional style of operation, but it put responsabilities on the end user to work out interoperability. For example “MyFile,FAF” vs “MyFile.htm”, will need some script to convert and when converting things might break on the RISC OS side.
+
+2\. Advanced mode improves interoperability between the PC side and the RISC OS side (ensuring RISC OS side to be 100% consistent) for file types that are common to both, essentially making it easier to double-click and open common files on either side. For example “MyFile.htm” and “MyFile,#htm.htm” both immediately usable.
+
+If another solution such as LanMan98 is a better fit for a particular workflow, that is of course completely fine. Different tools make different trade-offs. ShareFSServer is aimed more at users who want better network environment for RISC OS, and on top of that allows both user-focused repsonsabilities for interoperability or ShareFSServer focused responsabilities for interoperability. And in both cases files are renamed.
+
+**F.A.Q.**
+
+Q: Why not simply use “MyFile/pdf”?
+
+A: Because that would work only on a Windows host. It does not work on Linux, macOS, BSD, or any future host platforms such as Haiku.
+
+Q: But LanMan98 or XYZ does not change the names
+
+A: In practice, they do rename files as well, usually in the general form “name,XXX”. The difference is that they reduce direct interoperability between the two sides, and leave more of the conversion responsibility to the user, for example through manual handling or scripts. That may be perfectly suitable for some use cases. However, if someone wants to access files easily from both sides, for example movies, PDFs, and similar files, especially on an NAS, and simply double-click them and open them, then this becomes more important. In the case of LanMan98, being a client-side solution, it can also make use of extra connection flags. ShareFSServer cannot do that, because the client is literally the original ANT ShareFS, which was designed for RISC OS hosts.
+
+Q: What about using an hidden file for the metadata?
+
+A: That would definitely work, until a file is moved to another place on the host system, at that point the metadata would be lost and if the file has no extension or \`,XXX\` there would be no way for ShareFSServer to know how to present that file to RISC OS, and it would default to Text or Data.
+
+**Also, not related, but still F.A.Q.:**
+
+Q: Does ShareFSServer can be used on NAS?
+
+A: Yes, absolutely, the easy way is via Docker, there will be an official docker hub with latest updates and for all typical NAS architectures: x86\_64, ARMv7, ARMv8 and also a planned RISC-V build.
+
+Q: But my NAS has no support for Docker!
+
+A: That is NOT a problem. You have already noticed that ShareFSServer is completely self contained, it has no external dependecies (not evel the Standard C Library!) apart from the OS syscalls. That means you can also install on NAS without Docker support, but on those installation may not be as straight forward as on the NAS that support Docker.
+
+Q: When I install it on a NAS, will my NAS become RISC OS compatible?
+
+A: I am not 100% sure what does this mean exactly, but YES the NAS will appear as a RISC OS system on your network and you’ll be able to access the resources as you would on another RISC OS system.
+
+Q: But how do I operate it from a NAS?
+
+A: We are just starting this path to get ShareFSServer complete, so please relax and be patient. I am already working on an embedded Web Management UI that will work from Acorn !Browse to ROD !Iris. So you’ll use your browser to operate the system.
+
+Q: Can I access remote resources from the NAS too?
+
+A: Yes, you can already see that, for example, the experimental SFTP support is embedded in ShareFSServer, so all you need to do is configure a share that access your system in the other side of the world, and that system will appear as local to your RISC OS system all the way down to your Archimedes (with RISC OS 3.10) included.
+
+(obviously on Linux and other regular hosts, and also some NAS models you can already use remote protocols by simply resharing them via ShareFSServer, but that type of re-sharing requires a local storage as cache, while the direct support for remote protocols in ShareFSServer means no local storage required).
+
+HTH</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:162717</guid>
+    </item>    <item>
+      <title>Audio on RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20323</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>This list is not exhaustive, I must have forgotten some…<br />
+        If anyone would like to rewrite this list correctly, I would appreciate it.</p>
+        </blockquote>
+        <p>I might try at some point, but I&#8217;m only really familiar with the subject from a video game perspective, not from a composing perspective.</p>
+        <p>That said, I do have a couple of additional points (and questions):</p>
+        <blockquote>
+        <p>Today we use the <span class="caps">HDMI</span> output, therefore digital, it is your monitor which does the conversion, otherwise there are boxes that can extract the audio from the <span class="caps">HDMI</span>.</p>
+        </blockquote>
+        <p>I mentioned it on the other thread, but the 3.5mm audio jack on the Pi is supported as well. However <span class="caps">RISC</span> OS and/or the firmware has difficulty with autodetecting audio over <span class="caps">HDMI</span>, so you may need to turn it off by adding &#8220;hdmi_ignore_edid_audio=1&#8221; to the config.txt, as described <a href="https://www.riscosopen.org/wiki/documentation/show/config.txt%20(Raspberry%20Pi)#TOC4">here.</a></p>
+        <p>This only applies to the Pi &#8211; other devices implement audio output differently. The Pinebook for example is capable of switching between internal and external output automatically when headphones are plugged in and removed, which is handled directly by <span class="caps">RISC</span> OS.</p>
+        <blockquote>
+        <p>Pete Everett made a very good adaptation of Midiman (<span class="caps">ESP</span>) for our machines with a Midi device manager (<span class="caps">USB</span>/Serial) and added an internal MidiSynthé for those who don’t have an expander.</p>
+        </blockquote>
+        <p>One caveat I should mention is that Pete&#8217;s version of MidiSynth was <em>very</em> slow on the RiscPC when I last tried it, even when there&#8217;s no sound being played &#8211; this might not be an issue for composers who would likely be using newer machines, but it does prevent it from being used for games like Doom and Syndicate on older machines.</p>
+        <p>I haven&#8217;t tried the <span class="caps">USB</span> <span class="caps">MIDI</span> driver from Pete&#8217;s version though &#8211; how does it compare to Rick Murray&#8217;s version?</p>
+        <blockquote>
+        <p><span class="caps">PMS</span>/<span class="caps">PMW</span> from Philip Hazel, works with a very powerful script editor. There are two versions 3.20 (<span class="caps">PMS</span>) and an adaptation of the much more recent version 5.33 (<span class="caps">PMW</span>).</p>
+        </blockquote>
+        <p>Could you elaborate on the difference between the two?</p>
+        <blockquote>
+        <p>For direct use via <span class="caps">USB</span>, a program which allows you to listen to wav or Mp3 files on a <span class="caps">USB</span> dac box is that of Colin Granville: IsocUSB, I use it with a Steinberg box or with a Behringer CA202.</p>
+        </blockquote>
+        <p>How difficult would it be to support <span class="caps">USB</span> audio at the OS level as a driver module?</p>
+        <blockquote>
+        <p>With Colin Granville’s IscoUSB modules you can even record with Prosound, Raik Fischer tested it with a headset… I use it with my UR22 and the ECA202</p>
+        </blockquote>
+        <p>Do you know if there have been any recent efforts to create a generic abstraction layer over microphone input?</p>]]>
+      </description>
+      <source:markdown>&#62; This list is not exhaustive, I must have forgotten some…
+&#62;
+&#62; If anyone would like to rewrite this list correctly, I would appreciate it.
+
+I might try at some point, but I’m only really familiar with the subject from a video game perspective, not from a composing perspective.
+
+That said, I do have a couple of additional points (and questions):
+
+&#62; Today we use the HDMI output, therefore digital, it is your monitor which does the conversion, otherwise there are boxes that can extract the audio from the HDMI.
+
+I mentioned it on the other thread, but the 3.5mm audio jack on the Pi is supported as well. However RISC OS and/or the firmware has difficulty with autodetecting audio over HDMI, so you may need to turn it off by adding “hdmi\_ignore\_edid\_audio=1” to the config.txt, as described [here.](https://www.riscosopen.org/wiki/documentation/show/config.txt%20(Raspberry%20Pi)#TOC4)
+
+This only applies to the Pi – other devices implement audio output differently. The Pinebook for example is capable of switching between internal and external output automatically when headphones are plugged in and removed, which is handled directly by RISC OS.
+
+&#62; Pete Everett made a very good adaptation of Midiman (ESP) for our machines with a Midi device manager (USB/Serial) and added an internal MidiSynthé for those who don’t have an expander.
+
+One caveat I should mention is that Pete’s version of MidiSynth was _very_ slow on the RiscPC when I last tried it, even when there’s no sound being played – this might not be an issue for composers who would likely be using newer machines, but it does prevent it from being used for games like Doom and Syndicate on older machines.
+
+I haven’t tried the USBMIDI driver from Pete’s version though – how does it compare to Rick Murray’s version?
+
+&#62; PMS/PMW from Philip Hazel, works with a very powerful script editor. There are two versions 3.20 (PMS) and an adaptation of the much more recent version 5.33 (PMW).
+
+Could you elaborate on the difference between the two?
+
+&#62; For direct use via USB, a program which allows you to listen to wav or Mp3 files on a USB dac box is that of Colin Granville: IsocUSB, I use it with a Steinberg box or with a Behringer CA202.
+
+How difficult would it be to support USB audio at the OS level as a driver module?
+
+&#62; With Colin Granville’s IscoUSB modules you can even record with Prosound, Raik Fischer tested it with a headset… I use it with my UR22 and the ECA202
+
+Do you know if there have been any recent efforts to create a generic abstraction layer over microphone input?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20323:162715</guid>
+    </item>    <item>
+      <title>Using RiscOSM to track railway history – WROCC meeting, 1st April</title>
+      <link>https://www.riscository.com/2026/riscosm-and-railway-history-wrocc-meeting-1st-april/</link>
+      <description>
+        <![CDATA[The next meeting of the Wakefield RISC OS Computer Club (WROCC) will take place on Wednesday 1st, April, and the club will be playing virtual host to Chris Hall, who will be talking about RiscOSM in the context of documenting and illustrating railway history. Chris will explain how essential Sine Nomine&#8217;s OpenStreetMap-based mapping application has become to him in the task, serving as a digital cartography tool that allows him to dispense with the &#8216;trial and error&#8217; of older approaches to mapping. He will show how he uses it in&#8230;]]>
+      </description>
+      <source:markdown>The next meeting of the Wakefield RISC OS Computer Club (WROCC) will take place on Wednesday 1st, April, and the club will be playing virtual host to Chris Hall, who will be talking about RiscOSM in the context of documenting and illustrating railway history. Chris will explain how essential Sine Nomine’s OpenStreetMap-based mapping application has become to him in the task, serving as a digital cartography tool that allows him to dispense with the ‘trial and error’ of older approaches to mapping. He will show how he uses it in…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10920</guid>
+    </item>    <item>
+      <title>ScummVM 2026.2.0 released</title>
+      <link>https://www.riscository.com/2026/scummvm-2026-2-0-released/</link>
+      <description>
+        <![CDATA[Benefitting from a new, more frequent release cycle, another new version of ScummVM is available &#8211; version 2026.2.0! The software was originally developed to games written using a particular system &#8211; LucasArts&#8217; Script Creation Utility for Maniac Mansion &#8211; to be played on modern systems. However, the software has expanded way beyond that and now supports a range of game engines, and as a result a whole host of games. There is a team of developers maintaining it, with Cameron Cawley keeping the port to RISC OS in line with&#8230;]]>
+      </description>
+      <source:markdown>Benefitting from a new, more frequent release cycle, another new version of ScummVM is available – version 2026.2.0! The software was originally developed to games written using a particular system – LucasArts’ Script Creation Utility for Maniac Mansion – to be played on modern systems. However, the software has expanded way beyond that and now supports a range of game engines, and as a result a whole host of games. There is a team of developers maintaining it, with Cameron Cawley keeping the port to RISC OS in line with…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10918</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mice63ed6s2d</link>
+      <description>
+        <![CDATA[WROCC April 2026 talk on Wednesday  
+        
+        https://www.iconbar.com/articles/WROCC_April_2026_talk_on_Wednesday_/index2310.html 
+        
+        The April 2026 WROCC talk is on Wednesday 1st April and starts at 7.45pm on Zoom. That's after 12 o'clock so no April Fools....]]>
+      </description>
+      <source:markdown>WROCC April 2026 talk on Wednesday
+
+https://www.iconbar.com/articles/WROCC\_April\_2026\_talk\_on\_Wednesday\_/index2310.html
+
+The April 2026 WROCC talk is on Wednesday 1st April and starts at 7.45pm on Zoom. That&#39;s after 12 o&#39;clock so no April Fools....</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mice63ed6s2d</guid>
+    </item>    <item>
       <title>ARM now making its own Silicon</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20322</link>
       <description>
@@ -50,91 +442,22 @@ The application also allows you to kill the current task using an adaptation of 
 Good luck, your tutorial should attract new programmers….</source:markdown>
       <guid>cid://www.riscosopen.org:1:20317:162712</guid>
     </item>    <item>
-      <title>Audio on RISC OS</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20323</link>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
       <description>
-        <![CDATA[<p>After reading the thread,<br />
-          <a href="https://www.riscosopen.org/forum/forums/13/topics/20321">https://www.riscosopen.org/forum/forums/13/topics/20321</a><br />
-         Just to inform (new) users about the audio possibilities of our OS</p>
-        
-        		<ul>
-        			<li>Audio on Risco <strong>*</strong><br />
-        You can listen to the internal sound on an analog output for machines with their own analog converter: Pi3/Pi4 and old hardware.</li>
-        		</ul><p>Today we use the <span class="caps">HDMI</span> output, therefore digital, it is your monitor which does the conversion, otherwise there are boxes that can extract the audio from the <span class="caps">HDMI</span>.</p>
-        <p>To listen to music, there is a very good program maintained by André Timmermans DigitalCD which works very well for many types of audio files (Wav/Mp3/Radio/Midi&#8230;)</p>
-        <p>For direct use via <span class="caps">USB</span>, a program which allows you to listen to wav or Mp3 files on a <span class="caps">USB</span> dac box is that of Colin Granville: IsocUSB, I use it with a Steinberg box or with a Behringer CA202.</p>
-        <p>To make the music: <br />
-        Pete Everett made a very good adaptation of Midiman (<span class="caps">ESP</span>) for our machines with a Midi device manager (<span class="caps">USB</span>/Serial) and added an internal MidiSynthé for those who don&#8217;t have an expander.</p>
-        <p>To edit scores: <br />
-        • With Risc OS comes !Maestro which has been adapted to play in Midi, so it works with MidiSynthé. <br />
-        • More complete editor Rhapsody 4 with permission of its author Jo. Linton, which I use very often and try to maintain. <br />
-        • <span class="caps">PMS</span>/<span class="caps">PMW</span> from Philip Hazel, works with a very powerful script editor. There are two versions 3.20 (<span class="caps">PMS</span>) and an adaptation of the much more recent version 5.33 (<span class="caps">PMW</span>).</p>
-        <p>• Audio conversion:<br />
-          Sox, lame, etc.</p>
-        <p>• Edition audio<br />
-          deux programmes par Henrik B. Pedersen<br />
-          &#8211; Prosound<br />
-          &#8211; StudioSnd</p>
-        <p>Note1:<br />
-         Prosound has been &#8220;redesigned&#8221; to work on a CM4, everything planned in the manual is functional.<br />
-         With Colin Granville&#8217;s IscoUSB modules you can even record with Prosound, Raik Fischer tested it with a headset&#8230; I use it with my UR22 and the ECA202 <br />
-         Audio reproduction is always done via <span class="caps">HDMI</span>.</p>
-        <p>This list is not exhaustive, I must have forgotten some&#8230;<br />
-        If anyone would like to rewrite this list correctly, I would appreciate it.</p>]]>
+        <![CDATA[<p>I have just written a new RISCOSpi image and Packman 0.9.7 is present in $.Apps, so that could update itself to the latest, 0.9.8.</p>
+        <p>ROOL&#8217;s Harddisc4 image does not contain Packman.</p>
+        <p>A newly created <span class="caps">RISC</span> OS Direct also has Packman in $.Apps, but version is 0.9.1.</p>
+        <p>Note that the contents of $.Apps also appear in the icon bar Apps icon.</p>]]>
       </description>
-      <source:markdown>After reading the thread,
+      <source:markdown>I have just written a new RISCOSpi image and Packman 0.9.7 is present in $.Apps, so that could update itself to the latest, 0.9.8.
 
-[https://www.riscosopen.org/forum/forums/13/topics/20321](https://www.riscosopen.org/forum/forums/13/topics/20321)
+ROOL’s Harddisc4 image does not contain Packman.
 
-Just to inform (new) users about the audio possibilities of our OS
+A newly created RISC OS Direct also has Packman in $.Apps, but version is 0.9.1.
 
-- Audio on Risco **\***
-
-
-  You can listen to the internal sound on an analog output for machines with their own analog converter: Pi3/Pi4 and old hardware.
-
-Today we use the HDMI output, therefore digital, it is your monitor which does the conversion, otherwise there are boxes that can extract the audio from the HDMI.
-
-To listen to music, there is a very good program maintained by André Timmermans DigitalCD which works very well for many types of audio files (Wav/Mp3/Radio/Midi…)
-
-For direct use via USB, a program which allows you to listen to wav or Mp3 files on a USB dac box is that of Colin Granville: IsocUSB, I use it with a Steinberg box or with a Behringer CA202.
-
-To make the music:
-
-Pete Everett made a very good adaptation of Midiman (ESP) for our machines with a Midi device manager (USB/Serial) and added an internal MidiSynthé for those who don’t have an expander.
-
-To edit scores:
-
-• With Risc OS comes !Maestro which has been adapted to play in Midi, so it works with MidiSynthé.
-
-• More complete editor Rhapsody 4 with permission of its author Jo. Linton, which I use very often and try to maintain.
-
-• PMS/PMW from Philip Hazel, works with a very powerful script editor. There are two versions 3.20 (PMS) and an adaptation of the much more recent version 5.33 (PMW).
-
-• Audio conversion:
-
-Sox, lame, etc.
-
-• Edition audio
-
-deux programmes par Henrik B. Pedersen
-
-– Prosound
-
-– StudioSnd
-
-Note1:
-
-Prosound has been “redesigned” to work on a CM4, everything planned in the manual is functional.
-
-With Colin Granville’s IscoUSB modules you can even record with Prosound, Raik Fischer tested it with a headset… I use it with my UR22 and the ECA202
-
-Audio reproduction is always done via HDMI.
-
-This list is not exhaustive, I must have forgotten some…
-
-If anyone would like to rewrite this list correctly, I would appreciate it.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20323:162709</guid>
+Note that the contents of $.Apps also appear in the icon bar Apps icon.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:162711</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mibyartczk2x</link>
       <description>
@@ -179,23 +502,6 @@ https://media.tenor.com/R5gi51Vxx\_8AAAAC/jack-nicholson-yes.gif?hh=396&#38;ww=4
       <source:markdown>The amazing chiptune.app player can be found on GitHub. For me, probably the best JS code ever created! Thank you, @mattmontag.bsky.social
 https://github.com/mmontag/chip-player-js</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mibexx4mkc2x</guid>
-    </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>Hi,<br />
-        About Packman, I accidentally deleted my &#8220;sources for packages&#8221; list, and I&#8217;m having trouble updating it.</p>
-        <p>I tried the links referenced by Know sources, but there seems to be a problem to get sources, am I making a mistake?<br />
-        Chris, luckily you put a link to download pythonupdates/zip&#8230;</p>]]>
-      </description>
-      <source:markdown>Hi,
-
-About Packman, I accidentally deleted my “sources for packages” list, and I’m having trouble updating it.
-
-I tried the links referenced by Know sources, but there seems to be a problem to get sources, am I making a mistake?
-
-Chris, luckily you put a link to download pythonupdates/zip…</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:162696</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mib6b2mpds2o</link>
       <description>
@@ -358,14 +664,6 @@ https://chiptune.app/browse</source:markdown>
 Will someone PLEASE explain to these numbskulls the etymology of &#34;manned&#34;. For all mankind. Before there&#39;s a manslaughter. Somebody call the ombudsman. Oh, the humanity!</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mi7ioxrlrc2e</guid>
     </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p>thanks man! Very much appreciated.</p>]]>
-      </description>
-      <source:markdown>thanks man! Very much appreciated.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:162663</guid>
-    </item>    <item>
       <title>ScummVM 2026.2.0 &#38;quot;Railmonicon&#38;quot; sees the light</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20318</link>
       <description>
@@ -413,17 +711,6 @@ https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=4#post
 
 #riscos #FileSharing #Linux #WIndows #macOS #BSD</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mi4qkkqq5s2k</guid>
-    </item>    <item>
-      <title>RISC OS Developments at RISC OS North - Firewall and Iris</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20300</link>
-      <description>
-        <![CDATA[<p>@david pitt &#8211; if you have the time, it&#8217;d be useful to locate some of the extra libraries needed by <span class="caps">GCC</span> in your master !SharedLibs and zip them up (with the required folder structure so that I know where to put them) and send them over.  I&#8217;m happy to add extras to the all-in-one Iris if it helps other programs work.</p>
-        <p>I know it is somewhat superfluous now it is on PackMan, but I also know that some people still prefer the monolithic version, so we might as well make it as good as it can be :)</p>]]>
-      </description>
-      <source:markdown>@david pitt – if you have the time, it’d be useful to locate some of the extra libraries needed by GCC in your master !SharedLibs and zip them up (with the required folder structure so that I know where to put them) and send them over. I’m happy to add extras to the all-in-one Iris if it helps other programs work.
-
-I know it is somewhat superfluous now it is on PackMan, but I also know that some people still prefer the monolithic version, so we might as well make it as good as it can be :)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20300:162615</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mi3bpamsis2n</link>
       <description>
@@ -1157,14 +1444,6 @@ See it live at the RISC OS North Show, and at RISCOSbits HQ – at the same time
       </description>
       <source:markdown>We’ll have **Fireworkz** 2.33 CDs available – this isn’t technically a new release as it came out for London last year, but it may well be new to RISC OS North visitors.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20302:162471</guid>
-    </item>    <item>
-      <title>Archive Magazine Feb/Mar 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20305</link>
-      <description>
-        <![CDATA[<p>I&#8217;ll check it out, thanks for let me know.</p>]]>
-      </description>
-      <source:markdown>I’ll check it out, thanks for let me know.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20305:162470</guid>
     </item>    <item>
       <title>Out tomorrow - Drag N Drop</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20306</link>
