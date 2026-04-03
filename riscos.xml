@@ -7,10 +7,170 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>02 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>03 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>RISC OS in a Post-AI World: Could Simplicity Be the Missing Link in Education?</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13578&#38;page=1#125880</link>
+      <description>
+        <![CDATA[double-post]]>
+      </description>
+      <source:markdown>double-post</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13578&#38;page=1#125880</guid>
+    </item>    <item>
+      <title>RISC OS in a Post-AI World: Could Simplicity Be the Missing Link in Education?</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13578&#38;page=1#125879</link>
+      <description>
+        <![CDATA[It goes even further, unfortunately, to IT suppliers into schools and those setting the curriculum and goalposts.]]>
+      </description>
+      <source:markdown>It goes even further, unfortunately, to IT suppliers into schools and those setting the curriculum and goalposts.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13578&#38;page=1#125879</guid>
+    </item>    <item>
+      <title>Filer Changes</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20332</link>
+      <description>
+        <![CDATA[<p>I&#8217;m sure this has been asked before, but when you open a filer window and ask to sort by Name or Type, it doesn&#8217;t seem to retain this setting.<br />
+        It would be nice if <span class="caps">RISC</span> OS could do this with the next update</p>]]>
+      </description>
+      <source:markdown>I’m sure this has been asked before, but when you open a filer window and ask to sort by Name or Type, it doesn’t seem to retain this setting.
+
+It would be nice if RISC OS could do this with the next update</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20332:162816</guid>
+    </item>    <item>
+      <title>Printing</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/14646</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve updated the PDumperURF module again, this time to fix a bug that only showed up in certain circumstances.  You’ll find the new Dumpers zip, version 0.04, on my website, <a href="http://davehigton.me.uk">http://davehigton.me.uk</a> in the “IPP printing” section.</p>]]>
+      </description>
+      <source:markdown>I’ve updated the PDumperURF module again, this time to fix a bug that only showed up in certain circumstances. You’ll find the new Dumpers zip, version 0.04, on my website, [http://davehigton.me.uk](http://davehigton.me.uk) in the “IPP printing” section.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:14646:162814</guid>
+    </item>    <item>
+      <title>Updated map data for RiscOSM</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20331</link>
+      <description>
+        <![CDATA[<p>The full set of new map data for RiscOSM is now available on the <a href="https://sinenomine.co.uk/software/riscosm/downloads.php">Sine Nomine Software website</a>.</p>
+        <p>(And this is being sent from a PineBook connected to Transport for Wales Wifi on a train approaching Shrewsbury! It&#8217;s a first time for me connecting to the forum from <span class="caps">RISC</span> OS while on the move.)</p>]]>
+      </description>
+      <source:markdown>The full set of new map data for RiscOSM is now available on the [Sine Nomine Software website](https://sinenomine.co.uk/software/riscosm/downloads.php).
+
+(And this is being sent from a PineBook connected to Transport for Wales Wifi on a train approaching Shrewsbury! It’s a first time for me connecting to the forum from RISC OS while on the move.)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20331:162813</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3milvatwzss2x</link>
+      <description>
+        <![CDATA[May the Forth be with you. 🚀🕹️🛸 #riscos #raspberrypi #acorn #forth #computer #language
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>May the Forth be with you. 🚀🕹️🛸 #riscos #raspberrypi #acorn #forth #computer #language
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3milvatwzss2x</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/archiveriscos.bsky.social/post/3milupcjbjc2j</link>
+      <description>
+        <![CDATA[Files to accompany the 'RISC OS and Forth' article in the latest issue of Archive Magazine are now available to download. www.archivemag.co.uk/2802
+        
+        Archive is the magazine for RISC OS users, available in both printed and digital formats.
+        
+        #riscos #raspberrypi #acorn]]>
+      </description>
+      <source:markdown>Files to accompany the &#39;RISC OS and Forth&#39; article in the latest issue of Archive Magazine are now available to download. www.archivemag.co.uk/2802
+
+Archive is the magazine for RISC OS users, available in both printed and digital formats.
+
+#riscos #raspberrypi #acorn</source:markdown>
+      <guid>cid://at://did:plc:3nemd4ccpca5uxluat5znw4s/app.bsky.feed.post/3milupcjbjc2j</guid>
+    </item>    <item>
+      <title>Archive Magazine Feb/Mar 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20305</link>
+      <description>
+        <![CDATA[<p>Files related to the Forth article in the new issue are now available for download.</p>
+        <p><a href="https://www.archivemag.co.uk/2802/">https://www.archivemag.co.uk/2802/</a></p>]]>
+      </description>
+      <source:markdown>Files related to the Forth article in the new issue are now available for download.
+
+[https://www.archivemag.co.uk/2802/](https://www.archivemag.co.uk/2802/)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20305:162812</guid>
+    </item>    <item>
+      <title>Paint, Draw, OS_EnterOS and ModuleWrap</title>
+      <link>https://www.riscosopen.org/forum/forums/9/topics/20330</link>
+      <description>
+        <![CDATA[<p>Paint and Draw (at least) are having problems starting up under my multi-processing kernel.</p>
+        <p>I think it’s probably because when they want some stack on startup, they use OS_EnterOS and just run in supervisor mode for a bit…</p>
+        <pre><code>ModuleWrap_Start ROUT
+                ; Pop up into SVC mode to get some stack
+                SWI     XOS_EnterOS
+                BVS     %FT99</code></pre>
+        <p>Or maybe the</p>
+        <pre><code>        ; Store the magic stack limit things
+                LDMIA   sl, {r1, r2}
+                Push    "r1,r2,r4,sl"</code>
+        
+        <code>        ; Initialise the application
+                MOV     r0, #1                  ; Initialise re-entrantly
+                BL      |_clib_initialisemodule|</code>
+        
+        <code>        ; Restore the magic stack limit things
+                Pull    "r1,r2,r4,sl"
+                STMIA   sl, {r1,r2}</code></pre>
+        <p>No, it&#8217;s almost certainly this part:</p>
+        <pre><code>        ; Drop back into user mode
+                MOV     r12, #3
+                MRS     r12, CPSR
+                TST     r12, #2_11100
+                TEQEQP  pc, #Z_bit              ; keeps EQ
+                MSRNE   CPSR_c, #USR32_mode     ; acts as NOP for TEQP :)</code></pre>
+        <p><a href="https://www.riscosopen.org/forum/forums/1/topics/20328?limit=25&amp;page=1#posts-162804">https://www.riscosopen.org/forum/forums/1/topics/20328…</a></p>
+        <p>Any ideas?</p>
+        <p>The call it makes to OS_EnterOS assumes that the <span class="caps">SVC</span> stack it obtains will be based on a MiB boundary and have some &#8220;magic&#8221; at the bottom. Is this a documented feature that module writers are expected to use?</p>]]>
+      </description>
+      <source:markdown>Paint and Draw (at least) are having problems starting up under my multi-processing kernel.
+
+I think it’s probably because when they want some stack on startup, they use OS\_EnterOS and just run in supervisor mode for a bit…
+
+```
+ModuleWrap_Start ROUT
+        ; Pop up into SVC mode to get some stack
+        SWI     XOS_EnterOS
+        BVS     %FT99
+```
+
+Or maybe the
+
+```
+        ; Store the magic stack limit things
+        LDMIA   sl, {r1, r2}
+        Push    &#34;r1,r2,r4,sl&#34;
+
+        ; Initialise the application
+        MOV     r0, #1                  ; Initialise re-entrantly
+        BL      |_clib_initialisemodule|
+
+        ; Restore the magic stack limit things
+        Pull    &#34;r1,r2,r4,sl&#34;
+        STMIA   sl, {r1,r2}
+```
+
+No, it’s almost certainly this part:
+
+```
+        ; Drop back into user mode
+        MOV     r12, #3
+        MRS     r12, CPSR
+        TST     r12, #2_11100
+        TEQEQP  pc, #Z_bit              ; keeps EQ
+        MSRNE   CPSR_c, #USR32_mode     ; acts as NOP for TEQP :)
+```
+
+[https://www.riscosopen.org/forum/forums/1/topics/20328…](https://www.riscosopen.org/forum/forums/1/topics/20328?limit=25&#38;page=1#posts-162804)
+
+Any ideas?
+
+The call it makes to OS\_EnterOS assumes that the SVC stack it obtains will be based on a MiB boundary and have some “magic” at the bottom. Is this a documented feature that module writers are expected to use?</source:markdown>
+      <guid>cid://www.riscosopen.org:9:20330:162806</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mijr2vgnuc2h</link>
       <description>
         <![CDATA[Acorn really dropped the ball when it came to RISC OS Path Vars (like Run$Path) by using a valid chr as separator (“,”) when there was an obvious alternative – space.
@@ -29,6 +189,17 @@ Though FileSwitch is therefore gimped we could have done better... but it’s HA
       <source:markdown>The first, and last, LEGO STAR WARS videogames I worked on - released in 2005 and 2022. I helped port the original videogame to PC and was a member of the render technology team for Skywalker Saga. Amazing teams to work with.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mijq4ubzx22a</guid>
     </item>    <item>
+      <title>Automount additional FAT32 partition on boot</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20325</link>
+      <description>
+        <![CDATA[<p>@Raik: I&#8217;ve created a &#8220;MountFat32&#8221; Obey-file and posted it in $.!Boot.Choices.Boot.PreDesk. There it will not automatically be executed. It did nothing, I had to double-click it. From there I&#8217;ve moved it into $.!Boot.Choices.Boot.Tasks. From there the Obey-file is being executed but the 2nd line: &#8220;AddTinyDir Fat32fs::16&#8221; is ignored. Only when I directly click on it, it will create a folder symbol with &#8220;$&#8221; on the Icon Bar.<br />
+        I&#8217;ve not understood your last line: &#8220;If you create an “app” with an icon, you can add(tiny) a device icon to the iconbar like I do e.g. in my LinuxPort settings.&#8221;</p>]]>
+      </description>
+      <source:markdown>@Raik: I’ve created a “MountFat32” Obey-file and posted it in $.!Boot.Choices.Boot.PreDesk. There it will not automatically be executed. It did nothing, I had to double-click it. From there I’ve moved it into $.!Boot.Choices.Boot.Tasks. From there the Obey-file is being executed but the 2nd line: “AddTinyDir Fat32fs::16” is ignored. Only when I directly click on it, it will create a folder symbol with “$” on the Icon Bar.
+
+I’ve not understood your last line: “If you create an “app” with an icon, you can add(tiny) a device icon to the iconbar like I do e.g. in my LinuxPort settings.”</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20325:162798</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mijjxh5h2s2m</link>
       <description>
         <![CDATA[I'm sorry Dave I can't email that.
@@ -40,12 +211,31 @@ Though FileSwitch is therefore gimped we could have done better... but it’s HA
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mijjxh5h2s2m</guid>
     </item>    <item>
+      <title>RISC OS Wimp running on four cores of a RPi3</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20328</link>
+      <description>
+        <![CDATA[<p>Yeah i never realised the wimp was actually functioning with multicore, so seeing !Alarm using different cores was impressive, how is the testing going with other apps? are they responding well or causing you headaches lol</p>]]>
+      </description>
+      <source:markdown>Yeah i never realised the wimp was actually functioning with multicore, so seeing !Alarm using different cores was impressive, how is the testing going with other apps? are they responding well or causing you headaches lol</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20328:162797</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mijfwiviqk2v</link>
       <description>
         <![CDATA[Latest new toy... a fully working, refurbished Psion netBook! What a beauty 😍]]>
       </description>
       <source:markdown>Latest new toy... a fully working, refurbished Psion netBook! What a beauty 😍</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mijfwiviqk2v</guid>
+    </item>    <item>
+      <title>DiscKnight on 5.31</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20315</link>
+      <description>
+        <![CDATA[<p>@Chris:  If you are asking me how I disabled <span class="caps">DMA</span>, I think I simply did <br />
+        <code>*RMKill DMAManager</code></p>]]>
+      </description>
+      <source:markdown>@Chris: If you are asking me how I disabled DMA, I think I simply did
+
+`*RMKill DMAManager`</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20315:162796</guid>
     </item>    <item>
       <title>MuView and rendering PDF pages</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
@@ -109,17 +299,6 @@ Well at least going so slowly you can wind down the window and ask someone walki
 Cymru – cadwch allan!</source:markdown>
       <guid>cid://www.riscosopen.org:1:20326:162788</guid>
     </item>    <item>
-      <title>DiscKnight on 5.31</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20315</link>
-      <description>
-        <![CDATA[<p>Panic over, it turns out it was a power supply issue, but very strangely was only known to affect DiscKnight <span class="caps">GUI</span> and one other program.<br />
-        With reduced <span class="caps">USB</span> load on the machine DK <span class="caps">GUI</span> works fine on 5.31</p>]]>
-      </description>
-      <source:markdown>Panic over, it turns out it was a power supply issue, but very strangely was only known to affect DiscKnight GUI and one other program.
-
-With reduced USB load on the machine DK GUI works fine on 5.31</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20315:162787</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3miiu56r2ps24</link>
       <description>
         <![CDATA[I'm now witnessing, in real time, AI being used to not only review existing code repos, but then auto-generate backlog items which AI then works on, submits PRs for, and merges back to the repo.
@@ -130,38 +309,6 @@ With reduced USB load on the machine DK GUI works fine on 5.31</source:markdown>
 
 It&#39;s a complete lobotomisation of the software engineering process. I cannot see how this ends well.</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3miiu56r2ps24</guid>
-    </item>    <item>
-      <title>Automount additional FAT32 partition on boot</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20325</link>
-      <description>
-        <![CDATA[<p>FAT32FS has a ReadMe inside the <a href="https://sites.google.com/site/jeffreyadoggett/">download</a>.<br />
-        Drive numbers 16 &#8211; 23 are fore <span class="caps">SDFS</span>. RPi has one SD so 16 should be the right (Pandora has two&#8230; 16 + 17).<br />
-        First step&#8230; FAT32FS in PreDesk&#8230; done.<br />
-        At first try an Obey from Desktop&#8230; FAT32FS:mount -fp2 :16 { &gt; null: } &#8230; -f will launch a filer window.<br />
-        I have nothing to try but it is possible that you have to mount p3. Loader in !Boot is a DOSImage and (maybe) detected as a partition.<br />
-        Note: Obey is not an extension. Is a filetype. You can create an Obey with Edit or StrondED or write your line in a Textfile, save it and change the filetyp to obey via menu.<br />
-        If the mount-line is working try addtinydir fat32fs::16.<br />
-        I have my mount and addtiny Obey&#8217;s in !Boot.Choices.Boot.Tasks.<br />
-        If you create an &#8220;app&#8221; with an icon, you can add(tiny) a device icon to the iconbar like I do e.g. in my LinuxPort settings.</p>]]>
-      </description>
-      <source:markdown>FAT32FS has a ReadMe inside the [download](https://sites.google.com/site/jeffreyadoggett/).
-
-Drive numbers 16 – 23 are fore SDFS. RPi has one SD so 16 should be the right (Pandora has two… 16 + 17).
-
-First step… FAT32FS in PreDesk… done.
-
-At first try an Obey from Desktop… FAT32FS:mount -fp2 :16 { &#62; null: } … -f will launch a filer window.
-
-I have nothing to try but it is possible that you have to mount p3. Loader in !Boot is a DOSImage and (maybe) detected as a partition.
-
-Note: Obey is not an extension. Is a filetype. You can create an Obey with Edit or StrondED or write your line in a Textfile, save it and change the filetyp to obey via menu.
-
-If the mount-line is working try addtinydir fat32fs::16.
-
-I have my mount and addtiny Obey’s in !Boot.Choices.Boot.Tasks.
-
-If you create an “app” with an icon, you can add(tiny) a device icon to the iconbar like I do e.g. in my LinuxPort settings.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20325:162782</guid>
     </item>    <item>
       <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3miidoctddk27</link>
       <description>
@@ -184,14 +331,6 @@ A similar mission concept was often adopted by my parents in the &#39;70s when I
       <source:markdown>#RISC\_OS Simon&#39;s PR is always quite minimalistic, so let&#39;s make this to spread please. He is working on one of the few projects to reimplement RO in a more modern fashion and today he shared that his work has finally achieved WIMP running on multi-core!!! video:
 https://www.riscosopen.org/forum/forums/1/topics/20328</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mihuhfobuk2m</guid>
-    </item>    <item>
-      <title>RISC OS Wimp running on four cores of a RPi3</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20328</link>
-      <description>
-        <![CDATA[<p>Oh, by the way, I deleted my github account, moved to <a href="https://codeberg.org/Simon_Willcocks/K2">https://codeberg.org/Simon_Willcocks/K2</a></p>]]>
-      </description>
-      <source:markdown>Oh, by the way, I deleted my github account, moved to [https://codeberg.org/Simon\_Willcocks/K2](https://codeberg.org/Simon_Willcocks/K2)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20328:162778</guid>
     </item>    <item>
       <link>https://bsky.app/profile/armbytes.bsky.social/post/3mihiw2xbpc2e</link>
       <description>
@@ -334,14 +473,6 @@ Far be it from me to tell anyone else what to do with their own hobby, but I’d
 
 I take my hat off to you Paolo – it sounds great.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20267:162741</guid>
-    </item>    <item>
-      <title>Archive Magazine Feb/Mar 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20305</link>
-      <description>
-        <![CDATA[<p>Mine arrived Saturday</p>]]>
-      </description>
-      <source:markdown>Mine arrived Saturday</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20305:162740</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mieqya3j7s2z</link>
       <description>
@@ -2537,14 +2668,6 @@ Have fun and, as usual, let me know if there are any more issues.</source:markdo
 
 I didn’t spot it on the compiler menu, but maybe it is still working its way through :)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20291:162296</guid>
-    </item>    <item>
-      <title>Printing</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/14646</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve updated the PDumperURF module to correct a rather important deficiency &#8211; it didn&#8217;t rotate the reverse side of double sided long edge printouts.  You&#8217;ll find the new Dumpers zip on my website, <a href="http://davehigton.me.uk">http://davehigton.me.uk</a> in the &#8220;<span class="caps">IPP</span> printing&#8221; section.</p>]]>
-      </description>
-      <source:markdown>I’ve updated the PDumperURF module to correct a rather important deficiency – it didn’t rotate the reverse side of double sided long edge printouts. You’ll find the new Dumpers zip on my website, [http://davehigton.me.uk](http://davehigton.me.uk) in the “IPP printing” section.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:14646:162295</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mgxwguy45224</link>
       <description>
