@@ -7,10 +7,187 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>03 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>04 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Paint, Draw, OS_EnterOS and ModuleWrap</title>
+      <link>https://www.riscosopen.org/forum/forums/9/topics/20330</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Yes he started a lot earlier</p>
+        </blockquote>
+        <p>Are you calling me slow?</p>
+        <p><sub>I&#8217;m joking!</sub></p>]]>
+      </description>
+      <source:markdown>&#62; Yes he started a lot earlier
+
+Are you calling me slow?
+
+I’m joking!</source:markdown>
+      <guid>cid://www.riscosopen.org:9:20330:162881</guid>
+    </item>    <item>
+      <title>Automount additional FAT32 partition on boot</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20325</link>
+      <description>
+        <![CDATA[<p>@Chris: What is Boot:^Apps.? I&#8217;ve put !HardDisk3 in <span class="caps">SDFS</span>::RISCOSpi.$.Apps. In <span class="caps">SDFS</span>::RISCOSpi.$.!Boot.Choices.Boot.Tasks.MountHD3 (Obey) I&#8217;ve changed the line: addtinydir Fat32fs::HardDisk3 to: addtinydir Boot:^Apps.!HardDisk3. And so it worked! Cannot post you a screenshot, haven&#8217;t figured out how !Snapper is working.<br />
+        Can I use the file &#8220;!HardDisk3&#8221; for any other name, too, when I rename it?</p>]]>
+      </description>
+      <source:markdown>@Chris: What is Boot:^Apps.? I’ve put !HardDisk3 in SDFS::RISCOSpi.$.Apps. In SDFS::RISCOSpi.$.!Boot.Choices.Boot.Tasks.MountHD3 (Obey) I’ve changed the line: addtinydir Fat32fs::HardDisk3 to: addtinydir Boot:^Apps.!HardDisk3. And so it worked! Cannot post you a screenshot, haven’t figured out how !Snapper is working.
+
+Can I use the file “!HardDisk3” for any other name, too, when I rename it?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20325:162872</guid>
+    </item>    <item>
+      <title>ROOL Gitlab</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20335</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Do we have a list of maintainers</p>
+        </blockquote>
+        <p>Not that I am aware of, I think that idea never materialised, simply because there aren&#8217;t resources as people actively willing to become maintainers. I don&#8217;t think this is necessarily a <span class="caps">ROOL</span> problem, it&#8217;s more like a community issue <span class="caps">IMHO</span>.</p>
+        <blockquote>
+        <p>Did the wiki get updated to say who is responsible for accepting merge requests to this “Community Source as stated”</p>
+        </blockquote>
+        <p>Not that I am aware of, it&#8217;s most likely still &#8220;bring your own reviewer&#8221; kind of thing. Unless (of course) if it has changed without the news spreading.</p>
+        <blockquote>
+        <p>as we are now 4 years on.</p>
+        </blockquote>
+        <p>That&#8217;s just yesterday in <span class="caps">RISC</span> OS time! XD</p>
+        <blockquote>
+        <p>Pipelines and traffic light automation testing etc etc?</p>
+        </blockquote>
+        <p>This is what I see on the Wiki about it:</p>
+        <pre>
+        <a href="https://www.riscosopen.org/wiki/documentation/show/Organising%20tests%20in%20the%20OS%20source">https://www.riscosopen.org/wiki/documentation/show/Org…</a>
+        </pre>
+        <p>Julie started, but never finished it.</p>
+        <p>While this is how I do it:</p>
+        <pre>
+        <a href="https://github.com/pzaino/risc-os-corelib">https://github.com/pzaino/risc-os-corelib</a>
+        </pre>
+        <p>(it may help <span class="caps">ROOL</span>) it&#8217;s the lowest impact possible, albeit not as elegant as using one of the 2 framework I ported very long time ago to RO:</p>
+        <pre>
+        <a href="https://github.com/RISC-OS-Community/mUnit">https://github.com/RISC-OS-Community/mUnit</a>
+        </pre>
+        <p>And</p>
+        <pre>
+        <a href="https://github.com/RISC-OS-Community/GreaTest">https://github.com/RISC-OS-Community/GreaTest</a>
+        </pre>
+        <p>Which can be combined with a pre-organised repository (which also support tools automation and code conversion to PC style to use more advanced test tools):</p>
+        <pre>
+        <a href="https://github.com/RISC-OS-Community/StandardRepoTemplate">https://github.com/RISC-OS-Community/StandardRepoTempl…</a>
+        </pre>
+        <p>(I use this repo template for all my <span class="caps">RISC</span> OS projects).</p>
+        <p><span class="caps">HTH</span></p>
+        <p>[edit]<br />
+        Note: As always there are no 3rd parties contributions, that clearly means there is no interest or no competences in the community to pursue that level of work. Most likely people are just interested in writing their own utilities and stuff in their own way. However GitHub.com is now one of the largest <span class="caps">RISC</span> OS software repositories ever, at least I won that battle XD &#8211; So those sources (most likely) will never be lost.<br />
+        [/edit]</p>]]>
+      </description>
+      <source:markdown>&#62; Do we have a list of maintainers
+
+Not that I am aware of, I think that idea never materialised, simply because there aren’t resources as people actively willing to become maintainers. I don’t think this is necessarily a ROOL problem, it’s more like a community issue IMHO.
+
+&#62; Did the wiki get updated to say who is responsible for accepting merge requests to this “Community Source as stated”
+
+Not that I am aware of, it’s most likely still “bring your own reviewer” kind of thing. Unless (of course) if it has changed without the news spreading.
+
+&#62; as we are now 4 years on.
+
+That’s just yesterday in RISC OS time! XD
+
+&#62; Pipelines and traffic light automation testing etc etc?
+
+This is what I see on the Wiki about it:
+
+```
+https://www.riscosopen.org/wiki/documentation/show/Org…
+
+```
+
+Julie started, but never finished it.
+
+While this is how I do it:
+
+```
+https://github.com/pzaino/risc-os-corelib
+
+```
+
+(it may help ROOL) it’s the lowest impact possible, albeit not as elegant as using one of the 2 framework I ported very long time ago to RO:
+
+```
+https://github.com/RISC-OS-Community/mUnit
+
+```
+
+And
+
+```
+https://github.com/RISC-OS-Community/GreaTest
+
+```
+
+Which can be combined with a pre-organised repository (which also support tools automation and code conversion to PC style to use more advanced test tools):
+
+```
+https://github.com/RISC-OS-Community/StandardRepoTempl…
+
+```
+
+(I use this repo template for all my RISC OS projects).
+
+HTH
+
+\[edit\]
+
+Note: As always there are no 3rd parties contributions, that clearly means there is no interest or no competences in the community to pursue that level of work. Most likely people are just interested in writing their own utilities and stuff in their own way. However GitHub.com is now one of the largest RISC OS software repositories ever, at least I won that battle XD – So those sources (most likely) will never be lost.
+
+\[/edit\]</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20335:162871</guid>
+    </item>    <item>
+      <title>Access to my smb: fileserver; !ShareView</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20329</link>
+      <description>
+        <![CDATA[<p>@Raik: In timermod/zip I have no (rm) module. &#8220;TimerMod&#8221;, &#8220;TimerModDc&#8221;, &#8220;TimerModScr419&#8221;, &#8220;TimeX&#8221;.</p>]]>
+      </description>
+      <source:markdown>@Raik: In timermod/zip I have no (rm) module. “TimerMod”, “TimerModDc”, “TimerModScr419”, “TimeX”.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20329:162869</guid>
+    </item>    <item>
+      <title>Filer Changes</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20332</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>The discussions here were often neither good nor constructive, and there were also personal attacks. That’s not how you get new users or programmers.</p>
+        </blockquote>
+        <p>100% agree with on this :(</p>]]>
+      </description>
+      <source:markdown>&#62; The discussions here were often neither good nor constructive, and there were also personal attacks. That’s not how you get new users or programmers.
+
+100% agree with on this :(</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20332:162868</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3minwxwzvfc2d</link>
+      <description>
+        <![CDATA[Apparently we're not socialling correctly here?
+        
+        <looks back at entire life> Well OK you've got me there, fair enough.]]>
+      </description>
+      <source:markdown>Apparently we&#39;re not socialling correctly here?
+
+ Well OK you&#39;ve got me there, fair enough.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3minwxwzvfc2d</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mimuhb6jgs2p</link>
+      <description>
+        <![CDATA[#RISC_OS: antoher tough piece of work for Merlin, an extended and fully multi-core VDU driver. It's working and cores can do VDU requests who are being rendered correctly on the screen.
+        
+        And yes it's ugly 😂 I need to make a video of the tests, but I have so many things to do that I don't know...]]>
+      </description>
+      <source:markdown>#RISC\_OS: antoher tough piece of work for Merlin, an extended and fully multi-core VDU driver. It&#39;s working and cores can do VDU requests who are being rendered correctly on the screen.
+
+And yes it&#39;s ugly 😂 I need to make a video of the tests, but I have so many things to do that I don&#39;t know...</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mimuhb6jgs2p</guid>
+    </item>    <item>
       <title>RISC OS in a Post-AI World: Could Simplicity Be the Missing Link in Education?</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13578&#38;page=1#125880</link>
       <description>
@@ -26,17 +203,6 @@
       </description>
       <source:markdown>It goes even further, unfortunately, to IT suppliers into schools and those setting the curriculum and goalposts.</source:markdown>
       <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13578&#38;page=1#125879</guid>
-    </item>    <item>
-      <title>Filer Changes</title>
-      <link>https://www.riscosopen.org/forum/forums/2/topics/20332</link>
-      <description>
-        <![CDATA[<p>I&#8217;m sure this has been asked before, but when you open a filer window and ask to sort by Name or Type, it doesn&#8217;t seem to retain this setting.<br />
-        It would be nice if <span class="caps">RISC</span> OS could do this with the next update</p>]]>
-      </description>
-      <source:markdown>I’m sure this has been asked before, but when you open a filer window and ask to sort by Name or Type, it doesn’t seem to retain this setting.
-
-It would be nice if RISC OS could do this with the next update</source:markdown>
-      <guid>cid://www.riscosopen.org:2:20332:162816</guid>
     </item>    <item>
       <title>Printing</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/14646</link>
@@ -94,83 +260,6 @@ Archive is the magazine for RISC OS users, available in both printed and digital
 [https://www.archivemag.co.uk/2802/](https://www.archivemag.co.uk/2802/)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20305:162812</guid>
     </item>    <item>
-      <title>Paint, Draw, OS_EnterOS and ModuleWrap</title>
-      <link>https://www.riscosopen.org/forum/forums/9/topics/20330</link>
-      <description>
-        <![CDATA[<p>Paint and Draw (at least) are having problems starting up under my multi-processing kernel.</p>
-        <p>I think it’s probably because when they want some stack on startup, they use OS_EnterOS and just run in supervisor mode for a bit…</p>
-        <pre><code>ModuleWrap_Start ROUT
-                ; Pop up into SVC mode to get some stack
-                SWI     XOS_EnterOS
-                BVS     %FT99</code></pre>
-        <p>Or maybe the</p>
-        <pre><code>        ; Store the magic stack limit things
-                LDMIA   sl, {r1, r2}
-                Push    "r1,r2,r4,sl"</code>
-        
-        <code>        ; Initialise the application
-                MOV     r0, #1                  ; Initialise re-entrantly
-                BL      |_clib_initialisemodule|</code>
-        
-        <code>        ; Restore the magic stack limit things
-                Pull    "r1,r2,r4,sl"
-                STMIA   sl, {r1,r2}</code></pre>
-        <p>No, it&#8217;s almost certainly this part:</p>
-        <pre><code>        ; Drop back into user mode
-                MOV     r12, #3
-                MRS     r12, CPSR
-                TST     r12, #2_11100
-                TEQEQP  pc, #Z_bit              ; keeps EQ
-                MSRNE   CPSR_c, #USR32_mode     ; acts as NOP for TEQP :)</code></pre>
-        <p><a href="https://www.riscosopen.org/forum/forums/1/topics/20328?limit=25&amp;page=1#posts-162804">https://www.riscosopen.org/forum/forums/1/topics/20328…</a></p>
-        <p>Any ideas?</p>
-        <p>The call it makes to OS_EnterOS assumes that the <span class="caps">SVC</span> stack it obtains will be based on a MiB boundary and have some &#8220;magic&#8221; at the bottom. Is this a documented feature that module writers are expected to use?</p>]]>
-      </description>
-      <source:markdown>Paint and Draw (at least) are having problems starting up under my multi-processing kernel.
-
-I think it’s probably because when they want some stack on startup, they use OS\_EnterOS and just run in supervisor mode for a bit…
-
-```
-ModuleWrap_Start ROUT
-        ; Pop up into SVC mode to get some stack
-        SWI     XOS_EnterOS
-        BVS     %FT99
-```
-
-Or maybe the
-
-```
-        ; Store the magic stack limit things
-        LDMIA   sl, {r1, r2}
-        Push    &#34;r1,r2,r4,sl&#34;
-
-        ; Initialise the application
-        MOV     r0, #1                  ; Initialise re-entrantly
-        BL      |_clib_initialisemodule|
-
-        ; Restore the magic stack limit things
-        Pull    &#34;r1,r2,r4,sl&#34;
-        STMIA   sl, {r1,r2}
-```
-
-No, it’s almost certainly this part:
-
-```
-        ; Drop back into user mode
-        MOV     r12, #3
-        MRS     r12, CPSR
-        TST     r12, #2_11100
-        TEQEQP  pc, #Z_bit              ; keeps EQ
-        MSRNE   CPSR_c, #USR32_mode     ; acts as NOP for TEQP :)
-```
-
-[https://www.riscosopen.org/forum/forums/1/topics/20328…](https://www.riscosopen.org/forum/forums/1/topics/20328?limit=25&#38;page=1#posts-162804)
-
-Any ideas?
-
-The call it makes to OS\_EnterOS assumes that the SVC stack it obtains will be based on a MiB boundary and have some “magic” at the bottom. Is this a documented feature that module writers are expected to use?</source:markdown>
-      <guid>cid://www.riscosopen.org:9:20330:162806</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mijr2vgnuc2h</link>
       <description>
         <![CDATA[Acorn really dropped the ball when it came to RISC OS Path Vars (like Run$Path) by using a valid chr as separator (“,”) when there was an obvious alternative – space.
@@ -188,17 +277,6 @@ Though FileSwitch is therefore gimped we could have done better... but it’s HA
       </description>
       <source:markdown>The first, and last, LEGO STAR WARS videogames I worked on - released in 2005 and 2022. I helped port the original videogame to PC and was a member of the render technology team for Skywalker Saga. Amazing teams to work with.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mijq4ubzx22a</guid>
-    </item>    <item>
-      <title>Automount additional FAT32 partition on boot</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20325</link>
-      <description>
-        <![CDATA[<p>@Raik: I&#8217;ve created a &#8220;MountFat32&#8221; Obey-file and posted it in $.!Boot.Choices.Boot.PreDesk. There it will not automatically be executed. It did nothing, I had to double-click it. From there I&#8217;ve moved it into $.!Boot.Choices.Boot.Tasks. From there the Obey-file is being executed but the 2nd line: &#8220;AddTinyDir Fat32fs::16&#8221; is ignored. Only when I directly click on it, it will create a folder symbol with &#8220;$&#8221; on the Icon Bar.<br />
-        I&#8217;ve not understood your last line: &#8220;If you create an “app” with an icon, you can add(tiny) a device icon to the iconbar like I do e.g. in my LinuxPort settings.&#8221;</p>]]>
-      </description>
-      <source:markdown>@Raik: I’ve created a “MountFat32” Obey-file and posted it in $.!Boot.Choices.Boot.PreDesk. There it will not automatically be executed. It did nothing, I had to double-click it. From there I’ve moved it into $.!Boot.Choices.Boot.Tasks. From there the Obey-file is being executed but the 2nd line: “AddTinyDir Fat32fs::16” is ignored. Only when I directly click on it, it will create a folder symbol with “$” on the Icon Bar.
-
-I’ve not understood your last line: “If you create an “app” with an icon, you can add(tiny) a device icon to the iconbar like I do e.g. in my LinuxPort settings.”</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20325:162798</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mijjxh5h2s2m</link>
       <description>
@@ -268,20 +346,6 @@ That said, yes, I can try this on my new machine and see how I get on with that.
       </description>
       <source:markdown>I&#39;ve just been told by an LLM that my RISC OS work is &#34;Infrastructure for a future that hasn&#39;t arrived&#34; so I&#39;m going to have a bit of a lie down in a dark room.</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mij52btlwc2m</guid>
-    </item>    <item>
-      <title>Access to my smb: fileserver; !ShareView</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20329</link>
-      <description>
-        <![CDATA[<p>With !Omni (&#8220;Net&#8221;) I cannot access my smb fileserver (under Linux or Windows it has the syntax smb://server/shared-hdd). The <span class="caps">LAN</span> Manager in the icon &#8220;Net&#8221; on the Icon Bar has following 3 lines: &#8220;Domain name&#8221; &#8220;user&#8221; &#8220;password&#8221;. I have no domain but a workgroup name. If i give in &#8220;workgroup&#8221;, my name and password, nothing happens. If i give in &#8220;smb:\\server\shared-hdd&#8221; or the same with &#8220;/&#8221;, nothing happens.<br />
-        I&#8217;ve downloaded !ShareView v0.7 via the forum. In !ShareView there are 3 directories: !Boot/Choices, !ShareView and tools. I&#8217;ve copied them all into $.!Boot and in $.!Boot.Choices.smb2/user/txt I&#8217;ve given in my workgroup::. So far so good. If I then click on $<img alt="" />ShareView a message pops up: &#8220;File &#8216;System:Modules.TimerMod&#8217; not found.&#8221;<br />
-        How do I proceed to get to my server?]]>
-      </description>
-      <source:markdown>With !Omni (“Net”) I cannot access my smb fileserver (under Linux or Windows it has the syntax smb://server/shared-hdd). The LAN Manager in the icon “Net” on the Icon Bar has following 3 lines: “Domain name” “user” “password”. I have no domain but a workgroup name. If i give in “workgroup”, my name and password, nothing happens. If i give in “smb:\\\server\\shared-hdd” or the same with “/”, nothing happens.
-
-I’ve downloaded !ShareView v0.7 via the forum. In !ShareView there are 3 directories: !Boot/Choices, !ShareView and tools. I’ve copied them all into $.!Boot and in $.!Boot.Choices.smb2/user/txt I’ve given in my workgroup::. So far so good. If I then click on $ShareView a message pops up: “File ‘System:Modules.TimerMod’ not found.”
-
-How do I proceed to get to my server?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20329:162789</guid>
     </item>    <item>
       <title>New UK Bin Recycling Laws: Introducing !Recycle4 to Help Risc OS Comply</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20326</link>

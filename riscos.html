@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.23b" >
-  <meta name="date" content="2026-04-03T12:00:25-07:00" >
+  <meta name="date" content="2026-04-04T12:00:28-07:00" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -19,6 +19,140 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-04-04T15:09:23Z" data-link="https://www.riscosopen.org/forum/forums/9/topics/20330">
+      <h1>Paint, Draw, OS_EnterOS and ModuleWrap</h1>
+
+(date: 2026-04-04)
+      <p>
+      <blockquote>
+<p>Yes he started a lot earlier</p>
+</blockquote>
+<p>Are you calling me slow?</p>
+<p>I’m joking!</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/9/topics/20330">https://www.riscosopen.org/forum/forums/9/topics/20330</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-04T13:34:41Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20325">
+      <h1>Automount additional FAT32 partition on boot</h1>
+
+(date: 2026-04-04)
+      <p>
+      <p>@Chris: What is Boot:^Apps.? I’ve put !HardDisk3 in SDFS::RISCOSpi.$.Apps. In SDFS::RISCOSpi.$.!Boot.Choices.Boot.Tasks.MountHD3 (Obey) I’ve changed the line: addtinydir Fat32fs::HardDisk3 to: addtinydir Boot:^Apps.!HardDisk3. And so it worked! Cannot post you a screenshot, haven’t figured out how !Snapper is working.</p>
+<p>Can I use the file “!HardDisk3” for any other name, too, when I rename it?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20325">https://www.riscosopen.org/forum/forums/11/topics/20325</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-04T13:30:27Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20335">
+      <h1>ROOL Gitlab</h1>
+
+(date: 2026-04-04)
+      <p>
+      <blockquote>
+<p>Do we have a list of maintainers</p>
+</blockquote>
+<p>Not that I am aware of, I think that idea never materialised, simply because there aren’t resources as people actively willing to become maintainers. I don’t think this is necessarily a ROOL problem, it’s more like a community issue IMHO.</p>
+<blockquote>
+<p>Did the wiki get updated to say who is responsible for accepting merge requests to this “Community Source as stated”</p>
+</blockquote>
+<p>Not that I am aware of, it’s most likely still “bring your own reviewer” kind of thing. Unless (of course) if it has changed without the news spreading.</p>
+<blockquote>
+<p>as we are now 4 years on.</p>
+</blockquote>
+<p>That’s just yesterday in RISC OS time! XD</p>
+<blockquote>
+<p>Pipelines and traffic light automation testing etc etc?</p>
+</blockquote>
+<p>This is what I see on the Wiki about it:</p>
+<pre><code>https://www.riscosopen.org/wiki/documentation/show/Org…
+
+</code></pre>
+<p>Julie started, but never finished it.</p>
+<p>While this is how I do it:</p>
+<pre><code>https://github.com/pzaino/risc-os-corelib
+
+</code></pre>
+<p>(it may help ROOL) it’s the lowest impact possible, albeit not as elegant as using one of the 2 framework I ported very long time ago to RO:</p>
+<pre><code>https://github.com/RISC-OS-Community/mUnit
+
+</code></pre>
+<p>And</p>
+<pre><code>https://github.com/RISC-OS-Community/GreaTest
+
+</code></pre>
+<p>Which can be combined with a pre-organised repository (which also support tools automation and code conversion to PC style to use more advanced test tools):</p>
+<pre><code>https://github.com/RISC-OS-Community/StandardRepoTempl…
+
+</code></pre>
+<p>(I use this repo template for all my RISC OS projects).</p>
+<p>HTH</p>
+<p>[edit]</p>
+<p>Note: As always there are no 3rd parties contributions, that clearly means there is no interest or no competences in the community to pursue that level of work. Most likely people are just interested in writing their own utilities and stuff in their own way. However GitHub.com is now one of the largest RISC OS software repositories ever, at least I won that battle XD – So those sources (most likely) will never be lost.</p>
+<p>[/edit]</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20335">https://www.riscosopen.org/forum/forums/5/topics/20335</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-04T13:04:14Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20329">
+      <h1>Access to my smb: fileserver; !ShareView</h1>
+
+(date: 2026-04-04)
+      <p>
+      <p>@Raik: In timermod/zip I have no (rm) module. “TimerMod”, “TimerModDc”, “TimerModScr419”, “TimeX”.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20329">https://www.riscosopen.org/forum/forums/11/topics/20329</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-04T12:59:40Z" data-link="https://www.riscosopen.org/forum/forums/2/topics/20332">
+      <h1>Filer Changes</h1>
+
+(date: 2026-04-04)
+      <p>
+      <blockquote>
+<p>The discussions here were often neither good nor constructive, and there were also personal attacks. That’s not how you get new users or programmers.</p>
+</blockquote>
+<p>100% agree with on this :(</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/2/topics/20332">https://www.riscosopen.org/forum/forums/2/topics/20332</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-04T09:41:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3minwxwzvfc2d">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-04-04)
+      <p>
+      <p>Apparently we're not socialling correctly here?</p>
+<p>Well OK you've got me there, fair enough.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3minwxwzvfc2d">https://bsky.app/profile/nemo20000.bsky.social/post/3minwxwzvfc2d</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-03T23:23:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mimuhb6jgs2p">
+      <h1>@paolofabiozaino.bsky.social</h1>
+
+(date: 2026-04-03)
+      <p>
+      <p>#RISC_OS: antoher tough piece of work for Merlin, an extended and fully multi-core VDU driver. It's working and cores can do VDU requests who are being rendered correctly on the screen.</p>
+<p>And yes it's ugly 😂 I need to make a video of the tests, but I have so many things to do that I don't know...</p>
+
+      <address>
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mimuhb6jgs2p">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mimuhb6jgs2p</a>
+      </address>
+    </article>
 
     <article data-published="2026-04-03T18:17:28Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13578&page=1#125880">
       <h1>RISC OS in a Post-AI World: Could Simplicity Be the Missing Link in Education?</h1>
@@ -41,19 +175,6 @@
 
       <address>
         <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13578&page=1#125879">http://www.iconbar.com/forums/viewthread.php?threadid=13578&page=1#125879</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-03T17:40:03Z" data-link="https://www.riscosopen.org/forum/forums/2/topics/20332">
-      <h1>Filer Changes</h1>
-
-(date: 2026-04-03)
-      <p>
-      <p>I’m sure this has been asked before, but when you open a filer window and ask to sort by Name or Type, it doesn’t seem to retain this setting.</p>
-<p>It would be nice if RISC OS could do this with the next update</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/2/topics/20332">https://www.riscosopen.org/forum/forums/2/topics/20332</a>
       </address>
     </article>
 
@@ -122,48 +243,6 @@
       </address>
     </article>
 
-    <article data-published="2026-04-02T20:42:56Z" data-link="https://www.riscosopen.org/forum/forums/9/topics/20330">
-      <h1>Paint, Draw, OS_EnterOS and ModuleWrap</h1>
-
-(date: 2026-04-02)
-      <p>
-      <p>Paint and Draw (at least) are having problems starting up under my multi-processing kernel.</p>
-<p>I think it’s probably because when they want some stack on startup, they use OS_EnterOS and just run in supervisor mode for a bit…</p>
-<pre><code>ModuleWrap_Start ROUT
-        ; Pop up into SVC mode to get some stack
-        SWI     XOS_EnterOS
-        BVS     %FT99
-</code></pre>
-<p>Or maybe the</p>
-<pre><code>        ; Store the magic stack limit things
-        LDMIA   sl, {r1, r2}
-        Push    &quot;r1,r2,r4,sl&quot;
-
-        ; Initialise the application
-        MOV     r0, #1                  ; Initialise re-entrantly
-        BL      |_clib_initialisemodule|
-
-        ; Restore the magic stack limit things
-        Pull    &quot;r1,r2,r4,sl&quot;
-        STMIA   sl, {r1,r2}
-</code></pre>
-<p>No, it’s almost certainly this part:</p>
-<pre><code>        ; Drop back into user mode
-        MOV     r12, #3
-        MRS     r12, CPSR
-        TST     r12, #2_11100
-        TEQEQP  pc, #Z_bit              ; keeps EQ
-        MSRNE   CPSR_c, #USR32_mode     ; acts as NOP for TEQP :)
-</code></pre>
-<p><a href="https://www.riscosopen.org/forum/forums/1/topics/20328?limit=25&amp;page=1#posts-162804">https://www.riscosopen.org/forum/forums/1/topics/20328…</a></p>
-<p>Any ideas?</p>
-<p>The call it makes to OS_EnterOS assumes that the SVC stack it obtains will be based on a MiB boundary and have some “magic” at the bottom. Is this a documented feature that module writers are expected to use?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/9/topics/20330">https://www.riscosopen.org/forum/forums/9/topics/20330</a>
-      </address>
-    </article>
-
     <article data-published="2026-04-02T17:44:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mijr2vgnuc2h">
       <h1>@nemo20000.bsky.social</h1>
 
@@ -186,19 +265,6 @@
 
       <address>
         <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mijq4ubzx22a">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mijq4ubzx22a</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-02T15:44:26Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20325">
-      <h1>Automount additional FAT32 partition on boot</h1>
-
-(date: 2026-04-02)
-      <p>
-      <p>@Raik: I’ve created a “MountFat32” Obey-file and posted it in $.!Boot.Choices.Boot.PreDesk. There it will not automatically be executed. It did nothing, I had to double-click it. From there I’ve moved it into $.!Boot.Choices.Boot.Tasks. From there the Obey-file is being executed but the 2nd line: “AddTinyDir Fat32fs::16” is ignored. Only when I directly click on it, it will create a folder symbol with “$” on the Icon Bar.</p>
-<p>I’ve not understood your last line: “If you create an “app” with an icon, you can add(tiny) a device icon to the iconbar like I do e.g. in my LinuxPort settings.”</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20325">https://www.riscosopen.org/forum/forums/11/topics/20325</a>
       </address>
     </article>
 
@@ -298,20 +364,6 @@
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mij52btlwc2m">https://bsky.app/profile/nemo20000.bsky.social/post/3mij52btlwc2m</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-02T10:07:51Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20329">
-      <h1>Access to my smb: fileserver; !ShareView</h1>
-
-(date: 2026-04-02)
-      <p>
-      <p>With !Omni (“Net”) I cannot access my smb fileserver (under Linux or Windows it has the syntax smb://server/shared-hdd). The LAN Manager in the icon “Net” on the Icon Bar has following 3 lines: “Domain name” “user” “password”. I have no domain but a workgroup name. If i give in “workgroup”, my name and password, nothing happens. If i give in “smb:\\server\shared-hdd” or the same with “/”, nothing happens.</p>
-<p>I’ve downloaded !ShareView v0.7 via the forum. In !ShareView there are 3 directories: !Boot/Choices, !ShareView and tools. I’ve copied them all into $.!Boot and in $.!Boot.Choices.smb2/user/txt I’ve given in my workgroup::. So far so good. If I then click on $ShareView a message pops up: “File ‘System:Modules.TimerMod’ not found.”</p>
-<p>How do I proceed to get to my server?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20329">https://www.riscosopen.org/forum/forums/11/topics/20329</a>
       </address>
     </article>
 
