@@ -7,10 +7,141 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>04 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>05 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3miqwcrlq4k2y</link>
+      <description>
+        <![CDATA[Yes, I'm sorry I'm late with my obligatory photo of Archive magazine, but I've been away and only just got back¹. But it was nice to find this waiting for me.
+        
+        ¹ I'd have posted a day earlier if the airline hadn't delayed the flight by 24 hours.
+        
+        #ArchiveMagazine
+        #RISC_OS
+        @archiveriscos.bsky.social]]>
+      </description>
+      <source:markdown>Yes, I&#39;m sorry I&#39;m late with my obligatory photo of Archive magazine, but I&#39;ve been away and only just got back¹. But it was nice to find this waiting for me.
+
+¹ I&#39;d have posted a day earlier if the airline hadn&#39;t delayed the flight by 24 hours.
+
+#ArchiveMagazine
+#RISC\_OS
+@archiveriscos.bsky.social</source:markdown>
+      <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3miqwcrlq4k2y</guid>
+    </item>    <item>
+      <title>How to detect Wget?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20338</link>
+      <description>
+        <![CDATA[<p>In order to detect whether Wget has been seen by the system, I use a routine that contains the following line:</p>
+        <p><code>SYS "Wimp_StartTask", "X wget " + url$ + " -q -o " + path$</code></p>
+        <p>url$ and path$ have been defined before.<br />
+        This writes some text to a given path, if Wget is active. This is tested by the following line:</p>
+        <p><code>f% = OPENIN (path$)</code></p>
+        <p>If Wget hasn&#8217;t been seen by the system, f% will be 0. This approach has been working fine so far.</p>
+        <p>However, it appears that some versions of the OS, noticebly 5.29 (19-Feb-21), crash horribly when meeting the first line. Only a switch off and on brings the computer back.<br />
+        Is this a known issue? Is there a better way to detect Wget?</p>]]>
+      </description>
+      <source:markdown>In order to detect whether Wget has been seen by the system, I use a routine that contains the following line:
+
+`SYS &#34;Wimp_StartTask&#34;, &#34;X wget &#34; + url$ + &#34; -q -o &#34; + path$`
+
+url$ and path$ have been defined before.
+
+This writes some text to a given path, if Wget is active. This is tested by the following line:
+
+`f% = OPENIN (path$)`
+
+If Wget hasn’t been seen by the system, f% will be 0. This approach has been working fine so far.
+
+However, it appears that some versions of the OS, noticebly 5.29 (19-Feb-21), crash horribly when meeting the first line. Only a switch off and on brings the computer back.
+
+Is this a known issue? Is there a better way to detect Wget?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20338:162900</guid>
+    </item>    <item>
+      <title>ARM Wrestling</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20337</link>
+      <description>
+        <![CDATA[<p>There&#8217;s a new ROCoding entry on the <span class="caps">ROAST</span> blog. As a change from graphics, this time I&#8217;m looking at the ARM&#8217;s <span class="caps">SIMD</span> instructions.<br />
+        Link: <a href="https://vermilionsands.uk/roast/index.php/2026/04/04/rocoding-4-arm-wrestling/"><span class="caps">ARM</span> Wrestling</a><br />
+        It&#8217;s pretty basic, as these instructions are all new to me! Comments and suggestions welcome.<br />
+        There are also some posts with <a href="https://vermilionsands.uk/roast/index.php/category/dwarf-mini/">recent results</a> from my Dwarf Mini smart telescope, such as this, the globular cluster M13 in Hercules:<br />
+        <img src="https://vermilionsands.uk/roast/fp-content/images/DM06-01M13Shs.webp" alt="" /></p>]]>
+      </description>
+      <source:markdown>There’s a new ROCoding entry on the ROAST blog. As a change from graphics, this time I’m looking at the ARM’s SIMD instructions.
+
+Link: [ARM Wrestling](https://vermilionsands.uk/roast/index.php/2026/04/04/rocoding-4-arm-wrestling/)
+
+It’s pretty basic, as these instructions are all new to me! Comments and suggestions welcome.
+
+There are also some posts with [recent results](https://vermilionsands.uk/roast/index.php/category/dwarf-mini/) from my Dwarf Mini smart telescope, such as this, the globular cluster M13 in Hercules:
+
+![](https://vermilionsands.uk/roast/fp-content/images/DM06-01M13Shs.webp)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20337:162898</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 5th March at 1pm UK time</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20334</link>
+      <description>
+        <![CDATA[<p>Going live in about 40 minutes.</p>]]>
+      </description>
+      <source:markdown>Going live in about 40 minutes.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20334:162897</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3miqhinizbk2j</link>
+      <description>
+        <![CDATA[Indeed it was the ability to incorporate any other processor that led Acorn, through trying the best of what was available, to develop the ARM instead.
+        
+        It's not just how this is possible, it's why it's possible to watch a video about it on the Tube.
+        
+        (Do you see what I did there?!)
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Indeed it was the ability to incorporate any other processor that led Acorn, through trying the best of what was available, to develop the ARM instead.
+
+It&#39;s not just how this is possible, it&#39;s why it&#39;s possible to watch a video about it on the Tube.
+
+(Do you see what I did there?!)
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3miqhinizbk2j</guid>
+    </item>    <item>
+      <title>ROOL Gitlab</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20335</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>And i’m not quite sure what you mean by some who claim show expenses and website housing costs, didn’t quite understand what you meant there.</p>
+        </blockquote>
+        <p>Probably because that&#8217;s not quite what I wrote&#8230; :-)</p>
+        <p>So far as I know, people like you and I are doing <span class="caps">RISC</span> OS work in our spare time, unpaid, around actual jobs and other more sociable hobbies.</p>
+        <p>Also so far as I know, the folks at <span class="caps">ROOL</span> are just the same. They don&#8217;t get paid to do what they do for <span class="caps">ROOL</span>.</p>
+        <p>The only difference is that they can probably cover some of their expenses (travel to shows, stand costs, etc) from ROOL&#8217;s operating bounty or merch sales. I certainly don&#8217;t have that &#8220;luxury&#8221;.</p>
+        <p>So in the end it makes as much sense to ask why the <span class="caps">ROOL</span> team haven&#8217;t delivered X, Y or Z as it does to ask why you or I haven&#8217;t finished one of our <span class="caps">RISC</span> OS projects.</p>
+        <p>So long as we&#8217;re not talking about bounty stuff, of course &#8211; and I don&#8217;t think we are in this thread?</p>]]>
+      </description>
+      <source:markdown>&#62; And i’m not quite sure what you mean by some who claim show expenses and website housing costs, didn’t quite understand what you meant there.
+
+Probably because that’s not quite what I wrote… :-)
+
+So far as I know, people like you and I are doing RISC OS work in our spare time, unpaid, around actual jobs and other more sociable hobbies.
+
+Also so far as I know, the folks at ROOL are just the same. They don’t get paid to do what they do for ROOL.
+
+The only difference is that they can probably cover some of their expenses (travel to shows, stand costs, etc) from ROOL’s operating bounty or merch sales. I certainly don’t have that “luxury”.
+
+So in the end it makes as much sense to ask why the ROOL team haven’t delivered X, Y or Z as it does to ask why you or I haven’t finished one of our RISC OS projects.
+
+So long as we’re not talking about bounty stuff, of course – and I don’t think we are in this thread?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20335:162893</guid>
+    </item>    <item>
+      <title>Filer Changes</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20332</link>
+      <description>
+        <![CDATA[<p>My comments was not a hit at you, This always gets heated when i mention a select feature that i would like to see in a newer version, i&#8217;ve never been a massive fan of the <span class="caps">HAL</span> based V5 <span class="caps">RISCOS</span> i pretty much stay on RO6 for a reason because it suits my general needs as a designer, i prefered the modular approach that select used and still in 2026 its still revevent. I think in future i&#8217;m just not going to bother suggesting anything and dip out. its far too contentious still to sit in <span class="caps">RISC</span> OS world. I think im finally done, I&#8217;m out.</p>]]>
+      </description>
+      <source:markdown>My comments was not a hit at you, This always gets heated when i mention a select feature that i would like to see in a newer version, i’ve never been a massive fan of the HAL based V5 RISCOS i pretty much stay on RO6 for a reason because it suits my general needs as a designer, i prefered the modular approach that select used and still in 2026 its still revevent. I think in future i’m just not going to bother suggesting anything and dip out. its far too contentious still to sit in RISC OS world. I think im finally done, I’m out.</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20332:162892</guid>
+    </item>    <item>
       <title>Paint, Draw, OS_EnterOS and ModuleWrap</title>
       <link>https://www.riscosopen.org/forum/forums/9/topics/20330</link>
       <description>
@@ -38,113 +169,6 @@ I’m joking!</source:markdown>
 Can I use the file “!HardDisk3” for any other name, too, when I rename it?</source:markdown>
       <guid>cid://www.riscosopen.org:11:20325:162872</guid>
     </item>    <item>
-      <title>ROOL Gitlab</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20335</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Do we have a list of maintainers</p>
-        </blockquote>
-        <p>Not that I am aware of, I think that idea never materialised, simply because there aren&#8217;t resources as people actively willing to become maintainers. I don&#8217;t think this is necessarily a <span class="caps">ROOL</span> problem, it&#8217;s more like a community issue <span class="caps">IMHO</span>.</p>
-        <blockquote>
-        <p>Did the wiki get updated to say who is responsible for accepting merge requests to this “Community Source as stated”</p>
-        </blockquote>
-        <p>Not that I am aware of, it&#8217;s most likely still &#8220;bring your own reviewer&#8221; kind of thing. Unless (of course) if it has changed without the news spreading.</p>
-        <blockquote>
-        <p>as we are now 4 years on.</p>
-        </blockquote>
-        <p>That&#8217;s just yesterday in <span class="caps">RISC</span> OS time! XD</p>
-        <blockquote>
-        <p>Pipelines and traffic light automation testing etc etc?</p>
-        </blockquote>
-        <p>This is what I see on the Wiki about it:</p>
-        <pre>
-        <a href="https://www.riscosopen.org/wiki/documentation/show/Organising%20tests%20in%20the%20OS%20source">https://www.riscosopen.org/wiki/documentation/show/Org…</a>
-        </pre>
-        <p>Julie started, but never finished it.</p>
-        <p>While this is how I do it:</p>
-        <pre>
-        <a href="https://github.com/pzaino/risc-os-corelib">https://github.com/pzaino/risc-os-corelib</a>
-        </pre>
-        <p>(it may help <span class="caps">ROOL</span>) it&#8217;s the lowest impact possible, albeit not as elegant as using one of the 2 framework I ported very long time ago to RO:</p>
-        <pre>
-        <a href="https://github.com/RISC-OS-Community/mUnit">https://github.com/RISC-OS-Community/mUnit</a>
-        </pre>
-        <p>And</p>
-        <pre>
-        <a href="https://github.com/RISC-OS-Community/GreaTest">https://github.com/RISC-OS-Community/GreaTest</a>
-        </pre>
-        <p>Which can be combined with a pre-organised repository (which also support tools automation and code conversion to PC style to use more advanced test tools):</p>
-        <pre>
-        <a href="https://github.com/RISC-OS-Community/StandardRepoTemplate">https://github.com/RISC-OS-Community/StandardRepoTempl…</a>
-        </pre>
-        <p>(I use this repo template for all my <span class="caps">RISC</span> OS projects).</p>
-        <p><span class="caps">HTH</span></p>
-        <p>[edit]<br />
-        Note: As always there are no 3rd parties contributions, that clearly means there is no interest or no competences in the community to pursue that level of work. Most likely people are just interested in writing their own utilities and stuff in their own way. However GitHub.com is now one of the largest <span class="caps">RISC</span> OS software repositories ever, at least I won that battle XD &#8211; So those sources (most likely) will never be lost.<br />
-        [/edit]</p>]]>
-      </description>
-      <source:markdown>&#62; Do we have a list of maintainers
-
-Not that I am aware of, I think that idea never materialised, simply because there aren’t resources as people actively willing to become maintainers. I don’t think this is necessarily a ROOL problem, it’s more like a community issue IMHO.
-
-&#62; Did the wiki get updated to say who is responsible for accepting merge requests to this “Community Source as stated”
-
-Not that I am aware of, it’s most likely still “bring your own reviewer” kind of thing. Unless (of course) if it has changed without the news spreading.
-
-&#62; as we are now 4 years on.
-
-That’s just yesterday in RISC OS time! XD
-
-&#62; Pipelines and traffic light automation testing etc etc?
-
-This is what I see on the Wiki about it:
-
-```
-https://www.riscosopen.org/wiki/documentation/show/Org…
-
-```
-
-Julie started, but never finished it.
-
-While this is how I do it:
-
-```
-https://github.com/pzaino/risc-os-corelib
-
-```
-
-(it may help ROOL) it’s the lowest impact possible, albeit not as elegant as using one of the 2 framework I ported very long time ago to RO:
-
-```
-https://github.com/RISC-OS-Community/mUnit
-
-```
-
-And
-
-```
-https://github.com/RISC-OS-Community/GreaTest
-
-```
-
-Which can be combined with a pre-organised repository (which also support tools automation and code conversion to PC style to use more advanced test tools):
-
-```
-https://github.com/RISC-OS-Community/StandardRepoTempl…
-
-```
-
-(I use this repo template for all my RISC OS projects).
-
-HTH
-
-\[edit\]
-
-Note: As always there are no 3rd parties contributions, that clearly means there is no interest or no competences in the community to pursue that level of work. Most likely people are just interested in writing their own utilities and stuff in their own way. However GitHub.com is now one of the largest RISC OS software repositories ever, at least I won that battle XD – So those sources (most likely) will never be lost.
-
-\[/edit\]</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20335:162871</guid>
-    </item>    <item>
       <title>Access to my smb: fileserver; !ShareView</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20329</link>
       <description>
@@ -152,19 +176,6 @@ Note: As always there are no 3rd parties contributions, that clearly means there
       </description>
       <source:markdown>@Raik: In timermod/zip I have no (rm) module. “TimerMod”, “TimerModDc”, “TimerModScr419”, “TimeX”.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20329:162869</guid>
-    </item>    <item>
-      <title>Filer Changes</title>
-      <link>https://www.riscosopen.org/forum/forums/2/topics/20332</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>The discussions here were often neither good nor constructive, and there were also personal attacks. That’s not how you get new users or programmers.</p>
-        </blockquote>
-        <p>100% agree with on this :(</p>]]>
-      </description>
-      <source:markdown>&#62; The discussions here were often neither good nor constructive, and there were also personal attacks. That’s not how you get new users or programmers.
-
-100% agree with on this :(</source:markdown>
-      <guid>cid://www.riscosopen.org:2:20332:162868</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3minwxwzvfc2d</link>
       <description>
