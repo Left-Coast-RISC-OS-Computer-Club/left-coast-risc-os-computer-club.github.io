@@ -7,10 +7,235 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>05 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>06 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mitwgtog3225</link>
+      <description>
+        <![CDATA[Some of the Carnage sprite frames from the original development disks for "Spider-Man and X-Men in Arcade's Revenge"]]>
+      </description>
+      <source:markdown>Some of the Carnage sprite frames from the original development disks for &#34;Spider-Man and X-Men in Arcade&#39;s Revenge&#34;</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mitwgtog3225</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mitta4ed5222</link>
+      <description>
+        <![CDATA[Player Control document for the unfinished 'The Invincible Iron Man' game - September 2003.]]>
+      </description>
+      <source:markdown>Player Control document for the unfinished &#39;The Invincible Iron Man&#39; game - September 2003.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mitta4ed5222</guid>
+    </item>    <item>
+      <title>New DME ExtTheme and Launchpad available for download and testing</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
+      <description>
+        <![CDATA[<blockquote><blockquote>A bit later. TitleTextColour in WimpVisualFlags does not work in vanilla OS5.31, 11Jan26. Delete that from the theme choices and CleanDark is good.</blockquote>
+        <p>Hummm I guess Sprow did not enable that one yet on 5.31, ok, will classify it for 5.32 then, thanks David!</blockquote></p>
+        <p>I love the notion that there&#8217;s a load of features already present that <em>just</em> need to be enabled!</p>
+        <p>Sadly, in my experience they need writing first. In this particular instance the test <span class="caps">IOMD</span> <span class="caps">ROM</span> I sent you in early 2025 was done as a branch of a branch of a branch, and my tiny mind got confused what I was doing. So I decided to submit the icon bar ordering changes to <span class="caps">ROOL</span> first, which then got stuck in an allocation black hole for the <code>*Configure</code> command. Having finally got those in to <a href="https://gitlab.riscosopen.org/RiscOS/Sources/Desktop/Wimp/-/commits/master">Wimp 5.88</a> (so that feature <strong>is</strong> in the 5.31 nightly builds) I&#8217;ve unpicked the branches so my prototype dark mode support is just a single branch.</p>
+        <p>There&#8217;s 3 bits to it</p>
+        <ul>
+        	<li>Additions to the Wimp to fix some hardcoded colours in a few places, and allow the title + writable + icon text colours to be themed. Those are on this <a href="https://gitlab.riscosopen.org/rsprowson/Wimp/-/tree/dark-mode">dark-mode</a> branch. Should just need stuffing into a <span class="caps">ROM</span> build.</li>
+        	<li>If you&#8217;re trying to design a theme then to have the CoFlags be propagated from your theme design into the live set in Choices you&#8217;ll need an <a href="https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/tree/dark-mode">updated ThemeSetup plug in</a>. That ones&#8217;s also <a href="https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/jobs/236339/artifacts/download">pre-built</a> if needed.</li>
+        	<li>I used my limited artistic skills to make some <a href="https://www.sprow.co.uk/TestDarkLight.zip">test replacement sprites</a> with a black and purple colour scheme. These are useful to quickly spot if there are any oddities where dialogue boxes in apps are rendered in the wrong colour or have light grey fills where they shouldn&#8217;t.</li>
+        </ul>
+        <p>If you do spot any bugs please drop me a line. I&#8217;m working on some other stuff at the moment but am collecting a list of Wimp dark mode wrinkles in the topmost commit of the above branch.</p>]]>
+      </description>
+      <source:markdown>&#62; &#62; A bit later. TitleTextColour in WimpVisualFlags does not work in vanilla OS5.31, 11Jan26. Delete that from the theme choices and CleanDark is good.
+&#62;
+&#62; Hummm I guess Sprow did not enable that one yet on 5.31, ok, will classify it for 5.32 then, thanks David!
+
+I love the notion that there’s a load of features already present that _just_ need to be enabled!
+
+Sadly, in my experience they need writing first. In this particular instance the test IOMDROM I sent you in early 2025 was done as a branch of a branch of a branch, and my tiny mind got confused what I was doing. So I decided to submit the icon bar ordering changes to ROOL first, which then got stuck in an allocation black hole for the `*Configure` command. Having finally got those in to [Wimp 5.88](https://gitlab.riscosopen.org/RiscOS/Sources/Desktop/Wimp/-/commits/master) (so that feature **is** in the 5.31 nightly builds) I’ve unpicked the branches so my prototype dark mode support is just a single branch.
+
+There’s 3 bits to it
+
+- Additions to the Wimp to fix some hardcoded colours in a few places, and allow the title + writable + icon text colours to be themed. Those are on this [dark-mode](https://gitlab.riscosopen.org/rsprowson/Wimp/-/tree/dark-mode) branch. Should just need stuffing into a ROM build.
+- If you’re trying to design a theme then to have the CoFlags be propagated from your theme design into the live set in Choices you’ll need an [updated ThemeSetup plug in](https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/tree/dark-mode). That ones’s also [pre-built](https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/jobs/236339/artifacts/download) if needed.
+- I used my limited artistic skills to make some [test replacement sprites](https://www.sprow.co.uk/TestDarkLight.zip) with a black and purple colour scheme. These are useful to quickly spot if there are any oddities where dialogue boxes in apps are rendered in the wrong colour or have light grey fills where they shouldn’t.
+
+If you do spot any bugs please drop me a line. I’m working on some other stuff at the moment but am collecting a list of Wimp dark mode wrinkles in the topmost commit of the above branch.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20199:162935</guid>
+    </item>    <item>
+      <title>BBC BASIC - Simple OOP Extensions</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20102</link>
+      <description>
+        <![CDATA[<p><span class="caps">BBC</span> Basic on <span class="caps">ARM</span> might not have structured types, but Microsoft QuickBasic (and QBasic) had them 30 years ago or so, and they are present in Free <span class="caps">BASIC</span> today (and, in an extended form, in VB.Net too.)</p>
+        <pre><code>Type MyRecord
+           Age As Integer 
+           Name As String
+        End Type
+        ...
+        Dim myRec As MyRecord</code></pre>
+        <p>But would it not be better to expend the effort required on improving the support for a more modern and more popular language (Python) instead?</p>]]>
+      </description>
+      <source:markdown>BBC Basic on ARM might not have structured types, but Microsoft QuickBasic (and QBasic) had them 30 years ago or so, and they are present in Free BASIC today (and, in an extended form, in VB.Net too.)
+
+```
+Type MyRecord
+   Age As Integer
+   Name As String
+End Type
+...
+Dim myRec As MyRecord
+```
+
+But would it not be better to expend the effort required on improving the support for a more modern and more popular language (Python) instead?</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20102:162931</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mitlgxqzt22v</link>
+      <description>
+        <![CDATA[I have so many unofficial RISC OS font filetypes. Eventually I’ll have to allocate these properly and they’ll all change and break my tools.
+        
+        Plus how will I ever remember TTF and OTF if they’re not &77F and &07F? The nice thing about anarchy is that it’s very simple.]]>
+      </description>
+      <source:markdown>I have so many unofficial RISC OS font filetypes. Eventually I’ll have to allocate these properly and they’ll all change and break my tools.
+
+Plus how will I ever remember TTF and OTF if they’re not &#38;77F and &#38;07F? The nice thing about anarchy is that it’s very simple.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mitlgxqzt22v</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>1 issue im having with this is the Ethernet is either greyed out or not showing at all on this build</p>
+        </blockquote>
+        <p>If you rebuild the latest macos version networking is now fixed. (<a href="https://github.com/riscosports/rpcemubeta.git">https://github.com/riscosports/rpcemubeta.git</a>)</p>]]>
+      </description>
+      <source:markdown>&#62; 1 issue im having with this is the Ethernet is either greyed out or not showing at all on this build
+
+If you rebuild the latest macos version networking is now fixed. ( [https://github.com/riscosports/rpcemubeta.git](https://github.com/riscosports/rpcemubeta.git))</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:162927</guid>
+    </item>    <item>
+      <title>Paint, Draw, OS_EnterOS and ModuleWrap</title>
+      <link>https://www.riscosopen.org/forum/forums/9/topics/20330</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I’m currently working on a second <span class="caps">SVC</span> stack for programs using OS_EnterOS</p>
+        </blockquote>
+        <p>Those two entries at the MB boundary of the <span class="caps">SVC</span> stack area are covered as a bit of an afterthought in the <a href="https://www.riscos.com/support/developers/prm/sharedclibrary.html">CLib documentation</a> for SharedCLibrary_LibInitModule:</p>
+        <blockquote>
+        <p>Note: You must save the words at offsets +20 and +24 from the returned stack base. You must do this before exiting your module initialisation code. These words contain the shared libraries static data offset and the client static data offset (the offset you must use when accessing your static data). These must be restored in the static data offset locations at offsets +00 and +04 from the base of the <span class="caps">SVC</span> stack when you are re-entering the module in <span class="caps">SVC</span> mode (e.g. in a <span class="caps">SWI</span> handler). When restoring the static data offsets you must save the previous static data offsets around the module entry.</p>
+        </blockquote>
+        <p>That mechanism will break horribly in a threaded environment, so you&#8217;d either need to pause all cores until the code has run its course or implemented isolated <span class="caps">SVC</span> stacks for every C Module.  Depending on your approach you might need to track which Modules have called SharedCLibrary_LibInitModule, so you know when they need a dedicated stack on entry.</p>
+        <p>If you&#8217;re going to support legacy standards like this, you might want to consider running all legacy code (ie not flagged as multi-core/thread safe) on a single core in a VM style environment where it&#8217;s single threaded and can&#8217;t break the rest of the system when it crashes.</p>]]>
+      </description>
+      <source:markdown>&#62; I’m currently working on a second SVC stack for programs using OS\_EnterOS
+
+Those two entries at the MB boundary of the SVC stack area are covered as a bit of an afterthought in the [CLib documentation](https://www.riscos.com/support/developers/prm/sharedclibrary.html) for SharedCLibrary\_LibInitModule:
+
+&#62; Note: You must save the words at offsets +20 and +24 from the returned stack base. You must do this before exiting your module initialisation code. These words contain the shared libraries static data offset and the client static data offset (the offset you must use when accessing your static data). These must be restored in the static data offset locations at offsets +00 and +04 from the base of the SVC stack when you are re-entering the module in SVC mode (e.g. in a SWI handler). When restoring the static data offsets you must save the previous static data offsets around the module entry.
+
+That mechanism will break horribly in a threaded environment, so you’d either need to pause all cores until the code has run its course or implemented isolated SVC stacks for every C Module. Depending on your approach you might need to track which Modules have called SharedCLibrary\_LibInitModule, so you know when they need a dedicated stack on entry.
+
+If you’re going to support legacy standards like this, you might want to consider running all legacy code (ie not flagged as multi-core/thread safe) on a single core in a VM style environment where it’s single threaded and can’t break the rest of the system when it crashes.</source:markdown>
+      <guid>cid://www.riscosopen.org:9:20330:162925</guid>
+    </item>    <item>
+      <title>RISC OS North Show Report 2026</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13575&#38;page=1#125882</link>
+      <description>
+        <![CDATA[There is an additional show report at https://tantobieinternettattler.blogspot.com/2026/04/the-risc-os-north-show-21st-march-2026.html?m=1]]>
+      </description>
+      <source:markdown>There is an additional show report at https://tantobieinternettattler.blogspot.com/2026/04/the-risc-os-north-show-21st-march-2026.html?m=1</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13575&#38;page=1#125882</guid>
+    </item>    <item>
+      <title>RISC OS in a Post-AI World: Could Simplicity Be the Missing Link in Education?</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13578&#38;page=1#125881</link>
+      <description>
+        <![CDATA[One of the problems with detailed control of the curriculum from bureaucrats is just this. It might achieve a lowest common denominator of coverage but may not leave much time for inspired teaching.]]>
+      </description>
+      <source:markdown>One of the problems with detailed control of the curriculum from bureaucrats is just this. It might achieve a lowest common denominator of coverage but may not leave much time for inspired teaching.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13578&#38;page=1#125881</guid>
+    </item>    <item>
+      <title>Filer Action SWIs</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20339</link>
+      <description>
+        <![CDATA[<p>To copy some large directories using Filer_Action from a <span class="caps">BASIC</span> program I am using the following sequence of SWIs:<br />
+        <code>Wimp_StartTask
+        FilerAction_SendSelectedDirectory
+        FilerAction_SendSelectedFile
+        FilerAction_SendStartOperation</code></p>
+        <p>As I do not want processing to continue until the copy is complete, I am then Polling to wait for the copy task to finish with the TaskCloseDown message &amp;400C3.</p>
+        <p>This all works fine &#8230; but if the Filer Action encounters an error it is displayed with the options to Abort, Skip or Retry.<br />
+        If Abort is chosen, the copy task obviously ends and the calling program detects that.</p>
+        <p>However, I have found no way to detect that the copy was aborted, and I do not want to continue the rest of the normal processing.</p>
+        <p>Any suggestions how this could be achieved?</p>]]>
+      </description>
+      <source:markdown>To copy some large directories using Filer\_Action from a BASIC program I am using the following sequence of SWIs:
+
+`Wimp_StartTask
+FilerAction_SendSelectedDirectory
+FilerAction_SendSelectedFile
+FilerAction_SendStartOperation`
+
+As I do not want processing to continue until the copy is complete, I am then Polling to wait for the copy task to finish with the TaskCloseDown message &#38;400C3.
+
+This all works fine … but if the Filer Action encounters an error it is displayed with the options to Abort, Skip or Retry.
+
+If Abort is chosen, the copy task obviously ends and the calling program detects that.
+
+However, I have found no way to detect that the copy was aborted, and I do not want to continue the rest of the normal processing.
+
+Any suggestions how this could be achieved?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20339:162918</guid>
+    </item>    <item>
+      <title>How to detect Wget?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20338</link>
+      <description>
+        <![CDATA[<p>I use the following command on my apps that use Wget:</p>
+        <p>SYS&quot;Wimp_StartTask&quot;,&quot;X wget fff -o &#8220;<ins>scrap$</ins>&#8221;.test&quot;</p>
+        <p>Then count the filesize and if it is less than 1 Wget is not present.</p>]]>
+      </description>
+      <source:markdown>I use the following command on my apps that use Wget:
+
+SYS&#34;Wimp\_StartTask&#34;,&#34;X wget fff -o “scrap$”.test&#34;
+
+Then count the filesize and if it is less than 1 Wget is not present.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20338:162917</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 5th March at 1pm UK time</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20334</link>
+      <description>
+        <![CDATA[<p>Thank you to everyone who came along.</p>
+        <p>This week we got the module implementation working and we can now run the *`<span class="caps">GOSC</span>` command (it&#8217;s called <span class="caps">GOSC</span> otherwise it&#8217;ll clash with the proper supervisor *`<span class="caps">GOS</span>` !) :</p>
+        <ul>
+        	<li>*GOS works</li>
+        	<li>You can generate errors in it, and it will show them.</li>
+        	<li>You can press escape and it reports it.</li>
+        	<li>You can run commands which don&#8217;t set up environment (eg Echo).</li>
+        	<li>You can run commands which do set up an environment (eg *BASIC).</li>
+        	<li>You can run it in a TaskWindow.</li>
+        	<li>It handles the 256 byte <span class="caps">CLI</span> buffer in pre-<span class="caps">RISC</span> OS 4.</li>
+        	<li>It recognises <span class="caps">RISC</span> OS 4 and 5 as having a 1024 character <span class="caps">CLI</span> buffer.</li>
+        	<li>It uses the variable size <span class="caps">CLI</span> buffer in <span class="caps">RISC</span> OS Pyromaniac.</li>
+        	<li>It uses the <span class="caps">CLI</span>$Prompt.</li>
+        </ul>
+        <p>There is a little bit of assembly in the module, which will need to be ported to AArch64. Frustrating, but that&#8217;s the nature of the environment handlers. Next week we&#8217;ll look at converting the AArch32 to AArch64 for 64-bit <span class="caps">RISC</span> OS (unless anyone else wants to do that in the meantime).</p>
+        <p>During the session we had our first pull request as well, as David Ramsden spotted that I can&#8217;t count in the routine that printed hex numbers. Thanks to him &#8211; one of the joys of the live coding is that people can do stuff live as well, and we can see the benefit.</p>
+        <p>Live coding and open source, whee!</p>]]>
+      </description>
+      <source:markdown>Thank you to everyone who came along.
+
+This week we got the module implementation working and we can now run the \*\`GOSC\` command (it’s called GOSC otherwise it’ll clash with the proper supervisor \*\`GOS\` !) :
+
+- \*GOS works
+- You can generate errors in it, and it will show them.
+- You can press escape and it reports it.
+- You can run commands which don’t set up environment (eg Echo).
+- You can run commands which do set up an environment (eg \*BASIC).
+- You can run it in a TaskWindow.
+- It handles the 256 byte CLI buffer in pre-RISC OS 4.
+- It recognises RISC OS 4 and 5 as having a 1024 character CLI buffer.
+- It uses the variable size CLI buffer in RISC OS Pyromaniac.
+- It uses the CLI$Prompt.
+
+There is a little bit of assembly in the module, which will need to be ported to AArch64. Frustrating, but that’s the nature of the environment handlers. Next week we’ll look at converting the AArch32 to AArch64 for 64-bit RISC OS (unless anyone else wants to do that in the meantime).
+
+During the session we had our first pull request as well, as David Ramsden spotted that I can’t count in the routine that printed hex numbers. Thanks to him – one of the joys of the live coding is that people can do stuff live as well, and we can see the benefit.
+
+Live coding and open source, whee!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20334:162915</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3miqwcrlq4k2y</link>
       <description>
         <![CDATA[Yes, I'm sorry I'm late with my obligatory photo of Archive magazine, but I've been away and only just got back¹. But it was nice to find this waiting for me.
@@ -29,35 +254,6 @@
 #RISC\_OS
 @archiveriscos.bsky.social</source:markdown>
       <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3miqwcrlq4k2y</guid>
-    </item>    <item>
-      <title>How to detect Wget?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20338</link>
-      <description>
-        <![CDATA[<p>In order to detect whether Wget has been seen by the system, I use a routine that contains the following line:</p>
-        <p><code>SYS "Wimp_StartTask", "X wget " + url$ + " -q -o " + path$</code></p>
-        <p>url$ and path$ have been defined before.<br />
-        This writes some text to a given path, if Wget is active. This is tested by the following line:</p>
-        <p><code>f% = OPENIN (path$)</code></p>
-        <p>If Wget hasn&#8217;t been seen by the system, f% will be 0. This approach has been working fine so far.</p>
-        <p>However, it appears that some versions of the OS, noticebly 5.29 (19-Feb-21), crash horribly when meeting the first line. Only a switch off and on brings the computer back.<br />
-        Is this a known issue? Is there a better way to detect Wget?</p>]]>
-      </description>
-      <source:markdown>In order to detect whether Wget has been seen by the system, I use a routine that contains the following line:
-
-`SYS &#34;Wimp_StartTask&#34;, &#34;X wget &#34; + url$ + &#34; -q -o &#34; + path$`
-
-url$ and path$ have been defined before.
-
-This writes some text to a given path, if Wget is active. This is tested by the following line:
-
-`f% = OPENIN (path$)`
-
-If Wget hasn’t been seen by the system, f% will be 0. This approach has been working fine so far.
-
-However, it appears that some versions of the OS, noticebly 5.29 (19-Feb-21), crash horribly when meeting the first line. Only a switch off and on brings the computer back.
-
-Is this a known issue? Is there a better way to detect Wget?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20338:162900</guid>
     </item>    <item>
       <title>ARM Wrestling</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20337</link>
@@ -78,14 +274,6 @@ There are also some posts with [recent results](https://vermilionsands.uk/roast/
 
 ![](https://vermilionsands.uk/roast/fp-content/images/DM06-01M13Shs.webp)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20337:162898</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 5th March at 1pm UK time</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20334</link>
-      <description>
-        <![CDATA[<p>Going live in about 40 minutes.</p>]]>
-      </description>
-      <source:markdown>Going live in about 40 minutes.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20334:162897</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3miqhinizbk2j</link>
       <description>
@@ -141,22 +329,6 @@ So long as we’re not talking about bounty stuff, of course – and I don’t t
       </description>
       <source:markdown>My comments was not a hit at you, This always gets heated when i mention a select feature that i would like to see in a newer version, i’ve never been a massive fan of the HAL based V5 RISCOS i pretty much stay on RO6 for a reason because it suits my general needs as a designer, i prefered the modular approach that select used and still in 2026 its still revevent. I think in future i’m just not going to bother suggesting anything and dip out. its far too contentious still to sit in RISC OS world. I think im finally done, I’m out.</source:markdown>
       <guid>cid://www.riscosopen.org:2:20332:162892</guid>
-    </item>    <item>
-      <title>Paint, Draw, OS_EnterOS and ModuleWrap</title>
-      <link>https://www.riscosopen.org/forum/forums/9/topics/20330</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Yes he started a lot earlier</p>
-        </blockquote>
-        <p>Are you calling me slow?</p>
-        <p><sub>I&#8217;m joking!</sub></p>]]>
-      </description>
-      <source:markdown>&#62; Yes he started a lot earlier
-
-Are you calling me slow?
-
-I’m joking!</source:markdown>
-      <guid>cid://www.riscosopen.org:9:20330:162881</guid>
     </item>    <item>
       <title>Automount additional FAT32 partition on boot</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20325</link>
@@ -2543,196 +2715,6 @@ Thanks.</source:markdown>
       <source:markdown>With the ever increasing cost of living, we are pleased to announce that we have been able to avoid increasing the entry prices for this year’s show. The price of entry into RISC OS North 2026 will be £7, with free entry for anyone under fourteen years of age.</source:markdown>
       <guid>cid://https://www.riscosnorth.uk/?p=616</guid>
     </item>    <item>
-      <title>New DME ExtTheme and Launchpad available for download and testing</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
-      <description>
-        <![CDATA[<p>Finally I managed to fix my packaging automation and got a new build of ExtTheme ready for testing.</p>
-        <p>What this build includes:</p>
-        <ul>
-        	<li>A lot of code improvements that should make it more stable</li>
-        	<li>Improved theme handling for some edge case</li>
-        	<li>Enabled support to skip background configuration</li>
-        	<li>Changed the help, and added the requested new verbs:</li>
-        </ul>
-        <pre>
-        *Theme allow a user to manage RISC OS themes from the command line using 
-        ExtTheme Theme Manager version 0.0.1.
-        Available commands:
-          help
-              Show this help screen.
-        
-          list
-              Lists all installed themes (from the Themes: directory).
-        
-          setDefault &lt;theme_name&gt;
-              Selects &lt;theme_name&gt; as the default theme (the theme to use on boot).
-              To apply the theme immediately, add the -apply-theme (or -apply) option.
-        
-          set or apply [&lt;theme_name&gt;]
-              Applies the default theme (if no theme_name is provided) or temporarily applies 
-        the theme specified. Set|apply do not change the default theme.
-        
-          current
-              Shows the currently selected theme. If none has been selected yet, it will return none.
-        
-          info &lt;theme_name&gt;
-              Shows information about the specified theme.
-        
-          reset &lt;theme_name&gt;
-              Resets a theme by restoring its Default values.
-        
-          restore &lt;theme_name&gt;
-              Restores a theme's User-Customization file from its backup (if available).
-        
-          override &lt;target-theme&gt; &lt;source-theme&gt; &lt;group&gt; &lt;attribute&gt;
-              Overrides an &lt;attribute&gt; in &lt;group&gt; of &lt;target-theme&gt; using the value from &lt;source-theme&gt;.
-              Overriding means that the new attribute value will be added to the target theme's 
-        Choices file at the end, which then will override any previous values.
-        
-          enable &lt;theme&gt; &lt;attribute&gt;
-              Enables a specific theme attribute in the given theme's Choices if the attribute is present.
-        
-          disable &lt;theme&gt; &lt;attribute&gt;
-              Disables a specific attribute from a theme's user Choices if the attribute is present.
-        
-          install &lt;zip_path&gt;|&lt;theme_directory_path&gt;
-              Installs a theme from a ZIP archive or a theme directory into the Themes: directory.
-              The archive should follow the standard theme structure.
-        
-          remove &lt;theme_name&gt;
-              Removes an installed theme from the Themes: directory.
-        
-          clear_cache
-              Clears ExtTheme cache directory (which is usually used to store temporary extracted theme files).
-        
-          create &lt;theme_name&gt;
-              Create a new theme using RISC OS default theme.
-        
-          copy &lt;source_theme&gt; &lt;dest_theme&gt; &lt;aspect&gt;
-              Copies a specific aspect (e.g., Icons, Tools) from &lt;source_theme&gt; to &lt;dest_theme&gt;.
-        
-          edit &lt;theme_name&gt;
-              Opens the theme directory in the Filer for manual editing.
-        
-        Syntax: *theme &lt;command&gt; [&lt;options&gt;]
-        (note: if a theme name contains spaces, enclose it in quotes)
-        
-        Options:
-          -reload-app-spr, -ras
-              Reload applications' sprites (if any defined in the &lt;theme&gt;.Apps) after applying the theme. (used only with 'set' command otherwise ignored)
-        
-          -no-backdrop, -nob
-              When applying a theme, do not change backdrop settings even if the theme defines them. This is useful to preserve the current backdrop when applying themes that include backdrop changes. (used with 'set|apply' and 'setDefault' commands only otherwise ignored)
-        
-          -apply-theme, -apply
-              When setting a default theme, also apply it immediately. (used only with 'setDefault' command otherwise ignored)
-        </pre>
-        <p>So now you can do things like:</p>
-        <pre>
-        
-        *theme setDefault MyTheme -apply -no-backdrop
-        
-        </pre>
-        <p>Which, in one liner, will set MyTheme as default theme, will apply it and also (on both) at reboot and when applying it now will skip the background configuration so you&#8217;ll keep your current background.</p>
-        <p>Have fun and, as usual, let me know if there are any more issues.</p>]]>
-      </description>
-      <source:markdown>Finally I managed to fix my packaging automation and got a new build of ExtTheme ready for testing.
-
-What this build includes:
-
-- A lot of code improvements that should make it more stable
-- Improved theme handling for some edge case
-- Enabled support to skip background configuration
-- Changed the help, and added the requested new verbs:
-
-```
-*Theme allow a user to manage RISC OS themes from the command line using
-ExtTheme Theme Manager version 0.0.1.
-Available commands:
-  help
-      Show this help screen.
-
-  list
-      Lists all installed themes (from the Themes: directory).
-
-  setDefault &#60;theme_name&#62;
-      Selects &#60;theme_name&#62; as the default theme (the theme to use on boot).
-      To apply the theme immediately, add the -apply-theme (or -apply) option.
-
-  set or apply [&#60;theme_name&#62;]
-      Applies the default theme (if no theme_name is provided) or temporarily applies
-the theme specified. Set|apply do not change the default theme.
-
-  current
-      Shows the currently selected theme. If none has been selected yet, it will return none.
-
-  info &#60;theme_name&#62;
-      Shows information about the specified theme.
-
-  reset &#60;theme_name&#62;
-      Resets a theme by restoring its Default values.
-
-  restore &#60;theme_name&#62;
-      Restores a theme&#39;s User-Customization file from its backup (if available).
-
-  override &#60;target-theme&#62; &#60;source-theme&#62; &#60;group&#62; &#60;attribute&#62;
-      Overrides an &#60;attribute&#62; in &#60;group&#62; of &#60;target-theme&#62; using the value from &#60;source-theme&#62;.
-      Overriding means that the new attribute value will be added to the target theme&#39;s
-Choices file at the end, which then will override any previous values.
-
-  enable &#60;theme&#62; &#60;attribute&#62;
-      Enables a specific theme attribute in the given theme&#39;s Choices if the attribute is present.
-
-  disable &#60;theme&#62; &#60;attribute&#62;
-      Disables a specific attribute from a theme&#39;s user Choices if the attribute is present.
-
-  install &#60;zip_path&#62;|&#60;theme_directory_path&#62;
-      Installs a theme from a ZIP archive or a theme directory into the Themes: directory.
-      The archive should follow the standard theme structure.
-
-  remove &#60;theme_name&#62;
-      Removes an installed theme from the Themes: directory.
-
-  clear_cache
-      Clears ExtTheme cache directory (which is usually used to store temporary extracted theme files).
-
-  create &#60;theme_name&#62;
-      Create a new theme using RISC OS default theme.
-
-  copy &#60;source_theme&#62; &#60;dest_theme&#62; &#60;aspect&#62;
-      Copies a specific aspect (e.g., Icons, Tools) from &#60;source_theme&#62; to &#60;dest_theme&#62;.
-
-  edit &#60;theme_name&#62;
-      Opens the theme directory in the Filer for manual editing.
-
-Syntax: *theme &#60;command&#62; [&#60;options&#62;]
-(note: if a theme name contains spaces, enclose it in quotes)
-
-Options:
-  -reload-app-spr, -ras
-      Reload applications&#39; sprites (if any defined in the &#60;theme&#62;.Apps) after applying the theme. (used only with &#39;set&#39; command otherwise ignored)
-
-  -no-backdrop, -nob
-      When applying a theme, do not change backdrop settings even if the theme defines them. This is useful to preserve the current backdrop when applying themes that include backdrop changes. (used with &#39;set|apply&#39; and &#39;setDefault&#39; commands only otherwise ignored)
-
-  -apply-theme, -apply
-      When setting a default theme, also apply it immediately. (used only with &#39;setDefault&#39; command otherwise ignored)
-
-```
-
-So now you can do things like:
-
-```
-
-*theme setDefault MyTheme -apply -no-backdrop
-
-```
-
-Which, in one liner, will set MyTheme as default theme, will apply it and also (on both) at reboot and when applying it now will skip the background configuration so you’ll keep your current background.
-
-Have fun and, as usual, let me know if there are any more issues.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20199:162299</guid>
-    </item>    <item>
       <title>JSbeeb and Compiler Explorer at ROUGOL, Mon 16th March 2026</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20291</link>
       <description>
@@ -2760,17 +2742,6 @@ Build should be available tomorrow morning.
 
 #FileSharing #Linux #Windows #macOS #BSD #RISCOS</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mgxwguy45224</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>Well, I use <b>Homebrew</b> on my Mac — I have used MacPorts and Fink in the past and find Homebrew easier to use and it generally has a wider range of software available, including Qt6.</p>
-        <p>That said, there are various different versions of QT6, but 6.10 is, I believe, an <span class="caps">LTS</span> release (long-term support). Don&#8217;t know why the shift key wouldn&#8217;t work &#8212; when I get the time I will try installing Qt6/QtCreator using Homebrew and try compiling it. There are a number of macOS applications built using Qt &#8212; the <span class="caps">DTP</span> program <em>Scribus</em> and the photo management app <em>Digikam</em> — so a problem like that ought to show up elsewhere&#8230;</p>]]>
-      </description>
-      <source:markdown>Well, I use **Homebrew** on my Mac — I have used MacPorts and Fink in the past and find Homebrew easier to use and it generally has a wider range of software available, including Qt6.
-
-That said, there are various different versions of QT6, but 6.10 is, I believe, an LTS release (long-term support). Don’t know why the shift key wouldn’t work — when I get the time I will try installing Qt6/QtCreator using Homebrew and try compiling it. There are a number of macOS applications built using Qt — the DTP program _Scribus_ and the photo management app _Digikam_ — so a problem like that ought to show up elsewhere…</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:162283</guid>
     </item>    <item>
       <title>ShareFS goes cross platform</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13569&#38;page=1#125870</link>
@@ -12201,571 +12172,6 @@ PiServer – Other CM5 with Netatalk for wider sharing across multiple platforms
       </description>
       <source:markdown>Thank you</source:markdown>
       <guid>cid://www.riscosopen.org:5:20100:159649</guid>
-    </item>    <item>
-      <title>BBC BASIC - Simple OOP Extensions</title>
-      <link>https://www.riscosopen.org/forum/forums/2/topics/20102</link>
-      <description>
-        <![CDATA[<p>I have always thought that <span class="caps">BBC</span> <span class="caps">BASIC</span> needed records.</p>
-        <p>RTR&#8217;s BASICs have Structures, but the syntax doesn&#8217;t really feel native to <span class="caps">BBC</span> <span class="caps">BASIC</span>.</p>
-        <p>I have been a fan of Wirth&#8217;s Oberon with type extension of records as it is a clean simple concept.</p>
-        <p>Most OO languages go off into the weeds with very complex and subtle features that are not really needed for 99% of programs.</p>
-        <p>I have outlined a possible syntax/semantics for a simplified <span class="caps">OOP</span> style record structure description below.</p>
-        <p>Let me know what you think.</p>
-        <p><span class="caps">OUTLINE</span> OF <span class="caps">CONCEPT</span>:</p>
-        <p>Defininng a record type</p>
-        <p>No Args (fixed size)</p>
-        <blockquote>
-        <p><span class="caps">DEF</span> RECmyrec<br />
-        A%	//	Integer field<br />
-        B	//	Floating field<br />
-        C$	//	String field	<br />
-        D@	//	Pointer field (any RECxxx) initial value <span class="caps">NULL</span><br />
-        <span class="caps">DIM</span> E% 1024	//	Raw byte block field 1kB inline in record, use with indirection operators<br />
-        <span class="caps">DIM</span> F%(9)	//	Array of 10 ints<br />
-        <span class="caps">DIM</span> G(9)	//	Array of 10 floats<br />
-        <span class="caps">DIM</span> H$(9)	//	Array of 10 strings<br />
-        <span class="caps">DIM</span> I@(9)	//	Array of 10 pointer to record initial value <span class="caps">NULL</span><br />
-        <span class="caps">ENDREC</span></p>
-        </blockquote>
-        <p>With Args (variable size and initial values)</p>
-        <blockquote>
-        <p><span class="caps">DEF</span> RECmyvarrec(n$,m%,blocksize%)<br />
-        name$ = n$		//  Initialise value<br />
-        <span class="caps">DIM</span> list$(m%)	//	n+1 strings &#8211; record contains a pointer to the array<br />
-        <span class="caps">DIM</span> block% blocksize%*2+38	//	can do calculations; specifies number of bytes, numbered 0 to result-1<br />
-        <span class="caps">ENDREC</span></p>
-        </blockquote>
-        <p></p>
-        <p>Global or Private</p>
-        <blockquote>
-        <p>R@ = RECmyrec 	// Globals use the heap (I would prefer if the language had <span class="caps">GLOBAL</span> to specify global varsfor symmetry/clarity)<br />
-        			// this version of the creation syntax does not make it obvious that allocation is taking place here</p>
-        </blockquote>
-        <blockquote>
-        <p><span class="caps">GLOBAL</span> R@ = RECmyrec  // opt global designator</p>
-        </blockquote>
-        <blockquote>
-        <p>R@ = <span class="caps">NEW</span> RECobject   // alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.</p>
-        </blockquote>
-        <p></p>
-        <blockquote>
-        <p><span class="caps">PRIVATE</span> T@ = <span class="caps">NEW</span> RECmyrec	// PRIVATEs use the heap. Same as <span class="caps">PRIVATE</span> in <span class="caps">RTR</span> <span class="caps">BBC</span> <span class="caps">BASIC</span></p>
-        </blockquote>
-        <p><span class="caps">STATIC</span> &#8212; used for &#8220;class variables/methods&#8221; see below</p>
-        <p>I prefer the use of <span class="caps">NEW</span> rather than <span class="caps">DIM</span> because <span class="caps">DIM</span> is already used for Arrays and Structures</p>
-        <p>Stack (<span class="caps">LOCAL</span> vars)</p>
-        <blockquote>
-        <p><span class="caps">LOCAL</span> S@ = <span class="caps">NEW</span> RECmyvarrec(&#8220;Bob&#8221;,9,256)	// Locals also use the heap because we will often export the reference from the scope expecting the record to persist.</p>
-        </blockquote>
-        <p>When <span class="caps">LOCAL</span> pointer variable goes out of scope, the pointer on the stack is deleted, but the record (on heap) remains and may cause memory leaks, <br />
-        <span class="caps">CLEANUP</span> should be used periodically.</p>
-        <p>If it is known that the record is no longer needed, it should be deleted before it goes out of scope.<br />
-        The interpreter could detect escaping references and delete those that don&#8217;t, this can be complex with subtle errors, so manual or GC is easier.<br />
-        Alternatively use Reference Counting (simpler, but risks memory leaks)</p>
-        <p></p>
-        <p>Delete Records and Release Heap Memory (manual GC)</p>
-        <blockquote>
-        <p><span class="caps">DEL</span> p@	&#8212;	frees the storage fields (strings, arrays, blocks) then frees the record, does <span class="caps">NOT</span> follow pointer fields.</p>
-        </blockquote>
-        <blockquote>
-        <p><span class="caps">CLEANUP</span>	&#8212; executed outside any <span class="caps">PROC</span> or FN, marks all records reachable via global and private pointer variables then sweeps unmarked heap, does <span class="caps">NOT</span> follow pointers stored in Raw byte data blocks.</p>
-        </blockquote>
-        <p>Method:<br />
-        Add all global &amp; static pointers to the keep queue<br />
-        While keep queue not empty<br />
-        &#8230;.Pull the next pointer from the keep queue as current record<br />
-        &#8230;.If current record not marked<br />
-        &#8230;&#8230;..Add all pointers to records to the keep queue<br />
-        &#8230;&#8230;..Mark current record for retention<br />
-        Sweep the record heap freeing all unmarked records using the <span class="caps">DEL</span> operation above.</p>
-        <blockquote>
-        <p><span class="caps">DELREC</span> q@ &#8212; as <span class="caps">DEL</span> above, <span class="caps">BUT</span> it also follows pointer chains deleting all linked records, does <span class="caps">NOT</span> follow pointers stored in Raw byte data blocks.</p>
-        </blockquote>
-        <p>Method:<br />
-        Add q@ to the delete queue<br />
-        While delete queue not empty<br />
-        &#8230;.Pull the next pointer from the delete queue as current record<br />
-        &#8230;.If current record not marked<br />
-        &#8230;&#8230;..Add all pointers to the delete queue<br />
-        &#8230;&#8230;..Free all the storage fields<br />
-        &#8230;&#8230;..Mark current record for deletion<br />
-        Sweep the record heap freeing all marked records</p>
-        <p>Access to fields</p>
-        <p>The field access operator is . followed by the name of a field.</p>
-        <blockquote>
-        <p>name$ = P@.name$</p>
-        </blockquote>
-        <p></p>
-        <p>Procedure Fields / methods</p>
-        <blockquote>
-        <p><span class="caps">DEF</span> RECobject<br />
-        			A%<br />
-        			B%<br />
-        			<span class="caps">DEF</span> PROCmethod1(a%,b%) // <span class="caps">LOCAL</span> vars and params must not have the same name as a record field!<br />
-        				A%=a%-b%<br />
-        				B%=a%+b%<br />
-        			<span class="caps">ENDPROC</span><br />
-        			<span class="caps">DEF</span> FNfunc1&#8230;.<br />
-        			<span class="caps">DEF</span> PROCmethod2&#8230;&#8230;<br />
-        		<span class="caps">ENDREC</span></p>
-        </blockquote>
-        <p>Usage of procedure fields:</p>
-        <blockquote>
-        <p>R@ = <span class="caps">NEW</span> RECobject   // alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.<br />
-        		R@.PROCmethod1(56,99)<br />
-        		q = R@.FNfunc1</p>
-        </blockquote>
-        <p>Record Extension and overrides</p>
-        <blockquote>
-        <p><span class="caps">DEF</span> RECparent(args)<br />
-        			name$<br />
-        			<span class="caps">DEF</span> PROCmethod1:<span class="caps">ENDPROC</span>  // an empty method, calling it does nothing, acts as a placeholder for later redefinition.<br />
-        			<span class="caps">DEF</span> PROCmethod2(blah%)<br />
-        				// Some code here<br />
-        			<span class="caps">ENDPROC</span><br />
-        			<span class="caps">DEF</span> PROCmethod3(blah%)<br />
-        				// Some other code here<br />
-        			<span class="caps">ENDPROC</span><br />
-        			<span class="caps">DEF</span> PROCmethod4:<span class="caps">UNDEFINED</span>:<span class="caps">ENDPROC</span> &#8212; an undefined method placeholder, calling it throws an error, must redefine, like abstract in other languages.<br />
-        		<span class="caps">ENDREC</span></p>
-        </blockquote>
-        <blockquote>
-        <p><span class="caps">DEF</span> RECchild1(args) <span class="caps">EXTEND</span> RECparent(arg exprs) // allows inherited fields to be initialised/dimensioned<br />
-        			address$	//	a new field<br />
-        			<span class="caps">DEF</span> PROCmethod1	//	this overrides any method with the same name, implements something for method1.<br />
-        				// Do something<br />
-        			<span class="caps">ENDPROC</span><br />
-        			// PROCmethod2 is not defined here, so the one from the parent is inherited.<br />
-        			<span class="caps">DEF</span> PROCmethod3(blah%)	//	overrides PROCmethod3<br />
-        				// Do this<br />
-        				<span class="caps">PARENT</span>.PROCmethod3(blah%+8)	&#8212;	here we call PROCmethod3 from the parent.<br />
-        				// Do That<br />
-        			<span class="caps">ENDPROC</span><br />
-        			<span class="caps">DEF</span> PROCmethod4	//	this defines PROCmethod4 for the first time.<br />
-        				// Do something. Calling <span class="caps">PARENT</span>.method4 here throws an error (default halt program)<br />
-        			<span class="caps">ENDPROC</span><br />
-        		<span class="caps">ENDREC</span></p>
-        </blockquote>
-        <p><span class="caps">PARENT</span></p>
-        <p>// passes control to an overridden method, that method may have been inherited through several levels of extension, it will activate the last matching definition.</p>
-        <p><span class="caps">THIS</span></p>
-        // refers to the current object within a method, it is implied when accessing fields within methods.
-        <p><span class="caps">TYPE</span>$</p>
-        <p>// refers to the type of a record as a string e.g. &#8220;RECchild1&#8221;</p>
-        <p><span class="caps">TYPE</span></p>
-        <p>// refers to the type of the record internal representation, can be used for type tests</p>
-        <blockquote>
-        <p>IF <span class="caps">THIS</span>.<span class="caps">TYPE</span> = RECchild1 <span class="caps">THEN</span> &#8230;</p>
-        </blockquote>
-        <p><span class="caps">TYPE</span> and <span class="caps">TYPE</span>$ work on any pointer variable as well. to allow type comparisons (compare 2 pointers or pointer against <span class="caps">TYPE</span> value):</p>
-        <blockquote>
-        <p>IF R@.<span class="caps">TYPE</span> = P@.<span class="caps">TYPE</span> // do they have the same dynamic type?<br />
-        		IF R@.<span class="caps">TYPE</span> &lt;&gt; RECsometype // R@ is <span class="caps">NOT</span> pointing to a RECsometype?<br />
-        		IF R@.<span class="caps">TYPE</span> &gt; P@.<span class="caps">TYPE</span> // is R@ pointing to a supertype of P@?<br />
-        		IF R@.<span class="caps">TYPE</span> &gt;= P@.<span class="caps">TYPE</span> // is R@ the same OR a supertype of P@?<br />
-        		IF R@.<span class="caps">TYPE</span> &lt; RECparent // is R@ a subtype of RECparent?<br />
-        		IF R@.<span class="caps">TYPE</span> &lt;= RECparent // is R@ the same as or a subtype of RECparent?</p>
-        </blockquote>
-        <p>Calling an undefined method is a fatal error and will halt the program.</p>
-        <p>Fields are not redefined/overridden and must only be named once in an extension chain.</p>
-        <p>There is no multiple inheritance, interfaces, generics as these are complex and hard to do correctly.</p>
-        <p></p>
-        <p>Managing Namespace Pollution and example of &#8220;class&#8221; var/method</p>
-        <p>If a program has a large number of record types with lots of internal fields and methods that the user of the record does not need to touch the interface becomes a confusing mess.</p>
-        <p>Most <span class="caps">OOP</span> languages allow marking fields and methods as private/public, etc</p>
-        <p>I propose that for the <span class="caps">BASIC</span> extension above that all fields and methods are private by default and only visible inside the <span class="caps">REC</span> structure and by any child <span class="caps">REC</span> that extends from it.</p>
-        <p>To make things visible to the program at large, fields and methods are marked with an export mark &#8216;&lt;-&#8217;</p>
-        <blockquote>
-        <p><span class="caps">DEF</span> RECobject<br />
-        		&lt;-	A%		// A% is visible to the whole program as MyPtr@.A%<br />
-        			B%		// B% is only visible to methods inside RECobject fatal error to attempt access outside.<br />
-        		&lt;-	<span class="caps">STATIC</span> C%	// this is global to all instances of RECobject<br />
-        		&lt;-	<span class="caps">DEF</span> PROCmethod1(a%,b%) // Can be called anywhere as MyPtr@.PROCmethod1(&#8230;)<br />
-        				A%=a%-b%<br />
-        				B%=a%+b%<br />
-        			<span class="caps">ENDPROC</span><br />
-        			<span class="caps">DEF</span> FNfunc1		// Can be called inside PROCmethod1 or PROCmethod2 or FNfunc1 as <span class="caps">THIS</span>.FNfunc1(&#8230;) or <span class="caps">PARENT</span>.FNfunc1 (if inherited)<br />
-        				= C%<br />
-        		&lt;-	<span class="caps">DEF</span> PROCmethod2	// Can be called anywhere as MyPtr@.PROCmethod2(&#8230;)<br />
-        				A% = <span class="caps">THIS</span>.FNfunc1<br />
-        			<span class="caps">ENDPROC</span><br />
-        		&lt;-	<span class="caps">STATIC</span> <span class="caps">DEF</span> PROCdouble // affects all instances, can be called without any live instance<br />
-        				C% = C% * 2   // Can only manipulate <span class="caps">STATIC</span> fields and call <span class="caps">STATIC</span> methods/functions<br />
-        			<span class="caps">ENDPROC</span><br />
-        		<span class="caps">ENDREC</span></p>
-        </blockquote>
-        <p>The exported <span class="caps">API</span> of this <span class="caps">REC</span> is:</p>
-        <blockquote>
-        <p><span class="caps">DEF</span> RECobject<br />
-        		&lt;-	A%		// A% is visible to the whole program as MyPtr@.A%<br />
-        		&lt;-	<span class="caps">STATIC</span> C%	// this is global to all instances of RECobject<br />
-        		&lt;-	<span class="caps">DEF</span> PROCmethod1(a%,b%) // Can be called anywhere as MyPtr@.PROCmethod1(&#8230;)			<br />
-        		&lt;-	<span class="caps">DEF</span> PROCmethod2	// Can be called anywhere as MyPtr@.PROCmethod2(&#8230;)	<br />
-        		&lt;-	<span class="caps">STATIC</span> <span class="caps">DEF</span> PROCdouble // affects all instances, can be called without any live instance	<br />
-        		<span class="caps">ENDREC</span></p>
-        </blockquote>
-        <p></p>
-        <p>Example usage outside the definition</p>
-        <p>RECobject.C% = 5  // set the class var C% to 5 for all RECobjects<br />
-        		R@ = <span class="caps">NEW</span> RECobject<br />
-        		R@.PROCmethod1(20,10)<br />
-        		<span class="caps">PRINT</span> R@.A%  // prints 10<br />
-        		R@.PROCmethod2 <br />
-        		<span class="caps">PRINT</span> R@.A%  // prints 5<br />
-        		<span class="caps">DEL</span> R@       // delete the record<br />
-        		RECobject.PROCdouble  // there are no live instances at this time<br />
-        		p@ = <span class="caps">NEW</span> RECobject<br />
-        		p@.PROCmethod1(100, 15)<br />
-        		<span class="caps">PRINT</span> p@.A%  // prints 85<br />
-        		p@.PROCmethod2 <br />
-        		<span class="caps">PRINT</span> p@.A%  // prints 10, as C% was doubled by PROCdouble<br />
-        		<span class="caps">DEL</span> p@       // delete the record</p>
-        <p><strong>Sorry about the terrible formatting, the forum editor wipes indentation.</strong></p>]]>
-      </description>
-      <source:markdown>I have always thought that BBCBASIC needed records.
-
-RTR’s BASICs have Structures, but the syntax doesn’t really feel native to BBCBASIC.
-
-I have been a fan of Wirth’s Oberon with type extension of records as it is a clean simple concept.
-
-Most OO languages go off into the weeds with very complex and subtle features that are not really needed for 99% of programs.
-
-I have outlined a possible syntax/semantics for a simplified OOP style record structure description below.
-
-Let me know what you think.
-
-OUTLINE OF CONCEPT:
-
-Defininng a record type
-
-No Args (fixed size)
-
-&#62; DEF RECmyrec
-&#62;
-&#62; A% // Integer field
-&#62;
-&#62; B // Floating field
-&#62;
-&#62; C$ // String field
-&#62;
-&#62; D@ // Pointer field (any RECxxx) initial value NULL
-&#62;
-&#62; DIM E% 1024 // Raw byte block field 1kB inline in record, use with indirection operators
-&#62;
-&#62; DIM F%(9) // Array of 10 ints
-&#62;
-&#62; DIM G(9) // Array of 10 floats
-&#62;
-&#62; DIM H$(9) // Array of 10 strings
-&#62;
-&#62; DIM I@(9) // Array of 10 pointer to record initial value NULL
-&#62;
-&#62; ENDREC
-
-With Args (variable size and initial values)
-
-&#62; DEF RECmyvarrec(n$,m%,blocksize%)
-&#62;
-&#62; name$ = n$ // Initialise value
-&#62;
-&#62; DIM list$(m%) // n+1 strings – record contains a pointer to the array
-&#62;
-&#62; DIM block% blocksize%\*2+38 // can do calculations; specifies number of bytes, numbered 0 to result-1
-&#62;
-&#62; ENDREC
-
-Global or Private
-
-&#62; R@ = RECmyrec // Globals use the heap (I would prefer if the language had GLOBAL to specify global varsfor symmetry/clarity)
-&#62;
-&#62; // this version of the creation syntax does not make it obvious that allocation is taking place here
-
-&#62; GLOBAL R@ = RECmyrec // opt global designator
-
-&#62; R@ = NEW RECobject // alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.
-
-&#62; PRIVATE T@ = NEW RECmyrec // PRIVATEs use the heap. Same as PRIVATE in RTRBBCBASIC
-
-STATIC — used for “class variables/methods” see below
-
-I prefer the use of NEW rather than DIM because DIM is already used for Arrays and Structures
-
-Stack (LOCAL vars)
-
-&#62; LOCAL S@ = NEW RECmyvarrec(“Bob”,9,256) // Locals also use the heap because we will often export the reference from the scope expecting the record to persist.
-
-When LOCAL pointer variable goes out of scope, the pointer on the stack is deleted, but the record (on heap) remains and may cause memory leaks,
-
-CLEANUP should be used periodically.
-
-If it is known that the record is no longer needed, it should be deleted before it goes out of scope.
-
-The interpreter could detect escaping references and delete those that don’t, this can be complex with subtle errors, so manual or GC is easier.
-
-Alternatively use Reference Counting (simpler, but risks memory leaks)
-
-Delete Records and Release Heap Memory (manual GC)
-
-&#62; DEL p@ — frees the storage fields (strings, arrays, blocks) then frees the record, does NOT follow pointer fields.
-
-&#62; CLEANUP — executed outside any PROC or FN, marks all records reachable via global and private pointer variables then sweeps unmarked heap, does NOT follow pointers stored in Raw byte data blocks.
-
-Method:
-
-Add all global &#38; static pointers to the keep queue
-
-While keep queue not empty
-
-….Pull the next pointer from the keep queue as current record
-
-….If current record not marked
-
-……..Add all pointers to records to the keep queue
-
-……..Mark current record for retention
-
-Sweep the record heap freeing all unmarked records using the DEL operation above.
-
-&#62; DELREC q@ — as DEL above, BUT it also follows pointer chains deleting all linked records, does NOT follow pointers stored in Raw byte data blocks.
-
-Method:
-
-Add q@ to the delete queue
-
-While delete queue not empty
-
-….Pull the next pointer from the delete queue as current record
-
-….If current record not marked
-
-……..Add all pointers to the delete queue
-
-……..Free all the storage fields
-
-……..Mark current record for deletion
-
-Sweep the record heap freeing all marked records
-
-Access to fields
-
-The field access operator is . followed by the name of a field.
-
-&#62; name$ = P@.name$
-
-Procedure Fields / methods
-
-&#62; DEF RECobject
-&#62;
-&#62; A%
-&#62;
-&#62; B%
-&#62;
-&#62; DEF PROCmethod1(a%,b%) // LOCAL vars and params must not have the same name as a record field!
-&#62;
-&#62; A%=a%-b%
-&#62;
-&#62; B%=a%+b%
-&#62;
-&#62; ENDPROC
-&#62;
-&#62; DEF FNfunc1….
-&#62;
-&#62; DEF PROCmethod2……
-&#62;
-&#62; ENDREC
-
-Usage of procedure fields:
-
-&#62; R@ = NEW RECobject // alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.
-&#62;
-&#62; R@.PROCmethod1(56,99)
-&#62;
-&#62; q = R@.FNfunc1
-
-Record Extension and overrides
-
-&#62; DEF RECparent(args)
-&#62;
-&#62; name$
-&#62;
-&#62; DEF PROCmethod1:ENDPROC // an empty method, calling it does nothing, acts as a placeholder for later redefinition.
-&#62;
-&#62; DEF PROCmethod2(blah%)
-&#62;
-&#62; // Some code here
-&#62;
-&#62; ENDPROC
-&#62;
-&#62; DEF PROCmethod3(blah%)
-&#62;
-&#62; // Some other code here
-&#62;
-&#62; ENDPROC
-&#62;
-&#62; DEF PROCmethod4:UNDEFINED:ENDPROC — an undefined method placeholder, calling it throws an error, must redefine, like abstract in other languages.
-&#62;
-&#62; ENDREC
-
-&#62; DEF RECchild1(args) EXTEND RECparent(arg exprs) // allows inherited fields to be initialised/dimensioned
-&#62;
-&#62; address$ // a new field
-&#62;
-&#62; DEF PROCmethod1 // this overrides any method with the same name, implements something for method1.
-&#62;
-&#62; // Do something
-&#62;
-&#62; ENDPROC
-&#62;
-&#62; // PROCmethod2 is not defined here, so the one from the parent is inherited.
-&#62;
-&#62; DEF PROCmethod3(blah%) // overrides PROCmethod3
-&#62;
-&#62; // Do this
-&#62;
-&#62; PARENT.PROCmethod3(blah%+8) — here we call PROCmethod3 from the parent.
-&#62;
-&#62; // Do That
-&#62;
-&#62; ENDPROC
-&#62;
-&#62; DEF PROCmethod4 // this defines PROCmethod4 for the first time.
-&#62;
-&#62; // Do something. Calling PARENT.method4 here throws an error (default halt program)
-&#62;
-&#62; ENDPROC
-&#62;
-&#62; ENDREC
-
-PARENT
-
-// passes control to an overridden method, that method may have been inherited through several levels of extension, it will activate the last matching definition.
-
-THIS
-
-// refers to the current object within a method, it is implied when accessing fields within methods.
-
-TYPE$
-
-// refers to the type of a record as a string e.g. “RECchild1”
-
-TYPE
-
-// refers to the type of the record internal representation, can be used for type tests
-
-&#62; IF THIS.TYPE = RECchild1 THEN …
-
-TYPE and TYPE$ work on any pointer variable as well. to allow type comparisons (compare 2 pointers or pointer against TYPE value):
-
-&#62; IF R@.TYPE = P@.TYPE // do they have the same dynamic type?
-&#62;
-&#62; IF R@.TYPE &#60;\&#62; RECsometype // R@ is NOT pointing to a RECsometype?
-&#62;
-&#62; IF R@.TYPE \&#62; P@.TYPE // is R@ pointing to a supertype of P@?
-&#62;
-&#62; IF R@.TYPE &#62;= P@.TYPE // is R@ the same OR a supertype of P@?
-&#62;
-&#62; IF R@.TYPE &#60; RECparent // is R@ a subtype of RECparent?
-&#62;
-&#62; IF R@.TYPE &#60;= RECparent // is R@ the same as or a subtype of RECparent?
-
-Calling an undefined method is a fatal error and will halt the program.
-
-Fields are not redefined/overridden and must only be named once in an extension chain.
-
-There is no multiple inheritance, interfaces, generics as these are complex and hard to do correctly.
-
-Managing Namespace Pollution and example of “class” var/method
-
-If a program has a large number of record types with lots of internal fields and methods that the user of the record does not need to touch the interface becomes a confusing mess.
-
-Most OOP languages allow marking fields and methods as private/public, etc
-
-I propose that for the BASIC extension above that all fields and methods are private by default and only visible inside the REC structure and by any child REC that extends from it.
-
-To make things visible to the program at large, fields and methods are marked with an export mark ‘&#60;-’
-
-&#62; DEF RECobject
-&#62;
-&#62; &#60;\- A% // A% is visible to the whole program as MyPtr@.A%
-&#62;
-&#62; B% // B% is only visible to methods inside RECobject fatal error to attempt access outside.
-&#62;
-&#62; &#60;\- STATIC C% // this is global to all instances of RECobject
-&#62;
-&#62; &#60;\- DEF PROCmethod1(a%,b%) // Can be called anywhere as MyPtr@.PROCmethod1(…)
-&#62;
-&#62; A%=a%-b%
-&#62;
-&#62; B%=a%+b%
-&#62;
-&#62; ENDPROC
-&#62;
-&#62; DEF FNfunc1 // Can be called inside PROCmethod1 or PROCmethod2 or FNfunc1 as THIS.FNfunc1(…) or PARENT.FNfunc1 (if inherited)
-&#62;
-&#62; = C%
-&#62;
-&#62; &#60;\- DEF PROCmethod2 // Can be called anywhere as MyPtr@.PROCmethod2(…)
-&#62;
-&#62; A% = THIS.FNfunc1
-&#62;
-&#62; ENDPROC
-&#62;
-&#62; &#60;\- STATICDEF PROCdouble // affects all instances, can be called without any live instance
-&#62;
-&#62; C% = C% \* 2 // Can only manipulate STATIC fields and call STATIC methods/functions
-&#62;
-&#62; ENDPROC
-&#62;
-&#62; ENDREC
-
-The exported API of this REC is:
-
-&#62; DEF RECobject
-&#62;
-&#62; &#60;\- A% // A% is visible to the whole program as MyPtr@.A%
-&#62;
-&#62; &#60;\- STATIC C% // this is global to all instances of RECobject
-&#62;
-&#62; &#60;\- DEF PROCmethod1(a%,b%) // Can be called anywhere as MyPtr@.PROCmethod1(…)
-&#62;
-&#62; &#60;\- DEF PROCmethod2 // Can be called anywhere as MyPtr@.PROCmethod2(…)
-&#62;
-&#62; &#60;\- STATICDEF PROCdouble // affects all instances, can be called without any live instance
-&#62;
-&#62; ENDREC
-
-Example usage outside the definition
-
-RECobject.C% = 5 // set the class var C% to 5 for all RECobjects
-
-R@ = NEW RECobject
-
-R@.PROCmethod1(20,10)
-
-PRINT R@.A% // prints 10
-
-R@.PROCmethod2
-
-PRINT R@.A% // prints 5
-
-DEL R@ // delete the record
-
-RECobject.PROCdouble // there are no live instances at this time
-
-p@ = NEW RECobject
-
-p@.PROCmethod1(100, 15)
-
-PRINT p@.A% // prints 85
-
-p@.PROCmethod2
-
-PRINT p@.A% // prints 10, as C% was doubled by PROCdouble
-
-DEL p@ // delete the record
-
-**Sorry about the terrible formatting, the forum editor wipes indentation.**</source:markdown>
-      <guid>cid://www.riscosopen.org:2:20102:159646</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3m4ye45b3m226</link>
       <description>

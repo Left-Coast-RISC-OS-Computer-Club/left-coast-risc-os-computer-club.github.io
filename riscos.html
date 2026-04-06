@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.23b" >
-  <meta content="2026-04-05T12:00:28-07:00" name="date" >
+  <meta name="date" content="2026-04-06T12:00:23-07:00" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -19,6 +19,208 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-04-06T18:47:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mitwgtog3225">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-04-06)
+      <p>
+      <p>Some of the Carnage sprite frames from the original development disks for &quot;Spider-Man and X-Men in Arcade's Revenge&quot;</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mitwgtog3225">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mitwgtog3225</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-06T17:50:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mitta4ed5222">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-04-06)
+      <p>
+      <p>Player Control document for the unfinished 'The Invincible Iron Man' game - September 2003.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mitta4ed5222">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mitta4ed5222</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-06T17:01:47Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20199">
+      <h1>New DME ExtTheme and Launchpad available for download and testing</h1>
+
+(date: 2026-04-06)
+      <p>
+      <blockquote>
+<blockquote>
+<p>A bit later. TitleTextColour in WimpVisualFlags does not work in vanilla OS5.31, 11Jan26. Delete that from the theme choices and CleanDark is good.</p>
+</blockquote>
+<p>Hummm I guess Sprow did not enable that one yet on 5.31, ok, will classify it for 5.32 then, thanks David!</p>
+</blockquote>
+<p>I love the notion that there’s a load of features already present that <em>just</em> need to be enabled!</p>
+<p>Sadly, in my experience they need writing first. In this particular instance the test IOMDROM I sent you in early 2025 was done as a branch of a branch of a branch, and my tiny mind got confused what I was doing. So I decided to submit the icon bar ordering changes to ROOL first, which then got stuck in an allocation black hole for the <code>*Configure</code> command. Having finally got those in to <a href="https://gitlab.riscosopen.org/RiscOS/Sources/Desktop/Wimp/-/commits/master">Wimp 5.88</a> (so that feature <strong>is</strong> in the 5.31 nightly builds) I’ve unpicked the branches so my prototype dark mode support is just a single branch.</p>
+<p>There’s 3 bits to it</p>
+<ul>
+<li>Additions to the Wimp to fix some hardcoded colours in a few places, and allow the title + writable + icon text colours to be themed. Those are on this <a href="https://gitlab.riscosopen.org/rsprowson/Wimp/-/tree/dark-mode">dark-mode</a> branch. Should just need stuffing into a ROM build.</li>
+<li>If you’re trying to design a theme then to have the CoFlags be propagated from your theme design into the live set in Choices you’ll need an <a href="https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/tree/dark-mode">updated ThemeSetup plug in</a>. That ones’s also <a href="https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/jobs/236339/artifacts/download">pre-built</a> if needed.</li>
+<li>I used my limited artistic skills to make some <a href="https://www.sprow.co.uk/TestDarkLight.zip">test replacement sprites</a> with a black and purple colour scheme. These are useful to quickly spot if there are any oddities where dialogue boxes in apps are rendered in the wrong colour or have light grey fills where they shouldn’t.</li>
+</ul>
+<p>If you do spot any bugs please drop me a line. I’m working on some other stuff at the moment but am collecting a list of Wimp dark mode wrinkles in the topmost commit of the above branch.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20199">https://www.riscosopen.org/forum/forums/1/topics/20199</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-06T15:46:00Z" data-link="https://www.riscosopen.org/forum/forums/2/topics/20102">
+      <h1>BBC BASIC - Simple OOP Extensions</h1>
+
+(date: 2026-04-06)
+      <p>
+      <p>BBC Basic on ARM might not have structured types, but Microsoft QuickBasic (and QBasic) had them 30 years ago or so, and they are present in Free BASIC today (and, in an extended form, in VB.Net too.)</p>
+<pre><code>Type MyRecord
+   Age As Integer
+   Name As String
+End Type
+...
+Dim myRec As MyRecord
+</code></pre>
+<p>But would it not be better to expend the effort required on improving the support for a more modern and more popular language (Python) instead?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/2/topics/20102">https://www.riscosopen.org/forum/forums/2/topics/20102</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-06T15:30:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mitlgxqzt22v">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-04-06)
+      <p>
+      <p>I have so many unofficial RISC OS font filetypes. Eventually I’ll have to allocate these properly and they’ll all change and break my tools.</p>
+<p>Plus how will I ever remember TTF and OTF if they’re not &amp;77F and &amp;07F? The nice thing about anarchy is that it’s very simple.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mitlgxqzt22v">https://bsky.app/profile/nemo20000.bsky.social/post/3mitlgxqzt22v</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-06T11:45:34Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
+      <h1>Random projects...</h1>
+
+(date: 2026-04-06)
+      <p>
+      <blockquote>
+<p>1 issue im having with this is the Ethernet is either greyed out or not showing at all on this build</p>
+</blockquote>
+<p>If you rebuild the latest macos version networking is now fixed. ( <a href="https://github.com/riscosports/rpcemubeta.git">https://github.com/riscosports/rpcemubeta.git</a>)</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-06T10:23:27Z" data-link="https://www.riscosopen.org/forum/forums/9/topics/20330">
+      <h1>Paint, Draw, OS_EnterOS and ModuleWrap</h1>
+
+(date: 2026-04-06)
+      <p>
+      <blockquote>
+<p>I’m currently working on a second SVC stack for programs using OS_EnterOS</p>
+</blockquote>
+<p>Those two entries at the MB boundary of the SVC stack area are covered as a bit of an afterthought in the <a href="https://www.riscos.com/support/developers/prm/sharedclibrary.html">CLib documentation</a> for SharedCLibrary_LibInitModule:</p>
+<blockquote>
+<p>Note: You must save the words at offsets +20 and +24 from the returned stack base. You must do this before exiting your module initialisation code. These words contain the shared libraries static data offset and the client static data offset (the offset you must use when accessing your static data). These must be restored in the static data offset locations at offsets +00 and +04 from the base of the SVC stack when you are re-entering the module in SVC mode (e.g. in a SWI handler). When restoring the static data offsets you must save the previous static data offsets around the module entry.</p>
+</blockquote>
+<p>That mechanism will break horribly in a threaded environment, so you’d either need to pause all cores until the code has run its course or implemented isolated SVC stacks for every C Module. Depending on your approach you might need to track which Modules have called SharedCLibrary_LibInitModule, so you know when they need a dedicated stack on entry.</p>
+<p>If you’re going to support legacy standards like this, you might want to consider running all legacy code (ie not flagged as multi-core/thread safe) on a single core in a VM style environment where it’s single threaded and can’t break the rest of the system when it crashes.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/9/topics/20330">https://www.riscosopen.org/forum/forums/9/topics/20330</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-06T07:51:30Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13575&page=1#125882">
+      <h1>RISC OS North Show Report 2026</h1>
+
+(date: 2026-04-06, updated: 2026-03-16)
+      <p>
+      <p>There is an additional show report at <a href="https://tantobieinternettattler.blogspot.com/2026/04/the-risc-os-north-show-21st-march-2026.html?m=1">https://tantobieinternettattler.blogspot.com/2026/04/the-risc-os-north-show-21st-march-2026.html?m=1</a></p>
+
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13575&page=1#125882">http://www.iconbar.com/forums/viewthread.php?threadid=13575&page=1#125882</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-06T07:47:32Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13578&page=1#125881">
+      <h1>RISC OS in a Post-AI World: Could Simplicity Be the Missing Link in Education?</h1>
+
+(date: 2026-04-06, updated: 2026-03-16)
+      <p>
+      <p>One of the problems with detailed control of the curriculum from bureaucrats is just this. It might achieve a lowest common denominator of coverage but may not leave much time for inspired teaching.</p>
+
+      <address>
+        <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13578&page=1#125881">http://www.iconbar.com/forums/viewthread.php?threadid=13578&page=1#125881</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-05T22:36:48Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20339">
+      <h1>Filer Action SWIs</h1>
+
+(date: 2026-04-05)
+      <p>
+      <p>To copy some large directories using Filer_Action from a BASIC program I am using the following sequence of SWIs:</p>
+<p><code>Wimp_StartTask FilerAction_SendSelectedDirectory FilerAction_SendSelectedFile FilerAction_SendStartOperation</code></p>
+<p>As I do not want processing to continue until the copy is complete, I am then Polling to wait for the copy task to finish with the TaskCloseDown message &amp;400C3.</p>
+<p>This all works fine … but if the Filer Action encounters an error it is displayed with the options to Abort, Skip or Retry.</p>
+<p>If Abort is chosen, the copy task obviously ends and the calling program detects that.</p>
+<p>However, I have found no way to detect that the copy was aborted, and I do not want to continue the rest of the normal processing.</p>
+<p>Any suggestions how this could be achieved?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20339">https://www.riscosopen.org/forum/forums/11/topics/20339</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-05T20:01:55Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20338">
+      <h1>How to detect Wget?</h1>
+
+(date: 2026-04-05)
+      <p>
+      <p>I use the following command on my apps that use Wget:</p>
+<p>SYS&quot;Wimp_StartTask&quot;,&quot;X wget fff -o “scrap$”.test&quot;</p>
+<p>Then count the filesize and if it is less than 1 Wget is not present.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20338">https://www.riscosopen.org/forum/forums/11/topics/20338</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-05T16:40:16Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20334">
+      <h1>Live Coding with Gerph, Sunday 5th March at 1pm UK time</h1>
+
+(date: 2026-04-05)
+      <p>
+      <p>Thank you to everyone who came along.</p>
+<p>This week we got the module implementation working and we can now run the *`GOSC` command (it’s called GOSC otherwise it’ll clash with the proper supervisor *`GOS` !) :</p>
+<ul>
+<li>*GOS works</li>
+<li>You can generate errors in it, and it will show them.</li>
+<li>You can press escape and it reports it.</li>
+<li>You can run commands which don’t set up environment (eg Echo).</li>
+<li>You can run commands which do set up an environment (eg *BASIC).</li>
+<li>You can run it in a TaskWindow.</li>
+<li>It handles the 256 byte CLI buffer in pre-RISC OS 4.</li>
+<li>It recognises RISC OS 4 and 5 as having a 1024 character CLI buffer.</li>
+<li>It uses the variable size CLI buffer in RISC OS Pyromaniac.</li>
+<li>It uses the CLI$Prompt.</li>
+</ul>
+<p>There is a little bit of assembly in the module, which will need to be ported to AArch64. Frustrating, but that’s the nature of the environment handlers. Next week we’ll look at converting the AArch32 to AArch64 for 64-bit RISC OS (unless anyone else wants to do that in the meantime).</p>
+<p>During the session we had our first pull request as well, as David Ramsden spotted that I can’t count in the routine that printed hex numbers. Thanks to him – one of the joys of the live coding is that people can do stuff live as well, and we can see the benefit.</p>
+<p>Live coding and open source, whee!</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20334">https://www.riscosopen.org/forum/forums/1/topics/20334</a>
+      </address>
+    </article>
 
     <article data-published="2026-04-05T14:07:00Z" data-link="https://bsky.app/profile/givvygavvygoo.bsky.social/post/3miqwcrlq4k2y">
       <h1>@givvygavvygoo.bsky.social</h1>
@@ -36,25 +238,6 @@
       </address>
     </article>
 
-    <article data-published="2026-04-05T12:55:29Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20338">
-      <h1>How to detect Wget?</h1>
-
-(date: 2026-04-05)
-      <p>
-      <p>In order to detect whether Wget has been seen by the system, I use a routine that contains the following line:</p>
-<p><code>SYS &quot;Wimp_StartTask&quot;, &quot;X wget &quot; + url$ + &quot; -q -o &quot; + path$</code></p>
-<p>url$ and path$ have been defined before.</p>
-<p>This writes some text to a given path, if Wget is active. This is tested by the following line:</p>
-<p><code>f% = OPENIN (path$)</code></p>
-<p>If Wget hasn’t been seen by the system, f% will be 0. This approach has been working fine so far.</p>
-<p>However, it appears that some versions of the OS, noticebly 5.29 (19-Feb-21), crash horribly when meeting the first line. Only a switch off and on brings the computer back.</p>
-<p>Is this a known issue? Is there a better way to detect Wget?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20338">https://www.riscosopen.org/forum/forums/11/topics/20338</a>
-      </address>
-    </article>
-
     <article data-published="2026-04-05T11:47:23Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20337">
       <h1>ARM Wrestling</h1>
 
@@ -68,18 +251,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20337">https://www.riscosopen.org/forum/forums/1/topics/20337</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-05T11:21:04Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20334">
-      <h1>Live Coding with Gerph, Sunday 5th March at 1pm UK time</h1>
-
-(date: 2026-04-05)
-      <p>
-      <p>Going live in about 40 minutes.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20334">https://www.riscosopen.org/forum/forums/1/topics/20334</a>
       </address>
     </article>
 
@@ -127,22 +298,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/2/topics/20332">https://www.riscosopen.org/forum/forums/2/topics/20332</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-04T15:09:23Z" data-link="https://www.riscosopen.org/forum/forums/9/topics/20330">
-      <h1>Paint, Draw, OS_EnterOS and ModuleWrap</h1>
-
-(date: 2026-04-04)
-      <p>
-      <blockquote>
-<p>Yes he started a lot earlier</p>
-</blockquote>
-<p>Are you calling me slow?</p>
-<p>I’m joking!</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/9/topics/20330">https://www.riscosopen.org/forum/forums/9/topics/20330</a>
       </address>
     </article>
 
@@ -200,7 +355,7 @@
     <article data-published="2026-04-03T18:17:28Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13578&page=1#125880">
       <h1>RISC OS in a Post-AI World: Could Simplicity Be the Missing Link in Education?</h1>
 
-(date: 2026-04-03, updated: 2026-03-15)
+(date: 2026-04-03, updated: 2026-03-16)
       <p>
       <p>double-post</p>
 
@@ -212,7 +367,7 @@
     <article data-published="2026-04-03T18:17:25Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13578&page=1#125879">
       <h1>RISC OS in a Post-AI World: Could Simplicity Be the Missing Link in Education?</h1>
 
-(date: 2026-04-03, updated: 2026-03-15)
+(date: 2026-04-03, updated: 2026-03-16)
       <p>
       <p>It goes even further, unfortunately, to IT suppliers into schools and those setting the curriculum and goalposts.</p>
 
@@ -607,7 +762,7 @@ Source: <a href="https://www.riscosopen.org/forum/forums/1/topics/20328?limit=25
     <article data-published="2026-03-31T20:00:06Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13578&page=1#125878">
       <h1>RISC OS in a Post-AI World: Could Simplicity Be the Missing Link in Education?</h1>
 
-(date: 2026-03-31, updated: 2026-03-15)
+(date: 2026-03-31, updated: 2026-03-16)
       <p>
       <p>That's a very interesting read.</p>
 
@@ -821,7 +976,7 @@ Source: <a href="https://www.riscosopen.org/forum/forums/1/topics/20328?limit=25
     <article data-published="2026-03-30T17:54:35Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13564&page=1#125877">
       <h1>March 2026 News Summary</h1>
 
-(date: 2026-03-30, updated: 2026-03-15)
+(date: 2026-03-30, updated: 2026-03-16)
       <p>
       <p>MorseQuiz released a Morse Code quiz using my Quiz Engine.</p>
 
@@ -1627,7 +1782,7 @@ Why is it only me?</p>
     <article data-published="2026-03-23T09:45:24Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13575&page=1#125876">
       <h1>RISC OS North Show Report 2026</h1>
 
-(date: 2026-03-23, updated: 2026-03-15)
+(date: 2026-03-23, updated: 2026-03-16)
       <p>
       <p>Thanks for the show report and latest from the show presentations too.</p>
 
@@ -1960,7 +2115,7 @@ Why is it only me?</p>
     <article data-published="2026-03-20T16:38:27Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13568&page=1#125875">
       <h1>RISC OS North Show 2026 preview</h1>
 
-(date: 2026-03-20, updated: 2026-03-15)
+(date: 2026-03-20, updated: 2026-03-16)
       <p>
       <p>Train times for Warrington Bank Quay</p>
 
@@ -2455,7 +2610,7 @@ youtu.be/wtths_J-XvU<a href="https://youtu.be/wtths">https://youtu.be/wtths</a>_
     <article data-published="2026-03-16T16:27:29Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13569&page=1#125874">
       <h1>ShareFS goes cross platform</h1>
 
-(date: 2026-03-16, updated: 2026-03-15)
+(date: 2026-03-16)
       <p>
       <p>I totally understand why you would want/need to distance yourself from anything original on this.</p>
 
@@ -2518,7 +2673,7 @@ youtu.be/wtths_J-XvU<a href="https://youtu.be/wtths">https://youtu.be/wtths</a>_
     <article data-published="2026-03-16T00:23:17Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13569&page=1#125873">
       <h1>ShareFS goes cross platform</h1>
 
-(date: 2026-03-16, updated: 2026-03-15)
+(date: 2026-03-16)
       <p>
       <p>There are no protocol specs. It's something sort of encoded in the sources and has evolved slightly over the years.</p>
 
@@ -2784,105 +2939,6 @@ Imagine the headlines. The Daily Mail and the Telegraph would be FURIOUS. There�
       </address>
     </article>
 
-    <article data-published="2026-03-14T03:35:49Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20199">
-      <h1>New DME ExtTheme and Launchpad available for download and testing</h1>
-
-(date: 2026-03-14)
-      <p>
-      <p>Finally I managed to fix my packaging automation and got a new build of ExtTheme ready for testing.</p>
-<p>What this build includes:</p>
-<ul>
-<li>A lot of code improvements that should make it more stable</li>
-<li>Improved theme handling for some edge case</li>
-<li>Enabled support to skip background configuration</li>
-<li>Changed the help, and added the requested new verbs:</li>
-</ul>
-<pre><code>*Theme allow a user to manage RISC OS themes from the command line using
-ExtTheme Theme Manager version 0.0.1.
-Available commands:
-  help
-      Show this help screen.
-
-  list
-      Lists all installed themes (from the Themes: directory).
-
-  setDefault &lt;theme_name&gt;
-      Selects &lt;theme_name&gt; as the default theme (the theme to use on boot).
-      To apply the theme immediately, add the -apply-theme (or -apply) option.
-
-  set or apply [&lt;theme_name&gt;]
-      Applies the default theme (if no theme_name is provided) or temporarily applies
-the theme specified. Set|apply do not change the default theme.
-
-  current
-      Shows the currently selected theme. If none has been selected yet, it will return none.
-
-  info &lt;theme_name&gt;
-      Shows information about the specified theme.
-
-  reset &lt;theme_name&gt;
-      Resets a theme by restoring its Default values.
-
-  restore &lt;theme_name&gt;
-      Restores a theme's User-Customization file from its backup (if available).
-
-  override &lt;target-theme&gt; &lt;source-theme&gt; &lt;group&gt; &lt;attribute&gt;
-      Overrides an &lt;attribute&gt; in &lt;group&gt; of &lt;target-theme&gt; using the value from &lt;source-theme&gt;.
-      Overriding means that the new attribute value will be added to the target theme's
-Choices file at the end, which then will override any previous values.
-
-  enable &lt;theme&gt; &lt;attribute&gt;
-      Enables a specific theme attribute in the given theme's Choices if the attribute is present.
-
-  disable &lt;theme&gt; &lt;attribute&gt;
-      Disables a specific attribute from a theme's user Choices if the attribute is present.
-
-  install &lt;zip_path&gt;|&lt;theme_directory_path&gt;
-      Installs a theme from a ZIP archive or a theme directory into the Themes: directory.
-      The archive should follow the standard theme structure.
-
-  remove &lt;theme_name&gt;
-      Removes an installed theme from the Themes: directory.
-
-  clear_cache
-      Clears ExtTheme cache directory (which is usually used to store temporary extracted theme files).
-
-  create &lt;theme_name&gt;
-      Create a new theme using RISC OS default theme.
-
-  copy &lt;source_theme&gt; &lt;dest_theme&gt; &lt;aspect&gt;
-      Copies a specific aspect (e.g., Icons, Tools) from &lt;source_theme&gt; to &lt;dest_theme&gt;.
-
-  edit &lt;theme_name&gt;
-      Opens the theme directory in the Filer for manual editing.
-
-Syntax: *theme &lt;command&gt; [&lt;options&gt;]
-(note: if a theme name contains spaces, enclose it in quotes)
-
-Options:
-  -reload-app-spr, -ras
-      Reload applications' sprites (if any defined in the &lt;theme&gt;.Apps) after applying the theme. (used only with 'set' command otherwise ignored)
-
-  -no-backdrop, -nob
-      When applying a theme, do not change backdrop settings even if the theme defines them. This is useful to preserve the current backdrop when applying themes that include backdrop changes. (used with 'set|apply' and 'setDefault' commands only otherwise ignored)
-
-  -apply-theme, -apply
-      When setting a default theme, also apply it immediately. (used only with 'setDefault' command otherwise ignored)
-
-</code></pre>
-<p>So now you can do things like:</p>
-<pre><code>
-*theme setDefault MyTheme -apply -no-backdrop
-
-</code></pre>
-<p>Which, in one liner, will set MyTheme as default theme, will apply it and also (on both) at reboot and when applying it now will skip the background configuration so you’ll keep your current background.</p>
-<p>Have fun and, as usual, let me know if there are any more issues.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20199">https://www.riscosopen.org/forum/forums/1/topics/20199</a>
-      </address>
-    </article>
-
     <article data-published="2026-03-13T22:27:15Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20291">
       <h1>JSbeeb and Compiler Explorer at ROUGOL, Mon 16th March 2026</h1>
 
@@ -2907,19 +2963,6 @@ Options:
 
       <address>
         <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mgxwguy45224">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mgxwguy45224</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-13T17:48:12Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
-      <h1>Random projects...</h1>
-
-(date: 2026-03-13)
-      <p>
-      <p>Well, I use <strong>Homebrew</strong> on my Mac — I have used MacPorts and Fink in the past and find Homebrew easier to use and it generally has a wider range of software available, including Qt6.</p>
-<p>That said, there are various different versions of QT6, but 6.10 is, I believe, an LTS release (long-term support). Don’t know why the shift key wouldn’t work — when I get the time I will try installing Qt6/QtCreator using Homebrew and try compiling it. There are a number of macOS applications built using Qt — the DTP program <em>Scribus</em> and the photo management app <em>Digikam</em> — so a problem like that ought to show up elsewhere…</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
       </address>
     </article>
 
@@ -13638,227 +13681,6 @@ youtu.be/RHdgIHr78RM<a href="https://youtu.be/RHdgIHr78RM">https://youtu.be/RHdg
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/5/topics/20100">https://www.riscosopen.org/forum/forums/5/topics/20100</a>
-      </address>
-    </article>
-
-    <article data-published="2025-11-06T21:16:36Z" data-link="https://www.riscosopen.org/forum/forums/2/topics/20102">
-      <h1>BBC BASIC - Simple OOP Extensions</h1>
-
-(date: 2025-11-06)
-      <p>
-      <p>I have always thought that BBCBASIC needed records.</p>
-<p>RTR’s BASICs have Structures, but the syntax doesn’t really feel native to BBCBASIC.</p>
-<p>I have been a fan of Wirth’s Oberon with type extension of records as it is a clean simple concept.</p>
-<p>Most OO languages go off into the weeds with very complex and subtle features that are not really needed for 99% of programs.</p>
-<p>I have outlined a possible syntax/semantics for a simplified OOP style record structure description below.</p>
-<p>Let me know what you think.</p>
-<p>OUTLINE OF CONCEPT:</p>
-<p>Defininng a record type</p>
-<p>No Args (fixed size)</p>
-<blockquote>
-<p>DEF RECmyrec</p>
-<p>A% // Integer field</p>
-<p>B // Floating field</p>
-<p>C$ // String field</p>
-<p>D@ // Pointer field (any RECxxx) initial value NULL</p>
-<p>DIM E% 1024 // Raw byte block field 1kB inline in record, use with indirection operators</p>
-<p>DIM F%(9) // Array of 10 ints</p>
-<p>DIM G(9) // Array of 10 floats</p>
-<p>DIM H$(9) // Array of 10 strings</p>
-<p>DIM I@(9) // Array of 10 pointer to record initial value NULL</p>
-<p>ENDREC</p>
-</blockquote>
-<p>With Args (variable size and initial values)</p>
-<blockquote>
-<p>DEF RECmyvarrec(n$,m%,blocksize%)</p>
-<p>name$ = n$ // Initialise value</p>
-<p>DIM list$(m%) // n+1 strings – record contains a pointer to the array</p>
-<p>DIM block% blocksize%*2+38 // can do calculations; specifies number of bytes, numbered 0 to result-1</p>
-<p>ENDREC</p>
-</blockquote>
-<p>Global or Private</p>
-<blockquote>
-<p>R@ = RECmyrec // Globals use the heap (I would prefer if the language had GLOBAL to specify global varsfor symmetry/clarity)</p>
-<p>// this version of the creation syntax does not make it obvious that allocation is taking place here</p>
-</blockquote>
-<blockquote>
-<p>GLOBAL R@ = RECmyrec // opt global designator</p>
-</blockquote>
-<blockquote>
-<p>R@ = NEW RECobject // alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.</p>
-</blockquote>
-<blockquote>
-<p>PRIVATE T@ = NEW RECmyrec // PRIVATEs use the heap. Same as PRIVATE in RTRBBCBASIC</p>
-</blockquote>
-<p>STATIC — used for “class variables/methods” see below</p>
-<p>I prefer the use of NEW rather than DIM because DIM is already used for Arrays and Structures</p>
-<p>Stack (LOCAL vars)</p>
-<blockquote>
-<p>LOCAL S@ = NEW RECmyvarrec(“Bob”,9,256) // Locals also use the heap because we will often export the reference from the scope expecting the record to persist.</p>
-</blockquote>
-<p>When LOCAL pointer variable goes out of scope, the pointer on the stack is deleted, but the record (on heap) remains and may cause memory leaks,</p>
-<p>CLEANUP should be used periodically.</p>
-<p>If it is known that the record is no longer needed, it should be deleted before it goes out of scope.</p>
-<p>The interpreter could detect escaping references and delete those that don’t, this can be complex with subtle errors, so manual or GC is easier.</p>
-<p>Alternatively use Reference Counting (simpler, but risks memory leaks)</p>
-<p>Delete Records and Release Heap Memory (manual GC)</p>
-<blockquote>
-<p>DEL p@ — frees the storage fields (strings, arrays, blocks) then frees the record, does NOT follow pointer fields.</p>
-</blockquote>
-<blockquote>
-<p>CLEANUP — executed outside any PROC or FN, marks all records reachable via global and private pointer variables then sweeps unmarked heap, does NOT follow pointers stored in Raw byte data blocks.</p>
-</blockquote>
-<p>Method:</p>
-<p>Add all global &amp; static pointers to the keep queue</p>
-<p>While keep queue not empty</p>
-<p>….Pull the next pointer from the keep queue as current record</p>
-<p>….If current record not marked</p>
-<p>……..Add all pointers to records to the keep queue</p>
-<p>……..Mark current record for retention</p>
-<p>Sweep the record heap freeing all unmarked records using the DEL operation above.</p>
-<blockquote>
-<p>DELREC q@ — as DEL above, BUT it also follows pointer chains deleting all linked records, does NOT follow pointers stored in Raw byte data blocks.</p>
-</blockquote>
-<p>Method:</p>
-<p>Add q@ to the delete queue</p>
-<p>While delete queue not empty</p>
-<p>….Pull the next pointer from the delete queue as current record</p>
-<p>….If current record not marked</p>
-<p>……..Add all pointers to the delete queue</p>
-<p>……..Free all the storage fields</p>
-<p>……..Mark current record for deletion</p>
-<p>Sweep the record heap freeing all marked records</p>
-<p>Access to fields</p>
-<p>The field access operator is . followed by the name of a field.</p>
-<blockquote>
-<p>name$ = P@.name$</p>
-</blockquote>
-<p>Procedure Fields / methods</p>
-<blockquote>
-<p>DEF RECobject</p>
-<p>A%</p>
-<p>B%</p>
-<p>DEF PROCmethod1(a%,b%) // LOCAL vars and params must not have the same name as a record field!</p>
-<p>A%=a%-b%</p>
-<p>B%=a%+b%</p>
-<p>ENDPROC</p>
-<p>DEF FNfunc1….</p>
-<p>DEF PROCmethod2……</p>
-<p>ENDREC</p>
-</blockquote>
-<p>Usage of procedure fields:</p>
-<blockquote>
-<p>R@ = NEW RECobject // alternetive syntax choice for creating a new record, makes it explicit that record allocation is taking place.</p>
-<p>R@.PROCmethod1(56,99)</p>
-<p>q = R@.FNfunc1</p>
-</blockquote>
-<p>Record Extension and overrides</p>
-<blockquote>
-<p>DEF RECparent(args)</p>
-<p>name$</p>
-<p>DEF PROCmethod1:ENDPROC // an empty method, calling it does nothing, acts as a placeholder for later redefinition.</p>
-<p>DEF PROCmethod2(blah%)</p>
-<p>// Some code here</p>
-<p>ENDPROC</p>
-<p>DEF PROCmethod3(blah%)</p>
-<p>// Some other code here</p>
-<p>ENDPROC</p>
-<p>DEF PROCmethod4:UNDEFINED:ENDPROC — an undefined method placeholder, calling it throws an error, must redefine, like abstract in other languages.</p>
-<p>ENDREC</p>
-</blockquote>
-<blockquote>
-<p>DEF RECchild1(args) EXTEND RECparent(arg exprs) // allows inherited fields to be initialised/dimensioned</p>
-<p>address$ // a new field</p>
-<p>DEF PROCmethod1 // this overrides any method with the same name, implements something for method1.</p>
-<p>// Do something</p>
-<p>ENDPROC</p>
-<p>// PROCmethod2 is not defined here, so the one from the parent is inherited.</p>
-<p>DEF PROCmethod3(blah%) // overrides PROCmethod3</p>
-<p>// Do this</p>
-<p>PARENT.PROCmethod3(blah%+8) — here we call PROCmethod3 from the parent.</p>
-<p>// Do That</p>
-<p>ENDPROC</p>
-<p>DEF PROCmethod4 // this defines PROCmethod4 for the first time.</p>
-<p>// Do something. Calling PARENT.method4 here throws an error (default halt program)</p>
-<p>ENDPROC</p>
-<p>ENDREC</p>
-</blockquote>
-<p>PARENT</p>
-<p>// passes control to an overridden method, that method may have been inherited through several levels of extension, it will activate the last matching definition.</p>
-<p>THIS</p>
-<p>// refers to the current object within a method, it is implied when accessing fields within methods.</p>
-<p>TYPE$</p>
-<p>// refers to the type of a record as a string e.g. “RECchild1”</p>
-<p>TYPE</p>
-<p>// refers to the type of the record internal representation, can be used for type tests</p>
-<blockquote>
-<p>IF THIS.TYPE = RECchild1 THEN …</p>
-</blockquote>
-<p>TYPE and TYPE$ work on any pointer variable as well. to allow type comparisons (compare 2 pointers or pointer against TYPE value):</p>
-<blockquote>
-<p>IF R@.TYPE = P@.TYPE // do they have the same dynamic type?</p>
-<p>IF R@.TYPE &lt;&gt; RECsometype // R@ is NOT pointing to a RECsometype?</p>
-<p>IF R@.TYPE &gt; P@.TYPE // is R@ pointing to a supertype of P@?</p>
-<p>IF R@.TYPE &gt;= P@.TYPE // is R@ the same OR a supertype of P@?</p>
-<p>IF R@.TYPE &lt; RECparent // is R@ a subtype of RECparent?</p>
-<p>IF R@.TYPE &lt;= RECparent // is R@ the same as or a subtype of RECparent?</p>
-</blockquote>
-<p>Calling an undefined method is a fatal error and will halt the program.</p>
-<p>Fields are not redefined/overridden and must only be named once in an extension chain.</p>
-<p>There is no multiple inheritance, interfaces, generics as these are complex and hard to do correctly.</p>
-<p>Managing Namespace Pollution and example of “class” var/method</p>
-<p>If a program has a large number of record types with lots of internal fields and methods that the user of the record does not need to touch the interface becomes a confusing mess.</p>
-<p>Most OOP languages allow marking fields and methods as private/public, etc</p>
-<p>I propose that for the BASIC extension above that all fields and methods are private by default and only visible inside the REC structure and by any child REC that extends from it.</p>
-<p>To make things visible to the program at large, fields and methods are marked with an export mark ‘&lt;-’</p>
-<blockquote>
-<p>DEF RECobject</p>
-<p>&lt;- A% // A% is visible to the whole program as MyPtr@.A%</p>
-<p>B% // B% is only visible to methods inside RECobject fatal error to attempt access outside.</p>
-<p>&lt;- STATIC C% // this is global to all instances of RECobject</p>
-<p>&lt;- DEF PROCmethod1(a%,b%) // Can be called anywhere as MyPtr@.PROCmethod1(…)</p>
-<p>A%=a%-b%</p>
-<p>B%=a%+b%</p>
-<p>ENDPROC</p>
-<p>DEF FNfunc1 // Can be called inside PROCmethod1 or PROCmethod2 or FNfunc1 as THIS.FNfunc1(…) or PARENT.FNfunc1 (if inherited)</p>
-<p>= C%</p>
-<p>&lt;- DEF PROCmethod2 // Can be called anywhere as MyPtr@.PROCmethod2(…)</p>
-<p>A% = THIS.FNfunc1</p>
-<p>ENDPROC</p>
-<p>&lt;- STATICDEF PROCdouble // affects all instances, can be called without any live instance</p>
-<p>C% = C% * 2 // Can only manipulate STATIC fields and call STATIC methods/functions</p>
-<p>ENDPROC</p>
-<p>ENDREC</p>
-</blockquote>
-<p>The exported API of this REC is:</p>
-<blockquote>
-<p>DEF RECobject</p>
-<p>&lt;- A% // A% is visible to the whole program as MyPtr@.A%</p>
-<p>&lt;- STATIC C% // this is global to all instances of RECobject</p>
-<p>&lt;- DEF PROCmethod1(a%,b%) // Can be called anywhere as MyPtr@.PROCmethod1(…)</p>
-<p>&lt;- DEF PROCmethod2 // Can be called anywhere as MyPtr@.PROCmethod2(…)</p>
-<p>&lt;- STATICDEF PROCdouble // affects all instances, can be called without any live instance</p>
-<p>ENDREC</p>
-</blockquote>
-<p>Example usage outside the definition</p>
-<p>RECobject.C% = 5 // set the class var C% to 5 for all RECobjects</p>
-<p>R@ = NEW RECobject</p>
-<p>R@.PROCmethod1(20,10)</p>
-<p>PRINT R@.A% // prints 10</p>
-<p>R@.PROCmethod2</p>
-<p>PRINT R@.A% // prints 5</p>
-<p>DEL R@ // delete the record</p>
-<p>RECobject.PROCdouble // there are no live instances at this time</p>
-<p>p@ = NEW RECobject</p>
-<p>p@.PROCmethod1(100, 15)</p>
-<p>PRINT p@.A% // prints 85</p>
-<p>p@.PROCmethod2</p>
-<p>PRINT p@.A% // prints 10, as C% was doubled by PROCdouble</p>
-<p>DEL p@ // delete the record</p>
-<p><strong>Sorry about the terrible formatting, the forum editor wipes indentation.</strong></p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/2/topics/20102">https://www.riscosopen.org/forum/forums/2/topics/20102</a>
       </address>
     </article>
 
