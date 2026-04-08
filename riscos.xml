@@ -7,52 +7,202 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>07 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>08 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
-      <title>WROCC RISC OS North Show Videos</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20345</link>
+      <title>!NetSurf problem?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20348</link>
       <description>
-        <![CDATA[<p>Hey Everyone,</p>
-        <p>Just to let you know the 1st video from the <span class="caps">RISC</span> OS North show is up from Richard Brown, <span class="caps">RISC</span> OS Developments here, <a href="https://www.youtube.com/watch?v=vDR5cRiuu-U&amp;t=5s">https://www.youtube.com/watch?v=vDR5cRiuu-U&amp;amp;t=5s</a><br />
-        The Club will be posting these out over the next 3 weekends also don&#8217;t forgot to like and subscribe to the <span class="caps">WROCC</span> Youtube Channel :)</p>
-        <p>Also Chris Hall&#8217;s Talk (April 2026) Discussing Mapping Railway History on <span class="caps">RISCOSM</span> will be out at Midnight Tonight!</p>]]>
+        <![CDATA[<p>Over the last few days I&#8217;ve ceased being able to post using !NetSurf.</p>
+        <p>I can still log in with it, but as soon as I try to write anything into a thread I get told I&#8217;m &#8220;not logged in&#8221; !</p>
+        <p>Now using !Iris and that seems to work, still&#8230; or may be luck?</p>
+        <p>But otherwise has there been an &#8216;update&#8217; to the code running the forum which has caused it to dislike !NetSurf? Or is the problem oddly specific to my being able to post? Anyone else had a similar problem?</p>]]>
       </description>
-      <source:markdown>Hey Everyone,
+      <source:markdown>Over the last few days I’ve ceased being able to post using !NetSurf.
 
-Just to let you know the 1st video from the RISC OS North show is up from Richard Brown, RISC OS Developments here, [https://www.youtube.com/watch?v=vDR5cRiuu-U&#38;amp;t=5s](https://www.youtube.com/watch?v=vDR5cRiuu-U&#38;t=5s)
+I can still log in with it, but as soon as I try to write anything into a thread I get told I’m “not logged in” !
 
-The Club will be posting these out over the next 3 weekends also don’t forgot to like and subscribe to the WROCC Youtube Channel :)
+Now using !Iris and that seems to work, still… or may be luck?
 
-Also Chris Hall’s Talk (April 2026) Discussing Mapping Railway History on RISCOSM will be out at Midnight Tonight!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20345:162988</guid>
+But otherwise has there been an ‘update’ to the code running the forum which has caused it to dislike !NetSurf? Or is the problem oddly specific to my being able to post? Anyone else had a similar problem?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20348:163011</guid>
+    </item>    <item>
+      <title>Access to my smb: fileserver; !ShareView</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20329</link>
+      <description>
+        <![CDATA[<p>Hello, I&#8217;ve been trying around with !ShareView still getting an error STATUS_BAD_NETWORK_NAME. In &#8220;Hostname&#8221; I gave in the IP address of my homeserver (192.168.178.xx), &#8220;Share name&#8221; will be the problem: The server&#8217;s hostname alone (&#8220;asus-pn40&#8221;), smb://asus-pn40, smb:\\asus-pn40&#8230; do not work. User is clear, me, and &#8220;Path&#8221; Chris Gransden told me I can leave empty. In &#8220;<span class="caps">SDFS</span>::RISCOSpi.$.!Boot.Choices.smb2.user/txt&#8221; I filled in my Workgroup:username:Password.<br />
+        With &quot;smb-share-enum smb://stefan@192.168.178.xx/ I get a list of what&#8217;s on/in my homeserver. That at least.</p>]]>
+      </description>
+      <source:markdown>Hello, I’ve been trying around with !ShareView still getting an error STATUS\_BAD\_NETWORK\_NAME. In “Hostname” I gave in the IP address of my homeserver (192.168.178.xx), “Share name” will be the problem: The server’s hostname alone (“asus-pn40”), smb://asus-pn40, smb:\\\asus-pn40… do not work. User is clear, me, and “Path” Chris Gransden told me I can leave empty. In “SDFS::RISCOSpi.$.!Boot.Choices.smb2.user/txt” I filled in my Workgroup:username:Password.
+
+With &#34;smb-share-enum smb://stefan@192.168.178.xx/ I get a list of what’s on/in my homeserver. That at least.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20329:163006</guid>
+    </item>    <item>
+      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Yep thats fixed the crash, but now its not seeing any themes in the resources folder</p>
+        </blockquote>
+        <p>It displayed all the themes on my computer OK. Could you try paring down the ones you have to (say) just a couple of the default shipped ones like Iyonix + Raspberry then see what happens.</p>
+        <p>If it&#8217;s OK, put back the others one at a time until it goes funny, then whatever the issue must be something in the last one put back &#8211; at a guess something in Frosted because that&#8217;s where it looks like the directory enumeration gave up.</p>]]>
+      </description>
+      <source:markdown>&#62; Yep thats fixed the crash, but now its not seeing any themes in the resources folder
+
+It displayed all the themes on my computer OK. Could you try paring down the ones you have to (say) just a couple of the default shipped ones like Iyonix + Raspberry then see what happens.
+
+If it’s OK, put back the others one at a time until it goes funny, then whatever the issue must be something in the last one put back – at a guess something in Frosted because that’s where it looks like the directory enumeration gave up.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20340:163004</guid>
+    </item>    <item>
+      <title>WROCC April 2026 talk on Wednesday</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13570&#38;page=1#125883</link>
+      <description>
+        <![CDATA[And the talk is now up on You Tube. It shows me sharing the screen of my laptop as well as that of my Hydra over RDP and Zoom to demonstrate RiscOSM.]]>
+      </description>
+      <source:markdown>And the talk is now up on You Tube. It shows me sharing the screen of my laptop as well as that of my Hydra over RDP and Zoom to demonstrate RiscOSM.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13570&#38;page=1#125883</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, *Saturday* 11th April at 1pm UK time</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20347</link>
+      <description>
+        <![CDATA[<p>This Saturday – 11th April (UK time), at 1pm UK time – I&#8217;ll be continuing the series implementing the `*GOS` command line system. Last week we got the environment handlers working, and added the little bit of assembler glue. This week, we&#8217;ll be making that glue work in 64-bit.</p>
+        <p>Come along if you like – <a href="https://youtube.com/live/SCgY-w6ea6g?feature=share">https://youtube.com/live/SCgY-w6ea6g?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
+        <p>Note: This is a Saturday session, as I&#8217;ve got plans on Sunday.</p>
+        <hr />
+        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
+        <p>The features I&#8217;ve described in the details are a little light (<a href="https://github.com/gerph/riscos64-status/wiki/Module_UtilityModule">https://github.com/gerph/riscos64-status/wiki/Module_U…</a>) but we&#8217;ll no doubt expand those as we do the work.</p>
+        <hr />
+        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/watch?v=iEo2wgt_R2A&amp;list=PLVVIu906Y7rF2ztisbUa0dVTV6MvNS9si">https://www.youtube.com/watch?v=iEo2wgt_R2A&amp;amp;list=P…</a></p>
+        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/gos.html">https://presentation.riscos.online/live/gos.html</a> (once it has been published).</p>]]>
+      </description>
+      <source:markdown>This Saturday – 11th April (UK time), at 1pm UK time – I’ll be continuing the series implementing the \`\*GOS\` command line system. Last week we got the environment handlers working, and added the little bit of assembler glue. This week, we’ll be making that glue work in 64-bit.
+
+Come along if you like – [https://youtube.com/live/SCgY-w6ea6g?feature=share](https://youtube.com/live/SCgY-w6ea6g?feature=share) – or you can always watch the video afterwards at the same address.
+
+Note: This is a Saturday session, as I’ve got plans on Sunday.
+
+* * *
+
+For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
+
+The features I’ve described in the details are a little light ( [https://github.com/gerph/riscos64-status/wiki/Module\_U…](https://github.com/gerph/riscos64-status/wiki/Module_UtilityModule)) but we’ll no doubt expand those as we do the work.
+
+* * *
+
+If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/watch?v=iEo2wgt\_R2A&#38;amp;list=P…](https://www.youtube.com/watch?v=iEo2wgt_R2A&#38;list=PLVVIu906Y7rF2ztisbUa0dVTV6MvNS9si)
+
+Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/gos.html](https://presentation.riscos.online/live/gos.html) (once it has been published).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20347:163000</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 5th March at 1pm UK time</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20334</link>
+      <description>
+        <![CDATA[<p>Only now do I notice that I wrote March instead of April. Thankfully people understand which month we&#8217;re in!</p>]]>
+      </description>
+      <source:markdown>Only now do I notice that I wrote March instead of April. Thankfully people understand which month we’re in!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20334:162999</guid>
+    </item>    <item>
+      <title>Paint, Draw, OS_EnterOS and ModuleWrap</title>
+      <link>https://www.riscosopen.org/forum/forums/9/topics/20330</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>But would/will(?) multicore functionality address two particular instances where <span class="caps">RISC</span> OS is showing its age</p>
+        </blockquote>
+        <p>Not really, no. Multicore just makes a pre-empted OS able to do more things at once (and do so more smoothly). But it does make sense to design both at once.</p>
+        <p>As Paolo says, to fix your woes you&#8217;ll need pre-emption and better memory protection. Which comes back to my usual gripe about all modules running in <span class="caps">SVC</span> mode when most of them don&#8217;t need to. Give a module dodgy data, and it corrupts the <span class="caps">RMA</span>. There&#8217;s no obvious easy fix for that.</p>
+        <p>Multi-core CPUs only exist because physics rules out ever-increasing clock speeds. I remember when ~4GHz Pentiums were a thing and you needed a power station to run them. A two-core <span class="caps">CPU</span> at a given clock speed will use (very, very approximately) half the power of a one-core <span class="caps">CPU</span> at double the clock speed. But rewriting an algorithm so one task can be performed as multiple parallel tasks is tricky &#8211; see <a href="https://en.wikipedia.org/wiki/Amdahl%E2%80%99s_law">https://en.wikipedia.org/wiki/Amdahl&amp;#8217;s_law</a> <sup id="fnr1"><a href="#fn1">1</a></sup></p>
+        <p>No software engineer would choose multi-core. A thread to handle the UI and a thread to handle the incoming mail processing makes sense &#8211; but there&#8217;s not a lot else you&#8217;d find them useful for.</p>
+        <p id="fn1"><a href="#fnr1"><sup>1</sup></a> Amdahl&#8217;s law states that if an algorithm can be split so half of the total execution time can be executed in parallel across many cores, the maximum speed up you&#8217;ll get, even on an infinite-core <span class="caps">CPU</span>, is 2.</p>]]>
+      </description>
+      <source:markdown>&#62; But would/will(?) multicore functionality address two particular instances where RISC OS is showing its age
+
+Not really, no. Multicore just makes a pre-empted OS able to do more things at once (and do so more smoothly). But it does make sense to design both at once.
+
+As Paolo says, to fix your woes you’ll need pre-emption and better memory protection. Which comes back to my usual gripe about all modules running in SVC mode when most of them don’t need to. Give a module dodgy data, and it corrupts the RMA. There’s no obvious easy fix for that.
+
+Multi-core CPUs only exist because physics rules out ever-increasing clock speeds. I remember when ~4GHz Pentiums were a thing and you needed a power station to run them. A two-core CPU at a given clock speed will use (very, very approximately) half the power of a one-core CPU at double the clock speed. But rewriting an algorithm so one task can be performed as multiple parallel tasks is tricky – see [https://en.wikipedia.org/wiki/Amdahl&#38;#8217;s\_law](https://en.wikipedia.org/wiki/Amdahl%E2%80%99s_law) [1](#fn1)
+
+No software engineer would choose multi-core. A thread to handle the UI and a thread to handle the incoming mail processing makes sense – but there’s not a lot else you’d find them useful for.
+
+[1](#fnr1) Amdahl’s law states that if an algorithm can be split so half of the total execution time can be executed in parallel across many cores, the maximum speed up you’ll get, even on an infinite-core CPU, is 2.</source:markdown>
+      <guid>cid://www.riscosopen.org:9:20330:162998</guid>
+    </item>    <item>
+      <title>New CashBook Test Build Available</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20346</link>
+      <description>
+        <![CDATA[<p>It&#8217;s been a while since I released any updates to CashBook, but some enquiries at <span class="caps">RISC</span> OS North prompted me to have a look at the outstanding wish list.</p>
+        <p>As a result, there is a new test build at <a href="https://www.stevefryatt.org.uk/risc-os/cashbook">https://www.stevefryatt.org.uk/risc-os/cashbook</a> which contains the following improvements:</p>
+        <ul>
+        	<li>The account or heading ident is shown in the title bar of statement views, in addition to the name.</li>
+        	<li>There is an option to include account and heading idents in all four reports.</li>
+        </ul>
+        <p>As with all test builds, there&#8217;s no guarantee that the new features work reliably, or that I haven&#8217;t broken other stuff in the process.</p>
+        <p>This is something of a work in progress, but further releases will depend a <em>lot</em> on my available time.</p>
+        <p>For clarity, I think at some point there was a test build out from the new development branch, featuring significant internal re-working of dialogue boxes and (possibly) list views. This test build undoes that, and returns us to the 1.4x branch for the sake of getting some useful new features out in a sensible timescale.</p>]]>
+      </description>
+      <source:markdown>It’s been a while since I released any updates to CashBook, but some enquiries at RISC OS North prompted me to have a look at the outstanding wish list.
+
+As a result, there is a new test build at [https://www.stevefryatt.org.uk/risc-os/cashbook](https://www.stevefryatt.org.uk/risc-os/cashbook) which contains the following improvements:
+
+- The account or heading ident is shown in the title bar of statement views, in addition to the name.
+- There is an option to include account and heading idents in all four reports.
+
+As with all test builds, there’s no guarantee that the new features work reliably, or that I haven’t broken other stuff in the process.
+
+This is something of a work in progress, but further releases will depend a _lot_ on my available time.
+
+For clarity, I think at some point there was a test build out from the new development branch, featuring significant internal re-working of dialogue boxes and (possibly) list views. This test build undoes that, and returns us to the 1.4x branch for the sake of getting some useful new features out in a sensible timescale.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20346:162997</guid>
+    </item>    <item>
+      <title>TW styles</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20342</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>All that said, is it still not possible to buy an update for EW due to the barmy barriers that now make trade into the UK a <span class="caps">PITA</span>? The mention of AW 2 makes me hope/wonder. The versions I have are a decade old.</p>
+        </blockquote>
+        <p><a href="http://www.mw-software.com/paying.html#ewprices">http://www.mw-software.com/paying.html#ewprices</a></p>
+        <p>Having said that you may already have the &#8216;latest&#8217; TW as I believe v9.12 is the most recent and is dated 2013 !</p>]]>
+      </description>
+      <source:markdown>&#62; All that said, is it still not possible to buy an update for EW due to the barmy barriers that now make trade into the UK a PITA? The mention of AW 2 makes me hope/wonder. The versions I have are a decade old.
+
+[http://www.mw-software.com/paying.html#ewprices](http://www.mw-software.com/paying.html#ewprices)
+
+Having said that you may already have the ‘latest’ TW as I believe v9.12 is the most recent and is dated 2013 !</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20342:162996</guid>
     </item>    <item>
       <title>Python and Pygame</title>
       <link>https://www.riscosopen.org/forum/forums/10/topics/20344</link>
       <description>
-        <![CDATA[<p>Has anyone managed to get PyGame working on Python on RPCemu?</p>
-        <p>I ask because I have solved the initial &#8220;file not found&#8221; errors by installing various additional dependencies (LibSDL etc) but now it just gives segment violations when doing:  import pygame</p>
-        <p><span class="caps">FWIW</span> I get the same issues on <span class="caps">VRPC</span>, although since the install is the same on both (via Packman plus additional libraries installed).</p>
-        <p>It is possible there&#8217;s a missing dependency but the crash suggests that I may just be hitting a brick wall.</p>
-        <p>It is possible the LibSDL doesn&#8217;t work on RPCemu era hardware of course, but that seems a bit unlikely.  Python itself seems to run, although I&#8217;ve only done brief testing.</p>
-        <p>PyGame was installed via Packman &#8211; note to maintainers, the dependencies for this need re-working as it is flat out broken by default (due to lack of <span class="caps">SDL</span> etc).</p>
-        <p>Trying to use python3 -m pip install pygame     works (ish) but doesn&#8217;t seem able to install due to lack of msvcc libraries (not surprising) &#8211; I think it is trying to get the Windows version.</p>]]>
+        <![CDATA[<p>Thanks Chris &#8211; that fixed it.  Specifically LibVorbis.  Rather surprising that it wouldn&#8217;t even load pygame up without a dependency for playing a specific audio format, but there we go.</p>
+        <p>Do you have power to change the dependencies for the PyGame package?  It&#8217;s basically unusable as it stands unless you know to install every one of those extra packages.  The reason why I was asking is that a customer had got completely stuck trying to get it to work, so this is very much a &#8220;real world&#8221; sort of problem.</p>
+        <p>Hope it is fixable.  Thanks again.  :)</p>]]>
       </description>
-      <source:markdown>Has anyone managed to get PyGame working on Python on RPCemu?
+      <source:markdown>Thanks Chris – that fixed it. Specifically LibVorbis. Rather surprising that it wouldn’t even load pygame up without a dependency for playing a specific audio format, but there we go.
 
-I ask because I have solved the initial “file not found” errors by installing various additional dependencies (LibSDL etc) but now it just gives segment violations when doing: import pygame
+Do you have power to change the dependencies for the PyGame package? It’s basically unusable as it stands unless you know to install every one of those extra packages. The reason why I was asking is that a customer had got completely stuck trying to get it to work, so this is very much a “real world” sort of problem.
 
-FWIW I get the same issues on VRPC, although since the install is the same on both (via Packman plus additional libraries installed).
+Hope it is fixable. Thanks again. :)</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20344:162994</guid>
+    </item>    <item>
+      <title>Filer Changes</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20332</link>
+      <description>
+        <![CDATA[<p>This forum needs a like button.</p>]]>
+      </description>
+      <source:markdown>This forum needs a like button.</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20332:162993</guid>
+    </item>    <item>
+      <title>WROCC RISC OS North Show Videos</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20345</link>
+      <description>
+        <![CDATA[<p>Not sure whether you intended the link to start the video 5 seconds in and miss out some of your pretty graphics.<br />
+        Need to remove the &#8220;&amp; amp;t=5s&#8221; from the end.</p>]]>
+      </description>
+      <source:markdown>Not sure whether you intended the link to start the video 5 seconds in and miss out some of your pretty graphics.
 
-It is possible there’s a missing dependency but the crash suggests that I may just be hitting a brick wall.
-
-It is possible the LibSDL doesn’t work on RPCemu era hardware of course, but that seems a bit unlikely. Python itself seems to run, although I’ve only done brief testing.
-
-PyGame was installed via Packman – note to maintainers, the dependencies for this need re-working as it is flat out broken by default (due to lack of SDL etc).
-
-Trying to use python3 -m pip install pygame works (ish) but doesn’t seem able to install due to lack of msvcc libraries (not surprising) – I think it is trying to get the Windows version.</source:markdown>
-      <guid>cid://www.riscosopen.org:10:20344:162980</guid>
+Need to remove the “&#38; amp;t=5s” from the end.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20345:162991</guid>
     </item>    <item>
       <link>https://bsky.app/profile/armbytes.bsky.social/post/3miw5b5v3bs2d</link>
       <description>
@@ -96,74 +246,6 @@ The current trend on all OSs (apart from RO) is for the change to be made immedi
 I _think_ VAT used to be payable on e-Books but no longer is.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20309:162974</guid>
     </item>    <item>
-      <title>Filer Changes</title>
-      <link>https://www.riscosopen.org/forum/forums/2/topics/20332</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>My comments was not a hit at you, This always gets heated when i mention a select feature that i would like to see in a newer version</p>
-        </blockquote>
-        <p>It&#8217;s not so much that it&#8217;s an attack at me &#8211; I feel quite hurt, in particular, by any suggestion that the only way to get things is the Select sources. It always feels like a jab at me that I&#8217;m the one making this not happen. Which is plainly wrong. As I also quoted Steve who also quoted someone else, it was clearly a thing. My point is that the lack of sources is <span class="caps">NOT</span> the issue.</p>
-        <p>The inability of anyone else to do these things over the last 20 years is saddening &#8211; because it implies that&#8230; a) people didn&#8217;t actually want the things that I built, feeling they were important; b) that those things are beyond anyone else&#8217;s ability; c) they&#8217;re not part of anyone else&#8217;s interest; d) they are things that I did, so clearly they are bad. I do not believe a). b) is clearly untrue. d) has a lot of evidence towards it, but others may put off as paranoia. c) is my general belief. However, all of these are important things that I feel about the situation. When I hear mention the Select source as a thing, 20 years after the event, that feels my particular frustration.</p>
-        <p><span class="caps">BUT</span>, and this is the thing that I wanted to get across, my reaction about it being pushed on to me (and how unfair that feels) should be the response from others. 20 years of &#8220;We can&#8217;t do this because the sources aren&#8217;t available&#8221;, should have long ago been replaced with &#8220;Why hasn&#8217;t anyone done anything about this&#8221;, and &#8220;What can be done to make it happen&#8221;.</p>
-        <p>I am sorry for overreacting to this, but the frustration should not target the lack of sources, but the lack of movement to address the lack of the feature.<br />
-        ( As an aside, the survey we did {well, others did, and we used as input} back in last century indicated a number of features that people felt to be important &#8211; many were long tail items, and some were clearly joking, but there are a lot in here that remain relevant. <a href="https://www.acornusers.org/wishlist/">https://www.acornusers.org/wishlist/</a> )</p>
-        <p>Steve follows up by saying&#8230;</p>
-        <blockquote>
-        <p>As users, we all need to remember that noone is responsible for implementing features in the core OS for us. If I want an RO6 feature in RO5 then my best bet may be to do it myself.</p>
-        </blockquote>
-        <p>I don&#8217;t feel that should be true. <span class="caps">ROOL</span> do have plans to do things, and pushing them to show the support for things is important. But I do agree that assuming that <span class="caps">ROOL</span> will do anything will be pushing those who don&#8217;t want to do it.</p>
-        <blockquote>
-        <p>This does raise an interesting question, however, of how I would go about getting the work accepted into the codebase if I did roll up my sleeves1. Can I just submit a PR and have it reviewed? Or should I talk to <span class="caps">ROOL</span> first?</p>
-        </blockquote>
-        <p><span class="caps">ROOL</span> have been explicit in stating that they won&#8217;t gate keep the source, review or offer any suggestions. But they are the only people who can merge things, I believe. Those are questions for <span class="caps">ROOL</span> to address.</p>
-        <p>However, I don&#8217;t think that that&#8217;s the important part of the question. If it&#8217;s not in the main source tree, then make it available separately. <span class="caps">RISCOS</span> is modular. As you know from my work, I have always broken down things to separate parts, and then they can be made to work with the whole. Yes, there are times when that modularity is broken, either because of faults elsewhere, or collusion between components, but components should largely work anywhere.</p>
-        <p>The Filer is Just Another Application. ( and more generally, modules should be able to work independently &#8211; my recent updates to the <span class="caps">RISC</span> OS 5 Window Manager have shown that you just load that independently, so if you hadn&#8217;t thought that before, it&#8217;s been pretty clear).</p>
-        <p>And if the technical journey to make components independently is hard, then that should be addressed. I seem to remember writing a response about there being things that people weren&#8217;t testing because they wouldn&#8217;t test things other than ROMs, ROMs were the only way to distribute things, and things wouldn&#8217;t be in the <span class="caps">ROM</span> until they were tested (which is a quite reasonable question). I believe that my suggestions were to try to encourage easier routes of development and testing so that it was possible to encourage development and testing of components that avoid the high level system integration (<span class="caps">ROM</span> building) that is a blocker.</p>
-        <p><a href="https://www.riscosopen.org/forum/forums/1/topics/16320?limit=25&amp;page=1#posts-120059">https://www.riscosopen.org/forum/forums/1/topics/16320…</a> &#8211; this is my suggestion on that topic.</p>
-        <p>If we look at how I have approached this, I&#8217;ve made individual components available which can be built and tested independent of the <span class="caps">RISC</span> OS sources. They are open, usually from the point of inception, and have releases which show how they work. The <span class="caps">RISC</span> OS Build Service allows people to build and test things automatically in an isolated environment to ensure that things keep working. I have built a separate build environment which allows the building of 26-bit, 32-bit, 64-bit, modules applications, utilities, StrongHelp Files, documentation, archived releases, and which can be automated to rapidly produce components for others to use. And I&#8217;m making videos to show these things to others to encourage their development. Why do I restate my own things? Because I&#8217;m following my own recommendations of how to make it easier for people to do things, and to get stuff working.</p>
-        <p>For a good numbers of years, the source was not available, and people produced huge amounts of software &#8211; without regard for it &#8216;being part of the OS&#8217;. Why make it a blocker that it be a part of the OS to do things? Open Source means you can do things you want &#8211; distribute them, and make them available to others <strong>without</strong> being gate kept.</p>
-        <p>Just as with Linux you don&#8217;t need to know whether Linus would like your idea before you write some code, you can do the same with <span class="caps">RISC</span> OS.</p>
-        <p>So that&#8217;s my response to the idea that source inclusion by <span class="caps">ROOL</span> should be a goal.</p>]]>
-      </description>
-      <source:markdown>&#62; My comments was not a hit at you, This always gets heated when i mention a select feature that i would like to see in a newer version
-
-It’s not so much that it’s an attack at me – I feel quite hurt, in particular, by any suggestion that the only way to get things is the Select sources. It always feels like a jab at me that I’m the one making this not happen. Which is plainly wrong. As I also quoted Steve who also quoted someone else, it was clearly a thing. My point is that the lack of sources is NOT the issue.
-
-The inability of anyone else to do these things over the last 20 years is saddening – because it implies that… a) people didn’t actually want the things that I built, feeling they were important; b) that those things are beyond anyone else’s ability; c) they’re not part of anyone else’s interest; d) they are things that I did, so clearly they are bad. I do not believe a). b) is clearly untrue. d) has a lot of evidence towards it, but others may put off as paranoia. c) is my general belief. However, all of these are important things that I feel about the situation. When I hear mention the Select source as a thing, 20 years after the event, that feels my particular frustration.
-
-BUT, and this is the thing that I wanted to get across, my reaction about it being pushed on to me (and how unfair that feels) should be the response from others. 20 years of “We can’t do this because the sources aren’t available”, should have long ago been replaced with “Why hasn’t anyone done anything about this”, and “What can be done to make it happen”.
-
-I am sorry for overreacting to this, but the frustration should not target the lack of sources, but the lack of movement to address the lack of the feature.
-
-( As an aside, the survey we did {well, others did, and we used as input} back in last century indicated a number of features that people felt to be important – many were long tail items, and some were clearly joking, but there are a lot in here that remain relevant. [https://www.acornusers.org/wishlist/](https://www.acornusers.org/wishlist/) )
-
-Steve follows up by saying…
-
-&#62; As users, we all need to remember that noone is responsible for implementing features in the core OS for us. If I want an RO6 feature in RO5 then my best bet may be to do it myself.
-
-I don’t feel that should be true. ROOL do have plans to do things, and pushing them to show the support for things is important. But I do agree that assuming that ROOL will do anything will be pushing those who don’t want to do it.
-
-&#62; This does raise an interesting question, however, of how I would go about getting the work accepted into the codebase if I did roll up my sleeves1. Can I just submit a PR and have it reviewed? Or should I talk to ROOL first?
-
-ROOL have been explicit in stating that they won’t gate keep the source, review or offer any suggestions. But they are the only people who can merge things, I believe. Those are questions for ROOL to address.
-
-However, I don’t think that that’s the important part of the question. If it’s not in the main source tree, then make it available separately. RISCOS is modular. As you know from my work, I have always broken down things to separate parts, and then they can be made to work with the whole. Yes, there are times when that modularity is broken, either because of faults elsewhere, or collusion between components, but components should largely work anywhere.
-
-The Filer is Just Another Application. ( and more generally, modules should be able to work independently – my recent updates to the RISC OS 5 Window Manager have shown that you just load that independently, so if you hadn’t thought that before, it’s been pretty clear).
-
-And if the technical journey to make components independently is hard, then that should be addressed. I seem to remember writing a response about there being things that people weren’t testing because they wouldn’t test things other than ROMs, ROMs were the only way to distribute things, and things wouldn’t be in the ROM until they were tested (which is a quite reasonable question). I believe that my suggestions were to try to encourage easier routes of development and testing so that it was possible to encourage development and testing of components that avoid the high level system integration (ROM building) that is a blocker.
-
-[https://www.riscosopen.org/forum/forums/1/topics/16320…](https://www.riscosopen.org/forum/forums/1/topics/16320?limit=25&#38;page=1#posts-120059) – this is my suggestion on that topic.
-
-If we look at how I have approached this, I’ve made individual components available which can be built and tested independent of the RISC OS sources. They are open, usually from the point of inception, and have releases which show how they work. The RISC OS Build Service allows people to build and test things automatically in an isolated environment to ensure that things keep working. I have built a separate build environment which allows the building of 26-bit, 32-bit, 64-bit, modules applications, utilities, StrongHelp Files, documentation, archived releases, and which can be automated to rapidly produce components for others to use. And I’m making videos to show these things to others to encourage their development. Why do I restate my own things? Because I’m following my own recommendations of how to make it easier for people to do things, and to get stuff working.
-
-For a good numbers of years, the source was not available, and people produced huge amounts of software – without regard for it ‘being part of the OS’. Why make it a blocker that it be a part of the OS to do things? Open Source means you can do things you want – distribute them, and make them available to others **without** being gate kept.
-
-Just as with Linux you don’t need to know whether Linus would like your idea before you write some code, you can do the same with RISC OS.
-
-So that’s my response to the idea that source inclusion by ROOL should be a goal.</source:markdown>
-      <guid>cid://www.riscosopen.org:2:20332:162973</guid>
-    </item>    <item>
       <title>NVME ShareFS</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20343</link>
       <description>
@@ -171,105 +253,6 @@ So that’s my response to the idea that source inclusion by ROOL should be a go
       </description>
       <source:markdown>Totally Random question and i didn’t realise this before, We can of course share CD, SATA, etc via ShareFS via the option from the drive menu, But noticed this option is missing from the Nvme Drive, is there a way of Sharing the whole drive to other RISC OS Machines from Nvme?</source:markdown>
       <guid>cid://www.riscosopen.org:11:20343:162971</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 5th March at 1pm UK time</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20334</link>
-      <description>
-        <![CDATA[<p>All my videos on YouTube are fine for anyone to copy if they want. Though, I find it surprising to find that anyone these days doesn&#8217;t have access to YouTube.</p>]]>
-      </description>
-      <source:markdown>All my videos on YouTube are fine for anyone to copy if they want. Though, I find it surprising to find that anyone these days doesn’t have access to YouTube.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20334:162970</guid>
-    </item>    <item>
-      <title>Paint, Draw, OS_EnterOS and ModuleWrap</title>
-      <link>https://www.riscosopen.org/forum/forums/9/topics/20330</link>
-      <description>
-        <![CDATA[<p>If I may chip in:</p>
-        <blockquote>
-        <p>1. where a resource-hungry app slows or halts other processes; for example, when !NetFetch decides to fetch mail while one is working on a chunky !Artworks file;</p>
-        </blockquote>
-        <p>As outlined in this very detailed article, that would broadly fall under the case for preemptive multitasking (<span class="caps">PMT</span>). <span class="caps">PMT</span> would help address your point 1, and it would also make life somewhat easier for developers. Implementing that on the traditional <span class="caps">RISC</span> OS kernel clearly requires quite a lot of thought, although it is rather easier when writing a new kernel.</p>
-        <pre>
-        <a href="https://riscoscommunity.org/understanding-risc-os/risc-os-today-and-tomorrow-what-would-really-benefit-the-platform/">https://riscoscommunity.org/understanding-risc-os/risc…</a>
-        </pre>
-        <p>As for multi-core support, there are usually 3 fairly distinct categories, even if the terminology is not entirely standard:</p>
-        <p>1) Multi-core aware: the OS is aware that the host may have multiple <span class="caps">CPU</span> cores, but it may disable them at boot and only use one. Even so, that awareness is still needed in order to boot correctly on many multi-core hosts. <br />
-        2) Multi-core safe: the OS is as in 1, but also introduces the necessary locking primitives so that multiple cores do not access shared resources unsafely at the same time. This can permit execution on multiple cores, but from the user’s point of view the behaviour may still resemble that of a single-core system. It is not the end goal, but it is often a sensible first step towards 3 below.<br />
-        3) Full multi-core: in this case the cores are genuinely capable of executing multiple tasks independently, with the necessary mechanisms in place to arbitrate access to resources and keep the overall behaviour consistent and safe.</p>
-        <p>When using cooperative scheduling with an operating system that is not fully multi-core, the end result would probably not look very different from what we already have, because the OS would still need to block everything except whatever is currently in the running state. That is essentially the nature of a cooperative system: one task at a time has control of the machine until it gives control back to the OS. Otherwise it would not really be cooperative. I hope that makes sense.</p>
-        <blockquote>
-        <p>2. where an app crashes and freezes the system, or initiates a cascade of failures affecting all iconbar applications.</p>
-        </blockquote>
-        <p>This is really more about full memory protection, together with memory safety, and a safer <span class="caps">API</span> design, where the kernel protects itself from misbehaving applications as far as possible. However, as you very fairly point out, it is also connected to the cooperative nature of the system, because an application that crashes in a cooperative environment may never hand control back to the OS. For that very specific case, traditional <span class="caps">RISC</span> OS does at least have some mitigations in place already, whereas there is still comparatively little in place to protect the kernel itself from badly behaved applications. There have certainly been improvements over the years, but in practice I still find myself reaching for reset rather more often than I would on a modern protected OS.</p>
-        <blockquote>
-        <p>Any advance in flexibility or security in these areas would be beneficial <span class="caps">IMHO</span>.</p>
-        </blockquote>
-        <p>I would agree entirely. To my mind, the biggest issue with current <span class="caps">RISC</span> OS is indeed its fragility. It remains great fun to use, right up to the point where things start to go a little sideways.</p>
-        <blockquote>
-        <p>As long as i can copy files and do other things without filer copying from one drive to another halting the entire system, im hoping thats where it will be useful.</p>
-        </blockquote>
-        <p>That is one of the areas where preemptive MT could help quite a lot. To be fair, it is also possible to improve matters on a cooperative multitasking system, but it tends to involve more work, and more work usually means more scope for bugs and a good deal more testing. One small practical thing that can help a little is increasing the Next Wimp Slot, as that has historically had an effect on file copy behaviour. Still, I think your basic point is perfectly reasonable: in 2026 it does feel rather old-fashioned when desktop file copying can make the whole system feel as though it has stalled. Other systems were already showing smoother behaviour in this area a very long time ago.</p>
-        <p>Most likely, the combination of proper kernel protection and <span class="caps">PMT</span> would ease things considerably on <span class="caps">RISC</span> OS. The difficulty, of course, is that so much of the kernel assumes a single-task model, and the <span class="caps">WIMP</span> itself relies on that cooperative task switching model in which each task still largely assumes it is the only thing running.</p>
-        <p>However, I would also suggest that <span class="caps">RISC</span> OS has not really evolved as far as it might have done even within its own paradigm. As a few of you saw at the last London Show, I have a runtime environment for <span class="caps">RISC</span> OS 5, 4, 6 and 3, yes, including the old 3.10, which is fully preemptive and offers full memory protection and, rather encouragingly, it turns out to work extremely well on <span class="caps">RISC</span> OS. To my mind, that supports the view that tools such as <span class="caps">BBC</span> <span class="caps">BASIC</span> never really evolved to embrace the <span class="caps">RISC</span> OS paradigm as fully as they might have done. Had they done so, things might perhaps look rather different today. I will try to make a video at some point so that people can see what happens when a runtime environment designed specifically around <span class="caps">RISC</span> OS is used, rather than runtime environments that never really evolved for it.</p>]]>
-      </description>
-      <source:markdown>If I may chip in:
-
-&#62; 1\. where a resource-hungry app slows or halts other processes; for example, when !NetFetch decides to fetch mail while one is working on a chunky !Artworks file;
-
-As outlined in this very detailed article, that would broadly fall under the case for preemptive multitasking (PMT). PMT would help address your point 1, and it would also make life somewhat easier for developers. Implementing that on the traditional RISC OS kernel clearly requires quite a lot of thought, although it is rather easier when writing a new kernel.
-
-```
-https://riscoscommunity.org/understanding-risc-os/risc…
-
-```
-
-As for multi-core support, there are usually 3 fairly distinct categories, even if the terminology is not entirely standard:
-
-1) Multi-core aware: the OS is aware that the host may have multiple CPU cores, but it may disable them at boot and only use one. Even so, that awareness is still needed in order to boot correctly on many multi-core hosts.
-
-2) Multi-core safe: the OS is as in 1, but also introduces the necessary locking primitives so that multiple cores do not access shared resources unsafely at the same time. This can permit execution on multiple cores, but from the user’s point of view the behaviour may still resemble that of a single-core system. It is not the end goal, but it is often a sensible first step towards 3 below.
-
-3) Full multi-core: in this case the cores are genuinely capable of executing multiple tasks independently, with the necessary mechanisms in place to arbitrate access to resources and keep the overall behaviour consistent and safe.
-
-When using cooperative scheduling with an operating system that is not fully multi-core, the end result would probably not look very different from what we already have, because the OS would still need to block everything except whatever is currently in the running state. That is essentially the nature of a cooperative system: one task at a time has control of the machine until it gives control back to the OS. Otherwise it would not really be cooperative. I hope that makes sense.
-
-&#62; 2\. where an app crashes and freezes the system, or initiates a cascade of failures affecting all iconbar applications.
-
-This is really more about full memory protection, together with memory safety, and a safer API design, where the kernel protects itself from misbehaving applications as far as possible. However, as you very fairly point out, it is also connected to the cooperative nature of the system, because an application that crashes in a cooperative environment may never hand control back to the OS. For that very specific case, traditional RISC OS does at least have some mitigations in place already, whereas there is still comparatively little in place to protect the kernel itself from badly behaved applications. There have certainly been improvements over the years, but in practice I still find myself reaching for reset rather more often than I would on a modern protected OS.
-
-&#62; Any advance in flexibility or security in these areas would be beneficial IMHO.
-
-I would agree entirely. To my mind, the biggest issue with current RISC OS is indeed its fragility. It remains great fun to use, right up to the point where things start to go a little sideways.
-
-&#62; As long as i can copy files and do other things without filer copying from one drive to another halting the entire system, im hoping thats where it will be useful.
-
-That is one of the areas where preemptive MT could help quite a lot. To be fair, it is also possible to improve matters on a cooperative multitasking system, but it tends to involve more work, and more work usually means more scope for bugs and a good deal more testing. One small practical thing that can help a little is increasing the Next Wimp Slot, as that has historically had an effect on file copy behaviour. Still, I think your basic point is perfectly reasonable: in 2026 it does feel rather old-fashioned when desktop file copying can make the whole system feel as though it has stalled. Other systems were already showing smoother behaviour in this area a very long time ago.
-
-Most likely, the combination of proper kernel protection and PMT would ease things considerably on RISC OS. The difficulty, of course, is that so much of the kernel assumes a single-task model, and the WIMP itself relies on that cooperative task switching model in which each task still largely assumes it is the only thing running.
-
-However, I would also suggest that RISC OS has not really evolved as far as it might have done even within its own paradigm. As a few of you saw at the last London Show, I have a runtime environment for RISC OS 5, 4, 6 and 3, yes, including the old 3.10, which is fully preemptive and offers full memory protection and, rather encouragingly, it turns out to work extremely well on RISC OS. To my mind, that supports the view that tools such as BBCBASIC never really evolved to embrace the RISC OS paradigm as fully as they might have done. Had they done so, things might perhaps look rather different today. I will try to make a video at some point so that people can see what happens when a runtime environment designed specifically around RISC OS is used, rather than runtime environments that never really evolved for it.</source:markdown>
-      <guid>cid://www.riscosopen.org:9:20330:162969</guid>
-    </item>    <item>
-      <title>TW styles</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20342</link>
-      <description>
-        <![CDATA[<p>Thanks, I&#8217;ve emailed. :-)</p>
-        <p>It&#8217;s annoying because I&#8217;ve cleared added Styles in the past to the list !TW will pop up&#8230; but can&#8217;t now recall/find how to do this. I&#8217;ve just had a burrow through piles of old manuals and found a third set for <img src="TW/" alt="" />EW, so I&#8217;ll try to find it in them.</p>
-        <p>All that said, is it still not possible to buy an update for <img src="TW/" alt="" />EW due to the barmy barriers that now make trade into the UK a <span class="caps">PITA</span>? The mention of AW 2 makes me hope/wonder. The versions I have are a decade old.</p>]]>
-      </description>
-      <source:markdown>Thanks, I’ve emailed. :-)
-
-It’s annoying because I’ve cleared added Styles in the past to the list !TW will pop up… but can’t now recall/find how to do this. I’ve just had a burrow through piles of old manuals and found a third set for ![](TW/)EW, so I’ll try to find it in them.
-
-All that said, is it still not possible to buy an update for ![](TW/)EW due to the barmy barriers that now make trade into the UK a PITA? The mention of AW 2 makes me hope/wonder. The versions I have are a decade old.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20342:162968</guid>
-    </item>    <item>
-      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
-      <description>
-        <![CDATA[<p>Yes of course, I&#8217;ve actually manage to fix the Arrow on menuing issue. I&#8217;ve sent some of the obvious ones to Sprow to review. To be honest <span class="caps">RISC</span> OS hasn&#8217;t got too many issues left, most of it will be down to how the designer implements Darkmode, and will have to make sure every possible issue is corrected which is why im undertaking this review to make sure the <span class="caps">WIMP</span> has what it needs to help themers :) As for the Browser issue !Iris doesnt have a baked in theme switch mode yet, but im testing that aswell, i currently have a Iris and IrisDark as seperate appications while im trying to get Obsidian right for the mass audience, Thanks David.</p>]]>
-      </description>
-      <source:markdown>Yes of course, I’ve actually manage to fix the Arrow on menuing issue. I’ve sent some of the obvious ones to Sprow to review. To be honest RISC OS hasn’t got too many issues left, most of it will be down to how the designer implements Darkmode, and will have to make sure every possible issue is corrected which is why im undertaking this review to make sure the WIMP has what it needs to help themers :) As for the Browser issue !Iris doesnt have a baked in theme switch mode yet, but im testing that aswell, i currently have a Iris and IrisDark as seperate appications while im trying to get Obsidian right for the mass audience, Thanks David.</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20340:162967</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mivnhggoqk2b</link>
       <description>
@@ -516,14 +499,6 @@ So long as we’re not talking about bounty stuff, of course – and I don’t t
 
 Can I use the file “!HardDisk3” for any other name, too, when I rename it?</source:markdown>
       <guid>cid://www.riscosopen.org:11:20325:162872</guid>
-    </item>    <item>
-      <title>Access to my smb: fileserver; !ShareView</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20329</link>
-      <description>
-        <![CDATA[<p>@Raik: In timermod/zip I have no (rm) module. &#8220;TimerMod&#8221;, &#8220;TimerModDc&#8221;, &#8220;TimerModScr419&#8221;, &#8220;TimeX&#8221;.</p>]]>
-      </description>
-      <source:markdown>@Raik: In timermod/zip I have no (rm) module. “TimerMod”, “TimerModDc”, “TimerModScr419”, “TimeX”.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20329:162869</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3minwxwzvfc2d</link>
       <description>
