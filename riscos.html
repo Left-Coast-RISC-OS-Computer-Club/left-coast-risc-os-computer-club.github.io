@@ -2,9 +2,9 @@
 <html lang="en-US">
 <head>
   <meta charset="utf-8" >
-  <meta content="antenna/0.0.23b" name="generator" >
-  <meta name="date" content="2026-04-08T12:00:24-07:00" >
-  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
+  <meta name="generator" content="antenna/0.0.23b" >
+  <meta name="date" content="2026-04-09T12:00:28-07:00" >
+  <link type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" >
 </head>
 <body>
   <header>
@@ -19,6 +19,253 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-04-09T18:43:40Z" data-link="https://www.riscosopen.org/forum/forums/8/topics/17901">
+      <h1>SMB2/3 protocol</h1>
+
+(date: 2026-04-09)
+      <p>
+      <p>FYI, the LanMan conversation thread is moving <a href="https://www.riscosopen.org/forum/forums/8/topics/20350">here</a>.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/8/topics/17901">https://www.riscosopen.org/forum/forums/8/topics/17901</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-09T18:17:03Z" data-link="https://www.riscosopen.org/forum/forums/8/topics/20350">
+      <h1>LanManFS update underway</h1>
+
+(date: 2026-04-09)
+      <p>
+      <p>Should be ready for public alpha testing very soon, I reckon…</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/8/topics/20350">https://www.riscosopen.org/forum/forums/8/topics/20350</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-09T18:15:59Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20349">
+      <h1>LanManFS update underway</h1>
+
+(date: 2026-04-09)
+      <p>
+      <p>Just cleaned and built ChangeFSI over LanManFS from a Windows 11 laptop (SMB3), so it’s looking promising…</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20349">https://www.riscosopen.org/forum/forums/1/topics/20349</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-09T15:32:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mj34w63cg22b">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-04-09)
+      <p>
+      <p>Just back from the cinema with family. We all enjoyed 'The Super Mario Galaxy Movie' but thought the first one was better. Some great visuals plus many Nintendo retro characters / references :- Rob, StarFox, Pikmin, Superscope, Game &amp; Watch etc. Stay for the very end of the long credits to see more!</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mj34w63cg22b">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mj34w63cg22b</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-09T14:08:14Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20351">
+      <h1>JUnitXML data collection and reporting module</h1>
+
+(date: 2026-04-09)
+      <p>
+      <p>Hiya,</p>
+<p>A new module – `JUnitXML` has been created, which will create XML files which describe the results of tests. This is a de facto standard for automated software testing, to report the results in a way that is presentable and recordable.</p>
+<p>The module release can be found here: <a href="https://github.com/gerph/riscos-junitxml-module-ai/releases/tag/v0.04">https://github.com/gerph/riscos-junitxml-module-ai/rel…</a></p>
+<p>The source repository contains the code and documentation ( <a href="https://github.com/gerph/riscos-junitxml-module-ai">https://github.com/gerph/riscos-junitxml-module-ai</a>), and the example program shows how you might use this…</p>
+<pre><code>REM &gt;Example
+REM JUnit XML output example
+ON ERROR ERROR EXT ERR, REPORT$ + &quot; at line &quot; + STR$(ERL/10)
+
+JUnitXML_Create_FilenameGiven = 1
+JUnitXML_Success = (1&lt;&lt;4)
+JUnitXML_Failure = (2&lt;&lt;4)
+JUnitXML_Error = (3&lt;&lt;4)
+JUnitXML_Skipped = (4&lt;&lt;4)
+
+REM Create output file
+SYS &quot;JUnitXML_Create&quot;, JUnitXML_Create_FilenameGiven, &quot;test-result/xml&quot; TO jx%
+IF ERR THEN PRINT &quot;Error creating file: &quot;; REPORT$ : END
+
+REM Create a test suite
+SYS &quot;JUnitXML_TestSuite&quot;, 0, jx%, 0, &quot;CalculatorTests&quot;, &quot;com.example.calc&quot;
+
+REM Set suite properties
+SYS &quot;JUnitXML_TestSuite&quot;, 3, jx%, &quot;build.number&quot;, &quot;42&quot;
+SYS &quot;JUnitXML_TestSuite&quot;, 3, jx%, &quot;os.version&quot;, &quot;3.11&quot;
+
+REM Add passing test
+SYS &quot;JUnitXML_TestCase&quot;, JUnitXML_Success, jx%, 0, &quot;Calculator&quot;, &quot;testAddition&quot;
+SYS &quot;JUnitXML_TestCase&quot;, JUnitXML_Success, jx%, 0, &quot;Calculator&quot;, &quot;testSubtraction&quot;
+
+REM Add failing test
+SYS &quot;JUnitXML_TestCase&quot;, JUnitXML_Failure, jx%, 0, &quot;Calculator&quot;, &quot;testDivision&quot;, &quot;DivisionByZero&quot;, &quot;Cannot divide by zero&quot;
+
+REM Add error test
+SYS &quot;JUnitXML_TestCase&quot;, JUnitXML_Error, jx%, 0, &quot;Calculator&quot;, &quot;testOverflow&quot;, &quot;OverflowError&quot;, &quot;Result too large&quot;
+
+REM Add skipped test
+SYS &quot;JUnitXML_TestCase&quot;, JUnitXML_Skipped, jx%, 0, &quot;Calculator&quot;, &quot;testMultiplication&quot;
+
+REM Close the suite
+SYS &quot;JUnitXML_TestSuite&quot;, 1, jx%
+
+REM Query result counts
+SYS &quot;JUnitXML_Result&quot;, 0, jx% TO tests%, passes%, failures%, errors%, skips%
+PRINT &quot;Tests:    &quot;; tests%
+PRINT &quot;Passes:   &quot;; passes%
+PRINT &quot;Failures: &quot;; failures%
+PRINT &quot;Errors:   &quot;; errors%
+PRINT &quot;Skips:    &quot;; skips%
+
+REM Close the file
+SYS &quot;JUnitXML_Close&quot;, 0
+
+PRINT &quot;JUnit XML written successfully&quot;
+
+</code></pre>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20351">https://www.riscosopen.org/forum/forums/1/topics/20351</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-09T13:38:52Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20323">
+      <h1>Audio on RISC OS</h1>
+
+(date: 2026-04-09)
+      <p>
+      <p>Some of the things on this page may still be of use/interest to some users.</p>
+<p>Sound Progs: <a href="https://www.audiomisc.co.uk/software/index.html">https://www.audiomisc.co.uk/software/index.html</a></p>
+<p>I did write an alternative ‘visualiser’ that acts as PPMs to go with !DigitalCD. Also an ‘off desktop’ full source and capture app that analyses the results for audio test purposes. Useful for checking audio kit. But it depends on specific bits of added code with my machines, and doesn’t use the standard RO sound system. Works on my ancient ARMX6.</p>
+<p>Prompts me to ask: Has any of that changed with modern kit, etc?</p>
+<p>I’m not clear about one point wrt newer items. This is how well they may cope with 44.1k rate material from CDs. The norm for AV is 48k rate. Which raises the question of accurate rate conversions. Devil in the details.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20323">https://www.riscosopen.org/forum/forums/5/topics/20323</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-09T13:38:00Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20335">
+      <h1>ROOL Gitlab</h1>
+
+(date: 2026-04-09)
+      <p>
+      <p>@ Steve</p>
+<blockquote>
+<p>Good to see such a positive response to some welcome feedback and developments!</p>
+</blockquote>
+<p>and then:</p>
+<blockquote>
+<p>it is positive LanmanFS is being worked on, but Bryan’s post is very valid, not everyone is ROOL’s cheerleader remember that.</p>
+</blockquote>
+<p>Steve, you know as well as I do that people keep insisting on attributing the work to ROOL. As long as that mentality exists, complaints about ROOL as a whole, or calls to “keep ROOL accountable”, will continue.</p>
+<p>However, on the network stack point, I am with Bryan, sorry. If ROOL does not like ROD’s work, why can’t they work together to get it into the shape they need? Why just refuse it? Steve says ROOL is not gatekeeping, but when ROOL refuses work, then, well, I am sorry, but that is gatekeeping. That is not necessarily a bad thing, and ROOL may have perfectly good reasons for doing so. However, to this day, I still have no idea what those reasons are. Do you?</p>
+<p>I mean, ROD’s network stack is in C, it comes from one of the BSDs, it builds with ROOL’s much-loved Victorian Norcroft, and it probably sings God Save the King every Sunday! XD (Sorry, I could not resist that joke). So why is it still not good enough?</p>
+<p>@ all</p>
+<p>Let’s please remember, however, that ROOL is trying to create incentives for volunteers, because yes, those are the people actually doing the work (not ROOL), to tackle the tasks that a group of people, along with ROOL, have identified as necessary.</p>
+<p>However, I do share some of the things mentioned over the years, like:</p>
+<p>- Why are we still stuck with Norcroft and ObjASM?</p>
+<p>- Why aren’t there bounties to get the last bits of copyrighted code out of RISC OS?</p>
+<p>- Why the “we don’t gatekeep” and then they do gatekeep?</p>
+<p>But then again, given no answers have been provided over the many years, I started to develop my own RISC OS that has none of these issues. So, right now I am mostly mentioning these things for context, ’cause I no longer care about any of them, thankfully there are also others working on new RISC OS versions, so hopefully soon this whole weird logic will be a thing of the past.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20335">https://www.riscosopen.org/forum/forums/5/topics/20335</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-09T13:27:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mj2vww3l5k25">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-04-09)
+      <p>
+      <p>&quot;Amid regulatory and energy price concerns,&quot; in the sense that those concerns are at the very periphery, with the great big elephant in the centre being &quot;profit, lack thereof&quot;.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mj2vww3l5k25">https://bsky.app/profile/colinhoad.com/post/3mj2vww3l5k25</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-09T13:22:09Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
+      <h1>MuView and rendering PDF pages</h1>
+
+(date: 2026-04-09)
+      <p>
+      <p>FWIW no progress on this as I’m still mostly divered by ‘other duties’ that are ‘non maskable’.</p>
+<p>However, having perused the Compo ‘manual’ I have a fair idea of how it would run though a set of jpegs to detox them all. So given the mutools, that means I should be able to automate the extraction and detox, and create a full set of output jegs that are detoxed. IIUC other software that has been mentioned here for RO can then poke all these into a PDF ebook. CompoScript can also issue star commands to set that going, I suspect. So and end-to-end pipe from original to detoxed versions of a PDF ebook seem on the cards. Fingers crossed!…</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-09T11:24:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mj2p44nlhs2b">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-04-09)
+      <p>
+      <p>I couldn't resist this recent eBay item. On first glance it's a Teletext Adapter 'cheese wedge'. However, it has two ribbon cables coming out of it which is odd. Open it up and you'll find a 6502 2nd processor board sat on top of the teletext PCB. Two in one - a user DIY job! Never seen this before.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mj2p44nlhs2b">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mj2p44nlhs2b</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-09T09:09:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3mj2hkds5i22h">
+      <h1>@iconbar.com</h1>
+
+(date: 2026-04-09)
+      <p>
+      <p>Archive Edition 28:02 reviewed</p>
+<p><a href="https://www.iconbar.com/articles/Archive">https://www.iconbar.com/articles/Archive</a>_Edition_2802_reviewed/index2322.html</p>
+<p>Archive Magazine 28:02 was released for the North West Show and subscribers should have received your copy in the post recently.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3mj2hkds5i22h">https://bsky.app/profile/iconbar.com/post/3mj2hkds5i22h</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-09T07:19:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mj2bfvwexk2i">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-04-09)
+      <p>
+      <p>Daily dose of dystopia there from Starbucks. What next, Soylent Matcha Latte?</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mj2bfvwexk2i">https://bsky.app/profile/colinhoad.com/post/3mj2bfvwexk2i</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-09T05:12:00Z" data-link="http://www.iconbar.com/comments/rss/news2322.html">
+      <h1>Archive Edition 28:02 reviewed</h1>
+
+(date: 2026-04-09, updated: 2026-03-21)
+      <p>
+      <p>Archive Magazine 28:02 was released for the North West Show and subscribers should have received your copy in the post recently</p>
+
+      <address>
+        <a href="http://www.iconbar.com/comments/rss/news2322.html">http://www.iconbar.com/comments/rss/news2322.html</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-08T22:53:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mizf4effqs24">
+      <h1>@paolofabiozaino.bsky.social</h1>
+
+(date: 2026-04-08)
+      <p>
+      <p>#RISC_OS I keep seeing people posting that ShareFS does not work on RPCEmu when in NAT also on macOS, that is NOT entirely true 😉</p>
+
+      <address>
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mizf4effqs24">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mizf4effqs24</a>
+      </address>
+    </article>
 
     <article data-published="2026-04-08T16:30:29Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20348">
       <h1>!NetSurf problem?</h1>
@@ -275,7 +522,7 @@ images.nasa.gov<a href="https://images.nasa.gov/">https://images.nasa.gov/</a></
     <article data-published="2026-04-07T06:00:00Z" data-link="http://www.iconbar.com/comments/rss/news2321.html">
       <h1>RISC OS Git client reaches release 0.12</h1>
 
-(date: 2026-04-07, updated: 2026-03-17)
+(date: 2026-04-07, updated: 2026-03-21)
       <p>
       <p>ROOL continues to make progress on its mission to bring modern source control to RISC OS with the release of 0.12 of the Git client</p>
 
@@ -456,26 +703,6 @@ Dim myRec As MyRecord
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3miqhinizbk2j">https://bsky.app/profile/nemo20000.bsky.social/post/3miqhinizbk2j</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-04T21:50:04Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20335">
-      <h1>ROOL Gitlab</h1>
-
-(date: 2026-04-04)
-      <p>
-      <blockquote>
-<p>And i’m not quite sure what you mean by some who claim show expenses and website housing costs, didn’t quite understand what you meant there.</p>
-</blockquote>
-<p>Probably because that’s not quite what I wrote… :-)</p>
-<p>So far as I know, people like you and I are doing RISC OS work in our spare time, unpaid, around actual jobs and other more sociable hobbies.</p>
-<p>Also so far as I know, the folks at ROOL are just the same. They don’t get paid to do what they do for ROOL.</p>
-<p>The only difference is that they can probably cover some of their expenses (travel to shows, stand costs, etc) from ROOL’s operating bounty or merch sales. I certainly don’t have that “luxury”.</p>
-<p>So in the end it makes as much sense to ask why the ROOL team haven’t delivered X, Y or Z as it does to ask why you or I haven’t finished one of our RISC OS projects.</p>
-<p>So long as we’re not talking about bounty stuff, of course – and I don’t think we are in this thread?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20335">https://www.riscosopen.org/forum/forums/5/topics/20335</a>
       </address>
     </article>
 
@@ -679,19 +906,6 @@ Dim myRec As MyRecord
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/11/topics/20315">https://www.riscosopen.org/forum/forums/11/topics/20315</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-02T14:04:38Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
-      <h1>MuView and rendering PDF pages</h1>
-
-(date: 2026-04-02)
-      <p>
-      <p>Afraid that I’m probably still not clear enough in mind to understand all the above – For non-computing reasons affecting my ability to think about it. So still am trying things and getting confused. That in turn makes me very anxious about changing Package manager on my old ARMXin case I mess up some things that work now, even if I get no result with building detoxed PDFs. So may make things worse! :-/ TBH I’m stressed by things that aren’t to do with this thread, alas, and currently only get a few mins per day to come back to this. :-/</p>
-<p>That said, yes, I can try this on my new machine and see how I get on with that. I’ll also ask Andrew for info/help wrt package management, etc. If I can get the ‘missing link’ of taking a series of bitmap pages and generating a matching all-pages PDF on that I will transfer that operation to using it.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
       </address>
     </article>
 
@@ -916,7 +1130,7 @@ Source: <a href="https://www.riscosopen.org/forum/forums/1/topics/20328?limit=25
     <article data-published="2026-04-01T05:47:00Z" data-link="http://www.iconbar.com/comments/rss/news2319.html">
       <h1>Double your impact on the RISC OS 'Moon mission'</h1>
 
-(date: 2026-04-01, updated: 2026-03-17)
+(date: 2026-04-01, updated: 2026-03-21)
       <p>
       <p>ROOL (RISC OS Open Limited) is working on its most ambitious project to date: moving RISC OS to a 64-bit architecture. It's a major undertaking, and right now your donation goes twice as far.</p>
 
@@ -934,21 +1148,6 @@ Source: <a href="https://www.riscosopen.org/forum/forums/1/topics/20328?limit=25
 
       <address>
         <a href="http://www.iconbar.com/forums/viewthread.php?threadid=13578&page=1#125878">http://www.iconbar.com/forums/viewthread.php?threadid=13578&page=1#125878</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-31T18:21:42Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20323">
-      <h1>Audio on RISC OS</h1>
-
-(date: 2026-03-31)
-      <p>
-      <blockquote>
-<p>Anyone got some sound working on Linux RO?</p>
-</blockquote>
-<p>My understanding is that it’s not implemented. In much the same way that porting RISC OS to a new platform means drivers are needed for the various bits of I/O (display, USB etc.), the sound driver for Linux RO simply doesn’t exist. It’s all open source, so I’m sure someone keen could whip something up. ;)</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20323">https://www.riscosopen.org/forum/forums/5/topics/20323</a>
       </address>
     </article>
 
@@ -1043,7 +1242,7 @@ Source: <a href="https://www.riscosopen.org/forum/forums/1/topics/20328?limit=25
     <article data-published="2026-03-31T07:05:00Z" data-link="http://www.iconbar.com/comments/rss/news2317.html">
       <h1>RISC OS in a Post-AI World: Could Simplicity Be the Missing Link in Education?</h1>
 
-(date: 2026-03-31, updated: 2026-03-17)
+(date: 2026-03-31, updated: 2026-03-21)
       <p>
       <p>In an age dominated by artificial intelligence, algorithm-driven content, and platforms engineered to maximize attention, a counter-question is gaining traction: What if real progress sometimes means stripping things back rather than adding more layers?</p>
 
@@ -1258,7 +1457,7 @@ Source: <a href="https://www.riscosopen.org/forum/forums/1/topics/20328?limit=25
     <article data-published="2026-03-30T06:10:00Z" data-link="http://www.iconbar.com/comments/rss/news2310.html">
       <h1>WROCC April 2026 talk on Wednesday</h1>
 
-(date: 2026-03-30, updated: 2026-03-17)
+(date: 2026-03-30, updated: 2026-03-21)
       <p>
       <p>The April 2026 WROCC talk is on Wednesday 1st April and starts at 7.45pm on Zoom.That's after 12 o'clock so no April fools....</p>
 
@@ -1513,7 +1712,7 @@ chiptune.app/browse<a href="https://chiptune.app/browse">https://chiptune.app/br
     <article data-published="2026-03-27T07:59:00Z" data-link="http://www.iconbar.com/comments/rss/news2316.html">
       <h1>Fireside developer chat on saturday night</h1>
 
-(date: 2026-03-27, updated: 2026-03-17)
+(date: 2026-03-27, updated: 2026-03-21)
       <p>
       <p>The next developer chat is on saturday night (27th March) for anyone interested in a very informal event online aimed at RISC OS developers.</p>
 
@@ -1525,7 +1724,7 @@ chiptune.app/browse<a href="https://chiptune.app/browse">https://chiptune.app/br
     <article data-published="2026-03-27T06:31:00Z" data-link="http://www.iconbar.com/comments/rss/news2305.html">
       <h1>March 2026 News Summary</h1>
 
-(date: 2026-03-27, updated: 2026-03-17)
+(date: 2026-03-27, updated: 2026-03-21)
       <p>
       <p>Some things we noticed this month. What did you see?</p>
 
@@ -2105,7 +2304,7 @@ Why is it only me?</p>
     <article data-published="2026-03-21T17:10:00Z" data-link="http://www.iconbar.com/comments/rss/news2314.html">
       <h1>RISC OS North Show 2026 - pictures</h1>
 
-(date: 2026-03-21, updated: 2026-03-17)
+(date: 2026-03-21)
       <p>
       <p>Here is a selection of pictures to show you what this years event was like.....</p>
 
@@ -11696,21 +11895,6 @@ youtu.be/jWa0oNtmBc4<a href="https://youtu.be/jWa0oNtmBc4">https://youtu.be/jWa0
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/11/topics/19772">https://www.riscosopen.org/forum/forums/11/topics/19772</a>
-      </address>
-    </article>
-
-    <article data-published="2025-11-30T22:06:41Z" data-link="https://www.riscosopen.org/forum/forums/8/topics/17901">
-      <h1>SMB2/3 protocol</h1>
-
-(date: 2025-11-30)
-      <p>
-      <blockquote>
-<p>Sorry for being slow, but as usual no one is helping me, and with ShareFS…</p>
-</blockquote>
-<p>Happy to help with ShareFS. Can’t contribute to any code but I can test the living bejeezus out of it!</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/8/topics/17901">https://www.riscosopen.org/forum/forums/8/topics/17901</a>
       </address>
     </article>
 
