@@ -7,10 +7,107 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>09 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>10 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Using the Dwarf Mini on RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve now let my wife see this. &#8220;I thought you wanted to do proper telescoping&#8221; she said; &#8220;No&#8221;, I replied &#8220;I like being in the warm looking at screens, as you well know&#8221;.</p>
+        <p>I might just be able to get away with putting the 5&quot; reflector on ebay so we don&#8217;t have to move it to the new house, and put the proceeds towards one of these.</p>
+        <p>I notice its mostly large astronomical objects in the pictures, are the planets too small for these? Although I suspect a small cluster of pixels stationary on screen would be better than the tiny point of light sliding out of the eyepiece before I can move out of the way to let the kids try to look while balancing on a patio chair.</p>]]>
+      </description>
+      <source:markdown>I’ve now let my wife see this. “I thought you wanted to do proper telescoping” she said; “No”, I replied “I like being in the warm looking at screens, as you well know”.
+
+I might just be able to get away with putting the 5&#34; reflector on ebay so we don’t have to move it to the new house, and put the proceeds towards one of these.
+
+I notice its mostly large astronomical objects in the pictures, are the planets too small for these? Although I suspect a small cluster of pixels stationary on screen would be better than the tiny point of light sliding out of the eyepiece before I can move out of the way to let the kids try to look while balancing on a patio chair.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20262:163122</guid>
+    </item>    <item>
+      <title>Python and Pygame</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20344</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Python3 was in Apps.Developement, and packages were buried deep in PythonSite.Python38.Site-Packages<br />
+        Why? I dont really understand the logic or how python finds these. Hence my bewilderment</p>
+        </blockquote>
+        <p>Chris Johns (who ported Python3 and Pygame) described why the packages are placed where they are in an article In <em>Archive</em> (volume 25, <span class="caps">IIRC</span>). Basically it&#8217;s to make it possible to update !Python3 itself without updating all the packages at the same time. Although in fact Python3 hasn&#8217;t been updated for some years now—probably because Chris J. is working on other things (block devices, I seem to remember).</p>]]>
+      </description>
+      <source:markdown>&#62; Python3 was in Apps.Developement, and packages were buried deep in PythonSite.Python38.Site-Packages
+&#62;
+&#62; Why? I dont really understand the logic or how python finds these. Hence my bewilderment
+
+Chris Johns (who ported Python3 and Pygame) described why the packages are placed where they are in an article In _Archive_ (volume 25, IIRC). Basically it’s to make it possible to update !Python3 itself without updating all the packages at the same time. Although in fact Python3 hasn’t been updated for some years now—probably because Chris J. is working on other things (block devices, I seem to remember).</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20344:163113</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mj5rm7wqzs2o</link>
+      <description>
+        <![CDATA[My face when...
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>My face when...
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mj5rm7wqzs2o</guid>
+    </item>    <item>
+      <title>LanManFS update underway</title>
+      <link>https://www.riscosopen.org/forum/forums/8/topics/20350</link>
+      <description>
+        <![CDATA[<p>Are we still going to be able to use LanMan98 as a client as i prefer it over Omni tbf with the new FS Modules and will that be updated too?</p>]]>
+      </description>
+      <source:markdown>Are we still going to be able to use LanMan98 as a client as i prefer it over Omni tbf with the new FS Modules and will that be updated too?</source:markdown>
+      <guid>cid://www.riscosopen.org:8:20350:163108</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>Not working for me; Homebrew on MacBook Air M4 — Qt6.</p>
+        <p>Try <code>buildit.sh</code>. Error: &#8220;qtchooser not found&#8221;. Despite this I can use make and get rpcemu-interpreter.app which will run, but can&#8217;t find the data directory I pointed it at (the <span class="caps">RISC</span> OS Direct &#8220;Easy-Start&#8221; bundle). I get dumped at a supervisor prompt. Typing <code>desktop</code> gets me a very basic desktop but with no access to the hostfs image. Typing <code>configure filesystem hostfs</code> gives &#8220;filesystem hostfs not found&#8221;. But at least it goes into full-screen mode correctly…</p>
+        <p>Perhaps there&#8217;s something I&#8217;ve missed. To install Qt (the default version, now 6.11.0) I typed <code>brew install qt</code>.<br />
+        Any suggestions?</p>]]>
+      </description>
+      <source:markdown>Not working for me; Homebrew on MacBook Air M4 — Qt6.
+
+Try `buildit.sh`. Error: “qtchooser not found”. Despite this I can use make and get rpcemu-interpreter.app which will run, but can’t find the data directory I pointed it at (the RISC OS Direct “Easy-Start” bundle). I get dumped at a supervisor prompt. Typing `desktop` gets me a very basic desktop but with no access to the hostfs image. Typing `configure filesystem hostfs` gives “filesystem hostfs not found”. But at least it goes into full-screen mode correctly…
+
+Perhaps there’s something I’ve missed. To install Qt (the default version, now 6.11.0) I typed `brew install qt`.
+
+Any suggestions?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:163101</guid>
+    </item>    <item>
+      <title>Software vectors from C.</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20352</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>@ /* Simple, working version */</p>
+        </blockquote>
+        <p>Nope, that&#8217;s not textile either. Just wrap your content in &lt; pre &gt; and that&#8217;s all you need.</p>
+        <p>But in any case, no&#8230; that&#8217;s not a working version. Firstly the &#8216;simple_vector_handler&#8217; has the wrong prototype for any of the <span class="caps">CMHG</span> entry points. Secondly, calling OS_WriteC inside a WrchV vector claimant will rapidly crash when it runs out of <span class="caps">SVC</span> stack space because you&#8217;ve failed to include any flags around it that you are already in the WrchV call. And of course, because you&#8217;re trapping WrchV the error report will then crash the first time it tries to print a character &#8211; and you have a dead machine.</p>]]>
+      </description>
+      <source:markdown>&#62; @ /\\* Simple, working version \*/
+
+Nope, that’s not textile either. Just wrap your content in &#60; pre &#62; and that’s all you need.
+
+But in any case, no… that’s not a working version. Firstly the ‘simple\_vector\_handler’ has the wrong prototype for any of the CMHG entry points. Secondly, calling OS\_WriteC inside a WrchV vector claimant will rapidly crash when it runs out of SVC stack space because you’ve failed to include any flags around it that you are already in the WrchV call. And of course, because you’re trapping WrchV the error report will then crash the first time it tries to print a character – and you have a dead machine.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20352:163100</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mj5aswub4k2c</link>
+      <description>
+        <![CDATA["You can't hear an image"
+        
+        The image
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>&#34;You can&#39;t hear an image&#34;
+
+The image
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mj5aswub4k2c</guid>
+    </item>    <item>
       <title>SMB2/3 protocol</title>
       <link>https://www.riscosopen.org/forum/forums/8/topics/17901</link>
       <description>
@@ -18,14 +115,6 @@
       </description>
       <source:markdown>FYI, the LanMan conversation thread is moving [here](https://www.riscosopen.org/forum/forums/8/topics/20350).</source:markdown>
       <guid>cid://www.riscosopen.org:8:17901:163059</guid>
-    </item>    <item>
-      <title>LanManFS update underway</title>
-      <link>https://www.riscosopen.org/forum/forums/8/topics/20350</link>
-      <description>
-        <![CDATA[<p>Should be ready for public alpha testing very soon, I reckon&#8230;</p>]]>
-      </description>
-      <source:markdown>Should be ready for public alpha testing very soon, I reckon…</source:markdown>
-      <guid>cid://www.riscosopen.org:8:20350:163051</guid>
     </item>    <item>
       <title>LanManFS update underway</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20349</link>
@@ -460,20 +549,6 @@ For clarity, I think at some point there was a test build out from the new devel
 Having said that you may already have the ‘latest’ TW as I believe v9.12 is the most recent and is dated 2013 !</source:markdown>
       <guid>cid://www.riscosopen.org:11:20342:162996</guid>
     </item>    <item>
-      <title>Python and Pygame</title>
-      <link>https://www.riscosopen.org/forum/forums/10/topics/20344</link>
-      <description>
-        <![CDATA[<p>Thanks Chris &#8211; that fixed it.  Specifically LibVorbis.  Rather surprising that it wouldn&#8217;t even load pygame up without a dependency for playing a specific audio format, but there we go.</p>
-        <p>Do you have power to change the dependencies for the PyGame package?  It&#8217;s basically unusable as it stands unless you know to install every one of those extra packages.  The reason why I was asking is that a customer had got completely stuck trying to get it to work, so this is very much a &#8220;real world&#8221; sort of problem.</p>
-        <p>Hope it is fixable.  Thanks again.  :)</p>]]>
-      </description>
-      <source:markdown>Thanks Chris – that fixed it. Specifically LibVorbis. Rather surprising that it wouldn’t even load pygame up without a dependency for playing a specific audio format, but there we go.
-
-Do you have power to change the dependencies for the PyGame package? It’s basically unusable as it stands unless you know to install every one of those extra packages. The reason why I was asking is that a customer had got completely stuck trying to get it to work, so this is very much a “real world” sort of problem.
-
-Hope it is fixable. Thanks again. :)</source:markdown>
-      <guid>cid://www.riscosopen.org:10:20344:162994</guid>
-    </item>    <item>
       <title>Filer Changes</title>
       <link>https://www.riscosopen.org/forum/forums/2/topics/20332</link>
       <description>
@@ -616,19 +691,6 @@ But would it not be better to expend the effort required on improving the suppor
 
 Plus how will I ever remember TTF and OTF if they’re not &#38;77F and &#38;07F? The nice thing about anarchy is that it’s very simple.</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mitlgxqzt22v</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>1 issue im having with this is the Ethernet is either greyed out or not showing at all on this build</p>
-        </blockquote>
-        <p>If you rebuild the latest macos version networking is now fixed. (<a href="https://github.com/riscosports/rpcemubeta.git">https://github.com/riscosports/rpcemubeta.git</a>)</p>]]>
-      </description>
-      <source:markdown>&#62; 1 issue im having with this is the Ethernet is either greyed out or not showing at all on this build
-
-If you rebuild the latest macos version networking is now fixed. ( [https://github.com/riscosports/rpcemubeta.git](https://github.com/riscosports/rpcemubeta.git))</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:162927</guid>
     </item>    <item>
       <title>RISC OS North Show Report 2026</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13575&#38;page=1#125882</link>
@@ -4269,20 +4331,6 @@ Does anyone have a “set if not already set” ShellCli/Obey pattern that they 
       </description>
       <source:markdown>So far the series is concerned with bitmaps, not Draw. But I do plan to do some posts about Draw objects — mostly the posts so far have been prompted by their use in the solar panel app I’m working on, and that does indeed use draw objects as well as sprites (for thickening and dotting lines, for instance).</source:markdown>
       <guid>cid://www.riscosopen.org:1:20276:162036</guid>
-    </item>    <item>
-      <title>Using the Dwarf Mini on RISC OS</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
-      <description>
-        <![CDATA[<p>We&#8217;ve just had our first clear night for what seems like months, and I&#8217;ve managed to inaugurate the Dwarf Mini with (among other objects) the de rigeur M42, aka the Orion Nebula. I&#8217;m well pleased with it&#8230;<br />
-        <img src="https://vermilionsands.uk/blog/wp-content/uploads/2026/02/m42-2025-02-24-cropdenoise.jpg" alt="" /></p>
-        <p>Link: <a href="https://vermilionsands.uk/blog/?p=22209">Clear Skies at Last!</a></p>]]>
-      </description>
-      <source:markdown>We’ve just had our first clear night for what seems like months, and I’ve managed to inaugurate the Dwarf Mini with (among other objects) the de rigeur M42, aka the Orion Nebula. I’m well pleased with it…
-
-![](https://vermilionsands.uk/blog/wp-content/uploads/2026/02/m42-2025-02-24-cropdenoise.jpg)
-
-Link: [Clear Skies at Last!](https://vermilionsands.uk/blog/?p=22209)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20262:162035</guid>
     </item>    <item>
       <title>NAS devices</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20122</link>

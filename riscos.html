@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.23b" >
-  <meta name="date" content="2026-04-09T12:00:28-07:00" >
-  <link type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" >
+  <meta name="date" content="2026-04-10T12:00:25-07:00" >
+  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
   <header>
@@ -20,6 +20,106 @@
   </nav>
   <section>
 
+    <article data-published="2026-04-10T18:36:24Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20262">
+      <h1>Using the Dwarf Mini on RISC OS</h1>
+
+(date: 2026-04-10)
+      <p>
+      <p>I’ve now let my wife see this. “I thought you wanted to do proper telescoping” she said; “No”, I replied “I like being in the warm looking at screens, as you well know”.</p>
+<p>I might just be able to get away with putting the 5&quot; reflector on ebay so we don’t have to move it to the new house, and put the proceeds towards one of these.</p>
+<p>I notice its mostly large astronomical objects in the pictures, are the planets too small for these? Although I suspect a small cluster of pixels stationary on screen would be better than the tiny point of light sliding out of the eyepiece before I can move out of the way to let the kids try to look while balancing on a patio chair.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20262">https://www.riscosopen.org/forum/forums/1/topics/20262</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-10T16:47:47Z" data-link="https://www.riscosopen.org/forum/forums/10/topics/20344">
+      <h1>Python and Pygame</h1>
+
+(date: 2026-04-10)
+      <p>
+      <blockquote>
+<p>Python3 was in Apps.Developement, and packages were buried deep in PythonSite.Python38.Site-Packages</p>
+<p>Why? I dont really understand the logic or how python finds these. Hence my bewilderment</p>
+</blockquote>
+<p>Chris Johns (who ported Python3 and Pygame) described why the packages are placed where they are in an article In <em>Archive</em> (volume 25, IIRC). Basically it’s to make it possible to update !Python3 itself without updating all the packages at the same time. Although in fact Python3 hasn’t been updated for some years now—probably because Chris J. is working on other things (block devices, I seem to remember).</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/10/topics/20344">https://www.riscosopen.org/forum/forums/10/topics/20344</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-10T16:47:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mj5rm7wqzs2o">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-04-10)
+      <p>
+      <p>My face when...</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mj5rm7wqzs2o">https://bsky.app/profile/nemo20000.bsky.social/post/3mj5rm7wqzs2o</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-10T14:19:46Z" data-link="https://www.riscosopen.org/forum/forums/8/topics/20350">
+      <h1>LanManFS update underway</h1>
+
+(date: 2026-04-10)
+      <p>
+      <p>Are we still going to be able to use LanMan98 as a client as i prefer it over Omni tbf with the new FS Modules and will that be updated too?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/8/topics/20350">https://www.riscosopen.org/forum/forums/8/topics/20350</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-10T13:30:55Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
+      <h1>Random projects...</h1>
+
+(date: 2026-04-10)
+      <p>
+      <p>Not working for me; Homebrew on MacBook Air M4 — Qt6.</p>
+<p>Try <code>buildit.sh</code>. Error: “qtchooser not found”. Despite this I can use make and get rpcemu-interpreter.app which will run, but can’t find the data directory I pointed it at (the RISC OS Direct “Easy-Start” bundle). I get dumped at a supervisor prompt. Typing <code>desktop</code> gets me a very basic desktop but with no access to the hostfs image. Typing <code>configure filesystem hostfs</code> gives “filesystem hostfs not found”. But at least it goes into full-screen mode correctly…</p>
+<p>Perhaps there’s something I’ve missed. To install Qt (the default version, now 6.11.0) I typed <code>brew install qt</code>.</p>
+<p>Any suggestions?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-10T13:01:54Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20352">
+      <h1>Software vectors from C.</h1>
+
+(date: 2026-04-10)
+      <p>
+      <blockquote>
+<p>@ /\* Simple, working version */</p>
+</blockquote>
+<p>Nope, that’s not textile either. Just wrap your content in &lt; pre &gt; and that’s all you need.</p>
+<p>But in any case, no… that’s not a working version. Firstly the ‘simple_vector_handler’ has the wrong prototype for any of the CMHG entry points. Secondly, calling OS_WriteC inside a WrchV vector claimant will rapidly crash when it runs out of SVC stack space because you’ve failed to include any flags around it that you are already in the WrchV call. And of course, because you’re trapping WrchV the error report will then crash the first time it tries to print a character – and you have a dead machine.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/4/topics/20352">https://www.riscosopen.org/forum/forums/4/topics/20352</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-10T11:47:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mj5aswub4k2c">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-04-10)
+      <p>
+      <p>&quot;You can't hear an image&quot;</p>
+<p>The image</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mj5aswub4k2c">https://bsky.app/profile/colinhoad.com/post/3mj5aswub4k2c</a>
+      </address>
+    </article>
+
     <article data-published="2026-04-09T18:43:40Z" data-link="https://www.riscosopen.org/forum/forums/8/topics/17901">
       <h1>SMB2/3 protocol</h1>
 
@@ -29,18 +129,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/8/topics/17901">https://www.riscosopen.org/forum/forums/8/topics/17901</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-09T18:17:03Z" data-link="https://www.riscosopen.org/forum/forums/8/topics/20350">
-      <h1>LanManFS update underway</h1>
-
-(date: 2026-04-09)
-      <p>
-      <p>Should be ready for public alpha testing very soon, I reckon…</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/8/topics/20350">https://www.riscosopen.org/forum/forums/8/topics/20350</a>
       </address>
     </article>
 
@@ -410,20 +498,6 @@ PRINT &quot;JUnit XML written successfully&quot;
       </address>
     </article>
 
-    <article data-published="2026-04-07T19:54:23Z" data-link="https://www.riscosopen.org/forum/forums/10/topics/20344">
-      <h1>Python and Pygame</h1>
-
-(date: 2026-04-07)
-      <p>
-      <p>Thanks Chris – that fixed it. Specifically LibVorbis. Rather surprising that it wouldn’t even load pygame up without a dependency for playing a specific audio format, but there we go.</p>
-<p>Do you have power to change the dependencies for the PyGame package? It’s basically unusable as it stands unless you know to install every one of those extra packages. The reason why I was asking is that a customer had got completely stuck trying to get it to work, so this is very much a “real world” sort of problem.</p>
-<p>Hope it is fixable. Thanks again. :)</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/10/topics/20344">https://www.riscosopen.org/forum/forums/10/topics/20344</a>
-      </address>
-    </article>
-
     <article data-published="2026-04-07T19:41:34Z" data-link="https://www.riscosopen.org/forum/forums/2/topics/20332">
       <h1>Filer Changes</h1>
 
@@ -585,21 +659,6 @@ Dim myRec As MyRecord
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mitlgxqzt22v">https://bsky.app/profile/nemo20000.bsky.social/post/3mitlgxqzt22v</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-06T11:45:34Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
-      <h1>Random projects...</h1>
-
-(date: 2026-04-06)
-      <p>
-      <blockquote>
-<p>1 issue im having with this is the Ethernet is either greyed out or not showing at all on this build</p>
-</blockquote>
-<p>If you rebuild the latest macos version networking is now fixed. ( <a href="https://github.com/riscosports/rpcemubeta.git">https://github.com/riscosports/rpcemubeta.git</a>)</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
       </address>
     </article>
 
@@ -4596,20 +4655,6 @@ Unset Alias$Set
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20276">https://www.riscosopen.org/forum/forums/1/topics/20276</a>
-      </address>
-    </article>
-
-    <article data-published="2026-02-24T21:27:20Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20262">
-      <h1>Using the Dwarf Mini on RISC OS</h1>
-
-(date: 2026-02-24)
-      <p>
-      <p>We’ve just had our first clear night for what seems like months, and I’ve managed to inaugurate the Dwarf Mini with (among other objects) the de rigeur M42, aka the Orion Nebula. I’m well pleased with it…</p>
-<p><img src="https://vermilionsands.uk/blog/wp-content/uploads/2026/02/m42-2025-02-24-cropdenoise.jpg" alt=""></p>
-<p>Link: <a href="https://vermilionsands.uk/blog/?p=22209">Clear Skies at Last!</a></p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20262">https://www.riscosopen.org/forum/forums/1/topics/20262</a>
       </address>
     </article>
 
