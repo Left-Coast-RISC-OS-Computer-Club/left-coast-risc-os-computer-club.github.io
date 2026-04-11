@@ -7,10 +7,90 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>10 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>11 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>ROOL Gitlab</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20335</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I’m sorry Andrew, but when it comes to the <span class="caps">TCP</span>/IP there was no legally binding agreement, as to why <span class="caps">ROOL</span> decided to not merge ROD’s Stack the way that it did.</p>
+        </blockquote>
+        <p>Out of interest, how do you know that given that you don&#8217;t know what you don&#8217;t know about any legal agreements that haven&#8217;t been made public?</p>
+        <blockquote>
+        <p>the arguments between the 2 entities were very public</p>
+        </blockquote>
+        <p>One side of the argument was. As Andrew H says, <span class="caps">ROOL</span> have generally behaved professionally and not engaged in public arguments.</p>]]>
+      </description>
+      <source:markdown>&#62; I’m sorry Andrew, but when it comes to the TCP/IP there was no legally binding agreement, as to why ROOL decided to not merge ROD’s Stack the way that it did.
+
+Out of interest, how do you know that given that you don’t know what you don’t know about any legal agreements that haven’t been made public?
+
+&#62; the arguments between the 2 entities were very public
+
+One side of the argument was. As Andrew H says, ROOL have generally behaved professionally and not engaged in public arguments.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20335:163158</guid>
+    </item>    <item>
+      <title>LanManFS update underway</title>
+      <link>https://www.riscosopen.org/forum/forums/8/topics/20350</link>
+      <description>
+        <![CDATA[<p>Excellent News!</p>]]>
+      </description>
+      <source:markdown>Excellent News!</source:markdown>
+      <guid>cid://www.riscosopen.org:8:20350:163157</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3mjadqn7bpc2v</link>
+      <description>
+        <![CDATA[https://youtu.be/C9A15BJ7LOY?si=F3ED4lbvm80Z9z_q
+        #RISC_OS #Code]]>
+      </description>
+      <source:markdown>https://youtu.be/C9A15BJ7LOY?si=F3ED4lbvm80Z9z\_q
+#RISC\_OS #Code</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mjadqn7bpc2v</guid>
+    </item>    <item>
+      <title>Quick videos for RISC OS Coding</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20353</link>
+      <description>
+        <![CDATA[<p>Second video is up now, showing how you create a simple <span class="caps">CLI</span> tool.</p>
+        <p><a href="https://www.youtube.com/watch?v=C9A15BJ7LOY">https://www.youtube.com/watch?v=C9A15BJ7LOY</a></p>]]>
+      </description>
+      <source:markdown>Second video is up now, showing how you create a simple CLI tool.
+
+[https://www.youtube.com/watch?v=C9A15BJ7LOY](https://www.youtube.com/watch?v=C9A15BJ7LOY)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20353:163155</guid>
+    </item>    <item>
+      <title>Official download page for Browse?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20355</link>
+      <description>
+        <![CDATA[<p>When browsing the internet on the RiscPC, I usually use a version of Browse built from the sources on ROOL&#8217;s GitLab, since it&#8217;s less demanding than NetSurf and works correctly on <span class="caps">RISC</span> OS 3.70, while still having modern <span class="caps">TLS</span> support that&#8217;s all but required for viewing any website these days.</p>
+        <p>I&#8217;d like to be able to recommend it for this particular use case to people new to the RiscPC, but it&#8217;s not currently available from the Downloads page &#8211; only when building from source. Would it be possible for it to be added so that it&#8217;s more generally available?</p>]]>
+      </description>
+      <source:markdown>When browsing the internet on the RiscPC, I usually use a version of Browse built from the sources on ROOL’s GitLab, since it’s less demanding than NetSurf and works correctly on RISC OS 3.70, while still having modern TLS support that’s all but required for viewing any website these days.
+
+I’d like to be able to recommend it for this particular use case to people new to the RiscPC, but it’s not currently available from the Downloads page – only when building from source. Would it be possible for it to be added so that it’s more generally available?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20355:163154</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3mj7rcwt3722z</link>
+      <description>
+        <![CDATA[https://www.youtube.com/live/SCgY-w6ea6g?si=JZnrXv-NGVc3CIHT
+        #RISC_OS #Development #Live #YouTube #Sublime]]>
+      </description>
+      <source:markdown>https://www.youtube.com/live/SCgY-w6ea6g?si=JZnrXv-NGVc3CIHT
+#RISC\_OS #Development #Live #YouTube #Sublime</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mj7rcwt3722z</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mj75oxadcs26</link>
+      <description>
+        <![CDATA[Where is the Artemis special edition?
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Where is the Artemis special edition?
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mj75oxadcs26</guid>
+    </item>    <item>
       <title>Using the Dwarf Mini on RISC OS</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
       <description>
@@ -51,14 +131,6 @@ Chris Johns (who ported Python3 and Pygame) described why the packages are place
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mj5rm7wqzs2o</guid>
-    </item>    <item>
-      <title>LanManFS update underway</title>
-      <link>https://www.riscosopen.org/forum/forums/8/topics/20350</link>
-      <description>
-        <![CDATA[<p>Are we still going to be able to use LanMan98 as a client as i prefer it over Omni tbf with the new FS Modules and will that be updated too?</p>]]>
-      </description>
-      <source:markdown>Are we still going to be able to use LanMan98 as a client as i prefer it over Omni tbf with the new FS Modules and will that be updated too?</source:markdown>
-      <guid>cid://www.riscosopen.org:8:20350:163108</guid>
     </item>    <item>
       <title>Random projects...</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
@@ -271,57 +343,6 @@ Prompts me to ask: Has any of that changed with modern kit, etc?
 
 I’m not clear about one point wrt newer items. This is how well they may cope with 44.1k rate material from CDs. The norm for AV is 48k rate. Which raises the question of accurate rate conversions. Devil in the details.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20323:163042</guid>
-    </item>    <item>
-      <title>ROOL Gitlab</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20335</link>
-      <description>
-        <![CDATA[<p>@ Steve</p>
-        <blockquote>
-        <p>Good to see such a positive response to some welcome feedback and developments!</p>
-        </blockquote>
-        <p>and then:</p>
-        <blockquote>
-        <p>it is positive LanmanFS is being worked on, but Bryan’s post is very valid, not everyone is ROOL’s cheerleader remember that.</p>
-        </blockquote>
-        <p>Steve, you know as well as I do that people keep insisting on attributing the work to <span class="caps">ROOL</span>. As long as that mentality exists, complaints about <span class="caps">ROOL</span> as a whole, or calls to &#8220;keep <span class="caps">ROOL</span> accountable&#8221;, will continue.</p>
-        <p>However, on the network stack point, I am with Bryan, sorry. If <span class="caps">ROOL</span> does not like ROD&#8217;s work, why can’t they work together to get it into the shape they need? Why just refuse it? Steve says <span class="caps">ROOL</span> is not gatekeeping, but when <span class="caps">ROOL</span> refuses work, then, well, I am sorry, but that is gatekeeping. That is not necessarily a bad thing, and <span class="caps">ROOL</span> may have perfectly good reasons for doing so. However, to this day, I still have no idea what those reasons are. Do you?</p>
-        <p>I mean, ROD&#8217;s network stack is in C, it comes from one of the BSDs, it builds with ROOL’s much-loved Victorian Norcroft, and it probably sings God Save the King every Sunday! XD (Sorry, I could not resist that joke). So why is it still not good enough?</p>
-        <p>@ all</p>
-        <p>Let’s please remember, however, that <span class="caps">ROOL</span> is trying to create incentives for volunteers, because yes, those are the people actually doing the work (not <span class="caps">ROOL</span>), to tackle the tasks that a group of people, along with <span class="caps">ROOL</span>, have identified as necessary.</p>
-        <p>However, I do share some of the things mentioned over the years, like:<br />
-        - Why are we still stuck with Norcroft and ObjASM? <br />
-        - Why aren&#8217;t there bounties to get the last bits of copyrighted code out of <span class="caps">RISC</span> OS? <br />
-        - Why the &#8220;we don&#8217;t gatekeep&#8221; and then they do gatekeep?</p>
-        <p>But then again, given no answers have been provided over the many years, I started to develop my own <span class="caps">RISC</span> OS that has none of these issues. So, right now I am mostly mentioning these things for context, &#8217;cause I no longer care about any of them, thankfully there are also others working on new <span class="caps">RISC</span> OS versions, so hopefully soon this whole weird logic will be a thing of the past.</p>]]>
-      </description>
-      <source:markdown>@ Steve
-
-&#62; Good to see such a positive response to some welcome feedback and developments!
-
-and then:
-
-&#62; it is positive LanmanFS is being worked on, but Bryan’s post is very valid, not everyone is ROOL’s cheerleader remember that.
-
-Steve, you know as well as I do that people keep insisting on attributing the work to ROOL. As long as that mentality exists, complaints about ROOL as a whole, or calls to “keep ROOL accountable”, will continue.
-
-However, on the network stack point, I am with Bryan, sorry. If ROOL does not like ROD’s work, why can’t they work together to get it into the shape they need? Why just refuse it? Steve says ROOL is not gatekeeping, but when ROOL refuses work, then, well, I am sorry, but that is gatekeeping. That is not necessarily a bad thing, and ROOL may have perfectly good reasons for doing so. However, to this day, I still have no idea what those reasons are. Do you?
-
-I mean, ROD’s network stack is in C, it comes from one of the BSDs, it builds with ROOL’s much-loved Victorian Norcroft, and it probably sings God Save the King every Sunday! XD (Sorry, I could not resist that joke). So why is it still not good enough?
-
-@ all
-
-Let’s please remember, however, that ROOL is trying to create incentives for volunteers, because yes, those are the people actually doing the work (not ROOL), to tackle the tasks that a group of people, along with ROOL, have identified as necessary.
-
-However, I do share some of the things mentioned over the years, like:
-
-\- Why are we still stuck with Norcroft and ObjASM?
-
-\- Why aren’t there bounties to get the last bits of copyrighted code out of RISC OS?
-
-\- Why the “we don’t gatekeep” and then they do gatekeep?
-
-But then again, given no answers have been provided over the many years, I started to develop my own RISC OS that has none of these issues. So, right now I am mostly mentioning these things for context, ’cause I no longer care about any of them, thankfully there are also others working on new RISC OS versions, so hopefully soon this whole weird logic will be a thing of the past.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20335:163041</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mj2vww3l5k25</link>
       <description>
