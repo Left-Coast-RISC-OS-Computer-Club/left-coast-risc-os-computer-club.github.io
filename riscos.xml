@@ -7,30 +7,132 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>11 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>12 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Using the Dwarf Mini on RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Yup, it’s not designed for planets. Use your 5&quot; reflector for those.</p>
+        </blockquote>
+        <p>Well I have found a picture of Jupiter from the Dwarf Mini, and while it&#8217;s only a few pixels, you can see distinct bands. Where as on the 5&quot; all I could see was a large dot surrounded by 4 smaller dots. It came with several eye pieces with greater magnification, but they just made it more difficult to find the large dot again, and allowed it to slip out of view faster, as I couldn&#8217;t get the equatorial mount motor to track.</p>
+        <p>All that is down to my inexperience using it, and I probably could do a lot better with some more practice, but I don&#8217;t really have the time or inclination, particularly after seeing what the mini can do.</p>]]>
+      </description>
+      <source:markdown>&#62; Yup, it’s not designed for planets. Use your 5&#34; reflector for those.
+
+Well I have found a picture of Jupiter from the Dwarf Mini, and while it’s only a few pixels, you can see distinct bands. Where as on the 5&#34; all I could see was a large dot surrounded by 4 smaller dots. It came with several eye pieces with greater magnification, but they just made it more difficult to find the large dot again, and allowed it to slip out of view faster, as I couldn’t get the equatorial mount motor to track.
+
+All that is down to my inexperience using it, and I probably could do a lot better with some more practice, but I don’t really have the time or inclination, particularly after seeing what the mini can do.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20262:163248</guid>
+    </item>    <item>
+      <title>DDE C++ compatible STL</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20357</link>
+      <description>
+        <![CDATA[<p>@Jean-Michel<br />
+        You mentioned in the Announcements&#8594;What you are doing with <span class="caps">RISCOS</span> thread that you found a <span class="caps">STL</span> compatible with <span class="caps">DDE</span> C++.<br />
+        Where can I find it? I tried the links in your post but had no luck. ccdoc though looks interesting.</p>]]>
+      </description>
+      <source:markdown>@Jean-Michel
+
+You mentioned in the Announcements→What you are doing with RISCOS thread that you found a STL compatible with DDE C++.
+
+Where can I find it? I tried the links in your post but had no luck. ccdoc though looks interesting.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20357:163244</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mjcpc3cvpk2t</link>
+      <description>
+        <![CDATA[Vantage was not designed for reverse-engineering keyboard PCBs... but it’s good at it.]]>
+      </description>
+      <source:markdown>Vantage was not designed for reverse-engineering keyboard PCBs... but it’s good at it.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mjcpc3cvpk2t</guid>
+    </item>    <item>
+      <title>What are you doing with RISC OS?</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/653</link>
+      <description>
+        <![CDATA[<p>Had the time to work on !Prototype, now V0.03. It can now generate source code to use Null Events and optionally doesn&#8217;t need to generate extended object sources beyond the base ToolboxC++Lib classes of the resource file objects, this reduces the number of files generated which are unnecessary to create compilable source code.</p>]]>
+      </description>
+      <source:markdown>Had the time to work on !Prototype, now V0.03. It can now generate source code to use Null Events and optionally doesn’t need to generate extended object sources beyond the base ToolboxC++Lib classes of the resource file objects, this reduces the number of files generated which are unnecessary to create compilable source code.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:653:163239</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>Yes<br />
+        A) Convert jpeg image to pdf with ImageMagick<br />
+          magick .jpg .pdf<br />
+        Warning: You must use &#8220;.&#8221; , not &#8220;/&#8221; in the command for magick to execute it, even if your jpg file has the suffix /jpg
+        <p>B)  Join 2 <span class="caps">PDF</span> with KPDFutil application<br />
+         The first being the one to complete</p>
+        <p>ImageMagick7 is available on PackMan.</p>
+        <p>This is a page by page way&#8230;., but it&#8217;s a long job if you have 300+ pages.</p>]]>
+      </description>
+      <source:markdown>Yes
+
+A) Convert jpeg image to pdf with ImageMagick
+
+magick .jpg .pdf
+
+Warning: You must use “.” , not “/” in the command for magick to execute it, even if your jpg file has the suffix /jpg
+
+B) Join 2 PDF with KPDFutil application
+
+The first being the one to complete
+
+ImageMagick7 is available on PackMan.
+
+This is a page by page way…., but it’s a long job if you have 300+ pages.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:163238</guid>
+    </item>    <item>
+      <title>PhotoDesk 3.26a update released</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20356</link>
+      <description>
+        <![CDATA[<p>This has now been updated again to correctly report 3.26a.  I recommend that anyone who already downloaded this, do so again so that it is clear that you&#8217;re running the correct build.  My apologies for any inconvenience.</p>]]>
+      </description>
+      <source:markdown>This has now been updated again to correctly report 3.26a. I recommend that anyone who already downloaded this, do so again so that it is clear that you’re running the correct build. My apologies for any inconvenience.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20356:163237</guid>
+    </item>    <item>
+      <title>KevSoft Quiz Engine updated with release 2 of the skeleton app</title>
+      <link>https://www.riscository.com/2026/kevsoft-quiz-engine-skeleton-app-release-2/</link>
+      <description>
+        <![CDATA[Kevin Wells has issued a second release of his Quiz Engine, an application for creating multiple choice quizzes on RISC OS &#8211; and which forms the basis of his own two quiz releases, FlagQuiz and MorseQuiz. The main Quiz Engine program remains at version 1.02, with the &#8216;misc&#8217; file standing at 1.01, but the skeleton application is now at release 2. The main change in this version is that it if you don&#8217;t want to make your quizzes to support multiple languages, it&#8217;s now an easier goal to achieve. As&#8230;]]>
+      </description>
+      <source:markdown>Kevin Wells has issued a second release of his Quiz Engine, an application for creating multiple choice quizzes on RISC OS – and which forms the basis of his own two quiz releases, FlagQuiz and MorseQuiz. The main Quiz Engine program remains at version 1.02, with the ‘misc’ file standing at 1.01, but the skeleton application is now at release 2. The main change in this version is that it if you don’t want to make your quizzes to support multiple languages, it’s now an easier goal to achieve. As…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10924</guid>
+    </item>    <item>
       <title>ROOL Gitlab</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20335</link>
       <description>
-        <![CDATA[<blockquote>
-        <p>I’m sorry Andrew, but when it comes to the <span class="caps">TCP</span>/IP there was no legally binding agreement, as to why <span class="caps">ROOL</span> decided to not merge ROD’s Stack the way that it did.</p>
-        </blockquote>
-        <p>Out of interest, how do you know that given that you don&#8217;t know what you don&#8217;t know about any legal agreements that haven&#8217;t been made public?</p>
+        <![CDATA[<p>Paolo wrote:</p>
         <blockquote>
-        <p>the arguments between the 2 entities were very public</p>
+        <p>We live in a culture of wanting things quickly now, so many people simply are not suited to the “Swiss clockmaker” mindset, which is how I would define systems programming.</p>
         </blockquote>
-        <p>One side of the argument was. As Andrew H says, <span class="caps">ROOL</span> have generally behaved professionally and not engaged in public arguments.</p>]]>
+        <p>Yes, unfortunately I think AI tools are part of the problem in that they make the educational environment way too helpful.  I was fortunate to have learned to program in a much less helpful environment (nobody I knew programmed in Forth!), which mean I quickly learned how to work things out for myself with the aid of a book.  I suspect the best time to learn was sometime in the 1990s when there was some help available (e.g. early <span class="caps">WWW</span> tutorials), but not <em>too</em> much.  But Pandora&#8217;s box has been opened and we can&#8217;t go back.</p>
+        <p>The info on <span class="caps">RAG</span> is very helpful.  The problem is that the <span class="caps">LLM</span> doesn&#8217;t really &#8220;understand&#8221; the code, so the less real experience it has (via the training set), the less likely it is to work that well even with <span class="caps">RAG</span> (as it is the AIs working memory rather than its &#8220;intuition&#8221;).  I had some discussions with ChatGPT about undefined behaviour in C and it was notable that it could explain all of the concepts involved in the example I gave it, but when forced to predict what the program would do in practice gave an answer that was very obviously wrong given the concepts it had said.  It is errm&#8230; &#8220;interesting&#8221; how much of our working life seems to be doable without fundamental understanding! ;o)</p>
+        <p>I have suggested student projects based on Ghidra as well, the forensic side of cybersecurity is very interesting.</p>]]>
       </description>
-      <source:markdown>&#62; I’m sorry Andrew, but when it comes to the TCP/IP there was no legally binding agreement, as to why ROOL decided to not merge ROD’s Stack the way that it did.
+      <source:markdown>Paolo wrote:
 
-Out of interest, how do you know that given that you don’t know what you don’t know about any legal agreements that haven’t been made public?
+&#62; We live in a culture of wanting things quickly now, so many people simply are not suited to the “Swiss clockmaker” mindset, which is how I would define systems programming.
 
-&#62; the arguments between the 2 entities were very public
+Yes, unfortunately I think AI tools are part of the problem in that they make the educational environment way too helpful. I was fortunate to have learned to program in a much less helpful environment (nobody I knew programmed in Forth!), which mean I quickly learned how to work things out for myself with the aid of a book. I suspect the best time to learn was sometime in the 1990s when there was some help available (e.g. early WWW tutorials), but not _too_ much. But Pandora’s box has been opened and we can’t go back.
 
-One side of the argument was. As Andrew H says, ROOL have generally behaved professionally and not engaged in public arguments.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20335:163158</guid>
+The info on RAG is very helpful. The problem is that the LLM doesn’t really “understand” the code, so the less real experience it has (via the training set), the less likely it is to work that well even with RAG (as it is the AIs working memory rather than its “intuition”). I had some discussions with ChatGPT about undefined behaviour in C and it was notable that it could explain all of the concepts involved in the example I gave it, but when forced to predict what the program would do in practice gave an answer that was very obviously wrong given the concepts it had said. It is errm… “interesting” how much of our working life seems to be doable without fundamental understanding! ;o)
+
+I have suggested student projects based on Ghidra as well, the forensic side of cybersecurity is very interesting.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20335:163231</guid>
+    </item>    <item>
+      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
+      <description>
+        <![CDATA[<p>An update to the <span class="caps">RISC</span> OS 5 Sovereign Icon Set is underway so we have at least a couple of iconsets for 5.32, as its being refined the best i can to support alpha blended sprites, as i don&#8217;t have the original artwork files, these won&#8217;t look identical, but they are as close as i can get them.</p>
+        <p><img src="https://images2.imgbox.com/8b/77/32QujF2x_o.png" alt="" /></p>]]>
+      </description>
+      <source:markdown>An update to the RISC OS 5 Sovereign Icon Set is underway so we have at least a couple of iconsets for 5.32, as its being refined the best i can to support alpha blended sprites, as i don’t have the original artwork files, these won’t look identical, but they are as close as i can get them.
+
+![](https://images2.imgbox.com/8b/77/32QujF2x_o.png)</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20340:163230</guid>
     </item>    <item>
       <title>LanManFS update underway</title>
       <link>https://www.riscosopen.org/forum/forums/8/topics/20350</link>
@@ -90,20 +192,6 @@ I’d like to be able to recommend it for this particular use case to people new
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mj75oxadcs26</guid>
-    </item>    <item>
-      <title>Using the Dwarf Mini on RISC OS</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve now let my wife see this. &#8220;I thought you wanted to do proper telescoping&#8221; she said; &#8220;No&#8221;, I replied &#8220;I like being in the warm looking at screens, as you well know&#8221;.</p>
-        <p>I might just be able to get away with putting the 5&quot; reflector on ebay so we don&#8217;t have to move it to the new house, and put the proceeds towards one of these.</p>
-        <p>I notice its mostly large astronomical objects in the pictures, are the planets too small for these? Although I suspect a small cluster of pixels stationary on screen would be better than the tiny point of light sliding out of the eyepiece before I can move out of the way to let the kids try to look while balancing on a patio chair.</p>]]>
-      </description>
-      <source:markdown>I’ve now let my wife see this. “I thought you wanted to do proper telescoping” she said; “No”, I replied “I like being in the warm looking at screens, as you well know”.
-
-I might just be able to get away with putting the 5&#34; reflector on ebay so we don’t have to move it to the new house, and put the proceeds towards one of these.
-
-I notice its mostly large astronomical objects in the pictures, are the planets too small for these? Although I suspect a small cluster of pixels stationary on screen would be better than the tiny point of light sliding out of the eyepiece before I can move out of the way to let the kids try to look while balancing on a patio chair.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20262:163122</guid>
     </item>    <item>
       <title>Python and Pygame</title>
       <link>https://www.riscosopen.org/forum/forums/10/topics/20344</link>
@@ -355,17 +443,6 @@ I’m not clear about one point wrt newer items. This is how well they may cope 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mj2vww3l5k25</guid>
     </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p><span class="caps">FWIW</span> no progress on this as I&#8217;m still mostly divered by &#8216;other duties&#8217; that are &#8216;non maskable&#8217;.</p>
-        <p>However, having perused the Compo &#8216;manual&#8217; I have a fair idea of how it would run though a set of jpegs to detox them all. So given the mutools, that means I should be able to automate the extraction and detox, and create a full set of output jegs that are detoxed. <span class="caps">IIUC</span> other software that has been mentioned here for RO can then poke all these into a <span class="caps">PDF</span> ebook. CompoScript can also issue star commands to set that going, I suspect. So and end-to-end pipe from original to detoxed versions of a <span class="caps">PDF</span> ebook seem on the cards. Fingers crossed!&#8230;</p>]]>
-      </description>
-      <source:markdown>FWIW no progress on this as I’m still mostly divered by ‘other duties’ that are ‘non maskable’.
-
-However, having perused the Compo ‘manual’ I have a fair idea of how it would run though a set of jpegs to detox them all. So given the mutools, that means I should be able to automate the extraction and detox, and create a full set of output jegs that are detoxed. IIUC other software that has been mentioned here for RO can then poke all these into a PDF ebook. CompoScript can also issue star commands to set that going, I suspect. So and end-to-end pipe from original to detoxed versions of a PDF ebook seem on the cards. Fingers crossed!…</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:163040</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mj2p44nlhs2b</link>
       <description>
         <![CDATA[I couldn't resist this recent eBay item. On first glance it's a Teletext Adapter 'cheese wedge'. However, it has two ribbon cables coming out of it which is odd. Open it up and you'll find a 6502 2nd processor board sat on top of the teletext PCB. Two in one - a user DIY job! Never seen this before.]]>
@@ -437,22 +514,6 @@ But otherwise has there been an ‘update’ to the code running the forum which
 
 With &#34;smb-share-enum smb://stefan@192.168.178.xx/ I get a list of what’s on/in my homeserver. That at least.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20329:163006</guid>
-    </item>    <item>
-      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Yep thats fixed the crash, but now its not seeing any themes in the resources folder</p>
-        </blockquote>
-        <p>It displayed all the themes on my computer OK. Could you try paring down the ones you have to (say) just a couple of the default shipped ones like Iyonix + Raspberry then see what happens.</p>
-        <p>If it&#8217;s OK, put back the others one at a time until it goes funny, then whatever the issue must be something in the last one put back &#8211; at a guess something in Frosted because that&#8217;s where it looks like the directory enumeration gave up.</p>]]>
-      </description>
-      <source:markdown>&#62; Yep thats fixed the crash, but now its not seeing any themes in the resources folder
-
-It displayed all the themes on my computer OK. Could you try paring down the ones you have to (say) just a couple of the default shipped ones like Iyonix + Raspberry then see what happens.
-
-If it’s OK, put back the others one at a time until it goes funny, then whatever the issue must be something in the last one put back – at a guess something in Frosted because that’s where it looks like the directory enumeration gave up.</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20340:163004</guid>
     </item>    <item>
       <title>WROCC April 2026 talk on Wednesday</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13570&#38;page=1#125883</link>
@@ -4155,20 +4216,6 @@ Some things we noticed this month. What did you see?</source:markdown>
 
 RISC OS 3.10/3.7/5 Using very long file names, and getting #MacOS , #WIndows, #Linux and #BSD Unicode translated (where possible) to Latin1, now how cool is that?</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mfv2wvj7o22n</guid>
-    </item>    <item>
-      <title>What are you doing with RISC OS?</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/653</link>
-      <description>
-        <![CDATA[<p>Most important, fixed a bug in ToolboxDisplayField::getIntValue()<br />
-        Added !PollIdle example which can be found on <a href="https://github.com/bantonia/ToolboxLibrary/tree/main/Examples/!PollIdle">GitHub</a><br />
-        Had already coded the requirements in the library to implement PollIdle events, hope that covers any concerns.</p>]]>
-      </description>
-      <source:markdown>Most important, fixed a bug in ToolboxDisplayField::getIntValue()
-
-Added !PollIdle example which can be found on [GitHub](https://github.com/bantonia/ToolboxLibrary/tree/main/Examples/!PollIdle)
-
-Had already coded the requirements in the library to implement PollIdle events, hope that covers any concerns.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:653:162064</guid>
     </item>    <item>
       <link>https://bsky.app/profile/armbytes.bsky.social/post/3mfujdruv7s24</link>
       <description>
