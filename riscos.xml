@@ -7,39 +7,260 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>12 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>13 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Network Printing / RemotePrinterFS</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20360</link>
+      <description>
+        <![CDATA[<p>One problem after another: Printing over the network to my Brother HL-L2360DN. Brave Search says: &#8220;<span class="caps">RISC</span> OS supports network printing primarily through third-party modules like RemotePrinterFS (free) and R-Comp&#8217;s Network Printer Drivers (commercial), as the operating system lacks built-in <span class="caps">CUPS</span> support.&#8221; <br />
+        I didn&#8217;t find RemotePrinterFS in !Store or !PackMan nor in $.Apps, $.Apps.Utilities, $.Utilities. If it isn&#8217;t part of <span class="caps">RISC</span> OS Open, where might I get it?</p>]]>
+      </description>
+      <source:markdown>One problem after another: Printing over the network to my Brother HL-L2360DN. Brave Search says: “RISC OS supports network printing primarily through third-party modules like RemotePrinterFS (free) and R-Comp’s Network Printer Drivers (commercial), as the operating system lacks built-in CUPS support.”
+
+I didn’t find RemotePrinterFS in !Store or !PackMan nor in $.Apps, $.Apps.Utilities, $.Utilities. If it isn’t part of RISC OS Open, where might I get it?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20360:163290</guid>
+    </item>    <item>
+      <title>Quick videos for RISC OS Coding</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20353</link>
+      <description>
+        <![CDATA[<p>Fourth video is up now, showing how to add the other features that GitHub repository uses:</p>
+        <ul>
+        	<li>.gitattributes and .gitignore (for colouring C and H files properly, and avoiding committing generated files).</li>
+        	<li>.github and .gitlab testing for CI (automated running of tests on commit).</li>
+        	<li>License file (to ensure that users know what their rights are).</li>
+        	<li>PR and Issue templates (to help guide contributors when submitting code or issues and ensure that we are assigned).</li>
+        	<li>Project <span class="caps">README</span>.</li>
+        </ul>
+        <p><a href="https://www.youtube.com/watch?v=_lckEJr1c2Q&amp;list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn&amp;index=4">https://www.youtube.com/watch?v=_lckEJr1c2Q&amp;amp;list=P…</a></p>]]>
+      </description>
+      <source:markdown>Fourth video is up now, showing how to add the other features that GitHub repository uses:
+
+- .gitattributes and .gitignore (for colouring C and H files properly, and avoiding committing generated files).
+- .github and .gitlab testing for CI (automated running of tests on commit).
+- License file (to ensure that users know what their rights are).
+- PR and Issue templates (to help guide contributors when submitting code or issues and ensure that we are assigned).
+- Project README.
+
+[https://www.youtube.com/watch?v=\_lckEJr1c2Q&#38;amp;list=P…](https://www.youtube.com/watch?v=_lckEJr1c2Q&#38;list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn&#38;index=4)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20353:163289</guid>
+    </item>    <item>
+      <title>CardData in !Store</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20359</link>
+      <description>
+        <![CDATA[<p>I wasn&#8217;t able to save my CardData in my !Store account simply because you only can give in an expiry year up to 2030 &#8211; mine is 2031. So please fix that and add some more years at the end.</p>]]>
+      </description>
+      <source:markdown>I wasn’t able to save my CardData in my !Store account simply because you only can give in an expiry year up to 2030 – mine is 2031. So please fix that and add some more years at the end.</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20359:163288</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>Well, it turned out that I&#8217;ve identified why &#8220;follow host mouse&#8221; doesn&#8217;t work in full-screen mode:</p>
+        <pre><code>void
+        MainDisplay::mouseMoveEvent(QMouseEvent *event)
+        {
+        	if((!pconfig_copy-&gt;mousehackon &amp;&amp; mouse_captured) || full_screen) {
+        		QPoint middle;</code>
+        
+        <code>		// In mouse capture mode move the mouse back to the middle of the window */ 
+        		middle.setX(this-&gt;width() / 2);
+        		middle.setY(this-&gt;height() / 2);</code>
+        
+        <code>		QCursor::setPos(this-&gt;mapToGlobal(middle));</code>
+        
+        <code>		// Calculate relative deltas based on difference from centre of display widget
+        		int dx = event-&gt;x() - middle.x();
+        		int dy = event-&gt;y() - middle.y();</code>
+        
+        <code>		emit this-&gt;emulator.mouse_move_relative_signal(dx, dy);
+        	} else if(pconfig_copy-&gt;mousehackon) {
+        		// Follows host mouse (mousehack) mode
+        		emit this-&gt;emulator.mouse_move_signal(event-&gt;x(), event-&gt;y());
+        	}</code>
+        
+        <code>}</code></pre>
+        <p>So if <code>full_screen</code> is true then the <code>mousehack</code> setting isn&#8217;t acted on. Now this wouldn&#8217;t matter if the mouse &#8220;behaved&#8221; correctly in non-follow-host-mouse mode &mdash; but it <em>doesn&#8217;t</em>. Next step might be to try modifying this code and see if the result works correctly. I appreciate that follow-host-mouse mode is considered undesirable — the name <em>mousehack</em> at least suggests it — but is there any reason why this wouldn&#8217;t work?</p>]]>
+      </description>
+      <source:markdown>Well, it turned out that I’ve identified why “follow host mouse” doesn’t work in full-screen mode:
+
+```
+void
+MainDisplay::mouseMoveEvent(QMouseEvent *event)
+{
+	if((!pconfig_copy-&#62;mousehackon &#38;&#38; mouse_captured) || full_screen) {
+		QPoint middle;
+
+		// In mouse capture mode move the mouse back to the middle of the window */
+		middle.setX(this-&#62;width() / 2);
+		middle.setY(this-&#62;height() / 2);
+
+		QCursor::setPos(this-&#62;mapToGlobal(middle));
+
+		// Calculate relative deltas based on difference from centre of display widget
+		int dx = event-&#62;x() - middle.x();
+		int dy = event-&#62;y() - middle.y();
+
+		emit this-&#62;emulator.mouse_move_relative_signal(dx, dy);
+	} else if(pconfig_copy-&#62;mousehackon) {
+		// Follows host mouse (mousehack) mode
+		emit this-&#62;emulator.mouse_move_signal(event-&#62;x(), event-&#62;y());
+	}
+
+}
+```
+
+So if `full_screen` is true then the `mousehack` setting isn’t acted on. Now this wouldn’t matter if the mouse “behaved” correctly in non-follow-host-mouse mode — but it _doesn’t_. Next step might be to try modifying this code and see if the result works correctly. I appreciate that follow-host-mouse mode is considered undesirable — the name _mousehack_ at least suggests it — but is there any reason why this wouldn’t work?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:163287</guid>
+    </item>    <item>
+      <title>RISC PC monitor problem</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20354</link>
+      <description>
+        <![CDATA[<p>Thanks Gavin &#8211; I wasn&#8217;t aware you could do that &#8211; that&#8217;s very useful.</p>]]>
+      </description>
+      <source:markdown>Thanks Gavin – I wasn’t aware you could do that – that’s very useful.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20354:163282</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mjf2xu237s27</link>
+      <description>
+        <![CDATA[Finished reading Rob Napier's excellent "Voices From A Future Passed" over the weekend (my review is now on Amazon here: https://www.amazon.co.uk/gp/customer-reviews/R1JWU9PD4K4E5P/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8) Feeling like another watch of Micro Men might be on the cards...]]>
+      </description>
+      <source:markdown>Finished reading Rob Napier&#39;s excellent &#34;Voices From A Future Passed&#34; over the weekend (my review is now on Amazon here: https://www.amazon.co.uk/gp/customer-reviews/R1JWU9PD4K4E5P/ref=cm\_cr\_arp\_d\_rvw\_ttl?ie=UTF8) Feeling like another watch of Micro Men might be on the cards...</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mjf2xu237s27</guid>
+    </item>    <item>
+      <title>Automount additional FAT32 partition on boot</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20325</link>
+      <description>
+        <![CDATA[<p>@Chris Gransden: I have a 4G sd-card with <span class="caps">RISC</span> OS Open, the Fat32-partition called HardDisk3 is being mounted orderly, the icon is created in the iconbar from your !HardDisk3. In $.!Boot.Choices.Boot.Tasks I have an Obey called MountHD3 with the command you mentioned: &#8220;addtinydir Boot:^.Apps.!HardDisk3&#8221;.<br />
+        And I have a 32G sd-card with <span class="caps">RISC</span> OS Direct with a larger Fat32-Partition, everything else exactly the same, but does not function like in my <span class="caps">ROS</span> Open sd-card. Can you imagine how that comes? My Obey file &#8220;MountHD3&#8221; is not faulty, it executes well manually. (As an interim I have copied it to the Pinboard and saved the status.)<br />
+        Another question: Is there a &#8220;sprite depot&#8221; as it can be found in /usr on Linux?</p>]]>
+      </description>
+      <source:markdown>@Chris Gransden: I have a 4G sd-card with RISC OS Open, the Fat32-partition called HardDisk3 is being mounted orderly, the icon is created in the iconbar from your !HardDisk3. In $.!Boot.Choices.Boot.Tasks I have an Obey called MountHD3 with the command you mentioned: “addtinydir Boot:^.Apps.!HardDisk3”.
+
+And I have a 32G sd-card with RISC OS Direct with a larger Fat32-Partition, everything else exactly the same, but does not function like in my ROS Open sd-card. Can you imagine how that comes? My Obey file “MountHD3” is not faulty, it executes well manually. (As an interim I have copied it to the Pinboard and saved the status.)
+
+Another question: Is there a “sprite depot” as it can be found in /usr on Linux?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20325:163279</guid>
+    </item>    <item>
+      <title>IDE specs</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20358</link>
+      <description>
+        <![CDATA[<p>It&#8217;s been a very long time since I engaged with anything to do with <span class="caps">IDE</span> so&#8230;</p>
+        <p>I need to replace the <span class="caps">IDE</span> cable that connects between the Unipod, a disc drive and a Zip drive in my Risc PC. Do I need to spec anything other than 40 pin/3 way? Are there different types I should be aware of?</p>]]>
+      </description>
+      <source:markdown>It’s been a very long time since I engaged with anything to do with IDE so…
+
+I need to replace the IDE cable that connects between the Unipod, a disc drive and a Zip drive in my Risc PC. Do I need to spec anything other than 40 pin/3 way? Are there different types I should be aware of?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20358:163278</guid>
+    </item>    <item>
       <title>Using the Dwarf Mini on RISC OS</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
       <description>
-        <![CDATA[<blockquote>
-        <p>Yup, it’s not designed for planets. Use your 5&quot; reflector for those.</p>
-        </blockquote>
-        <p>Well I have found a picture of Jupiter from the Dwarf Mini, and while it&#8217;s only a few pixels, you can see distinct bands. Where as on the 5&quot; all I could see was a large dot surrounded by 4 smaller dots. It came with several eye pieces with greater magnification, but they just made it more difficult to find the large dot again, and allowed it to slip out of view faster, as I couldn&#8217;t get the equatorial mount motor to track.</p>
-        <p>All that is down to my inexperience using it, and I probably could do a lot better with some more practice, but I don&#8217;t really have the time or inclination, particularly after seeing what the mini can do.</p>]]>
+        <![CDATA[<p>Up at 4am this morning, and caught the comet:</p>
+        <p><img src="https://vermilionsands.uk/roast/fp-content/images/DM12-01comet01egc.webp" style="width:800px;" alt="" /></p>
+        <p><a href="https://vermilionsands.uk/roast/index.php/2026/04/13/a-comet/">More here.</a></p>]]>
       </description>
-      <source:markdown>&#62; Yup, it’s not designed for planets. Use your 5&#34; reflector for those.
+      <source:markdown>Up at 4am this morning, and caught the comet:
 
-Well I have found a picture of Jupiter from the Dwarf Mini, and while it’s only a few pixels, you can see distinct bands. Where as on the 5&#34; all I could see was a large dot surrounded by 4 smaller dots. It came with several eye pieces with greater magnification, but they just made it more difficult to find the large dot again, and allowed it to slip out of view faster, as I couldn’t get the equatorial mount motor to track.
+![](https://vermilionsands.uk/roast/fp-content/images/DM12-01comet01egc.webp)
 
-All that is down to my inexperience using it, and I probably could do a lot better with some more practice, but I don’t really have the time or inclination, particularly after seeing what the mini can do.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20262:163248</guid>
+[More here.](https://vermilionsands.uk/roast/index.php/2026/04/13/a-comet/)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20262:163275</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mjen55cc4227</link>
+      <description>
+        <![CDATA[Feels a bit "WORK AND CONSUME, YOU PLEBS"
+        
+        I once had 3 months off work and it was incredibly rewarding; at no point did I find myself "bored" or without things to do. I was in better shape (thank you, daytime gym classes) and wrote a third of a novel.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Feels a bit &#34;WORK AND CONSUME, YOU PLEBS&#34;
+
+I once had 3 months off work and it was incredibly rewarding; at no point did I find myself &#34;bored&#34; or without things to do. I was in better shape (thank you, daytime gym classes) and wrote a third of a novel.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mjen55cc4227</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mjei2wvhfk27</link>
+      <description>
+        <![CDATA[Playing 5:2 on hard mode today... fasting in the office 🫥]]>
+      </description>
+      <source:markdown>Playing 5:2 on hard mode today... fasting in the office 🫥</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mjei2wvhfk27</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mjedvivyj22t</link>
+      <description>
+        <![CDATA[Out of context posts are the emergent wisdom of this age.]]>
+      </description>
+      <source:markdown>Out of context posts are the emergent wisdom of this age.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mjedvivyj22t</guid>
+    </item>    <item>
+      <title>MuView and rendering PDF pages</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
+      <description>
+        <![CDATA[<p>Kevin<br />
+        The problem comes from the length of the command line, I was able to do it with 8 files, but no more.<br />
+        I built a script to use pdfunit with a pdf file directory, but using magick solved the problem by converting the detoxed files to <span class="caps">PDF</span> directly.</p>]]>
+      </description>
+      <source:markdown>Kevin
+
+The problem comes from the length of the command line, I was able to do it with 8 files, but no more.
+
+I built a script to use pdfunit with a pdf file directory, but using magick solved the problem by converting the detoxed files to PDF directly.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20244:163273</guid>
     </item>    <item>
       <title>DDE C++ compatible STL</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20357</link>
       <description>
-        <![CDATA[<p>@Jean-Michel<br />
-        You mentioned in the Announcements&#8594;What you are doing with <span class="caps">RISCOS</span> thread that you found a <span class="caps">STL</span> compatible with <span class="caps">DDE</span> C++.<br />
-        Where can I find it? I tried the links in your post but had no luck. ccdoc though looks interesting.</p>]]>
+        <![CDATA[<p>Bonjour,<br />
+        On my site there is an example with an application skeleton using <span class="caps">DDE</span> /C++, CathLibCPP and CCdoc :<br />
+        <a href="https://jeanmichelb.riscos.fr/Dev/Download/DevBaseC++.zip">https://jeanmichelb.riscos.fr/Dev/Download/DevBaseC++.…</a></p>
+        <p>The Zccdoc directory contains the script to build the html files from sources.<br />
+        The makefile will give you the information for compilation with CathLibCPP<br />
+        No cohabitation problems with OsLib and Oslib support.<br />
+        I added the library to those of the <span class="caps">DDE</span> Export.<span class="caps">APCS</span>-32.Lib, with an Obey setvars file.</p>
+        <p>As I use it very often for the development of my applications, I added in makefiles.Applibs:  ${CATHLIBCPPLIB} ${CATHLIBCPPSTUBSLIB} et ${OSLIBSUPPORTLIB}, with their respective path.<br />
+        I hope you can recompile the model (far from being perfect, it&#8217;s a base&#8230;)</p>
+        Sorry for the presentation of my site, CathlibCpp needs a separate page and a good tutorial.]]>
       </description>
-      <source:markdown>@Jean-Michel
+      <source:markdown>Bonjour,
 
-You mentioned in the Announcements→What you are doing with RISCOS thread that you found a STL compatible with DDE C++.
+On my site there is an example with an application skeleton using DDE /C++, CathLibCPP and CCdoc :
 
-Where can I find it? I tried the links in your post but had no luck. ccdoc though looks interesting.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20357:163244</guid>
+[https://jeanmichelb.riscos.fr/Dev/Download/DevBaseC++.…](https://jeanmichelb.riscos.fr/Dev/Download/DevBaseC++.zip)
+
+The Zccdoc directory contains the script to build the html files from sources.
+
+The makefile will give you the information for compilation with CathLibCPP
+
+No cohabitation problems with OsLib and Oslib support.
+
+I added the library to those of the DDE Export.APCS-32.Lib, with an Obey setvars file.
+
+As I use it very often for the development of my applications, I added in makefiles.Applibs: ${CATHLIBCPPLIB} ${CATHLIBCPPSTUBSLIB} et ${OSLIBSUPPORTLIB}, with their respective path.
+
+I hope you can recompile the model (far from being perfect, it’s a base…)
+
+Sorry for the presentation of my site, CathlibCpp needs a separate page and a good tutorial.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20357:163272</guid>
+    </item>    <item>
+      <title>ROOL Gitlab</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20335</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Not sure whether this is a joke, given that there was a cyclone coming through NZ when you posted that…</p>
+        </blockquote>
+        <p>No I wasn&#8217;t aware, as I live in the UK I don&#8217;t generally check the weather forecast in New Zealand, my comment was reference to heat and summer weather.</p>
+        <p>But i hope everyone is okay.</p>]]>
+      </description>
+      <source:markdown>&#62; Not sure whether this is a joke, given that there was a cyclone coming through NZ when you posted that…
+
+No I wasn’t aware, as I live in the UK I don’t generally check the weather forecast in New Zealand, my comment was reference to heat and summer weather.
+
+But i hope everyone is okay.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20335:163266</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mjcpc3cvpk2t</link>
       <description>
@@ -56,35 +277,6 @@ Where can I find it? I tried the links in your post but had no luck. ccdoc thoug
       <source:markdown>Had the time to work on !Prototype, now V0.03. It can now generate source code to use Null Events and optionally doesn’t need to generate extended object sources beyond the base ToolboxC++Lib classes of the resource file objects, this reduces the number of files generated which are unnecessary to create compilable source code.</source:markdown>
       <guid>cid://www.riscosopen.org:1:653:163239</guid>
     </item>    <item>
-      <title>MuView and rendering PDF pages</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20244</link>
-      <description>
-        <![CDATA[<p>Yes<br />
-        A) Convert jpeg image to pdf with ImageMagick<br />
-          magick .jpg .pdf<br />
-        Warning: You must use &#8220;.&#8221; , not &#8220;/&#8221; in the command for magick to execute it, even if your jpg file has the suffix /jpg
-        <p>B)  Join 2 <span class="caps">PDF</span> with KPDFutil application<br />
-         The first being the one to complete</p>
-        <p>ImageMagick7 is available on PackMan.</p>
-        <p>This is a page by page way&#8230;., but it&#8217;s a long job if you have 300+ pages.</p>]]>
-      </description>
-      <source:markdown>Yes
-
-A) Convert jpeg image to pdf with ImageMagick
-
-magick .jpg .pdf
-
-Warning: You must use “.” , not “/” in the command for magick to execute it, even if your jpg file has the suffix /jpg
-
-B) Join 2 PDF with KPDFutil application
-
-The first being the one to complete
-
-ImageMagick7 is available on PackMan.
-
-This is a page by page way…., but it’s a long job if you have 300+ pages.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20244:163238</guid>
-    </item>    <item>
       <title>PhotoDesk 3.26a update released</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20356</link>
       <description>
@@ -100,28 +292,6 @@ This is a page by page way…., but it’s a long job if you have 300+ pages.</s
       </description>
       <source:markdown>Kevin Wells has issued a second release of his Quiz Engine, an application for creating multiple choice quizzes on RISC OS – and which forms the basis of his own two quiz releases, FlagQuiz and MorseQuiz. The main Quiz Engine program remains at version 1.02, with the ‘misc’ file standing at 1.01, but the skeleton application is now at release 2. The main change in this version is that it if you don’t want to make your quizzes to support multiple languages, it’s now an easier goal to achieve. As…</source:markdown>
       <guid>cid://https://www.riscository.com/?p=10924</guid>
-    </item>    <item>
-      <title>ROOL Gitlab</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20335</link>
-      <description>
-        <![CDATA[<p>Paolo wrote:</p>
-        <blockquote>
-        <p>We live in a culture of wanting things quickly now, so many people simply are not suited to the “Swiss clockmaker” mindset, which is how I would define systems programming.</p>
-        </blockquote>
-        <p>Yes, unfortunately I think AI tools are part of the problem in that they make the educational environment way too helpful.  I was fortunate to have learned to program in a much less helpful environment (nobody I knew programmed in Forth!), which mean I quickly learned how to work things out for myself with the aid of a book.  I suspect the best time to learn was sometime in the 1990s when there was some help available (e.g. early <span class="caps">WWW</span> tutorials), but not <em>too</em> much.  But Pandora&#8217;s box has been opened and we can&#8217;t go back.</p>
-        <p>The info on <span class="caps">RAG</span> is very helpful.  The problem is that the <span class="caps">LLM</span> doesn&#8217;t really &#8220;understand&#8221; the code, so the less real experience it has (via the training set), the less likely it is to work that well even with <span class="caps">RAG</span> (as it is the AIs working memory rather than its &#8220;intuition&#8221;).  I had some discussions with ChatGPT about undefined behaviour in C and it was notable that it could explain all of the concepts involved in the example I gave it, but when forced to predict what the program would do in practice gave an answer that was very obviously wrong given the concepts it had said.  It is errm&#8230; &#8220;interesting&#8221; how much of our working life seems to be doable without fundamental understanding! ;o)</p>
-        <p>I have suggested student projects based on Ghidra as well, the forensic side of cybersecurity is very interesting.</p>]]>
-      </description>
-      <source:markdown>Paolo wrote:
-
-&#62; We live in a culture of wanting things quickly now, so many people simply are not suited to the “Swiss clockmaker” mindset, which is how I would define systems programming.
-
-Yes, unfortunately I think AI tools are part of the problem in that they make the educational environment way too helpful. I was fortunate to have learned to program in a much less helpful environment (nobody I knew programmed in Forth!), which mean I quickly learned how to work things out for myself with the aid of a book. I suspect the best time to learn was sometime in the 1990s when there was some help available (e.g. early WWW tutorials), but not _too_ much. But Pandora’s box has been opened and we can’t go back.
-
-The info on RAG is very helpful. The problem is that the LLM doesn’t really “understand” the code, so the less real experience it has (via the training set), the less likely it is to work that well even with RAG (as it is the AIs working memory rather than its “intuition”). I had some discussions with ChatGPT about undefined behaviour in C and it was notable that it could explain all of the concepts involved in the example I gave it, but when forced to predict what the program would do in practice gave an answer that was very obviously wrong given the concepts it had said. It is errm… “interesting” how much of our working life seems to be doable without fundamental understanding! ;o)
-
-I have suggested student projects based on Ghidra as well, the forensic side of cybersecurity is very interesting.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20335:163231</guid>
     </item>    <item>
       <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
       <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
@@ -150,17 +320,6 @@ I have suggested student projects based on Ghidra as well, the forensic side of 
       <source:markdown>https://youtu.be/C9A15BJ7LOY?si=F3ED4lbvm80Z9z\_q
 #RISC\_OS #Code</source:markdown>
       <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mjadqn7bpc2v</guid>
-    </item>    <item>
-      <title>Quick videos for RISC OS Coding</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20353</link>
-      <description>
-        <![CDATA[<p>Second video is up now, showing how you create a simple <span class="caps">CLI</span> tool.</p>
-        <p><a href="https://www.youtube.com/watch?v=C9A15BJ7LOY">https://www.youtube.com/watch?v=C9A15BJ7LOY</a></p>]]>
-      </description>
-      <source:markdown>Second video is up now, showing how you create a simple CLI tool.
-
-[https://www.youtube.com/watch?v=C9A15BJ7LOY](https://www.youtube.com/watch?v=C9A15BJ7LOY)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20353:163155</guid>
     </item>    <item>
       <title>Official download page for Browse?</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20355</link>
@@ -219,23 +378,6 @@ Chris Johns (who ported Python3 and Pygame) described why the packages are place
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mj5rm7wqzs2o</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>Not working for me; Homebrew on MacBook Air M4 — Qt6.</p>
-        <p>Try <code>buildit.sh</code>. Error: &#8220;qtchooser not found&#8221;. Despite this I can use make and get rpcemu-interpreter.app which will run, but can&#8217;t find the data directory I pointed it at (the <span class="caps">RISC</span> OS Direct &#8220;Easy-Start&#8221; bundle). I get dumped at a supervisor prompt. Typing <code>desktop</code> gets me a very basic desktop but with no access to the hostfs image. Typing <code>configure filesystem hostfs</code> gives &#8220;filesystem hostfs not found&#8221;. But at least it goes into full-screen mode correctly…</p>
-        <p>Perhaps there&#8217;s something I&#8217;ve missed. To install Qt (the default version, now 6.11.0) I typed <code>brew install qt</code>.<br />
-        Any suggestions?</p>]]>
-      </description>
-      <source:markdown>Not working for me; Homebrew on MacBook Air M4 — Qt6.
-
-Try `buildit.sh`. Error: “qtchooser not found”. Despite this I can use make and get rpcemu-interpreter.app which will run, but can’t find the data directory I pointed it at (the RISC OS Direct “Easy-Start” bundle). I get dumped at a supervisor prompt. Typing `desktop` gets me a very basic desktop but with no access to the hostfs image. Typing `configure filesystem hostfs` gives “filesystem hostfs not found”. But at least it goes into full-screen mode correctly…
-
-Perhaps there’s something I’ve missed. To install Qt (the default version, now 6.11.0) I typed `brew install qt`.
-
-Any suggestions?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:163101</guid>
     </item>    <item>
       <title>Software vectors from C.</title>
       <link>https://www.riscosopen.org/forum/forums/4/topics/20352</link>
@@ -893,17 +1035,6 @@ It&#39;s not just how this is possible, it&#39;s why it&#39;s possible to watch 
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3miqhinizbk2j</guid>
-    </item>    <item>
-      <title>Automount additional FAT32 partition on boot</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20325</link>
-      <description>
-        <![CDATA[<p>@Chris: What is Boot:^Apps.? I&#8217;ve put !HardDisk3 in <span class="caps">SDFS</span>::RISCOSpi.$.Apps. In <span class="caps">SDFS</span>::RISCOSpi.$.!Boot.Choices.Boot.Tasks.MountHD3 (Obey) I&#8217;ve changed the line: addtinydir Fat32fs::HardDisk3 to: addtinydir Boot:^Apps.!HardDisk3. And so it worked! Cannot post you a screenshot, haven&#8217;t figured out how !Snapper is working.<br />
-        Can I use the file &#8220;!HardDisk3&#8221; for any other name, too, when I rename it?</p>]]>
-      </description>
-      <source:markdown>@Chris: What is Boot:^Apps.? I’ve put !HardDisk3 in SDFS::RISCOSpi.$.Apps. In SDFS::RISCOSpi.$.!Boot.Choices.Boot.Tasks.MountHD3 (Obey) I’ve changed the line: addtinydir Fat32fs::HardDisk3 to: addtinydir Boot:^Apps.!HardDisk3. And so it worked! Cannot post you a screenshot, haven’t figured out how !Snapper is working.
-
-Can I use the file “!HardDisk3” for any other name, too, when I rename it?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20325:162872</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3minwxwzvfc2d</link>
       <description>

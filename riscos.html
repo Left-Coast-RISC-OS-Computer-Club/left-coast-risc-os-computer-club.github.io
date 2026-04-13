@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.23b" >
-  <meta name="date" content="2026-04-12T12:00:21-07:00" >
+  <meta name="date" content="2026-04-13T12:00:26-07:00" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -20,33 +20,239 @@
   </nav>
   <section>
 
-    <article data-published="2026-04-12T17:06:53Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20262">
+    <article data-published="2026-04-13T18:56:17Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20360">
+      <h1>Network Printing / RemotePrinterFS</h1>
+
+(date: 2026-04-13)
+      <p>
+      <p>One problem after another: Printing over the network to my Brother HL-L2360DN. Brave Search says: “RISC OS supports network printing primarily through third-party modules like RemotePrinterFS (free) and R-Comp’s Network Printer Drivers (commercial), as the operating system lacks built-in CUPS support.”</p>
+<p>I didn’t find RemotePrinterFS in !Store or !PackMan nor in $.Apps, $.Apps.Utilities, $.Utilities. If it isn’t part of RISC OS Open, where might I get it?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20360">https://www.riscosopen.org/forum/forums/11/topics/20360</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-13T18:51:31Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20353">
+      <h1>Quick videos for RISC OS Coding</h1>
+
+(date: 2026-04-13)
+      <p>
+      <p>Fourth video is up now, showing how to add the other features that GitHub repository uses:</p>
+<ul>
+<li>.gitattributes and .gitignore (for colouring C and H files properly, and avoiding committing generated files).</li>
+<li>.github and .gitlab testing for CI (automated running of tests on commit).</li>
+<li>License file (to ensure that users know what their rights are).</li>
+<li>PR and Issue templates (to help guide contributors when submitting code or issues and ensure that we are assigned).</li>
+<li>Project README.</li>
+</ul>
+<p><a href="https://www.youtube.com/watch?v=_lckEJr1c2Q&amp;list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn&amp;index=4">https://www.youtube.com/watch?v=_lckEJr1c2Q&amp;list=P…</a></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20353">https://www.riscosopen.org/forum/forums/1/topics/20353</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-13T18:45:22Z" data-link="https://www.riscosopen.org/forum/forums/2/topics/20359">
+      <h1>CardData in !Store</h1>
+
+(date: 2026-04-13)
+      <p>
+      <p>I wasn’t able to save my CardData in my !Store account simply because you only can give in an expiry year up to 2030 – mine is 2031. So please fix that and add some more years at the end.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/2/topics/20359">https://www.riscosopen.org/forum/forums/2/topics/20359</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-13T18:19:18Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
+      <h1>Random projects...</h1>
+
+(date: 2026-04-13)
+      <p>
+      <p>Well, it turned out that I’ve identified why “follow host mouse” doesn’t work in full-screen mode:</p>
+<pre><code>void
+MainDisplay::mouseMoveEvent(QMouseEvent *event)
+{
+	if((!pconfig_copy-&gt;mousehackon &amp;&amp; mouse_captured) || full_screen) {
+		QPoint middle;
+
+		// In mouse capture mode move the mouse back to the middle of the window */
+		middle.setX(this-&gt;width() / 2);
+		middle.setY(this-&gt;height() / 2);
+
+		QCursor::setPos(this-&gt;mapToGlobal(middle));
+
+		// Calculate relative deltas based on difference from centre of display widget
+		int dx = event-&gt;x() - middle.x();
+		int dy = event-&gt;y() - middle.y();
+
+		emit this-&gt;emulator.mouse_move_relative_signal(dx, dy);
+	} else if(pconfig_copy-&gt;mousehackon) {
+		// Follows host mouse (mousehack) mode
+		emit this-&gt;emulator.mouse_move_signal(event-&gt;x(), event-&gt;y());
+	}
+
+}
+</code></pre>
+<p>So if <code>full_screen</code> is true then the <code>mousehack</code> setting isn’t acted on. Now this wouldn’t matter if the mouse “behaved” correctly in non-follow-host-mouse mode — but it <em>doesn’t</em>. Next step might be to try modifying this code and see if the result works correctly. I appreciate that follow-host-mouse mode is considered undesirable — the name <em>mousehack</em> at least suggests it — but is there any reason why this wouldn’t work?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-13T15:13:22Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20354">
+      <h1>RISC PC monitor problem</h1>
+
+(date: 2026-04-13)
+      <p>
+      <p>Thanks Gavin – I wasn’t aware you could do that – that’s very useful.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20354">https://www.riscosopen.org/forum/forums/11/topics/20354</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-13T14:23:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mjf2xu237s27">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-04-13)
+      <p>
+      <p>Finished reading Rob Napier's excellent &quot;Voices From A Future Passed&quot; over the weekend (my review is now on Amazon here: <a href="https://www.amazon.co.uk/gp/customer-reviews/R1JWU9PD4K4E5P/ref=cm">https://www.amazon.co.uk/gp/customer-reviews/R1JWU9PD4K4E5P/ref=cm</a>_cr_arp_d_rvw_ttl?ie=UTF8) Feeling like another watch of Micro Men might be on the cards...</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mjf2xu237s27">https://bsky.app/profile/colinhoad.com/post/3mjf2xu237s27</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-13T14:18:56Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20325">
+      <h1>Automount additional FAT32 partition on boot</h1>
+
+(date: 2026-04-13)
+      <p>
+      <p>@Chris Gransden: I have a 4G sd-card with RISC OS Open, the Fat32-partition called HardDisk3 is being mounted orderly, the icon is created in the iconbar from your !HardDisk3. In $.!Boot.Choices.Boot.Tasks I have an Obey called MountHD3 with the command you mentioned: “addtinydir Boot:^.Apps.!HardDisk3”.</p>
+<p>And I have a 32G sd-card with RISC OS Direct with a larger Fat32-Partition, everything else exactly the same, but does not function like in my ROS Open sd-card. Can you imagine how that comes? My Obey file “MountHD3” is not faulty, it executes well manually. (As an interim I have copied it to the Pinboard and saved the status.)</p>
+<p>Another question: Is there a “sprite depot” as it can be found in /usr on Linux?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20325">https://www.riscosopen.org/forum/forums/11/topics/20325</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-13T14:04:11Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20358">
+      <h1>IDE specs</h1>
+
+(date: 2026-04-13)
+      <p>
+      <p>It’s been a very long time since I engaged with anything to do with IDE so…</p>
+<p>I need to replace the IDE cable that connects between the Unipod, a disc drive and a Zip drive in my Risc PC. Do I need to spec anything other than 40 pin/3 way? Are there different types I should be aware of?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20358">https://www.riscosopen.org/forum/forums/11/topics/20358</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-13T10:54:51Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20262">
       <h1>Using the Dwarf Mini on RISC OS</h1>
 
-(date: 2026-04-12)
+(date: 2026-04-13)
       <p>
-      <blockquote>
-<p>Yup, it’s not designed for planets. Use your 5&quot; reflector for those.</p>
-</blockquote>
-<p>Well I have found a picture of Jupiter from the Dwarf Mini, and while it’s only a few pixels, you can see distinct bands. Where as on the 5&quot; all I could see was a large dot surrounded by 4 smaller dots. It came with several eye pieces with greater magnification, but they just made it more difficult to find the large dot again, and allowed it to slip out of view faster, as I couldn’t get the equatorial mount motor to track.</p>
-<p>All that is down to my inexperience using it, and I probably could do a lot better with some more practice, but I don’t really have the time or inclination, particularly after seeing what the mini can do.</p>
+      <p>Up at 4am this morning, and caught the comet:</p>
+<p><img src="https://vermilionsands.uk/roast/fp-content/images/DM12-01comet01egc.webp" alt=""></p>
+<p><a href="https://vermilionsands.uk/roast/index.php/2026/04/13/a-comet/">More here.</a></p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20262">https://www.riscosopen.org/forum/forums/1/topics/20262</a>
       </address>
     </article>
 
-    <article data-published="2026-04-12T16:07:24Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20357">
+    <article data-published="2026-04-13T10:16:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mjen55cc4227">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-04-13)
+      <p>
+      <p>Feels a bit &quot;WORK AND CONSUME, YOU PLEBS&quot;</p>
+<p>I once had 3 months off work and it was incredibly rewarding; at no point did I find myself &quot;bored&quot; or without things to do. I was in better shape (thank you, daytime gym classes) and wrote a third of a novel.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mjen55cc4227">https://bsky.app/profile/colinhoad.com/post/3mjen55cc4227</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-13T08:45:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mjei2wvhfk27">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-04-13)
+      <p>
+      <p>Playing 5:2 on hard mode today... fasting in the office 🫥</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mjei2wvhfk27">https://bsky.app/profile/colinhoad.com/post/3mjei2wvhfk27</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-13T07:31:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mjedvivyj22t">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-04-13)
+      <p>
+      <p>Out of context posts are the emergent wisdom of this age.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mjedvivyj22t">https://bsky.app/profile/nemo20000.bsky.social/post/3mjedvivyj22t</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-13T07:22:44Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
+      <h1>MuView and rendering PDF pages</h1>
+
+(date: 2026-04-13)
+      <p>
+      <p>Kevin</p>
+<p>The problem comes from the length of the command line, I was able to do it with 8 files, but no more.</p>
+<p>I built a script to use pdfunit with a pdf file directory, but using magick solved the problem by converting the detoxed files to PDF directly.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-13T07:05:53Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20357">
       <h1>DDE C++ compatible STL</h1>
 
-(date: 2026-04-12)
+(date: 2026-04-13)
       <p>
-      <p>@Jean-Michel</p>
-<p>You mentioned in the Announcements→What you are doing with RISCOS thread that you found a STL compatible with DDE C++.</p>
-<p>Where can I find it? I tried the links in your post but had no luck. ccdoc though looks interesting.</p>
+      <p>Bonjour,</p>
+<p>On my site there is an example with an application skeleton using DDE /C++, CathLibCPP and CCdoc :</p>
+<p><a href="https://jeanmichelb.riscos.fr/Dev/Download/DevBaseC++.zip">https://jeanmichelb.riscos.fr/Dev/Download/DevBaseC++.…</a></p>
+<p>The Zccdoc directory contains the script to build the html files from sources.</p>
+<p>The makefile will give you the information for compilation with CathLibCPP</p>
+<p>No cohabitation problems with OsLib and Oslib support.</p>
+<p>I added the library to those of the DDE Export.APCS-32.Lib, with an Obey setvars file.</p>
+<p>As I use it very often for the development of my applications, I added in makefiles.Applibs: ${CATHLIBCPPLIB} ${CATHLIBCPPSTUBSLIB} et ${OSLIBSUPPORTLIB}, with their respective path.</p>
+<p>I hope you can recompile the model (far from being perfect, it’s a base…)</p>
+<p>Sorry for the presentation of my site, CathlibCpp needs a separate page and a good tutorial.</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/5/topics/20357">https://www.riscosopen.org/forum/forums/5/topics/20357</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-12T22:35:25Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20335">
+      <h1>ROOL Gitlab</h1>
+
+(date: 2026-04-12)
+      <p>
+      <blockquote>
+<p>Not sure whether this is a joke, given that there was a cyclone coming through NZ when you posted that…</p>
+</blockquote>
+<p>No I wasn’t aware, as I live in the UK I don’t generally check the weather forecast in New Zealand, my comment was reference to heat and summer weather.</p>
+<p>But i hope everyone is okay.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20335">https://www.riscosopen.org/forum/forums/5/topics/20335</a>
       </address>
     </article>
 
@@ -74,25 +280,6 @@
       </address>
     </article>
 
-    <article data-published="2026-04-12T14:50:45Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20244">
-      <h1>MuView and rendering PDF pages</h1>
-
-(date: 2026-04-12)
-      <p>
-      <p>Yes</p>
-<p>A) Convert jpeg image to pdf with ImageMagick</p>
-<p>magick .jpg .pdf</p>
-<p>Warning: You must use “.” , not “/” in the command for magick to execute it, even if your jpg file has the suffix /jpg</p>
-<p>B) Join 2 PDF with KPDFutil application</p>
-<p>The first being the one to complete</p>
-<p>ImageMagick7 is available on PackMan.</p>
-<p>This is a page by page way…., but it’s a long job if you have 300+ pages.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20244">https://www.riscosopen.org/forum/forums/11/topics/20244</a>
-      </address>
-    </article>
-
     <article data-published="2026-04-12T14:44:30Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20356">
       <h1>PhotoDesk 3.26a update released</h1>
 
@@ -114,24 +301,6 @@
 
       <address>
         <a href="https://www.riscository.com/2026/kevsoft-quiz-engine-skeleton-app-release-2/">https://www.riscository.com/2026/kevsoft-quiz-engine-skeleton-app-release-2/</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-12T13:06:51Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20335">
-      <h1>ROOL Gitlab</h1>
-
-(date: 2026-04-12)
-      <p>
-      <p>Paolo wrote:</p>
-<blockquote>
-<p>We live in a culture of wanting things quickly now, so many people simply are not suited to the “Swiss clockmaker” mindset, which is how I would define systems programming.</p>
-</blockquote>
-<p>Yes, unfortunately I think AI tools are part of the problem in that they make the educational environment way too helpful. I was fortunate to have learned to program in a much less helpful environment (nobody I knew programmed in Forth!), which mean I quickly learned how to work things out for myself with the aid of a book. I suspect the best time to learn was sometime in the 1990s when there was some help available (e.g. early WWW tutorials), but not <em>too</em> much. But Pandora’s box has been opened and we can’t go back.</p>
-<p>The info on RAG is very helpful. The problem is that the LLM doesn’t really “understand” the code, so the less real experience it has (via the training set), the less likely it is to work that well even with RAG (as it is the AIs working memory rather than its “intuition”). I had some discussions with ChatGPT about undefined behaviour in C and it was notable that it could explain all of the concepts involved in the example I gave it, but when forced to predict what the program would do in practice gave an answer that was very obviously wrong given the concepts it had said. It is errm… “interesting” how much of our working life seems to be doable without fundamental understanding! ;o)</p>
-<p>I have suggested student projects based on Ghidra as well, the forensic side of cybersecurity is very interesting.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20335">https://www.riscosopen.org/forum/forums/5/topics/20335</a>
       </address>
     </article>
 
@@ -170,19 +339,6 @@
 
       <address>
         <a href="https://bsky.app/profile/armbytes.bsky.social/post/3mjadqn7bpc2v">https://bsky.app/profile/armbytes.bsky.social/post/3mjadqn7bpc2v</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-11T16:51:28Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20353">
-      <h1>Quick videos for RISC OS Coding</h1>
-
-(date: 2026-04-11)
-      <p>
-      <p>Second video is up now, showing how you create a simple CLI tool.</p>
-<p><a href="https://www.youtube.com/watch?v=C9A15BJ7LOY">https://www.youtube.com/watch?v=C9A15BJ7LOY</a></p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20353">https://www.riscosopen.org/forum/forums/1/topics/20353</a>
       </address>
     </article>
 
@@ -251,21 +407,6 @@
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mj5rm7wqzs2o">https://bsky.app/profile/nemo20000.bsky.social/post/3mj5rm7wqzs2o</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-10T13:30:55Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
-      <h1>Random projects...</h1>
-
-(date: 2026-04-10)
-      <p>
-      <p>Not working for me; Homebrew on MacBook Air M4 — Qt6.</p>
-<p>Try <code>buildit.sh</code>. Error: “qtchooser not found”. Despite this I can use make and get rpcemu-interpreter.app which will run, but can’t find the data directory I pointed it at (the RISC OS Direct “Easy-Start” bundle). I get dumped at a supervisor prompt. Typing <code>desktop</code> gets me a very basic desktop but with no access to the hostfs image. Typing <code>configure filesystem hostfs</code> gives “filesystem hostfs not found”. But at least it goes into full-screen mode correctly…</p>
-<p>Perhaps there’s something I’ve missed. To install Qt (the default version, now 6.11.0) I typed <code>brew install qt</code>.</p>
-<p>Any suggestions?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
       </address>
     </article>
 
@@ -883,19 +1024,6 @@ Dim myRec As MyRecord
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3miqhinizbk2j">https://bsky.app/profile/nemo20000.bsky.social/post/3miqhinizbk2j</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-04T13:34:41Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20325">
-      <h1>Automount additional FAT32 partition on boot</h1>
-
-(date: 2026-04-04)
-      <p>
-      <p>@Chris: What is Boot:^Apps.? I’ve put !HardDisk3 in SDFS::RISCOSpi.$.Apps. In SDFS::RISCOSpi.$.!Boot.Choices.Boot.Tasks.MountHD3 (Obey) I’ve changed the line: addtinydir Fat32fs::HardDisk3 to: addtinydir Boot:^Apps.!HardDisk3. And so it worked! Cannot post you a screenshot, haven’t figured out how !Snapper is working.</p>
-<p>Can I use the file “!HardDisk3” for any other name, too, when I rename it?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20325">https://www.riscosopen.org/forum/forums/11/topics/20325</a>
       </address>
     </article>
 
