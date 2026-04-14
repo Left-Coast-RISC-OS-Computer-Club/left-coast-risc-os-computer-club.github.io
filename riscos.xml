@@ -7,52 +7,112 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>13 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>14 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
-      <title>Network Printing / RemotePrinterFS</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20360</link>
+      <title>CardData in !Store</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20359</link>
       <description>
-        <![CDATA[<p>One problem after another: Printing over the network to my Brother HL-L2360DN. Brave Search says: &#8220;<span class="caps">RISC</span> OS supports network printing primarily through third-party modules like RemotePrinterFS (free) and R-Comp&#8217;s Network Printer Drivers (commercial), as the operating system lacks built-in <span class="caps">CUPS</span> support.&#8221; <br />
-        I didn&#8217;t find RemotePrinterFS in !Store or !PackMan nor in $.Apps, $.Apps.Utilities, $.Utilities. If it isn&#8217;t part of <span class="caps">RISC</span> OS Open, where might I get it?</p>]]>
+        <![CDATA[<p>Working on it now.</p>]]>
       </description>
-      <source:markdown>One problem after another: Printing over the network to my Brother HL-L2360DN. Brave Search says: “RISC OS supports network printing primarily through third-party modules like RemotePrinterFS (free) and R-Comp’s Network Printer Drivers (commercial), as the operating system lacks built-in CUPS support.”
+      <source:markdown>Working on it now.</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20359:163333</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mjhve2nqd22g</link>
+      <description>
+        <![CDATA[Drag'n'Drop 15i2 edition reviewed 
+        
+        https://www.iconbar.com/articles/DragnDrop_15i2_edition_reviewed/index2323.html 
+        
+        The latest edition of Drag'n'Drop magazine was released at the RISC OS North Show where Drag'n'drop were also exhibitors.]]>
+      </description>
+      <source:markdown>Drag&#39;n&#39;Drop 15i2 edition reviewed
 
-I didn’t find RemotePrinterFS in !Store or !PackMan nor in $.Apps, $.Apps.Utilities, $.Utilities. If it isn’t part of RISC OS Open, where might I get it?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20360:163290</guid>
+https://www.iconbar.com/articles/DragnDrop\_15i2\_edition\_reviewed/index2323.html
+
+The latest edition of Drag&#39;n&#39;Drop magazine was released at the RISC OS North Show where Drag&#39;n&#39;drop were also exhibitors.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mjhve2nqd22g</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mjhus3fopc2y</link>
+      <description>
+        <![CDATA[Have I shown this kind of RISC OS Custom Icon before? Type 92 is IFR – just put the filename of some renderable file in an icon and set its validation to “R92”. Hey presto, graphic file cached and displayed automatically. [see alt]]]>
+      </description>
+      <source:markdown>Have I shown this kind of RISC OS Custom Icon before? Type 92 is IFR – just put the filename of some renderable file in an icon and set its validation to “R92”. Hey presto, graphic file cached and displayed automatically. \[see alt\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mjhus3fopc2y</guid>
     </item>    <item>
       <title>Quick videos for RISC OS Coding</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20353</link>
       <description>
-        <![CDATA[<p>Fourth video is up now, showing how to add the other features that GitHub repository uses:</p>
-        <ul>
-        	<li>.gitattributes and .gitignore (for colouring C and H files properly, and avoiding committing generated files).</li>
-        	<li>.github and .gitlab testing for CI (automated running of tests on commit).</li>
-        	<li>License file (to ensure that users know what their rights are).</li>
-        	<li>PR and Issue templates (to help guide contributors when submitting code or issues and ensure that we are assigned).</li>
-        	<li>Project <span class="caps">README</span>.</li>
-        </ul>
-        <p><a href="https://www.youtube.com/watch?v=_lckEJr1c2Q&amp;list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn&amp;index=4">https://www.youtube.com/watch?v=_lckEJr1c2Q&amp;amp;list=P…</a></p>]]>
+        <![CDATA[<p>Fifth video &#8211; How to create a <span class="caps">RISC</span> OS module.</p>
+        <p><a href="https://www.youtube.com/watch?v=F7FJUOiJ66A&amp;list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn&amp;index=5">https://www.youtube.com/watch?v=F7FJUOiJ66A&amp;amp;list=P…</a></p>]]>
       </description>
-      <source:markdown>Fourth video is up now, showing how to add the other features that GitHub repository uses:
+      <source:markdown>Fifth video – How to create a RISC OS module.
 
-- .gitattributes and .gitignore (for colouring C and H files properly, and avoiding committing generated files).
-- .github and .gitlab testing for CI (automated running of tests on commit).
-- License file (to ensure that users know what their rights are).
-- PR and Issue templates (to help guide contributors when submitting code or issues and ensure that we are assigned).
-- Project README.
-
-[https://www.youtube.com/watch?v=\_lckEJr1c2Q&#38;amp;list=P…](https://www.youtube.com/watch?v=_lckEJr1c2Q&#38;list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn&#38;index=4)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20353:163289</guid>
+[https://www.youtube.com/watch?v=F7FJUOiJ66A&#38;amp;list=P…](https://www.youtube.com/watch?v=F7FJUOiJ66A&#38;list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn&#38;index=5)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20353:163325</guid>
     </item>    <item>
-      <title>CardData in !Store</title>
-      <link>https://www.riscosopen.org/forum/forums/2/topics/20359</link>
+      <title>Using the Dwarf Mini on RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
       <description>
-        <![CDATA[<p>I wasn&#8217;t able to save my CardData in my !Store account simply because you only can give in an expiry year up to 2030 &#8211; mine is 2031. So please fix that and add some more years at the end.</p>]]>
+        <![CDATA[<p>Has another go at the comet last night, <a href="https://vermilionsands.uk/roast/index.php/2026/04/13/a-comet/">better picture and more details here.</a></p>
+        <blockquote>
+        <p>Did the image come out the right way round?</p>
+        </blockquote>
+        <p>Nope, upside down. Not that it matters much for astro photos, and easily fixed. Belated thanks for the work, though :-)</p>]]>
       </description>
-      <source:markdown>I wasn’t able to save my CardData in my !Store account simply because you only can give in an expiry year up to 2030 – mine is 2031. So please fix that and add some more years at the end.</source:markdown>
-      <guid>cid://www.riscosopen.org:2:20359:163288</guid>
+      <source:markdown>Has another go at the comet last night, [better picture and more details here.](https://vermilionsands.uk/roast/index.php/2026/04/13/a-comet/)
+
+&#62; Did the image come out the right way round?
+
+Nope, upside down. Not that it matters much for astro photos, and easily fixed. Belated thanks for the work, though :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20262:163319</guid>
+    </item>    <item>
+      <title>Claiming ByteV</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20362</link>
+      <description>
+        <![CDATA[<p>Nope&#8230; The paddles are directly connected to a RPi via <span class="caps">GPIO</span>&#8230; I can provide the source code I have so far, which indeed uses the CModule example from the <span class="caps">DDE</span>&#8230; Let me know how to get it to you if you want to take a look at what I have so far&#8230; I&#8217;ve had a demo of the hardware at a couple of shows over the last two years or so&#8230; Just struggling to find time (and docs/knowledge) to complete the driver&#8230;</p>]]>
+      </description>
+      <source:markdown>Nope… The paddles are directly connected to a RPi via GPIO… I can provide the source code I have so far, which indeed uses the CModule example from the DDE… Let me know how to get it to you if you want to take a look at what I have so far… I’ve had a demo of the hardware at a couple of shows over the last two years or so… Just struggling to find time (and docs/knowledge) to complete the driver…</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20362:163317</guid>
+    </item>    <item>
+      <title>ROOL Gitlab</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20335</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Anyway, that ship has sailed, so let?s not keep on about it.</p>
+        </blockquote>
+        <p>Indeed, but no supporter of <span class="caps">ROOL</span> and the platform generally can regard a system where £20k (25% of total bounty allocations, no less) will be spent duplicating functionality that already exists as satisfactory, or incapable of improvement. Simple question: if and when ROOL&#8217;s stack becomes available, how many people will actually use it? I&#8217;m sure all the actors involved in this situation were motivated by a sincere wish to do the best for the platform, but the upshot has been a gross waste of resources, as far as I can see. There must be a better way, surely?</p>]]>
+      </description>
+      <source:markdown>&#62; Anyway, that ship has sailed, so let?s not keep on about it.
+
+Indeed, but no supporter of ROOL and the platform generally can regard a system where £20k (25% of total bounty allocations, no less) will be spent duplicating functionality that already exists as satisfactory, or incapable of improvement. Simple question: if and when ROOL’s stack becomes available, how many people will actually use it? I’m sure all the actors involved in this situation were motivated by a sincere wish to do the best for the platform, but the upshot has been a gross waste of resources, as far as I can see. There must be a better way, surely?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20335:163311</guid>
+    </item>    <item>
+      <title>Network Printing / RemotePrinterFS</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20360</link>
+      <description>
+        <![CDATA[<p>@Doug Webb: Sorry for having asked. Maybe you&#8217;ll try Google Search yourself? You&#8217;ll get nothing of worth and certainly not the website &#8220;<a href="https://www.sbellon.de/sw-modules.html%E2%80%9D">https://www.sbellon.de/sw-modules.html&amp;#8221;</a>. Far better are the results of Brave Search (AI) for &#8220;<span class="caps">RISC</span> OS network printing&#8221; and &#8220;RemotePrinterFS&#8221;. They will give general explanations but not a certain website with software to download. Which is 20 years old, maybe that is the reason.<br />
+        And installing the tool and finding out the exact command to write into the printer driver connections, the next.<br />
+        <span class="caps">BTW</span>: The Brother Network printer I bought long ago because Brother is said to be very Linux-friendly. And they are. In Linux you start Mint or MX and the printer will be detected simply because it is connected via a network cable &#8211; and is correctly handled down to it&#8217;s ability for printing double-sided.<br />
+        It&#8217;s always a problem if someone new signs on the <span class="caps">RISC</span> OS muster roll&#8230; but take the positive side: It will not happen all to often!</p>]]>
+      </description>
+      <source:markdown>@Doug Webb: Sorry for having asked. Maybe you’ll try Google Search yourself? You’ll get nothing of worth and certainly not the website “ [https://www.sbellon.de/sw-modules.html&#38;#8221;](https://www.sbellon.de/sw-modules.html%E2%80%9D). Far better are the results of Brave Search (AI) for “RISC OS network printing” and “RemotePrinterFS”. They will give general explanations but not a certain website with software to download. Which is 20 years old, maybe that is the reason.
+
+And installing the tool and finding out the exact command to write into the printer driver connections, the next.
+
+BTW: The Brother Network printer I bought long ago because Brother is said to be very Linux-friendly. And they are. In Linux you start Mint or MX and the printer will be detected simply because it is connected via a network cable – and is correctly handled down to it’s ability for printing double-sided.
+
+It’s always a problem if someone new signs on the RISC OS muster roll… but take the positive side: It will not happen all to often!</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20360:163309</guid>
+    </item>    <item>
+      <title>Drag&#39;n&#39;Drop 15i2 edition reviewed</title>
+      <link>http://www.iconbar.com/comments/rss/news2323.html</link>
+      <description>
+        <![CDATA[The latest edition of Drag'n'Drop magazine was released at the RISC OS North Show where Drag'n'drop were also exhibitors.]]>
+      </description>
+      <source:markdown>The latest edition of Drag&#39;n&#39;Drop magazine was released at the RISC OS North Show where Drag&#39;n&#39;drop were also exhibitors.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2323.html</guid>
     </item>    <item>
       <title>Random projects...</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
@@ -154,20 +214,6 @@ Another question: Is there a “sprite depot” as it can be found in /usr on Li
 I need to replace the IDE cable that connects between the Unipod, a disc drive and a Zip drive in my Risc PC. Do I need to spec anything other than 40 pin/3 way? Are there different types I should be aware of?</source:markdown>
       <guid>cid://www.riscosopen.org:11:20358:163278</guid>
     </item>    <item>
-      <title>Using the Dwarf Mini on RISC OS</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
-      <description>
-        <![CDATA[<p>Up at 4am this morning, and caught the comet:</p>
-        <p><img src="https://vermilionsands.uk/roast/fp-content/images/DM12-01comet01egc.webp" style="width:800px;" alt="" /></p>
-        <p><a href="https://vermilionsands.uk/roast/index.php/2026/04/13/a-comet/">More here.</a></p>]]>
-      </description>
-      <source:markdown>Up at 4am this morning, and caught the comet:
-
-![](https://vermilionsands.uk/roast/fp-content/images/DM12-01comet01egc.webp)
-
-[More here.](https://vermilionsands.uk/roast/index.php/2026/04/13/a-comet/)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20262:163275</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mjen55cc4227</link>
       <description>
         <![CDATA[Feels a bit "WORK AND CONSUME, YOU PLEBS"
@@ -245,22 +291,6 @@ I hope you can recompile the model (far from being perfect, it’s a base…)
 
 Sorry for the presentation of my site, CathlibCpp needs a separate page and a good tutorial.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20357:163272</guid>
-    </item>    <item>
-      <title>ROOL Gitlab</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20335</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Not sure whether this is a joke, given that there was a cyclone coming through NZ when you posted that…</p>
-        </blockquote>
-        <p>No I wasn&#8217;t aware, as I live in the UK I don&#8217;t generally check the weather forecast in New Zealand, my comment was reference to heat and summer weather.</p>
-        <p>But i hope everyone is okay.</p>]]>
-      </description>
-      <source:markdown>&#62; Not sure whether this is a joke, given that there was a cyclone coming through NZ when you posted that…
-
-No I wasn’t aware, as I live in the UK I don’t generally check the weather forecast in New Zealand, my comment was reference to heat and summer weather.
-
-But i hope everyone is okay.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20335:163266</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mjcpc3cvpk2t</link>
       <description>
