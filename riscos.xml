@@ -7,10 +7,155 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>14 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>15 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>New DME ExtTheme and Launchpad available for download and testing</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
+      <description>
+        <![CDATA[<p>Clarifying a bit of confusion created by Sprow&#8217;s post, I guess he is not fully aware of the discussion here maybe.</p>
+        <p>Sprow said:</p>
+        <blockquote>
+        <p>Having finally got those in to Wimp 5.88 (so that feature is in the 5.31 nightly builds) I’ve unpicked the branches so my prototype dark mode support is just a single branch.</p>
+        </blockquote>
+        <p>&#8220;nigthly&#8221; build 2026-03-24 for <span class="caps">RPC</span> (I use RPCEmu for testing) has WindowManager 5.88, however the option you&#8217;ve mentioned is still <span class="caps">NOT</span> there, the TitleTextColour option in WimpVisualFlags I mean, so I think this needs to be corrected to Wimp 5.89 instead?</p>
+        <blockquote>
+        <p>If you’re trying to design a theme then to have the CoFlags be propagated from your theme design into the live set in Choices you’ll need an updated ThemeSetup plug in.</p>
+        </blockquote>
+        <p>I think you may have got a bit confused; this thread is about a <span class="caps">TOOL</span> that handles all of this and for pretty much <span class="caps">ALL</span> <span class="caps">RISC</span> OS releases (all the way down to <span class="caps">RIS</span> <span class="caps">COS</span> 3.10) instead of the ROOL&#8217;s tools (which are only <span class="caps">RISC</span> OS 5, and do not support previous themeing protocols). So no, there is no need for any ThemeSetup when using ExtTheme (but if people want to have both, that&#8217;s fine, however ExtTheme is completely selfcontained and doesn&#8217;t requires any of the <span class="caps">ROOL</span> tools).</p>
+        <blockquote>
+        <p>I used my limited artistic skills to make some test replacement sprites with a black and purple colour scheme. These are useful to quickly spot if there are any oddities where dialogue boxes in apps are rendered in the wrong colour or have light grey fills where they shouldn’t.</p>
+        </blockquote>
+        <p>That&#8217;s perfectly fine, so I have created a version of it for ExtTheme if you wanted that to be converted. I can show it at the <span class="caps">ROUGOL</span> meeting if you want.</p>
+        <p>For all testers, given nigthly seems to be still on Wimp 5.88 and it has not the TitleTextColour, I have kept Sprow&#8217;s new bits disabled on ExtTheme for 5.88, however they are enabled for Wimp 5.89 (which should be the one with the mentioned features available), so testing with 5.89 should allow you already to use the new bits.</p>]]>
+      </description>
+      <source:markdown>Clarifying a bit of confusion created by Sprow’s post, I guess he is not fully aware of the discussion here maybe.
+
+Sprow said:
+
+&#62; Having finally got those in to Wimp 5.88 (so that feature is in the 5.31 nightly builds) I’ve unpicked the branches so my prototype dark mode support is just a single branch.
+
+“nigthly” build 2026-03-24 for RPC (I use RPCEmu for testing) has WindowManager 5.88, however the option you’ve mentioned is still NOT there, the TitleTextColour option in WimpVisualFlags I mean, so I think this needs to be corrected to Wimp 5.89 instead?
+
+&#62; If you’re trying to design a theme then to have the CoFlags be propagated from your theme design into the live set in Choices you’ll need an updated ThemeSetup plug in.
+
+I think you may have got a bit confused; this thread is about a TOOL that handles all of this and for pretty much ALLRISC OS releases (all the way down to RISCOS 3.10) instead of the ROOL’s tools (which are only RISC OS 5, and do not support previous themeing protocols). So no, there is no need for any ThemeSetup when using ExtTheme (but if people want to have both, that’s fine, however ExtTheme is completely selfcontained and doesn’t requires any of the ROOL tools).
+
+&#62; I used my limited artistic skills to make some test replacement sprites with a black and purple colour scheme. These are useful to quickly spot if there are any oddities where dialogue boxes in apps are rendered in the wrong colour or have light grey fills where they shouldn’t.
+
+That’s perfectly fine, so I have created a version of it for ExtTheme if you wanted that to be converted. I can show it at the ROUGOL meeting if you want.
+
+For all testers, given nigthly seems to be still on Wimp 5.88 and it has not the TitleTextColour, I have kept Sprow’s new bits disabled on ExtTheme for 5.88, however they are enabled for Wimp 5.89 (which should be the one with the mentioned features available), so testing with 5.89 should allow you already to use the new bits.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20199:163415</guid>
+    </item>    <item>
+      <title>Using the Dwarf Mini on RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
+      <description>
+        <![CDATA[<p>There&#8217;s a meteor shower tonight, would the wide angle camera of the mini be useful to record motion over a large area of the sky?</p>
+        <p>I am tempted to get a very wide angle low light sensor to make an all sky camera, just to capture the hundreds of meteors I know will shot by just after I&#8217;ve given up sitting outside on the lounger, having seen 3 or 4 out of the corner of my eye, as they never seem to appear where you are actually looking!</p>
+        <p>I once caught a large meteor on the security camera I mounted over looking the bay on the back of our static caravan, which I was quite impressed by.</p>]]>
+      </description>
+      <source:markdown>There’s a meteor shower tonight, would the wide angle camera of the mini be useful to record motion over a large area of the sky?
+
+I am tempted to get a very wide angle low light sensor to make an all sky camera, just to capture the hundreds of meteors I know will shot by just after I’ve given up sitting outside on the lounger, having seen 3 or 4 out of the corner of my eye, as they never seem to appear where you are actually looking!
+
+I once caught a large meteor on the security camera I mounted over looking the bay on the back of our static caravan, which I was quite impressed by.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20262:163409</guid>
+    </item>    <item>
+      <title>Quick videos for RISC OS Coding</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20353</link>
+      <description>
+        <![CDATA[<p>Sixth video &#8211; How to claim vectors</p>
+        <p><a href="https://www.youtube.com/watch?v=jtn0fPkNPpc&amp;list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn&amp;index=6">https://www.youtube.com/watch?v=jtn0fPkNPpc&amp;amp;list=P…</a></p>
+        <p>Note that this is a very simple claimant; it doesn&#8217;t handle it as well as the vector-trap example on GitHub (<a href="https://github.com/gerph/riscos-vectortrap-example">https://github.com/gerph/riscos-vectortrap-example</a>) as it&#8217;s purely trying to show how a simple vector manipulation can be performed.</p>]]>
+      </description>
+      <source:markdown>Sixth video – How to claim vectors
+
+[https://www.youtube.com/watch?v=jtn0fPkNPpc&#38;amp;list=P…](https://www.youtube.com/watch?v=jtn0fPkNPpc&#38;list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn&#38;index=6)
+
+Note that this is a very simple claimant; it doesn’t handle it as well as the vector-trap example on GitHub ( [https://github.com/gerph/riscos-vectortrap-example](https://github.com/gerph/riscos-vectortrap-example)) as it’s purely trying to show how a simple vector manipulation can be performed.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20353:163403</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3mjkcspzvfc2k</link>
+      <description>
+        <![CDATA[At our next meeting on Monday 20th April we will be looking at how to spruce up the appearance of your desktop with @paolofabiozaino.bsky.social 
+        https://rougol.jellybaby.net/meetings/index.html]]>
+      </description>
+      <source:markdown>At our next meeting on Monday 20th April we will be looking at how to spruce up the appearance of your desktop with @paolofabiozaino.bsky.social
+https://rougol.jellybaby.net/meetings/index.html</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mjkcspzvfc2k</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>I made the modification to the code above so that mousehack is not turned off in full-screen mode — and also in another point of the same file where there is code to turn it back on again when exiting full-screen mode. I have commented out the original code rather than deleting it entirely.</p>
+        <p>I have tested this on a MacBook Air M4 using the <span class="caps">RISC</span> OS Direct &#8220;easy start bundle&#8221; with the modifications mentioned earlier in the thread by David Pitt and can report that it works. The mouse pointer &#8220;jumps&#8221; a little when you first enter or leave full-screen mode . It&#8217;s obvious that the OS mouse configuration settings won&#8217;t work but this shouldn&#8217;t be a problem. At least it&#8217;s now usable in full-screen mode where it wasn&#8217;t before.</p>
+        <p>I&#8217;ve noted an oddity in the Mac version of RPCEmu — not a result of my changes. (The incorrect message was displayed in the original version cloned from Chris Gransden&#8217;s repository.) There is conditional compilation based on Q_OS_MACOS having been defined. At one point this says that when entering full-screen mode there should be a message saying to press &#8220;<span class="caps">CTRL</span> and <span class="caps">COMMAND</span>&#8221; tp exit full-screen mode. But the message <em>actually</em> displays &#8220;<span class="caps">CTRL</span> and <span class="caps">END</span>&#8221; which is the message for other OSs. This makes me wonder if there issues in picking up MacOS correctly, and which might be responsible for some of the issues identified in this thread.</p>
+        <p><span class="caps">CTRL</span> and <span class="caps">END</span> doesn&#8217;t work, though <span class="caps">COMMAND</span> and <span class="caps">END</span> does — though on my MacBook that&#8217;s <span class="caps">COMMANND</span> + FN + &#8594; .<span class="caps">CTRL</span> and <span class="caps">COMMAND</span> does work.</p>
+        <p>You can find the modified version of <code>main_window.cpp</code> at <a href="https://github.com/DrDavidGee/RPCEmu-for-Mac">https://github.com/DrDavidGee/RPCEmu-for-Mac</a></p>]]>
+      </description>
+      <source:markdown>I made the modification to the code above so that mousehack is not turned off in full-screen mode — and also in another point of the same file where there is code to turn it back on again when exiting full-screen mode. I have commented out the original code rather than deleting it entirely.
+
+I have tested this on a MacBook Air M4 using the RISC OS Direct “easy start bundle” with the modifications mentioned earlier in the thread by David Pitt and can report that it works. The mouse pointer “jumps” a little when you first enter or leave full-screen mode . It’s obvious that the OS mouse configuration settings won’t work but this shouldn’t be a problem. At least it’s now usable in full-screen mode where it wasn’t before.
+
+I’ve noted an oddity in the Mac version of RPCEmu — not a result of my changes. (The incorrect message was displayed in the original version cloned from Chris Gransden’s repository.) There is conditional compilation based on Q\_OS\_MACOS having been defined. At one point this says that when entering full-screen mode there should be a message saying to press “CTRL and COMMAND” tp exit full-screen mode. But the message _actually_ displays “CTRL and END” which is the message for other OSs. This makes me wonder if there issues in picking up MacOS correctly, and which might be responsible for some of the issues identified in this thread.
+
+CTRL and END doesn’t work, though COMMAND and END does — though on my MacBook that’s COMMANND \+ FN + → .CTRL and COMMAND does work.
+
+You can find the modified version of `main_window.cpp` at [https://github.com/DrDavidGee/RPCEmu-for-Mac](https://github.com/DrDavidGee/RPCEmu-for-Mac)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:163396</guid>
+    </item>    <item>
+      <title>Modern printer drivers</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20366</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Yes ippdiscover does see something and mentions my printer, but not sure what to do with the information it generated</p>
+        </blockquote>
+        <p>Did ippdiscover return something like,</p>
+        <p>ipps://192.168.1.100/ipp/print</p>
+        <p>If looks like !GetIPP only supports,</p>
+        <p><a href="http://192.168.1.100/ipp/print">http://192.168.1.100/ipp/print</a></p>
+        <p>You&#8217;ll need to make sure your printer has port 80 and http enabled.</p>]]>
+      </description>
+      <source:markdown>&#62; Yes ippdiscover does see something and mentions my printer, but not sure what to do with the information it generated
+
+Did ippdiscover return something like,
+
+ipps://192.168.1.100/ipp/print
+
+If looks like !GetIPP only supports,
+
+[http://192.168.1.100/ipp/print](http://192.168.1.100/ipp/print)
+
+You’ll need to make sure your printer has port 80 and http enabled.</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20366:163395</guid>
+    </item>    <item>
+      <title>Network Printing / RemotePrinterFS</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20360</link>
+      <description>
+        <![CDATA[<p>Hi Stefan,</p>
+        <blockquote>
+        <p>FindIPP says: “No useful printer found”. I presume I cannot make so much wrong in this case?</p>
+        </blockquote>
+        <p>Sometimes the printer will time out between it being found and the data being sent back and hence you that error.</p>
+        <p>As previously mentioned try the other application !GetIPP.</p>
+        <p>Try entering <a href="http://192.168.178.173:631/ipp/print">http://192.168.178.173:631/ipp/print</a> in the dialogue box and it should get the printer definition file hopefully.</p>
+        <p>Update: Forgot to say sometimes repeat tries of running FindIPP also gets the information eventually if the printer is slow to respond.</p>]]>
+      </description>
+      <source:markdown>Hi Stefan,
+
+&#62; FindIPP says: “No useful printer found”. I presume I cannot make so much wrong in this case?
+
+Sometimes the printer will time out between it being found and the data being sent back and hence you that error.
+
+As previously mentioned try the other application !GetIPP.
+
+Try entering [http://192.168.178.173:631/ipp/print](http://192.168.178.173:631/ipp/print) in the dialogue box and it should get the printer definition file hopefully.
+
+Update: Forgot to say sometimes repeat tries of running FindIPP also gets the information eventually if the printer is slow to respond.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20360:163394</guid>
+    </item>    <item>
       <title>CardData in !Store</title>
       <link>https://www.riscosopen.org/forum/forums/2/topics/20359</link>
       <description>
@@ -41,33 +186,6 @@ The latest edition of Drag&#39;n&#39;Drop magazine was released at the RISC OS N
       <source:markdown>Have I shown this kind of RISC OS Custom Icon before? Type 92 is IFR – just put the filename of some renderable file in an icon and set its validation to “R92”. Hey presto, graphic file cached and displayed automatically. \[see alt\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mjhus3fopc2y</guid>
     </item>    <item>
-      <title>Quick videos for RISC OS Coding</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20353</link>
-      <description>
-        <![CDATA[<p>Fifth video &#8211; How to create a <span class="caps">RISC</span> OS module.</p>
-        <p><a href="https://www.youtube.com/watch?v=F7FJUOiJ66A&amp;list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn&amp;index=5">https://www.youtube.com/watch?v=F7FJUOiJ66A&amp;amp;list=P…</a></p>]]>
-      </description>
-      <source:markdown>Fifth video – How to create a RISC OS module.
-
-[https://www.youtube.com/watch?v=F7FJUOiJ66A&#38;amp;list=P…](https://www.youtube.com/watch?v=F7FJUOiJ66A&#38;list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn&#38;index=5)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20353:163325</guid>
-    </item>    <item>
-      <title>Using the Dwarf Mini on RISC OS</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
-      <description>
-        <![CDATA[<p>Has another go at the comet last night, <a href="https://vermilionsands.uk/roast/index.php/2026/04/13/a-comet/">better picture and more details here.</a></p>
-        <blockquote>
-        <p>Did the image come out the right way round?</p>
-        </blockquote>
-        <p>Nope, upside down. Not that it matters much for astro photos, and easily fixed. Belated thanks for the work, though :-)</p>]]>
-      </description>
-      <source:markdown>Has another go at the comet last night, [better picture and more details here.](https://vermilionsands.uk/roast/index.php/2026/04/13/a-comet/)
-
-&#62; Did the image come out the right way round?
-
-Nope, upside down. Not that it matters much for astro photos, and easily fixed. Belated thanks for the work, though :-)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20262:163319</guid>
-    </item>    <item>
       <title>Claiming ByteV</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20362</link>
       <description>
@@ -89,23 +207,6 @@ Nope, upside down. Not that it matters much for astro photos, and easily fixed. 
 Indeed, but no supporter of ROOL and the platform generally can regard a system where £20k (25% of total bounty allocations, no less) will be spent duplicating functionality that already exists as satisfactory, or incapable of improvement. Simple question: if and when ROOL’s stack becomes available, how many people will actually use it? I’m sure all the actors involved in this situation were motivated by a sincere wish to do the best for the platform, but the upshot has been a gross waste of resources, as far as I can see. There must be a better way, surely?</source:markdown>
       <guid>cid://www.riscosopen.org:5:20335:163311</guid>
     </item>    <item>
-      <title>Network Printing / RemotePrinterFS</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20360</link>
-      <description>
-        <![CDATA[<p>@Doug Webb: Sorry for having asked. Maybe you&#8217;ll try Google Search yourself? You&#8217;ll get nothing of worth and certainly not the website &#8220;<a href="https://www.sbellon.de/sw-modules.html%E2%80%9D">https://www.sbellon.de/sw-modules.html&amp;#8221;</a>. Far better are the results of Brave Search (AI) for &#8220;<span class="caps">RISC</span> OS network printing&#8221; and &#8220;RemotePrinterFS&#8221;. They will give general explanations but not a certain website with software to download. Which is 20 years old, maybe that is the reason.<br />
-        And installing the tool and finding out the exact command to write into the printer driver connections, the next.<br />
-        <span class="caps">BTW</span>: The Brother Network printer I bought long ago because Brother is said to be very Linux-friendly. And they are. In Linux you start Mint or MX and the printer will be detected simply because it is connected via a network cable &#8211; and is correctly handled down to it&#8217;s ability for printing double-sided.<br />
-        It&#8217;s always a problem if someone new signs on the <span class="caps">RISC</span> OS muster roll&#8230; but take the positive side: It will not happen all to often!</p>]]>
-      </description>
-      <source:markdown>@Doug Webb: Sorry for having asked. Maybe you’ll try Google Search yourself? You’ll get nothing of worth and certainly not the website “ [https://www.sbellon.de/sw-modules.html&#38;#8221;](https://www.sbellon.de/sw-modules.html%E2%80%9D). Far better are the results of Brave Search (AI) for “RISC OS network printing” and “RemotePrinterFS”. They will give general explanations but not a certain website with software to download. Which is 20 years old, maybe that is the reason.
-
-And installing the tool and finding out the exact command to write into the printer driver connections, the next.
-
-BTW: The Brother Network printer I bought long ago because Brother is said to be very Linux-friendly. And they are. In Linux you start Mint or MX and the printer will be detected simply because it is connected via a network cable – and is correctly handled down to it’s ability for printing double-sided.
-
-It’s always a problem if someone new signs on the RISC OS muster roll… but take the positive side: It will not happen all to often!</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20360:163309</guid>
-    </item>    <item>
       <title>Drag&#39;n&#39;Drop 15i2 edition reviewed</title>
       <link>http://www.iconbar.com/comments/rss/news2323.html</link>
       <description>
@@ -113,66 +214,6 @@ It’s always a problem if someone new signs on the RISC OS muster roll… but t
       </description>
       <source:markdown>The latest edition of Drag&#39;n&#39;Drop magazine was released at the RISC OS North Show where Drag&#39;n&#39;drop were also exhibitors.</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2323.html</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>Well, it turned out that I&#8217;ve identified why &#8220;follow host mouse&#8221; doesn&#8217;t work in full-screen mode:</p>
-        <pre><code>void
-        MainDisplay::mouseMoveEvent(QMouseEvent *event)
-        {
-        	if((!pconfig_copy-&gt;mousehackon &amp;&amp; mouse_captured) || full_screen) {
-        		QPoint middle;</code>
-        
-        <code>		// In mouse capture mode move the mouse back to the middle of the window */ 
-        		middle.setX(this-&gt;width() / 2);
-        		middle.setY(this-&gt;height() / 2);</code>
-        
-        <code>		QCursor::setPos(this-&gt;mapToGlobal(middle));</code>
-        
-        <code>		// Calculate relative deltas based on difference from centre of display widget
-        		int dx = event-&gt;x() - middle.x();
-        		int dy = event-&gt;y() - middle.y();</code>
-        
-        <code>		emit this-&gt;emulator.mouse_move_relative_signal(dx, dy);
-        	} else if(pconfig_copy-&gt;mousehackon) {
-        		// Follows host mouse (mousehack) mode
-        		emit this-&gt;emulator.mouse_move_signal(event-&gt;x(), event-&gt;y());
-        	}</code>
-        
-        <code>}</code></pre>
-        <p>So if <code>full_screen</code> is true then the <code>mousehack</code> setting isn&#8217;t acted on. Now this wouldn&#8217;t matter if the mouse &#8220;behaved&#8221; correctly in non-follow-host-mouse mode &mdash; but it <em>doesn&#8217;t</em>. Next step might be to try modifying this code and see if the result works correctly. I appreciate that follow-host-mouse mode is considered undesirable — the name <em>mousehack</em> at least suggests it — but is there any reason why this wouldn&#8217;t work?</p>]]>
-      </description>
-      <source:markdown>Well, it turned out that I’ve identified why “follow host mouse” doesn’t work in full-screen mode:
-
-```
-void
-MainDisplay::mouseMoveEvent(QMouseEvent *event)
-{
-	if((!pconfig_copy-&#62;mousehackon &#38;&#38; mouse_captured) || full_screen) {
-		QPoint middle;
-
-		// In mouse capture mode move the mouse back to the middle of the window */
-		middle.setX(this-&#62;width() / 2);
-		middle.setY(this-&#62;height() / 2);
-
-		QCursor::setPos(this-&#62;mapToGlobal(middle));
-
-		// Calculate relative deltas based on difference from centre of display widget
-		int dx = event-&#62;x() - middle.x();
-		int dy = event-&#62;y() - middle.y();
-
-		emit this-&#62;emulator.mouse_move_relative_signal(dx, dy);
-	} else if(pconfig_copy-&#62;mousehackon) {
-		// Follows host mouse (mousehack) mode
-		emit this-&#62;emulator.mouse_move_signal(event-&#62;x(), event-&#62;y());
-	}
-
-}
-```
-
-So if `full_screen` is true then the `mousehack` setting isn’t acted on. Now this wouldn’t matter if the mouse “behaved” correctly in non-follow-host-mouse mode — but it _doesn’t_. Next step might be to try modifying this code and see if the result works correctly. I appreciate that follow-host-mouse mode is considered undesirable — the name _mousehack_ at least suggests it — but is there any reason why this wouldn’t work?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:163287</guid>
     </item>    <item>
       <title>RISC PC monitor problem</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20354</link>
@@ -832,26 +873,6 @@ Need to remove the “&#38; amp;t=5s” from the end.</source:markdown>
 images.nasa.gov
 https://images.nasa.gov/</source:markdown>
       <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3miw5b5v3bs2d</guid>
-    </item>    <item>
-      <title>New DME ExtTheme and Launchpad available for download and testing</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
-      <description>
-        <![CDATA[<p>Despite never having used <span class="caps">RISC</span> OS before 2012, what&#8217;s meant by Set, Save and Default has always been clear. In my experience Windows usually used to offer OK, Apply and Cancel where</p>
-        <ul>
-        	<li>OK = change the settings, then close the dialog;</li>
-        	<li>Apply = change the settings, don&#8217;t close the dialog;</li>
-        	<li>Cancel = leave things as they are, close the dialog.</li>
-        </ul>
-        <p>The current trend on all OSs (apart from RO) is for the change to be made immediately (and saved) without any further user intervention. First noticed this on <span class="caps">GNOME</span> but it has spread&#8230;</p>]]>
-      </description>
-      <source:markdown>Despite never having used RISC OS before 2012, what’s meant by Set, Save and Default has always been clear. In my experience Windows usually used to offer OK, Apply and Cancel where
-
-- OK = change the settings, then close the dialog;
-- Apply = change the settings, don’t close the dialog;
-- Cancel = leave things as they are, close the dialog.
-
-The current trend on all OSs (apart from RO) is for the change to be made immediately (and saved) without any further user intervention. First noticed this on GNOME but it has spread…</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20199:162975</guid>
     </item>    <item>
       <title>Voices from a future passed</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20309</link>
