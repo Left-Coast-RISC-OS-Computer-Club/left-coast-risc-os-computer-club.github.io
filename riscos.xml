@@ -7,23 +7,148 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>17 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>18 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>IconBordersSciFi experiment for a Friday evening</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20371</link>
+      <description>
+        <![CDATA[<p>The ancient page that showed off the buttons &#8230; <a href="https://usenet.gerph.org/IconBorders/">https://usenet.gerph.org/IconBorders/</a></p>]]>
+      </description>
+      <source:markdown>The ancient page that showed off the buttons … [https://usenet.gerph.org/IconBorders/](https://usenet.gerph.org/IconBorders/)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20371:163536</guid>
+    </item>    <item>
+      <title>Modern Frosted Theme</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Some applications do their own icon rendering, or have text editing areas that are done via the basic SWIs like Font_Paint. How can such applications adapt to the user using a dark mode (or even a blue mode or a purple mode, to think more generally!)?</p>
+        </blockquote>
+        <p>There&#8217;s a new Wimp_ReadSysInfo 30 inspired by how <a href="https://learn.microsoft.com/en-us/windows/apps/desktop/modernize/ui/apply-windows-themes">Windows does it</a>, giving 0=light, 1=dark. It&#8217;s a good point that it would be useful to be able to read back the actual colours so if your theme is actually royal blue you&#8217;d know to fill with that colour and not black.</p>]]>
+      </description>
+      <source:markdown>&#62; Some applications do their own icon rendering, or have text editing areas that are done via the basic SWIs like Font\_Paint. How can such applications adapt to the user using a dark mode (or even a blue mode or a purple mode, to think more generally!)?
+
+There’s a new Wimp\_ReadSysInfo 30 inspired by how [Windows does it](https://learn.microsoft.com/en-us/windows/apps/desktop/modernize/ui/apply-windows-themes), giving 0=light, 1=dark. It’s a good point that it would be useful to be able to read back the actual colours so if your theme is actually royal blue you’d know to fill with that colour and not black.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20138:163533</guid>
+    </item>    <item>
+      <title>Quick videos for RISC OS Coding</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20353</link>
+      <description>
+        <![CDATA[<p>Last one of this series of videos &#8211; they do take a while to make, so I only did 9 in this batch.</p>
+        <p><a href="https://www.youtube.com/watch?v=BLwc-sUKnDE&amp;list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn&amp;index=9">https://www.youtube.com/watch?v=BLwc-sUKnDE&amp;amp;list=P…</a></p>
+        <p>In this short video, I&#8217;m exploring a few of the tools that are present in the build environment &#8211; a whistle-stop tour through a few of the tools that help work with <span class="caps">RISC</span> OS code.</p>]]>
+      </description>
+      <source:markdown>Last one of this series of videos – they do take a while to make, so I only did 9 in this batch.
+
+[https://www.youtube.com/watch?v=BLwc-sUKnDE&#38;amp;list=P…](https://www.youtube.com/watch?v=BLwc-sUKnDE&#38;list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn&#38;index=9)
+
+In this short video, I’m exploring a few of the tools that are present in the build environment – a whistle-stop tour through a few of the tools that help work with RISC OS code.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20353:163528</guid>
+    </item>    <item>
+      <title>Rougol April 2026 meeting on monday - Desktop themes</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13572&#38;page=1#125885</link>
+      <description>
+        <![CDATA[There has been so much development in this area recently, which has been fantastic to see; literally! Looking forward to this meeting a lot.]]>
+      </description>
+      <source:markdown>There has been so much development in this area recently, which has been fantastic to see; literally! Looking forward to this meeting a lot.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13572&#38;page=1#125885</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mjrpqzfqok2l</link>
+      <description>
+        <![CDATA[Great to see Martin Galway has recently shared his C64 music driver and data for Wizball. For those that don't already know, Martin started his computer music career on the BBC Micro whilst at high school. His first version of YMO's Rydeen was composed on a Beeb!
+        https://github.com/MartinGalway/C64_music]]>
+      </description>
+      <source:markdown>Great to see Martin Galway has recently shared his C64 music driver and data for Wizball. For those that don&#39;t already know, Martin started his computer music career on the BBC Micro whilst at high school. His first version of YMO&#39;s Rydeen was composed on a Beeb!
+https://github.com/MartinGalway/C64\_music</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mjrpqzfqok2l</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mjrp7w5wqs2l</link>
+      <description>
+        <![CDATA[An old one, but still makes me smile. I think the defrag hasn't quite finished as the tail needs fixing too.]]>
+      </description>
+      <source:markdown>An old one, but still makes me smile. I think the defrag hasn&#39;t quite finished as the tail needs fixing too.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mjrp7w5wqs2l</guid>
+    </item>    <item>
+      <title>Using the Dwarf Mini on RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>E pur si muove!</p>
+        </blockquote>
+        <p>I still hope for a long time.</p>]]>
+      </description>
+      <source:markdown>&#62; E pur si muove!
+
+I still hope for a long time.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20262:163521</guid>
+    </item>    <item>
+      <title>BBC BASIC - Simple OOP Extensions</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20102</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I experimented with Obey files + Basic, =&gt; powerful tool.</p>
+        </blockquote>
+        <p>In some ways, <span class="caps">BASIC</span> is the bash of <span class="caps">RISC</span> OS &#8211; the <span class="caps">CLI</span> in <span class="caps">RISC</span> OS is so utterly primitive, that for anything more programmatic, <span class="caps">BASIC</span> is the obvious answer. But you generally need some decent libraries to avoid having to reinvent wheels all the time. And there are complications with shelling to subcommands from <span class="caps">BASIC</span>. It&#8217;s all a bit ugly, really&#8230; But if someone enjoys that stuff, more power to them! :)</p>]]>
+      </description>
+      <source:markdown>&#62; I experimented with Obey files + Basic, =&#62; powerful tool.
+
+In some ways, BASIC is the bash of RISC OS – the CLI in RISC OS is so utterly primitive, that for anything more programmatic, BASIC is the obvious answer. But you generally need some decent libraries to avoid having to reinvent wheels all the time. And there are complications with shelling to subcommands from BASIC. It’s all a bit ugly, really… But if someone enjoys that stuff, more power to them! :)</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20102:163518</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3mjrfjjej4c2t</link>
+      <description>
+        <![CDATA[Coming up next month, the ARX team finally get to give their side of the story! 
+        https://rougol.jellybaby.net/meetings/jimmitchell.html
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Coming up next month, the ARX team finally get to give their side of the story!
+https://rougol.jellybaby.net/meetings/jimmitchell.html
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mjrfjjej4c2t</guid>
+    </item>    <item>
       <title>Random projects...</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
       <description>
-        <![CDATA[<p>I&#8217;m not sure that there isn&#8217;t a problem with the networking. Specifically I&#8217;m unable to get !Store to work in either of the &#8220;bundles&#8221; — it fails in exactly the same way in both RO 3.71 and RO 5.27 (Direct).</p>
-        <p>You double-click it in the usual way, it says &#8220;Checking for program update&#8221; and then &#8220;downloading program update&#8221; — the progress bar gets almost to the end then an error box is displayed that says &#8220;Not found&#8221;. Click on continue and you get &#8220;application may have gone wrong&#8221;. Clicking on describe gives &#8220;Unknown instruction at <code>&lt;address&gt;</code>&#8221; where <code>&lt;address&gt;</code> is a sequence of hex digits. I typed this into &#8220;where&#8221; in a task window (or I hope I typed it in correctly, the nature of error boxes constraining the pointer and the fact that they are &#8220;system modal&#8221; to use Windows terminology makes this very difficult). I was told this was within application memory.</p>
-        <p>I tried it with a version of !Store dowloaded from the website — surely then it wouldn&#8217;t need to install an updated version — but the same happened. Whilst other networking, and !Packman, seem OK, I do notice that in general network access is significantly slower than running RPCEmu on a PC, even though this Mac, which supports WiFi 6, is usually quite a bit faster than the PC, which doesn&#8217;t…</p>]]>
+        <![CDATA[<p>Here is my Frosted PlingStore 1.52f if you want tyo try that <a href="https://drive.google.com/file/d/1cBxOYyTSWI9PgiC4oswDxabGwKeAi9RA/view?usp=sharing">Frosted !PlingStore</a></p>]]>
       </description>
-      <source:markdown>I’m not sure that there isn’t a problem with the networking. Specifically I’m unable to get !Store to work in either of the “bundles” — it fails in exactly the same way in both RO 3.71 and RO 5.27 (Direct).
+      <source:markdown>Here is my Frosted PlingStore 1.52f if you want tyo try that [Frosted !PlingStore](https://drive.google.com/file/d/1cBxOYyTSWI9PgiC4oswDxabGwKeAi9RA/view?usp=sharing)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:163514</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mjrdsfvutk2l</link>
+      <description>
+        <![CDATA[Unboxing NES Silver Surfer. This is the free game I received for working on the game when it was first released back in 1990. It has never been booted up as it's an NTSC version - this won't work on a UK NES console. Hard to believe this was 35 years ago! For once we were credited in the manual.]]>
+      </description>
+      <source:markdown>Unboxing NES Silver Surfer. This is the free game I received for working on the game when it was first released back in 1990. It has never been booted up as it&#39;s an NTSC version - this won&#39;t work on a UK NES console. Hard to believe this was 35 years ago! For once we were credited in the manual.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mjrdsfvutk2l</guid>
+    </item>    <item>
+      <title>Modern printer drivers</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20366</link>
+      <description>
+        <![CDATA[<p>@Dave.<br />
+        This is great work and much needed. Keep going with <span class="caps">IPP</span> Dave :-)</p>]]>
+      </description>
+      <source:markdown>@Dave.
 
-You double-click it in the usual way, it says “Checking for program update” and then “downloading program update” — the progress bar gets almost to the end then an error box is displayed that says “Not found”. Click on continue and you get “application may have gone wrong”. Clicking on describe gives “Unknown instruction at `&#60;address&#62;`” where `&#60;address&#62;` is a sequence of hex digits. I typed this into “where” in a task window (or I hope I typed it in correctly, the nature of error boxes constraining the pointer and the fact that they are “system modal” to use Windows terminology makes this very difficult). I was told this was within application memory.
+This is great work and much needed. Keep going with IPP Dave :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20366:163513</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mjr2a6tjuc22</link>
+      <description>
+        <![CDATA[Rougol April 2026 meeting on Monday - Desktop themes 
+        
+        https://www.iconbar.com/articles/Rougol_April_2026_meeting_on_monday_-_Desktop_themes/index2312.html 
+        
+        The April 2026 Rougol meeting is on Monday and brings together current desktop theme developments]]>
+      </description>
+      <source:markdown>Rougol April 2026 meeting on Monday - Desktop themes
 
-I tried it with a version of !Store dowloaded from the website — surely then it wouldn’t need to install an updated version — but the same happened. Whilst other networking, and !Packman, seem OK, I do notice that in general network access is significantly slower than running RPCEmu on a PC, even though this Mac, which supports WiFi 6, is usually quite a bit faster than the PC, which doesn’t…</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:163483</guid>
+https://www.iconbar.com/articles/Rougol\_April\_2026\_meeting\_on\_monday\_-\_Desktop\_themes/index2312.html
+
+The April 2026 Rougol meeting is on Monday and brings together current desktop theme developments</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mjr2a6tjuc22</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mjpdwaqfwc2q</link>
       <description>
@@ -66,32 +191,6 @@ Reader, it was not.</source:markdown>
       <source:markdown>If you think your RISC OS desktop is looking a bit bland and in need of a lick of paint, Paolo Zaino has the tool to help with that task in the form of ExtTheme – and he’ll be presenting it to the RISC OS User Group of London (ROUGOL) at the group’s next meeting, on 20th April. A theme is a package of graphics and related items designed to give your desktop a particular appearance – and the ExtTheme application is intended make installing and switching between different themes…</source:markdown>
       <guid>cid://https://www.riscository.com/?p=10926</guid>
     </item>    <item>
-      <title>Modern Frosted Theme</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20138</link>
-      <description>
-        <![CDATA[<p>Dark Mode Testing with Wimp 5.89</p>
-        <p>Okay I have put together a Zip for those that would like to test the upcoming changes to the <span class="caps">WIMP</span> and Dark mode theme.<br />
-        There is a pre compiled <span class="caps">WIMP</span> Module that can be soft loaded by adding it to Boot.Choices.Boot.Predesk (Don&#8217;t use your main system, unless you like to live dangerously!)</p>
-        <p>There is a Bug in Pinboard2 where it doesn&#8217;t blend the Text on the Iconbar, you will have to go into the Pinboard settings and reapply font blending for it to work correctly.</p>
-        <p>This app works correctly with the stock <span class="caps">ROOL</span> build.</p>
-        <p>Then after a reboot just run !TestDark &#8211; You have DarkMode Enjoy :)  (Feedback welcome!)</p>
-        <p><a href="https://drive.google.com/file/d/1mzzTJXzjC0kX4v37nuMRFkR1a8EBHfW5/view?usp=sharing">Download to Dark</a></p>]]>
-      </description>
-      <source:markdown>Dark Mode Testing with Wimp 5.89
-
-Okay I have put together a Zip for those that would like to test the upcoming changes to the WIMP and Dark mode theme.
-
-There is a pre compiled WIMP Module that can be soft loaded by adding it to Boot.Choices.Boot.Predesk (Don’t use your main system, unless you like to live dangerously!)
-
-There is a Bug in Pinboard2 where it doesn’t blend the Text on the Iconbar, you will have to go into the Pinboard settings and reapply font blending for it to work correctly.
-
-This app works correctly with the stock ROOL build.
-
-Then after a reboot just run !TestDark – You have DarkMode Enjoy :) (Feedback welcome!)
-
-[Download to Dark](https://drive.google.com/file/d/1mzzTJXzjC0kX4v37nuMRFkR1a8EBHfW5/view?usp=sharing)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20138:163479</guid>
-    </item>    <item>
       <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
       <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
       <description>
@@ -123,14 +222,6 @@ Then after a reboot just run !TestDark – You have DarkMode Enjoy :) (Feedback 
 
 This is exactly the thread. That’s the reason why I post here ;-)</source:markdown>
       <guid>cid://www.riscosopen.org:10:9593:163475</guid>
-    </item>    <item>
-      <title>BBC BASIC - Simple OOP Extensions</title>
-      <link>https://www.riscosopen.org/forum/forums/2/topics/20102</link>
-      <description>
-        <![CDATA[<p><a href="https://www.riscosopen.org/wiki/documentation/show/BBC%20BASIC%20Structures">This</a> is my proposal&#8230; Note: the page is draft so this is still work-in-progress as a proposal. It&#8217;d be a lot easier to do if <span class="caps">BASIC</span> was written in C, <a href="https://www.riscosopen.org/news/articles/2026/03/30/matching-doubles-up-your-moonshot-contributions">just saying</a>&#8230;</p>]]>
-      </description>
-      <source:markdown>[This](https://www.riscosopen.org/wiki/documentation/show/BBC%20BASIC%20Structures) is my proposal… Note: the page is draft so this is still work-in-progress as a proposal. It’d be a lot easier to do if BASIC was written in C, [just saying](https://www.riscosopen.org/news/articles/2026/03/30/matching-doubles-up-your-moonshot-contributions)…</source:markdown>
-      <guid>cid://www.riscosopen.org:2:20102:163473</guid>
     </item>    <item>
       <title>Status update for RISC OS 64-bit work</title>
       <link>https://www.riscosopen.org/forum/forums/13/topics/20370</link>
@@ -250,23 +341,6 @@ In other news, ROOL have claimed to have a TerritoryManager in C, but I’ve not
       <source:markdown>The latest version of Iris can be obtained by clicking “Iris Updates” which is the first link on the default Iris homepage.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20369:163470</guid>
     </item>    <item>
-      <title>Quick videos for RISC OS Coding</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20353</link>
-      <description>
-        <![CDATA[<p>Seventh video is up &#8211; <a href="https://www.youtube.com/watch?v=qqbpdTF1yDE&amp;list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn&amp;index=7">https://www.youtube.com/watch?v=qqbpdTF1yDE&amp;amp;list=P…</a><br />
-        (well it was up a while back, but I&#8217;ve been busy this afternoon)</p>
-        <p>This is an example of writing a <span class="caps">BASIC</span> program which reports text and graphics. This is the Collatz Conjecture in sequence lengths and chart form.</p>
-        <p>Before anyone says anything &#8211; yeah, I didn&#8217;t notice that I wasn&#8217;t sharing the right bit of the screen. I was getting tired, and I couldn&#8217;t be bothered to re-record :-)</p>]]>
-      </description>
-      <source:markdown>Seventh video is up – [https://www.youtube.com/watch?v=qqbpdTF1yDE&#38;amp;list=P…](https://www.youtube.com/watch?v=qqbpdTF1yDE&#38;list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn&#38;index=7)
-
-(well it was up a while back, but I’ve been busy this afternoon)
-
-This is an example of writing a BASIC program which reports text and graphics. This is the Collatz Conjecture in sequence lengths and chart form.
-
-Before anyone says anything – yeah, I didn’t notice that I wasn’t sharing the right bit of the screen. I was getting tired, and I couldn’t be bothered to re-record :-)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20353:163468</guid>
-    </item>    <item>
       <title>New DME ExtTheme and Launchpad available for download and testing</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
       <description>
@@ -366,36 +440,6 @@ What is needed is an add to an existing PDF file,</source:markdown>
       </description>
       <source:markdown>Rarely… Maybe twice in the machine’s life… It’s primarily a RO dev box…</source:markdown>
       <guid>cid://www.riscosopen.org:11:20364:163432</guid>
-    </item>    <item>
-      <title>Modern printer drivers</title>
-      <link>https://www.riscosopen.org/forum/forums/2/topics/20366</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Yep that’s got it, thanks</p>
-        </blockquote>
-        <p>Thats good news.</p>
-        <p>If it was the printer definition change that did it then I&#8217;m sure that David will release the updated IPPTrnspt as soon as he is happy with it.</p>]]>
-      </description>
-      <source:markdown>&#62; Yep that’s got it, thanks
-
-Thats good news.
-
-If it was the printer definition change that did it then I’m sure that David will release the updated IPPTrnspt as soon as he is happy with it.</source:markdown>
-      <guid>cid://www.riscosopen.org:2:20366:163429</guid>
-    </item>    <item>
-      <title>Using the Dwarf Mini on RISC OS</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
-      <description>
-        <![CDATA[<p>There&#8217;s a meteor shower tonight, would the wide angle camera of the mini be useful to record motion over a large area of the sky?</p>
-        <p>I am tempted to get a very wide angle low light sensor to make an all sky camera, just to capture the hundreds of meteors I know will shot by just after I&#8217;ve given up sitting outside on the lounger, having seen 3 or 4 out of the corner of my eye, as they never seem to appear where you are actually looking!</p>
-        <p>I once caught a large meteor on the security camera I mounted over looking the bay on the back of our static caravan, which I was quite impressed by.</p>]]>
-      </description>
-      <source:markdown>There’s a meteor shower tonight, would the wide angle camera of the mini be useful to record motion over a large area of the sky?
-
-I am tempted to get a very wide angle low light sensor to make an all sky camera, just to capture the hundreds of meteors I know will shot by just after I’ve given up sitting outside on the lounger, having seen 3 or 4 out of the corner of my eye, as they never seem to appear where you are actually looking!
-
-I once caught a large meteor on the security camera I mounted over looking the bay on the back of our static caravan, which I was quite impressed by.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20262:163409</guid>
     </item>    <item>
       <link>https://bsky.app/profile/rougol.bsky.social/post/3mjkcspzvfc2k</link>
       <description>
