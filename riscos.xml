@@ -7,10 +7,88 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>18 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>19 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3mjueiophxk2l</link>
+      <description>
+        <![CDATA[Tomorrow evening 🙂
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Tomorrow evening 🙂
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mjueiophxk2l</guid>
+    </item>    <item>
+      <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
+      <description>
+        <![CDATA[<p>@Andrew Rawnsley:Using MailPrint, I&quot;m wondering how you can tell the printer which paper tray to use or that a simple text is to be printed at 180dpi and not in the max photo quality of the printer? Is there any control over this?</p>]]>
+      </description>
+      <source:markdown>@Andrew Rawnsley:Using MailPrint, I&#34;m wondering how you can tell the printer which paper tray to use or that a simple text is to be printed at 180dpi and not in the max photo quality of the printer? Is there any control over this?</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20301:163544</guid>
+    </item>    <item>
+      <title>BBC BASIC - Simple OOP Extensions</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20102</link>
+      <description>
+        <![CDATA[<p>From the point of <span class="caps">BASIC</span> being the &#8216;bash&#8217; of <span class="caps">RISC</span> OS, the main disadvantage of using <span class="caps">BASIC</span> in this way is that it isn&#8217;t easy to get at any command line parameters compared to Python or C. And I find that Python3 has been well integrated into <span class="caps">RISC</span> OS&mdash; you can call a script written in Python by typing its name and pass parameters to it quite easily&mdash;which is more than you can do in Windows.</p>
+        <p>The other thing I like about Python in this context is that it can handle &#8220;globbing&#8221; (i.e. wildcarded file specs).</p>]]>
+      </description>
+      <source:markdown>From the point of BASIC being the ‘bash’ of RISC OS, the main disadvantage of using BASIC in this way is that it isn’t easy to get at any command line parameters compared to Python or C. And I find that Python3 has been well integrated into RISC OS— you can call a script written in Python by typing its name and pass parameters to it quite easily—which is more than you can do in Windows.
+
+The other thing I like about Python in this context is that it can handle “globbing” (i.e. wildcarded file specs).</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20102:163542</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 19th April at 1pm UK time</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20368</link>
+      <description>
+        <![CDATA[<p>Live in about 10 minutes.</p>]]>
+      </description>
+      <source:markdown>Live in about 10 minutes.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20368:163541</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mjtt5sflys2p</link>
+      <description>
+        <![CDATA[I've been going through my archives for NES Wolverine and have managed to re-assemble my original 6502 game code and create a build from the 1st August 1990. As you can see it's a VERY early demo with the 8-way scroll routine, panel and collision working. No Wolverine sprites yet!]]>
+      </description>
+      <source:markdown>I&#39;ve been going through my archives for NES Wolverine and have managed to re-assemble my original 6502 game code and create a build from the 1st August 1990. As you can see it&#39;s a VERY early demo with the 8-way scroll routine, panel and collision working. No Wolverine sprites yet!</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mjtt5sflys2p</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mjtbrkpafk2y</link>
+      <description>
+        <![CDATA[I'll be there!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>I&#39;ll be there!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mjtbrkpafk2y</guid>
+    </item>    <item>
+      <title>RISC OS North R-COMP Video</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20372</link>
+      <description>
+        <![CDATA[<p><a href="https://www.youtube.com/watch?v=QjypbKrnUCw">https://www.youtube.com/watch?v=QjypbKrnUCw</a></p>
+        <p>Video now Live</p>]]>
+      </description>
+      <source:markdown>[https://www.youtube.com/watch?v=QjypbKrnUCw](https://www.youtube.com/watch?v=QjypbKrnUCw)
+
+Video now Live</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20372:163539</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mjsbii5zzc2c</link>
+      <description>
+        <![CDATA[#RISC_OS folks, one of the nice things about being free from old development environments is that we can do things like update the #RISC_OSMerlin toolchain to the latest #Rust 1.95.0, and everything builds and tests run smoothly:
+        
+        #OpenSource #OperatingSystem #SoftwareDevelopment]]>
+      </description>
+      <source:markdown>#RISC\_OS folks, one of the nice things about being free from old development environments is that we can do things like update the #RISC\_OSMerlin toolchain to the latest #Rust 1.95.0, and everything builds and tests run smoothly:
+
+#OpenSource #OperatingSystem #SoftwareDevelopment</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mjsbii5zzc2c</guid>
+    </item>    <item>
       <title>IconBordersSciFi experiment for a Friday evening</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20371</link>
       <description>
@@ -32,6 +110,14 @@
 There’s a new Wimp\_ReadSysInfo 30 inspired by how [Windows does it](https://learn.microsoft.com/en-us/windows/apps/desktop/modernize/ui/apply-windows-themes), giving 0=light, 1=dark. It’s a good point that it would be useful to be able to read back the actual colours so if your theme is actually royal blue you’d know to fill with that colour and not black.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20138:163533</guid>
     </item>    <item>
+      <title>Using the Dwarf Mini on RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
+      <description>
+        <![CDATA[<p>@Chris Excellent!</p>]]>
+      </description>
+      <source:markdown>@Chris Excellent!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20262:163530</guid>
+    </item>    <item>
       <title>Quick videos for RISC OS Coding</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20353</link>
       <description>
@@ -45,6 +131,14 @@ There’s a new Wimp\_ReadSysInfo 30 inspired by how [Windows does it](https://l
 
 In this short video, I’m exploring a few of the tools that are present in the build environment – a whistle-stop tour through a few of the tools that help work with RISC OS code.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20353:163528</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p><img src="https://i.imgflip.com/11evig.jpg" alt="" /></p>]]>
+      </description>
+      <source:markdown>![](https://i.imgflip.com/11evig.jpg)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:163526</guid>
     </item>    <item>
       <title>Rougol April 2026 meeting on monday - Desktop themes</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13572&#38;page=1#125885</link>
@@ -70,32 +164,6 @@ https://github.com/MartinGalway/C64\_music</source:markdown>
       <source:markdown>An old one, but still makes me smile. I think the defrag hasn&#39;t quite finished as the tail needs fixing too.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mjrp7w5wqs2l</guid>
     </item>    <item>
-      <title>Using the Dwarf Mini on RISC OS</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>E pur si muove!</p>
-        </blockquote>
-        <p>I still hope for a long time.</p>]]>
-      </description>
-      <source:markdown>&#62; E pur si muove!
-
-I still hope for a long time.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20262:163521</guid>
-    </item>    <item>
-      <title>BBC BASIC - Simple OOP Extensions</title>
-      <link>https://www.riscosopen.org/forum/forums/2/topics/20102</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I experimented with Obey files + Basic, =&gt; powerful tool.</p>
-        </blockquote>
-        <p>In some ways, <span class="caps">BASIC</span> is the bash of <span class="caps">RISC</span> OS &#8211; the <span class="caps">CLI</span> in <span class="caps">RISC</span> OS is so utterly primitive, that for anything more programmatic, <span class="caps">BASIC</span> is the obvious answer. But you generally need some decent libraries to avoid having to reinvent wheels all the time. And there are complications with shelling to subcommands from <span class="caps">BASIC</span>. It&#8217;s all a bit ugly, really&#8230; But if someone enjoys that stuff, more power to them! :)</p>]]>
-      </description>
-      <source:markdown>&#62; I experimented with Obey files + Basic, =&#62; powerful tool.
-
-In some ways, BASIC is the bash of RISC OS – the CLI in RISC OS is so utterly primitive, that for anything more programmatic, BASIC is the obvious answer. But you generally need some decent libraries to avoid having to reinvent wheels all the time. And there are complications with shelling to subcommands from BASIC. It’s all a bit ugly, really… But if someone enjoys that stuff, more power to them! :)</source:markdown>
-      <guid>cid://www.riscosopen.org:2:20102:163518</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/rougol.bsky.social/post/3mjrfjjej4c2t</link>
       <description>
         <![CDATA[Coming up next month, the ARX team finally get to give their side of the story! 
@@ -108,14 +176,6 @@ https://rougol.jellybaby.net/meetings/jimmitchell.html
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mjrfjjej4c2t</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>Here is my Frosted PlingStore 1.52f if you want tyo try that <a href="https://drive.google.com/file/d/1cBxOYyTSWI9PgiC4oswDxabGwKeAi9RA/view?usp=sharing">Frosted !PlingStore</a></p>]]>
-      </description>
-      <source:markdown>Here is my Frosted PlingStore 1.52f if you want tyo try that [Frosted !PlingStore](https://drive.google.com/file/d/1cBxOYyTSWI9PgiC4oswDxabGwKeAi9RA/view?usp=sharing)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:163514</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mjrdsfvutk2l</link>
       <description>
@@ -1590,14 +1650,6 @@ Took me an appreciable time to realise they were saying &#34;crewed&#34; - becau
 
 Someone buy them a dictionary, this is ridiculous.</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3migslphmjc2l</guid>
-    </item>    <item>
-      <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
-      <description>
-        <![CDATA[<p>@Martin Avison: By “offline,” I mean “not via the internet.” So, via a <span class="caps">LAN</span> connection or a <span class="caps">USB</span> cable. Sorry for the confusion!</p>]]>
-      </description>
-      <source:markdown>@Martin Avison: By “offline,” I mean “not via the internet.” So, via a LAN connection or a USB cable. Sorry for the confusion!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20301:162757</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3migfjttcsk2s</link>
       <description>
