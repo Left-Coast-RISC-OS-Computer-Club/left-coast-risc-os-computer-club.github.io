@@ -7,10 +7,271 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>19 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>20 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>CardData in !Store</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20359</link>
+      <description>
+        <![CDATA[<p>The updated version should now be live.</p>]]>
+      </description>
+      <source:markdown>The updated version should now be live.</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20359:163564</guid>
+    </item>    <item>
+      <title>!Iris and RISC OS Open</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20369</link>
+      <description>
+        <![CDATA[<p>@David Pitt @Andrew Rawnsley: Thanks for the hints! I downloaded Iris-March2026.zip via the link &#8211; lots of files in there -, and screwed it up somehow. Ok, then I went to the link here, <a href="https://www.riscosopen.org/forum/forums/1/topics/20064?limit=25&amp;page=1#posts-159357">https://www.riscosopen.org/forum/forums/1/topics/20064…</a>, and followed Andrews instructions how to update !Iris via !packman. That did it. Now I&#8217;m running v1.038.<br />
+        I&#8217;ve mistakenly assumed that all the installed programs are being updated via the appropriate !packman function like it is in Linux with programs of the debian package world. And the !packman update/upgrade functions I run regularly. So my assortment of saved <span class="caps">RISC</span> OS weblinks is ever growing.. as is my &#8220;downloads&#8221; folder&#8230;</p>]]>
+      </description>
+      <source:markdown>@David Pitt @Andrew Rawnsley: Thanks for the hints! I downloaded Iris-March2026.zip via the link – lots of files in there -, and screwed it up somehow. Ok, then I went to the link here, [https://www.riscosopen.org/forum/forums/1/topics/20064…](https://www.riscosopen.org/forum/forums/1/topics/20064?limit=25&#38;page=1#posts-159357), and followed Andrews instructions how to update !Iris via !packman. That did it. Now I’m running v1.038.
+
+I’ve mistakenly assumed that all the installed programs are being updated via the appropriate !packman function like it is in Linux with programs of the debian package world. And the !packman update/upgrade functions I run regularly. So my assortment of saved RISC OS weblinks is ever growing.. as is my “downloads” folder…</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20369:163561</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3mjwhtg2avs2w</link>
+      <description>
+        <![CDATA[Interested in coding on RISC OS? Want to learn more or meet others? Join our friendly fireside chat on Zoom—DM for credentials (unchanged). The event is on Saturday, 25th April at 7:30 pm (GMT).
+        #Zoom #Meetup #RISC_OS #Developer #Community #RaspberryPi #ARM #Retro #AcornComputers]]>
+      </description>
+      <source:markdown>Interested in coding on RISC OS? Want to learn more or meet others? Join our friendly fireside chat on Zoom—DM for credentials (unchanged). The event is on Saturday, 25th April at 7:30 pm (GMT).
+#Zoom #Meetup #RISC\_OS #Developer #Community #RaspberryPi #ARM #Retro #AcornComputers</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mjwhtg2avs2w</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mjwa7ytfn223</link>
+      <description>
+        <![CDATA[A Sky News correspondent just reported that a tsunami wave that hit Japan today was "eighty metres high".
+        
+        It was 80cm actually. Only two orders of magnitude different. But it did underline that an American journalist would be unlikely to say "feet" when they meant "inch" - and that's only 1 O.O.M.]]>
+      </description>
+      <source:markdown>A Sky News correspondent just reported that a tsunami wave that hit Japan today was &#34;eighty metres high&#34;.
+
+It was 80cm actually. Only two orders of magnitude different. But it did underline that an American journalist would be unlikely to say &#34;feet&#34; when they meant &#34;inch&#34; - and that&#39;s only 1 O.O.M.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mjwa7ytfn223</guid>
+    </item>    <item>
+      <title>DDE C++ compatible STL</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20357</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Looking at o.CathLibCPP, does it replace o.c++lib supplied with the <span class="caps">DDE</span>?</p>
+        </blockquote>
+        <p>I just noticed that I forgot to answer this question.<br />
+        CathlibCpp is an <span class="caps">STL</span> library for the <span class="caps">DDE</span> C++ library so it uses it a lot and the compiler works.<br />
+        CathlibCpp also has an o.stubs file to include as a library.<br />
+        With this <span class="caps">STL</span>, I tried to adapt the program for Arduino and Python, especially for the syntax.</p>]]>
+      </description>
+      <source:markdown>&#62; Looking at o.CathLibCPP, does it replace o.c++lib supplied with the DDE?
+
+I just noticed that I forgot to answer this question.
+
+CathlibCpp is an STL library for the DDE C++ library so it uses it a lot and the compiler works.
+
+CathlibCpp also has an o.stubs file to include as a library.
+
+With this STL, I tried to adapt the program for Arduino and Python, especially for the syntax.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20357:163555</guid>
+    </item>    <item>
+      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Bugs Spotted so far:<br />
+        When Selecting an icon the icon text highlights white</p>
+        </blockquote>
+        <p>I&#8217;ve amended the icon logic so inverted unfilled icons should come out right now, this was affecting selections in the Filer where they were unreadable white-on-very-light-grey when selected.</p>
+        <p>Updated Wimp sources <a href="https://gitlab.riscosopen.org/rsprowson/Wimp/-/tree/dark-mode">here</a><br />
+        The partner ThemeSetup plug is <a href="https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/tree/dark-mode">unchanged</a></p>]]>
+      </description>
+      <source:markdown>&#62; Bugs Spotted so far:
+&#62;
+&#62; When Selecting an icon the icon text highlights white
+
+I’ve amended the icon logic so inverted unfilled icons should come out right now, this was affecting selections in the Filer where they were unreadable white-on-very-light-grey when selected.
+
+Updated Wimp sources [here](https://gitlab.riscosopen.org/rsprowson/Wimp/-/tree/dark-mode)
+
+The partner ThemeSetup plug is [unchanged](https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/tree/dark-mode)</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20340:163553</guid>
+    </item>    <item>
+      <title>LanManFS update underway</title>
+      <link>https://www.riscosopen.org/forum/forums/8/topics/20350</link>
+      <description>
+        <![CDATA[<p>We&#8217;re looking to start (private) alpha testing this week. If you&#8217;re interested, please email <a href="mailto:lanman@riscosopen.org">lanman@riscosopen.org</a> with the subject &#8220;SMB2&#8221; and, if you could, indicate in your email whether using Slack would be a problem and what setup(s) you can test against/with.</p>
+        <p>For the avoidance of doubt, we&#8217;re looking for people with a range of setups &#8211; old and new &#8211; including Acorn and later <span class="caps">RISC</span> OS kit, PCs (various flavours of Windows), Linux machines, <span class="caps">NAS</span> devices, Macs, etc.</p>
+        <p><strong>Do not</strong> use the test software for anything files/data you aren&#8217;t prepared to lose/corrupt and don&#8217;t be surprised if you see errors, crashes, lockups, etc&#8230; This is alpha testing! If that warning didn&#8217;t put you off(!) then we&#8217;d love you to get in touch&#8230;</p>]]>
+      </description>
+      <source:markdown>We’re looking to start (private) alpha testing this week. If you’re interested, please email [lanman@riscosopen.org](mailto:lanman@riscosopen.org) with the subject “SMB2” and, if you could, indicate in your email whether using Slack would be a problem and what setup(s) you can test against/with.
+
+For the avoidance of doubt, we’re looking for people with a range of setups – old and new – including Acorn and later RISC OS kit, PCs (various flavours of Windows), Linux machines, NAS devices, Macs, etc.
+
+**Do not** use the test software for anything files/data you aren’t prepared to lose/corrupt and don’t be surprised if you see errors, crashes, lockups, etc… This is alpha testing! If that warning didn’t put you off(!) then we’d love you to get in touch…</source:markdown>
+      <guid>cid://www.riscosopen.org:8:20350:163552</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mjuyaavdis2y</link>
+      <description>
+        <![CDATA[Had a brilliant time at the @computinghistory.org.uk Bring & Byte today, came away with rather a lot of stuff - too many bargains, insufficient willpower 😆 Really enjoyed chatting to everyone too, a grand day out! Thanks to the volunteers for running such a fun event 🙌]]>
+      </description>
+      <source:markdown>Had a brilliant time at the @computinghistory.org.uk Bring &#38; Byte today, came away with rather a lot of stuff - too many bargains, insufficient willpower 😆 Really enjoyed chatting to everyone too, a grand day out! Thanks to the volunteers for running such a fun event 🙌</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mjuyaavdis2y</guid>
+    </item>    <item>
+      <title>SILVER RIVER KINGDOM V1.01 RELEASED</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20373</link>
+      <description>
+        <![CDATA[<p>Available to Buy for £14.99</p>
+        <p>We are pleased to announce that from the 6th of April 2026<br />
+        Silver River Kingdom v1.01 is available for download from the :</p>
+        <p><a href="http://www.plingstore.org.uk/ps/download.aw">http://www.plingstore.org.uk/ps/download.aw</a></p>
+        <p>If you bought the game at the <span class="caps">RISC</span> OS London Show, please update your copy<br />
+        via the !Store using your download code which you can enter via &#8220;Special<br />
+        Instructions, promo code etc.&#8221; in the !Store app.</p>
+        <p>Here is a link to the product page on our website:<br />
+        <a href="https://www.amcog.co.uk/srkingdom.htm">https://www.amcog.co.uk/srkingdom.htm</a></p>
+        <p>A game play video is here:<br />
+        <a href="https://www.youtube.com/watch?v=xm604NhFjT8">https://www.youtube.com/watch?v=xm604NhFjT8</a></p>
+        <p>Silver River Kingdom is an arcade <span class="caps">RPG</span> game that draws inspiration and<br />
+        extends the <span class="caps">BBC</span> Micro text game &#8220;Yellow River Kingdom.&#8221;</p>
+        <p><span class="caps">OVERVIEW</span></p>
+        <p>You are the ruler of a small kingdom by the Silver River.</p>
+        <p>Each year has 3 seasons : Growing, Harvest and Winter.</p>
+        <p>Your people plant and harvest rice. They dig holes to protect against<br />
+        flooding and defend against attacks from bandits.</p>
+        <p>At the start of the year you must choose how many will work in the fields,<br />
+        maintain the ditch by the river, defend the villages or harvest rice.<br />
+        You must also choose how many rice baskets will be planted.</p>
+        <p>Generally the chief is exempt from this work. But by tradition, one day<br />
+        a year they are permitted to fight bandits, dig ditches to protect against<br />
+        floods and harvest rice.</p>
+        <p>Otherwise your role is supervisory. During that day you may re-assign<br />
+        villagers as you desire to different roles.</p>
+        <p>Periodically during the harvest and winter seasons the river is known to<br />
+        flood. Be careful about drowning. The villagers also tend to panic if the<br />
+        river floods.</p>
+        <p>If you survive 24 years then you must retire. But, will your people survive<br />
+        that long?</p>
+        <p>Good luck!</p>
+        <p><span class="caps">FEATURING</span></p>
+        <ul>
+        	<li>24 virtual years of play</li>
+        	<li>Three original high quality music tracks.</li>
+        	<li>HD graphics</li>
+        	<li>Sounds effects by <span class="caps">RDSP</span></li>
+        	<li>Joystick support for <span class="caps">RISC</span> OS 5 on the Raspberry PI<br />
+               (via Retropie controller)</li>
+        	<li>User defined keys</li>
+        	<li>Full source code for use in your own projects</li>
+        	<li>Save / Load</li>
+        </ul>
+        <p><span class="caps">COMPATIBILITY</span></p>
+        <p>Silver River Kingdom is compatible with <span class="caps">RISC</span> OS 4.02 on Virtual Acorn and<br />
+        <span class="caps">RISC</span> OS 5 on Raspberry Pi 0, 1,2 &amp; 3,4,400 Beagleboard and Pandaboard based<br />
+        systems, <span class="caps">ARM</span> X6, Titanium and RPCEmu.</p>
+        <p>Please note that for Raspberry Pi users, a minimum of the Raspberry Pi 2<br />
+        is recommended.</p>
+        <p>Updates to Silver River Kingdom are free.</p>
+        <p>Best Regards,<br />
+        Tony Bartram<br />
+        <span class="caps">AMCOG</span></p>]]>
+      </description>
+      <source:markdown>Available to Buy for £14.99
+
+We are pleased to announce that from the 6th of April 2026
+
+Silver River Kingdom v1.01 is available for download from the :
+
+[http://www.plingstore.org.uk/ps/download.aw](http://www.plingstore.org.uk/ps/download.aw)
+
+If you bought the game at the RISC OS London Show, please update your copy
+
+via the !Store using your download code which you can enter via “Special
+
+Instructions, promo code etc.” in the !Store app.
+
+Here is a link to the product page on our website:
+
+[https://www.amcog.co.uk/srkingdom.htm](https://www.amcog.co.uk/srkingdom.htm)
+
+A game play video is here:
+
+[https://www.youtube.com/watch?v=xm604NhFjT8](https://www.youtube.com/watch?v=xm604NhFjT8)
+
+Silver River Kingdom is an arcade RPG game that draws inspiration and
+
+extends the BBC Micro text game “Yellow River Kingdom.”
+
+OVERVIEW
+
+You are the ruler of a small kingdom by the Silver River.
+
+Each year has 3 seasons : Growing, Harvest and Winter.
+
+Your people plant and harvest rice. They dig holes to protect against
+
+flooding and defend against attacks from bandits.
+
+At the start of the year you must choose how many will work in the fields,
+
+maintain the ditch by the river, defend the villages or harvest rice.
+
+You must also choose how many rice baskets will be planted.
+
+Generally the chief is exempt from this work. But by tradition, one day
+
+a year they are permitted to fight bandits, dig ditches to protect against
+
+floods and harvest rice.
+
+Otherwise your role is supervisory. During that day you may re-assign
+
+villagers as you desire to different roles.
+
+Periodically during the harvest and winter seasons the river is known to
+
+flood. Be careful about drowning. The villagers also tend to panic if the
+
+river floods.
+
+If you survive 24 years then you must retire. But, will your people survive
+
+that long?
+
+Good luck!
+
+FEATURING
+
+- 24 virtual years of play
+- Three original high quality music tracks.
+- HD graphics
+- Sounds effects by RDSP
+- Joystick support for RISC OS 5 on the Raspberry PI
+
+
+   (via Retropie controller)
+- User defined keys
+- Full source code for use in your own projects
+- Save / Load
+
+COMPATIBILITY
+
+Silver River Kingdom is compatible with RISC OS 4.02 on Virtual Acorn and
+
+RISC OS 5 on Raspberry Pi 0, 1,2 &#38; 3,4,400 Beagleboard and Pandaboard based
+
+systems, ARM X6, Titanium and RPCEmu.
+
+Please note that for Raspberry Pi users, a minimum of the Raspberry Pi 2
+
+is recommended.
+
+Updates to Silver River Kingdom are free.
+
+Best Regards,
+
+Tony Bartram
+
+AMCOG</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20373:163551</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/rougol.bsky.social/post/3mjueiophxk2l</link>
       <description>
         <![CDATA[Tomorrow evening 🙂
@@ -21,6 +282,36 @@
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mjueiophxk2l</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I know we are not exactly mainstream here, but all forms of authentication, bespoke/authorised content, and application downloads should be using <span class="caps">HTTPS</span></p>
+        </blockquote>
+        <p>Indeed. The major issue is to send out sensitive data without the correct encryption and respect of safety rules and to 3rd party entities who have undergone processes to handle sensitive data, which also exposes RComp (or whoever owns !PlingStore) &gt; <span class="caps">LEGALLY</span> &lt; and regardles the size of the <span class="caps">RISC</span> OS community and market.</p>
+        <p>So Andrew <span class="caps">MUST</span> resolve the problem <span class="caps">ASAP</span> (sorry for the capital must, but it is that serious), there are no excuses or justifications. Otherwise !PlignStore must be converted into something like !PackMan and just do free stuff and no sensitive data been sent anywhere.</p>
+        <p>P.S. this is not a comment against Andrew; on the countrary is to help him and RComp to stay out of troubles.</p>]]>
+      </description>
+      <source:markdown>&#62; I know we are not exactly mainstream here, but all forms of authentication, bespoke/authorised content, and application downloads should be using HTTPS
+
+Indeed. The major issue is to send out sensitive data without the correct encryption and respect of safety rules and to 3rd party entities who have undergone processes to handle sensitive data, which also exposes RComp (or whoever owns !PlingStore) &#62; LEGALLY &#60; and regardles the size of the RISC OS community and market.
+
+So Andrew MUST resolve the problem ASAP (sorry for the capital must, but it is that serious), there are no excuses or justifications. Otherwise !PlignStore must be converted into something like !PackMan and just do free stuff and no sensitive data been sent anywhere.
+
+P.S. this is not a comment against Andrew; on the countrary is to help him and RComp to stay out of troubles.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:163546</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 19th April at 1pm UK time</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20368</link>
+      <description>
+        <![CDATA[<p>Fun session converting some Python into C code and being confused about where things I&#8217;d written might live.</p>
+        <p>And a little discussion of Tape Repton Infinity that I made work on the <span class="caps">BBC</span> with disc and sideways <span class="caps">RAM</span>, plus a short discussion and demo of the ancient <span class="caps">BBC</span> game Feud &#8211; a 2-player game to fight your brothers with. Found the <span class="caps">RISC</span> OS version lying around too, and that worked on RPCEmu.</p>]]>
+      </description>
+      <source:markdown>Fun session converting some Python into C code and being confused about where things I’d written might live.
+
+And a little discussion of Tape Repton Infinity that I made work on the BBC with disc and sideways RAM, plus a short discussion and demo of the ancient BBC game Feud – a 2-player game to fight your brothers with. Found the RISC OS version lying around too, and that worked on RPCEmu.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20368:163545</guid>
     </item>    <item>
       <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
@@ -40,14 +331,6 @@
 
 The other thing I like about Python in this context is that it can handle “globbing” (i.e. wildcarded file specs).</source:markdown>
       <guid>cid://www.riscosopen.org:2:20102:163542</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 19th April at 1pm UK time</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20368</link>
-      <description>
-        <![CDATA[<p>Live in about 10 minutes.</p>]]>
-      </description>
-      <source:markdown>Live in about 10 minutes.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20368:163541</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mjtt5sflys2p</link>
       <description>
@@ -131,14 +414,6 @@ There’s a new Wimp\_ReadSysInfo 30 inspired by how [Windows does it](https://l
 
 In this short video, I’m exploring a few of the tools that are present in the build environment – a whistle-stop tour through a few of the tools that help work with RISC OS code.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20353:163528</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p><img src="https://i.imgflip.com/11evig.jpg" alt="" /></p>]]>
-      </description>
-      <source:markdown>![](https://i.imgflip.com/11evig.jpg)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:163526</guid>
     </item>    <item>
       <title>Rougol April 2026 meeting on monday - Desktop themes</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13572&#38;page=1#125885</link>
@@ -250,17 +525,6 @@ Reader, it was not.</source:markdown>
       </description>
       <source:markdown>If you think your RISC OS desktop is looking a bit bland and in need of a lick of paint, Paolo Zaino has the tool to help with that task in the form of ExtTheme – and he’ll be presenting it to the RISC OS User Group of London (ROUGOL) at the group’s next meeting, on 20th April. A theme is a package of graphics and related items designed to give your desktop a particular appearance – and the ExtTheme application is intended make installing and switching between different themes…</source:markdown>
       <guid>cid://https://www.riscository.com/?p=10926</guid>
-    </item>    <item>
-      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
-      <description>
-        <![CDATA[<p>@Sprow, there still seems to be a few issues with font blending on redraw, Not sure if this is a specific issue with pinboard2 as I have to go in the Pinboard2 Configure and reset to remove the icontext boxes. Do you know if there are current compatibility issues with Pinboard2</p>
-        <p><img src="https://images2.imgbox.com/99/1f/uTcS7KO2_o.jpg" alt="" /></p>]]>
-      </description>
-      <source:markdown>@Sprow, there still seems to be a few issues with font blending on redraw, Not sure if this is a specific issue with pinboard2 as I have to go in the Pinboard2 Configure and reset to remove the icontext boxes. Do you know if there are current compatibility issues with Pinboard2
-
-![](https://images2.imgbox.com/99/1f/uTcS7KO2_o.jpg)</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20340:163477</guid>
     </item>    <item>
       <title>RISC OS in a Post-AI World: Could Simplicity Be the Missing Link in Education?</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13578&#38;page=1#125884</link>
@@ -393,14 +657,6 @@ In other news, ROOL have claimed to have a TerritoryManager in C, but I’ve not
       <source:markdown>I&#39;m in search of a Windows utility for viewing old SNES art asset files ( Tiles, Palettes, animations ). If anyone out there has found a utility that can load .CGX, .COL, .SCR, .OBJ files please let me know. I&#39;ve tried YY-CHR (best), YAZE and SNESTilesKitten but none of them do a great job. Thanks!</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mjnhmvslvs2u</guid>
     </item>    <item>
-      <title>!Iris and RISC OS Open</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20369</link>
-      <description>
-        <![CDATA[<p>The latest version of Iris can be obtained by clicking &#8220;Iris Updates&#8221; which is the first link on the default Iris homepage.</p>]]>
-      </description>
-      <source:markdown>The latest version of Iris can be obtained by clicking “Iris Updates” which is the first link on the default Iris homepage.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20369:163470</guid>
-    </item>    <item>
       <title>New DME ExtTheme and Launchpad available for download and testing</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20199</link>
       <description>
@@ -449,14 +705,6 @@ So to skip RISC OS 6 and 7 I can, for example just skip between “600-799” if
 
 Maybe it’s of help.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20199:163461</guid>
-    </item>    <item>
-      <title>LanManFS update underway</title>
-      <link>https://www.riscosopen.org/forum/forums/8/topics/20350</link>
-      <description>
-        <![CDATA[<p>I will caution that a bunch of this is currently untested!</p>]]>
-      </description>
-      <source:markdown>I will caution that a bunch of this is currently untested!</source:markdown>
-      <guid>cid://www.riscosopen.org:8:20350:163460</guid>
     </item>    <item>
       <title>Network Printing / RemotePrinterFS</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20360</link>
@@ -509,14 +757,6 @@ What is needed is an add to an existing PDF file,</source:markdown>
       <source:markdown>At our next meeting on Monday 20th April we will be looking at how to spruce up the appearance of your desktop with @paolofabiozaino.bsky.social
 https://rougol.jellybaby.net/meetings/index.html</source:markdown>
       <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mjkcspzvfc2k</guid>
-    </item>    <item>
-      <title>CardData in !Store</title>
-      <link>https://www.riscosopen.org/forum/forums/2/topics/20359</link>
-      <description>
-        <![CDATA[<p>Working on it now.</p>]]>
-      </description>
-      <source:markdown>Working on it now.</source:markdown>
-      <guid>cid://www.riscosopen.org:2:20359:163333</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mjhve2nqd22g</link>
       <description>
@@ -637,41 +877,6 @@ I once had 3 months off work and it was incredibly rewarding; at no point did I 
       </description>
       <source:markdown>Out of context posts are the emergent wisdom of this age.</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mjedvivyj22t</guid>
-    </item>    <item>
-      <title>DDE C++ compatible STL</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20357</link>
-      <description>
-        <![CDATA[<p>Bonjour,<br />
-        On my site there is an example with an application skeleton using <span class="caps">DDE</span> /C++, CathLibCPP and CCdoc :<br />
-        <a href="https://jeanmichelb.riscos.fr/Dev/Download/DevBaseC++.zip">https://jeanmichelb.riscos.fr/Dev/Download/DevBaseC++.…</a></p>
-        <p>The Zccdoc directory contains the script to build the html files from sources.<br />
-        The makefile will give you the information for compilation with CathLibCPP<br />
-        No cohabitation problems with OsLib and Oslib support.<br />
-        I added the library to those of the <span class="caps">DDE</span> Export.<span class="caps">APCS</span>-32.Lib, with an Obey setvars file.</p>
-        <p>As I use it very often for the development of my applications, I added in makefiles.Applibs:  ${CATHLIBCPPLIB} ${CATHLIBCPPSTUBSLIB} et ${OSLIBSUPPORTLIB}, with their respective path.<br />
-        I hope you can recompile the model (far from being perfect, it&#8217;s a base&#8230;)</p>
-        Sorry for the presentation of my site, CathlibCpp needs a separate page and a good tutorial.]]>
-      </description>
-      <source:markdown>Bonjour,
-
-On my site there is an example with an application skeleton using DDE /C++, CathLibCPP and CCdoc :
-
-[https://jeanmichelb.riscos.fr/Dev/Download/DevBaseC++.…](https://jeanmichelb.riscos.fr/Dev/Download/DevBaseC++.zip)
-
-The Zccdoc directory contains the script to build the html files from sources.
-
-The makefile will give you the information for compilation with CathLibCPP
-
-No cohabitation problems with OsLib and Oslib support.
-
-I added the library to those of the DDE Export.APCS-32.Lib, with an Obey setvars file.
-
-As I use it very often for the development of my applications, I added in makefiles.Applibs: ${CATHLIBCPPLIB} ${CATHLIBCPPSTUBSLIB} et ${OSLIBSUPPORTLIB}, with their respective path.
-
-I hope you can recompile the model (far from being perfect, it’s a base…)
-
-Sorry for the presentation of my site, CathlibCpp needs a separate page and a good tutorial.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20357:163272</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mjcpc3cvpk2t</link>
       <description>
