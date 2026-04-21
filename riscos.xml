@@ -7,10 +7,127 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>20 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>21 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3mjzhpxa2c22h</link>
+      <description>
+        <![CDATA[What's really amazing is that we went from simple 2D platform games like Chuckie Egg to 3D space exploration, trading, dogfighting Elite in less than a year, *on the same hardware*!
+        elite.bbcelite.com
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>What&#39;s really amazing is that we went from simple 2D platform games like Chuckie Egg to 3D space exploration, trading, dogfighting Elite in less than a year, \*on the same hardware\*!
+elite.bbcelite.com
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mjzhpxa2c22h</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mjzfeyvdr22r</link>
+      <description>
+        <![CDATA[After a lot of coding hackery I've got an early version of the unreleased Tom and Jerry game running. It's VERY broken, probably something I could fix, but I'm not sure it's worth the effort - even though I have the full source code. This game was later known as 'Tom vs. Jerry: The Chase is On!']]>
+      </description>
+      <source:markdown>After a lot of coding hackery I&#39;ve got an early version of the unreleased Tom and Jerry game running. It&#39;s VERY broken, probably something I could fix, but I&#39;m not sure it&#39;s worth the effort - even though I have the full source code. This game was later known as &#39;Tom vs. Jerry: The Chase is On!&#39;</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mjzfeyvdr22r</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mjypqvg63k2r</link>
+      <description>
+        <![CDATA[ROUGOL April 2026 meeting - Paolo Fabio Zaino 
+        
+        https://www.iconbar.com/articles/ROUGOL_April_2026_meeting_-_Paolo_Fabio_Zaino/index2326.html 
+        
+        Rougols's April speaker was Paolo Fabio Zaino, introducing his new Theme Manager.]]>
+      </description>
+      <source:markdown>ROUGOL April 2026 meeting - Paolo Fabio Zaino
+
+https://www.iconbar.com/articles/ROUGOL\_April\_2026\_meeting\_-\_Paolo\_Fabio\_Zaino/index2326.html
+
+Rougols&#39;s April speaker was Paolo Fabio Zaino, introducing his new Theme Manager.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mjypqvg63k2r</guid>
+    </item>    <item>
+      <title>Cloverleaf</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20376</link>
+      <description>
+        <![CDATA[<p>What happened to the Cloverleaf guys? They had grand ideas but seem to of vanished.</p>]]>
+      </description>
+      <source:markdown>What happened to the Cloverleaf guys? They had grand ideas but seem to of vanished.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20376:163573</guid>
+    </item>    <item>
+      <title>ROUGOL April 2026 meeting - Paolo Fabio Zaino</title>
+      <link>http://www.iconbar.com/comments/rss/news2326.html</link>
+      <description>
+        <![CDATA[Rougols's April speaker was Paolo Fabio Zaino, introducing his new Theme Manager]]>
+      </description>
+      <source:markdown>Rougols&#39;s April speaker was Paolo Fabio Zaino, introducing his new Theme Manager</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2326.html</guid>
+    </item>    <item>
+      <title>Turning David Pilling&#38;#39;s raw source code into git projects</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20375</link>
+      <description>
+        <![CDATA[<p>Hi,</p>
+        <p>I&#8217;d like to float the idea that someone or group take one of the applications I have written and released the source code for and turn it into a git type project.</p>
+        <p>This is what <span class="caps">ROOL</span> did with SparkFS.</p>
+        <p>Just an idea, I can&#8217;t say it is a good idea and apparently I am not going to do it myself.</p>
+        <p>Perhaps this post is saying it is something that could be done with my blessing.</p>
+        <p>David Pilling</p>]]>
+      </description>
+      <source:markdown>Hi,
+
+I’d like to float the idea that someone or group take one of the applications I have written and released the source code for and turn it into a git type project.
+
+This is what ROOL did with SparkFS.
+
+Just an idea, I can’t say it is a good idea and apparently I am not going to do it myself.
+
+Perhaps this post is saying it is something that could be done with my blessing.
+
+David Pilling</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20375:163569</guid>
+    </item>    <item>
+      <title>Chris Johnson&#38;#39;s versions of my software</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20374</link>
+      <description>
+        <![CDATA[<p>Hi,</p>
+        <p>Over the years Chris Johnson, produced enhanced versions of a number of pieces of <span class="caps">RISC</span> OS software written by me.</p>
+        <p>He has now made available the source code of his versions. You can find this here:</p>
+        <p><a href="https://www.davidpilling.com/wiki/index.php/ChrisJohnson">https://www.davidpilling.com/wiki/index.php/ChrisJohns…</a></p>
+        <p>The archives also contain copies of the applications which are usable without any programming expertise.</p>
+        <p>The software is DPScan, Snapper and Sync Discs.</p>
+        <p>I encourage you to go to the page and download the archives, against the day they&#8217;re not there.</p>
+        <p>David Pilling</p>]]>
+      </description>
+      <source:markdown>Hi,
+
+Over the years Chris Johnson, produced enhanced versions of a number of pieces of RISC OS software written by me.
+
+He has now made available the source code of his versions. You can find this here:
+
+[https://www.davidpilling.com/wiki/index.php/ChrisJohns…](https://www.davidpilling.com/wiki/index.php/ChrisJohnson)
+
+The archives also contain copies of the applications which are usable without any programming expertise.
+
+The software is DPScan, Snapper and Sync Discs.
+
+I encourage you to go to the page and download the archives, against the day they’re not there.
+
+David Pilling</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20374:163568</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mjxl7j44ps2c</link>
+      <description>
+        <![CDATA[Trying very hard to get an unreleased Software Creations SNES game to run. I have source code and data, but no ROM image. I'm assembling the 65c816 code and data ROM banks using our original IDE running under DOS Box. Lots of hackery is taking place to try and get the game to run! Time for bed now..]]>
+      </description>
+      <source:markdown>Trying very hard to get an unreleased Software Creations SNES game to run. I have source code and data, but no ROM image. I&#39;m assembling the 65c816 code and data ROM banks using our original IDE running under DOS Box. Lots of hackery is taking place to try and get the game to run! Time for bed now..</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mjxl7j44ps2c</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mjxj3tiitc2f</link>
+      <description>
+        <![CDATA[Haven't seen Akira since I was a teenager, but seeing it tonight at the cinema in glorious 4k, I can confirm it is still epic. What a film.]]>
+      </description>
+      <source:markdown>Haven&#39;t seen Akira since I was a teenager, but seeing it tonight at the cinema in glorious 4k, I can confirm it is still epic. What a film.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mjxj3tiitc2f</guid>
+    </item>    <item>
       <title>CardData in !Store</title>
       <link>https://www.riscosopen.org/forum/forums/2/topics/20359</link>
       <description>
@@ -18,6 +135,14 @@
       </description>
       <source:markdown>The updated version should now be live.</source:markdown>
       <guid>cid://www.riscosopen.org:2:20359:163564</guid>
+    </item>    <item>
+      <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
+      <description>
+        <![CDATA[<p>For those interested, I ran the tests today, and the printed copy (as expected) matched the on-screen version.</p>]]>
+      </description>
+      <source:markdown>For those interested, I ran the tests today, and the printed copy (as expected) matched the on-screen version.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20301:163563</guid>
     </item>    <item>
       <title>!Iris and RISC OS Open</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20369</link>
@@ -53,60 +178,42 @@ It was 80cm actually. Only two orders of magnitude different. But it did underli
       <title>DDE C++ compatible STL</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20357</link>
       <description>
-        <![CDATA[<blockquote>
-        <p>Looking at o.CathLibCPP, does it replace o.c++lib supplied with the <span class="caps">DDE</span>?</p>
-        </blockquote>
-        <p>I just noticed that I forgot to answer this question.<br />
-        CathlibCpp is an <span class="caps">STL</span> library for the <span class="caps">DDE</span> C++ library so it uses it a lot and the compiler works.<br />
-        CathlibCpp also has an o.stubs file to include as a library.<br />
-        With this <span class="caps">STL</span>, I tried to adapt the program for Arduino and Python, especially for the syntax.</p>]]>
+        <![CDATA[<p>I found the original <a href="https://www.stepanovpapers.com/butler.hpl.hp/stl/index.html">HP template sources</a> on which CathlibCpp is based on. I&#8217;m still hesitating to work out how to include them. I would like to be able to have a <span class="caps">STL</span> library which could be dropped into the <span class="caps">DDE</span> libraries without issues, currently I&#8217;m finding clashes.</p>]]>
       </description>
-      <source:markdown>&#62; Looking at o.CathLibCPP, does it replace o.c++lib supplied with the DDE?
-
-I just noticed that I forgot to answer this question.
-
-CathlibCpp is an STL library for the DDE C++ library so it uses it a lot and the compiler works.
-
-CathlibCpp also has an o.stubs file to include as a library.
-
-With this STL, I tried to adapt the program for Arduino and Python, especially for the syntax.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20357:163555</guid>
-    </item>    <item>
-      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Bugs Spotted so far:<br />
-        When Selecting an icon the icon text highlights white</p>
-        </blockquote>
-        <p>I&#8217;ve amended the icon logic so inverted unfilled icons should come out right now, this was affecting selections in the Filer where they were unreadable white-on-very-light-grey when selected.</p>
-        <p>Updated Wimp sources <a href="https://gitlab.riscosopen.org/rsprowson/Wimp/-/tree/dark-mode">here</a><br />
-        The partner ThemeSetup plug is <a href="https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/tree/dark-mode">unchanged</a></p>]]>
-      </description>
-      <source:markdown>&#62; Bugs Spotted so far:
-&#62;
-&#62; When Selecting an icon the icon text highlights white
-
-I’ve amended the icon logic so inverted unfilled icons should come out right now, this was affecting selections in the Filer where they were unreadable white-on-very-light-grey when selected.
-
-Updated Wimp sources [here](https://gitlab.riscosopen.org/rsprowson/Wimp/-/tree/dark-mode)
-
-The partner ThemeSetup plug is [unchanged](https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/tree/dark-mode)</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20340:163553</guid>
+      <source:markdown>I found the original [HP template sources](https://www.stepanovpapers.com/butler.hpl.hp/stl/index.html) on which CathlibCpp is based on. I’m still hesitating to work out how to include them. I would like to be able to have a STL library which could be dropped into the DDE libraries without issues, currently I’m finding clashes.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20357:163559</guid>
     </item>    <item>
       <title>LanManFS update underway</title>
       <link>https://www.riscosopen.org/forum/forums/8/topics/20350</link>
       <description>
-        <![CDATA[<p>We&#8217;re looking to start (private) alpha testing this week. If you&#8217;re interested, please email <a href="mailto:lanman@riscosopen.org">lanman@riscosopen.org</a> with the subject &#8220;SMB2&#8221; and, if you could, indicate in your email whether using Slack would be a problem and what setup(s) you can test against/with.</p>
-        <p>For the avoidance of doubt, we&#8217;re looking for people with a range of setups &#8211; old and new &#8211; including Acorn and later <span class="caps">RISC</span> OS kit, PCs (various flavours of Windows), Linux machines, <span class="caps">NAS</span> devices, Macs, etc.</p>
-        <p><strong>Do not</strong> use the test software for anything files/data you aren&#8217;t prepared to lose/corrupt and don&#8217;t be surprised if you see errors, crashes, lockups, etc&#8230; This is alpha testing! If that warning didn&#8217;t put you off(!) then we&#8217;d love you to get in touch&#8230;</p>]]>
+        <![CDATA[<blockquote>
+        <p>whether using Slack would be a problem</p>
+        </blockquote>
+        <p>Does the free version of Slack suffice? I have never used Slack.</p>
+        <blockquote>
+        <p>Chatcube?</p>
+        </blockquote>
+        <p>I’ve never used that either!</p>]]>
       </description>
-      <source:markdown>We’re looking to start (private) alpha testing this week. If you’re interested, please email [lanman@riscosopen.org](mailto:lanman@riscosopen.org) with the subject “SMB2” and, if you could, indicate in your email whether using Slack would be a problem and what setup(s) you can test against/with.
+      <source:markdown>&#62; whether using Slack would be a problem
 
-For the avoidance of doubt, we’re looking for people with a range of setups – old and new – including Acorn and later RISC OS kit, PCs (various flavours of Windows), Linux machines, NAS devices, Macs, etc.
+Does the free version of Slack suffice? I have never used Slack.
 
-**Do not** use the test software for anything files/data you aren’t prepared to lose/corrupt and don’t be surprised if you see errors, crashes, lockups, etc… This is alpha testing! If that warning didn’t put you off(!) then we’d love you to get in touch…</source:markdown>
-      <guid>cid://www.riscosopen.org:8:20350:163552</guid>
+&#62; Chatcube?
+
+I’ve never used that either!</source:markdown>
+      <guid>cid://www.riscosopen.org:8:20350:163558</guid>
+    </item>    <item>
+      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
+      <description>
+        <![CDATA[<p><img src="https://images2.imgbox.com/6b/75/qnFgyGmC_o.jpg" alt="" /></p>
+        <p>To confirm @Sprow this does look better, is this how its intended to look now?</p>]]>
+      </description>
+      <source:markdown>![](https://images2.imgbox.com/6b/75/qnFgyGmC_o.jpg)
+
+To confirm @Sprow this does look better, is this how its intended to look now?</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20340:163557</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mjuyaavdis2y</link>
       <description>
@@ -312,14 +419,6 @@ P.S. this is not a comment against Andrew; on the countrary is to help him and R
 
 And a little discussion of Tape Repton Infinity that I made work on the BBC with disc and sideways RAM, plus a short discussion and demo of the ancient BBC game Feud – a 2-player game to fight your brothers with. Found the RISC OS version lying around too, and that worked on RPCEmu.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20368:163545</guid>
-    </item>    <item>
-      <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
-      <description>
-        <![CDATA[<p>@Andrew Rawnsley:Using MailPrint, I&quot;m wondering how you can tell the printer which paper tray to use or that a simple text is to be printed at 180dpi and not in the max photo quality of the printer? Is there any control over this?</p>]]>
-      </description>
-      <source:markdown>@Andrew Rawnsley:Using MailPrint, I&#34;m wondering how you can tell the printer which paper tray to use or that a simple text is to be printed at 180dpi and not in the max photo quality of the printer? Is there any control over this?</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20301:163544</guid>
     </item>    <item>
       <title>BBC BASIC - Simple OOP Extensions</title>
       <link>https://www.riscosopen.org/forum/forums/2/topics/20102</link>
