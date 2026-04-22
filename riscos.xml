@@ -7,10 +7,183 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>21 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>22 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mk45evxu2c2g</link>
+      <description>
+        <![CDATA[Not many motoring podcasts manage to squeeze in an Acorn Computers reference:
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Not many motoring podcasts manage to squeeze in an Acorn Computers reference:
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mk45evxu2c2g</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mk3y7ekyyc2g</link>
+      <description>
+        <![CDATA[BBC journalism, 1922-2026. RIP.]]>
+      </description>
+      <source:markdown>BBC journalism, 1922-2026. RIP.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mk3y7ekyyc2g</guid>
+    </item>    <item>
+      <title>Developers’ fireside chat – 25th April</title>
+      <link>https://www.riscository.com/2026/developers-fireside-chat-25th-april/</link>
+      <description>
+        <![CDATA[The next online meeting for anyone who is interested in the topic of developing on or for RISC OS will take place online on Saturday, 25th April. As ever, these friendly fireside chats are an informal way for developers and those with a passing interest to get together and discuss the issues that affect them or they feel are relevant. There is no set agenda, so the areas covered by the meeting are steered by those present &#8211; meaning you can bring up a burning issue, pose a problem to&#8230;]]>
+      </description>
+      <source:markdown>The next online meeting for anyone who is interested in the topic of developing on or for RISC OS will take place online on Saturday, 25th April. As ever, these friendly fireside chats are an informal way for developers and those with a passing interest to get together and discuss the issues that affect them or they feel are relevant. There is no set agenda, so the areas covered by the meeting are steered by those present – meaning you can bring up a burning issue, pose a problem to…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10936</guid>
+    </item>    <item>
+      <title>DDE C++ compatible STL</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20357</link>
+      <description>
+        <![CDATA[<p>If I link both o.CathLibCPP and o.c++lib with my application I get<br />
+        <span class="caps">ARM</span> Linker: (Error) Global cout multiply defined (in cstreams and initcout)<br />
+        cstreams is defined in o.c++lib and initcout is defined in o.CathLibCPP.<br />
+        Removing o.c++lib produces a number of Undefined symbol(s) errors.<br />
+        To test the compatibility I had added a few vector statements into my main, so removing CathLibCPP would not be an option. Other supporting libraries were also linked, eg OSLib, which is needed by routines in CathLibCPP.</p>
+        <p>However, compiling and linking one of the test sources, c++.tvector and linking with the same libraries works ok, iostream.h is not included, stdio.h is.</p>
+        <p>So a bit of a dilemma. I suspect the inclusion of iostream.h from c++lib in my library somehow clashes with the streams defined in CathLibCPP.</p>]]>
+      </description>
+      <source:markdown>If I link both o.CathLibCPP and o.c++lib with my application I get
+
+ARM Linker: (Error) Global cout multiply defined (in cstreams and initcout)
+
+cstreams is defined in o.c++lib and initcout is defined in o.CathLibCPP.
+
+Removing o.c++lib produces a number of Undefined symbol(s) errors.
+
+To test the compatibility I had added a few vector statements into my main, so removing CathLibCPP would not be an option. Other supporting libraries were also linked, eg OSLib, which is needed by routines in CathLibCPP.
+
+However, compiling and linking one of the test sources, c++.tvector and linking with the same libraries works ok, iostream.h is not included, stdio.h is.
+
+So a bit of a dilemma. I suspect the inclusion of iostream.h from c++lib in my library somehow clashes with the streams defined in CathLibCPP.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20357:163604</guid>
+    </item>    <item>
+      <title>Coding on RISC OS fireside chat, Saturday 25th April</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20379</link>
+      <description>
+        <![CDATA[<p>Join us around the “Coding on <span class="caps">RISC</span> OS” campfire this Saturday, 25th April, at 7:30 p.m. (<span class="caps">GMT</span>) for another one of our friendly and informal fireside chats.</p>
+        <p>Whether you’re looking to get started, need assistance, want to help others, or share a project or current challenge with the group. You’re all welcome! No experience necessary.</p>
+        <p>For the Zoom credentials (no change), DM me over on X (<a href="https://twitter.com/armbytes">Twitter</a>), <a href="https://bsky.app/profile/armbytes.bsky.social">BlueSky</a>, ChatCube or <a href="https://mastodon.online/@armbytes">Mastodon</a>. There&#8217;s also an email link at the bottom of this informative RISCOSitory news <a href="https://www.riscository.com/2026/developers-fireside-chat-25th-april/">page</a>.</p>]]>
+      </description>
+      <source:markdown>Join us around the “Coding on RISC OS” campfire this Saturday, 25th April, at 7:30 p.m. (GMT) for another one of our friendly and informal fireside chats.
+
+Whether you’re looking to get started, need assistance, want to help others, or share a project or current challenge with the group. You’re all welcome! No experience necessary.
+
+For the Zoom credentials (no change), DM me over on X ( [Twitter](https://twitter.com/armbytes)), [BlueSky](https://bsky.app/profile/armbytes.bsky.social), ChatCube or [Mastodon](https://mastodon.online/@armbytes). There’s also an email link at the bottom of this informative RISCOSitory news [page](https://www.riscository.com/2026/developers-fireside-chat-25th-april/).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20379:163601</guid>
+    </item>    <item>
+      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I would like to do a test of these new themes and I am getting a little lost in the discussions.<br />
+        If I understood it is necessary:<br />
+        * NewThem application<br />
+        * a new (test) version of the Window module<br />
+        * and new themes.</p>
+        </blockquote>
+        <p>There&#8217;s an updated <a href="https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/jobs/236460/artifacts/download">ThemeSetup application</a> which you can put into !Boot.RO500Hook.Res.Configure.&#033;ThmeSetup (in fact, just the !RunImage will do) &#8211; that&#8217;s only needed to be able to select suitable themes from inside !ThemeDefs, all it&#8217;s doing is writing out an obey file.</p>
+        <p>The updated Window Manager is easiest to use directly in a <span class="caps">ROM</span>. You <em>can</em> load it from disc, but it&#8217;s a bit tricky to load it at the right place during booting. If getting the code and building a <span class="caps">ROM</span> is offputting I could build ones for people to test with?</p>]]>
+      </description>
+      <source:markdown>&#62; I would like to do a test of these new themes and I am getting a little lost in the discussions.
+&#62;
+&#62; If I understood it is necessary:
+&#62;
+&#62; \\* NewThem application
+&#62;
+&#62; \\* a new (test) version of the Window module
+&#62;
+&#62; \\* and new themes.
+
+There’s an updated [ThemeSetup application](https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/jobs/236460/artifacts/download) which you can put into !Boot.RO500Hook.Res.Configure.!ThmeSetup (in fact, just the !RunImage will do) – that’s only needed to be able to select suitable themes from inside !ThemeDefs, all it’s doing is writing out an obey file.
+
+The updated Window Manager is easiest to use directly in a ROM. You _can_ load it from disc, but it’s a bit tricky to load it at the right place during booting. If getting the code and building a ROM is offputting I could build ones for people to test with?</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20340:163597</guid>
+    </item>    <item>
+      <title>!IsocUSB &#38;amp; !Isocplayer on RPi4B w/ FiiO Olympus 2</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20378</link>
+      <description>
+        <![CDATA[<p>In this <a href="https://www.riscosopen.org/forum/forums/1/topics/20088?page=1&amp;limit=25">https://www.riscosopen.org/forum/forums/1/topics/20088…</a> and that <a href="https://www.riscosopen.org/forum/forums/5/topics/20323">https://www.riscosopen.org/forum/forums/5/topics/20323</a> I&#8217;ve learned that !IsocUSB might be the way to get my RPi4B with an attached FiiO Olympus 2 <span class="caps">DAC</span> to play sounds. The FiiO Olympus 2 is connected to an Arcam <span class="caps">DAC</span> via Coax cable and the Arcam <span class="caps">DAC</span> is connected to my Stereo Receiver. First of all: in !Configure/Sound the Hardware settings are Controller: <span class="caps">VCHIQ</span> analogue / <span class="caps">HDMI</span> audio, System Beep did function via my BenQ <span class="caps">HDMI</span> <span class="caps">TFT</span>. <br />
+        I downloaded !IsocUSB (Jan. 2018) and !Isocplayer (Oct 13, 2018), executed !IsocUSB and tried my luck playing some mp3 and flac via !Isocplayer. Clicking on the start button, nothing happened. The I started !DigitalCD and played some mp3 and flac with it &#8211; played normally but without sound.<br />
+        Having executed !IsocUSB in !Configure/Sound/Hardware settings there was no <span class="caps">USB</span> Device whatever to be chosen. The setting is still: <span class="caps">VCHIQ</span> analogue/<span class="caps">HDMI</span> audio. <br />
+        Having started !Isocplayer, my RPi with <span class="caps">ROD</span> froze 3x, today I repeated the whole thing, froze again and had to be powered off. Of course I don&#8217;t know what the cause may be.<br />
+        Has anybody an idea?</p>]]>
+      </description>
+      <source:markdown>In this [https://www.riscosopen.org/forum/forums/1/topics/20088…](https://www.riscosopen.org/forum/forums/1/topics/20088?page=1&#38;limit=25) and that [https://www.riscosopen.org/forum/forums/5/topics/20323](https://www.riscosopen.org/forum/forums/5/topics/20323) I’ve learned that !IsocUSB might be the way to get my RPi4B with an attached FiiO Olympus 2 DAC to play sounds. The FiiO Olympus 2 is connected to an Arcam DAC via Coax cable and the Arcam DAC is connected to my Stereo Receiver. First of all: in !Configure/Sound the Hardware settings are Controller: VCHIQ analogue / HDMI audio, System Beep did function via my BenQ HDMITFT.
+
+I downloaded !IsocUSB (Jan. 2018) and !Isocplayer (Oct 13, 2018), executed !IsocUSB and tried my luck playing some mp3 and flac via !Isocplayer. Clicking on the start button, nothing happened. The I started !DigitalCD and played some mp3 and flac with it – played normally but without sound.
+
+Having executed !IsocUSB in !Configure/Sound/Hardware settings there was no USB Device whatever to be chosen. The setting is still: VCHIQ analogue/HDMI audio.
+
+Having started !Isocplayer, my RPi with ROD froze 3x, today I repeated the whole thing, froze again and had to be powered off. Of course I don’t know what the cause may be.
+
+Has anybody an idea?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20378:163592</guid>
+    </item>    <item>
+      <title>Cloverleaf</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20376</link>
+      <description>
+        <![CDATA[<p>@RiscOSTech<br />
+        Well, maybe I have been blind-sighted by my love for <span class="caps">RISC</span> OS&#8230;<br />
+        And the plan was never to just rely on the existing <span class="caps">RISC</span> OS community but get new folks to join&#8230; but it failed.</p>
+        <p>I got some life experience and maybe the experience to make it a success later with my new project <span class="caps">ULTRA</span> OS as this time I target all computer and mobile phones users.<br />
+        <span class="caps">RISC</span> OS got !ChatCube, !CLFiler and the Cloverleaf <span class="caps">RISC</span> OS distro. I also funded the RK3399 development of RComp with 3000 Euro.</p>]]>
+      </description>
+      <source:markdown>@RiscOSTech
+
+Well, maybe I have been blind-sighted by my love for RISC OS…
+
+And the plan was never to just rely on the existing RISC OS community but get new folks to join… but it failed.
+
+I got some life experience and maybe the experience to make it a success later with my new project ULTRA OS as this time I target all computer and mobile phones users.
+
+RISC OS got !ChatCube, !CLFiler and the Cloverleaf RISC OS distro. I also funded the RK3399 development of RComp with 3000 Euro.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20376:163588</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mjzy75abyc2r</link>
+      <description>
+        <![CDATA[When games were on ROM cartridges it was essential they were rock-solid and free from any major issues. Of course, obscure bugs could slip through the net. This is before the internet and patching a ROM was not an option. Here's a non-approval we received from NOA for Ken Griffey Jr. presents MLB.]]>
+      </description>
+      <source:markdown>When games were on ROM cartridges it was essential they were rock-solid and free from any major issues. Of course, obscure bugs could slip through the net. This is before the internet and patching a ROM was not an option. Here&#39;s a non-approval we received from NOA for Ken Griffey Jr. presents MLB.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mjzy75abyc2r</guid>
+    </item>    <item>
+      <title>Turning David Pilling&#38;#39;s raw source code into git projects</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20375</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I seem to recall looking at them some time back, and was interested, but I seem to remember being put off by the fact that there wasn’t a clear license that said what you could do with it.</p>
+        </blockquote>
+        <p>Is David in a position to apply an appropriate licence to the source? It would be very helpful to have clarity on this.</p>]]>
+      </description>
+      <source:markdown>&#62; I seem to recall looking at them some time back, and was interested, but I seem to remember being put off by the fact that there wasn’t a clear license that said what you could do with it.
+
+Is David in a position to apply an appropriate licence to the source? It would be very helpful to have clarity on this.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20375:163586</guid>
+    </item>    <item>
+      <title>Chris Johnson&#38;#39;s versions of my software</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20374</link>
+      <description>
+        <![CDATA[<p>Snapper is indispensable to me: very useful when creating screenshots of windows for software manuals.</p>]]>
+      </description>
+      <source:markdown>Snapper is indispensable to me: very useful when creating screenshots of windows for software manuals.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20374:163585</guid>
+    </item>    <item>
+      <title>Iris 1.039 (April 2026) released</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20377</link>
+      <description>
+        <![CDATA[<p>We&#8217;re pleased to announce that Iris 1.039 (April 2026) is now available for download, either via the &#8220;Iris Updates&#8221; link on the browser&#8217;s default home page, or via PackMan (see instructions on <span class="caps">RISC</span> OS Developments&#8217; website).</p>
+        <p>This is a small update that resolves issues when downloading files that are triggered from web forms.  This should help with Github, Paolo&#8217;s theme download site, and a number of other download sites.</p>]]>
+      </description>
+      <source:markdown>We’re pleased to announce that Iris 1.039 (April 2026) is now available for download, either via the “Iris Updates” link on the browser’s default home page, or via PackMan (see instructions on RISC OS Developments’ website).
+
+This is a small update that resolves issues when downloading files that are triggered from web forms. This should help with Github, Paolo’s theme download site, and a number of other download sites.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20377:163584</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/rougol.bsky.social/post/3mjzhpxa2c22h</link>
       <description>
         <![CDATA[What's really amazing is that we went from simple 2D platform games like Chuckie Egg to 3D space exploration, trading, dogfighting Elite in less than a year, *on the same hardware*!
@@ -46,14 +219,6 @@ https://www.iconbar.com/articles/ROUGOL\_April\_2026\_meeting\_-\_Paolo\_Fabio\_
 Rougols&#39;s April speaker was Paolo Fabio Zaino, introducing his new Theme Manager.</source:markdown>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mjypqvg63k2r</guid>
     </item>    <item>
-      <title>Cloverleaf</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20376</link>
-      <description>
-        <![CDATA[<p>What happened to the Cloverleaf guys? They had grand ideas but seem to of vanished.</p>]]>
-      </description>
-      <source:markdown>What happened to the Cloverleaf guys? They had grand ideas but seem to of vanished.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20376:163573</guid>
-    </item>    <item>
       <title>ROUGOL April 2026 meeting - Paolo Fabio Zaino</title>
       <link>http://www.iconbar.com/comments/rss/news2326.html</link>
       <description>
@@ -61,58 +226,6 @@ Rougols&#39;s April speaker was Paolo Fabio Zaino, introducing his new Theme Man
       </description>
       <source:markdown>Rougols&#39;s April speaker was Paolo Fabio Zaino, introducing his new Theme Manager</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2326.html</guid>
-    </item>    <item>
-      <title>Turning David Pilling&#38;#39;s raw source code into git projects</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20375</link>
-      <description>
-        <![CDATA[<p>Hi,</p>
-        <p>I&#8217;d like to float the idea that someone or group take one of the applications I have written and released the source code for and turn it into a git type project.</p>
-        <p>This is what <span class="caps">ROOL</span> did with SparkFS.</p>
-        <p>Just an idea, I can&#8217;t say it is a good idea and apparently I am not going to do it myself.</p>
-        <p>Perhaps this post is saying it is something that could be done with my blessing.</p>
-        <p>David Pilling</p>]]>
-      </description>
-      <source:markdown>Hi,
-
-I’d like to float the idea that someone or group take one of the applications I have written and released the source code for and turn it into a git type project.
-
-This is what ROOL did with SparkFS.
-
-Just an idea, I can’t say it is a good idea and apparently I am not going to do it myself.
-
-Perhaps this post is saying it is something that could be done with my blessing.
-
-David Pilling</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20375:163569</guid>
-    </item>    <item>
-      <title>Chris Johnson&#38;#39;s versions of my software</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20374</link>
-      <description>
-        <![CDATA[<p>Hi,</p>
-        <p>Over the years Chris Johnson, produced enhanced versions of a number of pieces of <span class="caps">RISC</span> OS software written by me.</p>
-        <p>He has now made available the source code of his versions. You can find this here:</p>
-        <p><a href="https://www.davidpilling.com/wiki/index.php/ChrisJohnson">https://www.davidpilling.com/wiki/index.php/ChrisJohns…</a></p>
-        <p>The archives also contain copies of the applications which are usable without any programming expertise.</p>
-        <p>The software is DPScan, Snapper and Sync Discs.</p>
-        <p>I encourage you to go to the page and download the archives, against the day they&#8217;re not there.</p>
-        <p>David Pilling</p>]]>
-      </description>
-      <source:markdown>Hi,
-
-Over the years Chris Johnson, produced enhanced versions of a number of pieces of RISC OS software written by me.
-
-He has now made available the source code of his versions. You can find this here:
-
-[https://www.davidpilling.com/wiki/index.php/ChrisJohns…](https://www.davidpilling.com/wiki/index.php/ChrisJohnson)
-
-The archives also contain copies of the applications which are usable without any programming expertise.
-
-The software is DPScan, Snapper and Sync Discs.
-
-I encourage you to go to the page and download the archives, against the day they’re not there.
-
-David Pilling</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20374:163568</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mjxl7j44ps2c</link>
       <description>
@@ -175,14 +288,6 @@ I’ve mistakenly assumed that all the installed programs are being updated via 
 It was 80cm actually. Only two orders of magnitude different. But it did underline that an American journalist would be unlikely to say &#34;feet&#34; when they meant &#34;inch&#34; - and that&#39;s only 1 O.O.M.</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mjwa7ytfn223</guid>
     </item>    <item>
-      <title>DDE C++ compatible STL</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20357</link>
-      <description>
-        <![CDATA[<p>I found the original <a href="https://www.stepanovpapers.com/butler.hpl.hp/stl/index.html">HP template sources</a> on which CathlibCpp is based on. I&#8217;m still hesitating to work out how to include them. I would like to be able to have a <span class="caps">STL</span> library which could be dropped into the <span class="caps">DDE</span> libraries without issues, currently I&#8217;m finding clashes.</p>]]>
-      </description>
-      <source:markdown>I found the original [HP template sources](https://www.stepanovpapers.com/butler.hpl.hp/stl/index.html) on which CathlibCpp is based on. I’m still hesitating to work out how to include them. I would like to be able to have a STL library which could be dropped into the DDE libraries without issues, currently I’m finding clashes.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20357:163559</guid>
-    </item>    <item>
       <title>LanManFS update underway</title>
       <link>https://www.riscosopen.org/forum/forums/8/topics/20350</link>
       <description>
@@ -203,17 +308,6 @@ Does the free version of Slack suffice? I have never used Slack.
 
 I’ve never used that either!</source:markdown>
       <guid>cid://www.riscosopen.org:8:20350:163558</guid>
-    </item>    <item>
-      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
-      <description>
-        <![CDATA[<p><img src="https://images2.imgbox.com/6b/75/qnFgyGmC_o.jpg" alt="" /></p>
-        <p>To confirm @Sprow this does look better, is this how its intended to look now?</p>]]>
-      </description>
-      <source:markdown>![](https://images2.imgbox.com/6b/75/qnFgyGmC_o.jpg)
-
-To confirm @Sprow this does look better, is this how its intended to look now?</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20340:163557</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mjuyaavdis2y</link>
       <description>
