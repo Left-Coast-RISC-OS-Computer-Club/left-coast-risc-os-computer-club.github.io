@@ -7,10 +7,145 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>23 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>24 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Audio on RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20323</link>
+      <description>
+        <![CDATA[<p>@Jim<br />
+        I missed your post.</p>
+        bq. I did write an alternative ‘visualiser’ that acts as PPMs to go with !DigitalCD. Also an ‘off desktop’ full source and capture app that analyses the results for audio test purposes.
+        
+        I&#8217;m interested, I&#8217;ve already used your <span class="caps">PPM</span> in the Oscilloscope project built with Colin. but it was for a signal from a <span class="caps">USB</span> device.
+        <p>I would like to know how to interface it with an internal sound. <br />
+        On the other hand, I did not find your Ross document on your site&#8230;</p>
+        <p>For information, I worked in audio visual, and I confirm the 48K standard called <span class="caps">AES</span> <span class="caps">EBU</span>, widely used in control rooms, for example in Studer mixdesks</p>]]>
+      </description>
+      <source:markdown>@Jim
+
+I missed your post.
+
+bq. I did write an alternative ‘visualiser’ that acts as PPMs to go with !DigitalCD. Also an ‘off desktop’ full source and capture app that analyses the results for audio test purposes.
+
+I’m interested, I’ve already used your PPM in the Oscilloscope project built with Colin. but it was for a signal from a USB device.
+
+I would like to know how to interface it with an internal sound.
+
+On the other hand, I did not find your Ross document on your site…
+
+For information, I worked in audio visual, and I confirm the 48K standard called AESEBU, widely used in control rooms, for example in Studer mixdesks</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20323:163678</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mkaom6a3mc2b</link>
+      <description>
+        <![CDATA[So Mr Wright, you're proposing to build a house... do I have this right... over a waterfall?!
+        - Oh yes, and river.
+        With a flat roof?
+        - Certainly, and extensive terraces.
+        Good ventilation?
+        - It's... in a valley... in a forest.
+        A forest? But somewhere temperate of course?
+        - Oh, ha ha, no. No no no.]]>
+      </description>
+      <source:markdown>So Mr Wright, you&#39;re proposing to build a house... do I have this right... over a waterfall?!
+\- Oh yes, and river.
+With a flat roof?
+\- Certainly, and extensive terraces.
+Good ventilation?
+\- It&#39;s... in a valley... in a forest.
+A forest? But somewhere temperate of course?
+\- Oh, ha ha, no. No no no.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mkaom6a3mc2b</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mkaolcjuac2u</link>
+      <description>
+        <![CDATA[Oh oh... I’m seeing followers who aren’t the usual weirdos doing questionable things to modern or retro computers. Is the X thing starting on Bsky too?
+        
+        Remember humans: I mostly post coding nonsense, retro computing chaos, and bugs that appear sentient.
+        
+        Follow responsibly.]]>
+      </description>
+      <source:markdown>Oh oh... I’m seeing followers who aren’t the usual weirdos doing questionable things to modern or retro computers. Is the X thing starting on Bsky too?
+
+Remember humans: I mostly post coding nonsense, retro computing chaos, and bugs that appear sentient.
+
+Follow responsibly.</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mkaolcjuac2u</guid>
+    </item>    <item>
+      <title>DDE C++ compatible STL</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20357</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I’m still learning and certainly don’t profess to be a C++ Guru!</p>
+        </blockquote>
+        <p>Me too, continuing to learn is the main thing! and C++ is a very good concept, (my opinion).<br />
+        I just updated a program I started over 10 years ago. The use of classes greatly facilitates rereading and their reuse.<br />
+        I don&#8217;t know how I could have done it without the <span class="caps">STL</span>, and the toolbox objects (the program uses the Treeview and Tabs gadgets and CathLibCpp).</p>
+        <p>I need to update my site page, old version,</p>
+        <p><a href="https://jeanmichelb.riscos.fr/XML/XML.html#XML_Editor">just for info</a></p>
+        <p>I hope I can use GitHub like you, it will be better&#8230;.</p>]]>
+      </description>
+      <source:markdown>&#62; I’m still learning and certainly don’t profess to be a C++ Guru!
+
+Me too, continuing to learn is the main thing! and C++ is a very good concept, (my opinion).
+
+I just updated a program I started over 10 years ago. The use of classes greatly facilitates rereading and their reuse.
+
+I don’t know how I could have done it without the STL, and the toolbox objects (the program uses the Treeview and Tabs gadgets and CathLibCpp).
+
+I need to update my site page, old version,
+
+[just for info](https://jeanmichelb.riscos.fr/XML/XML.html#XML_Editor)
+
+I hope I can use GitHub like you, it will be better….</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20357:163674</guid>
+    </item>    <item>
+      <title>!IsocUSB &#38;amp; !Isocplayer on RPi4B w/ FiiO Olympus 2</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20378</link>
+      <description>
+        <![CDATA[<p>Is the same problem / fix. <br />
+        I have to <strong>play</strong> a wav-file with the old player before the swi is working. It is not enough to start the player without playing.</p>
+        <p>I have load the IsocPlayer module stand alone and run as <span class="caps">BASIC</span></p>
+        <pre><code>SYS "IsocPlayer_Play","NVMe::NVME.$.Musik.Song/mp3"</code></pre>
+        <p>With the loaded module I get no error message but no sound. <br />
+        If I play a wave file before with the old player, it is working.</p>]]>
+      </description>
+      <source:markdown>Is the same problem / fix.
+
+I have to **play** a wav-file with the old player before the swi is working. It is not enough to start the player without playing.
+
+I have load the IsocPlayer module stand alone and run as BASIC
+
+```
+SYS &#34;IsocPlayer_Play&#34;,&#34;NVMe::NVME.$.Musik.Song/mp3&#34;
+```
+
+With the loaded module I get no error message but no sound.
+
+If I play a wave file before with the old player, it is working.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20378:163673</guid>
+    </item>    <item>
+      <title>DiscKnight on 5.31</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20315</link>
+      <description>
+        <![CDATA[<p>Has it hung at the last line? If so use the Extract Disc Data for Analysis advanced option and send the file to the usual address.</p>]]>
+      </description>
+      <source:markdown>Has it hung at the last line? If so use the Extract Disc Data for Analysis advanced option and send the file to the usual address.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20315:163661</guid>
+    </item>    <item>
+      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
+      <description>
+        <![CDATA[<p><img src="https://images2.imgbox.com/e0/92/Ma5NaDgC_o.jpg" alt="" /></p>
+        <p>New Version of Classic RO5 Theme set with Alpha Channel Sprites almost complete!</p>]]>
+      </description>
+      <source:markdown>![](https://images2.imgbox.com/e0/92/Ma5NaDgC_o.jpg)
+
+New Version of Classic RO5 Theme set with Alpha Channel Sprites almost complete!</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20340:163660</guid>
+    </item>    <item>
       <title>Random projects...</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
       <description>
@@ -28,6 +163,25 @@ Ironically, the file in question is part of the current version of !OvnPro obtai
 (I haven’t encountered this on other setups, needless to say.)</source:markdown>
       <guid>cid://www.riscosopen.org:5:20192:163658</guid>
     </item>    <item>
+      <title>Cloverleaf</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20376</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I don’t think that’s restricted to <span class="caps">RISC</span> OS, it’s just easier to do.</p>
+        </blockquote>
+        <p>Oh boy&#8230; Apple did a lot to introduce a security model that allow users to see and decide which software is trying to read keystokes, screen and more. It&#8217;s not the 90s anymore and by a while.</p>
+        <p>On other systems that again support process isolation and better APIs, things can also be improved usign password managers. On <span class="caps">RISC</span> OS such a tool will only replay the password in a filed, so litterally is just a tool to type it for you. again 0 security and it&#8217;s easy to figure out the passwords stored anyway.</p>
+        <p>Right now the big challenge on that field for modern desktop is actually the clip board. Which is really hard to protect given the nature of it, but this is another story and for another chat.</p>]]>
+      </description>
+      <source:markdown>&#62; I don’t think that’s restricted to RISC OS, it’s just easier to do.
+
+Oh boy… Apple did a lot to introduce a security model that allow users to see and decide which software is trying to read keystokes, screen and more. It’s not the 90s anymore and by a while.
+
+On other systems that again support process isolation and better APIs, things can also be improved usign password managers. On RISC OS such a tool will only replay the password in a filed, so litterally is just a tool to type it for you. again 0 security and it’s easy to figure out the passwords stored anyway.
+
+Right now the big challenge on that field for modern desktop is actually the clip board. Which is really hard to protect given the nature of it, but this is another story and for another chat.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20376:163656</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mk6g6dhmdc2v</link>
       <description>
         <![CDATA[I'm old (and weary) enough to remember a time when saying you met someone "off the internet" was considered weird.
@@ -38,17 +192,6 @@ Ironically, the file in question is part of the current version of !OvnPro obtai
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mk6g6dhmdc2v</guid>
-    </item>    <item>
-      <title>DiscKnight on 5.31</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20315</link>
-      <description>
-        <![CDATA[<p><img src="https://images2.imgbox.com/79/76/djDNiW45_o.png" alt="" /></p>
-        <p>Latest 5.31 Build has sent DiscKnight funky&#8230;</p>]]>
-      </description>
-      <source:markdown>![](https://images2.imgbox.com/79/76/djDNiW45_o.png)
-
-Latest 5.31 Build has sent DiscKnight funky…</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20315:163654</guid>
     </item>    <item>
       <title>Modern printer drivers</title>
       <link>https://www.riscosopen.org/forum/forums/2/topics/20366</link>
@@ -73,44 +216,6 @@ Expect a new version soon.</source:markdown>
 Bravo to Khn and Klek (and geology &#38; agriculture to the guys, apparently).
 https://www.youtube.com/watch?v=fYQq153rLEg</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mk5s4uvm522a</guid>
-    </item>    <item>
-      <title>DDE C++ compatible STL</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20357</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>The interesting point is that you used “CathLibCpp:iostream.h” and not “iostream.h”</p>
-        </blockquote>
-        <p>I always prefer to know which library I am using, same thing with Oslib or Sys.<br />
-        in this way there is no ambiguity for the compiler and the linker.</p>
-        <p>CathLibCPP manages the <span class="caps">DDE</span> c++ libraries, they are called if necessary and they are often used.</p>
-        <p>So much the better if you already have the library for the Toolbox.<br />
-        I just added Alexander&#8217;s gadgets library to my site. Included is a Doxygen document (good tool). There is the source and I left an executable.</p>]]>
-      </description>
-      <source:markdown>&#62; The interesting point is that you used “CathLibCpp:iostream.h” and not “iostream.h”
-
-I always prefer to know which library I am using, same thing with Oslib or Sys.
-
-in this way there is no ambiguity for the compiler and the linker.
-
-CathLibCPP manages the DDE c++ libraries, they are called if necessary and they are often used.
-
-So much the better if you already have the library for the Toolbox.
-
-I just added Alexander’s gadgets library to my site. Included is a Doxygen document (good tool). There is the source and I left an executable.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20357:163636</guid>
-    </item>    <item>
-      <title>Cloverleaf</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20376</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>do you not like the idea of a new secure ShareFS server?</p>
-        </blockquote>
-        <p>It depends on your definition of secure. As long as it&#8217;s made clear that when being accessed it&#8217;s not secure.</p>]]>
-      </description>
-      <source:markdown>&#62; do you not like the idea of a new secure ShareFS server?
-
-It depends on your definition of secure. As long as it’s made clear that when being accessed it’s not secure.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20376:163635</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mk5oxgp2u22d</link>
       <description>
@@ -174,54 +279,6 @@ Whether you’re looking to get started, need assistance, want to help others, o
 
 For the Zoom credentials (no change), DM me over on X ( [Twitter](https://twitter.com/armbytes)), [BlueSky](https://bsky.app/profile/armbytes.bsky.social), ChatCube or [Mastodon](https://mastodon.online/@armbytes). There’s also an email link at the bottom of this informative RISCOSitory news [page](https://www.riscository.com/2026/developers-fireside-chat-25th-april/).</source:markdown>
       <guid>cid://www.riscosopen.org:1:20379:163601</guid>
-    </item>    <item>
-      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I would like to do a test of these new themes and I am getting a little lost in the discussions.<br />
-        If I understood it is necessary:<br />
-        * NewThem application<br />
-        * a new (test) version of the Window module<br />
-        * and new themes.</p>
-        </blockquote>
-        <p>There&#8217;s an updated <a href="https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/jobs/236460/artifacts/download">ThemeSetup application</a> which you can put into !Boot.RO500Hook.Res.Configure.&#033;ThmeSetup (in fact, just the !RunImage will do) &#8211; that&#8217;s only needed to be able to select suitable themes from inside !ThemeDefs, all it&#8217;s doing is writing out an obey file.</p>
-        <p>The updated Window Manager is easiest to use directly in a <span class="caps">ROM</span>. You <em>can</em> load it from disc, but it&#8217;s a bit tricky to load it at the right place during booting. If getting the code and building a <span class="caps">ROM</span> is offputting I could build ones for people to test with?</p>]]>
-      </description>
-      <source:markdown>&#62; I would like to do a test of these new themes and I am getting a little lost in the discussions.
-&#62;
-&#62; If I understood it is necessary:
-&#62;
-&#62; \\* NewThem application
-&#62;
-&#62; \\* a new (test) version of the Window module
-&#62;
-&#62; \\* and new themes.
-
-There’s an updated [ThemeSetup application](https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/jobs/236460/artifacts/download) which you can put into !Boot.RO500Hook.Res.Configure.!ThmeSetup (in fact, just the !RunImage will do) – that’s only needed to be able to select suitable themes from inside !ThemeDefs, all it’s doing is writing out an obey file.
-
-The updated Window Manager is easiest to use directly in a ROM. You _can_ load it from disc, but it’s a bit tricky to load it at the right place during booting. If getting the code and building a ROM is offputting I could build ones for people to test with?</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20340:163597</guid>
-    </item>    <item>
-      <title>!IsocUSB &#38;amp; !Isocplayer on RPi4B w/ FiiO Olympus 2</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20378</link>
-      <description>
-        <![CDATA[<p>In this <a href="https://www.riscosopen.org/forum/forums/1/topics/20088?page=1&amp;limit=25">https://www.riscosopen.org/forum/forums/1/topics/20088…</a> and that <a href="https://www.riscosopen.org/forum/forums/5/topics/20323">https://www.riscosopen.org/forum/forums/5/topics/20323</a> I&#8217;ve learned that !IsocUSB might be the way to get my RPi4B with an attached FiiO Olympus 2 <span class="caps">DAC</span> to play sounds. The FiiO Olympus 2 is connected to an Arcam <span class="caps">DAC</span> via Coax cable and the Arcam <span class="caps">DAC</span> is connected to my Stereo Receiver. First of all: in !Configure/Sound the Hardware settings are Controller: <span class="caps">VCHIQ</span> analogue / <span class="caps">HDMI</span> audio, System Beep did function via my BenQ <span class="caps">HDMI</span> <span class="caps">TFT</span>. <br />
-        I downloaded !IsocUSB (Jan. 2018) and !Isocplayer (Oct 13, 2018), executed !IsocUSB and tried my luck playing some mp3 and flac via !Isocplayer. Clicking on the start button, nothing happened. The I started !DigitalCD and played some mp3 and flac with it &#8211; played normally but without sound.<br />
-        Having executed !IsocUSB in !Configure/Sound/Hardware settings there was no <span class="caps">USB</span> Device whatever to be chosen. The setting is still: <span class="caps">VCHIQ</span> analogue/<span class="caps">HDMI</span> audio. <br />
-        Having started !Isocplayer, my RPi with <span class="caps">ROD</span> froze 3x, today I repeated the whole thing, froze again and had to be powered off. Of course I don&#8217;t know what the cause may be.<br />
-        Has anybody an idea?</p>]]>
-      </description>
-      <source:markdown>In this [https://www.riscosopen.org/forum/forums/1/topics/20088…](https://www.riscosopen.org/forum/forums/1/topics/20088?page=1&#38;limit=25) and that [https://www.riscosopen.org/forum/forums/5/topics/20323](https://www.riscosopen.org/forum/forums/5/topics/20323) I’ve learned that !IsocUSB might be the way to get my RPi4B with an attached FiiO Olympus 2 DAC to play sounds. The FiiO Olympus 2 is connected to an Arcam DAC via Coax cable and the Arcam DAC is connected to my Stereo Receiver. First of all: in !Configure/Sound the Hardware settings are Controller: VCHIQ analogue / HDMI audio, System Beep did function via my BenQ HDMITFT.
-
-I downloaded !IsocUSB (Jan. 2018) and !Isocplayer (Oct 13, 2018), executed !IsocUSB and tried my luck playing some mp3 and flac via !Isocplayer. Clicking on the start button, nothing happened. The I started !DigitalCD and played some mp3 and flac with it – played normally but without sound.
-
-Having executed !IsocUSB in !Configure/Sound/Hardware settings there was no USB Device whatever to be chosen. The setting is still: VCHIQ analogue/HDMI audio.
-
-Having started !Isocplayer, my RPi with ROD froze 3x, today I repeated the whole thing, froze again and had to be powered off. Of course I don’t know what the cause may be.
-
-Has anybody an idea?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20378:163592</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mjzy75abyc2r</link>
       <description>
@@ -1391,26 +1448,6 @@ PRINT &#34;JUnit XML written successfully&#34;
 
 ```</source:markdown>
       <guid>cid://www.riscosopen.org:1:20351:163045</guid>
-    </item>    <item>
-      <title>Audio on RISC OS</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20323</link>
-      <description>
-        <![CDATA[<p>Some of the things on this page may still be of use/interest to some users.</p>
-        <p>Sound Progs: <a href="https://www.audiomisc.co.uk/software/index.html">https://www.audiomisc.co.uk/software/index.html</a></p>
-        <p>I did write an alternative &#8216;visualiser&#8217; that acts as PPMs to go with !DigitalCD. Also an &#8216;off desktop&#8217; full source and capture app that analyses the results for audio test purposes. Useful for checking audio kit. But it depends on specific bits of added code with my machines, and doesn&#8217;t use the standard RO sound system. Works on my ancient ARMX6.</p>
-        <p>Prompts me to ask: Has any of that changed with modern kit, etc?</p>
-        <p>I&#8217;m not clear about one point wrt newer items. This is how well they may cope with 44.1k rate material from CDs. The norm for AV is 48k rate. Which raises the question of accurate rate conversions. Devil in the details.</p>]]>
-      </description>
-      <source:markdown>Some of the things on this page may still be of use/interest to some users.
-
-Sound Progs: [https://www.audiomisc.co.uk/software/index.html](https://www.audiomisc.co.uk/software/index.html)
-
-I did write an alternative ‘visualiser’ that acts as PPMs to go with !DigitalCD. Also an ‘off desktop’ full source and capture app that analyses the results for audio test purposes. Useful for checking audio kit. But it depends on specific bits of added code with my machines, and doesn’t use the standard RO sound system. Works on my ancient ARMX6.
-
-Prompts me to ask: Has any of that changed with modern kit, etc?
-
-I’m not clear about one point wrt newer items. This is how well they may cope with 44.1k rate material from CDs. The norm for AV is 48k rate. Which raises the question of accurate rate conversions. Devil in the details.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20323:163042</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mj2vww3l5k25</link>
       <description>
