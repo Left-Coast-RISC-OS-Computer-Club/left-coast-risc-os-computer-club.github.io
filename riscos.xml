@@ -7,63 +7,205 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>25 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>26 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
       <title>Live Coding with Gerph, (Tomorrow) Sunday 26th April at 1pm UK time</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20380</link>
       <description>
-        <![CDATA[<p>This Sunday (tomorrow) – 26th April, at 1pm UK time – I&#8217;ll continue my live coding ot the WindowManager sprite rendering system.</p>
-        <p>Last week we put together a lot of the framework for the implementation (and nattered<br />
-        about very old games). This week, I&#8217;m expecting we&#8217;ll start wiring some bits together<br />
-        and filling in more of the stub implementations.</p>
-        <p>Come along if you like – <a href="https://youtube.com/live/Ovm2EbDjOZ4?feature=share">https://youtube.com/live/Ovm2EbDjOZ4?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
-        <hr />
-        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
-        <p>I&#8217;ve not defined the goals on this yet, but I&#8217;ll fill them in shortly.</p>
-        <hr />
-        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rEVIhNCY-bDeePa2i45bhtb">https://www.youtube.com/playlist?list=PLVVIu906Y7rEVIh…</a></p>
-        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimpspriterender.html">https://presentation.riscos.online/live/wimpspriterend…</a> (once it has been published).</p>]]>
+        <![CDATA[<p>Relatively successful today. We&#8217;ve got the first of our sprites turning up, and they appear to be working ok.<br />
+        We&#8217;ll need to do some optimisation later, but next week will be the shaded and selected icons.<br />
+        The status page has been updated too, so that it has the component listed as a stub, and we have a set of features listed.</p>]]>
       </description>
-      <source:markdown>This Sunday (tomorrow) – 26th April, at 1pm UK time – I’ll continue my live coding ot the WindowManager sprite rendering system.
+      <source:markdown>Relatively successful today. We’ve got the first of our sprites turning up, and they appear to be working ok.
 
-Last week we put together a lot of the framework for the implementation (and nattered
+We’ll need to do some optimisation later, but next week will be the shaded and selected icons.
 
-about very old games). This week, I’m expecting we’ll start wiring some bits together
-
-and filling in more of the stub implementations.
-
-Come along if you like – [https://youtube.com/live/Ovm2EbDjOZ4?feature=share](https://youtube.com/live/Ovm2EbDjOZ4?feature=share) – or you can always watch the video afterwards at the same address.
-
-* * *
-
-For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
-
-I’ve not defined the goals on this yet, but I’ll fill them in shortly.
-
-* * *
-
-If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rEVIh…](https://www.youtube.com/playlist?list=PLVVIu906Y7rEVIhNCY-bDeePa2i45bhtb)
-
-Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimpspriterend…](https://presentation.riscos.online/live/wimpspriterender.html) (once it has been published).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20380:163693</guid>
+The status page has been updated too, so that it has the component listed as a stub, and we have a set of features listed.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20380:163715</guid>
     </item>    <item>
-      <title>LanManFS update underway</title>
-      <link>https://www.riscosopen.org/forum/forums/8/topics/20350</link>
+      <title>Coding on RISC OS fireside chat, Saturday 25th April</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20379</link>
       <description>
-        <![CDATA[<p>In case you&#8217;re curious, <a href="https://www.riscosopen.org/content/documents/bounties/live-status#LanManBugs">here</a> is how the testing is progressing.</p>]]>
+        <![CDATA[<p>A huge shout-out to everyone who made it.</p>
+        <p>The next meetup is pencilled in for the 13th of June.</p>]]>
       </description>
-      <source:markdown>In case you’re curious, [here](https://www.riscosopen.org/content/documents/bounties/live-status#LanManBugs) is how the testing is progressing.</source:markdown>
-      <guid>cid://www.riscosopen.org:8:20350:163689</guid>
+      <source:markdown>A huge shout-out to everyone who made it.
+
+The next meetup is pencilled in for the 13th of June.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20379:163710</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mkfusrnf3c2y</link>
+      <description>
+        <![CDATA[A record breaking day in London!
+        400m! Where's my slice?
+        https://www.bbc.co.uk/news/live/c3dlge7kmdkt?post=asset%3A52ec8ea8-e5d2-4754-9997-130f3ee2670f#post]]>
+      </description>
+      <source:markdown>A record breaking day in London!
+400m! Where&#39;s my slice?
+https://www.bbc.co.uk/news/live/c3dlge7kmdkt?post=asset%3A52ec8ea8-e5d2-4754-9997-130f3ee2670f#post</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mkfusrnf3c2y</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mkfqjco4ds2m</link>
+      <description>
+        <![CDATA[Here's some 6502 to brighten your Sunday! youtu.be/MOEmQ79nA38
+        
+        Special thanks to @musicvsartstuff.bsky.social for the amazing backing music
+        https://youtu.be/MOEmQ79nA38]]>
+      </description>
+      <source:markdown>Here&#39;s some 6502 to brighten your Sunday! youtu.be/MOEmQ79nA38
+
+Special thanks to @musicvsartstuff.bsky.social for the amazing backing music
+https://youtu.be/MOEmQ79nA38</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mkfqjco4ds2m</guid>
+    </item>    <item>
+      <title>The King is in his counting house – in Silver River Kingdom</title>
+      <link>https://www.riscository.com/2026/silver-river-kingdom-released/</link>
+      <description>
+        <![CDATA[Initially released at the RISC OS North show last month, the latest title from AMCOG Games has now been made more widely available. Silver River Kingdom can now be purchased via !Store, priced at £14.99. Anyone who purchased the game at the show can &#8211; and should, to ensure they have the most up to date version &#8211; download the game free of charge from !Store, by using the download code found in the packaging; just input the code in the &#8220;Special instructions, promo code, etc.&#8221; field in the application.&#8230;]]>
+      </description>
+      <source:markdown>Initially released at the RISC OS North show last month, the latest title from AMCOG Games has now been made more widely available. Silver River Kingdom can now be purchased via !Store, priced at £14.99. Anyone who purchased the game at the show can – and should, to ensure they have the most up to date version – download the game free of charge from !Store, by using the download code found in the packaging; just input the code in the “Special instructions, promo code, etc.” field in the application.…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10940</guid>
     </item>    <item>
       <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
       <description>
-        <![CDATA[<p>As I said, for my printer I can set paper size (A4, Legal, Letter) or photo print setting via the web interface, which is accessible via MailPrint&#8217;s UI, and works in Iris.</p>]]>
+        <![CDATA[<p>Sorry Andrew that lead to even more confusion&#8230; lets just buy the printer en find out in real life ;-)<br />
+        Thanks for the fallow up!</p>]]>
       </description>
-      <source:markdown>As I said, for my printer I can set paper size (A4, Legal, Letter) or photo print setting via the web interface, which is accessible via MailPrint’s UI, and works in Iris.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20301:163684</guid>
+      <source:markdown>Sorry Andrew that lead to even more confusion… lets just buy the printer en find out in real life ;-)
+
+Thanks for the fallow up!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20301:163707</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mkfhdkfq6k2t</link>
+      <description>
+        <![CDATA[It's that typical Sunday morning when you decide to wash the car and the neighbours turn up to see what you're up to.
+        
+        #just_washing_the_car
+        #nothing_to_see_here]]>
+      </description>
+      <source:markdown>It&#39;s that typical Sunday morning when you decide to wash the car and the neighbours turn up to see what you&#39;re up to.
+
+#just\_washing\_the\_car
+#nothing\_to\_see\_here</source:markdown>
+      <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3mkfhdkfq6k2t</guid>
+    </item>    <item>
+      <title>FontPrint.</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20381</link>
+      <description>
+        <![CDATA[<p>If I print to a Postscript printer (with a connection that&#8217;s a file), PDriverPS embeds the <span class="caps">RISC</span> OS fonts in the PostScript file as type3 fonts. My FontPrint has a long list of font mappings (just the default &#8211; I&#8217;ve not changed anything), but they don&#8217;t seem to be used.</p>
+        <p>I&#8217;ve tried both Draw and Fireworkz (from Packman). It&#8217;s configured as a Level 2 PS driver. What am I doing wrong?</p>]]>
+      </description>
+      <source:markdown>If I print to a Postscript printer (with a connection that’s a file), PDriverPS embeds the RISC OS fonts in the PostScript file as type3 fonts. My FontPrint has a long list of font mappings (just the default – I’ve not changed anything), but they don’t seem to be used.
+
+I’ve tried both Draw and Fireworkz (from Packman). It’s configured as a Level 2 PS driver. What am I doing wrong?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20381:163703</guid>
+    </item>    <item>
+      <title>LanManFS update underway</title>
+      <link>https://www.riscosopen.org/forum/forums/8/topics/20350</link>
+      <description>
+        <![CDATA[<p>Thanks Steve &#8211; some interesting stuff there.</p>
+        <p>Skimming through that, I wonder how many of those issues are existing in LanManFS, i.e. nothing to do with the <span class="caps">SMB</span> 2/3 changes.  Maybe it&#8217;s one of those where when you start looking hard, all sorts of stuff crawls out of the woodwork, and not just from the areas that have been changed?</p>]]>
+      </description>
+      <source:markdown>Thanks Steve – some interesting stuff there.
+
+Skimming through that, I wonder how many of those issues are existing in LanManFS, i.e. nothing to do with the SMB 2/3 changes. Maybe it’s one of those where when you start looking hard, all sorts of stuff crawls out of the woodwork, and not just from the areas that have been changed?</source:markdown>
+      <guid>cid://www.riscosopen.org:8:20350:163701</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3mkfamghd5c2g</link>
+      <description>
+        <![CDATA[Sine Nomine at the RISC OS North show. Maps, language and history.
+        youtu.be/4DACQutVUBs
+        https://youtu.be/4DACQutVUBs]]>
+      </description>
+      <source:markdown>Sine Nomine at the RISC OS North show. Maps, language and history.
+youtu.be/4DACQutVUBs
+https://youtu.be/4DACQutVUBs</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mkfamghd5c2g</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3mkezolplss2p</link>
+      <description>
+        <![CDATA[A huge shout-out to everyone who made it. The next meetup is pencilled in for the 13th of June.
+        #Zoom #Meetup #RISC_OS #Developer #Community #RaspberryPi #ARM #Retro #AcornComputers
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>A huge shout-out to everyone who made it. The next meetup is pencilled in for the 13th of June.
+#Zoom #Meetup #RISC\_OS #Developer #Community #RaspberryPi #ARM #Retro #AcornComputers
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mkezolplss2p</guid>
+    </item>    <item>
+      <title>PIC / WD1772 floppy project</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/8961</link>
+      <description>
+        <![CDATA[<p>Is there anyone here that understands how to program the WD1772 floppy driver?</p>]]>
+      </description>
+      <source:markdown>Is there anyone here that understands how to program the WD1772 floppy driver?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:8961:163697</guid>
+    </item>    <item>
+      <title>Turning David Pilling&#38;#39;s raw source code into git projects</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20375</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>However, the uptime has substantially improved, so maybe I should bung ChatGPT its way to teach me how to use it.</p>
+        </blockquote>
+        <p>There is ~ 8Mb/s of traffic <strong>constantly</strong> reading from our GitLab (that&#8217;s the entire plaintext of the Encyclopædia Britannica, every five minutes) due to a bajillion <span class="caps">LLM</span> training bots all over the world, and blocking them is like playing whack-a-mole.</p>
+        <p>So this is something we&#8217;re looking at (again). We have some new ideas on how to make the experience better for humans who actually want to interact with the git repositories in GitLab and side-step the bots&#8230;</p>]]>
+      </description>
+      <source:markdown>&#62; However, the uptime has substantially improved, so maybe I should bung ChatGPT its way to teach me how to use it.
+
+There is ~ 8Mb/s of traffic **constantly** reading from our GitLab (that’s the entire plaintext of the Encyclopædia Britannica, every five minutes) due to a bajillion LLM training bots all over the world, and blocking them is like playing whack-a-mole.
+
+So this is something we’re looking at (again). We have some new ideas on how to make the experience better for humans who actually want to interact with the git repositories in GitLab and side-step the bots…</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20375:163696</guid>
+    </item>    <item>
+      <title>Cloverleaf</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20376</link>
+      <description>
+        <![CDATA[<p>Please try to be constructive, people.</p>]]>
+      </description>
+      <source:markdown>Please try to be constructive, people.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20376:163695</guid>
+    </item>    <item>
+      <title>JSbeeb and Compiler Explorer at ROUGOL, Mon 16th March 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20291</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I didn’t spot it on the compiler menu, but maybe it is still working its way through :)</p>
+        </blockquote>
+        <p>It&#8217;s finally there. <a href="https://compiler-explorer.com/z/v9YKdK6aq">https://compiler-explorer.com/z/v9YKdK6aq</a> and <a href="https://compiler-explorer.com/z/e73Tqdxzj">https://compiler-explorer.com/z/e73Tqdxzj</a></p>]]>
+      </description>
+      <source:markdown>&#62; I didn’t spot it on the compiler menu, but maybe it is still working its way through :)
+
+It’s finally there. [https://compiler-explorer.com/z/v9YKdK6aq](https://compiler-explorer.com/z/v9YKdK6aq) and [https://compiler-explorer.com/z/e73Tqdxzj](https://compiler-explorer.com/z/e73Tqdxzj)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20291:163694</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mkdslfhmt225</link>
+      <description>
+        <![CDATA[Another fabulous Software Creations lunchtime pub gathering today on a glorious sunny day. Excellent company, food and drink as usual. I shared the Chip Tune Player website with a few people who hadn't heard of it, including two who created some of the content hosted there.
+        
+        chiptune.app/browse
+        https://chiptune.app/browse]]>
+      </description>
+      <source:markdown>Another fabulous Software Creations lunchtime pub gathering today on a glorious sunny day. Excellent company, food and drink as usual. I shared the Chip Tune Player website with a few people who hadn&#39;t heard of it, including two who created some of the content hosted there.
+
+chiptune.app/browse
+https://chiptune.app/browse</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkdslfhmt225</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mkds4uz66s25</link>
+      <description>
+        <![CDATA[Retrofest 2026, at the Museum of the Great Western Railway in Swindon, is only 5 weeks away. You can find out more about the exhibitors here... www.retrofest.uk/whowhat.php
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Retrofest 2026, at the Museum of the Great Western Railway in Swindon, is only 5 weeks away. You can find out more about the exhibitors here... www.retrofest.uk/whowhat.php
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkds4uz66s25</guid>
     </item>    <item>
       <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
       <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
@@ -211,20 +353,6 @@ If I play a wave file before with the old player, it is working.</source:markdow
       <source:markdown>I’ve just run DK on today’s build (260423) of RO5.31 and it appears fine. RasPi 3B+, usb-connected SSD. I also tried it on the previous build, 260324, and it was equally fine.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20315:163670</guid>
     </item>    <item>
-      <title>Cloverleaf</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20376</link>
-      <description>
-        <![CDATA[<p>Your replies don&#8217;t seem to be in the same context I&#8217;m replying to.<br />
-        I now can&#8217;t now work out if your points have anything to do with what I was trying to reply to.<br />
-        There you go again. Telling people what to do.</p>]]>
-      </description>
-      <source:markdown>Your replies don’t seem to be in the same context I’m replying to.
-
-I now can’t now work out if your points have anything to do with what I was trying to reply to.
-
-There you go again. Telling people what to do.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20376:163669</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mk6g6dhmdc2v</link>
       <description>
         <![CDATA[I'm old (and weary) enough to remember a time when saying you met someone "off the internet" was considered weird.
@@ -309,39 +437,12 @@ There is another developer chat on Saturday night (25th April) for anyone intere
       <source:markdown>The next online meeting for anyone who is interested in the topic of developing on or for RISC OS will take place online on Saturday, 25th April. As ever, these friendly fireside chats are an informal way for developers and those with a passing interest to get together and discuss the issues that affect them or they feel are relevant. There is no set agenda, so the areas covered by the meeting are steered by those present – meaning you can bring up a burning issue, pose a problem to…</source:markdown>
       <guid>cid://https://www.riscository.com/?p=10936</guid>
     </item>    <item>
-      <title>Coding on RISC OS fireside chat, Saturday 25th April</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20379</link>
-      <description>
-        <![CDATA[<p>Join us around the “Coding on <span class="caps">RISC</span> OS” campfire this Saturday, 25th April, at 7:30 p.m. (<span class="caps">GMT</span>) for another one of our friendly and informal fireside chats.</p>
-        <p>Whether you’re looking to get started, need assistance, want to help others, or share a project or current challenge with the group. You’re all welcome! No experience necessary.</p>
-        <p>For the Zoom credentials (no change), DM me over on X (<a href="https://twitter.com/armbytes">Twitter</a>), <a href="https://bsky.app/profile/armbytes.bsky.social">BlueSky</a>, ChatCube or <a href="https://mastodon.online/@armbytes">Mastodon</a>. There&#8217;s also an email link at the bottom of this informative RISCOSitory news <a href="https://www.riscository.com/2026/developers-fireside-chat-25th-april/">page</a>.</p>]]>
-      </description>
-      <source:markdown>Join us around the “Coding on RISC OS” campfire this Saturday, 25th April, at 7:30 p.m. (GMT) for another one of our friendly and informal fireside chats.
-
-Whether you’re looking to get started, need assistance, want to help others, or share a project or current challenge with the group. You’re all welcome! No experience necessary.
-
-For the Zoom credentials (no change), DM me over on X ( [Twitter](https://twitter.com/armbytes)), [BlueSky](https://bsky.app/profile/armbytes.bsky.social), ChatCube or [Mastodon](https://mastodon.online/@armbytes). There’s also an email link at the bottom of this informative RISCOSitory news [page](https://www.riscository.com/2026/developers-fireside-chat-25th-april/).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20379:163601</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mjzy75abyc2r</link>
       <description>
         <![CDATA[When games were on ROM cartridges it was essential they were rock-solid and free from any major issues. Of course, obscure bugs could slip through the net. This is before the internet and patching a ROM was not an option. Here's a non-approval we received from NOA for Ken Griffey Jr. presents MLB.]]>
       </description>
       <source:markdown>When games were on ROM cartridges it was essential they were rock-solid and free from any major issues. Of course, obscure bugs could slip through the net. This is before the internet and patching a ROM was not an option. Here&#39;s a non-approval we received from NOA for Ken Griffey Jr. presents MLB.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mjzy75abyc2r</guid>
-    </item>    <item>
-      <title>Turning David Pilling&#38;#39;s raw source code into git projects</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20375</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I seem to recall looking at them some time back, and was interested, but I seem to remember being put off by the fact that there wasn’t a clear license that said what you could do with it.</p>
-        </blockquote>
-        <p>Is David in a position to apply an appropriate licence to the source? It would be very helpful to have clarity on this.</p>]]>
-      </description>
-      <source:markdown>&#62; I seem to recall looking at them some time back, and was interested, but I seem to remember being put off by the fact that there wasn’t a clear license that said what you could do with it.
-
-Is David in a position to apply an appropriate licence to the source? It would be very helpful to have clarity on this.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20375:163586</guid>
     </item>    <item>
       <title>Chris Johnson&#38;#39;s versions of my software</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20374</link>
@@ -4182,17 +4283,6 @@ Thanks.</source:markdown>
       </description>
       <source:markdown>With the ever increasing cost of living, we are pleased to announce that we have been able to avoid increasing the entry prices for this year’s show. The price of entry into RISC OS North 2026 will be £7, with free entry for anyone under fourteen years of age.</source:markdown>
       <guid>cid://https://www.riscosnorth.uk/?p=616</guid>
-    </item>    <item>
-      <title>JSbeeb and Compiler Explorer at ROUGOL, Mon 16th March 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20291</link>
-      <description>
-        <![CDATA[<p>Nice one Piers :)</p>
-        <p>I didn&#8217;t spot it on the compiler menu, but maybe it is still working its way through :)</p>]]>
-      </description>
-      <source:markdown>Nice one Piers :)
-
-I didn’t spot it on the compiler menu, but maybe it is still working its way through :)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20291:162296</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mgxwguy45224</link>
       <description>
