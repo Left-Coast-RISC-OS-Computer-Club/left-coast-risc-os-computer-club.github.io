@@ -7,10 +7,320 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>26 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>27 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve done some more investigating.</p>
+        <p>I&#8217;ve tried creating a text file (using !StrongED) with  a space in its name. RO 3.71 won&#8217;t let me type this, but is happy if I make it a &#8220;hard&#8221; space. RO Direct <em>will</em> let me type a space, which I assume it converts to a hard space. However, in neither case does the file _actually get <em>saved</em>.</p>
+        <p>I conclude that there is an issue with the macOS implementation of HostFS which cannot handle file names with a (hard) space in them.</p>
+        <p>In case it&#8217;s relevant, when compiling rpcemu, <code>gcc -v</code> revealed that Apple Clang was the compiler.</p>]]>
+      </description>
+      <source:markdown>I’ve done some more investigating.
+
+I’ve tried creating a text file (using !StrongED) with a space in its name. RO 3.71 won’t let me type this, but is happy if I make it a “hard” space. RO Direct _will_ let me type a space, which I assume it converts to a hard space. However, in neither case does the file \_actually get _saved_.
+
+I conclude that there is an issue with the macOS implementation of HostFS which cannot handle file names with a (hard) space in them.
+
+In case it’s relevant, when compiling rpcemu, `gcc -v` revealed that Apple Clang was the compiler.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:163746</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mkih7d2x4k2h</link>
+      <description>
+        <![CDATA[Whilst up in the loft I spotted the guitars from The Beatles  ROCKBAND in a corner - I have the dongles for them. The drumkit is there too, looking rather grubby. I'm so tempted to bring this all down and set it up. I worked on PS3 LEGO Rock Band and later bought the Beatles kit.]]>
+      </description>
+      <source:markdown>Whilst up in the loft I spotted the guitars from The Beatles ROCKBAND in a corner - I have the dongles for them. The drumkit is there too, looking rather grubby. I&#39;m so tempted to bring this all down and set it up. I worked on PS3 LEGO Rock Band and later bought the Beatles kit.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkih7d2x4k2h</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mkignah2dc2h</link>
+      <description>
+        <![CDATA[JetPac 2 for the NES? Not really, but a very similar game  Plasma 0. Unfinished game by Paul Proctor that I managed to rescue from his old, filthy development disks.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>JetPac 2 for the NES? Not really, but a very similar game Plasma 0. Unfinished game by Paul Proctor that I managed to rescue from his old, filthy development disks.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkignah2dc2h</guid>
+    </item>    <item>
+      <title>LanManFS update underway</title>
+      <link>https://www.riscosopen.org/forum/forums/8/topics/20350</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Files starting with “.” on Samba servers are invisible: Samba marks every dot-prefixed filename (.git, .env, etc.) as hidden. LanManFS follows the Windows convention of filtering hidden files out of directory listings, so these files simply don’t appear in the Filer until you run *LMNameMode -IncludeHidden. We’re still deciding whether the default should change for Samba-style servers or whether this is purely a documentation issue.</p>
+        </blockquote>
+        <p>Change the default to visible, you mean? I have 122 files dot-prefixed files on my Mac. That&#8217;d be so frustrating.</p>
+        <p>macOS Finder has a hidden shortcut, Shift-Command-dot, which toggles their visibility (curiously across all Finder windows, but that&#8217;s probably to avoid creating a now-visible .DS_Store file.</p>
+        <p>Wouldn&#8217;t the sensible place to filter be the Finder/Filer/whatnot, not a per-filing system flag? OS_File 5 already has a hidden attribute per file (which I wasn&#8217;t aware about until just now!), which matches your description of Windows&#8217; behaviour.</p>
+        <p><a href="https://www.riscosopen.org/wiki/documentation/show/FileSwitch%20Key%20Features#file_attributes">https://www.riscosopen.org/wiki/documentation/show/Fil…</a></p>
+        <p>I wonder what super-hidden means.</p>
+        <p>Edit: If you want to hide them from the command line too, it ought to be a global setting, not per-FS global. Then it&#8217;d be consistent if ShareFS were to honour it too.</p>]]>
+      </description>
+      <source:markdown>&#62; Files starting with “.” on Samba servers are invisible: Samba marks every dot-prefixed filename (.git, .env, etc.) as hidden. LanManFS follows the Windows convention of filtering hidden files out of directory listings, so these files simply don’t appear in the Filer until you run \*LMNameMode -IncludeHidden. We’re still deciding whether the default should change for Samba-style servers or whether this is purely a documentation issue.
+
+Change the default to visible, you mean? I have 122 files dot-prefixed files on my Mac. That’d be so frustrating.
+
+macOS Finder has a hidden shortcut, Shift-Command-dot, which toggles their visibility (curiously across all Finder windows, but that’s probably to avoid creating a now-visible .DS\_Store file.
+
+Wouldn’t the sensible place to filter be the Finder/Filer/whatnot, not a per-filing system flag? OS\_File 5 already has a hidden attribute per file (which I wasn’t aware about until just now!), which matches your description of Windows’ behaviour.
+
+[https://www.riscosopen.org/wiki/documentation/show/Fil…](https://www.riscosopen.org/wiki/documentation/show/FileSwitch%20Key%20Features#file_attributes)
+
+I wonder what super-hidden means.
+
+Edit: If you want to hide them from the command line too, it ought to be a global setting, not per-FS global. Then it’d be consistent if ShareFS were to honour it too.</source:markdown>
+      <guid>cid://www.riscosopen.org:8:20350:163743</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mki2e5vjpk27</link>
+      <description>
+        <![CDATA[A book shop filled with an eclectic mix of fantasy, sci-fi and computing tomes... basically the stuff *I* like to read! Trouble is, I'd probably run it like Bernard Black 😆
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>A book shop filled with an eclectic mix of fantasy, sci-fi and computing tomes... basically the stuff \*I\* like to read! Trouble is, I&#39;d probably run it like Bernard Black 😆
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mki2e5vjpk27</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mki27xb4l227</link>
+      <description>
+        <![CDATA[I've been bowled over by the reaction to this video, it's had over 2,000 views since I released it yesterday! Thank you to everyone who's watched it and provided such lovely feedback - there will definitely be more coming, now that I've seen how popular it's been...!
+        youtu.be/MOEmQ79nA38
+        https://youtu.be/MOEmQ79nA38]]>
+      </description>
+      <source:markdown>I&#39;ve been bowled over by the reaction to this video, it&#39;s had over 2,000 views since I released it yesterday! Thank you to everyone who&#39;s watched it and provided such lovely feedback - there will definitely be more coming, now that I&#39;ve seen how popular it&#39;s been...!
+youtu.be/MOEmQ79nA38
+https://youtu.be/MOEmQ79nA38</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mki27xb4l227</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mkhxj4k6d22j</link>
+      <description>
+        <![CDATA[#RISC_OS folks, new test release for ShareFSServer available to all the alpha testers. Link with all the changelogs below. To download the new build the link is the same as always. Please let me know if you find any problems.
+        
+        https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&page=5#posts-163728
+        
+        #riscos #FileSharing #OpenSource]]>
+      </description>
+      <source:markdown>#RISC\_OS folks, new test release for ShareFSServer available to all the alpha testers. Link with all the changelogs below. To download the new build the link is the same as always. Please let me know if you find any problems.
+
+https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=5#posts-163728
+
+#riscos #FileSharing #OpenSource</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mkhxj4k6d22j</guid>
+    </item>    <item>
+      <title>FontPrint.</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20381</link>
+      <description>
+        <![CDATA[<p>The answer is complicated.</p>
+        <p>In contrast to the old PostScript 2 driver, the PostScript 3 driver embeds<br />
+        all fonts and does not do any font mapping at all, so there is no need to<br />
+        worry about setting up font mapping. Any font mapping information you set<br />
+        up using FontPrint will be ignored by this driver.</p>]]>
+      </description>
+      <source:markdown>The answer is complicated.
+
+In contrast to the old PostScript 2 driver, the PostScript 3 driver embeds
+
+all fonts and does not do any font mapping at all, so there is no need to
+
+worry about setting up font mapping. Any font mapping information you set
+
+up using FontPrint will be ignored by this driver.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20381:163735</guid>
+    </item>    <item>
+      <title>Draw error</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20383</link>
+      <description>
+        <![CDATA[<p>I am getting two strange errors: a <a href="https://www.svrsig.org/images/oddpic.jpg">particular <span class="caps">JPEG</span></a> loads into PhotoDesk correctly but only displays the left hand half of the image if loaded into Draw (ver 1.46), the right hand half is striped or black. However printing that same Draw file to the Postscript level 3 printer driver works OK and the image is correct.</p>
+        <p>Also I am getting a strange error from DrawFile_Render (immediately after it has rendered the data successfully to screen)</p>
+        <pre><code>
+        &gt;CLG
+        &gt;SYS "DrawFile_Render",0,s%,l%,tm%
+        Handle is either illegal of has been closed
+        &gt;P.ERR
+        222
+        </code></pre>]]>
+      </description>
+      <source:markdown>I am getting two strange errors: a [particular JPEG](https://www.svrsig.org/images/oddpic.jpg) loads into PhotoDesk correctly but only displays the left hand half of the image if loaded into Draw (ver 1.46), the right hand half is striped or black. However printing that same Draw file to the Postscript level 3 printer driver works OK and the image is correct.
+
+Also I am getting a strange error from DrawFile\_Render (immediately after it has rendered the data successfully to screen)
+
+```
+
+&#62;CLG
+&#62;SYS &#34;DrawFile_Render&#34;,0,s%,l%,tm%
+Handle is either illegal of has been closed
+&#62;P.ERR
+222
+
+```</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20383:163734</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p>@ All beta testers</p>
+        <p>New <b>build 0.3.0</b> is available for download and testing.</p>
+        <p>What&#8217;s new?</p>
+        <ul>
+        	<li>Added the configuration option to enable HostFS mode. Check `sharefs.toml.example` for details.</li>
+        	<li>Completed Advanced mode.</li>
+        	<li>Added initial support for <span class="caps">FTP</span> and <span class="caps">FTPS</span>.</li>
+        	<li>Improved <span class="caps">SFTP</span> support.</li>
+        	<li>Bug fixing from last reports</li>
+        	<li>Zero copy ShareFS packet processing (with the protocol almost completely reversed now, I can start to clean up code and improve performance)</li>
+        	<li>Updated to Rust 1.95.0</li>
+        	<li>Added even more test automation, we have passed 250 cases thanks to everyone feedback!</li>
+        </ul>
+        <p>A reminder that ShareFSServer is not just a file-sharing tool. It is a powerful protocol proxy that already allows <span class="caps">RISC</span> OS to use:</p>
+        <ul>
+        	<li><span class="caps">SFTP</span>, <span class="caps">FTP</span>, and <span class="caps">FTPS</span> as ShareFS shares</li>
+        	<li><span class="caps">SMB</span> 2, <span class="caps">SMB</span> 3, and <span class="caps">SMB</span> 3 + <span class="caps">QUIC</span> as ShareFS shares</li>
+        	<li><span class="caps">NFS</span> 3 and <span class="caps">NFS</span> 4 as ShareFS shares</li>
+        	<li>pCloud, Nextcloud, and ownCloud as ShareFS shares</li>
+        	<li>and many more protocols!</li>
+        </ul>
+        <p>There are two ways to proxy a protocol:</p>
+        <ul>
+        	<li>Native</li>
+        	<li>Out-of-band</li>
+        </ul>
+        <p>With Native mode, you literally configure the connection in the `sharefs.toml` file. This also includes specifying protected passwords, <span class="caps">RSA</span> keys, and more. Native mode requires no local cache and connects <span class="caps">RISC</span> OS directly to the resource.</p>
+        <p>With out-of-band mode, you must create a local mount point. This works well if you need a local cache for your connection, which is recommended when you have a slow internet connection.</p>
+        <p>No certificates, sensitive passwords, or similar information are stored on <span class="caps">RISC</span> OS, which has no security. They are all stored in ShareFSServer on more secure systems.</p>
+        <p>Speaking of authentication, I am working on adding <span class="caps">TOTP</span> support, for example Google Authenticator and similar apps. This means it will soon be possible to use passwords that expire and that you can get from your phone. They change automatically, so there is no need to configure the password on the server. You just enable the service on the share, and when you log in, you type the password that your <span class="caps">TOTP</span> app of choice tells you to type.</p>
+        <p>This morning I also had a nice first full <span class="caps">RISC</span> OS boot on ShareFS, which is very helpful for test automation.</p>
+        <p>As always, thanks a lot to everyone helping test this tool!</p>
+        <p>As usual will send emails out tomorrow.</p>
+        <p>[edit]<br />
+        For the ultra retro enthusiasts I am also working on an <span class="caps">NFS</span> 2 reimplementation to allow sharing between <span class="caps">RISC</span> OS systems using ShareFS and very old <span class="caps">UNIX</span> systems like Acorn <span class="caps">RISC</span> iX using this new <span class="caps">NFS</span> 2 Native in ShareFSServer ;)<br />
+        [/edit]</p>]]>
+      </description>
+      <source:markdown>@ All beta testers
+
+New **build 0.3.0** is available for download and testing.
+
+What’s new?
+
+- Added the configuration option to enable HostFS mode. Check \`sharefs.toml.example\` for details.
+- Completed Advanced mode.
+- Added initial support for FTP and FTPS.
+- Improved SFTP support.
+- Bug fixing from last reports
+- Zero copy ShareFS packet processing (with the protocol almost completely reversed now, I can start to clean up code and improve performance)
+- Updated to Rust 1.95.0
+- Added even more test automation, we have passed 250 cases thanks to everyone feedback!
+
+A reminder that ShareFSServer is not just a file-sharing tool. It is a powerful protocol proxy that already allows RISC OS to use:
+
+- SFTP, FTP, and FTPS as ShareFS shares
+- SMB 2, SMB 3, and SMB 3 + QUIC as ShareFS shares
+- NFS 3 and NFS 4 as ShareFS shares
+- pCloud, Nextcloud, and ownCloud as ShareFS shares
+- and many more protocols!
+
+There are two ways to proxy a protocol:
+
+- Native
+- Out-of-band
+
+With Native mode, you literally configure the connection in the \`sharefs.toml\` file. This also includes specifying protected passwords, RSA keys, and more. Native mode requires no local cache and connects RISC OS directly to the resource.
+
+With out-of-band mode, you must create a local mount point. This works well if you need a local cache for your connection, which is recommended when you have a slow internet connection.
+
+No certificates, sensitive passwords, or similar information are stored on RISC OS, which has no security. They are all stored in ShareFSServer on more secure systems.
+
+Speaking of authentication, I am working on adding TOTP support, for example Google Authenticator and similar apps. This means it will soon be possible to use passwords that expire and that you can get from your phone. They change automatically, so there is no need to configure the password on the server. You just enable the service on the share, and when you log in, you type the password that your TOTP app of choice tells you to type.
+
+This morning I also had a nice first full RISC OS boot on ShareFS, which is very helpful for test automation.
+
+As always, thanks a lot to everyone helping test this tool!
+
+As usual will send emails out tomorrow.
+
+\[edit\]
+
+For the ultra retro enthusiasts I am also working on an NFS 2 reimplementation to allow sharing between RISC OS systems using ShareFS and very old UNIX systems like Acorn RISC iX using this new NFS 2 Native in ShareFSServer ;)
+
+\[/edit\]</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:163728</guid>
+    </item>    <item>
+      <title>FireWorkz 2.33 installation place</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20382</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>In <span class="caps">ROD</span> !Fireworkz 2.32.02 is installed in RODirect.$.Apps, a link being placed on the pinboard.</p>
+        </blockquote>
+        <p>OK.</p>
+        <blockquote>
+        <p>As we now have v2.33.0 I installed this via !PackMan. But only the older version is started when double-clicked. So where is it, v2.33.0? Oh look, in RODirect.$.Apps.Document.!Fireworkz !! That leaves me puzzled. Is Apps.Document the new Apps?</p>
+        </blockquote>
+        <p>No.</p>
+        <blockquote>
+        <p>Why is it being installed in here?</p>
+        </blockquote>
+        <p>Different conventions. If you only have a few apps, putting them all in $.Apps is fine. If you have a lot, it can become unwieldy. As a result, PackMan will <strong>by default</strong> group them into loosely-defined category folders within $.Apps.</p>
+        <p>This is just a convention, however. You are free to install most of PackMan&#8217;s apps wherever you like, by dragging and dropping their application icons from the installation dialogue into the place that you want the installation to go.</p>
+        <blockquote>
+        <p>And having started !PackMan I clicked “Update Lists” and “Upgrade All”. Wouldn’t be nice to update an installed program like !Fireworkz, too?</p>
+        </blockquote>
+        <p>It would, but that would require PackMan to know that the Fireworkz on your disc was the Fireworkz that it knows about. As it stands PackMan doesn&#8217;t know this, so it won&#8217;t just trample over any copy of Fireworkz that it finds: you might have been keeping an old copy around for some reason.</p>
+        <p>For the Direct disc image, the best thing is probably to delete the old Fireworkz and install the update from PackMan into the same location. After that, PackMan will indeed just update it when a new version becomes available. This is true for any other applications on the Direct disc image which are also in PackMan (I think there are some of mine in there which are also in PackMan, for example).</p>
+        <p>It would be nice if <span class="caps">ROD</span> set this up by default: install PackMan in the image, then install the applications from within that where possible. This way, users could indeed just update their disc images from PackMan. This would make a lot of sense, as users new to the platform will expect this kind of functionality &#8211; but historically there has been &#8220;resistance&#8221; to package management from some parts of the <span class="caps">RISC</span> OS community, so maybe <span class="caps">ROD</span> are playing things safe?</p>
+        <p>It&#8217;s worth noting that ROOL&#8217;s Pi disc image <em>does</em> use PackMan like this for some of the system components. Again, <span class="caps">ROD</span> could do this for Direct, using the same background infrastructure.</p>]]>
+      </description>
+      <source:markdown>&#62; In ROD !Fireworkz 2.32.02 is installed in RODirect.$.Apps, a link being placed on the pinboard.
+
+OK.
+
+&#62; As we now have v2.33.0 I installed this via !PackMan. But only the older version is started when double-clicked. So where is it, v2.33.0? Oh look, in RODirect.$.Apps.Document.!Fireworkz !! That leaves me puzzled. Is Apps.Document the new Apps?
+
+No.
+
+&#62; Why is it being installed in here?
+
+Different conventions. If you only have a few apps, putting them all in $.Apps is fine. If you have a lot, it can become unwieldy. As a result, PackMan will **by default** group them into loosely-defined category folders within $.Apps.
+
+This is just a convention, however. You are free to install most of PackMan’s apps wherever you like, by dragging and dropping their application icons from the installation dialogue into the place that you want the installation to go.
+
+&#62; And having started !PackMan I clicked “Update Lists” and “Upgrade All”. Wouldn’t be nice to update an installed program like !Fireworkz, too?
+
+It would, but that would require PackMan to know that the Fireworkz on your disc was the Fireworkz that it knows about. As it stands PackMan doesn’t know this, so it won’t just trample over any copy of Fireworkz that it finds: you might have been keeping an old copy around for some reason.
+
+For the Direct disc image, the best thing is probably to delete the old Fireworkz and install the update from PackMan into the same location. After that, PackMan will indeed just update it when a new version becomes available. This is true for any other applications on the Direct disc image which are also in PackMan (I think there are some of mine in there which are also in PackMan, for example).
+
+It would be nice if ROD set this up by default: install PackMan in the image, then install the applications from within that where possible. This way, users could indeed just update their disc images from PackMan. This would make a lot of sense, as users new to the platform will expect this kind of functionality – but historically there has been “resistance” to package management from some parts of the RISC OS community, so maybe ROD are playing things safe?
+
+It’s worth noting that ROOL’s Pi disc image _does_ use PackMan like this for some of the system components. Again, ROD could do this for Direct, using the same background infrastructure.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20382:163726</guid>
+    </item>    <item>
+      <title>JSbeeb and Compiler Explorer at ROUGOL, Mon 16th March 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20291</link>
+      <description>
+        <![CDATA[<p>Thanks Piers, I&#8217;ll have a look as soon as I have a minute.</p>
+        <blockquote>
+        <p>There’s no reason why you couldn’t build it on <span class="caps">RISC</span> OS if you were to rename all the files and write a suitable Makefile. I find the <span class="caps">RISC</span> OS filename convention too frustrating, especially when cross-compiling – no file extension means tools haven’t a clue. I noticed Gerph’s tools only seem to support <span class="caps">RISC</span> OS convention, which was unexpected. When we cross-compiled using Norcroft at Acorn, we only used unix convention.</p>
+        </blockquote>
+        <p>Totally agree, we should have had extensions! Anyway, in case you need, I have automated all thiese shenanigans ages ago, there are scripts that I use to do the symlinking to regular unix files and all my code testing and code checking tools on Linux work fine, if you want I can post a link, but everything is in the riscos community on github. I use it all the time and no issues at all.</p>]]>
+      </description>
+      <source:markdown>Thanks Piers, I’ll have a look as soon as I have a minute.
+
+&#62; There’s no reason why you couldn’t build it on RISC OS if you were to rename all the files and write a suitable Makefile. I find the RISC OS filename convention too frustrating, especially when cross-compiling – no file extension means tools haven’t a clue. I noticed Gerph’s tools only seem to support RISC OS convention, which was unexpected. When we cross-compiled using Norcroft at Acorn, we only used unix convention.
+
+Totally agree, we should have had extensions! Anyway, in case you need, I have automated all thiese shenanigans ages ago, there are scripts that I use to do the symlinking to regular unix files and all my code testing and code checking tools on Linux work fine, if you want I can post a link, but everything is in the riscos community on github. I use it all the time and no issues at all.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20291:163724</guid>
+    </item>    <item>
+      <title>Release 2 Of Quiz Engine</title>
+      <link>https://kevsoft.wordpress.com/2026/04/26/release-2-of-quiz-engine/</link>
+      <description>
+        <![CDATA[I have released the second release of my multiple choice Quiz Engine for RISC OS. This release makes quizzes wth single language look better with change of language options hiden. For those that have downloaded the previous version it is recommend to download the following files Quiz Engine and the Misc fles. For first time &#8230; <a href="https://kevsoft.wordpress.com/2026/04/26/release-2-of-quiz-engine/" class="more-link">Continue reading<span class="screen-reader-text"> "Release 2 Of Quiz&#160;Engine"</span></a>]]>
+      </description>
+      <source:markdown>I have released the second release of my multiple choice Quiz Engine for RISC OS. This release makes quizzes wth single language look better with change of language options hiden. For those that have downloaded the previous version it is recommend to download the following files Quiz Engine and the Misc fles. For first time … [Continue reading &#34;Release 2 Of Quiz Engine&#34;](https://kevsoft.wordpress.com/2026/04/26/release-2-of-quiz-engine/)</source:markdown>
+      <guid>cid://http://kevsoft.wordpress.com/?p=1438</guid>
+    </item>    <item>
       <title>Live Coding with Gerph, (Tomorrow) Sunday 26th April at 1pm UK time</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20380</link>
       <description>
@@ -92,28 +402,6 @@ Thanks for the fallow up!</source:markdown>
 #nothing\_to\_see\_here</source:markdown>
       <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3mkfhdkfq6k2t</guid>
     </item>    <item>
-      <title>FontPrint.</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20381</link>
-      <description>
-        <![CDATA[<p>If I print to a Postscript printer (with a connection that&#8217;s a file), PDriverPS embeds the <span class="caps">RISC</span> OS fonts in the PostScript file as type3 fonts. My FontPrint has a long list of font mappings (just the default &#8211; I&#8217;ve not changed anything), but they don&#8217;t seem to be used.</p>
-        <p>I&#8217;ve tried both Draw and Fireworkz (from Packman). It&#8217;s configured as a Level 2 PS driver. What am I doing wrong?</p>]]>
-      </description>
-      <source:markdown>If I print to a Postscript printer (with a connection that’s a file), PDriverPS embeds the RISC OS fonts in the PostScript file as type3 fonts. My FontPrint has a long list of font mappings (just the default – I’ve not changed anything), but they don’t seem to be used.
-
-I’ve tried both Draw and Fireworkz (from Packman). It’s configured as a Level 2 PS driver. What am I doing wrong?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20381:163703</guid>
-    </item>    <item>
-      <title>LanManFS update underway</title>
-      <link>https://www.riscosopen.org/forum/forums/8/topics/20350</link>
-      <description>
-        <![CDATA[<p>Thanks Steve &#8211; some interesting stuff there.</p>
-        <p>Skimming through that, I wonder how many of those issues are existing in LanManFS, i.e. nothing to do with the <span class="caps">SMB</span> 2/3 changes.  Maybe it&#8217;s one of those where when you start looking hard, all sorts of stuff crawls out of the woodwork, and not just from the areas that have been changed?</p>]]>
-      </description>
-      <source:markdown>Thanks Steve – some interesting stuff there.
-
-Skimming through that, I wonder how many of those issues are existing in LanManFS, i.e. nothing to do with the SMB 2/3 changes. Maybe it’s one of those where when you start looking hard, all sorts of stuff crawls out of the woodwork, and not just from the areas that have been changed?</source:markdown>
-      <guid>cid://www.riscosopen.org:8:20350:163701</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/armbytes.bsky.social/post/3mkfamghd5c2g</link>
       <description>
         <![CDATA[Sine Nomine at the RISC OS North show. Maps, language and history.
@@ -169,19 +457,6 @@ So this is something we’re looking at (again). We have some new ideas on how t
       </description>
       <source:markdown>Please try to be constructive, people.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20376:163695</guid>
-    </item>    <item>
-      <title>JSbeeb and Compiler Explorer at ROUGOL, Mon 16th March 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20291</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I didn’t spot it on the compiler menu, but maybe it is still working its way through :)</p>
-        </blockquote>
-        <p>It&#8217;s finally there. <a href="https://compiler-explorer.com/z/v9YKdK6aq">https://compiler-explorer.com/z/v9YKdK6aq</a> and <a href="https://compiler-explorer.com/z/e73Tqdxzj">https://compiler-explorer.com/z/e73Tqdxzj</a></p>]]>
-      </description>
-      <source:markdown>&#62; I didn’t spot it on the compiler menu, but maybe it is still working its way through :)
-
-It’s finally there. [https://compiler-explorer.com/z/v9YKdK6aq](https://compiler-explorer.com/z/v9YKdK6aq) and [https://compiler-explorer.com/z/e73Tqdxzj](https://compiler-explorer.com/z/e73Tqdxzj)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20291:163694</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mkdslfhmt225</link>
       <description>
@@ -244,17 +519,6 @@ On the other hand, I did not find your Ross document on your site…
 
 For information, I worked in audio visual, and I confirm the 48K standard called AESEBU, widely used in control rooms, for example in Studer mixdesks</source:markdown>
       <guid>cid://www.riscosopen.org:5:20323:163678</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>It&#8217;s the version in the &#8220;easy start&#8221; bundle, so probably not. I&#8217;ll check.</p>
-        <p>The bit about control-alt-click I mentioned above is probably a result of the fact that, on a Mac, control-click is equivalent to a right click. That still applies in RPCEmu. So it&#8217;s probably not a case of option/alt being ignored.</p>]]>
-      </description>
-      <source:markdown>It’s the version in the “easy start” bundle, so probably not. I’ll check.
-
-The bit about control-alt-click I mentioned above is probably a result of the fact that, on a Mac, control-click is equivalent to a right click. That still applies in RPCEmu. So it’s probably not a case of option/alt being ignored.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:163676</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mkaom6a3mc2b</link>
       <description>
@@ -2294,20 +2558,6 @@ ROOL (RISC OS Open Limited) is working on its most ambitious project to date: mo
       </description>
       <source:markdown>That&#39;s a very interesting read.</source:markdown>
       <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13578&#38;page=1#125878</guid>
-    </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p>From a complete outsider to this project, I think it sounds perfect.  Your implementation sounds like an entirely reasonable balance of compatibility vs usability on both sides (host &amp; <span class="caps">RISC</span> OS).  If you go down a path which breaks, say, compatibility with legacy ShareFS clients, then I think it would rather miss the point.</p>
-        <p>Far be it from me to tell anyone else what to do with their own hobby, but I&#8217;d ignore any foot-stamping about how it&#8217;s not 100% the same as LanManFS/LanMan98.  If someone wants that, then guess what?  There is a solution &#8211; use what you have now.  I think I&#8217;d even have a short fuse re. a web admin interface.  Yeah, very cute, but if someone really needs such a thing, then I think they may struggle to get it working anyway (and would do better to buy some sort of future hypothetical ready-to-go solution from the likes of R-Comp or RISCOSBits &#8211; assuming that could happen one day).</p>
-        <p>I take my hat off to you Paolo &#8211; it sounds great.</p>]]>
-      </description>
-      <source:markdown>From a complete outsider to this project, I think it sounds perfect. Your implementation sounds like an entirely reasonable balance of compatibility vs usability on both sides (host &#38; RISC OS). If you go down a path which breaks, say, compatibility with legacy ShareFS clients, then I think it would rather miss the point.
-
-Far be it from me to tell anyone else what to do with their own hobby, but I’d ignore any foot-stamping about how it’s not 100% the same as LanManFS/LanMan98. If someone wants that, then guess what? There is a solution – use what you have now. I think I’d even have a short fuse re. a web admin interface. Yeah, very cute, but if someone really needs such a thing, then I think they may struggle to get it working anyway (and would do better to buy some sort of future hypothetical ready-to-go solution from the likes of R-Comp or RISCOSBits – assuming that could happen one day).
-
-I take my hat off to you Paolo – it sounds great.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:162741</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mieqya3j7s2z</link>
       <description>
