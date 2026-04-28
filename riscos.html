@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.23b" >
-  <meta name="date" content="2026-04-27T12:00:27-07:00" >
-  <link href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" type="application/rss+xml" >
+  <meta name="date" content="2026-04-28T12:00:28-07:00" >
+  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
   <header>
@@ -20,6 +20,60 @@
   </nav>
   <section>
 
+    <article data-published="2026-04-28T12:04:06Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20384">
+      <h1>R-Pi SD Card troubles</h1>
+
+(date: 2026-04-28)
+      <p>
+      <p>On a workbench in my factory is a Raspbery Pi 2 system with a RS483 interface used for testing other electronic systems. It has been running for at least five years continuously apart from occasional power cuts. The system is connected by ShareFS to other RISC OS computers on this site and the monitor is only turned for a few hours every couple of weeks when new software on the target system has to be tested. The system has been totally reliable for this long length of time, but when I tried to access it yesterday, the network showed it as not being present. Today I investigated and it seems that system is totally dead, with no HDMI output. The power supply is OK. The same SD card was tried in three other R-Pi boards and all showed the same effect with no HDMI output at all. The SD card was then placed in a R-Pi CM4 system which showed the embedded boot-loader screen where it tests the USB ports. Why the different effect with the CM4 system when compared to the Pi2 and Pi3 boards tried previously which all gave no HDMI output at all.</p>
+<p>I then tried another RISC OS SD card from another system in the mis-behaving board which gave correct results so this eliminated the particular R-Pi and focussed the problem on the SD card. I put the SD card into a USB card reader and read this on another R-Pi system. Both the DOS and Filecore partitions are present, both with the correct files. The Filecore partition has been scanned from RISC OS with no errors showing.</p>
+<p>There is a lot of data on the SD card which is all completely readable from another R-Pi machine and I would not wish to copy all this data and start again with a fresh SD card if I can help it. Has anyone here got any clues as to what has gone wrong with this SD card and provide any advice as to how to correct it without starting afresh. Any help will be greatfully recieved. With thanks, Kim.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20384">https://www.riscosopen.org/forum/forums/11/topics/20384</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-28T10:15:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3mkke3erknc2n">
+      <h1>@iconbar.com</h1>
+
+(date: 2026-04-28)
+      <p>
+      <p>Iris updated to release 1.39</p>
+<p><a href="https://www.iconbar.com/articles/Iris">https://www.iconbar.com/articles/Iris</a>_updated_to_release_1.39/index2327.html</p>
+<p>The Iris web browser has been updated to version 1.39</p>
+
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3mkke3erknc2n">https://bsky.app/profile/iconbar.com/post/3mkke3erknc2n</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-28T07:12:01Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/8961">
+      <h1>PIC / WD1772 floppy project</h1>
+
+(date: 2026-04-28)
+      <p>
+      <p>I was wondering if one could make a USB to Acorn Floppy extension card like William’s.</p>
+<p>How would one split it up into workable bits?</p>
+<p>For testing hardware and code.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/8961">https://www.riscosopen.org/forum/forums/5/topics/8961</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-28T05:10:00Z" data-link="http://www.iconbar.com/comments/rss/news2327.html">
+      <h1>Iris updated to release 1.39</h1>
+
+(date: 2026-04-28, updated: 2026-03-30)
+      <p>
+      <p>The Iris web browser has been updated to version 1.39</p>
+
+      <address>
+        <a href="http://www.iconbar.com/comments/rss/news2327.html">http://www.iconbar.com/comments/rss/news2327.html</a>
+      </address>
+    </article>
+
     <article data-published="2026-04-27T17:14:32Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20192">
       <h1>Random projects...</h1>
 
@@ -32,6 +86,21 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/5/topics/20192">https://www.riscosopen.org/forum/forums/5/topics/20192</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-27T17:04:20Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20382">
+      <h1>FireWorkz 2.33 installation place</h1>
+
+(date: 2026-04-27)
+      <p>
+      <p>The Mac also (by default) has all applications installed in /Applications. As in RISC OS, applications are really directories (with the extension .app). Some apps use “package installers” which place some files in other directories. All apps can create settings files in appropriate places.</p>
+<p>The Mac’s launchers have had various forms over the years. Originally there was none. Much later, <em>Launchpad</em> was introduced. Very recent;y, it’s been removed and replaced by an extension to Spotlight search; Command+Space for Spotlight, then you can press 1 to get a grid of applications — much like RISC OS’ Apps, the only difference being that there is an additional top row of “recently used” apps.</p>
+<p>On all modern OSs you can start applications by pressing the Windows/Super/flag/Pi key (Mac: Command+Space) and typing the first part of the name. Paolo’s launcher did this but you have to click in the text box/writable icon. You don’t have to do that on other OSs. Is this a limitation of RISC OS, I wonder? But search is bad at one thing — showing you what you have installed.</p>
+<p>Linux traditionally stores applications in <code>/usr/bin</code> or under <code>/opt</code>, but with newer forms of package — Flatpaks, Snaps, AppImages — they can be in other places. The menu entries are created on the basis of a <code>.desktop</code> file.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20382">https://www.riscosopen.org/forum/forums/11/topics/20382</a>
       </address>
     </article>
 
@@ -106,6 +175,20 @@ youtu.be/MOEmQ79nA38<a href="https://youtu.be/MOEmQ79nA38">https://youtu.be/MOEm
       </address>
     </article>
 
+    <article data-published="2026-04-27T11:40:47Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
+      <h1>Need volunteers to start testing my new ShareFSServer</h1>
+
+(date: 2026-04-27)
+      <p>
+      <p>A note before you think I forgot to send YOU the email:</p>
+<p>a couple of testers’ emails returned email quota exceeded, so please get in touch if you have not received your email with the link to the download.</p>
+<p>Thank you.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
+      </address>
+    </article>
+
     <article data-published="2026-04-27T11:25:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mkhxj4k6d22j">
       <h1>@paolofabiozaino.bsky.social</h1>
 
@@ -120,118 +203,28 @@ youtu.be/MOEmQ79nA38<a href="https://youtu.be/MOEmQ79nA38">https://youtu.be/MOEm
       </address>
     </article>
 
-    <article data-published="2026-04-27T08:56:54Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20381">
+    <article data-published="2026-04-27T10:38:59Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20381">
       <h1>FontPrint.</h1>
 
 (date: 2026-04-27)
       <p>
-      <p>The answer is complicated.</p>
-<p>In contrast to the old PostScript 2 driver, the PostScript 3 driver embeds</p>
-<p>all fonts and does not do any font mapping at all, so there is no need to</p>
-<p>worry about setting up font mapping. Any font mapping information you set</p>
-<p>up using FontPrint will be ignored by this driver.</p>
+      <p>IIRC the font mapping only happens if the font list is declared in the postscript definition for the printer in the choices. There’s basically a table of pre-installed fonts in the list of installed PS printers, with an indication as to how/where it is used. I believe that if this isn’t in use, you won’t get any font mappings, because the PS driver won’t know there are any fonts to map to on the printer.</p>
+<p>I recall it being a bit fiddly when doing my auto-install/auto-upgrade stuff for various printer-related software.</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/11/topics/20381">https://www.riscosopen.org/forum/forums/11/topics/20381</a>
       </address>
     </article>
 
-    <article data-published="2026-04-27T08:45:02Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20383">
+    <article data-published="2026-04-27T10:18:41Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20383">
       <h1>Draw error</h1>
 
 (date: 2026-04-27)
       <p>
-      <p>I am getting two strange errors: a <a href="https://www.svrsig.org/images/oddpic.jpg">particular JPEG</a> loads into PhotoDesk correctly but only displays the left hand half of the image if loaded into Draw (ver 1.46), the right hand half is striped or black. However printing that same Draw file to the Postscript level 3 printer driver works OK and the image is correct.</p>
-<p>Also I am getting a strange error from DrawFile_Render (immediately after it has rendered the data successfully to screen)</p>
-<pre><code>
-&gt;CLG
-&gt;SYS &quot;DrawFile_Render&quot;,0,s%,l%,tm%
-Handle is either illegal of has been closed
-&gt;P.ERR
-222
-
-</code></pre>
+      <p>That JPEGURL is 404.</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/11/topics/20383">https://www.riscosopen.org/forum/forums/11/topics/20383</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-26T23:09:38Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
-      <h1>Need volunteers to start testing my new ShareFSServer</h1>
-
-(date: 2026-04-26)
-      <p>
-      <p>@ All beta testers</p>
-<p>New <strong>build 0.3.0</strong> is available for download and testing.</p>
-<p>What’s new?</p>
-<ul>
-<li>Added the configuration option to enable HostFS mode. Check `sharefs.toml.example` for details.</li>
-<li>Completed Advanced mode.</li>
-<li>Added initial support for FTP and FTPS.</li>
-<li>Improved SFTP support.</li>
-<li>Bug fixing from last reports</li>
-<li>Zero copy ShareFS packet processing (with the protocol almost completely reversed now, I can start to clean up code and improve performance)</li>
-<li>Updated to Rust 1.95.0</li>
-<li>Added even more test automation, we have passed 250 cases thanks to everyone feedback!</li>
-</ul>
-<p>A reminder that ShareFSServer is not just a file-sharing tool. It is a powerful protocol proxy that already allows RISC OS to use:</p>
-<ul>
-<li>SFTP, FTP, and FTPS as ShareFS shares</li>
-<li>SMB 2, SMB 3, and SMB 3 + QUIC as ShareFS shares</li>
-<li>NFS 3 and NFS 4 as ShareFS shares</li>
-<li>pCloud, Nextcloud, and ownCloud as ShareFS shares</li>
-<li>and many more protocols!</li>
-</ul>
-<p>There are two ways to proxy a protocol:</p>
-<ul>
-<li>Native</li>
-<li>Out-of-band</li>
-</ul>
-<p>With Native mode, you literally configure the connection in the `sharefs.toml` file. This also includes specifying protected passwords, RSA keys, and more. Native mode requires no local cache and connects RISC OS directly to the resource.</p>
-<p>With out-of-band mode, you must create a local mount point. This works well if you need a local cache for your connection, which is recommended when you have a slow internet connection.</p>
-<p>No certificates, sensitive passwords, or similar information are stored on RISC OS, which has no security. They are all stored in ShareFSServer on more secure systems.</p>
-<p>Speaking of authentication, I am working on adding TOTP support, for example Google Authenticator and similar apps. This means it will soon be possible to use passwords that expire and that you can get from your phone. They change automatically, so there is no need to configure the password on the server. You just enable the service on the share, and when you log in, you type the password that your TOTP app of choice tells you to type.</p>
-<p>This morning I also had a nice first full RISC OS boot on ShareFS, which is very helpful for test automation.</p>
-<p>As always, thanks a lot to everyone helping test this tool!</p>
-<p>As usual will send emails out tomorrow.</p>
-<p>[edit]</p>
-<p>For the ultra retro enthusiasts I am also working on an NFS 2 reimplementation to allow sharing between RISC OS systems using ShareFS and very old UNIX systems like Acorn RISC iX using this new NFS 2 Native in ShareFSServer ;)</p>
-<p>[/edit]</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-26T22:12:52Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20382">
-      <h1>FireWorkz 2.33 installation place</h1>
-
-(date: 2026-04-26)
-      <p>
-      <blockquote>
-<p>In ROD !Fireworkz 2.32.02 is installed in RODirect.$.Apps, a link being placed on the pinboard.</p>
-</blockquote>
-<p>OK.</p>
-<blockquote>
-<p>As we now have v2.33.0 I installed this via !PackMan. But only the older version is started when double-clicked. So where is it, v2.33.0? Oh look, in RODirect.$.Apps.Document.!Fireworkz !! That leaves me puzzled. Is Apps.Document the new Apps?</p>
-</blockquote>
-<p>No.</p>
-<blockquote>
-<p>Why is it being installed in here?</p>
-</blockquote>
-<p>Different conventions. If you only have a few apps, putting them all in $.Apps is fine. If you have a lot, it can become unwieldy. As a result, PackMan will <strong>by default</strong> group them into loosely-defined category folders within $.Apps.</p>
-<p>This is just a convention, however. You are free to install most of PackMan’s apps wherever you like, by dragging and dropping their application icons from the installation dialogue into the place that you want the installation to go.</p>
-<blockquote>
-<p>And having started !PackMan I clicked “Update Lists” and “Upgrade All”. Wouldn’t be nice to update an installed program like !Fireworkz, too?</p>
-</blockquote>
-<p>It would, but that would require PackMan to know that the Fireworkz on your disc was the Fireworkz that it knows about. As it stands PackMan doesn’t know this, so it won’t just trample over any copy of Fireworkz that it finds: you might have been keeping an old copy around for some reason.</p>
-<p>For the Direct disc image, the best thing is probably to delete the old Fireworkz and install the update from PackMan into the same location. After that, PackMan will indeed just update it when a new version becomes available. This is true for any other applications on the Direct disc image which are also in PackMan (I think there are some of mine in there which are also in PackMan, for example).</p>
-<p>It would be nice if ROD set this up by default: install PackMan in the image, then install the applications from within that where possible. This way, users could indeed just update their disc images from PackMan. This would make a lot of sense, as users new to the platform will expect this kind of functionality – but historically there has been “resistance” to package management from some parts of the RISC OS community, so maybe ROD are playing things safe?</p>
-<p>It’s worth noting that ROOL’s Pi disc image <em>does</em> use PackMan like this for some of the system components. Again, ROD could do this for Direct, using the same background infrastructure.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20382">https://www.riscosopen.org/forum/forums/11/topics/20382</a>
       </address>
     </article>
 
@@ -379,18 +372,6 @@ youtu.be/4DACQutVUBs<a href="https://youtu.be/4DACQutVUBs">https://youtu.be/4DAC
 
       <address>
         <a href="https://bsky.app/profile/armbytes.bsky.social/post/3mkezolplss2p">https://bsky.app/profile/armbytes.bsky.social/post/3mkezolplss2p</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-26T06:44:13Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/8961">
-      <h1>PIC / WD1772 floppy project</h1>
-
-(date: 2026-04-26)
-      <p>
-      <p>Is there anyone here that understands how to program the WD1772 floppy driver?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/8961">https://www.riscosopen.org/forum/forums/5/topics/8961</a>
       </address>
     </article>
 
@@ -618,7 +599,7 @@ A forest? But somewhere temperate of course?
     <article data-published="2026-04-23T05:44:00Z" data-link="http://www.iconbar.com/comments/rss/news2318.html">
       <h1>Fireside developer chat on saturday night</h1>
 
-(date: 2026-04-23, updated: 2026-03-27)
+(date: 2026-04-23, updated: 2026-03-30)
       <p>
       <p>There is another developer chat is on saturday night (25th April) for anyone interested in a very informal event online aimed at RISC OS developers of all levels.</p>
 
@@ -744,7 +725,7 @@ elite.bbcelite.com</p>
     <article data-published="2026-04-21T06:36:00Z" data-link="http://www.iconbar.com/comments/rss/news2326.html">
       <h1>ROUGOL April 2026 meeting - Paolo Fabio Zaino</h1>
 
-(date: 2026-04-21, updated: 2026-03-27)
+(date: 2026-04-21, updated: 2026-03-30)
       <p>
       <p>Rougols's April speaker was Paolo Fabio Zaino, introducing his new Theme Manager</p>
 
@@ -1155,7 +1136,7 @@ elite.bbcelite.com</p>
     <article data-published="2026-04-17T16:09:00Z" data-link="http://www.iconbar.com/comments/rss/news2312.html">
       <h1>Rougol April 2026 meeting on monday - Desktop themes</h1>
 
-(date: 2026-04-17, updated: 2026-03-27)
+(date: 2026-04-17, updated: 2026-03-30)
       <p>
       <p>The April 2026 Rougol meeting is on Monday and brings together current desktop theme developments</p>
 
@@ -1487,7 +1468,7 @@ elite.bbcelite.com</p>
     <article data-published="2026-04-14T06:44:00Z" data-link="http://www.iconbar.com/comments/rss/news2323.html">
       <h1>Drag'n'Drop 15i2 edition reviewed</h1>
 
-(date: 2026-04-14, updated: 2026-03-27)
+(date: 2026-04-14, updated: 2026-03-30)
       <p>
       <p>The latest edition of Drag'n'Drop magazine was released at the RISC OS North Show where Drag'n'drop were also exhibitors.</p>
 
@@ -1900,7 +1881,7 @@ PRINT &quot;JUnit XML written successfully&quot;
     <article data-published="2026-04-09T05:12:00Z" data-link="http://www.iconbar.com/comments/rss/news2322.html">
       <h1>Archive Edition 28:02 reviewed</h1>
 
-(date: 2026-04-09, updated: 2026-03-27)
+(date: 2026-04-09, updated: 2026-03-30)
       <p>
       <p>Archive Magazine 28:02 was released for the North West Show and subscribers should have received your copy in the post recently</p>
 
@@ -2128,7 +2109,7 @@ images.nasa.gov<a href="https://images.nasa.gov/">https://images.nasa.gov/</a></
     <article data-published="2026-04-07T06:00:00Z" data-link="http://www.iconbar.com/comments/rss/news2321.html">
       <h1>RISC OS Git client reaches release 0.12</h1>
 
-(date: 2026-04-07, updated: 2026-03-27)
+(date: 2026-04-07, updated: 2026-03-30)
       <p>
       <p>ROOL continues to make progress on its mission to bring modern source control to RISC OS with the release of 0.12 of the Git client</p>
 
@@ -2663,7 +2644,7 @@ Source: <a href="https://www.riscosopen.org/forum/forums/1/topics/20328?limit=25
     <article data-published="2026-04-01T05:47:00Z" data-link="http://www.iconbar.com/comments/rss/news2319.html">
       <h1>Double your impact on the RISC OS 'Moon mission'</h1>
 
-(date: 2026-04-01, updated: 2026-03-27)
+(date: 2026-04-01, updated: 2026-03-30)
       <p>
       <p>ROOL (RISC OS Open Limited) is working on its most ambitious project to date: moving RISC OS to a 64-bit architecture. It's a major undertaking, and right now your donation goes twice as far.</p>
 
@@ -2761,7 +2742,7 @@ Source: <a href="https://www.riscosopen.org/forum/forums/1/topics/20328?limit=25
     <article data-published="2026-03-31T07:05:00Z" data-link="http://www.iconbar.com/comments/rss/news2317.html">
       <h1>RISC OS in a Post-AI World: Could Simplicity Be the Missing Link in Education?</h1>
 
-(date: 2026-03-31, updated: 2026-03-27)
+(date: 2026-03-31, updated: 2026-03-30)
       <p>
       <p>In an age dominated by artificial intelligence, algorithm-driven content, and platforms engineered to maximize attention, a counter-question is gaining traction: What if real progress sometimes means stripping things back rather than adding more layers?</p>
 
@@ -2976,7 +2957,7 @@ Source: <a href="https://www.riscosopen.org/forum/forums/1/topics/20328?limit=25
     <article data-published="2026-03-30T06:10:00Z" data-link="http://www.iconbar.com/comments/rss/news2310.html">
       <h1>WROCC April 2026 talk on Wednesday</h1>
 
-(date: 2026-03-30, updated: 2026-03-27)
+(date: 2026-03-30)
       <p>
       <p>The April 2026 WROCC talk is on Wednesday 1st April and starts at 7.45pm on Zoom.That's after 12 o'clock so no April fools....</p>
 

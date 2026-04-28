@@ -7,10 +7,61 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>27 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>28 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>R-Pi SD Card troubles</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20384</link>
+      <description>
+        <![CDATA[<p>On a workbench in my factory is a Raspbery Pi 2 system with a RS483 interface used for testing other electronic systems. It has been running for at least five years continuously apart from occasional power cuts. The system is connected by ShareFS to other <span class="caps">RISC</span> OS computers on this site and the monitor is only turned for a few hours every couple of weeks when new software on the target system has to be tested. The system has been totally reliable for this long length of time, but when I tried to access it yesterday, the network showed it as not being present. Today I investigated and it seems that system is totally dead, with no <span class="caps">HDMI</span> output. The power supply is OK. The same SD card was tried in three other R-Pi boards and all showed the same effect with no <span class="caps">HDMI</span> output at all. The SD card was then placed in a R-Pi CM4 system which showed the embedded boot-loader screen where it tests the <span class="caps">USB</span> ports. Why the different effect with the CM4 system when compared to the Pi2 and Pi3 boards tried previously which all gave no <span class="caps">HDMI</span> output at all.</p>
+        <p>I then tried another <span class="caps">RISC</span> OS SD card from another system in the mis-behaving board which gave correct results so this eliminated the particular R-Pi and focussed the problem on the SD card. I put the SD card into a <span class="caps">USB</span> card reader and read this on another R-Pi system. Both the <span class="caps">DOS</span> and Filecore partitions are present, both with the correct files. The Filecore partition has been scanned from <span class="caps">RISC</span> OS with no errors showing.</p>
+        <p>There is a lot of data on the SD card which is all completely readable from another R-Pi machine and I would not wish to copy all this data and start again with a fresh SD card if I can help it. Has anyone here got any clues as to what has gone wrong with this SD card and provide any advice as to how to correct it without starting afresh. Any help will be greatfully recieved. With thanks, Kim.</p>]]>
+      </description>
+      <source:markdown>On a workbench in my factory is a Raspbery Pi 2 system with a RS483 interface used for testing other electronic systems. It has been running for at least five years continuously apart from occasional power cuts. The system is connected by ShareFS to other RISC OS computers on this site and the monitor is only turned for a few hours every couple of weeks when new software on the target system has to be tested. The system has been totally reliable for this long length of time, but when I tried to access it yesterday, the network showed it as not being present. Today I investigated and it seems that system is totally dead, with no HDMI output. The power supply is OK. The same SD card was tried in three other R-Pi boards and all showed the same effect with no HDMI output at all. The SD card was then placed in a R-Pi CM4 system which showed the embedded boot-loader screen where it tests the USB ports. Why the different effect with the CM4 system when compared to the Pi2 and Pi3 boards tried previously which all gave no HDMI output at all.
+
+I then tried another RISC OS SD card from another system in the mis-behaving board which gave correct results so this eliminated the particular R-Pi and focussed the problem on the SD card. I put the SD card into a USB card reader and read this on another R-Pi system. Both the DOS and Filecore partitions are present, both with the correct files. The Filecore partition has been scanned from RISC OS with no errors showing.
+
+There is a lot of data on the SD card which is all completely readable from another R-Pi machine and I would not wish to copy all this data and start again with a fresh SD card if I can help it. Has anyone here got any clues as to what has gone wrong with this SD card and provide any advice as to how to correct it without starting afresh. Any help will be greatfully recieved. With thanks, Kim.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20384:163755</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mkke3erknc2n</link>
+      <description>
+        <![CDATA[Iris updated to release 1.39 
+        
+        https://www.iconbar.com/articles/Iris_updated_to_release_1.39/index2327.html 
+        
+        The Iris web browser has been updated to version 1.39]]>
+      </description>
+      <source:markdown>Iris updated to release 1.39
+
+https://www.iconbar.com/articles/Iris\_updated\_to\_release\_1.39/index2327.html
+
+The Iris web browser has been updated to version 1.39</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mkke3erknc2n</guid>
+    </item>    <item>
+      <title>PIC / WD1772 floppy project</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/8961</link>
+      <description>
+        <![CDATA[<p>I was wondering if one could make a <span class="caps">USB</span> to Acorn Floppy extension card like William&#8217;s.<br />
+        How would one split it up into workable bits?</p>
+        <p>For testing hardware and code.</p>]]>
+      </description>
+      <source:markdown>I was wondering if one could make a USB to Acorn Floppy extension card like William’s.
+
+How would one split it up into workable bits?
+
+For testing hardware and code.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:8961:163751</guid>
+    </item>    <item>
+      <title>Iris updated to release 1.39</title>
+      <link>http://www.iconbar.com/comments/rss/news2327.html</link>
+      <description>
+        <![CDATA[The Iris web browser has been updated to version 1.39]]>
+      </description>
+      <source:markdown>The Iris web browser has been updated to version 1.39</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2327.html</guid>
+    </item>    <item>
       <title>Random projects...</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
       <description>
@@ -27,6 +78,23 @@ I conclude that there is an issue with the macOS implementation of HostFS which 
 
 In case it’s relevant, when compiling rpcemu, `gcc -v` revealed that Apple Clang was the compiler.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20192:163746</guid>
+    </item>    <item>
+      <title>FireWorkz 2.33 installation place</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20382</link>
+      <description>
+        <![CDATA[<p>The Mac also (by default) has all applications installed in /Applications. As in <span class="caps">RISC</span> OS, applications are really directories (with the extension .app). Some apps use &#8220;package installers&#8221; which place some files in other directories. All apps can create settings files in appropriate places.</p>
+        <p>The Mac&#8217;s launchers have had various forms over the years. Originally there was none. Much later, <em>Launchpad</em> was introduced. Very recent;y, it&#8217;s been removed and replaced by an extension to Spotlight search; Command+Space for Spotlight, then you can press 1 to get a grid of applications — much like <span class="caps">RISC</span> OS&#8217; Apps, the only difference being that there is an additional top row of &#8220;recently used&#8221; apps.</p>
+        <p>On all modern OSs you can start applications by pressing the Windows/Super/flag/Pi key (Mac: Command+Space) and typing the first part of the name.  Paolo&#8217;s launcher did this but you have to click in the text box/writable icon. You don&#8217;t have to do that on other OSs. Is this a limitation of <span class="caps">RISC</span> OS, I wonder? But search is bad at one thing — showing you what you have installed.</p>
+        <p>Linux traditionally stores applications in <code>/usr/bin</code> or under <code>/opt</code>, but with newer forms of package — Flatpaks, Snaps, AppImages — they can be in other places. The menu entries are created on the basis of a <code>.desktop</code> file.</p>]]>
+      </description>
+      <source:markdown>The Mac also (by default) has all applications installed in /Applications. As in RISC OS, applications are really directories (with the extension .app). Some apps use “package installers” which place some files in other directories. All apps can create settings files in appropriate places.
+
+The Mac’s launchers have had various forms over the years. Originally there was none. Much later, _Launchpad_ was introduced. Very recent;y, it’s been removed and replaced by an extension to Spotlight search; Command+Space for Spotlight, then you can press 1 to get a grid of applications — much like RISC OS’ Apps, the only difference being that there is an additional top row of “recently used” apps.
+
+On all modern OSs you can start applications by pressing the Windows/Super/flag/Pi key (Mac: Command+Space) and typing the first part of the name. Paolo’s launcher did this but you have to click in the text box/writable icon. You don’t have to do that on other OSs. Is this a limitation of RISC OS, I wonder? But search is bad at one thing — showing you what you have installed.
+
+Linux traditionally stores applications in `/usr/bin` or under `/opt`, but with newer forms of package — Flatpaks, Snaps, AppImages — they can be in other places. The menu entries are created on the basis of a `.desktop` file.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20382:163745</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mkih7d2x4k2h</link>
       <description>
@@ -96,6 +164,20 @@ youtu.be/MOEmQ79nA38
 https://youtu.be/MOEmQ79nA38</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mki27xb4l227</guid>
     </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p>A note before you think I forgot to send <span class="caps">YOU</span> the email:</p>
+        <p>a couple of testers&#8217; emails returned email quota exceeded, so please get in touch if you have not received your email with the link to the download.</p>
+        <p>Thank you.</p>]]>
+      </description>
+      <source:markdown>A note before you think I forgot to send YOU the email:
+
+a couple of testers’ emails returned email quota exceeded, so please get in touch if you have not received your email with the link to the download.
+
+Thank you.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:163741</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mkhxj4k6d22j</link>
       <description>
         <![CDATA[#RISC_OS folks, new test release for ShareFSServer available to all the alpha testers. Link with all the changelogs below. To download the new build the link is the same as always. Please let me know if you find any problems.
@@ -114,188 +196,21 @@ https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=5#post
       <title>FontPrint.</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20381</link>
       <description>
-        <![CDATA[<p>The answer is complicated.</p>
-        <p>In contrast to the old PostScript 2 driver, the PostScript 3 driver embeds<br />
-        all fonts and does not do any font mapping at all, so there is no need to<br />
-        worry about setting up font mapping. Any font mapping information you set<br />
-        up using FontPrint will be ignored by this driver.</p>]]>
+        <![CDATA[<p><span class="caps">IIRC</span> the font mapping only happens if the font list is declared in the postscript definition for the printer in the choices.  There&#8217;s basically a table of pre-installed fonts in the list of installed PS printers, with an indication as to how/where it is used.  I believe that if this isn&#8217;t in use, you won&#8217;t get any font mappings, because the PS driver won&#8217;t know there are any fonts to map to on the printer.</p>
+        <p>I recall it being a bit fiddly when doing my auto-install/auto-upgrade stuff for various printer-related software.</p>]]>
       </description>
-      <source:markdown>The answer is complicated.
+      <source:markdown>IIRC the font mapping only happens if the font list is declared in the postscript definition for the printer in the choices. There’s basically a table of pre-installed fonts in the list of installed PS printers, with an indication as to how/where it is used. I believe that if this isn’t in use, you won’t get any font mappings, because the PS driver won’t know there are any fonts to map to on the printer.
 
-In contrast to the old PostScript 2 driver, the PostScript 3 driver embeds
-
-all fonts and does not do any font mapping at all, so there is no need to
-
-worry about setting up font mapping. Any font mapping information you set
-
-up using FontPrint will be ignored by this driver.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20381:163735</guid>
+I recall it being a bit fiddly when doing my auto-install/auto-upgrade stuff for various printer-related software.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20381:163740</guid>
     </item>    <item>
       <title>Draw error</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20383</link>
       <description>
-        <![CDATA[<p>I am getting two strange errors: a <a href="https://www.svrsig.org/images/oddpic.jpg">particular <span class="caps">JPEG</span></a> loads into PhotoDesk correctly but only displays the left hand half of the image if loaded into Draw (ver 1.46), the right hand half is striped or black. However printing that same Draw file to the Postscript level 3 printer driver works OK and the image is correct.</p>
-        <p>Also I am getting a strange error from DrawFile_Render (immediately after it has rendered the data successfully to screen)</p>
-        <pre><code>
-        &gt;CLG
-        &gt;SYS "DrawFile_Render",0,s%,l%,tm%
-        Handle is either illegal of has been closed
-        &gt;P.ERR
-        222
-        </code></pre>]]>
+        <![CDATA[<p>That <span class="caps">JPEG</span> <span class="caps">URL</span> is 404.</p>]]>
       </description>
-      <source:markdown>I am getting two strange errors: a [particular JPEG](https://www.svrsig.org/images/oddpic.jpg) loads into PhotoDesk correctly but only displays the left hand half of the image if loaded into Draw (ver 1.46), the right hand half is striped or black. However printing that same Draw file to the Postscript level 3 printer driver works OK and the image is correct.
-
-Also I am getting a strange error from DrawFile\_Render (immediately after it has rendered the data successfully to screen)
-
-```
-
-&#62;CLG
-&#62;SYS &#34;DrawFile_Render&#34;,0,s%,l%,tm%
-Handle is either illegal of has been closed
-&#62;P.ERR
-222
-
-```</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20383:163734</guid>
-    </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p>@ All beta testers</p>
-        <p>New <b>build 0.3.0</b> is available for download and testing.</p>
-        <p>What&#8217;s new?</p>
-        <ul>
-        	<li>Added the configuration option to enable HostFS mode. Check `sharefs.toml.example` for details.</li>
-        	<li>Completed Advanced mode.</li>
-        	<li>Added initial support for <span class="caps">FTP</span> and <span class="caps">FTPS</span>.</li>
-        	<li>Improved <span class="caps">SFTP</span> support.</li>
-        	<li>Bug fixing from last reports</li>
-        	<li>Zero copy ShareFS packet processing (with the protocol almost completely reversed now, I can start to clean up code and improve performance)</li>
-        	<li>Updated to Rust 1.95.0</li>
-        	<li>Added even more test automation, we have passed 250 cases thanks to everyone feedback!</li>
-        </ul>
-        <p>A reminder that ShareFSServer is not just a file-sharing tool. It is a powerful protocol proxy that already allows <span class="caps">RISC</span> OS to use:</p>
-        <ul>
-        	<li><span class="caps">SFTP</span>, <span class="caps">FTP</span>, and <span class="caps">FTPS</span> as ShareFS shares</li>
-        	<li><span class="caps">SMB</span> 2, <span class="caps">SMB</span> 3, and <span class="caps">SMB</span> 3 + <span class="caps">QUIC</span> as ShareFS shares</li>
-        	<li><span class="caps">NFS</span> 3 and <span class="caps">NFS</span> 4 as ShareFS shares</li>
-        	<li>pCloud, Nextcloud, and ownCloud as ShareFS shares</li>
-        	<li>and many more protocols!</li>
-        </ul>
-        <p>There are two ways to proxy a protocol:</p>
-        <ul>
-        	<li>Native</li>
-        	<li>Out-of-band</li>
-        </ul>
-        <p>With Native mode, you literally configure the connection in the `sharefs.toml` file. This also includes specifying protected passwords, <span class="caps">RSA</span> keys, and more. Native mode requires no local cache and connects <span class="caps">RISC</span> OS directly to the resource.</p>
-        <p>With out-of-band mode, you must create a local mount point. This works well if you need a local cache for your connection, which is recommended when you have a slow internet connection.</p>
-        <p>No certificates, sensitive passwords, or similar information are stored on <span class="caps">RISC</span> OS, which has no security. They are all stored in ShareFSServer on more secure systems.</p>
-        <p>Speaking of authentication, I am working on adding <span class="caps">TOTP</span> support, for example Google Authenticator and similar apps. This means it will soon be possible to use passwords that expire and that you can get from your phone. They change automatically, so there is no need to configure the password on the server. You just enable the service on the share, and when you log in, you type the password that your <span class="caps">TOTP</span> app of choice tells you to type.</p>
-        <p>This morning I also had a nice first full <span class="caps">RISC</span> OS boot on ShareFS, which is very helpful for test automation.</p>
-        <p>As always, thanks a lot to everyone helping test this tool!</p>
-        <p>As usual will send emails out tomorrow.</p>
-        <p>[edit]<br />
-        For the ultra retro enthusiasts I am also working on an <span class="caps">NFS</span> 2 reimplementation to allow sharing between <span class="caps">RISC</span> OS systems using ShareFS and very old <span class="caps">UNIX</span> systems like Acorn <span class="caps">RISC</span> iX using this new <span class="caps">NFS</span> 2 Native in ShareFSServer ;)<br />
-        [/edit]</p>]]>
-      </description>
-      <source:markdown>@ All beta testers
-
-New **build 0.3.0** is available for download and testing.
-
-What’s new?
-
-- Added the configuration option to enable HostFS mode. Check \`sharefs.toml.example\` for details.
-- Completed Advanced mode.
-- Added initial support for FTP and FTPS.
-- Improved SFTP support.
-- Bug fixing from last reports
-- Zero copy ShareFS packet processing (with the protocol almost completely reversed now, I can start to clean up code and improve performance)
-- Updated to Rust 1.95.0
-- Added even more test automation, we have passed 250 cases thanks to everyone feedback!
-
-A reminder that ShareFSServer is not just a file-sharing tool. It is a powerful protocol proxy that already allows RISC OS to use:
-
-- SFTP, FTP, and FTPS as ShareFS shares
-- SMB 2, SMB 3, and SMB 3 + QUIC as ShareFS shares
-- NFS 3 and NFS 4 as ShareFS shares
-- pCloud, Nextcloud, and ownCloud as ShareFS shares
-- and many more protocols!
-
-There are two ways to proxy a protocol:
-
-- Native
-- Out-of-band
-
-With Native mode, you literally configure the connection in the \`sharefs.toml\` file. This also includes specifying protected passwords, RSA keys, and more. Native mode requires no local cache and connects RISC OS directly to the resource.
-
-With out-of-band mode, you must create a local mount point. This works well if you need a local cache for your connection, which is recommended when you have a slow internet connection.
-
-No certificates, sensitive passwords, or similar information are stored on RISC OS, which has no security. They are all stored in ShareFSServer on more secure systems.
-
-Speaking of authentication, I am working on adding TOTP support, for example Google Authenticator and similar apps. This means it will soon be possible to use passwords that expire and that you can get from your phone. They change automatically, so there is no need to configure the password on the server. You just enable the service on the share, and when you log in, you type the password that your TOTP app of choice tells you to type.
-
-This morning I also had a nice first full RISC OS boot on ShareFS, which is very helpful for test automation.
-
-As always, thanks a lot to everyone helping test this tool!
-
-As usual will send emails out tomorrow.
-
-\[edit\]
-
-For the ultra retro enthusiasts I am also working on an NFS 2 reimplementation to allow sharing between RISC OS systems using ShareFS and very old UNIX systems like Acorn RISC iX using this new NFS 2 Native in ShareFSServer ;)
-
-\[/edit\]</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:163728</guid>
-    </item>    <item>
-      <title>FireWorkz 2.33 installation place</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20382</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>In <span class="caps">ROD</span> !Fireworkz 2.32.02 is installed in RODirect.$.Apps, a link being placed on the pinboard.</p>
-        </blockquote>
-        <p>OK.</p>
-        <blockquote>
-        <p>As we now have v2.33.0 I installed this via !PackMan. But only the older version is started when double-clicked. So where is it, v2.33.0? Oh look, in RODirect.$.Apps.Document.!Fireworkz !! That leaves me puzzled. Is Apps.Document the new Apps?</p>
-        </blockquote>
-        <p>No.</p>
-        <blockquote>
-        <p>Why is it being installed in here?</p>
-        </blockquote>
-        <p>Different conventions. If you only have a few apps, putting them all in $.Apps is fine. If you have a lot, it can become unwieldy. As a result, PackMan will <strong>by default</strong> group them into loosely-defined category folders within $.Apps.</p>
-        <p>This is just a convention, however. You are free to install most of PackMan&#8217;s apps wherever you like, by dragging and dropping their application icons from the installation dialogue into the place that you want the installation to go.</p>
-        <blockquote>
-        <p>And having started !PackMan I clicked “Update Lists” and “Upgrade All”. Wouldn’t be nice to update an installed program like !Fireworkz, too?</p>
-        </blockquote>
-        <p>It would, but that would require PackMan to know that the Fireworkz on your disc was the Fireworkz that it knows about. As it stands PackMan doesn&#8217;t know this, so it won&#8217;t just trample over any copy of Fireworkz that it finds: you might have been keeping an old copy around for some reason.</p>
-        <p>For the Direct disc image, the best thing is probably to delete the old Fireworkz and install the update from PackMan into the same location. After that, PackMan will indeed just update it when a new version becomes available. This is true for any other applications on the Direct disc image which are also in PackMan (I think there are some of mine in there which are also in PackMan, for example).</p>
-        <p>It would be nice if <span class="caps">ROD</span> set this up by default: install PackMan in the image, then install the applications from within that where possible. This way, users could indeed just update their disc images from PackMan. This would make a lot of sense, as users new to the platform will expect this kind of functionality &#8211; but historically there has been &#8220;resistance&#8221; to package management from some parts of the <span class="caps">RISC</span> OS community, so maybe <span class="caps">ROD</span> are playing things safe?</p>
-        <p>It&#8217;s worth noting that ROOL&#8217;s Pi disc image <em>does</em> use PackMan like this for some of the system components. Again, <span class="caps">ROD</span> could do this for Direct, using the same background infrastructure.</p>]]>
-      </description>
-      <source:markdown>&#62; In ROD !Fireworkz 2.32.02 is installed in RODirect.$.Apps, a link being placed on the pinboard.
-
-OK.
-
-&#62; As we now have v2.33.0 I installed this via !PackMan. But only the older version is started when double-clicked. So where is it, v2.33.0? Oh look, in RODirect.$.Apps.Document.!Fireworkz !! That leaves me puzzled. Is Apps.Document the new Apps?
-
-No.
-
-&#62; Why is it being installed in here?
-
-Different conventions. If you only have a few apps, putting them all in $.Apps is fine. If you have a lot, it can become unwieldy. As a result, PackMan will **by default** group them into loosely-defined category folders within $.Apps.
-
-This is just a convention, however. You are free to install most of PackMan’s apps wherever you like, by dragging and dropping their application icons from the installation dialogue into the place that you want the installation to go.
-
-&#62; And having started !PackMan I clicked “Update Lists” and “Upgrade All”. Wouldn’t be nice to update an installed program like !Fireworkz, too?
-
-It would, but that would require PackMan to know that the Fireworkz on your disc was the Fireworkz that it knows about. As it stands PackMan doesn’t know this, so it won’t just trample over any copy of Fireworkz that it finds: you might have been keeping an old copy around for some reason.
-
-For the Direct disc image, the best thing is probably to delete the old Fireworkz and install the update from PackMan into the same location. After that, PackMan will indeed just update it when a new version becomes available. This is true for any other applications on the Direct disc image which are also in PackMan (I think there are some of mine in there which are also in PackMan, for example).
-
-It would be nice if ROD set this up by default: install PackMan in the image, then install the applications from within that where possible. This way, users could indeed just update their disc images from PackMan. This would make a lot of sense, as users new to the platform will expect this kind of functionality – but historically there has been “resistance” to package management from some parts of the RISC OS community, so maybe ROD are playing things safe?
-
-It’s worth noting that ROOL’s Pi disc image _does_ use PackMan like this for some of the system components. Again, ROD could do this for Direct, using the same background infrastructure.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20382:163726</guid>
+      <source:markdown>That JPEGURL is 404.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20383:163738</guid>
     </item>    <item>
       <title>JSbeeb and Compiler Explorer at ROUGOL, Mon 16th March 2026</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20291</link>
@@ -425,14 +340,6 @@ https://youtu.be/4DACQutVUBs</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mkezolplss2p</guid>
-    </item>    <item>
-      <title>PIC / WD1772 floppy project</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/8961</link>
-      <description>
-        <![CDATA[<p>Is there anyone here that understands how to program the WD1772 floppy driver?</p>]]>
-      </description>
-      <source:markdown>Is there anyone here that understands how to program the WD1772 floppy driver?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:8961:163697</guid>
     </item>    <item>
       <title>Turning David Pilling&#38;#39;s raw source code into git projects</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20375</link>
