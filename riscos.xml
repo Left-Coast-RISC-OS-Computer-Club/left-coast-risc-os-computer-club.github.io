@@ -7,10 +7,105 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>28 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>29 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Iris updated to release 1.39</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13588&#38;page=1#125886</link>
+      <description>
+        <![CDATA[Always good news when a piece of important software such as Iris get updated.]]>
+      </description>
+      <source:markdown>Always good news when a piece of important software such as Iris get updated.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13588&#38;page=1#125886</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mkn6vhlswk2e</link>
+      <description>
+        <![CDATA[Overheard a young dev wailing about his Cursor token quota being limited... "my innovation is being restricted!"
+        https://media.tenor.com/Nu0Q-F24KycAAAAC/word-do-not.gif?hh=209&ww=498]]>
+      </description>
+      <source:markdown>Overheard a young dev wailing about his Cursor token quota being limited... &#34;my innovation is being restricted!&#34;
+https://media.tenor.com/Nu0Q-F24KycAAAAC/word-do-not.gif?hh=209&#38;ww=498</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mkn6vhlswk2e</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mkmwuzhd222w</link>
+      <description>
+        <![CDATA[And politics.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>And politics.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mkmwuzhd222w</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mkmwsisdak2w</link>
+      <description>
+        <![CDATA[I'm reminded of the New Zealand joke: When a Kiwi emigrates to Australia, the average IQ of both countries increases.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>I&#39;m reminded of the New Zealand joke: When a Kiwi emigrates to Australia, the average IQ of both countries increases.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mkmwsisdak2w</guid>
+    </item>    <item>
+      <title>QR code generator module v0.04</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20385</link>
+      <description>
+        <![CDATA[<p>Hiya,</p>
+        <p>I finally got around to making the simple command line QR code generator that I ported into a module. Full documentation is included in the release archive, together with the command line tool if need it.</p>
+        <p>Release is here: <a href="https://github.com/gerph/QR-Code-generator/releases/tag/v0.04">https://github.com/gerph/QR-Code-generator/releases/ta…</a></p>
+        <p>Screenshot of a created QR code:</p>
+        <p><img src="https://share.gerph.org/s/hTGsFYxWG40vTza/download" alt="" /></p>]]>
+      </description>
+      <source:markdown>Hiya,
+
+I finally got around to making the simple command line QR code generator that I ported into a module. Full documentation is included in the release archive, together with the command line tool if need it.
+
+Release is here: [https://github.com/gerph/QR-Code-generator/releases/ta…](https://github.com/gerph/QR-Code-generator/releases/tag/v0.04)
+
+Screenshot of a created QR code:
+
+![](https://share.gerph.org/s/hTGsFYxWG40vTza/download)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20385:163764</guid>
+    </item>    <item>
+      <title>Modern printer drivers</title>
+      <link>https://www.riscosopen.org/forum/forums/2/topics/20366</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve updated mmy <span class="caps">IPP</span> printing apps on my web site.</p>
+        <p>IPPTrnspt is now at version 0.20.  It uses PrintJob, rather than CreateJob followed by SendDocument.  This version has been more successful in allowing the media source (paper etc. tray) to be selected.</p>
+        <p>FindIPP is now at version 0.08, and GetIPP is now at version 0.10.  They handle &#8220;426 Upgrade required&#8221; responses.  Previously these would have produced a &#8220;No usable printer found&#8221; error.</p>
+        <p>If you hadn&#8217;t noticed before, the Dumpers zip is now at version 0.04.  I fixed a bug in the PDumperURF module that would make a mess of even numbered pages when using duplex with flip on long edge.</p>
+        <p>As usual you&#8217;ll find them on my web site <a href="https://davehigton.me.uk">https://davehigton.me.uk</a> in the &#8220;<span class="caps">IPP</span> Printing&#8221; section.</p>
+        <p>As usual, I plead for you not merely to try them, but also to let me know if they work for you.</p>]]>
+      </description>
+      <source:markdown>I’ve updated mmy IPP printing apps on my web site.
+
+IPPTrnspt is now at version 0.20. It uses PrintJob, rather than CreateJob followed by SendDocument. This version has been more successful in allowing the media source (paper etc. tray) to be selected.
+
+FindIPP is now at version 0.08, and GetIPP is now at version 0.10. They handle “426 Upgrade required” responses. Previously these would have produced a “No usable printer found” error.
+
+If you hadn’t noticed before, the Dumpers zip is now at version 0.04. I fixed a bug in the PDumperURF module that would make a mess of even numbered pages when using duplex with flip on long edge.
+
+As usual you’ll find them on my web site [https://davehigton.me.uk](https://davehigton.me.uk) in the “IPP Printing” section.
+
+As usual, I plead for you not merely to try them, but also to let me know if they work for you.</source:markdown>
+      <guid>cid://www.riscosopen.org:2:20366:163763</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I conclude that there is an issue with the macOS implementation of HostFS which cannot handle file names with a (hard) space in them.</p>
+        </blockquote>
+        <p>This should be fixed now, if you build the latest version.</p>]]>
+      </description>
+      <source:markdown>&#62; I conclude that there is an issue with the macOS implementation of HostFS which cannot handle file names with a (hard) space in them.
+
+This should be fixed now, if you build the latest version.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:163762</guid>
+    </item>    <item>
       <title>R-Pi SD Card troubles</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20384</link>
       <description>
@@ -43,16 +138,21 @@ The Iris web browser has been updated to version 1.39</source:markdown>
       <title>PIC / WD1772 floppy project</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/8961</link>
       <description>
-        <![CDATA[<p>I was wondering if one could make a <span class="caps">USB</span> to Acorn Floppy extension card like William&#8217;s.<br />
+        <![CDATA[<blockquote>
+        <p>I was wondering if one could make a <span class="caps">USB</span> to Acorn Floppy extension card like William’s.<br />
         How would one split it up into workable bits?</p>
-        <p>For testing hardware and code.</p>]]>
+        </blockquote>
+        <p>One could.  It would require a controller with <span class="caps">USB</span> device capability (probably an <span class="caps">ARM</span>) and a floppy controller chip.  It&#8217;s possible to use an <span class="caps">FPGA</span> instead of the floppy controller but that would hugely increase the design time and effort.</p>
+        <p>A substantial design project, given that you&#8217;re trying to debug the <span class="caps">USB</span> and floppy systems at the same time.</p>]]>
       </description>
-      <source:markdown>I was wondering if one could make a USB to Acorn Floppy extension card like William’s.
+      <source:markdown>&#62; I was wondering if one could make a USB to Acorn Floppy extension card like William’s.
+&#62;
+&#62; How would one split it up into workable bits?
 
-How would one split it up into workable bits?
+One could. It would require a controller with USB device capability (probably an ARM) and a floppy controller chip. It’s possible to use an FPGA instead of the floppy controller but that would hugely increase the design time and effort.
 
-For testing hardware and code.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:8961:163751</guid>
+A substantial design project, given that you’re trying to debug the USB and floppy systems at the same time.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:8961:163752</guid>
     </item>    <item>
       <title>Iris updated to release 1.39</title>
       <link>http://www.iconbar.com/comments/rss/news2327.html</link>
@@ -61,23 +161,6 @@ For testing hardware and code.</source:markdown>
       </description>
       <source:markdown>The Iris web browser has been updated to version 1.39</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2327.html</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve done some more investigating.</p>
-        <p>I&#8217;ve tried creating a text file (using !StrongED) with  a space in its name. RO 3.71 won&#8217;t let me type this, but is happy if I make it a &#8220;hard&#8221; space. RO Direct <em>will</em> let me type a space, which I assume it converts to a hard space. However, in neither case does the file _actually get <em>saved</em>.</p>
-        <p>I conclude that there is an issue with the macOS implementation of HostFS which cannot handle file names with a (hard) space in them.</p>
-        <p>In case it&#8217;s relevant, when compiling rpcemu, <code>gcc -v</code> revealed that Apple Clang was the compiler.</p>]]>
-      </description>
-      <source:markdown>I’ve done some more investigating.
-
-I’ve tried creating a text file (using !StrongED) with a space in its name. RO 3.71 won’t let me type this, but is happy if I make it a “hard” space. RO Direct _will_ let me type a space, which I assume it converts to a hard space. However, in neither case does the file \_actually get _saved_.
-
-I conclude that there is an issue with the macOS implementation of HostFS which cannot handle file names with a (hard) space in them.
-
-In case it’s relevant, when compiling rpcemu, `gcc -v` revealed that Apple Clang was the compiler.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:163746</guid>
     </item>    <item>
       <title>FireWorkz 2.33 installation place</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20382</link>
@@ -534,17 +617,6 @@ If I play a wave file before with the old player, it is working.</source:markdow
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mk6g6dhmdc2v</guid>
-    </item>    <item>
-      <title>Modern printer drivers</title>
-      <link>https://www.riscosopen.org/forum/forums/2/topics/20366</link>
-      <description>
-        <![CDATA[<p>There is a bug in FindIPP 0.07.  It seems to be triggered by a printer that has http/ipp disabled.  When I tried the other day, I had enabled upgrade from insecure to secure but I hadn&#8217;t actually disabled insecure.</p>
-        <p>Expect a new version soon.</p>]]>
-      </description>
-      <source:markdown>There is a bug in FindIPP 0.07. It seems to be triggered by a printer that has http/ipp disabled. When I tried the other day, I had enabled upgrade from insecure to secure but I hadn’t actually disabled insecure.
-
-Expect a new version soon.</source:markdown>
-      <guid>cid://www.riscosopen.org:2:20366:163641</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mk5s4uvm522a</link>
       <description>
