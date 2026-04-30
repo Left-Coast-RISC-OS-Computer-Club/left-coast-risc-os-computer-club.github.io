@@ -7,10 +7,191 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>29 Apr 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>30 Apr 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3mkq5iirffs26</link>
+      <description>
+        <![CDATA[In space, everyone can hear you scream . . .
+        As long, that is, as you're equipped with a RemLok survival mask.
+        www.elitehomepage.org/dkwheel.htm
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>In space, everyone can hear you scream . . .
+As long, that is, as you&#39;re equipped with a RemLok survival mask.
+www.elitehomepage.org/dkwheel.htm
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mkq5iirffs26</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mkq3ba62k22o</link>
+      <description>
+        <![CDATA[Bram Stoker's Dracula - DOS edition. I loved this game and even managed to complete it. While it's fair to say the 3D FPS didn't compare favourably to Doom etc. I still think it's a really enjoyable game and ties in nicely with the movie.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Bram Stoker&#39;s Dracula - DOS edition. I loved this game and even managed to complete it. While it&#39;s fair to say the 3D FPS didn&#39;t compare favourably to Doom etc. I still think it&#39;s a really enjoyable game and ties in nicely with the movie.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mkq3ba62k22o</guid>
+    </item>    <item>
+      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>To simplify trying things out, I’ve made a single Zip with a pre-built Pi <span class="caps">ROM</span> to go on a spare SD card, plus the previously mentioned Configure plug-in and my test theme (which is mostly purple!).</p>
+        </blockquote>
+        <p>I felt an urge to make the magic CoSprites for my test theme so the preview gets filled in in the Configure plug-in, and naturally that immediately showed up that it was using black for the title bar text when rendering the thumbnail. So there&#8217;s an <a href="https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/tree/dark-mode">updated plug-in</a> to honour the colour the theme asks for, and corresponding pre-built binary bundled in the <a href="https://www.sprow.co.uk/TestDarkLight.zip">test Zip</a> to try.</p>]]>
+      </description>
+      <source:markdown>&#62; To simplify trying things out, I’ve made a single Zip with a pre-built Pi ROM to go on a spare SD card, plus the previously mentioned Configure plug-in and my test theme (which is mostly purple!).
+
+I felt an urge to make the magic CoSprites for my test theme so the preview gets filled in in the Configure plug-in, and naturally that immediately showed up that it was using black for the title bar text when rendering the thumbnail. So there’s an [updated plug-in](https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/tree/dark-mode) to honour the colour the theme asks for, and corresponding pre-built binary bundled in the [test Zip](https://www.sprow.co.uk/TestDarkLight.zip) to try.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20340:163783</guid>
+    </item>    <item>
+      <title>Bug in Wimp01, OS_Byte 129, or documentation for the last</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20386</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve tripped over a problem with my OS_Byte 129.</p>
+        <p>The documentation says the return values are:</p>
+        <pre><code>R1 	ASCII code of character read, undefined if not read
+        R2 	0 character read
+        27 escape condition
+        255 timeout </code></pre>
+        <p>Nothing about the flags.</p>
+        <p>But it&#8217;s used in the Wimp (Wimp01) like this:</p>
+        <pre><code>        MOV     R0,#&amp;81                 ; read key with 0 time limit
+                MOV     R1,#0
+                MOV     R2,#0
+                SWI     XOS_Byte
+        ;
+                TEQ     R1,#&amp;FF
+                Debug   err,"Key ?"
+                Pull    "R2,R3,PC",LS           ; EQ or CC
+                Debug   err,"No key !"
+        ;
+                MOV     R0,#124                 ; clear escape condition
+                SWI     XOS_Byte
+                MOVS    R1,#&amp;1B                 ; Z=0
+        ;
+                Pull    "R2,R3,PC"</code></pre>
+        <p>Which implies R1 = &amp;FF on timeout and Carry is set in case of an escape, if I&#8217;m reading it correctly.</p>
+        <p>I&#8217;m guessing the best thing to do is update the documentation to say on timeout both R1 and R2 return as &amp;FF, otherwise other code that assumes the same will break.</p>]]>
+      </description>
+      <source:markdown>I’ve tripped over a problem with my OS\_Byte 129.
+
+The documentation says the return values are:
+
+```
+R1 	ASCII code of character read, undefined if not read
+R2 	0 character read
+27 escape condition
+255 timeout
+```
+
+Nothing about the flags.
+
+But it’s used in the Wimp (Wimp01) like this:
+
+```
+        MOV     R0,#&#38;81                 ; read key with 0 time limit
+        MOV     R1,#0
+        MOV     R2,#0
+        SWI     XOS_Byte
+;
+        TEQ     R1,#&#38;FF
+        Debug   err,&#34;Key ?&#34;
+        Pull    &#34;R2,R3,PC&#34;,LS           ; EQ or CC
+        Debug   err,&#34;No key !&#34;
+;
+        MOV     R0,#124                 ; clear escape condition
+        SWI     XOS_Byte
+        MOVS    R1,#&#38;1B                 ; Z=0
+;
+        Pull    &#34;R2,R3,PC&#34;
+```
+
+Which implies R1 = &#38;FF on timeout and Carry is set in case of an escape, if I’m reading it correctly.
+
+I’m guessing the best thing to do is update the documentation to say on timeout both R1 and R2 return as &#38;FF, otherwise other code that assumes the same will break.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20386:163782</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mkpnou53ok25</link>
+      <description>
+        <![CDATA[April 2026 News Summary 
+        
+        https://www.iconbar.com/articles/April_2026_News_Summary/index2320.html 
+        
+        Some things we noticed this month. What did you see?]]>
+      </description>
+      <source:markdown>April 2026 News Summary
+
+https://www.iconbar.com/articles/April\_2026\_News\_Summary/index2320.html
+
+Some things we noticed this month. What did you see?</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mkpnou53ok25</guid>
+    </item>    <item>
+      <title>April 2026 News Summary</title>
+      <link>http://www.iconbar.com/comments/rss/news2320.html</link>
+      <description>
+        <![CDATA[Some things we noticed this month. What did you see?]]>
+      </description>
+      <source:markdown>Some things we noticed this month. What did you see?</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2320.html</guid>
+    </item>    <item>
+      <title>Chris Johnson&#38;#39;s versions of my software</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20374</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Snapper is indispensable</p>
+        </blockquote>
+        <p>full stop.</p>
+        <p>It is very flexible with multiple ways to capture screens and partial screens using mouse or a combination of keys and a useful feature showing screen capture coordinates</p>]]>
+      </description>
+      <source:markdown>&#62; Snapper is indispensable
+
+full stop.
+
+It is very flexible with multiple ways to capture screens and partial screens using mouse or a combination of keys and a useful feature showing screen capture coordinates</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20374:163781</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mkpb7loulc2o</link>
+      <description>
+        <![CDATA[I like how all the AI bros who, until very recently, were mocking Apple for its lukewarm embrace of generative AI, are now falling over themselves to praise OpenAI for, err, making a phone.]]>
+      </description>
+      <source:markdown>I like how all the AI bros who, until very recently, were mocking Apple for its lukewarm embrace of generative AI, are now falling over themselves to praise OpenAI for, err, making a phone.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mkpb7loulc2o</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mkp7o7v4u22k</link>
+      <description>
+        <![CDATA[Well they're honest.]]>
+      </description>
+      <source:markdown>Well they&#39;re honest.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mkp7o7v4u22k</guid>
+    </item>    <item>
+      <title>Status update for RISC OS 64-bit work</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20370</link>
+      <description>
+        <![CDATA[<p>The pretty colours are back on the riscos64-status pages &#8211; for example <a href="https://github.com/gerph/riscos64-status/wiki/Progress">https://github.com/gerph/riscos64-status/wiki/Progress</a>.</p>
+        <p>I&#8217;ve generated them as PNGs instead of the inline mermaid as that seems to be failing to style. The important thing is that we have pretty colours again.</p>]]>
+      </description>
+      <source:markdown>The pretty colours are back on the riscos64-status pages – for example [https://github.com/gerph/riscos64-status/wiki/Progress](https://github.com/gerph/riscos64-status/wiki/Progress).
+
+I’ve generated them as PNGs instead of the inline mermaid as that seems to be failing to style. The important thing is that we have pretty colours again.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20370:163779</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mknupaunnc2e</link>
+      <description>
+        <![CDATA[A great video you should watch!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>A great video you should watch!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mknupaunnc2e</guid>
+    </item>    <item>
       <title>Iris updated to release 1.39</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13588&#38;page=1#125886</link>
       <description>
@@ -49,6 +230,14 @@ https://media.tenor.com/Nu0Q-F24KycAAAAC/word-do-not.gif?hh=209&#38;ww=498</sour
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mkmwsisdak2w</guid>
+    </item>    <item>
+      <title>PIC / WD1772 floppy project</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/8961</link>
+      <description>
+        <![CDATA[<p>I think the last manufacturer made enough in the final production run to last for another few decades, and after that <span class="caps">CJE</span> will probably still have some.</p>]]>
+      </description>
+      <source:markdown>I think the last manufacturer made enough in the final production run to last for another few decades, and after that CJE will probably still have some.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:8961:163765</guid>
     </item>    <item>
       <title>QR code generator module v0.04</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20385</link>
@@ -109,16 +298,10 @@ This should be fixed now, if you build the latest version.</source:markdown>
       <title>R-Pi SD Card troubles</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20384</link>
       <description>
-        <![CDATA[<p>On a workbench in my factory is a Raspbery Pi 2 system with a RS483 interface used for testing other electronic systems. It has been running for at least five years continuously apart from occasional power cuts. The system is connected by ShareFS to other <span class="caps">RISC</span> OS computers on this site and the monitor is only turned for a few hours every couple of weeks when new software on the target system has to be tested. The system has been totally reliable for this long length of time, but when I tried to access it yesterday, the network showed it as not being present. Today I investigated and it seems that system is totally dead, with no <span class="caps">HDMI</span> output. The power supply is OK. The same SD card was tried in three other R-Pi boards and all showed the same effect with no <span class="caps">HDMI</span> output at all. The SD card was then placed in a R-Pi CM4 system which showed the embedded boot-loader screen where it tests the <span class="caps">USB</span> ports. Why the different effect with the CM4 system when compared to the Pi2 and Pi3 boards tried previously which all gave no <span class="caps">HDMI</span> output at all.</p>
-        <p>I then tried another <span class="caps">RISC</span> OS SD card from another system in the mis-behaving board which gave correct results so this eliminated the particular R-Pi and focussed the problem on the SD card. I put the SD card into a <span class="caps">USB</span> card reader and read this on another R-Pi system. Both the <span class="caps">DOS</span> and Filecore partitions are present, both with the correct files. The Filecore partition has been scanned from <span class="caps">RISC</span> OS with no errors showing.</p>
-        <p>There is a lot of data on the SD card which is all completely readable from another R-Pi machine and I would not wish to copy all this data and start again with a fresh SD card if I can help it. Has anyone here got any clues as to what has gone wrong with this SD card and provide any advice as to how to correct it without starting afresh. Any help will be greatfully recieved. With thanks, Kim.</p>]]>
+        <![CDATA[<p>Andrew, Charles, Dave. Thanks for the messages. I do have a rigid backup strategy so all files can be easily restored if necessary. This afternoon I have cracked open a new SD card and am in the process of configuring it now. I guess that I will never know what actually happened. The errant SD card has not had thousands or r/w operations, it has just been powered constantly for a few years. Most of the backups are via the network but the failed system has a <span class="caps">USB</span> <span class="caps">HDD</span> connected to it as well. This only spins up when it is accessed so it spends most of its time idle. Any more comments or suggestions gratefully received.</p>]]>
       </description>
-      <source:markdown>On a workbench in my factory is a Raspbery Pi 2 system with a RS483 interface used for testing other electronic systems. It has been running for at least five years continuously apart from occasional power cuts. The system is connected by ShareFS to other RISC OS computers on this site and the monitor is only turned for a few hours every couple of weeks when new software on the target system has to be tested. The system has been totally reliable for this long length of time, but when I tried to access it yesterday, the network showed it as not being present. Today I investigated and it seems that system is totally dead, with no HDMI output. The power supply is OK. The same SD card was tried in three other R-Pi boards and all showed the same effect with no HDMI output at all. The SD card was then placed in a R-Pi CM4 system which showed the embedded boot-loader screen where it tests the USB ports. Why the different effect with the CM4 system when compared to the Pi2 and Pi3 boards tried previously which all gave no HDMI output at all.
-
-I then tried another RISC OS SD card from another system in the mis-behaving board which gave correct results so this eliminated the particular R-Pi and focussed the problem on the SD card. I put the SD card into a USB card reader and read this on another R-Pi system. Both the DOS and Filecore partitions are present, both with the correct files. The Filecore partition has been scanned from RISC OS with no errors showing.
-
-There is a lot of data on the SD card which is all completely readable from another R-Pi machine and I would not wish to copy all this data and start again with a fresh SD card if I can help it. Has anyone here got any clues as to what has gone wrong with this SD card and provide any advice as to how to correct it without starting afresh. Any help will be greatfully recieved. With thanks, Kim.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20384:163755</guid>
+      <source:markdown>Andrew, Charles, Dave. Thanks for the messages. I do have a rigid backup strategy so all files can be easily restored if necessary. This afternoon I have cracked open a new SD card and am in the process of configuring it now. I guess that I will never know what actually happened. The errant SD card has not had thousands or r/w operations, it has just been powered constantly for a few years. Most of the backups are via the network but the failed system has a USBHDD connected to it as well. This only spins up when it is accessed so it spends most of its time idle. Any more comments or suggestions gratefully received.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20384:163761</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mkke3erknc2n</link>
       <description>
@@ -134,25 +317,6 @@ https://www.iconbar.com/articles/Iris\_updated\_to\_release\_1.39/index2327.html
 
 The Iris web browser has been updated to version 1.39</source:markdown>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mkke3erknc2n</guid>
-    </item>    <item>
-      <title>PIC / WD1772 floppy project</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/8961</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I was wondering if one could make a <span class="caps">USB</span> to Acorn Floppy extension card like William’s.<br />
-        How would one split it up into workable bits?</p>
-        </blockquote>
-        <p>One could.  It would require a controller with <span class="caps">USB</span> device capability (probably an <span class="caps">ARM</span>) and a floppy controller chip.  It&#8217;s possible to use an <span class="caps">FPGA</span> instead of the floppy controller but that would hugely increase the design time and effort.</p>
-        <p>A substantial design project, given that you&#8217;re trying to debug the <span class="caps">USB</span> and floppy systems at the same time.</p>]]>
-      </description>
-      <source:markdown>&#62; I was wondering if one could make a USB to Acorn Floppy extension card like William’s.
-&#62;
-&#62; How would one split it up into workable bits?
-
-One could. It would require a controller with USB device capability (probably an ARM) and a floppy controller chip. It’s possible to use an FPGA instead of the floppy controller but that would hugely increase the design time and effort.
-
-A substantial design project, given that you’re trying to debug the USB and floppy systems at the same time.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:8961:163752</guid>
     </item>    <item>
       <title>Iris updated to release 1.39</title>
       <link>http://www.iconbar.com/comments/rss/news2327.html</link>
@@ -472,17 +636,6 @@ https://chiptune.app/browse</source:markdown>
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkds4uz66s25</guid>
     </item>    <item>
-      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
-      <description>
-        <![CDATA[<p>Wow! The Classic RO5 Theme looks awesome!!<br />
-        How much more work does it need?</p>]]>
-      </description>
-      <source:markdown>Wow! The Classic RO5 Theme looks awesome!!
-
-How much more work does it need?</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20340:163681</guid>
-    </item>    <item>
       <title>Audio on RISC OS</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20323</link>
       <description>
@@ -686,14 +839,6 @@ There is another developer chat on Saturday night (25th April) for anyone intere
       </description>
       <source:markdown>When games were on ROM cartridges it was essential they were rock-solid and free from any major issues. Of course, obscure bugs could slip through the net. This is before the internet and patching a ROM was not an option. Here&#39;s a non-approval we received from NOA for Ken Griffey Jr. presents MLB.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mjzy75abyc2r</guid>
-    </item>    <item>
-      <title>Chris Johnson&#38;#39;s versions of my software</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20374</link>
-      <description>
-        <![CDATA[<p>Snapper is indispensable to me: very useful when creating screenshots of windows for software manuals.</p>]]>
-      </description>
-      <source:markdown>Snapper is indispensable to me: very useful when creating screenshots of windows for software manuals.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20374:163585</guid>
     </item>    <item>
       <title>Iris 1.039 (April 2026) released</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20377</link>
@@ -1202,109 +1347,6 @@ Reader, it was not.</source:markdown>
 
 This is exactly the thread. That’s the reason why I post here ;-)</source:markdown>
       <guid>cid://www.riscosopen.org:10:9593:163475</guid>
-    </item>    <item>
-      <title>Status update for RISC OS 64-bit work</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/20370</link>
-      <description>
-        <![CDATA[<p>Status Update (April 2026)</p>
-        <p>It&#8217;s about 4 weeks since the last update on 64-bit progress, and apparently there&#8217;s been quite a bit of work going on.</p>
-        <ul>
-        	<li>Pyromaniac work continues.
-        	<ul>
-        		<li>Experimental Python 3 support work is now actually passing its tests.<br />
-              See tests passing: <a href="https://share.gerph.org/s/hnrlhvL3tUddl1s">https://share.gerph.org/s/hnrlhvL3tUddl1s</a>. See the desktop running in with Python 3, Unicorn 2, Capstone 5: <a href="https://share.gerph.org/s/bJSrhkkddMqQMij">https://share.gerph.org/s/bJSrhkkddMqQMij</a>. They&#8217;re not thrilling, &#8216;cos they&#8217;re just running.</li>
-        		<li>New NetStatus module added to the system (Just an implementation of the classic module).</li>
-        		<li>New JUnitXML module. See <a href="https://github.com/gerph/riscos-junitxml-module-ai">https://github.com/gerph/riscos-junitxml-module-ai</a> for details.</li>
-        	</ul></li>
-        	<li>C version of the EasySocket module is looking for testers. See <a href="https://github.com/gerph/riscos-make-a-module">https://github.com/gerph/riscos-make-a-module</a> for details.</li>
-        	<li>New JUnitXML module in C (as well as the PyModule implementation). See <a href="https://www.riscosopen.org/forum/forums/1/topics/20351">https://www.riscosopen.org/forum/forums/1/topics/20351</a> for details.</li>
-        	<li>Live Coding continues.
-        	<ul>
-        		<li>Recently finished implementin the *GOS command from the UtilityModule for 32-bit and 64-bit. See <a href="https://github.com/gerph/riscos-gos">https://github.com/gerph/riscos-gos</a> for the source and release, and <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rF2ztisbUa0dVTV6MvNS9si">https://www.youtube.com/playlist?list=PLVVIu906Y7rF2zt…</a> for the playlist.</li>
-        		<li>WindowManager integration of the C template loading was completed and is available. See <a href="https://github.com/gerph/riscos5-wimp">https://github.com/gerph/riscos5-wimp</a> for details.</li>
-        	</ul></li>
-        	<li>Another release of the <span class="caps">RISC</span> OS build environment.
-        	<ul>
-        		<li>Build environment improves much of the internal help, adds AI agent support. See <a href="https://hub.docker.com/repository/docker/gerph/riscos-build/general">https://hub.docker.com/repository/docker/gerph/riscos-…</a> for more details.</li>
-        		<li>Series of short form videos explain the <span class="caps">RISC</span> OS build environment and demonstrate how to do simple tasks. <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn">https://www.youtube.com/playlist?list=PLVVIu906Y7rETZ8…</a></li>
-        	</ul></li>
-        	<li>Release of agent skills for <span class="caps">RISC</span> OS. See <a href="https://github.com/gerph/riscos-agent-skills">https://github.com/gerph/riscos-agent-skills</a> for details.</li>
-        	<li>Release of GitHub action for building through the build service. See <a href="https://github.com/gerph/riscos-build-service-action">https://github.com/gerph/riscos-build-service-action</a> for details. Also on the GitHub marketplace: <a href="https://github.com/marketplace?query=risc+os">https://github.com/marketplace?query=risc+os</a></li>
-        	<li>Example repositories created:
-        	<ul>
-        		<li>Example of Vector trapping with CMunge produced. See <a href="https://github.com/gerph/riscos-vectortrap-example">https://github.com/gerph/riscos-vectortrap-example</a> for details.</li>
-        		<li>Simple example of building C code with the <span class="caps">RISC</span> OS Build service. See <a href="https://github.com/gerph/riscos-build-c-example">https://github.com/gerph/riscos-build-c-example</a> for details. Notionally similar to the earlier <span class="caps">BASIC</span> code example for the <span class="caps">RISC</span> OS build service &#8211; <a href="https://github.com/gerph/riscos-build-basic-example">https://github.com/gerph/riscos-build-basic-example</a>.</li>
-        		<li>Example <span class="caps">CLI</span> tool, created as part of the short video series. See <a href="https://github.com/gerph/example">https://github.com/gerph/example</a> for details.</li>
-        		<li>Example module, created as part of the short video series. See <a href="https://github.com/gerph/example-module">https://github.com/gerph/example-module</a> for details.</li>
-        	</ul></li>
-        	<li>64-bit module progress continues.
-        	<ul>
-        		<li>TimerManager C module prototype created. See <a href="https://github.com/gerph/riscos-timermanager">https://github.com/gerph/riscos-timermanager</a> for details.</li>
-        		<li>OS_FSControl implementation of the commands (simple and multi-file) is nearly complete.</li>
-        		<li>NetStatus module C implementation is complete. See <a href="https://github.com/gerph/riscos-netstatus">https://github.com/gerph/riscos-netstatus</a> for details.</li>
-        		<li>Memory management work for the Kernel has been started.</li>
-        		<li>VideoSW C module stub created. Still too experimental.</li>
-        		<li>OSSWIs module improved to cover almost all the SWIs. See <a href="https://github.com/gerph/riscos64-status">https://github.com/gerph/riscos64-status</a> for the modules. In particular, OS_PrettyPrint, OS_SubstituteArgs, OS_ReadArgs now have implementations. See <a href="https://github.com/gerph/riscos64-status/wiki/Module_OSSWIs">https://github.com/gerph/riscos64-status/wiki/Module_O…</a> for functionality.</li>
-        		<li>EvaluateExpression module implemented, covering all the cases. See <a href="https://github.com/gerph/riscos64-status">https://github.com/gerph/riscos64-status</a> for the modules. See <a href="https://github.com/gerph/riscos64-status/wiki/Module_EvaluateExpression">https://github.com/gerph/riscos64-status/wiki/Module_E…</a> for functionality.</li>
-        		<li>Draw module stub created. Still experimental.</li>
-        		<li><span class="caps">NVRAMHW</span> module prototype created. See <a href="https://github.com/gerph/riscos-nvramhw">https://github.com/gerph/riscos-nvramhw</a> for details.</li>
-        		<li>Prototype Joystick module implementation created. See <a href="https://github.com/gerph/riscos-joystick-ai">https://github.com/gerph/riscos-joystick-ai</a> for details.</li>
-        		<li>Wimp validation strings parser started. Very stubby, and doesn&#8217;t include many options.</li>
-        	</ul></li>
-        	<li>The general riscos64-status repository (<a href="https://github.com/gerph/riscos64-status">https://github.com/gerph/riscos64-status</a>) has been kept up to date with these changes as they happened.
-        	<ul>
-        		<li>But GitHub appear to have broken all the nice rainbow status charts, so they just appear in green now. There will be work to ensure that these appear better in the future.</li>
-        		<li>All the status updates have been posted on the <span class="caps">RISC</span> OS 64 wiki: <a href="https://github.com/gerph/riscos64-status/wiki/Updates">https://github.com/gerph/riscos64-status/wiki/Updates</a>. Hopefully this will mean that they can be found more easily.</li>
-        	</ul></li>
-        </ul>
-        <p>In other news, <span class="caps">ROOL</span> have claimed to have a TerritoryManager in C, but I&#8217;ve not had any reply to a request for where this is. That would at least remove another module from those that need to be implemented.</p>]]>
-      </description>
-      <source:markdown>Status Update (April 2026)
-
-It’s about 4 weeks since the last update on 64-bit progress, and apparently there’s been quite a bit of work going on.
-
-- Pyromaniac work continues.
-  - Experimental Python 3 support work is now actually passing its tests.
-
-
-     See tests passing: [https://share.gerph.org/s/hnrlhvL3tUddl1s](https://share.gerph.org/s/hnrlhvL3tUddl1s). See the desktop running in with Python 3, Unicorn 2, Capstone 5: [https://share.gerph.org/s/bJSrhkkddMqQMij](https://share.gerph.org/s/bJSrhkkddMqQMij). They’re not thrilling, ‘cos they’re just running.
-  - New NetStatus module added to the system (Just an implementation of the classic module).
-  - New JUnitXML module. See [https://github.com/gerph/riscos-junitxml-module-ai](https://github.com/gerph/riscos-junitxml-module-ai) for details.
-- C version of the EasySocket module is looking for testers. See [https://github.com/gerph/riscos-make-a-module](https://github.com/gerph/riscos-make-a-module) for details.
-- New JUnitXML module in C (as well as the PyModule implementation). See [https://www.riscosopen.org/forum/forums/1/topics/20351](https://www.riscosopen.org/forum/forums/1/topics/20351) for details.
-- Live Coding continues.
-  - Recently finished implementin the \*GOS command from the UtilityModule for 32-bit and 64-bit. See [https://github.com/gerph/riscos-gos](https://github.com/gerph/riscos-gos) for the source and release, and [https://www.youtube.com/playlist?list=PLVVIu906Y7rF2zt…](https://www.youtube.com/playlist?list=PLVVIu906Y7rF2ztisbUa0dVTV6MvNS9si) for the playlist.
-  - WindowManager integration of the C template loading was completed and is available. See [https://github.com/gerph/riscos5-wimp](https://github.com/gerph/riscos5-wimp) for details.
-- Another release of the RISC OS build environment.
-
-  - Build environment improves much of the internal help, adds AI agent support. See [https://hub.docker.com/repository/docker/gerph/riscos-…](https://hub.docker.com/repository/docker/gerph/riscos-build/general) for more details.
-  - Series of short form videos explain the RISC OS build environment and demonstrate how to do simple tasks. [https://www.youtube.com/playlist?list=PLVVIu906Y7rETZ8…](https://www.youtube.com/playlist?list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn)
-- Release of agent skills for RISC OS. See [https://github.com/gerph/riscos-agent-skills](https://github.com/gerph/riscos-agent-skills) for details.
-- Release of GitHub action for building through the build service. See [https://github.com/gerph/riscos-build-service-action](https://github.com/gerph/riscos-build-service-action) for details. Also on the GitHub marketplace: [https://github.com/marketplace?query=risc+os](https://github.com/marketplace?query=risc+os)
-- Example repositories created:
-  - Example of Vector trapping with CMunge produced. See [https://github.com/gerph/riscos-vectortrap-example](https://github.com/gerph/riscos-vectortrap-example) for details.
-  - Simple example of building C code with the RISC OS Build service. See [https://github.com/gerph/riscos-build-c-example](https://github.com/gerph/riscos-build-c-example) for details. Notionally similar to the earlier BASIC code example for the RISC OS build service – [https://github.com/gerph/riscos-build-basic-example](https://github.com/gerph/riscos-build-basic-example).
-  - Example CLI tool, created as part of the short video series. See [https://github.com/gerph/example](https://github.com/gerph/example) for details.
-  - Example module, created as part of the short video series. See [https://github.com/gerph/example-module](https://github.com/gerph/example-module) for details.
-- 64-bit module progress continues.
-  - TimerManager C module prototype created. See [https://github.com/gerph/riscos-timermanager](https://github.com/gerph/riscos-timermanager) for details.
-  - OS\_FSControl implementation of the commands (simple and multi-file) is nearly complete.
-  - NetStatus module C implementation is complete. See [https://github.com/gerph/riscos-netstatus](https://github.com/gerph/riscos-netstatus) for details.
-  - Memory management work for the Kernel has been started.
-  - VideoSW C module stub created. Still too experimental.
-  - OSSWIs module improved to cover almost all the SWIs. See [https://github.com/gerph/riscos64-status](https://github.com/gerph/riscos64-status) for the modules. In particular, OS\_PrettyPrint, OS\_SubstituteArgs, OS\_ReadArgs now have implementations. See [https://github.com/gerph/riscos64-status/wiki/Module\_O…](https://github.com/gerph/riscos64-status/wiki/Module_OSSWIs) for functionality.
-  - EvaluateExpression module implemented, covering all the cases. See [https://github.com/gerph/riscos64-status](https://github.com/gerph/riscos64-status) for the modules. See [https://github.com/gerph/riscos64-status/wiki/Module\_E…](https://github.com/gerph/riscos64-status/wiki/Module_EvaluateExpression) for functionality.
-  - Draw module stub created. Still experimental.
-  - NVRAMHW module prototype created. See [https://github.com/gerph/riscos-nvramhw](https://github.com/gerph/riscos-nvramhw) for details.
-  - Prototype Joystick module implementation created. See [https://github.com/gerph/riscos-joystick-ai](https://github.com/gerph/riscos-joystick-ai) for details.
-  - Wimp validation strings parser started. Very stubby, and doesn’t include many options.
-- The general riscos64-status repository ( [https://github.com/gerph/riscos64-status](https://github.com/gerph/riscos64-status)) has been kept up to date with these changes as they happened.
-
-  - But GitHub appear to have broken all the nice rainbow status charts, so they just appear in green now. There will be work to ensure that these appear better in the future.
-  - All the status updates have been posted on the RISC OS 64 wiki: [https://github.com/gerph/riscos64-status/wiki/Updates](https://github.com/gerph/riscos64-status/wiki/Updates). Hopefully this will mean that they can be found more easily.
-
-In other news, ROOL have claimed to have a TerritoryManager in C, but I’ve not had any reply to a request for where this is. That would at least remove another module from those that need to be implemented.</source:markdown>
-      <guid>cid://www.riscosopen.org:13:20370:163472</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mjnhmvslvs2u</link>
       <description>

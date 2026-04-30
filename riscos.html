@@ -2,9 +2,9 @@
 <html lang="en-US">
 <head>
   <meta charset="utf-8" >
-  <meta name="generator" content="antenna/0.0.23b" >
-  <meta name="date" content="2026-04-29T12:00:56-07:00" >
-  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
+  <meta content="antenna/0.0.23b" name="generator" >
+  <meta name="date" content="2026-04-30T12:00:25-07:00" >
+  <link href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" type="application/rss+xml" >
 </head>
 <body>
   <header>
@@ -19,6 +19,178 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-04-30T17:33:00Z" data-link="https://bsky.app/profile/rougol.bsky.social/post/3mkq5iirffs26">
+      <h1>@rougol.bsky.social</h1>
+
+(date: 2026-04-30)
+      <p>
+      <p>In space, everyone can hear you scream . . .
+As long, that is, as you're equipped with a RemLok survival mask.<a href="http://www.elitehomepage.org/dkwheel.htm">www.elitehomepage.org/dkwheel.htm</a></p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/rougol.bsky.social/post/3mkq5iirffs26">https://bsky.app/profile/rougol.bsky.social/post/3mkq5iirffs26</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-30T16:53:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mkq3ba62k22o">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-04-30)
+      <p>
+      <p>Bram Stoker's Dracula - DOS edition. I loved this game and even managed to complete it. While it's fair to say the 3D FPS didn't compare favourably to Doom etc. I still think it's a really enjoyable game and ties in nicely with the movie.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mkq3ba62k22o">https://bsky.app/profile/colinhoad.com/post/3mkq3ba62k22o</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-30T16:29:13Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20340">
+      <h1>Wimp 5.89 Testing with ROOL ThemeDefs!</h1>
+
+(date: 2026-04-30)
+      <p>
+      <blockquote>
+<p>To simplify trying things out, I’ve made a single Zip with a pre-built Pi ROM to go on a spare SD card, plus the previously mentioned Configure plug-in and my test theme (which is mostly purple!).</p>
+</blockquote>
+<p>I felt an urge to make the magic CoSprites for my test theme so the preview gets filled in in the Configure plug-in, and naturally that immediately showed up that it was using black for the title bar text when rendering the thumbnail. So there’s an <a href="https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/tree/dark-mode">updated plug-in</a> to honour the colour the theme asks for, and corresponding pre-built binary bundled in the <a href="https://www.sprow.co.uk/TestDarkLight.zip">test Zip</a> to try.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/4/topics/20340">https://www.riscosopen.org/forum/forums/4/topics/20340</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-30T16:22:54Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20386">
+      <h1>Bug in Wimp01, OS_Byte 129, or documentation for the last</h1>
+
+(date: 2026-04-30)
+      <p>
+      <p>I’ve tripped over a problem with my OS_Byte 129.</p>
+<p>The documentation says the return values are:</p>
+<pre><code>R1 	ASCII code of character read, undefined if not read
+R2 	0 character read
+27 escape condition
+255 timeout
+</code></pre>
+<p>Nothing about the flags.</p>
+<p>But it’s used in the Wimp (Wimp01) like this:</p>
+<pre><code>        MOV     R0,#&amp;81                 ; read key with 0 time limit
+        MOV     R1,#0
+        MOV     R2,#0
+        SWI     XOS_Byte
+;
+        TEQ     R1,#&amp;FF
+        Debug   err,&quot;Key ?&quot;
+        Pull    &quot;R2,R3,PC&quot;,LS           ; EQ or CC
+        Debug   err,&quot;No key !&quot;
+;
+        MOV     R0,#124                 ; clear escape condition
+        SWI     XOS_Byte
+        MOVS    R1,#&amp;1B                 ; Z=0
+;
+        Pull    &quot;R2,R3,PC&quot;
+</code></pre>
+<p>Which implies R1 = &amp;FF on timeout and Carry is set in case of an escape, if I’m reading it correctly.</p>
+<p>I’m guessing the best thing to do is update the documentation to say on timeout both R1 and R2 return as &amp;FF, otherwise other code that assumes the same will break.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/4/topics/20386">https://www.riscosopen.org/forum/forums/4/topics/20386</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-30T12:50:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3mkpnou53ok25">
+      <h1>@iconbar.com</h1>
+
+(date: 2026-04-30)
+      <p>
+      <p>April 2026 News Summary</p>
+<p><a href="https://www.iconbar.com/articles/April">https://www.iconbar.com/articles/April</a>_2026_News_Summary/index2320.html</p>
+<p>Some things we noticed this month. What did you see?</p>
+
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3mkpnou53ok25">https://bsky.app/profile/iconbar.com/post/3mkpnou53ok25</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-30T10:08:00Z" data-link="http://www.iconbar.com/comments/rss/news2320.html">
+      <h1>April 2026 News Summary</h1>
+
+(date: 2026-04-30, updated: 2026-03-31)
+      <p>
+      <p>Some things we noticed this month. What did you see?</p>
+
+      <address>
+        <a href="http://www.iconbar.com/comments/rss/news2320.html">http://www.iconbar.com/comments/rss/news2320.html</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-30T09:34:46Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20374">
+      <h1>Chris Johnson&#39;s versions of my software</h1>
+
+(date: 2026-04-30)
+      <p>
+      <blockquote>
+<p>Snapper is indispensable</p>
+</blockquote>
+<p>full stop.</p>
+<p>It is very flexible with multiple ways to capture screens and partial screens using mouse or a combination of keys and a useful feature showing screen capture coordinates</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20374">https://www.riscosopen.org/forum/forums/1/topics/20374</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-30T09:07:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mkpb7loulc2o">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-04-30)
+      <p>
+      <p>I like how all the AI bros who, until very recently, were mocking Apple for its lukewarm embrace of generative AI, are now falling over themselves to praise OpenAI for, err, making a phone.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mkpb7loulc2o">https://bsky.app/profile/colinhoad.com/post/3mkpb7loulc2o</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-30T08:39:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mkp7o7v4u22k">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-04-30)
+      <p>
+      <p>Well they're honest.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mkp7o7v4u22k">https://bsky.app/profile/nemo20000.bsky.social/post/3mkp7o7v4u22k</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-29T23:46:21Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20370">
+      <h1>Status update for RISC OS 64-bit work</h1>
+
+(date: 2026-04-29)
+      <p>
+      <p>The pretty colours are back on the riscos64-status pages – for example <a href="https://github.com/gerph/riscos64-status/wiki/Progress">https://github.com/gerph/riscos64-status/wiki/Progress</a>.</p>
+<p>I’ve generated them as PNGs instead of the inline mermaid as that seems to be failing to style. The important thing is that we have pretty colours again.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/13/topics/20370">https://www.riscosopen.org/forum/forums/13/topics/20370</a>
+      </address>
+    </article>
+
+    <article data-published="2026-04-29T19:50:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mknupaunnc2e">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-04-29)
+      <p>
+      <p>A great video you should watch!</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mknupaunnc2e">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mknupaunnc2e</a>
+      </address>
+    </article>
 
     <article data-published="2026-04-29T14:34:58Z" data-link="http://www.iconbar.com/forums/viewthread.php?threadid=13588&page=1#125886">
       <h1>Iris updated to release 1.39</h1>
@@ -70,6 +242,18 @@
       </address>
     </article>
 
+    <article data-published="2026-04-28T23:52:21Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/8961">
+      <h1>PIC / WD1772 floppy project</h1>
+
+(date: 2026-04-28)
+      <p>
+      <p>I think the last manufacturer made enough in the final production run to last for another few decades, and after that CJE will probably still have some.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/8961">https://www.riscosopen.org/forum/forums/5/topics/8961</a>
+      </address>
+    </article>
+
     <article data-published="2026-04-28T23:24:03Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20385">
       <h1>QR code generator module v0.04</h1>
 
@@ -118,14 +302,12 @@
       </address>
     </article>
 
-    <article data-published="2026-04-28T12:04:06Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20384">
+    <article data-published="2026-04-28T16:14:41Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20384">
       <h1>R-Pi SD Card troubles</h1>
 
 (date: 2026-04-28)
       <p>
-      <p>On a workbench in my factory is a Raspbery Pi 2 system with a RS483 interface used for testing other electronic systems. It has been running for at least five years continuously apart from occasional power cuts. The system is connected by ShareFS to other RISC OS computers on this site and the monitor is only turned for a few hours every couple of weeks when new software on the target system has to be tested. The system has been totally reliable for this long length of time, but when I tried to access it yesterday, the network showed it as not being present. Today I investigated and it seems that system is totally dead, with no HDMI output. The power supply is OK. The same SD card was tried in three other R-Pi boards and all showed the same effect with no HDMI output at all. The SD card was then placed in a R-Pi CM4 system which showed the embedded boot-loader screen where it tests the USB ports. Why the different effect with the CM4 system when compared to the Pi2 and Pi3 boards tried previously which all gave no HDMI output at all.</p>
-<p>I then tried another RISC OS SD card from another system in the mis-behaving board which gave correct results so this eliminated the particular R-Pi and focussed the problem on the SD card. I put the SD card into a USB card reader and read this on another R-Pi system. Both the DOS and Filecore partitions are present, both with the correct files. The Filecore partition has been scanned from RISC OS with no errors showing.</p>
-<p>There is a lot of data on the SD card which is all completely readable from another R-Pi machine and I would not wish to copy all this data and start again with a fresh SD card if I can help it. Has anyone here got any clues as to what has gone wrong with this SD card and provide any advice as to how to correct it without starting afresh. Any help will be greatfully recieved. With thanks, Kim.</p>
+      <p>Andrew, Charles, Dave. Thanks for the messages. I do have a rigid backup strategy so all files can be easily restored if necessary. This afternoon I have cracked open a new SD card and am in the process of configuring it now. I guess that I will never know what actually happened. The errant SD card has not had thousands or r/w operations, it has just been powered constantly for a few years. Most of the backups are via the network but the failed system has a USBHDD connected to it as well. This only spins up when it is accessed so it spends most of its time idle. Any more comments or suggestions gratefully received.</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/11/topics/20384">https://www.riscosopen.org/forum/forums/11/topics/20384</a>
@@ -146,27 +328,10 @@
       </address>
     </article>
 
-    <article data-published="2026-04-28T09:01:26Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/8961">
-      <h1>PIC / WD1772 floppy project</h1>
-
-(date: 2026-04-28)
-      <p>
-      <blockquote>
-<p>I was wondering if one could make a USB to Acorn Floppy extension card like William’s.</p>
-<p>How would one split it up into workable bits?</p>
-</blockquote>
-<p>One could. It would require a controller with USB device capability (probably an ARM) and a floppy controller chip. It’s possible to use an FPGA instead of the floppy controller but that would hugely increase the design time and effort.</p>
-<p>A substantial design project, given that you’re trying to debug the USB and floppy systems at the same time.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/8961">https://www.riscosopen.org/forum/forums/5/topics/8961</a>
-      </address>
-    </article>
-
     <article data-published="2026-04-28T05:10:00Z" data-link="http://www.iconbar.com/comments/rss/news2327.html">
       <h1>Iris updated to release 1.39</h1>
 
-(date: 2026-04-28, updated: 2026-03-30)
+(date: 2026-04-28, updated: 2026-03-31)
       <p>
       <p>The Iris web browser has been updated to version 1.39</p>
 
@@ -515,19 +680,6 @@ youtu.be/4DACQutVUBs<a href="https://youtu.be/4DACQutVUBs">https://youtu.be/4DAC
       </address>
     </article>
 
-    <article data-published="2026-04-24T19:44:57Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20340">
-      <h1>Wimp 5.89 Testing with ROOL ThemeDefs!</h1>
-
-(date: 2026-04-24)
-      <p>
-      <p>Wow! The Classic RO5 Theme looks awesome!!</p>
-<p>How much more work does it need?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/4/topics/20340">https://www.riscosopen.org/forum/forums/4/topics/20340</a>
-      </address>
-    </article>
-
     <article data-published="2026-04-24T18:01:19Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20323">
       <h1>Audio on RISC OS</h1>
 
@@ -672,7 +824,7 @@ A forest? But somewhere temperate of course?
     <article data-published="2026-04-23T05:44:00Z" data-link="http://www.iconbar.com/comments/rss/news2318.html">
       <h1>Fireside developer chat on saturday night</h1>
 
-(date: 2026-04-23, updated: 2026-03-30)
+(date: 2026-04-23, updated: 2026-03-31)
       <p>
       <p>There is another developer chat is on saturday night (25th April) for anyone interested in a very informal event online aimed at RISC OS developers of all levels.</p>
 
@@ -727,18 +879,6 @@ A forest? But somewhere temperate of course?
 
       <address>
         <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mjzy75abyc2r">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mjzy75abyc2r</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-21T21:24:03Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20374">
-      <h1>Chris Johnson&#39;s versions of my software</h1>
-
-(date: 2026-04-21)
-      <p>
-      <p>Snapper is indispensable to me: very useful when creating screenshots of windows for software manuals.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20374">https://www.riscosopen.org/forum/forums/1/topics/20374</a>
       </address>
     </article>
 
@@ -798,7 +938,7 @@ elite.bbcelite.com</p>
     <article data-published="2026-04-21T06:36:00Z" data-link="http://www.iconbar.com/comments/rss/news2326.html">
       <h1>ROUGOL April 2026 meeting - Paolo Fabio Zaino</h1>
 
-(date: 2026-04-21, updated: 2026-03-30)
+(date: 2026-04-21, updated: 2026-03-31)
       <p>
       <p>Rougols's April speaker was Paolo Fabio Zaino, introducing his new Theme Manager</p>
 
@@ -1209,7 +1349,7 @@ elite.bbcelite.com</p>
     <article data-published="2026-04-17T16:09:00Z" data-link="http://www.iconbar.com/comments/rss/news2312.html">
       <h1>Rougol April 2026 meeting on monday - Desktop themes</h1>
 
-(date: 2026-04-17, updated: 2026-03-30)
+(date: 2026-04-17, updated: 2026-03-31)
       <p>
       <p>The April 2026 Rougol meeting is on Monday and brings together current desktop theme developments</p>
 
@@ -1278,95 +1418,6 @@ elite.bbcelite.com</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/10/topics/9593">https://www.riscosopen.org/forum/forums/10/topics/9593</a>
-      </address>
-    </article>
-
-    <article data-published="2026-04-16T23:17:30Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20370">
-      <h1>Status update for RISC OS 64-bit work</h1>
-
-(date: 2026-04-16)
-      <p>
-      <p>Status Update (April 2026)</p>
-<p>It’s about 4 weeks since the last update on 64-bit progress, and apparently there’s been quite a bit of work going on.</p>
-<ul>
-<li>
-<p>Pyromaniac work continues.</p>
-<ul>
-<li>
-<p>Experimental Python 3 support work is now actually passing its tests.</p>
-<p>See tests passing: <a href="https://share.gerph.org/s/hnrlhvL3tUddl1s">https://share.gerph.org/s/hnrlhvL3tUddl1s</a>. See the desktop running in with Python 3, Unicorn 2, Capstone 5: <a href="https://share.gerph.org/s/bJSrhkkddMqQMij">https://share.gerph.org/s/bJSrhkkddMqQMij</a>. They’re not thrilling, ‘cos they’re just running.</p>
-</li>
-<li>
-<p>New NetStatus module added to the system (Just an implementation of the classic module).</p>
-</li>
-<li>
-<p>New JUnitXML module. See <a href="https://github.com/gerph/riscos-junitxml-module-ai">https://github.com/gerph/riscos-junitxml-module-ai</a> for details.</p>
-</li>
-</ul>
-</li>
-<li>
-<p>C version of the EasySocket module is looking for testers. See <a href="https://github.com/gerph/riscos-make-a-module">https://github.com/gerph/riscos-make-a-module</a> for details.</p>
-</li>
-<li>
-<p>New JUnitXML module in C (as well as the PyModule implementation). See <a href="https://www.riscosopen.org/forum/forums/1/topics/20351">https://www.riscosopen.org/forum/forums/1/topics/20351</a> for details.</p>
-</li>
-<li>
-<p>Live Coding continues.</p>
-<ul>
-<li>Recently finished implementin the *GOS command from the UtilityModule for 32-bit and 64-bit. See <a href="https://github.com/gerph/riscos-gos">https://github.com/gerph/riscos-gos</a> for the source and release, and <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rF2ztisbUa0dVTV6MvNS9si">https://www.youtube.com/playlist?list=PLVVIu906Y7rF2zt…</a> for the playlist.</li>
-<li>WindowManager integration of the C template loading was completed and is available. See <a href="https://github.com/gerph/riscos5-wimp">https://github.com/gerph/riscos5-wimp</a> for details.</li>
-</ul>
-</li>
-<li>
-<p>Another release of the RISC OS build environment.</p>
-<ul>
-<li>Build environment improves much of the internal help, adds AI agent support. See <a href="https://hub.docker.com/repository/docker/gerph/riscos-build/general">https://hub.docker.com/repository/docker/gerph/riscos-…</a> for more details.</li>
-<li>Series of short form videos explain the RISC OS build environment and demonstrate how to do simple tasks. <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rETZ8uCBVwjLt5HPlDG7xnn">https://www.youtube.com/playlist?list=PLVVIu906Y7rETZ8…</a></li>
-</ul>
-</li>
-<li>
-<p>Release of agent skills for RISC OS. See <a href="https://github.com/gerph/riscos-agent-skills">https://github.com/gerph/riscos-agent-skills</a> for details.</p>
-</li>
-<li>
-<p>Release of GitHub action for building through the build service. See <a href="https://github.com/gerph/riscos-build-service-action">https://github.com/gerph/riscos-build-service-action</a> for details. Also on the GitHub marketplace: <a href="https://github.com/marketplace?query=risc+os">https://github.com/marketplace?query=risc+os</a></p>
-</li>
-<li>
-<p>Example repositories created:</p>
-<ul>
-<li>Example of Vector trapping with CMunge produced. See <a href="https://github.com/gerph/riscos-vectortrap-example">https://github.com/gerph/riscos-vectortrap-example</a> for details.</li>
-<li>Simple example of building C code with the RISC OS Build service. See <a href="https://github.com/gerph/riscos-build-c-example">https://github.com/gerph/riscos-build-c-example</a> for details. Notionally similar to the earlier BASIC code example for the RISC OS build service – <a href="https://github.com/gerph/riscos-build-basic-example">https://github.com/gerph/riscos-build-basic-example</a>.</li>
-<li>Example CLI tool, created as part of the short video series. See <a href="https://github.com/gerph/example">https://github.com/gerph/example</a> for details.</li>
-<li>Example module, created as part of the short video series. See <a href="https://github.com/gerph/example-module">https://github.com/gerph/example-module</a> for details.</li>
-</ul>
-</li>
-<li>
-<p>64-bit module progress continues.</p>
-<ul>
-<li>TimerManager C module prototype created. See <a href="https://github.com/gerph/riscos-timermanager">https://github.com/gerph/riscos-timermanager</a> for details.</li>
-<li>OS_FSControl implementation of the commands (simple and multi-file) is nearly complete.</li>
-<li>NetStatus module C implementation is complete. See <a href="https://github.com/gerph/riscos-netstatus">https://github.com/gerph/riscos-netstatus</a> for details.</li>
-<li>Memory management work for the Kernel has been started.</li>
-<li>VideoSW C module stub created. Still too experimental.</li>
-<li>OSSWIs module improved to cover almost all the SWIs. See <a href="https://github.com/gerph/riscos64-status">https://github.com/gerph/riscos64-status</a> for the modules. In particular, OS_PrettyPrint, OS_SubstituteArgs, OS_ReadArgs now have implementations. See <a href="https://github.com/gerph/riscos64-status/wiki/Module_OSSWIs">https://github.com/gerph/riscos64-status/wiki/Module_O…</a> for functionality.</li>
-<li>EvaluateExpression module implemented, covering all the cases. See <a href="https://github.com/gerph/riscos64-status">https://github.com/gerph/riscos64-status</a> for the modules. See <a href="https://github.com/gerph/riscos64-status/wiki/Module_EvaluateExpression">https://github.com/gerph/riscos64-status/wiki/Module_E…</a> for functionality.</li>
-<li>Draw module stub created. Still experimental.</li>
-<li>NVRAMHW module prototype created. See <a href="https://github.com/gerph/riscos-nvramhw">https://github.com/gerph/riscos-nvramhw</a> for details.</li>
-<li>Prototype Joystick module implementation created. See <a href="https://github.com/gerph/riscos-joystick-ai">https://github.com/gerph/riscos-joystick-ai</a> for details.</li>
-<li>Wimp validation strings parser started. Very stubby, and doesn’t include many options.</li>
-</ul>
-</li>
-<li>
-<p>The general riscos64-status repository ( <a href="https://github.com/gerph/riscos64-status">https://github.com/gerph/riscos64-status</a>) has been kept up to date with these changes as they happened.</p>
-<ul>
-<li>But GitHub appear to have broken all the nice rainbow status charts, so they just appear in green now. There will be work to ensure that these appear better in the future.</li>
-<li>All the status updates have been posted on the RISC OS 64 wiki: <a href="https://github.com/gerph/riscos64-status/wiki/Updates">https://github.com/gerph/riscos64-status/wiki/Updates</a>. Hopefully this will mean that they can be found more easily.</li>
-</ul>
-</li>
-</ul>
-<p>In other news, ROOL have claimed to have a TerritoryManager in C, but I’ve not had any reply to a request for where this is. That would at least remove another module from those that need to be implemented.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/13/topics/20370">https://www.riscosopen.org/forum/forums/13/topics/20370</a>
       </address>
     </article>
 
@@ -1541,7 +1592,7 @@ elite.bbcelite.com</p>
     <article data-published="2026-04-14T06:44:00Z" data-link="http://www.iconbar.com/comments/rss/news2323.html">
       <h1>Drag'n'Drop 15i2 edition reviewed</h1>
 
-(date: 2026-04-14, updated: 2026-03-30)
+(date: 2026-04-14, updated: 2026-03-31)
       <p>
       <p>The latest edition of Drag'n'Drop magazine was released at the RISC OS North Show where Drag'n'drop were also exhibitors.</p>
 
@@ -1954,7 +2005,7 @@ PRINT &quot;JUnit XML written successfully&quot;
     <article data-published="2026-04-09T05:12:00Z" data-link="http://www.iconbar.com/comments/rss/news2322.html">
       <h1>Archive Edition 28:02 reviewed</h1>
 
-(date: 2026-04-09, updated: 2026-03-30)
+(date: 2026-04-09, updated: 2026-03-31)
       <p>
       <p>Archive Magazine 28:02 was released for the North West Show and subscribers should have received your copy in the post recently</p>
 
@@ -2182,7 +2233,7 @@ images.nasa.gov<a href="https://images.nasa.gov/">https://images.nasa.gov/</a></
     <article data-published="2026-04-07T06:00:00Z" data-link="http://www.iconbar.com/comments/rss/news2321.html">
       <h1>RISC OS Git client reaches release 0.12</h1>
 
-(date: 2026-04-07, updated: 2026-03-30)
+(date: 2026-04-07, updated: 2026-03-31)
       <p>
       <p>ROOL continues to make progress on its mission to bring modern source control to RISC OS with the release of 0.12 of the Git client</p>
 
@@ -2717,7 +2768,7 @@ Source: <a href="https://www.riscosopen.org/forum/forums/1/topics/20328?limit=25
     <article data-published="2026-04-01T05:47:00Z" data-link="http://www.iconbar.com/comments/rss/news2319.html">
       <h1>Double your impact on the RISC OS 'Moon mission'</h1>
 
-(date: 2026-04-01, updated: 2026-03-30)
+(date: 2026-04-01, updated: 2026-03-31)
       <p>
       <p>ROOL (RISC OS Open Limited) is working on its most ambitious project to date: moving RISC OS to a 64-bit architecture. It's a major undertaking, and right now your donation goes twice as far.</p>
 
@@ -2815,7 +2866,7 @@ Source: <a href="https://www.riscosopen.org/forum/forums/1/topics/20328?limit=25
     <article data-published="2026-03-31T07:05:00Z" data-link="http://www.iconbar.com/comments/rss/news2317.html">
       <h1>RISC OS in a Post-AI World: Could Simplicity Be the Missing Link in Education?</h1>
 
-(date: 2026-03-31, updated: 2026-03-30)
+(date: 2026-03-31)
       <p>
       <p>In an age dominated by artificial intelligence, algorithm-driven content, and platforms engineered to maximize attention, a counter-question is gaining traction: What if real progress sometimes means stripping things back rather than adding more layers?</p>
 
