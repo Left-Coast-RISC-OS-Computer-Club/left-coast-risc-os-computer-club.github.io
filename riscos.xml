@@ -7,16 +7,169 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>01 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>02 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>April 2026 News Summary</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13581&#38;page=1#125888</link>
+      <description>
+        <![CDATA[Updated LanManFS bounty is underway and there is an alpha test phase.  https://www.riscosopen.org/forum/forums/8/topics/20350]]>
+      </description>
+      <source:markdown>Updated LanManFS bounty is underway and there is an alpha test phase. https://www.riscosopen.org/forum/forums/8/topics/20350</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13581&#38;page=1#125888</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mkv6m7z3cc2q</link>
+      <description>
+        <![CDATA[One for all you graphics programmers and artists.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>One for all you graphics programmers and artists.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkv6m7z3cc2q</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mkusor5wsc2j</link>
+      <description>
+        <![CDATA[I've finally caught up with the cool kids and got a Raspberry Pi.
+        
+        Don't worry - it's going inside a keyboard and will never have RISC OS anywhere near it.
+        https://media.tenor.com/bueidMCNRzwAAAAC/smirk-smile.gif?hh=498&ww=278]]>
+      </description>
+      <source:markdown>I&#39;ve finally caught up with the cool kids and got a Raspberry Pi.
+
+Don&#39;t worry - it&#39;s going inside a keyboard and will never have RISC OS anywhere near it.
+https://media.tenor.com/bueidMCNRzwAAAAC/smirk-smile.gif?hh=498&#38;ww=278</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mkusor5wsc2j</guid>
+    </item>    <item>
+      <title>Iris updated to release 1.39</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13588&#38;page=1#125887</link>
+      <description>
+        <![CDATA[It's possibly worth mentioning that this update was actually quite significant in that it sorts out a lot of download issues on many sites including the likes of github, NHS/hospital sites and banking sites.]]>
+      </description>
+      <source:markdown>It&#39;s possibly worth mentioning that this update was actually quite significant in that it sorts out a lot of download issues on many sites including the likes of github, NHS/hospital sites and banking sites.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13588&#38;page=1#125887</guid>
+    </item>    <item>
+      <title>Capturing standard output from a command</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20392</link>
+      <description>
+        <![CDATA[<p>The <a href="https://sinenomine.co.uk/software/impact/">Impact</a> database has a scripting language and among other things it allows the user to run an external program or star-command from within the script. A user at the <span class="caps">RISC</span> OS North Show suggested that it would be useful to be able to capture the output from a command and then use the value within the Impact action script.</p>
+        <p>Currently Impact executes the commands using the C-Library&#8217;s &#8220;system&#8221; function which returns an integer.</p>
+        <p>I have thought of two possible approaches for capturing the output. I assume that we&#8217;re looking for <span class="caps">STDOUT</span> in a C sense. One option would be to run the command with &#8220;system&#8221; but include redirection operators to redirect output to a file which I could then read afterwards. I could perhaps redirect to a PipeFS file, so that nothing has to go onto disc. Or just use a file in the scrap directory.</p>
+        <p>The other option would be to use *TaskWindow with values set so that Impact receives the output via the TaskWindow messages. We already have some code for handling TaskWindow execution which is used in RiscOSM for building zip files of data. The TaskWindow route would allow multi-tasking of the command, but that could potentially cause issues if the user continues interacting with Impact while the action script has not yet been completed.</p>
+        <p>Before I get working on this, does anyone have any insight as to the pros and cons of each method? Or perhaps there is another way to execute a command and capture the output that I have overlooked!</p>]]>
+      </description>
+      <source:markdown>The [Impact](https://sinenomine.co.uk/software/impact/) database has a scripting language and among other things it allows the user to run an external program or star-command from within the script. A user at the RISC OS North Show suggested that it would be useful to be able to capture the output from a command and then use the value within the Impact action script.
+
+Currently Impact executes the commands using the C-Library’s “system” function which returns an integer.
+
+I have thought of two possible approaches for capturing the output. I assume that we’re looking for STDOUT in a C sense. One option would be to run the command with “system” but include redirection operators to redirect output to a file which I could then read afterwards. I could perhaps redirect to a PipeFS file, so that nothing has to go onto disc. Or just use a file in the scrap directory.
+
+The other option would be to use \*TaskWindow with values set so that Impact receives the output via the TaskWindow messages. We already have some code for handling TaskWindow execution which is used in RiscOSM for building zip files of data. The TaskWindow route would allow multi-tasking of the command, but that could potentially cause issues if the user continues interacting with Impact while the action script has not yet been completed.
+
+Before I get working on this, does anyone have any insight as to the pros and cons of each method? Or perhaps there is another way to execute a command and capture the output that I have overlooked!</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20392:163816</guid>
+    </item>    <item>
+      <title>!Pacman 404 error</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20391</link>
+      <description>
+        <![CDATA[<p>Hi,</p>
+        <p>I am having a problem with !Pacman (0.9.8) running on <span class="caps">RISC</span> OS 5.31 on RPCEmu 0.9.5. I don&#8217;t know if it is something I have done, but recently it has been coming up with a 404 error whenever I try to install anything. The menu option update lists works fine, so the program appears to be accessing the internet okay.</p>
+        <p>I feel that maybe something is corrupt and I need to reset the source settings in some way, but again if the update list option is okay maybe not. I have a lot of stuff already set up through !Pacman and would like to continue to keep these things updated via Pacman.</p>
+        <p>Any suggestions would be appreciated.</p>
+        <p>Cheers.</p>]]>
+      </description>
+      <source:markdown>Hi,
+
+I am having a problem with !Pacman (0.9.8) running on RISC OS 5.31 on RPCEmu 0.9.5. I don’t know if it is something I have done, but recently it has been coming up with a 404 error whenever I try to install anything. The menu option update lists works fine, so the program appears to be accessing the internet okay.
+
+I feel that maybe something is corrupt and I need to reset the source settings in some way, but again if the update list option is okay maybe not. I have a lot of stuff already set up through !Pacman and would like to continue to keep these things updated via Pacman.
+
+Any suggestions would be appreciated.
+
+Cheers.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20391:163814</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p>ShareFSServer just got also the server-side notifications working.</p>
+        <p>This means if an object is changed from the Server side (aka not from one of the <span class="caps">RISC</span> OS clients), RO clients still get the notification and can request an update (this is how ShareFS works).</p>
+        <p>ShareFSServer optimizes this using different features:</p>
+        <p>1. Notifications to clients are multi-threaded (so way faster than on a real <span class="caps">RISC</span> OS system)</p>
+        <p>2. They are also immediate, like on Samba and <span class="caps">SMB</span>, so when copying a large directory you&#8217;ll see it appearing on other clients too as it&#8217;s being copied</p>
+        <p>3. They are specific and not recursive, so basically the notification arrives only for the modified container and nothing else and only to the client that has it opened</p>
+        <p>4. They are configurable, in other words users have control over them</p>
+        <p>5. They work also for <span class="caps">SFTP</span>, <span class="caps">FTP</span> and <span class="caps">FTPS</span> in Native mode</p>
+        <p>6. They obviously work for all out-of-band re-shared protocols.</p>
+        <p>7. They can be used with special features (coming up soon) like SharedClipboard with is an embedded new backend that will allow me to create a new App for RO to share clipboard across multiple systems (included Linux, macOS, WIndows and <span class="caps">BSD</span>), not just other <span class="caps">RISC</span> OS systems.</p>
+        <p>Will try to finish testing all these changes and prepare a new build for later.</p>]]>
+      </description>
+      <source:markdown>ShareFSServer just got also the server-side notifications working.
+
+This means if an object is changed from the Server side (aka not from one of the RISC OS clients), RO clients still get the notification and can request an update (this is how ShareFS works).
+
+ShareFSServer optimizes this using different features:
+
+1\. Notifications to clients are multi-threaded (so way faster than on a real RISC OS system)
+
+2\. They are also immediate, like on Samba and SMB, so when copying a large directory you’ll see it appearing on other clients too as it’s being copied
+
+3\. They are specific and not recursive, so basically the notification arrives only for the modified container and nothing else and only to the client that has it opened
+
+4\. They are configurable, in other words users have control over them
+
+5\. They work also for SFTP, FTP and FTPS in Native mode
+
+6\. They obviously work for all out-of-band re-shared protocols.
+
+7\. They can be used with special features (coming up soon) like SharedClipboard with is an embedded new backend that will allow me to create a new App for RO to share clipboard across multiple systems (included Linux, macOS, WIndows and BSD), not just other RISC OS systems.
+
+Will try to finish testing all these changes and prepare a new build for later.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:163813</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mkti4zf4322g</link>
+      <description>
+        <![CDATA[#RISC_OS #ShareFSServer just got also the server-side notifications working. This means if an object is changed from Server side (aka not from one of the RISC OS clients), RO clients still get the notification and can request an update (this is how ShareFS works). ShareFSServer optimizes this 👇]]>
+      </description>
+      <source:markdown>#RISC\_OS #ShareFSServer just got also the server-side notifications working. This means if an object is changed from Server side (aka not from one of the RISC OS clients), RO clients still get the notification and can request an update (this is how ShareFS works). ShareFSServer optimizes this 👇</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mkti4zf4322g</guid>
+    </item>    <item>
+      <title>dead A7000 board</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20390</link>
+      <description>
+        <![CDATA[<p>Can anyone actually use this board <span class="caps">CJE</span> are selling for anything ?<br />
+        Dead. Acorn A7000+ Motherboard, Smoke Damage, Corrosion, Spares or Repair<br />
+        <a href="https://www.ebay.co.uk/itm/178095763615">https://www.ebay.co.uk/itm/178095763615</a></p>]]>
+      </description>
+      <source:markdown>Can anyone actually use this board CJE are selling for anything ?
+
+Dead. Acorn A7000+ Motherboard, Smoke Damage, Corrosion, Spares or Repair
+
+[https://www.ebay.co.uk/itm/178095763615](https://www.ebay.co.uk/itm/178095763615)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20390:163812</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mksplp5ev22e</link>
       <description>
         <![CDATA[More code wrestling with my old NES source archives. This time I've managed to get version 48 of NES Wolverine running - dated 23rd October 1990. As you can see, we have an elevator mechanic in this early build - very 'Impossible Mission' like! Wolverine and Logan sprite variations too. No claws yet]]>
       </description>
       <source:markdown>More code wrestling with my old NES source archives. This time I&#39;ve managed to get version 48 of NES Wolverine running - dated 23rd October 1990. As you can see, we have an elevator mechanic in this early build - very &#39;Impossible Mission&#39; like! Wolverine and Logan sprite variations too. No claws yet</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mksplp5ev22e</guid>
+    </item>    <item>
+      <title>Random projects...</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
+      <description>
+        <![CDATA[<p>No, I was referring to the forks — resource forks show up on other OSs as starting with a . and an underscore. Actually it may be a folder/directory that shows up. I&#8217;ll make a note of it the next time I come across it.</p>
+        <p>There was a mention as well with regard to it causing issues on the Spectrum Next.<br />
+        See <a href="https://youtu.be/GoNnP8EKns0?si=Pv2thF-Tb3pZwKwR">https://youtu.be/GoNnP8EKns0?si=Pv2thF-Tb3pZwKwR</a></p>]]>
+      </description>
+      <source:markdown>No, I was referring to the forks — resource forks show up on other OSs as starting with a . and an underscore. Actually it may be a folder/directory that shows up. I’ll make a note of it the next time I come across it.
+
+There was a mention as well with regard to it causing issues on the Spectrum Next.
+
+See [https://youtu.be/GoNnP8EKns0?si=Pv2thF-Tb3pZwKwR](https://youtu.be/GoNnP8EKns0?si=Pv2thF-Tb3pZwKwR)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20192:163807</guid>
     </item>    <item>
       <title>Risc OS Install on SSD</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20389</link>
@@ -41,6 +194,14 @@ Kindest Regards,
 Brett</source:markdown>
       <guid>cid://www.riscosopen.org:11:20389:163805</guid>
     </item>    <item>
+      <title>Bug in Wimp01, OS_Byte 129, or documentation for the last</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20386</link>
+      <description>
+        <![CDATA[<p>Oh now will be interesting to see what can of worms this now opens lol</p>]]>
+      </description>
+      <source:markdown>Oh now will be interesting to see what can of worms this now opens lol</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20386:163804</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mksckutg7s2s</link>
       <description>
         <![CDATA[The Sonoff NSPanel2 is looking interesting - Sonoff have been a bit of a walled garden, so this might slot into existing installations easier than the old one.
@@ -53,6 +214,14 @@ Brett</source:markdown>
 And the ability to install any Android app /might/ allow the awkward squad (eg Lepro) to be somewhat integrated too.
 https://homekitnews.com/2026/04/30/sonoff-unveils-nspanel-pro-gen2-with-matter-dual-relays-ha-support/</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mksckutg7s2s</guid>
+    </item>    <item>
+      <title>Using the Dwarf Mini on RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
+      <description>
+        <![CDATA[<p>that looks awesome Chris!</p>]]>
+      </description>
+      <source:markdown>that looks awesome Chris!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20262:163803</guid>
     </item>    <item>
       <link>https://bsky.app/profile/armbytes.bsky.social/post/3mks7fckzo22k</link>
       <description>
@@ -101,20 +270,6 @@ If you want to watch the whole series, you can follow it through the playlist on
 Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimpspriterend…](https://presentation.riscos.online/live/wimpspriterender.html) (once it has been published).</source:markdown>
       <guid>cid://www.riscosopen.org:1:20388:163802</guid>
     </item>    <item>
-      <title>Using the Dwarf Mini on RISC OS</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20262</link>
-      <description>
-        <![CDATA[<p>Not much luck with meteors over the last few weeks &#8211; just a few faint streaks &#8211; but last night I tried out a mosaic and scheduled shooting. Left the Mini out all night unattended :-) Here&#8217;s the result, the North American nebula shot automatically from 2:00am to 4:30am with some minimal gamma processing in PhotoDesk; it&#8217;s a big image worth examining at full size, and I&#8217;ve added some star spikes (a new Mini feature):<br />
-        <img src="https://vermilionsands.uk/roast/fp-content/images/DM15-01C20-SpG.webp" style="width:800px;" alt="" /><br />
-        More info on the <a href="https://vermilionsands.uk/roast/index.php/2026/05/01/c20-m106-and-new-features/"><span class="caps">ROAST</span> blog</a></p>]]>
-      </description>
-      <source:markdown>Not much luck with meteors over the last few weeks – just a few faint streaks – but last night I tried out a mosaic and scheduled shooting. Left the Mini out all night unattended :-) Here’s the result, the North American nebula shot automatically from 2:00am to 4:30am with some minimal gamma processing in PhotoDesk; it’s a big image worth examining at full size, and I’ve added some star spikes (a new Mini feature):
-
-![](https://vermilionsands.uk/roast/fp-content/images/DM15-01C20-SpG.webp)
-
-More info on the [ROAST blog](https://vermilionsands.uk/roast/index.php/2026/05/01/c20-m106-and-new-features/)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20262:163798</guid>
-    </item>    <item>
       <title>RISC OS build service back</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20387</link>
       <description>
@@ -137,20 +292,6 @@ The RISC OS build service was down for a few hours this evening whilst I rebuilt
 EDIT: I didn’t use the rom as its for Pi, i built it for the Ti</source:markdown>
       <guid>cid://www.riscosopen.org:4:20340:163792</guid>
     </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p>And <span class="caps">BOOM</span>, finally, after a loooong &#8220;battle&#8221;, I have successfully decoded and reverse engineered the way ShareFS handles the distribution of updates to all connected clients! :)</p>
-        <p>I have improved the way it does this and, so far, it looks very stable and works really well. Tonight, I will test it all the way down to the Archies, and then start working on preparing the next release.</p>
-        <p>ShareFSServer is now capable of updating all clients and seems fairly reliable too. Stay tuned for the next build soon.</p>]]>
-      </description>
-      <source:markdown>And BOOM, finally, after a loooong “battle”, I have successfully decoded and reverse engineered the way ShareFS handles the distribution of updates to all connected clients! :)
-
-I have improved the way it does this and, so far, it looks very stable and works really well. Tonight, I will test it all the way down to the Archies, and then start working on preparing the next release.
-
-ShareFSServer is now capable of updating all clients and seems fairly reliable too. Stay tuned for the next build soon.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:163791</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mkqfkp5wuc2q</link>
       <description>
         <![CDATA[#RISC_OS folks, finally (after a month of batling) I have finally decoded and sucesfully reverse engineered the way ShareFS handle the distribution of updates to all connected clients! ShareFSServer is now capable of updating all clients and seems fairly reliable too. Stay tuned for next build soon!]]>
@@ -168,25 +309,6 @@ ShareFSServer is now capable of updating all clients and seems fairly reliable t
 
 The PNGs aren’t honouring dark mode.</source:markdown>
       <guid>cid://www.riscosopen.org:13:20370:163788</guid>
-    </item>    <item>
-      <title>Bug in Wimp01, OS_Byte 129, or documentation for the last</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20386</link>
-      <description>
-        <![CDATA[<p><a href="https://www.riscosopen.org/forum/forums/4/topics/16797">https://www.riscosopen.org/forum/forums/4/topics/16797</a></p>]]>
-      </description>
-      <source:markdown>[https://www.riscosopen.org/forum/forums/4/topics/16797](https://www.riscosopen.org/forum/forums/4/topics/16797)</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20386:163787</guid>
-    </item>    <item>
-      <title>Random projects...</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20192</link>
-      <description>
-        <![CDATA[<p>On the face of it you would expect the Mac to be similar to Linux &mdash; both are versions of Unix after all. But clearly the Mac has a different set of allowable file name characters. I thought Linux used <span class="caps">UTF</span>-8 for most things.</p>
-        <p>Of course the main oddity of the Mac is the data fork/resource fork arrangement of files &mdash; which the Mac Finder and Terminal hide from the user but can be seen when you transfer files to other systems. This dates from the original MacOS (pre <span class="caps">OSX</span>).</p>]]>
-      </description>
-      <source:markdown>On the face of it you would expect the Mac to be similar to Linux — both are versions of Unix after all. But clearly the Mac has a different set of allowable file name characters. I thought Linux used UTF-8 for most things.
-
-Of course the main oddity of the Mac is the data fork/resource fork arrangement of files — which the Mac Finder and Terminal hide from the user but can be seen when you transfer files to other systems. This dates from the original MacOS (pre OSX).</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20192:163784</guid>
     </item>    <item>
       <link>https://bsky.app/profile/rougol.bsky.social/post/3mkq5iirffs26</link>
       <description>
