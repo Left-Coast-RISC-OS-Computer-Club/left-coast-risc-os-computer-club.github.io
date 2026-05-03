@@ -7,10 +7,300 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>02 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>03 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mkxqspoyo22e</link>
+      <description>
+        <![CDATA[If you fancy digging a little deeper into 6502, this companion video to the first episode of "Thinking in 6502" does just that! 😁
+        youtu.be/LX20Te9RzP0
+        https://youtu.be/LX20Te9RzP0]]>
+      </description>
+      <source:markdown>If you fancy digging a little deeper into 6502, this companion video to the first episode of &#34;Thinking in 6502&#34; does just that! 😁
+youtu.be/LX20Te9RzP0
+https://youtu.be/LX20Te9RzP0</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mkxqspoyo22e</guid>
+    </item>    <item>
+      <title>Fonts for Iris</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20397</link>
+      <description>
+        <![CDATA[<p>Are there any other fonts floating around for !Iris to download on the web other than the ones on packman?</p>]]>
+      </description>
+      <source:markdown>Are there any other fonts floating around for !Iris to download on the web other than the ones on packman?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20397:163842</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mkxgrsnyf22k</link>
+      <description>
+        <![CDATA[Alan Moult can be seen here working on an animation for a baddie used in the videogame Maximum Carnage. Proper old-school lightbox, paper and pencil techniques you don't see very often. Video taken at Software Creations, late 1993, by @chunwah.bsky.social]]>
+      </description>
+      <source:markdown>Alan Moult can be seen here working on an animation for a baddie used in the videogame Maximum Carnage. Proper old-school lightbox, paper and pencil techniques you don&#39;t see very often. Video taken at Software Creations, late 1993, by @chunwah.bsky.social</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkxgrsnyf22k</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mkx3bms6ls2k</link>
+      <description>
+        <![CDATA[NES 'GLUG' by Paul Proctor. This game was never completed or released. Recovered from Paul's old development disks and stitched together to make a ROM that would load into an emulator.]]>
+      </description>
+      <source:markdown>NES &#39;GLUG&#39; by Paul Proctor. This game was never completed or released. Recovered from Paul&#39;s old development disks and stitched together to make a ROM that would load into an emulator.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkx3bms6ls2k</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, (Tomorrow) Sunday 26th April at 1pm UK time</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20388</link>
+      <description>
+        <![CDATA[<p>Going live in about 30 minutes.</p>]]>
+      </description>
+      <source:markdown>Going live in about 30 minutes.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20388:163835</guid>
+    </item>    <item>
+      <title>!Pacman 404 error</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20391</link>
+      <description>
+        <![CDATA[<p>Thanks for the suggestion Chris. My problem turned out to be somethings that was being configured at the same time as I was trying to install a package. I withdrew them all and it all worked fine. Default sources appear to be working fine.</p>
+        <p>Cheers.</p>]]>
+      </description>
+      <source:markdown>Thanks for the suggestion Chris. My problem turned out to be somethings that was being configured at the same time as I was trying to install a package. I withdrew them all and it all worked fine. Default sources appear to be working fine.
+
+Cheers.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20391:163834</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mkwyowxnik25</link>
+      <description>
+        <![CDATA[Howard Cheng, Software Manager at SGI, posted this job advert asking for people to join the team that were working on the Nintendo 64 console. He later went on to join Nintendo and became vice president of research and development amongst other senior roles during his time there.]]>
+      </description>
+      <source:markdown>Howard Cheng, Software Manager at SGI, posted this job advert asking for people to join the team that were working on the Nintendo 64 console. He later went on to join Nintendo and became vice president of research and development amongst other senior roles during his time there.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkwyowxnik25</guid>
+    </item>    <item>
+      <title>Refreshing the RISC OS desktop</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20395</link>
+      <description>
+        <![CDATA[<p><img src="https://images2.imgbox.com/0a/60/8y1LhjsT_o.jpg" alt="" /></p>
+        <p><strong><span class="caps">WROCC</span> <span class="caps">TALK</span> 6th May 2026 7.45pm</strong></p>
+        <p>I will be talking about Frosted &amp; Upcoming Dark Mode and Other Theme Projects, a look at bringing a modern visual style to the <span class="caps">RISC</span> OS desktop whilst keeping the speed, simplicity, and personality we all love &#8211; plus how I got into <span class="caps">RISC</span> OS and wanting to do this.</p>
+        <p>This talk explores the ideas behind the Frosted and Obsidian themes, including:</p>
+        <p>Modernising the <span class="caps">RISC</span> OS look without losing its identity<br />
+        Light vs dark design approaches<br />
+        Alpha Sprites and subtle UI polish<br />
+        Icon updates and desktop consistency</p>
+        <p><a href="https://www.wrocc.org.uk/meetings">https://www.wrocc.org.uk/meetings</a></p>
+        <p>What’s possible with theming today and what comes next with the Window Manager’s 5.89 upcoming features.</p>
+        <p>Whether you are a long term <span class="caps">RISC</span> OS user, theme designer, or just curious about refreshing the desktop, this session will show how small visual changes can make a big difference &#8211; clean, modern-ish, yet Still very much <span class="caps">RISC</span> OS!</p>]]>
+      </description>
+      <source:markdown>![](https://images2.imgbox.com/0a/60/8y1LhjsT_o.jpg)
+
+**WROCCTALK 6th May 2026 7.45pm**
+
+I will be talking about Frosted &#38; Upcoming Dark Mode and Other Theme Projects, a look at bringing a modern visual style to the RISC OS desktop whilst keeping the speed, simplicity, and personality we all love – plus how I got into RISC OS and wanting to do this.
+
+This talk explores the ideas behind the Frosted and Obsidian themes, including:
+
+Modernising the RISC OS look without losing its identity
+
+Light vs dark design approaches
+
+Alpha Sprites and subtle UI polish
+
+Icon updates and desktop consistency
+
+[https://www.wrocc.org.uk/meetings](https://www.wrocc.org.uk/meetings)
+
+What’s possible with theming today and what comes next with the Window Manager’s 5.89 upcoming features.
+
+Whether you are a long term RISC OS user, theme designer, or just curious about refreshing the desktop, this session will show how small visual changes can make a big difference – clean, modern-ish, yet Still very much RISC OS!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20395:163833</guid>
+    </item>    <item>
+      <title>Mini 64-bit update</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20394</link>
+      <description>
+        <![CDATA[<p>Not a major update, but just a heads-up for few things that were done recently&#8230;</p>
+        <ul>
+        	<li><span class="caps">RTR</span> Basic (<span class="caps">BASIC</span> <span class="caps">SDL</span>) for <span class="caps">RISC</span> OS 64 has been updated to 0.03 (0.02 being quickly replaced) (<a href="https://github.com/gerph/riscos64-rtrussell-bbcbasic/releases">https://github.com/gerph/riscos64-rtrussell-bbcbasic/r…</a>), with&#8230;
+        	<ul>
+        		<li>Support for reading Classic <span class="caps">BASIC</span> tokenised files (and Textual files, and <span class="caps">RTR</span> format files as well).</li>
+        		<li>Support for inferred inline filename for <span class="caps">SAVE</span>.</li>
+        		<li>Support for the -quit, -chain and -load in the same way as Classic <span class="caps">BASIC</span>.</li>
+        		<li>Support for <span class="caps">TEXTLOAD</span>/<span class="caps">TEXTSAVE</span>.</li>
+        		<li>`<span class="caps">SYS</span> &#8230; TO &#8230; ;flags` now implemented.</li>
+        		<li>Support for the sound operations.</li>
+        		<li>And a few fixes for crashes and other misfeatures.</li>
+        	</ul></li>
+        	<li>Very flexible <span class="caps">PRM</span>-in-<span class="caps">XML</span> GitHub action in the marketplace (<a href="https://github.com/marketplace/actions/risc-os-prm-in-xml-builder">https://github.com/marketplace/actions/risc-os-prm-in-…</a>)
+        	<ul>
+        		<li>Supports building the documentation as plain files, and as indexed files, with both Prince <span class="caps">XML</span> and Weasyprint <span class="caps">PDF</span> generation.</li>
+        		<li>(this is a companion to the earlier builder for <span class="caps">RISC</span> OS build service &#8211; <a href="https://github.com/marketplace/actions/risc-os-build-service-runner">https://github.com/marketplace/actions/risc-os-build-s…</a> &#8211; which lets you run builds with simpler definitions)</li>
+        	</ul></li>
+        	<li>Updated shell service with Pyromaniac 0.82 (<a href="https://shell.riscos.online/">https://shell.riscos.online/</a>)
+        	<ul>
+        		<li>Improved launching of the 64-bit shell, and updated <span class="caps">BASIC</span> for <span class="caps">RISC</span> OS 64 (as above) &#8211; <a href="https://shell.riscos.online/static/term64.html">https://shell.riscos.online/static/term64.html</a></li>
+        		<li>(and the server was completely rebuilt and has more disc space now)</li>
+        	</ul></li>
+        	<li>Updated build service with Pyromaniac 0.82 (<a href="https://build.riscos.online/">https://build.riscos.online/</a>)
+        	<ul>
+        		<li>Improved launching of the 64-bit environment and the <span class="caps">BASIC</span> for <span class="caps">RISC</span> OS 64 is also present (as above).</li>
+        		<li>(and the server was completely rebuilt and has more disc space now)</li>
+        	</ul></li>
+        	<li>Updated documentation and details for Pyromaniac 0.82:
+        	<ul>
+        		<li><a href="https://pyromaniac.riscos.online/pyromaniac/">https://pyromaniac.riscos.online/pyromaniac/</a><span class="caps">CHANGELOG</span>.html &#8211; has the full changelog.</li>
+        	</ul></li>
+        </ul>
+        <p>All of which means&#8230; easier testing of <span class="caps">RISC</span> OS 64 components, as <span class="caps">BASIC</span> is now available in the environment and works well enough to run things.</p>]]>
+      </description>
+      <source:markdown>Not a major update, but just a heads-up for few things that were done recently…
+
+- RTR Basic (BASICSDL) for RISC OS 64 has been updated to 0.03 (0.02 being quickly replaced) ( [https://github.com/gerph/riscos64-rtrussell-bbcbasic/r…](https://github.com/gerph/riscos64-rtrussell-bbcbasic/releases)), with…
+
+  - Support for reading Classic BASIC tokenised files (and Textual files, and RTR format files as well).
+  - Support for inferred inline filename for SAVE.
+  - Support for the -quit, -chain and -load in the same way as Classic BASIC.
+  - Support for TEXTLOAD/TEXTSAVE.
+  - \`SYS … TO … ;flags\` now implemented.
+  - Support for the sound operations.
+  - And a few fixes for crashes and other misfeatures.
+- Very flexible PRM-in-XML GitHub action in the marketplace ( [https://github.com/marketplace/actions/risc-os-prm-in-…](https://github.com/marketplace/actions/risc-os-prm-in-xml-builder))
+
+  - Supports building the documentation as plain files, and as indexed files, with both Prince XML and Weasyprint PDF generation.
+  - (this is a companion to the earlier builder for RISC OS build service – [https://github.com/marketplace/actions/risc-os-build-s…](https://github.com/marketplace/actions/risc-os-build-service-runner) – which lets you run builds with simpler definitions)
+- Updated shell service with Pyromaniac 0.82 ( [https://shell.riscos.online/](https://shell.riscos.online/))
+
+  - Improved launching of the 64-bit shell, and updated BASIC for RISC OS 64 (as above) – [https://shell.riscos.online/static/term64.html](https://shell.riscos.online/static/term64.html)
+  - (and the server was completely rebuilt and has more disc space now)
+- Updated build service with Pyromaniac 0.82 ( [https://build.riscos.online/](https://build.riscos.online/))
+
+  - Improved launching of the 64-bit environment and the BASIC for RISC OS 64 is also present (as above).
+  - (and the server was completely rebuilt and has more disc space now)
+- Updated documentation and details for Pyromaniac 0.82:
+  - [https://pyromaniac.riscos.online/pyromaniac/](https://pyromaniac.riscos.online/pyromaniac/) CHANGELOG.html – has the full changelog.
+
+All of which means… easier testing of RISC OS 64 components, as BASIC is now available in the environment and works well enough to run things.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20394:163830</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mkvn5io7lc2g</link>
+      <description>
+        <![CDATA[#RISC_OS #ShareFSServer testers, a new build is available for testing: build 0.4.0.
+        
+        Details on what's new here:
+        https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&page=5#posts-163829
+        
+        #riscos #OpenSource #FileSharing]]>
+      </description>
+      <source:markdown>#RISC\_OS #ShareFSServer testers, a new build is available for testing: build 0.4.0.
+
+Details on what&#39;s new here:
+https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=5#posts-163829
+
+#riscos #OpenSource #FileSharing</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mkvn5io7lc2g</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p>@all alpha testers</p>
+        <p>A new alpha build, 0.4.0, is available for testing.</p>
+        <p>What’s new in this build:</p>
+        <p>1. Proper client updates have been introduced. These behave more like updates in modern protocols, and they work all the way down to the Acorn Archimedes. This is especially nice to see when copying large directories.</p>
+        <p>2. I finally had time to complete the rewrite of the code responsible for handling copies from <span class="caps">RISC</span> OS to ShareFSServer. This should now make copyign files from RO to ShareFSServer a lot faster. It is faster on my systems, but speed also depends on the network, so please let me know how it performs for you.</p>
+        <p>3. Server-side changes detection and client updates have been added. The client update mechanism uses the protocol mentioned in point 1.</p>
+        <p>4. Experimental change detection has also been added for <span class="caps">SFTP</span>, <span class="caps">FTP</span>, and <span class="caps">FTPS</span>. I am still testing these, so they may not work as reliably as the local backend and the out-of-band protocol proxying updates yet.</p>
+        <p>To enable client updates, please check the usual `sharefs.toml.example`. Here is an example:</p>
+        <pre>
+        #######################################################################
+        # Hot-update (live refresh) settings
+        #######################################################################
+        [hot_update]
+        
+        [hot_update.global]
+        enabled = true
+        debounce_ms = 250
+        idle_unhook_secs = 300
+        
+        [hot_update.local]
+        enabled = true
+        native_notifications = true
+        poll_fallback = true
+        </pre>
+        <p>As you can see, there are two separate mechanisms to detect changes server-side:</p>
+        <ul>
+        	<li>native_notifications, similar to how <span class="caps">SMB</span> and Samba work.</li>
+        	<li>poll_fallback, which is specifically designed for systems and protocols that do not support system notifications.</li>
+        </ul>
+        <p>As usual, I will send out the emails tomorrow. If everything works well with this build, I think we will have achieved complete coverage of all the features required for file sharing.</p>
+        <p>Cool bits from this week:</p>
+        <ul>
+        	<li><span class="caps">DDE</span> and <span class="caps">GCC</span> seem to be able to compile software on ShareFSServer without issues, although <span class="caps">GCC</span> 4.7.4 did start requesting directories that appear to be from Alan’s computer, lol.</li>
+        </ul>
+        <ul>
+        	<li>I have started laying the groundwork for a new backend protocol to share the clipboard across multiple <span class="caps">RISC</span> OS, Linux, Windows, and macOS systems. This will not only support copying and pasting text, but also images, audio, files, and more. It should become another small tool to make <span class="caps">RISC</span> OS more useful and improve workflows on it.</li>
+        </ul>
+        <p>As usual, thank you everyone for helping test this! :)</p>]]>
+      </description>
+      <source:markdown>@all alpha testers
+
+A new alpha build, 0.4.0, is available for testing.
+
+What’s new in this build:
+
+1\. Proper client updates have been introduced. These behave more like updates in modern protocols, and they work all the way down to the Acorn Archimedes. This is especially nice to see when copying large directories.
+
+2\. I finally had time to complete the rewrite of the code responsible for handling copies from RISC OS to ShareFSServer. This should now make copyign files from RO to ShareFSServer a lot faster. It is faster on my systems, but speed also depends on the network, so please let me know how it performs for you.
+
+3\. Server-side changes detection and client updates have been added. The client update mechanism uses the protocol mentioned in point 1.
+
+4\. Experimental change detection has also been added for SFTP, FTP, and FTPS. I am still testing these, so they may not work as reliably as the local backend and the out-of-band protocol proxying updates yet.
+
+To enable client updates, please check the usual \`sharefs.toml.example\`. Here is an example:
+
+```
+#######################################################################
+# Hot-update (live refresh) settings
+#######################################################################
+[hot_update]
+
+[hot_update.global]
+enabled = true
+debounce_ms = 250
+idle_unhook_secs = 300
+
+[hot_update.local]
+enabled = true
+native_notifications = true
+poll_fallback = true
+
+```
+
+As you can see, there are two separate mechanisms to detect changes server-side:
+
+- native\_notifications, similar to how SMB and Samba work.
+- poll\_fallback, which is specifically designed for systems and protocols that do not support system notifications.
+
+As usual, I will send out the emails tomorrow. If everything works well with this build, I think we will have achieved complete coverage of all the features required for file sharing.
+
+Cool bits from this week:
+
+- DDE and GCC seem to be able to compile software on ShareFSServer without issues, although GCC 4.7.4 did start requesting directories that appear to be from Alan’s computer, lol.
+
+- I have started laying the groundwork for a new backend protocol to share the clipboard across multiple RISC OS, Linux, Windows, and macOS systems. This will not only support copying and pasting text, but also images, audio, files, and more. It should become another small tool to make RISC OS more useful and improve workflows on it.
+
+As usual, thank you everyone for helping test this! :)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:163829</guid>
+    </item>    <item>
+      <title>PhotoDesk workflow for Dwarf Mini images</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20393</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve put together some notes on a PhotoDesk workflow for processing astronomical images from the Dwarf Mini. Fairly basic, as <span class="caps">RISC</span> OS is limited to processing JPEGs at the moment, but a lot can still be done to improve the pictures.<br />
+        Link: <a href="https://vermilionsands.uk/roast/index.php/2026/05/02/photodesk-workflow-for-the-dwarf-mini/">PhotoDesk workflow for the Mini</a></p>]]>
+      </description>
+      <source:markdown>I’ve put together some notes on a PhotoDesk workflow for processing astronomical images from the Dwarf Mini. Fairly basic, as RISC OS is limited to processing JPEGs at the moment, but a lot can still be done to improve the pictures.
+
+Link: [PhotoDesk workflow for the Mini](https://vermilionsands.uk/roast/index.php/2026/05/02/photodesk-workflow-for-the-dwarf-mini/)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20393:163827</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mkvdv3tb2s2q</link>
+      <description>
+        <![CDATA[Merchants Warehouse, Castlefield, Manchester. Home of Acclaim Studios ( Manchester ) from around 2002 to 2004. Many of the ex-Software Creations staff worked at this studio.]]>
+      </description>
+      <source:markdown>Merchants Warehouse, Castlefield, Manchester. Home of Acclaim Studios ( Manchester ) from around 2002 to 2004. Many of the ex-Software Creations staff worked at this studio.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkvdv3tb2s2q</guid>
+    </item>    <item>
       <title>April 2026 News Summary</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13581&#38;page=1#125888</link>
       <description>
@@ -29,6 +319,14 @@
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkv6m7z3cc2q</guid>
+    </item>    <item>
+      <title>dead A7000 board</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20390</link>
+      <description>
+        <![CDATA[<p>Holy shit, no no no, they didn&#8217;t list that seriously?</p>]]>
+      </description>
+      <source:markdown>Holy shit, no no no, they didn’t list that seriously?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20390:163822</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mkusor5wsc2j</link>
       <description>
@@ -54,80 +352,80 @@ https://media.tenor.com/bueidMCNRzwAAAAC/smirk-smile.gif?hh=498&#38;ww=278</sour
       <title>Capturing standard output from a command</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20392</link>
       <description>
-        <![CDATA[<p>The <a href="https://sinenomine.co.uk/software/impact/">Impact</a> database has a scripting language and among other things it allows the user to run an external program or star-command from within the script. A user at the <span class="caps">RISC</span> OS North Show suggested that it would be useful to be able to capture the output from a command and then use the value within the Impact action script.</p>
-        <p>Currently Impact executes the commands using the C-Library&#8217;s &#8220;system&#8221; function which returns an integer.</p>
-        <p>I have thought of two possible approaches for capturing the output. I assume that we&#8217;re looking for <span class="caps">STDOUT</span> in a C sense. One option would be to run the command with &#8220;system&#8221; but include redirection operators to redirect output to a file which I could then read afterwards. I could perhaps redirect to a PipeFS file, so that nothing has to go onto disc. Or just use a file in the scrap directory.</p>
-        <p>The other option would be to use *TaskWindow with values set so that Impact receives the output via the TaskWindow messages. We already have some code for handling TaskWindow execution which is used in RiscOSM for building zip files of data. The TaskWindow route would allow multi-tasking of the command, but that could potentially cause issues if the user continues interacting with Impact while the action script has not yet been completed.</p>
-        <p>Before I get working on this, does anyone have any insight as to the pros and cons of each method? Or perhaps there is another way to execute a command and capture the output that I have overlooked!</p>]]>
+        <![CDATA[<p>Within the desktop, the most reliable mechanism is to use the TaskWindow command. Obviously, as you noted, you would need to lock out the interaction whilst the command was working.</p>
+        <p>If, however, you decide that you want to use the direct invocation, the more reliable was to redirect is to use <span class="caps">CLI</span> redirection, not C redirection &#8211; because it&#8217;s not guaranteed that you&#8217;ll be using a C-based program. And you ought not to use PipeFS unless you can guarantee that the output that is being generated it smaller than your available space in the <span class="caps">RMA</span> &#8211; this is what your scrap directory is for.</p>]]>
       </description>
-      <source:markdown>The [Impact](https://sinenomine.co.uk/software/impact/) database has a scripting language and among other things it allows the user to run an external program or star-command from within the script. A user at the RISC OS North Show suggested that it would be useful to be able to capture the output from a command and then use the value within the Impact action script.
+      <source:markdown>Within the desktop, the most reliable mechanism is to use the TaskWindow command. Obviously, as you noted, you would need to lock out the interaction whilst the command was working.
 
-Currently Impact executes the commands using the C-Library’s “system” function which returns an integer.
-
-I have thought of two possible approaches for capturing the output. I assume that we’re looking for STDOUT in a C sense. One option would be to run the command with “system” but include redirection operators to redirect output to a file which I could then read afterwards. I could perhaps redirect to a PipeFS file, so that nothing has to go onto disc. Or just use a file in the scrap directory.
-
-The other option would be to use \*TaskWindow with values set so that Impact receives the output via the TaskWindow messages. We already have some code for handling TaskWindow execution which is used in RiscOSM for building zip files of data. The TaskWindow route would allow multi-tasking of the command, but that could potentially cause issues if the user continues interacting with Impact while the action script has not yet been completed.
-
-Before I get working on this, does anyone have any insight as to the pros and cons of each method? Or perhaps there is another way to execute a command and capture the output that I have overlooked!</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20392:163816</guid>
+If, however, you decide that you want to use the direct invocation, the more reliable was to redirect is to use CLI redirection, not C redirection – because it’s not guaranteed that you’ll be using a C-based program. And you ought not to use PipeFS unless you can guarantee that the output that is being generated it smaller than your available space in the RMA – this is what your scrap directory is for.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20392:163819</guid>
     </item>    <item>
-      <title>!Pacman 404 error</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20391</link>
+      <title>Bug in Wimp01, OS_Byte 129, or documentation for the last</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20386</link>
       <description>
-        <![CDATA[<p>Hi,</p>
-        <p>I am having a problem with !Pacman (0.9.8) running on <span class="caps">RISC</span> OS 5.31 on RPCEmu 0.9.5. I don&#8217;t know if it is something I have done, but recently it has been coming up with a 404 error whenever I try to install anything. The menu option update lists works fine, so the program appears to be accessing the internet okay.</p>
-        <p>I feel that maybe something is corrupt and I need to reset the source settings in some way, but again if the update list option is okay maybe not. I have a lot of stuff already set up through !Pacman and would like to continue to keep these things updated via Pacman.</p>
-        <p>Any suggestions would be appreciated.</p>
-        <p>Cheers.</p>]]>
+        <![CDATA[<blockquote>
+        <p>C=unsuccessful – the carry must be set if R1 is not a keycode.</p>
+        </blockquote>
+        <p>Now fixed. The Wiki page now states:</p>
+        <blockquote>
+        <p>On exit, the C flag is clear iff R2 is 0 (and R1 holds the key code). If the C flag is set, R1 = R2 (27 or 255).</p>
+        </blockquote>]]>
       </description>
-      <source:markdown>Hi,
+      <source:markdown>&#62; C=unsuccessful – the carry must be set if R1 is not a keycode.
 
-I am having a problem with !Pacman (0.9.8) running on RISC OS 5.31 on RPCEmu 0.9.5. I don’t know if it is something I have done, but recently it has been coming up with a 404 error whenever I try to install anything. The menu option update lists works fine, so the program appears to be accessing the internet okay.
+Now fixed. The Wiki page now states:
 
-I feel that maybe something is corrupt and I need to reset the source settings in some way, but again if the update list option is okay maybe not. I have a lot of stuff already set up through !Pacman and would like to continue to keep these things updated via Pacman.
-
-Any suggestions would be appreciated.
-
-Cheers.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20391:163814</guid>
+&#62; On exit, the C flag is clear iff R2 is 0 (and R1 holds the key code). If the C flag is set, R1 = R2 (27 or 255).</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20386:163818</guid>
     </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <title>Risc OS Install on SSD</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20389</link>
       <description>
-        <![CDATA[<p>ShareFSServer just got also the server-side notifications working.</p>
-        <p>This means if an object is changed from the Server side (aka not from one of the <span class="caps">RISC</span> OS clients), RO clients still get the notification and can request an update (this is how ShareFS works).</p>
-        <p>ShareFSServer optimizes this using different features:</p>
-        <p>1. Notifications to clients are multi-threaded (so way faster than on a real <span class="caps">RISC</span> OS system)</p>
-        <p>2. They are also immediate, like on Samba and <span class="caps">SMB</span>, so when copying a large directory you&#8217;ll see it appearing on other clients too as it&#8217;s being copied</p>
-        <p>3. They are specific and not recursive, so basically the notification arrives only for the modified container and nothing else and only to the client that has it opened</p>
-        <p>4. They are configurable, in other words users have control over them</p>
-        <p>5. They work also for <span class="caps">SFTP</span>, <span class="caps">FTP</span> and <span class="caps">FTPS</span> in Native mode</p>
-        <p>6. They obviously work for all out-of-band re-shared protocols.</p>
-        <p>7. They can be used with special features (coming up soon) like SharedClipboard with is an embedded new backend that will allow me to create a new App for RO to share clipboard across multiple systems (included Linux, macOS, WIndows and <span class="caps">BSD</span>), not just other <span class="caps">RISC</span> OS systems.</p>
-        <p>Will try to finish testing all these changes and prepare a new build for later.</p>]]>
+        <![CDATA[<p>If you use the SD card to load the OS, you can &#8220;boot&#8221; from the <span class="caps">SSD</span> by using:<br />
+        <pre>*Configure filesystem scsi<br />
+        *configure scsifsdrive 4</pre></p>
+        <p>Then reboot.</p>
+        <p>The full process would be:</p>
+        <p>1) Make SD card using Pi imager, <span class="caps">ROOL</span> download or (recommended as more comprehensive) <span class="caps">RISC</span> OS Direct from <a href="http://www.riscosdev.com">www.riscosdev.com</a></p>
+        <p>2) Boot Pi400 from SD</p>
+        <p>3) Connect <span class="caps">USB</span> <span class="caps">SSD</span> and format using Utilities.Caution.!HForm software (<span class="caps">SCSI</span> drive 4 &#8211; accept defaults)</p>
+        <p>4) Copy everything except !Boot from SD card to newly formatted <span class="caps">SSD</span></p>
+        <p>5) Make a !Boot directory (Menu&#8594;New Directory) on <span class="caps">SSD</span></p>
+        <p>6) Hold Shift and double click the new !Boot.  Do same from !Boot on SD card</p>
+        <p>7) Copy everything <span class="caps">EXCEPT</span> &#8220;Loader&#8221; partition from SD card !Boot into the one on the <span class="caps">SSD</span>.</p>
+        <p>8) Press F12 (or Ctrl-F12) and do the commands I listed at the top of the post.</p>
+        <p>9) Reboot &#8211; computer should now run from <span class="caps">SSD</span>.</p>]]>
       </description>
-      <source:markdown>ShareFSServer just got also the server-side notifications working.
+      <source:markdown>If you use the SD card to load the OS, you can “boot” from the SSD by using:
 
-This means if an object is changed from the Server side (aka not from one of the RISC OS clients), RO clients still get the notification and can request an update (this is how ShareFS works).
+```
+*Configure filesystem scsi
 
-ShareFSServer optimizes this using different features:
+*configure scsifsdrive 4
+```
 
-1\. Notifications to clients are multi-threaded (so way faster than on a real RISC OS system)
+Then reboot.
 
-2\. They are also immediate, like on Samba and SMB, so when copying a large directory you’ll see it appearing on other clients too as it’s being copied
+The full process would be:
 
-3\. They are specific and not recursive, so basically the notification arrives only for the modified container and nothing else and only to the client that has it opened
+1) Make SD card using Pi imager, ROOL download or (recommended as more comprehensive) RISC OS Direct from [www.riscosdev.com](http://www.riscosdev.com)
 
-4\. They are configurable, in other words users have control over them
+2) Boot Pi400 from SD
 
-5\. They work also for SFTP, FTP and FTPS in Native mode
+3) Connect USBSSD and format using Utilities.Caution.!HForm software (SCSI drive 4 – accept defaults)
 
-6\. They obviously work for all out-of-band re-shared protocols.
+4) Copy everything except !Boot from SD card to newly formatted SSD
 
-7\. They can be used with special features (coming up soon) like SharedClipboard with is an embedded new backend that will allow me to create a new App for RO to share clipboard across multiple systems (included Linux, macOS, WIndows and BSD), not just other RISC OS systems.
+5) Make a !Boot directory (Menu→New Directory) on SSD
 
-Will try to finish testing all these changes and prepare a new build for later.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:163813</guid>
+6) Hold Shift and double click the new !Boot. Do same from !Boot on SD card
+
+7) Copy everything EXCEPT “Loader” partition from SD card !Boot into the one on the SSD.
+
+8) Press F12 (or Ctrl-F12) and do the commands I listed at the top of the post.
+
+9) Reboot – computer should now run from SSD.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20389:163817</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mkti4zf4322g</link>
       <description>
@@ -135,20 +433,6 @@ Will try to finish testing all these changes and prepare a new build for later.<
       </description>
       <source:markdown>#RISC\_OS #ShareFSServer just got also the server-side notifications working. This means if an object is changed from Server side (aka not from one of the RISC OS clients), RO clients still get the notification and can request an update (this is how ShareFS works). ShareFSServer optimizes this 👇</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mkti4zf4322g</guid>
-    </item>    <item>
-      <title>dead A7000 board</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20390</link>
-      <description>
-        <![CDATA[<p>Can anyone actually use this board <span class="caps">CJE</span> are selling for anything ?<br />
-        Dead. Acorn A7000+ Motherboard, Smoke Damage, Corrosion, Spares or Repair<br />
-        <a href="https://www.ebay.co.uk/itm/178095763615">https://www.ebay.co.uk/itm/178095763615</a></p>]]>
-      </description>
-      <source:markdown>Can anyone actually use this board CJE are selling for anything ?
-
-Dead. Acorn A7000+ Motherboard, Smoke Damage, Corrosion, Spares or Repair
-
-[https://www.ebay.co.uk/itm/178095763615](https://www.ebay.co.uk/itm/178095763615)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20390:163812</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mksplp5ev22e</link>
       <description>
@@ -170,37 +454,6 @@ There was a mention as well with regard to it causing issues on the Spectrum Nex
 
 See [https://youtu.be/GoNnP8EKns0?si=Pv2thF-Tb3pZwKwR](https://youtu.be/GoNnP8EKns0?si=Pv2thF-Tb3pZwKwR)</source:markdown>
       <guid>cid://www.riscosopen.org:5:20192:163807</guid>
-    </item>    <item>
-      <title>Risc OS Install on SSD</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20389</link>
-      <description>
-        <![CDATA[<p>Hello,</p>
-        <p>I would like to use Risc OS on my Pi400 using a 250GB <span class="caps">SSD</span> drive. I have heard of SystemDisc and do plan on buying it, for the sake of £15 I think it will be worth it.</p>
-        <p>Has anyone done this with a Pi400 before? I&#8217;m just a little unsure of the steps to take to get it working.</p>
-        <p>If anyone can help, it would be appreciated.</p>
-        <p>Kindest Regards,</p>
-        <p>Brett</p>]]>
-      </description>
-      <source:markdown>Hello,
-
-I would like to use Risc OS on my Pi400 using a 250GB SSD drive. I have heard of SystemDisc and do plan on buying it, for the sake of £15 I think it will be worth it.
-
-Has anyone done this with a Pi400 before? I’m just a little unsure of the steps to take to get it working.
-
-If anyone can help, it would be appreciated.
-
-Kindest Regards,
-
-Brett</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20389:163805</guid>
-    </item>    <item>
-      <title>Bug in Wimp01, OS_Byte 129, or documentation for the last</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20386</link>
-      <description>
-        <![CDATA[<p>Oh now will be interesting to see what can of worms this now opens lol</p>]]>
-      </description>
-      <source:markdown>Oh now will be interesting to see what can of worms this now opens lol</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20386:163804</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mksckutg7s2s</link>
       <description>
@@ -231,44 +484,6 @@ https://homekitnews.com/2026/04/30/sonoff-unveils-nspanel-pro-gen2-with-matter-d
       <source:markdown>https://youtu.be/JZjNHnYFqOA?si=bTosRfFxUeH5UdyM
 BBC Micro history.</source:markdown>
       <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mks7fckzo22k</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, (Tomorrow) Sunday 26th April at 1pm UK time</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20388</link>
-      <description>
-        <![CDATA[<p>This Sunday – 3rd May, at 1pm UK time – I&#8217;ll continue my live coding of the WindowManager sprite rendering system.</p>
-        <p>Last week we put the sprite rendering in, to allow us to see the sprites on the screen. This week, we&#8217;ll look at the handling of the<br />
-        colours &#8211; making the selected sprites and shaded sprites render properly.</p>
-        <p>Come along if you like – <a href="https://youtube.com/live/vEdsjIv32do?feature=share">https://youtube.com/live/vEdsjIv32do?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
-        <hr />
-        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
-        <p><a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_SpriteRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a> &#8211; shows the functionality we need<br />
-        to add.</p>
-        <hr />
-        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rEVIhNCY-bDeePa2i45bhtb">https://www.youtube.com/playlist?list=PLVVIu906Y7rEVIh…</a></p>
-        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimpspriterender.html">https://presentation.riscos.online/live/wimpspriterend…</a> (once it has been published).</p>]]>
-      </description>
-      <source:markdown>This Sunday – 3rd May, at 1pm UK time – I’ll continue my live coding of the WindowManager sprite rendering system.
-
-Last week we put the sprite rendering in, to allow us to see the sprites on the screen. This week, we’ll look at the handling of the
-
-colours – making the selected sprites and shaded sprites render properly.
-
-Come along if you like – [https://youtube.com/live/vEdsjIv32do?feature=share](https://youtube.com/live/vEdsjIv32do?feature=share) – or you can always watch the video afterwards at the same address.
-
-* * *
-
-For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
-
-[https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_SpriteRender) – shows the functionality we need
-
-to add.
-
-* * *
-
-If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rEVIh…](https://www.youtube.com/playlist?list=PLVVIu906Y7rEVIhNCY-bDeePa2i45bhtb)
-
-Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimpspriterend…](https://presentation.riscos.online/live/wimpspriterender.html) (once it has been published).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20388:163802</guid>
     </item>    <item>
       <title>RISC OS build service back</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20387</link>
