@@ -7,10 +7,150 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>03 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>04 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mkzzareyss27</link>
+      <description>
+        <![CDATA[#RISC_OS folks May the 4th be with you! Announcing a new Forth Compiler coming to RISC OS for this autumn (will be unveiled at the London Show this October, together with many other things). The cool bits are in the thread below 👇
+        #Forth #Fth #Compiler #Bytecode #Programming #SoftwareDevelopment]]>
+      </description>
+      <source:markdown>#RISC\_OS folks May the 4th be with you! Announcing a new Forth Compiler coming to RISC OS for this autumn (will be unveiled at the London Show this October, together with many other things). The cool bits are in the thread below 👇
+#Forth #Fth #Compiler #Bytecode #Programming #SoftwareDevelopment</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mkzzareyss27</guid>
+    </item>    <item>
+      <title>Audio on RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20323</link>
+      <description>
+        <![CDATA[<p>The ROSSDocument should be at: <a href="http://jcgl.orpheusweb.co.uk/temp/ROSSDocument.pdf">http://jcgl.orpheusweb.co.uk/temp/ROSSDocument.pdf</a></p>
+        <p>Same directory has a copy of PPMjcgl.zip</p>
+        <p>Alas, the ROSSDocument is now a decade old. In reality it is symultaneously &#8220;out of date&#8221; but also exposes where RO still remains lacking compared to <span class="caps">ALSA</span> on Linux. Never been able to get anyone to truly deal with this issue&#8230; although sound via <span class="caps">HDMI</span> is useful for AV, gettng &#8216;out of the box&#8217; HiRes audio a&#8217;la <span class="caps">ALSA</span> seems something no-one but me cares about.</p>]]>
+      </description>
+      <source:markdown>The ROSSDocument should be at: [http://jcgl.orpheusweb.co.uk/temp/ROSSDocument.pdf](http://jcgl.orpheusweb.co.uk/temp/ROSSDocument.pdf)
+
+Same directory has a copy of PPMjcgl.zip
+
+Alas, the ROSSDocument is now a decade old. In reality it is symultaneously “out of date” but also exposes where RO still remains lacking compared to ALSA on Linux. Never been able to get anyone to truly deal with this issue… although sound via HDMI is useful for AV, gettng ‘out of the box’ HiRes audio a’la ALSA seems something no-one but me cares about.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20323:163870</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mkzqlu2rm226</link>
+      <description>
+        <![CDATA[These are not tabloids I'm looking for.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>These are not tabloids I&#39;m looking for.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mkzqlu2rm226</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mkzpy32ncs26</link>
+      <description>
+        <![CDATA["Why does my vibe-coded app not do what I asked for?"
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>&#34;Why does my vibe-coded app not do what I asked for?&#34;
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mkzpy32ncs26</guid>
+    </item>    <item>
+      <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
+      <description>
+        <![CDATA[<p>The printer has been ordered &#8230;</p>]]>
+      </description>
+      <source:markdown>The printer has been ordered …</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20301:163862</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mkzmf7arxs25</link>
+      <description>
+        <![CDATA[A load of my old Amiga disks. These were freebies when I bought my A500 BITD - nothing worth archiving here!]]>
+      </description>
+      <source:markdown>A load of my old Amiga disks. These were freebies when I bought my A500 BITD - nothing worth archiving here!</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkzmf7arxs25</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mkzm7o4qzc25</link>
+      <description>
+        <![CDATA[Paul Proctor's BBC Micro 'Alien 8' development disks. Partially recovered - the source code is safe! Those Control Data and Wabash branded disks are terrible and fill me with dread each time I try to archive them! I shall try them again, but after a good cleaning!]]>
+      </description>
+      <source:markdown>Paul Proctor&#39;s BBC Micro &#39;Alien 8&#39; development disks. Partially recovered - the source code is safe! Those Control Data and Wabash branded disks are terrible and fill me with dread each time I try to archive them! I shall try them again, but after a good cleaning!</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkzm7o4qzc25</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mkz6x5ljn22v</link>
+      <description>
+        <![CDATA[WROCC May 2026 talk on Wednesday 
+        
+        https://www.iconbar.com/articles/WROCC_May_2026_talk_on_Wednesday/index2324.html 
+        
+        The May 2026 WROCC talk is on Wednesday 6th May and starts at 7.45pm on Zoom.]]>
+      </description>
+      <source:markdown>WROCC May 2026 talk on Wednesday
+
+https://www.iconbar.com/articles/WROCC\_May\_2026\_talk\_on\_Wednesday/index2324.html
+
+The May 2026 WROCC talk is on Wednesday 6th May and starts at 7.45pm on Zoom.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mkz6x5ljn22v</guid>
+    </item>    <item>
+      <title>Bug in Wimp01, OS_Byte 129, or documentation for the last</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20386</link>
+      <description>
+        <![CDATA[<p>You can still use the old &#8220;documented interface&#8221; without change, test R2 to see if there&#8217;s a timeout or escape press.</p>
+        <p>But, as you pointed out, if you intercept ByteV based just on that documentation (specifically returning R1 &lt;&gt; R2 on timeout or not setting C appropriately, you <strong>will</strong> break the Wimp and possibly other essential programs. That&#8217;s the &#8220;used interface&#8221; for this call.</p>
+        <p>Simply changing the documentation to match the used interface is not a failure, the code is not a bug, it&#8217;s just undocumented (or incompletely documented) behaviour.</p>
+        <p>My code now matches that behaviour, it&#8217;s a couple of lines of code, and I can move on.</p>]]>
+      </description>
+      <source:markdown>You can still use the old “documented interface” without change, test R2 to see if there’s a timeout or escape press.
+
+But, as you pointed out, if you intercept ByteV based just on that documentation (specifically returning R1 &#60;&#62; R2 on timeout or not setting C appropriately, you **will** break the Wimp and possibly other essential programs. That’s the “used interface” for this call.
+
+Simply changing the documentation to match the used interface is not a failure, the code is not a bug, it’s just undocumented (or incompletely documented) behaviour.
+
+My code now matches that behaviour, it’s a couple of lines of code, and I can move on.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20386:163849</guid>
+    </item>    <item>
+      <title>WROCC May 2026 talk on Wednesday</title>
+      <link>http://www.iconbar.com/comments/rss/news2324.html</link>
+      <description>
+        <![CDATA[The May 2026 WROCC talk is on Wednesday 6th May and starts at 7.45pm on Zoom. This month's speaker is Martin Eastwood]]>
+      </description>
+      <source:markdown>The May 2026 WROCC talk is on Wednesday 6th May and starts at 7.45pm on Zoom. This month&#39;s speaker is Martin Eastwood</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2324.html</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, (Tomorrow) Sunday 26th April at 1pm UK time</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20388</link>
+      <description>
+        <![CDATA[<p>Bit slow in the session today &#8211; although the tiling was added pretty quickly, the shading and selection of sprites took longer than I expected. Largely this was due to my simulation of the module private word being &#8230; poor.</p>
+        <p>But we got out some inverted selections and some faded shadings, so that&#8217;s pretty nice to see.</p>
+        <p>I had hoped that this would be the last session, but since we&#8217;ve not got things in the module and 64-bit isn&#8217;t tested, we will continue next week.</p>]]>
+      </description>
+      <source:markdown>Bit slow in the session today – although the tiling was added pretty quickly, the shading and selection of sprites took longer than I expected. Largely this was due to my simulation of the module private word being … poor.
+
+But we got out some inverted selections and some faded shadings, so that’s pretty nice to see.
+
+I had hoped that this would be the last session, but since we’ve not got things in the module and 64-bit isn’t tested, we will continue next week.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20388:163848</guid>
+    </item>    <item>
+      <title>Risc OS Install on SSD</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20389</link>
+      <description>
+        <![CDATA[<p>You <strong>may</strong> also want to <code>Unplug SDFSFiler</code> to hide the SD card&#8217;s icon. Keep <span class="caps">SDFS</span> itself running though or else <span class="caps">CMOS</span> updates won&#8217;t work.</p>
+        <p>This is from memory so hopefully I don&#8217;t have those around the wrong way :)</p>]]>
+      </description>
+      <source:markdown>You **may** also want to `Unplug SDFSFiler` to hide the SD card’s icon. Keep SDFS itself running though or else CMOS updates won’t work.
+
+This is from memory so hopefully I don’t have those around the wrong way :)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20389:163845</guid>
+    </item>    <item>
+      <title>Fonts for Iris</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20397</link>
+      <description>
+        <![CDATA[<p>Depends what you mean by download. The largest web font (<a href="https://en.wikipedia.org/wiki/Web_Open_Font_Format">https://en.wikipedia.org/wiki/Web_Open_Font_Format</a>) library I know of has nearly 2k fonts: <a href="https://fonts.google.com/">https://fonts.google.com/</a></p>]]>
+      </description>
+      <source:markdown>Depends what you mean by download. The largest web font ( [https://en.wikipedia.org/wiki/Web\_Open\_Font\_Format](https://en.wikipedia.org/wiki/Web_Open_Font_Format)) library I know of has nearly 2k fonts: [https://fonts.google.com/](https://fonts.google.com/)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20397:163843</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mkxqspoyo22e</link>
       <description>
         <![CDATA[If you fancy digging a little deeper into 6502, this companion video to the first episode of "Thinking in 6502" does just that! 😁
@@ -21,14 +161,6 @@
 youtu.be/LX20Te9RzP0
 https://youtu.be/LX20Te9RzP0</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mkxqspoyo22e</guid>
-    </item>    <item>
-      <title>Fonts for Iris</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20397</link>
-      <description>
-        <![CDATA[<p>Are there any other fonts floating around for !Iris to download on the web other than the ones on packman?</p>]]>
-      </description>
-      <source:markdown>Are there any other fonts floating around for !Iris to download on the web other than the ones on packman?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20397:163842</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mkxgrsnyf22k</link>
       <description>
@@ -43,14 +175,6 @@ https://youtu.be/LX20Te9RzP0</source:markdown>
       </description>
       <source:markdown>NES &#39;GLUG&#39; by Paul Proctor. This game was never completed or released. Recovered from Paul&#39;s old development disks and stitched together to make a ROM that would load into an emulator.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkx3bms6ls2k</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, (Tomorrow) Sunday 26th April at 1pm UK time</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20388</link>
-      <description>
-        <![CDATA[<p>Going live in about 30 minutes.</p>]]>
-      </description>
-      <source:markdown>Going live in about 30 minutes.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20388:163835</guid>
     </item>    <item>
       <title>!Pacman 404 error</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20391</link>
@@ -359,73 +483,6 @@ https://media.tenor.com/bueidMCNRzwAAAAC/smirk-smile.gif?hh=498&#38;ww=278</sour
 
 If, however, you decide that you want to use the direct invocation, the more reliable was to redirect is to use CLI redirection, not C redirection – because it’s not guaranteed that you’ll be using a C-based program. And you ought not to use PipeFS unless you can guarantee that the output that is being generated it smaller than your available space in the RMA – this is what your scrap directory is for.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20392:163819</guid>
-    </item>    <item>
-      <title>Bug in Wimp01, OS_Byte 129, or documentation for the last</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20386</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>C=unsuccessful – the carry must be set if R1 is not a keycode.</p>
-        </blockquote>
-        <p>Now fixed. The Wiki page now states:</p>
-        <blockquote>
-        <p>On exit, the C flag is clear iff R2 is 0 (and R1 holds the key code). If the C flag is set, R1 = R2 (27 or 255).</p>
-        </blockquote>]]>
-      </description>
-      <source:markdown>&#62; C=unsuccessful – the carry must be set if R1 is not a keycode.
-
-Now fixed. The Wiki page now states:
-
-&#62; On exit, the C flag is clear iff R2 is 0 (and R1 holds the key code). If the C flag is set, R1 = R2 (27 or 255).</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20386:163818</guid>
-    </item>    <item>
-      <title>Risc OS Install on SSD</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20389</link>
-      <description>
-        <![CDATA[<p>If you use the SD card to load the OS, you can &#8220;boot&#8221; from the <span class="caps">SSD</span> by using:<br />
-        <pre>*Configure filesystem scsi<br />
-        *configure scsifsdrive 4</pre></p>
-        <p>Then reboot.</p>
-        <p>The full process would be:</p>
-        <p>1) Make SD card using Pi imager, <span class="caps">ROOL</span> download or (recommended as more comprehensive) <span class="caps">RISC</span> OS Direct from <a href="http://www.riscosdev.com">www.riscosdev.com</a></p>
-        <p>2) Boot Pi400 from SD</p>
-        <p>3) Connect <span class="caps">USB</span> <span class="caps">SSD</span> and format using Utilities.Caution.!HForm software (<span class="caps">SCSI</span> drive 4 &#8211; accept defaults)</p>
-        <p>4) Copy everything except !Boot from SD card to newly formatted <span class="caps">SSD</span></p>
-        <p>5) Make a !Boot directory (Menu&#8594;New Directory) on <span class="caps">SSD</span></p>
-        <p>6) Hold Shift and double click the new !Boot.  Do same from !Boot on SD card</p>
-        <p>7) Copy everything <span class="caps">EXCEPT</span> &#8220;Loader&#8221; partition from SD card !Boot into the one on the <span class="caps">SSD</span>.</p>
-        <p>8) Press F12 (or Ctrl-F12) and do the commands I listed at the top of the post.</p>
-        <p>9) Reboot &#8211; computer should now run from <span class="caps">SSD</span>.</p>]]>
-      </description>
-      <source:markdown>If you use the SD card to load the OS, you can “boot” from the SSD by using:
-
-```
-*Configure filesystem scsi
-
-*configure scsifsdrive 4
-```
-
-Then reboot.
-
-The full process would be:
-
-1) Make SD card using Pi imager, ROOL download or (recommended as more comprehensive) RISC OS Direct from [www.riscosdev.com](http://www.riscosdev.com)
-
-2) Boot Pi400 from SD
-
-3) Connect USBSSD and format using Utilities.Caution.!HForm software (SCSI drive 4 – accept defaults)
-
-4) Copy everything except !Boot from SD card to newly formatted SSD
-
-5) Make a !Boot directory (Menu→New Directory) on SSD
-
-6) Hold Shift and double click the new !Boot. Do same from !Boot on SD card
-
-7) Copy everything EXCEPT “Loader” partition from SD card !Boot into the one on the SSD.
-
-8) Press F12 (or Ctrl-F12) and do the commands I listed at the top of the post.
-
-9) Reboot – computer should now run from SSD.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20389:163817</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mkti4zf4322g</link>
       <description>
@@ -936,17 +993,6 @@ https://youtu.be/MOEmQ79nA38</source:markdown>
       <source:markdown>Initially released at the RISC OS North show last month, the latest title from AMCOG Games has now been made more widely available. Silver River Kingdom can now be purchased via !Store, priced at £14.99. Anyone who purchased the game at the show can – and should, to ensure they have the most up to date version – download the game free of charge from !Store, by using the download code found in the packaging; just input the code in the “Special instructions, promo code, etc.” field in the application.…</source:markdown>
       <guid>cid://https://www.riscository.com/?p=10940</guid>
     </item>    <item>
-      <title>R-Comp launch MailPrint (inc CloudPrint mode) at RISC OS North</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20301</link>
-      <description>
-        <![CDATA[<p>Sorry Andrew that lead to even more confusion&#8230; lets just buy the printer en find out in real life ;-)<br />
-        Thanks for the fallow up!</p>]]>
-      </description>
-      <source:markdown>Sorry Andrew that lead to even more confusion… lets just buy the printer en find out in real life ;-)
-
-Thanks for the fallow up!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20301:163707</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mkfhdkfq6k2t</link>
       <description>
         <![CDATA[It's that typical Sunday morning when you decide to wash the car and the neighbours turn up to see what you're up to.
@@ -1031,33 +1077,6 @@ https://chiptune.app/browse</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkds4uz66s25</guid>
-    </item>    <item>
-      <title>Audio on RISC OS</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20323</link>
-      <description>
-        <![CDATA[<p>@Jim<br />
-        I missed your post.</p>
-        bq. I did write an alternative ‘visualiser’ that acts as PPMs to go with !DigitalCD. Also an ‘off desktop’ full source and capture app that analyses the results for audio test purposes.
-        
-        I&#8217;m interested, I&#8217;ve already used your <span class="caps">PPM</span> in the Oscilloscope project built with Colin. but it was for a signal from a <span class="caps">USB</span> device.
-        <p>I would like to know how to interface it with an internal sound. <br />
-        On the other hand, I did not find your Ross document on your site&#8230;</p>
-        <p>For information, I worked in audio visual, and I confirm the 48K standard called <span class="caps">AES</span> <span class="caps">EBU</span>, widely used in control rooms, for example in Studer mixdesks</p>]]>
-      </description>
-      <source:markdown>@Jim
-
-I missed your post.
-
-bq. I did write an alternative ‘visualiser’ that acts as PPMs to go with !DigitalCD. Also an ‘off desktop’ full source and capture app that analyses the results for audio test purposes.
-
-I’m interested, I’ve already used your PPM in the Oscilloscope project built with Colin. but it was for a signal from a USB device.
-
-I would like to know how to interface it with an internal sound.
-
-On the other hand, I did not find your Ross document on your site…
-
-For information, I worked in audio visual, and I confirm the 48K standard called AESEBU, widely used in control rooms, for example in Studer mixdesks</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20323:163678</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mkaom6a3mc2b</link>
       <description>
