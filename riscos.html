@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.23b" >
-  <meta name="date" content="2026-05-04T12:00:31-07:00" >
+  <meta content="2026-05-05T12:00:26-07:00" name="date" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -19,6 +19,132 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-05-05T16:00:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ml4kmh5djs2g">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-05-05)
+      <p>
+      <p>A very short video I took at the end of 'FurbyFest' held at Manchester University in 2024 to celebrate the work of Professor Steve Furber following his retirement. If you look closely you can see several key Acorn/ARM colleagues. Seated is the immensely important computing pioneer, Ivan Sutherland.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ml4kmh5djs2g">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ml4kmh5djs2g</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-05T12:13:00Z" data-link="https://bsky.app/profile/givvygavvygoo.bsky.social/post/3ml45xfevtc2b">
+      <h1>@givvygavvygoo.bsky.social</h1>
+
+(date: 2026-05-05)
+      <p>
+      <p>This will mean absolutely nothing to everyone else, but it's something I've been working on (on &amp; off) since August 2024, and I'm so glad it's now working.</p>
+<p>Total number of people who will find this useful? Probably 1 (me), and yet I've gone to a lot of effort making this a plug-in. Why?</p>
+<p>#RISC_OS</p>
+
+      <address>
+        <a href="https://bsky.app/profile/givvygavvygoo.bsky.social/post/3ml45xfevtc2b">https://bsky.app/profile/givvygavvygoo.bsky.social/post/3ml45xfevtc2b</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-05T08:37:18Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20400">
+      <h1>PDrivers.</h1>
+
+(date: 2026-05-05)
+      <p>
+      <p><a href="https://github.com/pwombwell/PDrivers">https://github.com/pwombwell/PDrivers</a></p>
+<p>It’s definitely still work in progress, but it generates identical PS output to Acorn’s driver on the limited subset of pages I’ve tested with (mostly just !Draw). It compiles in Norcroft C++, but every file also compiles in clang++ so I assume it could run on any 64bit RO – I have a capture backend module that generates files that are then replayed on the Mac which then generates PDF, PS or DP, so I know at least the generating side of each module runs correctly on 64-bit hosts (under Asan).</p>
+<p>I’ve converted the PDriverDP backend too, but it’s much more messy and totally untested. And I have (slightly messy) a direct-to PDF backend that works with the base set of fonts. I started off with PDF, but realised the easiest way to get the drivers going was to make the PS driver match Acorn’s identically. I’ll put them on GitHub when they’re a bit more reasonable.</p>
+<p>RLib, RLibX and ROLib (and Core/OS.cpp) will all merge into RLib. They were intended to be different layers of a SWI wrappers, but I’ve decided it’s too confusing. My current (untested) idea is to break down <code>swis.h</code> into each module, then inline type-safe wrappers. Then you get decent C++ type safety but with inline <code>_swix</code>. (this is where I got the XMLPRM idea that gerph had already worked on). <code>MyError</code> is simply so I can search &amp; replace it when I’ve settled on my favourite API for errors. I’m veering towards exceptions.</p>
+<p>And I need to migrate more comments from the ARM as it’s actually really nicely commented.</p>
+<p>They’re not expected to be tested by anyone yet (it creates a huge file in <code>$.DEBUG</code>), but feel free to criticise or suggest improvements. I’ve strictly maintained the <code>Device.s</code>/ <code>Device.h</code> separation, which I’m not at all keen on as it forces the objects to have an ugly break back into C.</p>
+<p>I suppose the biggest objection that most will have is that it’s C++. Pfft. I quit C 20 years ago.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/13/topics/20400">https://www.riscosopen.org/forum/forums/13/topics/20400</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-05T06:53:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3ml3m36pyhc2u">
+      <h1>@iconbar.com</h1>
+
+(date: 2026-05-05)
+      <p>
+      <p>ShareFSServer 0.4.0 released</p>
+<p><a href="https://www.iconbar.com/articles/ShareFSServer">https://www.iconbar.com/articles/ShareFSServer</a>_0.4.0_released/index2331.html</p>
+<p>Recently Paolo released version 0.4.0 of his free ShareFSServer software.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3ml3m36pyhc2u">https://bsky.app/profile/iconbar.com/post/3ml3m36pyhc2u</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-05T06:43:00Z" data-link="http://www.iconbar.com/comments/rss/news2331.html">
+      <h1>ShareFSServer 0.4.0 released</h1>
+
+(date: 2026-05-05, updated: 2026-04-07)
+      <p>
+      <p>Recently Paolo released version 0.4.0 of his free ShareFSServer software.</p>
+
+      <address>
+        <a href="http://www.iconbar.com/comments/rss/news2331.html">http://www.iconbar.com/comments/rss/news2331.html</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-05T02:46:34Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20399">
+      <h1>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</h1>
+
+(date: 2026-05-05)
+      <p>
+      <p>The next meeting of the RISC OS User Group Of London is:</p>
+<p><strong>ARX and the Acorn Palo Alto Research Centre</strong>, presented by Jim Mitchell</p>
+<p><strong>Monday 18th May 2026, 7.45pm</strong></p>
+<p>The Duke of Sussex</p>
+<p>(upstairs in the Petworth Room from 6.30pm)</p>
+<p>23 Baylis Road, London, SE1 7AY</p>
+<p><a href="http://www.rougol.jellybaby.net/venue.html">http://www.rougol.jellybaby.net/venue.html</a></p>
+<p>Also online via Zoom from 7.30pm</p>
+<p><a href="https://rougol.jellybaby.net/meetings/">https://rougol.jellybaby.net/meetings/</a></p>
+<p>For our May meeting Acorn alumni Jim Mitchell will be Zooming in from his home in California. Jim managed the ARM development team and was head of the Acorn Research Centre in Palo Alto. This was where <a href="https://en.wikipedia.org/wiki/ARX_(operating_system)">ARX</a> , the originally planned multitasking, multithreaded, multiuser operating system for the Archimedes was being developed.</p>
+<p>Very little has ever been heard about what happened there and how far ARX was developed, <a href="https://rougol.jellybaby.net/meetings/2012/PaulFellows/index.html#arxdemo">except from their RISC OS rivals</a> , so this is a unique chance to find out all about it from the person in charge. We are also hoping to be joined by several other members of the development team to help answer questions.</p>
+<p>While Jim will mainly be talking about his time at Acorn, before that he worked for 12 years at the legendary <a href="https://en.wikipedia.org/wiki/Xerox_Parc">Xerox PARC</a> where ethernet, laser printers, file sharing, the WIMP paradigm, and many more computing concepts we now take for granted were first developed. Later he worked for Sun and was responsible for the development of Java. Read his <a href="https://en.wikipedia.org/wiki/James_G._Mitchell">biography on Wikipedia</a></p>
+<p>He has had an amazing career and we are very excited to have him joining us :-)</p>
+<p>Our venue is right next to Waterloo Station and there is parking directly outside. Directions here – <a href="https://rougol.jellybaby.net/venue.html">https://rougol.jellybaby.net/venue.html</a></p>
+<p>For any queries or to receive the Zoom link (same as previous months) contact us – <a href="https://rougol.jellybaby.net/contacts/">https://rougol.jellybaby.net/contacts/</a></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20399">https://www.riscosopen.org/forum/forums/1/topics/20399</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-04T22:03:18Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20398">
+      <h1>ARMbook (Pinebook 11.6) without battery</h1>
+
+(date: 2026-05-04)
+      <p>
+      <p>My ARMbook (Pinebook 11.6) battery is EOL and there are no official instructions from Pine how to run it with battery removed (there are official instructions for Pinebook Pro only).</p>
+<p>Has anyone tried to run it without battery?</p>
+<p>It was suggested to replace the battery by a simulation circuit, so the firmware will start with only the USB 5V charger connected:</p>
+<p>HY2113 VDD &gt; Zener Diode (BZX84C4V3) &gt; HY2113 VSS (GND)</p>
+<p>HY2113 Battery (+) &gt; Rseries 10kOhm &gt; HY2113 VDD</p>
+<p>HY2113 Battery (-) &gt; HY2113 VSS (GND) (this is connected anyway)</p>
+<p>But why should this be necessary, the HY2113 has no communication bus, so how can the firmware refuse to start with battery removed and USB 5V charger connected?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20398">https://www.riscosopen.org/forum/forums/11/topics/20398</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-04T16:41:35Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20389">
+      <h1>Risc OS Install on SSD</h1>
+
+(date: 2026-05-04)
+      <p>
+      <p>A big advantage of this technique is that you can keep a completely unmodified disc image of the version of RISC OS you are using on the SD card to switch to with a *configure if you run in to problems with anything you’ve installed on to your customised !BOOT on the SSD.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20389">https://www.riscosopen.org/forum/forums/11/topics/20389</a>
+      </address>
+    </article>
 
     <article data-published="2026-05-04T15:44:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mkzzareyss27">
       <h1>@paolofabiozaino.bsky.social</h1>
@@ -44,6 +170,27 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/5/topics/20323">https://www.riscosopen.org/forum/forums/5/topics/20323</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-04T13:15:40Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20386">
+      <h1>Bug in Wimp01, OS_Byte 129, or documentation for the last</h1>
+
+(date: 2026-05-04)
+      <p>
+      <blockquote>
+<p>ByteV is part of the API, and not explaining what’s expected of claimants by very important subsystems (the Wimp!) is not helpful.</p>
+</blockquote>
+<p>I haven’t suggested you don’t explain what’s expected by the Wimp. However, I did give an example where another API documents (in source code) a ‘bodge’ because of (the Wimp!)’s incorrect usage.</p>
+<p>The docs are now no longer inconsistent, but it now reads that the Wimp’s incorrect usage is correct and all other callers are wrong. It’s now very explicit that you should check the C flag, when that’s unnecessary (and a pain, in C).</p>
+<blockquote>
+<p>What’s the difference between saying you’re going to break clients if you don’t do this and documenting you should do it?</p>
+</blockquote>
+<p>I’ve no problem with it being documented as relied on behaviour. Though, the Wimp can be fixed easily these days – it was in ROM when the code was written – and then the problem goes away. No one will run a new Wimp on an old kernel, or vice-versa.</p>
+<p>However, I have a problem when an API’s documentation is inverted because of one piece of code calling it incorrectly – especially when it was defined to be undefined and the undefined value gives you nothing that the defined value doesn’t.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/4/topics/20386">https://www.riscosopen.org/forum/forums/4/topics/20386</a>
       </address>
     </article>
 
@@ -109,6 +256,18 @@
       </address>
     </article>
 
+    <article data-published="2026-05-04T10:52:29Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20397">
+      <h1>Fonts for Iris</h1>
+
+(date: 2026-05-04)
+      <p>
+      <p>Yes I did all that, I even reinstalled it and tried on another machine, its not picking up any other font, its a strange one. Unlike Netsurf it just uses the Standard !Fonts</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20397">https://www.riscosopen.org/forum/forums/5/topics/20397</a>
+      </address>
+    </article>
+
     <article data-published="2026-05-04T07:53:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3mkz6x5ljn22v">
       <h1>@iconbar.com</h1>
 
@@ -123,25 +282,10 @@
       </address>
     </article>
 
-    <article data-published="2026-05-04T05:41:58Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20386">
-      <h1>Bug in Wimp01, OS_Byte 129, or documentation for the last</h1>
-
-(date: 2026-05-04)
-      <p>
-      <p>You can still use the old “documented interface” without change, test R2 to see if there’s a timeout or escape press.</p>
-<p>But, as you pointed out, if you intercept ByteV based just on that documentation (specifically returning R1 &lt;&gt; R2 on timeout or not setting C appropriately, you <strong>will</strong> break the Wimp and possibly other essential programs. That’s the “used interface” for this call.</p>
-<p>Simply changing the documentation to match the used interface is not a failure, the code is not a bug, it’s just undocumented (or incompletely documented) behaviour.</p>
-<p>My code now matches that behaviour, it’s a couple of lines of code, and I can move on.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/4/topics/20386">https://www.riscosopen.org/forum/forums/4/topics/20386</a>
-      </address>
-    </article>
-
     <article data-published="2026-05-04T05:20:00Z" data-link="http://www.iconbar.com/comments/rss/news2324.html">
       <h1>WROCC May 2026 talk on Wednesday</h1>
 
-(date: 2026-05-04, updated: 2026-04-01)
+(date: 2026-05-04, updated: 2026-04-07)
       <p>
       <p>The May 2026 WROCC talk is on Wednesday 6th May and starts at 7.45pm on Zoom. This month's speaker is Martin Eastwood</p>
 
@@ -161,31 +305,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20388">https://www.riscosopen.org/forum/forums/1/topics/20388</a>
-      </address>
-    </article>
-
-    <article data-published="2026-05-03T21:00:50Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20389">
-      <h1>Risc OS Install on SSD</h1>
-
-(date: 2026-05-03)
-      <p>
-      <p>You <strong>may</strong> also want to <code>Unplug SDFSFiler</code> to hide the SD card’s icon. Keep SDFS itself running though or else CMOS updates won’t work.</p>
-<p>This is from memory so hopefully I don’t have those around the wrong way :)</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20389">https://www.riscosopen.org/forum/forums/11/topics/20389</a>
-      </address>
-    </article>
-
-    <article data-published="2026-05-03T19:58:51Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20397">
-      <h1>Fonts for Iris</h1>
-
-(date: 2026-05-03)
-      <p>
-      <p>Depends what you mean by download. The largest web font ( <a href="https://en.wikipedia.org/wiki/Web_Open_Font_Format">https://en.wikipedia.org/wiki/Web_Open_Font_Format</a>) library I know of has nearly 2k fonts: <a href="https://fonts.google.com/">https://fonts.google.com/</a></p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20397">https://www.riscosopen.org/forum/forums/5/topics/20397</a>
       </address>
     </article>
 
@@ -663,7 +782,7 @@ As long, that is, as you're equipped with a RemLok survival mask.<a href="http:/
     <article data-published="2026-04-30T10:08:00Z" data-link="http://www.iconbar.com/comments/rss/news2320.html">
       <h1>April 2026 News Summary</h1>
 
-(date: 2026-04-30, updated: 2026-04-01)
+(date: 2026-04-30, updated: 2026-04-07)
       <p>
       <p>Some things we noticed this month. What did you see?</p>
 
@@ -849,7 +968,7 @@ As long, that is, as you're equipped with a RemLok survival mask.<a href="http:/
     <article data-published="2026-04-28T05:10:00Z" data-link="http://www.iconbar.com/comments/rss/news2327.html">
       <h1>Iris updated to release 1.39</h1>
 
-(date: 2026-04-28, updated: 2026-04-01)
+(date: 2026-04-28, updated: 2026-04-07)
       <p>
       <p>The Iris web browser has been updated to version 1.39</p>
 
@@ -1297,7 +1416,7 @@ A forest? But somewhere temperate of course?
     <article data-published="2026-04-23T05:44:00Z" data-link="http://www.iconbar.com/comments/rss/news2318.html">
       <h1>Fireside developer chat on saturday night</h1>
 
-(date: 2026-04-23, updated: 2026-04-01)
+(date: 2026-04-23, updated: 2026-04-07)
       <p>
       <p>There is another developer chat is on saturday night (25th April) for anyone interested in a very informal event online aimed at RISC OS developers of all levels.</p>
 
@@ -1411,7 +1530,7 @@ elite.bbcelite.com</p>
     <article data-published="2026-04-21T06:36:00Z" data-link="http://www.iconbar.com/comments/rss/news2326.html">
       <h1>ROUGOL April 2026 meeting - Paolo Fabio Zaino</h1>
 
-(date: 2026-04-21, updated: 2026-04-01)
+(date: 2026-04-21, updated: 2026-04-07)
       <p>
       <p>Rougols's April speaker was Paolo Fabio Zaino, introducing his new Theme Manager</p>
 
@@ -1810,7 +1929,7 @@ elite.bbcelite.com</p>
     <article data-published="2026-04-17T16:09:00Z" data-link="http://www.iconbar.com/comments/rss/news2312.html">
       <h1>Rougol April 2026 meeting on monday - Desktop themes</h1>
 
-(date: 2026-04-17, updated: 2026-04-01)
+(date: 2026-04-17, updated: 2026-04-07)
       <p>
       <p>The April 2026 Rougol meeting is on Monday and brings together current desktop theme developments</p>
 
@@ -2053,7 +2172,7 @@ elite.bbcelite.com</p>
     <article data-published="2026-04-14T06:44:00Z" data-link="http://www.iconbar.com/comments/rss/news2323.html">
       <h1>Drag'n'Drop 15i2 edition reviewed</h1>
 
-(date: 2026-04-14, updated: 2026-04-01)
+(date: 2026-04-14, updated: 2026-04-07)
       <p>
       <p>The latest edition of Drag'n'Drop magazine was released at the RISC OS North Show where Drag'n'drop were also exhibitors.</p>
 
@@ -2466,7 +2585,7 @@ PRINT &quot;JUnit XML written successfully&quot;
     <article data-published="2026-04-09T05:12:00Z" data-link="http://www.iconbar.com/comments/rss/news2322.html">
       <h1>Archive Edition 28:02 reviewed</h1>
 
-(date: 2026-04-09, updated: 2026-04-01)
+(date: 2026-04-09, updated: 2026-04-07)
       <p>
       <p>Archive Magazine 28:02 was released for the North West Show and subscribers should have received your copy in the post recently</p>
 
@@ -2694,7 +2813,7 @@ images.nasa.gov<a href="https://images.nasa.gov/">https://images.nasa.gov/</a></
     <article data-published="2026-04-07T06:00:00Z" data-link="http://www.iconbar.com/comments/rss/news2321.html">
       <h1>RISC OS Git client reaches release 0.12</h1>
 
-(date: 2026-04-07, updated: 2026-04-01)
+(date: 2026-04-07)
       <p>
       <p>ROOL continues to make progress on its mission to bring modern source control to RISC OS with the release of 0.12 of the Git client</p>
 

@@ -7,10 +7,165 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>04 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>05 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ml4kmh5djs2g</link>
+      <description>
+        <![CDATA[A very short video I took at the end of 'FurbyFest' held at Manchester University in 2024 to celebrate the work of Professor Steve Furber following his retirement. If you look closely you can see several key Acorn/ARM colleagues. Seated is the immensely important computing pioneer, Ivan Sutherland.]]>
+      </description>
+      <source:markdown>A very short video I took at the end of &#39;FurbyFest&#39; held at Manchester University in 2024 to celebrate the work of Professor Steve Furber following his retirement. If you look closely you can see several key Acorn/ARM colleagues. Seated is the immensely important computing pioneer, Ivan Sutherland.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3ml4kmh5djs2g</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3ml45xfevtc2b</link>
+      <description>
+        <![CDATA[This will mean absolutely nothing to everyone else, but it's something I've been working on (on & off) since August 2024, and I'm so glad it's now working.
+        
+        Total number of people who will find this useful? Probably 1 (me), and yet I've gone to a lot of effort making this a plug-in. Why?
+        
+        #RISC_OS]]>
+      </description>
+      <source:markdown>This will mean absolutely nothing to everyone else, but it&#39;s something I&#39;ve been working on (on &#38; off) since August 2024, and I&#39;m so glad it&#39;s now working.
+
+Total number of people who will find this useful? Probably 1 (me), and yet I&#39;ve gone to a lot of effort making this a plug-in. Why?
+
+#RISC\_OS</source:markdown>
+      <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3ml45xfevtc2b</guid>
+    </item>    <item>
+      <title>PDrivers.</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20400</link>
+      <description>
+        <![CDATA[<p><a href="https://github.com/pwombwell/PDrivers">https://github.com/pwombwell/PDrivers</a></p>
+        <p>It&#8217;s definitely still work in progress, but it generates identical PS output to Acorn&#8217;s driver on the limited subset of pages I&#8217;ve tested with (mostly just !Draw). It compiles in Norcroft C++, but every file also compiles in clang++ so I assume it could run on any 64bit RO &#8211; I have a capture backend module that generates files that are then replayed on the Mac which then generates <span class="caps">PDF</span>, PS or DP, so I know at least the generating side of each module runs correctly on 64-bit hosts (under Asan).</p>
+        <p>I&#8217;ve converted the PDriverDP backend too, but it&#8217;s much more messy and totally untested. And I have (slightly messy) a direct-to <span class="caps">PDF</span> backend that works with the base set of fonts. I started off with <span class="caps">PDF</span>, but realised the easiest way to get the drivers going was to make the PS driver match Acorn&#8217;s identically. I&#8217;ll put them on GitHub when they&#8217;re a bit more reasonable.</p>
+        <p>RLib, RLibX and ROLib (and Core/OS.cpp) will all merge into RLib. They were intended to be different layers of a <span class="caps">SWI</span> wrappers, but I&#8217;ve decided it&#8217;s too confusing. My current (untested) idea is to break down <code>swis.h</code> into each module, then inline type-safe wrappers. Then you get decent C++ type safety but with inline <code>_swix</code>. (this is where I got the <span class="caps">XML</span> <span class="caps">PRM</span> idea that gerph had already worked on). <code>MyError</code> is simply so I can search &amp; replace it when I&#8217;ve settled on my favourite <span class="caps">API</span> for errors. I&#8217;m veering towards exceptions.</p>
+        <p>And I need to migrate more comments from the <span class="caps">ARM</span> as it&#8217;s actually really nicely commented.</p>
+        <p>They&#8217;re not expected to be tested by anyone yet (it creates a huge file in <code>$.DEBUG</code>), but feel free to criticise or suggest improvements. I&#8217;ve strictly maintained the <code>Device.s</code>/<code>Device.h</code> separation, which I&#8217;m not at all keen on as it forces the objects to have an ugly break back into C.</p>
+        <p>I suppose the biggest objection that most will have is that it&#8217;s C++. Pfft. I quit C 20 years ago.</p>]]>
+      </description>
+      <source:markdown>[https://github.com/pwombwell/PDrivers](https://github.com/pwombwell/PDrivers)
+
+It’s definitely still work in progress, but it generates identical PS output to Acorn’s driver on the limited subset of pages I’ve tested with (mostly just !Draw). It compiles in Norcroft C++, but every file also compiles in clang++ so I assume it could run on any 64bit RO – I have a capture backend module that generates files that are then replayed on the Mac which then generates PDF, PS or DP, so I know at least the generating side of each module runs correctly on 64-bit hosts (under Asan).
+
+I’ve converted the PDriverDP backend too, but it’s much more messy and totally untested. And I have (slightly messy) a direct-to PDF backend that works with the base set of fonts. I started off with PDF, but realised the easiest way to get the drivers going was to make the PS driver match Acorn’s identically. I’ll put them on GitHub when they’re a bit more reasonable.
+
+RLib, RLibX and ROLib (and Core/OS.cpp) will all merge into RLib. They were intended to be different layers of a SWI wrappers, but I’ve decided it’s too confusing. My current (untested) idea is to break down `swis.h` into each module, then inline type-safe wrappers. Then you get decent C++ type safety but with inline `_swix`. (this is where I got the XMLPRM idea that gerph had already worked on). `MyError` is simply so I can search &#38; replace it when I’ve settled on my favourite API for errors. I’m veering towards exceptions.
+
+And I need to migrate more comments from the ARM as it’s actually really nicely commented.
+
+They’re not expected to be tested by anyone yet (it creates a huge file in `$.DEBUG`), but feel free to criticise or suggest improvements. I’ve strictly maintained the `Device.s`/ `Device.h` separation, which I’m not at all keen on as it forces the objects to have an ugly break back into C.
+
+I suppose the biggest objection that most will have is that it’s C++. Pfft. I quit C 20 years ago.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20400:163879</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3ml3m36pyhc2u</link>
+      <description>
+        <![CDATA[ShareFSServer 0.4.0 released 
+        
+        https://www.iconbar.com/articles/ShareFSServer_0.4.0_released/index2331.html 
+        
+        Recently Paolo released version 0.4.0 of his free ShareFSServer software.]]>
+      </description>
+      <source:markdown>ShareFSServer 0.4.0 released
+
+https://www.iconbar.com/articles/ShareFSServer\_0.4.0\_released/index2331.html
+
+Recently Paolo released version 0.4.0 of his free ShareFSServer software.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3ml3m36pyhc2u</guid>
+    </item>    <item>
+      <title>ShareFSServer 0.4.0 released</title>
+      <link>http://www.iconbar.com/comments/rss/news2331.html</link>
+      <description>
+        <![CDATA[Recently Paolo released version 0.4.0 of his free ShareFSServer software.]]>
+      </description>
+      <source:markdown>Recently Paolo released version 0.4.0 of his free ShareFSServer software.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2331.html</guid>
+    </item>    <item>
+      <title>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20399</link>
+      <description>
+        <![CDATA[<p>The next meeting of the <span class="caps">RISC</span> OS User Group Of London is:</p>
+        <p><strong><span class="caps">ARX</span> and the Acorn Palo Alto Research Centre</strong>, presented by Jim Mitchell</p>
+        <p><strong>Monday 18th May 2026, 7.45pm</strong></p>
+        <p>The Duke of Sussex<br />
+        (upstairs in the Petworth Room from 6.30pm)<br />
+        23 Baylis Road, London, SE1 7AY<br />
+        <a href="http://www.rougol.jellybaby.net/venue.html">http://www.rougol.jellybaby.net/venue.html</a></p>
+        <p>Also online via Zoom from 7.30pm</p>
+        <p><a href="https://rougol.jellybaby.net/meetings/">https://rougol.jellybaby.net/meetings/</a></p>
+        <p>For our May meeting Acorn alumni Jim Mitchell will be Zooming in from his home in California. Jim managed the <span class="caps">ARM</span> development team and was head of the Acorn Research Centre in Palo Alto. This was where <a href="https://en.wikipedia.org/wiki/ARX_(operating_system)"><span class="caps">ARX</span></a> , the originally planned multitasking, multithreaded, multiuser operating system for the Archimedes was being developed.</p>
+        <p>Very little has ever been heard about what happened there and how far <span class="caps">ARX</span> was developed, <a href="https://rougol.jellybaby.net/meetings/2012/PaulFellows/index.html#arxdemo">except from their <span class="caps">RISC</span> OS rivals</a> , so this is a unique chance to find out all about it from the person in charge. We are also hoping to be joined by several other members of the development team to help answer questions.</p>
+        <p>While Jim will mainly be talking about his time at Acorn, before that he worked for 12 years at the legendary <a href="https://en.wikipedia.org/wiki/Xerox_Parc">Xerox <span class="caps">PARC</span></a> where ethernet, laser printers, file sharing, the <span class="caps">WIMP</span> paradigm, and many more computing concepts we now take for granted were first developed. Later he worked for Sun and was responsible for the development of Java. Read his <a href="https://en.wikipedia.org/wiki/James_G._Mitchell">biography on Wikipedia</a></p>
+        <p>He has had an amazing career and we are very excited to have him joining us :-)</p>
+        <p>Our venue is right next to Waterloo Station and there is parking directly outside. Directions here &#8211; <a href="https://rougol.jellybaby.net/venue.html">https://rougol.jellybaby.net/venue.html</a></p>
+        <p>For any queries or to receive the Zoom link (same as previous months) contact us &#8211; <a href="https://rougol.jellybaby.net/contacts/">https://rougol.jellybaby.net/contacts/</a></p>]]>
+      </description>
+      <source:markdown>The next meeting of the RISC OS User Group Of London is:
+
+**ARX and the Acorn Palo Alto Research Centre**, presented by Jim Mitchell
+
+**Monday 18th May 2026, 7.45pm**
+
+The Duke of Sussex
+
+(upstairs in the Petworth Room from 6.30pm)
+
+23 Baylis Road, London, SE1 7AY
+
+[http://www.rougol.jellybaby.net/venue.html](http://www.rougol.jellybaby.net/venue.html)
+
+Also online via Zoom from 7.30pm
+
+[https://rougol.jellybaby.net/meetings/](https://rougol.jellybaby.net/meetings/)
+
+For our May meeting Acorn alumni Jim Mitchell will be Zooming in from his home in California. Jim managed the ARM development team and was head of the Acorn Research Centre in Palo Alto. This was where [ARX](https://en.wikipedia.org/wiki/ARX_(operating_system)) , the originally planned multitasking, multithreaded, multiuser operating system for the Archimedes was being developed.
+
+Very little has ever been heard about what happened there and how far ARX was developed, [except from their RISC OS rivals](https://rougol.jellybaby.net/meetings/2012/PaulFellows/index.html#arxdemo) , so this is a unique chance to find out all about it from the person in charge. We are also hoping to be joined by several other members of the development team to help answer questions.
+
+While Jim will mainly be talking about his time at Acorn, before that he worked for 12 years at the legendary [Xerox PARC](https://en.wikipedia.org/wiki/Xerox_Parc) where ethernet, laser printers, file sharing, the WIMP paradigm, and many more computing concepts we now take for granted were first developed. Later he worked for Sun and was responsible for the development of Java. Read his [biography on Wikipedia](https://en.wikipedia.org/wiki/James_G._Mitchell)
+
+He has had an amazing career and we are very excited to have him joining us :-)
+
+Our venue is right next to Waterloo Station and there is parking directly outside. Directions here – [https://rougol.jellybaby.net/venue.html](https://rougol.jellybaby.net/venue.html)
+
+For any queries or to receive the Zoom link (same as previous months) contact us – [https://rougol.jellybaby.net/contacts/](https://rougol.jellybaby.net/contacts/)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20399:163876</guid>
+    </item>    <item>
+      <title>ARMbook (Pinebook 11.6) without battery</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20398</link>
+      <description>
+        <![CDATA[<p>My ARMbook (Pinebook 11.6) battery is <span class="caps">EOL</span> and there are no official instructions from Pine how to run it with battery removed (there are official instructions for Pinebook Pro only).</p>
+        <p>Has anyone tried to run it without battery?</p>
+        <p>It was suggested to replace the battery by a simulation circuit, so the firmware will start with only the <span class="caps">USB</span> 5V charger connected:</p>
+        <p>HY2113 <span class="caps">VDD</span> &gt; Zener Diode (BZX84C4V3) &gt; HY2113 <span class="caps">VSS</span> (<span class="caps">GND</span>)<br />
+        HY2113 Battery (+) &gt; Rseries 10kOhm &gt; HY2113 <span class="caps">VDD</span><br />
+        HY2113 Battery (-) &gt; HY2113 <span class="caps">VSS</span> (<span class="caps">GND</span>) (this is connected anyway)</p>
+        <p>But why should this be necessary, the HY2113 has no communication bus, so how can the firmware refuse to start with battery removed and <span class="caps">USB</span> 5V charger connected?</p>]]>
+      </description>
+      <source:markdown>My ARMbook (Pinebook 11.6) battery is EOL and there are no official instructions from Pine how to run it with battery removed (there are official instructions for Pinebook Pro only).
+
+Has anyone tried to run it without battery?
+
+It was suggested to replace the battery by a simulation circuit, so the firmware will start with only the USB 5V charger connected:
+
+HY2113 VDD \&#62; Zener Diode (BZX84C4V3) &#62; HY2113 VSS (GND)
+
+HY2113 Battery (+) &#62; Rseries 10kOhm &#62; HY2113 VDD
+
+HY2113 Battery (-) &#62; HY2113 VSS (GND) (this is connected anyway)
+
+But why should this be necessary, the HY2113 has no communication bus, so how can the firmware refuse to start with battery removed and USB 5V charger connected?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20398:163873</guid>
+    </item>    <item>
+      <title>Risc OS Install on SSD</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20389</link>
+      <description>
+        <![CDATA[<p>A big advantage of this technique is that you can keep a completely unmodified disc image of the version of <span class="caps">RISC</span> OS you are using on the SD card to switch to with a *configure if you run in to problems with anything you&#8217;ve installed on to your customised !<span class="caps">BOOT</span> on the <span class="caps">SSD</span>.</p>]]>
+      </description>
+      <source:markdown>A big advantage of this technique is that you can keep a completely unmodified disc image of the version of RISC OS you are using on the SD card to switch to with a \*configure if you run in to problems with anything you’ve installed on to your customised !BOOT on the SSD.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20389:163871</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mkzzareyss27</link>
       <description>
         <![CDATA[#RISC_OS folks May the 4th be with you! Announcing a new Forth Compiler coming to RISC OS for this autumn (will be unveiled at the London Show this October, together with many other things). The cool bits are in the thread below 👇
@@ -33,6 +188,33 @@ Same directory has a copy of PPMjcgl.zip
 
 Alas, the ROSSDocument is now a decade old. In reality it is symultaneously “out of date” but also exposes where RO still remains lacking compared to ALSA on Linux. Never been able to get anyone to truly deal with this issue… although sound via HDMI is useful for AV, gettng ‘out of the box’ HiRes audio a’la ALSA seems something no-one but me cares about.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20323:163870</guid>
+    </item>    <item>
+      <title>Bug in Wimp01, OS_Byte 129, or documentation for the last</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20386</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>ByteV is part of the <span class="caps">API</span>, and not explaining what’s expected of claimants by very important subsystems (the Wimp!) is not helpful.</p>
+        </blockquote>
+        <p>I haven&#8217;t suggested you don&#8217;t explain what&#8217;s expected by the Wimp. However, I did give an example where another <span class="caps">API</span> documents (in source code) a &#8216;bodge&#8217; because of (the Wimp!)&#8217;s incorrect usage.</p>
+        <p>The docs are now no longer inconsistent, but it now reads that the Wimp&#8217;s incorrect usage is correct and all other callers are wrong. It&#8217;s now very explicit that you should check the C flag, when that&#8217;s unnecessary (and a pain, in C).</p>
+        <blockquote>
+        <p>What’s the difference between saying you’re going to break clients if you don’t do this and documenting you should do it?</p>
+        </blockquote>
+        <p>I&#8217;ve no problem with it being documented as relied on behaviour. Though, the Wimp can be fixed easily these days &#8211; it was in <span class="caps">ROM</span> when the code was written &#8211; and then the problem goes away. No one will run a new Wimp on an old kernel, or vice-versa.</p>
+        <p>However, I have a problem when an API&#8217;s documentation is inverted because of one piece of code calling it incorrectly &#8211; especially when it was defined to be undefined and the undefined value gives you nothing that the defined value doesn&#8217;t.</p>]]>
+      </description>
+      <source:markdown>&#62; ByteV is part of the API, and not explaining what’s expected of claimants by very important subsystems (the Wimp!) is not helpful.
+
+I haven’t suggested you don’t explain what’s expected by the Wimp. However, I did give an example where another API documents (in source code) a ‘bodge’ because of (the Wimp!)’s incorrect usage.
+
+The docs are now no longer inconsistent, but it now reads that the Wimp’s incorrect usage is correct and all other callers are wrong. It’s now very explicit that you should check the C flag, when that’s unnecessary (and a pain, in C).
+
+&#62; What’s the difference between saying you’re going to break clients if you don’t do this and documenting you should do it?
+
+I’ve no problem with it being documented as relied on behaviour. Though, the Wimp can be fixed easily these days – it was in ROM when the code was written – and then the problem goes away. No one will run a new Wimp on an old kernel, or vice-versa.
+
+However, I have a problem when an API’s documentation is inverted because of one piece of code calling it incorrectly – especially when it was defined to be undefined and the undefined value gives you nothing that the defined value doesn’t.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20386:163864</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mkzqlu2rm226</link>
       <description>
@@ -78,6 +260,14 @@ Alas, the ROSSDocument is now a decade old. In reality it is symultaneously “o
       <source:markdown>Paul Proctor&#39;s BBC Micro &#39;Alien 8&#39; development disks. Partially recovered - the source code is safe! Those Control Data and Wabash branded disks are terrible and fill me with dread each time I try to archive them! I shall try them again, but after a good cleaning!</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkzm7o4qzc25</guid>
     </item>    <item>
+      <title>Fonts for Iris</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20397</link>
+      <description>
+        <![CDATA[<p>Yes I did all that, I even reinstalled it and tried on another machine, its not picking up any other font, its a strange one. Unlike Netsurf it just uses the Standard !Fonts</p>]]>
+      </description>
+      <source:markdown>Yes I did all that, I even reinstalled it and tried on another machine, its not picking up any other font, its a strange one. Unlike Netsurf it just uses the Standard !Fonts</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20397:163861</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mkz6x5ljn22v</link>
       <description>
         <![CDATA[WROCC May 2026 talk on Wednesday 
@@ -92,23 +282,6 @@ https://www.iconbar.com/articles/WROCC\_May\_2026\_talk\_on\_Wednesday/index2324
 
 The May 2026 WROCC talk is on Wednesday 6th May and starts at 7.45pm on Zoom.</source:markdown>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mkz6x5ljn22v</guid>
-    </item>    <item>
-      <title>Bug in Wimp01, OS_Byte 129, or documentation for the last</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20386</link>
-      <description>
-        <![CDATA[<p>You can still use the old &#8220;documented interface&#8221; without change, test R2 to see if there&#8217;s a timeout or escape press.</p>
-        <p>But, as you pointed out, if you intercept ByteV based just on that documentation (specifically returning R1 &lt;&gt; R2 on timeout or not setting C appropriately, you <strong>will</strong> break the Wimp and possibly other essential programs. That&#8217;s the &#8220;used interface&#8221; for this call.</p>
-        <p>Simply changing the documentation to match the used interface is not a failure, the code is not a bug, it&#8217;s just undocumented (or incompletely documented) behaviour.</p>
-        <p>My code now matches that behaviour, it&#8217;s a couple of lines of code, and I can move on.</p>]]>
-      </description>
-      <source:markdown>You can still use the old “documented interface” without change, test R2 to see if there’s a timeout or escape press.
-
-But, as you pointed out, if you intercept ByteV based just on that documentation (specifically returning R1 &#60;&#62; R2 on timeout or not setting C appropriately, you **will** break the Wimp and possibly other essential programs. That’s the “used interface” for this call.
-
-Simply changing the documentation to match the used interface is not a failure, the code is not a bug, it’s just undocumented (or incompletely documented) behaviour.
-
-My code now matches that behaviour, it’s a couple of lines of code, and I can move on.</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20386:163849</guid>
     </item>    <item>
       <title>WROCC May 2026 talk on Wednesday</title>
       <link>http://www.iconbar.com/comments/rss/news2324.html</link>
@@ -131,25 +304,6 @@ But we got out some inverted selections and some faded shadings, so that’s pre
 
 I had hoped that this would be the last session, but since we’ve not got things in the module and 64-bit isn’t tested, we will continue next week.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20388:163848</guid>
-    </item>    <item>
-      <title>Risc OS Install on SSD</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20389</link>
-      <description>
-        <![CDATA[<p>You <strong>may</strong> also want to <code>Unplug SDFSFiler</code> to hide the SD card&#8217;s icon. Keep <span class="caps">SDFS</span> itself running though or else <span class="caps">CMOS</span> updates won&#8217;t work.</p>
-        <p>This is from memory so hopefully I don&#8217;t have those around the wrong way :)</p>]]>
-      </description>
-      <source:markdown>You **may** also want to `Unplug SDFSFiler` to hide the SD card’s icon. Keep SDFS itself running though or else CMOS updates won’t work.
-
-This is from memory so hopefully I don’t have those around the wrong way :)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20389:163845</guid>
-    </item>    <item>
-      <title>Fonts for Iris</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20397</link>
-      <description>
-        <![CDATA[<p>Depends what you mean by download. The largest web font (<a href="https://en.wikipedia.org/wiki/Web_Open_Font_Format">https://en.wikipedia.org/wiki/Web_Open_Font_Format</a>) library I know of has nearly 2k fonts: <a href="https://fonts.google.com/">https://fonts.google.com/</a></p>]]>
-      </description>
-      <source:markdown>Depends what you mean by download. The largest web font ( [https://en.wikipedia.org/wiki/Web\_Open\_Font\_Format](https://en.wikipedia.org/wiki/Web_Open_Font_Format)) library I know of has nearly 2k fonts: [https://fonts.google.com/](https://fonts.google.com/)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20397:163843</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mkxqspoyo22e</link>
       <description>
