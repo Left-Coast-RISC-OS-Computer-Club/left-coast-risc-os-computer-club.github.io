@@ -7,10 +7,106 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>05 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>06 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3ml6za6ppos2f</link>
+      <description>
+        <![CDATA[Surreal question of the day... "we don't want to follow your team's best practice, we want to do it [this] way instead. Can you recommend the best practice for doing it [this] way?"
+        
+        You want our team to give you the best practice for not following our team's best practice?
+        https://static.klipy.com/ii/925f17378dd1893b674a723c07535afe/4a/44/IW1WaDHw.gif?hh=483&ww=498&mp4=IYx0zXco&webm=Z8G19vOhrdZCrS]]>
+      </description>
+      <source:markdown>Surreal question of the day... &#34;we don&#39;t want to follow your team&#39;s best practice, we want to do it \[this\] way instead. Can you recommend the best practice for doing it \[this\] way?&#34;
+
+You want our team to give you the best practice for not following our team&#39;s best practice?
+https://static.klipy.com/ii/925f17378dd1893b674a723c07535afe/4a/44/IW1WaDHw.gif?hh=483&#38;ww=498&#38;mp4=IYx0zXco&#38;webm=Z8G19vOhrdZCrS</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3ml6za6ppos2f</guid>
+    </item>    <item>
+      <title>ShareFSServer 0.4.0 released</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13593&#38;page=1#125890</link>
+      <description>
+        <![CDATA[Thanks, Garry.]]>
+      </description>
+      <source:markdown>Thanks, Garry.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13593&#38;page=1#125890</guid>
+    </item>    <item>
+      <title>Refreshing the RISC OS desktop</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20395</link>
+      <description>
+        <![CDATA[<p>Tonight at 7.45pm :)</p>]]>
+      </description>
+      <source:markdown>Tonight at 7.45pm :)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20395:163892</guid>
+    </item>    <item>
+      <title>ShareFSServer 0.4.0 released</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13593&#38;page=1#125889</link>
+      <description>
+        <![CDATA[This is one of those things that could get me using RISC OS regularly again. Being able to just mix and match when I use RISC OS and something else, sharing files, it's a big deal. I can use FTP, but network drives are so much more convenient.]]>
+      </description>
+      <source:markdown>This is one of those things that could get me using RISC OS regularly again. Being able to just mix and match when I use RISC OS and something else, sharing files, it&#39;s a big deal. I can use FTP, but network drives are so much more convenient.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13593&#38;page=1#125889</guid>
+    </item>    <item>
+      <title>Continental RISC OS eXperience</title>
+      <link>https://www.riscosopen.org/news/articles/2026/05/05/continental-risc-os-experience</link>
+      <description>
+        <![CDATA[<p>Fill your bowl with an all-you-can-eat continental breakfast of all things <span class="caps">RISC</span> OS at the Big Ben Club&#8217;s annual day.</p>
+        <p>The show is on the 9th May from 10am to 4pm and is located in Koog aan de Zaan. It&#8217;s <a href="https://www.bigbenclub.nl/rox/info/">easy to reach</a> being only a short distance north of Amsterdam by car, public transport, or even by bicycle.</p>
+        <p><img src="/images/risc_os_open/shows/rox2026banner.png" title="Banner logo" alt="Banner logo" /></p>
+        <p>Visitors can also use the shared tables to show off their own setups to one another.</p>]]>
+      </description>
+      <source:markdown>Fill your bowl with an all-you-can-eat continental breakfast of all things RISC OS at the Big Ben Club’s annual day.
+
+The show is on the 9th May from 10am to 4pm and is located in Koog aan de Zaan. It’s [easy to reach](https://www.bigbenclub.nl/rox/info/) being only a short distance north of Amsterdam by car, public transport, or even by bicycle.
+
+![Banner logo](/images/risc_os_open/shows/rox2026banner.png)
+
+Visitors can also use the shared tables to show off their own setups to one another.</source:markdown>
+      <guid>cid://urn:uuid:81709a28-c0c9-480d-bedb-1f9b77d48765</guid>
+    </item>    <item>
+      <title>AcornSSL with server support</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19132</link>
+      <description>
+        <![CDATA[<p>Something worrying has just happened.  I&#8217;ve restarted work to bring my server and IPv6 support to AcornSSL based on a more modern version of mbedTLS.  I didn&#8217;t test it with existing apps until I&#8217;d made the first addition.  When I did, using FTPc, it didn&#8217;t work &#8211; I couldn&#8217;t access beyond the root directory of my website.  So I built AcornSSL from unmodified HardDisc4 sources.  Tht failed in exactly the same way.</p>
+        <p>I went back through the pre-built versions of AcornSSL on my hard drive (I have collected several), and none of them based on mbedTLS 3 works with FTPc.  The last one I have that works is 1.07 (29 Jan 2024) mbedTLS 2.28.2.</p>
+        <p>The <span class="caps">API</span> shouldn&#8217;t have changed, so I can&#8217;t see any reason why FTPc shouldn&#8217;t work correctly with all recent versions of mbedTLS.</p>
+        <p>I&#8217;d appreciate if anyone else can try the same tests and tell me if it works for you.</p>
+        <p>I&#8217;d like to test operation with some other apps, but the only ones I can think of are AntiSpam and Newshound, and if they experience a malfunction, my mail and news directories might be in jeopardy &#8211; these are important to me.</p>
+        <p>What other apps are out there that would test AcornSSL?</p>
+        <p>(The little test apps for <span class="caps">FTP</span> and <span class="caps">HTTP</span> that come with the AcornSSL source code work fine, but they are rather simpler than a &#8220;proper&#8221; <span class="caps">FTP</span> session.)</p>]]>
+      </description>
+      <source:markdown>Something worrying has just happened. I’ve restarted work to bring my server and IPv6 support to AcornSSL based on a more modern version of mbedTLS. I didn’t test it with existing apps until I’d made the first addition. When I did, using FTPc, it didn’t work – I couldn’t access beyond the root directory of my website. So I built AcornSSL from unmodified HardDisc4 sources. Tht failed in exactly the same way.
+
+I went back through the pre-built versions of AcornSSL on my hard drive (I have collected several), and none of them based on mbedTLS 3 works with FTPc. The last one I have that works is 1.07 (29 Jan 2024) mbedTLS 2.28.2.
+
+The API shouldn’t have changed, so I can’t see any reason why FTPc shouldn’t work correctly with all recent versions of mbedTLS.
+
+I’d appreciate if anyone else can try the same tests and tell me if it works for you.
+
+I’d like to test operation with some other apps, but the only ones I can think of are AntiSpam and Newshound, and if they experience a malfunction, my mail and news directories might be in jeopardy – these are important to me.
+
+What other apps are out there that would test AcornSSL?
+
+(The little test apps for FTP and HTTP that come with the AcornSSL source code work fine, but they are rather simpler than a “proper” FTP session.)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:19132:163889</guid>
+    </item>    <item>
+      <title>Bug in Wimp01, OS_Byte 129, or documentation for the last</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20386</link>
+      <description>
+        <![CDATA[<p>Well, it&#8217;s updated, it&#8217;s accurate, and the interface is essentially obsolete anyway, so I&#8217;m done.</p>
+        <blockquote>
+        <p>Don’t forget that the documentation is a wiki, which can be edited</p>
+        </blockquote>
+        <p>:)</p>]]>
+      </description>
+      <source:markdown>Well, it’s updated, it’s accurate, and the interface is essentially obsolete anyway, so I’m done.
+
+&#62; Don’t forget that the documentation is a wiki, which can be edited
+
+:)</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20386:163886</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ml4kmh5djs2g</link>
       <description>
         <![CDATA[A very short video I took at the end of 'FurbyFest' held at Manchester University in 2024 to celebrate the work of Professor Steve Furber following his retirement. If you look closely you can see several key Acorn/ARM colleagues. Seated is the immensely important computing pioneer, Ivan Sutherland.]]>
@@ -189,32 +285,16 @@ Same directory has a copy of PPMjcgl.zip
 Alas, the ROSSDocument is now a decade old. In reality it is symultaneously “out of date” but also exposes where RO still remains lacking compared to ALSA on Linux. Never been able to get anyone to truly deal with this issue… although sound via HDMI is useful for AV, gettng ‘out of the box’ HiRes audio a’la ALSA seems something no-one but me cares about.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20323:163870</guid>
     </item>    <item>
-      <title>Bug in Wimp01, OS_Byte 129, or documentation for the last</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20386</link>
+      <title>Fonts for Iris</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20397</link>
       <description>
-        <![CDATA[<blockquote>
-        <p>ByteV is part of the <span class="caps">API</span>, and not explaining what’s expected of claimants by very important subsystems (the Wimp!) is not helpful.</p>
-        </blockquote>
-        <p>I haven&#8217;t suggested you don&#8217;t explain what&#8217;s expected by the Wimp. However, I did give an example where another <span class="caps">API</span> documents (in source code) a &#8216;bodge&#8217; because of (the Wimp!)&#8217;s incorrect usage.</p>
-        <p>The docs are now no longer inconsistent, but it now reads that the Wimp&#8217;s incorrect usage is correct and all other callers are wrong. It&#8217;s now very explicit that you should check the C flag, when that&#8217;s unnecessary (and a pain, in C).</p>
-        <blockquote>
-        <p>What’s the difference between saying you’re going to break clients if you don’t do this and documenting you should do it?</p>
-        </blockquote>
-        <p>I&#8217;ve no problem with it being documented as relied on behaviour. Though, the Wimp can be fixed easily these days &#8211; it was in <span class="caps">ROM</span> when the code was written &#8211; and then the problem goes away. No one will run a new Wimp on an old kernel, or vice-versa.</p>
-        <p>However, I have a problem when an API&#8217;s documentation is inverted because of one piece of code calling it incorrectly &#8211; especially when it was defined to be undefined and the undefined value gives you nothing that the defined value doesn&#8217;t.</p>]]>
+        <![CDATA[<p>yep thats done it, thanks David!</p>
+        <p><span class="caps">EDIT</span>: i ran the cache elf and its recreated my cache.</p>]]>
       </description>
-      <source:markdown>&#62; ByteV is part of the API, and not explaining what’s expected of claimants by very important subsystems (the Wimp!) is not helpful.
+      <source:markdown>yep thats done it, thanks David!
 
-I haven’t suggested you don’t explain what’s expected by the Wimp. However, I did give an example where another API documents (in source code) a ‘bodge’ because of (the Wimp!)’s incorrect usage.
-
-The docs are now no longer inconsistent, but it now reads that the Wimp’s incorrect usage is correct and all other callers are wrong. It’s now very explicit that you should check the C flag, when that’s unnecessary (and a pain, in C).
-
-&#62; What’s the difference between saying you’re going to break clients if you don’t do this and documenting you should do it?
-
-I’ve no problem with it being documented as relied on behaviour. Though, the Wimp can be fixed easily these days – it was in ROM when the code was written – and then the problem goes away. No one will run a new Wimp on an old kernel, or vice-versa.
-
-However, I have a problem when an API’s documentation is inverted because of one piece of code calling it incorrectly – especially when it was defined to be undefined and the undefined value gives you nothing that the defined value doesn’t.</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20386:163864</guid>
+EDIT: i ran the cache elf and its recreated my cache.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20397:163868</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mkzqlu2rm226</link>
       <description>
@@ -259,14 +339,6 @@ However, I have a problem when an API’s documentation is inverted because of o
       </description>
       <source:markdown>Paul Proctor&#39;s BBC Micro &#39;Alien 8&#39; development disks. Partially recovered - the source code is safe! Those Control Data and Wabash branded disks are terrible and fill me with dread each time I try to archive them! I shall try them again, but after a good cleaning!</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkzm7o4qzc25</guid>
-    </item>    <item>
-      <title>Fonts for Iris</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20397</link>
-      <description>
-        <![CDATA[<p>Yes I did all that, I even reinstalled it and tried on another machine, its not picking up any other font, its a strange one. Unlike Netsurf it just uses the Standard !Fonts</p>]]>
-      </description>
-      <source:markdown>Yes I did all that, I even reinstalled it and tried on another machine, its not picking up any other font, its a strange one. Unlike Netsurf it just uses the Standard !Fonts</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20397:163861</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mkz6x5ljn22v</link>
       <description>
@@ -347,44 +419,6 @@ Cheers.</source:markdown>
       </description>
       <source:markdown>Howard Cheng, Software Manager at SGI, posted this job advert asking for people to join the team that were working on the Nintendo 64 console. He later went on to join Nintendo and became vice president of research and development amongst other senior roles during his time there.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mkwyowxnik25</guid>
-    </item>    <item>
-      <title>Refreshing the RISC OS desktop</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20395</link>
-      <description>
-        <![CDATA[<p><img src="https://images2.imgbox.com/0a/60/8y1LhjsT_o.jpg" alt="" /></p>
-        <p><strong><span class="caps">WROCC</span> <span class="caps">TALK</span> 6th May 2026 7.45pm</strong></p>
-        <p>I will be talking about Frosted &amp; Upcoming Dark Mode and Other Theme Projects, a look at bringing a modern visual style to the <span class="caps">RISC</span> OS desktop whilst keeping the speed, simplicity, and personality we all love &#8211; plus how I got into <span class="caps">RISC</span> OS and wanting to do this.</p>
-        <p>This talk explores the ideas behind the Frosted and Obsidian themes, including:</p>
-        <p>Modernising the <span class="caps">RISC</span> OS look without losing its identity<br />
-        Light vs dark design approaches<br />
-        Alpha Sprites and subtle UI polish<br />
-        Icon updates and desktop consistency</p>
-        <p><a href="https://www.wrocc.org.uk/meetings">https://www.wrocc.org.uk/meetings</a></p>
-        <p>What’s possible with theming today and what comes next with the Window Manager’s 5.89 upcoming features.</p>
-        <p>Whether you are a long term <span class="caps">RISC</span> OS user, theme designer, or just curious about refreshing the desktop, this session will show how small visual changes can make a big difference &#8211; clean, modern-ish, yet Still very much <span class="caps">RISC</span> OS!</p>]]>
-      </description>
-      <source:markdown>![](https://images2.imgbox.com/0a/60/8y1LhjsT_o.jpg)
-
-**WROCCTALK 6th May 2026 7.45pm**
-
-I will be talking about Frosted &#38; Upcoming Dark Mode and Other Theme Projects, a look at bringing a modern visual style to the RISC OS desktop whilst keeping the speed, simplicity, and personality we all love – plus how I got into RISC OS and wanting to do this.
-
-This talk explores the ideas behind the Frosted and Obsidian themes, including:
-
-Modernising the RISC OS look without losing its identity
-
-Light vs dark design approaches
-
-Alpha Sprites and subtle UI polish
-
-Icon updates and desktop consistency
-
-[https://www.wrocc.org.uk/meetings](https://www.wrocc.org.uk/meetings)
-
-What’s possible with theming today and what comes next with the Window Manager’s 5.89 upcoming features.
-
-Whether you are a long term RISC OS user, theme designer, or just curious about refreshing the desktop, this session will show how small visual changes can make a big difference – clean, modern-ish, yet Still very much RISC OS!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20395:163833</guid>
     </item>    <item>
       <title>Mini 64-bit update</title>
       <link>https://www.riscosopen.org/forum/forums/13/topics/20394</link>
