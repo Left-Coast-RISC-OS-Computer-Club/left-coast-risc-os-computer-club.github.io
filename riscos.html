@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.23b" >
-  <meta name="date" content="2026-05-06T12:00:25-07:00" >
+  <meta content="2026-05-07T12:00:24-07:00" name="date" >
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
@@ -19,6 +19,114 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-05-07T18:38:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mlbuelcxc22f">
+      <h1>@nemo20000.bsky.social</h1>
+
+(date: 2026-05-07)
+      <p>
+      <p>Do not store secrets in RAM even if it's meant to be private RAM.</p>
+<p>RISC OS users: Windows doesn't have Wimp_TransferBlock for reading the entire memory of any task, and it's still bad. Don't run browsers in RO!<a href="https://www.techspot.com/news/112310-microsoft-edge-stores-all-saved-passwords-unencrypted-memory.html">https://www.techspot.com/news/112310-microsoft-edge-stores-all-saved-passwords-unencrypted-memory.html</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mlbuelcxc22f">https://bsky.app/profile/nemo20000.bsky.social/post/3mlbuelcxc22f</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-07T14:28:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlbgghbhg22a">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-05-07)
+      <p>
+      <p>Luna has voted.
+#DogsAtPollingStations</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlbgghbhg22a">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlbgghbhg22a</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-07T14:04:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlbf3pbvzs2a">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-05-07)
+      <p>
+      <p>Laser Disc Players didn't sell as well as the industry would have hoped. You get upto 30 minutes play for 'active play' discs and upto 1 hour for 'Long Play' discs. Rather annoying having to flip or swap out a disc part way through a film. They weren't cheap either. DVDs came along and solved this.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlbf3pbvzs2a">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlbf3pbvzs2a</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-07T13:52:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlbegihyhs26">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-05-07)
+      <p>
+      <p>Another recent acquisition, 'Television Graphics'. A fascinating book about the history and people behind the computer graphics we have seen on TV during the last 40+ years. One that @dexterstechlab.bsky.social would enjoy - plenty of Quantel references in this book!</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlbegihyhs26">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlbegihyhs26</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-07T13:37:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mlbdk5v3tk2e">
+      <h1>@colinhoad.com</h1>
+
+(date: 2026-05-07)
+      <p>
+      <p>Without stating your age post your favourite film released the year you turned 18.</p>
+<p>Went to see it three times... bloody brilliant, still is.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mlbdk5v3tk2e">https://bsky.app/profile/colinhoad.com/post/3mlbdk5v3tk2e</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-07T10:33:07Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20277">
+      <h1>Obey alias - *Set if not already set?</h1>
+
+(date: 2026-05-07)
+      <p>
+      <p>I’ve done a slightly different fix:</p>
+<pre><code>-Set Alias$Set If &quot;&lt;%%0&gt;&quot; = &quot;&quot; then %Set %*0
++|PP: fixed &lt;%%0&gt; =&gt; |&lt;%0&gt;, see PRMv1c24 &quot;CLI: Aliases&quot;
++Set Alias$Set If &quot;|&lt;%%0&gt;&quot; = &quot;&quot; then %Set %%*0
+</code></pre>
+<p>PRM Volume 1 Chapter 24 ( <a href="http://www.riscos.com/support/developers/prm/cli.html">http://www.riscos.com/support/developers/prm/cli.html</a>) has the key:</p>
+<blockquote>
+<p>Another example using the parameter substitution is: <code>*Set Alias$Mode Echo |&lt;22&gt;|&lt;%0&gt;</code></p>
+<p>The ‘ <code>|</code>’s before the angle brackets are to stop them from being evaluated when the <code>*Set</code> command is entered. Typing <code>*Mode n</code> will then set the display to mode ‘ <code>n</code>’.</p>
+</blockquote>
+<p>This works on RISC OS 3.1, which is my main target for this project (an Inmos Iserver port).</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20277">https://www.riscosopen.org/forum/forums/11/topics/20277</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-06T21:14:22Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20401">
+      <h1>Live Coding with Gerph, Sunday 10th May at 1pm UK time</h1>
+
+(date: 2026-05-06)
+      <p>
+      <p>This Sunday – 10th May, at 1pm UK time – I’ll continue my live coding of the WindowManager sprite rendering system.</p>
+<p>Last week we put the sprite rendering in with some very simple shading and selection</p>
+<p>colours. However, the selection algorithm used was pretty ugly, and we don’t work in 64-bit. Plus we’re not in a module yet. So we’ll attack these this week.</p>
+<p>Hopefully, this is the last part of this series and we can move on to icon rendering.</p>
+<p>Come along if you like – <a href="https://www.youtube.com/live/1NRj4KpM-NQ?feature=share">https://www.youtube.com/live/1NRj4KpM-NQ?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
+<hr>
+<p>For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.</p>
+<p><a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_SpriteRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a> – shows the functionality we need to add.</p>
+<hr>
+<p>If you want to watch the whole series, you can follow it through the playlist on YouTube – <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rEVIhNCY-bDeePa2i45bhtb">https://www.youtube.com/playlist?list=PLVVIu906Y7rEVIh…</a></p>
+<p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimpspriterender.html">https://presentation.riscos.online/live/wimpspriterend…</a> (once it has been published).</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20401">https://www.riscosopen.org/forum/forums/1/topics/20401</a>
+      </address>
+    </article>
 
     <article data-published="2026-05-06T15:27:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3ml6za6ppos2f">
       <h1>@colinhoad.com</h1>
@@ -102,6 +210,18 @@
       </address>
     </article>
 
+    <article data-published="2026-05-05T17:11:27Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20399">
+      <h1>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</h1>
+
+(date: 2026-05-05)
+      <p>
+      <p>really looking forward for this talk :)</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20399">https://www.riscosopen.org/forum/forums/1/topics/20399</a>
+      </address>
+    </article>
+
     <article data-published="2026-05-05T16:48:34Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20386">
       <h1>Bug in Wimp01, OS_Byte 129, or documentation for the last</h1>
 
@@ -118,6 +238,22 @@
       </address>
     </article>
 
+    <article data-published="2026-05-05T16:21:35Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20323">
+      <h1>Audio on RISC OS</h1>
+
+(date: 2026-05-05)
+      <p>
+      <p>The ROSS Document was written about the time HDMI access was appearing for RO.</p>
+<p>ALSA is nice for acurate flexibiity of audio control in general. It can do more than simply let you specify the chosen device(s) for input and/or output.</p>
+<p>The problem with the bodges used by RO-based developers was the way 48k &lt;→ 44.1k was poorly done for one design. The clock used to run nailed to 48k. 44.1k replay simply had ‘duplicated samples’ to pad up from 44.1k to 48k! Bonkers. Whereas ALSA can do good rate-change outpu, etc.</p>
+<p>FWIW I’d like to see my PPMs working on a modern RO setup. Ideally, for any choice of output device/method, not just HDMI.</p>
+<p>If people haven’t noticed, I did write a simple ‘test bench’ prog that can output a signal series of sample and ‘symultaneously’ capture the resulting input from a device under test, displaying the analysed results. But this relies on a basis provided by programmers cleverer than me, and I can only use it on my ARMX6 IIUC. Works up to high rate, though.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20323">https://www.riscosopen.org/forum/forums/5/topics/20323</a>
+      </address>
+    </article>
+
     <article data-published="2026-05-05T16:00:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ml4kmh5djs2g">
       <h1>@kevedwardsretro.bsky.social</h1>
 
@@ -127,6 +263,24 @@
 
       <address>
         <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ml4kmh5djs2g">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ml4kmh5djs2g</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-05T15:22:17Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20389">
+      <h1>Risc OS Install on SSD</h1>
+
+(date: 2026-05-05)
+      <p>
+      <p>Hi Everyone,</p>
+<p>Thanks for all your replies. Very much appreciated.</p>
+<p>I am still waiting for my SystemDisc software from Piccolo Systems. I purchased it from Elesar on Friday, got an email that said it should be with me in 24hrs but I’m still waiting.</p>
+<p>I will give the steps Andrew posted a go and let you know the results. I do already have RiscOS Direct on SDCard.</p>
+<p>The SSD will be connected to the 400 via SATA to USB.</p>
+<p>Kindest Regards,</p>
+<p>Brett</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20389">https://www.riscosopen.org/forum/forums/11/topics/20389</a>
       </address>
     </article>
 
@@ -188,32 +342,6 @@
       </address>
     </article>
 
-    <article data-published="2026-05-05T02:46:34Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20399">
-      <h1>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</h1>
-
-(date: 2026-05-05)
-      <p>
-      <p>The next meeting of the RISC OS User Group Of London is:</p>
-<p><strong>ARX and the Acorn Palo Alto Research Centre</strong>, presented by Jim Mitchell</p>
-<p><strong>Monday 18th May 2026, 7.45pm</strong></p>
-<p>The Duke of Sussex</p>
-<p>(upstairs in the Petworth Room from 6.30pm)</p>
-<p>23 Baylis Road, London, SE1 7AY</p>
-<p><a href="http://www.rougol.jellybaby.net/venue.html">http://www.rougol.jellybaby.net/venue.html</a></p>
-<p>Also online via Zoom from 7.30pm</p>
-<p><a href="https://rougol.jellybaby.net/meetings/">https://rougol.jellybaby.net/meetings/</a></p>
-<p>For our May meeting Acorn alumni Jim Mitchell will be Zooming in from his home in California. Jim managed the ARM development team and was head of the Acorn Research Centre in Palo Alto. This was where <a href="https://en.wikipedia.org/wiki/ARX_(operating_system)">ARX</a> , the originally planned multitasking, multithreaded, multiuser operating system for the Archimedes was being developed.</p>
-<p>Very little has ever been heard about what happened there and how far ARX was developed, <a href="https://rougol.jellybaby.net/meetings/2012/PaulFellows/index.html#arxdemo">except from their RISC OS rivals</a> , so this is a unique chance to find out all about it from the person in charge. We are also hoping to be joined by several other members of the development team to help answer questions.</p>
-<p>While Jim will mainly be talking about his time at Acorn, before that he worked for 12 years at the legendary <a href="https://en.wikipedia.org/wiki/Xerox_Parc">Xerox PARC</a> where ethernet, laser printers, file sharing, the WIMP paradigm, and many more computing concepts we now take for granted were first developed. Later he worked for Sun and was responsible for the development of Java. Read his <a href="https://en.wikipedia.org/wiki/James_G._Mitchell">biography on Wikipedia</a></p>
-<p>He has had an amazing career and we are very excited to have him joining us :-)</p>
-<p>Our venue is right next to Waterloo Station and there is parking directly outside. Directions here – <a href="https://rougol.jellybaby.net/venue.html">https://rougol.jellybaby.net/venue.html</a></p>
-<p>For any queries or to receive the Zoom link (same as previous months) contact us – <a href="https://rougol.jellybaby.net/contacts/">https://rougol.jellybaby.net/contacts/</a></p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20399">https://www.riscosopen.org/forum/forums/1/topics/20399</a>
-      </address>
-    </article>
-
     <article data-published="2026-05-04T22:03:18Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20398">
       <h1>ARMbook (Pinebook 11.6) without battery</h1>
 
@@ -232,18 +360,6 @@
       </address>
     </article>
 
-    <article data-published="2026-05-04T16:41:35Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20389">
-      <h1>Risc OS Install on SSD</h1>
-
-(date: 2026-05-04)
-      <p>
-      <p>A big advantage of this technique is that you can keep a completely unmodified disc image of the version of RISC OS you are using on the SD card to switch to with a *configure if you run in to problems with anything you’ve installed on to your customised !BOOT on the SSD.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20389">https://www.riscosopen.org/forum/forums/11/topics/20389</a>
-      </address>
-    </article>
-
     <article data-published="2026-05-04T15:44:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mkzzareyss27">
       <h1>@paolofabiozaino.bsky.social</h1>
 
@@ -254,20 +370,6 @@
 
       <address>
         <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mkzzareyss27">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mkzzareyss27</a>
-      </address>
-    </article>
-
-    <article data-published="2026-05-04T15:32:55Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20323">
-      <h1>Audio on RISC OS</h1>
-
-(date: 2026-05-04)
-      <p>
-      <p>The ROSSDocument should be at: <a href="http://jcgl.orpheusweb.co.uk/temp/ROSSDocument.pdf">http://jcgl.orpheusweb.co.uk/temp/ROSSDocument.pdf</a></p>
-<p>Same directory has a copy of PPMjcgl.zip</p>
-<p>Alas, the ROSSDocument is now a decade old. In reality it is symultaneously “out of date” but also exposes where RO still remains lacking compared to ALSA on Linux. Never been able to get anyone to truly deal with this issue… although sound via HDMI is useful for AV, gettng ‘out of the box’ HiRes audio a’la ALSA seems something no-one but me cares about.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20323">https://www.riscosopen.org/forum/forums/5/topics/20323</a>
       </address>
     </article>
 
@@ -6733,29 +6835,6 @@ riscosnorth.uk #RISC_OS #Event #Warrington #RaspberryPi #ARM</p>
 
       <address>
         <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfrfzg53q22t">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mfrfzg53q22t</a>
-      </address>
-    </article>
-
-    <article data-published="2026-02-25T19:10:55Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20277">
-      <h1>Obey alias - *Set if not already set?</h1>
-
-(date: 2026-02-25)
-      <p>
-      <p>I’m cleaning up some old RISC OS code and I’ve hit a bit of a ShellCLI gremlin I don’t know how to fix…!</p>
-<p>There’s this chunk of code in the !Boot which sets up a basic operating configuration, but it’s intended that this be overridable from outside too:</p>
-<pre><code>Set Alias$Set If &quot;&lt;%%0&gt;&quot; = &quot;&quot; then %Set %*0
-
-Set IServer$Dir        &lt;Obey$Dir&gt;
-Set IServer$IBoardSize #200000
-Set IServer$IDebugSize #200000
-
-Unset Alias$Set
-</code></pre>
-<p>I can see what the intent is here, but it doesn’t work. The “Set” is always run, so whatever values I set outside !Boot get overridden. This is on RO 3.11.</p>
-<p>Does anyone have a “set if not already set” ShellCli/Obey pattern that they could share?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20277">https://www.riscosopen.org/forum/forums/11/topics/20277</a>
       </address>
     </article>
 
