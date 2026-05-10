@@ -7,16 +7,92 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>09 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>10 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3mliudtptnc24</link>
+      <description>
+        <![CDATA[youtu.be/ghS65-V4gn8
+        ROOL's RISC OS presentation at the Big Ben Club's ROX show.🚀🛸🕹️
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>youtu.be/ghS65-V4gn8
+ROOL&#39;s RISC OS presentation at the Big Ben Club&#39;s ROX show.🚀🛸🕹️
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mliudtptnc24</guid>
+    </item>    <item>
+      <title>Accessing SFTP servers with SecureView</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/17563</link>
+      <description>
+        <![CDATA[<p>There&#8217;s an updated version of SecureView (v0.05alpha) available <a href="https://www.riscosports.co.uk/vfp/SecureView.zip">here</a>.</p>
+        <p>See the !Help for what&#8217;s changed.</p>]]>
+      </description>
+      <source:markdown>There’s an updated version of SecureView (v0.05alpha) available [here](https://www.riscosports.co.uk/vfp/SecureView.zip).
+
+See the !Help for what’s changed.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:17563:163940</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 10th May at 1pm UK time</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20401</link>
+      <description>
+        <![CDATA[<p>Going live in about 30 minutes.</p>]]>
+      </description>
+      <source:markdown>Going live in about 30 minutes.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20401:163937</guid>
+    </item>    <item>
+      <title>PDrivers.</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20400</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I know that we’ve all been told that allocations are for losers who like to make pointless rules, but I should probably mention that PrintPDF$File is part of an already-allocated namespace…</p>
+        </blockquote>
+        <p>I was only suggesting that as a variable name because I needed a placeholder in my explanation of what was being done; obviously you would assign things before using them.</p>
+        <p>And&#8230; um&#8230; I don&#8217;t know who thinks they&#8217;re for losers&#8230; either you use the allocations, and you ensure that things are done safely, or you take your risks &#8211; and leave your users at risk. As you know, I have countless allocations for things that I&#8217;ve written myself to ensure that I&#8217;m not clashing with anyone else, and to ensure that I&#8217;m not going to have to rename things at the last minute.</p>]]>
+      </description>
+      <source:markdown>&#62; I know that we’ve all been told that allocations are for losers who like to make pointless rules, but I should probably mention that PrintPDF$File is part of an already-allocated namespace…
+
+I was only suggesting that as a variable name because I needed a placeholder in my explanation of what was being done; obviously you would assign things before using them.
+
+And… um… I don’t know who thinks they’re for losers… either you use the allocations, and you ensure that things are done safely, or you take your risks – and leave your users at risk. As you know, I have countless allocations for things that I’ve written myself to ensure that I’m not clashing with anyone else, and to ensure that I’m not going to have to rename things at the last minute.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20400:163931</guid>
+    </item>    <item>
+      <title>AcornSSL with server support</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19132</link>
+      <description>
+        <![CDATA[<p>My thanks to both of you.  I&#8217;m rather late responding because I didn&#8217;t want to do so until I had resolved the crash.  I&#8217;ve now done so, after taking an unforgivably long time to discover that the cause was some additions further up the api.c file.</p>
+        <p>I&#8217;ve got the CertOp and Bind SWIs in now, although I&#8217;ve got more testing to do.</p>
+        <p>The version I&#8217;ve started from this time uses mbedTLS 3.6.6.</p>
+        <p>The CertOp <span class="caps">SWI</span> requires a call to mbedtls_x509_crt_parse_file, which needs MBEDTLS_FS_IO to be defined in ro_config.h.  In turn this needs <span class="caps">ENOENT</span> to be defined.  I had expected this definition to come from errno.h somewhere, but I couldn&#8217;t see a way to get it; so I defined <span class="caps">ENOENT</span> as 2 on the line after the definition of MBEDTLD_FS_IO.  Next issue is that defining MBEDTLS_FS_IO also causes another unwanted function to be compiled, this time requiring opendir, stat and closedir to exist.  They aren&#8217;t in any library I know, so my most expedient solution has been to wrap the unwanted function in an unsatisfied conditional.  This is of course a change to the mbedtls source code.  I&#8217;m sure we don&#8217;t want to do it, so I&#8217;m open to better ideas!</p>]]>
+      </description>
+      <source:markdown>My thanks to both of you. I’m rather late responding because I didn’t want to do so until I had resolved the crash. I’ve now done so, after taking an unforgivably long time to discover that the cause was some additions further up the api.c file.
+
+I’ve got the CertOp and Bind SWIs in now, although I’ve got more testing to do.
+
+The version I’ve started from this time uses mbedTLS 3.6.6.
+
+The CertOp SWI requires a call to mbedtls\_x509\_crt\_parse\_file, which needs MBEDTLS\_FS\_IO to be defined in ro\_config.h. In turn this needs ENOENT to be defined. I had expected this definition to come from errno.h somewhere, but I couldn’t see a way to get it; so I defined ENOENT as 2 on the line after the definition of MBEDTLD\_FS\_IO. Next issue is that defining MBEDTLS\_FS\_IO also causes another unwanted function to be compiled, this time requiring opendir, stat and closedir to exist. They aren’t in any library I know, so my most expedient solution has been to wrap the unwanted function in an unsatisfied conditional. This is of course a change to the mbedtls source code. I’m sure we don’t want to do it, so I’m open to better ideas!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:19132:163928</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mlgupzltsk2s</link>
       <description>
         <![CDATA[Piconet! Talking to my Acorn Electron from the Linux terminal 😄]]>
       </description>
       <source:markdown>Piconet! Talking to my Acorn Electron from the Linux terminal 😄</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mlgupzltsk2s</guid>
+    </item>    <item>
+      <title>RISC OS on Apple Silicon</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20403</link>
+      <description>
+        <![CDATA[<p>Don&#8217;t want to &#8220;sell the skin before I caught the bear&#8221;&#8230;</p>
+        <p>However, <span class="caps">RISC</span> OS Merlin does compile fine for standard <span class="caps">QEMU</span> and runs on both <span class="caps">QEMU</span> and <span class="caps">UTM</span>, as well as having basic support for Apple M1 macbook pro native. But the path to complete everything is still a long path and will take a while.</p>]]>
+      </description>
+      <source:markdown>Don’t want to “sell the skin before I caught the bear”…
+
+However, RISC OS Merlin does compile fine for standard QEMU and runs on both QEMU and UTM, as well as having basic support for Apple M1 macbook pro native. But the path to complete everything is still a long path and will take a while.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20403:163924</guid>
     </item>    <item>
       <title>Audio on RISC OS</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20323</link>
@@ -31,17 +107,6 @@ WRTUSB Audio devices even the relatively cheap USB Audio DACs/ADCs can give exce
 
 The result seems to be that in Venn Diagram terms the areas for interest in high quality audio and using a RO machine overlap in a a null intersect. …Which them renews itself as people like myself just sigh and use Linux. Let’s ignore more demanding things like multiple devices and using more bits per sample. Most people just need one output stereo stream and maybe also one input stream. Covered by what has been offerred… but then ignored. :-/</source:markdown>
       <guid>cid://www.riscosopen.org:5:20323:163922</guid>
-    </item>    <item>
-      <title>RISC OS on Apple Silicon</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20403</link>
-      <description>
-        <![CDATA[<p>With this it may be possible to run <span class="caps">RISC</span> OS 32-bit on Apple Silicon 64-bit e.g. MacBook Neo, since it has in-built <span class="caps">QEMU</span> emulator and <span class="caps">ARM</span> 32-bit support:</p>
-        <p><a href="https://mac.getutm.app/">https://mac.getutm.app/</a></p>]]>
-      </description>
-      <source:markdown>With this it may be possible to run RISC OS 32-bit on Apple Silicon 64-bit e.g. MacBook Neo, since it has in-built QEMU emulator and ARM 32-bit support:
-
-[https://mac.getutm.app/](https://mac.getutm.app/)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20403:163920</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mlgbjuojuk2c</link>
       <description>
@@ -81,22 +146,6 @@ Every day, in every way, I&#39;m getting kinder and kinder.
 
 From a very low bar, I grant you.</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mlfuozpqmc2w</guid>
-    </item>    <item>
-      <title>AcornSSL with server support</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/19132</link>
-      <description>
-        <![CDATA[<p>You can also clone the fork containing the branch using the following command:</p>
-        <pre><code>git clone <a href="https://gitlab.riscosopen.org/cgranville/AcornSSL.git">https://gitlab.riscosopen.org/cgranville/AcornSSL.git</a> -b reusefix</code></pre>
-        <p>The AcornSSL repository has CI enabled, so under normal circumstances you&#8217;d be able to download a pre-built version of the module with the changes by clicking the download button next to where it says &#8220;Detached merge request pipeline&#8221;, but it doesn&#8217;t seem to be working at the moment (even in other MRs where CI builds are succeeding).</p>]]>
-      </description>
-      <source:markdown>You can also clone the fork containing the branch using the following command:
-
-```
-git clone https://gitlab.riscosopen.org/cgranville/AcornSSL.git -b reusefix
-```
-
-The AcornSSL repository has CI enabled, so under normal circumstances you’d be able to download a pre-built version of the module with the changes by clicking the download button next to where it says “Detached merge request pipeline”, but it doesn’t seem to be working at the moment (even in other MRs where CI builds are succeeding).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:19132:163912</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mlenyjf6qs25</link>
       <description>
@@ -242,22 +291,6 @@ Went to see it three times... bloody brilliant, still is.
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mlbdk5v3tk2e</guid>
     </item>    <item>
-      <title>PDrivers.</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/20400</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>*Vectors is in the DebugTools module in ROOL’s Bonus binaries download.</p>
-        </blockquote>
-        <p>Ah, thanks.</p>
-        <p>DebugButtn looks good, too &#8211; I&#8217;ve been <a href="https://github.com/pwombwell/PDrivers/blob/main/RLibX/Utils/Debug.cpp">debugging with <code>printf()</code> logging</a>, which works well if you close the file after every line, but sometimes it takes ages to figure out where to put the instrumentation. Who&#8217;d have imagined someone&#8217;d thought of something better.</p>]]>
-      </description>
-      <source:markdown>&#62; \*Vectors is in the DebugTools module in ROOL’s Bonus binaries download.
-
-Ah, thanks.
-
-DebugButtn looks good, too – I’ve been [debugging with `printf()` logging](https://github.com/pwombwell/PDrivers/blob/main/RLibX/Utils/Debug.cpp), which works well if you close the file after every line, but sometimes it takes ages to figure out where to put the instrumentation. Who’d have imagined someone’d thought of something better.</source:markdown>
-      <guid>cid://www.riscosopen.org:13:20400:163902</guid>
-    </item>    <item>
       <title>Obey alias - *Set if not already set?</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20277</link>
       <description>
@@ -288,44 +321,6 @@ PRM Volume 1 Chapter 24 ( [http://www.riscos.com/support/developers/prm/cli.html
 
 This works on RISC OS 3.1, which is my main target for this project (an Inmos Iserver port).</source:markdown>
       <guid>cid://www.riscosopen.org:11:20277:163901</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 10th May at 1pm UK time</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20401</link>
-      <description>
-        <![CDATA[<p>This Sunday – 10th May, at 1pm UK time – I&#8217;ll continue my live coding of the WindowManager sprite rendering system.</p>
-        <p>Last week we put the sprite rendering in with some very simple shading and selection<br />
-        colours. However, the selection algorithm used was pretty ugly, and we don&#8217;t work in 64-bit. Plus we&#8217;re not in a module yet. So we&#8217;ll attack these this week.</p>
-        <p>Hopefully, this is the last part of this series and we can move on to icon rendering.</p>
-        <p>Come along if you like – <a href="https://www.youtube.com/live/1NRj4KpM-NQ?feature=share">https://www.youtube.com/live/1NRj4KpM-NQ?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
-        <hr />
-        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
-        <p><a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_SpriteRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a> &#8211; shows the functionality we need to add.</p>
-        <hr />
-        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rEVIhNCY-bDeePa2i45bhtb">https://www.youtube.com/playlist?list=PLVVIu906Y7rEVIh…</a></p>
-        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimpspriterender.html">https://presentation.riscos.online/live/wimpspriterend…</a> (once it has been published).</p>]]>
-      </description>
-      <source:markdown>This Sunday – 10th May, at 1pm UK time – I’ll continue my live coding of the WindowManager sprite rendering system.
-
-Last week we put the sprite rendering in with some very simple shading and selection
-
-colours. However, the selection algorithm used was pretty ugly, and we don’t work in 64-bit. Plus we’re not in a module yet. So we’ll attack these this week.
-
-Hopefully, this is the last part of this series and we can move on to icon rendering.
-
-Come along if you like – [https://www.youtube.com/live/1NRj4KpM-NQ?feature=share](https://www.youtube.com/live/1NRj4KpM-NQ?feature=share) – or you can always watch the video afterwards at the same address.
-
-* * *
-
-For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
-
-[https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_SpriteRender) – shows the functionality we need to add.
-
-* * *
-
-If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rEVIh…](https://www.youtube.com/playlist?list=PLVVIu906Y7rEVIhNCY-bDeePa2i45bhtb)
-
-Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimpspriterend…](https://presentation.riscos.online/live/wimpspriterender.html) (once it has been published).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20401:163895</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3ml6za6ppos2f</link>
       <description>
