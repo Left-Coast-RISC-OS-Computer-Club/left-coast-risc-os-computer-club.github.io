@@ -7,10 +7,116 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>11 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>12 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>DeleGate garbage dates.</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20364</link>
+      <description>
+        <![CDATA[<p>Coming back to this&#8230; But if is the case that Linux has set the year byte on the <span class="caps">RTC</span>, is the a bit of code that I can run on <span class="caps">RISC</span> OS to&#8230; A&gt; Check if this is indeed the case&#8230; and&#8230; B&gt; Undo the change and fix the problem??</p>
+        <p>Many thanks in advance&#8230;</p>]]>
+      </description>
+      <source:markdown>Coming back to this… But if is the case that Linux has set the year byte on the RTC, is the a bit of code that I can run on RISC OS to… A&#62; Check if this is indeed the case… and… B&#62; Undo the change and fix the problem??
+
+Many thanks in advance…</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20364:163964</guid>
+    </item>    <item>
+      <title>Accessing SFTP servers with SecureView</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/17563</link>
+      <description>
+        <![CDATA[<p>There&#8217;s an updated version of SecureView (v0.06alpha) available <a href="https://www.riscosports.co.uk/vfp/SecureView.zip">here</a>.</p>
+        <p>New in this version,</p>
+        <p>This version now accepts domain name as well as IP address for the &#8216;hostname&#8217; of the <span class="caps">SSH</span> server.<br />
+        There&#8217;s a timeout of 10 seconds if unable to connect to an <span class="caps">SSH</span> server instead of appearing to hang.</p>]]>
+      </description>
+      <source:markdown>There’s an updated version of SecureView (v0.06alpha) available [here](https://www.riscosports.co.uk/vfp/SecureView.zip).
+
+New in this version,
+
+This version now accepts domain name as well as IP address for the ‘hostname’ of the SSH server.
+
+There’s a timeout of 10 seconds if unable to connect to an SSH server instead of appearing to hang.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:17563:163963</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlnyeyoedc2q</link>
+      <description>
+        <![CDATA[@davidjefferies.bsky.social has been very busy converting 6502 based BBC Micro Exile to C++ so that it can be run on modern day computers. Check out what he's managed to achieve - stunning!  https://www.youtube.com/watch?v=TywbYbV2lZg
+        https://www.youtube.com/watch?v=TywbYbV2lZg@davidjefferies.bsky.social]]>
+      </description>
+      <source:markdown>@davidjefferies.bsky.social has been very busy converting 6502 based BBC Micro Exile to C++ so that it can be run on modern day computers. Check out what he&#39;s managed to achieve - stunning! https://www.youtube.com/watch?v=TywbYbV2lZg
+https://www.youtube.com/watch?v=TywbYbV2lZg@davidjefferies.bsky.social</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mlnyeyoedc2q</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mlnvdeboik2k</link>
+      <description>
+        <![CDATA[@nemo20000.bsky.social without wanting to trigger you, have you seen the ROOL thread about PDrivers?
+        Piers is asking a font question that you will may (will) be able to help with.
+        https://www.riscosopen.org/forum/forums/13/topics/20400?limit=25&page=2#posts-163959
+        https://static.klipy.com/ii/d6b0ce929193df3c242ac34b5654d2ce/5d/60/fSOgUFK5.gif?hh=498&ww=498&mp4=26GoqW7V8c8tOmxQFwgG&webm=qonivGiGsrixCEWaIV]]>
+      </description>
+      <source:markdown>@nemo20000.bsky.social without wanting to trigger you, have you seen the ROOL thread about PDrivers?
+Piers is asking a font question that you will may (will) be able to help with.
+https://www.riscosopen.org/forum/forums/13/topics/20400?limit=25&#38;page=2#posts-163959
+https://static.klipy.com/ii/d6b0ce929193df3c242ac34b5654d2ce/5d/60/fSOgUFK5.gif?hh=498&#38;ww=498&#38;mp4=26GoqW7V8c8tOmxQFwgG&#38;webm=qonivGiGsrixCEWaIV</source:markdown>
+      <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3mlnvdeboik2k</guid>
+    </item>    <item>
+      <title>!Iris and ROD system crashes</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20406</link>
+      <description>
+        <![CDATA[<p>I have a <span class="caps">ROD</span> installation on a 32GB <span class="caps">SDHC</span> w part as HardDisk3 in FAT32. Over the time my system has frozen 8? 10? times. Most of the &#8220;crashes&#8221; I thought !Iris might be the cause. I am now setting up the whole system freshly on a 16GB <span class="caps">SDHC</span>. First things were updating via !PackMan, then adding the !Iris source and updating !Iris. Apart from the updates the system is completely new. When starting !Iris 1.039 for the first time, that fresh system freezes again. I can move the mouse but nothing else works &#8211; same as on my 32GB <span class="caps">ROD</span>. This time clearly !Iris has been the cause.<br />
+        Has anybody got an idea on that? And are there other methods than disconnecting the RPi from Power and booting up again? That is so rude!</p>]]>
+      </description>
+      <source:markdown>I have a ROD installation on a 32GB SDHC w part as HardDisk3 in FAT32. Over the time my system has frozen 8? 10? times. Most of the “crashes” I thought !Iris might be the cause. I am now setting up the whole system freshly on a 16GB SDHC. First things were updating via !PackMan, then adding the !Iris source and updating !Iris. Apart from the updates the system is completely new. When starting !Iris 1.039 for the first time, that fresh system freezes again. I can move the mouse but nothing else works – same as on my 32GB ROD. This time clearly !Iris has been the cause.
+
+Has anybody got an idea on that? And are there other methods than disconnecting the RPi from Power and booting up again? That is so rude!</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20406:163960</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mlnj2va4oc2m</link>
+      <description>
+        <![CDATA[LLMs are 𝙧𝙚𝙖𝙡𝙡𝙮 good at talking about language... and laughing at the Unicode Committee.]]>
+      </description>
+      <source:markdown>LLMs are 𝙧𝙚𝙖𝙡𝙡𝙮 good at talking about language... and laughing at the Unicode Committee.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mlnj2va4oc2m</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mlne26lq4s2m</link>
+      <description>
+        <![CDATA[Cripes! Buy wellies.]]>
+      </description>
+      <source:markdown>Cripes! Buy wellies.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mlne26lq4s2m</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mlmznckfp22h</link>
+      <description>
+        <![CDATA[ROOL updates DDE to DDE32c 
+        
+        https://www.iconbar.com/articles/ROOL_updates_DDE_to_DDE32c/index2325.html 
+        
+        The DDE toolset has been updated again to DDE32c.]]>
+      </description>
+      <source:markdown>ROOL updates DDE to DDE32c
+
+https://www.iconbar.com/articles/ROOL\_updates\_DDE\_to\_DDE32c/index2325.html
+
+The DDE toolset has been updated again to DDE32c.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mlmznckfp22h</guid>
+    </item>    <item>
+      <title>ROOL updates DDE to DDE32c</title>
+      <link>http://www.iconbar.com/comments/rss/news2325.html</link>
+      <description>
+        <![CDATA[The DDE toolset has been updated again to DDE32c.]]>
+      </description>
+      <source:markdown>The DDE toolset has been updated again to DDE32c.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2325.html</guid>
+    </item>    <item>
+      <title>Hard Disk data recovery</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20405</link>
+      <description>
+        <![CDATA[<p>Anyone know of a good company that can rescue the contents of my <span class="caps">ADFS</span> HD, putting the contents on a .hd file. It probably has a bad boot sector and the bearings are on their last legs. It is a Conner 4GB.</p>]]>
+      </description>
+      <source:markdown>Anyone know of a good company that can rescue the contents of my ADFS HD, putting the contents on a .hd file. It probably has a bad boot sector and the bearings are on their last legs. It is a Conner 4GB.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20405:163955</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mllx5nvnnk2i</link>
       <description>
         <![CDATA[So loving this 3D version of Atic Atac! The sound effects alone take be right back to 1983!
@@ -223,6 +329,32 @@ This summarises the changes between `v0.3.408` and `v0.3.476`, covering commits 
 - Added support for a module acknowledgements service.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20404:163947</guid>
     </item>    <item>
+      <title>Live Coding with Gerph, Sunday 10th May at 1pm UK time</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20401</link>
+      <description>
+        <![CDATA[<p>A good day today.</p>
+        <p>Selected sprite colouring is improved, the 64-bit build has been added in, and a module created which has SWIs that you can call to do the operations we&#8217;re exposing. Pretty nice.</p>
+        <p>I&#8217;ve marked the component as functional now in the <span class="caps">RISC</span> OS 64 status pages (<a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_SpriteRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a>), and flagged all the completed sections. There&#8217;s only a little bit more, but that&#8217;s not too significant and can be looked at later. The module&#8217;s also released so anyone wanting to try it out can see how it works, etc.</p>
+        <hr />
+        <p>Next week, I&#8217;ll be starting putting together the icon rendering. Now, Icon rendering is quite involved &#8211; <a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_IconRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a> shows the many different things we need to do.<br />
+        And if you look at the post I did a year or so back (<a href="https://www.riscosopen.org/forum/forums/5/topics/18886">https://www.riscosopen.org/forum/forums/5/topics/18886</a>) you can see the ways in which the icons vary. It&#8217;s going to be fun.</p>
+        <p>Basically, we&#8217;ll be taking GContext, TextRendering and SpriteRendering and putting them together with some more logic to make general icon rendering. I&#8217;ll be demonstrating more of the <span class="caps">RISC</span> OS Build Environment&#8217;s use, and how the whole system can be made to work in a very powerful way with modern tools. Hopefully, anyhow. As you know, sometimes things go wrong &#8211; but that&#8217;s what we&#8217;re going to try doing!</p>]]>
+      </description>
+      <source:markdown>A good day today.
+
+Selected sprite colouring is improved, the 64-bit build has been added in, and a module created which has SWIs that you can call to do the operations we’re exposing. Pretty nice.
+
+I’ve marked the component as functional now in the RISC OS 64 status pages ( [https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_SpriteRender)), and flagged all the completed sections. There’s only a little bit more, but that’s not too significant and can be looked at later. The module’s also released so anyone wanting to try it out can see how it works, etc.
+
+* * *
+
+Next week, I’ll be starting putting together the icon rendering. Now, Icon rendering is quite involved – [https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_IconRender) shows the many different things we need to do.
+
+And if you look at the post I did a year or so back ( [https://www.riscosopen.org/forum/forums/5/topics/18886](https://www.riscosopen.org/forum/forums/5/topics/18886)) you can see the ways in which the icons vary. It’s going to be fun.
+
+Basically, we’ll be taking GContext, TextRendering and SpriteRendering and putting them together with some more logic to make general icon rendering. I’ll be demonstrating more of the RISC OS Build Environment’s use, and how the whole system can be made to work in a very powerful way with modern tools. Hopefully, anyhow. As you know, sometimes things go wrong – but that’s what we’re going to try doing!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20401:163946</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/armbytes.bsky.social/post/3mliudtptnc24</link>
       <description>
         <![CDATA[youtu.be/ghS65-V4gn8
@@ -236,24 +368,13 @@ ROOL&#39;s RISC OS presentation at the Big Ben Club&#39;s ROX show.🚀🛸🕹�
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mliudtptnc24</guid>
     </item>    <item>
-      <title>Accessing SFTP servers with SecureView</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/17563</link>
+      <title>PDrivers.</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20400</link>
       <description>
-        <![CDATA[<p>There&#8217;s an updated version of SecureView (v0.05alpha) available <a href="https://www.riscosports.co.uk/vfp/SecureView.zip">here</a>.</p>
-        <p>See the !Help for what&#8217;s changed.</p>]]>
+        <![CDATA[<p>@piers  For Iris, we decided to simply render to sprite and print that.  This had the side benefit of printing exactly what is on screen which is a common issue for printing from browsers.  It&#8217;s a slightly ugly solution that isn&#8217;t always ideal (and doesn&#8217;t plumb-in well to the JS-<span class="caps">PDF</span> stuff), but gives decent prints which accurately resemble their on-screen counterparts.</p>]]>
       </description>
-      <source:markdown>There’s an updated version of SecureView (v0.05alpha) available [here](https://www.riscosports.co.uk/vfp/SecureView.zip).
-
-See the !Help for what’s changed.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:17563:163940</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 10th May at 1pm UK time</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20401</link>
-      <description>
-        <![CDATA[<p>Going live in about 30 minutes.</p>]]>
-      </description>
-      <source:markdown>Going live in about 30 minutes.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20401:163937</guid>
+      <source:markdown>@piers For Iris, we decided to simply render to sprite and print that. This had the side benefit of printing exactly what is on screen which is a common issue for printing from browsers. It’s a slightly ugly solution that isn’t always ideal (and doesn’t plumb-in well to the JS-PDF stuff), but gives decent prints which accurately resemble their on-screen counterparts.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20400:163941</guid>
     </item>    <item>
       <title>Audio on RISC OS</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20323</link>
@@ -276,22 +397,6 @@ It seems to me that Jim produced a battery of tests in the form of a wav file? (
 
 Cameron, I hope you find a USB device that works. If you can give the list?</source:markdown>
       <guid>cid://www.riscosopen.org:5:20323:163933</guid>
-    </item>    <item>
-      <title>PDrivers.</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/20400</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I know that we’ve all been told that allocations are for losers who like to make pointless rules, but I should probably mention that PrintPDF$File is part of an already-allocated namespace…</p>
-        </blockquote>
-        <p>I was only suggesting that as a variable name because I needed a placeholder in my explanation of what was being done; obviously you would assign things before using them.</p>
-        <p>And&#8230; um&#8230; I don&#8217;t know who thinks they&#8217;re for losers&#8230; either you use the allocations, and you ensure that things are done safely, or you take your risks &#8211; and leave your users at risk. As you know, I have countless allocations for things that I&#8217;ve written myself to ensure that I&#8217;m not clashing with anyone else, and to ensure that I&#8217;m not going to have to rename things at the last minute.</p>]]>
-      </description>
-      <source:markdown>&#62; I know that we’ve all been told that allocations are for losers who like to make pointless rules, but I should probably mention that PrintPDF$File is part of an already-allocated namespace…
-
-I was only suggesting that as a variable name because I needed a placeholder in my explanation of what was being done; obviously you would assign things before using them.
-
-And… um… I don’t know who thinks they’re for losers… either you use the allocations, and you ensure that things are done safely, or you take your risks – and leave your users at risk. As you know, I have countless allocations for things that I’ve written myself to ensure that I’m not clashing with anyone else, and to ensure that I’m not going to have to rename things at the last minute.</source:markdown>
-      <guid>cid://www.riscosopen.org:13:20400:163931</guid>
     </item>    <item>
       <title>AcornSSL with server support</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/19132</link>
@@ -2330,14 +2435,6 @@ What is needed is an add to an existing PDF file,</source:markdown>
       <source:markdown>Then I will not listen to it.
 #GetInTheSeaAIBBC</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mjmnoucdjs2m</guid>
-    </item>    <item>
-      <title>DeleGate garbage dates.</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20364</link>
-      <description>
-        <![CDATA[<p>Rarely&#8230; Maybe twice in the machine&#8217;s life&#8230; It&#8217;s primarily a RO dev box&#8230;</p>]]>
-      </description>
-      <source:markdown>Rarely… Maybe twice in the machine’s life… It’s primarily a RO dev box…</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20364:163432</guid>
     </item>    <item>
       <link>https://bsky.app/profile/rougol.bsky.social/post/3mjkcspzvfc2k</link>
       <description>
