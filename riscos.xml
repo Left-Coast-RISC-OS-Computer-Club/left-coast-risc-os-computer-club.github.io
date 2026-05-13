@@ -7,10 +7,92 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>12 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>13 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Territory Manager in C</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20311</link>
+      <description>
+        <![CDATA[<p>Any news on this?</p>]]>
+      </description>
+      <source:markdown>Any news on this?</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20311:164004</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3mlqryn6iuk2k</link>
+      <description>
+        <![CDATA[Next Monday, 18th May, we are very excited to be joined by Jim Mitchell to hear the largely untold story of ARX and the Acorn Palo Alto Research Centre
+        https://rougol.jellybaby.net/meetings/index.html]]>
+      </description>
+      <source:markdown>Next Monday, 18th May, we are very excited to be joined by Jim Mitchell to hear the largely untold story of ARX and the Acorn Palo Alto Research Centre
+https://rougol.jellybaby.net/meetings/index.html</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mlqryn6iuk2k</guid>
+    </item>    <item>
+      <title>Pi400 blank screen</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20409</link>
+      <description>
+        <![CDATA[<p>I just bought a Pi400 last week for use with <span class="caps">RISC</span> OS. Unfortunately, I only get a black screen.</p>
+        <p>I have tried the image from this website, the image from <span class="caps">RISC</span> OS Direct, and the image loaded via the Pi Imager application. I have tried with three different microSD cards.</p>
+        <p>Is there someone who had the same experience and has good suggestions to find a solution? Any help will be greatly appreciated.</p>]]>
+      </description>
+      <source:markdown>I just bought a Pi400 last week for use with RISC OS. Unfortunately, I only get a black screen.
+
+I have tried the image from this website, the image from RISC OS Direct, and the image loaded via the Pi Imager application. I have tried with three different microSD cards.
+
+Is there someone who had the same experience and has good suggestions to find a solution? Any help will be greatly appreciated.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20409:163996</guid>
+    </item>    <item>
+      <title>AcornSSL with server support</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19132</link>
+      <description>
+        <![CDATA[<p>I&#8217;m trying to build a debug version of my updated AcornSSL module, but I get these linker errors of undefined symbols:</p>
+        <p><span class="caps">ARM</span> Linker:     accept, referred to from C:mbedTLS.o.mbedTLSzm(net_sockets).<br />
+        <span class="caps">ARM</span> Linker:     socketread, referred to from TCPIPLibs:o.unixlibzm(read).<br />
+        <span class="caps">ARM</span> Linker:     socketwrite, referred to from TCPIPLibs:o.unixlibzm(write).</p>
+        <p>Why do I get them only when building the debug version, and how can I satisfy them?</p>]]>
+      </description>
+      <source:markdown>I’m trying to build a debug version of my updated AcornSSL module, but I get these linker errors of undefined symbols:
+
+ARM Linker: accept, referred to from C:mbedTLS.o.mbedTLSzm(net\_sockets).
+
+ARM Linker: socketread, referred to from TCPIPLibs:o.unixlibzm(read).
+
+ARM Linker: socketwrite, referred to from TCPIPLibs:o.unixlibzm(write).
+
+Why do I get them only when building the debug version, and how can I satisfy them?</source:markdown>
+      <guid>cid://www.riscosopen.org:1:19132:163995</guid>
+    </item>    <item>
+      <title>!Iris &#38;amp;ct update, hmm, troubles?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20407</link>
+      <description>
+        <![CDATA[<p>Following an advice of Raik I wanted to copy !IrisRAM to the RAMdisk. But: there is the old version 1.029 of !Iris on the <span class="caps">SDHC</span>, in $.Network.Iris and the new version of !Iris 1.039 in $.Apps.Network.!Iris. IrisRAMv2 is only in the first folder, the old version folder. Taking this to the RAMdisk invokes !Iris v1.029. In installing / updating to !Iris 1.039 I followed Andrew Rawnley&#8217;s instructions here: <a href="https://www.riscosopen.org/forum/forums/1/topics/20064?limit=25&amp;page=1#posts-159357">https://www.riscosopen.org/forum/forums/1/topics/20064…</a><br />
+        In fact I&#8217;ve seen some programs of which the old version is still on the <span class="caps">SDHC</span> when !PackMan has done updates. The new versions are simply in another folder.<br />
+        !Fireworkz 2.32.02, for instance, is in $.Apps, Fireworkz 2.33 is in $.Apps.Document.<br />
+        Wouldn&#8217;t it be better to clean that up and adjusting some files like the ones in IrisRAMv2 in the process of updating? Apart from being confusing to gather different versions of a program, it is consuming space.</p>]]>
+      </description>
+      <source:markdown>Following an advice of Raik I wanted to copy !IrisRAM to the RAMdisk. But: there is the old version 1.029 of !Iris on the SDHC, in $.Network.Iris and the new version of !Iris 1.039 in $.Apps.Network.!Iris. IrisRAMv2 is only in the first folder, the old version folder. Taking this to the RAMdisk invokes !Iris v1.029. In installing / updating to !Iris 1.039 I followed Andrew Rawnley’s instructions here: [https://www.riscosopen.org/forum/forums/1/topics/20064…](https://www.riscosopen.org/forum/forums/1/topics/20064?limit=25&#38;page=1#posts-159357)
+
+In fact I’ve seen some programs of which the old version is still on the SDHC when !PackMan has done updates. The new versions are simply in another folder.
+
+!Fireworkz 2.32.02, for instance, is in $.Apps, Fireworkz 2.33 is in $.Apps.Document.
+
+Wouldn’t it be better to clean that up and adjusting some files like the ones in IrisRAMv2 in the process of updating? Apart from being confusing to gather different versions of a program, it is consuming space.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20407:163987</guid>
+    </item>    <item>
+      <title>!Iris and ROD system crashes</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20406</link>
+      <description>
+        <![CDATA[<p>For some reason Iris is not able to complete the cloudflare security check. Once it&#8217;s triggered it nearly always gets stuck in a loop.</p>
+        <p>Another example is the forums on raspberrypi.com.</p>
+        <p><a href="https://developers.cloudflare.com/cloudflare-challenges/">https://developers.cloudflare.com/cloudflare-challenge…</a></p>]]>
+      </description>
+      <source:markdown>For some reason Iris is not able to complete the cloudflare security check. Once it’s triggered it nearly always gets stuck in a loop.
+
+Another example is the forums on raspberrypi.com.
+
+[https://developers.cloudflare.com/cloudflare-challenge…](https://developers.cloudflare.com/cloudflare-challenges/)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20406:163978</guid>
+    </item>    <item>
       <title>DeleGate garbage dates.</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20364</link>
       <description>
@@ -60,17 +142,6 @@ Piers is asking a font question that you will may (will) be able to help with.
 https://www.riscosopen.org/forum/forums/13/topics/20400?limit=25&#38;page=2#posts-163959
 https://static.klipy.com/ii/d6b0ce929193df3c242ac34b5654d2ce/5d/60/fSOgUFK5.gif?hh=498&#38;ww=498&#38;mp4=26GoqW7V8c8tOmxQFwgG&#38;webm=qonivGiGsrixCEWaIV</source:markdown>
       <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3mlnvdeboik2k</guid>
-    </item>    <item>
-      <title>!Iris and ROD system crashes</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20406</link>
-      <description>
-        <![CDATA[<p>I have a <span class="caps">ROD</span> installation on a 32GB <span class="caps">SDHC</span> w part as HardDisk3 in FAT32. Over the time my system has frozen 8? 10? times. Most of the &#8220;crashes&#8221; I thought !Iris might be the cause. I am now setting up the whole system freshly on a 16GB <span class="caps">SDHC</span>. First things were updating via !PackMan, then adding the !Iris source and updating !Iris. Apart from the updates the system is completely new. When starting !Iris 1.039 for the first time, that fresh system freezes again. I can move the mouse but nothing else works &#8211; same as on my 32GB <span class="caps">ROD</span>. This time clearly !Iris has been the cause.<br />
-        Has anybody got an idea on that? And are there other methods than disconnecting the RPi from Power and booting up again? That is so rude!</p>]]>
-      </description>
-      <source:markdown>I have a ROD installation on a 32GB SDHC w part as HardDisk3 in FAT32. Over the time my system has frozen 8? 10? times. Most of the “crashes” I thought !Iris might be the cause. I am now setting up the whole system freshly on a 16GB SDHC. First things were updating via !PackMan, then adding the !Iris source and updating !Iris. Apart from the updates the system is completely new. When starting !Iris 1.039 for the first time, that fresh system freezes again. I can move the mouse but nothing else works – same as on my 32GB ROD. This time clearly !Iris has been the cause.
-
-Has anybody got an idea on that? And are there other methods than disconnecting the RPi from Power and booting up again? That is so rude!</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20406:163960</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mlnj2va4oc2m</link>
       <description>
@@ -397,14 +468,6 @@ It seems to me that Jim produced a battery of tests in the form of a wav file? (
 
 Cameron, I hope you find a USB device that works. If you can give the list?</source:markdown>
       <guid>cid://www.riscosopen.org:5:20323:163933</guid>
-    </item>    <item>
-      <title>AcornSSL with server support</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/19132</link>
-      <description>
-        <![CDATA[<p>mbedtls_x509_crt_parse_file appears to just be a simple wrapper around the mbedtls_pk_load_file and mbedtls_x509_crt_parse functions &#8211; if you replicate mbedtls_pk_load_file locally in AcornSSL (which shouldn&#8217;t be too difficult), you should be able to avoid needing to modify the mbedTLS sources.</p>]]>
-      </description>
-      <source:markdown>mbedtls\_x509\_crt\_parse\_file appears to just be a simple wrapper around the mbedtls\_pk\_load\_file and mbedtls\_x509\_crt\_parse functions – if you replicate mbedtls\_pk\_load\_file locally in AcornSSL (which shouldn’t be too difficult), you should be able to avoid needing to modify the mbedTLS sources.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:19132:163930</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mlgupzltsk2s</link>
       <description>
@@ -4263,26 +4326,6 @@ https://android-developers.googleblog.com/2026/03/Beyond-Infotainment-Extending-
       </description>
       <source:markdown>Two old console games I worked on are being re-released soon as part of &#39;Marvel: Maximum Collection&#39;. NES &#39;Silver Surfer&#39; and SNES &#39;Spider-Man and the X-Men in Arcade&#39;s Revenge&#39; are being let loose on a new generation of gamers. These games are 35 years and 33 years old! They forgot Wolverine!</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mhtplid7fk22</guid>
-    </item>    <item>
-      <title>Territory Manager in C</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/20311</link>
-      <description>
-        <![CDATA[<p>Hiya,</p>
-        <p>On the Iconbar&#8217;s notes from the show, they said that there was a C conversion of the Territory Manager (<a href="https://www.iconbar.com/articles/RISC_OS_North_Show_2026_-_Notes_from_the_talks/index2313.html">https://www.iconbar.com/articles/RISC_OS_North_Show_20…</a>). However, I don&#8217;t see this in the repository; <a href="https://gitlab.riscosopen.org/RiscOS/Sources/Internat/Territory/TerritoryManager/-/network/master">https://gitlab.riscosopen.org/RiscOS/Sources/Internat/…</a> has no additional commits, or branches present, and the only PR is an old one for cross-compilation (well, assembly, I guess), which I had assumed had been done years ago.</p>
-        <p>Of the forks on the GitLab repository, there are only one by Andreas Skyman (<a href="https://gitlab.riscosopen.org/askyman/TerritoryManager/-/network/master">https://gitlab.riscosopen.org/askyman/TerritoryManager…</a>) and one by Ben Avison (<a href="https://gitlab.riscosopen.org/bavison/TerritoryManager/-/network/master">https://gitlab.riscosopen.org/bavison/TerritoryManager…</a>), but neither have any C-like branches.</p>
-        <p>I&#8217;d hoped to update the riscos64-status with the details for these, and ensure that they work in 64-bit, but can&#8217;t find them.<br />
-        Can <span class="caps">ROOL</span> say where to find the source, or provide an update for the riscos64-status details to reflect the state.</p>]]>
-      </description>
-      <source:markdown>Hiya,
-
-On the Iconbar’s notes from the show, they said that there was a C conversion of the Territory Manager ( [https://www.iconbar.com/articles/RISC\_OS\_North\_Show\_20…](https://www.iconbar.com/articles/RISC_OS_North_Show_2026_-_Notes_from_the_talks/index2313.html)). However, I don’t see this in the repository; [https://gitlab.riscosopen.org/RiscOS/Sources/Internat/…](https://gitlab.riscosopen.org/RiscOS/Sources/Internat/Territory/TerritoryManager/-/network/master) has no additional commits, or branches present, and the only PR is an old one for cross-compilation (well, assembly, I guess), which I had assumed had been done years ago.
-
-Of the forks on the GitLab repository, there are only one by Andreas Skyman ( [https://gitlab.riscosopen.org/askyman/TerritoryManager…](https://gitlab.riscosopen.org/askyman/TerritoryManager/-/network/master)) and one by Ben Avison ( [https://gitlab.riscosopen.org/bavison/TerritoryManager…](https://gitlab.riscosopen.org/bavison/TerritoryManager/-/network/master)), but neither have any C-like branches.
-
-I’d hoped to update the riscos64-status with the details for these, and ensure that they work in 64-bit, but can’t find them.
-
-Can ROOL say where to find the source, or provide an update for the riscos64-status details to reflect the state.</source:markdown>
-      <guid>cid://www.riscosopen.org:13:20311:162543</guid>
     </item>    <item>
       <link>https://bsky.app/profile/rougol.bsky.social/post/3mhtfzij6yk2v</link>
       <description>
