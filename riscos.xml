@@ -7,10 +7,56 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>13 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>14 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mltfckx3yk2b</link>
+      <description>
+        <![CDATA[My eldest daughter just asked me if I've heard of the Arcade Club in Bury and then said she'd like to go there sometime. The response was yes, and YES! I need to arrange the date. I can't believe I haven't already visited - it's only about 35 minutes from where I live.]]>
+      </description>
+      <source:markdown>My eldest daughter just asked me if I&#39;ve heard of the Arcade Club in Bury and then said she&#39;d like to go there sometime. The response was yes, and YES! I need to arrange the date. I can&#39;t believe I haven&#39;t already visited - it&#39;s only about 35 minutes from where I live.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mltfckx3yk2b</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mlszudfjn22q</link>
+      <description>
+        <![CDATA[I’ve accidentally remembered my love for small caps.]]>
+      </description>
+      <source:markdown>I’ve accidentally remembered my love for small caps.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mlszudfjn22q</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mlszjpuqrs2h</link>
+      <description>
+        <![CDATA[Is it even "computer" if it doesn't have Data70 on it?!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Is it even &#34;computer&#34; if it doesn&#39;t have Data70 on it?!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mlszjpuqrs2h</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mlstaegkts2z</link>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mlstaegkts2z</guid>
+    </item>    <item>
+      <title>DeleGate garbage dates.</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20364</link>
+      <description>
+        <![CDATA[<blockquote>is the a bit of code that I can run on <span class="caps">RISC</span> OS to</blockquote>
+        <p>Yes. Tardis. See the discussion <a href="https://www.riscosopen.org/forum/forums/11/topics/18761">here</a></p>]]>
+      </description>
+      <source:markdown>&#62; is the a bit of code that I can run on RISC OS to
+
+Yes. Tardis. See the discussion [here](https://www.riscosopen.org/forum/forums/11/topics/18761)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20364:164012</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mlr3h2cbz22x</link>
+      <description>
+        <![CDATA[@halkyardo.bsky.social You are Mr X and I claim my £5.]]>
+      </description>
+      <source:markdown>@halkyardo.bsky.social You are Mr X and I claim my £5.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mlr3h2cbz22x</guid>
+    </item>    <item>
       <title>Territory Manager in C</title>
       <link>https://www.riscosopen.org/forum/forums/13/topics/20311</link>
       <description>
@@ -18,6 +64,19 @@
       </description>
       <source:markdown>Any news on this?</source:markdown>
       <guid>cid://www.riscosopen.org:13:20311:164004</guid>
+    </item>    <item>
+      <title>!Iris &#38;amp;ct update, hmm, troubles?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20407</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I wanted to copy !IrisRAM to the RAMdisk</p>
+        </blockquote>
+        <p>!IrisRam should <span class="caps">NOT</span> be on the <span class="caps">RAM</span> disc. It should be in the same directory as !Iris itself. Running !IrisRam copies !Iris to the <span class="caps">RAM</span> disc, so Iris will run faster (assuming the <span class="caps">RAM</span> disc will be faster than your &#8216;hard&#8217; disc). If !Iris is already on <span class="caps">RAM</span> disc, running !IrisRam starts !Iris using the <span class="caps">RAM</span> disc copy.</p>]]>
+      </description>
+      <source:markdown>&#62; I wanted to copy !IrisRAM to the RAMdisk
+
+!IrisRam should NOT be on the RAM disc. It should be in the same directory as !Iris itself. Running !IrisRam copies !Iris to the RAM disc, so Iris will run faster (assuming the RAM disc will be faster than your ‘hard’ disc). If !Iris is already on RAM disc, running !IrisRam starts !Iris using the RAM disc copy.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20407:163999</guid>
     </item>    <item>
       <link>https://bsky.app/profile/rougol.bsky.social/post/3mlqryn6iuk2k</link>
       <description>
@@ -62,47 +121,13 @@ ARM Linker: socketwrite, referred to from TCPIPLibs:o.unixlibzm(write).
 Why do I get them only when building the debug version, and how can I satisfy them?</source:markdown>
       <guid>cid://www.riscosopen.org:1:19132:163995</guid>
     </item>    <item>
-      <title>!Iris &#38;amp;ct update, hmm, troubles?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20407</link>
-      <description>
-        <![CDATA[<p>Following an advice of Raik I wanted to copy !IrisRAM to the RAMdisk. But: there is the old version 1.029 of !Iris on the <span class="caps">SDHC</span>, in $.Network.Iris and the new version of !Iris 1.039 in $.Apps.Network.!Iris. IrisRAMv2 is only in the first folder, the old version folder. Taking this to the RAMdisk invokes !Iris v1.029. In installing / updating to !Iris 1.039 I followed Andrew Rawnley&#8217;s instructions here: <a href="https://www.riscosopen.org/forum/forums/1/topics/20064?limit=25&amp;page=1#posts-159357">https://www.riscosopen.org/forum/forums/1/topics/20064…</a><br />
-        In fact I&#8217;ve seen some programs of which the old version is still on the <span class="caps">SDHC</span> when !PackMan has done updates. The new versions are simply in another folder.<br />
-        !Fireworkz 2.32.02, for instance, is in $.Apps, Fireworkz 2.33 is in $.Apps.Document.<br />
-        Wouldn&#8217;t it be better to clean that up and adjusting some files like the ones in IrisRAMv2 in the process of updating? Apart from being confusing to gather different versions of a program, it is consuming space.</p>]]>
-      </description>
-      <source:markdown>Following an advice of Raik I wanted to copy !IrisRAM to the RAMdisk. But: there is the old version 1.029 of !Iris on the SDHC, in $.Network.Iris and the new version of !Iris 1.039 in $.Apps.Network.!Iris. IrisRAMv2 is only in the first folder, the old version folder. Taking this to the RAMdisk invokes !Iris v1.029. In installing / updating to !Iris 1.039 I followed Andrew Rawnley’s instructions here: [https://www.riscosopen.org/forum/forums/1/topics/20064…](https://www.riscosopen.org/forum/forums/1/topics/20064?limit=25&#38;page=1#posts-159357)
-
-In fact I’ve seen some programs of which the old version is still on the SDHC when !PackMan has done updates. The new versions are simply in another folder.
-
-!Fireworkz 2.32.02, for instance, is in $.Apps, Fireworkz 2.33 is in $.Apps.Document.
-
-Wouldn’t it be better to clean that up and adjusting some files like the ones in IrisRAMv2 in the process of updating? Apart from being confusing to gather different versions of a program, it is consuming space.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20407:163987</guid>
-    </item>    <item>
       <title>!Iris and ROD system crashes</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20406</link>
       <description>
-        <![CDATA[<p>For some reason Iris is not able to complete the cloudflare security check. Once it&#8217;s triggered it nearly always gets stuck in a loop.</p>
-        <p>Another example is the forums on raspberrypi.com.</p>
-        <p><a href="https://developers.cloudflare.com/cloudflare-challenges/">https://developers.cloudflare.com/cloudflare-challenge…</a></p>]]>
+        <![CDATA[<p>No idea, That&#8217;s one for the iris devs to work out, but its a problem that will need looking at. I&#8217;ve tweaked it as far as i can my end, maybe a javascript issue?</p>]]>
       </description>
-      <source:markdown>For some reason Iris is not able to complete the cloudflare security check. Once it’s triggered it nearly always gets stuck in a loop.
-
-Another example is the forums on raspberrypi.com.
-
-[https://developers.cloudflare.com/cloudflare-challenge…](https://developers.cloudflare.com/cloudflare-challenges/)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20406:163978</guid>
-    </item>    <item>
-      <title>DeleGate garbage dates.</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20364</link>
-      <description>
-        <![CDATA[<p>Coming back to this&#8230; But if is the case that Linux has set the year byte on the <span class="caps">RTC</span>, is the a bit of code that I can run on <span class="caps">RISC</span> OS to&#8230; A&gt; Check if this is indeed the case&#8230; and&#8230; B&gt; Undo the change and fix the problem??</p>
-        <p>Many thanks in advance&#8230;</p>]]>
-      </description>
-      <source:markdown>Coming back to this… But if is the case that Linux has set the year byte on the RTC, is the a bit of code that I can run on RISC OS to… A&#62; Check if this is indeed the case… and… B&#62; Undo the change and fix the problem??
-
-Many thanks in advance…</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20364:163964</guid>
+      <source:markdown>No idea, That’s one for the iris devs to work out, but its a problem that will need looking at. I’ve tweaked it as far as i can my end, maybe a javascript issue?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20406:163994</guid>
     </item>    <item>
       <title>Accessing SFTP servers with SecureView</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/17563</link>
