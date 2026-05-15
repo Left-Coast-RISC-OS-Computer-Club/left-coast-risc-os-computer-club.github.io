@@ -7,10 +7,119 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>14 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>15 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Frosted ThemeDefs V4.01 is Out!</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20413</link>
+      <description>
+        <![CDATA[<p>Thanks Martin,<br />
+        A quick question what is the recommended location to install the WallPaper directory?<br />
+        For the moment I installed it in Boot.Resources, it is a Wallpaper directory by default, if I understood correctly.</p>]]>
+      </description>
+      <source:markdown>Thanks Martin,
+
+A quick question what is the recommended location to install the WallPaper directory?
+
+For the moment I installed it in Boot.Resources, it is a Wallpaper directory by default, if I understood correctly.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20413:164046</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlvnheb5ss2k</link>
+      <description>
+        <![CDATA[Here's Knight Lore for the BBC Micro being assembled from the original source code. Memory was so tight that video memory had to be used so that all the symbols, object code and source would squeeze in. This was later solved by making use of a 6502 2nd processor with 64K RAM & HIBASIC.]]>
+      </description>
+      <source:markdown>Here&#39;s Knight Lore for the BBC Micro being assembled from the original source code. Memory was so tight that video memory had to be used so that all the symbols, object code and source would squeeze in. This was later solved by making use of a 6502 2nd processor with 64K RAM &#38; HIBASIC.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mlvnheb5ss2k</guid>
+    </item>    <item>
+      <title>Code the Classics Volume 2 for RISC OS - Kinetix release</title>
+      <link>http://www.iconbar.com/comments/rss/news2334.html</link>
+      <description>
+        <![CDATA[Jeroen has been continuing with his project to bring RISC OS versions of the games featured in the book Code the Classics Volume 2  to RISC OS and has now released Kinetix.]]>
+      </description>
+      <source:markdown>Jeroen has been continuing with his project to bring RISC OS versions of the games featured in the book Code the Classics Volume 2 to RISC OS and has now released Kinetix.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2334.html</guid>
+    </item>    <item>
+      <title>iMX6 Revision D1</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20411</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>It shows up in configure but everything in there is question marked out, as if the device doesnt exist.</p>
+        </blockquote>
+        <p>That implies that the EtherTH module is unplugged.</p>]]>
+      </description>
+      <source:markdown>&#62; It shows up in configure but everything in there is question marked out, as if the device doesnt exist.
+
+That implies that the EtherTH module is unplugged.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20411:164033</guid>
+    </item>    <item>
+      <title>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20399</link>
+      <description>
+        <![CDATA[<p>i may need a reminder link too please</p>]]>
+      </description>
+      <source:markdown>i may need a reminder link too please</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20399:164032</guid>
+    </item>    <item>
+      <title>ARX: The OS we never got – ROUGOL meeting, 18th May</title>
+      <link>https://www.riscository.com/2026/arx-at-rougol-18th-may/</link>
+      <description>
+        <![CDATA[Although we all know and love RISC OS and its consistent &#8211; if sometimes quirky, and sometimes lacking (if we&#8217;re being honest) &#8211; user interface, you may not realise that it wasn&#8217;t the operating system Acorn originally intended for the Archimedes range of computers it was developing back in the 1980s. Before RISC OS was built for the new ARM-based computer range (in its original form, Arthur), the company was aiming for a preemptive multi-tasking operating system, with multi-threading support, and more, to be called ARX. That operating system was&#8230;]]>
+      </description>
+      <source:markdown>Although we all know and love RISC OS and its consistent – if sometimes quirky, and sometimes lacking (if we’re being honest) – user interface, you may not realise that it wasn’t the operating system Acorn originally intended for the Archimedes range of computers it was developing back in the 1980s. Before RISC OS was built for the new ARM-based computer range (in its original form, Arthur), the company was aiming for a preemptive multi-tasking operating system, with multi-threading support, and more, to be called ARX. That operating system was…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10944</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mlvcuiyss224</link>
+      <description>
+        <![CDATA[Rougol May 2026 meeting on monday - ARX and the Acorn Palo Alto Research Centre 
+        
+        https://www.iconbar.com/articles/Rougol_May_2026_meeting_on_monday_-_ARX_and_the_Acorn_Palo_Alto_Research_Centre/index2329.html 
+        
+        The May 2026 Rougol meeting is on Monday and will be a very 'What if" session as Jim Mitchell talks about Acorn's Palo Alto office and the abortive ARX OS for its new ARM processors.]]>
+      </description>
+      <source:markdown>Rougol May 2026 meeting on monday - ARX and the Acorn Palo Alto Research Centre
+
+https://www.iconbar.com/articles/Rougol\_May\_2026\_meeting\_on\_monday\_-\_ARX\_and\_the\_Acorn\_Palo\_Alto\_Research\_Centre/index2329.html
+
+The May 2026 Rougol meeting is on Monday and will be a very &#39;What if&#34; session as Jim Mitchell talks about Acorn&#39;s Palo Alto office and the abortive ARX OS for its new ARM processors.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mlvcuiyss224</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mluuoatdq224</link>
+      <description>
+        <![CDATA[I love this. I want a timeline full of women laughing at pompous men.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>I love this. I want a timeline full of women laughing at pompous men.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mluuoatdq224</guid>
+    </item>    <item>
+      <title>Rougol May 2026 meeting on monday - ARX and the Acorn Palo Alto Research Centre</title>
+      <link>http://www.iconbar.com/comments/rss/news2329.html</link>
+      <description>
+        <![CDATA[The May 2026 Rougol meeting is on Monday and will be a very 'What if" session as Jim Mitchell talks about Acorn's Palo Alto office and the abortive ARX OS for it's new ARM processors.]]>
+      </description>
+      <source:markdown>The May 2026 Rougol meeting is on Monday and will be a very &#39;What if&#34; session as Jim Mitchell talks about Acorn&#39;s Palo Alto office and the abortive ARX OS for it&#39;s new ARM processors.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2329.html</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mltxczplcc23</link>
+      <description>
+        <![CDATA[#RISC_OS a little sneak peek at the new Forth compiler for my UltimaVM. It's coming along well, and it's helping a lot with testing the VM architecture. I am quite happy with it so far. Still early days though. I need to add support to build libraries next.
+        #riscos #Linux #BSD #Windows #macOS]]>
+      </description>
+      <source:markdown>#RISC\_OS a little sneak peek at the new Forth compiler for my UltimaVM. It&#39;s coming along well, and it&#39;s helping a lot with testing the VM architecture. I am quite happy with it so far. Still early days though. I need to add support to build libraries next.
+#riscos #Linux #BSD #Windows #macOS</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mltxczplcc23</guid>
+    </item>    <item>
+      <title>New Quiz Application SemaQuiz For RISC OS</title>
+      <link>https://kevsoft.wordpress.com/2026/05/14/new-quiz-application-semaquiz-for-risc-os/</link>
+      <description>
+        <![CDATA[I have released a new RISC OS  Quiz using my Quiz  Engine called SemaQuiz , this will be version 1.00 This quiz is on Semaphore and is a multiple choice Quiz with 10 questions with 4 possible answers. The following languages are supported The Semaphore is from Semaphorify and Scouting Resources. If you find this or other &#8230; <a href="https://kevsoft.wordpress.com/2026/05/14/new-quiz-application-semaquiz-for-risc-os/" class="more-link">Continue reading<span class="screen-reader-text"> "New Quiz Application SemaQuiz For RISC&#160;OS"</span></a>]]>
+      </description>
+      <source:markdown>I have released a new RISC OS  Quiz using my Quiz  Engine called SemaQuiz , this will be version 1.00 This quiz is on Semaphore and is a multiple choice Quiz with 10 questions with 4 possible answers. The following languages are supported The Semaphore is from Semaphorify and Scouting Resources. If you find this or other … [Continue reading &#34;New Quiz Application SemaQuiz For RISC OS&#34;](https://kevsoft.wordpress.com/2026/05/14/new-quiz-application-semaquiz-for-risc-os/)</source:markdown>
+      <guid>cid://http://kevsoft.wordpress.com/?p=1450</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mltfckx3yk2b</link>
       <description>
         <![CDATA[My eldest daughter just asked me if I've heard of the Arcade Club in Bury and then said she'd like to go there sometime. The response was yes, and YES! I need to arrange the date. I can't believe I haven't already visited - it's only about 35 minutes from where I live.]]>
@@ -747,14 +856,6 @@ The show is on the 9th May from 10am to 4pm and is located in Koog aan de Zaan. 
 
 Visitors can also use the shared tables to show off their own setups to one another.</source:markdown>
       <guid>cid://urn:uuid:81709a28-c0c9-480d-bedb-1f9b77d48765</guid>
-    </item>    <item>
-      <title>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20399</link>
-      <description>
-        <![CDATA[<p>really looking forward for this talk :)</p>]]>
-      </description>
-      <source:markdown>really looking forward for this talk :)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20399:163887</guid>
     </item>    <item>
       <title>Bug in Wimp01, OS_Byte 129, or documentation for the last</title>
       <link>https://www.riscosopen.org/forum/forums/4/topics/20386</link>
