@@ -7,10 +7,229 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>15 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>16 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mlygmuluuk2k</link>
+      <description>
+        <![CDATA[#RISC_OS #ShareFSServer alpha testers, new build available for testing. Details about the Changelogs in the link below:
+        
+        https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&page=5#posts-164072
+        
+        #riscos #OpenSource #FileSharing #Linux #macOS #Windows #BSD]]>
+      </description>
+      <source:markdown>#RISC\_OS #ShareFSServer alpha testers, new build available for testing. Details about the Changelogs in the link below:
+
+https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=5#posts-164072
+
+#riscos #OpenSource #FileSharing #Linux #macOS #Windows #BSD</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mlygmuluuk2k</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p><b>@ all alpha testers</b></p>
+        <p>A new alpha build, 0.4.3, is available for testing.</p>
+        <p><b>What&#8217;s new in this build:</b></p>
+        <p>This is a bug fixing release, after last few days of people’s test reports of 0.4.1:</p>
+        <ul>
+        	<li>Fixed a set of issues discovered by Paul S. which include: Issues with configuring detailed logs on WIndows 11 Home, problems handling `/ext` on WIndows 11 Home (after the changes done on 0.4.2).</li>
+        	<li>Fixed an issue found by Stuart P. where I mistakenly moved the `txt` extension behind the Forth extensions in for the 0xFFF filetype (given I am testing a new Forth compiler for my Ultima) and that cuased some issue with text files.</li>
+        	<li>Fixed issues with special file extensions reported by Phil M.</li>
+        </ul>
+        <ul>
+        	<li>Finally had the time to fix the issue with case-sensitive filesystems and <span class="caps">RISC</span> OS beign not case-sensitive</li>
+        	<li>New `&#8212;log-level debug` parameter available, so it&#8217;s not longer needed to use RUST_LOG=debug, this should finally make the debug logs appears on every possible platform. So to collect debugs now just run `.\riscos_share_fs.exe —log-level debug` on Windows and `./riscos_share_fs —log-level debug` on all <span class="caps">UNIX</span>-like OS (Linux, macOS and <span class="caps">BSD</span>).</li>
+        </ul>
+        <p>There is still an open bug with the server cache, when opening two shares on the same backend and very similar paths. It may cause some torubles opening files on the 2nd share a second time. I am investigating the issue and will release a fix <span class="caps">ASAP</span>.</p>
+        <p>As usual the release is available to download and testing from the usual <span class="caps">URL</span>, please let me know what you find with this one.</p>
+        <p>I will send the usual email out shortly (for the folks that do not read the ROOL&#8217;s forum).</p>
+        <p>Enjoy!</p>]]>
+      </description>
+      <source:markdown>**@ all alpha testers**
+
+A new alpha build, 0.4.3, is available for testing.
+
+**What’s new in this build:**
+
+This is a bug fixing release, after last few days of people’s test reports of 0.4.1:
+
+- Fixed a set of issues discovered by Paul S. which include: Issues with configuring detailed logs on WIndows 11 Home, problems handling \`/ext\` on WIndows 11 Home (after the changes done on 0.4.2).
+- Fixed an issue found by Stuart P. where I mistakenly moved the \`txt\` extension behind the Forth extensions in for the 0xFFF filetype (given I am testing a new Forth compiler for my Ultima) and that cuased some issue with text files.
+- Fixed issues with special file extensions reported by Phil M.
+
+- Finally had the time to fix the issue with case-sensitive filesystems and RISC OS beign not case-sensitive
+- New \`—log-level debug\` parameter available, so it’s not longer needed to use RUST\_LOG=debug, this should finally make the debug logs appears on every possible platform. So to collect debugs now just run \`.\\riscos\_share\_fs.exe —log-level debug\` on Windows and \`./riscos\_share\_fs —log-level debug\` on all UNIX-like OS (Linux, macOS and BSD).
+
+There is still an open bug with the server cache, when opening two shares on the same backend and very similar paths. It may cause some torubles opening files on the 2nd share a second time. I am investigating the issue and will release a fix ASAP.
+
+As usual the release is available to download and testing from the usual URL, please let me know what you find with this one.
+
+I will send the usual email out shortly (for the folks that do not read the ROOL’s forum).
+
+Enjoy!</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:164072</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mlxwnsdqz22i</link>
+      <description>
+        <![CDATA[AI systems are no longer just models.
+        
+        Models can propose.
+        Systems must verify.
+        
+        New article: https://paolozaino.wordpress.com/2026/05/16/ai-ai-systems-are-no-longer-just-models-and-runtime-verification-is-becoming-the-new-security-boundary/
+        
+        #AI #AISecurity #AIGovernance #AgenticAI #RuntimeVerification #AISecurity #CyberSecurity #SoftwareEngineering #MachineLearning #MLOps #LLMOps #RiskManagement]]>
+      </description>
+      <source:markdown>AI systems are no longer just models.
+
+Models can propose.
+Systems must verify.
+
+New article: https://paolozaino.wordpress.com/2026/05/16/ai-ai-systems-are-no-longer-just-models-and-runtime-verification-is-becoming-the-new-security-boundary/
+
+#AI #AISecurity #AIGovernance #AgenticAI #RuntimeVerification #AISecurity #CyberSecurity #SoftwareEngineering #MachineLearning #MLOps #LLMOps #RiskManagement</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mlxwnsdqz22i</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlxkobr5xk2q</link>
+      <description>
+        <![CDATA[How many of you can remember spending your weekend in front of the family TV typing in a listing from a magazine or book, only to find it wouldn't RUN after hours of typing? Frustrating to say the least, but quite often it was due to a simple typo you made. It was a good learning process though.]]>
+      </description>
+      <source:markdown>How many of you can remember spending your weekend in front of the family TV typing in a listing from a magazine or book, only to find it wouldn&#39;t RUN after hours of typing? Frustrating to say the least, but quite often it was due to a simple typo you made. It was a good learning process though.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mlxkobr5xk2q</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mlx7oayzks2g</link>
+      <description>
+        <![CDATA[Code the Classics Volume 2 for RISC OS - Kinetix release 
+        
+        https://www.iconbar.com/articles/Code_the_Classics_Volume_2_for_RISC_OS_-_Kinetix_release/index2334.html 
+        
+        Jeroen has been continuing with his project to bring RISC OS versions of the games featured in the book Code the Classics Volume 2 to RISC OS and has now released Kinetix.]]>
+      </description>
+      <source:markdown>Code the Classics Volume 2 for RISC OS - Kinetix release
+
+https://www.iconbar.com/articles/Code\_the\_Classics\_Volume\_2\_for\_RISC\_OS\_-\_Kinetix\_release/index2334.html
+
+Jeroen has been continuing with his project to bring RISC OS versions of the games featured in the book Code the Classics Volume 2 to RISC OS and has now released Kinetix.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mlx7oayzks2g</guid>
+    </item>    <item>
+      <title>Binary files.</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20410</link>
+      <description>
+        <![CDATA[<p>Largely I&#8217;ve been reading either reading the file in, in segments that are useful (reading words at a time, or whatever), or defining structures (using the uint32_t types) and accessing things that way. It&#8217;s rare to find a file format that is <strong>defined</strong> to be an in memory structure, which has pointers in it. Most commonly the file format is using offsets within blocks, so those are easy to resolve.</p>
+        <p>Probably the closest example that I&#8217;ve got that&#8217;s public at the moment is for the Wimp Template files &#8211; <a href="https://github.com/gerph/riscos-wimp-templates/blob/master/c/templates">https://github.com/gerph/riscos-wimp-templates/blob/ma…</a> which reads in sections of the file as necessary, and fixes up in memory, rather than loading the file (or block for the template) into memory and then processing it (which is what the Wimp does). There aren&#8217;t too many other examples I can think of though.</p>]]>
+      </description>
+      <source:markdown>Largely I’ve been reading either reading the file in, in segments that are useful (reading words at a time, or whatever), or defining structures (using the uint32\_t types) and accessing things that way. It’s rare to find a file format that is **defined** to be an in memory structure, which has pointers in it. Most commonly the file format is using offsets within blocks, so those are easy to resolve.
+
+Probably the closest example that I’ve got that’s public at the moment is for the Wimp Template files – [https://github.com/gerph/riscos-wimp-templates/blob/ma…](https://github.com/gerph/riscos-wimp-templates/blob/master/c/templates) which reads in sections of the file as necessary, and fixes up in memory, rather than loading the file (or block for the template) into memory and then processing it (which is what the Wimp does). There aren’t too many other examples I can think of though.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20410:164062</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 17th May at 1pm UK time</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20414</link>
+      <description>
+        <![CDATA[<p>This Sunday – 17th May, at 1pm UK time – I&#8217;ll be starting a new series where we pull<br />
+        together the previous graphics context, text rendering, sprite rendering and the Python<br />
+        implementation of icon rendering to create a renderer for icons in the WindowManager.</p>
+        <p>I&#8217;ll be using more of the built in tools from the <span class="caps">RISC</span> OS Build Environment to construct<br />
+        the new implementation. It should be quite an exciting session, if you&#8217;ve not seen some<br />
+        of the tooling work with <span class="caps">RISC</span> OS before.</p>
+        <p>Come along if you like – <a href="https://youtube.com/live/bH8x9VFi_r8?feature=share">https://youtube.com/live/bH8x9VFi_r8?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
+        <p>As there was some questions following the prior session &#8211; yes, all of the outputs from the things that these sessions are producing are usable on existing <span class="caps">RISC</span> OS versions. Part of the point of the <span class="caps">RISC</span> OS 64 project is that this produces working and usable components which people can test, examine, find bugs in and use before any system integration stage.</p>
+        <hr />
+        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
+        <p><a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_IconRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a> &#8211; shows the functionality we need to add. There&#8217;s quite a lot!</p>
+        <hr />
+        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTsdRKzv_uMif_KBGrSqP">https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTs…</a></p>
+        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimpiconrender.html">https://presentation.riscos.online/live/wimpiconrender…</a> (once it has been published).</p>
+        <hr />
+        <p>Here&#8217;s a repeat of the rendering that I created a couple of years ago to show the different types of icons and how they appear. See <a href="https://github.com/gerph/riscos-examples/blob/master/desktop/WimpPlotIcon%2Cfd1">https://github.com/gerph/riscos-examples/blob/master/d…</a> for the implementation.</p>
+        <p>This is what we&#8217;ll be aiming for&#8230;</p>
+        <h2>Text alignments, colours and borders</h2>
+        <p><img src="https://raw.githubusercontent.com/gerph/riscos-examples/master/desktop/WimpPlotIcon-Page1-Alignment%2BColours%2BBorders.png" alt="" /></p>
+        <h2>Sprite alignments</h2>
+        <p><img src="https://raw.githubusercontent.com/gerph/riscos-examples/master/desktop/WimpPlotIcon-Page2-Sprites.png" alt="" /></p>
+        <h2>Text+Sprite alignments</h2>
+        <p><img src="https://raw.githubusercontent.com/gerph/riscos-examples/master/desktop/WimpPlotIcon-Page3-Text%2BSprite.png" alt="" /></p>
+        <h2>Multi-line alignments (<span class="caps">RISC</span> OS Classic)</h2>
+        <p><img src="https://raw.githubusercontent.com/gerph/riscos-examples/master/desktop/WimpPlotIcon-Page4-MultiLine-Classic.png" alt="" /></p>
+        <h2>Multi-line unfilled (<span class="caps">RISC</span> OS Classic)</h2>
+        <p><img src="https://raw.githubusercontent.com/gerph/riscos-examples/master/desktop/WimpPlotIcon-Page5-MultiLine%2BUnfilled-Classic.png" alt="" /></p>]]>
+      </description>
+      <source:markdown>This Sunday – 17th May, at 1pm UK time – I’ll be starting a new series where we pull
+
+together the previous graphics context, text rendering, sprite rendering and the Python
+
+implementation of icon rendering to create a renderer for icons in the WindowManager.
+
+I’ll be using more of the built in tools from the RISC OS Build Environment to construct
+
+the new implementation. It should be quite an exciting session, if you’ve not seen some
+
+of the tooling work with RISC OS before.
+
+Come along if you like – [https://youtube.com/live/bH8x9VFi\_r8?feature=share](https://youtube.com/live/bH8x9VFi_r8?feature=share) – or you can always watch the video afterwards at the same address.
+
+As there was some questions following the prior session – yes, all of the outputs from the things that these sessions are producing are usable on existing RISC OS versions. Part of the point of the RISC OS 64 project is that this produces working and usable components which people can test, examine, find bugs in and use before any system integration stage.
+
+* * *
+
+For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
+
+[https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_IconRender) – shows the functionality we need to add. There’s quite a lot!
+
+* * *
+
+If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTs…](https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTsdRKzv_uMif_KBGrSqP)
+
+Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimpiconrender…](https://presentation.riscos.online/live/wimpiconrender.html) (once it has been published).
+
+* * *
+
+Here’s a repeat of the rendering that I created a couple of years ago to show the different types of icons and how they appear. See [https://github.com/gerph/riscos-examples/blob/master/d…](https://github.com/gerph/riscos-examples/blob/master/desktop/WimpPlotIcon%2Cfd1) for the implementation.
+
+This is what we’ll be aiming for…
+
+## Text alignments, colours and borders
+
+![](https://raw.githubusercontent.com/gerph/riscos-examples/master/desktop/WimpPlotIcon-Page1-Alignment%2BColours%2BBorders.png)
+
+## Sprite alignments
+
+![](https://raw.githubusercontent.com/gerph/riscos-examples/master/desktop/WimpPlotIcon-Page2-Sprites.png)
+
+## Text+Sprite alignments
+
+![](https://raw.githubusercontent.com/gerph/riscos-examples/master/desktop/WimpPlotIcon-Page3-Text%2BSprite.png)
+
+## Multi-line alignments (RISC OS Classic)
+
+![](https://raw.githubusercontent.com/gerph/riscos-examples/master/desktop/WimpPlotIcon-Page4-MultiLine-Classic.png)
+
+## Multi-line unfilled (RISC OS Classic)
+
+![](https://raw.githubusercontent.com/gerph/riscos-examples/master/desktop/WimpPlotIcon-Page5-MultiLine%2BUnfilled-Classic.png)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20414:164061</guid>
+    </item>    <item>
+      <title>Pi400 blank screen</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20409</link>
+      <description>
+        <![CDATA[<p>I had tried F12 with Wimpmode 28 before as I am familiar with that with the Archimedes I had in the past. It would have been great if that had worked. I was hoping there would be a way to get past the issue like Steven Gregory had found using a TV that gave a picture he could do something with. He had tried three monitors already at that point. In his case he had &#8220;a quick flash of a mostly textual boot screen.&#8221; I don&#8217;t get even that. I have tried three different screens, different images, different sd cards, several suggested configuration settings. Andrew even sent me a script I could try using a Pi3 I happen to have to set the screen resolution and then try the image in the Pi400. Unfortunately, it didn&#8217;t make a difference either. Thank you all for the suggestions.</p>
+        <p>From what I have read online before buying the Pi400 I had the impression that it would work really great with <span class="caps">RISC</span> OS. I thought there to be a large user base having the Pi400 running <span class="caps">RISC</span> OS practically out-of-the-box. As I am not the only one having the issue of a blank screen with the Pi400 I can imagine many more would have tried <span class="caps">RISC</span> OS and found it not to be working and not being much bothered about it move on to something else. Perhaps the Pi4 works very well running <span class="caps">RISC</span> OS and the Pi400 can be hit and miss for some.</p>]]>
+      </description>
+      <source:markdown>I had tried F12 with Wimpmode 28 before as I am familiar with that with the Archimedes I had in the past. It would have been great if that had worked. I was hoping there would be a way to get past the issue like Steven Gregory had found using a TV that gave a picture he could do something with. He had tried three monitors already at that point. In his case he had “a quick flash of a mostly textual boot screen.” I don’t get even that. I have tried three different screens, different images, different sd cards, several suggested configuration settings. Andrew even sent me a script I could try using a Pi3 I happen to have to set the screen resolution and then try the image in the Pi400. Unfortunately, it didn’t make a difference either. Thank you all for the suggestions.
+
+From what I have read online before buying the Pi400 I had the impression that it would work really great with RISC OS. I thought there to be a large user base having the Pi400 running RISC OS practically out-of-the-box. As I am not the only one having the issue of a blank screen with the Pi400 I can imagine many more would have tried RISC OS and found it not to be working and not being much bothered about it move on to something else. Perhaps the Pi4 works very well running RISC OS and the Pi400 can be hit and miss for some.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20409:164058</guid>
+    </item>    <item>
+      <title>iMX6 Revision D1</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20411</link>
+      <description>
+        <![CDATA[<p>no it just shows unset and ? marks, and if i set the IP manually it goes back to the &#8220;IfConfig Eth0 Interface does not Exist&#8221;</p>]]>
+      </description>
+      <source:markdown>no it just shows unset and ? marks, and if i set the IP manually it goes back to the “IfConfig Eth0 Interface does not Exist”</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20411:164048</guid>
+    </item>    <item>
       <title>Frosted ThemeDefs V4.01 is Out!</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20413</link>
       <description>
@@ -39,19 +258,6 @@ For the moment I installed it in Boot.Resources, it is a Wallpaper directory by 
       </description>
       <source:markdown>Jeroen has been continuing with his project to bring RISC OS versions of the games featured in the book Code the Classics Volume 2 to RISC OS and has now released Kinetix.</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2334.html</guid>
-    </item>    <item>
-      <title>iMX6 Revision D1</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20411</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>It shows up in configure but everything in there is question marked out, as if the device doesnt exist.</p>
-        </blockquote>
-        <p>That implies that the EtherTH module is unplugged.</p>]]>
-      </description>
-      <source:markdown>&#62; It shows up in configure but everything in there is question marked out, as if the device doesnt exist.
-
-That implies that the EtherTH module is unplugged.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20411:164033</guid>
     </item>    <item>
       <title>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20399</link>
@@ -196,20 +402,6 @@ Yes. Tardis. See the discussion [here](https://www.riscosopen.org/forum/forums/1
 https://rougol.jellybaby.net/meetings/index.html</source:markdown>
       <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mlqryn6iuk2k</guid>
     </item>    <item>
-      <title>Pi400 blank screen</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20409</link>
-      <description>
-        <![CDATA[<p>I just bought a Pi400 last week for use with <span class="caps">RISC</span> OS. Unfortunately, I only get a black screen.</p>
-        <p>I have tried the image from this website, the image from <span class="caps">RISC</span> OS Direct, and the image loaded via the Pi Imager application. I have tried with three different microSD cards.</p>
-        <p>Is there someone who had the same experience and has good suggestions to find a solution? Any help will be greatly appreciated.</p>]]>
-      </description>
-      <source:markdown>I just bought a Pi400 last week for use with RISC OS. Unfortunately, I only get a black screen.
-
-I have tried the image from this website, the image from RISC OS Direct, and the image loaded via the Pi Imager application. I have tried with three different microSD cards.
-
-Is there someone who had the same experience and has good suggestions to find a solution? Any help will be greatly appreciated.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20409:163996</guid>
-    </item>    <item>
       <title>AcornSSL with server support</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/19132</link>
       <description>
@@ -345,50 +537,6 @@ https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=5#post
 
 #riscos #FileSharing #Linux #Windows #macOS #BSD</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mllhm2ny6s2h</guid>
-    </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p><b>@ all alpha testers</b></p>
-        <p>A new alpha build, 0.4.2, is available for testing.</p>
-        <p><b>What&#8217;s new in this build:</b></p>
-        <p>This is a bug fixing release, after last few days of people’s test reports of 0.4.1:</p>
-        <ul>
-        	<li>Fixed a set of issues discovered by Phil M., Bob L. with naming translations (in both HostFS and Advanced modes)</li>
-        	<li>Fixed a outstanding issue with certain file names (edge case) some users reported when havign a mix of `/` and `(` and `)` in a file name.</li>
-        	<li>Improved base performance for file copying to the server</li>
-        	<li>Fixes some minor issues in the sharefs.toml.example file</li>
-        	<li>Improved documentation after a set of questions received these past days</li>
-        	<li>Added mappings for a couple of audio filetypes (thanks Bob L. for finding these two missing), and for MS Excel filetype (thanks Phil M. for this one)</li>
-        </ul>
-        <p>There is still an open bug with the server cache, when opening two shares on the same backend it may cause some torubles opening files on the 2nd share. I am investigating the issue and will release a fix <span class="caps">ASAP</span>.</p>
-        <p>As usual the release is available to download and testing from the usual <span class="caps">URL</span>, please let me know what you find with this one.</p>
-        <p>I will send the usual email out shortly (for the folks that do not read the ROOL&#8217;s forum).</p>
-        <p>Enjoy!</p>]]>
-      </description>
-      <source:markdown>**@ all alpha testers**
-
-A new alpha build, 0.4.2, is available for testing.
-
-**What’s new in this build:**
-
-This is a bug fixing release, after last few days of people’s test reports of 0.4.1:
-
-- Fixed a set of issues discovered by Phil M., Bob L. with naming translations (in both HostFS and Advanced modes)
-- Fixed a outstanding issue with certain file names (edge case) some users reported when havign a mix of \`/\` and \`(\` and \`)\` in a file name.
-- Improved base performance for file copying to the server
-- Fixes some minor issues in the sharefs.toml.example file
-- Improved documentation after a set of questions received these past days
-- Added mappings for a couple of audio filetypes (thanks Bob L. for finding these two missing), and for MS Excel filetype (thanks Phil M. for this one)
-
-There is still an open bug with the server cache, when opening two shares on the same backend it may cause some torubles opening files on the 2nd share. I am investigating the issue and will release a fix ASAP.
-
-As usual the release is available to download and testing from the usual URL, please let me know what you find with this one.
-
-I will send the usual email out shortly (for the folks that do not read the ROOL’s forum).
-
-Enjoy!</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:163954</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mllh4g5yhs2c</link>
       <description>
