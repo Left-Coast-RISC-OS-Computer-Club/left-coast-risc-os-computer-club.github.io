@@ -2,9 +2,9 @@
 <html lang="en-US">
 <head>
   <meta charset="utf-8" >
-  <meta name="generator" content="antenna/0.0.23b" >
-  <meta name="date" content="2026-05-16T12:00:32-07:00" >
-  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
+  <meta content="antenna/0.0.23b" name="generator" >
+  <meta name="date" content="2026-05-17T12:00:23-07:00" >
+  <link href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" type="application/rss+xml" >
 </head>
 <body>
   <header>
@@ -19,6 +19,122 @@
     </ul>
   </nav>
   <section>
+
+    <article data-published="2026-05-17T16:52:16Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20409">
+      <h1>Pi400 blank screen</h1>
+
+(date: 2026-05-17)
+      <p>
+      <p>I was wondering if there is some way to track the launch process for RISC OS to reach the desktop screen. For example, with Haiku you have visible feedback that it is starting up by icons that light up to indicate it has passed a certain state as it progresses to the desktop. On my Pi3 I can also see text output, while it goes so fast I cannot even read it before the GUI is activated, but it is certainly progressing into the desktop.</p>
+<p>If for the Pi400 there could be a log generated that can be looked into to see if it gets stuck somewhere, that would be helpful. I know it sounds oldschool but I can imagine that a debug log has been used while developing the OS.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20409">https://www.riscosopen.org/forum/forums/11/topics/20409</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-17T11:24:41Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20414">
+      <h1>Live Coding with Gerph, Sunday 17th May at 1pm UK time</h1>
+
+(date: 2026-05-17)
+      <p>
+      <p>Going live in 35 minutes!</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20414">https://www.riscosopen.org/forum/forums/1/topics/20414</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-17T10:42:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm26hgnugc2n">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-05-17)
+      <p>
+      <p>Lothlorien Game Studio in Manchester - 1988. A typical small development studio working on home computer titles. This room has lots of Tatung Einsteins - these were used as host development machines that assembled the game and deployed them to the target machine to run. Video by Paul Marshall.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm26hgnugc2n">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm26hgnugc2n</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-17T07:07:01Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20415">
+      <h1>SparkFS instructions missing</h1>
+
+(date: 2026-05-17)
+      <p>
+      <p>I got a few issues when trying to install and use the new version of SparkFS, so I thought I’d describe them here for others.</p>
+<ol>
+<li>I tried to use the self extracting version of SparkFS.</li>
+</ol>
+<p>I downloaded it, set the filetype to Absolute and double-clicked on it. It kept crashing at address &amp;8024, which is the first instruction to push something on the stack. I resorted to download the nightly build of HardDisc4 instead, but since then I have figured out that changing the “Next” wimpslot which was at 32768k allowed me to run it successfully. I have now tried various larger or smaller slot sizes without problem. So I dunno why that slot size doesn’t work (OS 5.31 22-Jul-24).</p>
+<p>So, it worked but I didn’t see anything written in the same folder as the installer nor in the Utilities folder. It took me a while to notice that it installed !SparkFS next to !Boot.</p>
+<ol start="2">
+<li>I used the new version of the application, but could not rename any file within a zip.</li>
+</ol>
+<p>I checked the versions of the modules, they were the new ones so that was OK.</p>
+<p>I checked the Choices window, it is not a option in the interface.</p>
+<p>I checked for the Help file, but none is provided.</p>
+<p>Finally after typing *help SparkFS I noticed a ZipRenameMode command and after checking I added the following line to !SparkFS.AutoRun.Zip:</p>
+<p>ZipRenameMode -Permit</p>
+<p>I restarted !SparkFS and now it works.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20415">https://www.riscosopen.org/forum/forums/11/topics/20415</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-16T21:45:56Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/19132">
+      <h1>AcornSSL with server support</h1>
+
+(date: 2026-05-16)
+      <p>
+      <p>The new version seems to be working, and almost working properly. It has accepted incoming connections using TLS1.3.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/19132">https://www.riscosopen.org/forum/forums/1/topics/19132</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-16T19:31:55Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20389">
+      <h1>Risc OS Install on SSD</h1>
+
+(date: 2026-05-16)
+      <p>
+      <p>Hi All</p>
+<p>Before I get my SSD drive, I thought I’d give it a try on a 32GB microSD card.</p>
+<p>It works a treat. Have now got a 32GB (28GB Free) hard drive.</p>
+<p>Pretty happy with it. Changed the theme to Ursula and copied the background from RPCEmu on my laptop to the pi so now I have the acorn logo in the corner and the acorn wallpaper from ROS3.71.</p>
+<p>Kindest Regards,</p>
+<p>Brett</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20389">https://www.riscosopen.org/forum/forums/11/topics/20389</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-16T19:19:49Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20413">
+      <h1>Frosted ThemeDefs V4.01 is Out!</h1>
+
+(date: 2026-05-16)
+      <p>
+      <p>I Just add it to the root of the Hard Drive and then drag the wallpaper to pinboards configure manually, The Link is updated with a newer build which now includes the Pi Rom/config.txt for those that want the other UI stuff, Themed SparkFS, Fonts and a Additional Wallpaper</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20413">https://www.riscosopen.org/forum/forums/1/topics/20413</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-16T19:07:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlyk7ipges2q">
+      <h1>@kevedwardsretro.bsky.social</h1>
+
+(date: 2026-05-16)
+      <p>
+      <p>Remembering the time we went on holiday to Wales and the cottage had a Nintendo 64 setup with lots of games - plus a CRT TV as a bonus. I introduced my family to some of the quality RARE games that I grew up with.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlyk7ipges2q">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlyk7ipges2q</a>
+      </address>
+    </article>
 
     <article data-published="2026-05-16T18:03:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mlygmuluuk2k">
       <h1>@paolofabiozaino.bsky.social</h1>
@@ -86,6 +202,18 @@ Systems must verify.</p>
       </address>
     </article>
 
+    <article data-published="2026-05-16T11:39:11Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20410">
+      <h1>Binary files.</h1>
+
+(date: 2026-05-16)
+      <p>
+      <p>There is some bugs it was raised during the last ROUGOL meeting, when Bryan Hogan made a fix for ZapRedraw to work better with Messenger Pro.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/13/topics/20410">https://www.riscosopen.org/forum/forums/13/topics/20410</a>
+      </address>
+    </article>
+
     <article data-published="2026-05-16T09:43:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlxkobr5xk2q">
       <h1>@kevedwardsretro.bsky.social</h1>
 
@@ -112,70 +240,6 @@ Systems must verify.</p>
       </address>
     </article>
 
-    <article data-published="2026-05-16T02:38:19Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20410">
-      <h1>Binary files.</h1>
-
-(date: 2026-05-16)
-      <p>
-      <p>Largely I’ve been reading either reading the file in, in segments that are useful (reading words at a time, or whatever), or defining structures (using the uint32_t types) and accessing things that way. It’s rare to find a file format that is <strong>defined</strong> to be an in memory structure, which has pointers in it. Most commonly the file format is using offsets within blocks, so those are easy to resolve.</p>
-<p>Probably the closest example that I’ve got that’s public at the moment is for the Wimp Template files – <a href="https://github.com/gerph/riscos-wimp-templates/blob/master/c/templates">https://github.com/gerph/riscos-wimp-templates/blob/ma…</a> which reads in sections of the file as necessary, and fixes up in memory, rather than loading the file (or block for the template) into memory and then processing it (which is what the Wimp does). There aren’t too many other examples I can think of though.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/13/topics/20410">https://www.riscosopen.org/forum/forums/13/topics/20410</a>
-      </address>
-    </article>
-
-    <article data-published="2026-05-16T00:49:09Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20414">
-      <h1>Live Coding with Gerph, Sunday 17th May at 1pm UK time</h1>
-
-(date: 2026-05-16)
-      <p>
-      <p>This Sunday – 17th May, at 1pm UK time – I’ll be starting a new series where we pull</p>
-<p>together the previous graphics context, text rendering, sprite rendering and the Python</p>
-<p>implementation of icon rendering to create a renderer for icons in the WindowManager.</p>
-<p>I’ll be using more of the built in tools from the RISC OS Build Environment to construct</p>
-<p>the new implementation. It should be quite an exciting session, if you’ve not seen some</p>
-<p>of the tooling work with RISC OS before.</p>
-<p>Come along if you like – <a href="https://youtube.com/live/bH8x9VFi_r8?feature=share">https://youtube.com/live/bH8x9VFi_r8?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
-<p>As there was some questions following the prior session – yes, all of the outputs from the things that these sessions are producing are usable on existing RISC OS versions. Part of the point of the RISC OS 64 project is that this produces working and usable components which people can test, examine, find bugs in and use before any system integration stage.</p>
-<hr>
-<p>For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.</p>
-<p><a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_IconRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a> – shows the functionality we need to add. There’s quite a lot!</p>
-<hr>
-<p>If you want to watch the whole series, you can follow it through the playlist on YouTube – <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTsdRKzv_uMif_KBGrSqP">https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTs…</a></p>
-<p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimpiconrender.html">https://presentation.riscos.online/live/wimpiconrender…</a> (once it has been published).</p>
-<hr>
-<p>Here’s a repeat of the rendering that I created a couple of years ago to show the different types of icons and how they appear. See <a href="https://github.com/gerph/riscos-examples/blob/master/desktop/WimpPlotIcon%2Cfd1">https://github.com/gerph/riscos-examples/blob/master/d…</a> for the implementation.</p>
-<p>This is what we’ll be aiming for…</p>
-<h2>Text alignments, colours and borders</h2>
-<p><img src="https://raw.githubusercontent.com/gerph/riscos-examples/master/desktop/WimpPlotIcon-Page1-Alignment%2BColours%2BBorders.png" alt=""></p>
-<h2>Sprite alignments</h2>
-<p><img src="https://raw.githubusercontent.com/gerph/riscos-examples/master/desktop/WimpPlotIcon-Page2-Sprites.png" alt=""></p>
-<h2>Text+Sprite alignments</h2>
-<p><img src="https://raw.githubusercontent.com/gerph/riscos-examples/master/desktop/WimpPlotIcon-Page3-Text%2BSprite.png" alt=""></p>
-<h2>Multi-line alignments (RISC OS Classic)</h2>
-<p><img src="https://raw.githubusercontent.com/gerph/riscos-examples/master/desktop/WimpPlotIcon-Page4-MultiLine-Classic.png" alt=""></p>
-<h2>Multi-line unfilled (RISC OS Classic)</h2>
-<p><img src="https://raw.githubusercontent.com/gerph/riscos-examples/master/desktop/WimpPlotIcon-Page5-MultiLine%2BUnfilled-Classic.png" alt=""></p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20414">https://www.riscosopen.org/forum/forums/1/topics/20414</a>
-      </address>
-    </article>
-
-    <article data-published="2026-05-15T20:40:29Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20409">
-      <h1>Pi400 blank screen</h1>
-
-(date: 2026-05-15)
-      <p>
-      <p>I had tried F12 with Wimpmode 28 before as I am familiar with that with the Archimedes I had in the past. It would have been great if that had worked. I was hoping there would be a way to get past the issue like Steven Gregory had found using a TV that gave a picture he could do something with. He had tried three monitors already at that point. In his case he had “a quick flash of a mostly textual boot screen.” I don’t get even that. I have tried three different screens, different images, different sd cards, several suggested configuration settings. Andrew even sent me a script I could try using a Pi3 I happen to have to set the screen resolution and then try the image in the Pi400. Unfortunately, it didn’t make a difference either. Thank you all for the suggestions.</p>
-<p>From what I have read online before buying the Pi400 I had the impression that it would work really great with RISC OS. I thought there to be a large user base having the Pi400 running RISC OS practically out-of-the-box. As I am not the only one having the issue of a blank screen with the Pi400 I can imagine many more would have tried RISC OS and found it not to be working and not being much bothered about it move on to something else. Perhaps the Pi4 works very well running RISC OS and the Pi400 can be hit and miss for some.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20409">https://www.riscosopen.org/forum/forums/11/topics/20409</a>
-      </address>
-    </article>
-
     <article data-published="2026-05-15T16:50:48Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20411">
       <h1>iMX6 Revision D1</h1>
 
@@ -185,20 +249,6 @@ Systems must verify.</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/11/topics/20411">https://www.riscosopen.org/forum/forums/11/topics/20411</a>
-      </address>
-    </article>
-
-    <article data-published="2026-05-15T16:35:29Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20413">
-      <h1>Frosted ThemeDefs V4.01 is Out!</h1>
-
-(date: 2026-05-15)
-      <p>
-      <p>Thanks Martin,</p>
-<p>A quick question what is the recommended location to install the WallPaper directory?</p>
-<p>For the moment I installed it in Boot.Resources, it is a Wallpaper directory by default, if I understood correctly.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20413">https://www.riscosopen.org/forum/forums/1/topics/20413</a>
       </address>
     </article>
 
@@ -425,22 +475,6 @@ Systems must verify.</p>
 
       <address>
         <a href="https://bsky.app/profile/rougol.bsky.social/post/3mlqryn6iuk2k">https://bsky.app/profile/rougol.bsky.social/post/3mlqryn6iuk2k</a>
-      </address>
-    </article>
-
-    <article data-published="2026-05-13T15:43:43Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/19132">
-      <h1>AcornSSL with server support</h1>
-
-(date: 2026-05-13)
-      <p>
-      <p>I’m trying to build a debug version of my updated AcornSSL module, but I get these linker errors of undefined symbols:</p>
-<p>ARM Linker: accept, referred to from C:mbedTLS.o.mbedTLSzm(net_sockets).</p>
-<p>ARM Linker: socketread, referred to from TCPIPLibs:o.unixlibzm(read).</p>
-<p>ARM Linker: socketwrite, referred to from TCPIPLibs:o.unixlibzm(write).</p>
-<p>Why do I get them only when building the debug version, and how can I satisfy them?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/19132">https://www.riscosopen.org/forum/forums/1/topics/19132</a>
       </address>
     </article>
 
@@ -1059,24 +1093,6 @@ youtube.com/watch?v=xM_-q_KyCig<a href="https://youtube.com/watch?v=xM">https://
 
       <address>
         <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ml4kmh5djs2g">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3ml4kmh5djs2g</a>
-      </address>
-    </article>
-
-    <article data-published="2026-05-05T15:22:17Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20389">
-      <h1>Risc OS Install on SSD</h1>
-
-(date: 2026-05-05)
-      <p>
-      <p>Hi Everyone,</p>
-<p>Thanks for all your replies. Very much appreciated.</p>
-<p>I am still waiting for my SystemDisc software from Piccolo Systems. I purchased it from Elesar on Friday, got an email that said it should be with me in 24hrs but I’m still waiting.</p>
-<p>I will give the steps Andrew posted a go and let you know the results. I do already have RiscOS Direct on SDCard.</p>
-<p>The SSD will be connected to the 400 via SATA to USB.</p>
-<p>Kindest Regards,</p>
-<p>Brett</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20389">https://www.riscosopen.org/forum/forums/11/topics/20389</a>
       </address>
     </article>
 
