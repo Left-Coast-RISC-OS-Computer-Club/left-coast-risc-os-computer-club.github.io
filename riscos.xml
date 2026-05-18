@@ -7,28 +7,492 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>17 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>18 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
-      <title>Pi400 blank screen</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20409</link>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm5gaexij22w</link>
       <description>
-        <![CDATA[<p>I was wondering if there is some way to track the launch process for <span class="caps">RISC</span> OS to reach the desktop screen. For example, with Haiku you have visible feedback that it is starting up by icons that light up to indicate it has passed a certain state as it progresses to the desktop. On my Pi3 I can also see text output, while it goes so fast I cannot even read it before the <span class="caps">GUI</span> is activated, but it is certainly progressing into the desktop.</p>
-        <p>If for the Pi400 there could be a log generated that can be looked into to see if it gets stuck somewhere, that would be helpful. I know it sounds oldschool but I can imagine that a debug log has been used while developing the OS.</p>]]>
+        <![CDATA[The time Tim Follin sent one of his Spectrum tunes into a magazine as a listing - Your Spectrum Issue 20 ( August 1987 )]]>
       </description>
-      <source:markdown>I was wondering if there is some way to track the launch process for RISC OS to reach the desktop screen. For example, with Haiku you have visible feedback that it is starting up by icons that light up to indicate it has passed a certain state as it progresses to the desktop. On my Pi3 I can also see text output, while it goes so fast I cannot even read it before the GUI is activated, but it is certainly progressing into the desktop.
+      <source:markdown>The time Tim Follin sent one of his Spectrum tunes into a magazine as a listing - Your Spectrum Issue 20 ( August 1987 )</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mm5gaexij22w</guid>
+    </item>    <item>
+      <title>RISC OS North 2027 confirmed</title>
+      <link>https://www.riscosnorth.uk/index.php/2026/05/18/risc-os-north-2027-confirmed/</link>
+      <description>
+        <![CDATA[After the success of the 2026 event, the organisors have confirmed that there will be another RISC OS North show in 2027. Stay tuned for more details.]]>
+      </description>
+      <source:markdown>After the success of the 2026 event, the organisors have confirmed that there will be another RISC OS North show in 2027. Stay tuned for more details.</source:markdown>
+      <guid>cid://https://www.riscosnorth.uk/?p=637</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm5cqk2rik2w</link>
+      <description>
+        <![CDATA[I was just watching a video about SNES PLOK! when this came up. If you know, you know.]]>
+      </description>
+      <source:markdown>I was just watching a video about SNES PLOK! when this came up. If you know, you know.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mm5cqk2rik2w</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mm5cbac25k2w</link>
+      <description>
+        <![CDATA[I'm not spending £20 to buy "access" to that new film for as long as the streaming giant deems it more convenient to serve me data than refund or go bust.
+        
+        Send me a disc! Have you any idea how cheap discs are?
+        
+        I'd die on the Physical Media hill, but that's a Hail Mary project these days.
+        https://static.klipy.com/ii/c3a19a0b747a76e98651f2b9a3cca5ff/3d/e2/Qy5jOhIH.gif?hh=385&ww=498&mp4=S6f0M3xBVek6&webm=GBJiZq6EsJ3XMWoTL]]>
+      </description>
+      <source:markdown>I&#39;m not spending £20 to buy &#34;access&#34; to that new film for as long as the streaming giant deems it more convenient to serve me data than refund or go bust.
 
-If for the Pi400 there could be a log generated that can be looked into to see if it gets stuck somewhere, that would be helpful. I know it sounds oldschool but I can imagine that a debug log has been used while developing the OS.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20409:164085</guid>
+Send me a disc! Have you any idea how cheap discs are?
+
+I&#39;d die on the Physical Media hill, but that&#39;s a Hail Mary project these days.
+https://static.klipy.com/ii/c3a19a0b747a76e98651f2b9a3cca5ff/3d/e2/Qy5jOhIH.gif?hh=385&#38;ww=498&#38;mp4=S6f0M3xBVek6&#38;webm=GBJiZq6EsJ3XMWoTL</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mm5cbac25k2w</guid>
+    </item>    <item>
+      <title>Break out your contollers to play Kinetix</title>
+      <link>https://www.riscository.com/2026/kinetix-released/</link>
+      <description>
+        <![CDATA[Do you see what I did there? 😉 It&#8217;s game time again, with another title from Code the Classics Volume II converted to run on RISC OS by Jeroen Vermeulen &#8211; this time a Breakout clone called Kinetix, which is now available to download from !Store. The aim of the game is simple &#8211; using your bat at the bottom of the screen, bounce a ball against a wall of colourful bricks above you in order to gradually knock them out. You need to move the bat left and right&#8230;]]>
+      </description>
+      <source:markdown>Do you see what I did there? 😉 It’s game time again, with another title from Code the Classics Volume II converted to run on RISC OS by Jeroen Vermeulen – this time a Breakout clone called Kinetix, which is now available to download from !Store. The aim of the game is simple – using your bat at the bottom of the screen, bounce a ball against a wall of colourful bricks above you in order to gradually knock them out. You need to move the bat left and right…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10949</guid>
+    </item>    <item>
+      <title>Rougol May 2026 meeting on monday - ARX and the Acorn Palo Alto Research Centre</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13590&#38;page=1#125893</link>
+      <description>
+        <![CDATA[Meeting starts soon! There are at least five other Acorn employees joining us so the Q&A should be great]]>
+      </description>
+      <source:markdown>Meeting starts soon! There are at least five other Acorn employees joining us so the Q&#38;A should be great</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13590&#38;page=1#125893</guid>
+    </item>    <item>
+      <title>Kevsoft adds another quiz to the list: SemaQuiz</title>
+      <link>https://www.riscository.com/2026/semaquiz-released/</link>
+      <description>
+        <![CDATA[Kev Wells has released another new quiz application based on his quiz engine, this time designed to test people&#8217;s knowledge of Semaphore flag signalling, a visual method of sending information using handheld flags. Like Kev&#8217;s other quizzes, SemaQuiz offers a number of multiple choice questions; the user chooses what they think is the correct answer, and their score is totted up. The program is standalone, in that it doesn&#8217;t require an internet connection to run, but the source data it uses was taken from a couple of online resources &#8211;&#8230;]]>
+      </description>
+      <source:markdown>Kev Wells has released another new quiz application based on his quiz engine, this time designed to test people’s knowledge of Semaphore flag signalling, a visual method of sending information using handheld flags. Like Kev’s other quizzes, SemaQuiz offers a number of multiple choice questions; the user chooses what they think is the correct answer, and their score is totted up. The program is standalone, in that it doesn’t require an internet connection to run, but the source data it uses was taken from a couple of online resources –…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10947</guid>
+    </item>    <item>
+      <title>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20399</link>
+      <description>
+        <![CDATA[<p>Martin &#8211; resent you the link.</p>
+        <p>Druck &#8211; I&#8217;ll try to remember to text you!</p>
+        <p>Everyone else &#8211; meeting starts soon! There are at least five other Acorn employees joining us so the Q&amp;A should be great :-)</p>]]>
+      </description>
+      <source:markdown>Martin – resent you the link.
+
+Druck – I’ll try to remember to text you!
+
+Everyone else – meeting starts soon! There are at least five other Acorn employees joining us so the Q&#38;A should be great :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20399:164109</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mm54jenhks2w</link>
+      <description>
+        <![CDATA[Dagnabbit.
+        
+        Anyone know anything about mechanical keyboard keycaps with unusual switch positions?]]>
+      </description>
+      <source:markdown>Dagnabbit.
+
+Anyone know anything about mechanical keyboard keycaps with unusual switch positions?</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mm54jenhks2w</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm52qzufr22w</link>
+      <description>
+        <![CDATA[I just read that Jean Michel Jarre is 77 years old ( 78 later this year ) and is still performing. He looks the same age as he did in the 1980s! I'm still loving his music. Thank you JMJ!]]>
+      </description>
+      <source:markdown>I just read that Jean Michel Jarre is 77 years old ( 78 later this year ) and is still performing. He looks the same age as he did in the 1980s! I&#39;m still loving his music. Thank you JMJ!</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mm52qzufr22w</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mm4u4w6yjc2w</link>
+      <description>
+        <![CDATA[Stuff'n'gubbins. Makes things go zoom and slow down where necessary.
+        
+        Significantly better without nail in tyre though. Hi ho.]]>
+      </description>
+      <source:markdown>Stuff&#39;n&#39;gubbins. Makes things go zoom and slow down where necessary.
+
+Significantly better without nail in tyre though. Hi ho.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mm4u4w6yjc2w</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mm4tv2o33k2r</link>
+      <description>
+        <![CDATA[We live in very interesting times, where people want to just ask an AI to find a security issue, doesn't really matters if the AI hallucinates it or finds something not exploitable, the user will submit it anyway... Understanding level = 0. 
+        
+        https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost-entirely-unmanageable/5241633]]>
+      </description>
+      <source:markdown>We live in very interesting times, where people want to just ask an AI to find a security issue, doesn&#39;t really matters if the AI hallucinates it or finds something not exploitable, the user will submit it anyway... Understanding level = 0.
+
+https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-bug-hunters-have-made-linux-security-mailing-list-almost-entirely-unmanageable/5241633</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mm4tv2o33k2r</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mm4smtk5g22w</link>
+      <description>
+        <![CDATA[TIL human speech transfers information at 39bps. 39 baud!
+        
+        So your early serial port was only 7½ times faster than talking.
+        https://static.klipy.com/ii/d7aec6f6f171607374b2065c836f92f4/2c/b4/wGeEA0oQ.gif?hh=215&ww=498&mp4=QC2pT1jScxS5zpZdRE16&webm=3SWPtxOaT2c4UvN1]]>
+      </description>
+      <source:markdown>TIL human speech transfers information at 39bps. 39 baud!
+
+So your early serial port was only 7½ times faster than talking.
+https://static.klipy.com/ii/d7aec6f6f171607374b2065c836f92f4/2c/b4/wGeEA0oQ.gif?hh=215&#38;ww=498&#38;mp4=QC2pT1jScxS5zpZdRE16&#38;webm=3SWPtxOaT2c4UvN1</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mm4smtk5g22w</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mm4rdvfx722q</link>
+      <description>
+        <![CDATA[Toshiba Libretto 70ct (with banana for scale)
+        
+        So tiny!]]>
+      </description>
+      <source:markdown>Toshiba Libretto 70ct (with banana for scale)
+
+So tiny!</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mm4rdvfx722q</guid>
+    </item>    <item>
+      <title>DeleGate garbage dates.</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20364</link>
+      <description>
+        <![CDATA[<p>OK&#8230; Had a chance to experiment with a couple of snippets of <span class="caps">BASIC</span> that Andrew (Owlart) sent me the other night, it seems like my <span class="caps">RTC</span>, (DS3231) is working correctly&#8230; The century byte is zero, and the decade byte is 26&#8230; The only thing that seems &#8220;off&#8221; is that the stored hour is an hour behind&#8230; I can only assume that is because it stores <span class="caps">GMT</span> and then deals with the timezone offset (currently <span class="caps">BST</span>) in software&#8230;</p>
+        <p>Still not sure why I&#8217;m getting 2100 as a timestamp when deleting files to DeleGate&#8217;s bins&#8230;</p>]]>
+      </description>
+      <source:markdown>OK… Had a chance to experiment with a couple of snippets of BASIC that Andrew (Owlart) sent me the other night, it seems like my RTC, (DS3231) is working correctly… The century byte is zero, and the decade byte is 26… The only thing that seems “off” is that the stored hour is an hour behind… I can only assume that is because it stores GMT and then deals with the timezone offset (currently BST) in software…
+
+Still not sure why I’m getting 2100 as a timestamp when deleting files to DeleGate’s bins…</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20364:164107</guid>
+    </item>    <item>
+      <title>Rougol May 2026 meeting on monday - ARX and the Acorn Palo Alto Research Centre</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13590&#38;page=1#125892</link>
+      <description>
+        <![CDATA[Really looking forward to hearing (and possibly) seeing the infamous ARX Operating System. It has been mentioned so many times.]]>
+      </description>
+      <source:markdown>Really looking forward to hearing (and possibly) seeing the infamous ARX Operating System. It has been mentioned so many times.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13590&#38;page=1#125892</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mm4gv6wg3k2s</link>
+      <description>
+        <![CDATA[Disc drives were really expensive. My first drive (which had a curious top-hinged front door) was so unreliable I eventually threw it against a brick wall in frustrated fury, and bought dual drives in a monitor stand... which I still have.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Disc drives were really expensive. My first drive (which had a curious top-hinged front door) was so unreliable I eventually threw it against a brick wall in frustrated fury, and bought dual drives in a monitor stand... which I still have.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mm4gv6wg3k2s</guid>
+    </item>    <item>
+      <title>ShareFSServer 0.4.2 released</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13598&#38;page=1#125891</link>
+      <description>
+        <![CDATA[Release 0.4.4 is in my inbox already.]]>
+      </description>
+      <source:markdown>Release 0.4.4 is in my inbox already.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13598&#38;page=1#125891</guid>
+    </item>    <item>
+      <title>ShareFSServer 0.4.2 released</title>
+      <link>http://www.iconbar.com/comments/rss/news2335.html</link>
+      <description>
+        <![CDATA[Paolo has been burning the midnight oil with his free ShareFSServer software and version 0.4.2 was released yesterday.]]>
+      </description>
+      <source:markdown>Paolo has been burning the midnight oil with his free ShareFSServer software and version 0.4.2 was released yesterday.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2335.html</guid>
     </item>    <item>
       <title>Live Coding with Gerph, Sunday 17th May at 1pm UK time</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20414</link>
       <description>
-        <![CDATA[<p>Going live in 35 minutes!</p>]]>
+        <![CDATA[<p>Very successful session today!</p>
+        <p>We got lots done:</p>
+        <ul>
+        	<li>Icon rendering is pretty much working as you&#8217;d expect.</li>
+        	<li>Positioning of text and sprite seems good.</li>
+        	<li>Colouring is working.</li>
+        	<li>R validation borders come out ok.</li>
+        	<li>C validation colour.</li>
+        	<li>D validation password.</li>
+        	<li>L validation multi-line.</li>
+        </ul>
+        <p>Bits that aren&#8217;t working:</p>
+        <ul>
+        	<li>Translation tables on sprites.</li>
+        	<li>Selection and shaded text.</li>
+        	<li>64-bit.</li>
+        	<li>Tinting.</li>
+        	<li>Highlight colours.</li>
+        	<li>IconBorders interfacing (wasn&#8217;t in the Python code).</li>
+        	<li>Plain borders seem too thick.</li>
+        </ul>
+        <p>First implemented in a command line tool, pulling in the libraries we need:</p>
+        <ul>
+        	<li>GContext graphics library.</li>
+        	<li>Validation string library.</li>
+        	<li>Text rendering library.</li>
+        	<li>Sprite rendering library.</li>
+        	<li>Graphics window clipping.</li>
+        </ul>
+        <p>Then integrated into a new module that you can call WimpPlotIcon_PlotIcon and get a rendering out.</p>
+        <p>Almost entirely implemented and integrated by an AI agent &#8211; very little human intervention to get here. Yes, there was quite a bit of setup and Gemini seemed to use very few of the skills I&#8217;d given it, but it looks pretty decent &#8211; very much like the original Python implementation.</p>
+        <p>And of course the CI will build the tests and run the <span class="caps">BASIC</span> program to check that things are working.</p>
+        <p>Anyone wanting to look at the results, here you go: <a href="https://github.com/gerph/riscos-wimp-iconrender">https://github.com/gerph/riscos-wimp-iconrender</a></p>
+        <p>Here&#8217;s what the results from today&#8217;s work looks like:</p>
+        <p><img src="https://share.gerph.org/s/yldDCHN3XMC1eTe/download"></p>
+        <p><img src="https://share.gerph.org/s/4qbWNOMjt8ESgwO/download"></p>
+        <p><img src="https://share.gerph.org/s/U8tSzwQMHycPZ17/download"></p>
+        <p><img src="https://share.gerph.org/s/kVipZtANj1MT9eg/download"></p>
+        <hr />
+        <p>At the end of the session there was a small demonstration of creating command line tools in Fortran and C++ as well.</p>]]>
       </description>
-      <source:markdown>Going live in 35 minutes!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20414:164081</guid>
+      <source:markdown>Very successful session today!
+
+We got lots done:
+
+- Icon rendering is pretty much working as you’d expect.
+- Positioning of text and sprite seems good.
+- Colouring is working.
+- R validation borders come out ok.
+- C validation colour.
+- D validation password.
+- L validation multi-line.
+
+Bits that aren’t working:
+
+- Translation tables on sprites.
+- Selection and shaded text.
+- 64-bit.
+- Tinting.
+- Highlight colours.
+- IconBorders interfacing (wasn’t in the Python code).
+- Plain borders seem too thick.
+
+First implemented in a command line tool, pulling in the libraries we need:
+
+- GContext graphics library.
+- Validation string library.
+- Text rendering library.
+- Sprite rendering library.
+- Graphics window clipping.
+
+Then integrated into a new module that you can call WimpPlotIcon\_PlotIcon and get a rendering out.
+
+Almost entirely implemented and integrated by an AI agent – very little human intervention to get here. Yes, there was quite a bit of setup and Gemini seemed to use very few of the skills I’d given it, but it looks pretty decent – very much like the original Python implementation.
+
+And of course the CI will build the tests and run the BASIC program to check that things are working.
+
+Anyone wanting to look at the results, here you go: [https://github.com/gerph/riscos-wimp-iconrender](https://github.com/gerph/riscos-wimp-iconrender)
+
+Here’s what the results from today’s work looks like:
+
+![](https://share.gerph.org/s/yldDCHN3XMC1eTe/download)
+
+![](https://share.gerph.org/s/4qbWNOMjt8ESgwO/download)
+
+![](https://share.gerph.org/s/U8tSzwQMHycPZ17/download)
+
+![](https://share.gerph.org/s/kVipZtANj1MT9eg/download)
+
+* * *
+
+At the end of the session there was a small demonstration of creating command line tools in Fortran and C++ as well.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20414:164103</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3mm3idk3zwk2v</link>
+      <description>
+        <![CDATA[Tonight! Looks like there will be at least five other ex-Acorn employees joining the meeting 😃
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Tonight! Looks like there will be at least five other ex-Acorn employees joining the meeting 😃
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mm3idk3zwk2v</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm3dyicrx222</link>
+      <description>
+        <![CDATA[So you can drive a car at upto 60 MPH over a 3" disk and it'll be OK? Anyone fancy trying it? To be fair, they are very robust compared with 3.5" ones.]]>
+      </description>
+      <source:markdown>So you can drive a car at upto 60 MPH over a 3&#34; disk and it&#39;ll be OK? Anyone fancy trying it? To be fair, they are very robust compared with 3.5&#34; ones.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mm3dyicrx222</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p><b>@all alpha testers</b></p>
+        <p>A new alpha build, 0.4.4, is available for testing.</p>
+        <p><b>What&#8217;s new in this build:</b></p>
+        <p>This is a log-improvement release, following reports from some users who experienced problems generating reports in 0.4.3.</p>
+        <ul>
+        	<li>This release tries to understand what Microsoft’s silly auto-correct attempts to type on Windows 11 when Copilot is enabled. Some international users are experiencing Windows correcting words they type, which is obviously changing the meaning of what they are trying to do. No kidding, we seem to have reached this point on Windows 11&#8230; So ShareFSServer now processes command-line parameters as tokens and reconstructs what the user meant, even if it was typed incorrectly.</li>
+        </ul>
+        <ul>
+        	<li>More system diagnostics in the logs. ShareFSServer now detects host system details, kernel version, configuration, etc., to help me reproduce some of the issues users might be experiencing.</li>
+        </ul>
+        <p>Thanks a lot for helping test this. Please make sure you always send your ShareFSServer logs when reporting a problem.</p>
+        <p>Thanks.</p>]]>
+      </description>
+      <source:markdown>**@all alpha testers**
+
+A new alpha build, 0.4.4, is available for testing.
+
+**What’s new in this build:**
+
+This is a log-improvement release, following reports from some users who experienced problems generating reports in 0.4.3.
+
+- This release tries to understand what Microsoft’s silly auto-correct attempts to type on Windows 11 when Copilot is enabled. Some international users are experiencing Windows correcting words they type, which is obviously changing the meaning of what they are trying to do. No kidding, we seem to have reached this point on Windows 11… So ShareFSServer now processes command-line parameters as tokens and reconstructs what the user meant, even if it was typed incorrectly.
+
+- More system diagnostics in the logs. ShareFSServer now detects host system details, kernel version, configuration, etc., to help me reproduce some of the issues users might be experiencing.
+
+Thanks a lot for helping test this. Please make sure you always send your ShareFSServer logs when reporting a problem.
+
+Thanks.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:164101</guid>
+    </item>    <item>
+      <title>RISC OS Build environment release 0.3.477</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20404</link>
+      <description>
+        <![CDATA[<p>That&#8217;s a pretty confusing name you&#8217;ve chosen there. Not the &#8220;<span class="caps">RISC</span> OS cross-compilation environment&#8221;, but the &#8220;<span class="caps">RISC</span> OS build environment&#8221;, not at all to be confused with the &#8220;<span class="caps">RISC</span> OS Desktop Development Environment&#8221; which is what has previously been referred to as the &#8220;<span class="caps">RISC</span> OS build environment&#8221; when paired with a source tree&#8230;</p>
+        <p>Could you consider naming it something a little less confusing?</p>]]>
+      </description>
+      <source:markdown>That’s a pretty confusing name you’ve chosen there. Not the “RISC OS cross-compilation environment”, but the “RISC OS build environment”, not at all to be confused with the “RISC OS Desktop Development Environment” which is what has previously been referred to as the “RISC OS build environment” when paired with a source tree…
+
+Could you consider naming it something a little less confusing?</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20404:164098</guid>
+    </item>    <item>
+      <title>Frosted ThemeDefs V4.01 is Out!</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20413</link>
+      <description>
+        <![CDATA[<p>Nice to see some new looks for <span class="caps">RISC</span> OS!</p>]]>
+      </description>
+      <source:markdown>Nice to see some new looks for RISC OS!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20413:164097</guid>
+    </item>    <item>
+      <title>!Iris and ROD system crashes</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20406</link>
+      <description>
+        <![CDATA[<p>I just built the arm64 Linux version of WebKitGtk with WebGL enabled, which is the same version of WebKitGtk as Iris uses.</p>
+        <p>This version also can&#8217;t get past the cloudflare security check and the same sites trigger the security check.<br />
+        It appears to be the WebKitGtk version that is incompatible. (WebKitGTK 2.40.5)</p>
+        <pre>
+        <code>
+        WebKit version
+        WebKitGTK 2.40.5 (313374@main)
+        Operating system
+        Linux 6.17.0-23-generic #23~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 14 15:59:10 UTC 2 aarch64
+        Desktop
+        LXQt
+        Cairo version
+        1.18.0 (build) 1.18.0 (runtime)
+        GTK version
+        3.24.41 (build) 3.24.41 (runtime)
+        </code>
+        </pre>]]>
+      </description>
+      <source:markdown>I just built the arm64 Linux version of WebKitGtk with WebGL enabled, which is the same version of WebKitGtk as Iris uses.
+
+This version also can’t get past the cloudflare security check and the same sites trigger the security check.
+
+It appears to be the WebKitGtk version that is incompatible. (WebKitGTK 2.40.5)
+
+```
+
+WebKit version
+WebKitGTK 2.40.5 (313374@main)
+Operating system
+Linux 6.17.0-23-generic #23~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 14 15:59:10 UTC 2 aarch64
+Desktop
+LXQt
+Cairo version
+1.18.0 (build) 1.18.0 (runtime)
+GTK version
+3.24.41 (build) 3.24.41 (runtime)
+
+```</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20406:164095</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm33pwydsk22</link>
+      <description>
+        <![CDATA[Apparently BBC Micro users can do it in 5 seconds! £520 for dual, double-sided,40/80 Track switchable drives + the cost of a DFS interface ( adds another £75 ), so call it £600! 1983 prices.]]>
+      </description>
+      <source:markdown>Apparently BBC Micro users can do it in 5 seconds! £520 for dual, double-sided,40/80 Track switchable drives + the cost of a DFS interface ( adds another £75 ), so call it £600! 1983 prices.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mm33pwydsk22</guid>
+    </item>    <item>
+      <title>AcornSSL with server support</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/19132</link>
+      <description>
+        <![CDATA[<p>I just (re)discovered an interesting shortcoming in mbedTLS.  In net_sockets is the function mbedtls_net_accept.  Have a look at the last few lines, where it copies the far end&#8217;s IP address into the buffer supplied in the function call.  That code is IPv4 <span class="caps">ONLY</span>.</p>
+        <p>In my earlier server version, I added code to make it work with IPv4 or IPv6.</p>
+        <p>I&#8217;m working with the nightly build of 2026 April 8, which is mbedTLS version 3.6.6, showing this problem.</p>]]>
+      </description>
+      <source:markdown>I just (re)discovered an interesting shortcoming in mbedTLS. In net\_sockets is the function mbedtls\_net\_accept. Have a look at the last few lines, where it copies the far end’s IP address into the buffer supplied in the function call. That code is IPv4 ONLY.
+
+In my earlier server version, I added code to make it work with IPv4 or IPv6.
+
+I’m working with the nightly build of 2026 April 8, which is mbedTLS version 3.6.6, showing this problem.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:19132:164094</guid>
+    </item>    <item>
+      <title>Pi400 blank screen</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20409</link>
+      <description>
+        <![CDATA[<p>This is silly I just got a Pi400 today I&#8217;m now going to test this out</p>
+        <p><span class="caps">EDI</span>: RPI400 Booted and Working! SD Card Created Using Raspberry Pi Imager (Raspberry Pi 400 Rev 1.1 Revision : c03131)</p>
+        <p>Config File: <br />
+        fake_vsync_isr=1<br />
+        framebuffer_swap=0<br />
+        gpu_mem=128<br />
+        disable_overscan=1<br />
+        max_framebuffer_width=3840<br />
+        max_framebuffer_height=2160<br />
+        hdmi_pixel_freq_limit=500000000<br />
+        ramfsfile=<span class="caps">CMOS</span><br />
+        ramfsaddr=0&#215;508000<br />
+        kernel=<span class="caps">RISCOS</span>.<span class="caps">IMG</span><br />
+        hdmi_drive=2<br />
+        hdmi_force_edid_audio=1<br />
+        audio_pwm_mode=2</p>
+        <p>[pi4]<br />
+        enable_gic=1<br />
+        hdmi_enable_4kp60=1</p>
+        <p><img src="https://images2.imgbox.com/dd/07/FU9pIsXw_o.jpg" alt="" /></p>]]>
+      </description>
+      <source:markdown>This is silly I just got a Pi400 today I’m now going to test this out
+
+EDI: RPI400 Booted and Working! SD Card Created Using Raspberry Pi Imager (Raspberry Pi 400 Rev 1.1 Revision : c03131)
+
+Config File:
+
+fake\_vsync\_isr=1
+
+framebuffer\_swap=0
+
+gpu\_mem=128
+
+disable\_overscan=1
+
+max\_framebuffer\_width=3840
+
+max\_framebuffer\_height=2160
+
+hdmi\_pixel\_freq\_limit=500000000
+
+ramfsfile=CMOS
+
+ramfsaddr=0×508000
+
+kernel=RISCOS.IMG
+
+hdmi\_drive=2
+
+hdmi\_force\_edid\_audio=1
+
+audio\_pwm\_mode=2
+
+\[pi4\]
+
+enable\_gic=1
+
+hdmi\_enable\_4kp60=1
+
+![](https://images2.imgbox.com/dd/07/FU9pIsXw_o.jpg)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20409:164087</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm26hgnugc2n</link>
       <description>
@@ -75,14 +539,6 @@ ZipRenameMode -Permit
 I restarted !SparkFS and now it works.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20415:164077</guid>
     </item>    <item>
-      <title>AcornSSL with server support</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/19132</link>
-      <description>
-        <![CDATA[<p>The new version seems to be working, and almost working properly.  It has accepted incoming connections using TLS1.3.</p>]]>
-      </description>
-      <source:markdown>The new version seems to be working, and almost working properly. It has accepted incoming connections using TLS1.3.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:19132:164076</guid>
-    </item>    <item>
       <title>Risc OS Install on SSD</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20389</link>
       <description>
@@ -106,14 +562,6 @@ Kindest Regards,
 Brett</source:markdown>
       <guid>cid://www.riscosopen.org:11:20389:164074</guid>
     </item>    <item>
-      <title>Frosted ThemeDefs V4.01 is Out!</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20413</link>
-      <description>
-        <![CDATA[<p>I Just add it to the root of the Hard Drive and then drag the wallpaper to pinboards configure manually, The Link is updated with a newer build which now includes the Pi Rom/config.txt for those that want the other UI stuff, Themed SparkFS, Fonts and a Additional Wallpaper</p>]]>
-      </description>
-      <source:markdown>I Just add it to the root of the Hard Drive and then drag the wallpaper to pinboards configure manually, The Link is updated with a newer build which now includes the Pi Rom/config.txt for those that want the other UI stuff, Themed SparkFS, Fonts and a Additional Wallpaper</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20413:164073</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mlyk7ipges2q</link>
       <description>
         <![CDATA[Remembering the time we went on holiday to Wales and the cottage had a Nintendo 64 setup with lots of games - plus a CRT TV as a bonus. I introduced my family to some of the quality RARE games that I grew up with.]]>
@@ -135,51 +583,6 @@ https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=5#post
 
 #riscos #OpenSource #FileSharing #Linux #macOS #Windows #BSD</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mlygmuluuk2k</guid>
-    </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p><b>@ all alpha testers</b></p>
-        <p>A new alpha build, 0.4.3, is available for testing.</p>
-        <p><b>What&#8217;s new in this build:</b></p>
-        <p>This is a bug fixing release, after last few days of people’s test reports of 0.4.1:</p>
-        <ul>
-        	<li>Fixed a set of issues discovered by Paul S. which include: Issues with configuring detailed logs on WIndows 11 Home, problems handling `/ext` on WIndows 11 Home (after the changes done on 0.4.2).</li>
-        	<li>Fixed an issue found by Stuart P. where I mistakenly moved the `txt` extension behind the Forth extensions in for the 0xFFF filetype (given I am testing a new Forth compiler for my Ultima) and that cuased some issue with text files.</li>
-        	<li>Fixed issues with special file extensions reported by Phil M.</li>
-        </ul>
-        <ul>
-        	<li>Finally had the time to fix the issue with case-sensitive filesystems and <span class="caps">RISC</span> OS beign not case-sensitive</li>
-        	<li>New `&#8212;log-level debug` parameter available, so it&#8217;s not longer needed to use RUST_LOG=debug, this should finally make the debug logs appears on every possible platform. So to collect debugs now just run `.\riscos_share_fs.exe —log-level debug` on Windows and `./riscos_share_fs —log-level debug` on all <span class="caps">UNIX</span>-like OS (Linux, macOS and <span class="caps">BSD</span>).</li>
-        </ul>
-        <p>There is still an open bug with the server cache, when opening two shares on the same backend and very similar paths. It may cause some torubles opening files on the 2nd share a second time. I am investigating the issue and will release a fix <span class="caps">ASAP</span>.</p>
-        <p>As usual the release is available to download and testing from the usual <span class="caps">URL</span>, please let me know what you find with this one.</p>
-        <p>I will send the usual email out shortly (for the folks that do not read the ROOL&#8217;s forum).</p>
-        <p>Enjoy!</p>]]>
-      </description>
-      <source:markdown>**@ all alpha testers**
-
-A new alpha build, 0.4.3, is available for testing.
-
-**What’s new in this build:**
-
-This is a bug fixing release, after last few days of people’s test reports of 0.4.1:
-
-- Fixed a set of issues discovered by Paul S. which include: Issues with configuring detailed logs on WIndows 11 Home, problems handling \`/ext\` on WIndows 11 Home (after the changes done on 0.4.2).
-- Fixed an issue found by Stuart P. where I mistakenly moved the \`txt\` extension behind the Forth extensions in for the 0xFFF filetype (given I am testing a new Forth compiler for my Ultima) and that cuased some issue with text files.
-- Fixed issues with special file extensions reported by Phil M.
-
-- Finally had the time to fix the issue with case-sensitive filesystems and RISC OS beign not case-sensitive
-- New \`—log-level debug\` parameter available, so it’s not longer needed to use RUST\_LOG=debug, this should finally make the debug logs appears on every possible platform. So to collect debugs now just run \`.\\riscos\_share\_fs.exe —log-level debug\` on Windows and \`./riscos\_share\_fs —log-level debug\` on all UNIX-like OS (Linux, macOS and BSD).
-
-There is still an open bug with the server cache, when opening two shares on the same backend and very similar paths. It may cause some torubles opening files on the 2nd share a second time. I am investigating the issue and will release a fix ASAP.
-
-As usual the release is available to download and testing from the usual URL, please let me know what you find with this one.
-
-I will send the usual email out shortly (for the folks that do not read the ROOL’s forum).
-
-Enjoy!</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:164072</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mlxwnsdqz22i</link>
       <description>
@@ -254,14 +657,6 @@ Jeroen has been continuing with his project to bring RISC OS versions of the gam
       </description>
       <source:markdown>Jeroen has been continuing with his project to bring RISC OS versions of the games featured in the book Code the Classics Volume 2 to RISC OS and has now released Kinetix.</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2334.html</guid>
-    </item>    <item>
-      <title>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20399</link>
-      <description>
-        <![CDATA[<p>i may need a reminder link too please</p>]]>
-      </description>
-      <source:markdown>i may need a reminder link too please</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20399:164032</guid>
     </item>    <item>
       <title>ARX: The OS we never got – ROUGOL meeting, 18th May</title>
       <link>https://www.riscository.com/2026/arx-at-rougol-18th-may/</link>
@@ -350,17 +745,6 @@ The May 2026 Rougol meeting is on Monday and will be a very &#39;What if&#34; se
       <link>https://bsky.app/profile/colinhoad.com/post/3mlstaegkts2z</link>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mlstaegkts2z</guid>
     </item>    <item>
-      <title>DeleGate garbage dates.</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20364</link>
-      <description>
-        <![CDATA[<blockquote>is the a bit of code that I can run on <span class="caps">RISC</span> OS to</blockquote>
-        <p>Yes. Tardis. See the discussion <a href="https://www.riscosopen.org/forum/forums/11/topics/18761">here</a></p>]]>
-      </description>
-      <source:markdown>&#62; is the a bit of code that I can run on RISC OS to
-
-Yes. Tardis. See the discussion [here](https://www.riscosopen.org/forum/forums/11/topics/18761)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20364:164012</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mlr3h2cbz22x</link>
       <description>
         <![CDATA[@halkyardo.bsky.social You are Mr X and I claim my £5.]]>
@@ -397,14 +781,6 @@ Yes. Tardis. See the discussion [here](https://www.riscosopen.org/forum/forums/1
       <source:markdown>Next Monday, 18th May, we are very excited to be joined by Jim Mitchell to hear the largely untold story of ARX and the Acorn Palo Alto Research Centre
 https://rougol.jellybaby.net/meetings/index.html</source:markdown>
       <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mlqryn6iuk2k</guid>
-    </item>    <item>
-      <title>!Iris and ROD system crashes</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20406</link>
-      <description>
-        <![CDATA[<p>No idea, That&#8217;s one for the iris devs to work out, but its a problem that will need looking at. I&#8217;ve tweaked it as far as i can my end, maybe a javascript issue?</p>]]>
-      </description>
-      <source:markdown>No idea, That’s one for the iris devs to work out, but its a problem that will need looking at. I’ve tweaked it as far as i can my end, maybe a javascript issue?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20406:163994</guid>
     </item>    <item>
       <title>Accessing SFTP servers with SecureView</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/17563</link>
@@ -539,124 +915,6 @@ https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=5#post
 
 ![](https://images2.imgbox.com/29/65/YlQh4hK2_o.jpg)</source:markdown>
       <guid>cid://www.riscosopen.org:4:20340:163953</guid>
-    </item>    <item>
-      <title>RISC OS Build environment release 0.3.477</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20404</link>
-      <description>
-        <![CDATA[<p>Hiya,</p>
-        <p>I released the latest <span class="caps">RISC</span> OS Build Environment last night on Docker Hub &#8211; <a href="https://hub.docker.com/repository/docker/gerph/riscos-build/general">https://hub.docker.com/repository/docker/gerph/riscos-…</a>.</p>
-        <p>There are a lot of changes in there, many dealing with the AI Agent skills and the like (new skills are up on the agents repository as well, although they&#8217;re dependent on the build environment; <a href="https://github.com/gerph/riscos-agent-skills">https://github.com/gerph/riscos-agent-skills</a>).</p>
-        <p>One thing that might be useful is the <code>riscos-cport</code> tool which attempts to set up a <span class="caps">POSIX</span> style source ready to be worked on for <span class="caps">RISC</span> OS. It&#8217;s only a starting point, but it may be useful to some people.</p>
-        <p>Changelist summary&#8230;</p>
-        <h1>Changes from v0.3.408 to v0.3.476</h1>
-        <p>This summarises the changes between <code>v0.3.408</code> and <code>v0.3.476</code>, covering commits from 2026-04-08 to 2026-05-09.</p>
-        <h2>AI Agent Improvements and Personalisation</h2>
-        <ul>
-        	<li>Added status lines for Claude and Qwen to provide better feedback during execution.</li>
-        	<li>Introduced support for a user-specific <code>AGENTS.md</code> file, allowing personal guidance to persist across projects.</li>
-        	<li>Added the <code>ai agentsmd</code> command to easily edit the user&#8217;s personal agent guidance.</li>
-        	<li>Improved <code>--continue</code> and <code>resume --last</code> support for Codex, Gemini, and Qwen.</li>
-        	<li>Fixed an issue where the Gemini <span class="caps">API</span> key was not being handled correctly in some cases.</li>
-        	<li>Enabled <code>ai skills</code> (and its alias <code>skill</code>) to install, open, and show skill content.</li>
-        </ul>
-        <h2>Expanded AI Agent Skills</h2>
-        <ul>
-        	<li>Added several new skills to assist AI agents:
-        	<ul>
-        		<li><code>writing-pymodules</code>: Developing Python modules for <span class="caps">RISC</span> OS Pyromaniac.</li>
-        		<li><code>using-tooltesters</code>: Running automated tests with <code>riscos-tooltester</code>.</li>
-        		<li><code>designing-modules</code>: Best practices for <span class="caps">RISC</span> OS module architecture.</li>
-        		<li><code>riscos-filesystem</code>: Guidance on <span class="caps">RISC</span> OS-specific filesystem conventions.</li>
-        		<li><code>allocating-resources</code>: Procedures for registering allocations with <span class="caps">RISC</span> OS Open.</li>
-        		<li><code>using-libgcontext</code>: Using the GContext library for graphics output.</li>
-        		<li><code>using-libasm</code>: Utilizing assembly routines in C projects.</li>
-        		<li><code>porting-to-riscos-c</code>: Assisting with porting existing C projects to <span class="caps">RISC</span> OS.</li>
-        	</ul></li>
-        	<li>Updated <code>ai skills list</code> to support <code>-v</code> for descriptions and more detailed information.</li>
-        	<li>Improved existing skills for <code>writing-cmodules</code>, <code>using-cmhg</code>, <code>writing-prminxml</code>, and <code>writing-assembly</code> with more examples and updated guidance.</li>
-        </ul>
-        <h2>C Porting and Development Tooling</h2>
-        <ul>
-        	<li>Introduced the <code>riscos-cport</code> tool to automate parts of the process of porting C projects to <span class="caps">RISC</span> OS.</li>
-        	<li>Added support for the <code>indent</code> tool, configured to format <span class="caps">RISC</span> OS sources according to project standards.</li>
-        	<li>Renamed the <code>riscos-clitransform</code> tool to <code>riscos-transformcli</code> for consistency.</li>
-        	<li>Added <code>nano-colour</code> support for improved syntax highlighting when viewing files with <code>less</code>.</li>
-        	<li>Improved formatting for generated Makefiles and ensured consistent indentation.</li>
-        </ul>
-        <h2>Documentation and Help</h2>
-        <ul>
-        	<li>Updated <code>riscos-help</code> with new <code>version</code> and <code>changelog</code> commands for better environment awareness.</li>
-        	<li>Expanded <span class="caps">PRM</span>-in-<span class="caps">XML</span> documentation with guidance on <span class="caps">SWI</span> reason codes, <code>offset</code> elements, and revision ordering.</li>
-        	<li>Updated the primary <code>AGENTS.md</code> file with better guidance on preserving file content and understanding search paths.</li>
-        	<li>Added notes about using platform and feature defines when porting code.</li>
-        </ul>
-        <h2>Infrastructure and Build Environment</h2>
-        <ul>
-        	<li>Updated the <code>rootenv</code> to version 1.29.100, addressing a fix for ZM modules.</li>
-        	<li>Updated CI scripts to the latest version to improve build reliability.</li>
-        	<li>Fixed a bug in <code>riscos-build-run</code> related to command-line architecture shortcuts.</li>
-        	<li>Added support for a module acknowledgements service.</li>
-        </ul>]]>
-      </description>
-      <source:markdown>Hiya,
-
-I released the latest RISC OS Build Environment last night on Docker Hub – [https://hub.docker.com/repository/docker/gerph/riscos-…](https://hub.docker.com/repository/docker/gerph/riscos-build/general).
-
-There are a lot of changes in there, many dealing with the AI Agent skills and the like (new skills are up on the agents repository as well, although they’re dependent on the build environment; [https://github.com/gerph/riscos-agent-skills](https://github.com/gerph/riscos-agent-skills)).
-
-One thing that might be useful is the `riscos-cport` tool which attempts to set up a POSIX style source ready to be worked on for RISC OS. It’s only a starting point, but it may be useful to some people.
-
-Changelist summary…
-
-# Changes from v0.3.408 to v0.3.476
-
-This summarises the changes between `v0.3.408` and `v0.3.476`, covering commits from 2026-04-08 to 2026-05-09.
-
-## AI Agent Improvements and Personalisation
-
-- Added status lines for Claude and Qwen to provide better feedback during execution.
-- Introduced support for a user-specific `AGENTS.md` file, allowing personal guidance to persist across projects.
-- Added the `ai agentsmd` command to easily edit the user’s personal agent guidance.
-- Improved `--continue` and `resume --last` support for Codex, Gemini, and Qwen.
-- Fixed an issue where the Gemini API key was not being handled correctly in some cases.
-- Enabled `ai skills` (and its alias `skill`) to install, open, and show skill content.
-
-## Expanded AI Agent Skills
-
-- Added several new skills to assist AI agents:
-  - `writing-pymodules`: Developing Python modules for RISC OS Pyromaniac.
-  - `using-tooltesters`: Running automated tests with `riscos-tooltester`.
-  - `designing-modules`: Best practices for RISC OS module architecture.
-  - `riscos-filesystem`: Guidance on RISC OS-specific filesystem conventions.
-  - `allocating-resources`: Procedures for registering allocations with RISC OS Open.
-  - `using-libgcontext`: Using the GContext library for graphics output.
-  - `using-libasm`: Utilizing assembly routines in C projects.
-  - `porting-to-riscos-c`: Assisting with porting existing C projects to RISC OS.
-- Updated `ai skills list` to support `-v` for descriptions and more detailed information.
-- Improved existing skills for `writing-cmodules`, `using-cmhg`, `writing-prminxml`, and `writing-assembly` with more examples and updated guidance.
-
-## C Porting and Development Tooling
-
-- Introduced the `riscos-cport` tool to automate parts of the process of porting C projects to RISC OS.
-- Added support for the `indent` tool, configured to format RISC OS sources according to project standards.
-- Renamed the `riscos-clitransform` tool to `riscos-transformcli` for consistency.
-- Added `nano-colour` support for improved syntax highlighting when viewing files with `less`.
-- Improved formatting for generated Makefiles and ensured consistent indentation.
-
-## Documentation and Help
-
-- Updated `riscos-help` with new `version` and `changelog` commands for better environment awareness.
-- Expanded PRM-in-XML documentation with guidance on SWI reason codes, `offset` elements, and revision ordering.
-- Updated the primary `AGENTS.md` file with better guidance on preserving file content and understanding search paths.
-- Added notes about using platform and feature defines when porting code.
-
-## Infrastructure and Build Environment
-
-- Updated the `rootenv` to version 1.29.100, addressing a fix for ZM modules.
-- Updated CI scripts to the latest version to improve build reliability.
-- Fixed a bug in `riscos-build-run` related to command-line architecture shortcuts.
-- Added support for a module acknowledgements service.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20404:163947</guid>
     </item>    <item>
       <title>Live Coding with Gerph, Sunday 10th May at 1pm UK time</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20401</link>
