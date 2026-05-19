@@ -7,10 +7,104 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>18 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>19 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mma2ae2jk22u</link>
+      <description>
+        <![CDATA[I'm devastated
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>I&#39;m devastated
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mma2ae2jk22u</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mm7wcr4nts2u</link>
+      <description>
+        <![CDATA[It's not quite so bad with the whole key set fitted, but I still think warm greys would be better.
+        
+        Return, Backspace, Enter and Kepad Plus (for that is what it ought to be) are going to be very inconvenient because of the switch layout. "If I were going there I wouldn't start here".]]>
+      </description>
+      <source:markdown>It&#39;s not quite so bad with the whole key set fitted, but I still think warm greys would be better.
+
+Return, Backspace, Enter and Kepad Plus (for that is what it ought to be) are going to be very inconvenient because of the switch layout. &#34;If I were going there I wouldn&#39;t start here&#34;.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mm7wcr4nts2u</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mm7sfu5y422r</link>
+      <description>
+        <![CDATA[New milestone achieved: 3,000 subscribers...! Gosh 😳
+        Thank you ever so much to everyone who follows my channel, it continues to be a hugely enjoyable hobby for me, so I'm very grateful to anyone who takes an interest!]]>
+      </description>
+      <source:markdown>New milestone achieved: 3,000 subscribers...! Gosh 😳
+Thank you ever so much to everyone who follows my channel, it continues to be a hugely enjoyable hobby for me, so I&#39;m very grateful to anyone who takes an interest!</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mm7sfu5y422r</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mm7jpmcq5s2u</link>
+      <description>
+        <![CDATA[Excellent essay on keyboard modifier shenanigans particularly aimed at Apple, but concluding with the surprising plea for Apple to become more like Acorn. By which they don't mean dead.
+        
+        The Electron, it appears, got it right...
+        https://aresluna.org/fn/]]>
+      </description>
+      <source:markdown>Excellent essay on keyboard modifier shenanigans particularly aimed at Apple, but concluding with the surprising plea for Apple to become more like Acorn. By which they don&#39;t mean dead.
+
+The Electron, it appears, got it right...
+https://aresluna.org/fn/</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mm7jpmcq5s2u</guid>
+    </item>    <item>
+      <title>ROUGOL May 2026 meeting - Jim Mitchell</title>
+      <link>http://www.iconbar.com/comments/rss/news2337.html</link>
+      <description>
+        <![CDATA[Rougols's May speaker (for a very popular meeting) was Jim Mitchell, talking about ARX and the Acorn Palo Alto Research Centre]]>
+      </description>
+      <source:markdown>Rougols&#39;s May speaker (for a very popular meeting) was Jim Mitchell, talking about ARX and the Acorn Palo Alto Research Centre</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2337.html</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm5toavmik2b</link>
+      <description>
+        <![CDATA[The original artwork for one of the most iconic NES Silver Surfer images. Created on an Amstrad CPC 6128 using Advanced OCP Art Studio. Sadly, the palette information has been lost. The game's artwork was created by Neal Sutton, Craig Houston and Anthony Anderson. I can't recall who drew this image.]]>
+      </description>
+      <source:markdown>The original artwork for one of the most iconic NES Silver Surfer images. Created on an Amstrad CPC 6128 using Advanced OCP Art Studio. Sadly, the palette information has been lost. The game&#39;s artwork was created by Neal Sutton, Craig Houston and Anthony Anderson. I can&#39;t recall who drew this image.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mm5toavmik2b</guid>
+    </item>    <item>
+      <title>Hard Disk data recovery</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20405</link>
+      <description>
+        <![CDATA[<p>I&#8217;m surprised to hear of a 4GB Conner drive unless it&#8217;s a Seagate re-brand &#8212; as Seagate bought Conner back when the drives were about 1GB max.</p>
+        <p>The CFS425 and CFS420 are 420MB and were standard drives on <span class="caps">RISC</span> PCs. They won&#8217;t work with <span class="caps">USB</span> adapters (except possibly the ATAboy but I haven&#8217;t tried) as the <span class="caps">USB</span>-to-<span class="caps">IDE</span> cards only work with modern drives which support <span class="caps">LBA</span> addressing. I have an old Linux PC with physical <span class="caps">IDE</span> and <span class="caps">SCSI</span> which is my usual for these drives.</p>
+        <p>They have common failure modes &#8211; I&#8217;ve repaired a few and got the data off. But I&#8217;d need the exact model number from the drive label to tell you. I might have another working controller board, sometimes they have problems with stiction and the actuator lock too (it jams, stopping the head from moving &#8211; the fix is a slither of Kapton tape over the gummy rubber bumper)</p>
+        <p>Most data recovery companies no longer have a supply of spare boards or the expertise to handle these drives. But you might be lucky. If anyone still had recovery gear I&#8217;d expect it to be one of the big dogs like perhaps Ontrack, but I&#8217;d also expect them to charge accordingly.</p>
+        <p>Feel free to drop me an email if you&#8217;d like me to take a look.</p>]]>
+      </description>
+      <source:markdown>I’m surprised to hear of a 4GB Conner drive unless it’s a Seagate re-brand — as Seagate bought Conner back when the drives were about 1GB max.
+
+The CFS425 and CFS420 are 420MB and were standard drives on RISC PCs. They won’t work with USB adapters (except possibly the ATAboy but I haven’t tried) as the USB-to-IDE cards only work with modern drives which support LBA addressing. I have an old Linux PC with physical IDE and SCSI which is my usual for these drives.
+
+They have common failure modes – I’ve repaired a few and got the data off. But I’d need the exact model number from the drive label to tell you. I might have another working controller board, sometimes they have problems with stiction and the actuator lock too (it jams, stopping the head from moving – the fix is a slither of Kapton tape over the gummy rubber bumper)
+
+Most data recovery companies no longer have a supply of spare boards or the expertise to handle these drives. But you might be lucky. If anyone still had recovery gear I’d expect it to be one of the big dogs like perhaps Ontrack, but I’d also expect them to charge accordingly.
+
+Feel free to drop me an email if you’d like me to take a look.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20405:164112</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mm5nycyjq227</link>
+      <description>
+        <![CDATA[ShareFSServer 0.4.2 released 
+        
+        https://www.iconbar.com/articles/ShareFSServer_0.4.2_released/index2335.html 
+        
+        Paolo has been burning the midnight oil with his free ShareFSServer software and version 0.4.2 was released yesterday.]]>
+      </description>
+      <source:markdown>ShareFSServer 0.4.2 released
+
+https://www.iconbar.com/articles/ShareFSServer\_0.4.2\_released/index2335.html
+
+Paolo has been burning the midnight oil with his free ShareFSServer software and version 0.4.2 was released yesterday.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mm5nycyjq227</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm5gaexij22w</link>
       <description>
         <![CDATA[The time Tim Follin sent one of his Spectrum tunes into a magazine as a listing - Your Spectrum Issue 20 ( August 1987 )]]>
@@ -198,6 +292,14 @@ Still not sure why I’m getting 2100 as a timestamp when deleting files to Dele
       <source:markdown>Paolo has been burning the midnight oil with his free ShareFSServer software and version 0.4.2 was released yesterday.</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2335.html</guid>
     </item>    <item>
+      <title>Frosted ThemeDefs V4.01 is Out!</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20413</link>
+      <description>
+        <![CDATA[<p>Thanks Steve! I&#8217;ve really enjoyed making this, and it&#8217;s been great seeing so many adopt it :)</p>]]>
+      </description>
+      <source:markdown>Thanks Steve! I’ve really enjoyed making this, and it’s been great seeing so many adopt it :)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20413:164104</guid>
+    </item>    <item>
       <title>Live Coding with Gerph, Sunday 17th May at 1pm UK time</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20414</link>
       <description>
@@ -346,6 +448,28 @@ Thanks a lot for helping test this. Please make sure you always send your ShareF
 Thanks.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20267:164101</guid>
     </item>    <item>
+      <title>Pi400 blank screen</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20409</link>
+      <description>
+        <![CDATA[<p>I would like to give your loader folder a try. Can you email it to <a href="mailto:support@dricusworks.com">support@dricusworks.com</a> please?</p>]]>
+      </description>
+      <source:markdown>I would like to give your loader folder a try. Can you email it to [support@dricusworks.com](mailto:support@dricusworks.com) please?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20409:164100</guid>
+    </item>    <item>
+      <title>!Iris and ROD system crashes</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20406</link>
+      <description>
+        <![CDATA[<p>Not sure if it&#8217;s related but the inspector console log has lots of,</p>
+        <p>Unrecognized Content-Security-Policy directive &#8216;trusted-types&#8217;<br />
+        Unrecognized Content-Security-Policy directive &#8216;require-trusted-types-for&#8217;</p>]]>
+      </description>
+      <source:markdown>Not sure if it’s related but the inspector console log has lots of,
+
+Unrecognized Content-Security-Policy directive ‘trusted-types’
+
+Unrecognized Content-Security-Policy directive ‘require-trusted-types-for’</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20406:164099</guid>
+    </item>    <item>
       <title>RISC OS Build environment release 0.3.477</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20404</link>
       <description>
@@ -356,57 +480,6 @@ Thanks.</source:markdown>
 
 Could you consider naming it something a little less confusing?</source:markdown>
       <guid>cid://www.riscosopen.org:1:20404:164098</guid>
-    </item>    <item>
-      <title>Frosted ThemeDefs V4.01 is Out!</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20413</link>
-      <description>
-        <![CDATA[<p>Nice to see some new looks for <span class="caps">RISC</span> OS!</p>]]>
-      </description>
-      <source:markdown>Nice to see some new looks for RISC OS!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20413:164097</guid>
-    </item>    <item>
-      <title>!Iris and ROD system crashes</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20406</link>
-      <description>
-        <![CDATA[<p>I just built the arm64 Linux version of WebKitGtk with WebGL enabled, which is the same version of WebKitGtk as Iris uses.</p>
-        <p>This version also can&#8217;t get past the cloudflare security check and the same sites trigger the security check.<br />
-        It appears to be the WebKitGtk version that is incompatible. (WebKitGTK 2.40.5)</p>
-        <pre>
-        <code>
-        WebKit version
-        WebKitGTK 2.40.5 (313374@main)
-        Operating system
-        Linux 6.17.0-23-generic #23~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 14 15:59:10 UTC 2 aarch64
-        Desktop
-        LXQt
-        Cairo version
-        1.18.0 (build) 1.18.0 (runtime)
-        GTK version
-        3.24.41 (build) 3.24.41 (runtime)
-        </code>
-        </pre>]]>
-      </description>
-      <source:markdown>I just built the arm64 Linux version of WebKitGtk with WebGL enabled, which is the same version of WebKitGtk as Iris uses.
-
-This version also can’t get past the cloudflare security check and the same sites trigger the security check.
-
-It appears to be the WebKitGtk version that is incompatible. (WebKitGTK 2.40.5)
-
-```
-
-WebKit version
-WebKitGTK 2.40.5 (313374@main)
-Operating system
-Linux 6.17.0-23-generic #23~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 14 15:59:10 UTC 2 aarch64
-Desktop
-LXQt
-Cairo version
-1.18.0 (build) 1.18.0 (runtime)
-GTK version
-3.24.41 (build) 3.24.41 (runtime)
-
-```</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20406:164095</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm33pwydsk22</link>
       <description>
@@ -428,71 +501,6 @@ In my earlier server version, I added code to make it work with IPv4 or IPv6.
 
 I’m working with the nightly build of 2026 April 8, which is mbedTLS version 3.6.6, showing this problem.</source:markdown>
       <guid>cid://www.riscosopen.org:1:19132:164094</guid>
-    </item>    <item>
-      <title>Pi400 blank screen</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20409</link>
-      <description>
-        <![CDATA[<p>This is silly I just got a Pi400 today I&#8217;m now going to test this out</p>
-        <p><span class="caps">EDI</span>: RPI400 Booted and Working! SD Card Created Using Raspberry Pi Imager (Raspberry Pi 400 Rev 1.1 Revision : c03131)</p>
-        <p>Config File: <br />
-        fake_vsync_isr=1<br />
-        framebuffer_swap=0<br />
-        gpu_mem=128<br />
-        disable_overscan=1<br />
-        max_framebuffer_width=3840<br />
-        max_framebuffer_height=2160<br />
-        hdmi_pixel_freq_limit=500000000<br />
-        ramfsfile=<span class="caps">CMOS</span><br />
-        ramfsaddr=0&#215;508000<br />
-        kernel=<span class="caps">RISCOS</span>.<span class="caps">IMG</span><br />
-        hdmi_drive=2<br />
-        hdmi_force_edid_audio=1<br />
-        audio_pwm_mode=2</p>
-        <p>[pi4]<br />
-        enable_gic=1<br />
-        hdmi_enable_4kp60=1</p>
-        <p><img src="https://images2.imgbox.com/dd/07/FU9pIsXw_o.jpg" alt="" /></p>]]>
-      </description>
-      <source:markdown>This is silly I just got a Pi400 today I’m now going to test this out
-
-EDI: RPI400 Booted and Working! SD Card Created Using Raspberry Pi Imager (Raspberry Pi 400 Rev 1.1 Revision : c03131)
-
-Config File:
-
-fake\_vsync\_isr=1
-
-framebuffer\_swap=0
-
-gpu\_mem=128
-
-disable\_overscan=1
-
-max\_framebuffer\_width=3840
-
-max\_framebuffer\_height=2160
-
-hdmi\_pixel\_freq\_limit=500000000
-
-ramfsfile=CMOS
-
-ramfsaddr=0×508000
-
-kernel=RISCOS.IMG
-
-hdmi\_drive=2
-
-hdmi\_force\_edid\_audio=1
-
-audio\_pwm\_mode=2
-
-\[pi4\]
-
-enable\_gic=1
-
-hdmi\_enable\_4kp60=1
-
-![](https://images2.imgbox.com/dd/07/FU9pIsXw_o.jpg)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20409:164087</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm26hgnugc2n</link>
       <description>
@@ -857,14 +865,6 @@ The DDE toolset has been updated again to DDE32c.</source:markdown>
       </description>
       <source:markdown>The DDE toolset has been updated again to DDE32c.</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2325.html</guid>
-    </item>    <item>
-      <title>Hard Disk data recovery</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20405</link>
-      <description>
-        <![CDATA[<p>Anyone know of a good company that can rescue the contents of my <span class="caps">ADFS</span> HD, putting the contents on a .hd file. It probably has a bad boot sector and the bearings are on their last legs. It is a Conner 4GB.</p>]]>
-      </description>
-      <source:markdown>Anyone know of a good company that can rescue the contents of my ADFS HD, putting the contents on a .hd file. It probably has a bad boot sector and the bearings are on their last legs. It is a Conner 4GB.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20405:163955</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mllx5nvnnk2i</link>
       <description>
