@@ -7,10 +7,166 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>19 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>20 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mmcf4frl6s2j</link>
+      <description>
+        <![CDATA[Making Browse Useful again 
+        
+        https://www.iconbar.com/articles/Making_Browse_Useful_again/index2333.html 
+        
+        Many thanks for a really interesting article submission on using Browse in 2026 (with a few extra tweaks). If you have anything to share, we are always pleased to hear from you. Over to Paul Stewart....]]>
+      </description>
+      <source:markdown>Making Browse Useful again
+
+https://www.iconbar.com/articles/Making\_Browse\_Useful\_again/index2333.html
+
+Many thanks for a really interesting article submission on using Browse in 2026 (with a few extra tweaks). If you have anything to share, we are always pleased to hear from you. Over to Paul Stewart....</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mmcf4frl6s2j</guid>
+    </item>    <item>
+      <title>Making Browse Useful again</title>
+      <link>http://www.iconbar.com/comments/rss/news2333.html</link>
+      <description>
+        <![CDATA[Many thanks for a really interesting article submission on using Browse in 2026 (with a few extra tweaks). If you have anything to share, we are always pleased to hear from you. Over to Paul Stewart....]]>
+      </description>
+      <source:markdown>Many thanks for a really interesting article submission on using Browse in 2026 (with a few extra tweaks). If you have anything to share, we are always pleased to hear from you. Over to Paul Stewart....</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2333.html</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mmc7nv36rc2e</link>
+      <description>
+        <![CDATA[There's simply no way to know how to spell this word.]]>
+      </description>
+      <source:markdown>There&#39;s simply no way to know how to spell this word.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mmc7nv36rc2e</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mmc3prj4sc2e</link>
+      <description>
+        <![CDATA[Do we must have?
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Do we must have?
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mmc3prj4sc2e</guid>
+    </item>    <item>
+      <title>WROCC May 2026 talk on Wednesday</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13585&#38;page=1#125895</link>
+      <description>
+        <![CDATA[Talk is now live at https://youtu.be/2gpNJIUSNmM]]>
+      </description>
+      <source:markdown>Talk is now live at https://youtu.be/2gpNJIUSNmM</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13585&#38;page=1#125895</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mmbjnf5r5224</link>
+      <description>
+        <![CDATA[But they won't, because everything is for sale in America including justice and integrity.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>But they won&#39;t, because everything is for sale in America including justice and integrity.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mmbjnf5r5224</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mmbh5lbbk22g</link>
+      <description>
+        <![CDATA[This year's Econet LAN Party was huge fun, here's some of what we got up to: youtu.be/gVpIb4K7e7Y
+        https://youtu.be/gVpIb4K7e7Y]]>
+      </description>
+      <source:markdown>This year&#39;s Econet LAN Party was huge fun, here&#39;s some of what we got up to: youtu.be/gVpIb4K7e7Y
+https://youtu.be/gVpIb4K7e7Y</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mmbh5lbbk22g</guid>
+    </item>    <item>
+      <title>Automating.</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20416</link>
+      <description>
+        <![CDATA[<p>Is there a way to automate RPCEmu from the host OS?</p>
+        <p>Even just noticing a file has appeared in HostFS would help, though running it for me would be nicer&#8230;</p>]]>
+      </description>
+      <source:markdown>Is there a way to automate RPCEmu from the host OS?
+
+Even just noticing a file has appeared in HostFS would help, though running it for me would be nicer…</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20416:164125</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmalhavh522z</link>
+      <description>
+        <![CDATA[This weekend I had some time to work and open new release 0.1.4 for DNSCache (a #DNS #cache #resolver written in #Rust for high performance DNS caching and security). Still early stages, but it's fully functional.
+        
+        Check it out here:
+        https://github.com/pzaino/dnscache
+        
+        #cybersecurity #networking #cloud]]>
+      </description>
+      <source:markdown>This weekend I had some time to work and open new release 0.1.4 for DNSCache (a #DNS #cache #resolver written in #Rust for high performance DNS caching and security). Still early stages, but it&#39;s fully functional.
+
+Check it out here:
+https://github.com/pzaino/dnscache
+
+#cybersecurity #networking #cloud</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mmalhavh522z</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mmajd67co224</link>
+      <description>
+        <![CDATA[How extraordinary it is in the space of a couple of months to have gone from weird obscurity to orchestral tribute. The ultimate cross-over act. 
+        #AngineDePoitrine
+        https://www.youtube.com/watch?v=dfuXv32zVD8]]>
+      </description>
+      <source:markdown>How extraordinary it is in the space of a couple of months to have gone from weird obscurity to orchestral tribute. The ultimate cross-over act.
+#AngineDePoitrine
+https://www.youtube.com/watch?v=dfuXv32zVD8</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mmajd67co224</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mmadr5zf4c2y</link>
+      <description>
+        <![CDATA[Inspired by that article praising the Electron’s lonely keyboard handling (that never made it to the M128, never mind RISC OS), I’ve implemented it (sorta) as a RISC OS module...
+        
+        CapsLock acts as FN when held with another key:]]>
+      </description>
+      <source:markdown>Inspired by that article praising the Electron’s lonely keyboard handling (that never made it to the M128, never mind RISC OS), I’ve implemented it (sorta) as a RISC OS module...
+
+CapsLock acts as FN when held with another key:</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mmadr5zf4c2y</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mmad5hlfq22s</link>
+      <description>
+        <![CDATA[ROUGOL May 2026 meeting - Jim Mitchell 
+        
+        https://www.iconbar.com/articles/ROUGOL_May_2026_meeting_-_Jim_Mitchell/index2337.html 
+        
+        Rougols's May speaker (for a very popular meeting) was Jim Mitchell, talking about ARX and the Acorn Palo Alto Research Centre]]>
+      </description>
+      <source:markdown>ROUGOL May 2026 meeting - Jim Mitchell
+
+https://www.iconbar.com/articles/ROUGOL\_May\_2026\_meeting\_-\_Jim\_Mitchell/index2337.html
+
+Rougols&#39;s May speaker (for a very popular meeting) was Jim Mitchell, talking about ARX and the Acorn Palo Alto Research Centre</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mmad5hlfq22s</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mma3vxndb22u</link>
+      <description>
+        <![CDATA[You don't have to know anything about British politics to enjoy this excellent example of Speech Gone Wrong.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>You don&#39;t have to know anything about British politics to enjoy this excellent example of Speech Gone Wrong.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mma3vxndb22u</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mma3vj7tok2f</link>
+      <description>
+        <![CDATA[Students booing AI mentioning at graduations (multiple), and Institutions making colossal mistakes using AI. The world is sobering up after few years of hype. More AI companies failing to deliver robust solutions, but also AI is improving and certainly at some point it will become a good TOOL ;)
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Students booing AI mentioning at graduations (multiple), and Institutions making colossal mistakes using AI. The world is sobering up after few years of hype. More AI companies failing to deliver robust solutions, but also AI is improving and certainly at some point it will become a good TOOL ;)
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mma3vj7tok2f</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mma2ae2jk22u</link>
       <description>
         <![CDATA[I'm devastated
@@ -21,6 +177,14 @@
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mma2ae2jk22u</guid>
+    </item>    <item>
+      <title>Frosted ThemeDefs V4.01 is Out!</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20413</link>
+      <description>
+        <![CDATA[<p>Just installed the latest Frosted theme. It&#8217;s is very nice. Nice to see a new set of icons and facelift for RiscOS. I am looking forward to see how your dark theme comes out in due course. Thanks.</p>]]>
+      </description>
+      <source:markdown>Just installed the latest Frosted theme. It’s is very nice. Nice to see a new set of icons and facelift for RiscOS. I am looking forward to see how your dark theme comes out in due course. Thanks.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20413:164122</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mm7wcr4nts2u</link>
       <description>
@@ -104,6 +268,23 @@ https://www.iconbar.com/articles/ShareFSServer\_0.4.2\_released/index2335.html
 
 Paolo has been burning the midnight oil with his free ShareFSServer software and version 0.4.2 was released yesterday.</source:markdown>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mm5nycyjq227</guid>
+    </item>    <item>
+      <title>RISC OS Build environment release 0.3.477</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20404</link>
+      <description>
+        <![CDATA[<p>Is there an official repository for cmunge? I&#8217;m using version 0.77 from the gccsdk project, and your build environment has version 0.84.</p>
+        <p>I&#8217;ve spotted a bug in 0.77&#8217;s <code>generic-veneers</code> which is fixed in 0.84, but 0.84 doesn&#8217;t have PDriver veneers. It&#8217;s trivial to fix 0.77, but clearly forks aren&#8217;t good.</p>
+        <p><code>generic-veneers: escape_handler(private-word: r12)</code> stores <code>{r0-r12,lr}</code> but only restores <code>{r0-r11,pc}</code>, in the 32-bit case. It&#8217;s correct in the 26-bit case and in your 0.84. I spotted it by inspecting the code as I wanted to see how generic &#8216;generic&#8217; was. I don&#8217;t think I&#8217;ve ever pressed escape (it&#8217;s only enabled for a trivial amount of time if writing to a file), but presumably it&#8217;d crash. Shonky.</p>
+        <p>Given the overhead of everything else, is it really worth the optimisation to not to store r12? That one did cause a crash (months ago), until I read the cmunge manual, presumably because my uninitialised r12 was 1 on exit. I&#8217;m happy to merge in the PDriver patches from the gcc branch, given I can easily test them&#8230; Or just switch to <code>generic-veneers</code>, if they worked correctly :-) But I&#8217;d much prefer a native macOS binary, rather than x86 emulation under docker.</p>]]>
+      </description>
+      <source:markdown>Is there an official repository for cmunge? I’m using version 0.77 from the gccsdk project, and your build environment has version 0.84.
+
+I’ve spotted a bug in 0.77’s `generic-veneers` which is fixed in 0.84, but 0.84 doesn’t have PDriver veneers. It’s trivial to fix 0.77, but clearly forks aren’t good.
+
+`generic-veneers: escape_handler(private-word: r12)` stores `{r0-r12,lr}` but only restores `{r0-r11,pc}`, in the 32-bit case. It’s correct in the 26-bit case and in your 0.84. I spotted it by inspecting the code as I wanted to see how generic ‘generic’ was. I don’t think I’ve ever pressed escape (it’s only enabled for a trivial amount of time if writing to a file), but presumably it’d crash. Shonky.
+
+Given the overhead of everything else, is it really worth the optimisation to not to store r12? That one did cause a crash (months ago), until I read the cmunge manual, presumably because my uninitialised r12 was 1 on exit. I’m happy to merge in the PDriver patches from the gcc branch, given I can easily test them… Or just switch to `generic-veneers`, if they worked correctly :-) But I’d much prefer a native macOS binary, rather than x86 emulation under docker.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20404:164111</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm5gaexij22w</link>
       <description>
@@ -235,6 +416,17 @@ So your early serial port was only 7½ times faster than talking.
 https://static.klipy.com/ii/d7aec6f6f171607374b2065c836f92f4/2c/b4/wGeEA0oQ.gif?hh=215&#38;ww=498&#38;mp4=QC2pT1jScxS5zpZdRE16&#38;webm=3SWPtxOaT2c4UvN1</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mm4smtk5g22w</guid>
     </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p>ha! Good to know Paul :)</p>
+        <p>No idea why the new email is bouncing back, sorry about the inconvenient. I&#8217;ll try to check why.</p>]]>
+      </description>
+      <source:markdown>ha! Good to know Paul :)
+
+No idea why the new email is bouncing back, sorry about the inconvenient. I’ll try to check why.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:164108</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mm4rdvfx722q</link>
       <description>
         <![CDATA[Toshiba Libretto 70ct (with banana for scale)
@@ -291,14 +483,6 @@ Still not sure why I’m getting 2100 as a timestamp when deleting files to Dele
       </description>
       <source:markdown>Paolo has been burning the midnight oil with his free ShareFSServer software and version 0.4.2 was released yesterday.</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2335.html</guid>
-    </item>    <item>
-      <title>Frosted ThemeDefs V4.01 is Out!</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20413</link>
-      <description>
-        <![CDATA[<p>Thanks Steve! I&#8217;ve really enjoyed making this, and it&#8217;s been great seeing so many adopt it :)</p>]]>
-      </description>
-      <source:markdown>Thanks Steve! I’ve really enjoyed making this, and it’s been great seeing so many adopt it :)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20413:164104</guid>
     </item>    <item>
       <title>Live Coding with Gerph, Sunday 17th May at 1pm UK time</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20414</link>
@@ -415,39 +599,6 @@ At the end of the session there was a small demonstration of creating command li
       <source:markdown>So you can drive a car at upto 60 MPH over a 3&#34; disk and it&#39;ll be OK? Anyone fancy trying it? To be fair, they are very robust compared with 3.5&#34; ones.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mm3dyicrx222</guid>
     </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p><b>@all alpha testers</b></p>
-        <p>A new alpha build, 0.4.4, is available for testing.</p>
-        <p><b>What&#8217;s new in this build:</b></p>
-        <p>This is a log-improvement release, following reports from some users who experienced problems generating reports in 0.4.3.</p>
-        <ul>
-        	<li>This release tries to understand what Microsoft’s silly auto-correct attempts to type on Windows 11 when Copilot is enabled. Some international users are experiencing Windows correcting words they type, which is obviously changing the meaning of what they are trying to do. No kidding, we seem to have reached this point on Windows 11&#8230; So ShareFSServer now processes command-line parameters as tokens and reconstructs what the user meant, even if it was typed incorrectly.</li>
-        </ul>
-        <ul>
-        	<li>More system diagnostics in the logs. ShareFSServer now detects host system details, kernel version, configuration, etc., to help me reproduce some of the issues users might be experiencing.</li>
-        </ul>
-        <p>Thanks a lot for helping test this. Please make sure you always send your ShareFSServer logs when reporting a problem.</p>
-        <p>Thanks.</p>]]>
-      </description>
-      <source:markdown>**@all alpha testers**
-
-A new alpha build, 0.4.4, is available for testing.
-
-**What’s new in this build:**
-
-This is a log-improvement release, following reports from some users who experienced problems generating reports in 0.4.3.
-
-- This release tries to understand what Microsoft’s silly auto-correct attempts to type on Windows 11 when Copilot is enabled. Some international users are experiencing Windows correcting words they type, which is obviously changing the meaning of what they are trying to do. No kidding, we seem to have reached this point on Windows 11… So ShareFSServer now processes command-line parameters as tokens and reconstructs what the user meant, even if it was typed incorrectly.
-
-- More system diagnostics in the logs. ShareFSServer now detects host system details, kernel version, configuration, etc., to help me reproduce some of the issues users might be experiencing.
-
-Thanks a lot for helping test this. Please make sure you always send your ShareFSServer logs when reporting a problem.
-
-Thanks.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:164101</guid>
-    </item>    <item>
       <title>Pi400 blank screen</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20409</link>
       <description>
@@ -469,17 +620,6 @@ Unrecognized Content-Security-Policy directive ‘trusted-types’
 
 Unrecognized Content-Security-Policy directive ‘require-trusted-types-for’</source:markdown>
       <guid>cid://www.riscosopen.org:11:20406:164099</guid>
-    </item>    <item>
-      <title>RISC OS Build environment release 0.3.477</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20404</link>
-      <description>
-        <![CDATA[<p>That&#8217;s a pretty confusing name you&#8217;ve chosen there. Not the &#8220;<span class="caps">RISC</span> OS cross-compilation environment&#8221;, but the &#8220;<span class="caps">RISC</span> OS build environment&#8221;, not at all to be confused with the &#8220;<span class="caps">RISC</span> OS Desktop Development Environment&#8221; which is what has previously been referred to as the &#8220;<span class="caps">RISC</span> OS build environment&#8221; when paired with a source tree&#8230;</p>
-        <p>Could you consider naming it something a little less confusing?</p>]]>
-      </description>
-      <source:markdown>That’s a pretty confusing name you’ve chosen there. Not the “RISC OS cross-compilation environment”, but the “RISC OS build environment”, not at all to be confused with the “RISC OS Desktop Development Environment” which is what has previously been referred to as the “RISC OS build environment” when paired with a source tree…
-
-Could you consider naming it something a little less confusing?</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20404:164098</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm33pwydsk22</link>
       <description>
