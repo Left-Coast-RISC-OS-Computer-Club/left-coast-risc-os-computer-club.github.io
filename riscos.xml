@@ -7,10 +7,104 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>20 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>21 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mmeyulpx7s2a</link>
+      <description>
+        <![CDATA[Q. "How can our major media outlets get this so wrong?"
+        
+        A. By trying really hard.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Q. &#34;How can our major media outlets get this so wrong?&#34;
+
+A. By trying really hard.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mmeyulpx7s2a</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mmepznme3k2w</link>
+      <description>
+        <![CDATA[An Ocean recruitment advert from 1993.]]>
+      </description>
+      <source:markdown>An Ocean recruitment advert from 1993.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mmepznme3k2w</guid>
+    </item>    <item>
+      <title>Making Browse Useful again</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13595&#38;page=1#125896</link>
+      <description>
+        <![CDATA[I've been using Browse for a while on the RiscPC - it uses less memory than NetSurf and works on RISC OS 3.7, which makes it useful for downloading applications directly from the internet without having to use an intermediate machine.]]>
+      </description>
+      <source:markdown>I&#39;ve been using Browse for a while on the RiscPC - it uses less memory than NetSurf and works on RISC OS 3.7, which makes it useful for downloading applications directly from the internet without having to use an intermediate machine.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13595&#38;page=1#125896</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3mmehsrnfls2j</link>
+      <description>
+        <![CDATA[Grab a piece of computing history and tech info with Colin's video, plus see some BBCs, RISC Machines and lots more. 🕹️🛸🚀
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Grab a piece of computing history and tech info with Colin&#39;s video, plus see some BBCs, RISC Machines and lots more. 🕹️🛸🚀
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mmehsrnfls2j</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mmebiwr63k2w</link>
+      <description>
+        <![CDATA[Richard Kay's original Software Creations job advert. This was just before they started developing console games - probably around 1987/8.]]>
+      </description>
+      <source:markdown>Richard Kay&#39;s original Software Creations job advert. This was just before they started developing console games - probably around 1987/8.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mmebiwr63k2w</guid>
+    </item>    <item>
+      <title>Sendirii Geminus</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20418</link>
+      <description>
+        <![CDATA[<p>Has anyone else had issues with the IMX6 licence file after downloading it or receiving it by email from the store? When I drag it onto the !GemConfig application, it still shows as unlicensed, even though the licence file has been copied into the !Boot.Choices directory.</p>
+        <p>I’ve contacted Adrian, but given how long it took to get the licence in the first place, I’m not expecting a quick resolution. Just wondering if anyone else has had similar problems with Geminus licence files? Or maybe a better contact to get hold of Adrian as the contact Form on the website is broken.</p>]]>
+      </description>
+      <source:markdown>Has anyone else had issues with the IMX6 licence file after downloading it or receiving it by email from the store? When I drag it onto the !GemConfig application, it still shows as unlicensed, even though the licence file has been copied into the !Boot.Choices directory.
+
+I’ve contacted Adrian, but given how long it took to get the licence in the first place, I’m not expecting a quick resolution. Just wondering if anyone else has had similar problems with Geminus licence files? Or maybe a better contact to get hold of Adrian as the contact Form on the website is broken.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20418:164138</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 24th May at 1pm UK time</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20417</link>
+      <description>
+        <![CDATA[<p>This Sunday – 24th May, at 1pm UK time – I&#8217;ll be continuing the series on creating the icon rendering code for the Wimp.</p>
+        <p>Last week we used the AI Agent to convert the Python implementation of the icon rendering code to C, then pulled in the GContext library, text rendering, sprite rendering and the validation string parsing code to create a renderer for icons. It looks pretty good, and it&#8217;s really looking like it&#8217;ll do the job.</p>
+        <p>In just 4 1/2 hours, it managed to do what would have taken &#8230; well, quite a bit longer. And I just sat there and whittered&#8230; sorry, directed it. But there&#8217;s some bits that aren&#8217;t right. This week, we&#8217;ll have a look at what the code&#8217;s like and try to fix the things that are obviously broken.</p>
+        <p>Come along if you like – <a href="https://youtube.com/live/LuukPqoOly8?feature=share">https://youtube.com/live/LuukPqoOly8?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
+        <hr />
+        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
+        <p><a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_IconRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a> &#8211; shows the functionality we need to add. There&#8217;s quite a lot!</p>
+        <hr />
+        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTsdRKzv_uMif_KBGrSqP">https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTs…</a></p>
+        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimpiconrender.html">https://presentation.riscos.online/live/wimpiconrender…</a> (once it has been published).</p>]]>
+      </description>
+      <source:markdown>This Sunday – 24th May, at 1pm UK time – I’ll be continuing the series on creating the icon rendering code for the Wimp.
+
+Last week we used the AI Agent to convert the Python implementation of the icon rendering code to C, then pulled in the GContext library, text rendering, sprite rendering and the validation string parsing code to create a renderer for icons. It looks pretty good, and it’s really looking like it’ll do the job.
+
+In just 4 1/2 hours, it managed to do what would have taken … well, quite a bit longer. And I just sat there and whittered… sorry, directed it. But there’s some bits that aren’t right. This week, we’ll have a look at what the code’s like and try to fix the things that are obviously broken.
+
+Come along if you like – [https://youtube.com/live/LuukPqoOly8?feature=share](https://youtube.com/live/LuukPqoOly8?feature=share) – or you can always watch the video afterwards at the same address.
+
+* * *
+
+For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
+
+[https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_IconRender) – shows the functionality we need to add. There’s quite a lot!
+
+* * *
+
+If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTs…](https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTsdRKzv_uMif_KBGrSqP)
+
+Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimpiconrender…](https://presentation.riscos.online/live/wimpiconrender.html) (once it has been published).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20417:164135</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mmcf4frl6s2j</link>
       <description>
         <![CDATA[Making Browse Useful again 
@@ -51,6 +145,23 @@ Many thanks for a really interesting article submission on using Browse in 2026 
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mmc3prj4sc2e</guid>
+    </item>    <item>
+      <title>Hard Disk data recovery</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20405</link>
+      <description>
+        <![CDATA[<p>If that&#8217;s truly what it is, then &#8212; well. Seems like someone must have bought the name around 2000 or done a little bit of rebadging.</p>
+        <p><a href="https://web.archive.org/web/20000304175118/http://www.connertech.com/">https://web.archive.org/web/20000304175118/http://www.…</a></p>
+        <p>Going by the web archive it seems like they were only around for about a year.</p>
+        <p>Edit: More information on the Wayback Machine &#8211; <a href="https://en.wikipedia.org/wiki/Finis_Conner">https://en.wikipedia.org/wiki/Finis_Conner</a> &#8211; founded by Finis Conner, the original founder of Conner Peripherals. Later went bust and was bought by ExcelStor. Seems like they were rebranding <span class="caps">IBM</span>/Hitachi Deskstar drives.</p>]]>
+      </description>
+      <source:markdown>If that’s truly what it is, then — well. Seems like someone must have bought the name around 2000 or done a little bit of rebadging.
+
+[https://web.archive.org/web/20000304175118/http://www.…](https://web.archive.org/web/20000304175118/http://www.connertech.com/)
+
+Going by the web archive it seems like they were only around for about a year.
+
+Edit: More information on the Wayback Machine – [https://en.wikipedia.org/wiki/Finis\_Conner](https://en.wikipedia.org/wiki/Finis_Conner) – founded by Finis Conner, the original founder of Conner Peripherals. Later went bust and was bought by ExcelStor. Seems like they were rebranding IBM/Hitachi Deskstar drives.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20405:164127</guid>
     </item>    <item>
       <title>WROCC May 2026 talk on Wednesday</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13585&#38;page=1#125895</link>
@@ -219,6 +330,14 @@ The Electron, it appears, got it right...
 https://aresluna.org/fn/</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mm7jpmcq5s2u</guid>
     </item>    <item>
+      <title>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20399</link>
+      <description>
+        <![CDATA[<p>I hope some kind &amp; caring person made a video for those down under can see it.</p>]]>
+      </description>
+      <source:markdown>I hope some kind &#38; caring person made a video for those down under can see it.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20399:164118</guid>
+    </item>    <item>
       <title>ROUGOL May 2026 meeting - Jim Mitchell</title>
       <link>http://www.iconbar.com/comments/rss/news2337.html</link>
       <description>
@@ -227,32 +346,23 @@ https://aresluna.org/fn/</source:markdown>
       <source:markdown>Rougols&#39;s May speaker (for a very popular meeting) was Jim Mitchell, talking about ARX and the Acorn Palo Alto Research Centre</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2337.html</guid>
     </item>    <item>
+      <title>RISC OS Build environment release 0.3.477</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20404</link>
+      <description>
+        <![CDATA[<p>Ah, you&#8217;re running under Rosetta. That&#8217;ll be why. I&#8217;m using an x86 macBook, largely so that I can run things that way.<br />
+        Still working on it but the github repo will be releasing shortly&#8230; you may still have to fight with includes if you do pre-processing though.</p>]]>
+      </description>
+      <source:markdown>Ah, you’re running under Rosetta. That’ll be why. I’m using an x86 macBook, largely so that I can run things that way.
+
+Still working on it but the github repo will be releasing shortly… you may still have to fight with includes if you do pre-processing though.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20404:164116</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm5toavmik2b</link>
       <description>
         <![CDATA[The original artwork for one of the most iconic NES Silver Surfer images. Created on an Amstrad CPC 6128 using Advanced OCP Art Studio. Sadly, the palette information has been lost. The game's artwork was created by Neal Sutton, Craig Houston and Anthony Anderson. I can't recall who drew this image.]]>
       </description>
       <source:markdown>The original artwork for one of the most iconic NES Silver Surfer images. Created on an Amstrad CPC 6128 using Advanced OCP Art Studio. Sadly, the palette information has been lost. The game&#39;s artwork was created by Neal Sutton, Craig Houston and Anthony Anderson. I can&#39;t recall who drew this image.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mm5toavmik2b</guid>
-    </item>    <item>
-      <title>Hard Disk data recovery</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20405</link>
-      <description>
-        <![CDATA[<p>I&#8217;m surprised to hear of a 4GB Conner drive unless it&#8217;s a Seagate re-brand &#8212; as Seagate bought Conner back when the drives were about 1GB max.</p>
-        <p>The CFS425 and CFS420 are 420MB and were standard drives on <span class="caps">RISC</span> PCs. They won&#8217;t work with <span class="caps">USB</span> adapters (except possibly the ATAboy but I haven&#8217;t tried) as the <span class="caps">USB</span>-to-<span class="caps">IDE</span> cards only work with modern drives which support <span class="caps">LBA</span> addressing. I have an old Linux PC with physical <span class="caps">IDE</span> and <span class="caps">SCSI</span> which is my usual for these drives.</p>
-        <p>They have common failure modes &#8211; I&#8217;ve repaired a few and got the data off. But I&#8217;d need the exact model number from the drive label to tell you. I might have another working controller board, sometimes they have problems with stiction and the actuator lock too (it jams, stopping the head from moving &#8211; the fix is a slither of Kapton tape over the gummy rubber bumper)</p>
-        <p>Most data recovery companies no longer have a supply of spare boards or the expertise to handle these drives. But you might be lucky. If anyone still had recovery gear I&#8217;d expect it to be one of the big dogs like perhaps Ontrack, but I&#8217;d also expect them to charge accordingly.</p>
-        <p>Feel free to drop me an email if you&#8217;d like me to take a look.</p>]]>
-      </description>
-      <source:markdown>I’m surprised to hear of a 4GB Conner drive unless it’s a Seagate re-brand — as Seagate bought Conner back when the drives were about 1GB max.
-
-The CFS425 and CFS420 are 420MB and were standard drives on RISC PCs. They won’t work with USB adapters (except possibly the ATAboy but I haven’t tried) as the USB-to-IDE cards only work with modern drives which support LBA addressing. I have an old Linux PC with physical IDE and SCSI which is my usual for these drives.
-
-They have common failure modes – I’ve repaired a few and got the data off. But I’d need the exact model number from the drive label to tell you. I might have another working controller board, sometimes they have problems with stiction and the actuator lock too (it jams, stopping the head from moving – the fix is a slither of Kapton tape over the gummy rubber bumper)
-
-Most data recovery companies no longer have a supply of spare boards or the expertise to handle these drives. But you might be lucky. If anyone still had recovery gear I’d expect it to be one of the big dogs like perhaps Ontrack, but I’d also expect them to charge accordingly.
-
-Feel free to drop me an email if you’d like me to take a look.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20405:164112</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mm5nycyjq227</link>
       <description>
@@ -268,23 +378,6 @@ https://www.iconbar.com/articles/ShareFSServer\_0.4.2\_released/index2335.html
 
 Paolo has been burning the midnight oil with his free ShareFSServer software and version 0.4.2 was released yesterday.</source:markdown>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mm5nycyjq227</guid>
-    </item>    <item>
-      <title>RISC OS Build environment release 0.3.477</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20404</link>
-      <description>
-        <![CDATA[<p>Is there an official repository for cmunge? I&#8217;m using version 0.77 from the gccsdk project, and your build environment has version 0.84.</p>
-        <p>I&#8217;ve spotted a bug in 0.77&#8217;s <code>generic-veneers</code> which is fixed in 0.84, but 0.84 doesn&#8217;t have PDriver veneers. It&#8217;s trivial to fix 0.77, but clearly forks aren&#8217;t good.</p>
-        <p><code>generic-veneers: escape_handler(private-word: r12)</code> stores <code>{r0-r12,lr}</code> but only restores <code>{r0-r11,pc}</code>, in the 32-bit case. It&#8217;s correct in the 26-bit case and in your 0.84. I spotted it by inspecting the code as I wanted to see how generic &#8216;generic&#8217; was. I don&#8217;t think I&#8217;ve ever pressed escape (it&#8217;s only enabled for a trivial amount of time if writing to a file), but presumably it&#8217;d crash. Shonky.</p>
-        <p>Given the overhead of everything else, is it really worth the optimisation to not to store r12? That one did cause a crash (months ago), until I read the cmunge manual, presumably because my uninitialised r12 was 1 on exit. I&#8217;m happy to merge in the PDriver patches from the gcc branch, given I can easily test them&#8230; Or just switch to <code>generic-veneers</code>, if they worked correctly :-) But I&#8217;d much prefer a native macOS binary, rather than x86 emulation under docker.</p>]]>
-      </description>
-      <source:markdown>Is there an official repository for cmunge? I’m using version 0.77 from the gccsdk project, and your build environment has version 0.84.
-
-I’ve spotted a bug in 0.77’s `generic-veneers` which is fixed in 0.84, but 0.84 doesn’t have PDriver veneers. It’s trivial to fix 0.77, but clearly forks aren’t good.
-
-`generic-veneers: escape_handler(private-word: r12)` stores `{r0-r12,lr}` but only restores `{r0-r11,pc}`, in the 32-bit case. It’s correct in the 26-bit case and in your 0.84. I spotted it by inspecting the code as I wanted to see how generic ‘generic’ was. I don’t think I’ve ever pressed escape (it’s only enabled for a trivial amount of time if writing to a file), but presumably it’d crash. Shonky.
-
-Given the overhead of everything else, is it really worth the optimisation to not to store r12? That one did cause a crash (months ago), until I read the cmunge manual, presumably because my uninitialised r12 was 1 on exit. I’m happy to merge in the PDriver patches from the gcc branch, given I can easily test them… Or just switch to `generic-veneers`, if they worked correctly :-) But I’d much prefer a native macOS binary, rather than x86 emulation under docker.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20404:164111</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm5gaexij22w</link>
       <description>
@@ -348,20 +441,6 @@ https://static.klipy.com/ii/c3a19a0b747a76e98651f2b9a3cca5ff/3d/e2/Qy5jOhIH.gif?
       </description>
       <source:markdown>Kev Wells has released another new quiz application based on his quiz engine, this time designed to test people’s knowledge of Semaphore flag signalling, a visual method of sending information using handheld flags. Like Kev’s other quizzes, SemaQuiz offers a number of multiple choice questions; the user chooses what they think is the correct answer, and their score is totted up. The program is standalone, in that it doesn’t require an internet connection to run, but the source data it uses was taken from a couple of online resources –…</source:markdown>
       <guid>cid://https://www.riscository.com/?p=10947</guid>
-    </item>    <item>
-      <title>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20399</link>
-      <description>
-        <![CDATA[<p>Martin &#8211; resent you the link.</p>
-        <p>Druck &#8211; I&#8217;ll try to remember to text you!</p>
-        <p>Everyone else &#8211; meeting starts soon! There are at least five other Acorn employees joining us so the Q&amp;A should be great :-)</p>]]>
-      </description>
-      <source:markdown>Martin – resent you the link.
-
-Druck – I’ll try to remember to text you!
-
-Everyone else – meeting starts soon! There are at least five other Acorn employees joining us so the Q&#38;A should be great :-)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20399:164109</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mm54jenhks2w</link>
       <description>
