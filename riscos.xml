@@ -7,10 +7,46 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>21 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>22 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.23b</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mmhc7jncis2n</link>
+      <description>
+        <![CDATA[Relaxing in the shade reading a great book about Acorn, Sinclair and the race for the BBC contract, plus lots more great stories told by the people that were actually there at the time.]]>
+      </description>
+      <source:markdown>Relaxing in the shade reading a great book about Acorn, Sinclair and the race for the BBC contract, plus lots more great stories told by the people that were actually there at the time.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mmhc7jncis2n</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mmgz2e6xxk2n</link>
+      <description>
+        <![CDATA[Sometimes I turn on an old compute and just have it running next to me while I work. For the company.]]>
+      </description>
+      <source:markdown>Sometimes I turn on an old compute and just have it running next to me while I work. For the company.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mmgz2e6xxk2n</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mmgxv4de6s2r</link>
+      <description>
+        <![CDATA[I've changed MacroKeys such that FN+0 to FN+9 *map* directly to f0-f9, and FN+Return maps to Enter. This means one can press FN-Ctrl-Shift-0 to press Ctrl-Shift-Print. So we can finally press Enter in VirtualRPC and Print in RPCEmu!
+        
+        However, this is subject to your keyboard's n-key rollover: 😕
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>I&#39;ve changed MacroKeys such that FN+0 to FN+9 \*map\* directly to f0-f9, and FN+Return maps to Enter. This means one can press FN-Ctrl-Shift-0 to press Ctrl-Shift-Print. So we can finally press Enter in VirtualRPC and Print in RPCEmu!
+
+However, this is subject to your keyboard&#39;s n-key rollover: 😕
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mmgxv4de6s2r</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mmf5mnxfok2w</link>
+      <description>
+        <![CDATA[@suddi.bsky.social Remember the interview you did which was published in the Manchester Evening News, 20th July 1994? Sadly the scan of the first page is no good, but the 2nd page is good.]]>
+      </description>
+      <source:markdown>@suddi.bsky.social Remember the interview you did which was published in the Manchester Evening News, 20th July 1994? Sadly the scan of the first page is no good, but the 2nd page is good.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mmf5mnxfok2w</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mmeyulpx7s2a</link>
       <description>
         <![CDATA[Q. "How can our major media outlets get this so wrong?"
@@ -317,6 +353,27 @@ Return, Backspace, Enter and Kepad Plus (for that is what it ought to be) are go
 Thank you ever so much to everyone who follows my channel, it continues to be a hugely enjoyable hobby for me, so I&#39;m very grateful to anyone who takes an interest!</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mm7sfu5y422r</guid>
     </item>    <item>
+      <title>RISC OS Build environment release 0.3.477</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20404</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I’ve been using this name for a few years now, so I think I’m happy with it.</p>
+        </blockquote>
+        <p>Of course <em>you&#8217;re</em> happy with it. The <span class="caps">DDE</span> has been the <span class="caps">RISC</span> OS build environment for about 40 years, but who&#8217;s counting, eh? We published <a href="https://www.riscosopen.org/content/documents/ssfaq#:~:text=The%20RISC%20OS%20build%20environment">this page</a> in 2006, for example. This is the potential confusion I am referring to.</p>]]>
+      </description>
+      <source:markdown>&#62; I’ve been using this name for a few years now, so I think I’m happy with it.
+
+Of course _you’re_ happy with it. The DDE has been the RISC OS build environment for about 40 years, but who’s counting, eh? We published [this page](https://www.riscosopen.org/content/documents/ssfaq#:~:text=The%20RISC%20OS%20build%20environment) in 2006, for example. This is the potential confusion I am referring to.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20404:164120</guid>
+    </item>    <item>
+      <title>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20399</link>
+      <description>
+        <![CDATA[<p>It was recorded yes</p>]]>
+      </description>
+      <source:markdown>It was recorded yes</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20399:164119</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mm7jpmcq5s2u</link>
       <description>
         <![CDATA[Excellent essay on keyboard modifier shenanigans particularly aimed at Apple, but concluding with the surprising plea for Apple to become more like Acorn. By which they don't mean dead.
@@ -330,14 +387,6 @@ The Electron, it appears, got it right...
 https://aresluna.org/fn/</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mm7jpmcq5s2u</guid>
     </item>    <item>
-      <title>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20399</link>
-      <description>
-        <![CDATA[<p>I hope some kind &amp; caring person made a video for those down under can see it.</p>]]>
-      </description>
-      <source:markdown>I hope some kind &#38; caring person made a video for those down under can see it.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20399:164118</guid>
-    </item>    <item>
       <title>ROUGOL May 2026 meeting - Jim Mitchell</title>
       <link>http://www.iconbar.com/comments/rss/news2337.html</link>
       <description>
@@ -345,17 +394,6 @@ https://aresluna.org/fn/</source:markdown>
       </description>
       <source:markdown>Rougols&#39;s May speaker (for a very popular meeting) was Jim Mitchell, talking about ARX and the Acorn Palo Alto Research Centre</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2337.html</guid>
-    </item>    <item>
-      <title>RISC OS Build environment release 0.3.477</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20404</link>
-      <description>
-        <![CDATA[<p>Ah, you&#8217;re running under Rosetta. That&#8217;ll be why. I&#8217;m using an x86 macBook, largely so that I can run things that way.<br />
-        Still working on it but the github repo will be releasing shortly&#8230; you may still have to fight with includes if you do pre-processing though.</p>]]>
-      </description>
-      <source:markdown>Ah, you’re running under Rosetta. That’ll be why. I’m using an x86 macBook, largely so that I can run things that way.
-
-Still working on it but the github repo will be releasing shortly… you may still have to fight with includes if you do pre-processing though.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20404:164116</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mm5toavmik2b</link>
       <description>
