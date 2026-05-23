@@ -7,10 +7,155 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>22 May 26 12:00 -0700</lastBuildDate>
-    <generator>antenna/0.0.23b</generator>
+    <lastBuildDate>23 May 26 12:00 -0700</lastBuildDate>
+    <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Icon Colours and Plotting</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20421</link>
+      <description>
+        <![CDATA[<p>Is it documented anywhere how the Wimp uses the foreground and background colours of icons when plotting the icon text? Either for real icons or Wimp_PlotIcon.</p>
+        <p>I had assumed (for no particular reason) that the icon&#8217;s background colour would be used to anti-alias the text, but it seems that for an unfilled icon the work area colour is being used. In the situation where the work area is &#8220;transparent&#8221; and a background is being plotted by the application, it appears to be using Wimp Colour 1 (or possibly white). Or, at least, setting the icon&#8217;s background colour to the colour being plotted behind it in the window as the background isn&#8217;t preventing ghosting around the text if the plotted background is Wimp Colour 2 or darker.</p>]]>
+      </description>
+      <source:markdown>Is it documented anywhere how the Wimp uses the foreground and background colours of icons when plotting the icon text? Either for real icons or Wimp\_PlotIcon.
+
+I had assumed (for no particular reason) that the icon’s background colour would be used to anti-alias the text, but it seems that for an unfilled icon the work area colour is being used. In the situation where the work area is “transparent” and a background is being plotted by the application, it appears to be using Wimp Colour 1 (or possibly white). Or, at least, setting the icon’s background colour to the colour being plotted behind it in the window as the background isn’t preventing ghosting around the text if the plotted background is Wimp Colour 2 or darker.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20421:164156</guid>
+    </item>    <item>
+      <title>Audio on RISC OS</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20323</link>
+      <description>
+        <![CDATA[<p>I&#8217;ll check to see what test files I did. Can&#8217;t recall offhand.</p>
+        <p>However the need is to be able to capture what emerges from any &#8216;pipe&#8217; to check it is correct. Bear in mind the way the Iyonix simply repeated or skipped samles to get a user-chosen &#8216;rate&#8217;. No actual filtering to do an accurate sample-rate conversion.</p>]]>
+      </description>
+      <source:markdown>I’ll check to see what test files I did. Can’t recall offhand.
+
+However the need is to be able to capture what emerges from any ‘pipe’ to check it is correct. Bear in mind the way the Iyonix simply repeated or skipped samles to get a user-chosen ‘rate’. No actual filtering to do an accurate sample-rate conversion.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20323:164152</guid>
+    </item>    <item>
+      <title>JPEGs in ArtWorks</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20420</link>
+      <description>
+        <![CDATA[<p>I have a directory of about 300 <span class="caps">JPEG</span> files and I want to import each of these in turn into a blank ArtWorks file and save it.<br />
+        It is a simple, tedious and time-consuming task. The object is then to import said ArtWorks file into an Impression document.<br />
+        I notice that the resulting ArtWorks file is the same as a blank file but with some extra bytes inserted at &amp;704 consisting of &amp;70 bytes, the exact contents of the <span class="caps">JPEG</span> file, followed by a few more bytes (from 12 to 50 or so bytes).<br />
+        I am wondering if I can automate this process to save all that dragging into ArtWorks and saving.<br />
+        I suspect I may be treading in Richard Keefe&#8217;s footsteps as I think Impression X imports a jpeg file by encapsulating it in an ArtWorks wrapper first. This means the bit map image is not held in memory with the document but is rendered as required.</p>]]>
+      </description>
+      <source:markdown>I have a directory of about 300 JPEG files and I want to import each of these in turn into a blank ArtWorks file and save it.
+
+It is a simple, tedious and time-consuming task. The object is then to import said ArtWorks file into an Impression document.
+
+I notice that the resulting ArtWorks file is the same as a blank file but with some extra bytes inserted at &#38;704 consisting of &#38;70 bytes, the exact contents of the JPEG file, followed by a few more bytes (from 12 to 50 or so bytes).
+
+I am wondering if I can automate this process to save all that dragging into ArtWorks and saving.
+
+I suspect I may be treading in Richard Keefe’s footsteps as I think Impression X imports a jpeg file by encapsulating it in an ArtWorks wrapper first. This means the bit map image is not held in memory with the document but is rendered as required.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20420:164151</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/rougol.bsky.social/post/3mmihh3zm6c2k</link>
+      <description>
+        <![CDATA[Listen to Rob Napier talk about his book and career with Acorn in this video of his talk at ROUGOL 
+        youtu.be/N5yvbB-rqfI
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Listen to Rob Napier talk about his book and career with Acorn in this video of his talk at ROUGOL
+youtu.be/N5yvbB-rqfI
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:qc7wakonwzdm2lqkgax4zatd/app.bsky.feed.post/3mmihh3zm6c2k</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mmi23ohpuc26</link>
+      <description>
+        <![CDATA[This is insanely good for the humble ZX81 - wow!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>This is insanely good for the humble ZX81 - wow!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mmi23ohpuc26</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p>For everyone who wanted <span class="caps">HTTP</span> protocol proxy in ShareFSServer, I have almost completed support and big thanks goes to RComp for offering &#8220;voluteering&#8221; to testing their update website! XD</p>
+        <p>Details and pictures here: <br />
+        <pre><br />
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmhqpeqlg22r">https://bsky.app/profile/paolofabiozaino.bsky.social/p…</a><br />
+        </pre></p>
+        <p>Now I am running the final rounds of testing, and if everything pass, I&#8217;ll proceed to package the new build for folks to give it a real world set of tests.</p>
+        <p>It&#8217;s a very powerful feature, which will allow old websites to become shares just one click away even when they require authentication, and supports all latest encryption and cyphering standards included <span class="caps">TLS</span> 1.3 for best <span class="caps">RISC</span> OS users safety when online.</p>
+        <p>Of course, works on all <span class="caps">RISC</span> OS releases all the way down to <span class="caps">RISC</span> OS 3.10!</p>
+        <p>As usual you can use !Locate and !Find etc. to search on a web site, you can open files directly, and also launch apps. Basically I have achieved what <span class="caps">ARX</span> wanted to achieve with the shared documents ;)</p>
+        <p>Next I&#8217;ll probably should add clients to observe document&#8217;s variations and updates (which are already supported via configuring hot-updates as polling!).</p>
+        <p>Anyhoo back at testing, will post when the new release is available for download :)</p>
+        <p>P.S. Andrew I hope it was ok to run a test with the Pinebook Pro support site.</p>]]>
+      </description>
+      <source:markdown>For everyone who wanted HTTP protocol proxy in ShareFSServer, I have almost completed support and big thanks goes to RComp for offering “voluteering” to testing their update website! XD
+
+Details and pictures here:
+
+```
+
+https://bsky.app/profile/paolofabiozaino.bsky.social/p…
+
+```
+
+Now I am running the final rounds of testing, and if everything pass, I’ll proceed to package the new build for folks to give it a real world set of tests.
+
+It’s a very powerful feature, which will allow old websites to become shares just one click away even when they require authentication, and supports all latest encryption and cyphering standards included TLS 1.3 for best RISC OS users safety when online.
+
+Of course, works on all RISC OS releases all the way down to RISC OS 3.10!
+
+As usual you can use !Locate and !Find etc. to search on a web site, you can open files directly, and also launch apps. Basically I have achieved what ARX wanted to achieve with the shared documents ;)
+
+Next I’ll probably should add clients to observe document’s variations and updates (which are already supported via configuring hot-updates as polling!).
+
+Anyhoo back at testing, will post when the new release is available for download :)
+
+P.S. Andrew I hope it was ok to run a test with the Pinebook Pro support site.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:164145</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmhqpeqlg22r</link>
+      <description>
+        <![CDATA[#RISC_OS folks, dreaming of being able to mount a Web site like a local disk to have a much better life with RComp updates or even having the largest RO legacy software archive as a local disk? Dream no more, #ShareFSServer next release can mount Web sites as disks 😉
+        #riscos #FileSharing #OpenSource]]>
+      </description>
+      <source:markdown>#RISC\_OS folks, dreaming of being able to mount a Web site like a local disk to have a much better life with RComp updates or even having the largest RO legacy software archive as a local disk? Dream no more, #ShareFSServer next release can mount Web sites as disks 😉
+#riscos #FileSharing #OpenSource</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mmhqpeqlg22r</guid>
+    </item>    <item>
+      <title>NEON query</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20419</link>
+      <description>
+        <![CDATA[<p>Can anyone explain these results, please?</p>
+        <pre><code>vmov.I8  d0,#&amp;4c    ; ok, d0 = 4C 4C 4C 4C 4C 4C 4C 4C 
+        vmov.I16 d1,#&amp;cd    ; ok, d1 = 00 CD 00 CD 00 CD 00 CD 
+        vmov.I32 d2,#&amp;f3    ; ok, d2 = 00 00 00 F3 00 00 00 F3
+        vmov.I64 d4,#0      ; appears ok, d4 = 00 00 00 00 00 00 00 00
+        vmov.I64 d4,#1      ; ERROR, "Bad immediate constant"
+        vmov.I64 d4,#-1     ; gives d4 = 00 00 00 00 FF FF FF FF</code></pre>
+        <p>What&#8217;s going on there? I expected vmov.I64 d4,#1 to move 1 into the lowest byte of d4. And the last one is weird.</p>
+        <p>RO 5.31, <span class="caps">BASIC</span> 1.85.</p>]]>
+      </description>
+      <source:markdown>Can anyone explain these results, please?
+
+```
+vmov.I8  d0,#&#38;4c    ; ok, d0 = 4C 4C 4C 4C 4C 4C 4C 4C
+vmov.I16 d1,#&#38;cd    ; ok, d1 = 00 CD 00 CD 00 CD 00 CD
+vmov.I32 d2,#&#38;f3    ; ok, d2 = 00 00 00 F3 00 00 00 F3
+vmov.I64 d4,#0      ; appears ok, d4 = 00 00 00 00 00 00 00 00
+vmov.I64 d4,#1      ; ERROR, &#34;Bad immediate constant&#34;
+vmov.I64 d4,#-1     ; gives d4 = 00 00 00 00 FF FF FF FF
+```
+
+What’s going on there? I expected vmov.I64 d4,#1 to move 1 into the lowest byte of d4. And the last one is weird.
+
+RO 5.31, BASIC 1.85.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20419:164144</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mmhc7jncis2n</link>
       <description>
         <![CDATA[Relaxing in the shade reading a great book about Acorn, Sinclair and the race for the BBC contract, plus lots more great stories told by the people that were actually there at the time.]]>
@@ -39,6 +184,14 @@ However, this is subject to your keyboard&#39;s n-key rollover: 😕
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mmgxv4de6s2r</guid>
+    </item>    <item>
+      <title>Automating.</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20416</link>
+      <description>
+        <![CDATA[<p>Its impressive, looks promising!</p>]]>
+      </description>
+      <source:markdown>Its impressive, looks promising!</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20416:164143</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mmf5mnxfok2w</link>
       <description>
@@ -226,17 +379,6 @@ Edit: More information on the Wayback Machine – [https://en.wikipedia.org/wiki
       <source:markdown>This year&#39;s Econet LAN Party was huge fun, here&#39;s some of what we got up to: youtu.be/gVpIb4K7e7Y
 https://youtu.be/gVpIb4K7e7Y</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mmbh5lbbk22g</guid>
-    </item>    <item>
-      <title>Automating.</title>
-      <link>https://www.riscosopen.org/forum/forums/10/topics/20416</link>
-      <description>
-        <![CDATA[<p>Is there a way to automate RPCEmu from the host OS?</p>
-        <p>Even just noticing a file has appeared in HostFS would help, though running it for me would be nicer&#8230;</p>]]>
-      </description>
-      <source:markdown>Is there a way to automate RPCEmu from the host OS?
-
-Even just noticing a file has appeared in HostFS would help, though running it for me would be nicer…</source:markdown>
-      <guid>cid://www.riscosopen.org:10:20416:164125</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmalhavh522z</link>
       <description>
@@ -532,17 +674,6 @@ https://www.theregister.com/security/2026/05/18/linus-torvalds-says-ai-powered-b
 So your early serial port was only 7½ times faster than talking.
 https://static.klipy.com/ii/d7aec6f6f171607374b2065c836f92f4/2c/b4/wGeEA0oQ.gif?hh=215&#38;ww=498&#38;mp4=QC2pT1jScxS5zpZdRE16&#38;webm=3SWPtxOaT2c4UvN1</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mm4smtk5g22w</guid>
-    </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p>ha! Good to know Paul :)</p>
-        <p>No idea why the new email is bouncing back, sorry about the inconvenient. I&#8217;ll try to check why.</p>]]>
-      </description>
-      <source:markdown>ha! Good to know Paul :)
-
-No idea why the new email is bouncing back, sorry about the inconvenient. I’ll try to check why.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:164108</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mm4rdvfx722q</link>
       <description>
@@ -1219,28 +1350,6 @@ ROOL&#39;s RISC OS presentation at the Big Ben Club&#39;s ROX show.🚀🛸🕹�
       </description>
       <source:markdown>@piers For Iris, we decided to simply render to sprite and print that. This had the side benefit of printing exactly what is on screen which is a common issue for printing from browsers. It’s a slightly ugly solution that isn’t always ideal (and doesn’t plumb-in well to the JS-PDF stuff), but gives decent prints which accurately resemble their on-screen counterparts.</source:markdown>
       <guid>cid://www.riscosopen.org:13:20400:163941</guid>
-    </item>    <item>
-      <title>Audio on RISC OS</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20323</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>Do you know if any of the various cheap <span class="caps">USB</span> to 3.5&quot; headphone adapters available on Amazon are compatible with the IsocUSB components? If those could be made to work with <span class="caps">RISC</span> OS, it would provide an easy way of getting audio output.</p>
-        </blockquote>
-        <p>I use the 3.5mm (analog) output of my <span class="caps">HMDI</span> monitor, with an amplified speaker. There must also be cheap adapters to extract audio.</p>
-        <p>From this analog output we should be able to make measurements via an <span class="caps">ADC</span> with Jim&#8217;s USBScope software.<br />
-        It seems to me that Jim produced a battery of tests in the form of a wav file? (I don&#8217;t have a link)</p>
-        <p>Cameron, I hope you find a <span class="caps">USB</span> device that works. If you can give the list?</p>]]>
-      </description>
-      <source:markdown>&#62; Do you know if any of the various cheap USB to 3.5&#34; headphone adapters available on Amazon are compatible with the IsocUSB components? If those could be made to work with RISC OS, it would provide an easy way of getting audio output.
-
-I use the 3.5mm (analog) output of my HMDI monitor, with an amplified speaker. There must also be cheap adapters to extract audio.
-
-From this analog output we should be able to make measurements via an ADC with Jim’s USBScope software.
-
-It seems to me that Jim produced a battery of tests in the form of a wav file? (I don’t have a link)
-
-Cameron, I hope you find a USB device that works. If you can give the list?</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20323:163933</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mlgupzltsk2s</link>
       <description>
