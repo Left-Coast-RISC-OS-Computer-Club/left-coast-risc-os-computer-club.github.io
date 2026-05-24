@@ -7,20 +7,213 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>23 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>24 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmmagqtlgk22</link>
+      <description>
+        <![CDATA[#RISC_OS #ShareFSServer alpha build 0.5.0 is available for testers to give it a spin. More details on the improvements on this release here:
+        
+        https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&page=5#posts-164172
+        
+        #riscos #FileSharing #OpenSource #Rust #Linux #Windows #macOS #BSD #Android]]>
+      </description>
+      <source:markdown>#RISC\_OS #ShareFSServer alpha build 0.5.0 is available for testers to give it a spin. More details on the improvements on this release here:
+
+https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=5#posts-164172
+
+#riscos #FileSharing #OpenSource #Rust #Linux #Windows #macOS #BSD #Android</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mmmagqtlgk22</guid>
+    </item>    <item>
+      <title>TimPlayer 1.29 - Sample Repeat Issue</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20423</link>
+      <description>
+        <![CDATA[<p>@Andre Timmermans<br />
+        I think I&#8217;ve discovered an issue or a bug with TimPlayer v1.29.</p>
+        <p>I have created 3 TimPlayer songs for a game I am developing. They are used to store samples only. One song for the samples of the UI and one song for the samples of the game and the 3rd song for the 2 music samples for the menu and game. I set up both music samples to repeat. My problem is when the game music tries to repeat it plays all the other samples first and then repeats the actual song sample.</p>
+        <p>After a bit of investigation I have come up with 2 &#8216;workarounds&#8217;.</p>
+        <p>The 1st workaround is it would seem that the sample didnt like repeating if there was other songs loaded after it. In my case the music song was loaded first and the samples songs loaded after. So I swapped the loading order around and the problem has gone away.</p>
+        <p>The 2nd workaround is to leave the loading order as it was and set the music samples to repeat after everything has loaded and again the problem goes away.</p>
+        <p>My question is, is there something I am overlooking or is this a bug and I have found a work around to. Am I likely to fall foul to the issue again because it is only a workaround and not a solution.</p>
+        <p>Greg</p>]]>
+      </description>
+      <source:markdown>@Andre Timmermans
+
+I think I’ve discovered an issue or a bug with TimPlayer v1.29.
+
+I have created 3 TimPlayer songs for a game I am developing. They are used to store samples only. One song for the samples of the UI and one song for the samples of the game and the 3rd song for the 2 music samples for the menu and game. I set up both music samples to repeat. My problem is when the game music tries to repeat it plays all the other samples first and then repeats the actual song sample.
+
+After a bit of investigation I have come up with 2 ‘workarounds’.
+
+The 1st workaround is it would seem that the sample didnt like repeating if there was other songs loaded after it. In my case the music song was loaded first and the samples songs loaded after. So I swapped the loading order around and the problem has gone away.
+
+The 2nd workaround is to leave the loading order as it was and set the music samples to repeat after everything has loaded and again the problem goes away.
+
+My question is, is there something I am overlooking or is this a bug and I have found a work around to. Am I likely to fall foul to the issue again because it is only a workaround and not a solution.
+
+Greg</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20423:164180</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 24th May at 1pm UK time</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20417</link>
+      <description>
+        <![CDATA[<p>Going give in about 2 hours (1pm).</p>]]>
+      </description>
+      <source:markdown>Going give in about 2 hours (1pm).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20417:164178</guid>
+    </item>    <item>
+      <title>London Show 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20422</link>
+      <description>
+        <![CDATA[<p>Looking ahead to Oct 2026 London RO show (if one is still here) did anyone try a Taxi from Heathrow to the 2025 Show &#8211; bit like we used to do SW show and use a group taxi back to the train station.</p>]]>
+      </description>
+      <source:markdown>Looking ahead to Oct 2026 London RO show (if one is still here) did anyone try a Taxi from Heathrow to the 2025 Show – bit like we used to do SW show and use a group taxi back to the train station.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20422:164176</guid>
+    </item>    <item>
       <title>Icon Colours and Plotting</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20421</link>
       <description>
-        <![CDATA[<p>Is it documented anywhere how the Wimp uses the foreground and background colours of icons when plotting the icon text? Either for real icons or Wimp_PlotIcon.</p>
-        <p>I had assumed (for no particular reason) that the icon&#8217;s background colour would be used to anti-alias the text, but it seems that for an unfilled icon the work area colour is being used. In the situation where the work area is &#8220;transparent&#8221; and a background is being plotted by the application, it appears to be using Wimp Colour 1 (or possibly white). Or, at least, setting the icon&#8217;s background colour to the colour being plotted behind it in the window as the background isn&#8217;t preventing ghosting around the text if the plotted background is Wimp Colour 2 or darker.</p>]]>
+        <![CDATA[<p>Thanks &#8212; I was looking for confirmation that it wasn&#8217;t reasonable to expect the Wimp to plot unfilled icons anti-aliased to their background colour as part of a window redraw loop, and it seems that I was correct that it wasn&#8217;t. It&#8217;s probably something of a niche requirement, because if you&#8217;re plotting unfilled icons, logic says that they probably should be on a standard window background for &#8220;style&#8221; reasons<sup id="fnr1"><a href="#fn1">1</a></sup> anyway &#8211; and that&#8217;s what the behaviour seems to lean towards.</p>
+        <p>I assume that the &#8220;correct&#8221; approach is something like Wimp_TextOp 2 with the background colour set correctly?</p>
+        <p>For some context, I spotted this when writing the last example here: <a href="https://www.stevefryatt.org.uk/risc-os/wimp-prog/window-redraw-cookbook">https://www.stevefryatt.org.uk/risc-os/wimp-prog/windo…</a></p>
+        <p>fn.1 I won&#8217;t say <em>Style Guide</em>, as apparently that upsets people.</p>]]>
       </description>
-      <source:markdown>Is it documented anywhere how the Wimp uses the foreground and background colours of icons when plotting the icon text? Either for real icons or Wimp\_PlotIcon.
+      <source:markdown>Thanks — I was looking for confirmation that it wasn’t reasonable to expect the Wimp to plot unfilled icons anti-aliased to their background colour as part of a window redraw loop, and it seems that I was correct that it wasn’t. It’s probably something of a niche requirement, because if you’re plotting unfilled icons, logic says that they probably should be on a standard window background for “style” reasons[1](#fn1) anyway – and that’s what the behaviour seems to lean towards.
 
-I had assumed (for no particular reason) that the icon’s background colour would be used to anti-alias the text, but it seems that for an unfilled icon the work area colour is being used. In the situation where the work area is “transparent” and a background is being plotted by the application, it appears to be using Wimp Colour 1 (or possibly white). Or, at least, setting the icon’s background colour to the colour being plotted behind it in the window as the background isn’t preventing ghosting around the text if the plotted background is Wimp Colour 2 or darker.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20421:164156</guid>
+I assume that the “correct” approach is something like Wimp\_TextOp 2 with the background colour set correctly?
+
+For some context, I spotted this when writing the last example here: [https://www.stevefryatt.org.uk/risc-os/wimp-prog/windo…](https://www.stevefryatt.org.uk/risc-os/wimp-prog/window-redraw-cookbook)
+
+fn.1 I won’t say _Style Guide_, as apparently that upsets people.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20421:164174</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mmlf55dpp22y</link>
+      <description>
+        <![CDATA[Pac-Man.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Pac-Man.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mmlf55dpp22y</guid>
+    </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p><b>@all alpha testers</b></p>
+        <p>A new alpha build, <b>0.5.0</b>, is available for testing.</p>
+        <p><b>What&#8217;s new in this build:</b></p>
+        <ul>
+        	<li>New <span class="caps">HTTP</span> backend. What the heck is that? For sites that just publish the traditional <span class="caps">HTML</span> file system-ish interface, you can now mount them as ShareFS discs! This makes life a lot easier with many of the 90s-style websites and with update resources such as RComp&#8217;s famous password-protected locations. It supports all types of encryption, including the latest ones and <span class="caps">TLS</span> 1.3, and supports web server authentication too. There is an example in the usual sharefs.toml.example file for details.</li>
+        </ul>
+        <ul>
+        	<li>I finally found the time to complete polling mode for hot updates for protocols that do not support notifications. This is very handy when you are using an <span class="caps">FTP</span> server and you are also updating server-side. Try it and see what happens on <span class="caps">RISC</span> OS ;)</li>
+        </ul>
+        <ul>
+        	<li>Improved <span class="caps">FTP</span> support. As the weeks pass, I am improving the quality of native <span class="caps">FTP</span> support. This has proved very useful to a lot of users, me included, who still use a lot of <span class="caps">FTP</span> and <span class="caps">FTPS</span> sites with retro software, not only for <span class="caps">RISC</span> OS.</li>
+        </ul>
+        <ul>
+        	<li>Improved share definition handling. This should help users with some not-so-well-configured shares. Basically, there are more checks upfront.</li>
+        </ul>
+        <ul>
+        	<li>Fixed a set of issues reported in the last week. I am not listing them because I am not 100% sure they are fixed on the systems of the users who reported them. So Phil M., Bob L., and Martin, please re-run your tests and let me know if the issues you reported are fixed or not. I am unable to reproduce those problems here, so it is quite hard to fix something I cannot reproduce.</li>
+        </ul>
+        <ul>
+        	<li>As I keep cleaning up the code, I have improved performance again, but please make sure you test everything with this new version, given that it has a large number of changes.</li>
+        </ul>
+        <ul>
+        	<li>Started to lay the foundations to build it for Linux on <span class="caps">MIPS</span> as well, because it is official: since the last release, 0.4.4, we can run ShareFSServer on routers too! Therefore, support for the <span class="caps">MIPS</span> platform is in the making :)</li>
+        </ul>
+        <p>What does this mean? Well, for the folks who do not have a <span class="caps">NAS</span>, you will now be able to transform your main router, or an old router of yours, into a ShareFS <span class="caps">NAS</span> :)</p>
+        <p>What are the requirements for this?</p>
+        <ul>
+        	<li>Your router must allow software installation, either via <span class="caps">SCP</span> or Docker.</li>
+        	<li>Your router must be using Linux. This is most likely the case for most routers, but if it is not, then, if you are no longer using it, you could replace the firmware with OpenWrt. I am testing with it at the moment.</li>
+        	<li>Your router should have at least one <span class="caps">USB</span> port to connect an external disc or <span class="caps">USB</span> dongle. This is not a must, but it helps if you want to use large discs. <span class="caps">USB</span> 3 is better for performance.</li>
+        	<li>Your router will be really cool when running ShareFSServer! XD</li>
+        </ul>
+        <p>However, router support, like <span class="caps">NAS</span> support, is not recommended for non-technical users for now, because I still need to finish the web UI, which does make a lot of things easier.</p>
+        <p>Past week&#8217;s news:</p>
+        <ul>
+        	<li>The number of users who have migrated their pCloud to ShareFSServer is growing fast. That is cool, but please remember that ShareFSServer is still alpha. For example, this week, to fix a nasty potential issue when running many concurrent sessions, simulated with 10 <span class="caps">RISC</span> OS clients all doing massive copies at the same time and one playing an audio CD, I had to change the server code quite a bit. So there might be new issues with release 0.5.0. Therefore, please do not use it yet for your important data!</li>
+        </ul>
+        <p>However, I am glad that the pCloud issue for the <span class="caps">RISC</span> OS community is now fixed and people are happy again.</p>
+        <ul>
+        	<li>I have received more questions about the price of ShareFSServer when it is completed. The price is <span class="caps">FREE</span>, as in <span class="caps">FREE</span> <span class="caps">BEER</span>. Donations are always welcome, but the software is going to be free. Honestly, we have made far too many mistakes trying to charge people for utilities and simple programs that should be part of <span class="caps">RISC</span> OS itself. While some people may disagree, I am focused on building tools to make <span class="caps">RISC</span> OS fun to use and enjoyable for everyone.</li>
+        </ul>
+        <p>Thanks for all the help supporting this project!<br />
+        - Paolo</p>
+        <p>P.S. will send emails in the morning for all the users who do not read the ROOL&#8217;s forum.</p>]]>
+      </description>
+      <source:markdown>**@all alpha testers**
+
+A new alpha build, **0.5.0**, is available for testing.
+
+**What’s new in this build:**
+
+- New HTTP backend. What the heck is that? For sites that just publish the traditional HTML file system-ish interface, you can now mount them as ShareFS discs! This makes life a lot easier with many of the 90s-style websites and with update resources such as RComp’s famous password-protected locations. It supports all types of encryption, including the latest ones and TLS 1.3, and supports web server authentication too. There is an example in the usual sharefs.toml.example file for details.
+
+- I finally found the time to complete polling mode for hot updates for protocols that do not support notifications. This is very handy when you are using an FTP server and you are also updating server-side. Try it and see what happens on RISC OS ;)
+
+- Improved FTP support. As the weeks pass, I am improving the quality of native FTP support. This has proved very useful to a lot of users, me included, who still use a lot of FTP and FTPS sites with retro software, not only for RISC OS.
+
+- Improved share definition handling. This should help users with some not-so-well-configured shares. Basically, there are more checks upfront.
+
+- Fixed a set of issues reported in the last week. I am not listing them because I am not 100% sure they are fixed on the systems of the users who reported them. So Phil M., Bob L., and Martin, please re-run your tests and let me know if the issues you reported are fixed or not. I am unable to reproduce those problems here, so it is quite hard to fix something I cannot reproduce.
+
+- As I keep cleaning up the code, I have improved performance again, but please make sure you test everything with this new version, given that it has a large number of changes.
+
+- Started to lay the foundations to build it for Linux on MIPS as well, because it is official: since the last release, 0.4.4, we can run ShareFSServer on routers too! Therefore, support for the MIPS platform is in the making :)
+
+What does this mean? Well, for the folks who do not have a NAS, you will now be able to transform your main router, or an old router of yours, into a ShareFS NAS :)
+
+What are the requirements for this?
+
+- Your router must allow software installation, either via SCP or Docker.
+- Your router must be using Linux. This is most likely the case for most routers, but if it is not, then, if you are no longer using it, you could replace the firmware with OpenWrt. I am testing with it at the moment.
+- Your router should have at least one USB port to connect an external disc or USB dongle. This is not a must, but it helps if you want to use large discs. USB 3 is better for performance.
+- Your router will be really cool when running ShareFSServer! XD
+
+However, router support, like NAS support, is not recommended for non-technical users for now, because I still need to finish the web UI, which does make a lot of things easier.
+
+Past week’s news:
+
+- The number of users who have migrated their pCloud to ShareFSServer is growing fast. That is cool, but please remember that ShareFSServer is still alpha. For example, this week, to fix a nasty potential issue when running many concurrent sessions, simulated with 10 RISC OS clients all doing massive copies at the same time and one playing an audio CD, I had to change the server code quite a bit. So there might be new issues with release 0.5.0. Therefore, please do not use it yet for your important data!
+
+However, I am glad that the pCloud issue for the RISC OS community is now fixed and people are happy again.
+
+- I have received more questions about the price of ShareFSServer when it is completed. The price is FREE, as in FREEBEER. Donations are always welcome, but the software is going to be free. Honestly, we have made far too many mistakes trying to charge people for utilities and simple programs that should be part of RISC OS itself. While some people may disagree, I am focused on building tools to make RISC OS fun to use and enjoyable for everyone.
+
+Thanks for all the help supporting this project!
+
+\- Paolo
+
+P.S. will send emails in the morning for all the users who do not read the ROOL’s forum.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:164172</guid>
+    </item>    <item>
+      <title>NEON query</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20419</link>
+      <description>
+        <![CDATA[<p>Ah, sorry, I meant &#8220;Assembly&#8221; manual, not &#8220;Assembler&#8221;. That&#8217;s:</p>
+        <p>&#8220;V4.00 Updated to the complete ARMv8 instruction set by Terje Slettebø&#8221;</p>
+        <p>I&#8217;ve now found the Steve Drain manual (called &#8220;<span class="caps">VFP</span>&#8221;) and it looks useful &#8212; cheers!</p>
+        <blockquote>
+        <p>ObjAsm supports Neon and I used it.</p>
+        </blockquote>
+        <p>Ah, that&#8217;s good! Thanks.</p>]]>
+      </description>
+      <source:markdown>Ah, sorry, I meant “Assembly” manual, not “Assembler”. That’s:
+
+“V4.00 Updated to the complete ARMv8 instruction set by Terje Slettebø”
+
+I’ve now found the Steve Drain manual (called “VFP”) and it looks useful — cheers!
+
+&#62; ObjAsm supports Neon and I used it.
+
+Ah, that’s good! Thanks.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20419:164170</guid>
     </item>    <item>
       <title>Audio on RISC OS</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20323</link>
@@ -77,47 +270,6 @@ youtu.be/N5yvbB-rqfI
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mmi23ohpuc26</guid>
     </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p>For everyone who wanted <span class="caps">HTTP</span> protocol proxy in ShareFSServer, I have almost completed support and big thanks goes to RComp for offering &#8220;voluteering&#8221; to testing their update website! XD</p>
-        <p>Details and pictures here: <br />
-        <pre><br />
-        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmhqpeqlg22r">https://bsky.app/profile/paolofabiozaino.bsky.social/p…</a><br />
-        </pre></p>
-        <p>Now I am running the final rounds of testing, and if everything pass, I&#8217;ll proceed to package the new build for folks to give it a real world set of tests.</p>
-        <p>It&#8217;s a very powerful feature, which will allow old websites to become shares just one click away even when they require authentication, and supports all latest encryption and cyphering standards included <span class="caps">TLS</span> 1.3 for best <span class="caps">RISC</span> OS users safety when online.</p>
-        <p>Of course, works on all <span class="caps">RISC</span> OS releases all the way down to <span class="caps">RISC</span> OS 3.10!</p>
-        <p>As usual you can use !Locate and !Find etc. to search on a web site, you can open files directly, and also launch apps. Basically I have achieved what <span class="caps">ARX</span> wanted to achieve with the shared documents ;)</p>
-        <p>Next I&#8217;ll probably should add clients to observe document&#8217;s variations and updates (which are already supported via configuring hot-updates as polling!).</p>
-        <p>Anyhoo back at testing, will post when the new release is available for download :)</p>
-        <p>P.S. Andrew I hope it was ok to run a test with the Pinebook Pro support site.</p>]]>
-      </description>
-      <source:markdown>For everyone who wanted HTTP protocol proxy in ShareFSServer, I have almost completed support and big thanks goes to RComp for offering “voluteering” to testing their update website! XD
-
-Details and pictures here:
-
-```
-
-https://bsky.app/profile/paolofabiozaino.bsky.social/p…
-
-```
-
-Now I am running the final rounds of testing, and if everything pass, I’ll proceed to package the new build for folks to give it a real world set of tests.
-
-It’s a very powerful feature, which will allow old websites to become shares just one click away even when they require authentication, and supports all latest encryption and cyphering standards included TLS 1.3 for best RISC OS users safety when online.
-
-Of course, works on all RISC OS releases all the way down to RISC OS 3.10!
-
-As usual you can use !Locate and !Find etc. to search on a web site, you can open files directly, and also launch apps. Basically I have achieved what ARX wanted to achieve with the shared documents ;)
-
-Next I’ll probably should add clients to observe document’s variations and updates (which are already supported via configuring hot-updates as polling!).
-
-Anyhoo back at testing, will post when the new release is available for download :)
-
-P.S. Andrew I hope it was ok to run a test with the Pinebook Pro support site.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:164145</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmhqpeqlg22r</link>
       <description>
         <![CDATA[#RISC_OS folks, dreaming of being able to mount a Web site like a local disk to have a much better life with RComp updates or even having the largest RO legacy software archive as a local disk? Dream no more, #ShareFSServer next release can mount Web sites as disks 😉
@@ -126,35 +278,6 @@ P.S. Andrew I hope it was ok to run a test with the Pinebook Pro support site.</
       <source:markdown>#RISC\_OS folks, dreaming of being able to mount a Web site like a local disk to have a much better life with RComp updates or even having the largest RO legacy software archive as a local disk? Dream no more, #ShareFSServer next release can mount Web sites as disks 😉
 #riscos #FileSharing #OpenSource</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mmhqpeqlg22r</guid>
-    </item>    <item>
-      <title>NEON query</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20419</link>
-      <description>
-        <![CDATA[<p>Can anyone explain these results, please?</p>
-        <pre><code>vmov.I8  d0,#&amp;4c    ; ok, d0 = 4C 4C 4C 4C 4C 4C 4C 4C 
-        vmov.I16 d1,#&amp;cd    ; ok, d1 = 00 CD 00 CD 00 CD 00 CD 
-        vmov.I32 d2,#&amp;f3    ; ok, d2 = 00 00 00 F3 00 00 00 F3
-        vmov.I64 d4,#0      ; appears ok, d4 = 00 00 00 00 00 00 00 00
-        vmov.I64 d4,#1      ; ERROR, "Bad immediate constant"
-        vmov.I64 d4,#-1     ; gives d4 = 00 00 00 00 FF FF FF FF</code></pre>
-        <p>What&#8217;s going on there? I expected vmov.I64 d4,#1 to move 1 into the lowest byte of d4. And the last one is weird.</p>
-        <p>RO 5.31, <span class="caps">BASIC</span> 1.85.</p>]]>
-      </description>
-      <source:markdown>Can anyone explain these results, please?
-
-```
-vmov.I8  d0,#&#38;4c    ; ok, d0 = 4C 4C 4C 4C 4C 4C 4C 4C
-vmov.I16 d1,#&#38;cd    ; ok, d1 = 00 CD 00 CD 00 CD 00 CD
-vmov.I32 d2,#&#38;f3    ; ok, d2 = 00 00 00 F3 00 00 00 F3
-vmov.I64 d4,#0      ; appears ok, d4 = 00 00 00 00 00 00 00 00
-vmov.I64 d4,#1      ; ERROR, &#34;Bad immediate constant&#34;
-vmov.I64 d4,#-1     ; gives d4 = 00 00 00 00 FF FF FF FF
-```
-
-What’s going on there? I expected vmov.I64 d4,#1 to move 1 into the lowest byte of d4. And the last one is weird.
-
-RO 5.31, BASIC 1.85.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20419:164144</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mmhc7jncis2n</link>
       <description>
@@ -258,41 +381,6 @@ A. By trying really hard.
 
 I’ve contacted Adrian, but given how long it took to get the licence in the first place, I’m not expecting a quick resolution. Just wondering if anyone else has had similar problems with Geminus licence files? Or maybe a better contact to get hold of Adrian as the contact Form on the website is broken.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20418:164138</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 24th May at 1pm UK time</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20417</link>
-      <description>
-        <![CDATA[<p>This Sunday – 24th May, at 1pm UK time – I&#8217;ll be continuing the series on creating the icon rendering code for the Wimp.</p>
-        <p>Last week we used the AI Agent to convert the Python implementation of the icon rendering code to C, then pulled in the GContext library, text rendering, sprite rendering and the validation string parsing code to create a renderer for icons. It looks pretty good, and it&#8217;s really looking like it&#8217;ll do the job.</p>
-        <p>In just 4 1/2 hours, it managed to do what would have taken &#8230; well, quite a bit longer. And I just sat there and whittered&#8230; sorry, directed it. But there&#8217;s some bits that aren&#8217;t right. This week, we&#8217;ll have a look at what the code&#8217;s like and try to fix the things that are obviously broken.</p>
-        <p>Come along if you like – <a href="https://youtube.com/live/LuukPqoOly8?feature=share">https://youtube.com/live/LuukPqoOly8?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
-        <hr />
-        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
-        <p><a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_IconRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a> &#8211; shows the functionality we need to add. There&#8217;s quite a lot!</p>
-        <hr />
-        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTsdRKzv_uMif_KBGrSqP">https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTs…</a></p>
-        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimpiconrender.html">https://presentation.riscos.online/live/wimpiconrender…</a> (once it has been published).</p>]]>
-      </description>
-      <source:markdown>This Sunday – 24th May, at 1pm UK time – I’ll be continuing the series on creating the icon rendering code for the Wimp.
-
-Last week we used the AI Agent to convert the Python implementation of the icon rendering code to C, then pulled in the GContext library, text rendering, sprite rendering and the validation string parsing code to create a renderer for icons. It looks pretty good, and it’s really looking like it’ll do the job.
-
-In just 4 1/2 hours, it managed to do what would have taken … well, quite a bit longer. And I just sat there and whittered… sorry, directed it. But there’s some bits that aren’t right. This week, we’ll have a look at what the code’s like and try to fix the things that are obviously broken.
-
-Come along if you like – [https://youtube.com/live/LuukPqoOly8?feature=share](https://youtube.com/live/LuukPqoOly8?feature=share) – or you can always watch the video afterwards at the same address.
-
-* * *
-
-For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
-
-[https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_IconRender) – shows the functionality we need to add. There’s quite a lot!
-
-* * *
-
-If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTs…](https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTsdRKzv_uMif_KBGrSqP)
-
-Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimpiconrender…](https://presentation.riscos.online/live/wimpiconrender.html) (once it has been published).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20417:164135</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mmcf4frl6s2j</link>
       <description>

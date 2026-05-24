@@ -2,11 +2,11 @@
 <html lang="en-US">
 <head>
   <meta charset="utf-8" >
-  <meta content="antenna/0.0.24" name="generator" >
-  <meta name="date" content="2026-05-23T12:00:31-07:00" >
+  <meta name="generator" content="antenna/0.0.24" >
+  <meta name="date" content="2026-05-24T12:00:25-07:00" >
   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
   <title>RISCOS</title>
-  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
+  <link type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" >
 </head>
 <body>
   <header>
@@ -22,16 +22,163 @@
   </nav>
   <main id="main-content">
 
-    <article data-published="2026-05-23T13:44:26Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20421">
+    <article data-published="2026-05-24T15:05:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmmagqtlgk22">
+      <h2>@paolofabiozaino.bsky.social</h2>
+
+(date: 2026-05-24)
+      <p>
+      <p>#RISC_OS #ShareFSServer alpha build 0.5.0 is available for testers to give it a spin. More details on the improvements on this release here:</p>
+<p><a href="https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&amp;page=5#posts-164172">https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&amp;page=5#posts-164172</a></p>
+<p>#riscos #FileSharing #OpenSource #Rust #Linux #Windows #macOS #BSD #Android</p>
+
+      <address>
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmmagqtlgk22">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmmagqtlgk22</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-24T12:12:22Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20423">
+      <h2>TimPlayer 1.29 - Sample Repeat Issue</h2>
+
+(date: 2026-05-24)
+      <p>
+      <p>@Andre Timmermans</p>
+<p>I think I’ve discovered an issue or a bug with TimPlayer v1.29.</p>
+<p>I have created 3 TimPlayer songs for a game I am developing. They are used to store samples only. One song for the samples of the UI and one song for the samples of the game and the 3rd song for the 2 music samples for the menu and game. I set up both music samples to repeat. My problem is when the game music tries to repeat it plays all the other samples first and then repeats the actual song sample.</p>
+<p>After a bit of investigation I have come up with 2 ‘workarounds’.</p>
+<p>The 1st workaround is it would seem that the sample didnt like repeating if there was other songs loaded after it. In my case the music song was loaded first and the samples songs loaded after. So I swapped the loading order around and the problem has gone away.</p>
+<p>The 2nd workaround is to leave the loading order as it was and set the music samples to repeat after everything has loaded and again the problem goes away.</p>
+<p>My question is, is there something I am overlooking or is this a bug and I have found a work around to. Am I likely to fall foul to the issue again because it is only a workaround and not a solution.</p>
+<p>Greg</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20423">https://www.riscosopen.org/forum/forums/11/topics/20423</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-24T10:03:01Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20417">
+      <h2>Live Coding with Gerph, Sunday 24th May at 1pm UK time</h2>
+
+(date: 2026-05-24)
+      <p>
+      <p>Going give in about 2 hours (1pm).</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20417">https://www.riscosopen.org/forum/forums/1/topics/20417</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-24T09:35:56Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20422">
+      <h2>London Show 2026</h2>
+
+(date: 2026-05-24)
+      <p>
+      <p>Looking ahead to Oct 2026 London RO show (if one is still here) did anyone try a Taxi from Heathrow to the 2025 Show – bit like we used to do SW show and use a group taxi back to the train station.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20422">https://www.riscosopen.org/forum/forums/5/topics/20422</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-24T08:34:32Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20421">
       <h2>Icon Colours and Plotting</h2>
 
-(date: 2026-05-23)
+(date: 2026-05-24)
       <p>
-      <p>Is it documented anywhere how the Wimp uses the foreground and background colours of icons when plotting the icon text? Either for real icons or Wimp_PlotIcon.</p>
-<p>I had assumed (for no particular reason) that the icon’s background colour would be used to anti-alias the text, but it seems that for an unfilled icon the work area colour is being used. In the situation where the work area is “transparent” and a background is being plotted by the application, it appears to be using Wimp Colour 1 (or possibly white). Or, at least, setting the icon’s background colour to the colour being plotted behind it in the window as the background isn’t preventing ghosting around the text if the plotted background is Wimp Colour 2 or darker.</p>
+      <p>Thanks — I was looking for confirmation that it wasn’t reasonable to expect the Wimp to plot unfilled icons anti-aliased to their background colour as part of a window redraw loop, and it seems that I was correct that it wasn’t. It’s probably something of a niche requirement, because if you’re plotting unfilled icons, logic says that they probably should be on a standard window background for “style” reasons<a href="#fn1">1</a> anyway – and that’s what the behaviour seems to lean towards.</p>
+<p>I assume that the “correct” approach is something like Wimp_TextOp 2 with the background colour set correctly?</p>
+<p>For some context, I spotted this when writing the last example here: <a href="https://www.stevefryatt.org.uk/risc-os/wimp-prog/window-redraw-cookbook">https://www.stevefryatt.org.uk/risc-os/wimp-prog/windo…</a></p>
+<p>fn.1 I won’t say <em>Style Guide</em>, as apparently that upsets people.</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/11/topics/20421">https://www.riscosopen.org/forum/forums/11/topics/20421</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-24T06:57:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mmlf55dpp22y">
+      <h2>@colinhoad.com</h2>
+
+(date: 2026-05-24)
+      <p>
+      <p>Pac-Man.</p>
+<p>[contains quote post or other embedded content]</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mmlf55dpp22y">https://bsky.app/profile/colinhoad.com/post/3mmlf55dpp22y</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-23T22:59:41Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
+      <h2>Need volunteers to start testing my new ShareFSServer</h2>
+
+(date: 2026-05-23)
+      <p>
+      <p><strong>@all alpha testers</strong></p>
+<p>A new alpha build, <strong>0.5.0</strong>, is available for testing.</p>
+<p><strong>What’s new in this build:</strong></p>
+<ul>
+<li>
+<p>New HTTP backend. What the heck is that? For sites that just publish the traditional HTML file system-ish interface, you can now mount them as ShareFS discs! This makes life a lot easier with many of the 90s-style websites and with update resources such as RComp’s famous password-protected locations. It supports all types of encryption, including the latest ones and TLS 1.3, and supports web server authentication too. There is an example in the usual sharefs.toml.example file for details.</p>
+</li>
+<li>
+<p>I finally found the time to complete polling mode for hot updates for protocols that do not support notifications. This is very handy when you are using an FTP server and you are also updating server-side. Try it and see what happens on RISC OS ;)</p>
+</li>
+<li>
+<p>Improved FTP support. As the weeks pass, I am improving the quality of native FTP support. This has proved very useful to a lot of users, me included, who still use a lot of FTP and FTPS sites with retro software, not only for RISC OS.</p>
+</li>
+<li>
+<p>Improved share definition handling. This should help users with some not-so-well-configured shares. Basically, there are more checks upfront.</p>
+</li>
+<li>
+<p>Fixed a set of issues reported in the last week. I am not listing them because I am not 100% sure they are fixed on the systems of the users who reported them. So Phil M., Bob L., and Martin, please re-run your tests and let me know if the issues you reported are fixed or not. I am unable to reproduce those problems here, so it is quite hard to fix something I cannot reproduce.</p>
+</li>
+<li>
+<p>As I keep cleaning up the code, I have improved performance again, but please make sure you test everything with this new version, given that it has a large number of changes.</p>
+</li>
+<li>
+<p>Started to lay the foundations to build it for Linux on MIPS as well, because it is official: since the last release, 0.4.4, we can run ShareFSServer on routers too! Therefore, support for the MIPS platform is in the making :)</p>
+</li>
+</ul>
+<p>What does this mean? Well, for the folks who do not have a NAS, you will now be able to transform your main router, or an old router of yours, into a ShareFS NAS :)</p>
+<p>What are the requirements for this?</p>
+<ul>
+<li>Your router must allow software installation, either via SCP or Docker.</li>
+<li>Your router must be using Linux. This is most likely the case for most routers, but if it is not, then, if you are no longer using it, you could replace the firmware with OpenWrt. I am testing with it at the moment.</li>
+<li>Your router should have at least one USB port to connect an external disc or USB dongle. This is not a must, but it helps if you want to use large discs. USB 3 is better for performance.</li>
+<li>Your router will be really cool when running ShareFSServer! XD</li>
+</ul>
+<p>However, router support, like NAS support, is not recommended for non-technical users for now, because I still need to finish the web UI, which does make a lot of things easier.</p>
+<p>Past week’s news:</p>
+<ul>
+<li>The number of users who have migrated their pCloud to ShareFSServer is growing fast. That is cool, but please remember that ShareFSServer is still alpha. For example, this week, to fix a nasty potential issue when running many concurrent sessions, simulated with 10 RISC OS clients all doing massive copies at the same time and one playing an audio CD, I had to change the server code quite a bit. So there might be new issues with release 0.5.0. Therefore, please do not use it yet for your important data!</li>
+</ul>
+<p>However, I am glad that the pCloud issue for the RISC OS community is now fixed and people are happy again.</p>
+<ul>
+<li>I have received more questions about the price of ShareFSServer when it is completed. The price is FREE, as in FREEBEER. Donations are always welcome, but the software is going to be free. Honestly, we have made far too many mistakes trying to charge people for utilities and simple programs that should be part of RISC OS itself. While some people may disagree, I am focused on building tools to make RISC OS fun to use and enjoyable for everyone.</li>
+</ul>
+<p>Thanks for all the help supporting this project!</p>
+<p>- Paolo</p>
+<p>P.S. will send emails in the morning for all the users who do not read the ROOL’s forum.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-23T20:04:57Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20419">
+      <h2>NEON query</h2>
+
+(date: 2026-05-23)
+      <p>
+      <p>Ah, sorry, I meant “Assembly” manual, not “Assembler”. That’s:</p>
+<p>“V4.00 Updated to the complete ARMv8 instruction set by Terje Slettebø”</p>
+<p>I’ve now found the Steve Drain manual (called “VFP”) and it looks useful — cheers!</p>
+<blockquote>
+<p>ObjAsm supports Neon and I used it.</p>
+</blockquote>
+<p>Ah, that’s good! Thanks.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20419">https://www.riscosopen.org/forum/forums/11/topics/20419</a>
       </address>
     </article>
 
@@ -91,30 +238,6 @@ youtu.be/N5yvbB-rqfI</p>
       </address>
     </article>
 
-    <article data-published="2026-05-22T20:23:11Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
-      <h2>Need volunteers to start testing my new ShareFSServer</h2>
-
-(date: 2026-05-22)
-      <p>
-      <p>For everyone who wanted HTTP protocol proxy in ShareFSServer, I have almost completed support and big thanks goes to RComp for offering “voluteering” to testing their update website! XD</p>
-<p>Details and pictures here:</p>
-<pre><code>
-https://bsky.app/profile/paolofabiozaino.bsky.social/p…
-
-</code></pre>
-<p>Now I am running the final rounds of testing, and if everything pass, I’ll proceed to package the new build for folks to give it a real world set of tests.</p>
-<p>It’s a very powerful feature, which will allow old websites to become shares just one click away even when they require authentication, and supports all latest encryption and cyphering standards included TLS 1.3 for best RISC OS users safety when online.</p>
-<p>Of course, works on all RISC OS releases all the way down to RISC OS 3.10!</p>
-<p>As usual you can use !Locate and !Find etc. to search on a web site, you can open files directly, and also launch apps. Basically I have achieved what ARX wanted to achieve with the shared documents ;)</p>
-<p>Next I’ll probably should add clients to observe document’s variations and updates (which are already supported via configuring hot-updates as polling!).</p>
-<p>Anyhoo back at testing, will post when the new release is available for download :)</p>
-<p>P.S. Andrew I hope it was ok to run a test with the Pinebook Pro support site.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
-      </address>
-    </article>
-
     <article data-published="2026-05-22T20:13:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmhqpeqlg22r">
       <h2>@paolofabiozaino.bsky.social</h2>
 
@@ -125,27 +248,6 @@ https://bsky.app/profile/paolofabiozaino.bsky.social/p…
 
       <address>
         <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmhqpeqlg22r">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmhqpeqlg22r</a>
-      </address>
-    </article>
-
-    <article data-published="2026-05-22T19:33:49Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20419">
-      <h2>NEON query</h2>
-
-(date: 2026-05-22)
-      <p>
-      <p>Can anyone explain these results, please?</p>
-<pre><code>vmov.I8  d0,#&amp;4c    ; ok, d0 = 4C 4C 4C 4C 4C 4C 4C 4C
-vmov.I16 d1,#&amp;cd    ; ok, d1 = 00 CD 00 CD 00 CD 00 CD
-vmov.I32 d2,#&amp;f3    ; ok, d2 = 00 00 00 F3 00 00 00 F3
-vmov.I64 d4,#0      ; appears ok, d4 = 00 00 00 00 00 00 00 00
-vmov.I64 d4,#1      ; ERROR, &quot;Bad immediate constant&quot;
-vmov.I64 d4,#-1     ; gives d4 = 00 00 00 00 FF FF FF FF
-</code></pre>
-<p>What’s going on there? I expected vmov.I64 d4,#1 to move 1 into the lowest byte of d4. And the last one is weird.</p>
-<p>RO 5.31, BASIC 1.85.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20419">https://www.riscosopen.org/forum/forums/11/topics/20419</a>
       </address>
     </article>
 
@@ -284,27 +386,6 @@ vmov.I64 d4,#-1     ; gives d4 = 00 00 00 00 FF FF FF FF
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/11/topics/20418">https://www.riscosopen.org/forum/forums/11/topics/20418</a>
-      </address>
-    </article>
-
-    <article data-published="2026-05-20T23:09:50Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20417">
-      <h2>Live Coding with Gerph, Sunday 24th May at 1pm UK time</h2>
-
-(date: 2026-05-20)
-      <p>
-      <p>This Sunday – 24th May, at 1pm UK time – I’ll be continuing the series on creating the icon rendering code for the Wimp.</p>
-<p>Last week we used the AI Agent to convert the Python implementation of the icon rendering code to C, then pulled in the GContext library, text rendering, sprite rendering and the validation string parsing code to create a renderer for icons. It looks pretty good, and it’s really looking like it’ll do the job.</p>
-<p>In just 4 1/2 hours, it managed to do what would have taken … well, quite a bit longer. And I just sat there and whittered… sorry, directed it. But there’s some bits that aren’t right. This week, we’ll have a look at what the code’s like and try to fix the things that are obviously broken.</p>
-<p>Come along if you like – <a href="https://youtube.com/live/LuukPqoOly8?feature=share">https://youtube.com/live/LuukPqoOly8?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
-<hr>
-<p>For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.</p>
-<p><a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_IconRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a> – shows the functionality we need to add. There’s quite a lot!</p>
-<hr>
-<p>If you want to watch the whole series, you can follow it through the playlist on YouTube – <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTsdRKzv_uMif_KBGrSqP">https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTs…</a></p>
-<p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimpiconrender.html">https://presentation.riscos.online/live/wimpiconrender…</a> (once it has been published).</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20417">https://www.riscosopen.org/forum/forums/1/topics/20417</a>
       </address>
     </article>
 
