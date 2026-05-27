@@ -7,10 +7,51 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>26 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>27 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Frosted Theme Pack on !PlingStore</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20427</link>
+      <description>
+        <![CDATA[<p>Frosted Theme Pack is now on Plingstore Enjoy!</p>]]>
+      </description>
+      <source:markdown>Frosted Theme Pack is now on Plingstore Enjoy!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20427:164242</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mmt74xaklc2m</link>
+      <description>
+        <![CDATA["Gradually, then suddenly".
+        
+        I keep warning but I don't think the message lands... Assumptions about silicon longevity are a gamble, not a certainty.
+        https://www.theregister.com/systems/2026/05/27/alibaba-gets-android-16-running-on-risc-v/5246710?utm_source=dlvr.it&utm_medium=bluesky]]>
+      </description>
+      <source:markdown>&#34;Gradually, then suddenly&#34;.
+
+I keep warning but I don&#39;t think the message lands... Assumptions about silicon longevity are a gamble, not a certainty.
+https://www.theregister.com/systems/2026/05/27/alibaba-gets-android-16-running-on-risc-v/5246710?utm\_source=dlvr.it&#38;utm\_medium=bluesky</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mmt74xaklc2m</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mmt2ytmjpk2m</link>
+      <description>
+        <![CDATA[Also a crime against typography. 🫣
+        https://www.bbc.co.uk/news/articles/cgeppp7574po]]>
+      </description>
+      <source:markdown>Also a crime against typography. 🫣
+https://www.bbc.co.uk/news/articles/cgeppp7574po</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mmt2ytmjpk2m</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mmrx32ci7223</link>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mmrx32ci7223</guid>
+    </item>    <item>
+      <title>Modern Browser?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20425</link>
+      <description>
+        <![CDATA[<p>Ok, I give up. Can&#8217;t get it to install because of missing dependencies, can&#8217;t find any of the missing dependencies.</p>]]>
+      </description>
+      <source:markdown>Ok, I give up. Can’t get it to install because of missing dependencies, can’t find any of the missing dependencies.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20425:164233</guid>
+    </item>    <item>
       <title>Legend of the Black Dog</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20426</link>
       <description>
@@ -113,6 +154,33 @@ What it can do though, rather nicely, is to allow jpegs to be imported directly 
 I have automated the embedding of a JPEG inside a Draw file from a directory of such images, calculating the Draw file to be the right size. So my oiriginal query is now unnecessary! Many thanks.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20420:164226</guid>
     </item>    <item>
+      <title>Capturing standard output from a command</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20392</link>
+      <description>
+        <![CDATA[<p>This does increasingly suggest that, given I have no control over what the user might put in an action script, that the TaskWindow route is going to be more reliable.</p>
+        <p>(This is what Charles said in the initial reply. I was only exploring the redirection route because it would have avoided any need to alter Impact&#8217;s calling mechanism.)</p>]]>
+      </description>
+      <source:markdown>This does increasingly suggest that, given I have no control over what the user might put in an action script, that the TaskWindow route is going to be more reliable.
+
+(This is what Charles said in the initial reply. I was only exploring the redirection route because it would have avoided any need to alter Impact’s calling mechanism.)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20392:164223</guid>
+    </item>    <item>
+      <title>C, DDE &#38;amp; OSLib Wimp Programming Tutorual Updates</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20317</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I really like the way you say that the maths of working out the window work area coordinates “should be second nature” by now.</p>
+        </blockquote>
+        <p>It&#8217;s more that the same equations seem to drop out every time &#8211; something that I hadn&#8217;t properly realised until I started documenting it. That illustration of the work area dimensions has been recycled into several chapters now.</p>
+        <p>Although maybe &#8220;both inescapable and terrifying&#8221; might be a better way to put it&#8230;</p>]]>
+      </description>
+      <source:markdown>&#62; I really like the way you say that the maths of working out the window work area coordinates “should be second nature” by now.
+
+It’s more that the same equations seem to drop out every time – something that I hadn’t properly realised until I started documenting it. That illustration of the work area dimensions has been recycled into several chapters now.
+
+Although maybe “both inescapable and terrifying” might be a better way to put it…</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20317:164220</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mmpj7vvljc2c</link>
       <description>
         <![CDATA[Good heavens. What are Ferrari thinking? https://www.topgear.com/car-news/electric/its-finally-here-meet-ferrari-luce-maranellos-first-ever-fully-electric-car]]>
@@ -120,408 +188,33 @@ I have automated the embedding of a JPEG inside a Draw file from a directory of 
       <source:markdown>Good heavens. What are Ferrari thinking? https://www.topgear.com/car-news/electric/its-finally-here-meet-ferrari-luce-maranellos-first-ever-fully-electric-car</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mmpj7vvljc2c</guid>
     </item>    <item>
-      <title>Extended attrs.</title>
-      <link>https://www.riscosopen.org/forum/forums/10/topics/20424</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>All the files I edit are text. Indeed, my biggest frustration with interoperability is the nothing understands “c/file” (editors, gcc…).</p>
-        </blockquote>
-        <p>SublimeText supports this trivially by using the ApplySyntax package:</p>
-        <p>Here&#8217;s the configuration to apply:</p>
-        <pre>
-        {
-            "default_syntaxes": [
-                {
-                    // Supports RISC OS naming conventions.
-                    "syntax": "ARM Assembly/Syntaxes/ARM Assembly",
-                    "extensions": ["arm"],
-                    "rules": [
-                        {"file_path": ".*(\\\\|/)(s|s_c|hdr)(\\\\|/)[^\\\/]+$"},
-                        {"file_path": ".*\\.s$"},
-                    ]
-                },
-        
-                {
-                    // Supports RISC OS naming conventions.
-                    "syntax": "C Improved/C Improved",
-                    "extensions": ["c"],
-                    "rules": [
-                        {"file_path": ".*(\\\\|/)(c|h)(\\\\|/)[^\\\/]+$"},
-                        {"file_path": ".*\\.[ch]$"},
-                        {"file_path": ".*(\\\\|/)VersionNum$"},
-                    ]
-                },
-        
-                {
-                    // Supports RISC OS naming conventions.
-                    "syntax": "C++/C++",
-                    "extensions": ["c++", "cc", "cpp"],
-                    "rules": [
-                        {"file_path": ".*(\\\\|/)(c\\+\\+|cc|cpp|h\\+\\+)(\\\\|/)[^\\\/]+$"},
-                    ]
-                },
-        
-                {
-                    // Supports RISC OS naming conventions.
-                    "syntax": "Makefile/Makefile",
-                    "rules": [
-                        {"file_path": ".*(\\\\|/)*,fe1$"},
-                        // And handle suffixed makefiles
-                        {"file_path": ".*(\\\\|/)*Makefile\\.[^\\\\|]+$"},
-                    ]
-                },
-        
-                {
-                    // RISCOS Specific commands file (Obey, TaskObey, Command, TaskExec, Desktop)
-                    "syntax": "RISCOSCommand/RISCOSCommand",
-                    "rules": [
-                        {"file_path": ".*(\\\\|/)*,(ffe|feb|fd7|fd6|fea)$"},
-                    ]
-                },
-        
-                {
-                    // Supports RISC OS naming conventions.
-                    "syntax": "BBCBASIC/BBCBASIC",
-                    "rules": [
-                        {"file_path": ".*(,fd1|\\.bbc)$"},
-                    ]
-                },
-        
-                {
-                    // CMHG files
-                    "syntax": "RISCOSCMHG/RISCOSCMHG",
-                    "rules": [
-                        {"file_path": ".*(\\\\|/)cmhg(\\\\|/)[^./]+$"},
-                        {"first_line": "; CMHG.*"},
-                    ]
-                },
-        
-                {
-                    // Supports RISC OS naming conventions.
-                    "syntax": "Pascal/Pascal",
-                    "extensions": ["p", "pas"],
-                    "rules": [
-                        {"file_path": ".*(\\\\|/)(pas|p|imp)(\\\\|/)[^\\\/]+$"},
-                        {"file_path": ".*\\.p$"},
-                    ]
-                },
-        
-                {
-                    // Supports RISC OS naming conventions.
-                    "syntax": "ModernFortran/modern-fortran",
-                    "extensions": ["f90"],
-                    "rules": [
-                        {"file_path": ".*(\\\\|/)(f90)(\\\\|/)[^\\\/]+$"},
-                        {"file_path": ".*\\.f90$"},
-                        {"file_path": ".*(\\\\|/)VersionFortran$"},
-                    ]
-                },
-        
-                {
-                    // Lua files
-                    "syntax": "Lua/Lua",
-                    "rules": [
-                        {"file_path": ".*(\\\\|/)*,(18c)$"},
-                        {"first_line": "^#!.*lua$"}
-                    ]
-                },
-        
-                {
-                    "syntax": "Python Improved/PythonImproved",
-                    "extensions": ["py"],
-                    "rules": [
-                        {"file_path": ".*(,a73)$"},
-                        {"interpreter": "python"}
-                    ]
-                },
-        
-                {
-                    // Supports XML magic string at start of file.
-                    "syntax": "XML/XML",
-                    "rules": [
-                        {"file_path": ".*\\.(xml|xslt)$"},
-                        {"file_path": ".*(\\\\|/)*,(f80|f7e)$"},
-                        {"first_line": "&lt;xsl:stylesheet.*"},
-                    ]
-                },
-        
-                {
-                    // Supports my test.pl format
-                    // matches tests|testcode|testdata a file called tests.txt or tests-*.txt
-                    "syntax": "Generic Config/GenericConfig",
-                    "rules": [
-                        {"file_path": ".*(\\\\|/)test(s|code|data)?(\\\\|/)(?:aarch64(\\\\|/))?(tests-.*|tests)\\.txt$"},
-                    ]
-                },
-        </pre>
-        <p>Additional package extensions for <span class="caps">RISC</span> OS File formats&#8230; would be available through packagecontrol.io, but it&#8217;s currently reporting server errors &#8211; they&#8217;re in GitHub anyhow:</p>
-        <p><a href="https://github.com/gerph?tab=repositories&amp;q=sublime&amp;type=&amp;language=&amp;sort=">https://github.com/gerph?tab=repositories&amp;amp;q=sublim…</a></p>
-        <p>That&#8217;s the <span class="caps">CMHG</span>, <span class="caps">BBC</span> <span class="caps">BASIC</span>, and command file formats. SublimeText is a multi-platform editor, and I know other people have taken and used these configurations so I&#8217;m neither unique nor customing /unix/ editors alone&#8230;</p>
-        <p>Nano&#8217;s syntaxes can recognise the <span class="caps">RISC</span> OS filetypes&#8230; <a href="https://github.com/gerph/nanorc-riscos">https://github.com/gerph/nanorc-riscos</a> which includes many different file formats <span class="caps">ARM</span>, <span class="caps">BBC</span> <span class="caps">BASIC</span>, C, cmhg, obey/command.</p>
-        <p>And of course GitHub itself (and GitLab) can be given the correct information about the filetypes using the .gitattributes so that it knows about the c/*, etc convention.</p>
-        <p>The <span class="caps">RISC</span> OS Build Environment supports the <span class="caps">RISC</span> OS filename conventions for compiling code, and includes tools for allowing you to symlink non-<span class="caps">RISC</span> OS filename conventions to <span class="caps">RISC</span> OS conventions so that we can coexist.</p>
-        <p>That&#8217;s the pair of editors I use. I update them to make working with <span class="caps">RISC</span> OS easier, rather than suggesting that everyone else change&#8230; much as that is appealing.</p>
-        <p>Yes, the convention is a little bit of a mess, but I&#8217;ve chosen to follow this route because getting anything to change in <span class="caps">RISC</span> OS world is hard, so keeping to the things that people find familiar and ensuring that things Just Work was more important. Having to deal with interworking issues where filetypes are lost because they&#8217;re processed by tools unaware of extended attributes is frustrating, and harder to explain to anyone who might not even have been aware that such things exist.</p>
-        <p>There&#8217;s a <span class="caps">LOT</span> of software that needs updating in order to support that way of working &#8211; whether it be changing the filename layout, or the filetype encoding mechanism. It&#8217;d be great to get there, but it is an uphill struggle. Obviously I accept PRs to the tooling that I&#8217;ve provided in order to support other conventions.</p>]]>
-      </description>
-      <source:markdown>&#62; All the files I edit are text. Indeed, my biggest frustration with interoperability is the nothing understands “c/file” (editors, gcc…).
-
-SublimeText supports this trivially by using the ApplySyntax package:
-
-Here’s the configuration to apply:
-
-```
-{
-    &#34;default_syntaxes&#34;: [
-        {
-            // Supports RISC OS naming conventions.
-            &#34;syntax&#34;: &#34;ARM Assembly/Syntaxes/ARM Assembly&#34;,
-            &#34;extensions&#34;: [&#34;arm&#34;],
-            &#34;rules&#34;: [
-                {&#34;file_path&#34;: &#34;.*(\\\\|/)(s|s_c|hdr)(\\\\|/)[^\\\/]+$&#34;},
-                {&#34;file_path&#34;: &#34;.*\\.s$&#34;},
-            ]
-        },
-
-        {
-            // Supports RISC OS naming conventions.
-            &#34;syntax&#34;: &#34;C Improved/C Improved&#34;,
-            &#34;extensions&#34;: [&#34;c&#34;],
-            &#34;rules&#34;: [
-                {&#34;file_path&#34;: &#34;.*(\\\\|/)(c|h)(\\\\|/)[^\\\/]+$&#34;},
-                {&#34;file_path&#34;: &#34;.*\\.[ch]$&#34;},
-                {&#34;file_path&#34;: &#34;.*(\\\\|/)VersionNum$&#34;},
-            ]
-        },
-
-        {
-            // Supports RISC OS naming conventions.
-            &#34;syntax&#34;: &#34;C++/C++&#34;,
-            &#34;extensions&#34;: [&#34;c++&#34;, &#34;cc&#34;, &#34;cpp&#34;],
-            &#34;rules&#34;: [
-                {&#34;file_path&#34;: &#34;.*(\\\\|/)(c\\+\\+|cc|cpp|h\\+\\+)(\\\\|/)[^\\\/]+$&#34;},
-            ]
-        },
-
-        {
-            // Supports RISC OS naming conventions.
-            &#34;syntax&#34;: &#34;Makefile/Makefile&#34;,
-            &#34;rules&#34;: [
-                {&#34;file_path&#34;: &#34;.*(\\\\|/)*,fe1$&#34;},
-                // And handle suffixed makefiles
-                {&#34;file_path&#34;: &#34;.*(\\\\|/)*Makefile\\.[^\\\\|]+$&#34;},
-            ]
-        },
-
-        {
-            // RISCOS Specific commands file (Obey, TaskObey, Command, TaskExec, Desktop)
-            &#34;syntax&#34;: &#34;RISCOSCommand/RISCOSCommand&#34;,
-            &#34;rules&#34;: [
-                {&#34;file_path&#34;: &#34;.*(\\\\|/)*,(ffe|feb|fd7|fd6|fea)$&#34;},
-            ]
-        },
-
-        {
-            // Supports RISC OS naming conventions.
-            &#34;syntax&#34;: &#34;BBCBASIC/BBCBASIC&#34;,
-            &#34;rules&#34;: [
-                {&#34;file_path&#34;: &#34;.*(,fd1|\\.bbc)$&#34;},
-            ]
-        },
-
-        {
-            // CMHG files
-            &#34;syntax&#34;: &#34;RISCOSCMHG/RISCOSCMHG&#34;,
-            &#34;rules&#34;: [
-                {&#34;file_path&#34;: &#34;.*(\\\\|/)cmhg(\\\\|/)[^./]+$&#34;},
-                {&#34;first_line&#34;: &#34;; CMHG.*&#34;},
-            ]
-        },
-
-        {
-            // Supports RISC OS naming conventions.
-            &#34;syntax&#34;: &#34;Pascal/Pascal&#34;,
-            &#34;extensions&#34;: [&#34;p&#34;, &#34;pas&#34;],
-            &#34;rules&#34;: [
-                {&#34;file_path&#34;: &#34;.*(\\\\|/)(pas|p|imp)(\\\\|/)[^\\\/]+$&#34;},
-                {&#34;file_path&#34;: &#34;.*\\.p$&#34;},
-            ]
-        },
-
-        {
-            // Supports RISC OS naming conventions.
-            &#34;syntax&#34;: &#34;ModernFortran/modern-fortran&#34;,
-            &#34;extensions&#34;: [&#34;f90&#34;],
-            &#34;rules&#34;: [
-                {&#34;file_path&#34;: &#34;.*(\\\\|/)(f90)(\\\\|/)[^\\\/]+$&#34;},
-                {&#34;file_path&#34;: &#34;.*\\.f90$&#34;},
-                {&#34;file_path&#34;: &#34;.*(\\\\|/)VersionFortran$&#34;},
-            ]
-        },
-
-        {
-            // Lua files
-            &#34;syntax&#34;: &#34;Lua/Lua&#34;,
-            &#34;rules&#34;: [
-                {&#34;file_path&#34;: &#34;.*(\\\\|/)*,(18c)$&#34;},
-                {&#34;first_line&#34;: &#34;^#!.*lua$&#34;}
-            ]
-        },
-
-        {
-            &#34;syntax&#34;: &#34;Python Improved/PythonImproved&#34;,
-            &#34;extensions&#34;: [&#34;py&#34;],
-            &#34;rules&#34;: [
-                {&#34;file_path&#34;: &#34;.*(,a73)$&#34;},
-                {&#34;interpreter&#34;: &#34;python&#34;}
-            ]
-        },
-
-        {
-            // Supports XML magic string at start of file.
-            &#34;syntax&#34;: &#34;XML/XML&#34;,
-            &#34;rules&#34;: [
-                {&#34;file_path&#34;: &#34;.*\\.(xml|xslt)$&#34;},
-                {&#34;file_path&#34;: &#34;.*(\\\\|/)*,(f80|f7e)$&#34;},
-                {&#34;first_line&#34;: &#34;&#60;xsl:stylesheet.*&#34;},
-            ]
-        },
-
-        {
-            // Supports my test.pl format
-            // matches tests|testcode|testdata a file called tests.txt or tests-*.txt
-            &#34;syntax&#34;: &#34;Generic Config/GenericConfig&#34;,
-            &#34;rules&#34;: [
-                {&#34;file_path&#34;: &#34;.*(\\\\|/)test(s|code|data)?(\\\\|/)(?:aarch64(\\\\|/))?(tests-.*|tests)\\.txt$&#34;},
-            ]
-        },
-
-```
-
-Additional package extensions for RISC OS File formats… would be available through packagecontrol.io, but it’s currently reporting server errors – they’re in GitHub anyhow:
-
-[https://github.com/gerph?tab=repositories&#38;amp;q=sublim…](https://github.com/gerph?tab=repositories&#38;q=sublime&#38;type=&#38;language=&#38;sort=)
-
-That’s the CMHG, BBCBASIC, and command file formats. SublimeText is a multi-platform editor, and I know other people have taken and used these configurations so I’m neither unique nor customing /unix/ editors alone…
-
-Nano’s syntaxes can recognise the RISC OS filetypes… [https://github.com/gerph/nanorc-riscos](https://github.com/gerph/nanorc-riscos) which includes many different file formats ARM, BBCBASIC, C, cmhg, obey/command.
-
-And of course GitHub itself (and GitLab) can be given the correct information about the filetypes using the .gitattributes so that it knows about the c/\*, etc convention.
-
-The RISC OS Build Environment supports the RISC OS filename conventions for compiling code, and includes tools for allowing you to symlink non-RISC OS filename conventions to RISC OS conventions so that we can coexist.
-
-That’s the pair of editors I use. I update them to make working with RISC OS easier, rather than suggesting that everyone else change… much as that is appealing.
-
-Yes, the convention is a little bit of a mess, but I’ve chosen to follow this route because getting anything to change in RISC OS world is hard, so keeping to the things that people find familiar and ensuring that things Just Work was more important. Having to deal with interworking issues where filetypes are lost because they’re processed by tools unaware of extended attributes is frustrating, and harder to explain to anyone who might not even have been aware that such things exist.
-
-There’s a LOT of software that needs updating in order to support that way of working – whether it be changing the filename layout, or the filetype encoding mechanism. It’d be great to get there, but it is an uphill struggle. Obviously I accept PRs to the tooling that I’ve provided in order to support other conventions.</source:markdown>
-      <guid>cid://www.riscosopen.org:10:20424:164217</guid>
-    </item>    <item>
-      <title>Capturing standard output from a command</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20392</link>
-      <description>
-        <![CDATA[<p>Thank you for the ideas! Using Reporter I can confirm that the right command is being executed, but it seems there is a memory problem:</p>
-        <pre>
-        17:18:31.90 [SharedCLibrary/Impact-3] Exec
-        17:18:32.95 [SharedCLibrary/Impact-3] CDir ADFS::Titanium4.testdir
-        17:18:32.95 [SharedCLibrary/Impact-3] MD5 ADFS::Titanium4.$.Camera.2024.07.P1060883/JPG { &gt; $.hhh }
-        No writable memory at this address
-        17:18:32.97 ** Error **
-          Error  : &amp;00000411
-          Message: No writable memory at this address
-        </pre>
-        <p>The error shown by Reporter does not get reported to me in any other way.</p>
-        <p>That would explain why the file ends up empty! I get the memory error whether or not the redirection is included.</p>
-        <p>If I just try an echo command, as suggested by Piers, I get no memory error and the file ends up with the correct content in it.</p>
-        <p>So how am I meant to invoke it in such a way that the memory will be sufficient? I tried increasing the Next slot, but that didn&#8217;t help, and probably would not be relevant.</p>]]>
-      </description>
-      <source:markdown>Thank you for the ideas! Using Reporter I can confirm that the right command is being executed, but it seems there is a memory problem:
-
-```
-17:18:31.90 [SharedCLibrary/Impact-3] Exec
-17:18:32.95 [SharedCLibrary/Impact-3] CDir ADFS::Titanium4.testdir
-17:18:32.95 [SharedCLibrary/Impact-3] MD5 ADFS::Titanium4.$.Camera.2024.07.P1060883/JPG { &#62; $.hhh }
-No writable memory at this address
-17:18:32.97 ** Error **
-  Error  : &#38;00000411
-  Message: No writable memory at this address
-
-```
-
-The error shown by Reporter does not get reported to me in any other way.
-
-That would explain why the file ends up empty! I get the memory error whether or not the redirection is included.
-
-If I just try an echo command, as suggested by Piers, I get no memory error and the file ends up with the correct content in it.
-
-So how am I meant to invoke it in such a way that the memory will be sufficient? I tried increasing the Next slot, but that didn’t help, and probably would not be relevant.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20392:164212</guid>
-    </item>    <item>
       <title>PDrivers.</title>
       <link>https://www.riscosopen.org/forum/forums/13/topics/20400</link>
       <description>
-        <![CDATA[<p>OK. You can <a href="https://sinenomine.co.uk/software/temp/piers.zip">download some examples</a> &#8211; that link will be valid for a while but I might delete them at some stage.</p>
-        <p>You will need to install the fonts used in the files, the FreeFonts set available from our <a href="https://sinenomine.co.uk/software/fonts/">fonts download page</a>.</p>
-        <p>The examples should load into Draw OK, but if you have trouble printing, try using our <a href="https://sinenomine.co.uk/software/#DrawPrint">DrawPrint</a> utility (which is what RiscOSM and Impact use for printing behind the scenes). I have included <span class="caps">PNG</span> versions as well so you can see what they ought to look like.</p>
-        <p>The examples are:</p>
-        <ul>
-        	<li>the Acropolis in Athens</li>
-        	<li>somewhere in the Georgian capital</li>
-        	<li>somewhere in Kyiv</li>
-        </ul>
-        <p>I cannot read the Georgian script but it looks about right.</p>
-        <p>You will see that the font table declares the encoding used as UTF8 for each of the fonts. I doubt you&#8217;ll be able to <strong>edit</strong> the file in Draw, but it should display OK.</p>]]>
+        <![CDATA[<p>That&#8217;s wonderful, thank you. I have some work to do!</p>
+        <p>Draw really struggles to draw them, interestingly. My PDriverPDF gives an error (recoverable) printing from Draw, which I need to investigate. DrawPrint renders them well, but my PDriverPDF then misses out half the text &#8211; though the vectors look perfect. It&#8217;s also curiously slow, compared to Acorn&#8217;s PDriverPS, though it is generating the font on-the-fly.</p>]]>
       </description>
-      <source:markdown>OK. You can [download some examples](https://sinenomine.co.uk/software/temp/piers.zip) – that link will be valid for a while but I might delete them at some stage.
+      <source:markdown>That’s wonderful, thank you. I have some work to do!
 
-You will need to install the fonts used in the files, the FreeFonts set available from our [fonts download page](https://sinenomine.co.uk/software/fonts/).
-
-The examples should load into Draw OK, but if you have trouble printing, try using our [DrawPrint](https://sinenomine.co.uk/software/#DrawPrint) utility (which is what RiscOSM and Impact use for printing behind the scenes). I have included PNG versions as well so you can see what they ought to look like.
-
-The examples are:
-
-- the Acropolis in Athens
-- somewhere in the Georgian capital
-- somewhere in Kyiv
-
-I cannot read the Georgian script but it looks about right.
-
-You will see that the font table declares the encoding used as UTF8 for each of the fonts. I doubt you’ll be able to **edit** the file in Draw, but it should display OK.</source:markdown>
-      <guid>cid://www.riscosopen.org:13:20400:164211</guid>
+Draw really struggles to draw them, interestingly. My PDriverPDF gives an error (recoverable) printing from Draw, which I need to investigate. DrawPrint renders them well, but my PDriverPDF then misses out half the text – though the vectors look perfect. It’s also curiously slow, compared to Acorn’s PDriverPS, though it is generating the font on-the-fly.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20400:164219</guid>
     </item>    <item>
-      <title>Modern Browser?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20425</link>
+      <title>Extended attrs.</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20424</link>
       <description>
-        <![CDATA[<p>New (returning) user here. Apologies if I&#8217;m being stupid or missing anything obvious!</p>
-        <p>I had a play with Risc OS Pi a couple of years ago and thought I&#8217;d try again. Wi-Fi support is the thing that&#8217;s made it potentially practical&#8230; I&#8217;m having fun with it.</p>
-        <p>Not so practical is NetSurf, which I&#8217;m currently typing into but which falls at the first hurdle (a google search) as it seems not to support Javascript. I note that this site uses Google for search, so that doesn&#8217;t work either&#8230; Unless I am missing something.</p>
-        <p>I thought I&#8217;d try Isis, but PackMan is not showing it and I can&#8217;t find any other way to download. Is this paid for software?</p>
-        <p>I did find Firefox in PackMan but it seems to be dependent on some libraries that aren&#8217;t installed on my machine. Will look into that but in the meantime can anyone point me in the right direction in terms of general advice to achive a modern-ish browsing experience?</p>
-        <p>Thanks!</p>]]>
+        <![CDATA[<p>ChatGPT&#8217;s just written me a nice little Sublime loader script that handles xattrs, and it works fine with your extensions. But its only suggestion for nano is to wrap nano as &#8216;ro-nano&#8217;, sadly. I tend to use Xcode which doesn&#8217;t have these luxuries, but does at least look pretty.</p>
+        <p>Of course, anyone using <span class="caps">RISC</span> OS on Linux has been using xattrs forever, with all the frustrations you list. I only bothered to implement it in RPCEmu because my dream of filename perfection already existed.</p>
+        <p>But, I&#8217;m not trying to persuade you that it&#8217;s a great idea for everyone, though this did make me smirk given the conversation: &#8220;getting anything to change in <span class="caps">RISC</span> OS world is hard&#8221;&#8230;</p>
+        <p>I&#8217;m sure I mentioned along time ago that almost all of my, and most people upstairs&#8217;, <span class="caps">RISC</span> OS work at Acorn was cross compiled using Norcroft in &#8220;leafname.c&#8221; style&#8230; It was so much faster. I suspect Andrew&#8217;s work on Browse was the only exception by 1999. The problem was those pesky <span class="caps">ART</span> people downstairs ;-)</p>]]>
       </description>
-      <source:markdown>New (returning) user here. Apologies if I’m being stupid or missing anything obvious!
+      <source:markdown>ChatGPT’s just written me a nice little Sublime loader script that handles xattrs, and it works fine with your extensions. But its only suggestion for nano is to wrap nano as ‘ro-nano’, sadly. I tend to use Xcode which doesn’t have these luxuries, but does at least look pretty.
 
-I had a play with Risc OS Pi a couple of years ago and thought I’d try again. Wi-Fi support is the thing that’s made it potentially practical… I’m having fun with it.
+Of course, anyone using RISC OS on Linux has been using xattrs forever, with all the frustrations you list. I only bothered to implement it in RPCEmu because my dream of filename perfection already existed.
 
-Not so practical is NetSurf, which I’m currently typing into but which falls at the first hurdle (a google search) as it seems not to support Javascript. I note that this site uses Google for search, so that doesn’t work either… Unless I am missing something.
+But, I’m not trying to persuade you that it’s a great idea for everyone, though this did make me smirk given the conversation: “getting anything to change in RISC OS world is hard”…
 
-I thought I’d try Isis, but PackMan is not showing it and I can’t find any other way to download. Is this paid for software?
-
-I did find Firefox in PackMan but it seems to be dependent on some libraries that aren’t installed on my machine. Will look into that but in the meantime can anyone point me in the right direction in terms of general advice to achive a modern-ish browsing experience?
-
-Thanks!</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20425:164209</guid>
-    </item>    <item>
-      <title>C, DDE &#38;amp; OSLib Wimp Programming Tutorual Updates</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20317</link>
-      <description>
-        <![CDATA[<p>I really like the way you say that the maths of working out the window work area coordinates &#8220;should be second nature&#8221; by now. I find it extremely challenging even with a maths degree and almost 30 years of Wimp programming experience! Fortunately, I rarely have to think about it as I have some nice functions that do it all for me in most circumstances.</p>
-        <p>The effort you have put into the graphics to illustrate the articles is impressive. It&#8217;s a really good tutorial.</p>]]>
-      </description>
-      <source:markdown>I really like the way you say that the maths of working out the window work area coordinates “should be second nature” by now. I find it extremely challenging even with a maths degree and almost 30 years of Wimp programming experience! Fortunately, I rarely have to think about it as I have some nice functions that do it all for me in most circumstances.
-
-The effort you have put into the graphics to illustrate the articles is impressive. It’s a really good tutorial.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20317:164208</guid>
+I’m sure I mentioned along time ago that almost all of my, and most people upstairs’, RISC OS work at Acorn was cross compiled using Norcroft in “leafname.c” style… It was so much faster. I suspect Andrew’s work on Browse was the only exception by 1999. The problem was those pesky ART people downstairs ;-)</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20424:164218</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmopzber5k2a</link>
       <description>
