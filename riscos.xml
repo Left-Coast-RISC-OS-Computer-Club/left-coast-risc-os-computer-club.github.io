@@ -7,10 +7,186 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>28 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>29 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Unusual Transient issue</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20430</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve discovered that, using Sleuth 3 (not the 32-bitted version) under AemulorA72 on a Pinebook Pro, if I load an imagfile (greyscale sprite) stored within Transient into Sleuth 3, the graphic is loaded in the usual way but when I select &#8220;<span class="caps">OCR</span>&#8230;&#8221; from the menu, Sleuth 3 immediately &#8220;goes wrong&#8221; &mdash; malloc() cannot obtain memory.</p>
+        <p>On subsequently quitting Aemulor, I get an &#8220;abort on data transfer&#8221;. Doesn&#8217;t matter which image is chosen. There are no problems OCRing the same file if stored in a directory in the normal filespace.</p>]]>
+      </description>
+      <source:markdown>I’ve discovered that, using Sleuth 3 (not the 32-bitted version) under AemulorA72 on a Pinebook Pro, if I load an imagfile (greyscale sprite) stored within Transient into Sleuth 3, the graphic is loaded in the usual way but when I select “OCR…” from the menu, Sleuth 3 immediately “goes wrong” — malloc() cannot obtain memory.
+
+On subsequently quitting Aemulor, I get an “abort on data transfer”. Doesn’t matter which image is chosen. There are no problems OCRing the same file if stored in a directory in the normal filespace.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20430:164259</guid>
+    </item>    <item>
+      <title>May 2026 News Summary</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13594&#38;page=1#125897</link>
+      <description>
+        <![CDATA[Think something went wrong with the link for Cam's Legend of the Black Dog.]]>
+      </description>
+      <source:markdown>Think something went wrong with the link for Cam&#39;s Legend of the Black Dog.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13594&#38;page=1#125897</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mmyviwkv322j</link>
+      <description>
+        <![CDATA[Google Maps being enigmatic.]]>
+      </description>
+      <source:markdown>Google Maps being enigmatic.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mmyviwkv322j</guid>
+    </item>    <item>
+      <title>WROCC Meeting - End of the PSTN phone network and updates on Broadband changes - 3rd Jun</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20429</link>
+      <description>
+        <![CDATA[<p><strong><span class="caps">WAKEFIELD</span> <span class="caps">RISC</span> OS <span class="caps">COMPUTER</span> <span class="caps">CLUB</span></strong></p>
+        <p><strong>Meeting on Wednesday 3rd June at 7.45pm</strong></p>
+        <h1>End of the <span class="caps">PSTN</span> phone network and updates on Broadband changes</h1>
+        <p>This month&#8217;s meeting is a follow-up to our previous two sessions regarding broadband changes and the ongoing transition to digital phone lines.</p>
+        <p>Chris Hughes will take a closer look at these two distinct sets of changes. Because they are occurring simultaneously but on completely different timetables, they have caused a great deal of confusion and <br />
+        misinformation across the internet.</p>
+        <p>With the deadline for switching off the old <span class="caps">PSTN</span> (Public Switched Telephone Network) fast approaching, Chris will explore the options available to users. In addition, he will examine the direct impact of this change on your broadband connections and detail the choices you have moving forward.</p>
+        <p>This &#8216;virtual&#8217; meeting is open to all, and will take place using the Zoom conferencing service using our regular meeting credentials. Zoom invitations will be sent out ahead of the meeting, but only to those who email<br />
+        <a href="mailto:info2026@wrocc.org.uk">info2026@wrocc.org.uk</a> to request one. If you would like to be part of the meeting (and don&#8217;t already have the link from a previous meeting or receive an invite in the next 24 hours as a member of <span class="caps">WROCC</span>), please <span class="caps">RSVP</span> &#8212; at the latest by the end of Tuesday 2nd June (<span class="caps">GMT</span>).</p>
+        <p>If you haven&#8217;t used Zoom before, we suggest that before Wednesday you try to join the Zoom test meeting at <a href="https://zoom.us/test">https://zoom.us/test</a> on the device that you intend to use, in order to check that your system works OK. You will not require a Zoom account to take part.</p>
+        <p><strong>Past Meetings</strong></p>
+        <p>Videos of previous meetings can be found in our links to past meetings at <a href="https://www.wrocc.org.uk/meetings">https://www.wrocc.org.uk/meetings</a> or See our YouTube channel: <a href="https://www.youtube.com/@wrocc-riscos">https://www.youtube.com/@wrocc-riscos</a></p>
+        <p><strong>Club Membership</strong></p>
+        <p>Annual membership of <span class="caps">WROCC</span> is available for those living near and far at 10.00ukp per year.</p>
+        <p><strong>Members receive:</strong></p>
+        <ul>
+        	<li>A <span class="caps">PDF</span> newsletter with all the latest news and articles.</li>
+        	<li>Entry to meetings.</li>
+        	<li>Access to the <span class="caps">WROCC</span> Internet Discussion List.</li>
+        </ul>
+        <p>For further information, please email <a href="mailto:info2026@wrocc.org.uk">info2026@wrocc.org.uk</a> or visit the<br />
+        Club&#8217;s website at <a href="https://www.wrocc.org.uk/">https://www.wrocc.org.uk/</a></p>]]>
+      </description>
+      <source:markdown>**WAKEFIELDRISC OS COMPUTERCLUB**
+
+**Meeting on Wednesday 3rd June at 7.45pm**
+
+# End of the PSTN phone network and updates on Broadband changes
+
+This month’s meeting is a follow-up to our previous two sessions regarding broadband changes and the ongoing transition to digital phone lines.
+
+Chris Hughes will take a closer look at these two distinct sets of changes. Because they are occurring simultaneously but on completely different timetables, they have caused a great deal of confusion and
+
+misinformation across the internet.
+
+With the deadline for switching off the old PSTN (Public Switched Telephone Network) fast approaching, Chris will explore the options available to users. In addition, he will examine the direct impact of this change on your broadband connections and detail the choices you have moving forward.
+
+This ‘virtual’ meeting is open to all, and will take place using the Zoom conferencing service using our regular meeting credentials. Zoom invitations will be sent out ahead of the meeting, but only to those who email
+
+[info2026@wrocc.org.uk](mailto:info2026@wrocc.org.uk) to request one. If you would like to be part of the meeting (and don’t already have the link from a previous meeting or receive an invite in the next 24 hours as a member of WROCC), please RSVP — at the latest by the end of Tuesday 2nd June (GMT).
+
+If you haven’t used Zoom before, we suggest that before Wednesday you try to join the Zoom test meeting at [https://zoom.us/test](https://zoom.us/test) on the device that you intend to use, in order to check that your system works OK. You will not require a Zoom account to take part.
+
+**Past Meetings**
+
+Videos of previous meetings can be found in our links to past meetings at [https://www.wrocc.org.uk/meetings](https://www.wrocc.org.uk/meetings) or See our YouTube channel: [https://www.youtube.com/@wrocc-riscos](https://www.youtube.com/@wrocc-riscos)
+
+**Club Membership**
+
+Annual membership of WROCC is available for those living near and far at 10.00ukp per year.
+
+**Members receive:**
+
+- A PDF newsletter with all the latest news and articles.
+- Entry to meetings.
+- Access to the WROCC Internet Discussion List.
+
+For further information, please email [info2026@wrocc.org.uk](mailto:info2026@wrocc.org.uk) or visit the
+
+Club’s website at [https://www.wrocc.org.uk/](https://www.wrocc.org.uk/)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20429:164256</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mmyfr7vz322k</link>
+      <description>
+        <![CDATA[May 2026 News Summary 
+        
+        https://www.iconbar.com/articles/May_2026_News_Summary/index2332.html 
+        
+        Some things we noticed this month. What did you see?]]>
+      </description>
+      <source:markdown>May 2026 News Summary
+
+https://www.iconbar.com/articles/May\_2026\_News\_Summary/index2332.html
+
+Some things we noticed this month. What did you see?</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mmyfr7vz322k</guid>
+    </item>    <item>
+      <title>May 2026 News Summary</title>
+      <link>http://www.iconbar.com/comments/rss/news2332.html</link>
+      <description>
+        <![CDATA[Some things we noticed this month. What did you see?]]>
+      </description>
+      <source:markdown>Some things we noticed this month. What did you see?</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2332.html</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 31st May at 1pm UK time</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20428</link>
+      <description>
+        <![CDATA[<p>This Sunday – 31st May, at 1pm UK time – I&#8217;ll be continuing the series on creating the icon rendering code for the Wimp.</p>
+        <p>Last week we cleaned up the sprite rendering that I&#8217;d got a little wrong previously<br />
+        - not generating translation tables for sprites with palettes because I&#8217;d got the<br />
+        check completely wrong. And the clipping and text rendering were improved to closer<br />
+        match the master images.</p>
+        <p>There&#8217;s also an odd icon on page 0 that ends up grey too, so if we can fix thse and then<br />
+        go down our tick list we should be able to say that things are good enough.</p>
+        <p>Come along if you like – <a href="https://youtube.com/live/3GygRzPx10U?feature=share">https://youtube.com/live/3GygRzPx10U?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
+        <hr />
+        <p>For anyone who hasn&#8217;t seen these live coding sessions, this where I share my screen for about 3 hours and code some <span class="caps">RISC</span> OS component, whilst talking about what I&#8217;m doing, what I&#8217;m thinking, and answering questions on the chat.</p>
+        <p><a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_IconRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a> &#8211; shows the functionality we need to add. There&#8217;s quite a lot!</p>
+        <hr />
+        <p>If you want to watch the whole series, you can follow it through the playlist on YouTube &#8211; <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTsdRKzv_uMif_KBGrSqP">https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTs…</a></p>
+        <p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimpiconrender.html">https://presentation.riscos.online/live/wimpiconrender…</a> (once it has been published).</p>]]>
+      </description>
+      <source:markdown>This Sunday – 31st May, at 1pm UK time – I’ll be continuing the series on creating the icon rendering code for the Wimp.
+
+Last week we cleaned up the sprite rendering that I’d got a little wrong previously
+
+\- not generating translation tables for sprites with palettes because I’d got the
+
+check completely wrong. And the clipping and text rendering were improved to closer
+
+match the master images.
+
+There’s also an odd icon on page 0 that ends up grey too, so if we can fix thse and then
+
+go down our tick list we should be able to say that things are good enough.
+
+Come along if you like – [https://youtube.com/live/3GygRzPx10U?feature=share](https://youtube.com/live/3GygRzPx10U?feature=share) – or you can always watch the video afterwards at the same address.
+
+* * *
+
+For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.
+
+[https://github.com/gerph/riscos64-status/wiki/Module\_W…](https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_IconRender) – shows the functionality we need to add. There’s quite a lot!
+
+* * *
+
+If you want to watch the whole series, you can follow it through the playlist on YouTube – [https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTs…](https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTsdRKzv_uMif_KBGrSqP)
+
+Alternatively, the series is also available from my Presentations website: [https://presentation.riscos.online/live/wimpiconrender…](https://presentation.riscos.online/live/wimpiconrender.html) (once it has been published).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20428:164250</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmwxesmkvk2d</link>
+      <description>
+        <![CDATA[#RISC_OS #ShareFSServer alpha build 0.5.3 available for testers to give it a spin! Please let me know how it goes, thank you. Link with the changelos here:
+        
+        https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&page=6#posts-164249
+        
+        #riscos #FileSharing #Linux #Windows #macOS #BSD #OpenSource]]>
+      </description>
+      <source:markdown>#RISC\_OS #ShareFSServer alpha build 0.5.3 available for testers to give it a spin! Please let me know how it goes, thank you. Link with the changelos here:
+
+https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=6#posts-164249
+
+#riscos #FileSharing #Linux #Windows #macOS #BSD #OpenSource</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mmwxesmkvk2d</guid>
+    </item>    <item>
       <title>RISC OS Developments at RISC OS North - Firewall and Iris</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20300</link>
       <description>
@@ -149,13 +325,29 @@ https://www.bbc.co.uk/news/articles/cgeppp7574po</source:markdown>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mmrx32ci7223</link>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mmrx32ci7223</guid>
     </item>    <item>
+      <title>Extended attrs.</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20424</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>I do hope you aren’t creating slop code for <span class="caps">RISC</span> OS.</p>
+        </blockquote>
+        <p>Not at all! It&#8217;s probably the most tested filing system on <span class="caps">RISC</span> OS:<br />
+        <a href="https://github.com/pwombwell/HideousFS/blob/main/tests/Smoke%2Cffb">https://github.com/pwombwell/HideousFS/blob/main/tests…</a></p>]]>
+      </description>
+      <source:markdown>&#62; I do hope you aren’t creating slop code for RISC OS.
+
+Not at all! It’s probably the most tested filing system on RISC OS:
+
+[https://github.com/pwombwell/HideousFS/blob/main/tests…](https://github.com/pwombwell/HideousFS/blob/main/tests/Smoke%2Cffb)</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20424:164238</guid>
+    </item>    <item>
       <title>Modern Browser?</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20425</link>
       <description>
-        <![CDATA[<p>Ok, I give up. Can&#8217;t get it to install because of missing dependencies, can&#8217;t find any of the missing dependencies.</p>]]>
+        <![CDATA[<p>Or you can download the Frosted theme Version direct from my website which might be easier for a beginner: <a href="https://riscosone.co.uk/index.php?/files/file/7-iris-frosted-1039/">Frosted Iris</a></p>]]>
       </description>
-      <source:markdown>Ok, I give up. Can’t get it to install because of missing dependencies, can’t find any of the missing dependencies.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20425:164233</guid>
+      <source:markdown>Or you can download the Frosted theme Version direct from my website which might be easier for a beginner: [Frosted Iris](https://riscosone.co.uk/index.php?/files/file/7-iris-frosted-1039/)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20425:164235</guid>
     </item>    <item>
       <title>Legend of the Black Dog</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20426</link>
@@ -291,14 +483,6 @@ Steve’s WIMP tutorials are very good for refreshing our memory and discovering
 
 (This is what Charles said in the initial reply. I was only exploring the redirection route because it would have avoided any need to alter Impact’s calling mechanism.)</source:markdown>
       <guid>cid://www.riscosopen.org:11:20392:164223</guid>
-    </item>    <item>
-      <title>Extended attrs.</title>
-      <link>https://www.riscosopen.org/forum/forums/10/topics/20424</link>
-      <description>
-        <![CDATA[<p>Thanks for the email about cmunge I have been chasing my tail over that did you manage to take a look at it? You din’t say what in the Veneers was broken to give the wrong private word value.</p>]]>
-      </description>
-      <source:markdown>Thanks for the email about cmunge I have been chasing my tail over that did you manage to take a look at it? You din’t say what in the Veneers was broken to give the wrong private word value.</source:markdown>
-      <guid>cid://www.riscosopen.org:10:20424:164222</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mmpj7vvljc2c</link>
       <description>
