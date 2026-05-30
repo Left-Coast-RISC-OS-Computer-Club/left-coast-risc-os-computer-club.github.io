@@ -7,10 +7,40 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>29 May 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>30 May 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mn3iblmygc2p</link>
+      <description>
+        <![CDATA[Something I never expected to see - 2 player Elite for the BBC Micro. It's still very much WIP, but amazing work, as ever, by @markmoxon.bsky.social!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Something I never expected to see - 2 player Elite for the BBC Micro. It&#39;s still very much WIP, but amazing work, as ever, by @markmoxon.bsky.social!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mn3iblmygc2p</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmzl6clzvk2x</link>
+      <description>
+        <![CDATA[Hummm I have a strong suspect that updating the state of a directroy where we opened an Archive with SparkFS is upsetting SparkFS... Not 100% sure what is going on yet, but I'll need to implement updates filtering for parent dirs in which we have opened Archives...
+        
+        Oh good olde #RISC_OS! 😆]]>
+      </description>
+      <source:markdown>Hummm I have a strong suspect that updating the state of a directroy where we opened an Archive with SparkFS is upsetting SparkFS... Not 100% sure what is going on yet, but I&#39;ll need to implement updates filtering for parent dirs in which we have opened Archives...
+
+Oh good olde #RISC\_OS! 😆</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mmzl6clzvk2x</guid>
+    </item>    <item>
+      <title>May 2026 News Summary</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13594&#38;page=1#125898</link>
+      <description>
+        <![CDATA[Fixed link. Thanks for flagging]]>
+      </description>
+      <source:markdown>Fixed link. Thanks for flagging</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13594&#38;page=1#125898</guid>
+    </item>    <item>
       <title>Unusual Transient issue</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20430</link>
       <description>
@@ -187,6 +217,66 @@ https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=6#post
 #riscos #FileSharing #Linux #Windows #macOS #BSD #OpenSource</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mmwxesmkvk2d</guid>
     </item>    <item>
+      <title>Need volunteers to start testing my new ShareFSServer</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
+      <description>
+        <![CDATA[<p><b>@all alpha testers</b></p>
+        <p>A new alpha build, <b>0.5.3</b> it&#8217;s now available for testing.</p>
+        <p><b>What&#8217;s new in this build:</b></p>
+        <p>This is a bug fixing release from some previous reported issues with orevious release 0.5.2.</p>
+        <ul>
+        	<li>Improved file handling when identical names with/without extensions in the exact same path on Windows.</li>
+        </ul>
+        <ul>
+        	<li>Fixed a minor issue in filetypes.csv where the Zip extension was mapped to the wrong filetype.</li>
+        </ul>
+        <ul>
+        	<li>Improved ftp backend to process more data in the <span class="caps">FTP</span> <span class="caps">LIST</span> output for <span class="caps">UNIX</span> format, MS-<span class="caps">DOS</span> format and more.</li>
+        </ul>
+        <ul>
+        	<li>Minor improvements on the http backend to fix some reported edge cases.</li>
+        </ul>
+        <p>Thanks for all the help supporting this project!<br />
+        - Paolo</p>]]>
+      </description>
+      <source:markdown>**@all alpha testers**
+
+A new alpha build, **0.5.3** it’s now available for testing.
+
+**What’s new in this build:**
+
+This is a bug fixing release from some previous reported issues with orevious release 0.5.2.
+
+- Improved file handling when identical names with/without extensions in the exact same path on Windows.
+
+- Fixed a minor issue in filetypes.csv where the Zip extension was mapped to the wrong filetype.
+
+- Improved ftp backend to process more data in the FTPLIST output for UNIX format, MS-DOS format and more.
+
+- Minor improvements on the http backend to fix some reported edge cases.
+
+Thanks for all the help supporting this project!
+
+\- Paolo</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20267:164249</guid>
+    </item>    <item>
+      <title>Modern Browser?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20425</link>
+      <description>
+        <![CDATA[<p>Installed no problem, but won&#8217;t load past the splash screen.</p>
+        <p>&#8220;Internal error: abort on data transfer at<br />
+        &amp;FC01738C&#8221;</p>
+        <p>At which point the machine hangs.</p>]]>
+      </description>
+      <source:markdown>Installed no problem, but won’t load past the splash screen.
+
+“Internal error: abort on data transfer at
+
+&#38;FC01738C”
+
+At which point the machine hangs.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20425:164247</guid>
+    </item>    <item>
       <title>RISC OS Developments at RISC OS North - Firewall and Iris</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20300</link>
       <description>
@@ -197,6 +287,25 @@ https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=6#post
 
 Help!</source:markdown>
       <guid>cid://www.riscosopen.org:1:20300:164245</guid>
+    </item>    <item>
+      <title>Extended attrs.</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20424</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Ah, excellent – I was going to take a look except I realised I didn’t know where it’d be… And my new filing system was more fun.</p>
+        </blockquote>
+        <p>bsdtar is now working in both directions (reading and writing mapping the &#8216;user.RISC_OS.LoadExec&#8217; extended file attribute). I&#8217;ll do some more testing then make it available to download.</p>
+        <p>bsdtar has the added bonus of supporting lots of compression formats. (xz, bzip2, gzip, zstd etc)</p>
+        <p>Creating a tar file of the contents of !Boot on <span class="caps">RISC</span> OS and restoring it on Linux both RPCEmu and <span class="caps">RISC</span> OS Linux successfully booted with the extracted !Boot. (no file names were harmed during testing!)</p>]]>
+      </description>
+      <source:markdown>&#62; Ah, excellent – I was going to take a look except I realised I didn’t know where it’d be… And my new filing system was more fun.
+
+bsdtar is now working in both directions (reading and writing mapping the ‘user.RISC\_OS.LoadExec’ extended file attribute). I’ll do some more testing then make it available to download.
+
+bsdtar has the added bonus of supporting lots of compression formats. (xz, bzip2, gzip, zstd etc)
+
+Creating a tar file of the contents of !Boot on RISC OS and restoring it on Linux both RPCEmu and RISC OS Linux successfully booted with the extracted !Boot. (no file names were harmed during testing!)</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20424:164244</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mmuhc2hs6c2q</link>
       <description>
@@ -217,62 +326,6 @@ https://www.riscosopen.org/forum/forums/11/topics/20267?limit=25&#38;page=6#post
 
 #riscos #FileSharing #Linux #Windows #macOS #BSD #OpenSource</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mmub5xmhy22v</guid>
-    </item>    <item>
-      <title>Need volunteers to start testing my new ShareFSServer</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20267</link>
-      <description>
-        <![CDATA[<p><b>@all alpha testers</b></p>
-        <p>A new alpha build, <b>0.5.2</b> it&#8217;s now available for testing.</p>
-        <p><b>What&#8217;s new in this build:</b></p>
-        <p>This is a bug fixing release from some previous reported issues with orevious release 0.5.0 and 0.5.1.</p>
-        <ul>
-        	<li>Fixed a silent failure when a file without `/ext` was being saved in a directory with the exact same filename + `/ext`.</li>
-        </ul>
-        <ul>
-        	<li>Introduced backend <span class="caps">TTL</span> based cache to improve performance of <span class="caps">FTP</span>, <span class="caps">SFTP</span> and <span class="caps">HTTP</span> backends on congested servers and slow connections.</li>
-        </ul>
-        <ul>
-        	<li>Improved <span class="caps">RISC</span> OS retransmission requests handling</li>
-        </ul>
-        <ul>
-        	<li>Improved <span class="caps">FTP</span> backend which now supports an option to specify which encoding to expect from the <span class="caps">FTP</span> server (<span class="caps">UTF</span>-8 or Latin1)</li>
-        </ul>
-        <ul>
-        	<li>Improved <span class="caps">LIST</span> names handling in the ftp backend</li>
-        </ul>
-        <ul>
-        	<li>Improved documentation</li>
-        </ul>
-        <p>Thanks for all the help supporting this project!<br />
-        - Paolo</p>
-        <p>P.S. will send emails in a bit for all the users who do not read the ROOL&#8217;s forum.</p>]]>
-      </description>
-      <source:markdown>**@all alpha testers**
-
-A new alpha build, **0.5.2** it’s now available for testing.
-
-**What’s new in this build:**
-
-This is a bug fixing release from some previous reported issues with orevious release 0.5.0 and 0.5.1.
-
-- Fixed a silent failure when a file without \`/ext\` was being saved in a directory with the exact same filename + \`/ext\`.
-
-- Introduced backend TTL based cache to improve performance of FTP, SFTP and HTTP backends on congested servers and slow connections.
-
-- Improved RISC OS retransmission requests handling
-
-- Improved FTP backend which now supports an option to specify which encoding to expect from the FTP server (UTF-8 or Latin1)
-
-- Improved LIST names handling in the ftp backend
-
-- Improved documentation
-
-Thanks for all the help supporting this project!
-
-\- Paolo
-
-P.S. will send emails in a bit for all the users who do not read the ROOL’s forum.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20267:164243</guid>
     </item>    <item>
       <title>Frosted Theme Pack on !PlingStore</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20427</link>
@@ -324,30 +377,6 @@ https://www.bbc.co.uk/news/articles/cgeppp7574po</source:markdown>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mmrx32ci7223</link>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mmrx32ci7223</guid>
-    </item>    <item>
-      <title>Extended attrs.</title>
-      <link>https://www.riscosopen.org/forum/forums/10/topics/20424</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I do hope you aren’t creating slop code for <span class="caps">RISC</span> OS.</p>
-        </blockquote>
-        <p>Not at all! It&#8217;s probably the most tested filing system on <span class="caps">RISC</span> OS:<br />
-        <a href="https://github.com/pwombwell/HideousFS/blob/main/tests/Smoke%2Cffb">https://github.com/pwombwell/HideousFS/blob/main/tests…</a></p>]]>
-      </description>
-      <source:markdown>&#62; I do hope you aren’t creating slop code for RISC OS.
-
-Not at all! It’s probably the most tested filing system on RISC OS:
-
-[https://github.com/pwombwell/HideousFS/blob/main/tests…](https://github.com/pwombwell/HideousFS/blob/main/tests/Smoke%2Cffb)</source:markdown>
-      <guid>cid://www.riscosopen.org:10:20424:164238</guid>
-    </item>    <item>
-      <title>Modern Browser?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20425</link>
-      <description>
-        <![CDATA[<p>Or you can download the Frosted theme Version direct from my website which might be easier for a beginner: <a href="https://riscosone.co.uk/index.php?/files/file/7-iris-frosted-1039/">Frosted Iris</a></p>]]>
-      </description>
-      <source:markdown>Or you can download the Frosted theme Version direct from my website which might be easier for a beginner: [Frosted Iris](https://riscosone.co.uk/index.php?/files/file/7-iris-frosted-1039/)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20425:164235</guid>
     </item>    <item>
       <title>Legend of the Black Dog</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20426</link>
