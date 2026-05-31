@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.24" >
-  <meta name="date" content="2026-05-30T12:00:23-07:00" >
+  <meta name="date" content="2026-05-31T12:00:35-07:00" >
   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
   <title>RISCOS</title>
-  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
+  <link type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" >
 </head>
 <body>
   <header>
@@ -21,6 +21,281 @@
     </ul>
   </nav>
   <main id="main-content">
+
+    <article data-published="2026-05-31T18:40:39Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20431">
+      <h2>Status update for RISC OS 64-bit work</h2>
+
+(date: 2026-05-31)
+      <p>
+      <h1>Status update (May 2026)</h1>
+<p>It’s the end of May – about 6 weeks since our last update – so let’s have a see if there’s anything interesting that has happened on 64-bit.</p>
+<ul>
+<li>
+<p>Pyromaniac work continues.</p>
+<ul>
+<li>New modules: FilterManager (tracking only), SuperSample, InverseTable, BlendTable, FontMap and ColourMap.</li>
+</ul>
+</li>
+<li>
+<p>CMunge source was released.</p>
+<ul>
+<li>Fix for incorrect private word value passed to 64-bit module initialisation in x2.</li>
+<li>See <a href="https://github.com/gerph/riscos-cmunge">https://github.com/gerph/riscos-cmunge</a> for details, and <a href="https://www.riscosopen.org/forum/forums/1/topics/20404?limit=25&amp;page=1#posts-164114">https://www.riscosopen.org/forum/forums/1/topics/20404?limit=25&amp;page=1#posts-164114</a> for a quick changelog.</li>
+</ul>
+</li>
+<li>
+<p>Live Coding:</p>
+<ul>
+<li>Wimp sprite rendering series.
+<ul>
+<li>See <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rEVIhNCY-bDeePa2i45bhtb">https://www.youtube.com/playlist?list=PLVVIu906Y7rEVIhNCY-bDeePa2i45bhtb</a> for details.</li>
+<li>Source is here: <a href="https://github.com/gerph/riscos-wimp-spriterender">https://github.com/gerph/riscos-wimp-spriterender</a></li>
+</ul>
+</li>
+<li>Wimp icon rendering series has completed and looks pretty good.
+<ul>
+<li>See <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTsdRKzv_uMif_KBGrSqP">https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTsdRKzv_uMif_KBGrSqP</a> for details.</li>
+<li>Source is here: <a href="https://github.com/gerph/riscos-wimp-iconrender">https://github.com/gerph/riscos-wimp-iconrender</a></li>
+</ul>
+</li>
+<li>Quick Vids series about the RISC OS Build Environment completed. See <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTsdRKzv_uMif_KBGrSqP">https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTsdRKzv_uMif_KBGrSqP</a> for details.</li>
+</ul>
+</li>
+<li>
+<p>RISC OS Build Environment:</p>
+<ul>
+<li>Release update 0.3.477:
+<ul>
+<li>Lots more agent improvements.</li>
+<li>Large scale improvements to the skills.</li>
+<li>New <code>riscos-cport</code> tool to help make porting easier.</li>
+<li>Inclusion of the nano-colour syntax colouring script (and integration into lessfilter). See <a href="https://github.com/gerph/nano-colour">https://github.com/gerph/nano-colour</a> for details.</li>
+<li>Improved help and integrated changelog.</li>
+<li>Fixes for building with 64-bit libraries for modules.</li>
+<li>See <a href="https://www.riscosopen.org/forum/forums/1/topics/20404">https://www.riscosopen.org/forum/forums/1/topics/20404</a> for fuller details.</li>
+</ul>
+</li>
+<li>General improvements have also been happening and new release will appear shortly.</li>
+<li>Feedback from a few users indicates that it’s been useful to them, which is very gratifying.</li>
+<li>More improvements will come in the next release based on porting improvements.</li>
+</ul>
+</li>
+<li>
+<p>Updates to the agent skills for RISC OS to match 0.3.477:</p>
+<ul>
+<li>Archives and <code>.skill</code> files are now produced.</li>
+<li>Most of the skills were improved, including guidance for the libAsm and gcontext libraries, better guidance for the filesystem on RISC OS and its translation to the host, guidance for designing modules.</li>
+<li>See <a href="https://github.com/gerph/riscos-agent-skills">https://github.com/gerph/riscos-agent-skills</a> for details.</li>
+</ul>
+</li>
+<li>
+<p><code>libAsm</code> library release:</p>
+<ul>
+<li>A small library of functions which are usually in assembly.</li>
+<li>See <a href="https://github.com/gerph/riscos-libasm">https://github.com/gerph/riscos-libasm</a> for details.</li>
+</ul>
+</li>
+<li>
+<p>Tool <code>riscos-dumpsprites</code> created to display information about Sprite Files.</p>
+<ul>
+<li>See <a href="https://github.com/gerph/riscos-dumpsprites">https://github.com/gerph/riscos-dumpsprites</a> for details.</li>
+</ul>
+</li>
+<li>
+<p>Wimp validation strings parser released.</p>
+<ul>
+<li><a href="https://github.com/gerph/riscos-wimp-validationstrings">https://github.com/gerph/riscos-wimp-validationstrings</a></li>
+</ul>
+</li>
+<li>
+<p>64-bit GNU C++ improvements:</p>
+<ul>
+<li>C++ library build created. See <a href="https://github.com/gerph/riscos64-cpluspluslib">https://github.com/gerph/riscos64-cpluspluslib</a> for details.</li>
+<li>C++ commands and modules have been created using both stdio and iostream implementations, but only for 64-bit.</li>
+<li>See <a href="https://asciinema.org/a/1071513">https://asciinema.org/a/1071513</a> for a build example.</li>
+</ul>
+</li>
+<li>
+<p>64-bit GNU Fortran:.</p>
+<ul>
+<li>Library now supports exit codes, and the library is complete as far as RISC OS is concerned. See <a href="https://github.com/gerph/riscos64-libgfortran">https://github.com/gerph/riscos64-libgfortran</a> for details.</li>
+<li>Fortran command line tools have been created.</li>
+<li>See <a href="https://asciinema.org/a/1045903">https://asciinema.org/a/1045903</a> for example command line tool build</li>
+<li>Fortran modules have been prototyped.</li>
+<li>Experiments have been done with OSLib generation for Fortran.</li>
+</ul>
+</li>
+<li>
+<p>64-bit module progress:</p>
+<ul>
+<li>DDEUtils has been partially converted to C. Command line handling and throwback are implemented – no prefix handling yet.</li>
+<li>CDFSDriver is partially complete. Veneers to driver modules are limited, but the module is built and has been lightly exercised.</li>
+<li>FilerSWIs has been converted to a module. Not tested properly, but starts up and the SWIs seem sensible.</li>
+<li>NetPrint has been partially implemented. No filing system present yet, but the SWI calls are largely implemented.</li>
+<li>ConvertClear module converted. Tested with a few example files – I don’t have many.</li>
+<li>OSPointer has been partially implemented. Calls down to the pointer drivers and tries to retain the prior behaviour of the interfaces.</li>
+<li>SoundScheduler has been ported, but although it’s been tested in isolation, it’s not been exercised in anger.</li>
+<li>CLIV has been started but only has about 1/3 of the code paths implemented as yet.</li>
+<li>ShellCLI appears to be working in small tests.</li>
+<li>FilterManager is implemented as a tracking module at the moment – it tracks registrations, but doesn’t call them, and doesn’t register with the Wimp.</li>
+<li>InverseTable implemented, and seems to be ok, but not tested in anger.</li>
+<li>SuperSample seems to be reporting the same sorts of results as the original in simple tests.</li>
+<li>Heap management implementation prototyped, based on the implementation in RISC OS Pyromaniac, and seems to be doing the right thing but the number of corner cases are large.</li>
+</ul>
+</li>
+<li>
+<p>VManage tool updated with Fortran version files.</p>
+<ul>
+<li>See <a href="https://github.com/gerph/riscos-vmanage">https://github.com/gerph/riscos-vmanage</a> for details.</li>
+</ul>
+</li>
+<li>
+<p><code>*Vector</code> tool release.</p>
+<ul>
+<li>A tool for showing the claimants of vectors.</li>
+<li>See <a href="https://github.com/gerph/riscos-vector">https://github.com/gerph/riscos-vector</a> for details.</li>
+</ul>
+</li>
+<li>
+<p>RISC OS 64 status repository updates:</p>
+<ul>
+<li>The charts on the repository are now back coloured (we’re using PNGs instead of Mermaid).</li>
+<li>Phase 1 is now 93% complete.</li>
+<li>Phase 2 is now 29% complete.</li>
+<li>Phase 3 is now 20% complete.</li>
+<li>Phase 4 is now 11% complete.</li>
+<li>Phase 5 is now 8% complete.</li>
+<li>Phase 6 is now 20% complete.</li>
+<li>Phase 7 is still 0% complete.</li>
+<li>See <a href="https://github.com/gerph/riscos64-status/wiki">https://github.com/gerph/riscos64-status/wiki</a> for details.</li>
+</ul>
+</li>
+<li>
+<p>BASIC for 64-bit (using RTRBASIC) improved:</p>
+<ul>
+<li>Now supports loading and saving standard BBCBASIC file formats, and has a RISC OS style command line.</li>
+<li><code>SOUND</code> is now supported.</li>
+<li><code>SYS ... TO ... ;flags</code> is supported.</li>
+<li>See <a href="https://www.riscosopen.org/forum/forums/13/topics/20394">https://www.riscosopen.org/forum/forums/13/topics/20394</a> for details.</li>
+<li>Source code here: <a href="https://github.com/gerph/riscos64-rtrussell-bbcbasic">https://github.com/gerph/riscos64-rtrussell-bbcbasic</a></li>
+</ul>
+</li>
+<li>
+<p>GitHub action for the PRM-in-XML generation created.</p>
+<ul>
+<li>Much easier creation of documentation from GitHub actions.</li>
+<li>See <a href="https://github.com/marketplace/actions/risc-os-prm-in-xml-builder">https://github.com/marketplace/actions/risc-os-prm-in-xml-builder</a> for details.</li>
+<li>Source code here: <a href="https://github.com/gerph/riscos-prminxml-action">https://github.com/gerph/riscos-prminxml-action</a></li>
+<li>See CMunge release CI for an example: <a href="https://github.com/marketplace/actions/risc-os-prm-in-xml-builder">https://github.com/marketplace/actions/risc-os-prm-in-xml-builder</a></li>
+</ul>
+</li>
+<li>
+<p>New QRCode generator module:</p>
+<ul>
+<li>See <a href="https://github.com/gerph/QR-Code-generator">https://github.com/gerph/QR-Code-generator</a> for details.</li>
+</ul>
+</li>
+<li>
+<p>Other things…</p>
+<ul>
+<li>PDriverPS, PDriverPDF and PDriverDP are being worked on by Piers Wombwell, using the Norcroft C++ compiler.
+<ul>
+<li>Have been seen to produce high quality images from Drawfiles and other content.</li>
+<li>See <a href="https://www.riscosopen.org/forum/forums/13/topics/20400">https://www.riscosopen.org/forum/forums/13/topics/20400</a></li>
+<li>Source code here: <a href="https://github.com/pwombwell/PDrivers">https://github.com/pwombwell/PDrivers</a></li>
+</ul>
+</li>
+<li>No news seen about BASIC or Territory Manager.</li>
+</ul>
+</li>
+</ul>
+<p>Obviously I’m not the only person working on 64-bit things, and I try to gather any other progress that we’ve seen, or people contact me about if it’s public.</p>
+<p>Thank you to everyone who has followed the live coding, and for the feedback on the Quick Vids series. And a huge thank you to the GitHub sponsors who have helped make</p>
+<p>this work feel valuable and have contributed to it continuing.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/13/topics/20431">https://www.riscosopen.org/forum/forums/13/topics/20431</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-31T11:42:29Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20428">
+      <h2>Live Coding with Gerph, Sunday 31st May at 1pm UK time</h2>
+
+(date: 2026-05-31)
+      <p>
+      <p>16 Minutes to Go! Reminder for Gerph’s Live Stream</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20428">https://www.riscosopen.org/forum/forums/1/topics/20428</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-31T11:19:03Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
+      <h2>Need volunteers to start testing my new ShareFSServer</h2>
+
+(date: 2026-05-31)
+      <p>
+      <p>A tester asked for how to run ShareFSServer on the same system where he is running VirtualRPC, so here is a full tutorial on how to run ShareFSServer together with RPCEmu, VirtualRPC, Arculator and more emulators, on both Windows and Linux and provide both the emulators and the rest of the network ShareFS discs:</p>
+<pre><code>https://paolozaino.wordpress.com/2026/05/31/risc-os-ru…
+
+</code></pre>
+<p>Enjoy! :)</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-31T08:34:15Z" data-link="https://www.riscosopen.org/forum/forums/10/topics/20424">
+      <h2>Extended attrs.</h2>
+
+(date: 2026-05-31)
+      <p>
+      <p>On ubuntu 24.04 I had to install libfuse3-dev and add -D_GNU_SOURCE to get hideousfs-fuse to build.</p>
+<p>With ‘hideosfs-fuse —filetypes=suffix’, directories are displaying as !Boot,000. I assume these need to be excluded in the same way as ‘,fff’.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/10/topics/20424">https://www.riscosopen.org/forum/forums/10/topics/20424</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-31T07:29:11Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20429">
+      <h2>WROCC Meeting - End of the PSTN phone network and updates on Broadband changes - 3rd Jun</h2>
+
+(date: 2026-05-31)
+      <p>
+      <p>Just had a lsn to my phone only landline – no dial tone – mobile phone call my number – something like ‘number not recognized’ – no BT written information on what to do – just a leafet to say something -wonderful news the phone system is changing!</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20429">https://www.riscosopen.org/forum/forums/1/topics/20429</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-31T07:28:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mn525w3ur226">
+      <h2>@nemo20000.bsky.social</h2>
+
+(date: 2026-05-31)
+      <p>
+      <p>&quot;She swallowed the cat to catch the bird...&quot;</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mn525w3ur226">https://bsky.app/profile/nemo20000.bsky.social/post/3mn525w3ur226</a>
+      </address>
+    </article>
+
+    <article data-published="2026-05-30T23:22:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mn46xmeiqc22">
+      <h2>@paolofabiozaino.bsky.social</h2>
+
+(date: 2026-05-30)
+      <p>
+      <p>#RISC_OS #ShareFSServer testers are constantly trying new stuff! Here is a tutorial on how to configure SFSS to run along with your favorite RISC OS Emulators VRPC, #RPCEmu and #Arculator. Because it can serve them all😉</p>
+<p><a href="https://paolozaino.wordpress.com/2026/05/31/risc-os-running-sharefsserver-alongside-virtualrpc-rpcemu-and-arculator-with-a-virtual-network-adapter/">https://paolozaino.wordpress.com/2026/05/31/risc-os-running-sharefsserver-alongside-virtualrpc-rpcemu-and-arculator-with-a-virtual-network-adapter/</a></p>
+<p>#Linux #Windows #FileSharing</p>
+
+      <address>
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mn46xmeiqc22">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mn46xmeiqc22</a>
+      </address>
+    </article>
 
     <article data-published="2026-05-30T16:36:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mn3iblmygc2p">
       <h2>@kevedwardsretro.bsky.social</h2>
@@ -97,39 +372,6 @@
       </address>
     </article>
 
-    <article data-published="2026-05-29T13:23:47Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20429">
-      <h2>WROCC Meeting - End of the PSTN phone network and updates on Broadband changes - 3rd Jun</h2>
-
-(date: 2026-05-29)
-      <p>
-      <p><strong>WAKEFIELDRISC OS COMPUTERCLUB</strong></p>
-<p><strong>Meeting on Wednesday 3rd June at 7.45pm</strong></p>
-<h1>End of the PSTN phone network and updates on Broadband changes</h1>
-<p>This month’s meeting is a follow-up to our previous two sessions regarding broadband changes and the ongoing transition to digital phone lines.</p>
-<p>Chris Hughes will take a closer look at these two distinct sets of changes. Because they are occurring simultaneously but on completely different timetables, they have caused a great deal of confusion and</p>
-<p>misinformation across the internet.</p>
-<p>With the deadline for switching off the old PSTN (Public Switched Telephone Network) fast approaching, Chris will explore the options available to users. In addition, he will examine the direct impact of this change on your broadband connections and detail the choices you have moving forward.</p>
-<p>This ‘virtual’ meeting is open to all, and will take place using the Zoom conferencing service using our regular meeting credentials. Zoom invitations will be sent out ahead of the meeting, but only to those who email</p>
-<p><a href="mailto:info2026@wrocc.org.uk">info2026@wrocc.org.uk</a> to request one. If you would like to be part of the meeting (and don’t already have the link from a previous meeting or receive an invite in the next 24 hours as a member of WROCC), please RSVP — at the latest by the end of Tuesday 2nd June (GMT).</p>
-<p>If you haven’t used Zoom before, we suggest that before Wednesday you try to join the Zoom test meeting at <a href="https://zoom.us/test">https://zoom.us/test</a> on the device that you intend to use, in order to check that your system works OK. You will not require a Zoom account to take part.</p>
-<p><strong>Past Meetings</strong></p>
-<p>Videos of previous meetings can be found in our links to past meetings at <a href="https://www.wrocc.org.uk/meetings">https://www.wrocc.org.uk/meetings</a> or See our YouTube channel: <a href="https://www.youtube.com/@wrocc-riscos">https://www.youtube.com/@wrocc-riscos</a></p>
-<p><strong>Club Membership</strong></p>
-<p>Annual membership of WROCC is available for those living near and far at 10.00ukp per year.</p>
-<p><strong>Members receive:</strong></p>
-<ul>
-<li>A PDF newsletter with all the latest news and articles.</li>
-<li>Entry to meetings.</li>
-<li>Access to the WROCC Internet Discussion List.</li>
-</ul>
-<p>For further information, please email <a href="mailto:info2026@wrocc.org.uk">info2026@wrocc.org.uk</a> or visit the</p>
-<p>Club’s website at <a href="https://www.wrocc.org.uk/">https://www.wrocc.org.uk/</a></p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20429">https://www.riscosopen.org/forum/forums/1/topics/20429</a>
-      </address>
-    </article>
-
     <article data-published="2026-05-29T11:13:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3mmyfr7vz322k">
       <h2>@iconbar.com</h2>
 
@@ -156,31 +398,6 @@
       </address>
     </article>
 
-    <article data-published="2026-05-28T22:16:53Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20428">
-      <h2>Live Coding with Gerph, Sunday 31st May at 1pm UK time</h2>
-
-(date: 2026-05-28)
-      <p>
-      <p>This Sunday – 31st May, at 1pm UK time – I’ll be continuing the series on creating the icon rendering code for the Wimp.</p>
-<p>Last week we cleaned up the sprite rendering that I’d got a little wrong previously</p>
-<p>- not generating translation tables for sprites with palettes because I’d got the</p>
-<p>check completely wrong. And the clipping and text rendering were improved to closer</p>
-<p>match the master images.</p>
-<p>There’s also an odd icon on page 0 that ends up grey too, so if we can fix thse and then</p>
-<p>go down our tick list we should be able to say that things are good enough.</p>
-<p>Come along if you like – <a href="https://youtube.com/live/3GygRzPx10U?feature=share">https://youtube.com/live/3GygRzPx10U?feature=share</a> – or you can always watch the video afterwards at the same address.</p>
-<hr>
-<p>For anyone who hasn’t seen these live coding sessions, this where I share my screen for about 3 hours and code some RISC OS component, whilst talking about what I’m doing, what I’m thinking, and answering questions on the chat.</p>
-<p><a href="https://github.com/gerph/riscos64-status/wiki/Module_WindowManager_IconRender">https://github.com/gerph/riscos64-status/wiki/Module_W…</a> – shows the functionality we need to add. There’s quite a lot!</p>
-<hr>
-<p>If you want to watch the whole series, you can follow it through the playlist on YouTube – <a href="https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTsdRKzv_uMif_KBGrSqP">https://www.youtube.com/playlist?list=PLVVIu906Y7rHjTs…</a></p>
-<p>Alternatively, the series is also available from my Presentations website: <a href="https://presentation.riscos.online/live/wimpiconrender.html">https://presentation.riscos.online/live/wimpiconrender…</a> (once it has been published).</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20428">https://www.riscosopen.org/forum/forums/1/topics/20428</a>
-      </address>
-    </article>
-
     <article data-published="2026-05-28T21:23:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmwxesmkvk2d">
       <h2>@paolofabiozaino.bsky.social</h2>
 
@@ -192,37 +409,6 @@
 
       <address>
         <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmwxesmkvk2d">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mmwxesmkvk2d</a>
-      </address>
-    </article>
-
-    <article data-published="2026-05-28T21:21:24Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20267">
-      <h2>Need volunteers to start testing my new ShareFSServer</h2>
-
-(date: 2026-05-28)
-      <p>
-      <p><strong>@all alpha testers</strong></p>
-<p>A new alpha build, <strong>0.5.3</strong> it’s now available for testing.</p>
-<p><strong>What’s new in this build:</strong></p>
-<p>This is a bug fixing release from some previous reported issues with orevious release 0.5.2.</p>
-<ul>
-<li>
-<p>Improved file handling when identical names with/without extensions in the exact same path on Windows.</p>
-</li>
-<li>
-<p>Fixed a minor issue in filetypes.csv where the Zip extension was mapped to the wrong filetype.</p>
-</li>
-<li>
-<p>Improved ftp backend to process more data in the FTPLIST output for UNIX format, MS-DOS format and more.</p>
-</li>
-<li>
-<p>Minor improvements on the http backend to fix some reported edge cases.</p>
-</li>
-</ul>
-<p>Thanks for all the help supporting this project!</p>
-<p>- Paolo</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20267">https://www.riscosopen.org/forum/forums/11/topics/20267</a>
       </address>
     </article>
 
@@ -251,23 +437,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20300">https://www.riscosopen.org/forum/forums/1/topics/20300</a>
-      </address>
-    </article>
-
-    <article data-published="2026-05-28T14:03:56Z" data-link="https://www.riscosopen.org/forum/forums/10/topics/20424">
-      <h2>Extended attrs.</h2>
-
-(date: 2026-05-28)
-      <p>
-      <blockquote>
-<p>Ah, excellent – I was going to take a look except I realised I didn’t know where it’d be… And my new filing system was more fun.</p>
-</blockquote>
-<p>bsdtar is now working in both directions (reading and writing mapping the ‘user.RISC_OS.LoadExec’ extended file attribute). I’ll do some more testing then make it available to download.</p>
-<p>bsdtar has the added bonus of supporting lots of compression formats. (xz, bzip2, gzip, zstd etc)</p>
-<p>Creating a tar file of the contents of !Boot on RISC OS and restoring it on Linux both RPCEmu and RISC OS Linux successfully booted with the extracted !Boot. (no file names were harmed during testing!)</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/10/topics/20424">https://www.riscosopen.org/forum/forums/10/topics/20424</a>
       </address>
     </article>
 
