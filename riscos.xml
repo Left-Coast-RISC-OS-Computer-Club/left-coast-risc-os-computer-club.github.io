@@ -7,20 +7,112 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>01 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>02 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mnd25msluc24</link>
+      <description>
+        <![CDATA[An OCEAN Software advert looking for games to publish - circa 1983. Also, don't miss the COMPUTER BUFFS advert below it.]]>
+      </description>
+      <source:markdown>An OCEAN Software advert looking for games to publish - circa 1983. Also, don&#39;t miss the COMPUTER BUFFS advert below it.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mnd25msluc24</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mncx2wsxlk24</link>
+      <description>
+        <![CDATA[If you are free tomorrow do you fancy a visit to the Northwest Computer Museum to help them celebrate their 3rd birthday? Entry is free and there's so much to see and do. I hope to see you there, please say hello if you do! It's located in Leigh, near Manchester. Here's a flyer from their socials.]]>
+      </description>
+      <source:markdown>If you are free tomorrow do you fancy a visit to the Northwest Computer Museum to help them celebrate their 3rd birthday? Entry is free and there&#39;s so much to see and do. I hope to see you there, please say hello if you do! It&#39;s located in Leigh, near Manchester. Here&#39;s a flyer from their socials.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mncx2wsxlk24</guid>
+    </item>    <item>
+      <title>Extended attrs.</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20424</link>
+      <description>
+        <![CDATA[<p>I added your xattrs changes to rpcemubeta for macos and linux.<br />
+        There&#8217;s also now a menu option in settings to enable Extended Attributes. Default is disabled.</p>]]>
+      </description>
+      <source:markdown>I added your xattrs changes to rpcemubeta for macos and linux.
+
+There’s also now a menu option in settings to enable Extended Attributes. Default is disabled.</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20424:164334</guid>
+    </item>    <item>
+      <title>31/5/26 ROM boot fail</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20434</link>
+      <description>
+        <![CDATA[<p>The latest beta <span class="caps">RPI</span> <span class="caps">ROM</span> 31/5/26 on booting makes no visible progress past lighting the keyboard lamps which remain on. Retries give the same result. Checked for correct <span class="caps">ROM</span> version. <span class="caps">ROM</span> is on uSD, Boot/Loader on ssd. Reverting to previous version works ok.</p>
+        <p>Raspberry Pi 4b</p>
+        <p>Edit: 4GB <span class="caps">ROM</span> version</p>]]>
+      </description>
+      <source:markdown>The latest beta RPIROM 31/5/26 on booting makes no visible progress past lighting the keyboard lamps which remain on. Retries give the same result. Checked for correct ROM version. ROM is on uSD, Boot/Loader on ssd. Reverting to previous version works ok.
+
+Raspberry Pi 4b
+
+Edit: 4GB ROM version</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20434:164328</guid>
+    </item>    <item>
+      <title>NEON query</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20419</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>As a further warning for <span class="caps">BBC</span> <span class="caps">BASIC</span>. The <span class="caps">VFP</span> assembler is completely full of bugs.</p>
+        </blockquote>
+        <p>Think I&#8217;ve run across one. According to memoryi, this:</p>
+        <pre><code>vshrn.u16 d16, q0, #8    ; d16 = q0 &gt;&gt; 8 and narrow</code></pre>
+        <p>Assembles to this:</p>
+        <pre><code>F2C80810 : VSHRN.I16 Q8,D0,#8         ; ASIMD</code></pre>
+        <p>Is the disassembly ok? Surely the first register shouldn&#8217;t be a q one? Whatever, it&#8217;s not doing what I want.</p>
+        <p>Is there a list of <span class="caps">BASIC</span> assembler bugs anywhere?</p>
+        <p><span class="caps">EDIT</span>: It seems to get the rounding version right:</p>
+        <pre><code>vrshrn.u16 d16, q0, #8    ; d16 = q0 &gt;&gt; 8 round and narrow</code></pre>
+        <p>gives:</p>
+        <pre><code>F2C80850 : VRSHRN.I16 D16,Q0,#8       ; ASIMD</code></pre>]]>
+      </description>
+      <source:markdown>&#62; As a further warning for BBCBASIC. The VFP assembler is completely full of bugs.
+
+Think I’ve run across one. According to memoryi, this:
+
+```
+vshrn.u16 d16, q0, #8    ; d16 = q0 &#62;&#62; 8 and narrow
+```
+
+Assembles to this:
+
+```
+F2C80810 : VSHRN.I16 Q8,D0,#8         ; ASIMD
+```
+
+Is the disassembly ok? Surely the first register shouldn’t be a q one? Whatever, it’s not doing what I want.
+
+Is there a list of BASIC assembler bugs anywhere?
+
+EDIT: It seems to get the rounding version right:
+
+```
+vrshrn.u16 d16, q0, #8    ; d16 = q0 &#62;&#62; 8 round and narrow
+```
+
+gives:
+
+```
+F2C80850 : VRSHRN.I16 D16,Q0,#8       ; ASIMD
+```</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20419:164324</guid>
+    </item>    <item>
       <title>Modern Browser?</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20425</link>
       <description>
-        <![CDATA[<p>Tried turning Alignment Exceptions off. No change in behaviour.</p>
-        <p>I might stick <span class="caps">RISOS</span> Direct on another SD card and have a play with that too.</p>]]>
+        <![CDATA[<p>I have tried a fresh installation of Iris with PackMan on <span class="caps">RISC</span> OS Pi OS5.30. PackMan needed to be upgraded and the riscosdev packages list added. Initially Iris made it to the icon bar but on attempting to open its window it error&#8217;d with a SharedLib&#8217;s &#8220;Bad page number&#8221; message. A reboot fixed that and Iris looks just fine.</p>]]>
       </description>
-      <source:markdown>Tried turning Alignment Exceptions off. No change in behaviour.
-
-I might stick RISOS Direct on another SD card and have a play with that too.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20425:164315</guid>
+      <source:markdown>I have tried a fresh installation of Iris with PackMan on RISC OS Pi OS5.30. PackMan needed to be upgraded and the riscosdev packages list added. Initially Iris made it to the icon bar but on attempting to open its window it error’d with a SharedLib’s “Bad page number” message. A reboot fixed that and Iris looks just fine.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20425:164323</guid>
+    </item>    <item>
+      <title>ChatCube error</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20433</link>
+      <description>
+        <![CDATA[<p>It relies on a dedicated Cloverleaf server being available, doesn&#8217;t it?</p>]]>
+      </description>
+      <source:markdown>It relies on a dedicated Cloverleaf server being available, doesn’t it?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20433:164322</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mnalywmgbk2c</link>
       <description>
@@ -384,20 +476,6 @@ Next week, I think we’re going to have a one-off session. If someone has a par
       </description>
       <source:markdown>np, glad to hear it’s working fine :)</source:markdown>
       <guid>cid://www.riscosopen.org:11:20267:164294</guid>
-    </item>    <item>
-      <title>Extended attrs.</title>
-      <link>https://www.riscosopen.org/forum/forums/10/topics/20424</link>
-      <description>
-        <![CDATA[<p>I suppose the directory fix is probably to not apply any extension/xattr at all. I&#8217;ll have a look in a bit.</p>
-        <p>I think I need a second option to set the extension on write, with the default being the opposite of what &#8220;&#8212;filetypes&#8221; is set to? The (thought) problem I&#8217;ve got stuck with is what should happen if you write &#8220;file,hij&#8221; or &#8220;file,ffff&#8221; (ie, not valid 12-bit hex/loadexec). It should probably write the file with that leafname and no filetype? <span class="caps">RISC</span> OS and unix allow commas in filenames, afterall. I think creating a new file in &#8220;&#8212;suffix&#8221; mode should ignore any xattr, with the suffix taking precedence. Do you have an opinion?</p>
-        <p><span class="caps">ROOL</span> have just allocated me a filetype, which is very exciting. I was hoping they&#8217;d object to the name so I could blame them for it being renamed.</p>]]>
-      </description>
-      <source:markdown>I suppose the directory fix is probably to not apply any extension/xattr at all. I’ll have a look in a bit.
-
-I think I need a second option to set the extension on write, with the default being the opposite of what “—filetypes” is set to? The (thought) problem I’ve got stuck with is what should happen if you write “file,hij” or “file,ffff” (ie, not valid 12-bit hex/loadexec). It should probably write the file with that leafname and no filetype? RISC OS and unix allow commas in filenames, afterall. I think creating a new file in “—suffix” mode should ignore any xattr, with the suffix taking precedence. Do you have an opinion?
-
-ROOL have just allocated me a filetype, which is very exciting. I was hoping they’d object to the name so I could blame them for it being renamed.</source:markdown>
-      <guid>cid://www.riscosopen.org:10:20424:164293</guid>
     </item>    <item>
       <title>WROCC Meeting - End of the PSTN phone network and updates on Broadband changes - 3rd Jun</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20429</link>
@@ -892,28 +970,6 @@ Greg</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mmlf55dpp22y</guid>
-    </item>    <item>
-      <title>NEON query</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20419</link>
-      <description>
-        <![CDATA[<p>Ah, sorry, I meant &#8220;Assembly&#8221; manual, not &#8220;Assembler&#8221;. That&#8217;s:</p>
-        <p>&#8220;V4.00 Updated to the complete ARMv8 instruction set by Terje Slettebø&#8221;</p>
-        <p>I&#8217;ve now found the Steve Drain manual (called &#8220;<span class="caps">VFP</span>&#8221;) and it looks useful &#8212; cheers!</p>
-        <blockquote>
-        <p>ObjAsm supports Neon and I used it.</p>
-        </blockquote>
-        <p>Ah, that&#8217;s good! Thanks.</p>]]>
-      </description>
-      <source:markdown>Ah, sorry, I meant “Assembly” manual, not “Assembler”. That’s:
-
-“V4.00 Updated to the complete ARMv8 instruction set by Terje Slettebø”
-
-I’ve now found the Steve Drain manual (called “VFP”) and it looks useful — cheers!
-
-&#62; ObjAsm supports Neon and I used it.
-
-Ah, that’s good! Thanks.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20419:164170</guid>
     </item>    <item>
       <title>Audio on RISC OS</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20323</link>
