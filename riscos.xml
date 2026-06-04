@@ -7,10 +7,52 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>03 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>04 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mnhky36bwk2a</link>
+      <description>
+        <![CDATA[The educational room at the Northwest Computer Museum. Filled with BBC Micros, plus PCs running DOOM! This reminds me of school so much. The TV series Micro Live is playing in the background with Chris and Mac are discussing Laser Disc technology. The Computer Literacy Project was so important.]]>
+      </description>
+      <source:markdown>The educational room at the Northwest Computer Museum. Filled with BBC Micros, plus PCs running DOOM! This reminds me of school so much. The TV series Micro Live is playing in the background with Chris and Mac are discussing Laser Disc technology. The Computer Literacy Project was so important.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mnhky36bwk2a</guid>
+    </item>    <item>
+      <title>R-Comp updates its RISC OS builds for customers</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13604&#38;page=1#125899</link>
+      <description>
+        <![CDATA[Main issue for doing TiMachine update is doing QA here - if you don't mind doing some beta testing, I'll happily prepare the same upgrade as the other machines for use on Ti.]]>
+      </description>
+      <source:markdown>Main issue for doing TiMachine update is doing QA here - if you don&#39;t mind doing some beta testing, I&#39;ll happily prepare the same upgrade as the other machines for use on Ti.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13604&#38;page=1#125899</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mng3hodsss2o</link>
+      <description>
+        <![CDATA[Were you lucky enough to have this toy in the 1970s? The Eagle Transporter from the TV series SPACE 1999.]]>
+      </description>
+      <source:markdown>Were you lucky enough to have this toy in the 1970s? The Eagle Transporter from the TV series SPACE 1999.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mng3hodsss2o</guid>
+    </item>    <item>
+      <title>Obsidian Progress</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20436</link>
+      <description>
+        <![CDATA[<p>Here is an early preview of the Dark Mode Obsidian theme and the progress made so far.</p>
+        <p>Recent updates and new features in the window manager have provided much greater flexibility when it comes to customising text and UI colours, making the theme easier to develop and refine. As a result, I&#8217;ve been able to create a more cohesive and visually appealing experience.</p>
+        <p>With that said, here&#8217;s the current state of the theme so far, Which is a very different change since <span class="caps">RISC</span> OS North.<br />
+        We are on track for a Release for London&#8217;s Show in October providing <span class="caps">RISC</span> OS 5.32 is announced with the needed Window Manager Changes.<br />
+        <img src="https://images2.imgbox.com/8e/08/595BxDBA_o.jpg" alt="" /></p>]]>
+      </description>
+      <source:markdown>Here is an early preview of the Dark Mode Obsidian theme and the progress made so far.
+
+Recent updates and new features in the window manager have provided much greater flexibility when it comes to customising text and UI colours, making the theme easier to develop and refine. As a result, I’ve been able to create a more cohesive and visually appealing experience.
+
+With that said, here’s the current state of the theme so far, Which is a very different change since RISC OS North.
+
+We are on track for a Release for London’s Show in October providing RISC OS 5.32 is announced with the needed Window Manager Changes.
+
+![](https://images2.imgbox.com/8e/08/595BxDBA_o.jpg)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20436:164368</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mnfl4kr7r22o</link>
       <description>
         <![CDATA[This is the first time I've used a NextCube.  Rather impressive for its age. The spec are:- NextCube Turbo, 33 MHz 68040, 128MB RAM, NextDimension Video board, OS NextStep 3.3. The mouse was like a large block of soap. Mandelbrot demo.]]>
@@ -231,24 +273,27 @@ Hmm, I’ve not noticed anything odd, but there could be something that got miss
       <source:markdown>Starting with the i.MX6-based systems, R-Comp’s sister company RCI – which handles the hardware side of things – is rolling out ‘OS Update 24’ for the various computers they sell. This update is based around a May 2026 build of RISC OS 5.31, with platform-specific enhancements and selected updates to disc image components where applicable. Andrew Rawnsley explained that because there are quite a few models of computer in their product range, from a logistical point of view the upgrade process is a large task – as well as preparing…</source:markdown>
       <guid>cid://https://www.riscository.com/?p=10956</guid>
     </item>    <item>
-      <title>Modern Browser?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20425</link>
-      <description>
-        <![CDATA[<p>@andrew it&#8217;s an 8gb sandisk extreme, written with balena etcher on a windows 11 pc.</p>
-        <p>Maybe I&#8217;ll format it and try again.</p>]]>
-      </description>
-      <source:markdown>@andrew it’s an 8gb sandisk extreme, written with balena etcher on a windows 11 pc.
-
-Maybe I’ll format it and try again.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20425:164343</guid>
-    </item>    <item>
       <title>ChatCube error</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20433</link>
       <description>
-        <![CDATA[<p>Well you never know how long cloverleaf will be around for, since development stopped on all things <span class="caps">RISC</span> OS a long time a go, including chatcube.</p>]]>
+        <![CDATA[<p>It doesn&#8217;t affect me, but who would you rather have hosting it? Why would they be immune to the occasional loss of service?</p>]]>
       </description>
-      <source:markdown>Well you never know how long cloverleaf will be around for, since development stopped on all things RISC OS a long time a go, including chatcube.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20433:164342</guid>
+      <source:markdown>It doesn’t affect me, but who would you rather have hosting it? Why would they be immune to the occasional loss of service?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20433:164350</guid>
+    </item>    <item>
+      <title>Modern Browser?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20425</link>
+      <description>
+        <![CDATA[<p>I&#8217;d expect that to work.  <span class="caps">IIRC</span> we trimmed the disc image down to fit in a little over 7GB I think (again, shoutout to David Pitt for that trick).  Might still be worth using a 16GB if you have one.</p>
+        <p>Sandisks are usually pretty solid picks, but not every card is created equal &#8211; I remember buying a couple of Samsung ones a few years back and they were both hopeless &#8211; others had been fine before.  In the end I decided they were probably (good) fakes.</p>
+        <p>One final thing (which I very much doubt is relevant) &#8211; in my experience the SD card bus is one of the first things to play up if you overclock a Pi.  Direct isn&#8217;t overclocked so shouldn&#8217;t be an issue, but it is something to be aware of.</p>]]>
+      </description>
+      <source:markdown>I’d expect that to work. IIRC we trimmed the disc image down to fit in a little over 7GB I think (again, shoutout to David Pitt for that trick). Might still be worth using a 16GB if you have one.
+
+Sandisks are usually pretty solid picks, but not every card is created equal – I remember buying a couple of Samsung ones a few years back and they were both hopeless – others had been fine before. In the end I decided they were probably (good) fakes.
+
+One final thing (which I very much doubt is relevant) – in my experience the SD card bus is one of the first things to play up if you overclock a Pi. Direct isn’t overclocked so shouldn’t be an issue, but it is something to be aware of.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20425:164349</guid>
     </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mnd25msluc24</link>
       <description>
