@@ -7,10 +7,79 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>04 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>05 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mnkpdy2up222</link>
+      <description>
+        <![CDATA[A crazy busy week at work, so not much going on in the hobby side: but I have managed to crackle the way ShareFS signals "this file is being copied", so now #RISC_OS shows the famous icon during file transfers; however I still need to find the time to tackle last week's bugs... ☹️]]>
+      </description>
+      <source:markdown>A crazy busy week at work, so not much going on in the hobby side: but I have managed to crackle the way ShareFS signals &#34;this file is being copied&#34;, so now #RISC\_OS shows the famous icon during file transfers; however I still need to find the time to tackle last week&#39;s bugs... ☹️</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mnkpdy2up222</guid>
+    </item>    <item>
+      <title>RPCEmu run in Haiku</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/17132</link>
+      <description>
+        <![CDATA[<p>I finally got dynarec working.</p>
+        <p><a href="https://github.com/chrisc30/rpcemu-haiku">https://github.com/chrisc30/rpcemu-haiku</a></p>]]>
+      </description>
+      <source:markdown>I finally got dynarec working.
+
+[https://github.com/chrisc30/rpcemu-haiku](https://github.com/chrisc30/rpcemu-haiku)</source:markdown>
+      <guid>cid://www.riscosopen.org:10:17132:164384</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mnkb4mmue22y</link>
+      <description>
+        <![CDATA[A very impressive remote control CROUCH Recovery Truck paid a brief visit to the Northwest Computer Museum - driven here by Joe. Apparently it costs £2,500, or did I mis-hear?]]>
+      </description>
+      <source:markdown>A very impressive remote control CROUCH Recovery Truck paid a brief visit to the Northwest Computer Museum - driven here by Joe. Apparently it costs £2,500, or did I mis-hear?</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mnkb4mmue22y</guid>
+    </item>    <item>
+      <title>Typo</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20438</link>
+      <description>
+        <![CDATA[<p>There seems to be a typo in the link to</p>
+        <p>this:  <a href="https://www.riscosopen.org/content/documents/risc-os-moonshots/64-bit-moonshot-investor">https://www.riscosopen.org/content/documents/risc-os-m…</a></p>]]>
+      </description>
+      <source:markdown>There seems to be a typo in the link to
+
+this: [https://www.riscosopen.org/content/documents/risc-os-m…](https://www.riscosopen.org/content/documents/risc-os-moonshots/64-bit-moonshot-investor)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20438:164382</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mnjwpnbgg22c</link>
+      <description>
+        <![CDATA[If this had come out of China there would have been a lot of relieved giggling in European boardrooms.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>If this had come out of China there would have been a lot of relieved giggling in European boardrooms.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mnjwpnbgg22c</guid>
+    </item>    <item>
+      <title>DeTox bounty?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
+      <description>
+        <![CDATA[<p>I&#8217;m still in the situation where I want to &#8220;detox&#8221; the (scanned) pages in PDFs of old pulp books/mags. I can do this via using !Compo to process a set of pages that have been extracted into one-page-per-file. But this is a slow and clumsy method that also means extracting hundreds of bitmap files first, then generating detoxed versions, etc, using other programs.  So I&#8217;m wondering if it would help to offer a bounty payment/prize that might prompt a better programmer than me to write a desktop app that does the job via simple <span class="caps">DND</span>?</p>
+        <p>Jim</p>]]>
+      </description>
+      <source:markdown>I’m still in the situation where I want to “detox” the (scanned) pages in PDFs of old pulp books/mags. I can do this via using !Compo to process a set of pages that have been extracted into one-page-per-file. But this is a slow and clumsy method that also means extracting hundreds of bitmap files first, then generating detoxed versions, etc, using other programs. So I’m wondering if it would help to offer a bounty payment/prize that might prompt a better programmer than me to write a desktop app that does the job via simple DND?
+
+Jim</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20437:164377</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mnjsuiiwo22c</link>
+      <description>
+        <![CDATA[Every time Matt Damon appears in his stupid helmet the audience must shout "My hair!".
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Every time Matt Damon appears in his stupid helmet the audience must shout &#34;My hair!&#34;.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mnjsuiiwo22c</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mnhky36bwk2a</link>
       <description>
         <![CDATA[The educational room at the Northwest Computer Museum. Filled with BBC Micros, plus PCs running DOOM! This reminds me of school so much. The TV series Micro Live is playing in the background with Chris and Mac are discussing Laser Disc technology. The Computer Literacy Project was so important.]]>
@@ -205,6 +274,14 @@ And the double width function keys are epic.</source:markdown>
       <source:markdown>Having a great day at the Northwest Computer Museum celebrating their 3rd birthday. Congratulations and thanks to Joe for his hospitality and for working so hard along with all the volunteers.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mnf6kqhams2j</guid>
     </item>    <item>
+      <title>31/5/26 ROM boot fail</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20434</link>
+      <description>
+        <![CDATA[<p>I thought this forum was for stuff that IS broke(n).</p>]]>
+      </description>
+      <source:markdown>I thought this forum was for stuff that IS broke(n).</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20434:164363</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mnetdrtaw22o</link>
       <description>
         <![CDATA[Heading off to the Northwest Computer Museum for their 3rd birthday celebration. I hope some of you are able to make it today. Please say hello.]]>
@@ -251,19 +328,6 @@ Come along if you like – [https://youtube.com/live/Oy\_mCJfQtJM?feature=share]
 
 Usually I’d share my screen and code some stuff whilst talking about it for a few hours, but this session will be different. I’ll do coding or demonstrate things if I can, or we’ll just talk about stuff.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20435:164354</guid>
-    </item>    <item>
-      <title>31/5/26 ROM boot fail</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20434</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>There is a <span class="caps">ROM</span> issue, it took a while but I think I have found it now. I first noticed it a few day ago when a change made to config/txt was apparently saved but did not work and was seen to be lost when the file was reloaded.</p>
-        </blockquote>
-        <p>Hmm, I&#8217;ve not noticed anything odd, but there could be something that got missed in the recent <span class="caps">DOSFS</span> work. To help narrow it down I&#8217;ve made <a href="https://www.sprow.co.uk/pi_abcd.zip">4 slightly different</a> Pi ROMs to try &#8211; could you see what they do? Of course it&#8217;ll be extra confusing if all 4 work!</p>]]>
-      </description>
-      <source:markdown>&#62; There is a ROM issue, it took a while but I think I have found it now. I first noticed it a few day ago when a change made to config/txt was apparently saved but did not work and was seen to be lost when the file was reloaded.
-
-Hmm, I’ve not noticed anything odd, but there could be something that got missed in the recent DOSFS work. To help narrow it down I’ve made [4 slightly different](https://www.sprow.co.uk/pi_abcd.zip) Pi ROMs to try – could you see what they do? Of course it’ll be extra confusing if all 4 work!</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20434:164353</guid>
     </item>    <item>
       <title>RCI rolling out RISC OS 5.31-based updates</title>
       <link>https://www.riscository.com/2026/rci-risc-os-5-31-updates/</link>
@@ -378,14 +442,6 @@ F2C80850 : VRSHRN.I16 D16,Q0,#8       ; ASIMD
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mnalywmgbk2c</guid>
-    </item>    <item>
-      <title>RPCEmu run in Haiku</title>
-      <link>https://www.riscosopen.org/forum/forums/10/topics/17132</link>
-      <description>
-        <![CDATA[<p>@Michael How did you get dynarec working? I am struggling with it now. RPCEmu loads and crashes right away.</p>]]>
-      </description>
-      <source:markdown>@Michael How did you get dynarec working? I am struggling with it now. RPCEmu loads and crashes right away.</source:markdown>
-      <guid>cid://www.riscosopen.org:10:17132:164314</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3mn7yplx7uc2b</link>
       <description>
