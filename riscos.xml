@@ -7,10 +7,122 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>05 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>06 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
+      <description>
+        <![CDATA[<p>Tweaked the <a href="https://gitlab.riscosopen.org/RiscOS/Sources/Apps/EditApp/-/merge_requests/5">!Edit templates</a> so the distracting solid fill for the Find dialogue is gone, along with a change to <a href="https://gitlab.riscosopen.org/rsprowson/RISC_OSLib/-/tree/dark-mode">RISC_OSLib</a> (which is where the bulk of the editor lives) to default to black-on-white for dark themes rather than the usual white-on-black when a new text window is opened.</p>
+        <p>As before, if you have a spare Pi kicking around and want to give both a try, there’s a <a href="https://www.sprow.co.uk/TestDarkLight.zip">pre-built <span class="caps">ROM</span></a> and test purple theme available to try.</p>]]>
+      </description>
+      <source:markdown>Tweaked the [!Edit templates](https://gitlab.riscosopen.org/RiscOS/Sources/Apps/EditApp/-/merge_requests/5) so the distracting solid fill for the Find dialogue is gone, along with a change to [RISC\_OSLib](https://gitlab.riscosopen.org/rsprowson/RISC_OSLib/-/tree/dark-mode) (which is where the bulk of the editor lives) to default to black-on-white for dark themes rather than the usual white-on-black when a new text window is opened.
+
+As before, if you have a spare Pi kicking around and want to give both a try, there’s a [pre-built ROM](https://www.sprow.co.uk/TestDarkLight.zip) and test purple theme available to try.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20340:164423</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mnn47nm24s25</link>
+      <description>
+        <![CDATA[PlayStation 5 owners: If your DualSense battery only lasts an hour (me), your headphone socket is dodgy (me), or your sticks are drifting (not me), EE currently have six colours on sale at £42, which is a great price:
+        https://ee.co.uk/products/ps5-dualsense-wireless-controller?color=color-code-046B79&s_cid=con_ee_eng-mob_ess_ppc-generic&esskwid=&ess_sacid=23209264450&gclsrc=aw.ds&gad_source=1&gad_campaignid=23205107204&gclid=Cj0KCQjwio_RBhDMARIsAJPveNP29NAgZUR6qykMUUm3U6o9ZG0Ni-QIUWKHlFh2gBvyGi_pk7THVsAaAhQJEALw_wcB]]>
+      </description>
+      <source:markdown>PlayStation 5 owners: If your DualSense battery only lasts an hour (me), your headphone socket is dodgy (me), or your sticks are drifting (not me), EE currently have six colours on sale at £42, which is a great price:
+https://ee.co.uk/products/ps5-dualsense-wireless-controller?color=color-code-046B79&#38;s\_cid=con\_ee\_eng-mob\_ess\_ppc-generic&#38;esskwid=&#38;ess\_sacid=23209264450&#38;gclsrc=aw.ds&#38;gad\_source=1&#38;gad\_campaignid=23205107204&#38;gclid=Cj0KCQjwio\_RBhDMARIsAJPveNP29NAgZUR6qykMUUm3U6o9ZG0Ni-QIUWKHlFh2gBvyGi\_pk7THVsAaAhQJEALw\_wcB</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mnn47nm24s25</guid>
+    </item>    <item>
+      <title>WROCC Meeting - Mapping Railway History with RiscOSM - 1st Apr</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20319</link>
+      <description>
+        <![CDATA[<p>The talk is now up on youtube titled <a href="https://www.youtube.com/watch?v=B1fsASaHqiY">Mapping Railway History with RiscOSM</a>. It is not yet on the <span class="caps">WROCC</span> web site as a &#8216;recent meeting&#8217; as they are having difficulty updating their web site. I was really pleased to see the video appear: it is up to WROCC&#8217;s ususal high standard (whatever you may think of the content!).</p>]]>
+      </description>
+      <source:markdown>The talk is now up on youtube titled [Mapping Railway History with RiscOSM](https://www.youtube.com/watch?v=B1fsASaHqiY). It is not yet on the WROCC web site as a ‘recent meeting’ as they are having difficulty updating their web site. I was really pleased to see the video appear: it is up to WROCC’s ususal high standard (whatever you may think of the content!).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20319:164418</guid>
+    </item>    <item>
+      <title>WROCC April 2026 talk on Wednesday</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13570&#38;page=1#125900</link>
+      <description>
+        <![CDATA[The URL for the video is https://www.youtube.com/watch?v=B1fsASaHqiY titled 'Mapping Railway History with RiscOSM'. It is not yet on the WROCC web site as a 'recent meeting' as they are having difficulty updating their web site.]]>
+      </description>
+      <source:markdown>The URL for the video is https://www.youtube.com/watch?v=B1fsASaHqiY titled &#39;Mapping Railway History with RiscOSM&#39;. It is not yet on the WROCC web site as a &#39;recent meeting&#39; as they are having difficulty updating their web site.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13570&#38;page=1#125900</guid>
+    </item>    <item>
+      <title>FTPc and AcornSSL 1.09 MbedTLS 3.6.6</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20440</link>
+      <description>
+        <![CDATA[<p>Hi all,</p>
+        <p>Does anyone have a valid emnail address for Colin Granville as the one published on the FTPc site just bounces.</p>
+        <p>As with the other thread I&#8217;m having issues with the latest AcornSSL module and this time FTPc, 1.56 when using Secure &#8211; Explicit ftps.</p>
+        <p>If I do accept the certificate challenge, be it accept once or always, the site is entered but no contents displayed.</p>
+        <p>Evenm accepting the &#8220;Always&#8221; option at the challenge doesn&#8217;t show any files.</p>
+        <p>Reverting to a non TLS1.3 version of the module gives access.</p>
+        <p>I have a log file I want to send to Colin to see if it helps.</p>
+        <p>This also impacts SiteMatch as well when using FTPs as the access method to update a site.</p>]]>
+      </description>
+      <source:markdown>Hi all,
+
+Does anyone have a valid emnail address for Colin Granville as the one published on the FTPc site just bounces.
+
+As with the other thread I’m having issues with the latest AcornSSL module and this time FTPc, 1.56 when using Secure – Explicit ftps.
+
+If I do accept the certificate challenge, be it accept once or always, the site is entered but no contents displayed.
+
+Evenm accepting the “Always” option at the challenge doesn’t show any files.
+
+Reverting to a non TLS1.3 version of the module gives access.
+
+I have a log file I want to send to Colin to see if it helps.
+
+This also impacts SiteMatch as well when using FTPs as the access method to update a site.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20440:164416</guid>
+    </item>    <item>
+      <title>DeTox bounty?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
+      <description>
+        <![CDATA[<p>After looking and failng a number of times I found a <span class="caps">URL</span> for !DeBrown that worked&#8230;</p>
+        <p>But I can&#8217;t find one for ImageMagik 7. :-/ Can someone please let me know the <span class="caps">URL</span>? I did look at Colin G&#8217;s pages, but again couldn&#8217;t find this. So I must either be misunderstanding or simply haven&#8217;t found the correct page that gives me a link to it!</p>
+        <p><span class="caps">FWIW</span> The Bounty was meant to encourage what I need to be produced and ensure it was a free desktop <span class="caps">DND</span> app. I was thinking of 100 quid as a round number, either to the programmer or for their preferred charity &#8211; or <span class="caps">ROOL</span> &#8211; as a &#8216;thank you&#8217;. But if people think that&#8217;s mean, and I&#8217;m a numpty <span class="caps">PITA</span> I&#8217;d donate more.</p>
+        <p>Thanks,</p>]]>
+      </description>
+      <source:markdown>After looking and failng a number of times I found a URL for !DeBrown that worked…
+
+But I can’t find one for ImageMagik 7. :-/ Can someone please let me know the URL? I did look at Colin G’s pages, but again couldn’t find this. So I must either be misunderstanding or simply haven’t found the correct page that gives me a link to it!
+
+FWIW The Bounty was meant to encourage what I need to be produced and ensure it was a free desktop DND app. I was thinking of 100 quid as a round number, either to the programmer or for their preferred charity – or ROOL – as a ‘thank you’. But if people think that’s mean, and I’m a numpty PITA I’d donate more.
+
+Thanks,</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20437:164401</guid>
+    </item>    <item>
+      <title>AcornSSL 1.09 problem</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20439</link>
+      <description>
+        <![CDATA[<p>Hi Bob,</p>
+        <blockquote>
+        <p>AcornSSL 1.07 28 Mar 2025 mbedTLS3.6.5</p>
+        </blockquote>
+        <p>Any chance of sending me that version for me to check on my set up?</p>
+        <p>You should have my email address or send it to the <span class="caps">MUG</span> list :-)</p>]]>
+      </description>
+      <source:markdown>Hi Bob,
+
+&#62; AcornSSL 1.07 28 Mar 2025 mbedTLS3.6.5
+
+Any chance of sending me that version for me to check on my set up?
+
+You should have my email address or send it to the MUG list :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20439:164399</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mnm5bi6zok2b</link>
+      <description>
+        <![CDATA[#OutOfContext
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>#OutOfContext
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mnm5bi6zok2b</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mnkpdy2up222</link>
       <description>
         <![CDATA[A crazy busy week at work, so not much going on in the hobby side: but I have managed to crackle the way ShareFS signals "this file is being copied", so now #RISC_OS shows the famous icon during file transfers; however I still need to find the time to tackle last week's bugs... ☹️]]>
@@ -57,17 +169,6 @@ this: [https://www.riscosopen.org/content/documents/risc-os-m…](https://www.ri
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mnjwpnbgg22c</guid>
-    </item>    <item>
-      <title>DeTox bounty?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
-      <description>
-        <![CDATA[<p>I&#8217;m still in the situation where I want to &#8220;detox&#8221; the (scanned) pages in PDFs of old pulp books/mags. I can do this via using !Compo to process a set of pages that have been extracted into one-page-per-file. But this is a slow and clumsy method that also means extracting hundreds of bitmap files first, then generating detoxed versions, etc, using other programs.  So I&#8217;m wondering if it would help to offer a bounty payment/prize that might prompt a better programmer than me to write a desktop app that does the job via simple <span class="caps">DND</span>?</p>
-        <p>Jim</p>]]>
-      </description>
-      <source:markdown>I’m still in the situation where I want to “detox” the (scanned) pages in PDFs of old pulp books/mags. I can do this via using !Compo to process a set of pages that have been extracted into one-page-per-file. But this is a slow and clumsy method that also means extracting hundreds of bitmap files first, then generating detoxed versions, etc, using other programs. So I’m wondering if it would help to offer a bounty payment/prize that might prompt a better programmer than me to write a desktop app that does the job via simple DND?
-
-Jim</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20437:164377</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mnjsuiiwo22c</link>
       <description>
@@ -465,24 +566,6 @@ The June 2026 WROCC talk is on Wednesday 3rd June and starts at 7.45pm on Zoom. 
       </description>
       <source:markdown>The June 2026 WROCC talk is on Wednesday 3rd June and starts at 7.45pm on Zoom. This month&#39;s speaker is Chris Hughes</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2336.html</guid>
-    </item>    <item>
-      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
-      <description>
-        <![CDATA[<p>Having spotted the Filer &#8216;full info&#8217; display came out in the wrong colours (because the Filer plots the columns of text itself), I&#8217;ve added a Wimp_ReadSysInfo subreason so anything which renders its own icons can read back the theme&#8217;s selected colours and adapt accordingly.</p>
-        <ul>
-        	<li><a href="https://gitlab.riscosopen.org/rsprowson/Wimp/-/tree/dark-mode">Updated Wimp</a> implementing that subreason</li>
-        	<li><a href="https://gitlab.riscosopen.org/rsprowson/Filer/-/tree/dark-mode">Updated Filer</a> using it</li>
-        </ul>
-        <p>If you have a spare Pi kicking around and want to give both a try, there&#8217;s a pre-built <span class="caps">ROM</span> and test purple theme <a href="https://www.sprow.co.uk/TestDarkLight.zip">available too</a>.</p>]]>
-      </description>
-      <source:markdown>Having spotted the Filer ‘full info’ display came out in the wrong colours (because the Filer plots the columns of text itself), I’ve added a Wimp\_ReadSysInfo subreason so anything which renders its own icons can read back the theme’s selected colours and adapt accordingly.
-
-- [Updated Wimp](https://gitlab.riscosopen.org/rsprowson/Wimp/-/tree/dark-mode) implementing that subreason
-- [Updated Filer](https://gitlab.riscosopen.org/rsprowson/Filer/-/tree/dark-mode) using it
-
-If you have a spare Pi kicking around and want to give both a try, there’s a pre-built ROM and test purple theme [available too](https://www.sprow.co.uk/TestDarkLight.zip).</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20340:164305</guid>
     </item>    <item>
       <title>Archive Magazine</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20432</link>
@@ -5537,14 +5620,6 @@ Someone buy them a dictionary, this is ridiculous.</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3migfjttcsk2s</guid>
-    </item>    <item>
-      <title>WROCC Meeting - Mapping Railway History with RiscOSM - 1st Apr</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20319</link>
-      <description>
-        <![CDATA[<p>After a rehearsal on Monday one of my intended demonstrations failed miserably so I rewrote it. I was trying to demonstrate how much easier it is now to obtain a map of a specified area in RiscOSM without lots of trial and error, panning and zooming, but the programme relied on <span class="caps">INKEY</span> to see which keys were pressed and thus would not work in an <span class="caps">RDP</span> client (server?) on my Windows machine. It is now a proper application, !OpenAMap, so should work on the Hydra over Zoom/<span class="caps">RDP</span> to display the <span class="caps">RISC</span> OS desktop.</p>]]>
-      </description>
-      <source:markdown>After a rehearsal on Monday one of my intended demonstrations failed miserably so I rewrote it. I was trying to demonstrate how much easier it is now to obtain a map of a specified area in RiscOSM without lots of trial and error, panning and zooming, but the programme relied on INKEY to see which keys were pressed and thus would not work in an RDP client (server?) on my Windows machine. It is now a proper application, !OpenAMap, so should work on the Hydra over Zoom/RDP to display the RISC OS desktop.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20319:162754</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3migcy4q6hc2a</link>
       <description>
