@@ -7,10 +7,41 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>07 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>08 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mnrrjvxmjs2t</link>
+      <description>
+        <![CDATA[Loving this C64 easter Egg that someone at TT Games put into the new LEGO Batman game. I'm not sure who it was that did it, but I need to find out from some of my former colleagues! If you know please do tell!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Loving this C64 easter Egg that someone at TT Games put into the new LEGO Batman game. I&#39;m not sure who it was that did it, but I need to find out from some of my former colleagues! If you know please do tell!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mnrrjvxmjs2t</guid>
+    </item>    <item>
+      <title>DeTox bounty?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve put !ImageMagic7 into my <span class="caps">SCSI</span>::<span class="caps">SSD</span>.$.Apps.Graphics directory.</p>
+        <p>Then have DeBrown in <span class="caps">SCSI</span>::<span class="caps">SSD</span>.<span class="caps">PDF</span>.DeBrown.</p>
+        <p>Both seen by the filer, indeed have opened filer windows to show them on screen.</p>
+        <p>But when I <span class="caps">DND</span> a test <span class="caps">PDF</span> on !DeBrown&#8217;s icon-bar icon I get the error: &#8220;File unstain not found&#8221;</p>
+        <p>So what&#8217;s missing, or what am I not doing (correctly)?</p>]]>
+      </description>
+      <source:markdown>I’ve put !ImageMagic7 into my SCSI::SSD.$.Apps.Graphics directory.
+
+Then have DeBrown in SCSI::SSD.PDF.DeBrown.
+
+Both seen by the filer, indeed have opened filer windows to show them on screen.
+
+But when I DND a test PDF on !DeBrown’s icon-bar icon I get the error: “File unstain not found”
+
+So what’s missing, or what am I not doing (correctly)?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20437:164432</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/armbytes.bsky.social/post/3mnp3s5eyn22p</link>
       <description>
         <![CDATA[RISC OS Coding QnA at 1300hrs, live in 15 mins. #YouTube #Live 
@@ -29,6 +60,27 @@ https://www.youtube.com/live/Oy\_mCJfQtJM?si=DgLfkys1gJ83oO0K</source:markdown>
       <source:markdown>A rather interesting Bamboo Keyboard and Mouse. I&#39;ve never seen one of these before. Great idea. The keyboard seemed to be pleasant enough to use.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mnp3bp6ya22t</guid>
     </item>    <item>
+      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>(because the Filer plots the columns of text itself)</p>
+        </blockquote>
+        <p>Is there an advantage to implementing it this way? I&#8217;ve noticed that Paint doesn&#8217;t seem to have this issue with &#8220;Full sprite details&#8221; enabled, so I&#8217;m assuming that uses standard icons.</p>
+        <blockquote>
+        <p>along with a change to RISC_OSLib (which is where the bulk of the editor lives) to default to black-on-white for dark themes rather than the usual white-on-black when a new text window is opened.</p>
+        </blockquote>
+        <p>Should SrcEdit be changed to follow the theme as well? Currently it always defaults to white text on a black background regardless of the theme.</p>]]>
+      </description>
+      <source:markdown>&#62; (because the Filer plots the columns of text itself)
+
+Is there an advantage to implementing it this way? I’ve noticed that Paint doesn’t seem to have this issue with “Full sprite details” enabled, so I’m assuming that uses standard icons.
+
+&#62; along with a change to RISC\_OSLib (which is where the bulk of the editor lives) to default to black-on-white for dark themes rather than the usual white-on-black when a new text window is opened.
+
+Should SrcEdit be changed to follow the theme as well? Currently it always defaults to white text on a black background regardless of the theme.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20340:164430</guid>
+    </item>    <item>
       <title>31/5/26 ROM boot fail</title>
       <link>https://www.riscosopen.org/forum/forums/4/topics/20434</link>
       <description>
@@ -40,10 +92,10 @@ https://www.youtube.com/live/Oy\_mCJfQtJM?si=DgLfkys1gJ83oO0K</source:markdown>
       <title>Live Coding with Gerph, Sunday 7th June at 1pm UK time (Q &#38;amp; A)</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20435</link>
       <description>
-        <![CDATA[<p>I&#8217;ve had no submitted questions for the Q&amp;A tomorrow &#8211; it might be a very short session ! :-)</p>]]>
+        <![CDATA[<p>I suppose there is no way of converting these talks into text &#8211; for the hard of hearing!</p>]]>
       </description>
-      <source:markdown>I’ve had no submitted questions for the Q&#38;A tomorrow – it might be a very short session ! :-)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20435:164425</guid>
+      <source:markdown>I suppose there is no way of converting these talks into text – for the hard of hearing!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20435:164427</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mnnnw5zc7s2a</link>
       <description>
@@ -72,17 +124,6 @@ But now you can use any utility that can sync files with your website, or even w
       </description>
       <source:markdown>An example of how #RISC\_OS #ShareFSServer makes many RISC OS tools a lot more useful and in some case they can get quite useful beyond RISC OS uses it self: SiteMatch matching now on pretty much every protocol and level of encryption and security without changing a single line of source code:</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mnnnnaltpk2f</guid>
-    </item>    <item>
-      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
-      <description>
-        <![CDATA[<p>Tweaked the <a href="https://gitlab.riscosopen.org/RiscOS/Sources/Apps/EditApp/-/merge_requests/5">!Edit templates</a> so the distracting solid fill for the Find dialogue is gone, along with a change to <a href="https://gitlab.riscosopen.org/rsprowson/RISC_OSLib/-/tree/dark-mode">RISC_OSLib</a> (which is where the bulk of the editor lives) to default to black-on-white for dark themes rather than the usual white-on-black when a new text window is opened.</p>
-        <p>As before, if you have a spare Pi kicking around and want to give both a try, there’s a <a href="https://www.sprow.co.uk/TestDarkLight.zip">pre-built <span class="caps">ROM</span></a> and test purple theme available to try.</p>]]>
-      </description>
-      <source:markdown>Tweaked the [!Edit templates](https://gitlab.riscosopen.org/RiscOS/Sources/Apps/EditApp/-/merge_requests/5) so the distracting solid fill for the Find dialogue is gone, along with a change to [RISC\_OSLib](https://gitlab.riscosopen.org/rsprowson/RISC_OSLib/-/tree/dark-mode) (which is where the bulk of the editor lives) to default to black-on-white for dark themes rather than the usual white-on-black when a new text window is opened.
-
-As before, if you have a spare Pi kicking around and want to give both a try, there’s a [pre-built ROM](https://www.sprow.co.uk/TestDarkLight.zip) and test purple theme available to try.</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20340:164423</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mnn47nm24s25</link>
       <description>
@@ -137,25 +178,6 @@ I have a log file I want to send to Colin to see if it helps.
 
 This also impacts SiteMatch as well when using FTPs as the access method to update a site.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20440:164416</guid>
-    </item>    <item>
-      <title>DeTox bounty?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>I just visited the repo page you gave the <span class="caps">URL</span> for. But wasn’t able to get either !Iris or !NetSurf to download a zip for me! So I must be doing something idiotically wrong. :-/</p>
-        </blockquote>
-        <p>A quick tip for anyone using GitHub for <span class="caps">RISC</span> OS projects: The best way to handle downloadable archives is to create a release using the GitHub web interface and attach an archive containing a pre-built version of the app that corresponds to the tagged commit. Viewing the downloads requires JavaScript, but you can work around that by editing the description afterwards to add a link to the actual download location</p>
-        <p>Here&#8217;s an example of this in one of my own projects: <a href="https://github.com/ccawley2011/KeyboardUtil/releases/tag/v0.01">https://github.com/ccawley2011/KeyboardUtil/releases/t…</a></p>
-        <p>I wouldn&#8217;t recommend committing archives directly to the repository as Git isn&#8217;t designed for storing binary files &#8211; it won&#8217;t be able to show differences between revisions, and committing changes will cause a new copy of the file to be uploaded, which will get big quite quickly. It&#8217;s much better to check in the unpacked files instead (using <span class="caps">NFS</span> conventions for file types), in plain text where possible. For <span class="caps">BASIC</span> components, using <a href="https://www.stevefryatt.org.uk/risc-os/tokenize">tokenise</a> will help for converting from plain text as part of a build process.</p>]]>
-      </description>
-      <source:markdown>&#62; I just visited the repo page you gave the URL for. But wasn’t able to get either !Iris or !NetSurf to download a zip for me! So I must be doing something idiotically wrong. :-/
-
-A quick tip for anyone using GitHub for RISC OS projects: The best way to handle downloadable archives is to create a release using the GitHub web interface and attach an archive containing a pre-built version of the app that corresponds to the tagged commit. Viewing the downloads requires JavaScript, but you can work around that by editing the description afterwards to add a link to the actual download location
-
-Here’s an example of this in one of my own projects: [https://github.com/ccawley2011/KeyboardUtil/releases/t…](https://github.com/ccawley2011/KeyboardUtil/releases/tag/v0.01)
-
-I wouldn’t recommend committing archives directly to the repository as Git isn’t designed for storing binary files – it won’t be able to show differences between revisions, and committing changes will cause a new copy of the file to be uploaded, which will get big quite quickly. It’s much better to check in the unpacked files instead (using NFS conventions for file types), in plain text where possible. For BASIC components, using [tokenise](https://www.stevefryatt.org.uk/risc-os/tokenize) will help for converting from plain text as part of a build process.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20437:164412</guid>
     </item>    <item>
       <title>AcornSSL 1.09 problem</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20439</link>
