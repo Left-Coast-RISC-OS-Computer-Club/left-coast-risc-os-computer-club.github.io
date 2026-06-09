@@ -7,10 +7,166 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>08 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>09 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mnueqgf2ys2s</link>
+      <description>
+        <![CDATA[I've released the aforementioned MacroKeys module that brings the Acorn Electron's FN key handling to RISC OS.
+        
+        It also contains an Obey file to program all the standard Electron soft-key expansions - even in the desktop.
+        https://macrokeys.20000.org]]>
+      </description>
+      <source:markdown>I&#39;ve released the aforementioned MacroKeys module that brings the Acorn Electron&#39;s FN key handling to RISC OS.
+
+It also contains an Obey file to program all the standard Electron soft-key expansions - even in the desktop.
+https://macrokeys.20000.org</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mnueqgf2ys2s</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mnuarlaoec2j</link>
+      <description>
+        <![CDATA[If you're a programmer, the chances are you've noodled around on Compiler Explorer plenty of times. Show them some love, if you can!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>If you&#39;re a programmer, the chances are you&#39;ve noodled around on Compiler Explorer plenty of times. Show them some love, if you can!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mnuarlaoec2j</guid>
+    </item>    <item>
+      <title>AcornSSL 1.09 problem</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20439</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve done more testing.<br />
+        Using Hermes V5.56.03 with AcornSSL 1.07</p>
+        <p>Cannot connect to my domain mail server.<br />
+        Port 995<br />
+        Gives Connection lost every time.<br />
+        But <span class="caps">CAN</span> connect to pop3.virginmedia.com.<br />
+        Port 995<br />
+        <del>-</del>&#8212;&#8212;&#8212;&#8212;&#8212;<br />
+        Using Hermes V5.56.03 with AcornSSL 1.09<br />
+        Both my domain mail and virgin fail connection lost every time.<br />
+        <del>-</del>&#8212;&#8212;&#8212;&#8212;&#8212;-<br />
+        Using Hermes V5.56.01 with AcornSSL 1.09<br />
+        My mail domain is OK but Virgin fails.<br />
+        <del>-</del>&#8212;&#8212;&#8212;&#8212;&#8212;-<br />
+        Using Hermes V5.56.01 with AcornSSL 1.07<br />
+        My mail domain &#8211; works<br />
+        Virgin &#8211; works.<br />
+        Currently, that&#8217;s the only good combination for me.</p>
+        <p>Andrew R. of Rcomp asked me if I had the local domain set on my machine &#8211; I had not.</p>
+        <p>I spent several hours this morning wrestling with the internet interface trying to work out why the local domain field was greyed out. For me, it&#8217;s very <span class="caps">NOT</span> obvious to say the least. <br />
+        Eventually I found a switch &#8220;Try name server too&#8221;. Bizarre.<br />
+        I set the local domain and re-booted.<br />
+        It&#8217;s still set but it&#8217;s grey again &#8211; beyond me.<br />
+        To check I types <strong>show *domain</strong> and it confirmed Inet$LocalDomain&#8230;.<br />
+        But this made no difference to the above testing at all.</p>
+        <p>It&#8217;s a bit concerning, we&#8217;re operating on a knife edge it seems.</p>]]>
+      </description>
+      <source:markdown>I’ve done more testing.
+
+Using Hermes V5.56.03 with AcornSSL 1.07
+
+Cannot connect to my domain mail server.
+
+Port 995
+
+Gives Connection lost every time.
+
+But CAN connect to pop3.virginmedia.com.
+
+Port 995
+
+-—————
+
+Using Hermes V5.56.03 with AcornSSL 1.09
+
+Both my domain mail and virgin fail connection lost every time.
+
+-—————-
+
+Using Hermes V5.56.01 with AcornSSL 1.09
+
+My mail domain is OK but Virgin fails.
+
+-—————-
+
+Using Hermes V5.56.01 with AcornSSL 1.07
+
+My mail domain – works
+
+Virgin – works.
+
+Currently, that’s the only good combination for me.
+
+Andrew R. of Rcomp asked me if I had the local domain set on my machine – I had not.
+
+I spent several hours this morning wrestling with the internet interface trying to work out why the local domain field was greyed out. For me, it’s very NOT obvious to say the least.
+
+Eventually I found a switch “Try name server too”. Bizarre.
+
+I set the local domain and re-booted.
+
+It’s still set but it’s grey again – beyond me.
+
+To check I types **show \*domain** and it confirmed Inet$LocalDomain….
+
+But this made no difference to the above testing at all.
+
+It’s a bit concerning, we’re operating on a knife edge it seems.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20439:164456</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mntqcxvxr22j</link>
+      <description>
+        <![CDATA[Excellent (and depressing) thread.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Excellent (and depressing) thread.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mntqcxvxr22j</guid>
+    </item>    <item>
+      <title>Coding on RISC OS fireside chat, Saturday 13th June</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20441</link>
+      <description>
+        <![CDATA[<p>Join us around the “Coding on <span class="caps">RISC</span> OS” campfire this Saturday, 13th June, at 7:30 p.m. (<span class="caps">GMT</span>) for another one of our friendly and informal fireside chats.</p>
+        <p>Whether you’re looking to get started, need assistance, want to help others, or share a project or current challenge with the group. You’re all welcome! No experience necessary.</p>
+        <p>For the Zoom credentials (no change), DM me over on X (<a href="https://twitter.com/armbytes">Twitter</a>), <a href="https://bsky.app/profile/armbytes.bsky.social">BlueSky</a>, ChatCube or <a href="https://mastodon.online/@armbytes">Mastodon</a>. There&#8217;s also an email link at the bottom of this informative RISCOSitory news <a href="https://www.riscository.com/2026/developers-fireside-chat-25th-april/">page</a>.</p>]]>
+      </description>
+      <source:markdown>Join us around the “Coding on RISC OS” campfire this Saturday, 13th June, at 7:30 p.m. (GMT) for another one of our friendly and informal fireside chats.
+
+Whether you’re looking to get started, need assistance, want to help others, or share a project or current challenge with the group. You’re all welcome! No experience necessary.
+
+For the Zoom credentials (no change), DM me over on X ( [Twitter](https://twitter.com/armbytes)), [BlueSky](https://bsky.app/profile/armbytes.bsky.social), ChatCube or [Mastodon](https://mastodon.online/@armbytes). There’s also an email link at the bottom of this informative RISCOSitory news [page](https://www.riscository.com/2026/developers-fireside-chat-25th-april/).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20441:164454</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mnsw2n72yc2z</link>
+      <description>
+        <![CDATA[I watched Apple WWDC. The first part was indeed exciting with the new performance coming to macOS, they probably just removed some of the logic that made it slower of the years, still awesome. But when the Apple Intelligence stuff started, it quickly became the most boring thing ever...]]>
+      </description>
+      <source:markdown>I watched Apple WWDC. The first part was indeed exciting with the new performance coming to macOS, they probably just removed some of the logic that made it slower of the years, still awesome. But when the Apple Intelligence stuff started, it quickly became the most boring thing ever...</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mnsw2n72yc2z</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3mnsjjnaad22y</link>
+      <description>
+        <![CDATA[Interested in coding on RISC OS? Want to learn more or meet others? Join our friendly fireside chat on Zoom—DM for credentials (unchanged). The event is on Saturday, 13th June at 7:30 pm (GMT).
+        #Zoom #Meetup #RISC_OS #Coding #Community #RaspberryPi #ARM #Retro #AcornComputers]]>
+      </description>
+      <source:markdown>Interested in coding on RISC OS? Want to learn more or meet others? Join our friendly fireside chat on Zoom—DM for credentials (unchanged). The event is on Saturday, 13th June at 7:30 pm (GMT).
+#Zoom #Meetup #RISC\_OS #Coding #Community #RaspberryPi #ARM #Retro #AcornComputers</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3mnsjjnaad22y</guid>
+    </item>    <item>
+      <title>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20399</link>
+      <description>
+        <![CDATA[<p>Any idea when the recording of this session will be uploaded?</p>]]>
+      </description>
+      <source:markdown>Any idea when the recording of this session will be uploaded?</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20399:164452</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mnrrjvxmjs2t</link>
       <description>
         <![CDATA[Loving this C64 easter Egg that someone at TT Games put into the new LEGO Batman game. I'm not sure who it was that did it, but I need to find out from some of my former colleagues! If you know please do tell!
@@ -22,25 +178,49 @@
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mnrrjvxmjs2t</guid>
     </item>    <item>
+      <title>Live Coding with Gerph, Sunday 7th June at 1pm UK time (Q &#38;amp; A)</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20435</link>
+      <description>
+        <![CDATA[<p>For a matter of interest &#8211; how well does the French translation go?</p>]]>
+      </description>
+      <source:markdown>For a matter of interest – how well does the French translation go?</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20435:164443</guid>
+    </item>    <item>
       <title>DeTox bounty?</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
       <description>
-        <![CDATA[<p>I&#8217;ve put !ImageMagic7 into my <span class="caps">SCSI</span>::<span class="caps">SSD</span>.$.Apps.Graphics directory.</p>
-        <p>Then have DeBrown in <span class="caps">SCSI</span>::<span class="caps">SSD</span>.<span class="caps">PDF</span>.DeBrown.</p>
-        <p>Both seen by the filer, indeed have opened filer windows to show them on screen.</p>
-        <p>But when I <span class="caps">DND</span> a test <span class="caps">PDF</span> on !DeBrown&#8217;s icon-bar icon I get the error: &#8220;File unstain not found&#8221;</p>
-        <p>So what&#8217;s missing, or what am I not doing (correctly)?</p>]]>
+        <![CDATA[<blockquote>
+        <p>More to the point, I do now but don’t have ImageMagick 7 installed.</p>
+        </blockquote>
+        <p>The latest version of ImageMagick 7 (7.1.2-25) is available from <a href="https://www.riscosports.co.uk/downloads.html">here</a>. This version also works with RPCEmu.</p>
+        <pre>
+        <code>
+        *magick --version
+        Version: ImageMagick 7.1.2-25 Q16-HDRI arm 20260604 <a href="https://imagemagick.org">https://imagemagick.org</a>
+        Copyright: (C) 1999 ImageMagick Studio LLC
+        License: <a href="https://imagemagick.org/license/">https://imagemagick.org/license/</a>
+        Features: Cipher DPC HDRI 
+        Delegates (built-in): bzlib cairo djvu fftw fontconfig freetype gvc jng jp2 jpeg lcms lzma pangocairo png raqm raw rsvg tiff webp wmf xml zlib
+        Compiler: gcc (4.7)
+        </code>
+        </pre>]]>
       </description>
-      <source:markdown>I’ve put !ImageMagic7 into my SCSI::SSD.$.Apps.Graphics directory.
+      <source:markdown>&#62; More to the point, I do now but don’t have ImageMagick 7 installed.
 
-Then have DeBrown in SCSI::SSD.PDF.DeBrown.
+The latest version of ImageMagick 7 (7.1.2-25) is available from [here](https://www.riscosports.co.uk/downloads.html). This version also works with RPCEmu.
 
-Both seen by the filer, indeed have opened filer windows to show them on screen.
+```
 
-But when I DND a test PDF on !DeBrown’s icon-bar icon I get the error: “File unstain not found”
+*magick --version
+Version: ImageMagick 7.1.2-25 Q16-HDRI arm 20260604 https://imagemagick.org
+Copyright: (C) 1999 ImageMagick Studio LLC
+License: https://imagemagick.org/license/
+Features: Cipher DPC HDRI
+Delegates (built-in): bzlib cairo djvu fftw fontconfig freetype gvc jng jp2 jpeg lcms lzma pangocairo png raqm raw rsvg tiff webp wmf xml zlib
+Compiler: gcc (4.7)
 
-So what’s missing, or what am I not doing (correctly)?</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20437:164432</guid>
+```</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20437:164442</guid>
     </item>    <item>
       <link>https://bsky.app/profile/armbytes.bsky.social/post/3mnp3s5eyn22p</link>
       <description>
@@ -88,14 +268,6 @@ Should SrcEdit be changed to follow the theme as well? Currently it always defau
       </description>
       <source:markdown>The fix, DOSFS 1.17, is now in the daily beta, 07-Jun-26.</source:markdown>
       <guid>cid://www.riscosopen.org:4:20434:164428</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 7th June at 1pm UK time (Q &#38;amp; A)</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20435</link>
-      <description>
-        <![CDATA[<p>I suppose there is no way of converting these talks into text &#8211; for the hard of hearing!</p>]]>
-      </description>
-      <source:markdown>I suppose there is no way of converting these talks into text – for the hard of hearing!</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20435:164427</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mnnnw5zc7s2a</link>
       <description>
@@ -178,37 +350,6 @@ I have a log file I want to send to Colin to see if it helps.
 
 This also impacts SiteMatch as well when using FTPs as the access method to update a site.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20440:164416</guid>
-    </item>    <item>
-      <title>AcornSSL 1.09 problem</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20439</link>
-      <description>
-        <![CDATA[<p>OK, So with the standard version of Hermes 5.56.01 supplied with NetFetch 6.00 and using the latest TLS1.3 enabled modules if I click &#8220;Always accept&#8221; when the challange box , showing the invalid certificates issued to and by X&#8217;s, then it will go and get the emails.</p>
-        <p>This creates a certificate challange exception for Gmail for the AcornSSL module.</p>
-        <p>I think you may have a similar exception and hence why yours &#8220;works&#8221; but it isn&#8217;t really as you must have done a manual click at some stage to accept the challange.</p>
-        <p>I don&#8217;t want to say where the exception certificate is on a public forum, so you can confirm thats what is allowing you to use Gmail out of the box :-)</p>
-        <p>Drop me a email and I&#8217;ll send a reply&#8230;</p>
-        <p>Update:</p>
-        <blockquote>
-        <p>See i know for Google Workspace Accounts you can turn off the <span class="caps">SNI</span> Stuff in the Admin Console, not sure if thats reflective of personal Gmail Accounts</p>
-        </blockquote>
-        <p>Ah so that may be another reason why yours works if it is set to off in your online account.</p>]]>
-      </description>
-      <source:markdown>OK, So with the standard version of Hermes 5.56.01 supplied with NetFetch 6.00 and using the latest TLS1.3 enabled modules if I click “Always accept” when the challange box , showing the invalid certificates issued to and by X’s, then it will go and get the emails.
-
-This creates a certificate challange exception for Gmail for the AcornSSL module.
-
-I think you may have a similar exception and hence why yours “works” but it isn’t really as you must have done a manual click at some stage to accept the challange.
-
-I don’t want to say where the exception certificate is on a public forum, so you can confirm thats what is allowing you to use Gmail out of the box :-)
-
-Drop me a email and I’ll send a reply…
-
-Update:
-
-&#62; See i know for Google Workspace Accounts you can turn off the SNI Stuff in the Admin Console, not sure if thats reflective of personal Gmail Accounts
-
-Ah so that may be another reason why yours works if it is set to off in your online account.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20439:164411</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mnm5bi6zok2b</link>
       <description>
@@ -1789,14 +1930,6 @@ Thank you ever so much to everyone who follows my channel, it continues to be a 
 
 Of course _you’re_ happy with it. The DDE has been the RISC OS build environment for about 40 years, but who’s counting, eh? We published [this page](https://www.riscosopen.org/content/documents/ssfaq#:~:text=The%20RISC%20OS%20build%20environment) in 2006, for example. This is the potential confusion I am referring to.</source:markdown>
       <guid>cid://www.riscosopen.org:1:20404:164120</guid>
-    </item>    <item>
-      <title>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20399</link>
-      <description>
-        <![CDATA[<p>It was recorded yes</p>]]>
-      </description>
-      <source:markdown>It was recorded yes</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20399:164119</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mm7jpmcq5s2u</link>
       <description>
