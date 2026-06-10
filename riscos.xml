@@ -7,10 +7,58 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>09 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>10 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mnwqifawlk2h</link>
+      <description>
+        <![CDATA[Sold as a reading aid, this set of colour gels is £3 at Sainsbury's. If it had "Pantone" written on it they'd be 20× the price!]]>
+      </description>
+      <source:markdown>Sold as a reading aid, this set of colour gels is £3 at Sainsbury&#39;s. If it had &#34;Pantone&#34; written on it they&#39;d be 20× the price!</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mnwqifawlk2h</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mnwlnc24j227</link>
+      <description>
+        <![CDATA[Quite amusing seeing roles advertised as "hybrid" which specify 4 days / week in the office. Long before Covid etc. I worked roles that were 4 days on site with Fridays remote... we never called it "hybrid" back then, though!]]>
+      </description>
+      <source:markdown>Quite amusing seeing roles advertised as &#34;hybrid&#34; which specify 4 days / week in the office. Long before Covid etc. I worked roles that were 4 days on site with Fridays remote... we never called it &#34;hybrid&#34; back then, though!</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mnwlnc24j227</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mnwbic6fmk2c</link>
+      <description>
+        <![CDATA[I've been wanting to meet Hermann Hauser for years, this is an incredible opportunity - hats off to @retrocollective.co.uk for securing such an awesome guest speaker!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>I&#39;ve been wanting to meet Hermann Hauser for years, this is an incredible opportunity - hats off to @retrocollective.co.uk for securing such an awesome guest speaker!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mnwbic6fmk2c</guid>
+    </item>    <item>
+      <title>AcornSSL 1.09 problem</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20439</link>
+      <description>
+        <![CDATA[<p>I did some testing using curl linked with mbedtls 3.6.6 and 3.6.2.</p>
+        <p>v1.07 of the AcornSSL module I have has the mbedtls version of 3.6.2.</p>
+        <p>curl -v pop3s://pop3.virginmedia.com</p>
+        <p>curl linked with mbedtls 3.6.6 fails with,</p>
+        <p>ssl_handshake returned: (-0&#215;6600) <span class="caps">SSL</span> &#8211; A field in a message was incorrect or inconsistent with other field</p>
+        <p>curl linked with mbedtls 3.6.2 is successful.</p>]]>
+      </description>
+      <source:markdown>I did some testing using curl linked with mbedtls 3.6.6 and 3.6.2.
+
+v1.07 of the AcornSSL module I have has the mbedtls version of 3.6.2.
+
+curl -v pop3s://pop3.virginmedia.com
+
+curl linked with mbedtls 3.6.6 fails with,
+
+ssl\_handshake returned: (-0×6600) SSL – A field in a message was incorrect or inconsistent with other field
+
+curl linked with mbedtls 3.6.2 is successful.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20439:164462</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mnueqgf2ys2s</link>
       <description>
         <![CDATA[I've released the aforementioned MacroKeys module that brings the Acorn Electron's FN key handling to RISC OS.
@@ -24,6 +72,14 @@ It also contains an Obey file to program all the standard Electron soft-key expa
 https://macrokeys.20000.org</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mnueqgf2ys2s</guid>
     </item>    <item>
+      <title>DeTox bounty?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
+      <description>
+        <![CDATA[<p>I suppose you couldnt use the expanding RAMDisc prog instead of the fixed size RamDisc.</p>]]>
+      </description>
+      <source:markdown>I suppose you couldnt use the expanding RAMDisc prog instead of the fixed size RamDisc.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20437:164459</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mnuarlaoec2j</link>
       <description>
         <![CDATA[If you're a programmer, the chances are you've noodled around on Compiler Explorer plenty of times. Show them some love, if you can!
@@ -34,89 +90,6 @@ https://macrokeys.20000.org</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mnuarlaoec2j</guid>
-    </item>    <item>
-      <title>AcornSSL 1.09 problem</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20439</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve done more testing.<br />
-        Using Hermes V5.56.03 with AcornSSL 1.07</p>
-        <p>Cannot connect to my domain mail server.<br />
-        Port 995<br />
-        Gives Connection lost every time.<br />
-        But <span class="caps">CAN</span> connect to pop3.virginmedia.com.<br />
-        Port 995<br />
-        <del>-</del>&#8212;&#8212;&#8212;&#8212;&#8212;<br />
-        Using Hermes V5.56.03 with AcornSSL 1.09<br />
-        Both my domain mail and virgin fail connection lost every time.<br />
-        <del>-</del>&#8212;&#8212;&#8212;&#8212;&#8212;-<br />
-        Using Hermes V5.56.01 with AcornSSL 1.09<br />
-        My mail domain is OK but Virgin fails.<br />
-        <del>-</del>&#8212;&#8212;&#8212;&#8212;&#8212;-<br />
-        Using Hermes V5.56.01 with AcornSSL 1.07<br />
-        My mail domain &#8211; works<br />
-        Virgin &#8211; works.<br />
-        Currently, that&#8217;s the only good combination for me.</p>
-        <p>Andrew R. of Rcomp asked me if I had the local domain set on my machine &#8211; I had not.</p>
-        <p>I spent several hours this morning wrestling with the internet interface trying to work out why the local domain field was greyed out. For me, it&#8217;s very <span class="caps">NOT</span> obvious to say the least. <br />
-        Eventually I found a switch &#8220;Try name server too&#8221;. Bizarre.<br />
-        I set the local domain and re-booted.<br />
-        It&#8217;s still set but it&#8217;s grey again &#8211; beyond me.<br />
-        To check I types <strong>show *domain</strong> and it confirmed Inet$LocalDomain&#8230;.<br />
-        But this made no difference to the above testing at all.</p>
-        <p>It&#8217;s a bit concerning, we&#8217;re operating on a knife edge it seems.</p>]]>
-      </description>
-      <source:markdown>I’ve done more testing.
-
-Using Hermes V5.56.03 with AcornSSL 1.07
-
-Cannot connect to my domain mail server.
-
-Port 995
-
-Gives Connection lost every time.
-
-But CAN connect to pop3.virginmedia.com.
-
-Port 995
-
--—————
-
-Using Hermes V5.56.03 with AcornSSL 1.09
-
-Both my domain mail and virgin fail connection lost every time.
-
--—————-
-
-Using Hermes V5.56.01 with AcornSSL 1.09
-
-My mail domain is OK but Virgin fails.
-
--—————-
-
-Using Hermes V5.56.01 with AcornSSL 1.07
-
-My mail domain – works
-
-Virgin – works.
-
-Currently, that’s the only good combination for me.
-
-Andrew R. of Rcomp asked me if I had the local domain set on my machine – I had not.
-
-I spent several hours this morning wrestling with the internet interface trying to work out why the local domain field was greyed out. For me, it’s very NOT obvious to say the least.
-
-Eventually I found a switch “Try name server too”. Bizarre.
-
-I set the local domain and re-booted.
-
-It’s still set but it’s grey again – beyond me.
-
-To check I types **show \*domain** and it confirmed Inet$LocalDomain….
-
-But this made no difference to the above testing at all.
-
-It’s a bit concerning, we’re operating on a knife edge it seems.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20439:164456</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mntqcxvxr22j</link>
       <description>
@@ -185,42 +158,6 @@ For the Zoom credentials (no change), DM me over on X ( [Twitter](https://twitte
       </description>
       <source:markdown>For a matter of interest – how well does the French translation go?</source:markdown>
       <guid>cid://www.riscosopen.org:1:20435:164443</guid>
-    </item>    <item>
-      <title>DeTox bounty?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>More to the point, I do now but don’t have ImageMagick 7 installed.</p>
-        </blockquote>
-        <p>The latest version of ImageMagick 7 (7.1.2-25) is available from <a href="https://www.riscosports.co.uk/downloads.html">here</a>. This version also works with RPCEmu.</p>
-        <pre>
-        <code>
-        *magick --version
-        Version: ImageMagick 7.1.2-25 Q16-HDRI arm 20260604 <a href="https://imagemagick.org">https://imagemagick.org</a>
-        Copyright: (C) 1999 ImageMagick Studio LLC
-        License: <a href="https://imagemagick.org/license/">https://imagemagick.org/license/</a>
-        Features: Cipher DPC HDRI 
-        Delegates (built-in): bzlib cairo djvu fftw fontconfig freetype gvc jng jp2 jpeg lcms lzma pangocairo png raqm raw rsvg tiff webp wmf xml zlib
-        Compiler: gcc (4.7)
-        </code>
-        </pre>]]>
-      </description>
-      <source:markdown>&#62; More to the point, I do now but don’t have ImageMagick 7 installed.
-
-The latest version of ImageMagick 7 (7.1.2-25) is available from [here](https://www.riscosports.co.uk/downloads.html). This version also works with RPCEmu.
-
-```
-
-*magick --version
-Version: ImageMagick 7.1.2-25 Q16-HDRI arm 20260604 https://imagemagick.org
-Copyright: (C) 1999 ImageMagick Studio LLC
-License: https://imagemagick.org/license/
-Features: Cipher DPC HDRI
-Delegates (built-in): bzlib cairo djvu fftw fontconfig freetype gvc jng jp2 jpeg lcms lzma pangocairo png raqm raw rsvg tiff webp wmf xml zlib
-Compiler: gcc (4.7)
-
-```</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20437:164442</guid>
     </item>    <item>
       <link>https://bsky.app/profile/armbytes.bsky.social/post/3mnp3s5eyn22p</link>
       <description>
