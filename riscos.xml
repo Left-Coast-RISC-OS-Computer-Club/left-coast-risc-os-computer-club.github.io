@@ -7,10 +7,137 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>11 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>12 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Developers’ fireside chat – 13th June</title>
+      <link>https://www.riscository.com/2026/developers-fireside-chat-13th-june/</link>
+      <description>
+        <![CDATA[If you develop software on or for RISC OS, or you&#8217;re considering doing so &#8211; or you&#8217;re working on the operating system itself, there&#8217;s an online meeting on Saturday, 13th June, 2026, that might be right up your street. That&#8217;ll be the next &#8216;friendly fireside chat&#8217; for developers of all persuasions and skill levels &#8211; the only crucial requirement is that it&#8217;s about RISC OS programming. The purpose of these meetings is to provide a way for developers and those interested in the topic to get together (virtually) and have&#8230;]]>
+      </description>
+      <source:markdown>If you develop software on or for RISC OS, or you’re considering doing so – or you’re working on the operating system itself, there’s an online meeting on Saturday, 13th June, 2026, that might be right up your street. That’ll be the next ‘friendly fireside chat’ for developers of all persuasions and skill levels – the only crucial requirement is that it’s about RISC OS programming. The purpose of these meetings is to provide a way for developers and those interested in the topic to get together (virtually) and have…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10959</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mo3ktkik7k2n</link>
+      <description>
+        <![CDATA[Rougol June 2026 meeting on Monday 
+        
+        https://www.iconbar.com/articles/Rougol_June_2026_meeting_on_monday/index2340.html 
+        
+        The June 2026 Rougol meeting is on Monday.]]>
+      </description>
+      <source:markdown>Rougol June 2026 meeting on Monday
+
+https://www.iconbar.com/articles/Rougol\_June\_2026\_meeting\_on\_monday/index2340.html
+
+The June 2026 Rougol meeting is on Monday.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mo3ktkik7k2n</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mo3ftg6s4s2q</link>
+      <description>
+        <![CDATA[Birds of prey are the best birds. They're beautiful, intelligent and always look so very angry!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Birds of prey are the best birds. They&#39;re beautiful, intelligent and always look so very angry!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mo3ftg6s4s2q</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mo3fqvrejc2q</link>
+      <description>
+        <![CDATA[Today I learn Virgin Atlantic has a cabin class called "Economy Delight", which I can't help feeling is a contradiction in terms...]]>
+      </description>
+      <source:markdown>Today I learn Virgin Atlantic has a cabin class called &#34;Economy Delight&#34;, which I can&#39;t help feeling is a contradiction in terms...</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mo3fqvrejc2q</guid>
+    </item>    <item>
+      <title>Beta Git client and SSH keys</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/19403</link>
+      <description>
+        <![CDATA[<p>I&#8217;m trying to use GitClient 0.12<br />
+        I created a site on Github with name and password, no problem.<br />
+        With git clone I retrieve a project from the site and I make a modification which I validate/commit.<br />
+        The modification appears in git log.<br />
+        Now I try to do an update on the remote site with the git push command.<br />
+        I get a request for user name and password.<br />
+        When I validate access is denied :-(</p>
+        <p>If you have any advice, thank you</p>]]>
+      </description>
+      <source:markdown>I’m trying to use GitClient 0.12
+
+I created a site on Github with name and password, no problem.
+
+With git clone I retrieve a project from the site and I make a modification which I validate/commit.
+
+The modification appears in git log.
+
+Now I try to do an update on the remote site with the git push command.
+
+I get a request for user name and password.
+
+When I validate access is denied :-(
+
+If you have any advice, thank you</source:markdown>
+      <guid>cid://www.riscosopen.org:11:19403:164493</guid>
+    </item>    <item>
+      <title>Rougol June 2026 meeting on monday</title>
+      <link>http://www.iconbar.com/comments/rss/news2340.html</link>
+      <description>
+        <![CDATA[The June 2026 Rougol meeting is on Monday.]]>
+      </description>
+      <source:markdown>The June 2026 Rougol meeting is on Monday.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2340.html</guid>
+    </item>    <item>
+      <title>Live Coding with Gerph, Sunday 7th June at 1pm UK time (Q &#38;amp; A)</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20435</link>
+      <description>
+        <![CDATA[<p>I hope that the Q&amp;A was interesting and fun last week. There won&#8217;t be another live coding for a couple of weeks, as I&#8217;m away. But I would be interested in hearing whether the format of Q&amp;A was interesting or worth doing again &#8211; not soon, but at a later point. 3 hours of just talking about different topics is tiring &#8211; and I&#8217;m sure it&#8217;s tiring to be listening to me ramble for 3 hours. But it&#8217;s useful to know what people think of the format.</p>
+        <p>Also, if there are any follow-ups from the things that have been discussed, I&#8217;m happy to continue the discussion (here, or whereever, but it&#8217;s better if it&#8217;s open to all).</p>]]>
+      </description>
+      <source:markdown>I hope that the Q&#38;A was interesting and fun last week. There won’t be another live coding for a couple of weeks, as I’m away. But I would be interested in hearing whether the format of Q&#38;A was interesting or worth doing again – not soon, but at a later point. 3 hours of just talking about different topics is tiring – and I’m sure it’s tiring to be listening to me ramble for 3 hours. But it’s useful to know what people think of the format.
+
+Also, if there are any follow-ups from the things that have been discussed, I’m happy to continue the discussion (here, or whereever, but it’s better if it’s open to all).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20435:164491</guid>
+    </item>    <item>
+      <title>The System Font on the Desktop</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20442</link>
+      <description>
+        <![CDATA[<p>Following on from my publishing <a href="https://www.riscosopen.org/forum/forums/1/topics/20317">some notes on screen redraw</a> on the Desktop, I&#8217;ve had some feedback which has left me puzzling a bit.</p>
+        <p>It was noted that when <a href="https://www.stevefryatt.org.uk/risc-os/wimp-prog/window-redraw-cookbook">using OS_WriteX in a redraw loop</a> (in my case, through <code>printf()</code>), it might not be wise to assume that the System Font would scale correctly if the eigenvalues were adjusted &#8211; and that it might be advisable to use <span class="caps">VDU</span> 23,17,7 before writing text to the screen. Or use Wimp_TextOp<sup id="fnr1"><a href="#fn1">1</a></sup>.</p>
+        <p>I hadn&#8217;t mentioned this because I thought that the Wimp guaranteed to ensure that this was correct when asking applications to redraw to the screen: under <span class="caps">RISC</span> OS 3.1 (or earlier), it was far from unusual to use <code>PRINT</code> from <span class="caps">BASIC</span>, for example. And, in fact, page 3-47 of the <span class="caps">PRM</span> makes some sort of vague hint at this being the case. But now that I&#8217;ve read it properly, I note that it just says that &#8220;the Wimp makes use of <span class="caps">VDU</span> 23,17,7&#8221;, not that applications can assume that this will be set up on their behalf.</p>
+        <p>Trawling the Wimp&#8217;s source code (yet again), I&#8217;ve found <code>set16x32chars</code> in Wimp02, which appears to do the necessary. But unless I&#8217;m missing something, it doesn&#8217;t seem to be getting called before returns from Wimp_GetRectangle (or, for that matter, from Wimp_TextOp).</p>
+        <p>So, can an application assume that the System Font will be scaled correctly for the current screen mode when called to service a redraw request, or should it call <span class="caps">VDU</span> 23,17,7 each time, to be safe? I don&#8217;t think that I&#8217;ve ever used that <span class="caps">VDU</span> command, but then I&#8217;m not sure when I last called OS_WriteX, <code>printf()</code> or <code>PRINT</code> from within a redraw loop in a proper application&#8230;</p>
+        <p id="fn1"><a href="#fnr1"><sup>1</sup></a> This seems to be becoming a theme. :-)</p>]]>
+      </description>
+      <source:markdown>Following on from my publishing [some notes on screen redraw](https://www.riscosopen.org/forum/forums/1/topics/20317) on the Desktop, I’ve had some feedback which has left me puzzling a bit.
+
+It was noted that when [using OS\_WriteX in a redraw loop](https://www.stevefryatt.org.uk/risc-os/wimp-prog/window-redraw-cookbook) (in my case, through `printf()`), it might not be wise to assume that the System Font would scale correctly if the eigenvalues were adjusted – and that it might be advisable to use VDU 23,17,7 before writing text to the screen. Or use Wimp\_TextOp[1](#fn1).
+
+I hadn’t mentioned this because I thought that the Wimp guaranteed to ensure that this was correct when asking applications to redraw to the screen: under RISC OS 3.1 (or earlier), it was far from unusual to use `PRINT` from BASIC, for example. And, in fact, page 3-47 of the PRM makes some sort of vague hint at this being the case. But now that I’ve read it properly, I note that it just says that “the Wimp makes use of VDU 23,17,7”, not that applications can assume that this will be set up on their behalf.
+
+Trawling the Wimp’s source code (yet again), I’ve found `set16x32chars` in Wimp02, which appears to do the necessary. But unless I’m missing something, it doesn’t seem to be getting called before returns from Wimp\_GetRectangle (or, for that matter, from Wimp\_TextOp).
+
+So, can an application assume that the System Font will be scaled correctly for the current screen mode when called to service a redraw request, or should it call VDU 23,17,7 each time, to be safe? I don’t think that I’ve ever used that VDU command, but then I’m not sure when I last called OS\_WriteX, `printf()` or `PRINT` from within a redraw loop in a proper application…
+
+[1](#fnr1) This seems to be becoming a theme. :-)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20442:164489</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mo267peegs2d</link>
+      <description>
+        <![CDATA[Fireside developer chat on Saturday night 
+        
+        https://www.iconbar.com/articles/Fireside_developer_chat_on_saturday_night/index2330.html 
+        
+        The next developer chat is on Saturday night (13th June) for everyone interested in a very informal event online aimed at RISC OS developers of all levels.]]>
+      </description>
+      <source:markdown>Fireside developer chat on Saturday night
+
+https://www.iconbar.com/articles/Fireside\_developer\_chat\_on\_saturday\_night/index2330.html
+
+The next developer chat is on Saturday night (13th June) for everyone interested in a very informal event online aimed at RISC OS developers of all levels.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mo267peegs2d</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mnz2jgpigc2v</link>
       <description>
         <![CDATA[WIth Doctor Who heading into the Wilderness Years, it would be fun to see a revival of the Virgin New Adventures series. Except instead of trying to be edgy and outré, they go full circle and pull the stories back to old school fun-in-space capers 😄]]>
@@ -37,12 +164,46 @@
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mnxq3in4qk2l</guid>
     </item>    <item>
+      <title>DeTox bounty?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
+      <description>
+        <![CDATA[<p>The problem, I think, is indeed a combination of my dimwittery and the lack of a way to tell what causes what misbehaviour! Ideally, there&#8217;d be a detailed &#8220;How To..&#8221; text. As it is I have to know things like setting a big temp directory (RAMDisc ideally) to a known value. (Or one I can predict from the size of the input pdf.) Also to know where to set as the default directory for scratchpaddery or output, etc.</p>
+        <p>One problem is my OS version limiting me to c500MB. However all else solved I do have a newer machine+OS but I&#8217;m not using it for this at present as it is elsewhere and less convenient for testing this.</p>
+        <p>I&#8217;ve been assuming I need to preset the &#8216;current directory&#8217; for output, so am using the &#8220;Set Directory&#8221; command offerred by the filer menu to try and set where output may appear. But maybe that&#8217;s wrong? So a basic &#8220;set of instructions&#8221; would help if the app can&#8217;t preset this by running some user-set commands at startup. (?)</p>
+        <p>David. I&#8217;ll find your email and sen you one with more details. However the test files I&#8217;ve been referring to above are copies of &#8216;Analog&#8217; taken from this page:</p>
+        <p><a href="https://readitfree.org/SF/AN_4.htm">https://readitfree.org/SF/AN_4.htm</a></p>
+        <p>In particular the 2004/2005 issues. (<span class="caps">FWIW</span> I have the earlier issues as &#8216;real&#8217; magazines.) Some of these are pretty big in terms of pagecount as well as file size. Sadly, the scans are poorer than my older paper copies which I&#8217;ve kept pressed closed in low-light.</p>]]>
+      </description>
+      <source:markdown>The problem, I think, is indeed a combination of my dimwittery and the lack of a way to tell what causes what misbehaviour! Ideally, there’d be a detailed “How To..” text. As it is I have to know things like setting a big temp directory (RAMDisc ideally) to a known value. (Or one I can predict from the size of the input pdf.) Also to know where to set as the default directory for scratchpaddery or output, etc.
+
+One problem is my OS version limiting me to c500MB. However all else solved I do have a newer machine+OS but I’m not using it for this at present as it is elsewhere and less convenient for testing this.
+
+I’ve been assuming I need to preset the ‘current directory’ for output, so am using the “Set Directory” command offerred by the filer menu to try and set where output may appear. But maybe that’s wrong? So a basic “set of instructions” would help if the app can’t preset this by running some user-set commands at startup. (?)
+
+David. I’ll find your email and sen you one with more details. However the test files I’ve been referring to above are copies of ‘Analog’ taken from this page:
+
+[https://readitfree.org/SF/AN\_4.htm](https://readitfree.org/SF/AN_4.htm)
+
+In particular the 2004/2005 issues. (FWIW I have the earlier issues as ‘real’ magazines.) Some of these are pretty big in terms of pagecount as well as file size. Sadly, the scans are poorer than my older paper copies which I’ve kept pressed closed in low-light.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20437:164479</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mnwqifawlk2h</link>
       <description>
         <![CDATA[Sold as a reading aid, this set of colour gels is £3 at Sainsbury's. If it had "Pantone" written on it they'd be 20× the price!]]>
       </description>
       <source:markdown>Sold as a reading aid, this set of colour gels is £3 at Sainsbury&#39;s. If it had &#34;Pantone&#34; written on it they&#39;d be 20× the price!</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mnwqifawlk2h</guid>
+    </item>    <item>
+      <title>AcornSSL 1.09 problem</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20439</link>
+      <description>
+        <![CDATA[<p>Sounds like great work you guys :)  I was starting to think that newer versions of AcornSSL/mbedTLS/TLS1.3 was turning into a minefield with no sensible way out &#8211; you guys have cleared a path, which is brilliant.</p>
+        <p>Martin, Chris &#8211; you&#8217;ve both made improvements to AcornSSL &#8211; can the results be combined into a single &#8220;super-dooper&#8221; version (eg. with the expanded buffers from Martin&#8217;s, as well as certificate changes, plus Chris&#8217; <span class="caps">TLS</span> 1.2 merges and session-reuse fix)?</p>]]>
+      </description>
+      <source:markdown>Sounds like great work you guys :) I was starting to think that newer versions of AcornSSL/mbedTLS/TLS1.3 was turning into a minefield with no sensible way out – you guys have cleared a path, which is brilliant.
+
+Martin, Chris – you’ve both made improvements to AcornSSL – can the results be combined into a single “super-dooper” version (eg. with the expanded buffers from Martin’s, as well as certificate changes, plus Chris’ TLS 1.2 merges and session-reuse fix)?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20439:164475</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mnwlnc24j227</link>
       <description>
@@ -61,30 +222,6 @@
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mnwbic6fmk2c</guid>
-    </item>    <item>
-      <title>AcornSSL 1.09 problem</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20439</link>
-      <description>
-        <![CDATA[<p>Thanks Chris for the detective work.</p>
-        <p>Hopefully it will restore Bob&#8217;s faith that <span class="caps">RISC</span> OS isn&#8217;t the main cause in this case for his Virgin Media email issues.</p>]]>
-      </description>
-      <source:markdown>Thanks Chris for the detective work.
-
-Hopefully it will restore Bob’s faith that RISC OS isn’t the main cause in this case for his Virgin Media email issues.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20439:164465</guid>
-    </item>    <item>
-      <title>DeTox bounty?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>However I did just get DeBrown to run and process a file. Alas, the result is a new <span class="caps">PDF</span> with a series of blank white pages. No sign of any text! And only 40 pages long when the processing seemed as it ran to report each page of over 100.</p>
-        </blockquote>
-        <p>Jim, it would help if you could let me have a copy of the file in question. You ought to have my email address from some earlier correspondence. I can see what results I get. I&#8217;ll also look into providing more feedback if that is possible. And some better instructions too…</p>]]>
-      </description>
-      <source:markdown>&#62; However I did just get DeBrown to run and process a file. Alas, the result is a new PDF with a series of blank white pages. No sign of any text! And only 40 pages long when the processing seemed as it ran to report each page of over 100.
-
-Jim, it would help if you could let me have a copy of the file in question. You ought to have my email address from some earlier correspondence. I can see what results I get. I’ll also look into providing more feedback if that is possible. And some better instructions too…</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20437:164464</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mnueqgf2ys2s</link>
       <description>
@@ -169,14 +306,6 @@ For the Zoom credentials (no change), DM me over on X ( [Twitter](https://twitte
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mnrrjvxmjs2t</guid>
-    </item>    <item>
-      <title>Live Coding with Gerph, Sunday 7th June at 1pm UK time (Q &#38;amp; A)</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20435</link>
-      <description>
-        <![CDATA[<p>For a matter of interest &#8211; how well does the French translation go?</p>]]>
-      </description>
-      <source:markdown>For a matter of interest – how well does the French translation go?</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20435:164443</guid>
     </item>    <item>
       <link>https://bsky.app/profile/armbytes.bsky.social/post/3mnp3s5eyn22p</link>
       <description>
@@ -5944,14 +6073,6 @@ The April 2026 WROCC talk is on Wednesday 1st April and starts at 7.45pm on Zoom
       </description>
       <source:markdown>I just received my shiny new Greaseweazle V4.1 from Keir - the designer. I decided to go with the funky cased version designed by Tom Dalby. It only cost £24.99 + £1.99 delivery to the UK.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mibyartczk2x</guid>
-    </item>    <item>
-      <title>Beta Git client and SSH keys</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/19403</link>
-      <description>
-        <![CDATA[<p><a href="https://www.riscosopen.org/zipfiles/platform/common/GitClient.0.12.zip">GitClient.0.12.zip</a> seems to be available.</p>]]>
-      </description>
-      <source:markdown>[GitClient.0.12.zip](https://www.riscosopen.org/zipfiles/platform/common/GitClient.0.12.zip) seems to be available.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:19403:162701</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mibiebri4c2h</link>
       <description>
