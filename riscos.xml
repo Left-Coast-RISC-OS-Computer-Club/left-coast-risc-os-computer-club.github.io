@@ -7,10 +7,82 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>12 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>13 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Coding on RISC OS fireside chat, Saturday 13th June</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20441</link>
+      <description>
+        <![CDATA[<p>We are Live now!</p>]]>
+      </description>
+      <source:markdown>We are Live now!</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20441:164511</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mo6wducpts23</link>
+      <description>
+        <![CDATA[$10 per key:
+        https://ebay.io/m/TdFWhe]]>
+      </description>
+      <source:markdown>$10 per key:
+https://ebay.io/m/TdFWhe</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mo6wducpts23</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mo6nwmbhms2x</link>
+      <description>
+        <![CDATA[New blog article: Debugging a Tiny LLM to Understand What Happens Between a Prompt and a Response.
+        
+        A practical, beginner-friendly look at how LLMs work internally, using debugging-style examples.
+        
+        No maths, I promise. ;)
+        
+        https://paolozaino.wordpress.com/2026/06/13/ai-debugging-a-tiny-llm-to-understand-what-happens-between-a-prompt-and-a-response/
+        
+        #AI #LLM #GenerativeAI #AIExplained]]>
+      </description>
+      <source:markdown>New blog article: Debugging a Tiny LLM to Understand What Happens Between a Prompt and a Response.
+
+A practical, beginner-friendly look at how LLMs work internally, using debugging-style examples.
+
+No maths, I promise. ;)
+
+https://paolozaino.wordpress.com/2026/06/13/ai-debugging-a-tiny-llm-to-understand-what-happens-between-a-prompt-and-a-response/
+
+#AI #LLM #GenerativeAI #AIExplained</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mo6nwmbhms2x</guid>
+    </item>    <item>
+      <title>StrongMen 1.28f1 released</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20443</link>
+      <description>
+        <![CDATA[<p>Hi All,</p>
+        <p>StrongMen 1.28f1 is now available for download <a href="http://www.stronged.iconbar.com/fjg/">my website</a></p>
+        <p>Due to the long delay since the last release I&#8217;ve decided to move for a stable version of 1.28. As no bugs were reported after a beta release to the StrongED mailing list, the status of v1.28 has now been changed to stable.</p>
+        <p><b>Changes</b></p>
+        <p>There&#8217;s only one change, from the previous last public test release (1.28a2), which is support for colours. A submenu can have a coloured title and/or coloured items.</p>
+        <p>Individual items can have their own colour, overriding any submenu colour. Each colour is specified as a 6-digit hex number allowing any colour in the 32-bit colour space to be used.</p>
+        <p><b>StrongMen mode</b></p>
+        <p>Included is an updated version of the StrongMen mode for StrongED that has gained an add-on for easy insertion of colours into the StrongMenu file.</p>
+        <p>As always, all feedback is welcome.</p>]]>
+      </description>
+      <source:markdown>Hi All,
+
+StrongMen 1.28f1 is now available for download [my website](http://www.stronged.iconbar.com/fjg/)
+
+Due to the long delay since the last release I’ve decided to move for a stable version of 1.28. As no bugs were reported after a beta release to the StrongED mailing list, the status of v1.28 has now been changed to stable.
+
+**Changes**
+
+There’s only one change, from the previous last public test release (1.28a2), which is support for colours. A submenu can have a coloured title and/or coloured items.
+
+Individual items can have their own colour, overriding any submenu colour. Each colour is specified as a 6-digit hex number allowing any colour in the 32-bit colour space to be used.
+
+**StrongMen mode**
+
+Included is an updated version of the StrongMen mode for StrongED that has gained an add-on for easy insertion of colours into the StrongMenu file.
+
+As always, all feedback is welcome.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20443:164505</guid>
+    </item>    <item>
       <title>Developers’ fireside chat – 13th June</title>
       <link>https://www.riscository.com/2026/developers-fireside-chat-13th-june/</link>
       <description>
@@ -138,6 +210,14 @@ https://www.iconbar.com/articles/Fireside\_developer\_chat\_on\_saturday\_night/
 The next developer chat is on Saturday night (13th June) for everyone interested in a very informal event online aimed at RISC OS developers of all levels.</source:markdown>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mo267peegs2d</guid>
     </item>    <item>
+      <title>DeTox bounty?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
+      <description>
+        <![CDATA[<p>If you run it from a filesystem that has enough free space then it will finish successfully.</p>]]>
+      </description>
+      <source:markdown>If you run it from a filesystem that has enough free space then it will finish successfully.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20437:164487</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mnz2jgpigc2v</link>
       <description>
         <![CDATA[WIth Doctor Who heading into the Wilderness Years, it would be fun to see a revival of the Virgin New Adventures series. Except instead of trying to be edgy and outré, they go full circle and pull the stories back to old school fun-in-space capers 😄]]>
@@ -163,29 +243,6 @@ The next developer chat is on Saturday night (13th June) for everyone interested
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mnxq3in4qk2l</guid>
-    </item>    <item>
-      <title>DeTox bounty?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
-      <description>
-        <![CDATA[<p>The problem, I think, is indeed a combination of my dimwittery and the lack of a way to tell what causes what misbehaviour! Ideally, there&#8217;d be a detailed &#8220;How To..&#8221; text. As it is I have to know things like setting a big temp directory (RAMDisc ideally) to a known value. (Or one I can predict from the size of the input pdf.) Also to know where to set as the default directory for scratchpaddery or output, etc.</p>
-        <p>One problem is my OS version limiting me to c500MB. However all else solved I do have a newer machine+OS but I&#8217;m not using it for this at present as it is elsewhere and less convenient for testing this.</p>
-        <p>I&#8217;ve been assuming I need to preset the &#8216;current directory&#8217; for output, so am using the &#8220;Set Directory&#8221; command offerred by the filer menu to try and set where output may appear. But maybe that&#8217;s wrong? So a basic &#8220;set of instructions&#8221; would help if the app can&#8217;t preset this by running some user-set commands at startup. (?)</p>
-        <p>David. I&#8217;ll find your email and sen you one with more details. However the test files I&#8217;ve been referring to above are copies of &#8216;Analog&#8217; taken from this page:</p>
-        <p><a href="https://readitfree.org/SF/AN_4.htm">https://readitfree.org/SF/AN_4.htm</a></p>
-        <p>In particular the 2004/2005 issues. (<span class="caps">FWIW</span> I have the earlier issues as &#8216;real&#8217; magazines.) Some of these are pretty big in terms of pagecount as well as file size. Sadly, the scans are poorer than my older paper copies which I&#8217;ve kept pressed closed in low-light.</p>]]>
-      </description>
-      <source:markdown>The problem, I think, is indeed a combination of my dimwittery and the lack of a way to tell what causes what misbehaviour! Ideally, there’d be a detailed “How To..” text. As it is I have to know things like setting a big temp directory (RAMDisc ideally) to a known value. (Or one I can predict from the size of the input pdf.) Also to know where to set as the default directory for scratchpaddery or output, etc.
-
-One problem is my OS version limiting me to c500MB. However all else solved I do have a newer machine+OS but I’m not using it for this at present as it is elsewhere and less convenient for testing this.
-
-I’ve been assuming I need to preset the ‘current directory’ for output, so am using the “Set Directory” command offerred by the filer menu to try and set where output may appear. But maybe that’s wrong? So a basic “set of instructions” would help if the app can’t preset this by running some user-set commands at startup. (?)
-
-David. I’ll find your email and sen you one with more details. However the test files I’ve been referring to above are copies of ‘Analog’ taken from this page:
-
-[https://readitfree.org/SF/AN\_4.htm](https://readitfree.org/SF/AN_4.htm)
-
-In particular the 2004/2005 issues. (FWIW I have the earlier issues as ‘real’ magazines.) Some of these are pretty big in terms of pagecount as well as file size. Sadly, the scans are poorer than my older paper copies which I’ve kept pressed closed in low-light.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20437:164479</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mnwqifawlk2h</link>
       <description>
@@ -257,20 +314,6 @@ https://macrokeys.20000.org</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mntqcxvxr22j</guid>
-    </item>    <item>
-      <title>Coding on RISC OS fireside chat, Saturday 13th June</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20441</link>
-      <description>
-        <![CDATA[<p>Join us around the “Coding on <span class="caps">RISC</span> OS” campfire this Saturday, 13th June, at 7:30 p.m. (<span class="caps">GMT</span>) for another one of our friendly and informal fireside chats.</p>
-        <p>Whether you’re looking to get started, need assistance, want to help others, or share a project or current challenge with the group. You’re all welcome! No experience necessary.</p>
-        <p>For the Zoom credentials (no change), DM me over on X (<a href="https://twitter.com/armbytes">Twitter</a>), <a href="https://bsky.app/profile/armbytes.bsky.social">BlueSky</a>, ChatCube or <a href="https://mastodon.online/@armbytes">Mastodon</a>. There&#8217;s also an email link at the bottom of this informative RISCOSitory news <a href="https://www.riscository.com/2026/developers-fireside-chat-25th-april/">page</a>.</p>]]>
-      </description>
-      <source:markdown>Join us around the “Coding on RISC OS” campfire this Saturday, 13th June, at 7:30 p.m. (GMT) for another one of our friendly and informal fireside chats.
-
-Whether you’re looking to get started, need assistance, want to help others, or share a project or current challenge with the group. You’re all welcome! No experience necessary.
-
-For the Zoom credentials (no change), DM me over on X ( [Twitter](https://twitter.com/armbytes)), [BlueSky](https://bsky.app/profile/armbytes.bsky.social), ChatCube or [Mastodon](https://mastodon.online/@armbytes). There’s also an email link at the bottom of this informative RISCOSitory news [page](https://www.riscository.com/2026/developers-fireside-chat-25th-april/).</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20441:164454</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mnsw2n72yc2z</link>
       <description>
