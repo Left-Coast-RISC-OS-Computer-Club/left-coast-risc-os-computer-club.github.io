@@ -7,10 +7,273 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>14 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>15 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3modty5tsjs2h</link>
+      <description>
+        <![CDATA[I just found this article I wrote in Computing with the Amstrad ( December 1985 ). I'd forgotten about it so it was a really nice surprise to find it after 40 years! It's a techincal article about programming the Amstrad CPC's 6845 CRTC ( video controller ). The BBC Micro has exactly the same CRTC.]]>
+      </description>
+      <source:markdown>I just found this article I wrote in Computing with the Amstrad ( December 1985 ). I&#39;d forgotten about it so it was a really nice surprise to find it after 40 years! It&#39;s a techincal article about programming the Amstrad CPC&#39;s 6845 CRTC ( video controller ). The BBC Micro has exactly the same CRTC.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3modty5tsjs2h</guid>
+    </item>    <item>
+      <title>DeTox bounty?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve been thinking (sic!) about my previous approach to this. In particular the decision to &#8216;go for blue&#8217; and use that to decide how to expand the greyscale of just the &#8216;blue&#8217; data. However I&#8217;m handicapped by a loooong gap since I&#8217;ve written anything much in &#8216;C&#8217;. I keep getting lost when trying to find details like how to call <span class="caps">OSCLI</span>, etc. (<span class="caps">IIUC</span> I now think this is a &#8216;system&#8217; command in &#8216;C&#8217; but despite having done such things (mumble) years ago, my memory now is carp&#8230;  :-/</p>
+        <p>So I&#8217;ll try the following:</p>
+        <p>1) Use changefsi in some form to readin each page jpeg and spit out a sprite version.</p>
+        <p>2) Use my &#8216;use blue&#8217; trick of analysing the stats of the levels of blue inthat sprite, then use that to rescale the blue values to be saved as the greyscale ones for a greyscale output that has optimised contrast. Save that as a sprite.</p>
+        <p>3) Then have the program call ChangeFSI again in some form to creat jpeg versions of each DeBrowned page.</p>
+        <p>Once done, run other software to combine all the cleaned up page jpegs into a DeBrowned <span class="caps">PDF</span>.</p>
+        <p>Snag still being I&#8217;ve forgotten how to issue system/oscli calls by a &#8216;C&#8217; program! So I&#8217;m trying to re-learn that.</p>
+        <p>Alas, my memory these days is awful. And I get easily muddled. So advice and explanations from kind souls would be welcome.</p>
+        <p>Filing that: David, maybe you could try the &#8216;use blue&#8217; trick? The code for it is in the &#8216;C&#8217; source I did for the tests I&#8217;ve written about. But I can&#8217;t recall if I&#8217;ve already put up a copy. I&#8217;ll check.</p>
+        <p>I can&#8217;t describe how frustrating it is to have such a lousy memory and keep forgetting both long-past and mor recent things. Apologies if it makes me more of a pest. :-/</p>
+        <p>Jim</p>]]>
+      </description>
+      <source:markdown>I’ve been thinking (sic!) about my previous approach to this. In particular the decision to ‘go for blue’ and use that to decide how to expand the greyscale of just the ‘blue’ data. However I’m handicapped by a loooong gap since I’ve written anything much in ‘C’. I keep getting lost when trying to find details like how to call OSCLI, etc. (IIUC I now think this is a ‘system’ command in ‘C’ but despite having done such things (mumble) years ago, my memory now is carp… :-/
+
+So I’ll try the following:
+
+1) Use changefsi in some form to readin each page jpeg and spit out a sprite version.
+
+2) Use my ‘use blue’ trick of analysing the stats of the levels of blue inthat sprite, then use that to rescale the blue values to be saved as the greyscale ones for a greyscale output that has optimised contrast. Save that as a sprite.
+
+3) Then have the program call ChangeFSI again in some form to creat jpeg versions of each DeBrowned page.
+
+Once done, run other software to combine all the cleaned up page jpegs into a DeBrowned PDF.
+
+Snag still being I’ve forgotten how to issue system/oscli calls by a ‘C’ program! So I’m trying to re-learn that.
+
+Alas, my memory these days is awful. And I get easily muddled. So advice and explanations from kind souls would be welcome.
+
+Filing that: David, maybe you could try the ‘use blue’ trick? The code for it is in the ‘C’ source I did for the tests I’ve written about. But I can’t recall if I’ve already put up a copy. I’ll check.
+
+I can’t describe how frustrating it is to have such a lousy memory and keep forgetting both long-past and mor recent things. Apologies if it makes me more of a pest. :-/
+
+Jim</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20437:164538</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3modflwkjg22u</link>
+      <description>
+        <![CDATA[ROOL's 20th bithday (and last week to get your donation matched) 
+        
+        https://www.iconbar.com/articles/ROOLs_20th_bithday_and_last_week_to_get_your_donation_matched/index2343.html 
+        
+        This week marks the 20th anniversary of ROOL's founding on June 20th 2006.]]>
+      </description>
+      <source:markdown>ROOL&#39;s 20th bithday (and last week to get your donation matched)
+
+https://www.iconbar.com/articles/ROOLs\_20th\_bithday\_and\_last\_week\_to\_get\_your\_donation\_matched/index2343.html
+
+This week marks the 20th anniversary of ROOL&#39;s founding on June 20th 2006.</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3modflwkjg22u</guid>
+    </item>    <item>
+      <title>Omap 5 Emulator</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20449</link>
+      <description>
+        <![CDATA[<p>After a very long process and hardwork over the last couple of weeks!!<br />
+        I can now reveal this project, A15 Based <span class="caps">RISC</span> OS Emulator with working Sound and <span class="caps">SATA</span> and Screen Resolution Outputs</p>
+        <p>Currently Booted to Desktop on a Linux x86 <span class="caps">QEMU</span> Box.</p>
+        <p>Lots still to do and fix, Fully built using references from the <span class="caps">HAL</span>, using a Custom Kernel.<br />
+        Stay Tuned!</p>
+        <p>Emulator — <span class="caps">TODO</span> to &#8220;fully functional&#8221;</p>
+        Working So Far: boot to desktop, display (all resolutions + colour depths via VID3 alias), <span class="caps">USB</span> kbd/mouse, <span class="caps">SATA</span> boot disc, <span class="caps">CMOS</span> persistence, Sound Via SBlaster Codec
+        In progress:
+        <p>Networking — <span class="caps">CPSW</span> (Now Working On). Model the AM5728 GMAC_SW as a self-contained <span class="caps">QEMU</span> <span class="caps">NIC</span> device <span class="caps">SLIRP</span> <span class="caps">NAT</span> for host Internet. Driver already in <span class="caps">ROM</span>.</p>
+        <p>Time/Date plugin — <span class="caps">RTC</span> is modeled but the plugin was never re-confirmed after the fix. Quick re-test.</p>
+        <p><span class="caps">USB</span> mass storage — only kbd/mouse devices attached; no <span class="caps">USB</span> disc support.<br />
+        Graceful shutdown / reboot — verify Shutdown reboots cleanly.<br />
+        Upstreaming/cleanup — the <span class="caps">QEMU</span> patches are local; consolidate + document.</p>
+        <p>Consolidate to Installer based Single App, With Filecore Virtual Drive Formatter and Full Support for Macintosh, Windows and Linux.<br />
+        Not everyone will agree with the approach i&#8217;m taking for projects because i&#8217;m using AI as a helper, But its proof that its useful<br />
+        and sadly its the way things will progress.</p>
+        <p><img src="https://images2.imgbox.com/25/42/GwJXUJHy_o.png" alt="" /></p>
+        <p><img src="https://images2.imgbox.com/cd/33/hRtSe8o4_o.png" alt="" /></p>]]>
+      </description>
+      <source:markdown>After a very long process and hardwork over the last couple of weeks!!
+
+I can now reveal this project, A15 Based RISC OS Emulator with working Sound and SATA and Screen Resolution Outputs
+
+Currently Booted to Desktop on a Linux x86 QEMU Box.
+
+Lots still to do and fix, Fully built using references from the HAL, using a Custom Kernel.
+
+Stay Tuned!
+
+Emulator — TODO to “fully functional”
+
+Working So Far: boot to desktop, display (all resolutions + colour depths via VID3 alias), USB kbd/mouse, SATA boot disc, CMOS persistence, Sound Via SBlaster Codec
+In progress:
+
+Networking — CPSW (Now Working On). Model the AM5728 GMAC\_SW as a self-contained QEMUNIC device SLIRPNAT for host Internet. Driver already in ROM.
+
+Time/Date plugin — RTC is modeled but the plugin was never re-confirmed after the fix. Quick re-test.
+
+USB mass storage — only kbd/mouse devices attached; no USB disc support.
+
+Graceful shutdown / reboot — verify Shutdown reboots cleanly.
+
+Upstreaming/cleanup — the QEMU patches are local; consolidate + document.
+
+Consolidate to Installer based Single App, With Filecore Virtual Drive Formatter and Full Support for Macintosh, Windows and Linux.
+
+Not everyone will agree with the approach i’m taking for projects because i’m using AI as a helper, But its proof that its useful
+
+and sadly its the way things will progress.
+
+![](https://images2.imgbox.com/25/42/GwJXUJHy_o.png)
+
+![](https://images2.imgbox.com/cd/33/hRtSe8o4_o.png)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20449:164530</guid>
+    </item>    <item>
+      <title>Abusive emails</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20448</link>
+      <description>
+        <![CDATA[<p>I am posting this here because I find myself, temporarily I hope, in the position of being unable to send emails, as my email address has been put on a local blacklist. Yesterday I logged on to my Plusnet webmail to find six hundred automated <em>Message Failed</em> items clogging up my Inbox. It looks as if somebody (or some computer program) had broadcast a phishing scam, and had used my email address in the From: tag. I immediately redirected one of these messages to <a href="mailto:report@phishing.gov.uk">report@phishing.gov.uk</a>, and then, by accident, deleted the contents of my Inbox. Every few seconds more messages flooded in. The nature of the scam was some complicated story about a South African lady called Mrs Chantal Odelle Williams, and email addresses in Ukraine (tvnet.if.ua) were given. Its Reply-To: tag was <a href="mailto:khozama@tarassul.sy">khozama@tarassul.sy</a>, a Syrian address. This data I got by looking at the sources of the emails. I added lots of stuff to my Plusnet spam-filter blacklist, and the messages stopped coming. However, I did receive a single email, an abusive one, evidently from the originator of the scam, judging by its contents. I was going to send this too on to <a href="mailto:report@phishing.gov.uk">report@phishing.gov.uk</a> but was unable to send it, as now I realized that my email address was blacklisted. I rang Plusnet&#8217;s help-line and hope to hear that they will deal with the problem, though I understand that propagating the unblacklisting to all the relevant <span class="caps">DNS</span>-servers may take some time.</p>
+        <p>I am not quite sure what to make of this episode. Some years ago my wife and I stayed at a Marriott hotel, paying by credit card. Days after I heard that the Marriott IT system had been compromised, so I quickly cancelled my credit card. But that might be how my email address reached the nastier parts of the <span class="caps">WWW</span>. That the scam referenced both Ukraine and Syria suggests that the originator wanted to hint of <em>state actors</em>. It could still be a script-kiddy. More likely an AI. The abusive email purported to be from <a href="mailto:frank.lozano@sbcglobal.net">frank.lozano@sbcglobal.net</a>.</p>
+        <p>Here is hoping that you are spared these tedious interruptions.</p>]]>
+      </description>
+      <source:markdown>I am posting this here because I find myself, temporarily I hope, in the position of being unable to send emails, as my email address has been put on a local blacklist. Yesterday I logged on to my Plusnet webmail to find six hundred automated _Message Failed_ items clogging up my Inbox. It looks as if somebody (or some computer program) had broadcast a phishing scam, and had used my email address in the From: tag. I immediately redirected one of these messages to [report@phishing.gov.uk](mailto:report@phishing.gov.uk), and then, by accident, deleted the contents of my Inbox. Every few seconds more messages flooded in. The nature of the scam was some complicated story about a South African lady called Mrs Chantal Odelle Williams, and email addresses in Ukraine (tvnet.if.ua) were given. Its Reply-To: tag was [khozama@tarassul.sy](mailto:khozama@tarassul.sy), a Syrian address. This data I got by looking at the sources of the emails. I added lots of stuff to my Plusnet spam-filter blacklist, and the messages stopped coming. However, I did receive a single email, an abusive one, evidently from the originator of the scam, judging by its contents. I was going to send this too on to [report@phishing.gov.uk](mailto:report@phishing.gov.uk) but was unable to send it, as now I realized that my email address was blacklisted. I rang Plusnet’s help-line and hope to hear that they will deal with the problem, though I understand that propagating the unblacklisting to all the relevant DNS-servers may take some time.
+
+I am not quite sure what to make of this episode. Some years ago my wife and I stayed at a Marriott hotel, paying by credit card. Days after I heard that the Marriott IT system had been compromised, so I quickly cancelled my credit card. But that might be how my email address reached the nastier parts of the WWW. That the scam referenced both Ukraine and Syria suggests that the originator wanted to hint of _state actors_. It could still be a script-kiddy. More likely an AI. The abusive email purported to be from [frank.lozano@sbcglobal.net](mailto:frank.lozano@sbcglobal.net).
+
+Here is hoping that you are spared these tedious interruptions.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20448:164529</guid>
+    </item>    <item>
+      <title>File not found</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/19564</link>
+      <description>
+        <![CDATA[<p>I&#8217;ve just come across another manifestation of the same problem.  I&#8217;m using OS_GBPB 10 to find all objects in a directory, but when it encounters a hidden file, it errors out.  Not only that, but it doesn&#8217;t move on to the next file, so you can&#8217;t just ignore an error and continue.</p>
+        <p>This is when searching a LanManFS drive (<span class="caps">NAS</span>).</p>]]>
+      </description>
+      <source:markdown>I’ve just come across another manifestation of the same problem. I’m using OS\_GBPB 10 to find all objects in a directory, but when it encounters a hidden file, it errors out. Not only that, but it doesn’t move on to the next file, so you can’t just ignore an error and continue.
+
+This is when searching a LanManFS drive (NAS).</source:markdown>
+      <guid>cid://www.riscosopen.org:4:19564:164528</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mocxl3timc25</link>
+      <description>
+        <![CDATA[I've removed the menagerie of social media logos from my username (🐦 🦣 🐋 🃏 🥚 etc) because I'm definitely only here now.
+        
+        Bluesky is good enough.]]>
+      </description>
+      <source:markdown>I&#39;ve removed the menagerie of social media logos from my username (🐦 🦣 🐋 🃏 🥚 etc) because I&#39;m definitely only here now.
+
+Bluesky is good enough.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mocxl3timc25</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mocviyl77s25</link>
+      <description>
+        <![CDATA[Chrome! What are you DOING?]]>
+      </description>
+      <source:markdown>Chrome! What are you DOING?</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mocviyl77s25</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mocthegqas2p</link>
+      <description>
+        <![CDATA[RIP Dave Greenslade. This album blew my mind in 1979, first heard on a high-end audiophile deck through gargantuan speakers thanks to a friend's divorced dad. Still a regular listen 47 years later.
+        
+        Bought it multiple times since (second only to Jeff Wayne's WOTW).
+        https://youtu.be/JhRB0uUmP6Q?t=2582&is=45Xaj9KymvvBq1TW]]>
+      </description>
+      <source:markdown>RIP Dave Greenslade. This album blew my mind in 1979, first heard on a high-end audiophile deck through gargantuan speakers thanks to a friend&#39;s divorced dad. Still a regular listen 47 years later.
+
+Bought it multiple times since (second only to Jeff Wayne&#39;s WOTW).
+https://youtu.be/JhRB0uUmP6Q?t=2582&#38;is=45Xaj9KymvvBq1TW</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mocthegqas2p</guid>
+    </item>    <item>
+      <title>ROOL&#39;s 20th bithday (and last week to get your donation matched)</title>
+      <link>http://www.iconbar.com/comments/rss/news2343.html</link>
+      <description>
+        <![CDATA[This week marks the 20th anniversary of ROOL's founding on June 20th 2006.  Who would have thought then we would still be here using RISC OS. A major part of that is down to ROOL and the open sourcing of RISC OS.]]>
+      </description>
+      <source:markdown>This week marks the 20th anniversary of ROOL&#39;s founding on June 20th 2006. Who would have thought then we would still be here using RISC OS. A major part of that is down to ROOL and the open sourcing of RISC OS.</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2343.html</guid>
+    </item>    <item>
+      <title>Phil Pemberton hits play on Replay at ROUGOL – 15th June</title>
+      <link>https://www.riscository.com/2026/phil-pemberton-replay-rougol-15th-june/</link>
+      <description>
+        <![CDATA[The RISC OS User Group of London (ROUGOL) will be meeting up again on Monday, 15th June, and the guest speaker will be Phil Pemberton, who will be talking about Replay. Replay was a video compression and playback system available for RISC OS computers back in the mid-1990s. Anyone who bought a RiscPC at the time will have found the playback software and a small number of &#8216;ARMovie&#8217; video files on their hard drives to show it off. Phil Pemberton has been looking at the sources for the system and&#8230;]]>
+      </description>
+      <source:markdown>The RISC OS User Group of London (ROUGOL) will be meeting up again on Monday, 15th June, and the guest speaker will be Phil Pemberton, who will be talking about Replay. Replay was a video compression and playback system available for RISC OS computers back in the mid-1990s. Anyone who bought a RiscPC at the time will have found the playback software and a small number of ‘ARMovie’ video files on their hard drives to show it off. Phil Pemberton has been looking at the sources for the system and…</source:markdown>
+      <guid>cid://https://www.riscository.com/?p=10961</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mobjbsbckk2m</link>
+      <description>
+        <![CDATA[I remembering having Tin Can Alley back in the '70s. I worked out a hack for the gun that allowed you to trigger the cans really easily. Underneath the rifle's forend is a rocker switch that, when pressed and held, keeps the light beam on constantly allowing you to quickly trigger the light sensor.]]>
+      </description>
+      <source:markdown>I remembering having Tin Can Alley back in the &#39;70s. I worked out a hack for the gun that allowed you to trigger the cans really easily. Underneath the rifle&#39;s forend is a rocker switch that, when pressed and held, keeps the light beam on constantly allowing you to quickly trigger the light sensor.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mobjbsbckk2m</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mobictiits2m</link>
+      <description>
+        <![CDATA[I think this is a Wangtek, not the one advertised!]]>
+      </description>
+      <source:markdown>I think this is a Wangtek, not the one advertised!</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mobictiits2m</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mobi5s5aac2m</link>
+      <description>
+        <![CDATA[My brain works like this clock....
+        Image by Peter U. Costello]]>
+      </description>
+      <source:markdown>My brain works like this clock....
+Image by Peter U. Costello</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mobi5s5aac2m</guid>
+    </item>    <item>
+      <title>Pi4 CM4 V3D Driver with MESA</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20447</link>
+      <description>
+        <![CDATA[<p>Martin &#8211; might be worth talking to Lee Noar re Iris.  For Iris &#8220;2.0&#8221; he has ported Mesa and some software driver stuff, although we&#8217;ve been focussing on Iris 1.0 for now.  Recent WebKit builds rather assume OpenGL/Mesa-based graphics acceleration, so if you&#8217;re exploring those avenues, it might be worth keeping in touch with Lee to see if you can bolt things together.</p>
+        <p>Also &#8211; fascinating project and nice work so far!  Probably should have started with that :)</p>]]>
+      </description>
+      <source:markdown>Martin – might be worth talking to Lee Noar re Iris. For Iris “2.0” he has ported Mesa and some software driver stuff, although we’ve been focussing on Iris 1.0 for now. Recent WebKit builds rather assume OpenGL/Mesa-based graphics acceleration, so if you’re exploring those avenues, it might be worth keeping in touch with Lee to see if you can bolt things together.
+
+Also – fascinating project and nice work so far! Probably should have started with that :)</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20447:164522</guid>
+    </item>    <item>
+      <title>On/Off key</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20446</link>
+      <description>
+        <![CDATA[<p>The on-off <span class="caps">LED</span> is software controlled on Pinebook Pro, so unless an OS loads, it won&#8217;t illuminate.</p>
+        <p>The most common situation is that (for example) no micro-SD card is present on a dual-boot (<span class="caps">RISC</span> OS / Linux) unit, and so it turns on (at a hardware level) but doesn&#8217;t initialise anything because there&#8217;s no OS.  Therefore the <span class="caps">LED</span> doesn&#8217;t turn on, nor the screen.  The computer is &#8220;on&#8221; but is apparently lifeless (but drains the battery).</p>
+        <p>The solution to this (assuming the battery is still charged) is to connect power and let it charge for a bit, then press and hold the power button for 10 seconds which forces it &#8220;off&#8221;, then ensure the OS card is present/re-seated, then press-hold for 1-2 seconds which turns it back on.</p>
+        <p>My guess would be that you&#8217;ve simulated the above behaviour by accident.</p>
+        <p>I believe something similar can happen if the battery is fully discharged too, which is why I recommended having the mains connected.</p>
+        <p>If it is a <span class="caps">RISC</span> OS only unit booting from the eMMC, the chances of this occurring are slimmer, but it could have still run out of battery and been left in an undeterimed power state.</p>
+        <p>A general maintenance thing would be to ensure that the SD card is re-seated periodically and clean (if dual booting), and similarly inside the computer for the eMMC (I have known the eMMC come loose very occasionally &#8211; it is a push-fit connector).  I&#8217;d probably only go inside if you&#8217;re convinced there is a problem, though.</p>]]>
+      </description>
+      <source:markdown>The on-off LED is software controlled on Pinebook Pro, so unless an OS loads, it won’t illuminate.
+
+The most common situation is that (for example) no micro-SD card is present on a dual-boot (RISC OS / Linux) unit, and so it turns on (at a hardware level) but doesn’t initialise anything because there’s no OS. Therefore the LED doesn’t turn on, nor the screen. The computer is “on” but is apparently lifeless (but drains the battery).
+
+The solution to this (assuming the battery is still charged) is to connect power and let it charge for a bit, then press and hold the power button for 10 seconds which forces it “off”, then ensure the OS card is present/re-seated, then press-hold for 1-2 seconds which turns it back on.
+
+My guess would be that you’ve simulated the above behaviour by accident.
+
+I believe something similar can happen if the battery is fully discharged too, which is why I recommended having the mains connected.
+
+If it is a RISC OS only unit booting from the eMMC, the chances of this occurring are slimmer, but it could have still run out of battery and been left in an undeterimed power state.
+
+A general maintenance thing would be to ensure that the SD card is re-seated periodically and clean (if dual booting), and similarly inside the computer for the eMMC (I have known the eMMC come loose very occasionally – it is a push-fit connector). I’d probably only go inside if you’re convinced there is a problem, though.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20446:164521</guid>
+    </item>    <item>
+      <title>Building RISC OS components with GCC using Docker</title>
+      <link>https://www.riscosopen.org/forum/forums/3/topics/20444</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>Hopefully <span class="caps">ROOL</span> will notice and add more support for the <span class="caps">GCC</span> building on GitLab.</p>
+        </blockquote>
+        <p>Or, I guess, someone could talk to them about it and see if submitting a PR would be welcome?</p>]]>
+      </description>
+      <source:markdown>&#62; Hopefully ROOL will notice and add more support for the GCC building on GitLab.
+
+Or, I guess, someone could talk to them about it and see if submitting a PR would be welcome?</source:markdown>
+      <guid>cid://www.riscosopen.org:3:20444:164519</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3moaxijykos2m</link>
       <description>
         <![CDATA[From a techincal viewpoint this has to be my favourite retro game console. The Vectrex was released by Milton Bradley (MB) in late 1982. It uses a Motorola 68A09 clocked at 1.5 MHz, has 1KB of RAM and 8KB ROM. Games are stored on 32 KB ROM cartridges. It uses a vector based mono CRT.]]>
@@ -25,127 +288,6 @@
       <source:markdown>This Nascom 2 system was kindly donated to the Northwest Computer Museum by the family of John David Miskin. The Nascom range was one of the early British designed kit computers from the late 1970s. Based on the Z80 CPU it was very easy to expand and was very popular.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3moawu356gc2m</guid>
     </item>    <item>
-      <title>Pi4 CM4 V3D Driver with MESA</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20447</link>
-      <description>
-        <![CDATA[<p>This project lets <span class="caps">RISC</span> OS use the Raspberry Pi 4&#8217;s built-in graphics chip to<br />
-        2D/3D Accelerate on screen &#8211; Like Never before.</p>
-        <p><img src="https://images2.imgbox.com/6d/e5/RZF74LWX_o.jpg" alt="" /></p>
-        <p><span class="caps">WHAT</span> <span class="caps">WORKS</span> <span class="caps">TODAY</span><br />
-        On real Pi 4 / CM4 hardware, the graphics chip now:</p>
-        <ul>
-        	<li>Powers on and reports who it is.</li>
-        	<li>Accepts a drawing job from <span class="caps">RISC</span> OS.</li>
-        	<li>Actually draws (right now: filling an area with a colour) entirely on the<br />
-             <span class="caps">GPU</span> &#8211; the main processor does not touch a single pixel of it.</li>
-        	<li>Shows that <span class="caps">GPU</span>-drawn result live in a normal, draggable window on the<br />
-             <span class="caps">RISC</span> OS desktop.</li>
-        </ul>
-        <p>The render pipeline loads each tile from a source buffer and stores it to a destination, <br />
-        copying the whole image with no <span class="caps">CPU</span> involvement and no shaders. It&#8217;s the clear pipeline plus a single LOAD_TILE_BUFFER_GENERAL, <br />
-        exposed as both the V3D_Blit <span class="caps">SWI</span> (&amp;5A2D0) and the *V3DBlit command.</p>
-        <p>M0: map register windows, power+clock via firmware mailbox, read/decode <span class="caps">IDENT</span>.<br />
-        M1: page table + V3D <span class="caps">MMU</span>, buffer objects mapped into <span class="caps">GPU</span> virtual memory.<br />
-        M2: submit a bin+render control list and wait for completion.<br />
-            The <span class="caps">SUBMIT</span> + <span class="caps">FENCE</span> path is complete and exact (ported from v3d_sched.c,<br />
-            poll-based on V3D_CTL_INT_STS).  What remains is encoding the <span class="caps">CLE</span> packet<br />
-            <span class="caps">BYTES</span> of an actual control list &#8211; see &#8220;the M2 gap&#8221; below.</p>
-        <p>M3 &#8211; display path (testable without the <span class="caps">GPU</span>):<br />
-            c.display wraps a BO as a <span class="caps">RISC</span> OS 32bpp sprite (area+header at the front,<br />
-            pixels after) and plots it with OS_SpriteOp.  v3d_fb_create lays out the BO<br />
-            so the <span class="caps">GPU</span> renders straight into the pixel region; v3d_fb_show plots it.<br />
-            *V3DShow fills the pixels from the <span class="caps">CPU</span> and displays &#8211; so the whole display<br />
-            path can be validated on the Pi before the clear CL works.</p>
-        <p>Roadmap:<br />
-            M0  power up + read <span class="caps">IDENT</span>                      <span class="caps">DONE</span><br />
-            M1  BO allocator + V3D <span class="caps">MMU</span> page table          <span class="caps">DONE</span><br />
-            M2  submit bin+render CL + fence               <span class="caps">DONE</span> &#8211; *V3DClear renders red on HW<br />
-            M3  display a rendered BO (sprite/OS_SpriteOp) <span class="caps">DONE</span><br />
-            M4  libdrm&#8594;<span class="caps">SWI</span> shim for a ported Mesa         <span class="caps">DONE</span> (shim/); Mesa port <span class="caps">TODO</span><br />
-            M5  <span class="caps">EGL</span> platform: Wimp window &lt;&#8594; V3D BO       <span class="caps">DONE</span> (egl/)<br />
-            &#8212;&gt; the V3D <span class="caps">GPU</span> now renders end-to-end on Pi4/CM4 (M0-M5 all verified).</p>
-        <p>Whats Next: Real <span class="caps">IRQ</span> handler, <span class="caps">GMP</span>, <span class="caps">OOM</span> overflow, multi-core, perfmon,<br />
-                    free-BO <span class="caps">SWI</span> (needed by the shim&#8217;s GEM_CLOSE),<br />
-                    Wimp-redraw present + double buffering, the Mesa port itself</p>
-        <p>This driver targets the Raspberry Pi 4 and Compute Module 4 only</p>
-        <p>Its currently in the stages of Implementing <span class="caps">MESA</span> And OpenGL, Eventually WebGL</p>]]>
-      </description>
-      <source:markdown>This project lets RISC OS use the Raspberry Pi 4’s built-in graphics chip to
-
-2D/3D Accelerate on screen – Like Never before.
-
-![](https://images2.imgbox.com/6d/e5/RZF74LWX_o.jpg)
-
-WHATWORKSTODAY
-
-On real Pi 4 / CM4 hardware, the graphics chip now:
-
-- Powers on and reports who it is.
-- Accepts a drawing job from RISC OS.
-- Actually draws (right now: filling an area with a colour) entirely on the
-
-  GPU – the main processor does not touch a single pixel of it.
-- Shows that GPU-drawn result live in a normal, draggable window on the
-
-  RISC OS desktop.
-
-The render pipeline loads each tile from a source buffer and stores it to a destination,
-
-copying the whole image with no CPU involvement and no shaders. It’s the clear pipeline plus a single LOAD\_TILE\_BUFFER\_GENERAL,
-
-exposed as both the V3D\_Blit SWI (&#38;5A2D0) and the \*V3DBlit command.
-
-M0: map register windows, power+clock via firmware mailbox, read/decode IDENT.
-
-M1: page table + V3D MMU, buffer objects mapped into GPU virtual memory.
-
-M2: submit a bin+render control list and wait for completion.
-
-The SUBMIT \+ FENCE path is complete and exact (ported from v3d\_sched.c,
-
-poll-based on V3D\_CTL\_INT\_STS). What remains is encoding the CLE packet
-
-BYTES of an actual control list – see “the M2 gap” below.
-
-M3 – display path (testable without the GPU):
-
-c.display wraps a BO as a RISC OS 32bpp sprite (area+header at the front,
-
-pixels after) and plots it with OS\_SpriteOp. v3d\_fb\_create lays out the BO
-
-so the GPU renders straight into the pixel region; v3d\_fb\_show plots it.
-
-\*V3DShow fills the pixels from the CPU and displays – so the whole display
-
-path can be validated on the Pi before the clear CL works.
-
-Roadmap:
-
-M0 power up + read IDENTDONE
-
-M1 BO allocator + V3D MMU page table DONE
-
-M2 submit bin+render CL + fence DONE – \*V3DClear renders red on HW
-
-M3 display a rendered BO (sprite/OS\_SpriteOp) DONE
-
-M4 libdrm→SWI shim for a ported Mesa DONE (shim/); Mesa port TODO
-
-M5 EGL platform: Wimp window &#60;→ V3D BO DONE (egl/)
-
-—\&#62; the V3D GPU now renders end-to-end on Pi4/CM4 (M0-M5 all verified).
-
-Whats Next: Real IRQ handler, GMP, OOM overflow, multi-core, perfmon,
-
-free-BO SWI (needed by the shim’s GEM\_CLOSE),
-
-Wimp-redraw present + double buffering, the Mesa port itself
-
-This driver targets the Raspberry Pi 4 and Compute Module 4 only
-
-Its currently in the stages of Implementing MESA And OpenGL, Eventually WebGL</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20447:164516</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/armbytes.bsky.social/post/3moahl6yixc2a</link>
       <description>
         <![CDATA[A huge shout-out to everyone who made it. The next meetup is pencilled in for the 25th July. #Code4Fun #Connect #Developers #Makers  #OpenSource #RISC_OS #ARM
@@ -156,14 +298,6 @@ Its currently in the stages of Implementing MESA And OpenGL, Eventually WebGL</s
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3moahl6yixc2a</guid>
-    </item>    <item>
-      <title>On/Off key</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20446</link>
-      <description>
-        <![CDATA[<p>Twice recently my heart has been in my mouth because pressing the On/Off key on my Pinebook Pro has produced no little red indicator light to show that something is happening. I try keeping the key depressed, or I keep jabbing at it, and eventually the red light appears. I suspect that this is a purely mechanical problem that could appear with any laptop, and so I am wondering if anybody more knowledgeable than myself can give advice. Is it an accumulation of fluff beneath the key? A weakening of the key&#8217;s return spring? My wife&#8217;s late Toshiba laptop, bought in 2005, suffered a similar decrepitude of its On/Off button before finally expiring, but the Pinebook Pro was bought more recently, when Covid struck. Any advice welcome.</p>]]>
-      </description>
-      <source:markdown>Twice recently my heart has been in my mouth because pressing the On/Off key on my Pinebook Pro has produced no little red indicator light to show that something is happening. I try keeping the key depressed, or I keep jabbing at it, and eventually the red light appears. I suspect that this is a purely mechanical problem that could appear with any laptop, and so I am wondering if anybody more knowledgeable than myself can give advice. Is it an accumulation of fluff beneath the key? A weakening of the key’s return spring? My wife’s late Toshiba laptop, bought in 2005, suffered a similar decrepitude of its On/Off button before finally expiring, but the Pinebook Pro was bought more recently, when Covid struck. Any advice welcome.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20446:164514</guid>
     </item>    <item>
       <link>https://bsky.app/profile/rougol.bsky.social/post/3mo7tiqijn22t</link>
       <description>
@@ -233,65 +367,6 @@ Our venue is right next to Waterloo Station and there is parking directly outsid
 For any queries or to receive the Zoom link (same as previous months) contact us – [https://rougol.jellybaby.net/contacts/](https://rougol.jellybaby.net/contacts/)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20445:164513</guid>
     </item>    <item>
-      <title>Building RISC OS components with GCC using Docker</title>
-      <link>https://www.riscosopen.org/forum/forums/3/topics/20444</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve put together a set of scripts to allow a subset of <span class="caps">RISC</span> OS components using the OS build environment with <span class="caps">GCC</span> and Docker, and pushed it to GitHub:</p>
-        <p><a href="https://github.com/ccawley2011/docker-riscos-build">https://github.com/ccawley2011/docker-riscos-build</a></p>
-        <p>Most of the stuff involved isn&#8217;t new &#8211; <span class="caps">GCC</span> support was added to the <span class="caps">RISC</span> OS 5 build system over 15 years ago, while many components have been updated to support cross-compiling with Norcroft since the move to GitLab so they can be built with CI, but the scripts I&#8217;ve provided are intended to streamline the process of setting it up using only the freely available tools. It&#8217;s quite fragile in many places, but it should be good enough to allow building individual components.</p>
-        <p>Proper instructions will be added to the repository eventually, but for now here&#8217;s an overview of the commands needed to get started. Note that on Windows and Mac, Docker Desktop will need to be running before it can be used. Linux users can instead install Docker via the distrubution&#8217;s package manager.</p>
-        <pre><code>./build.sh</code></pre>
-        <p>Creates the Docker image and compiles the Linux versions of the required tools.</p>
-        <pre><code>./clone.sh Disc</code></pre>
-        <p>Fetches one of the <a href="https://gitlab.riscosopen.org/Products">Product repositories</a> from GitLab and applies pending fixes from open merge requests where necessary.</p>
-        <pre><code>./run.sh Disc</code></pre>
-        <p>Starts a bash shell inside the docker image, which will be used to run the remaining commands.</p>
-        <pre><code>srcbuild export_hdrs
-        srcbuild export_libs</code></pre>
-        <p>Builds as many of the libraries used by the product as possible. Libraries that can&#8217;t be built will be skipped over and listed at the end of the build output.</p>
-        <pre><code>make -C Sources/Video/UserI/ScrSavers/Slider</code></pre>
-        <p>Compiles a single component for <span class="caps">RISC</span> OS.</p>]]>
-      </description>
-      <source:markdown>I’ve put together a set of scripts to allow a subset of RISC OS components using the OS build environment with GCC and Docker, and pushed it to GitHub:
-
-[https://github.com/ccawley2011/docker-riscos-build](https://github.com/ccawley2011/docker-riscos-build)
-
-Most of the stuff involved isn’t new – GCC support was added to the RISC OS 5 build system over 15 years ago, while many components have been updated to support cross-compiling with Norcroft since the move to GitLab so they can be built with CI, but the scripts I’ve provided are intended to streamline the process of setting it up using only the freely available tools. It’s quite fragile in many places, but it should be good enough to allow building individual components.
-
-Proper instructions will be added to the repository eventually, but for now here’s an overview of the commands needed to get started. Note that on Windows and Mac, Docker Desktop will need to be running before it can be used. Linux users can instead install Docker via the distrubution’s package manager.
-
-```
-./build.sh
-```
-
-Creates the Docker image and compiles the Linux versions of the required tools.
-
-```
-./clone.sh Disc
-```
-
-Fetches one of the [Product repositories](https://gitlab.riscosopen.org/Products) from GitLab and applies pending fixes from open merge requests where necessary.
-
-```
-./run.sh Disc
-```
-
-Starts a bash shell inside the docker image, which will be used to run the remaining commands.
-
-```
-srcbuild export_hdrs
-srcbuild export_libs
-```
-
-Builds as many of the libraries used by the product as possible. Libraries that can’t be built will be skipped over and listed at the end of the build output.
-
-```
-make -C Sources/Video/UserI/ScrSavers/Slider
-```
-
-Compiles a single component for RISC OS.</source:markdown>
-      <guid>cid://www.riscosopen.org:3:20444:164512</guid>
-    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mo72ljjbfk23</link>
       <description>
         <![CDATA[IBM SK-8811 keyboard appears to have keys for the electric windows.]]>
@@ -346,38 +421,6 @@ https://paolozaino.wordpress.com/2026/06/13/ai-debugging-a-tiny-llm-to-understan
 
 #AI #LLM #GenerativeAI #AIExplained</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mo6nwmbhms2x</guid>
-    </item>    <item>
-      <title>DeTox bounty?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
-      <description>
-        <![CDATA[<p>Just to update people.</p>
-        <p>I&#8217;m still struggling with having David&#8217;s app work for me. Probably down to my dimwittery, etc. However I&#8217;ve also been re-looking at my Compo-based approach as it seems more like the &#8216;way I think&#8217; (sic?). I should be able to automate that to run through a series of jpegs. At present it outputs the clean results as different a different image format, but I&#8217;ll change that to saving out single-page jpegs.</p>
-        <p>If I can get that to work it will employ the &#8216;expand blue as grey&#8217; trick that provides get adapting fuller contrast for the grescale output. Composcript will &#8216;loop&#8217; so if I can get that working it should then be OK chugging through pages. The resulty being a new set of page jpegs that have been debrowed and optimised in brightness.contrast.</p>
-        <p>Overall, that means I&#8217;d have a multi-stage process.</p>
-        <p>1) Export the pages from a <span class="caps">PDF</span> as page jpegs, numbered in order in a directory</p>
-        <p>2) Have the Compo-based method generate &#8216;detoxed&#8217; those jpegs, again one per page, by looping though the input jpegs. (But perhaps <strong>not</strong> decolouring the first image as that&#8217;s often a decent colour cover because chinered paper doesn&#8217;t brown like pulp (content) paper.</p>
-        <p>3) Then convert each jpeg page into a <span class="caps">PDF</span></p>
-        <p>4) Then use a method for putting these jpeg pages into one <span class="caps">PDF</span>.</p>
-        <p>Seems strange that we can&#8217;t simply &#8220;add another jpeg&#8221; as another page at the end of a <span class="caps">PDF</span>. But can add one single-page <span class="caps">PDF</span>, one after another. Or am I misunderstanding that as well?! It would be simpler in filer-terms (and my brain!) if each page could be tacked onto the end of the ones already in an output <span class="caps">PDF</span>.</p>]]>
-      </description>
-      <source:markdown>Just to update people.
-
-I’m still struggling with having David’s app work for me. Probably down to my dimwittery, etc. However I’ve also been re-looking at my Compo-based approach as it seems more like the ‘way I think’ (sic?). I should be able to automate that to run through a series of jpegs. At present it outputs the clean results as different a different image format, but I’ll change that to saving out single-page jpegs.
-
-If I can get that to work it will employ the ‘expand blue as grey’ trick that provides get adapting fuller contrast for the grescale output. Composcript will ‘loop’ so if I can get that working it should then be OK chugging through pages. The resulty being a new set of page jpegs that have been debrowed and optimised in brightness.contrast.
-
-Overall, that means I’d have a multi-stage process.
-
-1) Export the pages from a PDF as page jpegs, numbered in order in a directory
-
-2) Have the Compo-based method generate ‘detoxed’ those jpegs, again one per page, by looping though the input jpegs. (But perhaps **not** decolouring the first image as that’s often a decent colour cover because chinered paper doesn’t brown like pulp (content) paper.
-
-3) Then convert each jpeg page into a PDF
-
-4) Then use a method for putting these jpeg pages into one PDF.
-
-Seems strange that we can’t simply “add another jpeg” as another page at the end of a PDF. But can add one single-page PDF, one after another. Or am I misunderstanding that as well?! It would be simpler in filer-terms (and my brain!) if each page could be tacked onto the end of the ones already in an output PDF.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20437:164507</guid>
     </item>    <item>
       <title>StrongMen 1.28f1 released</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20443</link>
@@ -8824,23 +8867,6 @@ https://www.newsweek.com/microsoft-gets-major-backlash-banning-microslop-in-foru
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mga4zts6wk27</guid>
-    </item>    <item>
-      <title>File not found</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/19564</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve just come across what appears to be this error.  I&#8217;m using DRest to restore a backup (taken with DBack) on a <span class="caps">NAS</span> drive using Omniclient, and every time it tries to do a <span class="caps">BASIC</span> <span class="caps">OPENOUT</span> operation on a file whose leafname begins with a dot (in real life) or slash (when translated), the <span class="caps">OPENOUT</span> fails with &#8220;File not found&#8221;.  It&#8217;s failed twice with &#8220;.gitconfig&#8221; files and once with an &#8220;.htaccess&#8221; file so far.</p>
-        <p>OK, so it&#8217;s a hidden file, but why should that cause the <span class="caps">OPENOUT</span> to fail?</p>
-        <p>And is there anything I can do to make it work without failing?</p>
-        <p>I&#8217;ve been able to work round the problem by creating an empty file of the correct name in the correct place, but the restore has to start again each time it fails.</p>]]>
-      </description>
-      <source:markdown>I’ve just come across what appears to be this error. I’m using DRest to restore a backup (taken with DBack) on a NAS drive using Omniclient, and every time it tries to do a BASICOPENOUT operation on a file whose leafname begins with a dot (in real life) or slash (when translated), the OPENOUT fails with “File not found”. It’s failed twice with “.gitconfig” files and once with an “.htaccess” file so far.
-
-OK, so it’s a hidden file, but why should that cause the OPENOUT to fail?
-
-And is there anything I can do to make it work without failing?
-
-I’ve been able to work round the problem by creating an empty file of the correct name in the correct place, but the restore has to start again each time it fails.</source:markdown>
-      <guid>cid://www.riscosopen.org:4:19564:162121</guid>
     </item>    <item>
       <title>Drag &#38;#39;N Drop 60th Edition</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20246</link>

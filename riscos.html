@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.24" >
-  <meta name="date" content="2026-06-14T12:00:24-07:00" >
+  <meta name="date" content="2026-06-15T12:00:26-07:00" >
   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
   <title>RISCOS</title>
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
@@ -21,6 +21,263 @@
     </ul>
   </nav>
   <main id="main-content">
+
+    <article data-published="2026-06-15T17:52:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3modty5tsjs2h">
+      <h2>@kevedwardsretro.bsky.social</h2>
+
+(date: 2026-06-15)
+      <p>
+      <p>I just found this article I wrote in Computing with the Amstrad ( December 1985 ). I'd forgotten about it so it was a really nice surprise to find it after 40 years! It's a techincal article about programming the Amstrad CPC's 6845 CRTC ( video controller ). The BBC Micro has exactly the same CRTC.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3modty5tsjs2h">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3modty5tsjs2h</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-15T14:35:00Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20437">
+      <h2>DeTox bounty?</h2>
+
+(date: 2026-06-15)
+      <p>
+      <p>I’ve been thinking (sic!) about my previous approach to this. In particular the decision to ‘go for blue’ and use that to decide how to expand the greyscale of just the ‘blue’ data. However I’m handicapped by a loooong gap since I’ve written anything much in ‘C’. I keep getting lost when trying to find details like how to call OSCLI, etc. (IIUC I now think this is a ‘system’ command in ‘C’ but despite having done such things (mumble) years ago, my memory now is carp… :-/</p>
+<p>So I’ll try the following:</p>
+<ol>
+<li>
+<p>Use changefsi in some form to readin each page jpeg and spit out a sprite version.</p>
+</li>
+<li>
+<p>Use my ‘use blue’ trick of analysing the stats of the levels of blue inthat sprite, then use that to rescale the blue values to be saved as the greyscale ones for a greyscale output that has optimised contrast. Save that as a sprite.</p>
+</li>
+<li>
+<p>Then have the program call ChangeFSI again in some form to creat jpeg versions of each DeBrowned page.</p>
+</li>
+</ol>
+<p>Once done, run other software to combine all the cleaned up page jpegs into a DeBrowned PDF.</p>
+<p>Snag still being I’ve forgotten how to issue system/oscli calls by a ‘C’ program! So I’m trying to re-learn that.</p>
+<p>Alas, my memory these days is awful. And I get easily muddled. So advice and explanations from kind souls would be welcome.</p>
+<p>Filing that: David, maybe you could try the ‘use blue’ trick? The code for it is in the ‘C’ source I did for the tests I’ve written about. But I can’t recall if I’ve already put up a copy. I’ll check.</p>
+<p>I can’t describe how frustrating it is to have such a lousy memory and keep forgetting both long-past and mor recent things. Apologies if it makes me more of a pest. :-/</p>
+<p>Jim</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20437">https://www.riscosopen.org/forum/forums/11/topics/20437</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-15T13:34:00Z" data-link="https://bsky.app/profile/iconbar.com/post/3modflwkjg22u">
+      <h2>@iconbar.com</h2>
+
+(date: 2026-06-15)
+      <p>
+      <p>ROOL's 20th bithday (and last week to get your donation matched)</p>
+<p><a href="https://www.iconbar.com/articles/ROOLs">https://www.iconbar.com/articles/ROOLs</a>_20th_bithday_and_last_week_to_get_your_donation_matched/index2343.html</p>
+<p>This week marks the 20th anniversary of ROOL's founding on June 20th 2006.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/iconbar.com/post/3modflwkjg22u">https://bsky.app/profile/iconbar.com/post/3modflwkjg22u</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-15T10:19:35Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20449">
+      <h2>Omap 5 Emulator</h2>
+
+(date: 2026-06-15)
+      <p>
+      <p>After a very long process and hardwork over the last couple of weeks!!</p>
+<p>I can now reveal this project, A15 Based RISC OS Emulator with working Sound and SATA and Screen Resolution Outputs</p>
+<p>Currently Booted to Desktop on a Linux x86 QEMU Box.</p>
+<p>Lots still to do and fix, Fully built using references from the HAL, using a Custom Kernel.</p>
+<p>Stay Tuned!</p>
+<p>Emulator — TODO to “fully functional”</p>
+<p>Working So Far: boot to desktop, display (all resolutions + colour depths via VID3 alias), USB kbd/mouse, SATA boot disc, CMOS persistence, Sound Via SBlaster Codec
+In progress:</p>
+<p>Networking — CPSW (Now Working On). Model the AM5728 GMAC_SW as a self-contained QEMUNIC device SLIRPNAT for host Internet. Driver already in ROM.</p>
+<p>Time/Date plugin — RTC is modeled but the plugin was never re-confirmed after the fix. Quick re-test.</p>
+<p>USB mass storage — only kbd/mouse devices attached; no USB disc support.</p>
+<p>Graceful shutdown / reboot — verify Shutdown reboots cleanly.</p>
+<p>Upstreaming/cleanup — the QEMU patches are local; consolidate + document.</p>
+<p>Consolidate to Installer based Single App, With Filecore Virtual Drive Formatter and Full Support for Macintosh, Windows and Linux.</p>
+<p>Not everyone will agree with the approach i’m taking for projects because i’m using AI as a helper, But its proof that its useful</p>
+<p>and sadly its the way things will progress.</p>
+<p><img src="https://images2.imgbox.com/25/42/GwJXUJHy_o.png" alt=""></p>
+<p><img src="https://images2.imgbox.com/cd/33/hRtSe8o4_o.png" alt=""></p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20449">https://www.riscosopen.org/forum/forums/1/topics/20449</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-15T10:16:37Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20448">
+      <h2>Abusive emails</h2>
+
+(date: 2026-06-15)
+      <p>
+      <p>I am posting this here because I find myself, temporarily I hope, in the position of being unable to send emails, as my email address has been put on a local blacklist. Yesterday I logged on to my Plusnet webmail to find six hundred automated <em>Message Failed</em> items clogging up my Inbox. It looks as if somebody (or some computer program) had broadcast a phishing scam, and had used my email address in the From: tag. I immediately redirected one of these messages to <a href="mailto:report@phishing.gov.uk">report@phishing.gov.uk</a>, and then, by accident, deleted the contents of my Inbox. Every few seconds more messages flooded in. The nature of the scam was some complicated story about a South African lady called Mrs Chantal Odelle Williams, and email addresses in Ukraine (tvnet.if.ua) were given. Its Reply-To: tag was <a href="mailto:khozama@tarassul.sy">khozama@tarassul.sy</a>, a Syrian address. This data I got by looking at the sources of the emails. I added lots of stuff to my Plusnet spam-filter blacklist, and the messages stopped coming. However, I did receive a single email, an abusive one, evidently from the originator of the scam, judging by its contents. I was going to send this too on to <a href="mailto:report@phishing.gov.uk">report@phishing.gov.uk</a> but was unable to send it, as now I realized that my email address was blacklisted. I rang Plusnet’s help-line and hope to hear that they will deal with the problem, though I understand that propagating the unblacklisting to all the relevant DNS-servers may take some time.</p>
+<p>I am not quite sure what to make of this episode. Some years ago my wife and I stayed at a Marriott hotel, paying by credit card. Days after I heard that the Marriott IT system had been compromised, so I quickly cancelled my credit card. But that might be how my email address reached the nastier parts of the WWW. That the scam referenced both Ukraine and Syria suggests that the originator wanted to hint of <em>state actors</em>. It could still be a script-kiddy. More likely an AI. The abusive email purported to be from <a href="mailto:frank.lozano@sbcglobal.net">frank.lozano@sbcglobal.net</a>.</p>
+<p>Here is hoping that you are spared these tedious interruptions.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20448">https://www.riscosopen.org/forum/forums/5/topics/20448</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-15T10:05:35Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/19564">
+      <h2>File not found</h2>
+
+(date: 2026-06-15)
+      <p>
+      <p>I’ve just come across another manifestation of the same problem. I’m using OS_GBPB 10 to find all objects in a directory, but when it encounters a hidden file, it errors out. Not only that, but it doesn’t move on to the next file, so you can’t just ignore an error and continue.</p>
+<p>This is when searching a LanManFS drive (NAS).</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/4/topics/19564">https://www.riscosopen.org/forum/forums/4/topics/19564</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-15T09:23:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mocxl3timc25">
+      <h2>@nemo20000.bsky.social</h2>
+
+(date: 2026-06-15)
+      <p>
+      <p>I've removed the menagerie of social media logos from my username (🐦 🦣 🐋 🃏 🥚 etc) because I'm definitely only here now.</p>
+<p>Bluesky is good enough.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mocxl3timc25">https://bsky.app/profile/nemo20000.bsky.social/post/3mocxl3timc25</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-15T08:46:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mocviyl77s25">
+      <h2>@nemo20000.bsky.social</h2>
+
+(date: 2026-06-15)
+      <p>
+      <p>Chrome! What are you DOING?</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mocviyl77s25">https://bsky.app/profile/nemo20000.bsky.social/post/3mocviyl77s25</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-15T08:10:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3mocthegqas2p">
+      <h2>@nemo20000.bsky.social</h2>
+
+(date: 2026-06-15)
+      <p>
+      <p>RIP Dave Greenslade. This album blew my mind in 1979, first heard on a high-end audiophile deck through gargantuan speakers thanks to a friend's divorced dad. Still a regular listen 47 years later.</p>
+<p>Bought it multiple times since (second only to Jeff Wayne's WOTW).<a href="https://youtu.be/JhRB0uUmP6Q?t=2582&amp;is=45Xaj9KymvvBq1TW">https://youtu.be/JhRB0uUmP6Q?t=2582&amp;is=45Xaj9KymvvBq1TW</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mocthegqas2p">https://bsky.app/profile/nemo20000.bsky.social/post/3mocthegqas2p</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-15T07:22:00Z" data-link="http://www.iconbar.com/comments/rss/news2343.html">
+      <h2>ROOL's 20th bithday (and last week to get your donation matched)</h2>
+
+(date: 2026-06-15, updated: 2026-05-18)
+      <p>
+      <p>This week marks the 20th anniversary of ROOL's founding on June 20th 2006. Who would have thought then we would still be here using RISC OS. A major part of that is down to ROOL and the open sourcing of RISC OS.</p>
+
+      <address>
+        <a href="http://www.iconbar.com/comments/rss/news2343.html">http://www.iconbar.com/comments/rss/news2343.html</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-14T20:12:10Z" data-link="https://www.riscository.com/2026/phil-pemberton-replay-rougol-15th-june/">
+      <h2>Phil Pemberton hits play on Replay at ROUGOL – 15th June</h2>
+
+(date: 2026-06-14)
+      <p>
+      <p>The RISC OS User Group of London (ROUGOL) will be meeting up again on Monday, 15th June, and the guest speaker will be Phil Pemberton, who will be talking about Replay. Replay was a video compression and playback system available for RISC OS computers back in the mid-1990s. Anyone who bought a RiscPC at the time will have found the playback software and a small number of ‘ARMovie’ video files on their hard drives to show it off. Phil Pemberton has been looking at the sources for the system and…</p>
+
+      <address>
+        <a href="https://www.riscository.com/2026/phil-pemberton-replay-rougol-15th-june/">https://www.riscository.com/2026/phil-pemberton-replay-rougol-15th-june/</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-14T19:35:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mobjbsbckk2m">
+      <h2>@kevedwardsretro.bsky.social</h2>
+
+(date: 2026-06-14)
+      <p>
+      <p>I remembering having Tin Can Alley back in the '70s. I worked out a hack for the gun that allowed you to trigger the cans really easily. Underneath the rifle's forend is a rocker switch that, when pressed and held, keeps the light beam on constantly allowing you to quickly trigger the light sensor.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mobjbsbckk2m">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mobjbsbckk2m</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-14T19:18:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mobictiits2m">
+      <h2>@kevedwardsretro.bsky.social</h2>
+
+(date: 2026-06-14)
+      <p>
+      <p>I think this is a Wangtek, not the one advertised!</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mobictiits2m">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mobictiits2m</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-14T19:15:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mobi5s5aac2m">
+      <h2>@kevedwardsretro.bsky.social</h2>
+
+(date: 2026-06-14)
+      <p>
+      <p>My brain works like this clock....
+Image by Peter U. Costello</p>
+
+      <address>
+        <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mobi5s5aac2m">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mobi5s5aac2m</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-14T17:43:34Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20447">
+      <h2>Pi4 CM4 V3D Driver with MESA</h2>
+
+(date: 2026-06-14)
+      <p>
+      <p>Martin – might be worth talking to Lee Noar re Iris. For Iris “2.0” he has ported Mesa and some software driver stuff, although we’ve been focussing on Iris 1.0 for now. Recent WebKit builds rather assume OpenGL/Mesa-based graphics acceleration, so if you’re exploring those avenues, it might be worth keeping in touch with Lee to see if you can bolt things together.</p>
+<p>Also – fascinating project and nice work so far! Probably should have started with that :)</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/5/topics/20447">https://www.riscosopen.org/forum/forums/5/topics/20447</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-14T17:35:05Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20446">
+      <h2>On/Off key</h2>
+
+(date: 2026-06-14)
+      <p>
+      <p>The on-off LED is software controlled on Pinebook Pro, so unless an OS loads, it won’t illuminate.</p>
+<p>The most common situation is that (for example) no micro-SD card is present on a dual-boot (RISC OS / Linux) unit, and so it turns on (at a hardware level) but doesn’t initialise anything because there’s no OS. Therefore the LED doesn’t turn on, nor the screen. The computer is “on” but is apparently lifeless (but drains the battery).</p>
+<p>The solution to this (assuming the battery is still charged) is to connect power and let it charge for a bit, then press and hold the power button for 10 seconds which forces it “off”, then ensure the OS card is present/re-seated, then press-hold for 1-2 seconds which turns it back on.</p>
+<p>My guess would be that you’ve simulated the above behaviour by accident.</p>
+<p>I believe something similar can happen if the battery is fully discharged too, which is why I recommended having the mains connected.</p>
+<p>If it is a RISC OS only unit booting from the eMMC, the chances of this occurring are slimmer, but it could have still run out of battery and been left in an undeterimed power state.</p>
+<p>A general maintenance thing would be to ensure that the SD card is re-seated periodically and clean (if dual booting), and similarly inside the computer for the eMMC (I have known the eMMC come loose very occasionally – it is a push-fit connector). I’d probably only go inside if you’re convinced there is a problem, though.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/11/topics/20446">https://www.riscosopen.org/forum/forums/11/topics/20446</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-14T15:33:26Z" data-link="https://www.riscosopen.org/forum/forums/3/topics/20444">
+      <h2>Building RISC OS components with GCC using Docker</h2>
+
+(date: 2026-06-14)
+      <p>
+      <blockquote>
+<p>Hopefully ROOL will notice and add more support for the GCC building on GitLab.</p>
+</blockquote>
+<p>Or, I guess, someone could talk to them about it and see if submitting a PR would be welcome?</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/3/topics/20444">https://www.riscosopen.org/forum/forums/3/topics/20444</a>
+      </address>
+    </article>
 
     <article data-published="2026-06-14T14:17:00Z" data-link="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3moaxijykos2m">
       <h2>@kevedwardsretro.bsky.social</h2>
@@ -46,66 +303,6 @@
       </address>
     </article>
 
-    <article data-published="2026-06-14T12:38:42Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20447">
-      <h2>Pi4 CM4 V3D Driver with MESA</h2>
-
-(date: 2026-06-14)
-      <p>
-      <p>This project lets RISC OS use the Raspberry Pi 4’s built-in graphics chip to</p>
-<p>2D/3D Accelerate on screen – Like Never before.</p>
-<p><img src="https://images2.imgbox.com/6d/e5/RZF74LWX_o.jpg" alt=""></p>
-<p>WHATWORKSTODAY</p>
-<p>On real Pi 4 / CM4 hardware, the graphics chip now:</p>
-<ul>
-<li>
-<p>Powers on and reports who it is.</p>
-</li>
-<li>
-<p>Accepts a drawing job from RISC OS.</p>
-</li>
-<li>
-<p>Actually draws (right now: filling an area with a colour) entirely on the</p>
-<p>GPU – the main processor does not touch a single pixel of it.</p>
-</li>
-<li>
-<p>Shows that GPU-drawn result live in a normal, draggable window on the</p>
-<p>RISC OS desktop.</p>
-</li>
-</ul>
-<p>The render pipeline loads each tile from a source buffer and stores it to a destination,</p>
-<p>copying the whole image with no CPU involvement and no shaders. It’s the clear pipeline plus a single LOAD_TILE_BUFFER_GENERAL,</p>
-<p>exposed as both the V3D_Blit SWI (&amp;5A2D0) and the *V3DBlit command.</p>
-<p>M0: map register windows, power+clock via firmware mailbox, read/decode IDENT.</p>
-<p>M1: page table + V3D MMU, buffer objects mapped into GPU virtual memory.</p>
-<p>M2: submit a bin+render control list and wait for completion.</p>
-<p>The SUBMIT + FENCE path is complete and exact (ported from v3d_sched.c,</p>
-<p>poll-based on V3D_CTL_INT_STS). What remains is encoding the CLE packet</p>
-<p>BYTES of an actual control list – see “the M2 gap” below.</p>
-<p>M3 – display path (testable without the GPU):</p>
-<p>c.display wraps a BO as a RISC OS 32bpp sprite (area+header at the front,</p>
-<p>pixels after) and plots it with OS_SpriteOp. v3d_fb_create lays out the BO</p>
-<p>so the GPU renders straight into the pixel region; v3d_fb_show plots it.</p>
-<p>*V3DShow fills the pixels from the CPU and displays – so the whole display</p>
-<p>path can be validated on the Pi before the clear CL works.</p>
-<p>Roadmap:</p>
-<p>M0 power up + read IDENTDONE</p>
-<p>M1 BO allocator + V3D MMU page table DONE</p>
-<p>M2 submit bin+render CL + fence DONE – *V3DClear renders red on HW</p>
-<p>M3 display a rendered BO (sprite/OS_SpriteOp) DONE</p>
-<p>M4 libdrm→SWI shim for a ported Mesa DONE (shim/); Mesa port TODO</p>
-<p>M5 EGL platform: Wimp window &lt;→ V3D BO DONE (egl/)</p>
-<p>—&gt; the V3D GPU now renders end-to-end on Pi4/CM4 (M0-M5 all verified).</p>
-<p>Whats Next: Real IRQ handler, GMP, OOM overflow, multi-core, perfmon,</p>
-<p>free-BO SWI (needed by the shim’s GEM_CLOSE),</p>
-<p>Wimp-redraw present + double buffering, the Mesa port itself</p>
-<p>This driver targets the Raspberry Pi 4 and Compute Module 4 only</p>
-<p>Its currently in the stages of Implementing MESA And OpenGL, Eventually WebGL</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/5/topics/20447">https://www.riscosopen.org/forum/forums/5/topics/20447</a>
-      </address>
-    </article>
-
     <article data-published="2026-06-14T09:32:00Z" data-link="https://bsky.app/profile/armbytes.bsky.social/post/3moahl6yixc2a">
       <h2>@armbytes.bsky.social</h2>
 
@@ -116,18 +313,6 @@
 
       <address>
         <a href="https://bsky.app/profile/armbytes.bsky.social/post/3moahl6yixc2a">https://bsky.app/profile/armbytes.bsky.social/post/3moahl6yixc2a</a>
-      </address>
-    </article>
-
-    <article data-published="2026-06-14T08:46:53Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20446">
-      <h2>On/Off key</h2>
-
-(date: 2026-06-14)
-      <p>
-      <p>Twice recently my heart has been in my mouth because pressing the On/Off key on my Pinebook Pro has produced no little red indicator light to show that something is happening. I try keeping the key depressed, or I keep jabbing at it, and eventually the red light appears. I suspect that this is a purely mechanical problem that could appear with any laptop, and so I am wondering if anybody more knowledgeable than myself can give advice. Is it an accumulation of fluff beneath the key? A weakening of the key’s return spring? My wife’s late Toshiba laptop, bought in 2005, suffered a similar decrepitude of its On/Off button before finally expiring, but the Pinebook Pro was bought more recently, when Covid struck. Any advice welcome.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20446">https://www.riscosopen.org/forum/forums/11/topics/20446</a>
       </address>
     </article>
 
@@ -178,37 +363,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20445">https://www.riscosopen.org/forum/forums/1/topics/20445</a>
-      </address>
-    </article>
-
-    <article data-published="2026-06-13T20:30:25Z" data-link="https://www.riscosopen.org/forum/forums/3/topics/20444">
-      <h2>Building RISC OS components with GCC using Docker</h2>
-
-(date: 2026-06-13)
-      <p>
-      <p>I’ve put together a set of scripts to allow a subset of RISC OS components using the OS build environment with GCC and Docker, and pushed it to GitHub:</p>
-<p><a href="https://github.com/ccawley2011/docker-riscos-build">https://github.com/ccawley2011/docker-riscos-build</a></p>
-<p>Most of the stuff involved isn’t new – GCC support was added to the RISC OS 5 build system over 15 years ago, while many components have been updated to support cross-compiling with Norcroft since the move to GitLab so they can be built with CI, but the scripts I’ve provided are intended to streamline the process of setting it up using only the freely available tools. It’s quite fragile in many places, but it should be good enough to allow building individual components.</p>
-<p>Proper instructions will be added to the repository eventually, but for now here’s an overview of the commands needed to get started. Note that on Windows and Mac, Docker Desktop will need to be running before it can be used. Linux users can instead install Docker via the distrubution’s package manager.</p>
-<pre><code>./build.sh
-</code></pre>
-<p>Creates the Docker image and compiles the Linux versions of the required tools.</p>
-<pre><code>./clone.sh Disc
-</code></pre>
-<p>Fetches one of the <a href="https://gitlab.riscosopen.org/Products">Product repositories</a> from GitLab and applies pending fixes from open merge requests where necessary.</p>
-<pre><code>./run.sh Disc
-</code></pre>
-<p>Starts a bash shell inside the docker image, which will be used to run the remaining commands.</p>
-<pre><code>srcbuild export_hdrs
-srcbuild export_libs
-</code></pre>
-<p>Builds as many of the libraries used by the product as possible. Libraries that can’t be built will be skipped over and listed at the end of the build output.</p>
-<pre><code>make -C Sources/Video/UserI/ScrSavers/Slider
-</code></pre>
-<p>Compiles a single component for RISC OS.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/3/topics/20444">https://www.riscosopen.org/forum/forums/3/topics/20444</a>
       </address>
     </article>
 
@@ -276,36 +430,6 @@ srcbuild export_libs
       </address>
     </article>
 
-    <article data-published="2026-06-13T13:35:25Z" data-link="https://www.riscosopen.org/forum/forums/11/topics/20437">
-      <h2>DeTox bounty?</h2>
-
-(date: 2026-06-13)
-      <p>
-      <p>Just to update people.</p>
-<p>I’m still struggling with having David’s app work for me. Probably down to my dimwittery, etc. However I’ve also been re-looking at my Compo-based approach as it seems more like the ‘way I think’ (sic?). I should be able to automate that to run through a series of jpegs. At present it outputs the clean results as different a different image format, but I’ll change that to saving out single-page jpegs.</p>
-<p>If I can get that to work it will employ the ‘expand blue as grey’ trick that provides get adapting fuller contrast for the grescale output. Composcript will ‘loop’ so if I can get that working it should then be OK chugging through pages. The resulty being a new set of page jpegs that have been debrowed and optimised in brightness.contrast.</p>
-<p>Overall, that means I’d have a multi-stage process.</p>
-<ol>
-<li>
-<p>Export the pages from a PDF as page jpegs, numbered in order in a directory</p>
-</li>
-<li>
-<p>Have the Compo-based method generate ‘detoxed’ those jpegs, again one per page, by looping though the input jpegs. (But perhaps <strong>not</strong> decolouring the first image as that’s often a decent colour cover because chinered paper doesn’t brown like pulp (content) paper.</p>
-</li>
-<li>
-<p>Then convert each jpeg page into a PDF</p>
-</li>
-<li>
-<p>Then use a method for putting these jpeg pages into one PDF.</p>
-</li>
-</ol>
-<p>Seems strange that we can’t simply “add another jpeg” as another page at the end of a PDF. But can add one single-page PDF, one after another. Or am I misunderstanding that as well?! It would be simpler in filer-terms (and my brain!) if each page could be tacked onto the end of the ones already in an output PDF.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/11/topics/20437">https://www.riscosopen.org/forum/forums/11/topics/20437</a>
-      </address>
-    </article>
-
     <article data-published="2026-06-13T13:00:17Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20443">
       <h2>StrongMen 1.28f1 released</h2>
 
@@ -342,7 +466,7 @@ srcbuild export_libs
     <article data-published="2026-06-12T18:49:38Z" data-link="https://www.riscository.com/2026/developers-fireside-chat-13th-june/">
       <h2>Developers’ fireside chat – 13th June</h2>
 
-(date: 2026-06-12)
+(date: 2026-06-12, updated: 2026-06-14)
       <p>
       <p>If you develop software on or for RISC OS, or you’re considering doing so – or you’re working on the operating system itself, there’s an online meeting on Saturday, 13th June, 2026, that might be right up your street. That’ll be the next ‘friendly fireside chat’ for developers of all persuasions and skill levels – the only crucial requirement is that it’s about RISC OS programming. The purpose of these meetings is to provide a way for developers and those interested in the topic to get together (virtually) and have…</p>
 
@@ -393,7 +517,7 @@ srcbuild export_libs
     <article data-published="2026-06-12T06:41:00Z" data-link="http://www.iconbar.com/comments/rss/news2340.html">
       <h2>Rougol June 2026 meeting on monday - Phil Pemberton looks at Replay</h2>
 
-(date: 2026-06-12, updated: 2026-05-15)
+(date: 2026-06-12, updated: 2026-05-18)
       <p>
       <p>The June 2026 Rougol meeting is on Monday and features Phil Pemberton looking into Replay.</p>
 
@@ -444,7 +568,7 @@ srcbuild export_libs
     <article data-published="2026-06-11T07:26:00Z" data-link="http://www.iconbar.com/comments/rss/news2330.html">
       <h2>Fireside developer chat on saturday night</h2>
 
-(date: 2026-06-11, updated: 2026-05-15)
+(date: 2026-06-11, updated: 2026-05-18)
       <p>
       <p>The next developer chat is on saturday night (13th June) for everyone interested in a very informal event online aimed at RISC OS developers of all levels.</p>
 
@@ -1168,7 +1292,7 @@ And the double width function keys are epic.</p>
     <article data-published="2026-06-03T07:57:00Z" data-link="http://www.iconbar.com/comments/rss/news2341.html">
       <h2>R-Comp updates its RISC OS builds for customers</h2>
 
-(date: 2026-06-03, updated: 2026-05-15)
+(date: 2026-06-03, updated: 2026-05-18)
       <p>
       <p>If you are using an R-Comp Computer, you will be pleased to know that they have released updates to bring their systems up to date with the latest releases of RISC OS.</p>
 
@@ -1180,7 +1304,7 @@ And the double width function keys are epic.</p>
     <article data-published="2026-06-02T19:42:50Z" data-link="https://www.riscository.com/2026/rci-risc-os-5-31-updates/">
       <h2>RCI rolling out RISC OS 5.31-based updates</h2>
 
-(date: 2026-06-02, updated: 2026-06-12)
+(date: 2026-06-02, updated: 2026-06-14)
       <p>
       <p>Starting with the i.MX6-based systems, R-Comp’s sister company RCI – which handles the hardware side of things – is rolling out ‘OS Update 24’ for the various computers they sell. This update is based around a May 2026 build of RISC OS 5.31, with platform-specific enhancements and selected updates to disc image components where applicable. Andrew Rawnsley explained that because there are quite a few models of computer in their product range, from a logistical point of view the upgrade process is a large task – as well as preparing…</p>
 
@@ -1310,7 +1434,7 @@ And the double width function keys are epic.</p>
     <article data-published="2026-06-01T06:22:00Z" data-link="http://www.iconbar.com/comments/rss/news2336.html">
       <h2>WROCC June 2026 talk on Wednesday</h2>
 
-(date: 2026-06-01, updated: 2026-05-15)
+(date: 2026-06-01, updated: 2026-05-18)
       <p>
       <p>The June 2026 WROCC talk is on Wednesday 3rd June and starts at 7.45pm on Zoom. This month's speaker is Chris Hughes</p>
 
@@ -1544,7 +1668,7 @@ And the double width function keys are epic.</p>
     <article data-published="2026-05-31T14:24:01Z" data-link="https://www.riscository.com/2026/the-end-of-pstn-is-nigh-wrocc-meeting-3rd-june/">
       <h2>The end (of PSTN) is nigh! – WROCC meeting, 3rd June</h2>
 
-(date: 2026-05-31, updated: 2026-06-12)
+(date: 2026-05-31, updated: 2026-06-14)
       <p>
       <p>The next meeting of the Wakefield RISC OS Computer Club (WROCC) will feature the group’s own Chris Hughes taking front and centre stage, to talk about the ongoing changes to the telephone and communications networks. There are apparently two distinct transitions underway, both happening simultaneously, but on different timetables – and that overlap, coupled with them both being related to the UK’s communications network, has caused confusion amongst the public. Chris has spoken to the group about these changes on two previous occasions, and in this follow-up Chris will look…</p>
 
@@ -1691,7 +1815,7 @@ And the double width function keys are epic.</p>
     <article data-published="2026-05-29T06:45:00Z" data-link="http://www.iconbar.com/comments/rss/news2332.html">
       <h2>May 2026 News Summary</h2>
 
-(date: 2026-05-29, updated: 2026-05-15)
+(date: 2026-05-29, updated: 2026-05-18)
       <p>
       <p>Some things we noticed this month. What did you see?</p>
 
@@ -1853,7 +1977,7 @@ And the double width function keys are epic.</p>
     <article data-published="2026-05-26T15:13:00Z" data-link="http://www.iconbar.com/comments/rss/news2338.html">
       <h2>WROCC Newsletter Volume 43:01 reviewed</h2>
 
-(date: 2026-05-26, updated: 2026-05-15)
+(date: 2026-05-26, updated: 2026-05-18)
       <p>
       <p>After a year-long break, WROCC magazine has returned with the first edition for Volume 43.</p>
 
@@ -2293,7 +2417,7 @@ youtu.be/N5yvbB-rqfI</p>
     <article data-published="2026-05-20T15:25:00Z" data-link="http://www.iconbar.com/comments/rss/news2333.html">
       <h2>Making Browse Useful again</h2>
 
-(date: 2026-05-20, updated: 2026-05-15)
+(date: 2026-05-20, updated: 2026-05-18)
       <p>
       <p>Many thanks for a really interesting article submission on using Browse in 2026 (with a few extra tweaks). If you have anything to share, we are always pleased to hear from you. Over to Paul Stewart....</p>
 
@@ -2541,7 +2665,7 @@ Thank you ever so much to everyone who follows my channel, it continues to be a 
     <article data-published="2026-05-19T08:43:00Z" data-link="http://www.iconbar.com/comments/rss/news2337.html">
       <h2>ROUGOL May 2026 meeting - Jim Mitchell</h2>
 
-(date: 2026-05-19, updated: 2026-05-15)
+(date: 2026-05-19, updated: 2026-05-18)
       <p>
       <p>Rougols's May speaker (for a very popular meeting) was Jim Mitchell, talking about ARX and the Acorn Palo Alto Research Centre</p>
 
@@ -2629,7 +2753,7 @@ Thank you ever so much to everyone who follows my channel, it continues to be a 
     <article data-published="2026-05-18T16:08:01Z" data-link="https://www.riscository.com/2026/kinetix-released/">
       <h2>Break out your contollers to play Kinetix</h2>
 
-(date: 2026-05-18, updated: 2026-06-12)
+(date: 2026-05-18, updated: 2026-06-14)
       <p>
       <p>Do you see what I did there? 😉 It’s game time again, with another title from Code the Classics Volume II converted to run on RISC OS by Jeroen Vermeulen – this time a Breakout clone called Kinetix, which is now available to download from !Store. The aim of the game is simple – using your bat at the bottom of the screen, bounce a ball against a wall of colourful bricks above you in order to gradually knock them out. You need to move the bat left and right…</p>
 
@@ -2653,7 +2777,7 @@ Thank you ever so much to everyone who follows my channel, it continues to be a 
     <article data-published="2026-05-18T15:14:59Z" data-link="https://www.riscository.com/2026/semaquiz-released/">
       <h2>Kevsoft adds another quiz to the list: SemaQuiz</h2>
 
-(date: 2026-05-18, updated: 2026-06-12)
+(date: 2026-05-18, updated: 2026-06-14)
       <p>
       <p>Kev Wells has released another new quiz application based on his quiz engine, this time designed to test people’s knowledge of Semaphore flag signalling, a visual method of sending information using handheld flags. Like Kev’s other quizzes, SemaQuiz offers a number of multiple choice questions; the user chooses what they think is the correct answer, and their score is totted up. The program is standalone, in that it doesn’t require an internet connection to run, but the source data it uses was taken from a couple of online resources –…</p>
 
@@ -2792,7 +2916,7 @@ Thank you ever so much to everyone who follows my channel, it continues to be a 
     <article data-published="2026-05-18T05:26:00Z" data-link="http://www.iconbar.com/comments/rss/news2335.html">
       <h2>ShareFSServer 0.4.2 released</h2>
 
-(date: 2026-05-18, updated: 2026-05-15)
+(date: 2026-05-18)
       <p>
       <p>Paolo has been burning the midnight oil with his free ShareFSServer software and version 0.4.2 was released yesterday.</p>
 
@@ -3103,7 +3227,7 @@ Systems must verify.</p>
     <article data-published="2026-05-15T13:07:34Z" data-link="https://www.riscository.com/2026/arx-at-rougol-18th-may/">
       <h2>ARX: The OS we never got – ROUGOL meeting, 18th May</h2>
 
-(date: 2026-05-15, updated: 2026-06-12)
+(date: 2026-05-15, updated: 2026-06-14)
       <p>
       <p>Although we all know and love RISC OS and its consistent – if sometimes quirky, and sometimes lacking (if we’re being honest) – user interface, you may not realise that it wasn’t the operating system Acorn originally intended for the Archimedes range of computers it was developing back in the 1980s. Before RISC OS was built for the new ARM-based computer range (in its original form, Arthur), the company was aiming for a preemptive multi-tasking operating system, with multi-threading support, and more, to be called ARX. That operating system was…</p>
 
@@ -4725,7 +4849,7 @@ youtu.be/MOEmQ79nA38<a href="https://youtu.be/MOEmQ79nA38">https://youtu.be/MOEm
     <article data-published="2026-04-26T13:16:22Z" data-link="https://www.riscository.com/2026/silver-river-kingdom-released/">
       <h2>The King is in his counting house – in Silver River Kingdom</h2>
 
-(date: 2026-04-26, updated: 2026-06-12)
+(date: 2026-04-26, updated: 2026-06-14)
       <p>
       <p>Initially released at the RISC OS North show last month, the latest title from AMCOG Games has now been made more widely available. Silver River Kingdom can now be purchased via !Store, priced at £14.99. Anyone who purchased the game at the show can – and should, to ensure they have the most up to date version – download the game free of charge from !Store, by using the download code found in the packaging; just input the code in the “Special instructions, promo code, etc.” field in the application.…</p>
 
@@ -4992,7 +5116,7 @@ A forest? But somewhere temperate of course?
     <article data-published="2026-04-22T16:00:00Z" data-link="https://www.riscository.com/2026/developers-fireside-chat-25th-april/">
       <h2>Developers’ fireside chat – 25th April</h2>
 
-(date: 2026-04-22, updated: 2026-06-12)
+(date: 2026-04-22, updated: 2026-06-14)
       <p>
       <p>The next online meeting for anyone who is interested in the topic of developing on or for RISC OS will take place online on Saturday, 25th April. As ever, these friendly fireside chats are an informal way for developers and those with a passing interest to get together and discuss the issues that affect them or they feel are relevant. There is no set agenda, so the areas covered by the meeting are steered by those present – meaning you can bring up a burning issue, pose a problem to…</p>
 
@@ -5504,7 +5628,7 @@ elite.bbcelite.com</p>
     <article data-published="2026-04-17T11:42:05Z" data-link="https://www.riscository.com/2026/redecorating-the-desktop-rougol-meeting-20th-april/">
       <h2>Redecorating the desktop – ROUGOL meeting, 20th April</h2>
 
-(date: 2026-04-17, updated: 2026-06-12)
+(date: 2026-04-17, updated: 2026-06-14)
       <p>
       <p>If you think your RISC OS desktop is looking a bit bland and in need of a lick of paint, Paolo Zaino has the tool to help with that task in the form of ExtTheme – and he’ll be presenting it to the RISC OS User Group of London (ROUGOL) at the group’s next meeting, on 20th April. A theme is a package of graphics and related items designed to give your desktop a particular appearance – and the ExtTheme application is intended make installing and switching between different themes…</p>
 
@@ -9613,21 +9737,6 @@ File Names - leaf name only
 
       <address>
         <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3mga4zts6wk27">https://bsky.app/profile/nemo20000.bsky.social/post/3mga4zts6wk27</a>
-      </address>
-    </article>
-
-    <article data-published="2026-03-03T19:25:08Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/19564">
-      <h2>File not found</h2>
-
-(date: 2026-03-03)
-      <p>
-      <p>I’ve just come across what appears to be this error. I’m using DRest to restore a backup (taken with DBack) on a NAS drive using Omniclient, and every time it tries to do a BASICOPENOUT operation on a file whose leafname begins with a dot (in real life) or slash (when translated), the OPENOUT fails with “File not found”. It’s failed twice with “.gitconfig” files and once with an “.htaccess” file so far.</p>
-<p>OK, so it’s a hidden file, but why should that cause the OPENOUT to fail?</p>
-<p>And is there anything I can do to make it work without failing?</p>
-<p>I’ve been able to work round the problem by creating an empty file of the correct name in the correct place, but the restore has to start again each time it fails.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/4/topics/19564">https://www.riscosopen.org/forum/forums/4/topics/19564</a>
       </address>
     </article>
 
