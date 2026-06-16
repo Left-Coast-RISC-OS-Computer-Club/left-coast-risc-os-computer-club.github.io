@@ -7,10 +7,32 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>15 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>16 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mofqa546rk2o</link>
+      <description>
+        <![CDATA[Here's another article I wrote for Computing with the Amstrad ( June 1985 ). This one is a machine code monitor utility for examing/editing the Amstrad CPC's memory. You can use it to enter machine code programs into memory and run them. It also explains a bit about the Amstrad's memory map.]]>
+      </description>
+      <source:markdown>Here&#39;s another article I wrote for Computing with the Amstrad ( June 1985 ). This one is a machine code monitor utility for examing/editing the Amstrad CPC&#39;s memory. You can use it to enter machine code programs into memory and run them. It also explains a bit about the Amstrad&#39;s memory map.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mofqa546rk2o</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3moe7gl7hxs2r</link>
+      <description>
+        <![CDATA[Russian bomber crashes in Siberia: https://www.reuters.com/business/aerospace-defense/russian-strategic-bomber-plane-crashes-siberia-training-exercise-2026-06-15/
+        US bomber crashes in California: https://news.sky.com/story/us-b-52-bomber-crashes-shortly-after-take-off-from-base-in-california-13554459
+        
+        Where's Bond?
+        https://static.klipy.com/ii/c3a19a0b747a76e98651f2b9a3cca5ff/bf/0a/V2vmGab0.gif?hh=298&ww=498&mp4=oo0BkSfNLQBqzfYj&webm=uO8sKRcDomBgPiL1s]]>
+      </description>
+      <source:markdown>Russian bomber crashes in Siberia: https://www.reuters.com/business/aerospace-defense/russian-strategic-bomber-plane-crashes-siberia-training-exercise-2026-06-15/
+US bomber crashes in California: https://news.sky.com/story/us-b-52-bomber-crashes-shortly-after-take-off-from-base-in-california-13554459
+
+Where&#39;s Bond?
+https://static.klipy.com/ii/c3a19a0b747a76e98651f2b9a3cca5ff/bf/0a/V2vmGab0.gif?hh=298&#38;ww=498&#38;mp4=oo0BkSfNLQBqzfYj&#38;webm=uO8sKRcDomBgPiL1s</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3moe7gl7hxs2r</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3modty5tsjs2h</link>
       <description>
         <![CDATA[I just found this article I wrote in Computing with the Amstrad ( December 1985 ). I'd forgotten about it so it was a really nice surprise to find it after 40 years! It's a techincal article about programming the Amstrad CPC's 6845 CRTC ( video controller ). The BBC Micro has exactly the same CRTC.]]>
@@ -71,18 +93,49 @@ https://www.iconbar.com/articles/ROOLs\_20th\_bithday\_and\_last\_week\_to\_get\
 This week marks the 20th anniversary of ROOL&#39;s founding on June 20th 2006.</source:markdown>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3modflwkjg22u</guid>
     </item>    <item>
+      <title>File not found</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/19564</link>
+      <description>
+        <![CDATA[<p>(sorry for the sligthly off-topic)</p>
+        <blockquote>
+        <p>I’ve just come across another manifestation of the same problem. I’m using OS_GBPB 10 to find all objects in a directory, but when it encounters a hidden file, it errors out. Not only that, but it doesn’t move on to the next file, so you can’t just ignore an error and continue.</p>
+        </blockquote>
+        <p>Dave may I ask for the specific test you are running? (or better would you be happy to run it on ShareFSServer too, if you do not want to share the specific code?)</p>
+        <p>ShareFSServer seems to be working fine with !Find and !Locate, so it may help, just sayin (but it&#8217;s still alpha and so you may find things for me to improve/fix).</p>]]>
+      </description>
+      <source:markdown>(sorry for the sligthly off-topic)
+
+&#62; I’ve just come across another manifestation of the same problem. I’m using OS\_GBPB 10 to find all objects in a directory, but when it encounters a hidden file, it errors out. Not only that, but it doesn’t move on to the next file, so you can’t just ignore an error and continue.
+
+Dave may I ask for the specific test you are running? (or better would you be happy to run it on ShareFSServer too, if you do not want to share the specific code?)
+
+ShareFSServer seems to be working fine with !Find and !Locate, so it may help, just sayin (but it’s still alpha and so you may find things for me to improve/fix).</source:markdown>
+      <guid>cid://www.riscosopen.org:4:19564:164535</guid>
+    </item>    <item>
+      <title>Abusive emails</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20448</link>
+      <description>
+        <![CDATA[<p>This used to be known as a Joe Job, many years ago.</p>
+        <p>It&#8217;s the kind of thing that <span class="caps">DMARC</span> is supposed to help mitigate, and the much derided (in these parts) verification checks that the likes of GMail do to incoming mail. It might be worth checking whether Plusnet have implemented Sender Policy Framework (<span class="caps">SPF</span>) on your email server, as that is designed to ensure that other people can&#8217;t &#8220;borrow&#8221; your address for this sort of thing unless they <em>also</em> have access to your Plusnet email credentials and send the mail through an approved server.</p>]]>
+      </description>
+      <source:markdown>This used to be known as a Joe Job, many years ago.
+
+It’s the kind of thing that DMARC is supposed to help mitigate, and the much derided (in these parts) verification checks that the likes of GMail do to incoming mail. It might be worth checking whether Plusnet have implemented Sender Policy Framework (SPF) on your email server, as that is designed to ensure that other people can’t “borrow” your address for this sort of thing unless they _also_ have access to your Plusnet email credentials and send the mail through an approved server.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20448:164531</guid>
+    </item>    <item>
       <title>Omap 5 Emulator</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20449</link>
       <description>
         <![CDATA[<p>After a very long process and hardwork over the last couple of weeks!!<br />
         I can now reveal this project, A15 Based <span class="caps">RISC</span> OS Emulator with working Sound and <span class="caps">SATA</span> and Screen Resolution Outputs</p>
+        <p>Resources Used: <a href="https://www.ti.com/product/AM5728#features">https://www.ti.com/product/AM5728#features</a> and <span class="caps">RISCOS</span> Open Ti <span class="caps">HAL</span> and RiscOS Source Code.</p>
         <p>Currently Booted to Desktop on a Linux x86 <span class="caps">QEMU</span> Box.</p>
         <p>Lots still to do and fix, Fully built using references from the <span class="caps">HAL</span>, using a Custom Kernel.<br />
         Stay Tuned!</p>
         <p>Emulator — <span class="caps">TODO</span> to &#8220;fully functional&#8221;</p>
         Working So Far: boot to desktop, display (all resolutions + colour depths via VID3 alias), <span class="caps">USB</span> kbd/mouse, <span class="caps">SATA</span> boot disc, <span class="caps">CMOS</span> persistence, Sound Via SBlaster Codec
         In progress:
-        <p>Networking — <span class="caps">CPSW</span> (Now Working On). Model the AM5728 GMAC_SW as a self-contained <span class="caps">QEMU</span> <span class="caps">NIC</span> device <span class="caps">SLIRP</span> <span class="caps">NAT</span> for host Internet. Driver already in <span class="caps">ROM</span>.</p>
+        <p>Networking — Model the AM5728 GMAC_SW as a self-contained <span class="caps">QEMU</span> <span class="caps">NIC</span> device <span class="caps">SLIRP</span> <span class="caps">NAT</span> for host Internet. Driver already in <span class="caps">ROM</span>.</p>
         <p>Time/Date plugin — <span class="caps">RTC</span> is modeled but the plugin was never re-confirmed after the fix. Quick re-test.</p>
         <p><span class="caps">USB</span> mass storage — only kbd/mouse devices attached; no <span class="caps">USB</span> disc support.<br />
         Graceful shutdown / reboot — verify Shutdown reboots cleanly.<br />
@@ -97,6 +150,8 @@ This week marks the 20th anniversary of ROOL&#39;s founding on June 20th 2006.</
 
 I can now reveal this project, A15 Based RISC OS Emulator with working Sound and SATA and Screen Resolution Outputs
 
+Resources Used: [https://www.ti.com/product/AM5728#features](https://www.ti.com/product/AM5728#features) and RISCOS Open Ti HAL and RiscOS Source Code.
+
 Currently Booted to Desktop on a Linux x86 QEMU Box.
 
 Lots still to do and fix, Fully built using references from the HAL, using a Custom Kernel.
@@ -108,7 +163,7 @@ Emulator — TODO to “fully functional”
 Working So Far: boot to desktop, display (all resolutions + colour depths via VID3 alias), USB kbd/mouse, SATA boot disc, CMOS persistence, Sound Via SBlaster Codec
 In progress:
 
-Networking — CPSW (Now Working On). Model the AM5728 GMAC\_SW as a self-contained QEMUNIC device SLIRPNAT for host Internet. Driver already in ROM.
+Networking — Model the AM5728 GMAC\_SW as a self-contained QEMUNIC device SLIRPNAT for host Internet. Driver already in ROM.
 
 Time/Date plugin — RTC is modeled but the plugin was never re-confirmed after the fix. Quick re-test.
 
@@ -128,31 +183,6 @@ and sadly its the way things will progress.
 
 ![](https://images2.imgbox.com/cd/33/hRtSe8o4_o.png)</source:markdown>
       <guid>cid://www.riscosopen.org:1:20449:164530</guid>
-    </item>    <item>
-      <title>Abusive emails</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20448</link>
-      <description>
-        <![CDATA[<p>I am posting this here because I find myself, temporarily I hope, in the position of being unable to send emails, as my email address has been put on a local blacklist. Yesterday I logged on to my Plusnet webmail to find six hundred automated <em>Message Failed</em> items clogging up my Inbox. It looks as if somebody (or some computer program) had broadcast a phishing scam, and had used my email address in the From: tag. I immediately redirected one of these messages to <a href="mailto:report@phishing.gov.uk">report@phishing.gov.uk</a>, and then, by accident, deleted the contents of my Inbox. Every few seconds more messages flooded in. The nature of the scam was some complicated story about a South African lady called Mrs Chantal Odelle Williams, and email addresses in Ukraine (tvnet.if.ua) were given. Its Reply-To: tag was <a href="mailto:khozama@tarassul.sy">khozama@tarassul.sy</a>, a Syrian address. This data I got by looking at the sources of the emails. I added lots of stuff to my Plusnet spam-filter blacklist, and the messages stopped coming. However, I did receive a single email, an abusive one, evidently from the originator of the scam, judging by its contents. I was going to send this too on to <a href="mailto:report@phishing.gov.uk">report@phishing.gov.uk</a> but was unable to send it, as now I realized that my email address was blacklisted. I rang Plusnet&#8217;s help-line and hope to hear that they will deal with the problem, though I understand that propagating the unblacklisting to all the relevant <span class="caps">DNS</span>-servers may take some time.</p>
-        <p>I am not quite sure what to make of this episode. Some years ago my wife and I stayed at a Marriott hotel, paying by credit card. Days after I heard that the Marriott IT system had been compromised, so I quickly cancelled my credit card. But that might be how my email address reached the nastier parts of the <span class="caps">WWW</span>. That the scam referenced both Ukraine and Syria suggests that the originator wanted to hint of <em>state actors</em>. It could still be a script-kiddy. More likely an AI. The abusive email purported to be from <a href="mailto:frank.lozano@sbcglobal.net">frank.lozano@sbcglobal.net</a>.</p>
-        <p>Here is hoping that you are spared these tedious interruptions.</p>]]>
-      </description>
-      <source:markdown>I am posting this here because I find myself, temporarily I hope, in the position of being unable to send emails, as my email address has been put on a local blacklist. Yesterday I logged on to my Plusnet webmail to find six hundred automated _Message Failed_ items clogging up my Inbox. It looks as if somebody (or some computer program) had broadcast a phishing scam, and had used my email address in the From: tag. I immediately redirected one of these messages to [report@phishing.gov.uk](mailto:report@phishing.gov.uk), and then, by accident, deleted the contents of my Inbox. Every few seconds more messages flooded in. The nature of the scam was some complicated story about a South African lady called Mrs Chantal Odelle Williams, and email addresses in Ukraine (tvnet.if.ua) were given. Its Reply-To: tag was [khozama@tarassul.sy](mailto:khozama@tarassul.sy), a Syrian address. This data I got by looking at the sources of the emails. I added lots of stuff to my Plusnet spam-filter blacklist, and the messages stopped coming. However, I did receive a single email, an abusive one, evidently from the originator of the scam, judging by its contents. I was going to send this too on to [report@phishing.gov.uk](mailto:report@phishing.gov.uk) but was unable to send it, as now I realized that my email address was blacklisted. I rang Plusnet’s help-line and hope to hear that they will deal with the problem, though I understand that propagating the unblacklisting to all the relevant DNS-servers may take some time.
-
-I am not quite sure what to make of this episode. Some years ago my wife and I stayed at a Marriott hotel, paying by credit card. Days after I heard that the Marriott IT system had been compromised, so I quickly cancelled my credit card. But that might be how my email address reached the nastier parts of the WWW. That the scam referenced both Ukraine and Syria suggests that the originator wanted to hint of _state actors_. It could still be a script-kiddy. More likely an AI. The abusive email purported to be from [frank.lozano@sbcglobal.net](mailto:frank.lozano@sbcglobal.net).
-
-Here is hoping that you are spared these tedious interruptions.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20448:164529</guid>
-    </item>    <item>
-      <title>File not found</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/19564</link>
-      <description>
-        <![CDATA[<p>I&#8217;ve just come across another manifestation of the same problem.  I&#8217;m using OS_GBPB 10 to find all objects in a directory, but when it encounters a hidden file, it errors out.  Not only that, but it doesn&#8217;t move on to the next file, so you can&#8217;t just ignore an error and continue.</p>
-        <p>This is when searching a LanManFS drive (<span class="caps">NAS</span>).</p>]]>
-      </description>
-      <source:markdown>I’ve just come across another manifestation of the same problem. I’m using OS\_GBPB 10 to find all objects in a directory, but when it encounters a hidden file, it errors out. Not only that, but it doesn’t move on to the next file, so you can’t just ignore an error and continue.
-
-This is when searching a LanManFS drive (NAS).</source:markdown>
-      <guid>cid://www.riscosopen.org:4:19564:164528</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mocxl3timc25</link>
       <description>
