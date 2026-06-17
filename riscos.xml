@@ -7,10 +7,185 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>16 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>17 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>WROCC June 2026 talk on Wednesday</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13599&#38;page=1#125902</link>
+      <description>
+        <![CDATA[You can watch the talk at https://www.youtube.com/watch?v=l0tIdZlYVqU]]>
+      </description>
+      <source:markdown>You can watch the talk at https://www.youtube.com/watch?v=l0tIdZlYVqU</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13599&#38;page=1#125902</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3moi4zuwpq22g</link>
+      <description>
+        <![CDATA[This is what disk mould looks like. If you see this on your old disks then clean them BEFORE putting them into a disk drive. Otherwise, you are likely to clog up the drive read/write head and/or possibly damage the disk. Clean with diluted Isopropyl alcohol ( IPA ) on a soft, lint-free cloth.]]>
+      </description>
+      <source:markdown>This is what disk mould looks like. If you see this on your old disks then clean them BEFORE putting them into a disk drive. Otherwise, you are likely to clog up the drive read/write head and/or possibly damage the disk. Clean with diluted Isopropyl alcohol ( IPA ) on a soft, lint-free cloth.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3moi4zuwpq22g</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3moi3dgvly22h</link>
+      <description>
+        <![CDATA[Does "Fix this code" fix things they don't want fixed?!
+        https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827]]>
+      </description>
+      <source:markdown>Does &#34;Fix this code&#34; fix things they don&#39;t want fixed?!
+https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3moi3dgvly22h</guid>
+    </item>    <item>
+      <title>DeTox bounty?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
+      <description>
+        <![CDATA[<p>Hi Jim<br />
+        To recap: the C has a system command, which can be used to pass a command to the system:</p>
+        <pre><code>// example: to display  a directory content
+            char test[] = "dir";
+            system ( test);</code></pre>
+        Another alternative is to use the RiscOS library: _kernel_oscli( * cmde )
+        <pre><code>
+        _kernel_oscli(test);</code></pre>
+        <p>This is what you used in C programs for Compo scripts</p>
+        <p>Take care of yourself, programming is a very good exercise.</p>]]>
+      </description>
+      <source:markdown>Hi Jim
+
+To recap: the C has a system command, which can be used to pass a command to the system:
+
+```
+// example: to display  a directory content
+    char test[] = &#34;dir&#34;;
+    system ( test);
+```
+
+Another alternative is to use the RiscOS library: \_kernel\_oscli( \* cmde )
+
+```
+
+_kernel_oscli(test);
+```
+
+This is what you used in C programs for Compo scripts
+
+Take care of yourself, programming is a very good exercise.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20437:164562</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mogs5hzqls2j</link>
+      <description>
+        <![CDATA[A huge stack of my old BBC Micro and Acorn Electron game development disks plus other utlilities. It includes the source code for Galaforce, Crazee Rider and Galaforce 2. I have archived and shared many of the important ones on GitHub.]]>
+      </description>
+      <source:markdown>A huge stack of my old BBC Micro and Acorn Electron game development disks plus other utlilities. It includes the source code for Galaforce, Crazee Rider and Galaforce 2. I have archived and shared many of the important ones on GitHub.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mogs5hzqls2j</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mogrhxq5b22j</link>
+      <description>
+        <![CDATA[A BASIC animation series I wrote for Computing with the Amstrad magazine when I worked at Database Publications. This is the 3rd and final article in the series from June 1985! I can't believe this was 41 years ago when I was just 19 years old.]]>
+      </description>
+      <source:markdown>A BASIC animation series I wrote for Computing with the Amstrad magazine when I worked at Database Publications. This is the 3rd and final article in the series from June 1985! I can&#39;t believe this was 41 years ago when I was just 19 years old.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mogrhxq5b22j</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mognscvbx22d</link>
+      <description>
+        <![CDATA[Funniest pan in the history of cinema
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Funniest pan in the history of cinema
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mognscvbx22d</guid>
+    </item>    <item>
+      <title>Update to RPCEmu (Spork Edition) now available...</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20450</link>
+      <description>
+        <![CDATA[<p>Hi everyone,</p>
+        <p>A few months ago, I released my hobby version of RPCEmu (named Spork edition) on GitHub. I had originally hacked it together to do a few things I wanted, and I thought I&#8217;d share it in case it was useful to anyone else.</p>
+        <p>I&#8217;ve just released a new version that hopefully fixes a lot of the issues that cropped up on other people&#8217;s machines, and adds a few new features that I hope you&#8217;ll find useful.</p>
+        <p>Please note it&#8217;s Linux-only right now. The front-end has been rebuilt in wxWidgets and the build moved to CMake, so this isn&#8217;t a drop-in replacement for the Windows builds — it&#8217;s very much a Linux-focused experiment.</p>
+        <p>What&#8217;s different from upstream:</p>
+        <ul>
+        	<li>Multi-machine configuration: A startup selector to create, edit, clone and delete machine profiles, each with its own isolated <span class="caps">CMOS</span>, HostFS and hard discs; quick switching between machines and recent-discs menus.</li>
+        </ul>
+        <ul>
+        	<li>Dual HostFS drives: A per-machine HostFS plus a common &#8220;Shared&#8221; drive visible to all machines.</li>
+        </ul>
+        <ul>
+        	<li>Access/ShareFS networking: A <span class="caps">NAT</span>-mode relay so emulated and real machines can share files.</li>
+        </ul>
+        <ul>
+        	<li>Reliable <span class="caps">IDE</span> hard discs — fixed the data corruption that affected <span class="caps">IDE</span> on <span class="caps">RISC</span> OS 5, so hard-disc images(HardDisc4/5) can now be created and used safely.</li>
+        </ul>
+        <ul>
+        	<li>Full FPA10 floating-point emulation: Works with both the interpreter and the recompiler.</li>
+        </ul>
+        <ul>
+        	<li>Built-in <span class="caps">VNC</span> server: Drive the emulated machine remotely.</li>
+        </ul>
+        <ul>
+        	<li>Serial port: Log to a file, or a real telnet &#8220;modem&#8221;: <span class="caps">ATD</span> host:port (eg: ATDbbs.halium.com) dials telnet BBSes, with a telnet/binary layer so X/Y/<span class="caps">ZMODEM</span> transfers stay 8-bit clean.</li>
+        </ul>
+        <ul>
+        	<li>Parallel port: Capture print jobs to file, or a virtual printer with in-process <span class="caps">PDF</span> output via Ghostscript.</li>
+        </ul>
+        <ul>
+        	<li>Machine Inspector &amp; debugger: Live <span class="caps">CPU</span>/registers, disassembly, memory browser, peripheral view, breakpoints and watchpoints (recompiler-aware).</li>
+        </ul>
+        <ul>
+        	<li>Modernisation: Pixel-perfect integer scaling, a toolbar with activity indicators and CMake-based packaging.</li>
+        </ul>
+        <p>Getting it / building it:</p>
+        <p><a href="https://github.com/andrewtimmins/rpcemu-extended">https://github.com/andrewtimmins/rpcemu-extended</a></p>
+        <p>The prebuilt 64-bit binary was built on Ubuntu 24.04, so it runs on 24.04-class distributions and newer. If your system is compatible, you can just grab the tarball (or the .deb); the <span class="caps">README</span> explains the supported distributions and the one-line runtime-library setup. If you&#8217;re on an older or different distro — or want arm64 — the <span class="caps">README</span> and <span class="caps">COMPILE</span>.md walk you through building from source, which is just a couple of scripts.</p>
+        <p>Feedback, bug reports and ideas are very welcome (GitHub issues, please). And I can&#8217;t forget, a huge thanks to the RPCEmu authors. 🙂</p>]]>
+      </description>
+      <source:markdown>Hi everyone,
+
+A few months ago, I released my hobby version of RPCEmu (named Spork edition) on GitHub. I had originally hacked it together to do a few things I wanted, and I thought I’d share it in case it was useful to anyone else.
+
+I’ve just released a new version that hopefully fixes a lot of the issues that cropped up on other people’s machines, and adds a few new features that I hope you’ll find useful.
+
+Please note it’s Linux-only right now. The front-end has been rebuilt in wxWidgets and the build moved to CMake, so this isn’t a drop-in replacement for the Windows builds — it’s very much a Linux-focused experiment.
+
+What’s different from upstream:
+
+- Multi-machine configuration: A startup selector to create, edit, clone and delete machine profiles, each with its own isolated CMOS, HostFS and hard discs; quick switching between machines and recent-discs menus.
+
+- Dual HostFS drives: A per-machine HostFS plus a common “Shared” drive visible to all machines.
+
+- Access/ShareFS networking: A NAT-mode relay so emulated and real machines can share files.
+
+- Reliable IDE hard discs — fixed the data corruption that affected IDE on RISC OS 5, so hard-disc images(HardDisc4/5) can now be created and used safely.
+
+- Full FPA10 floating-point emulation: Works with both the interpreter and the recompiler.
+
+- Built-in VNC server: Drive the emulated machine remotely.
+
+- Serial port: Log to a file, or a real telnet “modem”: ATD host:port (eg: ATDbbs.halium.com) dials telnet BBSes, with a telnet/binary layer so X/Y/ZMODEM transfers stay 8-bit clean.
+
+- Parallel port: Capture print jobs to file, or a virtual printer with in-process PDF output via Ghostscript.
+
+- Machine Inspector &#38; debugger: Live CPU/registers, disassembly, memory browser, peripheral view, breakpoints and watchpoints (recompiler-aware).
+
+- Modernisation: Pixel-perfect integer scaling, a toolbar with activity indicators and CMake-based packaging.
+
+Getting it / building it:
+
+[https://github.com/andrewtimmins/rpcemu-extended](https://github.com/andrewtimmins/rpcemu-extended)
+
+The prebuilt 64-bit binary was built on Ubuntu 24.04, so it runs on 24.04-class distributions and newer. If your system is compatible, you can just grab the tarball (or the .deb); the README explains the supported distributions and the one-line runtime-library setup. If you’re on an older or different distro — or want arm64 — the README and COMPILE.md walk you through building from source, which is just a couple of scripts.
+
+Feedback, bug reports and ideas are very welcome (GitHub issues, please). And I can’t forget, a huge thanks to the RPCEmu authors. 🙂</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20450:164556</guid>
+    </item>    <item>
+      <title>Abusive emails</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20448</link>
+      <description>
+        <![CDATA[<p>Thanks for the replies. I have had long conversations with a Plusnet man, but it appears that I am still blacklisted. I also note from internet chatter that the addresses involved with the phishing scam have been turning up all over the place. Gmail seems to assume that a <em>device</em> is a mobile phone, which I do not have (no signal round here). What other possibilities can be recommended for emailing, from a raspberry pi?</p>]]>
+      </description>
+      <source:markdown>Thanks for the replies. I have had long conversations with a Plusnet man, but it appears that I am still blacklisted. I also note from internet chatter that the addresses involved with the phishing scam have been turning up all over the place. Gmail seems to assume that a _device_ is a mobile phone, which I do not have (no signal round here). What other possibilities can be recommended for emailing, from a raspberry pi?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20448:164550</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mofqa546rk2o</link>
       <description>
         <![CDATA[Here's another article I wrote for Computing with the Amstrad ( June 1985 ). This one is a machine code monitor utility for examing/editing the Amstrad CPC's memory. You can use it to enter machine code programs into memory and run them. It also explains a bit about the Amstrad's memory map.]]>
@@ -40,43 +215,36 @@ https://static.klipy.com/ii/c3a19a0b747a76e98651f2b9a3cca5ff/bf/0a/V2vmGab0.gif?
       <source:markdown>I just found this article I wrote in Computing with the Amstrad ( December 1985 ). I&#39;d forgotten about it so it was a really nice surprise to find it after 40 years! It&#39;s a techincal article about programming the Amstrad CPC&#39;s 6845 CRTC ( video controller ). The BBC Micro has exactly the same CRTC.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3modty5tsjs2h</guid>
     </item>    <item>
-      <title>DeTox bounty?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
+      <title>File not found</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/19564</link>
       <description>
-        <![CDATA[<p>I&#8217;ve been thinking (sic!) about my previous approach to this. In particular the decision to &#8216;go for blue&#8217; and use that to decide how to expand the greyscale of just the &#8216;blue&#8217; data. However I&#8217;m handicapped by a loooong gap since I&#8217;ve written anything much in &#8216;C&#8217;. I keep getting lost when trying to find details like how to call <span class="caps">OSCLI</span>, etc. (<span class="caps">IIUC</span> I now think this is a &#8216;system&#8217; command in &#8216;C&#8217; but despite having done such things (mumble) years ago, my memory now is carp&#8230;  :-/</p>
-        <p>So I&#8217;ll try the following:</p>
-        <p>1) Use changefsi in some form to readin each page jpeg and spit out a sprite version.</p>
-        <p>2) Use my &#8216;use blue&#8217; trick of analysing the stats of the levels of blue inthat sprite, then use that to rescale the blue values to be saved as the greyscale ones for a greyscale output that has optimised contrast. Save that as a sprite.</p>
-        <p>3) Then have the program call ChangeFSI again in some form to creat jpeg versions of each DeBrowned page.</p>
-        <p>Once done, run other software to combine all the cleaned up page jpegs into a DeBrowned <span class="caps">PDF</span>.</p>
-        <p>Snag still being I&#8217;ve forgotten how to issue system/oscli calls by a &#8216;C&#8217; program! So I&#8217;m trying to re-learn that.</p>
-        <p>Alas, my memory these days is awful. And I get easily muddled. So advice and explanations from kind souls would be welcome.</p>
-        <p>Filing that: David, maybe you could try the &#8216;use blue&#8217; trick? The code for it is in the &#8216;C&#8217; source I did for the tests I&#8217;ve written about. But I can&#8217;t recall if I&#8217;ve already put up a copy. I&#8217;ll check.</p>
-        <p>I can&#8217;t describe how frustrating it is to have such a lousy memory and keep forgetting both long-past and mor recent things. Apologies if it makes me more of a pest. :-/</p>
-        <p>Jim</p>]]>
+        <![CDATA[<p>I have just tried OS_GBPB,10 on a directory on my <span class="caps">NAS</span> which contains a file &#8220;.config&#8221; set with Hidden attribute using Win11 Properties.<br />
+        Using LanMan 2.72 it is not listed, but does not error.<br />
+        Using LanMan SMB2 alpha it is not listed, and does not error.<br />
+        Using LanMan98 2.06 it <strong>is</strong> listed &#8230; but I do have an OS variable LanMan98$ShowHidden so it should be.</p>
+        <p>Note that without the Hidden attribute, it is always shown, even when it starts in a dot.</p>]]>
       </description>
-      <source:markdown>I’ve been thinking (sic!) about my previous approach to this. In particular the decision to ‘go for blue’ and use that to decide how to expand the greyscale of just the ‘blue’ data. However I’m handicapped by a loooong gap since I’ve written anything much in ‘C’. I keep getting lost when trying to find details like how to call OSCLI, etc. (IIUC I now think this is a ‘system’ command in ‘C’ but despite having done such things (mumble) years ago, my memory now is carp… :-/
+      <source:markdown>I have just tried OS\_GBPB,10 on a directory on my NAS which contains a file “.config” set with Hidden attribute using Win11 Properties.
 
-So I’ll try the following:
+Using LanMan 2.72 it is not listed, but does not error.
 
-1) Use changefsi in some form to readin each page jpeg and spit out a sprite version.
+Using LanMan SMB2 alpha it is not listed, and does not error.
 
-2) Use my ‘use blue’ trick of analysing the stats of the levels of blue inthat sprite, then use that to rescale the blue values to be saved as the greyscale ones for a greyscale output that has optimised contrast. Save that as a sprite.
+Using LanMan98 2.06 it **is** listed … but I do have an OS variable LanMan98$ShowHidden so it should be.
 
-3) Then have the program call ChangeFSI again in some form to creat jpeg versions of each DeBrowned page.
+Note that without the Hidden attribute, it is always shown, even when it starts in a dot.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:19564:164542</guid>
+    </item>    <item>
+      <title>Omap 5 Emulator</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20449</link>
+      <description>
+        <![CDATA[<p>Full Networking now Working! <br />
+        <img src="https://images2.imgbox.com/2d/3c/qtvD61dG_o.png" alt="" /></p>]]>
+      </description>
+      <source:markdown>Full Networking now Working!
 
-Once done, run other software to combine all the cleaned up page jpegs into a DeBrowned PDF.
-
-Snag still being I’ve forgotten how to issue system/oscli calls by a ‘C’ program! So I’m trying to re-learn that.
-
-Alas, my memory these days is awful. And I get easily muddled. So advice and explanations from kind souls would be welcome.
-
-Filing that: David, maybe you could try the ‘use blue’ trick? The code for it is in the ‘C’ source I did for the tests I’ve written about. But I can’t recall if I’ve already put up a copy. I’ll check.
-
-I can’t describe how frustrating it is to have such a lousy memory and keep forgetting both long-past and mor recent things. Apologies if it makes me more of a pest. :-/
-
-Jim</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20437:164538</guid>
+![](https://images2.imgbox.com/2d/3c/qtvD61dG_o.png)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20449:164541</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3modflwkjg22u</link>
       <description>
@@ -92,97 +260,6 @@ https://www.iconbar.com/articles/ROOLs\_20th\_bithday\_and\_last\_week\_to\_get\
 
 This week marks the 20th anniversary of ROOL&#39;s founding on June 20th 2006.</source:markdown>
       <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3modflwkjg22u</guid>
-    </item>    <item>
-      <title>File not found</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/19564</link>
-      <description>
-        <![CDATA[<p>(sorry for the sligthly off-topic)</p>
-        <blockquote>
-        <p>I’ve just come across another manifestation of the same problem. I’m using OS_GBPB 10 to find all objects in a directory, but when it encounters a hidden file, it errors out. Not only that, but it doesn’t move on to the next file, so you can’t just ignore an error and continue.</p>
-        </blockquote>
-        <p>Dave may I ask for the specific test you are running? (or better would you be happy to run it on ShareFSServer too, if you do not want to share the specific code?)</p>
-        <p>ShareFSServer seems to be working fine with !Find and !Locate, so it may help, just sayin (but it&#8217;s still alpha and so you may find things for me to improve/fix).</p>]]>
-      </description>
-      <source:markdown>(sorry for the sligthly off-topic)
-
-&#62; I’ve just come across another manifestation of the same problem. I’m using OS\_GBPB 10 to find all objects in a directory, but when it encounters a hidden file, it errors out. Not only that, but it doesn’t move on to the next file, so you can’t just ignore an error and continue.
-
-Dave may I ask for the specific test you are running? (or better would you be happy to run it on ShareFSServer too, if you do not want to share the specific code?)
-
-ShareFSServer seems to be working fine with !Find and !Locate, so it may help, just sayin (but it’s still alpha and so you may find things for me to improve/fix).</source:markdown>
-      <guid>cid://www.riscosopen.org:4:19564:164535</guid>
-    </item>    <item>
-      <title>Abusive emails</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20448</link>
-      <description>
-        <![CDATA[<p>This used to be known as a Joe Job, many years ago.</p>
-        <p>It&#8217;s the kind of thing that <span class="caps">DMARC</span> is supposed to help mitigate, and the much derided (in these parts) verification checks that the likes of GMail do to incoming mail. It might be worth checking whether Plusnet have implemented Sender Policy Framework (<span class="caps">SPF</span>) on your email server, as that is designed to ensure that other people can&#8217;t &#8220;borrow&#8221; your address for this sort of thing unless they <em>also</em> have access to your Plusnet email credentials and send the mail through an approved server.</p>]]>
-      </description>
-      <source:markdown>This used to be known as a Joe Job, many years ago.
-
-It’s the kind of thing that DMARC is supposed to help mitigate, and the much derided (in these parts) verification checks that the likes of GMail do to incoming mail. It might be worth checking whether Plusnet have implemented Sender Policy Framework (SPF) on your email server, as that is designed to ensure that other people can’t “borrow” your address for this sort of thing unless they _also_ have access to your Plusnet email credentials and send the mail through an approved server.</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20448:164531</guid>
-    </item>    <item>
-      <title>Omap 5 Emulator</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20449</link>
-      <description>
-        <![CDATA[<p>After a very long process and hardwork over the last couple of weeks!!<br />
-        I can now reveal this project, A15 Based <span class="caps">RISC</span> OS Emulator with working Sound and <span class="caps">SATA</span> and Screen Resolution Outputs</p>
-        <p>Resources Used: <a href="https://www.ti.com/product/AM5728#features">https://www.ti.com/product/AM5728#features</a> and <span class="caps">RISCOS</span> Open Ti <span class="caps">HAL</span> and RiscOS Source Code.</p>
-        <p>Currently Booted to Desktop on a Linux x86 <span class="caps">QEMU</span> Box.</p>
-        <p>Lots still to do and fix, Fully built using references from the <span class="caps">HAL</span>, using a Custom Kernel.<br />
-        Stay Tuned!</p>
-        <p>Emulator — <span class="caps">TODO</span> to &#8220;fully functional&#8221;</p>
-        Working So Far: boot to desktop, display (all resolutions + colour depths via VID3 alias), <span class="caps">USB</span> kbd/mouse, <span class="caps">SATA</span> boot disc, <span class="caps">CMOS</span> persistence, Sound Via SBlaster Codec
-        In progress:
-        <p>Networking — Model the AM5728 GMAC_SW as a self-contained <span class="caps">QEMU</span> <span class="caps">NIC</span> device <span class="caps">SLIRP</span> <span class="caps">NAT</span> for host Internet. Driver already in <span class="caps">ROM</span>.</p>
-        <p>Time/Date plugin — <span class="caps">RTC</span> is modeled but the plugin was never re-confirmed after the fix. Quick re-test.</p>
-        <p><span class="caps">USB</span> mass storage — only kbd/mouse devices attached; no <span class="caps">USB</span> disc support.<br />
-        Graceful shutdown / reboot — verify Shutdown reboots cleanly.<br />
-        Upstreaming/cleanup — the <span class="caps">QEMU</span> patches are local; consolidate + document.</p>
-        <p>Consolidate to Installer based Single App, With Filecore Virtual Drive Formatter and Full Support for Macintosh, Windows and Linux.<br />
-        Not everyone will agree with the approach i&#8217;m taking for projects because i&#8217;m using AI as a helper, But its proof that its useful<br />
-        and sadly its the way things will progress.</p>
-        <p><img src="https://images2.imgbox.com/25/42/GwJXUJHy_o.png" alt="" /></p>
-        <p><img src="https://images2.imgbox.com/cd/33/hRtSe8o4_o.png" alt="" /></p>]]>
-      </description>
-      <source:markdown>After a very long process and hardwork over the last couple of weeks!!
-
-I can now reveal this project, A15 Based RISC OS Emulator with working Sound and SATA and Screen Resolution Outputs
-
-Resources Used: [https://www.ti.com/product/AM5728#features](https://www.ti.com/product/AM5728#features) and RISCOS Open Ti HAL and RiscOS Source Code.
-
-Currently Booted to Desktop on a Linux x86 QEMU Box.
-
-Lots still to do and fix, Fully built using references from the HAL, using a Custom Kernel.
-
-Stay Tuned!
-
-Emulator — TODO to “fully functional”
-
-Working So Far: boot to desktop, display (all resolutions + colour depths via VID3 alias), USB kbd/mouse, SATA boot disc, CMOS persistence, Sound Via SBlaster Codec
-In progress:
-
-Networking — Model the AM5728 GMAC\_SW as a self-contained QEMUNIC device SLIRPNAT for host Internet. Driver already in ROM.
-
-Time/Date plugin — RTC is modeled but the plugin was never re-confirmed after the fix. Quick re-test.
-
-USB mass storage — only kbd/mouse devices attached; no USB disc support.
-
-Graceful shutdown / reboot — verify Shutdown reboots cleanly.
-
-Upstreaming/cleanup — the QEMU patches are local; consolidate + document.
-
-Consolidate to Installer based Single App, With Filecore Virtual Drive Formatter and Full Support for Macintosh, Windows and Linux.
-
-Not everyone will agree with the approach i’m taking for projects because i’m using AI as a helper, But its proof that its useful
-
-and sadly its the way things will progress.
-
-![](https://images2.imgbox.com/25/42/GwJXUJHy_o.png)
-
-![](https://images2.imgbox.com/cd/33/hRtSe8o4_o.png)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20449:164530</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mocxl3timc25</link>
       <description>
@@ -215,7 +292,7 @@ Bought it multiple times since (second only to Jeff Wayne&#39;s WOTW).
 https://youtu.be/JhRB0uUmP6Q?t=2582&#38;is=45Xaj9KymvvBq1TW</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mocthegqas2p</guid>
     </item>    <item>
-      <title>ROOL&#39;s 20th bithday (and last week to get your donation matched)</title>
+      <title>ROOL&#39;s 20th birthday (and last week to get your donation matched)</title>
       <link>http://www.iconbar.com/comments/rss/news2343.html</link>
       <description>
         <![CDATA[This week marks the 20th anniversary of ROOL's founding on June 20th 2006.  Who would have thought then we would still be here using RISC OS. A major part of that is down to ROOL and the open sourcing of RISC OS.]]>
