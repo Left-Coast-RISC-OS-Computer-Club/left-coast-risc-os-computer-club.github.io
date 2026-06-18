@@ -7,10 +7,51 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>17 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>18 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mol42v2rvc2x</link>
+      <description>
+        <![CDATA[🎉 Took me just 12 years 😅 but I finally made it! Reached (well passed) 10,000 Open Source contributions on @github.com !
+        
+        If you'd like to check out my github profile it's here:
+        
+        github.com/pzaino
+        
+        #OpenSource #programming #SoftwareEngineering]]>
+      </description>
+      <source:markdown>🎉 Took me just 12 years 😅 but I finally made it! Reached (well passed) 10,000 Open Source contributions on @github.com !
+
+If you&#39;d like to check out my github profile it&#39;s here:
+
+github.com/pzaino
+
+#OpenSource #programming #SoftwareEngineering</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mol42v2rvc2x</guid>
+    </item>    <item>
+      <title>Pi4 CM4 V3D Driver with MESA</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20447</link>
+      <description>
+        <![CDATA[<p>This is great news. I&#8217;d be happy to help with testing once its ready &#8211; I have a metric ton load of WebGL / OpenGL demos/tests.</p>]]>
+      </description>
+      <source:markdown>This is great news. I’d be happy to help with testing once its ready – I have a metric ton load of WebGL / OpenGL demos/tests.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20447:164574</guid>
+    </item>    <item>
+      <title>File not found</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/19564</link>
+      <description>
+        <![CDATA[<p>What are the attributes of the lost+found directory that is giving the Access Denied in OS_GBPB?<br />
+        Can they be set on the <span class="caps">NAS</span> using Win11?<br />
+        (Just wondering if I can try to re-create your problem)</p>]]>
+      </description>
+      <source:markdown>What are the attributes of the lost+found directory that is giving the Access Denied in OS\_GBPB?
+
+Can they be set on the NAS using Win11?
+
+(Just wondering if I can try to re-create your problem)</source:markdown>
+      <guid>cid://www.riscosopen.org:4:19564:164563</guid>
+    </item>    <item>
       <title>WROCC June 2026 talk on Wednesday</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13599&#38;page=1#125902</link>
       <description>
@@ -71,6 +112,23 @@ This is what you used in C programs for Compo scripts
 Take care of yourself, programming is a very good exercise.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20437:164562</guid>
     </item>    <item>
+      <title>Update to RPCEmu (Spork Edition) now available...</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20450</link>
+      <description>
+        <![CDATA[<p>It does now&#8230; ;)</p>
+        <p>As a test, I&#8217;ve just spun a basic 1GB Ubuntu 24.04 machine up on Digital Ocean and accessed it just fine using Remmina.</p>
+        <p>Can find out more here on how to use the headless mode:<br />
+        <a href="https://github.com/andrewtimmins/rpcemu-extended#headless-mode">https://github.com/andrewtimmins/rpcemu-extended#headl…</a></p>]]>
+      </description>
+      <source:markdown>It does now… ;)
+
+As a test, I’ve just spun a basic 1GB Ubuntu 24.04 machine up on Digital Ocean and accessed it just fine using Remmina.
+
+Can find out more here on how to use the headless mode:
+
+[https://github.com/andrewtimmins/rpcemu-extended#headl…](https://github.com/andrewtimmins/rpcemu-extended#headless-mode)</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20450:164561</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mogs5hzqls2j</link>
       <description>
         <![CDATA[A huge stack of my old BBC Micro and Acorn Electron game development disks plus other utlilities. It includes the source code for Galaforce, Crazee Rider and Galaforce 2. I have archived and shared many of the important ones on GitHub.]]>
@@ -85,6 +143,14 @@ Take care of yourself, programming is a very good exercise.</source:markdown>
       <source:markdown>A BASIC animation series I wrote for Computing with the Amstrad magazine when I worked at Database Publications. This is the 3rd and final article in the series from June 1985! I can&#39;t believe this was 41 years ago when I was just 19 years old.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mogrhxq5b22j</guid>
     </item>    <item>
+      <title>Omap 5 Emulator</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20449</link>
+      <description>
+        <![CDATA[<p>Who doesn&#8217;t like&#8230; Swallows and Amazons characters.</p>]]>
+      </description>
+      <source:markdown>Who doesn’t like… Swallows and Amazons characters.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20449:164559</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mognscvbx22d</link>
       <description>
         <![CDATA[Funniest pan in the history of cinema
@@ -95,88 +161,6 @@ Take care of yourself, programming is a very good exercise.</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mognscvbx22d</guid>
-    </item>    <item>
-      <title>Update to RPCEmu (Spork Edition) now available...</title>
-      <link>https://www.riscosopen.org/forum/forums/10/topics/20450</link>
-      <description>
-        <![CDATA[<p>Hi everyone,</p>
-        <p>A few months ago, I released my hobby version of RPCEmu (named Spork edition) on GitHub. I had originally hacked it together to do a few things I wanted, and I thought I&#8217;d share it in case it was useful to anyone else.</p>
-        <p>I&#8217;ve just released a new version that hopefully fixes a lot of the issues that cropped up on other people&#8217;s machines, and adds a few new features that I hope you&#8217;ll find useful.</p>
-        <p>Please note it&#8217;s Linux-only right now. The front-end has been rebuilt in wxWidgets and the build moved to CMake, so this isn&#8217;t a drop-in replacement for the Windows builds — it&#8217;s very much a Linux-focused experiment.</p>
-        <p>What&#8217;s different from upstream:</p>
-        <ul>
-        	<li>Multi-machine configuration: A startup selector to create, edit, clone and delete machine profiles, each with its own isolated <span class="caps">CMOS</span>, HostFS and hard discs; quick switching between machines and recent-discs menus.</li>
-        </ul>
-        <ul>
-        	<li>Dual HostFS drives: A per-machine HostFS plus a common &#8220;Shared&#8221; drive visible to all machines.</li>
-        </ul>
-        <ul>
-        	<li>Access/ShareFS networking: A <span class="caps">NAT</span>-mode relay so emulated and real machines can share files.</li>
-        </ul>
-        <ul>
-        	<li>Reliable <span class="caps">IDE</span> hard discs — fixed the data corruption that affected <span class="caps">IDE</span> on <span class="caps">RISC</span> OS 5, so hard-disc images(HardDisc4/5) can now be created and used safely.</li>
-        </ul>
-        <ul>
-        	<li>Full FPA10 floating-point emulation: Works with both the interpreter and the recompiler.</li>
-        </ul>
-        <ul>
-        	<li>Built-in <span class="caps">VNC</span> server: Drive the emulated machine remotely.</li>
-        </ul>
-        <ul>
-        	<li>Serial port: Log to a file, or a real telnet &#8220;modem&#8221;: <span class="caps">ATD</span> host:port (eg: ATDbbs.halium.com) dials telnet BBSes, with a telnet/binary layer so X/Y/<span class="caps">ZMODEM</span> transfers stay 8-bit clean.</li>
-        </ul>
-        <ul>
-        	<li>Parallel port: Capture print jobs to file, or a virtual printer with in-process <span class="caps">PDF</span> output via Ghostscript.</li>
-        </ul>
-        <ul>
-        	<li>Machine Inspector &amp; debugger: Live <span class="caps">CPU</span>/registers, disassembly, memory browser, peripheral view, breakpoints and watchpoints (recompiler-aware).</li>
-        </ul>
-        <ul>
-        	<li>Modernisation: Pixel-perfect integer scaling, a toolbar with activity indicators and CMake-based packaging.</li>
-        </ul>
-        <p>Getting it / building it:</p>
-        <p><a href="https://github.com/andrewtimmins/rpcemu-extended">https://github.com/andrewtimmins/rpcemu-extended</a></p>
-        <p>The prebuilt 64-bit binary was built on Ubuntu 24.04, so it runs on 24.04-class distributions and newer. If your system is compatible, you can just grab the tarball (or the .deb); the <span class="caps">README</span> explains the supported distributions and the one-line runtime-library setup. If you&#8217;re on an older or different distro — or want arm64 — the <span class="caps">README</span> and <span class="caps">COMPILE</span>.md walk you through building from source, which is just a couple of scripts.</p>
-        <p>Feedback, bug reports and ideas are very welcome (GitHub issues, please). And I can&#8217;t forget, a huge thanks to the RPCEmu authors. 🙂</p>]]>
-      </description>
-      <source:markdown>Hi everyone,
-
-A few months ago, I released my hobby version of RPCEmu (named Spork edition) on GitHub. I had originally hacked it together to do a few things I wanted, and I thought I’d share it in case it was useful to anyone else.
-
-I’ve just released a new version that hopefully fixes a lot of the issues that cropped up on other people’s machines, and adds a few new features that I hope you’ll find useful.
-
-Please note it’s Linux-only right now. The front-end has been rebuilt in wxWidgets and the build moved to CMake, so this isn’t a drop-in replacement for the Windows builds — it’s very much a Linux-focused experiment.
-
-What’s different from upstream:
-
-- Multi-machine configuration: A startup selector to create, edit, clone and delete machine profiles, each with its own isolated CMOS, HostFS and hard discs; quick switching between machines and recent-discs menus.
-
-- Dual HostFS drives: A per-machine HostFS plus a common “Shared” drive visible to all machines.
-
-- Access/ShareFS networking: A NAT-mode relay so emulated and real machines can share files.
-
-- Reliable IDE hard discs — fixed the data corruption that affected IDE on RISC OS 5, so hard-disc images(HardDisc4/5) can now be created and used safely.
-
-- Full FPA10 floating-point emulation: Works with both the interpreter and the recompiler.
-
-- Built-in VNC server: Drive the emulated machine remotely.
-
-- Serial port: Log to a file, or a real telnet “modem”: ATD host:port (eg: ATDbbs.halium.com) dials telnet BBSes, with a telnet/binary layer so X/Y/ZMODEM transfers stay 8-bit clean.
-
-- Parallel port: Capture print jobs to file, or a virtual printer with in-process PDF output via Ghostscript.
-
-- Machine Inspector &#38; debugger: Live CPU/registers, disassembly, memory browser, peripheral view, breakpoints and watchpoints (recompiler-aware).
-
-- Modernisation: Pixel-perfect integer scaling, a toolbar with activity indicators and CMake-based packaging.
-
-Getting it / building it:
-
-[https://github.com/andrewtimmins/rpcemu-extended](https://github.com/andrewtimmins/rpcemu-extended)
-
-The prebuilt 64-bit binary was built on Ubuntu 24.04, so it runs on 24.04-class distributions and newer. If your system is compatible, you can just grab the tarball (or the .deb); the README explains the supported distributions and the one-line runtime-library setup. If you’re on an older or different distro — or want arm64 — the README and COMPILE.md walk you through building from source, which is just a couple of scripts.
-
-Feedback, bug reports and ideas are very welcome (GitHub issues, please). And I can’t forget, a huge thanks to the RPCEmu authors. 🙂</source:markdown>
-      <guid>cid://www.riscosopen.org:10:20450:164556</guid>
     </item>    <item>
       <title>Abusive emails</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20448</link>
@@ -214,37 +198,6 @@ https://static.klipy.com/ii/c3a19a0b747a76e98651f2b9a3cca5ff/bf/0a/V2vmGab0.gif?
       </description>
       <source:markdown>I just found this article I wrote in Computing with the Amstrad ( December 1985 ). I&#39;d forgotten about it so it was a really nice surprise to find it after 40 years! It&#39;s a techincal article about programming the Amstrad CPC&#39;s 6845 CRTC ( video controller ). The BBC Micro has exactly the same CRTC.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3modty5tsjs2h</guid>
-    </item>    <item>
-      <title>File not found</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/19564</link>
-      <description>
-        <![CDATA[<p>I have just tried OS_GBPB,10 on a directory on my <span class="caps">NAS</span> which contains a file &#8220;.config&#8221; set with Hidden attribute using Win11 Properties.<br />
-        Using LanMan 2.72 it is not listed, but does not error.<br />
-        Using LanMan SMB2 alpha it is not listed, and does not error.<br />
-        Using LanMan98 2.06 it <strong>is</strong> listed &#8230; but I do have an OS variable LanMan98$ShowHidden so it should be.</p>
-        <p>Note that without the Hidden attribute, it is always shown, even when it starts in a dot.</p>]]>
-      </description>
-      <source:markdown>I have just tried OS\_GBPB,10 on a directory on my NAS which contains a file “.config” set with Hidden attribute using Win11 Properties.
-
-Using LanMan 2.72 it is not listed, but does not error.
-
-Using LanMan SMB2 alpha it is not listed, and does not error.
-
-Using LanMan98 2.06 it **is** listed … but I do have an OS variable LanMan98$ShowHidden so it should be.
-
-Note that without the Hidden attribute, it is always shown, even when it starts in a dot.</source:markdown>
-      <guid>cid://www.riscosopen.org:4:19564:164542</guid>
-    </item>    <item>
-      <title>Omap 5 Emulator</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20449</link>
-      <description>
-        <![CDATA[<p>Full Networking now Working! <br />
-        <img src="https://images2.imgbox.com/2d/3c/qtvD61dG_o.png" alt="" /></p>]]>
-      </description>
-      <source:markdown>Full Networking now Working!
-
-![](https://images2.imgbox.com/2d/3c/qtvD61dG_o.png)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20449:164541</guid>
     </item>    <item>
       <link>https://bsky.app/profile/iconbar.com/post/3modflwkjg22u</link>
       <description>
@@ -330,17 +283,6 @@ https://youtu.be/JhRB0uUmP6Q?t=2582&#38;is=45Xaj9KymvvBq1TW</source:markdown>
       <source:markdown>My brain works like this clock....
 Image by Peter U. Costello</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mobi5s5aac2m</guid>
-    </item>    <item>
-      <title>Pi4 CM4 V3D Driver with MESA</title>
-      <link>https://www.riscosopen.org/forum/forums/5/topics/20447</link>
-      <description>
-        <![CDATA[<p>Martin &#8211; might be worth talking to Lee Noar re Iris.  For Iris &#8220;2.0&#8221; he has ported Mesa and some software driver stuff, although we&#8217;ve been focussing on Iris 1.0 for now.  Recent WebKit builds rather assume OpenGL/Mesa-based graphics acceleration, so if you&#8217;re exploring those avenues, it might be worth keeping in touch with Lee to see if you can bolt things together.</p>
-        <p>Also &#8211; fascinating project and nice work so far!  Probably should have started with that :)</p>]]>
-      </description>
-      <source:markdown>Martin – might be worth talking to Lee Noar re Iris. For Iris “2.0” he has ported Mesa and some software driver stuff, although we’ve been focussing on Iris 1.0 for now. Recent WebKit builds rather assume OpenGL/Mesa-based graphics acceleration, so if you’re exploring those avenues, it might be worth keeping in touch with Lee to see if you can bolt things together.
-
-Also – fascinating project and nice work so far! Probably should have started with that :)</source:markdown>
-      <guid>cid://www.riscosopen.org:5:20447:164522</guid>
     </item>    <item>
       <title>On/Off key</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20446</link>
