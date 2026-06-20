@@ -7,10 +7,71 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>19 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>20 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>For dark themes it is implied (and required) that you use 3D/sprite based tools and have background blending on. I was planning on having a *WimpVisualFlags switch to say what the default fill colour is (so things that want to plot their own text can use that as the background to antialias onto) and expect that will solve most of the remaining oddities</p>
+        </blockquote>
+        <p>I&#8217;ve gone ahead and implemented that now in <a href="https://gitlab.riscosopen.org/rsprowson/Wimp/-/commits/dark-mode">the Wimp</a>, so <code>*WimpVisualFlags -WindowBackgroundColour &amp;RRGGBB</code> will colour any default very light grey window fills with colour <span class="caps">RRGGBB</span> instead. That solves the specific need for things that want to paint their own text but not use background blending can know what a better colour to blend towards is (I changed <a href="https://gitlab.riscosopen.org/rsprowson/Filer/-/commits/dark-mode">the Filer</a> to use this now).</p>
+        <p>There&#8217;s another updated <a href="https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/pipelines">ThemeSetup plug-in</a> to propagate that switch from the theme&#8217;s flags to Choices when selected.</p>
+        <blockquote>
+        <p>When 3D window borders are enabled, the border uses light colours. ThemeSetup also crashes when turning it on.</p>
+        </blockquote>
+        <p>For testing there&#8217;s a <a href="https://www.sprow.co.uk/TestDarkLight.zip">pre-built Pi <span class="caps">ROM</span> and update to !Boot</a> containing all the above goodies and a test &#8216;Dark Purple&#8217; theme. That theme now defines the 3D window border colours so hopefully they&#8217;re not so light any more. I was unable to see a crash with ThemeSetup though.</p>]]>
+      </description>
+      <source:markdown>&#62; For dark themes it is implied (and required) that you use 3D/sprite based tools and have background blending on. I was planning on having a \*WimpVisualFlags switch to say what the default fill colour is (so things that want to plot their own text can use that as the background to antialias onto) and expect that will solve most of the remaining oddities
+
+I’ve gone ahead and implemented that now in [the Wimp](https://gitlab.riscosopen.org/rsprowson/Wimp/-/commits/dark-mode), so `*WimpVisualFlags -WindowBackgroundColour &#38;RRGGBB` will colour any default very light grey window fills with colour RRGGBB instead. That solves the specific need for things that want to paint their own text but not use background blending can know what a better colour to blend towards is (I changed [the Filer](https://gitlab.riscosopen.org/rsprowson/Filer/-/commits/dark-mode) to use this now).
+
+There’s another updated [ThemeSetup plug-in](https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/pipelines) to propagate that switch from the theme’s flags to Choices when selected.
+
+&#62; When 3D window borders are enabled, the border uses light colours. ThemeSetup also crashes when turning it on.
+
+For testing there’s a [pre-built Pi ROM and update to !Boot](https://www.sprow.co.uk/TestDarkLight.zip) containing all the above goodies and a test ‘Dark Purple’ theme. That theme now defines the 3D window border colours so hopefully they’re not so light any more. I was unable to see a crash with ThemeSetup though.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:20340:164599</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3moqfgk7o222m</link>
+      <description>
+        <![CDATA[Fangorn.]]>
+      </description>
+      <source:markdown>Fangorn.</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3moqfgk7o222m</guid>
+    </item>    <item>
+      <title>20 today!</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20455</link>
+      <description>
+        <![CDATA[<p>To celebrate ROOL&#8217;s 20th, we&#8217;ve published a <a href="https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open">recap of what happened during those 20 years</a>.</p>]]>
+      </description>
+      <source:markdown>To celebrate ROOL’s 20th, we’ve published a [recap of what happened during those 20 years](https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open).</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20455:164596</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/riscosopen.bsky.social/post/3moq5sfci622c</link>
+      <description>
+        <![CDATA[RISC OS Open is 20 years old! 🍾
+        
+        https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open]]>
+      </description>
+      <source:markdown>RISC OS Open is 20 years old! 🍾
+
+https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open</source:markdown>
+      <guid>cid://at://did:plc:e3k7odasqhsg6xfgfkvovpsb/app.bsky.feed.post/3moq5sfci622c</guid>
+    </item>    <item>
+      <title>Twenty years of RISC OS Open</title>
+      <link>https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open</link>
+      <description>
+        <![CDATA[<p>On 20 June 2006 we incorporated <span class="caps">RISC</span> OS Open Ltd with one slightly mad ambition: to take a proprietary operating system and open it up to anyone who fancied helping. Twenty years on, that has largely happened, and the <span class="caps">RISC</span> OS of today is in far better health than the one we inherited.</p>
+        <p>To mark the occasion, here is the story so far, with one highlight for each of our first twenty years. Our thanks go to everyone who has written code, filed a bug, funded a bounty, contributed in our forums and wiki, tested a nightly build, or simply cheered from the sidelines. None of it would exist without you.</p>]]>
+      </description>
+      <source:markdown>On 20 June 2006 we incorporated RISC OS Open Ltd with one slightly mad ambition: to take a proprietary operating system and open it up to anyone who fancied helping. Twenty years on, that has largely happened, and the RISC OS of today is in far better health than the one we inherited.
+
+To mark the occasion, here is the story so far, with one highlight for each of our first twenty years. Our thanks go to everyone who has written code, filed a bug, funded a bounty, contributed in our forums and wiki, tested a nightly build, or simply cheered from the sidelines. None of it would exist without you.</source:markdown>
+      <guid>cid://urn:uuid:6c5b2179-145b-44bb-9704-d9579a1ff991</guid>
+    </item>    <item>
       <title>IsocUSB Player</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20454</link>
       <description>
@@ -119,6 +180,14 @@ Many thanks – Ian.</source:markdown>
       <source:markdown>Sorry – posted in the wrong forum group. I’ve moved it.</source:markdown>
       <guid>cid://www.riscosopen.org:13:20451:164584</guid>
     </item>    <item>
+      <title>Update to RPCEmu (Spork Edition) now available...</title>
+      <link>https://www.riscosopen.org/forum/forums/10/topics/20450</link>
+      <description>
+        <![CDATA[<p>Just wondering why you&#8217;ve replaced Qt with wxWidgets. These days Qt is as well supported on all the major platforms and it does have the reputation of being fast &mdash; and it is also well documented.</p>]]>
+      </description>
+      <source:markdown>Just wondering why you’ve replaced Qt with wxWidgets. These days Qt is as well supported on all the major platforms and it does have the reputation of being fast — and it is also well documented.</source:markdown>
+      <guid>cid://www.riscosopen.org:10:20450:164582</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mol42v2rvc2x</link>
       <description>
         <![CDATA[🎉 Took me just 12 years 😅 but I finally made it! Reached (well passed) 10,000 Open Source contributions on @github.com !
@@ -190,6 +259,19 @@ step 4 \[optional\] Takes that and puts it into a PDF. (Because IIUC it is easie
       <source:markdown>So just finishing off the SMP implementation, and should be ready for some alpha testing in a couple of weeks, First 2 Candidates will Be Linux and Windows</source:markdown>
       <guid>cid://www.riscosopen.org:1:20449:164578</guid>
     </item>    <item>
+      <title>File not found</title>
+      <link>https://www.riscosopen.org/forum/forums/4/topics/19564</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p><span class="caps">AIUI</span> the lost+found directory is created when the volume is formatted. It must never be deleted</p>
+        </blockquote>
+        <p>There is a specific command, mklost+found, which normally lives in /usr/sbin and presumably is for the use of idiots like me who delete lost+found without realising its significance.</p>]]>
+      </description>
+      <source:markdown>&#62; AIUI the lost+found directory is created when the volume is formatted. It must never be deleted
+
+There is a specific command, mklost+found, which normally lives in /usr/sbin and presumably is for the use of idiots like me who delete lost+found without realising its significance.</source:markdown>
+      <guid>cid://www.riscosopen.org:4:19564:164576</guid>
+    </item>    <item>
       <title>Pi4 CM4 V3D Driver with MESA</title>
       <link>https://www.riscosopen.org/forum/forums/5/topics/20447</link>
       <description>
@@ -197,28 +279,6 @@ step 4 \[optional\] Takes that and puts it into a PDF. (Because IIUC it is easie
       </description>
       <source:markdown>This is great news. I’d be happy to help with testing once its ready – I have a metric ton load of WebGL / OpenGL demos/tests including some large scale WebGL 3D game rendering.</source:markdown>
       <guid>cid://www.riscosopen.org:5:20447:164574</guid>
-    </item>    <item>
-      <title>File not found</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/19564</link>
-      <description>
-        <![CDATA[<p>That first line puzzled me, until I realised it had fallen victim to textile as part of it is included in hyphens!<br />
-        I gather that it is an ext4 disc with some linux attributes, but not being familiar with linux I have been unable to identify what it means.</p>]]>
-      </description>
-      <source:markdown>That first line puzzled me, until I realised it had fallen victim to textile as part of it is included in hyphens!
-
-I gather that it is an ext4 disc with some linux attributes, but not being familiar with linux I have been unable to identify what it means.</source:markdown>
-      <guid>cid://www.riscosopen.org:4:19564:164569</guid>
-    </item>    <item>
-      <title>Update to RPCEmu (Spork Edition) now available...</title>
-      <link>https://www.riscosopen.org/forum/forums/10/topics/20450</link>
-      <description>
-        <![CDATA[<p>Blimey!  You don&#8217;t mess about, do you Andy?!</p>
-        <p>I&#8217;ll have to get my Pi5 up to scratch.  I can&#8217;t remember if I have any build tools on there, maybe not even git.  I guess if I waited 20 years, it could appear in the Debian <span class="caps">APT</span> repo, but I&#8217;ll probably want try it before then!  :)</p>]]>
-      </description>
-      <source:markdown>Blimey! You don’t mess about, do you Andy?!
-
-I’ll have to get my Pi5 up to scratch. I can’t remember if I have any build tools on there, maybe not even git. I guess if I waited 20 years, it could appear in the Debian APT repo, but I’ll probably want try it before then! :)</source:markdown>
-      <guid>cid://www.riscosopen.org:10:20450:164568</guid>
     </item>    <item>
       <title>WROCC June 2026 talk on Wednesday</title>
       <link>http://www.iconbar.com/forums/viewthread.php?threadid=13599&#38;page=1#125902</link>
@@ -845,27 +905,6 @@ https://www.youtube.com/live/Oy\_mCJfQtJM?si=DgLfkys1gJ83oO0K</source:markdown>
       </description>
       <source:markdown>A rather interesting Bamboo Keyboard and Mouse. I&#39;ve never seen one of these before. Great idea. The keyboard seemed to be pleasant enough to use.</source:markdown>
       <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mnp3bp6ya22t</guid>
-    </item>    <item>
-      <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
-      <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>(because the Filer plots the columns of text itself)</p>
-        </blockquote>
-        <p>Is there an advantage to implementing it this way? I&#8217;ve noticed that Paint doesn&#8217;t seem to have this issue with &#8220;Full sprite details&#8221; enabled, so I&#8217;m assuming that uses standard icons.</p>
-        <blockquote>
-        <p>along with a change to RISC_OSLib (which is where the bulk of the editor lives) to default to black-on-white for dark themes rather than the usual white-on-black when a new text window is opened.</p>
-        </blockquote>
-        <p>Should SrcEdit be changed to follow the theme as well? Currently it always defaults to white text on a black background regardless of the theme.</p>]]>
-      </description>
-      <source:markdown>&#62; (because the Filer plots the columns of text itself)
-
-Is there an advantage to implementing it this way? I’ve noticed that Paint doesn’t seem to have this issue with “Full sprite details” enabled, so I’m assuming that uses standard icons.
-
-&#62; along with a change to RISC\_OSLib (which is where the bulk of the editor lives) to default to black-on-white for dark themes rather than the usual white-on-black when a new text window is opened.
-
-Should SrcEdit be changed to follow the theme as well? Currently it always defaults to white text on a black background regardless of the theme.</source:markdown>
-      <guid>cid://www.riscosopen.org:4:20340:164430</guid>
     </item>    <item>
       <title>31/5/26 ROM boot fail</title>
       <link>https://www.riscosopen.org/forum/forums/4/topics/20434</link>

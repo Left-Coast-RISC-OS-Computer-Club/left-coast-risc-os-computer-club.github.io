@@ -2,11 +2,11 @@
 <html lang="en-US">
 <head>
   <meta charset="utf-8" >
-  <meta content="antenna/0.0.24" name="generator" >
-  <meta name="date" content="2026-06-19T12:00:25-07:00" >
+  <meta name="generator" content="antenna/0.0.24" >
+  <meta name="date" content="2026-06-20T12:00:25-07:00" >
   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
   <title>RISCOS</title>
-  <link type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" >
+  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
 </head>
 <body>
   <header>
@@ -21,6 +21,76 @@
     </ul>
   </nav>
   <main id="main-content">
+
+    <article data-published="2026-06-20T18:36:44Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20340">
+      <h2>Wimp 5.89 Testing with ROOL ThemeDefs!</h2>
+
+(date: 2026-06-20)
+      <p>
+      <blockquote>
+<p>For dark themes it is implied (and required) that you use 3D/sprite based tools and have background blending on. I was planning on having a *WimpVisualFlags switch to say what the default fill colour is (so things that want to plot their own text can use that as the background to antialias onto) and expect that will solve most of the remaining oddities</p>
+</blockquote>
+<p>I’ve gone ahead and implemented that now in <a href="https://gitlab.riscosopen.org/rsprowson/Wimp/-/commits/dark-mode">the Wimp</a>, so <code>*WimpVisualFlags -WindowBackgroundColour &amp;RRGGBB</code> will colour any default very light grey window fills with colour RRGGBB instead. That solves the specific need for things that want to paint their own text but not use background blending can know what a better colour to blend towards is (I changed <a href="https://gitlab.riscosopen.org/rsprowson/Filer/-/commits/dark-mode">the Filer</a> to use this now).</p>
+<p>There’s another updated <a href="https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/pipelines">ThemeSetup plug-in</a> to propagate that switch from the theme’s flags to Choices when selected.</p>
+<blockquote>
+<p>When 3D window borders are enabled, the border uses light colours. ThemeSetup also crashes when turning it on.</p>
+</blockquote>
+<p>For testing there’s a <a href="https://www.sprow.co.uk/TestDarkLight.zip">pre-built Pi ROM and update to !Boot</a> containing all the above goodies and a test ‘Dark Purple’ theme. That theme now defines the 3D window border colours so hopefully they’re not so light any more. I was unable to see a crash with ThemeSetup though.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/4/topics/20340">https://www.riscosopen.org/forum/forums/4/topics/20340</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-20T17:36:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3moqfgk7o222m">
+      <h2>@nemo20000.bsky.social</h2>
+
+(date: 2026-06-20)
+      <p>
+      <p>Fangorn.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3moqfgk7o222m">https://bsky.app/profile/nemo20000.bsky.social/post/3moqfgk7o222m</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-20T15:25:37Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20455">
+      <h2>20 today!</h2>
+
+(date: 2026-06-20)
+      <p>
+      <p>To celebrate ROOL’s 20th, we’ve published a <a href="https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open">recap of what happened during those 20 years</a>.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20455">https://www.riscosopen.org/forum/forums/1/topics/20455</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-20T15:19:00Z" data-link="https://bsky.app/profile/riscosopen.bsky.social/post/3moq5sfci622c">
+      <h2>@riscosopen.bsky.social</h2>
+
+(date: 2026-06-20)
+      <p>
+      <p>RISC OS Open is 20 years old! 🍾</p>
+<p><a href="https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open">https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/riscosopen.bsky.social/post/3moq5sfci622c">https://bsky.app/profile/riscosopen.bsky.social/post/3moq5sfci622c</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-20T15:13:00Z" data-link="https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open">
+      <h2>Twenty years of RISC OS Open</h2>
+
+(date: 2026-06-20)
+      <p>
+      <p>On 20 June 2006 we incorporated RISC OS Open Ltd with one slightly mad ambition: to take a proprietary operating system and open it up to anyone who fancied helping. Twenty years on, that has largely happened, and the RISC OS of today is in far better health than the one we inherited.</p>
+<p>To mark the occasion, here is the story so far, with one highlight for each of our first twenty years. Our thanks go to everyone who has written code, filed a bug, funded a bounty, contributed in our forums and wiki, tested a nightly build, or simply cheered from the sidelines. None of it would exist without you.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open">https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open</a>
+      </address>
+    </article>
 
     <article data-published="2026-06-19T18:27:47Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20454">
       <h2>IsocUSB Player</h2>
@@ -133,6 +203,18 @@
       </address>
     </article>
 
+    <article data-published="2026-06-18T15:51:05Z" data-link="https://www.riscosopen.org/forum/forums/10/topics/20450">
+      <h2>Update to RPCEmu (Spork Edition) now available...</h2>
+
+(date: 2026-06-18)
+      <p>
+      <p>Just wondering why you’ve replaced Qt with wxWidgets. These days Qt is as well supported on all the major platforms and it does have the reputation of being fast — and it is also well documented.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/10/topics/20450">https://www.riscosopen.org/forum/forums/10/topics/20450</a>
+      </address>
+    </article>
+
     <article data-published="2026-06-18T15:05:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mol42v2rvc2x">
       <h2>@paolofabiozaino.bsky.social</h2>
 
@@ -184,6 +266,21 @@
       </address>
     </article>
 
+    <article data-published="2026-06-18T09:57:33Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/19564">
+      <h2>File not found</h2>
+
+(date: 2026-06-18)
+      <p>
+      <blockquote>
+<p>AIUI the lost+found directory is created when the volume is formatted. It must never be deleted</p>
+</blockquote>
+<p>There is a specific command, mklost+found, which normally lives in /usr/sbin and presumably is for the use of idiots like me who delete lost+found without realising its significance.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/4/topics/19564">https://www.riscosopen.org/forum/forums/4/topics/19564</a>
+      </address>
+    </article>
+
     <article data-published="2026-06-18T08:38:35Z" data-link="https://www.riscosopen.org/forum/forums/5/topics/20447">
       <h2>Pi4 CM4 V3D Driver with MESA</h2>
 
@@ -193,32 +290,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/5/topics/20447">https://www.riscosopen.org/forum/forums/5/topics/20447</a>
-      </address>
-    </article>
-
-    <article data-published="2026-06-17T20:59:03Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/19564">
-      <h2>File not found</h2>
-
-(date: 2026-06-17)
-      <p>
-      <p>That first line puzzled me, until I realised it had fallen victim to textile as part of it is included in hyphens!</p>
-<p>I gather that it is an ext4 disc with some linux attributes, but not being familiar with linux I have been unable to identify what it means.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/4/topics/19564">https://www.riscosopen.org/forum/forums/4/topics/19564</a>
-      </address>
-    </article>
-
-    <article data-published="2026-06-17T20:40:27Z" data-link="https://www.riscosopen.org/forum/forums/10/topics/20450">
-      <h2>Update to RPCEmu (Spork Edition) now available...</h2>
-
-(date: 2026-06-17)
-      <p>
-      <p>Blimey! You don’t mess about, do you Andy?!</p>
-<p>I’ll have to get my Pi5 up to scratch. I can’t remember if I have any build tools on there, maybe not even git. I guess if I waited 20 years, it could appear in the Debian APT repo, but I’ll probably want try it before then! :)</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/10/topics/20450">https://www.riscosopen.org/forum/forums/10/topics/20450</a>
       </address>
     </article>
 
@@ -963,25 +1034,6 @@ Image by Peter U. Costello</p>
 
       <address>
         <a href="https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mnp3bp6ya22t">https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mnp3bp6ya22t</a>
-      </address>
-    </article>
-
-    <article data-published="2026-06-07T10:53:22Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20340">
-      <h2>Wimp 5.89 Testing with ROOL ThemeDefs!</h2>
-
-(date: 2026-06-07)
-      <p>
-      <blockquote>
-<p>(because the Filer plots the columns of text itself)</p>
-</blockquote>
-<p>Is there an advantage to implementing it this way? I’ve noticed that Paint doesn’t seem to have this issue with “Full sprite details” enabled, so I’m assuming that uses standard icons.</p>
-<blockquote>
-<p>along with a change to RISC_OSLib (which is where the bulk of the editor lives) to default to black-on-white for dark themes rather than the usual white-on-black when a new text window is opened.</p>
-</blockquote>
-<p>Should SrcEdit be changed to follow the theme as well? Currently it always defaults to white text on a black background regardless of the theme.</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/4/topics/20340">https://www.riscosopen.org/forum/forums/4/topics/20340</a>
       </address>
     </article>
 
