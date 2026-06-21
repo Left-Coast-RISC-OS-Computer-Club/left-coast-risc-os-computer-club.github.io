@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.24" >
-  <meta name="date" content="2026-06-20T12:00:25-07:00" >
+  <meta name="date" content="2026-06-21T12:00:24-07:00" >
   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
   <title>RISCOS</title>
-  <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
+  <link href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" rel="alternate" type="application/rss+xml" >
 </head>
 <body>
   <header>
@@ -22,23 +22,66 @@
   </nav>
   <main id="main-content">
 
-    <article data-published="2026-06-20T18:36:44Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20340">
-      <h2>Wimp 5.89 Testing with ROOL ThemeDefs!</h2>
+    <article data-published="2026-06-21T17:16:07Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20399">
+      <h2>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</h2>
 
-(date: 2026-06-20)
+(date: 2026-06-21)
       <p>
       <blockquote>
-<p>For dark themes it is implied (and required) that you use 3D/sprite based tools and have background blending on. I was planning on having a *WimpVisualFlags switch to say what the default fill colour is (so things that want to plot their own text can use that as the background to antialias onto) and expect that will solve most of the remaining oddities</p>
+<p>When Jim gives the go ahead!</p>
 </blockquote>
-<p>I’ve gone ahead and implemented that now in <a href="https://gitlab.riscosopen.org/rsprowson/Wimp/-/commits/dark-mode">the Wimp</a>, so <code>*WimpVisualFlags -WindowBackgroundColour &amp;RRGGBB</code> will colour any default very light grey window fills with colour RRGGBB instead. That solves the specific need for things that want to paint their own text but not use background blending can know what a better colour to blend towards is (I changed <a href="https://gitlab.riscosopen.org/rsprowson/Filer/-/commits/dark-mode">the Filer</a> to use this now).</p>
-<p>There’s another updated <a href="https://gitlab.riscosopen.org/rsprowson/ThemeSetup/-/pipelines">ThemeSetup plug-in</a> to propagate that switch from the theme’s flags to Choices when selected.</p>
+<p>Is there any reason he might not?</p>
 <blockquote>
-<p>When 3D window borders are enabled, the border uses light colours. ThemeSetup also crashes when turning it on.</p>
+<p>The video has been ready for a while, so I’ve sent him a quick reminder.</p>
 </blockquote>
-<p>For testing there’s a <a href="https://www.sprow.co.uk/TestDarkLight.zip">pre-built Pi ROM and update to !Boot</a> containing all the above goodies and a test ‘Dark Purple’ theme. That theme now defines the 3D window border colours so hopefully they’re not so light any more. I was unable to see a crash with ThemeSetup though.</p>
+<p>How quick is quick?</p>
+<p>I wasn’t able to join the live presentation and have been looking forward to seeing what I missed – especially as I’ve nearly finished Rob Napier’s book.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20399">https://www.riscosopen.org/forum/forums/1/topics/20399</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-21T16:45:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3most24zm3s2j">
+      <h2>@nemo20000.bsky.social</h2>
+
+(date: 2026-06-21)
+      <p>
+      <p>DKs.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3most24zm3s2j">https://bsky.app/profile/nemo20000.bsky.social/post/3most24zm3s2j</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-21T14:01:29Z" data-link="https://www.riscosopen.org/forum/forums/4/topics/20340">
+      <h2>Wimp 5.89 Testing with ROOL ThemeDefs!</h2>
+
+(date: 2026-06-21)
+      <p>
+      <blockquote>
+<p>I have installed the Dark Mode ThemeSetup, size 15999, and it looks good so far.</p>
+</blockquote>
+<p>That’s a relief! It might make sense for me to submit fixes separately (I noticed a bug in the fading logic where you could request tiled menus but wouldn’t get them because the Wimp requires tiled windows to be enabled too) from the dark theme work as that’s likely to be in a state of flux for a while longer.</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/4/topics/20340">https://www.riscosopen.org/forum/forums/4/topics/20340</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-21T12:14:34Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20449">
+      <h2>Omap 5 Emulator</h2>
+
+(date: 2026-06-21)
+      <p>
+      <p>DO NOT? Why not?</p>
+<p>For what it’s worth, nothing here is an AI “fixing” FileCore by guessing. The on-disc format is documented — disc record, zone allocation maps, check bytes, fragment chains and the tools AI has written (a reader and a builder) are validated against that spec and against real discs, byte-for-byte. AI is a research assistant for working through the PRM and the kernel source faster; it isn’t the thing deciding what a valid map looks like.</p>
+<p>I’d never point a half-understood tool at a disc I cared about, which is rather the point of building a reader that round-trips cleanly before anything writes a single sector. And FYI i already with the EB Format Written and 16 Drive Limit implemented and Tested to Phase 3. It will BE EACHPERSONS “OWN” CHOICE if they want to use it, as RISC OS is Opensource and thats the power of choice.</p>
+<p>No worries on DiscKnight — I’m not asking you to support anything. I’m rebuilding/reading FileCore images for an emulator, not repairing customer discs. Plus it will have its own GUI Based Disc Scanning Tool That will Support every Format, From ADFS to SLOP as you put it. So if people don’t want to embrace it, sadly they will get left behind, RISCOS isnt exactly blessed with Developers.</p>
+<p>“Fileslop fixer” is a fun line, but I’m reading and rebuilding emulator disc images against the published format not running a magic-8-ball over someone’s ADFS partition. The verification is the whole job; the AI just reads the manual with me. Thanks Mr Anti-AI theres no stopping it. Everyone is moving in that direction. And if it progresses things why should anyone complain.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/1/topics/20449">https://www.riscosopen.org/forum/forums/1/topics/20449</a>
       </address>
     </article>
 
@@ -251,18 +294,6 @@
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/11/topics/20437">https://www.riscosopen.org/forum/forums/11/topics/20437</a>
-      </address>
-    </article>
-
-    <article data-published="2026-06-18T12:08:44Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20449">
-      <h2>Omap 5 Emulator</h2>
-
-(date: 2026-06-18)
-      <p>
-      <p>So just finishing off the SMP implementation, and should be ready for some alpha testing in a couple of weeks, First 2 Candidates will Be Linux and Windows</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20449">https://www.riscosopen.org/forum/forums/1/topics/20449</a>
       </address>
     </article>
 
@@ -984,18 +1015,6 @@ Image by Peter U. Costello</p>
 
       <address>
         <a href="https://bsky.app/profile/armbytes.bsky.social/post/3mnsjjnaad22y">https://bsky.app/profile/armbytes.bsky.social/post/3mnsjjnaad22y</a>
-      </address>
-    </article>
-
-    <article data-published="2026-06-08T19:50:03Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20399">
-      <h2>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</h2>
-
-(date: 2026-06-08)
-      <p>
-      <p>Any idea when the recording of this session will be uploaded?</p>
-
-      <address>
-        <a href="https://www.riscosopen.org/forum/forums/1/topics/20399">https://www.riscosopen.org/forum/forums/1/topics/20399</a>
       </address>
     </article>
 
