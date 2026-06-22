@@ -7,10 +7,100 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>21 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>22 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <title>DeTox bounty?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
+      <description>
+        <![CDATA[<p>I&#8217;d welcome confirmation or correction wrt an assumption I&#8217;m hoping I can make. If I can it means I can bypass my state of confusion about various sprite op calls, etc.</p>
+        <p>For the prog that should take an input Jpeg and output a &#8216;DeToxed version&#8217; I&#8217;m using this to get a plain sprite file of the input-</p>
+        <p>system (&#8220;changefsi <span class="caps">RAM</span>::RamDisc0.$.Page-001/jpg <span class="caps">RAM</span>::RamDisc0.$.Page001 S32&#8221;);</p>
+        <p><span class="caps">IIUC</span> this means I get a plain sprite file with just one sprite, with each pixel being allocated 4 bytes for mask/red/green/blue values.</p>
+        <p>I&#8217;ve done some checks and these seem to confirm this and that I can regard the sprite as a header which will use up 44 bytes (11 4-byte words) followed by a series of 4-byte values packing mrgb values (mask red green blue) each having a nominal 256 levels to give the image data.</p>
+        <p>If this (or a simple variation) is correct I can use my dimwit basic approach of skipping the first 44 bytes than getting the mrgb values from the file to numbercrunch and then output a DeToxed version that is based on my &#8216;expand the blue&#8217; trick. Do this via direct byte-bashing rather than keep getting muddled up by the calls listed in the PRMs, etc.</p>
+        <p>I know most skilled programmers will think this daft, but it means I can get past being muddled and deal with the meat in the sandwich via code that is like my original versions that used Compo to access the data array for test purposes.</p>
+        <p><span class="caps">BTW</span> I assume I&#8217;m right about the mrgb order of the bytes.</p>
+        <p>Apologies for my usual numpty-ness. But I&#8217;ve been beating my head with the PRMs, AcornC/C++ book, etc, and just get muddled by the details.</p>]]>
+      </description>
+      <source:markdown>I’d welcome confirmation or correction wrt an assumption I’m hoping I can make. If I can it means I can bypass my state of confusion about various sprite op calls, etc.
+
+For the prog that should take an input Jpeg and output a ‘DeToxed version’ I’m using this to get a plain sprite file of the input-
+
+system (“changefsi RAM::RamDisc0.$.Page-001/jpg RAM::RamDisc0.$.Page001 S32”);
+
+IIUC this means I get a plain sprite file with just one sprite, with each pixel being allocated 4 bytes for mask/red/green/blue values.
+
+I’ve done some checks and these seem to confirm this and that I can regard the sprite as a header which will use up 44 bytes (11 4-byte words) followed by a series of 4-byte values packing mrgb values (mask red green blue) each having a nominal 256 levels to give the image data.
+
+If this (or a simple variation) is correct I can use my dimwit basic approach of skipping the first 44 bytes than getting the mrgb values from the file to numbercrunch and then output a DeToxed version that is based on my ‘expand the blue’ trick. Do this via direct byte-bashing rather than keep getting muddled up by the calls listed in the PRMs, etc.
+
+I know most skilled programmers will think this daft, but it means I can get past being muddled and deal with the meat in the sandwich via code that is like my original versions that used Compo to access the data array for test purposes.
+
+BTW I assume I’m right about the mrgb order of the bytes.
+
+Apologies for my usual numpty-ness. But I’ve been beating my head with the PRMs, AcornC/C++ book, etc, and just get muddled by the details.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20437:164650</guid>
+    </item>    <item>
+      <title>ROOL&#39;s 20th birthday (and last week to get your donation matched)</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13607&#38;page=1#125904</link>
+      <description>
+        <![CDATA[And a nice summary from ROOL - https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open]]>
+      </description>
+      <source:markdown>And a nice summary from ROOL - https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13607&#38;page=1#125904</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mov45lpzek2z</link>
+      <description>
+        <![CDATA[Sorry for the slightly political post, but yet another pro/let's keep Brexit PM has resigned. Making trade with our neighbours harder is a huge ball and chain on our economy, and it clearly isn’t working. How many more failures will it take before we admit we made a mistake?]]>
+      </description>
+      <source:markdown>Sorry for the slightly political post, but yet another pro/let&#39;s keep Brexit PM has resigned. Making trade with our neighbours harder is a huge ball and chain on our economy, and it clearly isn’t working. How many more failures will it take before we admit we made a mistake?</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mov45lpzek2z</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mouyy4n3v22f</link>
+      <description>
+        <![CDATA[Reminder: Xiaomi released their first ever car 27 months ago. Now a YU7 is driving the Ring on its own (I hope it enjoyed it). 
+        
+        This is why legacy carmakers are furiously lobbying for more petrol cars - they're stuck in the 20th Century in their technology, engineering AND their thinking.
+        
+        Doomed.
+        https://youtu.be/QrC_V2xdIMU?si=zYabykeDzpDoR68i]]>
+      </description>
+      <source:markdown>Reminder: Xiaomi released their first ever car 27 months ago. Now a YU7 is driving the Ring on its own (I hope it enjoyed it).
+
+This is why legacy carmakers are furiously lobbying for more petrol cars - they&#39;re stuck in the 20th Century in their technology, engineering AND their thinking.
+
+Doomed.
+https://youtu.be/QrC\_V2xdIMU?si=zYabykeDzpDoR68i</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mouyy4n3v22f</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mouteqlehc22</link>
+      <description>
+        <![CDATA[Two-player ELITE for the BBC Micro is looking so cool. Great work, Mark!
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Two-player ELITE for the BBC Micro is looking so cool. Great work, Mark!
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mouteqlehc22</guid>
+    </item>    <item>
+      <title>Screen blanking not putting monitor into standby mode</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20456</link>
+      <description>
+        <![CDATA[<p>I have recently purchased a N.Ex.T mini.pi computer running <span class="caps">RISC</span> OS, but it does not turn the monitor off into standby mode when the screen is blanked.  Yes, my settings are correct and my monitor supports it.  It works correctly when using a normal Raspberry Pi 4.  Andrew Rawnsley suggested I mention it here as he can’t find anything wrong.  My monitor definition file correctly has its <span class="caps">DPMS</span> set to 3.  It currently blanks the screen but leaves the monitor fully switched on.  It should put the monitor into standby mode with the screen switching off.  It is not.  How can it be made to work please?</p>]]>
+      </description>
+      <source:markdown>I have recently purchased a N.Ex.T mini.pi computer running RISC OS, but it does not turn the monitor off into standby mode when the screen is blanked. Yes, my settings are correct and my monitor supports it. It works correctly when using a normal Raspberry Pi 4. Andrew Rawnsley suggested I mention it here as he can’t find anything wrong. My monitor definition file correctly has its DPMS set to 3. It currently blanks the screen but leaves the monitor fully switched on. It should put the monitor into standby mode with the screen switching off. It is not. How can it be made to work please?</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20456:164645</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3moufiqll422u</link>
+      <description>
+        <![CDATA[Loving my new @compiler-explorer.com desk topper! Really nice quality and a huge improvement on my old IKEA one that had seen better days 😅 Thanks, @matt.godbolt.org and team!]]>
+      </description>
+      <source:markdown>Loving my new @compiler-explorer.com desk topper! Really nice quality and a huge improvement on my old IKEA one that had seen better days 😅 Thanks, @matt.godbolt.org and team!</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3moufiqll422u</guid>
+    </item>    <item>
       <title>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20399</link>
       <description>
@@ -42,6 +132,63 @@ I wasn’t able to join the live presentation and have been looking forward to s
       <source:markdown>DKs.</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3most24zm3s2j</guid>
     </item>    <item>
+      <title>Omap 5 Emulator</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20449</link>
+      <description>
+        <![CDATA[<blockquote>
+        <p>One thing that wont keep people enjoying <span class="caps">RISC</span> OS is if filing system integrity has been outsourced to garbage generators, and people can no longer rely on it to keep their files safe.</p>
+        </blockquote>
+        <p>Are you referring to the recent issues identified by Rick? Those were caused by humans, just for the record. ;)</p>
+        <p>Here is what could potentially happen:</p>
+        <p>Given the large volume of training data relating to Linux filesystems, code generated by Claude could create licensing issues. This is the real concern with using AI. Low-quality output is also a genuine problem, but humans produce plenty of poor-quality code as well.</p>
+        <p>At present, I have very little time for <span class="caps">RISC</span> OS because I am working on a particularly demanding project at my job, which includes refactoring a considerable amount of poorly written, human-generated code.</p>
+        <p>So, what is the licensing problem? Put simply, while attempting to satisfy the specifications provided by Martin and use the so-called “skills” created by Gerph, the AI will probably generate code that is statistically likely based on patterns that are very common in its training data.</p>
+        <p>However, <span class="caps">RISC</span> OS filesystems lack many advanced features. As a result, the most statistically likely implementations may be based on patterns found in Linux filesystems. If the generated code reproduces <span class="caps">GPL</span>-licensed code too closely, that could create a serious licensing problem.</p>
+        <p>I explain the token-prediction process in detail, using relatively simple terms, in the following article. I am sharing it to avoid further discussion based on inaccurate assumptions about how AI works:</p>
+        <pre>
+        <a href="https://paolozaino.wordpress.com/2026/06/13/ai-debugging-a-tiny-llm-to-understand-what-happens-between-a-prompt-and-a-response/">https://paolozaino.wordpress.com/2026/06/13/ai-debuggi…</a>
+        </pre>
+        <p>I promise that it should be readable for most people.</p>
+        <p>Why does this matter here? Modern frontier AI models can process a great deal of context, so both code generation and code quality are improving steadily, even if they are not at John Carmack’s level, and probably never will be. However, the licensing status of generated code remains a significant concern.</p>
+        <p>Can Claude design a genuinely new FileCore for <span class="caps">RISC</span> OS? Probably not, because AI does not really create something entirely new. Could it produce something better than the implementation we currently have? Yes, potentially.</p>
+        <p>The question, therefore, is whether we want to experiment with something that could be better while accepting that the experiment might also create a mess. If it does, we can simply throw it away.</p>
+        <p>How do we reduce that risk, though? By applying the same safeguards that should already be used to prevent low-quality human-written code: <b>complete test coverage</b>.</p>
+        <p>P.S. with that said, this thread is about a version of <span class="caps">RISC</span> OS that runs natively in <span class="caps">QEMU</span>, so let&#8217;s please keep it so. To me it doesn&#8217;t really matter if it&#8217;s AI generated or written by humans, as long as it tested really well and the code is maintaineable.</p>]]>
+      </description>
+      <source:markdown>&#62; One thing that wont keep people enjoying RISC OS is if filing system integrity has been outsourced to garbage generators, and people can no longer rely on it to keep their files safe.
+
+Are you referring to the recent issues identified by Rick? Those were caused by humans, just for the record. ;)
+
+Here is what could potentially happen:
+
+Given the large volume of training data relating to Linux filesystems, code generated by Claude could create licensing issues. This is the real concern with using AI. Low-quality output is also a genuine problem, but humans produce plenty of poor-quality code as well.
+
+At present, I have very little time for RISC OS because I am working on a particularly demanding project at my job, which includes refactoring a considerable amount of poorly written, human-generated code.
+
+So, what is the licensing problem? Put simply, while attempting to satisfy the specifications provided by Martin and use the so-called “skills” created by Gerph, the AI will probably generate code that is statistically likely based on patterns that are very common in its training data.
+
+However, RISC OS filesystems lack many advanced features. As a result, the most statistically likely implementations may be based on patterns found in Linux filesystems. If the generated code reproduces GPL-licensed code too closely, that could create a serious licensing problem.
+
+I explain the token-prediction process in detail, using relatively simple terms, in the following article. I am sharing it to avoid further discussion based on inaccurate assumptions about how AI works:
+
+```
+https://paolozaino.wordpress.com/2026/06/13/ai-debuggi…
+
+```
+
+I promise that it should be readable for most people.
+
+Why does this matter here? Modern frontier AI models can process a great deal of context, so both code generation and code quality are improving steadily, even if they are not at John Carmack’s level, and probably never will be. However, the licensing status of generated code remains a significant concern.
+
+Can Claude design a genuinely new FileCore for RISC OS? Probably not, because AI does not really create something entirely new. Could it produce something better than the implementation we currently have? Yes, potentially.
+
+The question, therefore, is whether we want to experiment with something that could be better while accepting that the experiment might also create a mess. If it does, we can simply throw it away.
+
+How do we reduce that risk, though? By applying the same safeguards that should already be used to prevent low-quality human-written code: **complete test coverage**.
+
+P.S. with that said, this thread is about a version of RISC OS that runs natively in QEMU, so let’s please keep it so. To me it doesn’t really matter if it’s AI generated or written by humans, as long as it tested really well and the code is maintaineable.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20449:164625</guid>
+    </item>    <item>
       <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
       <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
       <description>
@@ -54,26 +201,6 @@ I wasn’t able to join the live presentation and have been looking forward to s
 
 That’s a relief! It might make sense for me to submit fixes separately (I noticed a bug in the fading logic where you could request tiled menus but wouldn’t get them because the Wimp requires tiled windows to be enabled too) from the dark theme work as that’s likely to be in a state of flux for a while longer.</source:markdown>
       <guid>cid://www.riscosopen.org:4:20340:164619</guid>
-    </item>    <item>
-      <title>Omap 5 Emulator</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20449</link>
-      <description>
-        <![CDATA[<p>DO <span class="caps">NOT</span>? Why not?</p>
-        <p>For what it&#8217;s worth, nothing here is an AI &#8220;fixing&#8221; FileCore by guessing. The on-disc format is documented — disc record, zone allocation maps, check bytes, fragment chains and the tools AI has written (a reader and a builder) are validated against that spec and against real discs, byte-for-byte. AI is a research assistant for working through the <span class="caps">PRM</span> and the kernel source faster; it isn&#8217;t the thing deciding what a valid map looks like.</p>
-        <p>I&#8217;d never point a half-understood tool at a disc I cared about, which is rather the point of building a reader that round-trips cleanly before anything writes a single sector. And <span class="caps">FYI</span> i already with the EB Format Written and 16 Drive Limit implemented and Tested to Phase 3. It will BE <span class="caps">EACH</span> <span class="caps">PERSONS</span> &#8220;<span class="caps">OWN</span>&#8221; <span class="caps">CHOICE</span> if they want to use it, as <span class="caps">RISC</span> OS is Opensource and thats the power of choice.</p>
-        <p>No worries on DiscKnight — I&#8217;m not asking you to support anything. I&#8217;m rebuilding/reading FileCore images for an emulator, not repairing customer discs. Plus it will have its own <span class="caps">GUI</span> Based Disc Scanning Tool That will Support every Format, From <span class="caps">ADFS</span> to <span class="caps">SLOP</span> as you put it. So if people don&#8217;t want to embrace it, sadly they will get left behind, <span class="caps">RISCOS</span> isnt exactly blessed with Developers.</p>
-        <p>&#8220;Fileslop fixer&#8221; is a fun line, but I&#8217;m reading and rebuilding emulator disc images against the published format not running a magic-8-ball over someone&#8217;s <span class="caps">ADFS</span> partition. The verification is the whole job; the AI just reads the manual with me. Thanks Mr Anti-AI theres no stopping it. Everyone is moving in that direction. And if it progresses things why should anyone complain.</p>]]>
-      </description>
-      <source:markdown>DO NOT? Why not?
-
-For what it’s worth, nothing here is an AI “fixing” FileCore by guessing. The on-disc format is documented — disc record, zone allocation maps, check bytes, fragment chains and the tools AI has written (a reader and a builder) are validated against that spec and against real discs, byte-for-byte. AI is a research assistant for working through the PRM and the kernel source faster; it isn’t the thing deciding what a valid map looks like.
-
-I’d never point a half-understood tool at a disc I cared about, which is rather the point of building a reader that round-trips cleanly before anything writes a single sector. And FYI i already with the EB Format Written and 16 Drive Limit implemented and Tested to Phase 3. It will BE EACHPERSONS “OWN” CHOICE if they want to use it, as RISC OS is Opensource and thats the power of choice.
-
-No worries on DiscKnight — I’m not asking you to support anything. I’m rebuilding/reading FileCore images for an emulator, not repairing customer discs. Plus it will have its own GUI Based Disc Scanning Tool That will Support every Format, From ADFS to SLOP as you put it. So if people don’t want to embrace it, sadly they will get left behind, RISCOS isnt exactly blessed with Developers.
-
-“Fileslop fixer” is a fun line, but I’m reading and rebuilding emulator disc images against the published format not running a magic-8-ball over someone’s ADFS partition. The verification is the whole job; the AI just reads the manual with me. Thanks Mr Anti-AI theres no stopping it. Everyone is moving in that direction. And if it progresses things why should anyone complain.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20449:164617</guid>
     </item>    <item>
       <link>https://bsky.app/profile/nemo20000.bsky.social/post/3moqfgk7o222m</link>
       <description>
@@ -246,50 +373,6 @@ github.com/pzaino
 
 #OpenSource #programming #SoftwareEngineering</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mol42v2rvc2x</guid>
-    </item>    <item>
-      <title>DeTox bounty?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
-      <description>
-        <![CDATA[<p>Yes. I&#8217;ve found and am now using the &#8216;system&#8217; command. Thanks. I kept thinking it was &#8216;oscli&#8217; or similar. :-) I then mansged to dig out a copy of the PRMs and find the relevant info.</p>
-        <p>I&#8217;m now trying to take the following approach&#8230;</p>
-        <p>Step 1) Write a simple prog that takes an input jpeg and generates a sprite (S32) from that.</p>
-        <p>Step 2) Then the prog takes the sprite and does the same form of &#8216;DeTox&#8217; that my CompoScript example employs in the compiled &#8216;C&#8217; code I write for that</p>
-        <p>step 3) Then saves the result into a new jpeg.</p>
-        <p>In practical terms I know how to do the jpeg &lt;&#8594; sprite conversions. For the data processing I found the relevant sprite header data, etc, in ye olde printed PRMs. So should be able to do a prog that loops though one page after another, spitting out DeToxed page jpegs.</p>
-        <p>Tuus far I only have a prog tha will do the format conversions &lt;&#8594; via changefsi calls using system(). I&#8217;m now trying to add in the DeTox code as used for the Compo example.</p>
-        <p>Main problems are I&#8217;ve forgotten sooooo much&#8230; and didn&#8217;t know much anyway in the past! I&#8217;m infuriatingly slow and keep messing things up because my memory is lousy and I have to worry about now being essentially a full-time carer/househusband as priority.</p>
-        <p>I can loop pages single-tasking. But have nae clue at all about having such a process multiask as a desktop app. So when/if I get the coconut single-tasking my question becomes:</p>
-        <p>Might it then be possible for someone else to take working &#8216;C&#8217; code that does the above single-taking and wave the magic wands required to get a desktop multitasking app version? Personally I&#8217;m happy to use single-tasking, but I suspect others might find it too much of a <span class="caps">PITA</span> to have the machine go singletaskging for the duration required to process a big document with well over 100 pages.</p>
-        <p><span class="caps">BTW</span> my plan is include an option to choose &#8220;do not detox page001&#8221;.  This is generally the front cover and was printed on chinagraphed paper, in colour, and hasn&#8217;t oxidised.</p>
-        <p>I&#8217;ll employ my &#8216;use blue&#8217; and rescale that to target better contrast trick to get good results. But wonder if that should be optional, etc. ?</p>
-        <p>step 4 [optional] Takes that and puts it into a <span class="caps">PDF</span>. (Because <span class="caps">IIUC</span> it is easier to combine a set of 1-page PDFs into a multipage <span class="caps">PDF</span> than to put 100+ jpegs in one go into a <span class="caps">PDF</span>. (??)</p>]]>
-      </description>
-      <source:markdown>Yes. I’ve found and am now using the ‘system’ command. Thanks. I kept thinking it was ‘oscli’ or similar. :-) I then mansged to dig out a copy of the PRMs and find the relevant info.
-
-I’m now trying to take the following approach…
-
-Step 1) Write a simple prog that takes an input jpeg and generates a sprite (S32) from that.
-
-Step 2) Then the prog takes the sprite and does the same form of ‘DeTox’ that my CompoScript example employs in the compiled ‘C’ code I write for that
-
-step 3) Then saves the result into a new jpeg.
-
-In practical terms I know how to do the jpeg &#60;→ sprite conversions. For the data processing I found the relevant sprite header data, etc, in ye olde printed PRMs. So should be able to do a prog that loops though one page after another, spitting out DeToxed page jpegs.
-
-Tuus far I only have a prog tha will do the format conversions &#60;→ via changefsi calls using system(). I’m now trying to add in the DeTox code as used for the Compo example.
-
-Main problems are I’ve forgotten sooooo much… and didn’t know much anyway in the past! I’m infuriatingly slow and keep messing things up because my memory is lousy and I have to worry about now being essentially a full-time carer/househusband as priority.
-
-I can loop pages single-tasking. But have nae clue at all about having such a process multiask as a desktop app. So when/if I get the coconut single-tasking my question becomes:
-
-Might it then be possible for someone else to take working ‘C’ code that does the above single-taking and wave the magic wands required to get a desktop multitasking app version? Personally I’m happy to use single-tasking, but I suspect others might find it too much of a PITA to have the machine go singletaskging for the duration required to process a big document with well over 100 pages.
-
-BTW my plan is include an option to choose “do not detox page001”. This is generally the front cover and was printed on chinagraphed paper, in colour, and hasn’t oxidised.
-
-I’ll employ my ‘use blue’ and rescale that to target better contrast trick to get good results. But wonder if that should be optional, etc. ?
-
-step 4 \[optional\] Takes that and puts it into a PDF. (Because IIUC it is easier to combine a set of 1-page PDFs into a multipage PDF than to put 100+ jpegs in one go into a PDF. (??)</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20437:164580</guid>
     </item>    <item>
       <title>File not found</title>
       <link>https://www.riscosopen.org/forum/forums/4/topics/19564</link>
