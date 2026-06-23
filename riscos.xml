@@ -7,10 +7,118 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>22 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>23 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/armbytes.bsky.social/post/3moy35vxuck2f</link>
+      <description>
+        <![CDATA[Demo write-up: #demoscene #RISCOS https://www.onirom.fr/wiki/codegolf/armada/]]>
+      </description>
+      <source:markdown>Demo write-up: #demoscene #RISCOS https://www.onirom.fr/wiki/codegolf/armada/</source:markdown>
+      <guid>cid://at://did:plc:dwfxyvdv4do6nh2nxpeuhchh/app.bsky.feed.post/3moy35vxuck2f</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3moxv5tsbos2k</link>
+      <description>
+        <![CDATA[I've been living with a bunch of Ikea Kallsup so-cheap-they're-almost-free Bluetooth speakers.
+        
+        They're a fiver(!) and you can connect "up to 100" together. So can I recommend them?
+        
+        No. There are several problems.
+        https://share.google/EwALjTzMROOnd6RzB]]>
+      </description>
+      <source:markdown>I&#39;ve been living with a bunch of Ikea Kallsup so-cheap-they&#39;re-almost-free Bluetooth speakers.
+
+They&#39;re a fiver(!) and you can connect &#34;up to 100&#34; together. So can I recommend them?
+
+No. There are several problems.
+https://share.google/EwALjTzMROOnd6RzB</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3moxv5tsbos2k</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mox5x2xass27</link>
+      <description>
+        <![CDATA[Pretty sure it's only Big Tech that thinks Big Tech is paying enough tax
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>Pretty sure it&#39;s only Big Tech that thinks Big Tech is paying enough tax
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mox5x2xass27</guid>
+    </item>    <item>
+      <title>ScummVM 2026.3.0 &#38;quot;Carousels &#38;amp; Killer Whales&#38;quot; comes to fruition</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20457</link>
+      <description>
+        <![CDATA[<p>From the <a href="https://www.scummvm.org/news/20260620/">original news post</a></p>
+        <p>So far, we are able to keep the release cadence. This quarter, the team is bringing you a set of new and old, all exciting features!</p>
+        <h2>Newly Supported Games:</h2>
+        <ul>
+        	<li><em>Nancy Drew: The Haunted Carousel</em></li>
+        	<li><em>Nancy Drew: Danger on Deception Island</em></li>
+        	<li><em>Noctropolis</em></li>
+        	<li><em>Cartoon Carnival</em></li>
+        	<li><em>Alfred Pelrock: En Busca de un Sueño</em></li>
+        	<li><em>Pilot Brothers: On the Track of Striped Elephant</em></li>
+        	<li><em>Pilot Brothers: The Case of Serial Maniac</em> and 5 more games on the same engine</li>
+        </ul>
+        <h2>General enhancements</h2>
+        <p>This was the period of the Google Summer of Code start, so we had an influx of new contributors, who were busy with improving our <span class="caps">GUI</span>, adding small and big quality-of-life features, such as improved search, kinetic scrolling, and revamped About dialog.</p>
+        <h2>Engine bugfixes and improvements</h2>
+        <p>Ten supported engines got their tweaks and improvements. <em>Martian Memorandum</em> got script bug fixes, <em>Simon 2</em> multilanguage support became better, there is a new whole control panel for the <span class="caps">GLK</span> engine, allowing to adjust text rendering, <em>Last Express</em> had some corner case bugs squashed, which also happened to the <em>Rex Nebular</em>. <em>Might and Magic 1</em> had major rewiring of its keymapper, and the enhanced patch support plays better than ever.</p>
+        <p>There was active work on the <em>Nancy</em> engine, and besides the two newly added games (number 8 and 9), most of the already supported games in the series received their bug fixes (thank you very much for submitting bug reports).</p>
+        <p>Two new games landed to the <span class="caps">SLUDGE</span> engine, and we made them downloadable from our website. And last but not least, the TwinE engine, used for the <em>Little Big Adventure</em> series, got its own measure of bugs fixed.</p>
+        <p>On the ports side, the Atari port is an ongoing constant series of big and small optimizations, and the PlayStation 3 port is easier on the memory consumption, allowing heavier games to be played.</p>
+        <p>For more detailed itemization of the improvements, you may refer to the <a href="https://downloads.scummvm.org/frs/scummvm/2026.3.0/ReleaseNotes.html">release notes.</a></p>
+        <p>And as per our new release procedure, the port builds will be arriving within the next few weeks.</p>]]>
+      </description>
+      <source:markdown>From the [original news post](https://www.scummvm.org/news/20260620/)
+
+So far, we are able to keep the release cadence. This quarter, the team is bringing you a set of new and old, all exciting features!
+
+## Newly Supported Games:
+
+- _Nancy Drew: The Haunted Carousel_
+- _Nancy Drew: Danger on Deception Island_
+- _Noctropolis_
+- _Cartoon Carnival_
+- _Alfred Pelrock: En Busca de un Sueño_
+- _Pilot Brothers: On the Track of Striped Elephant_
+- _Pilot Brothers: The Case of Serial Maniac_ and 5 more games on the same engine
+
+## General enhancements
+
+This was the period of the Google Summer of Code start, so we had an influx of new contributors, who were busy with improving our GUI, adding small and big quality-of-life features, such as improved search, kinetic scrolling, and revamped About dialog.
+
+## Engine bugfixes and improvements
+
+Ten supported engines got their tweaks and improvements. _Martian Memorandum_ got script bug fixes, _Simon 2_ multilanguage support became better, there is a new whole control panel for the GLK engine, allowing to adjust text rendering, _Last Express_ had some corner case bugs squashed, which also happened to the _Rex Nebular_. _Might and Magic 1_ had major rewiring of its keymapper, and the enhanced patch support plays better than ever.
+
+There was active work on the _Nancy_ engine, and besides the two newly added games (number 8 and 9), most of the already supported games in the series received their bug fixes (thank you very much for submitting bug reports).
+
+Two new games landed to the SLUDGE engine, and we made them downloadable from our website. And last but not least, the TwinE engine, used for the _Little Big Adventure_ series, got its own measure of bugs fixed.
+
+On the ports side, the Atari port is an ongoing constant series of big and small optimizations, and the PlayStation 3 port is easier on the memory consumption, allowing heavier games to be played.
+
+For more detailed itemization of the improvements, you may refer to the [release notes.](https://downloads.scummvm.org/frs/scummvm/2026.3.0/ReleaseNotes.html)
+
+And as per our new release procedure, the port builds will be arriving within the next few weeks.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20457:164653</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3movptbiyek22</link>
+      <description>
+        <![CDATA[A day late, but that doesn't matter. Happy Solstice for those in the Northern Hemisphere! We should celebrate the amazing NES game of the same name created by Mike Webb and Mark Wilson with music/SFX by Tim Follin. Developed in Manchester by Software Creations. It had the working title 'Dark Child'.]]>
+      </description>
+      <source:markdown>A day late, but that doesn&#39;t matter. Happy Solstice for those in the Northern Hemisphere! We should celebrate the amazing NES game of the same name created by Mike Webb and Mark Wilson with music/SFX by Tim Follin. Developed in Manchester by Software Creations. It had the working title &#39;Dark Child&#39;.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3movptbiyek22</guid>
+    </item>    <item>
+      <title>ROOL&#39;s 20th birthday (and last week to get your donation matched)</title>
+      <link>http://www.iconbar.com/forums/viewthread.php?threadid=13607&#38;page=1#125905</link>
+      <description>
+        <![CDATA[Some what embarrasing I uploaded the wrong file, so will have to wait until next year for it to appear.]]>
+      </description>
+      <source:markdown>Some what embarrasing I uploaded the wrong file, so will have to wait until next year for it to appear.</source:markdown>
+      <guid>cid://http://www.iconbar.com/forums/viewthread.php?threadid=13607&#38;page=1#125905</guid>
+    </item>    <item>
       <title>DeTox bounty?</title>
       <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
       <description>
@@ -101,6 +209,14 @@ https://youtu.be/QrC\_V2xdIMU?si=zYabykeDzpDoR68i</source:markdown>
       <source:markdown>Loving my new @compiler-explorer.com desk topper! Really nice quality and a huge improvement on my old IKEA one that had seen better days 😅 Thanks, @matt.godbolt.org and team!</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3moufiqll422u</guid>
     </item>    <item>
+      <title>Omap 5 Emulator</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20449</link>
+      <description>
+        <![CDATA[<p>Well not everyone will be happy about it, But they don&#8217;t have to use it, Thats why forks were invented so people get to choose :)</p>]]>
+      </description>
+      <source:markdown>Well not everyone will be happy about it, But they don’t have to use it, Thats why forks were invented so people get to choose :)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20449:164633</guid>
+    </item>    <item>
       <title>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20399</link>
       <description>
@@ -131,63 +247,6 @@ I wasn’t able to join the live presentation and have been looking forward to s
       </description>
       <source:markdown>DKs.</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3most24zm3s2j</guid>
-    </item>    <item>
-      <title>Omap 5 Emulator</title>
-      <link>https://www.riscosopen.org/forum/forums/1/topics/20449</link>
-      <description>
-        <![CDATA[<blockquote>
-        <p>One thing that wont keep people enjoying <span class="caps">RISC</span> OS is if filing system integrity has been outsourced to garbage generators, and people can no longer rely on it to keep their files safe.</p>
-        </blockquote>
-        <p>Are you referring to the recent issues identified by Rick? Those were caused by humans, just for the record. ;)</p>
-        <p>Here is what could potentially happen:</p>
-        <p>Given the large volume of training data relating to Linux filesystems, code generated by Claude could create licensing issues. This is the real concern with using AI. Low-quality output is also a genuine problem, but humans produce plenty of poor-quality code as well.</p>
-        <p>At present, I have very little time for <span class="caps">RISC</span> OS because I am working on a particularly demanding project at my job, which includes refactoring a considerable amount of poorly written, human-generated code.</p>
-        <p>So, what is the licensing problem? Put simply, while attempting to satisfy the specifications provided by Martin and use the so-called “skills” created by Gerph, the AI will probably generate code that is statistically likely based on patterns that are very common in its training data.</p>
-        <p>However, <span class="caps">RISC</span> OS filesystems lack many advanced features. As a result, the most statistically likely implementations may be based on patterns found in Linux filesystems. If the generated code reproduces <span class="caps">GPL</span>-licensed code too closely, that could create a serious licensing problem.</p>
-        <p>I explain the token-prediction process in detail, using relatively simple terms, in the following article. I am sharing it to avoid further discussion based on inaccurate assumptions about how AI works:</p>
-        <pre>
-        <a href="https://paolozaino.wordpress.com/2026/06/13/ai-debugging-a-tiny-llm-to-understand-what-happens-between-a-prompt-and-a-response/">https://paolozaino.wordpress.com/2026/06/13/ai-debuggi…</a>
-        </pre>
-        <p>I promise that it should be readable for most people.</p>
-        <p>Why does this matter here? Modern frontier AI models can process a great deal of context, so both code generation and code quality are improving steadily, even if they are not at John Carmack’s level, and probably never will be. However, the licensing status of generated code remains a significant concern.</p>
-        <p>Can Claude design a genuinely new FileCore for <span class="caps">RISC</span> OS? Probably not, because AI does not really create something entirely new. Could it produce something better than the implementation we currently have? Yes, potentially.</p>
-        <p>The question, therefore, is whether we want to experiment with something that could be better while accepting that the experiment might also create a mess. If it does, we can simply throw it away.</p>
-        <p>How do we reduce that risk, though? By applying the same safeguards that should already be used to prevent low-quality human-written code: <b>complete test coverage</b>.</p>
-        <p>P.S. with that said, this thread is about a version of <span class="caps">RISC</span> OS that runs natively in <span class="caps">QEMU</span>, so let&#8217;s please keep it so. To me it doesn&#8217;t really matter if it&#8217;s AI generated or written by humans, as long as it tested really well and the code is maintaineable.</p>]]>
-      </description>
-      <source:markdown>&#62; One thing that wont keep people enjoying RISC OS is if filing system integrity has been outsourced to garbage generators, and people can no longer rely on it to keep their files safe.
-
-Are you referring to the recent issues identified by Rick? Those were caused by humans, just for the record. ;)
-
-Here is what could potentially happen:
-
-Given the large volume of training data relating to Linux filesystems, code generated by Claude could create licensing issues. This is the real concern with using AI. Low-quality output is also a genuine problem, but humans produce plenty of poor-quality code as well.
-
-At present, I have very little time for RISC OS because I am working on a particularly demanding project at my job, which includes refactoring a considerable amount of poorly written, human-generated code.
-
-So, what is the licensing problem? Put simply, while attempting to satisfy the specifications provided by Martin and use the so-called “skills” created by Gerph, the AI will probably generate code that is statistically likely based on patterns that are very common in its training data.
-
-However, RISC OS filesystems lack many advanced features. As a result, the most statistically likely implementations may be based on patterns found in Linux filesystems. If the generated code reproduces GPL-licensed code too closely, that could create a serious licensing problem.
-
-I explain the token-prediction process in detail, using relatively simple terms, in the following article. I am sharing it to avoid further discussion based on inaccurate assumptions about how AI works:
-
-```
-https://paolozaino.wordpress.com/2026/06/13/ai-debuggi…
-
-```
-
-I promise that it should be readable for most people.
-
-Why does this matter here? Modern frontier AI models can process a great deal of context, so both code generation and code quality are improving steadily, even if they are not at John Carmack’s level, and probably never will be. However, the licensing status of generated code remains a significant concern.
-
-Can Claude design a genuinely new FileCore for RISC OS? Probably not, because AI does not really create something entirely new. Could it produce something better than the implementation we currently have? Yes, potentially.
-
-The question, therefore, is whether we want to experiment with something that could be better while accepting that the experiment might also create a mess. If it does, we can simply throw it away.
-
-How do we reduce that risk, though? By applying the same safeguards that should already be used to prevent low-quality human-written code: **complete test coverage**.
-
-P.S. with that said, this thread is about a version of RISC OS that runs natively in QEMU, so let’s please keep it so. To me it doesn’t really matter if it’s AI generated or written by humans, as long as it tested really well and the code is maintaineable.</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20449:164625</guid>
     </item>    <item>
       <title>Wimp 5.89 Testing with ROOL ThemeDefs!</title>
       <link>https://www.riscosopen.org/forum/forums/4/topics/20340</link>
