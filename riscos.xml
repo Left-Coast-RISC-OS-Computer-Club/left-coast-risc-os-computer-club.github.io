@@ -7,10 +7,129 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>23 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>24 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mp2a24c7rc2c</link>
+      <description>
+        <![CDATA[it's not #RISC_OS if someone doesn't complain about performance, previous demo was slowed down to make you see things happening 😂 Here is a video of #MerlinProject without the debug infrastructure, still software framebuffer and still on QEMU:
+        
+        youtu.be/d9jehsEAf7w
+        
+        #Kernel #RISCOS #OperatingSystem
+        https://youtu.be/d9jehsEAf7w]]>
+      </description>
+      <source:markdown>it&#39;s not #RISC\_OS if someone doesn&#39;t complain about performance, previous demo was slowed down to make you see things happening 😂 Here is a video of #MerlinProject without the debug infrastructure, still software framebuffer and still on QEMU:
+
+youtu.be/d9jehsEAf7w
+
+#Kernel #RISCOS #OperatingSystem
+https://youtu.be/d9jehsEAf7w</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mp2a24c7rc2c</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mozm2dvlds2t</link>
+      <description>
+        <![CDATA[Love these news headlines describing the UK as "bracing itself" for heatwave. Because tying yourself to the spot is of course the best way to survive high temperatures.]]>
+      </description>
+      <source:markdown>Love these news headlines describing the UK as &#34;bracing itself&#34; for heatwave. Because tying yourself to the spot is of course the best way to survive high temperatures.</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mozm2dvlds2t</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3moyfkg47dc2k</link>
+      <description>
+        <![CDATA["Stop it Xiaomi, they're already dead."
+        https://youtu.be/4w6sda9-6pE?si=l7tikPeEDrx8nXqn]]>
+      </description>
+      <source:markdown>&#34;Stop it Xiaomi, they&#39;re already dead.&#34;
+https://youtu.be/4w6sda9-6pE?si=l7tikPeEDrx8nXqn</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3moyfkg47dc2k</guid>
+    </item>    <item>
+      <title>Merlin OS - First boot into Multicore VDU demo</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20458</link>
+      <description>
+        <![CDATA[<p>As I have mentioned many times, Merlin is not a <span class="caps">RISC</span> OS clone, but it does offer a <span class="caps">RISC</span> OS personality that allows it to run <span class="caps">RISC</span> OS modules and applications.</p>
+        <p><span class="caps">RISC</span> OS 5 <span class="caps">ROM</span> modules can run natively on AArch32 (and basically create an actual <span class="caps">RISC</span> OS), or under emulation on AArch64, <span class="caps">RISC</span>-V, <span class="caps">PPC</span>, <span class="caps">MIPS</span> and <span class="caps">SPARC</span>. Older <span class="caps">RISC</span> OS <span class="caps">ROM</span> modules always run under emulation on all architectures.</p>
+        <p>Anyway, I had a bit of time to record one of the full-system tests, from booting to running a graphics demo, so it might be of interest here. The demo shows a full reimplementation of the <span class="caps">RISC</span> OS <span class="caps">VDU</span> driver, memory management, system boot designed for multi-core systems (included many cores).</p>
+        <p>Detailed video with debug infrastructure demo:</p>
+        <p><a href="https://www.youtube.com/watch?v=rwhkm5-qioM">https://www.youtube.com/watch?v=rwhkm5-qioM</a></p>
+        <p>&#8220;Performance&#8221; video, basicaly the save as above, but compiler for `&#8212;release` so day and night faster:</p>
+        <p><a href="https://youtu.be/d9jehsEAf7w">https://youtu.be/d9jehsEAf7w</a></p>
+        <p>Merlin is being designed to be:<br />
+        - fully multi-core<br />
+        - memory safe<br />
+        - offer full memory protection<br />
+        - preemptive scheduling<br />
+        - Support different OS design paradigms: Monolithic, Monolithic Modular, Hybrid and full microkernel<br />
+        - Merlin does hardware bring up<br />
+        - is built as a <span class="caps">ROM</span> image (albeit size is not restricted to 4 or 8MB)<br />
+        - primarily designed for <span class="caps">ARM</span> <span class="caps">CPU</span> from ARMv4T all the way (and included) ARMv9 as well as <span class="caps">RISC</span>-V, <span class="caps">MIPS</span>, <span class="caps">PPC</span>, <span class="caps">SPARC</span> and obviously (albeit reluctantly lol) for x86 and x86_64<br />
+        - Merlin can be built wiht and without <span class="caps">MMU</span> support so works also on microcontrollers, IoT and embedded systems<br />
+        - Primarily designed for low-latency and personal desktop, mobile and embedded markets<br />
+        - is being ported to APple SIlicon too (when I have a day where I feel crazy enough!)<br />
+        - Support full <span class="caps">GPU</span> acelleration<br />
+        - Be trully Open Source, aka no proprietary or in other ways owned/controlled build environments or dependecies</p>
+        <p>And of course, a few of you have been already testing Merlin ShareFS protocol usign ShareFSServer.</p>]]>
+      </description>
+      <source:markdown>As I have mentioned many times, Merlin is not a RISC OS clone, but it does offer a RISC OS personality that allows it to run RISC OS modules and applications.
+
+RISC OS 5 ROM modules can run natively on AArch32 (and basically create an actual RISC OS), or under emulation on AArch64, RISC-V, PPC, MIPS and SPARC. Older RISC OS ROM modules always run under emulation on all architectures.
+
+Anyway, I had a bit of time to record one of the full-system tests, from booting to running a graphics demo, so it might be of interest here. The demo shows a full reimplementation of the RISC OS VDU driver, memory management, system boot designed for multi-core systems (included many cores).
+
+Detailed video with debug infrastructure demo:
+
+[https://www.youtube.com/watch?v=rwhkm5-qioM](https://www.youtube.com/watch?v=rwhkm5-qioM)
+
+“Performance” video, basicaly the save as above, but compiler for \`—release\` so day and night faster:
+
+[https://youtu.be/d9jehsEAf7w](https://youtu.be/d9jehsEAf7w)
+
+Merlin is being designed to be:
+
+\- fully multi-core
+
+\- memory safe
+
+\- offer full memory protection
+
+\- preemptive scheduling
+
+\- Support different OS design paradigms: Monolithic, Monolithic Modular, Hybrid and full microkernel
+
+\- Merlin does hardware bring up
+
+\- is built as a ROM image (albeit size is not restricted to 4 or 8MB)
+
+\- primarily designed for ARMCPU from ARMv4T all the way (and included) ARMv9 as well as RISC-V, MIPS, PPC, SPARC and obviously (albeit reluctantly lol) for x86 and x86\_64
+
+\- Merlin can be built wiht and without MMU support so works also on microcontrollers, IoT and embedded systems
+
+\- Primarily designed for low-latency and personal desktop, mobile and embedded markets
+
+\- is being ported to APple SIlicon too (when I have a day where I feel crazy enough!)
+
+\- Support full GPU acelleration
+
+\- Be trully Open Source, aka no proprietary or in other ways owned/controlled build environments or dependecies
+
+And of course, a few of you have been already testing Merlin ShareFS protocol usign ShareFSServer.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20458:164659</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3moy64e2vck2p</link>
+      <description>
+        <![CDATA[#RISC_OS: I finally had a bit of time to upload a video with the first system boot into graphic demo for #MerlinOS It works fine on @raspberrypi.com 2, 3 and 4, but the video is from #QEMU which makes it easy to record both kernle logs and Pi 2 display. Enjoy!
+        
+        https://www.youtube.com/watch?v=rwhkm5-qioM
+        
+        #Rust]]>
+      </description>
+      <source:markdown>#RISC\_OS: I finally had a bit of time to upload a video with the first system boot into graphic demo for #MerlinOS It works fine on @raspberrypi.com 2, 3 and 4, but the video is from #QEMU which makes it easy to record both kernle logs and Pi 2 display. Enjoy!
+
+https://www.youtube.com/watch?v=rwhkm5-qioM
+
+#Rust</source:markdown>
+      <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3moy64e2vck2p</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/armbytes.bsky.social/post/3moy35vxuck2f</link>
       <description>
         <![CDATA[Demo write-up: #demoscene #RISCOS https://www.onirom.fr/wiki/codegolf/armada/]]>
@@ -212,10 +331,10 @@ https://youtu.be/QrC\_V2xdIMU?si=zYabykeDzpDoR68i</source:markdown>
       <title>Omap 5 Emulator</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20449</link>
       <description>
-        <![CDATA[<p>Well not everyone will be happy about it, But they don&#8217;t have to use it, Thats why forks were invented so people get to choose :)</p>]]>
+        <![CDATA[<p>@RiscOSTech &#8211; Martin: I think this is a great leap for RiscOS in terms of usability and for people to have a &#8220;Tinker&#8221; with RiscOS on an existing machine and get a feel for what it can do on &#8220;Modern&#8221; hardware opposed to RPCEmu where you&#8217;re limited to RiscPC levels.</p>]]>
       </description>
-      <source:markdown>Well not everyone will be happy about it, But they don’t have to use it, Thats why forks were invented so people get to choose :)</source:markdown>
-      <guid>cid://www.riscosopen.org:1:20449:164633</guid>
+      <source:markdown>@RiscOSTech – Martin: I think this is a great leap for RiscOS in terms of usability and for people to have a “Tinker” with RiscOS on an existing machine and get a feel for what it can do on “Modern” hardware opposed to RPCEmu where you’re limited to RiscPC levels.</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20449:164642</guid>
     </item>    <item>
       <title>ARX and the Acorn Palo Alto Research Centre at ROUGOL, Mon 18th May 2026</title>
       <link>https://www.riscosopen.org/forum/forums/1/topics/20399</link>

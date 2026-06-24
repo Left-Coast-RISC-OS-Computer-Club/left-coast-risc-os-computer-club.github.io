@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" >
   <meta name="generator" content="antenna/0.0.24" >
-  <meta name="date" content="2026-06-23T12:00:22-07:00" >
+  <meta name="date" content="2026-06-24T12:00:25-07:00" >
   <meta name="viewport" content="width=device-width, initial-scale=1.0" >
   <title>RISCOS</title>
   <link rel="alternate" type="application/rss+xml" href="https://left-coast-risc-os-computer-club.github.io/riscos.xml" >
@@ -21,6 +21,91 @@
     </ul>
   </nav>
   <main id="main-content">
+
+    <article data-published="2026-06-24T15:26:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mp2a24c7rc2c">
+      <h2>@paolofabiozaino.bsky.social</h2>
+
+(date: 2026-06-24)
+      <p>
+      <p>it's not #RISC_OS if someone doesn't complain about performance, previous demo was slowed down to make you see things happening 😂 Here is a video of #MerlinProject without the debug infrastructure, still software framebuffer and still on QEMU:</p>
+<p>youtu.be/d9jehsEAf7w</p>
+<p>#Kernel #RISCOS #OperatingSystem<a href="https://youtu.be/d9jehsEAf7w">https://youtu.be/d9jehsEAf7w</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mp2a24c7rc2c">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3mp2a24c7rc2c</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-24T09:28:00Z" data-link="https://bsky.app/profile/colinhoad.com/post/3mozm2dvlds2t">
+      <h2>@colinhoad.com</h2>
+
+(date: 2026-06-24)
+      <p>
+      <p>Love these news headlines describing the UK as &quot;bracing itself&quot; for heatwave. Because tying yourself to the spot is of course the best way to survive high temperatures.</p>
+
+      <address>
+        <a href="https://bsky.app/profile/colinhoad.com/post/3mozm2dvlds2t">https://bsky.app/profile/colinhoad.com/post/3mozm2dvlds2t</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-23T21:59:00Z" data-link="https://bsky.app/profile/nemo20000.bsky.social/post/3moyfkg47dc2k">
+      <h2>@nemo20000.bsky.social</h2>
+
+(date: 2026-06-23)
+      <p>
+      <p>&quot;Stop it Xiaomi, they're already dead.&quot;<a href="https://youtu.be/4w6sda9-6pE?si=l7tikPeEDrx8nXqn">https://youtu.be/4w6sda9-6pE?si=l7tikPeEDrx8nXqn</a></p>
+
+      <address>
+        <a href="https://bsky.app/profile/nemo20000.bsky.social/post/3moyfkg47dc2k">https://bsky.app/profile/nemo20000.bsky.social/post/3moyfkg47dc2k</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-23T20:07:50Z" data-link="https://www.riscosopen.org/forum/forums/13/topics/20458">
+      <h2>Merlin OS - First boot into Multicore VDU demo</h2>
+
+(date: 2026-06-23)
+      <p>
+      <p>As I have mentioned many times, Merlin is not a RISC OS clone, but it does offer a RISC OS personality that allows it to run RISC OS modules and applications.</p>
+<p>RISC OS 5 ROM modules can run natively on AArch32 (and basically create an actual RISC OS), or under emulation on AArch64, RISC-V, PPC, MIPS and SPARC. Older RISC OS ROM modules always run under emulation on all architectures.</p>
+<p>Anyway, I had a bit of time to record one of the full-system tests, from booting to running a graphics demo, so it might be of interest here. The demo shows a full reimplementation of the RISC OS VDU driver, memory management, system boot designed for multi-core systems (included many cores).</p>
+<p>Detailed video with debug infrastructure demo:</p>
+<p><a href="https://www.youtube.com/watch?v=rwhkm5-qioM">https://www.youtube.com/watch?v=rwhkm5-qioM</a></p>
+<p>“Performance” video, basicaly the save as above, but compiler for `—release` so day and night faster:</p>
+<p><a href="https://youtu.be/d9jehsEAf7w">https://youtu.be/d9jehsEAf7w</a></p>
+<p>Merlin is being designed to be:</p>
+<p>- fully multi-core</p>
+<p>- memory safe</p>
+<p>- offer full memory protection</p>
+<p>- preemptive scheduling</p>
+<p>- Support different OS design paradigms: Monolithic, Monolithic Modular, Hybrid and full microkernel</p>
+<p>- Merlin does hardware bring up</p>
+<p>- is built as a ROM image (albeit size is not restricted to 4 or 8MB)</p>
+<p>- primarily designed for ARMCPU from ARMv4T all the way (and included) ARMv9 as well as RISC-V, MIPS, PPC, SPARC and obviously (albeit reluctantly lol) for x86 and x86_64</p>
+<p>- Merlin can be built wiht and without MMU support so works also on microcontrollers, IoT and embedded systems</p>
+<p>- Primarily designed for low-latency and personal desktop, mobile and embedded markets</p>
+<p>- is being ported to APple SIlicon too (when I have a day where I feel crazy enough!)</p>
+<p>- Support full GPU acelleration</p>
+<p>- Be trully Open Source, aka no proprietary or in other ways owned/controlled build environments or dependecies</p>
+<p>And of course, a few of you have been already testing Merlin ShareFS protocol usign ShareFSServer.</p>
+
+      <address>
+        <a href="https://www.riscosopen.org/forum/forums/13/topics/20458">https://www.riscosopen.org/forum/forums/13/topics/20458</a>
+      </address>
+    </article>
+
+    <article data-published="2026-06-23T19:46:00Z" data-link="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3moy64e2vck2p">
+      <h2>@paolofabiozaino.bsky.social</h2>
+
+(date: 2026-06-23)
+      <p>
+      <p>#RISC_OS: I finally had a bit of time to upload a video with the first system boot into graphic demo for #MerlinOS It works fine on @raspberrypi.com 2, 3 and 4, but the video is from #QEMU which makes it easy to record both kernle logs and Pi 2 display. Enjoy!</p>
+<p><a href="https://www.youtube.com/watch?v=rwhkm5-qioM">https://www.youtube.com/watch?v=rwhkm5-qioM</a></p>
+<p>#Rust</p>
+
+      <address>
+        <a href="https://bsky.app/profile/paolofabiozaino.bsky.social/post/3moy64e2vck2p">https://bsky.app/profile/paolofabiozaino.bsky.social/post/3moy64e2vck2p</a>
+      </address>
+    </article>
 
     <article data-published="2026-06-23T18:53:00Z" data-link="https://bsky.app/profile/armbytes.bsky.social/post/3moy35vxuck2f">
       <h2>@armbytes.bsky.social</h2>
@@ -212,12 +297,12 @@
       </address>
     </article>
 
-    <article data-published="2026-06-21T17:37:23Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20449">
+    <article data-published="2026-06-21T18:11:10Z" data-link="https://www.riscosopen.org/forum/forums/1/topics/20449">
       <h2>Omap 5 Emulator</h2>
 
 (date: 2026-06-21)
       <p>
-      <p>Well not everyone will be happy about it, But they don’t have to use it, Thats why forks were invented so people get to choose :)</p>
+      <p>@RiscOSTech – Martin: I think this is a great leap for RiscOS in terms of usability and for people to have a “Tinker” with RiscOS on an existing machine and get a feel for what it can do on “Modern” hardware opposed to RPCEmu where you’re limited to RiscPC levels.</p>
 
       <address>
         <a href="https://www.riscosopen.org/forum/forums/1/topics/20449">https://www.riscosopen.org/forum/forums/1/topics/20449</a>
