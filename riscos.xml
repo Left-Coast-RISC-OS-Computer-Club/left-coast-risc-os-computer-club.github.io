@@ -7,10 +7,199 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>25 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>26 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mp7gsl663k2o</link>
+      <description>
+        <![CDATA[My programming career started here...This is my A level Computer Studies workbook from 1983. My first commercial game was published in summer 1983 - Atomic Protector for the BBC Micro. Huge thanks to my amazing CS teacher, Pete Davidson. I owe him a pint or two.]]>
+      </description>
+      <source:markdown>My programming career started here...This is my A level Computer Studies workbook from 1983. My first commercial game was published in summer 1983 - Atomic Protector for the BBC Micro. Huge thanks to my amazing CS teacher, Pete Davidson. I owe him a pint or two.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mp7gsl663k2o</guid>
+    </item>    <item>
+      <title>Norcroft C - system command</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20461</link>
+      <description>
+        <![CDATA[<p>I&#8217;m having problems with a program in Norcroft C.</p>
+        <p>Basically the program takes a filename of a <span class="caps">JPEF</span> file on the command line, and I want to do the following three things:</p>
+        <p>Run <code>magick mogrify</code> on it to convert it to greyscale and increase the contrast;<br />
+        Add it to a .zip file;<br />
+        Then delete the <span class="caps">JPEG</span> file.</p>
+        <p>I have tried both <code>system</code> and <code>os_cli</code> to do this, but in both cases the program ends, without any error message, immediately the &#8220;magick mogrify&#8221; is carried out. Before each command I use <code>printf</code> to display it, but only the first is actually printed.</p>
+        <p>What is going wrong here? (This is the sort of thing which would be simple under any other OS!)</p>]]>
+      </description>
+      <source:markdown>I’m having problems with a program in Norcroft C.
+
+Basically the program takes a filename of a JPEF file on the command line, and I want to do the following three things:
+
+Run `magick mogrify` on it to convert it to greyscale and increase the contrast;
+
+Add it to a .zip file;
+
+Then delete the JPEG file.
+
+I have tried both `system` and `os_cli` to do this, but in both cases the program ends, without any error message, immediately the “magick mogrify” is carried out. Before each command I use `printf` to display it, but only the first is actually printed.
+
+What is going wrong here? (This is the sort of thing which would be simple under any other OS!)</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20461:164686</guid>
+    </item>    <item>
+      <title>WROCC Meeting - Steve Revill from RISC OS Open - 1st July</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20460</link>
+      <description>
+        <![CDATA[<p><strong><span class="caps">WAKEFIELD</span> <span class="caps">RISC</span> OS <span class="caps">COMPUTER</span> <span class="caps">CLUB</span></strong></p>
+        <p><strong>Meeting on Wednesday 1st July at 7.45pm</strong></p>
+        <h1>Steve Revill from <span class="caps">RISC</span> OS Open <br />
+        talking about LanManFS, <span class="caps">BBC</span> <span class="caps">BASIC</span> plus Moonshot News</h1>
+        <p>Steve Revill will be explaining why he has a soft spot for <span class="caps">BBC</span> <span class="caps">BASIC</span>, discussing its history and potential future, as well as giving a brief<br />
+        overview of where <span class="caps">ROOL</span> currently stands with its Moonshot fundraising and planning. He will also give an overview of the motivations behind the LanManFS updates and the progress made during the alpha testing phase.</p>
+        <p>This &#8216;virtual&#8217; meeting is open to all, and will take place using the Zoom conferencing service using our regular meeting credentials. Zoom invitations will be sent out ahead of the meeting, but only to those who email <a href="mailto:info2026@wrocc.org.uk">info2026@wrocc.org.uk</a> to request one. If you would like to be part of the meeting (and don&#8217;t already have the link from a previous meeting or receive an invite in the next 24 hours as a member of <span class="caps">WROCC</span>), please <span class="caps">RSVP</span> &#8212; at the latest by the end of Tuesday 30th June (<span class="caps">GMT</span>). We email the links out on the morning of the meeting.</p>
+        <p>If you haven&#8217;t used Zoom before, we suggest that before Wednesday you try to join the Zoom test meeting at <a href="https://zoom.us/test">https://zoom.us/test</a> on the device that you intend to use, in order to check that your system works OK. You will not require a Zoom account to take part.</p>
+        <p><strong>Past Meetings</strong></p>
+        <p>Videos of previous meetings can be found in our links to past meetings at <a href="https://www.wrocc.org.uk/meetings">https://www.wrocc.org.uk/meetings</a> or see our YouTube channel: <a href="https://www.youtube.com/@wrocc-riscos">https://www.youtube.com/@wrocc-riscos</a></p>
+        <p><strong><span class="caps">WROCC</span> Membership</strong></p>
+        <p>Annual membership of <span class="caps">WROCC</span> is available for those living near and far at<br />
+        10.00ukp per year.</p>
+        <p>Members receive:</p>
+        <ul>
+        	<li>A <span class="caps">PDF</span> newsletter with all the latest news and articles.</li>
+        </ul>
+        <ul>
+        	<li>Entry to meetings.</li>
+        </ul>
+        <ul>
+        	<li>Access to the <span class="caps">WROCC</span> Internet Discussion List.</li>
+        </ul>
+        <p>For further information, please email <a href="mailto:info2026@wrocc.org.uk">info2026@wrocc.org.uk</a> or visit the Club&#8217;s website at <a href="https://www.wrocc.org.uk/">https://www.wrocc.org.uk/</a></p>]]>
+      </description>
+      <source:markdown>**WAKEFIELDRISC OS COMPUTERCLUB**
+
+**Meeting on Wednesday 1st July at 7.45pm**
+
+# Steve Revill from RISC OS Open    talking about LanManFS, BBCBASIC plus Moonshot News
+
+Steve Revill will be explaining why he has a soft spot for BBCBASIC, discussing its history and potential future, as well as giving a brief
+
+overview of where ROOL currently stands with its Moonshot fundraising and planning. He will also give an overview of the motivations behind the LanManFS updates and the progress made during the alpha testing phase.
+
+This ‘virtual’ meeting is open to all, and will take place using the Zoom conferencing service using our regular meeting credentials. Zoom invitations will be sent out ahead of the meeting, but only to those who email [info2026@wrocc.org.uk](mailto:info2026@wrocc.org.uk) to request one. If you would like to be part of the meeting (and don’t already have the link from a previous meeting or receive an invite in the next 24 hours as a member of WROCC), please RSVP — at the latest by the end of Tuesday 30th June (GMT). We email the links out on the morning of the meeting.
+
+If you haven’t used Zoom before, we suggest that before Wednesday you try to join the Zoom test meeting at [https://zoom.us/test](https://zoom.us/test) on the device that you intend to use, in order to check that your system works OK. You will not require a Zoom account to take part.
+
+**Past Meetings**
+
+Videos of previous meetings can be found in our links to past meetings at [https://www.wrocc.org.uk/meetings](https://www.wrocc.org.uk/meetings) or see our YouTube channel: [https://www.youtube.com/@wrocc-riscos](https://www.youtube.com/@wrocc-riscos)
+
+**WROCC Membership**
+
+Annual membership of WROCC is available for those living near and far at
+
+10.00ukp per year.
+
+Members receive:
+
+- A PDF newsletter with all the latest news and articles.
+
+- Entry to meetings.
+
+- Access to the WROCC Internet Discussion List.
+
+For further information, please email [info2026@wrocc.org.uk](mailto:info2026@wrocc.org.uk) or visit the Club’s website at [https://www.wrocc.org.uk/](https://www.wrocc.org.uk/)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20460:164685</guid>
+    </item>    <item>
+      <title>WROCC Meeting - Steve Revil from RISC OS Open - 1st Julyl</title>
+      <link>https://www.riscosopen.org/forum/forums/1/topics/20459</link>
+      <description>
+        <![CDATA[<p><strong><span class="caps">WAKEFIELD</span> <span class="caps">RISC</span> OS <span class="caps">COMPUTER</span> <span class="caps">CLUB</span></strong></p>
+        <p><strong>Meeting on Wednesday 1st July at 7.45pm</strong></p>
+        <h1>Steve Revill from <span class="caps">RISC</span> OS Open <br />
+        talking about LanManFS, <span class="caps">BBC</span> <span class="caps">BASIC</span> plus Moonshot News</h1>
+        <p>Steve Revill will be explaining why he has a soft spot for <span class="caps">BBC</span> <span class="caps">BASIC</span>, discussing its history and potential future, as well as giving a brief<br />
+        overview of where <span class="caps">ROOL</span> currently stands with its Moonshot fundraising and planning. He will also give an overview of the motivations behind the LanManFS updates and the progress made during the alpha testing phase.</p>
+        <p>This &#8216;virtual&#8217; meeting is open to all, and will take place using the Zoom conferencing service using our regular meeting credentials. Zoom invitations will be sent out ahead of the meeting, but only to those who email <a href="mailto:info2026@wrocc.org.uk">info2026@wrocc.org.uk</a> to request one. If you would like to be part of the meeting (and don&#8217;t already have the link from a previous meeting or receive an invite in the next 24 hours as a member of <span class="caps">WROCC</span>), please <span class="caps">RSVP</span> &#8212; at the latest by the end of Tuesday 30th June (<span class="caps">GMT</span>). We email the links out on the morning of the meeting.</p>
+        <p>If you haven&#8217;t used Zoom before, we suggest that before Wednesday you try to join the Zoom test meeting at <a href="https://zoom.us/test">https://zoom.us/test</a> on the device that you intend to use, in order to check that your system works OK. You will not require a Zoom account to take part.</p>
+        <p><strong>Past Meetings</strong></p>
+        <p>Videos of previous meetings can be found in our links to past meetings at <a href="https://www.wrocc.org.uk/meetings">https://www.wrocc.org.uk/meetings</a> or see our YouTube channel: <a href="https://www.youtube.com/@wrocc-riscos">https://www.youtube.com/@wrocc-riscos</a></p>
+        <p><strong><span class="caps">WROCC</span> Membership</strong></p>
+        <p>Annual membership of <span class="caps">WROCC</span> is available for those living near and far at<br />
+        10.00ukp per year.</p>
+        <p>Members receive:</p>
+        <ul>
+        	<li>A <span class="caps">PDF</span> newsletter with all the latest news and articles.</li>
+        </ul>
+        <ul>
+        	<li>Entry to meetings.</li>
+        </ul>
+        <ul>
+        	<li>Access to the <span class="caps">WROCC</span> Internet Discussion List.</li>
+        </ul>
+        <p>For further information, please email <a href="mailto:info2026@wrocc.org.uk">info2026@wrocc.org.uk</a> or visit the Club&#8217;s website at <a href="https://www.wrocc.org.uk/">https://www.wrocc.org.uk/</a></p>]]>
+      </description>
+      <source:markdown>**WAKEFIELDRISC OS COMPUTERCLUB**
+
+**Meeting on Wednesday 1st July at 7.45pm**
+
+# Steve Revill from RISC OS Open    talking about LanManFS, BBCBASIC plus Moonshot News
+
+Steve Revill will be explaining why he has a soft spot for BBCBASIC, discussing its history and potential future, as well as giving a brief
+
+overview of where ROOL currently stands with its Moonshot fundraising and planning. He will also give an overview of the motivations behind the LanManFS updates and the progress made during the alpha testing phase.
+
+This ‘virtual’ meeting is open to all, and will take place using the Zoom conferencing service using our regular meeting credentials. Zoom invitations will be sent out ahead of the meeting, but only to those who email [info2026@wrocc.org.uk](mailto:info2026@wrocc.org.uk) to request one. If you would like to be part of the meeting (and don’t already have the link from a previous meeting or receive an invite in the next 24 hours as a member of WROCC), please RSVP — at the latest by the end of Tuesday 30th June (GMT). We email the links out on the morning of the meeting.
+
+If you haven’t used Zoom before, we suggest that before Wednesday you try to join the Zoom test meeting at [https://zoom.us/test](https://zoom.us/test) on the device that you intend to use, in order to check that your system works OK. You will not require a Zoom account to take part.
+
+**Past Meetings**
+
+Videos of previous meetings can be found in our links to past meetings at [https://www.wrocc.org.uk/meetings](https://www.wrocc.org.uk/meetings) or see our YouTube channel: [https://www.youtube.com/@wrocc-riscos](https://www.youtube.com/@wrocc-riscos)
+
+**WROCC Membership**
+
+Annual membership of WROCC is available for those living near and far at
+
+10.00ukp per year.
+
+Members receive:
+
+- A PDF newsletter with all the latest news and articles.
+
+- Entry to meetings.
+
+- Access to the WROCC Internet Discussion List.
+
+For further information, please email [info2026@wrocc.org.uk](mailto:info2026@wrocc.org.uk) or visit the Club’s website at [https://www.wrocc.org.uk/](https://www.wrocc.org.uk/)</source:markdown>
+      <guid>cid://www.riscosopen.org:1:20459:164684</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/colinhoad.com/post/3mp6t7lccrc25</link>
+      <description>
+        <![CDATA[New highlights reel just dropped]]>
+      </description>
+      <source:markdown>New highlights reel just dropped</source:markdown>
+      <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mp6t7lccrc25</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/iconbar.com/post/3mp6rgubkrs2x</link>
+      <description>
+        <![CDATA[June 2026 News Summary 
+        
+        https://www.iconbar.com/articles/June_2026_News_Summary/index2339.html 
+        
+        Some things we noticed this month. What did you see?]]>
+      </description>
+      <source:markdown>June 2026 News Summary
+
+https://www.iconbar.com/articles/June\_2026\_News\_Summary/index2339.html
+
+Some things we noticed this month. What did you see?</source:markdown>
+      <guid>cid://at://did:plc:gu36an7j4b2ck74blgn5eox6/app.bsky.feed.post/3mp6rgubkrs2x</guid>
+    </item>    <item>
+      <title>June 2026 News Summary</title>
+      <link>http://www.iconbar.com/comments/rss/news2339.html</link>
+      <description>
+        <![CDATA[Some things we noticed this month. What did you see?]]>
+      </description>
+      <source:markdown>Some things we noticed this month. What did you see?</source:markdown>
+      <guid>cid://http://www.iconbar.com/comments/rss/news2339.html</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mp4rq2goas2w</link>
       <description>
         <![CDATA[This article is absolute bunkum, and a classic of the "what AI might bring about" genre. It is littered with "coulds" and "mights", not to mention conflating classic ML-style algorithmic advances ("good" AI) with the generative slop. And the prescriptions are utterly hollow, four "suggestions" that
@@ -121,6 +310,14 @@ If the type of the ourpur file is the same as that of the input file then “mag
 I’ve tried doing this on a Windows machine (RISC OS is too slow!) and can confirm that the .cbz file is smaller than the PDF file — but oddly both were bigger than the original.</source:markdown>
       <guid>cid://www.riscosopen.org:11:20437:164665</guid>
     </item>    <item>
+      <title>Merlin OS - First boot into Multicore VDU demo</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20458</link>
+      <description>
+        <![CDATA[<p>This sure is great progress, and nice to see a visual demo :)  Doubly so at a time when you&#8217;re so busy, Paolo &#8211; kudos for getting this out.</p>]]>
+      </description>
+      <source:markdown>This sure is great progress, and nice to see a visual demo :) Doubly so at a time when you’re so busy, Paolo – kudos for getting this out.</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20458:164663</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mozm2dvlds2t</link>
       <description>
         <![CDATA[Love these news headlines describing the UK as "bracing itself" for heatwave. Because tying yourself to the spot is of course the best way to survive high temperatures.]]>
@@ -136,77 +333,6 @@ I’ve tried doing this on a Windows machine (RISC OS is too slow!) and can conf
       <source:markdown>&#34;Stop it Xiaomi, they&#39;re already dead.&#34;
 https://youtu.be/4w6sda9-6pE?si=l7tikPeEDrx8nXqn</source:markdown>
       <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3moyfkg47dc2k</guid>
-    </item>    <item>
-      <title>Merlin OS - First boot into Multicore VDU demo</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/20458</link>
-      <description>
-        <![CDATA[<p>As I have mentioned many times, Merlin is not a <span class="caps">RISC</span> OS clone, but it does offer a <span class="caps">RISC</span> OS personality that allows it to run <span class="caps">RISC</span> OS modules and applications.</p>
-        <p><span class="caps">RISC</span> OS 5 <span class="caps">ROM</span> modules can run natively on AArch32 (and basically create an actual <span class="caps">RISC</span> OS), or under emulation on AArch64, <span class="caps">RISC</span>-V, <span class="caps">PPC</span>, <span class="caps">MIPS</span> and <span class="caps">SPARC</span>. Older <span class="caps">RISC</span> OS <span class="caps">ROM</span> modules always run under emulation on all architectures.</p>
-        <p>Anyway, I had a bit of time to record one of the full-system tests, from booting to running a graphics demo, so it might be of interest here. The demo shows a full reimplementation of the <span class="caps">RISC</span> OS <span class="caps">VDU</span> driver, memory management, system boot designed for multi-core systems (included many cores).</p>
-        <p>Detailed video with debug infrastructure demo:</p>
-        <p><a href="https://www.youtube.com/watch?v=rwhkm5-qioM">https://www.youtube.com/watch?v=rwhkm5-qioM</a></p>
-        <p>&#8220;Performance&#8221; video, basicaly the save as above, but compiler for `&#8212;release` so day and night faster:</p>
-        <p><a href="https://youtu.be/d9jehsEAf7w">https://youtu.be/d9jehsEAf7w</a></p>
-        <p>Merlin is being designed to be:<br />
-        - fully multi-core<br />
-        - memory safe<br />
-        - offer full memory protection<br />
-        - preemptive scheduling<br />
-        - Support different OS design paradigms: Monolithic, Monolithic Modular, Hybrid and full microkernel<br />
-        - Merlin does hardware bring up<br />
-        - is built as a <span class="caps">ROM</span> image (albeit size is not restricted to 4 or 8MB)<br />
-        - primarily designed for <span class="caps">ARM</span> <span class="caps">CPU</span> from ARMv4T all the way (and included) ARMv9 as well as <span class="caps">RISC</span>-V, <span class="caps">MIPS</span>, <span class="caps">PPC</span>, <span class="caps">SPARC</span> and obviously (albeit reluctantly lol) for x86 and x86_64<br />
-        - Merlin can be built wiht and without <span class="caps">MMU</span> support so works also on microcontrollers, IoT and embedded systems<br />
-        - Primarily designed for low-latency and personal desktop, mobile and embedded markets<br />
-        - is being ported to APple SIlicon too (when I have a day where I feel crazy enough!)<br />
-        - Support full <span class="caps">GPU</span> acelleration<br />
-        - Be trully Open Source, aka no proprietary or in other ways owned/controlled build environments or dependecies</p>
-        <p>And of course, a few of you have been already testing Merlin ShareFS protocol usign ShareFSServer.</p>]]>
-      </description>
-      <source:markdown>As I have mentioned many times, Merlin is not a RISC OS clone, but it does offer a RISC OS personality that allows it to run RISC OS modules and applications.
-
-RISC OS 5 ROM modules can run natively on AArch32 (and basically create an actual RISC OS), or under emulation on AArch64, RISC-V, PPC, MIPS and SPARC. Older RISC OS ROM modules always run under emulation on all architectures.
-
-Anyway, I had a bit of time to record one of the full-system tests, from booting to running a graphics demo, so it might be of interest here. The demo shows a full reimplementation of the RISC OS VDU driver, memory management, system boot designed for multi-core systems (included many cores).
-
-Detailed video with debug infrastructure demo:
-
-[https://www.youtube.com/watch?v=rwhkm5-qioM](https://www.youtube.com/watch?v=rwhkm5-qioM)
-
-“Performance” video, basicaly the save as above, but compiler for \`—release\` so day and night faster:
-
-[https://youtu.be/d9jehsEAf7w](https://youtu.be/d9jehsEAf7w)
-
-Merlin is being designed to be:
-
-\- fully multi-core
-
-\- memory safe
-
-\- offer full memory protection
-
-\- preemptive scheduling
-
-\- Support different OS design paradigms: Monolithic, Monolithic Modular, Hybrid and full microkernel
-
-\- Merlin does hardware bring up
-
-\- is built as a ROM image (albeit size is not restricted to 4 or 8MB)
-
-\- primarily designed for ARMCPU from ARMv4T all the way (and included) ARMv9 as well as RISC-V, MIPS, PPC, SPARC and obviously (albeit reluctantly lol) for x86 and x86\_64
-
-\- Merlin can be built wiht and without MMU support so works also on microcontrollers, IoT and embedded systems
-
-\- Primarily designed for low-latency and personal desktop, mobile and embedded markets
-
-\- is being ported to APple SIlicon too (when I have a day where I feel crazy enough!)
-
-\- Support full GPU acelleration
-
-\- Be trully Open Source, aka no proprietary or in other ways owned/controlled build environments or dependecies
-
-And of course, a few of you have been already testing Merlin ShareFS protocol usign ShareFSServer.</source:markdown>
-      <guid>cid://www.riscosopen.org:13:20458:164659</guid>
     </item>    <item>
       <link>https://bsky.app/profile/paolofabiozaino.bsky.social/post/3moy64e2vck2p</link>
       <description>
