@@ -7,10 +7,79 @@
       RISC OS News from around the web
     </description>
     <link>https://left-coast-risc-os-computer-club.github.io/riscos.xml</link>
-    <lastBuildDate>26 Jun 26 12:00 -0700</lastBuildDate>
+    <lastBuildDate>27 Jun 26 12:00 -0700</lastBuildDate>
     <generator>antenna/0.0.24</generator>
     <docs>https://cyber.harvard.edu/rss/rss.html</docs>
     <item>
+      <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mpbute66fs2f</link>
+      <description>
+        <![CDATA[I couldn't resist buying the updated 'OCEAN the history' ( Gold Edition ) with additional interviews and updates. I also went for the ''Extras' edition in the form of an extra booklet of Ocean titles and a nice fridge magnet. It's a shame it got a nasty 'dink' on the corner.]]>
+      </description>
+      <source:markdown>I couldn&#39;t resist buying the updated &#39;OCEAN the history&#39; ( Gold Edition ) with additional interviews and updates. I also went for the &#39;&#39;Extras&#39; edition in the form of an extra booklet of Ocean titles and a nice fridge magnet. It&#39;s a shame it got a nasty &#39;dink&#39; on the corner.</source:markdown>
+      <guid>cid://at://did:plc:io6owsze2yxsfsl2cd7znmik/app.bsky.feed.post/3mpbute66fs2f</guid>
+    </item>    <item>
+      <title>Am I missing something?</title>
+      <link>https://www.riscosopen.org/forum/forums/5/topics/20464</link>
+      <description>
+        <![CDATA[<p>I wanted to try out three browsers on my Pinebook Pro, namely:</p>
+        <ol>
+        	<li>Librewolf 152.0.2-1</li>
+        	<li>Brave 1.191.180</li>
+        	<li>Ungoogled Chromium 149.0.7827.196-1</li>
+        </ol>
+        <p>I failed for the same two reasons on all three, which suggests that I might be doing something wrong, or it is a problem with my OS, which is 6.7.9-1-<span class="caps">MANJARO</span>-<span class="caps">ARM</span> with <span class="caps">KDE</span> Plasma 5.27.10? The browsers all install OK, but when launched they open windows of an absurd size, which I am unable to resize, even by right-clicking the taskbar button and selecting more&#8594;resize. And when I try to import a bookmarks html file, which the initial page invites me to do, it appears that the file selector does not work.<br />
+        Things like window-resizing and file-selection are so fundamental that I wonder whether these applications might be using the wrong libraries.<br />
+        So I am sticking to Chrome and Firefox for the time being.</p>]]>
+      </description>
+      <source:markdown>I wanted to try out three browsers on my Pinebook Pro, namely:
+
+1. Librewolf 152.0.2-1
+2. Brave 1.191.180
+3. Ungoogled Chromium 149.0.7827.196-1
+
+I failed for the same two reasons on all three, which suggests that I might be doing something wrong, or it is a problem with my OS, which is 6.7.9-1-MANJARO-ARM with KDE Plasma 5.27.10? The browsers all install OK, but when launched they open windows of an absurd size, which I am unable to resize, even by right-clicking the taskbar button and selecting more→resize. And when I try to import a bookmarks html file, which the initial page invites me to do, it appears that the file selector does not work.
+
+Things like window-resizing and file-selection are so fundamental that I wonder whether these applications might be using the wrong libraries.
+
+So I am sticking to Chrome and Firefox for the time being.</source:markdown>
+      <guid>cid://www.riscosopen.org:5:20464:164700</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/nemo20000.bsky.social/post/3mpbnkd6t5c2t</link>
+      <description>
+        <![CDATA[By far the funniest moment is the sincerity of the professionals' celebration.
+        
+        [contains quote post or other embedded content]]]>
+      </description>
+      <source:markdown>By far the funniest moment is the sincerity of the professionals&#39; celebration.
+
+\[contains quote post or other embedded content\]</source:markdown>
+      <guid>cid://at://did:plc:iimd7g74rssohysfgvdvgkmn/app.bsky.feed.post/3mpbnkd6t5c2t</guid>
+    </item>    <item>
+      <link>https://bsky.app/profile/givvygavvygoo.bsky.social/post/3mpbbcwt5wc2c</link>
+      <description>
+        <![CDATA[@nemo20000.bsky.social  quick question WRT DeepKeys. Am I able to check for Logo keypress using OS_Byte 129?]]>
+      </description>
+      <source:markdown>@nemo20000.bsky.social quick question WRT DeepKeys. Am I able to check for Logo keypress using OS\_Byte 129?</source:markdown>
+      <guid>cid://at://did:plc:u6srdtx7nxcymlrozzxkj234/app.bsky.feed.post/3mpbbcwt5wc2c</guid>
+    </item>    <item>
+      <title>Using dynamically created sprite areas with Toolbox applications</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20462</link>
+      <description>
+        <![CDATA[<p>A few <span class="caps">RISC</span> OS components using the Toolbox (namely !PinSetup, !ThmeSetup and !TimeSetup) dynamically create sprites that are used in icons (e.g. for previews). This has a couple of limitations:</p>
+        <ul>
+        	<li>It can&#8217;t be resized to add more sprites or to increase the size or colour depth of existing ones.</li>
+        	<li>The empty sprite files take up space on the disc (roughly 250kb combined).</li>
+        </ul>
+        <p>However, the only way I can see to set the sprite area for a Toolbox application is for the toolbox_initialise() function to return a pointer to an area containing the Sprites file from the application directory, which is owned by the Toolbox module and can&#8217;t be resized directly. Is there an alternative way to create the sprite area dynamically at runtime?</p>]]>
+      </description>
+      <source:markdown>A few RISC OS components using the Toolbox (namely !PinSetup, !ThmeSetup and !TimeSetup) dynamically create sprites that are used in icons (e.g. for previews). This has a couple of limitations:
+
+- It can’t be resized to add more sprites or to increase the size or colour depth of existing ones.
+- The empty sprite files take up space on the disc (roughly 250kb combined).
+
+However, the only way I can see to set the sprite area for a Toolbox application is for the toolbox\_initialise() function to return a pointer to an area containing the Sprites file from the application directory, which is owned by the Toolbox module and can’t be resized directly. Is there an alternative way to create the sprite area dynamically at runtime?</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20462:164688</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/kevedwardsretro.bsky.social/post/3mp7gsl663k2o</link>
       <description>
         <![CDATA[My programming career started here...This is my A level Computer Studies workbook from 1983. My first commercial game was published in summer 1983 - Atomic Protector for the BBC Micro. Huge thanks to my amazing CS teacher, Pete Davidson. I owe him a pint or two.]]>
@@ -200,6 +269,14 @@ Some things we noticed this month. What did you see?</source:markdown>
       <source:markdown>Some things we noticed this month. What did you see?</source:markdown>
       <guid>cid://http://www.iconbar.com/comments/rss/news2339.html</guid>
     </item>    <item>
+      <title>Merlin OS - First boot into Multicore VDU demo</title>
+      <link>https://www.riscosopen.org/forum/forums/13/topics/20458</link>
+      <description>
+        <![CDATA[<p>Hmm &#8211; a Archimedes phone!!</p>]]>
+      </description>
+      <source:markdown>Hmm – a Archimedes phone!!</source:markdown>
+      <guid>cid://www.riscosopen.org:13:20458:164679</guid>
+    </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mp4rq2goas2w</link>
       <description>
         <![CDATA[This article is absolute bunkum, and a classic of the "what AI might bring about" genre. It is littered with "coulds" and "mights", not to mention conflating classic ML-style algorithmic advances ("good" AI) with the generative slop. And the prescriptions are utterly hollow, four "suggestions" that
@@ -210,6 +287,35 @@ Some things we noticed this month. What did you see?</source:markdown>
 
 \[contains quote post or other embedded content\]</source:markdown>
       <guid>cid://at://did:plc:fspcx32r4ektlhvhf6e7goh2/app.bsky.feed.post/3mp4rq2goas2w</guid>
+    </item>    <item>
+      <title>DeTox bounty?</title>
+      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
+      <description>
+        <![CDATA[<p>I found the details of Sprite file format files. But when I try to read them I keep getting results that don&#8217;t behave as I understand what was written! However I&#8217;m 99.999% sure this is my idiocy!</p>
+        <p>e.g. Look at:<br />
+        <a href="http://jcgl.orpheusweb.co.uk/temp/DeToxDirect">http://jcgl.orpheusweb.co.uk/temp/DeToxDirect</a></p>
+        <p>Its the initial &#8216;C&#8217; code I wrote to try and read + &#8216;report&#8217; the content of the sprite file.</p>
+        <p>According to what I&#8217;ve read it <strong>should</strong> have a 44 byte header that gives the details of what follows. (In this case a file with just <strong>one</strong> bitmap image in &#8216;32&#8217; format)</p>
+        <p>But I can&#8217;t see the claimed values. e.g. I know the sprite file size and <span class="caps">IIUC</span> the sprit mrgb data is then in what comes after the first 44 bytes. e.g. emongst the values should be the width-1 and height-1 (essentially in pixels) of the image.</p>
+        <p>If I can read this correctly I&#8217;ll know the number of pixels and that I can read all of what follows for the analysis and then tweaking into being detoxed. But none of the values make sense, and I&#8217;m clearly not using (unsigned int) correctly. So can&#8217;t read the data that follows or know when to end this &#8211; without crashing into trying to read beyond the end of the file!</p>
+        <p>Also re-finding things in the <span class="caps">PRM</span> is for me a <span class="caps">PITA</span>. Afraid I&#8217;ve forgotten too much as I&#8217;ve been occupied for too long with other demands and never was much of a programmer anyway.</p>]]>
+      </description>
+      <source:markdown>I found the details of Sprite file format files. But when I try to read them I keep getting results that don’t behave as I understand what was written! However I’m 99.999% sure this is my idiocy!
+
+e.g. Look at:
+
+[http://jcgl.orpheusweb.co.uk/temp/DeToxDirect](http://jcgl.orpheusweb.co.uk/temp/DeToxDirect)
+
+Its the initial ‘C’ code I wrote to try and read + ‘report’ the content of the sprite file.
+
+According to what I’ve read it **should** have a 44 byte header that gives the details of what follows. (In this case a file with just **one** bitmap image in ‘32’ format)
+
+But I can’t see the claimed values. e.g. I know the sprite file size and IIUC the sprit mrgb data is then in what comes after the first 44 bytes. e.g. emongst the values should be the width-1 and height-1 (essentially in pixels) of the image.
+
+If I can read this correctly I’ll know the number of pixels and that I can read all of what follows for the analysis and then tweaking into being detoxed. But none of the values make sense, and I’m clearly not using (unsigned int) correctly. So can’t read the data that follows or know when to end this – without crashing into trying to read beyond the end of the file!
+
+Also re-finding things in the PRM is for me a PITA. Afraid I’ve forgotten too much as I’ve been occupied for too long with other demands and never was much of a programmer anyway.</source:markdown>
+      <guid>cid://www.riscosopen.org:11:20437:164676</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mp4lhgsd7s2w</link>
       <description>
@@ -290,33 +396,6 @@ youtu.be/d9jehsEAf7w
 #Kernel #RISCOS #OperatingSystem
 https://youtu.be/d9jehsEAf7w</source:markdown>
       <guid>cid://at://did:plc:rkxyi6vbupvkgetuir5ljywn/app.bsky.feed.post/3mp2a24c7rc2c</guid>
-    </item>    <item>
-      <title>DeTox bounty?</title>
-      <link>https://www.riscosopen.org/forum/forums/11/topics/20437</link>
-      <description>
-        <![CDATA[<p>Back to !DeBrown again:</p>
-        <blockquote>
-        <p>So is it possible to have the individual 1-page jpegs be delected once eacn one gets the accompanying output pdf of that page? This should mean I can try out the big issues with many pages.</p>
-        </blockquote>
-        <p>If the type of the ourpur file is the same as that of the input file then &#8220;magick mogrify&#8221; (or just &#8220;mogrify&#8221; if it&#8217;s an earlier version of ImageMagick) changes the image file in place, i.e.if using <span class="caps">JPEG</span> files no new files are created. You still need to create either a &#8220;comic book file&#8221; (a .zip file with the extension changed to &#8220;.cbz&#8221;) or a <span class="caps">PDF</span> file to be able to read the result on an Android tablet &amp;mdash Moon Reader which I believe you mentioned is happy with either.</p>
-        <p>I&#8217;ve tried doing this on a Windows machine (<span class="caps">RISC</span> OS is too slow!) and can confirm that the .cbz file is smaller than the <span class="caps">PDF</span> file &mdash; but oddly both were bigger than the original.</p>]]>
-      </description>
-      <source:markdown>Back to !DeBrown again:
-
-&#62; So is it possible to have the individual 1-page jpegs be delected once eacn one gets the accompanying output pdf of that page? This should mean I can try out the big issues with many pages.
-
-If the type of the ourpur file is the same as that of the input file then “magick mogrify” (or just “mogrify” if it’s an earlier version of ImageMagick) changes the image file in place, i.e.if using JPEG files no new files are created. You still need to create either a “comic book file” (a .zip file with the extension changed to “.cbz”) or a PDF file to be able to read the result on an Android tablet &#38;mdash Moon Reader which I believe you mentioned is happy with either.
-
-I’ve tried doing this on a Windows machine (RISC OS is too slow!) and can confirm that the .cbz file is smaller than the PDF file — but oddly both were bigger than the original.</source:markdown>
-      <guid>cid://www.riscosopen.org:11:20437:164665</guid>
-    </item>    <item>
-      <title>Merlin OS - First boot into Multicore VDU demo</title>
-      <link>https://www.riscosopen.org/forum/forums/13/topics/20458</link>
-      <description>
-        <![CDATA[<p>This sure is great progress, and nice to see a visual demo :)  Doubly so at a time when you&#8217;re so busy, Paolo &#8211; kudos for getting this out.</p>]]>
-      </description>
-      <source:markdown>This sure is great progress, and nice to see a visual demo :) Doubly so at a time when you’re so busy, Paolo – kudos for getting this out.</source:markdown>
-      <guid>cid://www.riscosopen.org:13:20458:164663</guid>
     </item>    <item>
       <link>https://bsky.app/profile/colinhoad.com/post/3mozm2dvlds2t</link>
       <description>
